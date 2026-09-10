@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -62,6 +62,8 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
     For more information, see [Create Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-cont-arrange-form.md).
 
+    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
+
 9.  Select **Save**.
 
     Before saving a contractual arrangement record, the system checks for duplicate records. A duplicate is detected when an existing record matches on the combination of the following 8 key fields:
@@ -79,6 +81,10 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
     If a duplicate is detected, the save is blocked and the following error message is displayed: `A duplicate contractual arrangement (Sys ID: {id}) already exists for this service provider. Check for overlaps in function, service type, or country before saving.`
 
     **Note:** When you update an existing record without changing the key fields, the duplicate check excludes the current record, so the save is not incorrectly blocked as a self-duplicate.
+
+    Every contractual arrangement with specific information must have at least one rank 1 ICT service supply chain record. The system enforces this requirement, including for records created through data migration.
+
+    The system also checks referential integrity between related DORA reporting sheets, for example, between template B\_05.02 and template B\_07.01. A record with no matching entry in the related sheet is an orphaned record. Saving an orphaned record fails validation with an error.
 
 10. To view contracts for a legal entity, go to the legal entity's record, open the **Legal Entities** tab, and navigate to the Contracts related list.
 

@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -105,6 +105,21 @@ Integrate your ServiceNow instance with your local Kafka environment with [Direc
 
 With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
 
+## Stream Producer
+
+Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer.
+
+Stream Producer provides a configuration-based alternative to writing scripts or business rules for exporting data. It uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on the tables you select. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
+
+Stream Producer has the following benefits.
+
+-   Eliminate dependency on business rules and custom scripts for data export.
+-   Reduce performance impact on the ServiceNow instance.
+-   Set it up once and automatically keep external data in sync.
+-   Streamline complex data integration workflows.
+
+For details see [Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md).
+
 ## Stream Connect alerting
 
 Receive alerts and alert notifications for Stream Connect integrations. Stream Connect uses both active and scheduled monitoring to detect events across multiple components. If an issue is detected, the system creates an alert, logs a message to the Stream Connect Log, and sends out an alert notification. For details, see [Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md).
@@ -125,7 +140,7 @@ When you [Configure an Extract Transform Load \(ETL\) consumer](https://raw.gith
 
 ## ProducerV2 API
 
-Publish events to a Kafka topic with the ProducerV2 API.
+Publish events to a Kafka topic with the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
 
 ## Stream Connect Message Replication
 
@@ -206,6 +221,8 @@ The related TSOM product capabilities process the event data, quickly and effici
         **Note:** The above code is a partial, representative example focused on ingesting and parsing the message data to populate table records. It's intended to be helpful in guiding an implementation.
 
 
+-   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-producer.md)**  
+Stream Producer enables you to automatically stream changes from ServiceNow tables to Kafka topics using change data capture \(CDC\), eliminating the need for custom scripts or business rules.
 -   **[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)**  
 Replicate data between your Apache Kafka environment and ServiceNow.
 -   **[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md)**  

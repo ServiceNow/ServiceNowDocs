@@ -1,9 +1,9 @@
 ---
 title: Next Experience release notes
-description: The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Australia release.
+description: The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Australia release.The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Australia release.The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Australia release.The ServiceNow Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform. Next Experience was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,14 +12,67 @@ reading_time_minutes: 3
 
 The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. Next Experience was enhanced and updated in the Australia release.
 
-## Next Experience highlights for the Australia release
+## About Next Experience
 
 -   Manage the visibility of page alerts with a new accessibility user preference.
 -   Explore a modernized Coral theme with better contrast, rounded UI elements, improved dark mode, and AI-focused enhancements.
 
 See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Australia release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
+
+    Theme Builder comes with the Next Experience and is active by default.
+
+-   **Browser requirements**
+
+    The Australia release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **[Enable auto-focus on page alerts new accessibility preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)**
+
+        When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
+
+    -   **[Learn about accessibility preferences with a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
+
+        Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
+
+
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. Next Experience was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## June 2026
+
+The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. Next Experience was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[In-Product Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/in-product-surveys-overview.md)**
+
+    Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
+
+
+## Australia
+
+The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. Next Experience was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Enable auto-focus on page alerts new accessibility preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)**
 
@@ -30,12 +83,7 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     Create and edit application menus and modules directly from the Next Experience UI. Admins can configure Record, List, Dashboard, and Custom page modules from a centralized, platform-native interface.
 
 
--   **[In-Product Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/in-product-surveys-overview.md)**
-
-    Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
-
-
-## UI changes
+### What's changed
 
 -   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**
 
@@ -51,37 +99,7 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     The Works with ServiceNow badge now appears in the user menu for custom-branded accounts. This applies to web and mobile experiences with Next Experience or Core UI enabled. All other branding and theme settings remain unchanged. This update applies automatically.
 
 
-## Changed in the Australia release
-
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-
-## Deprecated features
+### What's deprecated or removed
 
 Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
-
-## Activation information
-
-Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Australia release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
-
-Theme Builder comes with the Next Experience and is active by default.
-
-## Browser requirements
-
-The Australia release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
-
-## Accessibility information
-
--   **[Enable auto-focus on page alerts new accessibility preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)**
-
-    When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
-
--   **[Learn about accessibility preferences with a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
-
-    Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
-
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

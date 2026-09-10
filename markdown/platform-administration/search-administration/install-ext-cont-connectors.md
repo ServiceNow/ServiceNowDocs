@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-08-31"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -53,9 +53,13 @@ Your instance needs inbound mTLS support to run external content connector crawl
 
 3.  Select **Install**.
 
-4.  If you want to use the ServiceNow product documentation external content connector, repeat steps [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-ext-cont-connectors.md) and [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-ext-cont-connectors.md) to find and install the External Content Connectors SN Docs \(sn\_ext\_conn\_sndocs\) application.
+4.  If you want to use the ServiceNow product documentation external content connector, repeat the preceding steps to find and install the External Content Connectors SN Docs \(sn\_ext\_conn\_sndocs\) application.
 
-5.  If you want to use the Webcrawler external content connector, repeat steps [2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-ext-cont-connectors.md) and [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/install-ext-cont-connectors.md) to find and install the External Content Connectors Web Crawler \(sn\_ext\_conn\_wc\) application.
+    See the [External Content Connectors SN Docs](https://store.servicenow.com/store/app/6269b0fc1b95a650ddfa16db234bcb89) application on the ServiceNow Store.
+
+5.  If you want to use the Webcrawler external content connector, repeat the preceding steps to find and install the External Content Connectors Web Crawler \(sn\_ext\_conn\_wc\) application.
+
+    See the [External Content Connectors Web Crawler](https://store.servicenow.com/store/app/5169bc781bd9a650396216db234bcb1b) application on the ServiceNow Store.
 
 
 ## What to do next

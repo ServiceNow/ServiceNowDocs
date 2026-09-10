@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 1
-breadcrumb: [Assign and manage alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Highlight alerts by condition in Express List

@@ -37,7 +37,7 @@ The following generative AI capabilities are available for an agent:
 -   Conversational subflows and actions in the ServiceNow Otto panel use natural language to trigger subflows or actions, improving agent productivity and task completion efficiency.
 
 -   The Portal case form guides requesters through a self-service flow using Genius Results, helping them find solutions and reducing the number of cases created.
--   Automated quality assurance dashboard displays detailed agent performance metrics and quality assurance scoring data, accessible from the CSM Configurable Workspace.
+-   Automated quality assurance dashboard displays detailed agent performance metrics and quality assurance scoring data, accessible from the CRM Workspace.
 -   Special handling notes summarization skill condenses lengthy or multiple special handling notes into a brief, actionable summary. Agents view the summary in the Case Insights section to understand customer-specific handling requirements before engaging.
 -   Customer summarization skill generates a concise, consolidated summary of a customer for the agent to understand the details before engaging.
 
@@ -141,7 +141,7 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
 
 -   **Automated quality assurance**
 
-    View detailed agent performance metrics and quality assurance scoring data on the automated quality assurance dashboard, accessible from the CSM Configurable Workspace
+    View detailed agent performance metrics and quality assurance scoring data on the automated quality assurance dashboard, accessible from the CRM Workspace
 
 -   **Special handling notes summarization**
 
@@ -152,9 +152,9 @@ The ServiceNow Otto for CSM application includes generative AI skills that enabl
     Use the Customer summarization skill for ServiceNow Otto for CSM to generate a concise, consolidated summary of a customer \(account or consumer\) rather than a single case. The skill synthesizes information across the customer's record. Agents can understand who the customer is and their current situation before engaging.
 
 
-## ServiceNow Otto panel in CSM Configurable Workspace
+## ServiceNow Otto panel in CRM Workspace
 
-An agent can use the panel in CSM Configurable Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the panel in CRM Workspace. This conversational interface enables an agent to request a chat summary or case summary and generate the case resolution notes. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## ServiceNow Otto in AI Search
 

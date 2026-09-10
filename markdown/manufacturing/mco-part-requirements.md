@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Generate a part requirement

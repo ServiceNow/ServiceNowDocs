@@ -66,7 +66,7 @@ Role required: sn\_sec\_tisc.admin
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Generate a Case Report using generative AI]()
 

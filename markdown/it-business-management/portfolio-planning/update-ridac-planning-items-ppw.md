@@ -37,11 +37,11 @@ RIDAC records created before the Portfolio Planning installation have an empty p
 
 4.  Set the time window variable to control which RIDAC records are included in the backfill:
 
-    1.  **3M** — Update RIDAC records created in the last 6 months
+    1.  **3M** — Update RIDAC records created or updated in the last 3 months
 
-    2.  **6M** — Update RIDAC records created in the last 6 months
+    2.  **6M** — Update RIDAC records created or updated in the last 6 months
 
-    3.  **1 year** — Update RIDAC records created in the last 12 months
+    3.  **1 year** — Update RIDAC records created or updated in the last 12 months
 
     4.  **Custom** — Specify a custom start date and time
 

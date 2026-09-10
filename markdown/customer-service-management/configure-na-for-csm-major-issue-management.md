@@ -1,5 +1,5 @@
 ---
-title: Configure ServiceNow Otto for CRM Major Issue Management
+title: Configure ServiceNow Otto for CSM Major Issue Management
 description: As an admin, you can customize Major Issue Management detection to match the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-na-for-csm-major-issue-management.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure ServiceNow Otto for CRM Major Issue Management
+# Configure ServiceNow Otto for CSM Major Issue Management
 
 As an admin, you can customize Major Issue Management detection to match the needs of your organization.
 

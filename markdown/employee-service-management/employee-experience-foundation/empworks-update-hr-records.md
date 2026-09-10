@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [update HR records, change address, emergency contact, SAP SuccessFactors]
-breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Moveworks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Update personal records with the AI assistant

@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Running Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Using activity stream within a playbook
@@ -34,5 +34,5 @@ You can see tabs for comments and work notes related to a parent or associated r
 
 You can view previous activity by scrolling down to the **Activity** section.
 
-**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

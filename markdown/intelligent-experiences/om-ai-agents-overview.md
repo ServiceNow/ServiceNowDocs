@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/om-ai-a
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [Order Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Order Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Order Management AI agents
@@ -27,5 +27,5 @@ This AI agent helps order-management agents investigate, understand, and update 
 -   **[Order exception AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/om-ord-order-exception-voice-ai-voice-agent.md)**  
 This AI voice agent helps customers request faster delivery of an order.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

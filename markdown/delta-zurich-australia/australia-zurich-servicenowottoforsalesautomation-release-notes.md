@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforsalesautomation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -225,7 +225,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -254,7 +257,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
+
 
 </td></tr><tr><td>
 

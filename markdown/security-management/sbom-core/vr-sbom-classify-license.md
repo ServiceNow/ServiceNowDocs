@@ -32,15 +32,15 @@ Role required: sn\_sbom\_response.managelicense
 
 3.  To classify licenses, choose one.
 
-<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d498311e96">
+<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d505338e96">
 
 Option
 
-</th><th align="left" id="d498311e99">
+</th><th align="left" id="d505338e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d498311e105">
+</th></tr></thead><tbody><tr><td id="d505338e105">
 
 **Bulk edit records or edit more than one record on the list.**
 
@@ -51,7 +51,7 @@ Description
 3.  Update the classification.
 
 
-</td></tr><tr><td id="d498311e126">
+</td></tr><tr><td id="d505338e126">
 
 **Edit and update the classification on the record.**
 

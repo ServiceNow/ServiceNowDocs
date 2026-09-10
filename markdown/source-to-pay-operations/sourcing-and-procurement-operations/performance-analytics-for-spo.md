@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -33,7 +33,7 @@ Visually analyze how your organization is placed strategically and operationally
 -   **[Procurement Team Performance Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-team-performance-dashboard.md)**  
 Visually analyze how your team is performing on sourcing requests, purchase requisitions, negotiated savings, and negotiation outcomes, over a given period of time, with the help of the Procurement Team Performance Dashboard.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -42,11 +42,15 @@ Visually analyze how your team is performing on sourcing requests, purchase requ
 
 [Shopping Hub Mobile]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 
@@ -58,7 +62,5 @@ Visually analyze how your team is performing on sourcing requests, purchase requ
 
 [Universal Request in Sourcing and Procurement Operations]()
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
-
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 

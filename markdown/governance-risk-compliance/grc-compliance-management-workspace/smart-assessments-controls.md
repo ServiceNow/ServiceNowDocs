@@ -67,7 +67,7 @@ You can select the option to attest controls using an assessment method. This as
 
 ## Impact of attestation method on control objective and control generation
 
-When the **Enable smart assessments on control** system property is set to true and the Control objective record has the value **Attestation** in the **Attestation method** field, then all the controls that are generated for this control objective record after attestation has values defaulted from the control objective. The **Attestation method** field value defaults to **Attestation**.
+When the **Enable smart assessments on control** system property is set to true and the Control objective record has the value **Attestation** in the **Attestation method** field, all controls generated for this control objective after attestation have values defaulted from the control objective. The **Attestation method** field value defaults to **Attestation**.
 
 **Note:** The old control objectives will have default assessment method as classic assessment. If you would like to explore smart assessment method, then you should make necessary changes to either the control objective or the control. The control can be updated only if it does not have any control objective. After you create a new record, you can either opt the classic attestation or attestation as your attestation method.
 

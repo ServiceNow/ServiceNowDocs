@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-alumnicenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -66,14 +66,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
-
-The revamped alumni home page is a central hub where former employees can update their details, manage preferences, and access personalized job recommendations. It also provides quick access to alumni services, news, resources, and tasks to stay connected and engaged.
-
-Alumni can maintain their employment history with legacy &amp; latest employment details.
-
-Alumni can view the existing job opportunities​ and also get personal job recommendation based on your job preferences.
 
 -   **[Alumni Self-registration](https://www.servicenow.com/docs/access?context=alumni-self-registration&family=zurich&ft:locale=en-US)**
 
@@ -146,10 +138,7 @@ Zurich
 
 </td><td>
 
-The following system properties are removed and the existing configured values are copied to the alumni common configuration UI.
-
--   Email property - sn\_asc.self\_registration.personal.email.domains
--   Deleted properties - sn\_asc.import.default.state, sn\_asc.import.user\_name.max.tries, sn\_asc.import.alumni.suffix
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -178,7 +167,8 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Email property - sn\_asc.self\_registration.personal.email.domains
+-   Deleted properties - sn\_asc.import.default.state, sn\_asc.import.user\_name.max.tries, sn\_asc.import.alumni.suffix
 
 </td></tr><tr><td>
 
@@ -207,7 +197,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

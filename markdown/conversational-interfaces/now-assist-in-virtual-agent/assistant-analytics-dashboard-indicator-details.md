@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-12-10"
-reading_time_minutes: 12
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -36,7 +36,7 @@ These indicators collect data at a daily frequency. Data is only available for d
 |-------------|--------------|--------------|----------------------|-----------|--------------------|-------------------------|----|---------|
 |Total Conversations by Assistant|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
 |Total Conversations by Channel|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
-|Result Types Offered|Now Assist in Virtual Agent Results returned|Automated|CI Analytics\[sys\_ci\_analytics\]|Count of Now Assist in Virtual Agent search results returned|By Now Assist in Virtual Agent Result Type, Assistant|Daily|\#|0|
+|Result Types Offered|ServiceNow Otto for Virtual Agent Results returned|Automated|CI Analytics\[sys\_ci\_analytics\]|Count of ServiceNow Otto for Virtual Agent search results returned|By ServiceNow Otto for Virtual Agent Result Type, Assistant|Daily|\#|0|
 |Conversation State Flow|Assistant Conversations|Automated|Conversation\[sys\_cs\_conversation\]|Count of conversations in each of conversation states: Open, Canceled, Faulted, Completed.|By Context Profiles, Conversation Channels, Conversation State, Assistant|Daily|\#|0|
 
 ## Adoption and Engagement page indicator details
@@ -901,35 +901,4 @@ Daily
 |Executions per Assistant|AI-Assisted Actions in Conversations|Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of Gen AI log actions by assistant|By Conversation Channels, Assistant|Daily|\#|0|
 |Trending sum of all Assists|Conversation Assist Usage Volume|Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Sum of Gen AI log assists|By By Generative AI Feature, Conversation Channels, Assistant|Daily|\#|0|
 |Top 10 Most Used AI Features|Generative AI Usage Log|Pivot Table|Generative AI Usage Log \[sys\_gen\_ai\_usage\_log\]|None|None|Daily|\#|0|
-
-## Voice page indicator details
-
-|Visualization|Indicator name|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
-|-------------|--------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Percent voice conversations deflected|None|None|None|Percentage of voice conversations where Resolved = Yes|None|Daily|%|1|
-|Total deflected conversations over time|Now Assist Analytics Assistant Ims|Automated|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|Count of voice conversations where Resolved = Yes| |Daily|\#|0|
-|Total conversations|Now Assist Analytics Assistant Ims|Automated|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|Count of conversations where Assistant Type = Voice| |Daily|\#|0|
-|Total conversations over time|Now Assist Analytics Assistant Ims|Automated|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|Count of all voice calls|None|Daily|\#|0|
-|AI Voice Agents in use|Now Assist Analytics Insights|Automated|Now Assist Analytics Insights \[sn\_na\_analytics\_insights\]|Count of AI agents where Assistant Type = Voice|None|Daily|\#|0|
-|AI Voice Agents in use over time|Now Assist Analytics Insights|Automated|Now Assist Analytics Insights \[sn\_na\_analytics\_insights\]|Count of AI agents where Assistant Type = Voice|None|Daily|\#|0|
-|Conversations transferred to a live agent|Now Assist Analytics Assistant Ims|Automated|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|Count of voice calls where Agent chat=true|None|Daily|\#|0|
-|Number of tickets created|Now Assist Analytics Ims Related Record|Automated|Now Assist Analytics Ims Related Record \[sn\_na\_analytics\_conv\_ims\_related\_record\]|Count of Interaction Related Records where Agent chat = false and Interaction Virtual agent = true and Interaction Type = Phone and Interaction AI Voice = true|None|Daily|\#|0|
-|Conversations disconnected|Now Assist Analytics Assistant Ims|Automated|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|Count of voice calls where State=Closed Abandoned|None|Daily|\#|0|
-|Immediate live agent transfers|None|None|Single score|Count of conversations where live agent transfer = yes and call duration &lt; 30 secs|None|Daily|\#|0|
-|Inferred customer satisfaction \(CSAT\): average score \(out of 5\)|Now Assist Analytics Insights|sn\_na\_analytics\_insights table|Now Assist Analytics Insights \[sn\_na\_analytics\_insights\]|Average of session CSAT|None|Daily|\#|2|
-|Average voice conversation duration|Now Assist Analytics Assistant Ims|Formula|Now Assist Analytics Assistant Ims \[sn\_na\_analytics\_conv\_ims\]|\[\[AI Agent- Summed duration of calls\]\] / \[\[AI Agents- Total Calls\]\]|None|Daily|Minutes|0|
-| |Response Time|
-|50th percentile response time|None|None|Single score|Response time in seconds where 50% responses are completed|None|Daily|Seconds|1|
-|90th percentile response time|None|None|Single score|Response time in seconds where 90% responses are completed|None|Daily|Seconds|1|
-|99th percentile response time|None|None|Single score|Response time in seconds where 99% responses are completed|None|Daily|Seconds|1|
-| |Tool Insights \(Executions by tool type\)|
-|Scripts|Now Assist Analytics Tool Execution|Automated|Now Assist Analytics Tool Execution \[sn\_na\_analytics\_tool\_execution\]|Count of tool executions where Assistant Type = Voice and Tool Type = Script|None|Daily|\#|0|
-|Flow actions|Now Assist Analytics Tool Execution|Automated|Now Assist Analytics Tool Execution \[sn\_na\_analytics\_tool\_execution\]|Count of tool executions where Assistant Type = Voice and Tool Type = Flow action|None|Daily|\#|0|
-|Subflows|Now Assist Analytics Tool Execution|Automated|Now Assist Analytics Tool Execution \[sn\_na\_analytics\_tool\_execution\]|Count of tool executions where Assistant Type = Voice and Tool Type = Subflow|None|Daily|\#|0|
-|RAG-based search|Now Assist Analytics Tool Execution|Automated|Now Assist Analytics Tool Execution \[sn\_na\_analytics\_tool\_execution\]|Count of tool executions where Assistant Type = Voice and Tool Type = Search Retriever|None|Daily|\#|0|
-|50th percentile response time|None|None|Single score|Tool execution time in seconds where 50% executions are completed|None|Daily|Seconds|1|
-|90th percentile response time|None|None|Single score|Tool execution time in seconds where 90% executions are completed|None|Daily|Seconds|1|
-|99th percentile response time|None|None|Single score|Tool execution time in seconds where 99% executions are completed|None|Daily|Seconds|1|
-|Use of AI agents|
-|Voice AI agent summary|Agent Conversations|Automated|Now Assist Analytics Insights \[sn\_na\_analytics\_insights\]|Count of agents where Assistant Type = Voice and Resolved in \(Yes, No\)\)|None|Daily|\#|0|
 

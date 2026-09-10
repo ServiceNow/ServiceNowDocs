@@ -68,60 +68,6 @@ The following attributes in the Handheld Computing Device \[cmdb\_ci\_handheld\_
 |Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]|Reference|SG-Intune Device Related \[sn\_intune\_integrat\_device\_related\]|
 |Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]|Reference|Software Installation \[cmdb\_sam\_sw\_install\]|
 
-## Software Installation \[cmdb\_sam\_sw\_install\]
-
-The following attributes in the Software Installation \[cmdb\_sam\_sw\_install\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Display name|display\_name|
-|Version|version|
-|Discovery source|discovery\_source|
-|Publisher|publisher|
-|Installed on|installed\_on|
-
-**Note:** The Publisher attribute is populated by the SG-Intune Software Reports data source only.
-
-<table id="table_xqs_1hv_qwb"><thead><tr><th>
-
-Parent class
-
-</th><th>
-
-Relationship type
-
-</th><th>
-
-Child class
-
-</th></tr></thead><tbody><tr><td>
-
-Software Installation \[cmdb\_sam\_sw\_install\]
-
-</td><td>
-
-Reference
-
-</td><td>
-
-Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]Computer \[cmdb\_ci\_computer\]
-
-</td></tr></tbody>
-</table>## Network Adapter \[cmdb\_ci\_network\_adapter\]
-
-The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|MAC Address|mac\_address|
-|Name|name|
-|Configuration Item|cmdb\_ci|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Computer \[cmdb\_ci\_computer\]|
-
 ## IP Address \[cmdb\_ci\_ip\_address\]
 
 The following attributes in the IP Address \[cmdb\_ci\_ip\_address\] table are populated by collected data:
@@ -137,6 +83,21 @@ The following attributes in the IP Address \[cmdb\_ci\_ip\_address\] table are p
 |------------|-----------------|-----------|
 |IP Address \[cmdb\_ci\_ip\_address\]|Reference|Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]|
 |IP Address \[cmdb\_ci\_ip\_address\]|Reference|Computer \[cmdb\_ci\_computer\]|
+
+## Network Adapter \[cmdb\_ci\_network\_adapter\]
+
+The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|MAC Address|mac\_address|
+|Name|name|
+|Configuration Item|cmdb\_ci|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Computer \[cmdb\_ci\_computer\]|
 
 ## Serial Number \[cmdb\_serial\_number\]
 
@@ -208,7 +169,46 @@ The following attributes in the Software \[cmdb\_ci\_spkg\] table are populated 
 |------------|-----------------|-----------|
 |Software \[cmdb\_ci\_spkg\]|Reference|Software Instance \[cmdb\_software\_instance\]|
 
-## Software Instance \[cmdb\_software\_instance\]
+## Software Installation \[cmdb\_sam\_sw\_install\]
+
+The following attributes in the Software Installation \[cmdb\_sam\_sw\_install\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Display name|display\_name|
+|Version|version|
+|Discovery source|discovery\_source|
+|Publisher|publisher|
+|Installed on|installed\_on|
+
+**Note:** The Publisher attribute is populated by the SG-Intune Software Reports data source only.
+
+<table id="table_xqs_1hv_qwb"><thead><tr><th>
+
+Parent class
+
+</th><th>
+
+Relationship type
+
+</th><th>
+
+Child class
+
+</th></tr></thead><tbody><tr><td>
+
+Software Installation \[cmdb\_sam\_sw\_install\]
+
+</td><td>
+
+Reference
+
+</td><td>
+
+Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]Computer \[cmdb\_ci\_computer\]
+
+</td></tr></tbody>
+</table>## Software Instance \[cmdb\_software\_instance\]
 
 The following attributes in the Software Instance \[cmdb\_software\_instance\] table are populated by collected data:
 

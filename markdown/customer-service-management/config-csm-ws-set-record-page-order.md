@@ -1,18 +1,18 @@
 ---
 title: Set record page order
-description: Set the order value of a record page to determine the default page for displaying records in CSM Configurable Workspace.
+description: Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-set-record-page-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set record page order
 
-Set the order value of a record page to determine the default page for displaying records in CSM Configurable Workspace.
+Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
 
 ## Before you begin
 
@@ -67,5 +67,5 @@ To use a different page as the default page, you need to manually switch from th
 **Related topics**  
 
 
-[CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
 

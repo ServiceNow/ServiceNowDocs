@@ -25,8 +25,6 @@ Catalog governance tools include:
 
 -   **[Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-asset.md)**  
 Edit catalog asset metadata to add business context, improve discoverability, and provide additional information.
--   **[Create a glossary term](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-glossary-term.md)**  
-Create glossary terms to define business concepts and provide context for data assets.
 -   **[Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md)**  
 Create tags that can be applied to data assets for classification and categorization.
 -   **[Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md)**  

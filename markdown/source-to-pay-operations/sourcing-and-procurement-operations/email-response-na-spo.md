@@ -98,3 +98,7 @@ An AI-generated email response is sent to the requester.
 
 [Analyze sentiment in procurement cases]()
 
+[AI L1 SPO Service Desk Specialist]()
+
+[Generate a knowledge article]()
+

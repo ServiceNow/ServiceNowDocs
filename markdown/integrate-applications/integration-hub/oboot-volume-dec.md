@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Boot Volume v1.0.6 is the latest version.
+Oracle Boot Volume v1.0.6 is the latest version. For version history of the spoke, see [Oracle Boot Volume spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-boot-volume.html).
 
 ## Supported versions
 

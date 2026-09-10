@@ -1,6 +1,6 @@
 ---
 title: Agentic conversations in Virtual Agent
-description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
+description: When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: australia
@@ -15,18 +15,20 @@ breadcrumb: [Explore, Virtual Agent, Conversational Interfaces]
 
 # Agentic conversations in Virtual Agent
 
-When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
+When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 
--   If for the given assistant, specific agents are available to perform user tasks or sub tasks, they’re used.
--   If a specific agent isn’t available, the system automatically employs the Search Agent to discover answers or appropriate skills within the system \(again based on the assistant scope\).
+-   If specific agents are available for the assistant to perform user tasks or subtasks, they are used.
+-   If no specific agent is available for the task or subtask, the system automatically employs the Search Agent to discover answers or appropriate skills within the system. This is based on the assistant's scope.
 -   If skill execution is required, the system automatically executes the discovered skills.
--   The system can plan and orchestrate execution among multiple agents, skills, and QnA to accomplish complex tasks.
+-   The system plans and orchestrates execution among multiple agents, skills, and QnA to accomplish complex tasks.
+
+**Note:** When a Virtual Agent conversation is triggered, any updates or comments in the record's work notes display as the AI agent rather than the user who initiated the conversation.
 
 ## Enable AI agents in Virtual Agent
 
 Role required: admin or virtual\_agent\_admin
 
-**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
+**Note:** Manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
 
 To enable AI agents in Virtual Agent:
 
@@ -34,18 +36,15 @@ To enable AI agents in Virtual Agent:
 
     The configuration consists of the following:
 
-    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   Create an assistant in Virtual Agent or use the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
+    -   Assign specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
     \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
-2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+2.  Verify that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
     \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
 3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
-
-    \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
-
 
 During execution, only the configured AI agents are considered for the current assistant and dynamically makes them available to the Orchestrator for planning.
 
@@ -173,7 +172,7 @@ When the AI agent cannot understand a request, encounters a system error, or a s
 
 -   Errors during agentic tasks:
 
-    When you ask the AI agent to complete a multi-step task on your behalf, it plans and carries out the steps automatically. If a step in the plan cannot be completed, it lets you know and offers fallback options so you can decide how to proceed.
+    When you ask the AI agent to complete a multi-step task on your behalf, it plans and carries out the steps automatically. If a step in the plan can't be completed, it lets you know and offers fallback options so you can decide how to proceed.
 
     For example, if the AI agent is creating an expense report and encounters a problem, it displays a message such as: “Unfortunately that didn’t work. But I can help you explore other options.” The fallback options available depend on your configuration.
 

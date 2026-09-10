@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/setup-c
 release: australia
 topic_type: task
 last_updated: "2026-06-10"
-reading_time_minutes: 1
-breadcrumb: [Register instance, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+reading_time_minutes: 2
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set up OAuth authentication for a clone target
@@ -16,26 +16,37 @@ Complete a one-time OAuth setup to register a target instance for cloning. This 
 
 ## Before you begin
 
-The target instance must run an OAuth-capable version of the Clone Admin Console.
+The target instance must run an OAuth-capable version of the Clone Admin Console OAuth clone target authentication requires Australia Patch 5 or later on both the source and target instances.
 
 Roles required:
 
 -   Source instance: clone\_admin
--   Target instance: clone-admin and oauth\_admin
+-   Target instance: clone\_admin and oauth\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Home**.
 
-2.  Navigate to **Configurations** &gt; **Clone instances**.
+2.  Navigate to **Configuration** &gt; **Clone instances**.
 
 3.  Select **New**.
 
-4.  In the **Instance URL** field, enter the target instance URL and select **Next**.
+4.  In the **Target Instance** field, enter the target instance URL and select **Continue**.
 
     The system runs a version compatibility check.
 
-    If the target instance doesn't support OAuth authentication, the system falls back to basic authentication. See [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md).
+    If the target instance doesn't support OAuth authentication, the system falls back to basic authentication. The target-instance user must have:
+
+    -   the clone\_admin role
+    -   the soap role
+    -   identity\_type set to machine on the user record
+    **Warning:**
+
+    The **identity\_type** field may not appear on the User form by default. If it isn't visible, add it temporarily using Form Layout.
+
+    Users with identity\_type = machine can no longer log in to the instance UI. This configuration supports Basic Auth for automated and integration traffic only.
+
+      recommends using OAuth for cloning. For more information, see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md).
 
 5.  Select **Setup OAuth on Target**.
 
@@ -72,5 +83,6 @@ The target instance is registered and authorized for clone requests.
 
 ## What to do next
 
-To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+-   To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md).
+-   To reset or re-authorize OAuth for this target, see .
 

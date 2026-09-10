@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Create a contract and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -62,6 +62,8 @@ Type of contractual arrangement that is identified by using one of the options i
 -   **Overarching arrangement**
 -   **Subsequent or associated arrangement**
 
+**Note:** If you set this field to **Overarching arrangement**, link at least one subsequent contract to it. Otherwise, the system displays a warning.
+
 </td></tr><tr><td>
 
 State
@@ -93,6 +95,8 @@ Annual expense or estimated cost for the past year
 </td><td>
 
 Annual expense or estimated cost \(or intragroup transfer\) of the ICT service arrangement for the past year.
+
+ A value of 0 is accepted for this field.
 
 </td></tr><tr><td>
 
@@ -197,6 +201,8 @@ Type of code to identify the ICT third-party service provider
 </td><td>
 
 Type of code to identify the ICT third-party service provider, for example, LEI.
+
+ If the code type is not LEI or EUID, the system displays a warning instead of blocking the record.
 
 </td></tr><tr><td>
 
@@ -353,6 +359,8 @@ Notice period for the financial entity making use of the ICT service\(s\)
 
 Notice period for terminating the contractual arrangement by the financial entity making use of the ICT service\(s\) in a business-as-usual case.
 
+ When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
+
 </td></tr><tr><td>
 
 Notice period for the ICT third-party service provider
@@ -361,6 +369,8 @@ Notice period for the ICT third-party service provider
 
 Notice period for terminating the contractual arrangement by the direct ICT third-party service provider in a business-as-usual case.
 
+ When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
+
 </td></tr><tr><td>
 
 Country of the governing law of the contractual arrangement
@@ -368,6 +378,8 @@ Country of the governing law of the contractual arrangement
 </td><td>
 
 Country whose legal system oversees the contract.
+
+ When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
 
 </td></tr><tr><td>
 
@@ -396,6 +408,8 @@ Option to identify the level of sensitiveness of the data stored or processed by
 -   **Medium**
 -   **High**
 
+**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes** and **Storage of data** is set to **Yes**, this field becomes mandatory. Select **Medium** or **High**. The system displays a warning if you select **Low** instead.
+
 </td></tr><tr><td>
 
 Level of reliance on the ICT service
@@ -406,6 +420,8 @@ Option to specify the level of reliance on the ICT service. Available options ar
 -   **Low reliance**
 -   **Material reliance**
 -   **Full reliance**
+
+**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory. Select **Material reliance** or **Full reliance**. The system displays a warning if you select **Not significant** instead.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -701,6 +717,8 @@ Existence of an exit plan
 
 Availability of an exit plan. The following options are available:-   Yes
 -   No
+
+**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes**, select **Yes**. The system displays a warning during CSV download if you select **No** instead.
 
 </td></tr><tr><td>
 

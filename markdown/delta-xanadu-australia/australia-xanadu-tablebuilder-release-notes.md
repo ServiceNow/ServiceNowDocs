@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-tablebuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -136,7 +136,20 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Transition to NOW Design Systems \(NDS\)**
+
+Shift from the previous custom table builder icons to the NOW Design System \(NDS\) icons in the user interface.
+
+
+ -   **[Launching App from the App Navigator](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=yokohama&ft:locale=en-US)**
+
+You can directly access Table Builder by searching it. You can find Table Builder in the search results of the app navigator.
+
+
+ -   **[Accessing Table Builder](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=yokohama&ft:locale=en-US)**
+
+At least one role with Read permissions should be assigned to each table during creation to ensure proper Access Control List \(ACL\) setup and help prevent access issues for developers.
+
 
 </td></tr><tr><td>
 
@@ -144,7 +157,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Accessing Table Builder](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=zurich&ft:locale=en-US)**
+
+In the search input, enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` to access the table directly.
+
 
 </td></tr><tr><td>
 
@@ -152,7 +168,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Field configuration in Table Builder](https://www.servicenow.com/docs/access?context=field-parameters&family=australia&ft:locale=en-US)**
+
+A new **Read Only Option** has been added to the dictionary tables \(`sys_dictionary` and `sys_dictionary_override`\). The existing **read\_only** field is now locked and cannot be edited in the UI. Field behavior depends on the selected option. With **Display Read Only**, the field appears read-only but can still be updated through APIs. With **Strict Read Only**, the field can't be changed in the UI or by client scripts such as \[`g_form.setValue()`\]. A new system property,`glide.read_only.legacy_read_only_behavior`, controls whether the old behavior, where client scripts could override read-only settings, is retained.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -271,7 +290,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Table Builder is available without App Engine Studio.
+
 
 </td></tr><tr><td>
 
@@ -279,7 +301,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr><tr><td>
 
@@ -287,7 +309,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -361,7 +383,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr><tr><td>
 
@@ -369,7 +394,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr><tr><td>
 
@@ -377,7 +405,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -496,7 +527,11 @@ Yokohama
 
 </td><td>
 
-See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
+-   Transition to NOW Design Systems \(NDS\) icons from the previous custom table builder icons.
+-   Launch the Table Builder App from the App Navigator.
+-   Consistency in role assignment during the table creation process to avoid access issues for the developers.
+
+ See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

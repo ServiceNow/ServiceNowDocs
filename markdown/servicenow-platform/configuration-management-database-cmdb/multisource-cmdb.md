@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 CMDB 360 retains complete history about discovery sources and proposed values, involved in updates of CI attributes. Use CMDB 360 data to track how the CMDB is populated by various discovery sources at the CI attribute level. Also, to revert CI updates from a specific discovery source, or to recompute attribute values using updated reconciliation rules.
 
-CMDB 360 provides all the functionality of the legacy Multisource CMDB feature with additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)or in the [CMDB 360 insights dashboard in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md).
+CMDB 360 provides all the functionality of the legacy Multisource CMDB feature with additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)or in the [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md).
 
 ## How CMDB 360 works
 
@@ -57,7 +57,7 @@ By default, CMDB 360 tracks discovery source information for CIs from CMDB class
 
 ## Report on CMDB 360 data
 
-Use the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md)or [CMDB 360 insights dashboard in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md) to gain insights into the CMDB 360 data store. Build reports that, for example, do the followings:
+Use the or [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md) to gain insights into the CMDB 360 data store. Build reports that, for example, do the followings:
 
 -   Find CIs not reported by any discovery source.
 -   Find discovery sources populating data in your CMDB.

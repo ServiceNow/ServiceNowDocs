@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the Dynatrace analysis AI agent
@@ -42,15 +42,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d525497e198">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d543142e198">
 
 Field
 
-</th><th align="left" id="d525497e201">
+</th><th align="left" id="d543142e201">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d525497e207">
+</th></tr></thead><tbody><tr><td id="d543142e207">
 
 **Connection Name**
 
@@ -58,7 +58,7 @@ Description
 
 Name of your Dynatrace connection. This name helps you identify it later. For example, `Dynatrace analysis AI agent connection`.
 
-</td></tr><tr><td id="d525497e224">
+</td></tr><tr><td id="d543142e224">
 
 **Connection URL**
 
@@ -66,7 +66,7 @@ Name of your Dynatrace connection. This name helps you identify it later. For ex
 
 URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<your-resource-name>.live.dynatrace.com`.
 
-</td></tr><tr><td id="d525497e242">
+</td></tr><tr><td id="d543142e242">
 
 **Access token or personal access token \(must prefix with 'Api-Token '\)**
 
@@ -74,7 +74,7 @@ URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<you
 
 Dynatrace access token or personal access token. The token must begin with `Api-Token`, for example, `Api-Token dt0s01.STABCDEF12345.G3HIJKLMNOP`.
 
-</td></tr><tr><td id="d525497e259">
+</td></tr><tr><td id="d543142e259">
 
 **Header Name**
 

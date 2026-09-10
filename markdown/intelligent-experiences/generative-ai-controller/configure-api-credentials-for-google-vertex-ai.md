@@ -1,6 +1,6 @@
 ---
-title: Create API credentials for Google Vertex AI
-description: Configure your API credentials to use Google Vertex AI in custom workflows and Virtual Agent Designer topics.
+title: Configure API credentials for Google Vertex AI
+description: Configure your API credentials to use Google Vertex AI as your LLM provider for Generative AI Controller capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
-# Create API credentials for Google Vertex AI
+# Configure API credentials for Google Vertex AI
 
-Configure your API credentials to use Google Vertex AI in custom workflows and Virtual Agent Designer topics.
+Configure your API credentials to use Google Vertex AI as your LLM provider for Generative AI Controller capabilities.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-In order to use Google Vertex AI as your LLM provider for Generative AI Controller capabilities, you must have an active connection configured.
+To use Google Vertex AI as your LLM provider for Generative AI Controller capabilities, configure an active connection.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ In order to use Google Vertex AI as your LLM provider for Generative AI Controll
 
     \[Omitted image "gai-create-new-connection-vertex.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
-4.  Fill in the required fields.
+4.  Complete the required fields.
 
 <table><thead><tr><th>
 
@@ -78,7 +78,7 @@ OAuth Client ID
 
 To get the OAuth Client ID, create a new OAuth Client ID with the Google Cloud console with the following attributes: 1.  Application type: `Web application`
 2.  Authorized redirect URI: URL in the OAuth Redirect URL field, usually `<instance>.service-now.com/oauth_redirect.do`
- For more information, see the [Google documentation for creating OAuth client IDs](https://support.google.com/cloud/answer/6158849). Once you have created the OAuth client, a pop-up window will have the Client ID and Client secret for you to copy into your clipboard.
+ For more information, see the [Google documentation for creating OAuth client IDs](https://support.google.com/cloud/answer/6158849). After you create the OAuth client, a dialog box displays the Client ID and Client secret for you to copy.
 
 </td></tr><tr><td>
 
@@ -89,18 +89,18 @@ OAuth Client Secret
 Client secret from your OAuth Client ID found in the Google Cloud console
 
 </td></tr></tbody>
-</table>5.  In the pop-up window, log in to a Google Account with access to the project.
+</table>5.  In the dialog box, log in to a Google Account with access to the project.
 
 6.  When prompted for Google Cloud access for gsuite spokes, select **Allow**.
 
 
 ## Result
 
-You can now use Completions – Vertex AI and Chat Completions – Vertex AI in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
+You can now use Completions – Vertex AI and Chat Completions – Vertex AI as your LLM provider for Generative AI Controller capabilities.
 
 \[Omitted image "gai-created-connection-vertex.png"\] Alt text: Complete connection for Google Bard Vertex AI.
 
 ## What to do next
 
-Use your LLM provider to create flows with Flow Designer, topics with Virtual Agent Designer, or scripts to provide the benefits of generative AI to your users.
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

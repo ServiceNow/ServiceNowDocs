@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -29,7 +29,7 @@ The following applications are available with Public Sector Digital Services tha
 -   [Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-ir-playbooks.md)
 -   [Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-sr-playbooks.md)
 
-The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CSM Configurable Workspace, or when a constituent puts in a request through the Government Service Portal.
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CRM Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 The workflows for a type of case and the activities that you need to resolve these cases are in the playbook. By using a playbook, you can visualize the entire life cycle of the public service case workflow.
 

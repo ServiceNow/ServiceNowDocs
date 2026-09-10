@@ -68,7 +68,7 @@ Admin role for Canvas Core Application: View and make configuration changes to t
 canvas\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+</table>**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -79,9 +79,13 @@ canvas\_admin
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

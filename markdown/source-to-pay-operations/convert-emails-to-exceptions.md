@@ -14,7 +14,11 @@ breadcrumb: [Use agentic workflows in ServiceNow Otto for POM, ServiceNow Otto f
 
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.
 
-The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents. For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md).
+The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents.
+
+If the email contains multiple intents, the workflow identifies the intent and creates pertinent cases from a single email. For instance, an email contains multiple scenarios such as confirmation for a line, delivery change information for another purchase order line, and questions unrelated to a PO. In this case, a purchase order confirmation, a purchase order exception, and a universal request is created.
+
+For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md).
 
 ## Prerequisites for automated creation of purchase order exceptions
 

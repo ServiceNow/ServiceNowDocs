@@ -1,18 +1,18 @@
 ---
 title: Code Signing release notes
-description: The Code Signing \(CS\) application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Australia release.
+description: The Code Signing \(CS\) application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Australia release.The Code Signing \(CS\) application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 ---
 
 # Code Signing release notes
 
 The Code Signing \(CS\) application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Australia release.
 
-## Code Signing highlights for the Australia release
+## About Code Signing
 
 -   Gain complete visibility into Code Signing coverage by proactively identifying eligible records with missing signatures using the optimized guardrail scan.
 -   Install build time signatures for records in all trued-up ServiceNow Store application versions, thus eliminating the self-signing process.
@@ -20,7 +20,20 @@ The Code Signing \(CS\) application validates scripts and code that runs on your
 
 See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\). For details, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Australia
+
+The Code Signing \(CS\) application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Utilities Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-utilities.md)**
 
@@ -47,40 +60,19 @@ See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     Discovery now enforces code signing for probes, parameters, and sensors to guarantee authenticity, integrity, and secure execution on MID Servers. This update blocks unsigned or tampered payloads, provides signature validation, and strengthens compliance by helping prevent audit gaps without impacting discovery performance.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Guardrail process optimization and scope increase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/signature-verification-status.md)**
 
     Allows you to run the guardrail scan and identify records that have missing signatures, enabling you to proactively address records that are eligible for code signing but remain unsigned. Previously, the system only checked records with existing signatures and marked them as valid or invalid, which meant records without signatures were overlooked. Now, the process starts from the signature configuration itself, every eligible record is checked to see if it has a signature. If a record is missing a signature, it's clearly identified.
 
 
-## Activation information
+### Plugin information
 
-Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\). For details, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md).
-
-## Plugin information
-
--   **[New plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md#cs-validation-jobs)**
+-   **New plugins**
 
     The following plugin is new in Australia:
 
     Code Signing OOB Apps Signatures \(com.glide.code\_signing.oob\_apps\_signatures\): This plugin installs build time signatures for all relevant records in the trued-upServiceNow® Store application versions.
 
-
-## Related ServiceNow applications and features
-
--   **[Encryption and Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md)**
-
-    Encryption is a cryptographic procedure that converts plain text into cipher text, which helps prevent anyone but the intended recipient from reading that data.
-
--   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understanding-kmf.md)**
-
-    The Key Management Framework lets you fully customize and manage how cryptographic operations are performed on your instance.
-
--   **[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dare-overview.md)**
-
-    Cloud Encryption offers encrypted storage for the database by using block encryption, with enhanced key management. Cloud Encryption is available with the Platform Encryption subscription bundle.
-
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

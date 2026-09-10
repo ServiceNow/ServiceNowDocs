@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, contents, model, process, extension]
-breadcrumb: [Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Explore a Zero Copy Connector for ERP content pack

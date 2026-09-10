@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes
-description: The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2025-04-16"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
 
-## ServiceNow Otto for Workplace Service Delivery \(WSD\) highlights for the Australia release
+## About ServiceNow Otto for Workplace Service Delivery \(WSD\)
 
 Australia Patch 5
 
@@ -20,35 +20,33 @@ Australia Patch 5
 
 See [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-wsd-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for WSD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Changed in this release
+-   **Activation information**
+
+    Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-service-management-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
     Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
-## Activation information
+## Australia General Availability
 
-Install ServiceNow Otto for Workplace Service Delivery \(WSD\) by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) application enables workplace agents to summarize case information, generate resolution notes, and summarize the chat information for an interaction. Your workplace agents can review the chat and case context to propose resolutions quickly to your customers. ServiceNow Otto for WSD was enhanced and updated in the Australia release.
 
-## Related ServiceNow applications and features
+### What's new
 
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    Use the AI Admin Hub console to give you quick and effortless access to the important information that you use to set up, configure, and monitor Now Assist applications and features.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface to summarize a chat, a case, or resolution notes so that you can get the context of this information quickly.
-
-
-**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-service-management-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 

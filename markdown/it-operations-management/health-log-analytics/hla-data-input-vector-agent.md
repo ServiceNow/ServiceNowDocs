@@ -33,7 +33,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Vector by Datadog to handle log data from multiple sources before sending it to Health Log Analytics, the log format HLA receives is distinct from other types. The Vector Agent data input enables HLA to detect and separate transport headers from inner log messages in this format, forwarding only the inner message to the source type structure for processing.
+If your organization uses Vector by Datadog to handle log data from multiple sources before sending it to Health Log Analytics, the log format is distinct from other types. The Vector Agent data input enables HLA to detect and separate transport headers from inner log messages. The data input forwards only the inner message to the source type structure for processing.
 
 ## Procedure
 

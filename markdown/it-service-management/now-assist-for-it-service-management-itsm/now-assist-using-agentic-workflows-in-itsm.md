@@ -120,7 +120,7 @@ Answers questions about an open incident, including caller assets, recent incide
 
 </td></tr><tr><td>
 
-Who is On Call
+[Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.md)
 
 </td><td>
 
@@ -129,6 +129,18 @@ Retrieves on-call roster information for specific shifts, groups, or time period
 </td><td>
 
 On Call Retrieval AI agent
+
+</td></tr><tr><td>
+
+Manage On Call Shifts
+
+</td><td>
+
+Creates on-call shifts for a group from a template or a natural-language description, including schedule, roster, and rotation details.
+
+</td><td>
+
+On Call Shift Creator AI agent
 
 </td></tr></tbody>
 </table>

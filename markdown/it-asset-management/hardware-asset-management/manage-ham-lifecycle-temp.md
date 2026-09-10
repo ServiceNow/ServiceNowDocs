@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -85,6 +85,10 @@ Associate a hardware model with a Calculated lifecycle template to populate the 
 [Manage asset put away using the Hardware Asset Workspace]()
 
 [Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
 
 [Acknowledge receipt of assets on the Employee Center portal]()
 

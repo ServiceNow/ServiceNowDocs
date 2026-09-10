@@ -38,7 +38,7 @@ CTI enables and supports the following capabilities:
 Developers can use the CTI framework to integrate voice features using one or both approaches. As CTI is an integration concept rather than a product, it has no associated role. To enable CTI integration, developers must assign the sn\_openframe\_user role to agents who use the integrated voice features. In either approach, CTI serves as the underlying mechanism that connects the CCaaS platform to the provisioned ServiceNow instance.
 
 -   OpenFrame embeds an external CCaaS provider’s telephony interface directly within the ServiceNow Workspace via an iFrame.
--   ICC delivers ServiceNow native voice call controls in a separate window within the CSM Configurable Workspace, when enabled.
+-   ICC delivers ServiceNow native voice call controls in a separate window within the CRM Workspace, when enabled.
 
 When using CTI the user must have the OpenFrame user \(sn\_openframe\_user\) role.
 

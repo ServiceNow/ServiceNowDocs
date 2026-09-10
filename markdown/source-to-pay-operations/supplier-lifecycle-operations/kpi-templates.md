@@ -7,8 +7,9 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
+keywords: [KPI templates, Manual KPI, Automated KPI, Integration KPI]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -25,6 +26,7 @@ You can define KPI templates and thresholds to collect the metrics systematicall
 
     To enable the Automated KPIs feature after an upgrade, run the fix scripts **KPI - Dec 25 records script** and **KPI - Dec 25 data records script**. For more information, see [Run fix scripts to enable Automated KPI collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-automated-kpis.md).
 
+-   **Integration KPI templates**: KPIs created from integration KPI templates retrieve data automatically from external sources such as FedEx DataWorks. The external source is specified in the **External source** field, which references the ERP source table. This option is only available for quantitative KPIs. For more information about FedEx DataWorks integration, see [FedEx Dataworks Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-dataworks-overview.md).
 
 -   **[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)**  
 Create manual KPI templates to define KPIs that require users to manually input KPI data based on the frequency schedules.

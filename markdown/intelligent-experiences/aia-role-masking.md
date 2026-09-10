@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-11-04"
 reading_time_minutes: 3
 keywords: [Agent Role Masking, Agent Security]
-breadcrumb: [Security for AI agents, Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Security for AI agents, Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Role masking in AI agents

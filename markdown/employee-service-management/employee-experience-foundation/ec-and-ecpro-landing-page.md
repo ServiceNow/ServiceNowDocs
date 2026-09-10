@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Employee Service Management]
 ---
 
@@ -262,7 +262,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
+[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
 
 </td><td>
 

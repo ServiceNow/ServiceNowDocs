@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-07-06"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch a web application for an alert in Service Operations Workspace for ITOM

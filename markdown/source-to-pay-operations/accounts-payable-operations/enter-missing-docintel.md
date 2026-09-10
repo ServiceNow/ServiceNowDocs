@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Accounts Payable Workspace, Document Intelligence, invoice data entry, transformation error, draft invoice, invoice submission, invoice processing case]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -68,6 +68,8 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 [Reset an invoice to the Received status]()
 
 [Check for invoice exceptions on a single invoice]()
+
+[Reopen a closed invoice case]()
 
 [Start processing a third-party invoice]()
 

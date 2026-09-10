@@ -1,6 +1,6 @@
 ---
 title: GlideForm \(g\_form\) - Client
-description: The GlideForm API provides methods to customize forms.Adds an icon on a field's label.Adds an icon on a field's label.Displays the specified error message at the top of the form.Displays a floating form message at the top of the form detail section. The message doesn't cover UI actions.Displays a high priority message at the top of the form.Adds the specified informational message to the top of the form.Displays a low priority message at the top of the form.Displays a moderate level priority message at the top of the form.Adds a choice to the end of a specified choice list field.Adds a choice to the list field at the position specified.Displays a success message at the top of the form.Removes all form messages of any type.Removes all form messages of a specified type.Removes all informational and error messages from the top of the form.Removes all options from the specified choice list.Removes any value\(s\) from the specified field.Prevents file attachments from being added to the form.Programmatically disables a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already disabled.Allows file attachments to be added to the form. Shows the paper clip icon.Programmatically enables a specific choice in the drop-down field, if the choice exists. No changes are made if the option is already enabled.Use to draw attention to a field. Flashes the specified color for a specified duration of time in the specified field.Returns the most recent action name, or, for a client script, the sys\_id of the UI action clicked.Returns a form annotation of a given name.Returns a list of all annotations on a form.Returns a Boolean value for the specified field.Returns an object with properties representing a given field and choice value.Returns the HTML element for the specified field.Returns the decimal value of the specified field.Returns the display value from a form in the core UI.Returns the display value from a form in Service Portal.Returns the HTML element specified by the parameter.Returns the HTML element for the form.Returns the HTML element of the help text for the specified field.Returns the integer value for the specified field.Returns the plain text value of the field label.Returns the option element for a selected box named fieldName where choiceValue matches the option value.Returns the available and selected options for a choice or reference field on the form. This method is useful for dynamic forms, catalog variables and variable sets, and integrations needing to inspect or filter field options at runtime.Returns the GlideRecord for a specified field.Returns an array of related list names from the current form.Returns all section names, whether visible or not.Returns an array of the form's sections.Returns the name of the table to which this record belongs.Returns the sys\_id of the record displayed in the form.Returns the value of the specified form field.Hides all field messages.Hides all field messages of the specified type.Hides an annotation with a given name on the form UI.Hides the error message placed by showErrorBox\(\).Hides the first message that appears in the specified field on the current form.Hides the Related Links section of a form.Hides the specified related list on the form.Hides all related lists on the form.Hides the template bar on the form.Returns true while a live update is being done on the record the form is showing.Returns true if the field is mandatory.Returns true if the record has never been saved.Returns true if the section is visible.Determines whether the field associated with the passed-in field name is visible on the current form.Registers a custom event listener that detects when any field in the current form is modified by a user.You can update a list collector variable.Removes the icon from the specified field that matches the specified icon and title.Removes the icon from the specified field that matches the specified icon, title, and color.Removes the specified option from the specified choice list.Saves the record without navigating away \(update and stay\).Updates the label of a specific choice in the drop-down field.Makes the specified field available or unavailable.Displays or hides a specified field on the form.Sets the plain text value of the specified field label.Makes the specified field mandatory.Makes the specified field read-only or editable.Show or hide the Related Links section in the form UI using Boolean values.Shows or hides a specified section in the form.Sets the value of a specified form field to the specified value or the value of a specified display value in a reference record.Makes a Service Catalog variable editor read only.Displays or hides the specified field.Shows an annotation with a given name on the form UI.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form automatically scrolls to the control or field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the method automatically scrolls the form to that field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the method scrolls the form to that field.Displays the Related Links section of a form.Displays the specified related list on the form.Displays all the form's related lists.If hidden, shows the template bar at the bottom of the form.Saves the record.Performs the specified UI action.Hides or shows all annotations on the form.
+description: The GlideForm API provides methods to customize forms.Adds an icon on a field's label.Adds an icon on a field's label.Displays the specified error message at the top of the form.Displays a floating form message at the top of the form detail section. The message doesn't cover UI actions.Displays a high priority message at the top of the form.Adds the specified informational message to the top of the form.Displays a low priority message at the top of the form.Displays a moderate level priority message at the top of the form.Adds a choice to the end of a specified choice list field.Adds a choice to the list field at the position specified.Displays a success message at the top of the form.Removes all form messages of any type.Removes all form messages of a specified type.Removes all informational and error messages from the top of the form.Removes all options from the specified choice list.Removes any value\(s\) from the specified field.Prevents file attachments from being added to the form.Programmatically turns off a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already turned off.Allows file attachments to be added to the form. Shows the paper clip icon.Programmatically enables a specific choice in the drop-down field, if the choice exists. No changes are made if the option is already enabled.Use to draw attention to a field. Flashes the specified color for a specified duration of time in the specified field.Returns the most recent action name, or, for a client script, the sys\_id of the UI action clicked.Returns a form annotation of a given name.Returns a list of all annotations on a form.Returns a Boolean value for the specified field.Returns an object with properties representing a given field and choice value.Returns the HTML element for the specified field.Returns the decimal value of the specified field.Returns the display value from a form in the core UI.Returns the display value from a form in Service Portal.Returns the HTML element specified by the parameter.Returns the HTML element for the form.Returns the HTML element of the help text for the specified field.Returns the integer value for the specified field.Returns the plain text value of the field label.Returns the option element for a selected box named fieldName where choiceValue matches the option value.Returns the available and selected options for a choice or reference field on the form. This method is useful for dynamic forms, catalog variables and variable sets, and integrations needing to inspect or filter field options at runtime.Returns the GlideRecord for a specified field.Returns an array of related list names from the current form.Returns all section names, whether visible or not.Returns an array of the form's sections.Returns the name of the table to which this record belongs.Returns the sys\_id of the record displayed in the form.Returns the value of the specified form field.Hides all field messages.Hides all field messages of the specified type.Hides an annotation with a given name on the form UI.Hides the error message placed by showErrorBox\(\).Hides the first message that appears in the specified field on the current form.Hides the Related Links section of a form.Hides the specified related list on the form.Hides all related lists on the form.Hides the template bar on the form.Returns true while a live update is being done on the record the form is showing.Returns true if the field is mandatory.Returns true if the record has never been saved.Returns true if the section is visible.Determines whether the field associated with the passed-in field name is visible on the current form.Registers a custom event listener that detects when any field in the current form is modified by a user.You can update a list collector variable.Removes the icon from the specified field that matches the specified icon and title.Removes the icon from the specified field that matches the specified icon, title, and color.Removes the specified option from the specified choice list.Saves the record without navigating away \(update and stay\).Updates the label of a specific choice in the drop-down field.Makes the specified field available or unavailable.Displays or hides a specified field on the form.Sets the plain text value of the specified field label.Makes the specified field mandatory.Makes the specified field read-only or editable.Show or hide the Related Links section in the form UI using Boolean values.Shows or hides a specified section in the form.Sets the value of a specified form field to the specified value or the value of a specified display value in a reference record.Makes a Service Catalog variable editor read only.Displays or hides the specified field.Shows an annotation with a given name on the form UI.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form automatically scrolls to the control or field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the method automatically scrolls the form to that field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the method scrolls the form to that field.Displays the Related Links section of a form.Displays the specified related list on the form.Displays all the form's related lists.If hidden, shows the template bar at the bottom of the form.Saves the record.Performs the specified UI action.Hides or shows all annotations on the form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideFormAPI.html
 release: australia
@@ -692,7 +692,7 @@ This method is not available on the mobile platform. If this method is run on a 
 
 ## GlideForm - disableChoice\(String fieldName, String choiceValue\)
 
-Programmatically disables a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already disabled.
+Programmatically turns off a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already turned off.
 
 <table id="table_q2s_gds_rfc" class="parameters"><thead><tr><th>
 
@@ -716,7 +716,7 @@ String
 
 </td><td>
 
-Field name of the choice to disable.Data type: String
+Field name of the choice to turn off.Data type: String
 
 </td></tr><tr><td>
 
@@ -728,7 +728,7 @@ String
 
 </td><td>
 
-Value of the choice to disable.Data type: String
+Value of the choice to turn off.Data type: String
 
 </td></tr></tbody>
 </table><table id="table_fvm_xbs_rfc" class="returns"><thead><tr><th>
@@ -745,15 +745,15 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the given choice is disabled or active in the form.Valid values:
+Flag that indicates whether the given choice is turned off or active in the form.Valid values:
 
--   true: Choice is disabled.
--   false: Option is already disabled or is not found.
+-   true: Choice is turned off.
+-   false: Option is already turned off or is not found.
 
 Data type: Boolean
 
 </td></tr></tbody>
-</table>The following example calls disableChoice\(\) to disables the loading\_dock choice in the delivery\_location form field.
+</table>The following example calls disableChoice\(\) to turn off the loading\_dock choice in the delivery\_location form field.
 
 ```
 if (g_form.getValue('address_type') == 'home') {
@@ -1175,9 +1175,9 @@ GlideFormChoice.disabled
 
 </td><td>
 
-Flag that indicates whether the choice is disabled in the form.Valid values:
+Flag that indicates whether the choice is turned off in the form.Valid values:
 
--   true: Choice is disabled
+-   true: Choice is turned off.
 -   false: Choice is enabled.
 
 Data type: Boolean
@@ -2220,7 +2220,7 @@ Saves the record without navigating away \(update and stay\).
 
 Updates the label of a specific choice in the drop-down field.
 
-When calling this method, the index position of the updated option in the drop-down remains unchanged. The enabled or disabled state of the option is preserved.
+When calling this method, the index position of the updated option in the drop-down remains unchanged. The enabled or turned off state of the option is preserved.
 
 <table id="table_q2s_gds_rfc" class="parameters"><thead><tr><th>
 
@@ -2327,7 +2327,7 @@ String
 
 </td><td id="g_form-setDisabled-fieldName-entry">
 
-Name of the field to enable or disable.
+Name of the field to enable or turn off.
 
 </td></tr><tr><td>
 
@@ -2339,9 +2339,9 @@ Boolean
 
 </td><td id="g_form-setDisabled-disable-entry">
 
-Flag that indicates whether to disable the specified field.Valid values:
+Flag that indicates whether to turn off the specified field.Valid values:
 
--   true: Disable the field.
+-   true: Turns off the field.
 -   false: Enables the field.
 
 Default: false

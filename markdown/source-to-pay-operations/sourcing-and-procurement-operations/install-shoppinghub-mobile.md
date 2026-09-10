@@ -46,12 +46,20 @@ Role required: sn\_shop.shopping\_hub\_admin
 -   **[Enable the mobile experience for ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/enable-shoppinghub-mobile.md)**  
 Enable the mobile experience for Shopping Hub Mobile so that users can complete to-dos assigned to them and view and track their purchases from their mobile device.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+**Parent Topic:**[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
 [Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
 
 [Setting up primary data for ShoppingHub]()
 
@@ -60,6 +68,8 @@ Enable the mobile experience for Shopping Hub Mobile so that users can complete 
 [Configuring work prioritization]()
 
 [Add a button in Shopping Hub]()
+
+[Add a footer link in Shopping Hub]()
 
 [Customize your top suppliers on Shopping Hub]()
 
@@ -71,7 +81,7 @@ Enable the mobile experience for Shopping Hub Mobile so that users can complete 
 
 [Install Universal Request for Sourcing and Procurement Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)
 
 [Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
 

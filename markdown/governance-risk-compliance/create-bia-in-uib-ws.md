@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 13
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -33,21 +33,25 @@ Moreover, information from the Related item BIA, Related item Recovery Time Obje
 
 The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.writer\) role that provides read and write permissions to the document templates.
 
+You can assign ownership of a business impact analysis to an individual owner, to an owner group, or to both. When you create a BIA, you're added as the **BIA owner** by default. To assign the BIA to a group, select a group in the **BIA owner group** field. The list shows only groups that hold the BIA planner or BIA manager role. You must provide either a **BIA owner** or a **BIA owner group** to save the record. When you select an owner group, the **BIA owner** field is limited to members of that group. Clear the **BIA owner** field to assign the BIA to the group only. All members of the owner group have the same edit rights on the BIA as the owner.
+
+\[Omitted image "bia-owner-group-field.png"\] Alt text: Create Impact analysis form with the BIA owner and BIA owner group fields.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
 
 2.  In the List view, navigate to **Business Impact Analysis** and select **New**.
 
-    The **Create New Impact analysis** form is displayed as shown in the example.
+    The **Create Impact analysis** form is displayed as shown in the example.
 
-    \[Omitted image "new-bia-form.png"\] Alt text: Create New Impact analysis form.
+    \[Omitted image "create-bia-record-group-fields.png"\] Alt text: Group ownership fields.
 
-3.  On the **Details** tab of the **Create New Impact analysis** form, fill in the required fields.
+3.  On the **Details** tab of the **Create Impact analysis** form, fill in the required fields.
 
     For more information on the fields, see [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
-    The business impact analysis is created in the **Draft** state and it’s displayed in the List view. The state and details of the business impact analysis are displayed in these tabs:
+    The business impact analysis is created in the **Draft** state and it is displayed in the List view. The state and details of the business impact analysis are displayed in these tabs:
 
     -   **Overview**: You can view the current state and overall state progression for the business impact analysis.
     -   **Details**: You can add the details of the business impact analysis such as its name, template, business unit, department, and so on.
@@ -62,7 +66,28 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     \[Omitted image "finalized-rto-rpo.png"\] Alt text: RTO.
 
-5.  Add the RTO manually in the **Adjusted RTO** field as an optional step, add the reason for adjusted RTO, and save the changes.
+5.  Assign BIA ownership in the User Administration or Assignment details section of the form.
+
+    1.  To assign group ownership, select the **BIA Owner group** field and select a group from the filtered list.
+
+        Only groups with the sn\_bia.bia\_planner or sn\_bia.bia\_manager role are displayed.
+
+        \[Omitted image "bia-owner-field.png"\] Alt text: BIA Owner field.
+
+    2.  To assign an individual owner, select the **BIA Owner** field and select a user from the list.
+
+        If you selected a group in the previous step, the list shows only members of that group. You can assign:
+
+        -   Individual owner only \(leave BIA Owner group empty\)
+        -   Group ownership only \(leave BIA Owner empty\)
+        -   Both group and individual owner
+        At least one ownership field \(group or individual\) must be populated before saving.
+
+    3.  Select **Save**.
+
+    The BIA record ownership is assigned to the selected group, individual, or both. You can also view the group-owned records in the **My group's pending tasks** and **My group's items** tabs in the My Tasks page. For more information, see [My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/my-tasks-page-uib-ws.md).
+
+6.  Add the RTO manually in the **Adjusted RTO** field as an optional step, add the reason for adjusted RTO, and save the changes.
 
     When you update the value in the **Adjusted RTO** field manually, the **Reason for Adjusted RTO** field is displayed. You can add the reason and save the changes.
 
@@ -72,19 +97,19 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     \[Omitted image "finalized-rto.png"\] Alt text: Adjusted RTO.
 
-6.  In the **Details** tab, review the RPO details for the BIA.
+7.  In the **Details** tab, review the RPO details for the BIA.
 
     The **Finalized RPO** field is auto-calculated according to the values in the **Recovery point objective** and **Adjusted RPO** fields available on the same form.
 
     If the BIAs already have the **Recovery point objective** field, the application uses that Recovery point objective value automatically for the finalized RPO. If the BIA has the **Adjusted RPO** field, the application uses that Adjusted RTO value automatically for the finalized RPO. For information on the field, see the field description in the [Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md).
 
-7.  Add the RPO manually in the **Adjusted RPO** field as an optional step, add the reason for adjusted RPO, and save the changes.
+8.  Add the RPO manually in the **Adjusted RPO** field as an optional step, add the reason for adjusted RPO, and save the changes.
 
     When you update the value in the **Adjusted RPO** field manually, the **Reason for Adjusted RPO** field is displayed. You can add the reason and save the changes.
 
     As a result, the **Finalized RPO** is populated with the **Adjusted RPO** value.
 
-8.  On the **Assessments** tab, view the impact analysis assessments and the dependency assessment.
+9.  On the **Assessments** tab, view the impact analysis assessments and the dependency assessment.
 
     You can track data specific to the dependency types as shown in the examples.
 
@@ -102,9 +127,9 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     However, the RTO committed by the IT team, as shown in the Related item RTO, is one month. The Related item columns \(BIA, RTO, RPO, Recovery Tier\) enable the BIA owner to evaluate data and determine necessary recovery timeframes and backup requirements.
 
-9.  Launch the impact analysis assessments, select a card \(RTO, RPO, or Dependency assessment\), and respond to the questions.
+10. Launch the impact analysis assessment and respond to the questions.
 
-    Previously, the **Assessments** tab in the BIA displayed a single assessment card and the **Open assessment** button. The layout of the cards in the **Assessments** tab of the BIA has been updated to display multiple assessments and dependency assessments in a two-column arrangement.
+    Previously, the **Assessments** tab in the BIA displayed a single assessment card and the **Open assessment** button. Beginning with the Yokohama release, the layout of the cards in the **Assessments** tab has been updated. The BIA now displays multiple assessments and dependency assessments in a two-column arrangement.
 
     \[Omitted image "asmt-tab-bia.png"\] Alt text: Assessments tab.\[Omitted image "asmt-rpo-page.png"\] Alt text: Assessment.
 
@@ -114,19 +139,19 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     The assessment cards are now displayed dynamically, enabling you to attach multiple assessments to a BIA. For instance, if you have one card, it is shown alone in a row. If you have seven cards, they are arranged in four rows \(three rows with two cards each and one row with one card\). You can add multiple assessments or just one.
 
-10. To perform Recovery time objective assessment, select the card for Recovery time objective assessment card and respond to the questions.
+11. To perform Recovery time objective assessment, select the card for Recovery time objective assessment card and respond to the questions.
 
-11. To perform Recovery point objective assessment, select the card for the Recovery point objective assessment card and respond to the questions.
+12. To perform Recovery point objective assessment, select the card for the Recovery point objective assessment card and respond to the questions.
 
-12. Review the answers in the assessment questionnaire and select **Submit**.
+13. Review the answers in the assessment questionnaire and select **Submit**.
 
     A message is displayed that the update has been successfully processed.
 
-13. Select **OK**.
+14. Select **OK**.
 
     The assessment card in the **Assessments** tab is updated. Selecting the Dependency assessment card opens the BIA assessment.
 
-14. Complete the Dependency assessment.
+15. Complete the Dependency assessment.
 
     In the Dependency assessment, the Related item finalized RTO and Related item finalized RPO columns are now displayed. The values for these columns are derived from the dependencies related BIA.
 
@@ -140,11 +165,11 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     \[Omitted image "acrobat-example.png"\] Alt text: Acrobat example.\[Omitted image "acrobat-bia-added.png"\] Alt text: BIA for Acrobat.
 
-    When "Acrobat" is added, the Related item finalized RTO and Related item finalized RPO values associated with the "Acrobat" BIA are populated in the Dependency assessment.
+    When "Acrobat" is added, the Related item finalized RTO and Related item finalized RPO values are populated. These values are associated with the "Acrobat" BIA in the Dependency assessment of the "Application downtime assessment for Acrobat" BIA record.
 
     \[Omitted image "rel-item-fin-rto-output.png"\] Alt text: Related item finalized RTO output.
 
-15. To reassign the assessment to another user, select **More actions** and select **Reassign**.
+16. To reassign the assessment to another user, select **More actions** and select **Reassign**.
 
     A message is displayed that the assessment is reassigned to another user. Only the assigned user can respond to the assessment.
 
@@ -154,7 +179,7 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     When you choose **Reassign**, it provides a list of all users in the system. You must select a user with the BCM roles to reassign the BIA.
 
-16. To add a contributor from the list to the business impact analysis, launch the **Contributors** panel by selecting the **Contributors** icon in the side-bar and add a contributor.
+17. To add a contributor from the list to the business impact analysis, launch the **Contributors** panel by selecting the **Contributors** icon in the side-bar and add a contributor.
 
     If you’re the BIA owner or BCM manager, you can add a contributor to the business impact analysis.
 
@@ -162,7 +187,9 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     The BIA contributors can’t edit the list of the contributors.
 
-17. Select **Submit**.
+    When you add a contributor to the BIA, that contributor is synchronized to the linked Smart assessment. A contributor who holds an appropriate BIA role can open and complete the assessment. Synchronization of the contributor list requires the Collaborator plugin.
+
+18. Select **Submit**.
 
     A message is displayed that the assessment is successfully submitted.
 
@@ -170,22 +197,84 @@ The BIA Manager \(sn\_bia.bia\_manager\) now includes the Doc writer \(sn\_doc.w
 
     If you want to update the result in the assessment, you can select the card to update the details. The assessment then moves to the **Open** state again. You can retake and resubmit the assessment, thus completing the workflow.
 
-18. To revert an archived BIA to the **Draft** state, select the **Edit** button.
+19. To revert an archived BIA to the **Draft** state, select the **Edit** button.
 
-    Starting with BCM release 9.0.x, you can revert an archived business impact analysis \(BIA\) to the **Draft** state by selecting the **Edit** button on the form. It helps you to have more flexibility in managing business impact analyses and related records.
+    Starting with BCM release 9.0.x, you can revert an archived business impact analysis \(BIA\) to the **Draft** state by selecting the **Edit** button on the form. It helps you to have more flexibility in managing business impacted analyses and related records.
 
-19. To perform more actions on the BIA, select **More actions**.
+20. To perform more actions on the BIA, select **More actions**.
 
-    |Step|Description|
-    |----|-----------|
-    |**Select __Discuss__.**|Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.|
-    |**Select __Generate MS Word__.**|Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.|
-    |**Select __Generate PDF__.**|Generate a PDF of the BIA with the legacy or Smart Assessment. The PDF of the BIA record is successfully generated that you can download. In the Impact Assessments section of the PDF, details of the Smart assessment are covered, including questions and answers for RPO and RTO in a tabular format, along with dependencies, contributors, and attachments.|
-    |**Select __Copy__.**|Create a copy of the BIA. BIA details, including its state, assessments, questions, and answers, are copied into the instance and displayed on the home page in the BIA section and BIA list. Confirm the name of the new BIA.|
-    |**Select __360º view__.**|Generate 360º relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.|
-    |**Select __Delete__.**|Delete the BIA record. A warning message is displayed that deleting the record results in an automatic deletion of related records, which may also cause a cascade of additional records to be deleted.|
+<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d269429e796">
 
-20. To save the BIA record, select **Save**.
+Step
+
+</th><th align="left" id="d269429e799">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d269429e805">
+
+**Select __Discuss__.**
+
+</td><td>
+
+Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.
+
+</td></tr><tr><td id="d269429e820">
+
+**Select __Generate MS Word__.**
+
+</td><td>
+
+Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
+
+</td></tr><tr><td id="d269429e838">
+
+**Select __Generate PDF__.**
+
+</td><td>
+
+Generate a PDF of the BIA with the legacy or Smart Assessment. The PDF of the BIA record is successfully generated that you can download. In the Impact Assessments section of the PDF, details of the Smart assessment are covered, including questions and answers for RPO and RTO in a tabular format, along with dependencies, contributors, and attachments.
+
+</td></tr><tr><td id="d269429e853">
+
+**Select __Copy__.**
+
+</td><td>
+
+Create a copy of the BIA. BIA details, including its state, assessments, questions, and answers, are copied into the instance and displayed on the home page in the BIA section and BIA list. Confirm the name of the new BIA.
+
+The copied BIA inherits the original **BIA owner group** only. You're automatically assigned as the individual **BIA owner** of the copy.
+
+</td></tr><tr><td id="d269429e875">
+
+**Select __360º view__.**
+
+</td><td>
+
+Generate 360º relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.
+
+</td></tr><tr><td id="d269429e887">
+
+**Select __Delete__.**
+
+</td><td>
+
+Delete the BIA record. A warning message is displayed that deleting the record results in an automatic deletion of related records, which may also cause a cascade of additional records to be deleted.
+
+</td></tr></tbody>
+</table>21. Review and confirm the group ownership fields in the PDF and Microsoft Word reports.
+
+    The BIA Group owner and BIA Owner fields are shown in the following sample PDF report.
+
+    \[Omitted image "grp-fields-bia-pdf-report.png"\] Alt text: Group fields in the report.
+
+22. View your BIA group's pending tasks and BIA owner's assigned items in the My tasks page.
+
+    The BIA group's pending tasks and BIA owner's assigned items are shown in the following sample My tasks page.
+
+    \[Omitted image "my-grp-pending-tasks.png"\] Alt text: BIA group's pending tasks and BIA owner's assigned items.
+
+23. To save the BIA record, select **Save**.
 
 
 -   **[Create Impact analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-impact-analysis-reference-form-bcm-uib-ws.md)**  

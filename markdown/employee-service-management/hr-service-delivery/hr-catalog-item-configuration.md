@@ -26,7 +26,7 @@ You can configure an HR catalog item \(also known as a record producer\) to defi
 -   The Agent Workspace for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic HR Service Delivery Agent Workspace.
 
 1.  [Create an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-hr-catalog-item.md)  
-Create an HR catalog item so that employees can request the HR service directly from the HR service catalog through a self-service portal such as the Employee Service Center. When you create a new HR catalog item, a corresponding HR service, record producer \(synonymous to HR catalog item\), and HR case template are automatically created.
+Create an HR catalog item so employees can request HR services through self-service. This automatically creates the HR service, record producer, and case template.
 2.  [Edit the record producer for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-hr-record-producer-for-hr-catalog-item.md)  
 Edit the record producer for an HR catalog item to define the required fields and how the item appears in the HR service catalog to employees.
 3.  [Edit the HR case template for an HR catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-hr-case-template-for-hr-catalog-item.md)  

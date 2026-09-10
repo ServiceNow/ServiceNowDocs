@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agentclientcollector-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,20 +67,6 @@ Zurich
 
 </td><td>
 
-**Agent Client Collector Framework**
-
--   **[Upgrade MID-less agents](https://www.servicenow.com/docs/access?context=upgrade-agent-from-instance&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, perform selective and high-volume upgrades on ACC agents when not using a MID Server by using products such as DEX and ACC-VC.
-
--   **[\[Placeholder link text to key verify-agent-functionality\]](https://www.servicenow.com/docs/access?context=verify-agent-functionality&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, verify that an agent is functioning properly by performing a self-test on the agent.
-
--   **[\[Placeholder link text to key acc-workspace-dashboard\]](https://www.servicenow.com/docs/access?context=acc-workspace-dashboard&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, view a list of agents and their statuses on the ACC Workspace dashboard.
-
 -   **[Use improved debug logging](https://www.servicenow.com/docs/access?context=acc-configure-log-levels&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.0.0, benefit from enhanced debug logging by sending all debug statements to a log file
@@ -116,29 +102,12 @@ Starting in version 5.0, configuration data files have a maximum size of 10MB.
 Starting in version 5.0, enable easier connection of Agent Client Collector to a proxy server by using a proxy auto-configuration \(PAC\) file.
 
 
- **Agent Client Collector Monitoring**
-
--   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
+ -   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
 
 Starting in version 3.15.0, GCP checks provide added support to configure metrics through a configuration file in JSON format.
 
 
--   **[Monitor Linux events](https://www.servicenow.com/docs/access?context=linux-checks-policies&family=zurich&ft:locale=en-US)**
-
-Starting in version 3.15.0, monitor Linux events using Linux event checks.
-
-
- **Agent Client Collector for Visibility Content**
-
--   **[Discover MSSQL components using ACC-VC](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
-
-Starting in version 1.5.0, use ACC-VC to discover MSSQL components in your environment.
-
--   **[Discover software information with ACC-VC using SWID tags](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
-
-Starting in version 1.5.0, gather software information with ACC-VC using software identification \(SWID\) tags on an agent and a ServiceNow® instance.
-
--   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
+ -   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
 
 Starting in version 1.3.0, use the Agent Client Collector for Visibility Content to discover TLS/SSL certificates used by the ports running on the server's configuration items \(CIs\). Certificate Inventory and Management uses the certificate data to manage the TLS/SSL certificate life cycle.
 
@@ -265,7 +234,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
 
 </td></tr><tr><td>
 

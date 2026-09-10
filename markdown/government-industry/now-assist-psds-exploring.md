@@ -83,9 +83,9 @@ For information about AI assets that are available on the ServiceNow AI Platform
 -   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)
 -   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
-## ServiceNow Otto panel in CSM Configurable Workspace
+## ServiceNow Otto panel in CRM Workspace
 
-An agent can use the ServiceNow Otto panel in CSM Configurable Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the ServiceNow Otto panel in CRM Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 **Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 

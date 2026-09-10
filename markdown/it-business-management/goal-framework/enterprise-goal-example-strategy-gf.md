@@ -7,7 +7,7 @@ release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -18,5 +18,5 @@ For defining an enterprise strategy, you can start by creating a strategic plan 
 
 The following illustration provides an example of a strategic plan, including its strategic priorities, goals, and targets.
 
-\[Omitted image "stratey-map-example.png"\] Alt text: Enterprise strategy map example.
+\[Omitted image "stratey-map-example.png"\] Alt text: Example of a an enterprise strategy map.
 

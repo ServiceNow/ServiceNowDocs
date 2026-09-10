@@ -16,7 +16,7 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 
 After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the Configuration Management Database \(CMDB\).
 
-Discovery launches special identity probes that accumulate identification data for each device and feed that data into the identifiers, which determine the action that Discovery must take for each device. Identifiers accurately determine the identity of the device to avoid the creation of duplicate CIs. This identification step only takes place for the Configuration item type of discovery, not for the other types of discovery.
+Discovery launches special identity probes that accumulate identification data for each device and feed that data into the identifiers. The identifiers determine the action that Discovery must take for each device. Identifiers accurately determine the identity of the device to avoid the creation of duplicate CIs. This identification step only takes place for the Configuration item type of discovery, not for the other types of discovery.
 
 The identity probe in the base Discovery system can be configured to ask the device for information such as its serial numbers, name, and network identification. The results of this scan are processed by an identity sensor, which then passes the results to the identifier. The identifier then attempts to find a matching device in the CMDB. If the identifier finds a matching CI, the identifier either updates that CI or does nothing. If the identifier cannot find a matching CI, it either creates a new CI or does nothing. If Discovery is configured to continue, the identifier launches the exploration probes configured in the classification record to gather additional information about the device. Exploration probes can be multiprobes or simple probes.
 
@@ -31,7 +31,7 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 ## Identifier rules
 
-The default Discovery system contains these identifier rules, each of which is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field and contains the appropriate attributes for discovering CIs from the specified table. Where necessary to discover all possible occurrences of an attribute, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
+The default Discovery system contains these identifier rules. Each rule is associated with a specific CI type \(the **sys\_class\_name** field on the CI record\) or the table in the **Applies to** field, and contains the appropriate attributes for discovering CIs from that table. Where necessary, tables from related lists \(**Search on** tables\) are included in the rule. For more information, see [Create or edit a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
 <table id="table_r2p_1ql_lt"><thead><tr><th>
 
@@ -115,7 +115,7 @@ none
 </td></tr></tbody>
 </table>## Matching strategy for the hardware rule
 
-The **sys\_class\_name** cannot be an attribute for independent rules, such as cmdb\_ci\_hardware. If your Discovery identification strategy depends on matching a CI with a specific class, you must create a rule for each class you want to use for matching and specify that class in the **Applies to** field of the Identifier form.
+The **sys\_class\_name** cannot be an attribute for independent rules, such as cmdb\_ci\_hardware. If your Discovery identification strategy depends on matching a CI with a specific class, create a rule for each class you want to use for matching. Specify that class in the **Applies to** field of the Identifier form.
 
 For example, you can create an identifier for a Linux server with different attributes than the Hardware Rule. You might want to use the machine name, IP address, and MAC address for identification. This is a solution for networks that use NIC bonding or teaming to increase available bandwidth. Bonded interfaces appear to be the same physical device and share the same IP and MAC addresses. The use of the **name** attribute allows Discovery to differentiate between the individual interfaces in the bonded channel.
 

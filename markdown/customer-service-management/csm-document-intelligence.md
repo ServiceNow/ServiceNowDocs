@@ -20,11 +20,11 @@ Agents can review values for extracted fields and make corrections as needed by 
 
 ## Predicted field values
 
-In CSM Configurable Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CRM Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 **Note:** The system displays the AI icon automatically. The agent doesn’t need to refresh the record page.
 
-In CSM Configurable Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
+In CRM Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
 ## Prediction banner
 
@@ -37,7 +37,7 @@ The system displays a banner at the top of a case record that contains one or mo
 
 Once an agent reviews the field, the banner is removed.
 
-The banner is displayed for records in the Case table, extensions of the Case table, and interaction records. The banner is displayed in the Core UI and CSM Configurable Workspace.
+The banner is displayed for records in the Case table, extensions of the Case table, and interaction records. The banner is displayed in the Core UI and CRM Workspace.
 
 The banner can be enabled or disabled by the **sn\_csm\_ml\_task.ui.banner.enabled** system property.
 

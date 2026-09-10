@@ -7,7 +7,7 @@ release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI, readiness evaluation, assessment, scheduled jobs]
 breadcrumb: [Configure, AI Readiness Evaluation, Enable AI experiences]

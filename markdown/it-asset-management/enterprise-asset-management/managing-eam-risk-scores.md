@@ -1,6 +1,6 @@
 ---
-title: Managing risks scores in Enterprise Asset Management
-description: Manage risk scores in the Enterprise Asset Management application by creating configuration values for risk likelihood, risk impact, and risk scores.
+title: Managing risk in Enterprise Asset Management
+description: Manage risk in the Enterprise Asset Management application by creating configuration values for risk likelihood, risk impact, and risk scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
-# Managing risks scores in Enterprise Asset Management
+# Managing risk in Enterprise Asset Management
 
-Manage risk scores in the Enterprise Asset Management application by creating configuration values for risk likelihood, risk impact, and risk scores.
+Manage risk in the Enterprise Asset Management application by creating configuration values for risk likelihood, risk impact, and risk scores.
 
 Assets associated to a model inherit the risk score values of the model. However, you can override the model risk scores by defining risk scores for the assets that are different from the risk score values specified on the model.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-publicsectordigitalservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 21
+last_updated: "2026-09-10"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in the CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the **Customer**, **Accounts**, and **Service Organizations** UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in the CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the **Customer**, **Accounts**, and **Service Organizations** UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
 
 </td></tr><tr><td>
 
@@ -54,7 +57,10 @@ Zurich
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
 
 </td></tr><tr><td>
 
@@ -62,9 +68,12 @@ Australia
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+-   **Upgrade information**
 
- Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the Customer, Accounts, and Service Organizations UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
+Customers who have not opted into new third-party LLM models may be silently routed to them during skill execution. If the new model is not provisioned or available in the customer's environment, this will result in skill execution failures. Check the models your skills are using in the AI Admin Hub console.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -108,14 +117,6 @@ Yokohama
 
 </td><td>
 
--   **[Grants Management](https://www.servicenow.com/docs/access?context=using-public-sector-digital-services&family=yokohama&ft:locale=en-US)**
-
-Simplify and streamline Grant application intake and screening​ with Grants Management:​ Intake and Screening, a part of Grants Management. Improve self-service with a Grants Portal that streamlines finding, applying for, and tracking grants, with added features such as guided intake, and a save, resume, and export functionality. Set up and manage grant programs easily with guided steps​ using Grants Management: ​Program Set Up​, which guides grant program managers through the process of creating, publishing, and managing grant programs.​
-
--   **[Communicate and share citizen and agent data securely between agencies using Service Exchange for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
-
-Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
-
 -   **[Post-chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
 
 Condense chat records into short summaries using the chat summarization skill in the ServiceNow Otto for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The ServiceNow Otto for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
@@ -127,22 +128,6 @@ Zurich
 
 </td><td>
 
--   **[Grants Management Funding Program](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
-
-Create a funding program, which serves as the top-level container from which individual grant programs are created and derive their budget allocations.
-
-Grant program managers can create a new funding program, or start by copying data and configurations from an existing funding program, using the funding program ID. From this funding program, admins can create grant programs directly, set and update the duration and overall budget, and ensure budgets flow down logically to individual grants.
-
-Each grant program is associated with a single funding program via the funding program ID. All grant programs linked to a specific funding program share the cumulative budget of that funding program, and their start and end dates fall within the funding program's duration.
-
--   **[Grants Management Evaluation &amp; Decision​](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
-
-Simplify and streamline your grant application decisions​ with Grants Management:​ Evaluation &amp; Decision. You can review, score, and manage proposals for grant programs in the Merit Review portal and define a funding proposal for a grant program by using the Grants Workspace. You can share this information internally with the grant program director.​ Grant program managers can define the merit review framework criteria, assign a reviewer group to each application, create, and track merit review tasks. Grant program managers can use document templates to compose letters that inform the applicants of results, with template options for Award, Rejected \(Ineligible\), and Rejected \(Decline\).
-
--   **[Grants Management Reviewer Service portal](https://www.servicenow.com/docs/access?context=psds-gmp-using-merit-review-portal-agent&family=zurich&ft:locale=en-US)**
-
-Enable your merit reviewers to track, score, and monitor grant applications via a dedicated Reviewer Service portal. The merit reviewers can capture and aggregate scores across the Grant Proposal review framework​ in the Grants Workspace. A score and rationale can be summarized as part of the application proposal result.​
-
 -   **[Agentic AI](https://www.servicenow.com/docs/access?context=agentic-ai-psds-explore&family=zurich&ft:locale=en-US)**
 
 Define the fees for information requests and autonomously assess waivers against an agency's criteria​. You can automate the process of synthesizing similar information requests and associated fees, and apply those fees to cases​. Your case fields are automatically filled in and integrated into the Information Request Playbook workflow and ServiceNow's AI framework.
@@ -153,14 +138,6 @@ Define the fees for information requests and autonomously assess waivers against
 Australia
 
 </td><td>
-
--   **[Enhancements to the grants management Workspace- Rolling grant approvals](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)**
-
-Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
-
-The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can either approve the Funding Allocation Request or reject it, returning all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
-
-Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding award, decline, or ineligibility letter can be issued to that applicant independently—without waiting for program-wide completion.
 
 -   **[Investigative Case Management](https://www.servicenow.com/docs/access?context=psds-explore-inv-case-management&family=australia&ft:locale=en-US)**
 
@@ -194,10 +171,6 @@ Produce clear, accurate, and well-structured case narratives using the Case narr
 -   **[Document Screening AI Skill for Social Benefits Playbook](https://www.servicenow.com/docs/access?context=psds-ai-skill-doc-screening&family=australia&ft:locale=en-US)**
 
 Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of ServiceNow Otto for Public Sector Digital Services \(PSDS\).
-
--   **[GOV.UK Developer Toolkit GDS Service Portal](https://www.servicenow.com/docs/access?context=psds-gdsp-overview&family=australia&ft:locale=en-US)**
-
-Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
 
 -   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=roles-installed-with-public-sector-digital-services&family=australia&ft:locale=en-US)**
 
@@ -249,7 +222,16 @@ Zurich
 
 </td><td>
 
--   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Enhancements to Constituent Service Portals](https://www.servicenow.com/docs/access?context=portals-psds-exploring&family=zurich&ft:locale=en-US)**
+
+UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update ensures backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, better filtering, and improved accessibility across service flows.
+
+
+ -   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**
 
 In the Grants Management: program setup, grant program managers can now add new points of contact for the applicants to the grants program in the Define Program stage. In the Publish Program stage, new fields have been added for program announcement removal. Grants program managers can now set grants programs to auto-remove at a defined date, and set application close to disable new applications from being submitted through the Grants Management portal.
 
@@ -260,7 +242,7 @@ Enable grant program managers to turn off new grant proposal submissions after t
 Enable applicants to review and download the results letter and merit review summary \(where applicable\) of their grants application, as well as accept or decline their award, all within the new **Results** tab of the Grants Management portal. Notify constituents about a pending award decision through the portal.
 
 
--   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=zurich&ft:locale=en-US)**
+ -   **[Constituent Service Dashboard Migration to Platform Analytics](https://www.servicenow.com/docs/access?context=constituent-services-dashboard&family=zurich&ft:locale=en-US)**
 
 The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics. Next Experience is a ServiceNow AI Platform® feature that is active by default when you load or upgrade to the Zurich release. The dashboard migration to Next Experience enables you to visualize historical and real-time process statistics in role-based dashboards. Access the new dashboard by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
@@ -271,29 +253,20 @@ Australia
 
 </td><td>
 
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-/
-
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-
-
 -   **[Enhancements to Grants Management: Program Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)**
-    -   [Grants Management Program Budget activity](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+    -   [Establish program budget](https://www.servicenow.com/docs/access?context=psds-config-gmp-pgr-budget&family=australia&ft:locale=en-US)
 
 Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
 
-    -   [Grants Management Setup](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+    -   [Configure lifecycle stepper](https://www.servicenow.com/docs/access?context=psds-config-gmp-pgr-lifecycle-stepper&family=australia&ft:locale=en-US)
 
 Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
 
 -   **[Enhancements to Grants Management: Proposal Playbook](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)**
-    -   [Grants Management Screen activity](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=australia&ft:locale=en-US)
+    -   [Screen a grant application](https://www.servicenow.com/docs/access?context=psds-using-gmp-grant-proposal-screen&family=australia&ft:locale=en-US)
 
 Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
 
--   ****
 
 </td></tr></tbody>
 </table>## Removed
@@ -412,7 +385,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -420,7 +396,10 @@ Zurich
 
 </td><td>
 
-Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configure](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=zurich&ft:locale=en-US). 
+-   **Activation information**
+
+Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configure](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -428,7 +407,10 @@ Australia
 
 </td><td>
 
-Install Public Sector Digital Services by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -555,7 +537,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -644,7 +630,7 @@ Yokohama
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
  See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
 

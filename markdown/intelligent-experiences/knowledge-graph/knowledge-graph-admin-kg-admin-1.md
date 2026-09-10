@@ -20,7 +20,7 @@ This user can create and update Knowledge Graph schema using Knowledge Graph des
 
 List of roles contained within the role.
 
-Knowledge Graph Admin \[kg\_admin\].
+Knowledge Graph administrator \[kg\_admin\].
 
 ## Groups
 

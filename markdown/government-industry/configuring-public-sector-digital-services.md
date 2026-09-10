@@ -20,7 +20,7 @@ Set up Public Sector Digital Services to enable government agents and service ma
 
 </td><td>
 
-[Configure agent workspaces\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure your agent workspaces, including the CSM Configurable Workspace, Playbooks, Service Bridge, case routing, and advanced case management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-organize-agent-workspaces.md)
+[Configure agent workspaces\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure your agent workspaces, including the CRM Workspace, Playbooks, Service Bridge, case routing, and advanced case management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-organize-agent-workspaces.md)
 
 </td><td>
 
@@ -61,10 +61,10 @@ In addition to installing the public sector application and playbooks, you can c
 
     For more information, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-service-definitions.md).
 
--   **Relabel menu items in CSM Configurable Workspace after upgrade**
+-   **Relabel menu items in CRM Workspace after upgrade**
 
-    After you upgrade your instance to a new release, certain menus and menu items in the CSM Configurable Workspace might not be labeled appropriately for public sector use. You can relabel the following items for public sector use by changing them in the UX list categories for Customer and Service Organizations.
+    After you upgrade your instance to a new release, certain menus and menu items in the CRM Workspace might not be labeled appropriately for public sector use. You can relabel the following items for public sector use by changing them in the UX list categories for Customer and Service Organizations.
 
-    For details, see [Relabel CSM Configurable Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-relabel-after-upgrading.md).
+    For details, see [Relabel CRM Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-relabel-after-upgrading.md).
 
 

@@ -1,13 +1,14 @@
 ---
 title: Issue readiness AI agent
-description: This AI agent scans the record fields and context of a ticket so it can determine if it is ready for a fulfiller to work on it.
+description: This AI agent scans the record fields and context of a ticket so it can determine if it is ready for a fulfiller to work on it.This AI agent analyzes a record's information, determines whether all relevant information is present on the record, and then makes a decision about whether the task is ready for work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-ai-issue-readiness-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 4
+keywords: [task readiness]
+breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Issue readiness AI agent
@@ -25,7 +26,7 @@ This AI agent scans the record fields and context of a ticket so it can determin
     -   The task lacks information that is consistently present in similar records \(if available\) for the same type of request, and that missing information is relevant to fulfill the request \(for example, missing steps, confirmations, or outcome\).
     -   The overall quality or clarity of the task data is poor, such as unclear context that would reasonably block progress.
 
-For more information, see [Platform Issue Readiness AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/readiness-aia.md).
+For more information, see [Using the issue readiness AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-issue-readiness-ai-agent.md).
 
 <table><thead><tr><th>
 
@@ -74,7 +75,7 @@ Get the record data
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -82,7 +83,7 @@ sn\_uxc\_gen\_ai.platform\_ai\_issue\_readiness
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 
@@ -114,4 +115,27 @@ Not applicable.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow AI Platform AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents-overview.md)
+
+## Using the issue readiness AI agent
+
+This AI agent analyzes a record's information, determines whether all relevant information is present on the record, and then makes a decision about whether the task is ready for work.
+
+### Issue Readiness AI agent overview
+
+Using the AI agent can help fulfillers focus on actionable work by reducing manual checks for missing supporting details or back-and-forth conversations. Instead of having to check whether tasks are waiting on pending approvals or unanswered questions, fulfillers can see what actionable work is available and prioritize it.
+
+### Prerequisites and setup
+
+To use this AI agent, you must have the Requester Agents - Foundation plugin installed on your instance, which is installed with any other ServiceNow Otto application, such as ServiceNow Otto for IT Service Management \(ITSM\).
+
+### Testing the Issue Readiness AI agent
+
+You can manually test the AI agent execution on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md). Select the AI agent, start a manual test, and use utterances in the Task field like the ones below.
+
+### Sample prompts
+
+After the agent has been activated in AI Agent Studio, enter phrases such as the following or similar queries to run the AI agent in Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams.
+
+-   Is INC001234 ready for work?
+-   Do I have enough details on CSM0001234 to start?
 

@@ -30,7 +30,7 @@ Query Generation skills are not used directly. Instead, they enable other applic
 
 1.  Navigate to **All** &gt; **Application Manager** and verify that the Generative AI Controller plugin is activated.
 
-    It is likely to already be active, especially if you installed and activated a ServiceNow Otto application and plugin that has Now Assist for Platform as a dependency.
+    It is likely to already be active, especially if you installed and activated a ServiceNow Otto application and plugin that has ServiceNow Otto for Platform as a dependency.
 
 2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 

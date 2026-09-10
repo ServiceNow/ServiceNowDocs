@@ -18,6 +18,8 @@ Connect your ServiceNow instance with third-party learning sites to pull learnin
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 **Important:** Coaching with Learning application is available from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
 Role required: learning\_admin
@@ -133,15 +135,15 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d170554e320">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d173586e336">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d170554e323">
+</th><th align="left" id="d173586e339">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d170554e329">
+</th></tr></thead><tbody><tr><td id="d173586e345">
 
 **Pluralsight Skills account**
 
@@ -149,7 +151,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d170554e345">
+</td></tr><tr><td id="d173586e361">
 
 **Cornerstone application**
 
@@ -157,7 +159,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d170554e361">
+</td></tr><tr><td id="d173586e377">
 
 **Udemy application**
 
@@ -165,13 +167,13 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d170554e373">
+</td></tr><tr><td id="d173586e389">
 
 **ServiceNow University application**
 
 </td><td>
 
-Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in [Setting up the ServiceNow University spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-now-learning-spoke.md) to perform the integration.
+Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in [Set up the ServiceNow University spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-now-learning-spoke.md) to perform the integration.
 
 </td></tr></tbody>
 </table>    The records from the third-party content are pulled into your ServiceNow instance using and API call. To successfully run this API call, you must do the following:

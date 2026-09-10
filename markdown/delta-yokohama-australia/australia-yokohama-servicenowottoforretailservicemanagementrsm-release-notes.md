@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforretailservicemanagementrsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,16 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+-   **[Store inquiry AI agent](https://www.servicenow.com/docs/access?context=agentic-workflows-now-assist-retail&family=zurich&ft:locale=en-US)**
+
+The store inquiry AI agent is an intelligent assistant designed to support retail store support agents in efficiently managing and resolving cases.
+
+New tools or scripts have been added to support store inquiry case management, including:
+
+    -   Updating case details: Modifying the current information about a case, such as adding resolution information or updating work notes.
+    -   Fetching similar cases: Retrieving past cases that have similar descriptions to the current case.
+    -   Retrieving metadata for selectable links: Gathering information about a source \(like a case or document\) to create a selectable link to it.
+    -   Get case details: Retrieving the current information about a case, such as its short description.
 
 </td></tr><tr><td>
 
@@ -234,7 +243,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow Otto for RSM plugin is available with activation of com.sn.now.platform plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

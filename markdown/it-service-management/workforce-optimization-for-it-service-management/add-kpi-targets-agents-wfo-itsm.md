@@ -18,6 +18,8 @@ Set key performance indicator goals that you want your agents to achieve so that
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: pa\_target\_admin and sn\_team\_perf.team\_performance\_admin
 
 ## About this task
@@ -46,15 +48,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d254133e145">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d257864e161">
 
 To
 
-</th><th align="left" id="d254133e148">
+</th><th align="left" id="d257864e164">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d254133e154">
+</th></tr></thead><tbody><tr><td id="d257864e170">
 
 **Update an existing target**
 
@@ -62,7 +64,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d254133e166">
+</td></tr><tr><td id="d257864e182">
 
 **Set a target for a key performance indicator**
 
@@ -72,7 +74,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d254133e187">
+</td></tr><tr><td id="d257864e203">
 
 **Set a target to improve an existing baseline value**
 

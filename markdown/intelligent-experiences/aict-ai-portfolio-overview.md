@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-ai
 release: australia
 topic_type: concept
 last_updated: "2026-07-22"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 ---
@@ -48,20 +48,24 @@ Access an overview of your AI portfolio on the **Home** page in AI Control Tower
     -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can view the total number of AI assets in the **Inventory** widget. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can view the total number of assets you own in the **Your inventory** widget.
     -   Break down your inventory by **By type**, **By status**, **By department**, or **By management status**, and identify where your assets are concentrated.
     -   Select the widget to open the **Inventory** page, where you can search, filter, and take action on individual assets.
+-   Track unsanctioned AI use across your organization from the **Shadow AI traffic** widget.
+    -   Review the number of AI services detected in the last 30 days and the percentage change from the previous period.
+    -   Select the arrow icon on the widget to open the **Shadow AI** overview page, where you can review detected AI traffic in more detail. For more information, see [Shadow AI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sh-ai-overview.md).
+    -   This widget appears only when Shadow AI is activated and configured. See [Configuring Shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sh-ai-configuring.md).
 -   Assess the governance health of your managed AI assets from the **Governance posture summary** widget.
     -   Review the distribution of managed AI assets across five dimensions: **Quality**, **Safety**, **Security**, **Compliance**, and **Residual risk**.
     -   Identify the dimensions where your portfolio has the most assets in the **Low** or **NA** category, and use those findings to prioritize governance work.
     -   If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this widget reflects only the assets you own. The **Quality** and **Safety** dimensions remain interactive, but **Security**, **Compliance**, and **Residual risk** are summary-only.
 -   Monitor the regulatory risk of your AI assets from the **Regulatory risk classification** widget.
     -   Review the number of AI assets classified as **Unacceptable**, **High**, **Medium**, or **Low** risk.
-    -   Focus remediation efforts on assets in the higher-risk tiers, where misclassification or inadequate controls have the most significant consequences.
+    -   Focus remediation efforts on assets in the higher-risk tiers, where misclassification or inadequate controls can have the most significant consequences.
     -   If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this widget reflects only the assets you own, and does not link out to the full **Regulatory risk classification** page.
 -   Track the value your AI assets deliver from the **AI Value** widget.
     -   Check the total return for all managed AI assets and the percentage change over the previous period. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this reflects only the assets you own.
     -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select the widget to open the full Value page, where you can see per-asset contribution and filter the view by time period, team, or AI system.
 -   Review your governance workload in the **Lifecycle tasks needing attention** table.
     -   Select **By inventory** to view a list of AI assets with the most pending tasks. Use this view to identify the assets that are consuming the most governance capacity. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this view is scoped to the assets you own.
-    -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select **By team** to view a list of tasks for team members. Use this view to identify team members who are overloaded or falling behind.
+    -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select **By team** to view a list of tasks for team members. Use this view to identify team members who may be overloaded or falling behind.
 -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, use the **Get started with AI Control Tower** widget to launch a guided setup experience that helps you configure AI Control Tower.
     -   Track your overall setup progress and see the milestone you're currently working on.
     -   Select **Set up now** to open guided setup, or select **Continue** to pick up where you left off.

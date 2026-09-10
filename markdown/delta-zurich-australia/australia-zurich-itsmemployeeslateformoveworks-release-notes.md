@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itsmemployeeslateformoveworks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -202,7 +202,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Enable ITSM Employee Slate for Moveworks by setting up Moveworks for Employee Slate and enabling the ITSM Employee Slate for Moveworks plugin. For more information, see [\[Placeholder link text to key configure-employeeworks-itsm\]](https://www.servicenow.com/docs/access?context=configure-employeeworks-itsm&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -351,6 +354,8 @@ Australia
 -   Investigate service status in more depth from a dedicated Service Status page.
 -   Ask Otto to summarize current active outages in one select, directly from the home page banner.
 -   Ask natural-language questions about outages -- by service, by outage number, or by date range -- and get a summarized answer with suggested follow-ups.
+-   Check in for a walk-up visit to the tech lounge or schedule an in-person appointment directly from the home page with available time slots.
+-   Ask Otto to request a tech lounge visit in natural language, and get routed to walk-in visit or a booking.
 
  See [ITSM Employee Slate for Moveworks](https://www.servicenow.com/docs/access?context=employee-works-itsm&family=australia&ft:locale=en-US) for more information.
 

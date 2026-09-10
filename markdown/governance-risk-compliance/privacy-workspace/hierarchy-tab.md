@@ -8,7 +8,7 @@ product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 6
 breadcrumb: [Processing activities, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -49,7 +49,7 @@ You can also collect hierarchy information from business users by adding this se
 
 The Lineage map button in the Hierarchy tab displays a graphical view of all the nodes and relationships connected to the current processing activity. You can use the lineage map to visualize data flows, navigate between connected nodes, and edit or delete relationships.
 
-The lineage map not only displays the nodes directly linked to the current processing activity but also the nodes connected to those nodes. You can trace the entire chain of data transfer across all levels from a single view.
+The lineage map not only displays the nodes directly linked to the current processing activity but also the nodes connected to those nodes. You can trace the entire chain of data transfer across all levels from a single view. For tasks to manage the lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md).
 
 ## Part of processing activity
 
@@ -73,9 +73,13 @@ By default, the lineage map displays nodes up to five levels downstream and one 
 
 For more information, see [Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md).
 
-## Methods to create a lineage
+## Methods to create a lineage map
 
-You can create a lineage from the Hierarchy tab of a processing activity. For more information, see [Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
+A lineage is created from the hierarchy relationships that you establish between different objects in a processing activity.
+
+To create a hierarchy, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
+
+To view and manage a lineage map, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md).
 
 ## Information displayed on the Hierarchy tab
 
@@ -85,7 +89,18 @@ After a relationship is created, the Hierarchy tab displays the following column
 -   Relationship: The relationship type that defines how the primary node is connected to the related node, such as Sends data to, Contains, or Depends on.
 -   Related to: The node connected to the primary node by the relationship.
 -   Part of processing activity: Indicates whether the application, vendor, company, entity, business process or processing activity is marked as part of the current processing activity.
+-   Primary node location: The location of the primary node.
+-   Related node location: The location of the related node.
+-   Data subjects involved: The data subject types whose personal data is being transferred from the primary node to the related node. Select **Cell actions** on this column to view the location and data elements for a specific data subject type.
+
+    **Note:** This field appears only when you add **Sends data to** or **Received data from** relationship types. A privacy admin can extend this behavior to other relationship types by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property. For steps, see [Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md).
+
 -   Description: A description of the relationship.
 
 **Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ropa-record.md)
+
+**Related topics**  
+
+
+[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-transfers.md)
 

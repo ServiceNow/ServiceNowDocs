@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/associate-emai
 release: australia
 topic_type: task
 last_updated: "2026-06-24"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [ServiceNow CRM for Outlook, associate email, link email, log email]
 breadcrumb: [Activity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -54,6 +54,10 @@ If your admin has configured the AI sales activity association app, then emails 
     For example, to find a lead by email address, you would set the condition **\[Email\] \[is\] \[**&lt;email address to search for&gt;**\]**.
 
 6.  In the **Search** field, enter the search information such as a name or email address.
+
+    If no records match your search or filter criteria, the add-in displays the following message: `No match found. Your search and filter criteria returned no results. Modify your search, clear filters, or create a new record.`
+
+    To create a new record, see [Create a CRM record from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md).
 
 7.  Locate the record you want to associate and select **Associate**.
 

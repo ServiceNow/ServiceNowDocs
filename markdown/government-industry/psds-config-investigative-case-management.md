@@ -33,5 +33,5 @@ As a user with the admin role, complete the following configuration tasks to set
 The main ServiceNow capabilities that are leveraged to support the Investigative Case Management workflows are:
 
 -   ServiceNow Otto for Public Sector Digital Services \(PSDS\)
--   CSM Configurable Workspace: Provides a process platform for investigators to capture key details and complete key processes.​
+-   CRM Workspace: Provides a process platform for investigators to capture key details and complete key processes.​
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-03-22"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 breadcrumb: [Workplace Concierge agentic workflow, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The email address for Workplace Concierge is configured by your admin.
 
-<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d412158e75">
+<table id="choicetable_lpt_w3n_r3c"><thead><tr><th align="left" id="d413645e75">
 
 Choice
 
-</th><th align="left" id="d412158e78">
+</th><th align="left" id="d413645e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d412158e84">
+</th></tr></thead><tbody><tr><td id="d413645e84">
 
 **Calendar invite**
 
@@ -44,7 +44,7 @@ Description
 
 Add Workplace Concierge as a guest to the calendar invite.Workplace Concierge extracts the meeting date and time, host identity, location, and attendee email addresses.
 
-</td></tr><tr><td id="d412158e100">
+</td></tr><tr><td id="d413645e100">
 
 **Email thread**
 
@@ -70,7 +70,7 @@ Workplace Concierge then scans for the date and time, location, visitor type, at
 
 ## What to do next
 
-Visitors can reply to the invitation email to provide information for their pre-check tasks. The Email Visitor Intake agent processes email replies and updates the visitor records.
+Visitors can reply to the invitation email to provide information for the prerequisite tasks. The Email Visitor Intake agent processes email replies and updates the visitor records.
 
 If Workplace Concierge is included in any emails sent to the visitors, the Email Visitor Intake agent scans the email threads for relevant data. The agent then updates the visitor records.
 

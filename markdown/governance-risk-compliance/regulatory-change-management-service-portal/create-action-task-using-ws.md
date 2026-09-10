@@ -1,6 +1,6 @@
 ---
-title: Create a new action task for the alert
-description: Create a new action task for the alert so that you can assign the action tasks to the compliance and risk users and mark a due date for the action tasks.
+title: Create an action task for the alert
+description: Create a new action task for the alert so that you can assign it to compliance or risk users and mark a due date for the action tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Create a new action task for the alert
+# Create an action task for the alert
 
-Create a new action task for the alert so that you can assign the action tasks to the compliance and risk users and mark a due date for the action tasks.
+Create a new action task for the alert so that you can assign it to compliance or risk users and mark a due date for the action tasks.
 
 ## Before you begin
 
@@ -251,6 +251,10 @@ Attachments related to the task.
 ## Result
 
 The action task is marked for the users with the sn\_compliance.manager or the sn\_risk.manager roles.
+
+If you specified an impacted area on the action task, the corresponding compliance library record for that impacted area links the action task in its **Regulatory action tasks** tab. This allows you to navigate between the action task and the impacted area record in either direction.
+
+**Note:** The **Regulatory action tasks** tab is visible on citations, control objectives, controls, and policies.
 
 ## What to do next
 

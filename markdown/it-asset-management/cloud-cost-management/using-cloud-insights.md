@@ -16,14 +16,16 @@ breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 
 Use Cloud Cost Management to rightsize, identify, assign, manage, and analyze usage data of your cloud resources.
 
--   **[Reduce resource cost with Reservation Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md)**  
-View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.
--   **[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)**  
-Gain better visibility of resource usage by identifying your over-provisioned or underused resources, configuring rightsizing operations, implementing rightsizing recommendations, and performing various rightsizing operations.
+-   **[Analyze cloud spend using the Cloud cost summarizer generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-summary-otto-ccm.md)**  
+View actionable optimization insights with a comprehensive AI-generated summary of your cloud spend trends, top cost drivers, and budget alignment with your selected filters and groupings.
 -   **[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)**  
 Reduce cost by identifying the unused resources and scheduling jobs to power-off or terminate the unused resources.
+-   **[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)**  
+Gain better visibility of resource usage by identifying your over-provisioned or underused resources, configuring rightsizing operations, implementing rightsizing recommendations, and performing various rightsizing operations.
 -   **[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/improve-res-use-business.md)**  
 Improve resource usage and reduce your cloud spend by running resources during the specified business hours.
+-   **[Reduce resource cost with Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md)**  
+View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.
 -   **[Manage cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-cloud-budgets.md)**  
 Define and monitor custom budget plans for managing your cloud spend by using the Budget view in the Cloud Cost Management Workspace.
 -   **[Manage Cloud Cost Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.md)**  
@@ -34,6 +36,8 @@ Assign ownership of one or more service accounts and, optionally, the related CI
 To ensure that cost data for a particular resource doesn’t appear in a report, you exclude the resource by adding it to the Excluded Resources list.
 -   **[Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)**  
 Create a tag category to enable multiple tag names for representing costs against a single business entity. For example, multiple users might independently have created the tag names "App", "AppService", and "appl" to indicate applications. With a tag category of "Application", any costs for items tagged App, AppService, or appl are correctly assigned as costs against an application.
+-   **[Upload business data for unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/upload-business-data.md)**  
+Upload revenue and unit count data to populate the Unit economics dashboard in the Business Insights view. This Unit economics dashboard enables you to view unit count data across applications, departments, and business units.
 -   **[Create or update a shared cost allocation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-shared-cost-policy.md)**  
 Create a shared cost allocation policy with  different allocation types to split the cost of shared cloud resources among various business lines.
 -   **[Set up or update preferred currency options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/setup-update-currency.md)**  

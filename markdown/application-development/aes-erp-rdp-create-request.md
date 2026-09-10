@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-create-request.html
 release: australia
 topic_type: task
-last_updated: "2026-06-22"
-reading_time_minutes: 1
-keywords: [app, engine, erp, sap, rapid, deployment, pack, request]
-breadcrumb: [Use, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-08-14"
+reading_time_minutes: 2
+keywords: [app, engine, sap, erp, rapid, deployment, pack, master data management, MDM, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Use, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Create master data requests
@@ -17,7 +17,7 @@ Submit a request to create a master data record, such as a customer, business pa
 
 ## Before you begin
 
-Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
+Role required: An MDM Orchestrator requestor role. \(For more information, see [Roles used in App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-components-installed.md).\)
 
 ## Procedure
 
@@ -80,5 +80,5 @@ If you saved the draft and want to edit the information, navigate to **All** &gt
 
 If you submitted the request, a deduplication agent runs automatically to find potential duplicates before the request advances. Request details are displayed, including a progress indicator, activity stream, attachments, the duplicate check result, and creation information. For more information, select **View full details**. Depending on the domain configuration, the request routes to an enricher, then to a governance user, and finally to an approver in Approval Hub. Track progress by navigating to **All** &gt; **MDM Orchestrator** &gt; **MDM Requestor Portal** and selecting the my requests icon \[Omitted image "aes-erp-rdp-my-requests.png"\].
 
-**Parent Topic:**[Using App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
+**Parent Topic:**[Using App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use.md)
 

@@ -124,5 +124,7 @@ Additional requirements or a private note to the receptionist.
 
 [Additional requirement form]()
 
+[About visit-related tables]()
+
 [Differences between Workplace Visitor Management versions]()
 

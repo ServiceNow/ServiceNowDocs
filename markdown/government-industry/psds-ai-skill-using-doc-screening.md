@@ -26,7 +26,7 @@ The Document screening generative AI skill automatically analyzes documents uplo
 
 ## Procedure
 
-1.  Navigate to a social benefits, license and permit, or information request case in the CSM Configurable Workspace.
+1.  Navigate to a social benefits, license and permit, or information request case in the CRM Workspace.
 
 2.  Complete the activities in the Review stage once the constituent has uploaded their documents and other supporting information through the Government Service Portal and the case is moved from Intake to Review stage.
 

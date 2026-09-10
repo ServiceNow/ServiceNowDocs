@@ -26,7 +26,7 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 -   Associate a department, group, and required skills with a business role
 -   Associate business actors with a business role to identify who fulfills it
 
-When you model a business role in a diagram, the default relationship between a business actor and a business role is **Assigned to:Fulfilled by**.
+When you model a business role in a diagram, the default relationship between a business actor and a business role is **Assigned to :: Fulfilled by**.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 

@@ -23,6 +23,8 @@ The workspace users can search the related list by name as well. For more inform
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Configure SI design time investigation]()
 
 [SIR Workspace Related Records]()

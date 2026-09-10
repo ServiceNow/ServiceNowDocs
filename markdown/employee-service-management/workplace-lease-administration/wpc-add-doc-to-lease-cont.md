@@ -40,7 +40,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
     2.  On the Create New Documents form, fill in the fields.
 
-        For a description of the field values, see [Create New Documents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-new-doc-form.md)
+        For a description of the field values, see [Fields in the Create New Documents form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-new-doc-form.md)
 
     3.  Select **Submit**.
 

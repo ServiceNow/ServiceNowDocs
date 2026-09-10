@@ -43,6 +43,7 @@ This section includes the Customer Success Management tables.
 |Applicable entitlements|Associates applicable entitlements with an engagement.|
 |Applicable team members|Associates team members with an engagement.|
 |Applicable customer team|Associate a customer team with an engagement.|
+|Meeting applicable records|Associates records with a touchpoint meeting. Each entry links a meeting to a related record, such as a success play created from a meeting recommendation. The association type indicates the relationship: Trigger, Action Item, or Referenced. The AI Recommended field indicates whether the associated record was suggested by ServiceNow Otto.|
 
 **Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-gu
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 keywords: [Now Assist Guardian, Llama, Generative AI, GenAI, SLM, Large language model, Guardrails, Safety categories]
 breadcrumb: [Agentic AI security and governance]
 ---
@@ -378,13 +378,13 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md)
+
 
 </td><td>
 
 -   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/na-fsm-generate-kb-article.md)
 -   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/generate-wot-summ-fsm.md)
+-   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/close-wo-wot-mobile.md)
 
 </td></tr><tr><td>
 
@@ -445,7 +445,7 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)
+
 
 </td><td>
 
@@ -457,7 +457,7 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-now-assit-landing.md)
+
 
 </td><td>
 
@@ -510,7 +510,7 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-[Record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+Record summarization
 
 </td></tr></tbody>
 </table>-   **[Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md)**  

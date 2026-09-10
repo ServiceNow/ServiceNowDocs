@@ -28,7 +28,7 @@ Add and configure signature blocks in contract templates to define signatories, 
 
 [Configure metadata for fields, variables, and variables sets in a contract document]()
 
-[Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts]()
+[Map clauses and clause variations]()
 
 [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts]()
 

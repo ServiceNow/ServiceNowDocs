@@ -16,7 +16,7 @@ breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Manageme
 
 Discovery probes and sensors perform data collection and update the Configuration Management Database \(CMDB\).
 
-With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not using patterns yet and for customers who already have customized probes that are retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
+With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not yet using patterns or who have customized probes retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -122,10 +122,10 @@ Every probe in Discovery must have a corresponding sensor to process the data re
 -   **[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md)**  
 Several discovery probes and their associated sensors are included with Discovery. You rarely need to modify probes or sensors. But you might need to set parameters to control the behavior of a particular probe or align versions of customized probes.
 -   **[Align versions of customized probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_AlignVerCustProbeSens.md)**  
-If you customized a probe or sensor and upgraded to a new version of an instance, you need to realign the versions of the customized probe and sensor to the most current version.
+If you customized a probe or sensor and upgraded to a new instance version, realign the customized probe and sensor to the most current version.
 -   **[Discovery multiprobes and multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md)**  
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
--   **[Example: Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
+-   **[Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
 This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
 **Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/using-discovery.md)

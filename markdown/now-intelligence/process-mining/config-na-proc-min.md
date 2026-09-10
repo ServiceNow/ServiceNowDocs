@@ -35,6 +35,10 @@ To work effectively with work notes analysis using AI, you must activate the Wor
 To work effectively with process inefficiency highlights using AI, you must activate the process inefficiency highlights skill and configure improvement opportunities for the process table and the project.
 -   **[Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/nowass-intent-activity-analysis.md)**  
 To work effectively with intent and activity analysis using AI, you must activate the Intent and Activity Analysis skill and configure the intent and activity analysis for the process table and the project.
+-   **[Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-pro-config-skill.md)**  
+Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
+-   **[Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-gen-state-resp.md)**  
+Map process steps to stakeholder responsibilities using AI, enabling advanced Process Mining features.
 
 **Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/now-assist.md)
 

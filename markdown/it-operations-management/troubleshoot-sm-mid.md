@@ -28,3 +28,8 @@ Restart the MID Server. See [Manually start, stop, and restart a MID Server](htt
 
 **Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)
 
+**Related topics**  
+
+
+[Synthetic monitor status definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitor-status-definitions.md)
+

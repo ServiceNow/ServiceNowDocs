@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-agentclientcollector-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -166,14 +166,6 @@ Yokohama
 
 </td><td>
 
--   **[Scan your resource directories for file attributes](https://www.servicenow.com/docs/access?context=directory-scan-checks-policies&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.13.0, run a check to receive information on the directory file's integrity, size, space, response time, and age.
-
--   **[Conserve MID Server resources by using MID-less installation for Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-itom-cloud-services&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.6.5, conserve MID Server resources for more persistent features by using the MID-less installation when installing Agent Client Collector. With this installation, you don't need a MID Server in your system architecture.
-
 -   **[Create tasks to address Agent Client Collector errors](https://www.servicenow.com/docs/access?context=create-error-task&family=yokohama&ft:locale=en-US)**
 
 Starting in version 4.3.0, create tasks to resolve errors relating to the Agent Client Collector. Tasks are assigned to personnel who investigate the underlying issues and work to resolve the errors.
@@ -194,54 +186,12 @@ Starting in version 1.3.0, discover java file information using Agent Client Col
 
 Starting in version 4.3.0, enhance efficiency by performing high-volume upgrade of large numbers of Agent Client Collector installations at once.
 
--   **[Block event creation for non-existent entities](https://www.servicenow.com/docs/access?context=prevent-events-nonexistent-entities&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.13.0, block the creation of events and alerts if the process monitoring and log files don't exist in their indicated location.
-
--   **[Control how check results are sent](https://www.servicenow.com/docs/access?context=create-edit-policies&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.6.5, configure the circumstances when check results are sent.
-
--   **[Configure and receive notifications of agent key expiration](https://www.servicenow.com/docs/access?context=agent-registration-key-configuration&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.6.5, receive notifications that indicate when an agent registration key is expiring.
-
--   **[Monitor network host availability](https://www.servicenow.com/docs/access?context=network-host-availability-check&family=yokohama&ft:locale=en-US)**
-
-Starting in version 4.1.0, use a new check to verify network host availability.
-
--   **[Identify software running on Linux and Windows devices](https://www.servicenow.com/docs/access?context=acc-visibility-checks-policies&family=yokohama&ft:locale=en-US)**
-
-Starting in version 4.1.0, identify the software that is running on your Linux and Windows servers and devices by using file-based Discovery. File-based Discovery enables you to maintain the records of your software licenses and helps you to evaluate any threats from unwanted files.
-
--   **[Store ServiceNow instance credentials in the Google Cloud Secret Manager when the Informer uses Google Kubernetes Engine \(GKE\)](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
-
-If your organization uses Google Kubernetes Engine \(GKE\) you can store the secret in Google Cloud Secret Manager. The Kubernetes Visibility Agent Informer can then pull the ServiceNow credentials for accessing your instance from the Google Cloud Secret Manager.
-
--   **[Use a custom CA to enable the Informer to communicate with the ServiceNow instance when using a custom root CA](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
-
-Mount a custom certificate authority into the Kubernetes Visibility Agent Informer pod to enable the Informer to communicate with the instance when a custom root CA is used.
-
 
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
-
-**Agent Client Collector Framework**
-
--   **[Upgrade MID-less agents](https://www.servicenow.com/docs/access?context=upgrade-agent-from-instance&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, perform selective and high-volume upgrades on ACC agents when not using a MID Server by using products such as DEX and ACC-VC.
-
--   **[\[Placeholder link text to key verify-agent-functionality\]](https://www.servicenow.com/docs/access?context=verify-agent-functionality&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, verify that an agent is functioning properly by performing a self-test on the agent.
-
--   **[\[Placeholder link text to key acc-workspace-dashboard\]](https://www.servicenow.com/docs/access?context=acc-workspace-dashboard&family=zurich&ft:locale=en-US)**
-
-Starting in version 6.0.0, view a list of agents and their statuses on the ACC Workspace dashboard.
 
 -   **[Use improved debug logging](https://www.servicenow.com/docs/access?context=acc-configure-log-levels&family=zurich&ft:locale=en-US)**
 
@@ -278,29 +228,12 @@ Starting in version 5.0, configuration data files have a maximum size of 10MB.
 Starting in version 5.0, enable easier connection of Agent Client Collector to a proxy server by using a proxy auto-configuration \(PAC\) file.
 
 
- **Agent Client Collector Monitoring**
-
--   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
+ -   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
 
 Starting in version 3.15.0, GCP checks provide added support to configure metrics through a configuration file in JSON format.
 
 
--   **[Monitor Linux events](https://www.servicenow.com/docs/access?context=linux-checks-policies&family=zurich&ft:locale=en-US)**
-
-Starting in version 3.15.0, monitor Linux events using Linux event checks.
-
-
- **Agent Client Collector for Visibility Content**
-
--   **[Discover MSSQL components using ACC-VC](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
-
-Starting in version 1.5.0, use ACC-VC to discover MSSQL components in your environment.
-
--   **[Discover software information with ACC-VC using SWID tags](https://www.servicenow.com/docs/access?context=exploring-accv&family=zurich&ft:locale=en-US)**
-
-Starting in version 1.5.0, gather software information with ACC-VC using software identification \(SWID\) tags on an agent and a ServiceNow® instance.
-
--   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
+ -   **[Run certificate Discovery using Agent Client Collector for Visibility Content](https://www.servicenow.com/docs/access?context=run-cert-discovery-accvc&family=zurich&ft:locale=en-US)**
 
 Starting in version 1.3.0, use the Agent Client Collector for Visibility Content to discover TLS/SSL certificates used by the ports running on the server's configuration items \(CIs\). Certificate Inventory and Management uses the certificate data to manage the TLS/SSL certificate life cycle.
 
@@ -363,10 +296,6 @@ Yokohama
 -   **[Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring](https://www.servicenow.com/docs/access?context=agent-workspace-ops-intelligence&family=yokohama&ft:locale=en-US)**
 
 Starting in version 4.1.0, view and monitor metric data with Metric Explorer, even if you have not installed Agent Client Collector Monitoring.
-
--   **[\[Placeholder link text to key acc-visibility-landing-page\]](https://www.servicenow.com/docs/access?context=acc-visibility-landing-page&family=yokohama&ft:locale=en-US)**
-
-Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility Content.
 
 
 </td></tr><tr><td>
@@ -502,7 +431,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
 
 </td></tr><tr><td>
 
@@ -510,7 +442,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
 
 </td></tr><tr><td>
 

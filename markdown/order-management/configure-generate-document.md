@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 2
-breadcrumb: [PDF template for Quotes, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [PDF template for Quotes, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure quote document generation
@@ -95,4 +95,6 @@ To configure the feature, update the system fields, create a custom integration 
 ## Result
 
 When a user selects the generate-document button on a quote, the integration generates a PDF document from the selected template and attaches it to the quote. The document is available in the **Attachments** section of the Contextual Side Panel \(CSP\).
+
+**Parent Topic:**[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-configure-pdf-documents.md)
 

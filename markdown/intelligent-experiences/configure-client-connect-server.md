@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-client-connect-server.html
 release: australia
 topic_type: task
-last_updated: "2025-08-08"
-reading_time_minutes: 5
+last_updated: "2026-07-29"
+reading_time_minutes: 7
 breadcrumb: [Connect, MCP Server Console, Enable AI experiences]
 ---
 
@@ -16,11 +16,16 @@ Configure a Model Context Protocol \(MCP\) client to connect to an MCP server an
 
 ## Before you begin
 
-Role required: none
+Role required: sn\_mcp\_server.viewer
 
 ## About this task
 
 The process to configure a client to connect to a server is dependent on the client used. The following procedure is a high-level overview of the workflow to configure a client to call a server. For more information, refer to the documentation for your AI application and client. For an example that demonstrates how to connect from a server on one instance to the ServiceNow Model Context Protocol Client on another instance, see the example following this procedure.
+
+**Note:**
+
+-   MCP Server Console supports the Streamable HTTP transport. By default, tool calls return a single JSON response. Server-Sent Events \(SSE\) are optionally available for streaming response types. Stdio is not supported.
+-   The MCP rate limit is not configurable currently, and adjusting the rate limit requires a service restart. Contact your ServiceNow representative to learn more.
 
 ## Procedure
 
@@ -92,7 +97,7 @@ Authorization URL
 
 </td></tr><tr><td>
 
-Token URL
+Access Token URL
 
 </td><td>
 
@@ -108,7 +113,7 @@ Token Revocation URL
 
 </td></tr><tr><td>
 
-Refresh URL
+Refresh Token URL
 
 </td><td>
 
@@ -116,7 +121,7 @@ Refresh URL
 
 </td></tr><tr><td>
 
-Redirect URL
+Redirect or Callback URL
 
 </td><td>
 
@@ -128,7 +133,7 @@ Client ID
 
 </td><td>
 
-The client ID from the OAuth inbound integration on the server instance.
+The client ID from the OAuth inbound integration on the server instance.**Note:** For clients that support Client ID Metadata Document \(CIMD\) authentication, you can register a CIMD client and provide a CIMD URL instead of a client ID. For more information, see [Configure a CIMD client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-cimd-client.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +141,7 @@ Client secret
 
 </td><td>
 
-The client secret from the OAuth inbound integration on the server instance.
+The client secret from the OAuth inbound integration on the server instance.If you use CIMD authentication, you don't need to provide a client secret.
 
 </td></tr></tbody>
 </table>    After configuring these details, the client calls the server with the `Authorization: Bearer <token>` header. If the token is validated by the server, the client receives the list of tools available for use.
@@ -145,16 +150,29 @@ The client secret from the OAuth inbound integration on the server instance.
 
 3.  Enter a prompt for the information you need or for the tool to perform an action on the instance.
 
-    For example, if the Look up Incident Records tool is available, you could enter "Get all open incidents." With the Case summarization tool, you could enter "Summarize all cases closed this week."
+    For example, if the Look up Incident Records tool is available, you could enter "Get all open incidents". With the Case summarization tool, you could enter "Summarize all cases closed this week".
+
+    **Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool will not be able to complete the task.
 
     The server runs the relevant tools and returns the result to the client as JSON data. The client presents the response as formatted text.
 
+    **Note:** If you don't receive the expected data in the response, review the following troubleshooting tips:
+
+    -   If you receive an empty or incomplete response rather than an error, first check the ACL configuration for the invoked tool. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md).
+    -   If you receive a 401 error, generate a new authentication token from the client.
+    -   If you receive a 403 error, confirm that the calling user or client has the required role and ACL access for the invoked tool.
+
+If you run into other issues connecting to a server, see the following additional resources to help you troubleshoot:
+
+-   [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-tools-mcp-server.md)
+-   [MCP Server Console FAQ](https://www.servicenow.com/community/now-assist-articles/mcp-server-console-faq/ta-p/3550125) in the ServiceNow Community
+-   [OAuth Inbound Authentication with ServiceNow: Authorization Code Grant Flow Using Postman](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2058755) article in the Now Support Knowledge Base
 
 ## Connecting to an MCP server from ServiceNow Model Context Protocol Client
 
-This example demonstrates how to connect to a server from an AI agent on another instance using the ServiceNow Model Context Protocol Client. First, you configure the client to call the preconfigured Quickstart Server. From an AI agent, you access the Quickstart Server's list of tools and add individual tools to the agent. Lastly, you test the agent in AI Agent Studio by providing a prompt and seeing the agent's response. For more information, see the [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md) documentation.
+This example demonstrates how to connect to a server from an AI agent on another instance using the ServiceNow Model Context Protocol Client. First, you configure the client to call the preconfigured Quickstart Server. From an AI agent, you access the Quickstart Server's list of tools and add individual tools to the agent. Lastly, you test the agent in AI Agent Studio by providing a prompt and seeing the agent's response. For more information, see the [Model Context Protocol Client Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-client.md) documentation.
 
-Role required: sn\_mcp\_client.admin
+Role required: sn\_mcp\_server.viewer and sn\_mcp\_client.admin
 
 1.  On the server instance, create an OAuth inbound integration for the ServiceNow Model Context Protocol Client.
 

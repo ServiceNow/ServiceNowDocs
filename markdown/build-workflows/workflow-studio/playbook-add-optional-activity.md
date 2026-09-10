@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Running Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add an activity to a playbook
@@ -55,5 +55,5 @@ The selected optional activity appears in your playbook.
 
 \[Omitted image "playbook-add-activity-complete.png"\] Alt text: Optional activities appear in the location selected.
 
-**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

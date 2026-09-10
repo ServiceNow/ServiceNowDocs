@@ -42,15 +42,15 @@ If a change requires approval, the agent notifies you and starts the approval wo
 
 3.  Enter your request or respond to the agent, depending on your operation.
 
-<table><thead><tr><th align="left" id="d79837e138">
+<table><thead><tr><th align="left" id="d80540e138">
 
 Operation
 
-</th><th align="left" id="d79837e141">
+</th><th align="left" id="d80540e141">
 
 What to do
 
-</th></tr></thead><tbody><tr><td id="d79837e147">
+</th></tr></thead><tbody><tr><td id="d80540e147">
 
 **Create a quote**
 
@@ -65,7 +65,7 @@ Enter your request in the chat, including the opportunity number and any pricing
 -   `Create a quote for Opportunity OPT001 and generate an email with the document.`
 
 
-</td></tr><tr><td id="d79837e177">
+</td></tr><tr><td id="d80540e177">
 
 **Modify a quote**
 
@@ -81,7 +81,7 @@ Enter your modification request in the chat, including the quote number and the 
 -   `Change the price list on this quote to the EMEA price list.`
 
 
-</td></tr><tr><td id="d79837e211">
+</td></tr><tr><td id="d80540e211">
 
 **Review a trigger-generated quote**
 

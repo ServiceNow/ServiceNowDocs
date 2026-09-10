@@ -34,7 +34,7 @@ Checklist
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -42,7 +42,7 @@ Risk managers can create hierarchies that include different types of risk \(oper
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -50,7 +50,7 @@ Risk managers must define the risk statement hierarchy and associate child risk 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -58,7 +58,7 @@ Risk rollups are critical to display the accurate risk ratings. Risk administrat
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 
@@ -66,7 +66,7 @@ Risk events are potential or actual financial and non-financial losses, near mis
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
+\[Omitted image "checkbox.png"\] Alt text:
 
 </td><td>
 

@@ -1,9 +1,9 @@
 ---
 title: Buying Group release notes
-description: The ServiceNow Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
+description: The ServiceNow Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.The ServiceNow Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,15 +12,28 @@ reading_time_minutes: 1
 
 The ServiceNow® Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
 
-## Buying Group highlights for the Australia release
+## About Buying Group
 
 Buying Group provides information on the customer stakeholders involved in a purchase decision for a product or solution, supporting multiple roles and persisting before, during, and after an opportunity.
 
 See [Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Buying Group is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Buying Group features
+-   **Activation information**
+
+    Install Buying Group by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Buying Group application provides information on the key  decision-making stakeholders of a company to whom you are trying to sell a particular product. Buying Group is a new application in the Australia release.
+
+### What's new
 
 -   **[Create separate buying groups for each product family or solution within an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-buying-groups.md)**
 
@@ -35,25 +48,12 @@ See [Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/a
     Improve stakeholder visibility, support complex deal management, and enable more targeted engagement across solutions by associating multiple buying groups with an opportunity.
 
 
-## Activation information
+### Plugin information
 
-Install Buying Group by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
-
--   **New plugin**
+-   **New plugins**
 
     The following plugin is new in Australia:
 
     Buying Groups \(sn\_buying\_group\): Introduces the Buying Group data model, permissions, and supporting framework required to manage buying groups and their lifecycle within the sales process.
 
-
-## Related ServiceNow applications and features
-
--   **[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)**
-
-    The Opportunity Management application helps enable your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
-
-
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

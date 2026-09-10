@@ -36,6 +36,7 @@ Specific tables are installed with Digital resilience third-party registers.
 |Excel download/upload request|\[sn\_dora\_accel\_report\]|Stores the Excel download/upload request records for DORA regulation requirement.|
 |ICT third-party service provider|\[sn\_dora\_accel\_third\_party\]|Stores the ICT third-party service provider records for DORA regulation requirement.|
 |ICT third-party engagement service provider|\[sn\_dora\_accel\_third\_party\_engagement\]|Stores the ICT third-party engagement service provider records for DORA regulation requirement.|
+|Terminology definition|\[sn\_info\_reg\_terminology\_definition\]|Stores the terminology definition records used across DORA reporting sheets.|
 
 **Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-ref.md)
 

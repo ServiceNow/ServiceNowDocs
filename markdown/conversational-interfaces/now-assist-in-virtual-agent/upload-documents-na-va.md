@@ -20,7 +20,16 @@ Upload or drag files into ServiceNow® Otto for Virtual Agent to extract relevan
 
 ServiceNow Otto for Virtual Agent standard and enhanced chat support uploading documents to the assistant. For more information about the different chat capabilities, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md) and [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md). Uploading a document within a chat is available to you when an admin activates this feature in the admin guided setup. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 
-Uploaded file formats include text and image files such as PDF, Word \(.doc, .docx\), JPEG, and PNG. The maximum size of a file is 5 megabytes \(MB\).
+Uploaded file formats include text and image files such as PDF, Word \(.doc, .docx\), JPEG, and PNG. The maximum size of a file is 5 megabytes \(MB\). For premium chat, you can upload files by selecting the file upload icon or by dragging and dropping files directly into the chat input box. You can upload a maximum of 10 files per conversation and a total upload limit of 50 MB. Supported file formats are:
+
+-   PDF
+-   JPEG
+-   PNG
+-   TXT
+-   PPTX
+-   Word
+-   Excel
+-   CSV
 
 Role required: requestor
 
@@ -32,7 +41,7 @@ Role required: requestor
 
 3.  Select the paperclip icon to upload the file or drag the file into the chat.
 
-    One or more files can be uploaded to the chat. The maximum number of files that can be uploaded is three. You see the progress as the file uploads, until its completion. If the file fails to upload, or the content can't be properly parsed, take corrective action.
+    One or more files can be uploaded to the chat. For legacy chat options, the maximum file upload is three files. For premium chat, the maximum file upload is ten. You see the progress as the file uploads, until its completion. If the file fails to upload, or the content can't be properly parsed, take corrective action.
 
     The file is checked for viruses, and an error message appears when a file is non-security compliant. After the file passes the virus scan, the document is secure, and sensitive data isn't retained beyond the chat session. You can't ask follow-up questions about the file after the chat session ends.
 

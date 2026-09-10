@@ -1,6 +1,6 @@
 ---
 title: Patterns and horizontal discovery
-description: A pattern is a series of operations that tell Discovery which CIs to find on your network, what credentials to use, and what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, you must add the Horizontal Pattern probe to the classifiers for the CIs are you trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
+description: A pattern is a series of operations that tell Discovery which CIs to find on your network and what credentials to use. Patterns also define what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Manageme
 
 # Patterns and horizontal discovery
 
-A pattern is a series of operations that tell Discovery which CIs to find on your network, what credentials to use, and what tables to populate in the CMDB.
+A pattern is a series of operations that tell Discovery which CIs to find on your network and what credentials to use. Patterns also define what tables to populate in the CMDB.
 
 This topic assumes you understand the phases of horizontal discovery. If you need to review the horizontal discovery process for probes and for patterns, see the following:
 
@@ -67,13 +67,13 @@ Finding new CIs
 
 Discovery offers several out-of-box probes and sensors.
 
- However, if you want to find new CIs or change the data that Discovery populates in the CMDB, you must create news probes and sensors or customize the existing ones. To do this, you need knowledge of Java and JavaScript, and you need to understand how probes work together with other probes and with sensors.
+ To find new CIs or change CMDB data, you must create probes and sensors or customize the existing ones. To do this, you need knowledge of Java and JavaScript, and you need to understand how probes work together with other probes and with sensors.
 
 </td><td>
 
 Discovery is offering more patterns in every major release and on the [ServiceNow App Store](https://store.servicenow.com/sn_appstore_store.do#!/store/search?apptype=servicenow&orderby=rating).
 
- If you want to create a new pattern or customize an existing one, you can use the pattern designer, which is a user-friendly interface that helps you construct steps and enter values.
+ Use the pattern designer to construct steps and enter values. It provides an interface for creating new patterns or customizing existing ones.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Performance
 
 </td><td>
 
-Depending on what type of target CI you are trying to identify and explore, Discovery might trigger multiple probes during the identification phase, and then trigger additional probes during the discovery phase. It is possible that horizontal discovery with probes can take longer because of the extra overhead in triggering and processing many probes.
+Depending on the target CI type, Discovery might trigger multiple probes during the identification phase and additional probes during the discovery phase. Horizontal discovery with probes can take longer because of the overhead in triggering and processing many probes.
 
 </td><td>
 
@@ -154,7 +154,7 @@ Pagination is controlled from the Custom Operations table \[sa\_custom\_operatio
 
 ## Add the Horizontal Pattern probe to a classifier
 
-To use a pattern for the identification and exploration phases of horizontal discovery, you must add the Horizontal Pattern probe to the classifiers for the CIs are you trying to discover.
+To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.
 
 ### Before you begin
 

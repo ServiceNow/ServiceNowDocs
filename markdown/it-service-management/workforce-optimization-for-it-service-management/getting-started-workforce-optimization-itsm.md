@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Learn the basics of getting Workforce Optimization for ITSM up and running.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 To get started, you must first activate Workforce Optimization for ITSM, then organize your teams into assignment groups, and assign a primary assignment group for each agent.
 
 -   **[Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md)**  

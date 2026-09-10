@@ -18,7 +18,7 @@ Add a Google Cloud service account to store the credential and access informatio
 
 ## Before you begin
 
-Role required: sn\_cmp.cloud\_admin
+Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 Set up download jobs for billing and price sheet data for the service account.
 

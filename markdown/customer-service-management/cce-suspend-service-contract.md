@@ -1,6 +1,6 @@
 ---
 title: Suspend a customer contract
-description: Suspend a customer contract and its child customer contract lines by creating an order on the CSM Configurable Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
+description: Suspend a customer contract and its child customer contract lines by creating an order on the CRM Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-suspend-service-contract.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and 
 
 # Suspend a customer contract
 
-Suspend a customer contract and its child customer contract lines by creating an order on the CSM Configurable Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
+Suspend a customer contract and its child customer contract lines by creating an order on the CRM Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
 
 ## Before you begin
 

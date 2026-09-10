@@ -36,15 +36,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d130839e163">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d135584e163">
 
 Type
 
-</th><th align="left" id="d130839e166">
+</th><th align="left" id="d135584e166">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d130839e172">
+</th></tr></thead><tbody><tr><td id="d135584e172">
 
 **Team Doc**
 
@@ -54,7 +54,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d130839e190">
+</td></tr><tr><td id="d135584e190">
 
 **Planning item Doc**
 
@@ -88,6 +88,8 @@ Actions
     ServiceNow Otto analyzes the text and generates an output in a separate pop-up.
 
 5.  Based on the output generated, you can further refine the result or insert the generated content into the Doc.
+
+    \[Omitted image "eap-na-doc-summarization.png"\] Alt text: Summarize selected content.
 
 6.  Copy the generated output by selecting the Copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text:\) to use it for purposes such as sending an email, saving to notes, and others.
 

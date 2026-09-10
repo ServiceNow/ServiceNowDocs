@@ -5,7 +5,7 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-touchpoints.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Use, Customer Success Management]
 ---
@@ -22,6 +22,8 @@ During the engagement lifecycle, customer success agents schedule regular touchp
 The touchpoint planner shows a calendar view of different touchpoints across all accounts associated with the customer success manager.
 -   **[Generate summary for Zoom meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-zoom-meeting-summary.md)**  
 Generate the meeting summary for virtual meetings conducted using Zoom.
+-   **[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)**  
+The meeting page is a structured workspace for preparing and following up on touchpoint meetings. It displays pre-meeting or post-meeting content depending on the meeting state.
 
 **Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

@@ -40,7 +40,7 @@ Adding a CI to an application service requires creating a relationship between t
 
 Manually adding a new CI to an existing CI in a service instance prompts the CMDB to update the information about both CIs, including their relationship type. If other application services use the same applicative flow, the CMDB recognizes the new CI and automatically adds it to those services as well.
 
-For example, you manually add an IBM WebSphere Message Broker to an IBM WebSphere HTTP Listener in the Bank Customer Portal service. The system also adds this IBM WebSphere Message Broker to the same HTTP Listener in the Bank Internal Portal service, because it uses this HTTP Listener. Similarly, when you remove a CI you added manually, the system removes it from all application services where you either manually added it or it was automatically added by analogy.
+For example, you manually add an IBM WebSphere Message Broker to an IBM WebSphere HTTP Listener in the Bank Customer Portal service. The system also adds this IBM WebSphere Message Broker to the same HTTP Listener in the Bank Internal Portal service, because it uses this HTTP Listener. Similarly, when you remove a CI you added manually, the system removes it from all application services. This includes services where you manually added it and services where it was automatically added by analogy.
 
 You can manually connect a CI only to actual CIs existing in the CMDB, not to a visualization of other items on the map such as clusters or boundaries. Also, you cannot add CIs of these CI types to an application service:
 

@@ -68,8 +68,6 @@ These groups are available for assignment.
 
 [Create a safety report field mapping for generating reports]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Add a Health and Safety visitor]()

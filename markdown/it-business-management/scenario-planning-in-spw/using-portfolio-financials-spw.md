@@ -37,7 +37,9 @@ The portfolio financials view supports Demands, Epics, and Projects with Fiscal 
 
 **Note:** Group header row displays the rolled up values for Budget, Forecast, Variance, Actuals, and Remaining estimate of all the planning items in the group.
 
-The default view of portfolio financials is set to display the planning items grouped by their budget approval status. Budget approved grouping lists the planning items which have the budget allocated and approved. Approval pending grouping lists the planning items which do not have any budget or if the requested budget is not approved.
+The default view of portfolio financials is set to display the planning items grouped by their budget approval status. Budget approved grouping lists the planning items which have the budget allocated and approved. Approval pending grouping lists the planning items which don't have any budget or if the requested budget is not approved.
+
+The Budget value for these planning items displays as 0 instead of empty. This keeps the Budget and Forecast totals, and the resulting Variance, accurate when you group planning items by an attribute other than Budget status.
 
 **Note:** Portfolio financials view is not yet compatible with Investment Funding. This view may not show the right budget values allocated to planning items from Investment Funding application. This will be add as a future enhancement.
 
@@ -108,6 +110,6 @@ Portfolio financial breakdown for the entire portfolio timeline.
 
 -   Group the planning items.
 
-    By default, the financials view is grouped by the Budget status column. You can remove Budget status grouping from the Grouped by row and drag-drop the required header to change this view.
+    By default, the financials view is grouped by the Budget status column. You can remove Budget status grouping from the Grouped by row and drag-drop the required header to change this view. Budget values for planning items without an approved budget display as 0 in this view. The totals and variance stay accurate regardless of which attribute you group by.
 
 

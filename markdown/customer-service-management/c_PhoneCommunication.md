@@ -1,5 +1,5 @@
 ---
-title: Configuring the phone channel
+title: Configure Voice
 description: Configure phone support for customers with Computer Telephony Integration \(CTI\), OpenFrame, and Interaction Controls Component \(ICC\) integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_PhoneCommunication.html
@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Configuring the phone channel
+# Configure Voice
 
 Configure phone support for customers with Computer Telephony Integration \(CTI\), OpenFrame, and Interaction Controls Component \(ICC\) integrations.
 
-Integrate your CSM Configurable Workspace with Computer Telephony Integration \(CTI\) to enable and support voice features in your Workspace. See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-csm-integration.md).
+Integrate your CRM Workspace with Computer Telephony Integration \(CTI\) to enable and support voice features in your Workspace. See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cti-csm-integration.md).
 
 -   **[Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md)**
 

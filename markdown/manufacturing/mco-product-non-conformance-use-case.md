@@ -33,7 +33,7 @@ Triage and Assignment: James, the quality triager, receives the non-conformance 
 3.  Contain and Track: Sophie creates a containment action \(disable system, provide loaner vehicles\) and links it to each impacted asset. She records containment costs \(quarantine, diagnostics, loaner fees\).
 4.  Correct and Escalate: Sophie applies corrective actions \(sensor replacement, firmware updates\), closes the case, and escalates to Quality Investigation for cross-functional pattern analysis.
 
-The [Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformances.md) workspace provides guided setup to resolve the issue.
+The  workspace provides guided setup to resolve the issue.
 
 ## Benefits
 
@@ -55,5 +55,5 @@ James triages with clear ownership. Sophie resolves the airbag issue across 47 i
 
 [Report an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-report-an-issue.md)
 
-[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-product-non-conformances.md)
+[mco-product-non-conformances]
 

@@ -59,15 +59,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36535e352">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36747e347">
 
 Skill
 
-</th><th align="left" id="d36535e355">
+</th><th align="left" id="d36747e350">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36535e361">
+</th></tr></thead><tbody><tr><td id="d36747e356">
 
 **ADR Doc Summarization and Actions**
 
@@ -78,7 +78,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36535e392">
+</td></tr><tr><td id="d36747e387">
 
 **Business application insights**
 
@@ -122,7 +122,7 @@ The You are making a copy of a skill dialog box appears.
     6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d36535e603">
+</td></tr><tr><td id="d36747e598">
 
 **Diagram change analysis**
 
@@ -147,7 +147,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d36535e692">
+</td></tr><tr><td id="d36747e687">
 
 **Refine text**
 
@@ -157,7 +157,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d36535e714">
+</td></tr><tr><td id="d36747e709">
 
 **Create diagram from image**
 

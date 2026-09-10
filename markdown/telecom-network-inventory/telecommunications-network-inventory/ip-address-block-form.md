@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -48,7 +48,7 @@ Managed Network
 
 </td><td>
 
-The Managed Network this block belongs to. If set, the value propagates to all subnetworks beneath this block and cannot be changed at a lower level. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
+The Managed Network this block belongs to. If set, the value propagates to all subnetworks beneath this block and can't be changed at a lower level. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Life Cycle Stage
 
 </td><td>
 
-The current lifecycle stage of the block. This field is automatically set to **Operational**.
+The current lifecycle stage of the block. Default value: Operational. Used together with Life Cycle Stage Status to determine if the block is active.
 
 </td></tr><tr><td>
 

@@ -28,15 +28,15 @@ Using the ServiceNow Extensions for VS Code, create a project work folder to use
 
 2.  Do any of the following actions.
 
-<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d321040e99">
+<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d320450e99">
 
 Option
 
-</th><th align="left" id="d321040e102">
+</th><th align="left" id="d320450e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d321040e108">
+</th></tr></thead><tbody><tr><td id="d320450e108">
 
 **To set up a workspace from a new folder**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Create**.
 
 
-</td></tr><tr><td id="d321040e138">
+</td></tr><tr><td id="d320450e138">
 
 **To set up a workspace from an existing folder**
 

@@ -1,6 +1,6 @@
 ---
 title: Discovery of storage area networks \(SAN\)
-description: Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
+description: Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. It creates specific references between the tables in the SAN schema.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/storage-area-networks.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collec
 
 # Discovery of storage area networks \(SAN\)
 
-Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
+Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. It creates specific references between the tables in the SAN schema.
 
 ## ServiceNow SAN schema
 

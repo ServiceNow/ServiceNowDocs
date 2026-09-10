@@ -112,6 +112,14 @@ Mobile Application
 
 Mobile application to send the mobile property to. This setting limits the mobile property behavior to users who have access to this mobile app.
 
+</td></tr><tr><td>
+
+Auto-Retries
+
+</td><td>
+
+Specifies the number of automatic retry attempts for an asynchronous attachment upload before the system marks it as failed.
+
 </td></tr></tbody>
 </table>4.  To configure the number of automatic retry attempts before an upload is marked as failed, create a second mobile property named `AsyncAttachmentsUploadNumRetriesBeforeFailure` using the same procedure, using type **Integer** and setting the value to the number of retries you want.
 

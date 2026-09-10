@@ -24,7 +24,7 @@ You can export catalog entities in any sequence, but you must import them to a t
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 

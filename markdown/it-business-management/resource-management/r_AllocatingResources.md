@@ -8,7 +8,7 @@ product: Resource Management
 classification: resource-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -125,7 +125,20 @@ Resource allocations use this property to create allocations with a decimal valu
     |30 mins+30 mins|30 mins+30 mins|30 mins+30 mins|30 mins|30 mins|
 
 
-**Note:** If the scheduled  hours are not divisible by  the Calendar Event Duration property, then there will be  a  loss  of few hours for each day.  For example, the per day scheduled  hours  per day are  8.5  and the property value is set to 60. Then, the  maximum  allocated  hours  for  each  day  will  be  8,  resulting  in  a  loss  of  0.5  hours  per  day.
+**Note:** If the scheduled  hours aren't divisible by  the Calendar Event Duration property, then there will be  a  loss  of few hours for each day.  For example, the per day scheduled  hours  per day are  8.5  and the property value is set to 60. Then, the  maximum  allocated  hours  for  each  day  will  be  8,  resulting  in  a  loss  of  0.5  hours  per  day.
+
+This property also determines the total effort used for a group resource assignment that uses the **Hours** effort type. The requested effort is rounded down to the nearest multiple of the property value, and the result is then distributed among the members of the group.
+
+Effort is distributed in whole hours. Each member receives the same base number of hours. Any remaining hours are distributed one hour at a time until all hours are assigned. As a result, some members can receive one hour more than others. A member can receive zero hours when the total effort is less than the number of members.
+
+-   **Example: 2 hours requested for a group of three members**
+
+    Two members are each assigned 1 hour and the third member is assigned 0 hours. The total effort on the group resource assignment remains 2 hours.
+
+    Before this distribution method was introduced, each member was assigned 0.66 hours. Because 0.66 hours is less than the default Calendar Event Duration value of 60 minutes, no daily allocation records were created. No hours were rolled up to the allocation or the assignment.
+
+
+Effort for the **FTE** and **Person days** effort types is divided equally among the members, including fractional values.
 
 ## Time-off handling
 

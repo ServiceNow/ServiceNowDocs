@@ -18,6 +18,8 @@ Create a learning path, add relevant skills and course items, and publish the pa
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_wfo\_cfg\_ws.manager​
 
 This video walks you through the steps for creating a learning path.

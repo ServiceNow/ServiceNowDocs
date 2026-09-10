@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 5
-breadcrumb: [Rules and rule groupings, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Rules and rule groupings, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a transaction rule
@@ -130,4 +130,6 @@ Rules are created through the ServiceNow Quote Experience administration interfa
 ## What to do next
 
 Add the rule to a rule grouping so that it can be assigned to stages and events. For more information, see [Create a transaction rule grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-rule-grouping.md).
+
+**Parent Topic:**[Quote transaction rules and rule groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-rules-and-rule-groups.md)
 

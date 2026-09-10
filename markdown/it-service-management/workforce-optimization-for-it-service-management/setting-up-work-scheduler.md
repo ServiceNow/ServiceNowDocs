@@ -16,6 +16,8 @@ breadcrumb: [Work scheduler, Workforce Optimization for ITSM, IT Service Managem
 
 Customize an existing work scheduler card based on your need. You can also create a work configuration and work scheduler card from scratch and associate them so that managers can view the cards in their work queue.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   **[Customize a Work Scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/customize-workscheduler-card-wfo-itsm.md)**  
 Customize the Work Scheduler card components, such as adding an extra field, or changing the color or order of a field, to display them in the Work scheduler queue.
 -   **[Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.md)**  

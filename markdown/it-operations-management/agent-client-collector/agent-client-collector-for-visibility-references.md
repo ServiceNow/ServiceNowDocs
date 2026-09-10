@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -279,6 +279,10 @@ Configure File-Based Discovery behavior using system properties that control sca
 Description of the tables and their fields used when gathering web usage data from your Windows and macOS machines.
 -   **[Archive file scanning filtering rules and limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/archive-file-scanning-reference.md)**  
 Reference information for the filtering rules and performance safeguards that apply when Agent Client Collector for Visibility Content scans ZIP and JAR archive files during File-Based Discovery.
+-   **[Software filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-tables.md)**  
+The following table lists the software filter tables and the purpose each one serves.
+-   **[Software filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/sw-filter-fields.md)**  
+The following table lists the software filter fields from which you can create a filter.
 -   **[License key discovery and access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery-reference.md)**  
 Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
 -   **[Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md)**  

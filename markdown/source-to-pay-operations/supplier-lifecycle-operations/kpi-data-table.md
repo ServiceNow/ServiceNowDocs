@@ -7,9 +7,9 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
-keywords: [KPI Data table, Collection start date, Collection end date, Threshold set, Variance, Override value]
+keywords: [KPI Data table, Collection start date, Collection end date, Threshold set, Variance, Override value, External source]
 breadcrumb: [Primary data tables for SRPM, Supplier Relationship and Performance Management reference, Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -41,6 +41,7 @@ The KPI Data \[sn\_kpi\_data\] table contains the following fields.
 |Override value|Boolean|Checked to override the submitted KPI data.|
 |Is overridden|Boolean|Indicates whether the data is overridden.|
 |Justification|String|Reason for overriding the data.|
+|External source|Reference|The external system that provides KPI data when the collection source type is Integration. This field references the ERP source table. For FedEx DataWorks integration, this field is populated with FedEx DataWorks. This field is hidden by default on the KPI data form.|
 
 **Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)
 

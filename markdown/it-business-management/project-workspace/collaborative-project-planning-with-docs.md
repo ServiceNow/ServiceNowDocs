@@ -37,6 +37,7 @@ Role required: it\_project\_user
     -   Use the forward slash to open a list of actions, including **Mention a user** or **Mention a record**.
     -   Use the live presence to see who is opening or working on a Doc.
     -   Create templates for documents such as project charters, project briefs, and meeting notes.
+    -   Use a dynamic Project Docs template to auto-populate fields with live project data. For more information, see [Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md).
     -   Add meeting notes to record discussions, decisions, action items, and any relevant information discussed during meetings.
     -   Store information related to your tasks, add images or tables, and collaborate in real time using Docs.
     -   Select text and select the Add comments icon from the inline toolbar. Commented text displays with a yellow highlight and underline. You can include hyperlinks by typing or pasting URLs directly into your comment. These links are automatically converted to a clickable format when you post the comment. For more information, see [Add comments to Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-comments-to-docs-in-cwm.md).

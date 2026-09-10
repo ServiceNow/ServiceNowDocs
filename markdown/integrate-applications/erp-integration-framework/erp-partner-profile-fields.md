@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, field]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -33,7 +33,7 @@ Partner class
 
 </td><td>
 
-An optional field that can be used to group partners.
+Value used to group partners.
 
 </td></tr><tr><td>
 
@@ -41,7 +41,7 @@ Partner status
 
 </td><td>
 
-Indicates if the partner profile is active or inactive and most often contains **A** for active.
+Indicates whether the partner profile is active or inactive. Most often contains **A** for active.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ User type
 
 </td><td>
 
-Most often contains **US** \(for user\) to indicate that you want the system to notify a specific person when the inbound message arrives.
+Most often contains **US** \(for user\), which notifies a specific person when the inbound message arrives.
 
 </td></tr><tr><td>
 
@@ -102,5 +102,4 @@ Message code \(Allowed message types column\)
 A third level of differentiation of message type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

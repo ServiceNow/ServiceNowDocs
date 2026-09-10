@@ -8,7 +8,7 @@ product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
@@ -83,6 +83,12 @@ Examples of untestable page components include these UI elements.
 |Form field values|
 |Service Catalog|
 |Workspaces|
+
+## Control component discovery with allowed and not allowed lists
+
+Use sn-atf-blacklist and sn-atf-whitelist to control how the Custom UI page crawler discovers page components. Apply sn-atf-blacklist to exclude a component and all of its descendants from crawler processing. Apply sn-atf-whitelist within a blacklisted hierarchy to override the inherited exclusion and resume processing for a specific component subtree.
+
+For example, when a parent component is not allowed, all nested components are ignored by the page crawler. If a nested component is allowed, that component and its descendants are processed even though they remain within the not allowed parent hierarchy.
 
 ## Settable page components
 

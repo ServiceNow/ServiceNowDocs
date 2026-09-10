@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-
 release: australia
 topic_type: task
 last_updated: "2026-06-18"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [private relay, relay registration, Reverse Tunnel, config.yaml]
 breadcrumb: [Configure, Reverse Tunnel, Workflow Data Fabric]
 ---
@@ -36,9 +36,7 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     **Note:** After successful registration, a record ID is stored in the `config.yaml` file. Do not modify or remove this value.
 
-5.  In the relay record, select **Create gateway** to create a gateway instance.
-
-    **Note:** Selecting this action more than once is safe — only the first selection creates the gateway. Two gateway records are automatically attached to the Gateways field, tied to the instance name.
+5.  In the relay record, select **Recreate gateways** to recreate a gateway instance.
 
 6.  Register backend services to the relay.
 
@@ -48,7 +46,7 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     2.  In the relay record, select **Unlock Services**.
 
-    3.  Select the Lookup using list icon \[Omitted image "lookup-using-list-icon.png"\] Alt text: to open the Service Endpoints list.
+    3.  Select Lookup using list icon \[Omitted image "lookup-using-list-icon.png"\] Alt text: to open the Service Endpoints list.
 
     4.  Select **New**.
 

@@ -29,7 +29,7 @@ Generate a summary from the fields that you selected on the service problem case
 -   **[Generate resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.md)**  
 Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
 -   **[Generate a knowledge article for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.md)**  
-Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with ServiceNow Otto.
+Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with ServiceNow Otto.
 -   **[Summarize test for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-test.md)**  
 Generate the test run summary for a service problem case record to quickly understand the context of test outcomes and the root cause of the problem.
 -   **[Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-tech-support-case.md)**  
@@ -70,6 +70,12 @@ Generate customer health insights and recent customer issue insights for a custo
 Remote Hands Request Summarization generates a contextual summary of a Remote Hands case. It combines current case data with insights from similar historical cases using information submitted through the CSM portal.
 -   **[Using adaptive desktop actions for Customer Experimentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-adaptive-desktop-actions.md)**  
 Use adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
+-   **[Use touchpoint meeting skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-meeting-skills.md)**  
+Use the ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CSM/FSM Configurable Workspace.
+-   **[Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-reco-actions-skill.md)**  
+Enable AI-powered success play recommendations in Technology Account 360 and engagement records based on account context and lifecycle events.
+-   **[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exec-insight-gen.md)**  
+Enable AI-generated engagement briefs that summarize recent signals across risk, adoption, and market activity on the engagement record page.
 
 **Parent Topic:**[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
 

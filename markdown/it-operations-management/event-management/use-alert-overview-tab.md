@@ -1,6 +1,6 @@
 ---
-title: View details about the impact and cause of an alert in Express List
-description: View information about an alert on the alert's Overview tab in the Express List.
+title: View details about an alert in Express List
+description: View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/use-alert-overview-tab.html
 release: australia
@@ -9,12 +9,12 @@ classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# View details about the impact and cause of an alert in Express List
+# View details about an alert in Express List
 
-View information about an alert on the alert's Overview tab in the Express List.
+View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 
 ## Before you begin
 

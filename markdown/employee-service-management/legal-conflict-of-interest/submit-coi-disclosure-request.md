@@ -8,8 +8,8 @@ product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
 last_updated: "2026-05-19"
-reading_time_minutes: 2
-breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Submit COI requests, Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit COI request form Employee Center
@@ -58,5 +58,5 @@ Role required: sn\_lg\_ops.legal\_user
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
+**Parent Topic:**[Submit COI requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-requests.md)
 

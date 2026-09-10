@@ -69,5 +69,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 [Reset an invoice to the Received status]()
 
+[Reopen a closed invoice case]()
+
 [Start processing a third-party invoice]()
 

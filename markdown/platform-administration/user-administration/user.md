@@ -24,6 +24,8 @@ User records establish a relationship between an individual and your ServiceNow 
 
 User records are stored in the Users \[sys\_user\] table.
 
+**Note:** ServiceNow occasionally adds service accounts to the sys\_user table to facilitate some platform features and functionality. For more information, see [KB1648003: \(OOTB\) Out of the box local user accounts in sys\_user](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1648003).
+
 ## Related records
 
 User records are associated with records on several other tables to control permissions, preferences, and other features.
@@ -63,13 +65,13 @@ You can set your preferred date and time formatting through the User record. If 
 
 The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
 
-The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Timezone settings automatically sync between the User record and your preferences.
+The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Time zone settings automatically sync between the User record and your preferences.
 
 ## System and guest users
 
 Some automated processes use the system or guest user to apply and track changes to records. As a result, some records may show that they were last updated by system or guest.
 
-For example, when a user logs in for the first time in a day, some fields on that user's record are updated by the system user, such as **Last login** and **Last login time**. If a user has a failed login attempt or is locked out, some fields on that user's record are updated by the guest user, such as **Failed Login Attempts** or **Locked Out**.
+For example, when a user logs in for the first time in a day, some fields on that user's record are updated by the system user. These fields can include **Last login** and **Last login time**. If a user has a failed login attempt or is locked out, some fields on that user's record are updated by the guest user, such as **Failed Login Attempts** or **Locked Out**.
 
-If a record was last updated by the system or by guest users, identify the fields that were updated by enabling auditing for the table and viewing the audit history set. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) and [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md).
+If a record was last updated by the system or by guest users, you can identify the updated fields by enabling auditing for the table. View the audit history to see the changes. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md) and [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md).
 

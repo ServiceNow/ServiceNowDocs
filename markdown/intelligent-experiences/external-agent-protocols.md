@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-11-18"
 reading_time_minutes: 3
 keywords: [a2a]
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Integrating external AI agents

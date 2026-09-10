@@ -1,6 +1,6 @@
 ---
 title: Order case record page
-description: The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
+description: The Order case record page displays information about order cases and the associated list of order case line items in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-record-page.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Order case pages, Order Operations Case Management, Case management
 
 # Order case record page
 
-The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
+The Order case record page displays information about order cases and the associated list of order case line items in CRM Workspace.
 
 \[Omitted image "csm-order-ops-order-case-page.png"\] Alt text: Order case page with customer and account information, SLA, and case details. Center panel displays the Order Case Line list. Page also includes the configurable side panel.
 

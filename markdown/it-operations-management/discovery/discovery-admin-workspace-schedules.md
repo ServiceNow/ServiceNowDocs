@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-07-25"
-reading_time_minutes: 6
+reading_time_minutes: 8
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -25,11 +25,15 @@ To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces
 
 -   **Quick Discovery option**
 
-    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. This option is available from any tab on the Schedules page.
+    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. This option is available from any tab on the **Schedules** page.
 
 -   **New Discovery option**
 
-    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. This option is available from any tab on the Schedules page.
+    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. This option is available from any tab on the **Schedules** page.
+
+    Enables you to choose how you want to discover your resources, through IP-based, Cloud, or Certificate discovery. This option is available from any tab on the **Schedules** page.
+
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with patch 8.
 
 -   **Overview tab**
 
@@ -145,6 +149,18 @@ Displays the count of all Discovery errors by category.Select a category to add 
     Gives you quick access to all of your cloud-based Discovery schedules.
 
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md).
+
+-   **Certificate discovery**
+
+    Provides a centralized view for monitoring and managing certificate Discovery schedules. Depending on the state of your schedules, items that require attention are displayed. Select **Review that list of IP-based schedules** to open the IP-based discovery tab. To resolve certificate schedule errors, select **Review schedules** to open the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page. To review discovered certificates, select **Go to Certificate Management Workspace** to access the Certificate Inventory and Management Workspace.
+
+    Discovery Admin Workspace offers two methods for certificate discovery:
+
+    -   Port scans: Collects certificates from devices that have listening ports found during your existing IP-based Discovery schedules. For more information, see [Run Certificate Discovery via port scans in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-discover-certs-port.md).
+    -   URL scans: Collects certificates from a list of URLs that you specify in a new certificate Discovery schedule. For more information, see [Run Certificate Discovery via URL scans in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-discover-certs-url.md).
+    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_daw-disco-schedule-details.md).
+
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
 
 -   **Discovery status tab**
 

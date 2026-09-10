@@ -85,7 +85,7 @@ Tools are legitimate software that are used by threat actors to perform attacks.
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 

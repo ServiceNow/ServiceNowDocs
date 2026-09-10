@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-and-app-pub.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-08-20"
+reading_time_minutes: 3
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -23,6 +23,8 @@ Role required: admin
 1.  Upload the AAB file directly to Google Play so you can use the Google Play internal testing tool.
 
     See [Google documentation](https://play.google.com/console/about/internal-testing/) for information about internal testing on Google Play.
+
+    **Note:** If you provided a developer verification snippet with your build request, a signed Android Package file \(`.apk`\) is also available for download. Use this file to complete Google's Developer Verification process for your package name. It isn't used for Google Play internal testing.
 
 2.  Check the following items on your app if they've changed from the original request:
 

@@ -22,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** and select the specification for which characteristics are to be defined.
 

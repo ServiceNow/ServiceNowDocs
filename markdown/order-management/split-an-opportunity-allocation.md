@@ -20,7 +20,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the **Allocations** tab.
 
@@ -52,8 +52,6 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
 
     The allocation is split into two rows. Both rows are saved and displayed in the Allocations tab under the relevant allocation type.
 
-
-**Parent Topic:**[Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
 
 **Related topics**  
 

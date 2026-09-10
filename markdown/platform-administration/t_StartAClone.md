@@ -16,11 +16,9 @@ Request a clone to copy data from a production instance to a non-production inst
 
 ## Before you begin
 
-Role required: clone\_admin on the source instance; clone\_admin and soap on the target instance.
+Role required: clone\_admin
 
 **Note:**
-
-Configure your target instance before requesting your clone. See [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateACloneTarget.md).
 
 Configure a clone profile. See [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
 

@@ -34,29 +34,29 @@ As a collaborator added to a request, you can access and work on the request jus
 
     1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-    2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+    2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text:\).
 
-    3.  Select **Legal requests** option.
+    3.  Select the **Legal requests** option.
 
     4.  Select **Assign to me**.
 
     5.  Open the legal request from the list.
 
-    6.  Select **Start work**
+    6.  Select **Start work**.
 
     The state of the legal request updates to Work in progress.
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d719140e170">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d722339e165">
 
 Option
 
-</th><th align="left" id="d719140e173">
+</th><th align="left" id="d722339e168">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d719140e179">
+</th></tr></thead><tbody><tr><td id="d722339e174">
 
 **As an assignee**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d719140e200">
+</td></tr><tr><td id="d722339e195">
 
 **As a collaborator**
 
@@ -95,7 +95,7 @@ Steps
     -   For external storage: In the **Contract documents** tab, click the link in the **URL** tab to view the document online.
 8.  Review the contract documents.
 
-9.  Revise the contract document if any changes are required and upload it by creating revision.
+9.  If changes are required, revise the contract document and upload it by creating a revision.
 
     1.  Select **Create revision**.
 
@@ -111,15 +111,15 @@ Steps
 
         -   To select a file stored in the configured external storage system, select **External storage**.
 
-            This option is displayed only if an external storage has been configured.
+            This option appears only when external storage is configured.
 
-            \(Optional\) Add more information about the document in the **Notes** field.
+            To add more information about the document, enter it in the **Notes** field.
 
             This information is added to the activity stream along with the attachment.
 
     4.  Select **Create**.
 
-    The document is added to the request. The revision number of the latest document is one higher than the previous document revision number. The document revision is listed in the **Contract Documents** tab.
+    The document is added to the request. The revision number is one higher than the previous revision number. The document revision is listed in the **Contract Documents** tab.
 
 10. If an approval is required from other stakeholders, send the document for ad hoc approval.
 
@@ -133,11 +133,11 @@ Steps
 
     3.  Select **Add** to attach the document to the email.
 
-        An email editor is displayed.
+        An email editor opens.
 
     4.  In the **New Email Draft** tab, add recipient email addresses in the **To**, **CC**, and **BCC** fields as appropriate.
 
-        In the **To** field enter the email address of the recipient, The **CC** field will be set to requester's email address.
+        In the **To** field, enter the email address of the recipient. The **CC** field is set to the requester's email address.
 
     5.  Enter the subject of the email in the **Subject** field.
 
@@ -145,34 +145,37 @@ Steps
 
     6.  In the **Attachments** field, select the **+Add File** link to add the documents and then select the source of the file.
 
-    7.  Either enter your own message in the email body or copy and paste the content from an email response template into the email body.
+    7.  Enter a message in the email body, or copy content from an email response template.
 
         Using response templates, you can insert predefined content into the email body. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-lsd-response-template.md).
 
-    8.  Either send the email immediately or indicate that it should be sent later.
+    8.  Send the email immediately or save it as a draft to send later.
 
         -   To send the email immediately, select **Send email**.
         -   To indicate that the email should be sent later, select **Save as draft**.
 12. In the **Signatories** tab, add signatories to whom the contract will be sent for signature by selecting **Add**.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d719140e587">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d722339e582">
 
 Option
 
-</th><th align="left" id="d719140e590">
+</th><th align="left" id="d722339e585">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d719140e596">
+</th></tr></thead><tbody><tr><td id="d722339e591">
 
 **Internal**
 
 </td><td>
 
 1.  In the **Internal Signer** field, enter the name of the signer. The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
-2.  In the **Order** field, enter the order in which the email should be sent to the signer. The order value should be unique
+2.  In the **Signatory order** field, enter the order in which the contract should be sent to the signer. The system starts sending the contract to the internal signer with the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
 3.  In the **Signatory Role** field, select the role for the signatory.
 
 **Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
@@ -181,7 +184,7 @@ The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_doc
 
 To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d719140e680">
+</td></tr><tr><td id="d722339e673">
 
 **External**
 
@@ -190,7 +193,10 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 1.  In the **Authorized signatory name** field, enter the internal signer's name.
 2.  In the **Signatory** field, enter the internal signer's title.
 3.  In the **Signatory email** field, enter the internal signer's email address.
-4.  In the **Order** field, enter the order in which the contract should be sent to signers for signature. The order value should be unique.
+4.  In the **Signatory order** field, enter the order in which the contract should be sent to signers for an e-signature. The system starts sending the contract to the external signer with the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
 5.  In the **Signatory Role** field, select the role for the signatory.
 
 **Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
@@ -202,13 +208,11 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 </td></tr></tbody>
 </table>13. When all stakeholders have agreed on a contract document revision, select **Prepare for Signature** to prepare and send the document to the signatories for signature.
 
-    1.  In the Reorder the document pop-up, drag and place the documents to define the order.
-
-        The reorder option is displayed only when more than one documents are attached in the contract request.
-
-    2.  Select **Prepare for Signature**.
+    1.  Select **Prepare for Signature**.
 
         **Note:** When you select **Prepare for Signature**, the document opens on the configured e-signature portal.
+
+        **Note:** If the signatories include a gap in the signing order, the signing order is updated automatically to maintain a continuous order.
 
     The Contract status and State updates to Preparing for Signature.
 
@@ -218,7 +222,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
         The contract documents submitted in the third-party contract review request will be combined into a single document.
 
-    2.  Add the required fields including the Signature and Signature date field for all the signatories.
+    2.  Add the required fields, including the **Signature** and **Signature date** fields, for all signatories.
 
     3.  Select **Send**.
 
@@ -238,8 +242,8 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 -   Check the Contract status in the request.
     -   If all signatories sign the contract document, the Contract status updates to Contract Signed. In the **Signatories** tab, the status of all signatories updates to Signed. You can access the legal contract repository record from the **Legal Contracts Repository** tab.
     -   If any signatory declines to sign the contract document, the Contract status updates to Signing declined. In the **Signatories** tab, the status of all signatories updates to Declined. If more changes are required in the contract document, update it and resend it to the signatories for their signature.
-    -   After all the signatories have signed the document, an email is sent to the legal signatories with the finalized contract document attached.
-    -   If the certificate of completion is enabled, a certificate will be issued with the timestamp details about each signatory's action during an electronic signature.
+    -   After all signatories sign the document, the system sends an email to the legal signatories with the finalized contract document attached.
+    -   If the certificate of completion is enabled, a certificate is issued with the timestamp details about each signatory's action during an electronic signature.
 -   If the contract is signed by all signatories, you can close the request by selecting **Close Complete**. For more information, see [Close a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/close-legal-request.md)
 
 -   **[Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)**  

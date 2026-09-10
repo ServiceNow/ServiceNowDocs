@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Saba spoke v1.1.0 is the latest version.
+Saba spoke v1.1.0 is the latest version. For version history of the spoke, see [Saba spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-saba.html).
 
 ## Spoke dependencies
 

@@ -67,6 +67,8 @@ Role required: sn\_wsd\_visitor.admin
 
 [Create a visitor badge template]()
 
+[Configure the frequency of email notifications]()
+
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
 [Quick start test for Workplace Visitor Management]()

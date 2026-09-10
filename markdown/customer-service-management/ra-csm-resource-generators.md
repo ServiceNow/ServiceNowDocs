@@ -14,7 +14,7 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 
 Resource generators in Recommended Actions provide resources that you can use as inputs to actions such as guidances and field recommendations.
 
-Resource generators provide resources such as a knowledge article, a set of cases, or a field value that you can use in recommendations. Agents can use these recommendations in the Recommended Actions panel in a workspace such as CSM Configurable Workspace.
+Resource generators provide resources such as a knowledge article, a set of cases, or a field value that you can use in recommendations. Agents can use these recommendations in the Recommended Actions panel in a workspace such as CRM Workspace.
 
 Another way to think of a resource generator is as a function with inputs and outputs. For example, you can create a resource generator that predicts a knowledge article and then use that knowledge article as a recommended action for a case.
 

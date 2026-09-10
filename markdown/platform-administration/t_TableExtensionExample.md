@@ -14,6 +14,10 @@ breadcrumb: [Table extension, Applying database rotation techniques, Data Manage
 
 Preserve data sets using table extension.
 
+## Before you begin
+
+Role required: admin
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Table Rotations**.

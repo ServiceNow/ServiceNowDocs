@@ -1,63 +1,99 @@
 ---
-title: Configurations
-description: Use the configurations page to configure clone instances or create clone profiles.
+title: Configuration
+description: Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-configurations-tab.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 6
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Configurations
+# Configuration
 
-Use the configurations page to configure clone instances or create clone profiles.
+Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
+
+In the Clone Admin Console, all clone-related settings are consolidated under a single Configuration menu.
+
+**Note:** The Definitions tab has been deprecated and consolidated into the Configuration tab. If you are upgrading from an earlier version, use the Configuration menu instead.
 
 **Before you begin**
 
 -   You can add external email addresses to receive clone notifications.
 -   Some default items can't be removed from the exclusions, preservers, or scripts list.
 
-## Configurations overview
+## Overview page
 
-The Clone Admin Console provides a unified interface to configure, request, and monitor instance clones across your environments. The overview page displays the current number of clone instances and clone profiles in your instance.
-
-The Configurations tab includes the following key areas:
-
--   **Overview**: Summary of clone instances and clone profiles
--   **Exclusions**: Manage tables that are not copied during a clone
--   **Preservers**: Protect data on the target instance from being overwritten
--   **Cleanup scripts**: Automate post-clone tasks and adjustments
--   **Clone profiles**: Store predefined clone options for reuse
--   **Clone instances**: View registered instances and their URLs
--   **Multi-Instance View**: Consolidated information across all instances
+The Overview page displays a summary of all the configuration options in your instance.
 
 ## Exclusions
 
-Exclusions are tables that are not copied during a clone. Excluding a table results in an empty but usable table on the target instance after the clone. You can view and manage all exclusions from the [Exclusions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md) page.
+The Exclusions page lists the tables that aren't copied during an instance clone. When excluding a table, the clone automation truncates the entire table including its child tables. The clone process excludes \(or removes\) data from both the parent and the child tables. The child tables, however, aren't individually added to the list of excluded tables. Only the parent table is listed.
+
+To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
+
+By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ExcludeATableFromCloning.md).
+
+For information on guidelines when adding exclusions see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-guidelines.md).
 
 ## Preservers
 
-Preservers protect data on the target instance from being overwritten. Unpublished custom applications and their data must be manually preserved. You can view and manage all preservers from the [Preservers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md) page.
+The Preservers page displays a list of available data preservers, which are defined on the source instance. Preservers protect data on the target instance from being overwritten.
 
-## Cleanup scripts
+Preservers work differently compared to exclusions. When preserving a table, the clone automation doesn't automatically preserve the child tables. Therefore, the child tables must be individually added to the preserver list. To create a preserver see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
 
-Cleanup scripts automatically run on the target instance after the cloning process finishes. Use [cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-cleanup-script.md) to adjust settings, modify data, or automate other post-clone tasks.
+**Note:** Starting with RaptorDB, when you preserve a table, the clone automatically preserves the hierarchy and descendant tables. If you previously added child tables to preservers, they process normally. This automatic preservation applies only to RaptorDB instances.
 
-## Clone instances
+## Cleanup Scripts
 
-The clone instances page displays all available instances and their URLs which can be used within instance clone. You can use instances added to this list as a clone source or clone target for your clones. To add your non-production instance to your clone instances list, select **New**.
+The Cleanup Scripts page displays a list of all of your available scripts. Cleanup scripts automate post-clone tasks.
+
+Set an order number on each script, to set the order that the active scripts run, with lower numbers having a higher priority. To run some scripts in parallel, you can assign the same order to them.
+
+All cleanup scripts run in the global scope irrespective of the scope in which you have configured the cleanup script.
+
+|Script|Description|
+|------|-----------|
+|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-post-clone-issue-resolution.md). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
+|Clear scheduled job node association|Resets any scheduled jobs that were active on the source instance to the **Ready** state. This script also clears the value of the **System ID** and **Claimed by** fields on all scheduled jobs.|
+|Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they aren't enabled there. This script also migrates the email properties to the target instance.|
+|Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|
+|Install deactivated plugin|Enables the Domain Separation plugin for instances that use this feature.|
+|Regenerate all text indexes|Rebuilds text indexes on the target instance after a clone. Text indexes aren't cloned from the source to the target instance.|
+
+**Note:** Verify that any custom scripts have error-handling logic. By default, if one script encounters an error, the rest of the ordered scripts don't execute. Starting with the Australia Patch 5 release, you can view a link to cleanup script status. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
+
+To create a cleanup script see .
+
+## Clone Profiles
+
+Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
+
+The profile System Profile is available by default and can't be modified. Custom profiles use the default Exclusions, Preservers, and Scripts from the System Profile. When creating a custom profile, all existing custom exclusions and preservers are automatically added.
+
+You can create as many custom clone profiles as you'd like and edit them as needed. To change the definitions of a clone profile, such as exclusions, preservers, or cleanup scripts, select the number under the definition and select the **Edit** button on the page.
+
+## Clone Instances
+
+The Clone Instances page displays registered instances and their URLs. You can use instances added to this list as a clone source or clone target for your clones. To add your non-production instance to your clone instances list, select **New**.
 
 ## Multi-Instance View
 
-Multi-Instance View unlocks consolidated information showing clone activity across all instances, last clone timestamps, and enhanced management features. This provides a unified perspective of your cloning operations across your environment.
+The Multi-Instance View provides consolidated clone activity across linked instances.
 
-## Clone profiles
+## Clarifying exclusions and preservers combinations
 
-Clone profiles enable you to store predefined clone options, including preservers, exclusions and cleanup scripts. These can then be applied to your clone request depending on your desired outcome. The clone profiles page displays all available profiles. Clone profiles are customizable templates for clones and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
+Clone exclusions and preservers are both useful for managing your data. The graphics help to identify the expected outcome of the following combinations of preservers and exclusion combinations. For more information, see the [February 2025 Platform Fundamentals Academy session on Clone Admin Console](https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-fundamentals-academy-february-20th-2025-clone-admin/ba-p/3170929).
 
-The profile, System Profile is available by default and can't be modified. Custom profiles use the default Exclusions, Preservers, and Scripts from the System Profile. When creating a custom profile, all existing custom exclusions and preservers are automatically added.
+\[Omitted image "clone-exclusion-preservers-cheatsheet.png"\] Alt text: Clone exclusions and preservers cheatsheet.
 
-You can create as many custom clone profiles as you'd like and edit them as needed. To change the definitions of a clone profile, such as exclusions, preservers or cleanup scripts, select the number under the definition and select the **Edit** button on the page.
+-   Scenario 1: Preserving and excluding a table. You want the records on your target instance to remain the same.
+-   Scenario 2: Not preserving and excluding a table. You want records from your source instance not to be copied over and records on your target instance to be removed: The table is empty but usable after the clone.
+-   Scenario 3: Preserving and not excluding a table. You want records on your target Instance to remain the same and records for your source instance to be copied over.
+-   Scenario 4: Not preserving and not excluding a table. You want records from your source instance to replace records on your target instance.
+
+**Important:** During a clone, data from the source instances replaces data from the target instance. Therefore, any in-progress development work on the target instance is overwritten. For example: Work-in-progress update sets, scoped apps that only exist on the target instance but not on the source instance. If you have in-progress update sets, you must export them before the clone and re-import them after the clone is finished. Custom applications that aren't yet deployed to the source instance must be reinstalled after the clone is completed.
+
+To learn more about clone and app development tips, see the [Leveraging System Clones for Seamless Development and Deployment Whitepaper](https://learning.servicenow.com/nowcreate/en?id=nc_asset&asset_id=ce3c254697cc82d06eedb30e6253af3b&nc_source=copy_asset_link).
 

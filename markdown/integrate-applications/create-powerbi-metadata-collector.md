@@ -18,8 +18,8 @@ Create a collector to import metadata from PowerBI.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the PowerBI collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-powerbi-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,21 +47,40 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Configure the authentication options.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
 
     |Field|Description|
     |-----|-----------|
     |Authenticate using Azure username and password|Azure Active Directory username and password. Set the Azure Tenant ID if you want to specify the Azure tenant ID while using the user name and password authentication.|
     |Authenticate using Azure Service principal|Azure Active Directory application tenant ID for Power BI app. To find the tenant ID, select the question mark in the Power BI app and then choose About Power BI. The tenant ID is found at the end of the Tenant URL.|
 
-8.  Configure the client ID and client secret details.
+9.  Configure the client ID and client secret details.
 
     |Field|Description|
     |-----|-----------|
     |Microsoft Entra client ID|Application client ID for the PowerBI app.|
     |Microsoft Entra client secret|Application client secret for the PowerBI app.|
 
-9.  Configure the workspace scope and filters options.
+10. Configure the workspace scope and filters options.
 
 <table id="table_qpw_5xc_j3c"><thead><tr><th>
 
@@ -112,7 +131,7 @@ Exclude Power BI Workspaces
 Power BI workspaces and their contents to exclude from cataloging. Enter the exact workspace name or a regular expression to match. If both Include Workspaces and Exclude Workspaces are configured, Include Workspaces takes precedence. **Note:** If a workspace name includes special characters \[. , + , \* , ? , ^ , $ , \( , \) , \[ , \] , \{ , \} , \| , \\\], escape each special character with a backslash \(\\\). For example, enter Workspace \\\(Dev\\\) for Workspace \(Dev\).
 
 </td></tr></tbody>
-</table>10. Configure the connection and reliability options.
+</table>11. Configure the connection and reliability options.
 
 <table id="table_yhb_plp_33c"><thead><tr><th>
 
@@ -171,7 +190,7 @@ Retry delay
 Number of seconds to wait between retry attempts for a failed API call. Default: 2 seconds
 
 </td></tr></tbody>
-</table>11. Select **Save**.
+</table>12. Select **Save**.
 
 
 ## Result

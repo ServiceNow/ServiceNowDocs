@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View requests for quotes \(RFQs\) on the Business Portal
@@ -36,6 +36,8 @@ Role required: sn\_customerservice.customer
 
 7.  If the agent has converted the RFQ to a quote, a **View quote** button is available for you to view the quote details.
 
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
 
 **Related topics**  
 

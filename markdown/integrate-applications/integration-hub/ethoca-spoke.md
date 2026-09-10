@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Ethoca spoke v3.0.0 is the latest version.
+Ethoca spoke v3.0.0 is the latest version. For version history of the spoke, see [Ethoca Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ethoca-spoke.html).
 
 ## Supported versions
 

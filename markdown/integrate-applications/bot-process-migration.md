@@ -31,6 +31,9 @@ In an unattended bot process migration, the following records and associated ass
 -   Queues
 -   Associated skills
 
+    **Note:** Only skills that are directly used in the automation are migrated.
+
+
 In an attended bot process migration, the following records and associated assets are also migrated:
 
 -   Bot process configuration
@@ -42,6 +45,9 @@ In an attended bot process migration, the following records and associated asset
 -   Attended configurations, if ETA is enabled
 -   Queues
 -   Associated skills
+
+    **Note:** Only skills that are directly used in the automation are migrated.
+
 
 ## What's not migrated with the bot process
 

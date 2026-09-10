@@ -1,23 +1,23 @@
 ---
 title: OData capabilities supported by Zero Copy Connector for ERP
-description: Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) supports the $select, $filter, and $orderby OData v2 query capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, query]
-breadcrumb: [OData, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # OData capabilities supported by Zero Copy Connector for ERP
 
-Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Zero Copy Connector for ERP \(Enterprise Resource Planning\) supports the $select, $filter, and $orderby OData v2 query capabilities.
 
-For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md).
+For information about OData connections in Zero Copy Connector for ERP, see [Connecting Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md).
 
 <table id="table_obv_yvk_fdc"><thead><tr><th>
 
@@ -35,7 +35,7 @@ $select and $filter
 
 Available in the **Use ERP** flow.
 
- When using the inputs and outputs parameters in the model, $select and $filter are applied.
+ When you use the inputs and outputs parameters in the model, $select and $filter are applied.
 
 </td></tr><tr><td>
 
@@ -45,7 +45,7 @@ $orderby
 
 Available in the **Use ERP Data** flow.
 
-Specify the order, ascending or descending, in which data should be returned from an output variable.
+ Order, ascending or descending, in which data is returned from an output variable.
 
 </td></tr></tbody>
 </table>

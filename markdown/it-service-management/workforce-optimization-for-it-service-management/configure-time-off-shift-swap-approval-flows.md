@@ -18,6 +18,8 @@ As an administrator, you can configure the due date logic for the time-off reque
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Make sure that your application is in the Shift Planning scope.
 
 Role required: admin

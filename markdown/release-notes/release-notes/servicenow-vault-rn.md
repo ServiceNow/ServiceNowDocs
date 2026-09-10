@@ -1,19 +1,19 @@
 ---
 title: ServiceNow Vault release notes
-description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-keywords: [vault, release notes]
+keywords: [vault, release notes, vault, release notes, vault, release notes, vault, release notes, vault, release notes, vault, release notes]
 ---
 
 # ServiceNow Vault release notes
 
 The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
 
-## ServiceNow Vault highlights for the Australia release
+## About ServiceNow® Vault
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -37,23 +37,61 @@ The ServiceNow® Vault application provides a set of data security tools that pr
 
 See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading ServiceNow Vault to Australia
+-   **Activation information**
 
-ServiceNow Vault is a bundle of the following products:
+    Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)
--   [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery-landing.md)
--   [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-landing.md)
--   [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)
--   [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)
--   [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
--   [Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
+-   **Upgrade information**
 
-**Note:** Field Encryption, Data Discovery, and Data Privacy can be automatically installed using Vault Console.
+    ServiceNow Vault is a bundle of the following products:
 
-## New in the Australia release
+    -   [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-vault-landing.md)
+    -   [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery-landing.md)
+    -   [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-landing.md)
+    -   [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)
+    -   [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/field-encryption.md)
+    -   [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
+    -   [Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-intro.md)
+    **Note:** Field Encryption, Data Discovery, and Data Privacy can be automatically installed using Vault Console.
+
+
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Removed `security_admin` role from Vault console admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-roles.md)**
+
+    The `security_admin` role has been removed from the roles required to elevate to and administer Vault Console. All administrative tasks including that of viewing tools metrics across the dashboard is now available to the `sn_vault_console.vault_console_admin`
+
+-   **[ServiceNow Otto name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## July 2026
+
+The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Default model provider for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in ServiceNow Otto for Vault.
+
+
+## June 2026
+
+The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Vault Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-suite.md)**
 
@@ -63,6 +101,21 @@ ServiceNow Vault is a bundle of the following products:
 
     Begin exporting security and audit logs from your instance with a preconfigured Log Export Service topic and curated log sources, designed for instances with a ServiceNow Vault subscription. Activate the default configuration in a single step from the Vault Console, with no manual setup required. Log Export Service version 3.5.0 or later must be installed on the instance.
 
+
+### Plugin information
+
+-   **New plugins**
+
+    The following plugin is new in [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md):
+
+    Vault Suite \(com.snc.vault\_suite\): Automates the deployment of the complete ServiceNow Vault offering, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, Code Signing Enterprise, and Cloud Encryption, on instances with a ServiceNow Vault subscription.
+
+
+## April 2026
+
+The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Guided setup for custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-vault-guided-setup.md)**
 
@@ -85,6 +138,12 @@ ServiceNow Vault is a bundle of the following products:
     Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
 
 
+## Australia Early Availability
+
+The ServiceNow® Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. ServiceNow Vault was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Sensitive data monitoring in AI Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-tools.md)**
 
     Identify unprotected sensitive data across your configured tables using the AI Insights section in the Vault console dashboard. View users entering sensitive data in unprotected columns and channels, grouped by sensitive data patterns. This information can further be used to prioritize protection efforts.
@@ -93,58 +152,4 @@ ServiceNow Vault is a bundle of the following products:
 
     Autoclassify and protect the occurrences of sensitive data within your custom applications using guided setup for Vault. This flow helps you to quickly start using Vault capabilities in your own applications.
 
-
-## Changed in this release
-
--   **[Removed `security_admin` role from Vault console admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-roles.md)**
-
-    The `security_admin` role has been removed from the roles required to elevate to and administer Vault Console. All administrative tasks including that of viewing tools metrics across the dashboard is now available to the `sn_vault_console.vault_console_admin`
-
--   **[ServiceNow Otto name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-
--   **[Default model provider for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in ServiceNow Otto for Vault.
-
-
-## Activation information
-
-Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
-
--   **New plugins**
-
-    The following plugin is new in [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md):
-
-    Vault Suite \(com.snc.vault\_suite\): Automates the deployment of the complete ServiceNow Vault offering, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, Code Signing Enterprise, and Cloud Encryption, on instances with a ServiceNow Vault subscription.
-
-
-## Related ServiceNow applications and features
-
--   **[Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery-landing.md)**
-
-    Run a discovery scan to look for data patterns that might be sensitive data. After it's discovered, data can be reviewed or classified for further protection and management.
-
--   **[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md)**
-
-    Create data classes and organize your data into data classes for better data management. After it's classified, data can be protected at the class level.
-
--   **[Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/dps-data-anonymization.md)**
-
-    Anonymize data by data class with different anonymization techniques to preserve data patterns while removing sensitive data. Data anonymization can help when sanitizing instances for development or removing specific user data because of rights to be forgotten.
-
--   **[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-landing.md)**
-
-    Securely protect sensitive data while providing access for authorized users, which helps you increase protections from bad actors.
-
--   **[Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md)**
-
-    Use continuous authentication on classified sensitive data in real time.
-
-
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

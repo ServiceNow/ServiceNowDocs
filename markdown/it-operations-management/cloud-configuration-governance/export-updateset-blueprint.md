@@ -39,7 +39,7 @@ Package the blueprint as an update set. Then export the update set from its curr
 
         \[Omitted image "blueprint-exporter-madrid.png"\] Alt text: Blueprint exporter window
 
-        The Blueprint Exporter window has a list of all the indirect dependencies \(Policy, MID Server Script Includes, MID Server Script Files, Script Includes, and Workflows\) for the blueprint. Objects such as policies, pools, MID scripts, script includes, and workflows are not directly a part of a blueprint, but a blueprint might depend on these objects to work correctly.
+        The Blueprint Exporter window has a list of all the indirect dependencies \(Policy, MID Server Script Includes, MID Server Script Files, Script Includes, and Workflows\) for the blueprint. Objects such as policies, pools, MID scripts, script includes, and workflows are not directly a part of a blueprint. However, a blueprint might depend on these objects to work correctly.
 
     2.  In the Blueprint Exporter window, click an object in the Type column.
 

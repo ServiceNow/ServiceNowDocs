@@ -18,6 +18,8 @@ Create a meeting, training, time-off request, a custom event, or an adhoc work s
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.admin
 
 ## About this task
@@ -38,15 +40,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d66450e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d67521e138">
 
 To
 
-</th><th align="left" id="d66450e125">
+</th><th align="left" id="d67521e141">
 
 Perform these tasks
 
-</th></tr></thead><tbody><tr><td id="d66450e131">
+</th></tr></thead><tbody><tr><td id="d67521e147">
 
 **Create a meeting, training, or time-off request**
 
@@ -72,7 +74,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
     7.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d66450e238">
+</td></tr><tr><td id="d67521e254">
 
 **Create a custom event**
 
@@ -92,7 +94,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
 9.  In the **Select Incident** field, select an incident you want to associate with this event.
 
 
-</td></tr><tr><td id="d66450e313">
+</td></tr><tr><td id="d67521e329">
 
 **Create a work shift**
 

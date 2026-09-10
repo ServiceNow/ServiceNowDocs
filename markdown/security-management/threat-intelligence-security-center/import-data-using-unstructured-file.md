@@ -152,3 +152,5 @@ Select the taxonomy for the imported data. Using taxonomies, define dictionaries
 
 [Import data using raw text]()
 
+[Import data using AI]()
+

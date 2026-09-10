@@ -114,7 +114,7 @@ Interaction with typo handling
 
 </td><td>
 
-Auto-corrected search query terms can't trigger Genius Result configurations with Term trigger conditions. When computing Knowledge base articles Genius Results for a search query, AI Search corrects terms in the query.
+Auto-corrected search query terms can't trigger Genius Result configurations with Term trigger conditions. When computing Q&amp;A Genius Results for a search query, AI Search corrects terms in the query.
 
 </td></tr><tr><td>
 

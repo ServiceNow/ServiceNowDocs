@@ -62,5 +62,5 @@ Refer to the section [Define an Observable](https://raw.githubusercontent.com/Se
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

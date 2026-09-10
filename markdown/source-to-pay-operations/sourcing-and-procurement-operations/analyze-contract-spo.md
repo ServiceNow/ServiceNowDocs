@@ -24,7 +24,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\
 
 You can analyze an entire document and identify any non-standard or missing clauses by using generative AI with the Now Assist in Contract Management application. With generative AI, your organization can save time and effort by reducing the need for manual review.
 
-For more information, see [Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-NA-review-land.md).
+For more information, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-NA-review-land.md).
 
 ## Procedure
 
@@ -48,15 +48,15 @@ For more information, see [Contract analysis using ServiceNow Otto for Contract 
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d153986e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d162112e159">
 
 Method
 
-</th><th align="left" id="d153986e162">
+</th><th align="left" id="d162112e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153986e168">
+</th></tr></thead><tbody><tr><td id="d162112e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d153986e195">
+</td></tr><tr><td id="d162112e195">
 
 **Run Now Assist analysis on multiple contract documents**
 

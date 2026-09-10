@@ -21,7 +21,7 @@ The Grants Application Workflow in the Public Sector Digital Services \(PSDS\) G
 
 The Grants Management experience begins on the Grants Management landing page for grants agents and grants program managers. Grants organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-The following is an example of how the default landing page appears in the CSM Configurable Workspace Grants Management workspace for a grant agents or grant program manager.
+The following is an example of how the default landing page appears in the CRM Workspace Grants Management workspace for a grant agents or grant program manager.
 
 \[Omitted image "psds\_gmp\_landing\_page.png"\] Alt text: grants management landing page view for agents or managers
 
@@ -45,7 +45,7 @@ After grant program set-up is complete, you can see every case detail \(narrativ
 
 \[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 
-For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see 
+For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see [Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-gpp-tabs.md)
 
 ## Grants Management Application Intake​
 

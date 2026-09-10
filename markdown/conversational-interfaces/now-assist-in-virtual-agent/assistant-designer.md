@@ -19,11 +19,12 @@ Create, configure, manage, and test LLM-based chat and voice assistants within A
 
 To access Assistant Designer navigate to **All** &gt; **Assistant Designer**.
 
-Assistant Designer is comprised of three main areas:
+Assistant Designer is comprised of four main areas:
 
 1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a ServiceNow Otto product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
 2.  Asset library: The **Asset library** tab opens the Virtual Agent Designer home page where you can create NLU/Keyword topics and LLM assets. For more information, see [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 3.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see .
+4.  Conversations: Review a log of completed voice interactions and investigate individual call details from the **Conversations** tab. For more information, see [Reviewing voice conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/assistant-designer-activity-tab.md).
 
 \[Omitted image "NAinVA-assistant-designer-home-122025.png"\] Alt text: Assistant Designer home page showing the Assistants, Asset library, and Analytics tabs.
 

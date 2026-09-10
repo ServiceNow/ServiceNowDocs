@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-zerocopyconnectors-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -111,27 +111,9 @@ Australia
 
 Retrieve data from Cloudera Hive in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing.
 
--   **[Cloudera Impala](https://www.servicenow.com/docs/access?context=cloudera-impala-zcc&family=australia&ft:locale=en-US)**
-
-Retrieve data from Cloudera Impala in real time without copying or duplicating the data.
-
 -   **[Microsoft OneLake](https://www.servicenow.com/docs/access?context=microsoft-onelake-zcc&family=australia&ft:locale=en-US)**
 
 Retrieve data from Microsoft OneLake in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing.
-
--   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
-
-[Connect to Prometheus](https://www.servicenow.com/docs/access?context=prometheus-zcc&family=australia&ft:locale=en-US)
-
-Retrieve data from Prometheus in real time without having to copy or duplicate the data.
-
--   **[Connect to another ServiceNow® instance](https://www.servicenow.com/docs/access?context=servicenow-remote-instance-zcc&family=australia&ft:locale=en-US)**
-
-Retrieve data from another ServiceNow® instance in real time without copying or duplicating the data.
-
--   **[OAuth authentication](https://www.servicenow.com/docs/access?context=create-databricks-connection-zcc&family=australia&ft:locale=en-US)**
-
-Configure OAuth authentication in Databricks, Oracle, and Snowflake connectors.
 
 
 </td></tr></tbody>
@@ -177,20 +159,18 @@ Australia
 
 </td><td>
 
--   **[Apache Iceberg primary connector](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US)**
+-   **[New application name](https://www.servicenow.com/docs/access?context=zero-copy-connectors&family=australia&ft:locale=en-US)**
 
-The Apache Iceberg connector is now certified as a primary connector.
-
--   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&family=australia&ft:locale=en-US)**
-
-Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.
+Workflow Data Fabric Hub is now Zero Copy Connector Hub.
 
 -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
-    -   [Amazon S3 Tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-zcc&family=australia&ft:locale=en-US)
-    -   [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US)
--   **[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)**
-    -   [Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&family=australia&ft:locale=en-US): The Teradata connector now supports Bearer Token and OAuth authentication methods.
-    -   [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US): The Apache Iceberg connector now supports S3-compatible object storage systems.
+
+[New connector package options](https://www.servicenow.com/docs/access?context=zero-copy-connectors&family=australia&ft:locale=en-US)When installing Zero Copy Connectors, you can include primary connectors only by selecting Zero Copy Connectors Primary \(sn\_zcc\_primary\). Alternatively, select Zero Copy Connectors \(sn\_data\_fabric\_zcc\) to include both primary and community connectors.
+
+-   **[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)**
+    -   Authenticate to [Databricks](https://www.servicenow.com/docs/access?context=databricks-zcc&family=australia&ft:locale=en-US) and [Snowflake](https://www.servicenow.com/docs/access?context=snowflake-zcc&family=australia&ft:locale=en-US) using your own credentials with personal authentication support.
+    -   Retrieve real-time metadata and data from REST-enabled systems without copying or duplicating the data. This release adds [REST connectors](https://www.servicenow.com/docs/access?context=rest-connectors&family=australia&ft:locale=en-US) for [Oracle HCM \(Discovery\)](https://www.servicenow.com/docs/access?context=oracle-hcm-discovery-zcc&family=australia&ft:locale=en-US) and [Acumatica](https://www.servicenow.com/docs/access?context=acumatica-zcc&family=australia&ft:locale=en-US).
+    -   [MySQL](https://www.servicenow.com/docs/access?context=mysql-zcc&family=australia&ft:locale=en-US) and [PostgreSQL](https://www.servicenow.com/docs/access?context=postgresql-zcc&family=australia&ft:locale=en-US) connectors moved from Community connectors to Primary connectors.
 
 </td></tr></tbody>
 </table>## Removed
@@ -325,9 +305,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
- Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-zcc&family=australia&ft:locale=en-US).
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-zcc&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -557,6 +540,9 @@ Australia
 -   Connect to Databricks, Oracle, and Snowflake using OAuth authentication.
 -   Query time-series monitoring data from Prometheus using the new community connector.
 -   Include either primary connectors only or both primary and community connectors.
+-   Retrieve real-time data from Oracle HCM \(Discovery\), and Acumatica using new REST connectors.
+-   Connect to MySQL and PostgreSQL using newly promoted primary connectors.
+-   Authenticate to external data sources using your own credentials with personal authentication support.
 
  See [Zero Copy Connectors](https://www.servicenow.com/docs/access?context=zero-copy-connectors&family=australia&ft:locale=en-US) for more information.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforsetup-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -91,22 +91,6 @@ Australia
 
 </td><td>
 
--   **[Enhanced Admin Home experience](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
-
-Leverage an enhanced Admin Home dashboard to centralize access to Now Assist for Setup and key applications, with context‑aware guidance and recommended next actions, available after installing the Now Assist for Setup store app.
-
--   **[Centralized application setup](https://www.servicenow.com/docs/access?context=ia-administer&family=australia&ft:locale=en-US)**
-
-You can now set up Now Assist Admin and other entitled applications directly from Admin Home using a guided experience that installs required components and applies default configurations from a single starting point.
-
--   **[Product module Product Hubs](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
-
-You can now access product‑specific Product Hubs from Admin Home to discover, install, and configure entitled Now Assist products through guided setup flows that install required components and apply default configurations.
-
--   **[Guided module configuration](https://www.servicenow.com/docs/access?context=ia-config-landing&family=australia&ft:locale=en-US)**
-
-Configure the Platform module and applicable product modules from a unified configuration experience that guides you through module‑specific setup, with the Platform module appearing only when the selected product includes platform‑level changes for the installation.
-
 -   **[Tiered SKU support](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto for Setup added support for Advanced and Prime SKUs across Simplified ITSM and CBS, including entitlement-driven experiences and flows.
@@ -117,7 +101,7 @@ Enhanced the Product Hub experience with updates to the Resources section and gu
 
 -   **[LitJS component support](https://www.servicenow.com/docs/access?context=ia-configure-il&family=australia&ft:locale=en-US)**
 
-Enabled support for importing and using LitJS components within Now Assist Panel to support a consistent component framework.
+Enabled support for importing and using LitJS components within ServiceNow Otto Panel to support a consistent component framework.
 
 -   **[Configuration tracking and Admin Home guidance enhancements](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
 
@@ -129,7 +113,7 @@ Expanded zero‑touch installation to automatically install Setup Hub with selec
 
 -   **[Configuration Console page UI enhancements](https://www.servicenow.com/docs/access?context=ia-configure-il&family=australia&ft:locale=en-US)**
 
-Enhanced the Configuration Console with search support, task management actions, configuration status indicators, and integrated Now Assist agent guidance.
+Enhanced the Configuration Console with search support, task management actions, configuration status indicators, and integrated ServiceNow Otto agent guidance.
 
 
 </td></tr></tbody>
@@ -278,7 +262,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Setup by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -465,7 +452,7 @@ Australia
 
 -   Automates setup and configuration by installing required products and applying default settings.
 -   Simplifies administration with a clear, modular Admin Home UI that centralizes access and accelerates task completion.
--   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
+-   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled ServiceNow Otto products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
  See [ServiceNow Otto for Setup](https://www.servicenow.com/docs/access?context=ia-landing&family=australia&ft:locale=en-US) for more information.

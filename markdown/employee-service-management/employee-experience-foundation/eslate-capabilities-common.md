@@ -1,6 +1,6 @@
 ---
-title: Employee Slate capabilities
-description: You can access essential workplace tools and information through Employee Slate core capabilities. Use Tasks and requests, Canvas, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
+title: EmployeeWorks capabilities
+description: You can access essential workplace tools and information through EmployeeWorks capabilities. Use Tasks and requests, Canvas, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-capabilities-common.html
 release: australia
@@ -8,16 +8,16 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Employee Slate, Tasks and requests, canvas, notifications, org chart, profile, communication, calendar]
-breadcrumb: [Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate capabilities
+# EmployeeWorks capabilities
 
-You can access essential workplace tools and information through Employee Slate core capabilities. Use **Tasks and requests**, **Canvas**, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
+You can access essential workplace tools and information through EmployeeWorks capabilities. Use **Tasks and requests**, **Canvas**, notifications, org chart, profile, communication tools, and calendar to manage your daily work tasks.
 
-Employee Slate provides a unified workspace where you can access all your essential work tools from one location. Use these features from both Employee Slate for Now Assist and Employee Slate for Moveworks.
+You can access all your essential work tools from one location.
 
 ## Tasks and requests
 
@@ -35,7 +35,7 @@ Customize your workspace with widgets for quick access to frequently used tools,
 
 You can stay informed about important updates through the integrated notification system. Notifications appear in real time and provide context for immediate action.
 
-Receive alerts for new assignments, approval requests, system updates, and team communications directly within your Employee Slate interface. For more information, see [Employee Slate notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
+Receive alerts for new assignments, approval requests, system updates, and team communications directly within your interface. For more information, see [EmployeeWorks notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-notifications.md).
 
 ## Org chart
 
@@ -45,7 +45,7 @@ Search for team members, view reporting hierarchies, and access contact details 
 
 ## Profile
 
-You can manage your personal information, preferences, and settings from your Employee Slate profile. The profile centralizes your workplace identity and configuration options.
+You can manage your personal information, preferences, and settings from your profile. The profile centralizes your workplace identity and configuration options.
 
 Update contact information, set notification preferences, configure language settings, and manage your personal workspace customizations. For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-slate-employee-profile.md).
 
@@ -59,5 +59,5 @@ Send messages, participate in team discussions, share updates, and collaborate o
 
 You can view and manage your schedule through the integrated calendar functionality. The calendar synchronizes with scheduling systems of your organization.
 
-Check upcoming meetings, schedule appointments, view team availability, and manage your time effectively without leaving the Employee Slate environment. For more information, see [Calendar and schedule management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-calendar-schedule.md).
+Check upcoming meetings, schedule appointments, view team availability, and manage your time effectively without leaving the environment. For more information, see [Calendar and schedule management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-calendar-schedule.md).
 

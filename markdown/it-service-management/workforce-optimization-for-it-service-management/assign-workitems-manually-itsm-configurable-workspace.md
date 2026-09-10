@@ -8,7 +8,7 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT S
 Allocate pending work items to agents to complete the work.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_ws.manager
 
@@ -38,15 +40,15 @@ The active work items remain in the queue pending manual allocation for one of t
 
 3.  Do any of the following to manually allocate the work items.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d158505e102">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d161347e118">
 
 Navigate To
 
-</th><th align="left" id="d158505e105">
+</th><th align="left" id="d161347e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d158505e111">
+</th></tr></thead><tbody><tr><td id="d161347e127">
 
 **Active Work Items tab**
 
@@ -54,7 +56,7 @@ Do this
 
 Select the work item and click **Allocate**.
 
-</td></tr><tr><td id="d158505e123">
+</td></tr><tr><td id="d161347e139">
 
 **Service Channel page**
 
@@ -66,7 +68,7 @@ Select the work item and click **Allocate**.
 4.  Click **Allocate**.
 
 
-</td></tr><tr><td id="d158505e153">
+</td></tr><tr><td id="d161347e169">
 
 **All Queues tab**
 

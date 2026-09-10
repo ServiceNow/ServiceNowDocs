@@ -1,6 +1,6 @@
 ---
 title: Operator phase 1: Analyze and acknowledge an alert
-description: As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. You can open the Alert form to analyze the details, and then acknowledge it to let other operators know that the issue causing the alert should be addressed in some way.
+description: As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. Open the Alert form to analyze the details. Acknowledge the alert to let other operators know that the issue should be addressed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-phase-acknowledge-analyze.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Operator responsibilities, Event Management Operator Tutorial, Use,
 
 # Operator phase 1: Analyze and acknowledge an alert
 
-As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. You can open the Alert form to analyze the details, and then acknowledge it to let other operators know that the issue causing the alert should be addressed in some way.
+As an Event Management operator, the first thing you should do is access alerts and then find the ones you want to focus on. Open the Alert form to analyze the details. Acknowledge the alert to let other operators know that the issue should be addressed.
 
 ## Before you begin
 
@@ -207,7 +207,7 @@ Any existing knowledge base \(KB\) article that is associated with the alert. Wh
 
 5.  Click the **Impact Tree** tab and review the impacts on each CI.
 
-    The percentages next to each CI in the impact tree show you the effect on each CI. In this example, each CI is impacted 100% by the alert, which means the underlying issue that led to the alert is serious enough to impact the functionality of the application service.
+    The percentages next to each CI in the impact tree show you the effect on each CI. In this example, each CI is impacted 100% by the alert. This means the underlying issue that led to the alert is serious enough to impact the functionality of the application service.
 
     \[Omitted image "operator-dashboard-impact-tree.png"\] Alt text: Impact tree
 
@@ -215,7 +215,7 @@ Any existing knowledge base \(KB\) article that is associated with the alert. Wh
 
     Acknowledging an alert does not assign it to you, nor does it create a task like an incident or change request. It simply lets other operators know that you are aware of the issue. After you acknowledge an alert, you will take further action during the triage stage.
 
-<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d469845e548">
+<table id="choicetable_w31_kkr_jkb"><tbody><tr><td id="d485354e548">
 
 **Acknowledge a single alert**
 
@@ -225,7 +225,7 @@ With this process, you can acknowledge only the alert that you are viewing.1.  O
 2.  Select the **Acknowledged** check box.
 
 
-</td></tr><tr><td id="d469845e569">
+</td></tr><tr><td id="d485354e569">
 
 **Acknowledge one or more alerts**
 

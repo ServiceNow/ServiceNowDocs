@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP system properties
-description: Use these system properties to configure Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
+description: System properties that control Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, property, properties]
 breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Zero Copy Connector for ERP system properties
 
-Use these system properties to configure Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
+System properties that control Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 
 Configure the following properties in the System Properties \[sys\_properties\] table to control Zero Copy Connector for ERP behavior.
 
@@ -45,11 +45,11 @@ integer
 
 Debug log level.
 
--   0 is inactive
--   1 is least level of detail
--   9 is highest level of detail
+ -   0 is inactive
+-   1 is the least level of detail
+-   9 is the highest level of detail
 
- Logging is done in class ERPIntegrationLog.
+ Logging occurs in the ERPIntegrationLog class.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ string
 
 </td><td>
 
-After the hostname and port, this path is used to connect with any SAP catalog service. The default is: /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. After creating the property and setting it to true, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP. **Note:** If there's an update in the catalog service and you want to update the table catalog information, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
+After the hostname and port, this path is used to connect with any SAP catalog service. The default is `/sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection`. After creating the property and setting it to active, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP. **Note:** To update the table catalog information after the catalog service changes, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ integer
 
 </td><td>
 
-Database memory limit in megabyte per request. When limit is reached, data is written to disk.
+Database memory limit in megabytes per request. When the limit is reached, data is written to disk.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ true \| false
 
 </td><td>
 
-Enables cloning and changes of models in Zero Copy Connector for ERP application.
+Enables cloning and modification of models in the Zero Copy Connector for ERP application.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ true \| false
 
 </td><td>
 
-Turns heartbeat feature on/off.
+Turns the heartbeat feature on or off.
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ true \| false
 
 </td><td>
 
-Do not delete data on mid server when errors occur.
+Retains data on the MID Server when errors occur.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ integer
 
 </td><td>
 
-Maximum pages in loaded state per process. When more pages are in loaded state, ETl process waits until less pages are in loaded state before sending next batch.
+Maximum number of pages in loaded state per process. When more pages are in loaded state, the ETL process waits until fewer pages are in loaded state before sending the next batch.
 
 </td></tr><tr><td>
 
@@ -193,7 +193,7 @@ integer
 
 </td><td>
 
-Limits the number of records fetched for GET calls by adding the $top parameter to the OData calls. This reduces the number of records read from the Odata endpoint.
+Limits the number of records fetched for GET calls by adding the $top parameter to the OData calls. This reduces the number of records read from the OData endpoint.
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ string
 
 </td><td>
 
-After the hostname and port, this path is used to connect with any SAP OData service. Add a URL in **Value** to specify the OData service. The default is: /sap/opu/odata/sap.
+After the hostname and port, this path is used to connect with any SAP OData service. Add a URL in **Value** to specify the OData service. The default is `/sap/opu/odata/sap`.
 
 </td></tr><tr><td>
 
@@ -229,7 +229,7 @@ integer
 
 </td><td>
 
-Specifies the timeout value for OData response. If OData calls are timed out frequently, increase the timeout value. Specify the value in seconds. The default is 100 seconds. This value is used for responses both from external web and from a MID Server.
+Specifies the timeout value for the OData response. If OData calls time out frequently, increase the timeout value. Specify the value in seconds. The default is 100 seconds. This value is used for responses both from external web and from a MID Server.
 
 </td></tr><tr><td>
 
@@ -241,7 +241,7 @@ integer
 
 </td><td>
 
-Number of records to retrieve from the external system. The default global property for all extractions is set to 50. To override the global property, specify an extraction source specific page size with the sn\_erp\_integration\_result\_page\_size system property.
+Number of records to retrieve from the external system. The default global property for all extractions is set to 50. To override the global property, specify an extraction-source-specific page size with the sn\_erp\_integration\_result\_page\_size system property.
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ true \| false
 
 Set this property to true to save the latest response from your ERP system as an attachment on the ERP remote table.
 
- Updating the attachment setting on the ERP remote table to "use attachment" skips the request to the ERP system and shows the data stored in attachment.
+ Updating the attachment setting on the ERP remote table to **use attachment** skips the request to the ERP system and shows the data stored in the attachment.
 
  Requires the sn\_erp\_integration.erp\_admin role to change.
 
@@ -305,7 +305,7 @@ true \| false
 
 </td><td>
 
-Specifies if cookies must be used for OData connection.
+Specifies whether cookies must be used for the OData connection.
 
 </td></tr><tr><td>
 
@@ -317,8 +317,7 @@ true \| false
 
 </td><td>
 
-Indicates if CSRF token should be sent for OData calls in Zero Copy Connector for ERP operations.
+Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
-
+</table>

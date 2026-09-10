@@ -32,6 +32,8 @@ Create your assessment configurations to determine when a processing activity mu
 Publish a new version of a smart assessment template to revise its questionnaire, response options, or automations. Each version maintains a change history of templates used in privacy screening, impact, and breach assessments.
 -   **[Map a table with a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.md)**  
 Keep your processing activity updated and in sync with any table in ServiceNow® by mapping the entity fields with the processing activity.
+-   **[Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md)**  
+Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
 
 **Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

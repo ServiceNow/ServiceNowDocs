@@ -128,6 +128,14 @@ Group that owns the policy.
 
 </td></tr><tr><td>
 
+Owner
+
+</td><td>
+
+The user responsible for the policy. The Owner field is mandatory. Only a user with sn\_compliance.user role can be added as an owner.
+
+</td></tr><tr><td>
+
 Approvers
 
 </td><td>

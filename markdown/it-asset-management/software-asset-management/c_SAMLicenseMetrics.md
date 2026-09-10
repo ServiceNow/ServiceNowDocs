@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 15
 breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -105,6 +105,10 @@ CPU core count * CPU count
 -   Device CAL: Licenses each device that accesses your server, regardless of the number of users that are using each device to access the server.
 -   User/Device CAL: Licenses each user or device that accesses your server.
 -   Resource Consumption. Consumption-based license metric that supports CAL reconciliation. A 1:1 ratio calculation between the Unit consumption column in the Resource Value \[samp\_sw\_resource\_value\] table and the Licenses required column in the License Metric Results \[samp\_license\_metric\_result\] table.
+-   Concurrent User: Licenses the number of simultaneous users accessing the program.
+
+**Note:** For the Concurrent User license metric, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
+
 
 </td></tr><tr><td>
 
@@ -157,6 +161,25 @@ IBM **Note:** IBM license metrics are visible only if the IBM publisher pack is 
 
 **Note:** This license metric is available only if you request and install the IBM License Compliance for Software Asset Management application from the ServiceNow Store.
 
+
+ **Note:** The following license metrics are available from Australia Patch 6 onwards.
+
+For each license metric in the following list that you select on a software entitlement, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md).
+
+-   Application Instance: Licenses each running instance of an IBM software product deployed on a server, container, or virtual environment.
+-   Concurrent User: Licenses the number of simultaneous users accessing an IBM software product.
+-   Connection: Licenses each connection or link between an IBM software product and a database, application, or device.
+-   Events Per Second: Licenses the average number of security events processed per second by an IBM software product.
+-   Floating User: Licenses each user accessing an IBM software product at any given moment. A separate entitlement is required for each installation accessed simultaneously by the same user.
+-   Flows Per Minute: Licenses the average number of network flow records processed per minute by an IBM software product.
+-   Managed Client Device: Licenses each client device whose configuration, security, or lifecycle is managed by an IBM software product.
+-   Managed Device: Licenses each computing or network device whose configuration, state, security posture, or lifecycle is managed or monitored by an IBM software product.
+-   Managed Virtual Server: Licenses each virtual server, or unpartitioned physical server, that is managed or monitored by an IBM software product.
+-   Order Lines: Licenses each order line processed by an IBM software product. Sales and quote order lines are included; return and shipment lines are excluded.
+-   Resource Value Unit - Decimal Petabyte Managed: Licensing is based on the number of decimal petabytes \(1015 bytes\) managed by an IBM software product, calculated using a tiered rate.
+-   Storage Device: Licenses each independently powered, channel-attached storage device that runs, accesses, or is managed by an IBM software product.
+-   Terabyte: Licenses each terabyte of data available to or managed by an IBM software product. The measurement basis is defined by the applicable License Information document.
+-   Token: Licenses access to an IBM software product from a shared pool of tokens. Each installation consumes a predefined number of tokens per user session, and simultaneous consumption across users and installations must not exceed the licensed pool.
 
 </td></tr><tr><td>
 

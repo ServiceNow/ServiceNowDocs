@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-identity-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -102,11 +102,9 @@ Zurich
 
 </td><td>
 
--   **[Access analyzer](https://www.servicenow.com/docs/access?context=access-analyzer&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
 
-Display the Security data filter that is in the **Applied** or **Undefined** status in the Access Analyzer results. Access Analyzer also supports the new criteria in ACLs that is controlled by reference.
-
-**Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -136,7 +134,7 @@ Use Federated ID to uniquely identify roles across multiple instances. Federated
 View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requesters and their API calls.
 
 
--   **[Scripting Governance Tool](https://www.servicenow.com/docs/access?context=scripting-governance&family=australia&ft:locale=en-US)**
+ -   **[Scripting Governance Tool](https://www.servicenow.com/docs/access?context=scripting-governance&family=australia&ft:locale=en-US)**
 
 Manage user permissions for scripting on the ServiceNow AI Platform from the enhanced scripting governance tool.
 
@@ -218,7 +216,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -226,7 +227,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -313,7 +317,8 @@ Australia
 
 </td><td>
 
--   **Coral theme**
+-   **Accessibility information**
+    -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 

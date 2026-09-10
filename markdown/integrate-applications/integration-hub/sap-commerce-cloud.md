@@ -45,7 +45,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version.
+[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version. For version history of the spoke, see [SAP Commerce Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-commerce-cloud.html).
 
 ## Spoke actions
 

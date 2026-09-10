@@ -44,6 +44,8 @@ Use business processes to model internal workflows and relate them to supporting
 
 A business process is not the same as a business process activity. A business process models the overall workflow and its L0-L2 hierarchy. A business process activity is a separate, standalone entity that represents a discrete unit of work performed by a business actor. For more information, see [Exploring business process activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-activities.md).
 
+**Note:** Before Australia Patch 5, a business process could be associated with only one business unit, using a **Business Unit** field on the form. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate a business process with multiple business units. The Business Unit field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  

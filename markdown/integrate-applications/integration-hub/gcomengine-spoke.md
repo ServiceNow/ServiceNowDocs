@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Compute Engine spoke v1.0.5 is the latest version.
+Google Compute Engine spoke v1.0.5 is the latest version. For version history of the spoke, see [Google Compute Engine spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-gce.html).
 
 ## Spoke dependencies
 

@@ -38,38 +38,14 @@ Provides access to all pages in Simplified ITSM.A user with this role can perfor
 
 None
 
-</td></tr><tr><td class="sub-head" colspan="3">
-
-Incident Management
-
-</td></tr><tr><td>
-
-sn\_incident\_admin
-
-</td><td>
-
-Enables you to edit incident management configurations in the product console.
-
-</td><td>
-
-None
-
-</td></tr><tr><td class="sub-head" colspan="3">
-
-Request Management
-
-</td></tr><tr><td>
-
-sn\_request\_admin
-
-</td><td>
-
-Enables you to edit request management configurations in the product console.
-
-</td><td>
-
-None
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
+</table>|Role|Description|Inherited roles|
+|----|-----------|---------------|
+|sn\_incident\_admin|Enables you to edit incident management configurations in the product console.|None|
+
+|Role|Description|Inherited roles|
+|----|-----------|---------------|
+|sn\_request\_admin|Enables you to edit request management configurations in the product console.|None|
+
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
 

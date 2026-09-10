@@ -35,7 +35,7 @@ Understand the similarities and differences between a Service Portal and a Works
 |Purpose|Branded self-service site for requester browsing, requesting, and approvals|Task-centric workbench for triage, resolution, and collaboration|
 |UI Framework|AngularJS-based widgets, pages, themes|Next Experience UI withUI Builder and web components|
 |Configuration tools|Service Portal Designer and Branding Editor|UI Builder for pages, variants, components, and declarative actions|
-|Base system options|Employee Center portal for user self-service|Configurable workspaces \(for example, Service Operations Workspace and CSM Configurable Workspace\)|
+|Base system options|Employee Center portal for user self-service|Configurable workspaces \(for example, Service Operations Workspace and CRM Workspace\)|
 |Navigation|Portal menus and topic pages|Unified Navigation with multi-tab sessions|
 |Analytics|Portal usage analytics and optional AI Search|Embedded analytics, KPIs, and agent assist features|
 |Upgrade path|Migrate to Employee Center for an updated taxonomy|Move from classic Agent Workspace to Configurable Workspaces|

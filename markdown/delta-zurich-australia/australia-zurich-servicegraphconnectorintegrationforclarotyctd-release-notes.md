@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicegraphconnectorintegrationforclarotyctd-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -162,7 +162,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Service Graph Connector Integration for Claroty CTD**
+
+Starting with the Australia release, the Service Graph Connector Integration for Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -336,7 +339,11 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Import sites, devices, connections, and installed programs to the ServiceNow Configuration Management Database \(CMDB\).
+-   Complete the organized sequence of tasks to configure the integration on your instance using the available Guided Setup.
+-   Map and transform data from Claroty CTD into ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\).
+
+ See [Service Graph Connector Integration for Claroty CTD](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-claroty-ctd&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

@@ -44,7 +44,7 @@ Avoid including executable code, scripts, or unsupported special characters, whi
 
 7.  On the Report a Privacy Case form, fill in the fields.
 
-    For a description of the field values, see [Report a privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md).
+    For a description of the field values, see [Anonymous privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md).
 
 8.  Enter the CAPTCHA verification code displayed on the screen in the **Text verification** field.
 
@@ -61,8 +61,8 @@ A privacy case is created and routed to the privacy case team for review. Your i
 
 To respond to their comments, refer to [Follow up on a case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md).
 
--   **[Report a privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md)**  
-The Report a privacy case form enables you to provide information about a suspected or confirmed privacy issue while keeping your identity confidential.
+-   **[Anonymous privacy case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.md)**  
+The fields in the **Report a privacy case** form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
 
 **Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-privacymanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -118,27 +118,36 @@ Get an overview of your complete privacy risk and compliance posture from the Pr
 Use the new Privacy Impact Assessments \(PIAs\) and Screening Assessment templates that provide standardized questions, evaluation criteria, and workflows so that you can perform a processing activity criticality and privacy risk assessment. With these new templates, you can ensure consistency, reduce manual effort, and support compliance with regulatory and organizational requirements.
 
 
+ -   **[PDR external-facing form](https://www.servicenow.com/docs/access?context=pdr-external-facing&family=zurich&ft:locale=en-US)**
+
+A new external-facing form for personal data rights \(PDR\) requests is now available, enabling customers, ex-employees, and third party individuals to initiate PDR requests directly from a company's website, without needing Employee Center access. The form allows users to submit various requests, including Right to Know, Right to Delete, Right to Correct, and Right to Opt-Out, with the flexibility to add additional request types as required. An email-based verification process ensures security before processing the PDR request. The PDR form is customizable and can be easily embedded on external sites.
+
+
+ -   **[Access control by legal entity](https://www.servicenow.com/docs/access?context=access-control-by-legal-entity&family=zurich&ft:locale=en-US)**
+
+The Access control by legal entity feature allows teams to access processing activities relevant only to their legal entity. This ensures teams view only their own records, maintaining adherence to the privacy by design principle. By limiting access according to legal entities, this feature reduces operational risks and enables organizations to manage privacy requests and regulatory compliance effectively.
+
+
+ -   **[ServiceNow Otto for Privacy Management](https://www.servicenow.com/docs/access?context=now-assist-for-privacy-management&family=zurich&ft:locale=en-US)**
+
+Now Assist for Privacy Management leverages GenAI to support privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives and merging them into a common control objective. Now Assist for Privacy Management is delivered as a separate plugin, requiring administrators to activate specific skills and assign the new sn\_prm\_gen\_ai.user role to access these features.
+
+
+ -   **[Report a privacy case through email](https://www.servicenow.com/docs/access?context=add-issues-email&family=zurich&ft:locale=en-US)**
+
+Employees can now report privacy incidents directly through email, eliminating the need for complex forms or portals. This enhancement simplifies the reporting process, enabling faster case handling and efficient tracking of privacy issues.
+
+
+ -   **[Impacted and related areas configuration](https://www.servicenow.com/docs/access?context=configure-record-type-area&family=zurich&ft:locale=en-US)**
+
+The Record Type Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas. When creating or updating a privacy case, users can select from pre-defined options to add these areas, ensuring that each case accurately reflects its business context.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[External-facing PDR form configuration](https://www.servicenow.com/docs/access?context=configure-pdr-ext-form&family=australia&ft:locale=en-US)**
-    -   Starting from version 22.3.x of Personal Data Rights \(PDR\), privacy administrators can navigate to **External form configuration** to tailor the public-facing PDR form for their organization. They can map jurisdictions to data subject types and request types, and specify whether an authorized agent can submit a request on behalf of a data subject for each jurisdiction.
-    -   For each jurisdiction, administrators can add terms and conditions, disclaimers, and guidance text that requesters see when they submit a request from that jurisdiction.
-    -   Administrators can also show or hide form fields based on the combination of jurisdiction, data subject type, and request type that a requester selects. The form collects only the information needed, therefore, requesters see only the fields that apply to their request.
--   **[Enable key stakeholders to edit processing activities](https://www.servicenow.com/docs/access?context=request-edit-access-pa&family=australia&ft:locale=en-US)**
-    -   Starting from version 22.3.x of Privacy Management, privacy analysts can add any user, including users without privacy roles, as a key stakeholder on a processing activity. Such users are set to **No privilege to respond to assessments** by default and therefore, can only view the record if they are granted the business user role.
-    -   Key stakeholders with the appropriate business user role can access and view the related lists of a processing activity directly from the Employee Center.
-    -   After they review the processing activity and find that it needs updating, they can select **Request edit access** to ask for editing rights to a processing activity.
--   **[New privacy content in Privacy Management Content](https://www.servicenow.com/docs/access?context=update-privacy-content&family=australia&ft:locale=en-US)**
-    -   Starting from version 22.3.x of Privacy Management Content, privacy managers can extend their regulatory library with new ready-to-use authority documents, Digital Personal Data Protection Act 2023 \(DPDPA\), Virginia Consumer Data Protection Act, and Colorado Privacy Act. When activating an authority document, they can select which citations to add to the library, and then select from the AI-generated control objectives already mapped to those citations.
-    -   Privacy Management Content also ships an updated version of privacy risk statement that carries forward the AI-generated risk statements from the previous version and adds new ones. Reinstalling the already existing risk statements after the update may overwrite certain changes made to them.
--   **[Smart assessment versioning of privacy assessment templates](https://www.servicenow.com/docs/access?context=create-new-smart-asmt-version&family=australia&ft:locale=en-US)**
-
-Starting from version 22.3.x of Privacy Management and Privacy Case Management, you can create a version of an existing privacy assessment template to revise the questionnaire, response options, or automations without disrupting assessments that are already in progress. New privacy assessments use the latest published version of the template.
-
 
 -   **[Case summarization for privacy cases](https://www.servicenow.com/docs/access?context=privacy-case-summarization-skill&family=australia&ft:locale=en-US)**
 
@@ -146,11 +155,7 @@ Privacy analysts can now use the Now Assist case summarization feature to quickl
 
 -   **[Report a privacy case anonymously](https://www.servicenow.com/docs/access?context=report-privacy-case-anonymously&family=australia&ft:locale=en-US)**
 
-Employees can now use the Anonymous Reporting Center to report privacy violations such as data breaches or exposure, unauthorized data use, privacy law violations \(GDPR, CCPA\), or other privacy-by-design lapses without revealing their identity or location.
-
-Accessed through the Employee Center, the Anonymous Reporting Center portal automatically logs users out to enforce anonymity, creates case records without mapping to employee identity, and provides a unique report key for secure follow-up communication.
-
-Reports are routed to the appropriate compliance team based on the nature of the concern. Throughout the investigation process:
+Employees can now use the Anonymous Reporting Center to report privacy violations such as data breaches or exposure, unauthorized data use, privacy law violations \(GDPR, CCPA\), or other privacy-by-design lapses without revealing their identity or location.Accessed through the Employee Center, the Anonymous Reporting Center portal automatically logs users out to enforce anonymity, creates case records without mapping to employee identity, and provides a unique report key for secure follow-up communication.Reports are routed to the appropriate compliance team based on the nature of the concern. Throughout the investigation process:
 
     -   Investigators can request additional information through a comments system visible to the reporter
     -   Reporters can follow up on their case using their report key to check progress and respond to questions
@@ -200,39 +205,18 @@ Zurich
 
 </td><td>
 
--   ****
+-   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
--   **[Processing activity tab](https://www.servicenow.com/docs/access?context=processing-activity-tab&family=zurich&ft:locale=en-US)**
+The new default behavior works as follows:
 
-The revamped Processing Activity overview page provides a unified dashboard that displays key compliance and risk metrics, such as risk scores, compliance scores, and criticality scores. This update makes it easier for privacy managers and analysts to assess the status of each processing activity, track open issues, and prioritize actions.
-
-
--   **[Layout for processing activity record view](https://www.servicenow.com/docs/access?context=processing-activity-homepage&family=zurich&ft:locale=en-US)**
-
-The vertical layout of a processing activity enables you to see the information in a top-down linear flow. With this layout, you can see the sequential representation of a data processing workflow.
-
--   **[Privacy management home page](https://www.servicenow.com/docs/access?context=privacy-mgmt-ws-privacy-compliance-manager&family=zurich&ft:locale=en-US)**
-
-The enhanced Privacy Management home page now has dedicated tabs for Processing Activity, Risk and compliance, Operations, and Privacy Cases. This updated layout helps to improve readability by organizing your reports into clearly defined sections.
-
+    -   New customers: When you install an AI product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[ServiceNow Otto® name announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-The Now Assist for Privacy Management \(sn\_prm\_gen\_ai\) plugin has been renamed to ServiceNow Otto for Privacy Management.
-
-
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -337,7 +321,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -345,7 +332,10 @@ Zurich
 
 </td><td>
 
-Install Privacy Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -353,7 +343,10 @@ Australia
 
 </td><td>
 
-Install Privacy Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -456,7 +449,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
-title: Set up an Identity Access Manager account for a ServiceNow user in AWS
-description: Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\) so you can manage multiple AWS accounts with a centralized IAM user.
+title: Set up an IAM account for a ServiceNow user in AWS
+description: AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Set up an Identity Access Manager account for a ServiceNow user in AWS
+# Set up an IAM account for a ServiceNow user in AWS
 
-Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\) so you can manage multiple AWS accounts with a centralized IAM user.
+AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 
 ## Before you begin
 
@@ -144,10 +144,13 @@ Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the managem
 
 5.  Select **Next** to continue and to validate the template.
 
-6.  On the **Specify stack details** page, enter a `CloudFormation stack name` in the **Stack name** field.
+6.  On the **Specify stack details** page, enter a name for the template in the **Stack name** field.
 
-    The stack name is an identifier that helps you find a particular stack from a list of stacks. A stack name can contain only alphanumeric characters \(case-sensitive\) and hyphens. It must start with an alphabetic character and can't be longer than 128 characters.
+    Note the following format requirements for a stack name:
 
+    -   Can contain only case-sensitive alphanumeric characters and hyphens
+    -   Must start with an alphabetic character
+    -   Can't be longer than 128 characters
 7.  In the **User Name** field, enter a Cloud Account Management service account user name.
 
 8.  Select **Next** to continue.
@@ -158,7 +161,7 @@ Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the managem
 
     The IAM account gets created.
 
-11. To add security credentials:
+11. Add security credentials.
 
     1.  Select **Resources**.
 
@@ -168,13 +171,13 @@ Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the managem
 
     4.  On the **Access key best practices &amp; alternatives** page, choose the **Third-party service** option.
 
-        You plan to use this access key to enable access for a third-party application or service that monitors or manages your AWS resources.
+        This access key provides access for a third-party application or service that monitors or manages your AWS resources.
 
     5.  Select the **I understand the above recommendation and want to proceed to create an access key** check box and select **Next**.
 
     6.  Select **Create access key**.
 
-    7.  In the **Review access keys** page, download the access key file and select **Done**.
+    7.  On the **Review access keys** page, download the access key file and select **Done**.
 
         **Note:** Share the access key and secret key with the Terraform admin and ServiceNow AI Platform admin.
 

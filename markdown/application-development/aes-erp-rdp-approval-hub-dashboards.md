@@ -1,19 +1,19 @@
 ---
-title: App Engine for ERP Approval Hub dashboards
-description: The Approval Hub dashboards provide information and metrics about master data, ERP, and journal entry requests sent for approval. Approvers can review and decide on pending requests across all App Engine for ERP rapid deployment packs.
+title: App Engine ERP Approval Hub dashboards
+description: The Approval Hub dashboards provide information and metrics about master data, ERP, and journal entry requests sent for approval. Approvers can review and decide on pending requests across all App Engine ERP Rapid Deployment Packs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-approval-hub-dashboards.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-26"
+last_updated: "2026-08-14"
 reading_time_minutes: 3
-keywords: [app, engine, erp, sap, rapid, deployment, pack, approval, hub]
-breadcrumb: [Reference, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [app, engine, sap, erp, rapid, deployment, pack, approve, approval, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Reference, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# App Engine for ERP Approval Hub dashboards
+# App Engine ERP Approval Hub dashboards
 
-The Approval Hub dashboards provide information and metrics about master data, ERP, and journal entry requests sent for approval. Approvers can review and decide on pending requests across all App Engine for ERP rapid deployment packs.
+The Approval Hub dashboards provide information and metrics about master data, ERP, and journal entry requests sent for approval. Approvers can review and decide on pending requests across all App Engine ERP Rapid Deployment Packs.
 
 ## Approval Hub MDM dashboard
 
@@ -22,7 +22,7 @@ The Approval Hub MDM dashboard provides an overview of master data requests subm
 |Element|Description|
 |-------|-----------|
 |Time period picker|Set the time period for dashboard charts, for example, last 30 days or all time.|
-|Key points in time metrics|Individual number charts displaying the total number of approvals assigned to the logged-in user, pending approval requests, approved requests, and rejected approval requests in the set time period.|
+|Key point in time metrics|Individual number charts displaying the total number of approvals assigned to the logged-in user, pending approval requests, approved requests, and rejected approval requests in the set time period.|
 |Status Overview|Number of requests in each state \(for example, processed or rejected\) in the set time period.|
 |Request Type Distribution|Requests categorized by type \(for example, create or activate\) for the set time period.|
 |Approval Trends|The total number of approval requests, along with the number approved and rejected, by date for the set time period.|
@@ -49,12 +49,12 @@ The Approval Hub JE dashboard provides an overview of journal entry requests sub
 |Element|Description|
 |-------|-----------|
 |Time period picker|Set the time period for dashboard charts, for example, last 30 days or all time.|
-|Key point in time metrics|Individual number charts displaying the total number of journal entry approvals assigned to the logged in user, pending approval requests, approved requests, and rejected approval requests in the set time period.|
+|Key point in time metrics|Charts displaying the number of journal entry approvals assigned to the logged-in user, pending approval requests, approved requests, and rejected approval requests in the set time period.|
 |Status Overview|The number of journal entry approval requests by state \(for example, waiting for approval or processed\).|
 |Type Distribution|Journal entry approval requests categorized by type \(for example, cash disburse or expense\) for the set time period.|
 |Approval trends|The total number of journal entry approval requests, along with the number approved and rejected, by date for the set time period.|
-|Approval Score by Journal Type|Percentage of Journal entry requests approved categorized by type \(for example, adjusting or purchase\) for the set time period. Percentage calculated as number of approved journal entry requests multiplied by 100 and divided by total number of journal entry requests for the type.|
+|Approval Score by Journal Type|Percentage of journal entry requests approved categorized by type \(for example, adjusting or purchase\) for the set time period. Percentage calculated as number of approved journal entry requests multiplied by 100 and divided by total number of journal entry requests for the type.|
 |Recent Actionable|Most recently created journal entry request tasks assigned to any approver that need approval.|
 
-**Parent Topic:**[App Engine for ERP rapid deployment packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
 

@@ -58,7 +58,5 @@ The ServiceNow Otto panel is the conversational interface where you can interact
 
 [AI readiness assessments in AI Admin Center]()
 
-[AI Agent Advisor in AI Admin Center]()
-
 [Supporting information for AI Admin Center]()
 

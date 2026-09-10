@@ -1,18 +1,18 @@
 ---
-title: Generate a document summary by using Now Assist in Document Management
-description: Generate a document summary to get quick insights into key information from documents by using Now Assist in Document Management.
+title: Generate a document summary by using ServiceNow Otto in Document Management
+description: Generate a document summary to get quick insights into key information from documents by using ServiceNow Otto in Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/generate-document-summary-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 breadcrumb: [Use, ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Generate a document summary by using Now Assist in Document Management
+# Generate a document summary by using ServiceNow Otto in Document Management
 
-Generate a document summary to get quick insights into key information from documents by using Now Assist in Document Management.
+Generate a document summary to get quick insights into key information from documents by using ServiceNow Otto in Document Management.
 
 ## Before you begin
 
@@ -30,9 +30,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 3.  Open the attached document to view it in the document viewer.
 
-4.  Generate a summary of the document by selecting **Ask Now Assist**.
+4.  Generate a summary of the document by selecting **Ask Otto**.
 
-    **Note:** The Summarize button is now integrated into the Ask Now Assist button.
+    **Note:** The Summarize button is now integrated into the Ask Otto button.
 
     This gives the option to generate document summary with extract key insights.
 

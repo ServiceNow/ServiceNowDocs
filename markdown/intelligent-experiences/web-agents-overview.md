@@ -59,16 +59,6 @@ When you close the chat, you have the option to delete the chat log, including a
 
 To run multiple tasks at once in adaptive desktop actions, open each task in a separate Chrome browser window, each with a different user profile,logging in with different ServiceNow users. This lets the tasks run in parallel instead of one at a time.
 
-## Limitation
-
-Desktop actions operate as browser extensions with the following limitations:
-
--   Can only access content within the browser
--   Can't interact with desktop applications or local files \(except for downloading files\)
--   Can't upload data from the local file system
-
-For tasks requiring local file access, consider using defined desktop actions. For more information, see [Defined path desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md).
-
 ## Third-party website access
 
 When you use ServiceNow desktop actions to visit, access, log in to, or otherwise interact with \(collectively, “Access”\) websites, applications, or other digital properties owned or operated by a third party \(“Third Party Services”\), that Access is a direct interaction between you and the Third Party Services. You're responsible for adhering to any applicable terms and conditions, including all policies or statements governing the use of personal data, of the third party.
@@ -82,7 +72,7 @@ ServiceNow AI Desktop Actions rely on “computer use,” a beta technology prov
 
 [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
 
-[Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
+[Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
 
 [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 

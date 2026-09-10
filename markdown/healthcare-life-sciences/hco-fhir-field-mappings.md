@@ -67,6 +67,6 @@ FHIR PractitionerRoles upsert into `sn_csm_service_organization_member` and `sn_
 |practitioner.reference|`sn_csm_service_organization_member.user`|Resolved through the Healthcare Practitioner record to the user. The role is skipped if the practitioner is not found.|
 |organization.reference|`sn_csm_service_organization_member.service_organization`|Resolved through the Healthcare Organization to its business location. The role is skipped if the organization is not resolvable.|
 |\(responsibility\)|`sn_csm_svc_org_member_responsibility.type`|Set to the Care Team Member responsibility for every imported role.|
-|code, specialty|Not mapped|FHIR role codes and specialties are not captured in this release.|
+|code, specialty|Not mapped|FHIR role codes and specialties are not captured.|
 |location|Not used|The role's location array is not used to infer organization membership.|
 

@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 11
+reading_time_minutes: 13
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: itil, admin, or sn\_change\_write
 
 ## About this task
 
-A change request records the detailed information about the change, such as the reason for the change, the priority, the risk, the type of change, and the change category.
+A change request records detailed information about the change. This includes the reason for the change, the priority, the risk, the type of change, and the change category.
 
 If you use conflict detection, the planned start and end dates and the configuration item \(CI\) are required.
 
@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d191364e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d194247e96">
 
 **From the Change application**
 
@@ -47,7 +47,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 You can create all three types of change from the **Change** application. This is the main entry point for creating a change request.1.  Navigate to **All** &gt; **Change** &gt; **Create New**.
 2.  Select **Normal**, **Emergency**, or **Standard** changes.
- If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see Change models.
+ If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md).
 
  When you enable the change model properties, you see the following tabs when you navigate to **All** &gt; **Change** &gt; **Create New**.
 
@@ -57,7 +57,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d191364e189">
+</td></tr><tr><td id="d194247e192">
 
 **From an incident or a problem**
 
@@ -67,7 +67,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d191364e216">
+</td></tr><tr><td id="d194247e219">
 
 **From an existing change record**
 
@@ -174,7 +174,7 @@ Model
 
 </td><td>
 
-Change model being used for the change request.For information about Change models, see Change models.
+Change model being used for the change request.For information about Change models, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md).
 
 </td></tr><tr><td>
 
@@ -248,6 +248,38 @@ Description
 
 Detailed description of the change.
 
+</td></tr><tr><td>
+
+Risk and compliance category
+
+</td><td>
+
+Dynamic category that groups the risk and compliance attributes relevant to the change.Categories are hierarchical. A category can have a parent category, so that a specific category nests under a broader one. For example, a category for changes that affect financial or payment systems can nest under a broader compliance category.
+
+The base system includes example categories, such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance. You can deactivate these categories or add your own to match your organization's compliance requirements
+
+**Note:**
+
+-   For more information about dynamic categories, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+-   To configure the Risk and compliance category, see .
+
+
+</td></tr><tr><td>
+
+Risk and compliance attributes
+
+</td><td>
+
+Risk and compliance details for the change, entered as a JSON string of attribute name and value pairs. Use this field to record information such as whether an audit trail is required, whether the change requires downtime, the estimated number of impacted users, and the expected rollback time.An attribute that is defined under the `change_request/risk_and_compliance_attributes` dynamic namespace adheres to the type set on the dynamic attribute, such as `True/False`, `Integer`, `Decimal`, or `String`.
+
+The attributes provided in the base system are examples. You can deactivate them or define the attributes that match the compliance requirements of your organization.
+
+**Note:**
+
+-   You can also read and update attribute values from scripts, including risk condition scripts and business rules. Use the dynamic schema scripting API to conditionally respond to attribute values or trigger downstream actions. For information about the scripting API, dynamic attributes, transient attributes, and configuration options, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+-   To configure the Risk and compliance attributes, see .
+
+
 </td></tr></tbody>
 </table>3.  To plan the change, select the **Planning** tab and enter information.
 
@@ -316,14 +348,6 @@ Service Offerings
 List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated to the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
 
  **Note:** If you have customized the default view of your form or related list before the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
-
-</td></tr><tr><td>
-
-Approvers
-
-</td><td>
-
-This list is automatically generated from the workflow. You can also view the **Group** of approvers assigned to the task.
 
 </td></tr><tr><td>
 

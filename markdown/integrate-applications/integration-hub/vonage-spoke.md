@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Vonage spoke v2.1.0 is the latest version.
+Vonage spoke v2.1.0 is the latest version. For version history of the spoke, see [Vonage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-vonage.html).
 
 ## Supported versions
 

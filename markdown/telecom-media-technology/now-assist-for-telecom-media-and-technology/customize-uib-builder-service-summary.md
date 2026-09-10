@@ -22,7 +22,7 @@ Role required: Admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Quick Actions** &gt; **Now Assist context menu Actions**.
+1.  Navigate to **All** &gt; **Quick Actions** &gt; **ServiceNow Otto context menu** &gt; **Actions**.
 
 2.  In the Quick Actions list, select **Generate Service Summary** record.
 
@@ -36,7 +36,7 @@ Role required: Admin
 
     To customize the UI Builder pages, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-components.md).
 
-    To configure the UIB Now Assist context menu component, see [Now Assist context menu UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-now-assist-context-menu/uib-setup).
+    To configure the UIB ServiceNow Otto context menu component, see [ServiceNow Otto context menu UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-now-assist-context-menu/uib-setup).
 
 5.  Select **Update**.
 

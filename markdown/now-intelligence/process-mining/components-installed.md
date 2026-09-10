@@ -520,11 +520,21 @@ Default: The default roles added to the property are:
 
 </td></tr><tr><td>
 
+promin.metered\_usage.allow\_unrestricted
+
+</td><td>
+
+Disables all metered-usage guardrail checks when set to true, allowing users to mine without pre-mining blocks. Users who exceed their entitlement will be overcharged.Type: true \| false
+
+Default: false
+
+</td></tr><tr><td>
+
 promin.metered\_usage.warning\_limit
 
 </td><td>
 
-Specifies the number of records when the process mining metered usage warning should be shown to user. If the value is -1, no warning message is displayed. If the value is 0 or more, the warning message on consumption-based tables for the users is displayed. Type: integer
+Specifies the number of records at which the process mining metered usage warning is shown to the user. A default value of -1 means no warning is shown to the customer at all.Type: integer
 
 Default: -1
 

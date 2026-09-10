@@ -1,6 +1,6 @@
 ---
 title: Adding role groups and role levels for skills administration
-description: Create additional role groups and role levels based on the various roles in your organization and create a comprehensive role-based structure to accommodate various employee roles in your organization.
+description: Create additional role groups and role levels to build a comprehensive role-based structure that accommodates various employee roles in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-add-role-group.html
 release: australia
@@ -14,13 +14,13 @@ breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experience
 
 # Adding role groups and role levels for skills administration
 
-Create additional role groups and role levels based on the various roles in your organization and create a comprehensive role-based structure to accommodate various employee roles in your organization.
+Create additional role groups and role levels to build a comprehensive role-based structure that accommodates various employee roles in your organization.
 
 ## About this task
 
 You can add role groups and role levels by importing them through the job architecture data import. For more information, see [Load job architecture data into your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/load-data-skills-tables.md).
 
-This procedure describes how to add role groups and role levels to the Role Groups \[sn\_skills\_int\_role\_group\] and Role Levels \[sn\_skills\_int\_role\_level\] tables manually after the job architecture data is imported.
+This procedure describes how to manually add role groups and role levels after the job architecture data is imported. Add them to the Role Groups \[sn\_skills\_int\_role\_group\] and Role Levels \[sn\_skills\_int\_role\_level\] tables.
 
 ## Before you begin
 
@@ -66,8 +66,8 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
     **Note:**
 
-    -   If a skill is marked as required at the role group level, the setting will be applied to that skill in all the role levels of that role group. You cannot edit the field on the role level.
-    -   The setting for a skill relevance as High, Medium, or Low at the role group level will also be applied to that skill in all the role levels of that role group. You cannot change the relevance on the role level.
+    -   If a skill is marked as required at the role group level, the setting applies to that skill in all role levels of that role group. You can't edit the field on the role level.
+    -   The setting for a skill relevance as High, Medium, or Low at the role group level applies to that skill in all role levels of that role group. You can't change the relevance on the role level.
     -   The skills in role groups are automatically attached to the role levels.
 
 ## What to do next

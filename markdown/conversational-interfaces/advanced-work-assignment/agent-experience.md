@@ -18,8 +18,6 @@ Control certain elements of the agent experience in Agent Workspace. Define the 
 
 ## Agent presence states
 
-
-
 \[Omitted image "agent-availability.png"\] Alt text: Agent Workspace inbox availability states.
 
 AWA admins can define the presence states that agents choose in their inbox to indicate their availability. The default states are

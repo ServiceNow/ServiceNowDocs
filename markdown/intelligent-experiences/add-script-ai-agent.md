@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-09-17"
 reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add a script to an AI agent

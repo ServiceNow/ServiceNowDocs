@@ -98,7 +98,7 @@ A group interactive filter allows users to select multiple interactive filters t
 -   **[Create an interactive filter for whether a field is empty or populated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/t_CreateAEmptyNonemptyFilter.md)**  
 You can create a Boolean interactive filter that lets users filter report widgets based on whether a specific field is empty or populated.
 -   **[Create a cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/create-cascading-filter.md)**  
-Cascading filters allow you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
+Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
 -   **[Interactive filters on database views and table hierarchies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/apply-filter-to-all-tables-in-hierarchy.md)**  
 When you create an interactive filter on an extended table, you can also apply the filter to database views and to the other tables in the hierarchy. The hierarchy includes all parent, child, and sibling tables.
 -   **[Available interactive filter UI control types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/core-ui-interactive-filters/r_HomepagePublisherUIControlTypes.md)**  

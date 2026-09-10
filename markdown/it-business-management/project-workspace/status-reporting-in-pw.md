@@ -48,7 +48,7 @@ Status report templates simplify the process of generating project updates by pr
 -   Default Status Report: This template includes a more comprehensive range of data points, covering areas such as milestones, risks, issues, decisions, and change requests. It offers a detailed view of the project's progress and status, similar to a classic status report.
 
 -   You can create a status report using one of the existing templates: [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
--   You can also create your own status report template from scratch: [Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+-   You can also create your own status report template from scratch: [Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
 ## Now Assist project status reports
 
@@ -78,5 +78,5 @@ Now Assist health outcomes \(such as red/yellow/green\) are determined by admin-
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

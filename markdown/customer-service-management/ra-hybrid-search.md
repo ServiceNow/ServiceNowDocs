@@ -1,6 +1,6 @@
 ---
 title: Hybrid search in Recommended Actions
-description: Hybrid search combines keyword-based and semantic search to surface more relevant results in CSM Configurable Workspace, helping agents find KB articles and guided actions even when their phrasing does not match article content exactly.
+description: Hybrid search combines keyword-based and semantic search to surface more relevant results in CRM Workspace, helping agents find KB articles and guided actions even when their phrasing does not match article content exactly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-hybrid-search.html
 release: australia
@@ -13,13 +13,13 @@ breadcrumb: [AI search, Recommended Actions configuration, Implement Intelligenc
 
 # Hybrid search in Recommended Actions
 
-Hybrid search combines keyword-based and semantic search to surface more relevant results in CSM Configurable Workspace, helping agents find KB articles and guided actions even when their phrasing does not match article content exactly.
+Hybrid search combines keyword-based and semantic search to surface more relevant results in CRM Workspace, helping agents find KB articles and guided actions even when their phrasing does not match article content exactly.
 
-Unlike keyword-only search, which requires exact term matches, hybrid search understands the context and intent behind a query. Agents using CSM Configurable Workspace will see more contextually relevant KB articles and guided actions in the AI search tab of the Recommended Actions contextual side panel.
+Unlike keyword-only search, which requires exact term matches, hybrid search understands the context and intent behind a query. Agents using CRM Workspace will see more contextually relevant KB articles and guided actions in the AI search tab of the Recommended Actions contextual side panel.
 
 ## How it works
 
-When an agent performs a search in the AI search tab of the Recommended Actions in CSM Configurable Workspace, Recommended Actions processes the query using a hybrid approach:
+When an agent performs a search in the AI search tab of the Recommended Actions in CRM Workspace, Recommended Actions processes the query using a hybrid approach:
 
 -   Keyword matching — returns results based on exact or close term matches.
 -   Semantic matching — uses AI to interpret the meaning and context of the query.
@@ -32,7 +32,7 @@ For example, a search for `My system keeps freezing` now returns relevant KB art
 
 ## Default behavior
 
-The **Enable hybrid search** check box on the **\[CSM AIS\] Configurable Workspace Search Config** record is set to `true` by default in the base system. No admin configuration is required to activate this feature. As an admin, you can disable hybrid search in the CSM Configurable Workspace by navigating to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **\[CSM AIS\] Configurable Workspace Search** and deselecting the **Enable hybrid search** check box.
+The **Enable hybrid search** check box on the **\[CSM AIS\] Configurable Workspace Search Config** record is set to `true` by default in the base system. No admin configuration is required to activate this feature. As an admin, you can disable hybrid search in the CRM Workspace by navigating to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **\[CSM AIS\] Configurable Workspace Search** and deselecting the **Enable hybrid search** check box.
 
 This configuration is specific to the CSM AI search application. Search configurations for portals or other workspaces are managed separately. If you do not find the **Enable hybrid search** check box for other workspaces, see the [KB2735151](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2735151) article to know how to enable hybrid search when the hybrid search check box is not available on the search configuration record.
 

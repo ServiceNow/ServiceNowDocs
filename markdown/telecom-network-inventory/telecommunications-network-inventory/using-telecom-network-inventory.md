@@ -8,7 +8,7 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Telecommunications Network Inventory]
 ---
 
@@ -59,6 +59,8 @@ Use an attribute pack to capture the attributes that you define for a configurat
 Use the Design and Assign function for a network service in the Telecommunications Network Inventory application. The inventory agents can use the playbook to complete the guided tasks to design and assign a network inventory record and its associated Configuration Items \(CI\) records.
 -   **[Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)**  
 Use the Network visualization view in the Telecommunications Network Inventory application to explore your network site details, datacenters's floor map, and network topology.
+-   **[Viewing rack or cabinet equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/viewing-rack-or-cabinet-equipment-details.md)**  
+View network interfaces and physical connections for equipment placed in a rack or cabinet, without opening each equipment record individually.
 -   **[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)**  
 Use Remote Hands Request Management to enables customers to request services for equipment housed in your datacenter by connecting them directly with your onsite agents handling the remote hands requests.
 -   **[Access the TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)**  

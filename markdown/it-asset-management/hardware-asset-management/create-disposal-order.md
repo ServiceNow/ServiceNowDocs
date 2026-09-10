@@ -38,15 +38,15 @@ Starting with Hardware Asset Management 15.0.0 version, the asset resale option 
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d351828e131">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d360013e131">
 
 Interface
 
-</th><th align="left" id="d351828e134">
+</th><th align="left" id="d360013e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d351828e140">
+</th></tr></thead><tbody><tr><td id="d360013e140">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d351828e161">
+</td></tr><tr><td id="d360013e161">
 
 **Hardware Asset Workspace**
 
@@ -250,6 +250,10 @@ Update the resale values for assets planned for disposal, and indicate that you 
 [Manage asset put away using the Hardware Asset Workspace]()
 
 [Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
 
 [Acknowledge receipt of assets on the Employee Center portal]()
 

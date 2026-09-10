@@ -1,6 +1,6 @@
 ---
 title: Legal Request Management
-description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department and a streamlined, collaborative process for the legal department to quickly resolve these requests.
+description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. AI workflows automatically triage and categorize requests and summarize requests and matters, helping legal teams quickly understand context and resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-request-management-landing-page.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Ser
 
 # Legal Request Management
 
-The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department and a streamlined, collaborative process for the legal department to quickly resolve these requests.
+The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. AI workflows automatically triage and categorize requests and summarize requests and matters, helping legal teams quickly understand context and resolve issues.
 
 Employees can submit legal requests, monitor their progress, and read legal knowledge base articles across a web portal, mobile platform, and Virtual Agent.
 

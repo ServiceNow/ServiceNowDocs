@@ -17,11 +17,11 @@ Use the Explore ERP models AI agent team in ServiceNow Otto for Zero Copy Connec
 
 ## Explore ERP models agentic workflow overview
 
-The Explore ERP models agentic workflow uses a team of AI agents to answer user questions about working with ERP database tables and identifying models configured in ERP content packs.
+The Explore ERP models agentic workflow uses a team of AI agents to answer user questions about working with ERP database tables. The workflow also identifies models configured in ERP content packs.
 
 ## Prerequisites for the Explore ERP models agentic workflow
 
--   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in ServiceNow Otto for ZCC.
+-   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Otto for ZCC.
 -   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-knowledge-graph.md).
 -   Follow the steps in [ServiceNow Otto for Zero Copy Connector agentic workflow prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
 

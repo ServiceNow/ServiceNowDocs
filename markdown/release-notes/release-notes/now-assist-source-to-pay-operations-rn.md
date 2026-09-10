@@ -1,42 +1,45 @@
 ---
 title: ServiceNow Otto for Source-to-Pay Operations release notes
-description: The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.
+description: The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-keywords: [AI agents, Agentic AI]
+keywords: [AI agents, Agentic AI, AI agents, Agentic AI, AI agents, Agentic AI]
 ---
 
 # ServiceNow Otto for Source-to-Pay Operations release notes
 
 The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.
 
-## Now Assist &gt; ServiceNow Otto announcement
+## About ServiceNow Otto for Source-to-Pay Operations release notes
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-## ServiceNow OttoSource-to-Pay Operations highlights for the Australia release
 
 -   Prioritize cases by using the sentiment analysis skill to analyze a fulfiller's tone or sentiment of invoice cases, procurement cases, supplier cases, and tasks.
 -   Draft professional email responses automatically for invoice cases, procurement cases, supplier cases, tasks with the email response generation skill.
 -   Generate reports, visualizations, and KPIs using natural language queries with the AI data explorer.
 -   Enable buyers execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Install for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) and ServiceNow Otto for Accounts Payable Operations \(APO\), and ServiceNow Otto for Purchase Order Management \(POM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## Australia Early Availability
+
+The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.
+
+### What's new
 
 -   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo.md)**
 
-    [Analyze sentiment in procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/analyze-sentiments-na-spo.md)Helps procurement specialists to analyze procurement case fields and live agent chats to determine the tone of the fulfiller.
-
-    [Generate an email response for procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/email-response-na-spo.md)Analyze procurement case, sourcing request, purchase requisition, sourcing event, negotiation, and stretch items like procurement, sourcing, and receipt tasks to generate professional email response. This eliminates the need to manually look up information across multiple records and allows procurement specialists to handle inquiries effectively.
-
-    [Submit a purchase request by uploading a SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-upload-sow.md) Upload SOW documents to submit purchase requests. AI agents parse your documents, extract relevant data, and prepopulate your request, enabling you to focus on reviewing and approving submissions instead of manual data entry.
-
-    [Conversational intake for sourcing and procurement agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/spo-help-fulfill-pr-agentic.md) Streamline end‑to‑end procurement workflows with a conversational intake experience powered by AI agent support. AI agents guide you through relevant steps while providing contextual recommendations and real-time progress updates.
-
-    [Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/automatically-assign-categories.md) Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the spend categorization AI agent.
+    Helps procurement specialists to analyze procurement case fields and live agent chats to determine the tone of the fulfiller.Analyze procurement case, sourcing request, purchase requisition, sourcing event, negotiation, and stretch items like procurement, sourcing, and receipt tasks to generate professional email response. This eliminates the need to manually look up information across multiple records and allows procurement specialists to handle inquiries effectively.[Submit a purchase request by uploading a SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-spo-upload-sow.md) Upload SOW documents to submit purchase requests. AI agents parse your documents, extract relevant data, and prepopulate your request, enabling you to focus on reviewing and approving submissions instead of manual data entry.[Conversational intake for sourcing and procurement agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/spo-help-fulfill-pr-agentic.md) Streamline end‑to‑end procurement workflows with a conversational intake experience powered by AI agent support. AI agents guide you through relevant steps while providing contextual recommendations and real-time progress updates.[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/automatically-assign-categories.md) Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the spend categorization AI agent.
 
 -   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)**
 
@@ -47,22 +50,12 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
     -   View a list of AI-suggested suppliers while reviewing supplier onboarding requests initiated through sourcing requests.
     -   Supplier relationship managers can manually approve or reject supplier onboarding requests.
     -   Resolve duplicate supplier onboarding requests from the ServiceNow Otto panel by updating the supplier legal name, contact email, or both.
-    [Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/automated-supplier-case-creation-from-emails.md) Convert supplier emails into cases automatically when registered supplier contacts send emails to a supplier inbox. Supplier cases are created for all SLO related queries and assigned to the supplier relationship manager. For queries unrelated to SLO, a universal request is created for resolution.
-
-    [Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/summarize-supp-perf.md) Generate comprehensive supplier performance summaries, including performance data, trends, and actionable insights, using the supplier performance summarization skill.
-
-    [Analyze sentiments in supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/slo-analyze-sentiments.md) Use the sentiment analysis skill to analyze supplier case fields and determine the tone or sentiment of the fulfiller.
-
-    [Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/generate-email-response-for-supplier-case.md) Use the email response skill to analyze supplier case details and generate professional email responses using past emails, KB articles, and related tasks.
+    [Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/automated-supplier-case-creation-from-emails.md) Convert supplier emails into cases automatically when registered supplier contacts send emails to a supplier inbox. Supplier cases are created for all SLO related queries and assigned to the supplier relationship manager. For queries unrelated to SLO, a universal request is created for resolution.[Summarize supplier performance in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/summarize-supp-perf.md) Generate comprehensive supplier performance summaries, including performance data, trends, and actionable insights, using the supplier performance summarization skill.[Analyze sentiments in supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/slo-analyze-sentiments.md) Use the sentiment analysis skill to analyze supplier case fields and determine the tone or sentiment of the fulfiller.[Generate an email response for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/generate-email-response-for-supplier-case.md) Use the email response skill to analyze supplier case details and generate professional email responses using past emails, KB articles, and related tasks.
 
 
 -   **[Source-to-Pay Operations common skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-common-skills.md)**
 
-    The Email response generation skill uses generative AI to automatically draft professional, context-aware email responses for supplier inquiries, procurement communications, and AP case management across Source-to-Pay workflows \(APO, SPO, SLO\). This reduces manual effort and improves response consistency.
-
-    The Sentiment analysis skill uses large language models to detect emotional tone \(Positive, Negative, or Neutral\) in cases across Source-to-Pay workflows \(APO, SPO, SLO\).
-
-    The AI Data Explorer for Source-to-Pay \(APO, SPO, SLO\) supports AI-driven prompt understanding, recommended queries, and drill-down capabilities within a unified interface.
+    The Email response generation skill uses generative AI to automatically draft professional, context-aware email responses for supplier inquiries, procurement communications, and AP case management across Source-to-Pay workflows \(APO, SPO, SLO\). This reduces manual effort and improves response consistency.The Sentiment analysis skill uses large language models to detect emotional tone \(Positive, Negative, or Neutral\) in cases across Source-to-Pay workflows \(APO, SPO, SLO\).The AI Data Explorer for Source-to-Pay \(APO, SPO, SLO\) supports AI-driven prompt understanding, recommended queries, and drill-down capabilities within a unified interface.
 
 
 -   **[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-apo.md)**
@@ -72,23 +65,19 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 -   **[ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)**
 
-    Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox. Purchase order exceptions are created for all purchase order queries and assigned to the operational buyer. For queries unrelated to purchase order exceptions, a universal request is created.
-
-    Use the define PO exception mitigation strategy agentic workflow in ServiceNow Otto for POM to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+    Convert supplier emails into purchase order exceptions automatically when a registered supplier contact sends emails to a supplier inbox. Purchase order exceptions are created for all purchase order queries and assigned to the operational buyer. For queries unrelated to purchase order exceptions, a universal request is created.Use the define PO exception mitigation strategy agentic workflow in ServiceNow Otto for POM to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
 
-## Activation information
+## Australia
 
-Install for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) and ServiceNow Otto for Accounts Payable Operations \(APO\), and ServiceNow Otto for Purchase Order Management \(POM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow Otto for Source-to-Pay Operations are powered with generative AI skills to analyze email based on the tone, generate email responses and support natural language data exploration and reporting. The ServiceNow AI Platform. ServiceNow Otto for Source-to-Pay Operations was updated in the Australia release. ServiceNow Otto for Purchase Order Management \(POM\) is a new plugin in the Australia release.
 
-## Plugin information
+### Plugin information
 
--   **New plugin**
+-   **New plugins**
 
     The following plugin is new in Australia:
 
     ServiceNow Otto for Purchase Order Management \(POM\) \[sn\_poem\_gen\_ai\]: Automates purchase order exception creation and suggests mitigation strategies for order-related issues, helping buyers resolve disruptions quickly and keep procurement operations on track.
 
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon S3 spoke v1.3.0 is the latest version.
+Amazon S3 spoke v1.3.2 is the latest version. For version history of the spoke, see [Amazon S3 spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-s3.html).
 
 ## Supported version
 

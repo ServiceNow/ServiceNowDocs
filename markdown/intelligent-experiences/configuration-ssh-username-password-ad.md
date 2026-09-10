@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-25"
 reading_time_minutes: 1
-breadcrumb: [Enable AI agents to securely access parameters, Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Enable AI agents to securely access parameters, Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Create a Desktop action parameter record

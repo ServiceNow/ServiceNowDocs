@@ -19,7 +19,7 @@ Upload records in bulk for Core Business Suite business units through the Now As
 Ensure that the following are activated:
 
 -   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
--   Now Assist panel \([Activate Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 

@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [APO, Accounts Payable Operations, invoice inquiry case, supplier, resolve invoice, manage invoice, invoice case management]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -48,4 +48,6 @@ Invoice inquiry cases help resolve invoice-related issues raised by suppliers or
 [Playbook for updating the invoice primary data]()
 
 [Using Supplier Collaboration Portal in APO]()
+
+[AI worker case resolution confirmation]()
 

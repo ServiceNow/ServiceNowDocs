@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Use response templates to add information to cases and case tasks
@@ -20,11 +20,11 @@ Role required: sn\_customerservice\_agent with the sn\_templated\_snip.template\
 
 ## About this task
 
-The contextual side panel in CSM Configurable Workspace gives you access to information that can help you resolve customer service cases. It includes a column of icons that you can click to access different types of information. Clicking the response templates icon shows reusable messages that you can copy and paste into cases and case tasks.
+The contextual side panel in CRM Workspace gives you access to information that can help you resolve customer service cases. It includes a column of icons that you can click to access different types of information. Clicking the response templates icon shows reusable messages that you can copy and paste into cases and case tasks.
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Open a customer service case or case task.
 

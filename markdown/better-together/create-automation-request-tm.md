@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d22939e291">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23095e288">
 
 Option
 
-</th><th align="left" id="d22939e294">
+</th><th align="left" id="d23095e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22939e300">
+</th></tr></thead><tbody><tr><td id="d23095e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d22939e318">
+</td></tr><tr><td id="d23095e315">
 
 **Complete manually**
 
@@ -107,6 +107,16 @@ Fill in the Automation Center request form with details of the improvement oppor
 
     The automation request is created and associated with the task that it was based on. A link to the automation request record is available under the **Automation request** column of the project's Task timeline analysis.
 
+
+## Example: Onboarding automation request
+
+In this example, an HR analyst captures the employee onboarding workflow:
+
+-   A workstation user \(HR staff member\) uses the Task Mining agent to record themselves completing the onboarding process for a new hire
+-   The agent captures their interactions across the HR system, email interface, and Microsoft Outlook
+-   The HR analyst reviews the captured task timeline and submits an automation request
+-   The automation request includes the complete task recording, screenshots, and interaction summary
+-   Automation Center receives this request and uses it to generate automation blocks
 
 ## What to do next
 

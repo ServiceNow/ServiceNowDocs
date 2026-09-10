@@ -29,11 +29,7 @@ Role required: author or agent
 
 2.  Select the content that you want to elaborate or shorten from any of the fields in the form.
 
-    \[Omitted image "NA-elaborate-shorten-content-1.png"\] Alt text: Elaborate or shorten content in a Knowledge article using the context menu.
-
-3.  Select the ServiceNow Otto icon and select either **Elaborate** or **Shorten** from the context menu.\[Omitted image "NA-elaborate-shorten-content-2.png"\] Alt text: The context menu elaborates or shortens content in a Knowledge article.
-
-    \[Omitted image "NA-elaborate-shorten-content-2.png"\] Alt text: The context menu elaborates or shortens content in a Knowledge article.
+3.  Select the ServiceNow Otto icon and select either **Elaborate** or **Shorten** from the context menu.
 
 4.  Select **Insert** to add the generated content to the article.
 

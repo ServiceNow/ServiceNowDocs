@@ -334,7 +334,7 @@ Universal links enable users to follow links to content inside your app. The dis
 </td></tr></tbody>
 </table>8.  Select **Next**.
 
-9.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 8 in [Request a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-android-app.md) for information about filling out the **Set up for Android form**.
+9.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 8 in [Request a branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-android-app.md) for information about filling out the **Set up for Android form**.
 
     After you complete the optional Android configuration, return to Step 10 in this topic to complete your request for a private branded iOS app.
 

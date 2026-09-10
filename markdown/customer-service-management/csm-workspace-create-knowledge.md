@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Create a knowledge article from a case
@@ -22,9 +22,9 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 When you create or edit a knowledge article in CSM Configurable Workspace, you can access the editing capabilities available with the [Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md). Use the editing capabilities available with the article editor to format article content such as text, images, and media.
 
-When creating a knowledge article, you can select a knowledge base and an article template and see a preview of the selected template. Then you can use the article editor in CSM Configurable Workspace to create the article.
+When creating a knowledge article, you can select a knowledge base and an article template and see a preview of the selected template. Then you can use the article editor in CRM Workspace to create the article.
 
-**Note:** The **sn\_km\_center.glide.knowman.ece.enable** system property enables the Knowledge Center article editor within CSM Configurable Workspace. This property is set to true by default for zBoot customers and can be enabled by upgrade customers.
+**Note:** The **sn\_km\_center.glide.knowman.ece.enable** system property enables the Knowledge Center article editor within CRM Workspace. This property is set to true by default for zBoot customers and can be enabled by upgrade customers.
 
 Before creating knowledge articles, the system administrator needs to [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/administer-create-article-from-case.md).
 

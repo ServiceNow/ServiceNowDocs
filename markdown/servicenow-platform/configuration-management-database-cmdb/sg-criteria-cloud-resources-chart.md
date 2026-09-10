@@ -1,5 +1,5 @@
 ---
-title: Class criteria in Cloud vs Non-cloud resources chart in Service Graph Workspace
+title: Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-criteria-cloud-resources-chart.html
@@ -9,14 +9,14 @@ classification: configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Reference, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Class criteria in Cloud vs Non-cloud resources chart in Service Graph Workspace
+# Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 
 The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 
-The Cloud vs Non-cloud resources chart shows in the CI overview tile in the [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
+The Cloud vs Non-cloud resources chart shows in the CI overview tile in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
 
 <table id="table_qx1_pfn_nwb"><thead><tr><th>
 
@@ -42,7 +42,7 @@ Server \[cmdb\_ci\_server\]:
 
 -   Cloud:
 
-Server \[cmdb\_ci\_server\] -&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md)\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Server \[cmdb\_ci\_server\] -&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(one of the configured cloud datacenters\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
@@ -60,7 +60,7 @@ Application \[cmdb\_ci\_appl\]:
 
 -   Cloud:
 
-Application \[cmdb\_ci\_appl\] -&gt; \(Runs on::Runs\) -&gt; Server \[cmdb\_ci\_server\]-&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(one of the [configured cloud datacenters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md)\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Application \[cmdb\_ci\_appl\] -&gt; \(Runs on::Runs\) -&gt; Server \[cmdb\_ci\_server\]-&gt; \(Virtualized by::Virtualizes\) -&gt; Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(one of the configured cloud datacenters\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 OR
 
@@ -160,4 +160,5 @@ N/A \(This table can never have non-cloud records\)
 
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)
+

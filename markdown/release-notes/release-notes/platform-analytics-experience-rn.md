@@ -1,18 +1,18 @@
 ---
 title: Platform Analytics experience release notes
-description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 ---
 
 # Platform Analytics experience release notes
 
 The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
 
-## Platform Analytics experience highlights for the Australia release
+## About Platform Analytics experience
 
 -   Embed dashboards and visualizations directly in workspaces to see relevant KPIs where they act.
 -   Use a single, consistent visualization and filter model for table data, Performance Analytics indicators, Workflow Data Fabric, and UX analytics.
@@ -21,19 +21,32 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
 
 See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md) for more information.
 
-## Important information for upgrading Platform Analytics experience to Australia
+## Activation and other requirements
 
-When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
+-   **Activation information**
 
-**Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
+    Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
 
-All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+-   **Upgrade information**
 
-After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
+    When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
 
-## New in the Australia release
+    **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
--   **[Use new UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)**
+    All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+
+    After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
+
+
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. The Platform Analytics experience was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **Use new UI Builder templates for Dashboards and Data visualization libraries**
 
     Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 
@@ -54,7 +67,7 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
     Add indicators that are built from data snapshots sources to data visualizations.
 
 
-## UI changes
+### What's changed
 
 -   **[Use simplified navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md)**
 
@@ -71,8 +84,6 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
     Configure new color settings for Single Score data visualizations. You can also change the relative position of both the score and the title header.
 
-
-## Changed in this release
 
 -   **[Manage Platform Analytics in the improved Analytics Overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md)**
 
@@ -141,29 +152,4 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
     On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
 
-
-## Activation information
-
-Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
-
-## Related ServiceNow applications and features
-
--   **[ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-platform-analytics.md)**
-
-    Use AI-powered tools to enhance the value you get from Platform Analytics.
-
--   **[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md)**
-
-    Create key performance indicators to optimize your business processes. Display these indicators in Platform Analytics.
-
--   **[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
-
-    Monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications.
-
--   **[Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining.md)**
-
-    Collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
-
-
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

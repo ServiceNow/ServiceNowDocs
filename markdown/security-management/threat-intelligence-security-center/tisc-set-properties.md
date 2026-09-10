@@ -82,6 +82,16 @@ Associate Sighting Search results with CIs in the CMDB.sn\_sec\_tisc.associate\_
 
 </td></tr><tr><td>
 
+If true, automatically extracts observables from indicators.sn\_sec\_tisc.extract\_observables\_from\_indicator
+
+</td><td>
+
+-   **Type**: true \| false
+-   **Default value**: true
+
+
+</td></tr><tr><td>
+
 This will control whether URLs from lists will be defanged or notsn\_sec\_tisc.sn\_sec\_tisc\_case.defang\_record\_list\_urls
 
 </td><td>

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, hire to retire, hire, retire, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Available content packs, Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Available content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Hire to Retire content pack

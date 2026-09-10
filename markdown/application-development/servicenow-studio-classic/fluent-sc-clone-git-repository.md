@@ -19,7 +19,6 @@ Clone a remote Git repository to collaborate on applications in Fluent source co
 
 ## Before you begin
 
--   Create a workspace for your applications.
 -   Set your basic or OAuth 2.0 credentials for ServiceNow Studio to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-basic-auth.md) and [Connect to a Git provider using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/fluent-sc-connect-to-git-provider-oauth-2-0.md).
 
 Role required: admin
@@ -36,7 +35,7 @@ Cloning is intended for developing an application on multiple non-production ins
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open a workspace to which you want to add the application.
+2.  Open the Explorer tab.
 
 3.  Use one of the following keyboard shortcuts to open the command palette:
 
@@ -45,6 +44,8 @@ Cloning is intended for developing an application on multiple non-production ins
 4.  Enter `Git: Clone` and press Enter.
 
 5.  Enter a remote Git repository URL and press Enter.
+
+6.  On the Status bar, select **Build and Install**.
 
 
 ## Result

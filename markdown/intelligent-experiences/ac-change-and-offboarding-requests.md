@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-04-23"
 reading_time_minutes: 1
 keywords: [change request, offboarding request, retire]
-breadcrumb: [Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Change and offboarding requests

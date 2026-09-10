@@ -1,6 +1,6 @@
 ---
 title: Review and update release details
-description: Review and modify the details of a release. You can also retarget the readiness date of the release as required.
+description: Review and update the details of a release after it has been created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-work-release-details.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Manage releases for digital products and services, Use, Digital Pro
 
 # Review and update release details
 
-Review and modify the details of a release. You can also retarget the readiness date of the release as required.
+Review and update the details of a release after it has been created.
 
 ## Before you begin
 

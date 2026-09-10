@@ -83,15 +83,15 @@ Supplier case summarization
 
 10. Select **Define Availability** and select one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d121955e399">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d127925e399">
 
 Option
 
-</th><th align="left" id="d121955e402">
+</th><th align="left" id="d127925e402">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121955e408">
+</th></tr></thead><tbody><tr><td id="d127925e408">
 
 **Skill is always available**
 
@@ -99,7 +99,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d121955e417">
+</td></tr><tr><td id="d127925e417">
 
 **Customize skill availability**
 
@@ -112,15 +112,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d121955e453">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d127925e453">
 
 Option
 
-</th><th align="left" id="d121955e456">
+</th><th align="left" id="d127925e456">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121955e462">
+</th></tr></thead><tbody><tr><td id="d127925e462">
 
 **In-product desktop**
 
@@ -128,7 +128,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d121955e471">
+</td></tr><tr><td id="d127925e471">
 
 **ServiceNow Otto panel**
 

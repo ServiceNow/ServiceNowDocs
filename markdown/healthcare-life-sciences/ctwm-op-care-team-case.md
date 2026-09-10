@@ -35,5 +35,5 @@ Role required: sn\_hco\_orc.loc\_support\_agent or sn\_hco\_orc.plan author
 
 ## What to do next
 
-[Input Care team task details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-care-team-task.md)
+[Complete Care team task details in Operational Rounding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-care-team-task.md)
 

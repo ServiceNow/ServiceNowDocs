@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, entity, model, operation]
-breadcrumb: [OData, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData entity to a model operation
@@ -19,9 +19,9 @@ Specify the OData entity that a Zero Copy Connector for ERP \(Enterprise Resourc
 
 ## Before you begin
 
-Role required: sn\_erp\_integration.erp\_admin
+The read, update, or create operation must be added before an entity can be added to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
-You must have already added the read, write, or create operation before you can add an entity to it. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
+Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 
@@ -29,13 +29,13 @@ You must have already added the read, write, or create operation before you can 
 
 2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
-3.  Select the model that you want to add an operation entity to.
+3.  Select the model to add an operation entity to.
 
 4.  Select the **Manage model** button.
 
 5.  Select an operation.
 
-6.  Select **Select entity** on the **Manage entities** tab.
+6.  Select **Select entity**.
 
     \[Omitted image "erpc-manage-entities-manager-ys22.png"\] Alt text: Add operation entities on the manage models tab.
 
@@ -45,13 +45,13 @@ You must have already added the read, write, or create operation before you can 
 
     If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 
-9.  Wait for the **OData Endpoints** field to load and then in **Select the endpoints**, specify an endpoint.
+9.  Wait for the **OData Endpoints** field to load, and then in **Select the endpoints**, specify an endpoint.
 
-    \[Omitted image "erp-add-odata-entity-to-model1.png"\] Alt text: Select the type of entity , the odata service, and an odata endpoint.
+    \[Omitted image "erp-add-odata-entity-to-model1.png"\] Alt text: Select the type of entity, the OData service, and an OData endpoint.
 
-10. When you're finished, select **Add entity**.
+10. Select **Add entity**.
 
-    The entity card shows the date and time information was last retrieved.
+    The entity card shows the date and time when the information was last retrieved.
 
     \[Omitted image "erp-add-odata-entity-to-model2.png"\] Alt text: Manage model tab with entity card showing retrieval date and time.
 

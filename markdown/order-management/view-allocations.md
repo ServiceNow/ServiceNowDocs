@@ -22,7 +22,7 @@ At least one allocation type must be active. If none are configured, contact you
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity you want to view.
 
@@ -40,8 +40,6 @@ At least one allocation type must be active. If none are configured, contact you
 ## Result
 
 The allocations for the opportunity are displayed in a read-only list and grouped by allocation type.
-
-**Parent Topic:**[Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
 
 **Related topics**  
 

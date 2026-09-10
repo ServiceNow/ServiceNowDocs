@@ -18,7 +18,7 @@ View the financial breakdown of estimates, approved costs, benefits, and actuals
 
 As a portfolio user, you can view the rolled up financial values of top-level demands and projects.
 
-You can view the costs by expense type or cost type. Using the Financials view at portfolio level, you can view different financial fields such as Budget \(approved budget for planning items\), Forecast, Variance \(difference between the approved budget and latest forecast\), Actuals, and the Remaining Estimates for Capex, Opex, Total, and Benefits for each planning item. This information can be used to track the financials status of the planning items and take an informed decision on which planning items to consider while working on the next planning cycle and track the to avoid overspending.
+You can view the costs by expense type or cost type. Using the Financials view at portfolio level, you can view different financial fields such as Budget \(approved budget for planning items\). These fields include Forecast, Variance \(difference between the approved budget and latest forecast\), Actuals, and the Remaining Estimates for Capex, Opex, Total, and Benefits for each planning item. This information helps you track the financial status of the planning items and decide which planning items to consider for the next planning cycle. It also helps you track spend to avoid overspending.
 
 Using the portfolio financials, portfolio managers can:
 
@@ -37,11 +37,13 @@ The portfolio financials view supports Demands and Projects with Fiscal Calendar
 
 **Note:** Group header row displays the rolled up values for Budget, Forecast, Variance, Actuals, and Remaining estimate of all the planning items in the group.
 
-The default view of portfolio financials is set to display the planning items grouped by their budget approval status. Budget approved grouping lists the planning items which have the budget allocated and approved. Approval pending grouping lists the planning items which do not have any budget or if the requested budget is not approved.
+The default view of portfolio financials is set to display the planning items grouped by their budget approval status. Budget approved grouping lists the planning items which have the budget allocated and approved. Approval pending grouping lists the planning items which don't have any budget or if the requested budget is not approved.
+
+The Budget value for these planning items displays as 0 instead of empty. This keeps the Budget and Forecast totals, and the resulting Variance, accurate when you group planning items by an attribute other than Budget status.
 
 **Note:** Portfolio financials view is not yet compatible with Investment Funding. This view may not show the right budget values allocated to planning items from Investment Funding application. This will be add as a future enhancement.
 
-In the left-grid, planning item details such as name, rank, planning state, planning item type, approved start date, total planned cost, total actual costs, total planned benefits and ROI for the full planning item duration.
+In the left-grid, planning item details include name, rank, planning state, planning item type, and approved start date. These details also include total planned cost, total actual costs, total planned benefits, and ROI for the full planning item duration.
 
 In the right-grid, financial attributes of the planning items such as, Budget, Forecast, Variance, Actuals, and Remaining Estimates for Capex, Opex, Total, and Benefits portfolio for the portfolio timeline or breakdowns by year, quarter, month, or period.
 
@@ -108,6 +110,6 @@ Portfolio financial breakdown for the entire portfolio timeline.
 
 -   Group the planning items.
 
-    By default, the financials view is grouped by the Budget status column. You can remove Budget status grouping from the Grouped by row and drag-drop the required header to change this view.
+    By default, the financials view is grouped by the Budget status column. You can remove Budget status grouping from the Grouped by row and drag-drop the required header to change this view. Budget values for planning items without an approved budget display as 0 in this view. The totals and variance stay accurate regardless of which attribute you group by.
 
 

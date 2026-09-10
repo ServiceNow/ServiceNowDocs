@@ -31,8 +31,6 @@ Personas define the roles that interact with Content Understanding and the actio
 Use this reference to identify which languages the Content Understanding application supports for text-based and image-based files, and which optical character recognition \(OCR\) model applies to each language group.
 -   **[Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-llms.md)**  
 The Content Understanding application uses large language models \(LLMs\) to support generative AI and agentic AI capabilities.
--   **[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-use-case.md)**  
-Administrators can manage an existing use case by changing the LLM, editing configuration details, creating a copy, deactivating, or deleting it.
 -   **[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-forms.md)**  
 Reference forms provide fields for viewing and updating Content Understanding records, including fields, questions, and tables.
 -   **[Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/field-types.md)**  

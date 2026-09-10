@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Nested Playbooks
@@ -20,7 +20,11 @@ Using nested playbooks can also enable you to break up very large playbooks so t
 
 ## About nested playbooks
 
-When building child playbooks they must be of the Standalone execution type. This means that they are launched manually and not with an automated trigger. When you create a new playbook and select the Standalone execution type, you can also select a check box that allows the playbook to be nested in a parent playbook. The "nestable" playbook must be activated to be visible in the picker for selection as a nestable playbook in a parent playbook.
+When building child playbooks, they must be of the Standalone execution type. This means that they are launched manually and not with an automated trigger. When you create a new playbook and select the Standalone execution type, select a check box that allows the playbook to be nested in a parent playbook. The "nestable" playbook must be activated to be visible in the picker for selection as a nestable playbook in a parent playbook.
+
+-   **Permissions**
+
+    Nested \(child\) playbook must have the same runtime permissions as the parent.
 
 -   **Inserting optional activities**
 

@@ -28,7 +28,13 @@ Returns the change in the score of an indicator between two specified dates.
 
 ## Change from the beginning of the month to the last collection period
 
-In this example, we have the indicator Number of open incidents, whose scores are collected daily. The fromDate parameter is the first second of the current month, constructed by taking the timestamp of the last collection period \(`score_start`\), extracting the year and the month from the timestamp, and appending the numeral 01 for the day. The toDate parameter is the timestamp of the beginning of the last collection period, which would be the first second of the previous day, depending on timezone differences.
+In this example, we have the indicator Number of open incidents, whose scores are collected daily. The fromDate parameter is the first second of the current month. This value is constructed as follows:
+
+1.  The system takes the timestamp of the last collection period \(`score_start`\).
+2.  It extracts the year and the month from the timestamp.
+3.  It appends the numeral 01 for the day.
+
+The toDate parameter is the timestamp of the beginning of the last collection period. This timestamp is the first second of the previous day, depending on time zone differences.
 
 ```
 pa.getChange($[[Number of open incidents]], new GlideDateTime(score_start.getYear() + '-' + score_start.getMonth() + '-01'), score_start);

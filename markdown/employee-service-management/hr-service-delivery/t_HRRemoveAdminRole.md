@@ -1,6 +1,6 @@
 ---
 title: Remove HR Administrator role from IT System Administrators
-description: After system configuration, remove the HR Administrator role \(sn\_hr\_core.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive HR information via forms, lists and UI.
+description: Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_HRRemoveAdminRole.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Manage HR roles, HR Administration, Configure, Case and Knowledge M
 
 # Remove HR Administrator role from IT System Administrators
 
-After system configuration, remove the HR Administrator role \(sn\_hr\_core.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive HR information via forms, lists and UI.
+Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
 
 ## Before you begin
 

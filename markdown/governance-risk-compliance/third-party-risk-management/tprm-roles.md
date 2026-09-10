@@ -87,6 +87,21 @@ Contains:
 
 </td></tr><tr><td>
 
+TPR internal task responder\[sn\_vdr\_risk\_asmt\_internal\_task\_responder\]
+
+</td><td>
+
+Create, read, update, and delete the elements linked to the internal tasks for which the user is the respondent.
+
+ This role is automatically granted to the assigned respondent when an internal task moves to the **Submitted to respondent** state, and replaces use of the internal assessment user \[sn\_vdr\_risk\_asmt.internal\_assessment\_responder\] role for internal tasks specifically.
+
+</td><td>
+
+-   sn\_grc\_workspace.task\_reader
+-   sn\_grc\_workspace.user
+
+</td></tr><tr><td>
+
 TPR assessor \(Third-party risk assessor\)
 
  \[sn\_vdr\_risk\_asmt.vendor\_assessor\]

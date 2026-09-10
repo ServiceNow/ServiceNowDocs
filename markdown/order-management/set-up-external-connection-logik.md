@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up an external connection in CPQ
@@ -38,20 +38,24 @@ Role required: admin
 
 8.  Enter the client ID and client secret that you copied in step 2.
 
-    The token URL is `https://<site>.service-now.com/oauth_token.do`.
+    The token URL is `<Your ServiceNow Instance URL>/oauth_token.do`.
 
 9.  Set the remaining details as follows:
 
     -   Scope: useraccount
     -   HTTP method: POST
-    -   Host: https://&lt;site&gt;.service-now.comstep
+    -   Host: https://&lt;your ServiceNow Instance URL&gt; with no backslash at the end of URL
     -   Path: `“/{{pricingPath}}”step`
     -   Body: `“{{pricingRequest}}”`
+    -   Response Type: application/json
+    -   Timeout \(milliseconds\): 5000 
 10. Make sure that the content type is `application/json`.
 
-11. Click **Save**.
+11. Select **Save**.
 
 12. Navigate to **Utilities** &gt; **Settings** and set the pricing connection to the newly created connection.
+
+    Pricing setup after external connection is defined.
 
 
 ## What to do next

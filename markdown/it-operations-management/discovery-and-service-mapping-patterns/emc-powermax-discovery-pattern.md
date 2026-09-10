@@ -1,6 +1,6 @@
 ---
 title: Dell PowerMax storage discovery with Patterns
-description: ServiceNow Discovery uses the EMC PMAX phase1 and EMC PMAX phase2 patterns to find Dell PowerMax storage components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: ServiceNow Discovery uses the EMC PMAX phase1 and EMC PMAX phase2 patterns to find Dell PowerMax storage components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/emc-powermax-discovery-pattern.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # Dell PowerMax storage discovery with Patterns
 
-ServiceNow Discovery uses the **EMC PMAX phase1** and **EMC PMAX phase2** patterns to find Dell PowerMax storage components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ServiceNow Discovery uses the **EMC PMAX phase1** and **EMC PMAX phase2** patterns to find Dell PowerMax storage components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

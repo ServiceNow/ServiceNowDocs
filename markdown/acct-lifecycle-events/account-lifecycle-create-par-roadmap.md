@@ -42,11 +42,11 @@ Use this task to create a visual roadmap that helps communicate product adoption
 
     -   **From scratch**: Manually configure all roadmap settings and add products or capabilities.
     -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
+    -   **ServiceNow Otto**: Generate a roadmap using ServiceNow Otto. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
 
-        **Note:** The Now Assist option is displayed only if:
+        **Note:** The ServiceNow Ottooption is displayed only if:
 
-        -   The Now Assist for TMT plugin has been installed.
+        -   The ServiceNow Otto for TMT plugin has been installed.
         -   The **Lookup similar engagements** skill has been enabled.
 7.  **From scratch**: Select a value from the Phase drop down list and select **Finish** to determine the lane headings for your roadmap.
 

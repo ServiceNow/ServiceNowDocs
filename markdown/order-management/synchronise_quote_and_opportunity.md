@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/synchronise\_quote\_and\_opportunity.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -69,8 +69,6 @@ The following is a list of default field mappings between opportunity line items
 |Unit net price|Unit net price|
 
 **Note:** When an opportunity and quote header, and an opportunity line item and quote line item are in sync with each other, the addition and deletion of line items on the opportunity record is disabled. All the synced fields on the opportunity and opportunity line item record becomes read only.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

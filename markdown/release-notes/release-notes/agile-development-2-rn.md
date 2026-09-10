@@ -1,9 +1,9 @@
 ---
 title: Agile Development 2.0 release notes
-description: The ServiceNow Agile Development 2.0 application helps you implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure. Starting with Australia release, Agile Development 2.0 and its related plugins are planned for deprecation.
+description: The ServiceNow Agile Development 2.0 application helps you implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure. Starting with Australia release, Agile Development 2.0 and its related plugins are planned for deprecation.The ServiceNow Agile Development 2.0 application helps you implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure. Starting with Australia release, Agile Development 2.0 and its related plugins are planned for deprecation.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,17 @@ reading_time_minutes: 1
 
 The ServiceNow® Agile Development 2.0 application helps you implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure. Starting with Australia release, Agile Development 2.0 and its related plugins are planned for deprecation.
 
-## Plugin information
+## About Agile Development 2.0
+
+## Activation and other requirements
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Agile Development 2.0 application helps you implement a pure agile approach over the entire life cycle of a product, or a hybrid approach using agile methods within a traditional project structure. Starting with Australia release, Agile Development 2.0 and its related plugins are planned for deprecation.
+
+### Plugin information
 
 -   **Plugins planned for deprecation**
 
@@ -28,6 +38,4 @@ The ServiceNow® Agile Development 2.0 application helps you implement a pure ag
     -   Work Progress Status for Agile Teams \(com.sn\_scrum\_progress\): Planned for deprecation in the C release. There is no replacement for this application.
     -   Performance Analytics Content Pack for Agile 2.0 \(com.sn\_scrum\_dashboards\): Planned for deprecation in the C release. Install the Collaborative Work Management application from ServiceNow Store.
     -   Agile Development v2 \(com.snc.sdlc.agile.mobile\): Planned for deprecation in the C release.There is no replacement for this application.
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
 

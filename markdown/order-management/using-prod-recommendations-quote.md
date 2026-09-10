@@ -16,7 +16,7 @@ As a sales agent, you can use recommended product offerings to upsell or cross-s
 
 ## Product offering recommendations
 
-Product recommendations appear as cards in the contextual side panel in the CSM Configurable Workspace when you're adding, updating, or viewing quote line items using the Catalog or Line items tab. Each card provides a recommendation to either upsell or cross-sell a product.
+Product recommendations appear as cards in the contextual side panel in the CRM Workspace when you're adding, updating, or viewing quote line items using the Catalog or Line items tab. Each card provides a recommendation to either upsell or cross-sell a product.
 
 \[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CSM Configurable Workspace that displays product offering recommendation cards, which are described in the next section
 

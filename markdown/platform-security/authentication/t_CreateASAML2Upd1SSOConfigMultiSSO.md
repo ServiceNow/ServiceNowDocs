@@ -30,33 +30,33 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 2.  Do one of the following options.
 
-    -   To update a configuration, click an SSO configuration record.
-    -   To create a new configuration, click **New** &gt; **SAML**.
+    -   To update a configuration, select an SSO configuration record.
+    -   To create configuration, select **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d232101e119">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d229269e119">
 
 **Using a metadata descriptor URL**
 
 </td><td>
 
-Click the URL check box and enter the URL of the IdP that you are using.
+Select the URL check box and enter the URL of the IdP that you're using.
 
-</td></tr><tr><td id="d232101e128">
+</td></tr><tr><td id="d229269e128">
 
 **Using metadata descriptor XML file**
 
 </td><td>
 
-Click the XML check box and paste in the XML data generated from the IdP you are using.
+Select the XML check box and paste in the XML data generated from the IdP you're using.
 
-</td></tr><tr><td id="d232101e137">
+</td></tr><tr><td id="d229269e137">
 
 **Entering metadata manually**
 
 </td><td>
 
-Close the popup window and manually enter the data in the property fields.
+Close the pop-up window and manually enter the data in the property fields.
 
 </td></tr></tbody>
 </table>    **Note:** All required fields must be filled-in on the Identity Provider form.
@@ -273,12 +273,42 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
 
 5.  User Provisioning tab
 
-    |Property|Description|
-    |--------|-----------|
-    |Auto Provisioning User|Enable automatic user provisioning, creates the users when user doesn't exists in the instance User Table based on the information provided by the IdP.|
-    |Update User Record Upon Each Login|Updates user information in the instance User table with the information in the IdP each time the user logs in using SAML.|
+<table id="table_bfv_frd_4z"><thead><tr><th>
 
-6.  Advanced tab
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Auto Provisioning User
+
+</td><td>
+
+Enable automatic user provisioning, creates the users when user doesn't exists in the instance User Table based on the information provided by the IdP.
+
+</td></tr><tr><td>
+
+Update User Record Upon Each Login
+
+</td><td>
+
+Updates user information in the instance User table with the information in the IdP each time the user logs in using SAML.
+
+</td></tr><tr><td>
+
+User groups applied to provisioned users
+
+</td><td>
+
+Specifies the user groups that are automatically assigned to users created through SAML user provisioning.
+
+ When a user is provisioned from the SAML identity provider, the instance adds the user to each group listed in this field, so provisioned users receive consistent group membership — and any roles or access those groups grant — without manual assignment.
+
+</td></tr></tbody>
+</table>6.  Advanced tab
 
     \[Omitted image "advanced.png"\] Alt text: Advanced tab
 
@@ -304,7 +334,7 @@ NameID Attribute
 
 </td><td>
 
-Leave this field blank unless you configure a new NameID policy. If you configure a new policy, the system requires the User table it must use to identify the user logging in. The system matches the NameID token to the name of that User table field here.
+Leave this field empty unless you configure a new NameID policy. If you configure a new policy, the system requires the User table it must use to identify the user logging in. The system matches the NameID token to the name of that User table field here.
 
 </td></tr><tr><td>
 

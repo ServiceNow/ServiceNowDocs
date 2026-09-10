@@ -37,7 +37,7 @@ These spokes depend on the installation of the Microsoft Azure Resource Manageme
 
 ## Spoke version
 
-Microsoft Azure Resource Management spoke v2.1.0 is the latest version.
+Microsoft Azure Resource Management spoke v2.1.0 is the latest version. For version history of the spoke, see [Microsoft Azure Resource Management spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-res-mgmt.html).
 
 ## Spoke dependencies
 

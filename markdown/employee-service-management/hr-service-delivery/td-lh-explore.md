@@ -18,6 +18,10 @@ The Leader Hub app provides organizational and HR leaders with visibility into t
 
 ## Leader Hub overview
 
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Leader Hub gives organizational leaders the tools to grasp their teams' capabilities, recognize skill gaps, and implement changes that support their workforce while advancing key business objectives.
 
 ## Leader Hub users

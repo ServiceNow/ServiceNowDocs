@@ -197,7 +197,7 @@ Attachments related to the task.
 
 8.  Navigate to the Action tasks related list and add an action task if necessary.
 
-    See [Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating a new action task.
+    See [Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) for creating a new action task.
 
 9.  Navigate to the Issues related list and add an issue if necessary.
 
@@ -205,15 +205,15 @@ Attachments related to the task.
 
 10. In the Import Task section, insert a new citation or update an existing citation as described in the table.
 
-<table id="choicetable_sdj_byp_crb"><thead><tr><th align="left" id="d336507e407">
+<table id="choicetable_sdj_byp_crb"><thead><tr><th align="left" id="d185221e408">
 
 Field
 
-</th><th align="left" id="d336507e410">
+</th><th align="left" id="d185221e411">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d336507e416">
+</th></tr></thead><tbody><tr><td id="d185221e417">
 
 **Insert action**
 
@@ -221,7 +221,7 @@ Description
 
 Action associated with the citation. Select **Insert** to insert a new citation.**Note:** The **Insert** or **Update** action related to the citation is available only when the source document import task is in the **In progress** state.
 
-</td></tr><tr><td id="d336507e440">
+</td></tr><tr><td id="d185221e441">
 
 **Create under an existing Authority Document or Citation**
 
@@ -229,7 +229,7 @@ Action associated with the citation. Select **Insert** to insert a new citation.
 
 Option to create a new citation under an existing authority document or citation. When this option is selected, a child authority document or a child citation is created under an existing citation. This option is displayed only when the **Insert** action is selected.
 
-</td></tr><tr><td id="d336507e452">
+</td></tr><tr><td id="d185221e453">
 
 **Parent type**
 
@@ -237,7 +237,7 @@ Option to create a new citation under an existing authority document or citation
 
 Parent authority document or citation. This field is displayed only when the **Create under an existing Authority Document or Citation** option is enabled.
 
-</td></tr><tr><td id="d336507e464">
+</td></tr><tr><td id="d185221e465">
 
 **Parent authority document**
 
@@ -245,7 +245,7 @@ Parent authority document or citation. This field is displayed only when the **C
 
 Parent authority document or citation from the library. This field is displayed only when the **Create under an existing Authority Document or Citation** option is enabled.
 
-</td></tr><tr><td id="d336507e477">
+</td></tr><tr><td id="d185221e478">
 
 **Update action**
 
@@ -263,5 +263,5 @@ The state of the source document import task is updated to **Awaiting Approval**
 
 ## What to do next
 
-See [Create a new action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) and [Complete the action task associated with the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-src-document-alert.md) for information on creating a new action task and completing an action task associated with the alert.
+See [Create an action task for the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-using-ws.md) and [Complete the action task associated with the alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-src-document-alert.md) for information on creating a new action task and completing an action task associated with the alert.
 

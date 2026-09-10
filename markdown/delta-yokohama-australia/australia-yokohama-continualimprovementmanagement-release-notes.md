@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-continualimprovementmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -127,7 +127,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -238,7 +241,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The Continual Improvement Management \(com.sn\_cim\) plugin is available with ITSM Professional, CSM Professional, and HR Service Delivery Professional subscriptions only. Contact your ServiceNow account manager to purchase a subscription and activate the plugin. You can also install the CIM plugin from ServiceNow Application Manager after purchasing a subscription.
+
 
 </td></tr><tr><td>
 
@@ -386,7 +392,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 Localization is applicable to CIM in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr><tr><td>
 
@@ -423,7 +432,10 @@ Zurich
 
 </td><td>
 
-See [Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&family=zurich&ft:locale=en-US) for more information.
+-   Plan, implement, and monitor improvement initiatives created from different ServiceNow® product workflows including IT Service Management, Customer Service Management, and HR Service Delivery without any ITIL role-related restrictions.
+-   Measure the success of improvement initiatives and the value achieved to identify more opportunities for continuous improvement.
+
+ See [Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

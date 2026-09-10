@@ -1,9 +1,9 @@
 ---
 title: Data Management release notes
-description: The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
+description: The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.The ServiceNow Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
 
-## Data Management highlights for the Australia release
+## About Data Management
 
 -   Store archive records and attachments in an object storage outside the primary instance.
 -   Create and manage Data Management rules directly from the Data Management Console.
@@ -21,11 +21,22 @@ The ServiceNow® Data Management capabilities enable you to manage the growth of
 
 See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataManagement.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
 
--   **[Archive data in object storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md)**
+-   **Activation information**
 
-    Store archive records and attachments in columnar format in an object storage outside the primary instance, freeing up primary storage and improving query performance for active data. The object storage is exclusive to RaptorDB Professional V2.
+    Data Management and system archiving are ServiceNow AI Platform capabilities that are active by default.
+
+    The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see .
+
+
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+
+## Australia General Availability
+
+The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Data Management rules wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-policies.md)**
 
@@ -35,18 +46,8 @@ See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Search for archived records and restore them in bulk to live tables from the Data Management Console.
 
--   **[Granular admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-roles.md)**
 
-    Enable administrators to perform basic Data Management tasks by granting the data\_mgmt\_tools\_admin role instead of the full admin role.
-
-
-## Activation information
-
-Data Management and system archiving are ServiceNow AI Platform capabilities that are active by default.
-
-The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see .
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -54,5 +55,25 @@ The ability to store archive data in object storage is available with the instal
 
     -   Live Archive\(com.glide.db.columnar.archive\): Enables you to archive data in object storage and set up scheduled jobs to migrate archive tables.
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+## April 2026
+
+The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Archive data in object storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md)**
+
+    Store archive records and attachments in columnar format in an object storage outside the primary instance, freeing up primary storage and improving query performance for active data. The object storage is exclusive to RaptorDB Professional V2.
+
+
+## Australia
+
+The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Granular admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-roles.md)**
+
+    Enable administrators to perform basic Data Management tasks by granting the data\_mgmt\_tools\_admin role instead of the full admin role.
+
 

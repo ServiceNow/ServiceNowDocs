@@ -18,7 +18,7 @@ The Monitoring Technology Dashboard enables you to monitor server resources for 
 
 You can customize the appearance of individual widgets on the Monitoring Technology Dashboard. For example, you could change the data parameters displayed for the CPU Utilization \(Linux\) metric, like the date range. You can include the customized widgets when creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
 
-The Monitoring Technology Dashboard shows the five CIs and servers with the highest metric readouts during the past six hours, and the 50 most recent active alerts on your OS's servers.
+The Monitoring Technology Dashboard shows the five CIs and servers with the highest metric readouts during the past six hours. It also shows the 50 most recent active alerts on your OS's servers.
 
 To enable viewing the Monitoring Technology Dashboard, ensure that you have installed clotho version 23.1.0.
 
@@ -37,11 +37,11 @@ With the HTTP Monitoring Technology Dashboard you can monitor the response time 
 -   **[Monitoring Technology Dashboard for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-azure.md)**  
 With the Azure Monitoring Technology Dashboard, you can monitor the health and performance of your Azure infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs.
 -   **[Monitoring Technology Dashboard for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.md)**  
-With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 -   **[Monitoring Technology Dashboard for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-gcp.md)**  
-With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 -   **[Monitoring Technology Dashboard for VMware vSphere](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-vsphere.md)**  
-With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 -   **[Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/customize-dashboard-widgets.md)**  
 Customize the Monitoring Technology Dashboard widgets in the Data Visualizations library so your dashboard displays information exactly as you want to see it.
 

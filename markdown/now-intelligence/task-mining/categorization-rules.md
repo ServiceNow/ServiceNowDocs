@@ -7,8 +7,8 @@ release: australia
 product: Task Mining
 classification: task-mining
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-08-26"
+reading_time_minutes: 2
 breadcrumb: [Reference, Task Mining, Platform Analytics]
 ---
 
@@ -17,6 +17,21 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 
 For information about categorization, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
+
+You build the conditions for a rule in the **Conditions** section of the **Create rule** or **Edit rule** panel. A condition is a combination of a field, an operator, and a value. Combine conditions with **and** and **or** logic, and apply more than one condition to the same field.
+
+|Field|Description|
+|-----|-----------|
+|Application Name|Matches the file name of the application, for example, ms-teams.exe.|
+|Window Name|Matches the window title captured for the activity.|
+|URL|Matches the URL captured for the activity.|
+
+|Operator|Description|
+|--------|-----------|
+|Equals|The activity value matches the entered value exactly.|
+|Contains|The activity value contains the entered value anywhere in the text.|
+|Starts with|The activity value begins with the entered value.|
+|Ends with|The activity value ends with the entered value.|
 
 <table id="table_y2k_vdx_tcc"><thead><tr><th>
 
@@ -28,35 +43,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Application
-
-</td><td>
-
-File name condition of the application.
-
-</td></tr><tr><td>
-
-Window name
-
-</td><td>
-
-Window name condition of the window.
-
-</td></tr><tr><td>
-
-URL
-
-</td><td>
-
-URL condition of the application or window.
-
-</td></tr><tr><td>
-
 Rank
 
 </td><td>
 
-Order that defines the order in which categorization rules applies.
+Order that determines when the rule applies relative to other rules. A lower rank applies first. Required.
 
 </td></tr><tr><td>
 
@@ -64,10 +55,11 @@ Activity
 
 </td><td>
 
-Determines how usage of apps and windows is shown on dashboards. Defines whether the activity is work related or other. The available options are:-   **Productive**: Used for work applications.
--   **Non-productive**: Used when the agent is in private mode or used when activities are defined as private.
+Determines how usage of apps and windows is shown on dashboards. Defines whether the activity is work related or other. Required. The available options are:-   **Productive**: Used for work applications. Leave the Activity as Productive for most work.
+-   **Nonproductive**: Used when the agent is in private mode or when activities are defined as private.
 -   **Break**: Used when the workstation is locked.
 -   **Off**: Used when the workstation is turned off.
+-   **Idle**: Used for time recorded during targeted recordings when the agent is running but the workstation is inactive.
 
 </td></tr><tr><td>
 
@@ -75,7 +67,7 @@ Category
 
 </td><td>
 
-The type of work being done that the application is related to. Don’t use the **Other** category as other is used by the Max rule and represents uncategorized apps that don’t match any rule and are anonymized by default.
+The type of work that the application is related to. Required. Don't use the Other category. The Other category is used by the MAX rule and represents uncategorized apps that don't match any rule. By default, this uncategorized activities don't appear in dashboards.
 
 </td></tr><tr><td>
 
@@ -83,7 +75,7 @@ Application
 
 </td><td>
 
-An intuitive name for the application. An application name should only be associated with one category to keep the data clear.
+An intuitive name for the application. Required. An application name should be associated with only one category to keep the data clear.
 
 </td></tr><tr><td>
 
@@ -91,7 +83,7 @@ Window name
 
 </td><td>
 
-A name to describe the activity. A value can be used to mask PII. For example, you can use \[\] to mask and replace with the term used in brackets. If this field is empty, the window name from the workstation is used.
+A name to describe the activity. Optional. A value can be used to mask PII. For example, you can use \[\] to mask and replace with the term used in brackets. If this field is empty, the window name from the workstation is used.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)

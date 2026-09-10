@@ -7,7 +7,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-20"
+last_updated: "2026-08-21"
 reading_time_minutes: 1
 keywords: [Dynamic guidance use]
 breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
@@ -47,8 +47,6 @@ Google must be turned on in AI control tower for Dynamic Guidance to work.
 
     2.  Select Dynamic Guidance.
 
-        \[Omitted image "launch-dg-nap.png"\] Alt text: Invoke Dynamic Guidance via ServiceNow Otto panel
-
     3.  Invoke the help agent from ServiceNow Otto panel via skill named 'Ask Dynamic Guidance for help'.
 
     4.  Select **Open Dynamic Guidance**.
@@ -61,13 +59,9 @@ Google must be turned on in AI control tower for Dynamic Guidance to work.
 
 7.  Select **Allow** to enable access to the browser tab.
 
-    \[Omitted image "ads-dynamic-guidance-agreement-new.png"\] Alt text: Dynamic Guidance agreement modal
-
 8.  Allow and enable voice and screen sharing in browser tabs, when prompted.
 
-9.  Ask your question verbally to hear a conversational response real time.
-
-    \[Omitted image "ads-dynamic-guidance-hello.png"\] Alt text: Dynamic guidance live
+9.  Ask your question verbally to hear a conversational response real-time.
 
     **Note:** The response will be relevant and according to the instance screen you use.
 

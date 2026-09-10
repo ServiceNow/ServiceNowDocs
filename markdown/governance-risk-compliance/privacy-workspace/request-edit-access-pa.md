@@ -1,5 +1,5 @@
 ---
-title: Edit a processing activity from the Employee Center
+title: Request edit access to a processing activity from the Employee Center
 description: Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/request-edit-access-pa.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Edit a processing activity from the Employee Center
+# Request edit access to a processing activity from the Employee Center
 
 Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 
@@ -62,7 +62,7 @@ After you have edit access, navigate to **Employee Center** &gt; **GRC tasks** &
 **Related topics**  
 
 
-[Respond to a privacy smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)
+[Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)
 
 [Respond to a privacy screening assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.md)
 

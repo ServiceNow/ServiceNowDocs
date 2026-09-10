@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -20,7 +20,7 @@ They are the starting point for HR case creation and define the process for that
 
 ## HR Centers of Excellence data model
 
-HR services are categorized under one of the HR Centers of Excellence \(COEs\), which are part of a data model that organizes HR data, services, and processes by functional discipline. Each COE is an extension of the HR Case \[sn\_hr\_core\_case\] table, and each COE is further organized by HR topic category and detail. Before you begin configuring the individual HR services, review and set up the categorization structure for them.
+HR services are organized by HR Centers of Excellence \(COEs\), which group services by functional discipline within a data model. Each COE is an extension of the HR Case \[sn\_hr\_core\_case\] table, and each COE is further organized by HR topic category and detail. Before configuring individual HR services, review and set up the categorization structure.
 
 -   [HR Centers of Excellence data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-centers-of-excellence-coes.md)
 -   [HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
@@ -47,7 +47,7 @@ In determining what HR services to offer, you should consider:
 
 ## HR service configuration
 
-HR services are the starting point for HR case creation and define the request to fulfillment process for that case type. The configuration requirements for an HR service depend on whether it is available for internal use only, or if you are allowing the employee to request the service directly from the HR service catalog through a self-service portal such as the Employee Center.
+HR services define the request to fulfillment process for HR cases. Configuration requirements depend on whether the service is for internal use only or employee self-service.
 
 <table id="table_vy2_32n_3fb"><thead><tr><th>
 
@@ -104,7 +104,7 @@ Organize HR data, services, and processes by functional discipline with the HR C
 -   **[HR service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-configuration.md)**  
 HR services are the requests and assistance an HR organization provides its employees. You can configure an HR service to define the request to fulfillment process for that case type.
 -   **[HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-management.md)**  
-Empower employees to request HR services through the HR service catalog. The HR service catalog provides employees a catalog of HR services that they can request directly from HR, such as to add beneficiaries to a benefits plan, request a travel visa, or inquire about a discrepancy in their paycheck.
+Enable employees to request HR services such as benefits updates, travel visas, or paycheck inquiries through the HR service catalog.
 -   **[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)**  
 HR fulfillment instructions provide focused and targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
 -   **[HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-template-configuration.md)**  

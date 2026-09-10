@@ -8,7 +8,7 @@ product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\), Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -1049,4 +1049,135 @@ Input fields
 -   Description
 
 </td></tr></tbody>
-</table>
+</table>## Transcript Analysis skill
+
+Analyzes a transcript chunk against the full meeting overview, next steps, and topic summaries to extract per-participant communication style, focus area, and sentiment, plus a chunk-level sentiment score.
+
+<table id="table_ifr_ghl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Virtual Meeting Details table \(sn\_meeting\_mgmt\_virtual\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Conversation analysis
+-   Meeting information
+
+</td></tr></tbody>
+</table>## Prep Brief Data Generator skill
+
+Produce a structured, citation-backed preparation brief for an upcoming customer meeting.
+
+<table id="table_owc_wrl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Virtual Meeting Details table \(sn\_meeting\_mgmt\_virtual\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Emails since last meeting
+-   Touchpoint reference records
+-   Stakeholders
+-   Series classification
+-   Meeting
+-   Prior meetings
+-   Account
+
+</td></tr></tbody>
+</table>## Next Steps Task Description Skill
+
+Generates short and detailed task descriptions plus an assignee for each meeting. Creates next steps or actions required using the meeting overview and summary as context.
+
+<table id="table_ftx_gvl_jkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Meeting Details table \(sn\_meeting\_mgmt\_meeting\_details\)
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Meeting summary
+-   Meeting overview
+
+</td></tr></tbody>
+</table>## Event-Context Candidate Recommender skill
+
+<table id="table_pt5_bvk_lkc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   matchingGuidance
+-   recommendationMode
+-   candidatePool
+-   eventRecommendationContextPayload
+
+</td></tr></tbody>
+</table>## Executive Insight Generator skill
+
+|Input|Description|
+|-----|-----------|
+|Input table|Activity type table \(sn\_actsub\_activity\_type\)|
+|Input fields|activities|
+

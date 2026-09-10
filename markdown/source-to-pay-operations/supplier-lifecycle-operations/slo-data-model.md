@@ -25,19 +25,19 @@ The following diagram shows the tables and their relationships that comprise the
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

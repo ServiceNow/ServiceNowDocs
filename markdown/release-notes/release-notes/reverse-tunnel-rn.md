@@ -1,19 +1,19 @@
 ---
 title: Reverse Tunnel release notes
-description: The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
+description: The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.The ServiceNow Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-06-08"
-reading_time_minutes: 1
-keywords: [Reverse Tunnel, private connectivity, private relay, Zero Copy Connectors, Workflow Data Fabric]
+reading_time_minutes: 2
+keywords: [Reverse Tunnel, private connectivity, private relay, Zero Copy Connectors, Workflow Data Fabric, Reverse Tunnel, private connectivity, private relay, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Reverse Tunnel release notes
 
 The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 
-## Reverse Tunnel highlights for the Australia release
+## About Reverse Tunnel
 
 -   Connect zero copy connectors to private cloud or on-premises data sources without opening inbound firewall ports.
 -   Establish encrypted outbound connections to private cloud or on-premises data sources by deploying a private relay in your network.
@@ -21,9 +21,24 @@ The ServiceNow® Reverse Tunnel application enables zero copy connectors to reac
 
 See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reverse-tunnel.md) for more information.
 
+## Activation and other requirements
+
 **Note:** Reverse Tunnel is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Reverse Tunnel features
+-   **Activation information**
+
+    Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
+
+    For details, see [Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md).
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
+
+### What's new
 
 -   **[Private connectivity for zero copy connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-reverse-tunnel.md)**
 
@@ -42,13 +57,7 @@ See [Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Register the fully qualified domain name \(FQDN\) and port number of each data source to the relay. The gateway uses registered service endpoints to route incoming traffic to the correct relay.
 
 
-## Activation information
-
-Reverse Tunnel is available in the ServiceNow Store as the Zero Copy Reverse Tunnel store app \(`sn_zc_tunnel`\).
-
-For details, see [Connect a private relay to the Reverse Tunnel gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connect-customer-relay.md).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -56,6 +65,4 @@ For details, see [Connect a private relay to the Reverse Tunnel gateway](https:/
 
     Zero Copy Reverse Tunnel \(`sn_zc_tunnel`\): Provides the interface to manage private relays, service endpoints, and relay properties for private connectivity through the Reverse Tunnel gateway.
 
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

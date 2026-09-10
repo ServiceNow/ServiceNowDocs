@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure an email address for a product
@@ -33,10 +33,10 @@ Create a configuration that links a product to a specific email address. This co
     |Field|Description|
     |-----|-----------|
     |Name|Name of the email configuration.|
-    |Channel Type|Configuration type. Set this field to **Email**|
+    |Channel Type|Configuration type for this email address. Always **Email**.|
     |Product|Product model associated with this email configuration.|
     |Active|Option to activate the email configuration.|
-    |Email address|Email address for this configuration. Enter one of the incoming email addresses that the administrator created using the Email Accounts application.|
+    |Email address|One of the incoming email addresses created earlier in the Email Accounts application.|
 
 4.  Select **Submit**.
 

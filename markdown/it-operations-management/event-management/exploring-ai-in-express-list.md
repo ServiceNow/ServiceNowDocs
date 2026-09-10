@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-07-02"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, generative ai, Express List, agentic workflow, alert analysis, alert triage]
-breadcrumb: [Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # AI in Express List
 
 ServiceNow Otto for ITOM provides generative AI skills and agentic workflows in Express List that help operators triage alerts, investigate incidents, and respond faster.
 
-Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed. For a summary of all AI features across ITOM AIOps, see [AI in ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-ai-in-itom-aiops.md).
+Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed. For a summary of all AI features across ITOM AIOps, see [Install ITOM using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-nowassist-setup-itom-aiops.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -158,7 +158,7 @@ Manage alerts autonomously agentic workflow
 
 </td><td>
 
-Provides a unified AI-driven process that automates alert triage, impact analysis, and root cause investigation. Generates reports, summarizes key insights and possible next steps, and stores structured findings in the alert record. Also analyzes Health Log Analytics alerts in an alert group and can classify alerts as proactive or reactive.
+Provides a unified AI-driven process that automates alert triage, impact analysis, and root cause investigation. Generates reports, summarizes key insights and possible next steps, and stores structured findings in the alert record. Also analyzes Health Log Analytics alerts in an alert group and can classify alerts as proactive or reactive.**Note:** Autonomous workflow is a simplified AI process elaborated in the AI Specialist. You can now activate and manage AI Specialist, controlling the groups it targets and the specific alert type it handles. Activating the AI Specialist automatically disables the Autonomous workflow.
 
 </td><td>
 

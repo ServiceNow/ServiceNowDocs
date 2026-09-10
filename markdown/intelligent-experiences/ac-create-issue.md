@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Issues, Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [Issues, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Create an issue

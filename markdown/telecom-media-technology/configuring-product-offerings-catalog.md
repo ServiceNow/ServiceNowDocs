@@ -18,7 +18,7 @@ As a product catalog administrator or catalog manager, you complete various conf
 
 ## Overview of product offering and catalog configuration
 
-You can use the CSM Configurable Workspace to configure product offering catalogs, product offerings, and product offering relationships.
+You can use the CRM Workspace to configure product offering catalogs, product offerings, and product offering relationships.
 
 The following table identifies the configuration tasks for setting up the various features available in Product Catalog Management.
 

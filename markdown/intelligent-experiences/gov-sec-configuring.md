@@ -27,7 +27,7 @@ Set up a Traceloop connection and API key for prompt injection, offensive conten
 Customize security and content moderation policies, sampling rate, skill call usage limit, LLMs to use, and other settings for the Top AI asset security events metric and others.
 -   **[Configure the AI asset security score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-score.md)**  
 Customize the AI asset security score to align with your enterprise's security practices. You can omit large language model \(LLM\) guardrail categories from the score or change the weights of categories.
--   **[Configure AI agent containment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-ai-agent-containment.md)**  
+-   **[Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-ai-agent-containment.md)**  
 Connect identity providers and hyperscalers to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol.
 -   **[Update system property to limit records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-system-property.md)**  
 Update the sn\_ai\_security.analyzer\_max\_record\_age\_hours system property to limit the age \(in hours\) of AI asset invocation records evaluated for AI asset security metrics.

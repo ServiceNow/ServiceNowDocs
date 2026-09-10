@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Socure spoke v1.1.0 is the latest version.
+Socure spoke v1.1.0 is the latest version. For version history of the spoke, see [Socure spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-socure.html).
 
 ## Supported versions
 

@@ -45,7 +45,7 @@ The primary record for a location is Internal Organization or External Organizat
 
 Because the documentation and configuration steps focus heavily on the healthcare organization table, it's commonly mistaken for the primary record. In reality, Internal Organization and External Organization are the tables that are considered the requesting organization or location—not the healthcare organization.
 
-The healthcare organization is like a profile: a one-to-one repository of healthcare-specific fields and information about its linked Internal or External Organization record. It's against best practice to add healthcare-specific information directly to the Business Organization tables. That information belongs on the healthcare organization record. For more information, see [Setting up healthcare locations and healthcare organizations]().
+The healthcare organization is like a profile: a one-to-one repository of healthcare-specific fields and information about its linked Internal or External Organization record. It's against best practice to add healthcare-specific information directly to the Business Organization tables. That information belongs on the healthcare organization record. For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 ## Internal Organization and External Organization
 
@@ -56,7 +56,7 @@ Whether a location is internal or external depends on its relationship to the or
 
 ## Service organization fields on cases
 
-The Healthcare Operations case \[sn\_hco\_case\] form has two service organization fields. Configure them correctly to preserve out-of-box case visibility. For the platform-wide pattern this is based on, including the shared-visibility model and how CSM and ITSM divide the work, see [CSM and ITSM integration models for Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-and-itsm-integration-models-for-smf.md).
+The Healthcare Operations case \[sn\_hco\_case\] form has two service organization fields. Configure them correctly to preserve out-of-box case visibility. For the platform-wide pattern this is based on, including the shared-visibility model and how CSM and ITSM divide the work, see .
 
 -   **Requesting service org**
 
@@ -75,7 +75,7 @@ A common configuration error is displaying the healthcare organization on the ca
 
 The common location \[cmn\_location\] table represents the physical address of a record and is used across the ServiceNow platform. Because several tables contain *location* in their name, it's commonly assumed that one table extends another, but they don't. Organization Core holds a reference field to the common location record.
 
-For healthcare use cases, configure the healthcare location \[sn\_hcls\_location\] table rather than customizing the common location table directly. The healthcare location is a profile for an individual location—a repository of fields and information that aren't available on the common location table. For more information, see [Setting up healthcare locations and healthcare organizations]().
+For healthcare use cases, configure the healthcare location \[sn\_hcls\_location\] table rather than customizing the common location table directly. The healthcare location is a profile for an individual location—a repository of fields and information that aren't available on the common location table. For more information, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 ## Importing location data
 
@@ -94,5 +94,5 @@ Use the following process to import location data:
 
 Don't add address fields directly to an Internal Organization or External Organization record when a matching common location record already exists if you haven't populated the common location yet. Doing so triggers the business rule that creates duplicate common location records.
 
-For a worked example that applies this data model to a hospital system, see .
+For a worked example that applies this data model to a hospital system, see [Example: Service Model Foundation in a hospital setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/smf-hco-hospital-setting-example.md).
 

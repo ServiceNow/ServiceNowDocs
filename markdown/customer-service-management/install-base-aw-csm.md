@@ -1,18 +1,18 @@
 ---
-title: View the install base in CSM Configurable Workspace
-description: View a customer’s install base in CSM Configurable Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
+title: View the install base in CRM Workspace
+description: View a customer’s install base in CRM Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/install-base-aw-csm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
-# View the install base in CSM Configurable Workspace
+# View the install base in CRM Workspace
 
-View a customer’s install base in CSM Configurable Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
+View a customer’s install base in CRM Workspace to quickly identify the support they require as well as the opportunities for adoption and upsell.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ You can view information about a customer's purchased products and services, del
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Select the account that you want to view the install base for.
 

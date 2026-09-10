@@ -23,5 +23,5 @@ Certificate Inventory and Management includes an AI-powered certificate renewal 
 
 |AI feature|Description|Use case|Resources|
 |----------|-----------|--------|---------|
-|Certificate renewal AI agent|Uses AI to automatically renew a single TLS certificate through a conversational prompt. The agent guides the user through the renewal process and provides a link to the task record when complete.|A PKI administrator wants to renew a certificate without manually navigating the renewal workflow.|[Automatically renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)|
+|Certificate renewal AI agent|Uses AI to automatically renew a single TLS certificate through a conversational prompt. The agent guides the user through the renewal process and provides a link to the task record when complete.|A PKI administrator wants to renew a certificate without manually navigating the renewal workflow.|[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)|
 

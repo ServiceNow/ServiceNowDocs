@@ -139,7 +139,7 @@ resource
 
 </td><td>
 
-If the event refers to a device, such as, Disk, CPU, or Network Adapter, or to an application or service running on a Host, the name of the device or application must be populated in this field. For example, `Disk C:\` or `Nic 001` or `Trade web application`.
+Populate this field with the device or application name. Use this field if the event refers to a device \(such as Disk, CPU, or Network Adapter\) or to an application or service running on a Host. Examples: `Disk C:\`, `Nic 001`, or `Trade web application`.
 
 </td></tr><tr><td>
 
@@ -195,10 +195,12 @@ resolution\_state
 
 </td><td>
 
-Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity, while other event monitors use a ‘close’ value for severity. This field is used for those monitors proffering the latter. Valid values are `New` and `Closing`.
+Optional – Indicates whether an event has been resolved or is no longer occurring. Some event monitors use ‘clear’ severity to indicate resolution. Other event monitors use a ‘close’ value for severity. This field is used for those monitors proffering the latter. Valid values are `New` and `Closing`.
 
 </td></tr></tbody>
-</table>3.  To create multiple records with a single call, trigger the event web service using the following URL, where the &lt;instance name&gt; variable is replaced with the name of the required instance:
+</table>3.  To create multiple records with a single call, trigger the event web service using the following URL:
+
+    Replace the &lt;instance name&gt; variable with the name of the required instance.
 
     `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
@@ -235,9 +237,9 @@ Optional – To indicate that an event has been resolved or no longer occurring,
     }
     ```
 
-4.  To create one record with a single call, trigger the event web service using the following URL, where the &lt;instancename&gt; variable is replaced with the name of the required instance:
+4.  Trigger the event web service using the following URL.
 
-    `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    Replace &lt;instancename&gt; with the name of the required instance: `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for one event that is sent in a single web service call:
 

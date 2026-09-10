@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2025-11-18"
 reading_time_minutes: 6
-breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Create an external AI agent with the Agent2Agent protocol

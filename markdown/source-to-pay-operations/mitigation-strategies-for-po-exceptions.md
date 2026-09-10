@@ -1,6 +1,6 @@
 ---
 title: Identify and execute mitigation strategies for PO exceptions
-description: Use the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+description: Use the Define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/mitigation-strategies-for-po-exceptions.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Use agentic workflows in ServiceNow Otto for POM, ServiceNow Otto f
 
 # Identify and execute mitigation strategies for PO exceptions
 
-Use the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+Use the Define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
 ## Define PO exception mitigation strategy agentic workflow overview
 

@@ -1,9 +1,9 @@
 ---
 title: Workforce Optimization for CSM release notes
-description: The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
+description: The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.The ServiceNow Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 
 The ServiceNow® Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
 
-## Workforce Optimization for Customer Service highlights for the Australia release
+## About Workforce Optimization for CSM
 
 -   Manage location‑based holiday calendars to improve workforce scheduling by mapping holidays to specific regions, enabling managers to plan shifts with accuracy, and reduce manual adjustments.
 -   Enhance the Manager Dashboard with standalone installation support and new AI-powered widgets \(Sentiment Analysis, Trending Topics, and Auto QA\) to provide actionable insights.
@@ -22,9 +22,36 @@ The ServiceNow® Workforce Optimization application enables you to efficiently r
 
 See [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+
+## June 2026
+
+The ServiceNow® Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
+
+### What's new
+
+-   ****
+
+    Enable Schedule Management schedule management capabilities in CSM configurable workspace:
+
+    -   Provide a standalone licensing and entitlement model for Schedule Management schedule management using the  "com.sn\_shift\_planning" plugin.
+    -   Support independent deployment of Schedule Management schedule management without Forecasting, Intraday Management, Coaching, or other Workforce Optimization modules.
+    -   Extend scheduling to support shift and roster management for FSM and Retail, enabling phased use of Workforce Optimization modules.
+
+## Australia Early Availability
+
+The ServiceNow® Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Location Based Holiday Calendar Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/location-based-holiday-calendar-management.md)**
 
@@ -60,15 +87,12 @@ See [Workforce Optimization for Customer Service](https://raw.githubusercontent.
 -   **[Channel Management in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explore-channels-configurable-wfo-cs.md)**
     -   View the **Help Request** tab on the Channel Management landing page.
     -   Enable supervisors to open any active voice request to review context and take action by monitoring the live call, coaching the agent privately, or barging in to speak with both the agent and the customer.
--   ****
 
-    Enable Schedule Management schedule management capabilities in CSM configurable workspace:
+## Australia
 
-    -   Provide a standalone licensing and entitlement model for Schedule Management schedule management using the  "com.sn\_shift\_planning" plugin.
-    -   Support independent deployment of Schedule Management schedule management without Forecasting, Intraday Management, Coaching, or other Workforce Optimization modules.
-    -   Extend scheduling to support shift and roster management for FSM and Retail, enabling phased use of Workforce Optimization modules.
+The ServiceNow® Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. Workforce Optimization was enhanced and updated in the Australia release.
 
-## UI changes
+### What's changed
 
 -   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
 
@@ -77,25 +101,4 @@ See [Workforce Optimization for Customer Service](https://raw.githubusercontent.
     -   The dashboard includes new AI‑powered widgets — Sentiment Analysis,Trending Topics, and Auto QA
     -   **Help requested** can be viewed on the **Manager Workspace landing page** and in **Conversation Monitoring** list view.
     -   The **Help requested** include different channels, such as **Chat**, **Email**, **Messaging**, **Phone** and **Video**.
-
-## Activation information
-
-Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)**
-
-    Automatically assign work items to your agents based on their availability, capacity, and skills using ServiceNow® Advanced Work Assignment.
-
--   **[Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md)**
-
-    Assess the skills that your organization needs, identify gaps, and plan for the hiring and training of your teams using ServiceNow® Skills Management.
-
--   **[CSM Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)**
-
-    Agents can swap shifts, manage their time-off requests and approvals, and complete assigned training using ServiceNow® CSM Agent Workspace.
-
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

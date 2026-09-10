@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [gaf]
-breadcrumb: [GAF, Configure, AI Agent Studio, Enable AI experiences]
+breadcrumb: [GAF, Configure, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Set up AI Search for GAF
@@ -73,7 +73,7 @@ You must index every table for each workflow or application you'd like to config
 
 ## Result
 
-The tables for ServiceNow Otto for AI Search for your ServiceNow Otto application is indexed based on the appropriate field.
+The tables for ServiceNow Otto for AI Search for your Now Assist application is indexed based on the appropriate field.
 
 ## What to do next
 

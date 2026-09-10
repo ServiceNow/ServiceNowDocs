@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-cloneadminconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -118,7 +118,39 @@ Australia
 
 </td><td>
 
--   Clone requests via lists and forms \(legacy\) are no longer supported. The page redirects to the new request page after 30 seconds.
+-   **[Instance Overview Page](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+The Instance Overview page now displays last-cloned timestamps for each instance, enabling you to quickly identify stale environments and prioritize update activities.
+
+-   **[Multi-Instance View](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+View clone activity across connected instances from a single console. Opt in from **Configuration** &gt; **Multi-Instance View** to begin monitoring multiple instances simultaneously.
+
+Both the source and target instances must be on Australia Patch 2 or a subsequent release to use **Multi-Instance View**.
+
+-   **[Clone FAQ Agent \(via Now Assist\)](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+Get answers to clone questions directly in the console, powered by curated ServiceNow clone documentation. This AI-assisted capability streamlines the learning experience for new users.
+
+-   **Now Assist license requirement**
+
+Requires a Now Assist license. If Now Assist is installed after the Clone Admin Console, reinstall the console from the Store to enable the skill.
+
+-   **[Help Page](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+The static FAQ section on the Homepage has been replaced with a dedicated Help page. Links to curated clone help articles are now consolidated into the new dedicated Help page for a streamlined user experience and details about the Now Assist AI skill.
+
+-   **[Clone Request Estimated Completion](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+The Clone Request page now displays an estimated completion time beneath the selected Date/Time. A relative time indicator \(for example, "in 2 hours" or "in 2 weeks"\) helps you plan activities accordingly.
+
+
+ -   **[OAuth 2.0 authentication for clone targets](https://www.servicenow.com/docs/access?context=clone-oauth-authentication&family=australia&ft:locale=en-US)**
+
+Authenticate clone requests to target instances using OAuth 2.0 without requiring local admin credentials.
+
+Both the source and target instances must be on Australia Patch 5 or a subsequent release to use OAuth target authentication.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -162,18 +194,6 @@ No updates for this release.
 Australia
 
 </td><td>
-
--   **[Updated clone menu navigation items](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
-
-All clone-related functions are now available under the Clone Admin Console menu navigation item.
-
--   **[Submit a new clone even if another clone is scheduled](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
-
-Create an additional clone request even if there’s already a future clone for that target. This feature removes the previous limitation where any new clone requests were not allowed until all existing requests were canceled. You can now submit new clone requests if more than five days apart from existing ones.
-
--   **[Clone summary](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
-
-Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
 
 -   **[Updated authentication model](https://www.servicenow.com/docs/access?context=configure-target-instance&family=australia&ft:locale=en-US)**
 
@@ -269,7 +289,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Static FAQ Content**
+
+Static FAQ content has been removed from the landing page and consolidated into the new dedicated Help page for a streamlined user experience.
+
+-   **Clone requests via lists and forms \(legacy\)**
+
+Clone requests via lists and forms \(legacy\) are no longer supported. The page redirects to the new request page after 30 seconds.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -306,7 +333,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -314,7 +344,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Clone Admin Console is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -548,7 +581,9 @@ Australia
 </td><td>
 
 -   Access all clone functions from the Clone Admin Console menu navigation item.
--   Submit additional clone requests to a target instance with an existing scheduled clone that is at least seven days apart.
+-   Monitor clone activity across multiple connected instances from a single console view.
+-   Get answers to clone questions directly in the console with AI-assisted Now Assist capability.
+-   Plan clone activities with estimated completion time indicators.
 
  See [Instance Clone](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US) for more information.
 

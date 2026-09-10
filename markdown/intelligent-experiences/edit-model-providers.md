@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-mo
 release: australia
 topic_type: task
 last_updated: "2025-07-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Edit LLM provider, web search]
 breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
@@ -18,6 +18,10 @@ Edit or customise the model provider for a skill or skill group at the instance 
 ## Before you begin
 
 Role required: admin
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Let's take an example of editing the model provider for skill group.
 

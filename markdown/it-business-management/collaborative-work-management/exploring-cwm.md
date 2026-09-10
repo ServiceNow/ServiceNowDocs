@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-04-02"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -68,7 +68,7 @@ All users
 Get started without admin involvement by configuring your own workflow and organizing work the way your team needs it.
 
 -   Create custom fields for task records.
--   Switch between List, Gantt, and Kanban views.
+-   Switch between Dashboard, List, Gantt, and Kanban views.
 -   Create custom work item types.
 -   Add a list of additional assignees to a task.
 
@@ -87,6 +87,18 @@ Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PD
 </td><td>
 
 [Import tasks into Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Create CWM tasks and stories from open prompts or documents with ServiceNow Otto. Review the generated tasks and add them to your Board.
+
+</td><td>
+
+[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
 
 </td><td>
 
@@ -160,7 +172,31 @@ Agile practitioner
 
 </td></tr><tr><td>
 
-Switch between List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
+Visualize task and sprint progress at a glance with configurable widgets, such as charts, dials, and score cards, on a dedicated Dashboard view. Choose from a set of predefined widgets or build your own custom widgets bound to any column on the Board.
+
+</td><td>
+
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Save and reuse filtered views of records from any table. Default lists such as My Epics, Stories, and Active Sprints are also available for quick access.
+
+</td><td>
+
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-lists.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
 
 </td><td>
 

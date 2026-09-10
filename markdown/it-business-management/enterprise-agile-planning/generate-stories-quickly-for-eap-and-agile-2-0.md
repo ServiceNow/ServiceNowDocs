@@ -51,6 +51,8 @@ Role required: sn\_apw\_advanced.eap\_user
 
 7.  Select **Generate**.
 
+    \[Omitted image "eap-na-quick-story.png"\] Alt text: Generate story modal with a Story context field to enter details.
+
     ServiceNow Otto generates a story title, description, and acceptance criteria based on the epic context and the input you provided.
 
 8.  Review and edit any of the generated fields inline to refine the story before saving.

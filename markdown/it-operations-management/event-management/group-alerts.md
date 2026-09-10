@@ -47,7 +47,7 @@ Alert grouping rules automatically combine related alerts that represent the sam
 
     You can use the suggested grouping automations to create your grouping automation. If you have the ServiceNow Otto for IT Operations Management \(ITOM\) plugin installed, select **Configure with AI** from the top-right of the page and ask the ServiceNow Otto chatbot to create an automation. The created automation appears in the list of automations.
 
-    \[Omitted image "ai-specialist-group-now-assist-chatbot.png"\] Alt text: Now Assist chatbot to help you automatically create a group automation.
+    \[Omitted image "ai-specialist-group-now-assist-chatbot.png"\] Alt text: ServiceNow Otto chatbot to help you automatically create a group automation.
 
     For more information on group automation, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 

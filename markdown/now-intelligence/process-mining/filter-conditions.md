@@ -28,11 +28,13 @@ Setting filters is an optional task for project creation.
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-    If you continue from the **Set Objectives** page, you are on the **Scope your analysis** page.
+    If you continue from the **Set Objectives** page, you're on the **Scope your analysis** page.
 
 2.  Select **Edit** for the project that you want to edit.
 
 3.  Select the edit button for the **Scope your analysis** section.
+
+    The Overview section provides details of the process table including any guardrails set for it.
 
 4.  Select **Filter conditions** from the side panel.
 

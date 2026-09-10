@@ -1,6 +1,6 @@
 ---
 title: AI in ITOM Visibility
-description: AI features in ITOM Visibility help administrators automate service map creation, diagnose discovery issues, manage certificates, request firewall rules, and generate incident resolution artifacts using generative AI and agentic workflows.
+description: AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/explore-ai-in-itom-visibility.html
 release: australia
@@ -8,20 +8,68 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-07-06"
-reading_time_minutes: 8
+reading_time_minutes: 10
 keywords: [Now Assist, AI, ITOM Visibility, generative AI, agentic AI]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # AI in ITOM Visibility
 
-AI features in ITOM Visibility help administrators automate service map creation, diagnose discovery issues, manage certificates, request firewall rules, and generate incident resolution artifacts using generative AI and agentic workflows.
+AI features in ITOM Visibility help administrators automate service maps, diagnose discovery issues, manage certificates, and resolve incidents using generative AI.
 
 AI features in ITOM Visibility span several products. The following tables summarize all available AI features by type and product.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-## Agentic workflows
+## MCP servers
+
+MCP servers in ITOM Visibility expose instance data to external AI clients through the Model Context Protocol, giving those clients structured, ACL-enforced access to live CMDB and service data.
+
+<table id="table_explore-visibility-mcp-servers"><thead><tr><th>
+
+Product
+
+</th><th>
+
+AI feature
+
+</th><th>
+
+Description
+
+</th><th>
+
+Use case
+
+</th><th>
+
+Resources
+
+</th></tr></thead><tbody><tr><td>
+
+Service Mapping
+
+</td><td>
+
+Service Mapping MCP server
+
+</td><td>
+
+Exposes five read-only tools through the CMDB MCP Server. The tools give AI clients such as Claude structured access to live application service data, including full service topology, server impact graphs, and unmapped CIs. Authentication uses OAuth 2.0 with JWT tokens and enforces the same ACLs as standard instance API calls.
+
+</td><td>
+
+A Service Mapping administrator or operator wants to query service topology, identify mapping gaps, or assess server impact. They do so by using natural language in an AI client, without navigating the instance UI.
+
+</td><td>
+
+-   [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+-   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+-   [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)
+-   [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)
+
+</td></tr></tbody>
+</table>## Agentic workflows
 
 Agentic workflows in ITOM Visibility use AI agents to complete investigation and management tasks autonomously or with minimal administrator input.
 
@@ -236,7 +284,7 @@ A PKI administrator wants to renew a certificate without manually navigating the
 
 </td><td>
 
-[Automatically renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)
+[Renew certificates using the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/automatically-renew-cert-now-assist.md)
 
 </td></tr><tr><td>
 
@@ -256,7 +304,7 @@ A LEAP administrator wants to convert a recurring incident pattern into a proble
 
 </td><td>
 
--   [LEAP AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
+-   [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
 -   [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
 -   [Generate LEAP knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.md)
 -   [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)
@@ -264,7 +312,7 @@ A LEAP administrator wants to convert a recurring incident pattern into a proble
 </td></tr></tbody>
 </table>## Generative AI skills
 
-Generative AI skills in ITOM Visibility are discrete, on-demand capabilities that administrators invoke to generate analyses, summaries, or insights for a specific discovery error set, service map, or incident pattern.
+Generative AI skills in ITOM Visibility are discrete, on-demand capabilities that administrators invoke. They generate analyses, summaries, or insights for a specific discovery error set, service map, or incident pattern.
 
 |Product|AI feature|Description|Use case|Resources|
 |-------|----------|-----------|--------|---------|

@@ -157,5 +157,5 @@ TLM technology lifecycle information of the software product or hardware model.
 **Related topics**  
 
 
-[Working with technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)
+[Technology portfolio audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-technology-portfolio-audit-risk.md)
 

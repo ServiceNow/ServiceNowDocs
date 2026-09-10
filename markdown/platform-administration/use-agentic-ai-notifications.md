@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI, Agentic workflow, Intent to action]
-breadcrumb: [Now Assist in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Use email agentic workflow

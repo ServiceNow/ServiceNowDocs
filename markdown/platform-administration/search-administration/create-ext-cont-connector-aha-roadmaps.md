@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Aha! Roadmaps source system to allow access by the Aha! Roadmaps external content connector. For details on configuring these settings in the source system, see [Configure Aha! Roadmaps for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-aha-roadmaps-external-content-indexing.md).
+A source system administrator must have already configured your Aha! Roadmaps source system to allow access by the Aha! Roadmaps external content connector. For the required source system configuration steps, see [Configure Aha! Roadmaps for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-aha-roadmaps-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

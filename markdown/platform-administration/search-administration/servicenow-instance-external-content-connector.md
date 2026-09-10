@@ -32,7 +32,7 @@ To view search results from the source instance, a user on the destination insta
 -   There must be a matching user account defined for them on the source instance, with the same email address.
 -   Their user account on the source instance must have access to the content represented by the search results.
 
-If these conditions are not satisfied, the destination instance user won't be able to see search results crawled from the source instance.
+If these conditions aren't satisfied, the destination instance user won't be able to see search results crawled from the source instance.
 
 -   **[Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)**  
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.

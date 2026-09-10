@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Strategic Portfolio Management release notes
-description: The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,23 +12,27 @@ reading_time_minutes: 1
 
 The ServiceNow® ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.
 
-## ServiceNow Otto for SPM highlights for the Australia release
+## About ServiceNow Otto for Strategic Portfolio Management
 
 -   Use the goal insights skill to generate insights for goals to gain predictive, actionable visibility into goal health.
 -   Generate a story for your epic using Now Assist.
 
 See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-spm.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for SPM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+## Australia
+
+The ServiceNow® ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. ServiceNow Otto for Strategic Portfolio Management was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **AI-generated insights for goals**
 
     Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
 
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

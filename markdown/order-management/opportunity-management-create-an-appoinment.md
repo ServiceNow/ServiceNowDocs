@@ -39,8 +39,6 @@ You can create appointments only after creating an opportunity task. To create a
     The appointment is added to your opportunity task.
 
 
-**Parent Topic:**[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md)
-
 **Related topics**  
 
 

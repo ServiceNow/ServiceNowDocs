@@ -16,7 +16,7 @@ Enable ITSM requester and fulfiller experiences by completing the essential conf
 
 ## Before you begin
 
-Role required: admin, sn\_incident\_admin for incident management configurations, and sn\_request\_admin for request management configurations
+Role required: admin, sn\_incident\_admin for Incident Management configurations, and sn\_request\_admin for Request Management configurations
 
 Ensure that both the ServiceNow Otto for Setup and the relevant IT Service Management application based on your subscription are installed on your ServiceNow instance.
 
@@ -34,15 +34,15 @@ Ensure that both the ServiceNow Otto for Setup and the relevant IT Service Manag
 
 4.  From the Configure IT Service Management page, perform any of the following tasks.
 
-<table><thead><tr><th align="left" id="d476257e142">
+<table><thead><tr><th align="left" id="d483330e148">
 
 Choice
 
-</th><th align="left" id="d476257e145">
+</th><th align="left" id="d483330e151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d476257e151">
+</th></tr></thead><tbody><tr><td id="d483330e157">
 
 **Configuration summary in the left navigation pane**
 
@@ -50,15 +50,15 @@ Description
 
 Provides the summary of configuration activity and progress.
 
-</td></tr><tr><td id="d476257e160">
+</td></tr><tr><td id="d483330e166">
 
 **Configure with AI**
 
 </td><td>
 
-Configures Simplified IT Service Management using the Now Assist agent. It also displays all available AI agents in IT Service Management. Ensure that the Now Assist with Setup Hub application is installed. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md).
+Configures Simplified IT Service Management using the Now Assist agent. It also displays all available AI agents in IT Service Management. Ensure that the ServiceNow Otto with ServiceNow Otto for Setup application is installed. See [Set up ServiceNow Otto with ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md).
 
-</td></tr><tr><td id="d476257e182">
+</td></tr><tr><td id="d483330e199">
 
 **Configurations for Platform setup, employee, and fulfiller experiences in the left navigation pane**
 
@@ -71,7 +71,7 @@ For information about configuration page options, see [Understand the Configurat
 
 **Important:** For each configuration, use the guided configuration experience or the conversation AI agent \(if available\). You can use the conversation AI agent by selecting **Configure with AI** on that configuration UI page. For information about AI agents for configurations, see [AI agents and agentic workflows in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/agents-ai-native-it-service-desk.md).
 
-</td></tr><tr><td id="d476257e250">
+</td></tr><tr><td id="d483330e267">
 
 **Package and download**
 

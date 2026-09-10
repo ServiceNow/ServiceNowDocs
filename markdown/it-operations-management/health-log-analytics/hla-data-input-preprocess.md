@@ -23,7 +23,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Define a JavaScript function to preprocess your raw log data before it reaches Health Log Analytics. For example, you can drop irrelevant or redundant messages to reduce log volume, split multi-event log lines into discrete messages for accurate mapping, or sanitize sensitive or personally identifiable information so that it never enters the ServiceNow instance.
+Define a JavaScript function to preprocess your raw log data before it reaches Health Log Analytics. For example, you can drop irrelevant or redundant messages to reduce log volume. You can also split multi-event log lines into discrete messages for accurate mapping or sanitize sensitive or personally identifiable information so that it never enters the ServiceNow instance.
 
 ## Procedure
 

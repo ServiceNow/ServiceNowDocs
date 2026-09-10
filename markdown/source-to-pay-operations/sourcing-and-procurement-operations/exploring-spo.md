@@ -1,5 +1,5 @@
 ---
-title: Explore Sourcing and Procurement Operations
+title: Exploring Sourcing and Procurement Operations
 description: Learn about the benefits and capabilities of Sourcing and Procurement Operations \(SPO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.html
@@ -13,7 +13,7 @@ keywords: [explore, sourcing and procurement operations, SPO]
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Explore Sourcing and Procurement Operations
+# Exploring Sourcing and Procurement Operations
 
 Learn about the benefits and capabilities of Sourcing and Procurement Operations \(SPO\).
 
@@ -69,7 +69,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the [Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sourcing-procurement-operations-rn.md).
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sourcing-procurement-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sourcing-procurement-operations-rn.md).
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
@@ -92,8 +92,8 @@ Here are some additional ServiceNow resources that can help you:
 
 To learn more about configuring and using Sourcing and Procurement Operations, see:
 
--   [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
--   [Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+-   [Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+-   [Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 -   [Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 -   **[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)**  
@@ -102,12 +102,16 @@ Shopping Hub \(sn\_spend\_uib\) is a self-service procurement portal that employ
 The ServiceNow Shopping Hub Mobile app enables you to engage with procurement organizations from a mobile device. Shopping Hub Mobile is available on the Now Mobile app and is supported on iOS and Android devices.
 -   **[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)**  
 With this application, you can use a set of pre-configured metrics and dashboards to assess spend, operational efficiency, and team performance across the Sourcing and Procurement Operations product.
+-   **[Progress Tracker for purchase requisitions and purchase orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/progress-tracker-overview.md)**  
+The Progress Tracker displays the current state of purchase requisition and purchase order records. It shows fulfillers where a request is in the PR-to-PO journey without requiring them to review related records manually.
 -   **[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)**  
 Sourcing and Purchasing Automation for ShoppingHub includes workflows that help support the user interface purchasing experience for the shopper. These workflows consist of sourcing requests, negotiations, purchase requisitions, contracts, purchase orders, receipts, and invoices.
 -   **[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)**  
 With the Procurement Case Management application, you can enable your employees to submit procurement cases and access your organization's knowledge base. You can also enable your procurement teams to automate their fulfillment processes so that they can manage and monitor the progress of their tasks.
 -   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)**  
 As a Procurement Specialist, you can easily complete your actionable tasks within the premises of an enhanced user experience with Source-to-Pay Workspace.
+-   **[Exploring the procurement case management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-procurement-case-management-spo.md)**  
+Sourcing and Procurement Operations \(SPO\) provides a guided admin implementation experience and a unified experience for procurement specialists and requesters.
 -   **[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)**  
 Category management is a strategic procurement approach that involves managing a group of related products or services to maximize value, optimize costs, and enhance supplier relationships. Essentially, it’s the structured management of category taxonomy, ensuring that goods and services are categorized, sourced, and managed efficiently to drive better decision-making and operational efficiency.
 -   **[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)**  

@@ -7,8 +7,8 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-07-28"
-reading_time_minutes: 3
+last_updated: "2026-08-17"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -36,6 +36,8 @@ ServiceNow Otto for SPO works with your product catalog and procurement data to:
 
     For information on how to use ServiceNow Otto for SPO to summarize a record in Shopping Hub, see [Summarize a procurement record in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-shopping.md).
 
+    Email context is applicable to purchase requisitions, procurement cases, and purchase orders: when one of these records has associated email records, the AI-generated summary and next steps automatically incorporate relevant email context \(sender, date, key message\). For purchase requisitions and procurement cases in Source-to-Pay Workspace, see [Summarize a procurement record in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md). For purchase orders summarized by fulfillers using ServiceNow Otto for Finance and Procurement, see [Summarize a procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-summarize-po.md).
+
 -   **Draft emails**
 
     Generate professional email responses to supplier inquiries and status requests.
@@ -61,6 +63,10 @@ ServiceNow Otto is a chat assistant that helps you complete procurement tasks th
 Enables procurement specialists and buyers to generate professional, accurate email responses using ServiceNow Otto. By minimizing manual drafting and review, it helps procurement specialists and buyers respond to requester inquiries more efficiently and focus on higher-value procurement tasks.
 -   **[Analyze sentiment in procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/analyze-sentiments-na-spo.md)**  
 Analyze requester sentiments on active procurement cases to help procurement specialists quickly identify, prioritize, and track sensitive requests.
+-   **[AI L1 SPO Service Desk Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ztsd-agent-na-spo.md)**  
+The AI L1 SPO Service Desk Specialist processes general inquiry procurement cases by searching knowledge resources and delivering resolutions with high confidence, reducing manual case handling.
+-   **[Generate a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-generate-knowledge-article.md)**  
+ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) generates knowledge articles from closed procurement cases in Source-to-Pay Workspace.
 
 **Parent Topic:**[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

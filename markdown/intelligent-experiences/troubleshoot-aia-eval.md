@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-18"
 reading_time_minutes: 3
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Troubleshoot agentic evaluations

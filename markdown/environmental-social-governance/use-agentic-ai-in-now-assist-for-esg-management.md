@@ -49,7 +49,7 @@ Accelerate carbon reporting with AI-powered calculations, validation, and insigh
 
 **Note:**
 
--   -   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
+-   -   For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 

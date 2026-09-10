@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-04-15"
 reading_time_minutes: 2
-breadcrumb: [Integrations, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrations, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a connection for ServiceNow Quote Experience calls
@@ -48,15 +48,15 @@ The following authentication types are available: bearer token, OAuth client cre
 
 9.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d57469e224">
+<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d57708e224">
 
 Authentication type
 
-</th><th align="left" id="d57469e227">
+</th><th align="left" id="d57708e227">
 
 Fields to complete
 
-</th></tr></thead><tbody><tr><td id="d57469e233">
+</th></tr></thead><tbody><tr><td id="d57708e233">
 
 **Bearer token**
 
@@ -64,7 +64,7 @@ Fields to complete
 
 In the **Authentication token** field, enter the token used to authenticate outbound requests.
 
-</td></tr><tr><td id="d57469e245">
+</td></tr><tr><td id="d57708e245">
 
 **OAuth client credentials**
 
@@ -76,7 +76,7 @@ In the **Authentication token** field, enter the token used to authenticate outb
 -   **Scope** \(optional\): the permissions granted to the token on the external system, if required.
 
 
-</td></tr><tr><td id="d57469e277">
+</td></tr><tr><td id="d57708e277">
 
 **JWT client credentials**
 
@@ -110,6 +110,8 @@ In the **Authentication token** field, enter the token used to authenticate outb
 ## Result
 
 The connection is saved and available for selection when configuring integrations.
+
+**Parent Topic:**[Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-integrations.md)
 
 **Related topics**  
 

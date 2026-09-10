@@ -19,8 +19,8 @@ Configure Core Business Suite Foundation to support employee and supplier reques
 Install the Implementation Agent to enable an admin home dashboard where you can access and set up Core Business Suite.
 -   **[Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)**  
 Activate AI Search to enable conversational search capabilities in ServiceNow Otto for Core Business Suite \(CBS\).
--   **[Activate Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)**  
-Enable the Now Assist panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
+-   **[Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)**  
+Enable the ServiceNow Otto panel to provide generative AI assistance through a conversational interface in ServiceNow Otto for Core Business Suite \(CBS\).
 -   **[Install Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/install-cbs-apps.md)**  
 Install Core Business Suite applications to support employee and supplier requests across Human Resources, Finance, Health and Safety, Legal, Workplace Services, and Source‑to‑Pay.
 -   **[Reapply the default configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/reset-default-configurations.md)**  
@@ -48,7 +48,7 @@ Configure the instance options for the Help topics widget on the CBS employee po
 -   **[Groups in Core Business Suite module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/groups-cbs.md)**  
 Groups enable you to organize people for tasks and projects across Core Business Suite. Assign team members to access, create, and manage shared settings for one or more business units.
 -   **[Knowledge Base in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/kb-cbs.md)**  
-The Knowledge module in Core Business Suite enables you to adjust settings for default knowledge bases. It also enables importing articles, or create additional Knowledge Base articles to support cross-functional knowledge sharing across business units.
+The Knowledge module in Core Business Suite enables you to adjust settings for the default knowledge bases. It enables importing articles to support cross-functional knowledge sharing across business units in Core Business Suite.
 
 **Parent Topic:**[Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-landing.md)
 

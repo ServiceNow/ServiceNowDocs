@@ -34,7 +34,7 @@ Role required: admin
 
     \[Omitted image "test\_enterprise\_graph.png"\] Alt text: Test Enterprise Graph schema
 
-4.  In the Query section of the Test Knowledge Graph Schema window, enter your question.
+4.  In the Query section of the Test Knowledge Graph schema window, enter your question.
 
 5.  Select an LLM model from the following:
 

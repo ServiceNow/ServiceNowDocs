@@ -64,3 +64,5 @@ Invoices ingested through Document Intelligence may require manual actions when 
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

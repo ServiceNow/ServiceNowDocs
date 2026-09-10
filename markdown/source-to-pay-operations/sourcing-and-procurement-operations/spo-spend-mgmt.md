@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-05-15"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [spend and savings management, category management, savings opportunity, category taxonomy, sn\_spend\_mgmt]
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -83,7 +83,7 @@ Within the Source-to-Pay Workspace, the Category analytics module includes the S
 -   **[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)**  
 The Savings Opportunity Discovery agentic workflow automatically scans contracts, spend, and supplier data to surface ranked savings opportunities, helping category managers focus on review and action rather than manual discovery.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+**Parent Topic:**[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
@@ -94,11 +94,15 @@ The Savings Opportunity Discovery agentic workflow automatically scans contracts
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Sourcing Pipeline Management]()
 

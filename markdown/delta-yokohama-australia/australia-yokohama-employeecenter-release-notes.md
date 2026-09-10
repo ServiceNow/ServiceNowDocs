@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-employeecenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -54,7 +54,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -127,20 +130,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   **[Check latest company news and events](https://www.servicenow.com/docs/access?context=check-company-newsevent-ai-agent-for-emp-exp&family=zurich&ft:locale=en-US)**
-
-Use the **Company News and Events AI Agent** to enable employees to check their company-related news and any upcoming events using the Now Assist in Virtual Agent.
-
-
--   **[ServiceNow Otto for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US)**
-
-Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on.
-
-
- Zurich Early Availability
-
 -   **[ServiceNow Otto for Employee Experience plugin](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=zurich&ft:locale=en-US)**
 
 Enable employees to resolve and approve tasks easily through chat conversation using the ServiceNow Otto for Employee Experience plugin with Now Assist in Virtual Agent.
@@ -200,7 +189,7 @@ Improve accessibility by allowing admins to configure widget heading levels \(H1
 
 Improve the Enhanced Requests Experience functionality by enabling specific tabs created for specific filters. Help employees find relevant requests faster while giving admins, experience owners, and service owners greater control over curating page design for specific purposes.
 
--   **[Moveworks for Employee Center](https://www.servicenow.com/docs/access?context=moveworks-for-employeecenter&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto Chat Integration](https://www.servicenow.com/docs/access?context=moveworks-for-employeecenter&family=australia&ft:locale=en-US)**
 
 Empower employees with Moveworks for Employee Center and its AI-powered conversational support. Using the Moveworks embedded AI assistant plugin, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -236,7 +225,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -339,7 +331,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -347,7 +342,10 @@ Zurich
 
 </td><td>
 
-Install Employee Center by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -355,7 +353,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -421,7 +422,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 The Browser Extension for Employee Center is only available with Google Chrome or Microsoft Edge browsers.
+
 
 </td></tr><tr><td>
 
@@ -466,7 +470,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
+
 
 </td></tr></tbody>
 </table>## Localization information

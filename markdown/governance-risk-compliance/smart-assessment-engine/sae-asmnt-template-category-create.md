@@ -8,7 +8,7 @@ product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create an assessment template, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -25,6 +25,10 @@ Role required: sn\_smart\_asmt.assessment\_admin
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
 Additional fields may appear on this form depending on which plugins are active. If the Basic Scoring for Smart Assessments \(com.sn\_smart\_scoring\) is installed, the following fields are available: Enable normalization, Normalization strategies and Default normalization strategy fields.
+
+Use the **Allow user delegation** field to let users delegate their assessments in this category.
+
+If you use question banks, this form also includes a **Question bank category roles** field. This field controls access to the question banks associated with this category, separately from the **Category roles** field that controls access to templates. For more information, see [Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/question-bank.md).
 
 ## Procedure
 
@@ -58,6 +62,14 @@ Specifies the minimum roles required to view templates within this category. To 
 
 </td></tr><tr><td>
 
+Question bank category roles
+
+</td><td>
+
+Specifies the minimum roles required to access question banks associated with this category. To create or view a question bank, users must have one or more of these roles. They must also have a base question bank role, such as **question\_bank\_manager** or **question\_bank\_reader**. This is a multi-select field, allowing each category to be linked to multiple roles. This field is separate from Category roles, which governs access to templates.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -81,6 +93,16 @@ Is AI response enabled
 </td><td>
 
 Option to activate automated AI-generated responses for assessments associated with that category. When this option is selected, responders working on assessments triggered from templates in this category see the **Draft responses with AI** action and can run the Smart Assessment Response Assist skill on those assessments. The Smart Assessment Response Assist skill must also be turned on in the AI Admin Hub console for the action to be functional. For more information, see [Activate Smart Assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md).
+
+</td></tr><tr><td>
+
+Allow user delegation
+
+</td><td>
+
+Option that lets users with assignments in this category have another user act on their behalf, using the platform delegation feature. This option is off by default.
+
+ When selected, a user can name a delegate who can act on their Smart Assessments in this category during a set period. For more information, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

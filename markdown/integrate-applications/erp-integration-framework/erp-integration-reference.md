@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP reference
-description: Find reference information for Zero Copy Connector for ERP \(Enterprise Resource Planning\), including ERP table details.
+description: Reference information for Zero Copy Connector for ERP \(Enterprise Resource Planning\), including ERP table details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-integration-reference.html
 release: australia
@@ -15,22 +15,5 @@ breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Zero Copy Connector for ERP reference
 
-Find reference information for Zero Copy Connector for ERP \(Enterprise Resource Planning\), including ERP table details.
-
--   **[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)**  
-Find details on standard ERP \(Enterprise Resource Planning\) remote tables and extraction tables in Zero Copy Connector for ERP.
--   **[Zero Copy Connector for ERP and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpi-domain-separation.md)**  
-Domain separation is unsupported for Zero Copy Connector for ERP \(Enterprise Resource Planning\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Flows that ship with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-flows-installed-with.md)**  
-Zero Copy Connector for ERP \(Enterprise Resource Planning\) includes two ERP flows that run automatically.
--   **[Zero Copy Connector for ERP system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-properties.md)**  
-Use these system properties to configure Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
--   **[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)**  
-Field descriptions for larger ERP forms in Zero Copy Connector for ERP, including model, system, and remote table fields.
--   **[Guided tours in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/guided-tours-in-erp-canvas.md)**  
-Learn about Zero Copy Connector for ERP guided tours including how to connect to an external ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
--   **[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)**  
-Learn about ERP \(Enterprise Resource Planning\) terminology and concepts that apply to Zero Copy Connector for ERP, ERP Semantic Mining, and ERP content packs.
-
-**Parent Topic:**[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md)
+Reference information for Zero Copy Connector for ERP \(Enterprise Resource Planning\), including ERP table details.
 

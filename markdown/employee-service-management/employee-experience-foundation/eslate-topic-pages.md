@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [topic pages, content organization, widgets]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Browse and topic pages
@@ -41,7 +41,7 @@ Access topic pages through the side navigation or by selecting **Explore** to br
 
 -   **Support resource widget**
 
-    Knowledge articles and catalog items with filtering options. Displays an empty state when no content is configured.
+    Knowledge articles and catalog items with filtering and keyword search options. Displays an empty state when no content is configured.
 
 -   **Topic Assist widget \(Ask Otto\)**
 
@@ -57,7 +57,7 @@ Topic pages adapt to screen size and display subtopics responsively.
 **Related topics**  
 
 
-[Configure browse experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
+[Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md)
 
 [Configure topic page widget instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-configure-topic-widget.md)
 

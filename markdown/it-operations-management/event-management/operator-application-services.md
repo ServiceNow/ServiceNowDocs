@@ -101,9 +101,9 @@ Event Management classifies application services into the following types:
 
 ## Alert impact
 
-Application services are critical to the operations of your organization. If an issue occurs on one CI, the entire application service can be affected. Part of your role as an operator is to analyze alerts on CIs and see how they impact the application service as a whole, and then take an action to help remediate or solve the underlying issue. Your administrator can configure impact rules that go into calculations for the severity of an alert.
+Application services are critical to the operations of your organization. If an issue occurs on one CI, the entire application service can be affected. Part of your role as an operator is to analyze alerts on CIs and see how they impact the application service as a whole. You can then take an action to help remediate or solve the underlying issue. Your administrator can configure impact rules that go into calculations for the severity of an alert.
 
-Later, when you learn how to use the Service Operations Workspace dashboard, you will learn how to view an impact tree for an application service so you can understand the relationship between the severity of an alert and the overall application service.
+Later, when you learn how to use the Service Operations Workspace dashboard, you will learn how to view an impact tree for an application service. This helps you understand the relationship between the severity of an alert and the overall application service.
 
 In this example, you can see how a **Major** alert on an Oracle database \(**PS ORA01**\) also causes a major alert on its parent CIs and on the Web portal application service itself.
 

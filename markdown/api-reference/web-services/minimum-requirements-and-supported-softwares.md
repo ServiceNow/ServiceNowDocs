@@ -1,6 +1,6 @@
 ---
-title: Minimum requirements and supported software for SQL API
-description: This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
+title: Minimum requirements and supported software for Live Connect
+description: This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for Live Connect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/minimum-requirements-and-supported-softwares.html
 release: australia
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Reference, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Minimum requirements and supported software for SQL API
+# Minimum requirements and supported software for Live Connect
 
-This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
+This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for Live Connect.
 
 ## Minimum supported versions
 
@@ -32,7 +32,7 @@ Server
 
 </td><td>
 
-Australia patch1
+Australia patch2
 
 </td></tr><tr><td>
 
@@ -44,11 +44,11 @@ Client driver
 
 </td><td>
 
-ODBC v3.0.0
+ODBC v4.0.0
 
 </td></tr><tr><td>
 
-JDBC v2.0.0
+JDBC v4.0.0
 
 </td></tr><tr><td>
 
@@ -80,5 +80,5 @@ The ServiceNow ODBC driver supports installation on the following operating syst
 -   Windows 11
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SQL API reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)
+</table>**Parent Topic:**[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)
 

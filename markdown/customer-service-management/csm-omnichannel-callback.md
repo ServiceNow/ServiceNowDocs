@@ -1,18 +1,18 @@
 ---
 title: Using Omnichannel Callback for Customer Service Management
-description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
+description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CRM Workspace
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-omnichannel-callback.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
 # Using Omnichannel Callback for Customer Service Management
 
-The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
+The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CRM Workspace
 
 For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback.md).
 
@@ -56,7 +56,7 @@ The callback workflow proceeds as follows:
 
 ## Agent-scheduled callbacks
 
-In addition to customer-scheduled callbacks, agents can now create callbacks on behalf of customers from CSM Configurable Workspace. Agent-scheduled callbacks can be created from any omnichannel interaction \(chat, voice, email, messaging\) or case records. Agents can schedule, reschedule, and cancel callbacks.
+In addition to customer-scheduled callbacks, agents can now create callbacks on behalf of customers from CRM Workspace. Agent-scheduled callbacks can be created from any omnichannel interaction \(chat, voice, email, messaging\) or case records. Agents can schedule, reschedule, and cancel callbacks.
 
 The following diagram shows the agent-scheduled callback workflow.
 

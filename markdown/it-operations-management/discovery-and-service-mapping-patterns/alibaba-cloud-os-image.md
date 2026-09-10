@@ -1,6 +1,6 @@
 ---
 title: Alibaba Cloud cloud OS image pattern-based discovery
-description: Discovery and Service Mapping Patterns uses the Alibaba - Cloud OS Image \(LP\) pattern to discover cloud OS images during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses the Alibaba - Cloud OS Image \(LP\) pattern to discover cloud OS images during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-os-image.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Alibaba Cloud discovery, Available cloud discovery patterns, Discov
 
 # Alibaba Cloud cloud OS image pattern-based discovery
 
-Discovery and Service Mapping Patterns uses the Alibaba - Cloud OS Image \(LP\) pattern to discover cloud OS images during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses the Alibaba - Cloud OS Image \(LP\) pattern to discover cloud OS images during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 

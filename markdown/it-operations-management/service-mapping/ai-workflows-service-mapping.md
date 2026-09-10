@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-07-08"
-reading_time_minutes: 3
+reading_time_minutes: 5
 keywords: [Now Assist, generative AI, Service Mapping, AI agent, agentic workflow, MCP Server, service map]
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -21,7 +21,47 @@ Service Mapping includes several AI-powered features. All features require Servi
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-## AI agents and agentic workflows
+## MCP servers
+
+The Service Mapping MCP server exposes instance data to external AI clients through the Model Context Protocol, giving those clients structured, ACL-enforced access to live application service data.
+
+<table id="table_sm-mcp-servers"><thead><tr><th>
+
+AI feature
+
+</th><th>
+
+Description
+
+</th><th>
+
+Use case
+
+</th><th>
+
+Resources
+
+</th></tr></thead><tbody><tr><td>
+
+Service Mapping MCP server
+
+</td><td>
+
+Exposes five read-only tools through the CMDB MCP Server. The tools give AI clients such as Claude structured access to live application service data, including full service topology, server impact graphs, and unmapped CIs. Authentication uses OAuth 2.0 with JWT tokens and enforces the same ACLs as standard instance API calls.
+
+</td><td>
+
+A Service Mapping administrator or operator wants to query service topology, identify mapping gaps, or assess server impact. They do so by using natural language in an AI client, without navigating the instance UI.
+
+</td><td>
+
+-   [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)
+-   [Activate the CMDB MCP Server for Service Mapping tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/activate-sm-mcp-server.md)
+-   [Connect Claude Desktop to the Service Mapping MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/connect-claude-desktop-sm-mcp.md)
+-   [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-mcp-tools.md)
+
+</td></tr></tbody>
+</table>## AI agents and agentic workflows
 
 Service Mapping AI agents and agentic workflows automate service map creation, business application mapping, and change impact analysis.
 
@@ -99,6 +139,8 @@ An operator or change manager wants to assess the risk of a change request befor
 The Analyze potential impact agentic workflow analyzes how a change request might impact servers and services. This analysis helps you make informed decisions about the next steps regarding the change request.
 -   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
+-   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
+The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.
 
 **Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

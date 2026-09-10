@@ -130,3 +130,5 @@ Suppliers can check invoice and inquiry statuses, create cases via chat, and use
 
 [Playbook for updating the invoice primary data]()
 
+[AI worker case resolution confirmation]()
+

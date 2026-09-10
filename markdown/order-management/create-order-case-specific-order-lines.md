@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Request updates for items in a single order
@@ -125,6 +125,8 @@ Optional brief description.
 ## Result
 
 The order case is created with the order case line items corresponding to the order line items you updated, and the state of the order case changes to New.
+
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
 
 **Related topics**  
 

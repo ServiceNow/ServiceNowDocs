@@ -35,7 +35,7 @@ As an author or agent, generate Knowledge articles using ServiceNow Otto on task
 ServiceNow Otto in Knowledge Management provides multi-language support for Knowledge article generation. As an agent, generate articles from incidents, cases, and other task types in languages other than English using a language selector configured by the admin.
 -   **[Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md)**  
 Elaborate or shorten content within a Knowledge article using the ServiceNow Otto context menu to access generative AI capabilities in Knowledge Management.
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)**  
+-   **[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)**  
 This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 -   **[Create knowledge articles using AI and Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-create-article-with-Box.md)**  
 Use Box to create knowledge articles from content stored in an external Box account. When you initiate article creation and select Box as the source, AI searches the connected Box account for files relevant to the prompt, then generates an article based on the results.
@@ -44,7 +44,7 @@ The Reading Ease scan runs as part of **Article Optimization**. The scan is trig
 -   **[Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.md)**  
 Review duplicate Knowledge articles using the identify and review duplicate articles feature in ServiceNow Otto.
 -   **[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)**  
-Merge multiple duplicate knowledge articles into a single, consolidated article using Now Assist in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
+Merge multiple duplicate knowledge articles into a single, consolidated article using ServiceNow Otto in Knowledge Management. This task helps knowledge managers reduce redundancy, preserve source article traceability, and verify readers access the most accurate and recent information.
 
 **Parent Topic:**[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
 

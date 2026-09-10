@@ -145,9 +145,9 @@ Admin
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **My active cases**.
+1.  Navigate to the CRM Workspace and select **My active cases**.
 
-    Alternatively, you can select a case using the CSM Configurable Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
+    Alternatively, you can select a case using the CRM Workspace Lists menu by selecting **Lists** &gt; **Investigative Cases** &gt; **All** and selecting the case.
 
 2.  Select the case you wish to update the evidence security classification for.
 

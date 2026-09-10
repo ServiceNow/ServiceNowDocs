@@ -1,6 +1,6 @@
 ---
-title: ServiceNow AI Experience Lab for VS Code release notes
-description: The ServiceNow AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+title: ServiceNow Lux Lab for VS Code release notes
+description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 locale: en-US
 release: australia
 topic_type: topic
@@ -9,32 +9,32 @@ reading_time_minutes: 1
 keywords: [ServiceNow AI Experience Lab for VS Code, ServiceNow AI Experience Lab for VS Code release notes, AI Experience Framework, Extend ServiceNow experiences]
 ---
 
-# ServiceNow AI Experience Lab for VS Code release notes
+# ServiceNow Lux Lab for VS Code release notes
 
-The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 
-## About ServiceNow® AI Experience Lab for VS Code
+## About ServiceNow Lux Lab for VS Code
 
 -   Scaffold experiences, pages, and widgets with framework intelligence.
 -   Extend base system applications with experiences and pages tailored to your organization's needs.
--   Run commands via the ServiceNow® AI Experience Lab for VS Code extension interface rather than using the terminal.
+-   Run commands via the ServiceNow Lux Lab for VS Code extension interface rather than using the terminal.
 -   Preview your application in real time without leaving Visual Studio Code.
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See [ServiceNow® AI Experience Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Note:** ServiceNow® AI Experience Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
+**Note:** ServiceNow Lux Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install ServiceNow® AI Experience Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
+    Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
 
 -   **Additional requirements**
 
-    The ServiceNow® AI Experience Lab for VS Code extension requires the following:
+    The ServiceNow Lux Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -112,5 +112,8 @@ ServiceNow instance
 
 </td></tr></tbody>
 </table>
+-   **[Version 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-lux-lab-for-vs-code-rn-2026-09.md)**  
+The ServiceNow AI Experience Lab for VS Code is now named ServiceNow Lux Lab for VS Code.
+
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-First Advantage spoke v1.9.0 is the latest version.
+First Advantage spoke v1.9.0 is the latest version. For version history of the spoke, see [First Advantage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-first-adv.html).
 
 ## Supported versions
 

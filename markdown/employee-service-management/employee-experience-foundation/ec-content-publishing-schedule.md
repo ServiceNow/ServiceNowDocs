@@ -7,8 +7,8 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-08-25"
+reading_time_minutes: 7
 breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -119,4 +119,11 @@ You can schedule your content to appear in Employee Center and Workspace. The Sc
     -   Targeted users and dates
         -   The audience the content is directed to or you can add specific users you want your content directed to.
         -   The start and end dates your content is available.
+-   Content ordering: Determines the sequence in which your scheduled content appears according to the following priority:
+    -   Schedule Order: The primary factor used to arrange your content.
+    -   Content Order: Applied next, after Schedule Order.
+    -   Publish Plan start date: Applied last to finalize the sequence.
+
+        **Note:** If both Content Order and Schedule Order are identical, modifying the Content Order will also alter the Schedule Order. The Categories News Feed widget is prioritized based on Content Order, followed by the News Content Availability Start date. The remaining News Feed widgets are arranged according to the Schedule Availability Start date.
+
 

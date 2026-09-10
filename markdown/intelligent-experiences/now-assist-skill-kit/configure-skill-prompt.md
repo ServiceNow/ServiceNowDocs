@@ -95,7 +95,7 @@ To learn more about configuring the skill, including models and tokens, see [AI 
 **Related topics**  
 
 
-[Configure skill deployment settings]()
+[Configure deployment and skill settings]()
 
 [Configure security controls for a skill]()
 

@@ -20,8 +20,8 @@ Configure Cloud-based and IP-based events to share a single queue, which helps r
 
 Confirm the following:
 
--   Discovery Admin Workspace is using version 1.9.0 or later.
--   ServiceNow AI Platform® is using XP9, YP4, or later than YP4.
+-   You're using Discovery Admin Workspace v1.9.0 or later.
+-   You're using the Xanadu Patch 9, Yokohama Patch 4, or later version of the ServiceNow AI Platform®.
 -   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureDiscoveryEventFramework.md).
 
 Role required: discovery\_admin

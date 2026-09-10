@@ -1,25 +1,25 @@
 ---
-title: App Engine for ERP Journal Entry dashboard
-description: The Journal Entry dashboard provides information and metrics about journal entry tasks.
+title: App Engine ERP Journal Entry Task dashboard
+description: The Manual Journal Entry Posting dashboard provides information and metrics about manual journal entry tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-journal-entry-dashboard.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-07"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
-keywords: [app, engine, erp, sap, rapid, deployment, pack, journal, entry]
-breadcrumb: [Reference, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [month-end close, month end close, month, end, close, app, engine, erp, sap, rapid, deployment, pack, journal, entry]
+breadcrumb: [Reference, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# App Engine for ERP Journal Entry dashboard
+# App Engine ERP Journal Entry Task dashboard
 
-The Journal Entry dashboard provides information and metrics about journal entry tasks.
+The Manual Journal Entry Posting dashboard provides information and metrics about manual journal entry tasks.
 
-## Journal Entry dashboard
+## Journal Entry Task dashboard
 
-The Journal Entry dashboard provides charts and graphs with information about journal entry tasks. Select any section in a chart to open the list of records.
+The Journal Entry Task dashboard provides charts and graphs with information about journal entry tasks. Select any section in a chart to open the list of records.
 
-\[Omitted image "aes-erp-journal-entry-dashboard.png"\] Alt text: Journal entry dashboard with charts and graphs displaying information about journal entry tasks.
+\[Omitted image "aes-erp-journal-entry-dashboard.png"\] Alt text: Journal entry taskdashboard with charts and graphs displaying information about journal entry tasks.
 
 |Element|Description|
 |-------|-----------|
@@ -29,12 +29,12 @@ The Journal Entry dashboard provides charts and graphs with information about jo
 |Journal entry tasks pending by period|Number of open journal entry tasks sorted by period and company.|
 |Journal entry tasks posted by company|Closed journal entry tasks, sorted by company.|
 |Journal entry tasks open by status|Number of open journal entry tasks sorted by status.|
-|Journal Entry Tasks by Company and Status|Number of journal entry tasks for each company, sorted by status.|
-|Count of Journal Entry Tasks by Period|Number of journal entry tasks sorted by month and year.|
+|Journal entry tasks by company and status|Number of journal entry tasks for each company, sorted by status.|
+|Count of journal entry tasks by period|Number of journal entry tasks sorted by month and year.|
 
 ## Journal Entry lists
 
-The Journal Entry lists tab contains lists of journal tasks and lines. Select a journal task or journal lines number to view the record and obtain details.
+The Journal Entry lists tab contains lists of journal tasks and lines. Select a journal task or journal line number to view the record and obtain details.
 
-**Parent Topic:**[App Engine for ERP rapid deployment packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-reference.md)
 

@@ -21,13 +21,13 @@ NowVoiceTranscriptMessage is a type alias for `TranscriptMessage`.
 |Name|Type|Description|
 |----|----|-----------|
 |role|String|The originator of the message. Typical values are `"user"` and `"assistant"`.|
-|text|String|The text content of the message.|
+|content|String|The text content of the message.|
 
 The following code example shows NowVoiceTranscriptMessage used with `[NowVoiceCallbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)`.
 
 ```
 onMessageReceived: { message in
-    print("[\(message.role)]: \(message.text)")
+    print("[\(message.role)]: \(message.content)")
 }
 ```
 

@@ -37,7 +37,7 @@ CBS admin\[sn\_cbs.admin\]
 
 </td><td>
 
-Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.
+Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.**Note:** CBS admins require the sn\_ia\_config.ia\_admin role for the overall permission to configure and manage the application.
 
 </td></tr><tr><td>
 

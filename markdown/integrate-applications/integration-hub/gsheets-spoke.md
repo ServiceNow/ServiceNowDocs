@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Sheets spoke v1.0.7 is the latest version.
+Google Sheets spoke v1.0.7 is the latest version. For version history of the spoke, see [Google Sheets spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-sheets.html).
 
 ## Spoke dependencies
 

@@ -147,7 +147,7 @@ The users with the roles listed in the following table can use the Conversationa
 |admin|Configure and manage the WhatsApp Cloud API integration, including connection settings, routing rules, system properties, and security configurations.|
 |agent\_workspace\_user|Accept an ongoing WhatsApp chat conversation with a customer through the WhatsApp service channel in Advanced Work Assignment.|
 |sn\_customerservice\_manager|View details of a WhatsApp chat conversation by using interaction records of type Messaging and subtype WhatsApp.|
-|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate WhatsApp chat conversations with a Virtual Agent or live agent so that you can search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
+|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate WhatsApp chat conversations with a Virtual Agent or live agent. Search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
 
 **Related topics**  
 

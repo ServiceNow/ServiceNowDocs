@@ -22,6 +22,8 @@ Synthetic monitoring includes the following properties.
 Domain separation is supported for synthetic monitoring. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Synthetic monitor status definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitor-status-definitions.md)**  
 Learn what each synthetic monitor test status means, so you can distinguish a genuine endpoint failure from a test that never ran.
+-   **[ECC queue auto-purge for synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ecc-queue-auto-purge.md)**  
+A scheduled job removes old Synthetic monitoring messages from the ECC queue. The job also flags stuck or orphaned messages with status as error, so that the queue doesn't grow indefinitely and stale entries aren't mistaken for pending work.
 -   **[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)**  
 Read these topics to understand how to fix common issues in synthetic monitoring.
 -   **[Synthetic monitoring Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ref-synthetic-monitoring-landing-page.md)**  

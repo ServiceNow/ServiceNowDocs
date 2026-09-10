@@ -7,7 +7,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 3
 breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -167,6 +167,14 @@ On Call Scheduling for Service Operations Workspace \[sn\_sow\_on\_call\]
 </td><td>
 
 On-call support for incidents in Service Operations Workspace.
+
+</td></tr><tr><td>
+
+On-Call Onboarding\[sn\_on\_call\_onboard\]
+
+</td><td>
+
+Guided onboarding utilities to configure on-call schedules for multiple teams or groups in Service Operations Workspace. Installs the On-Call Bulk Upload and On-Call Bulk Upload Task tables to track upload job and status.
 
 </td></tr><tr><td>
 

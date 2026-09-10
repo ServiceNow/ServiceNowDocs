@@ -8,7 +8,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-08-02"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -43,4 +43,8 @@ For more information, see [Identify similar records using AI](https://raw.github
 The refine record skill improves demand quality by enabling AI-assisted text refinement directly within the text fields of demand records. You can elaborate on a brief description or shorten lengthy content without losing key information. This feature helps verify demands are clear, complete, and actionable from the start.
 
 The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently.
+
+For more information, see [Improve data quality using the refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/improve-data-quality-using-the-refine-records-skill-ppw.md).
+
+\[Omitted image "demand-refine-records.png"\] Alt text: The shorten or elaborate options available in the Refine with AI menu.
 

@@ -21,7 +21,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Now Assist for Security Incident Response\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+[ServiceNow Otto for Security Incident Response\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
 
 </td><td>
 
@@ -29,7 +29,7 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-[Now Assist for Threat Intelligence Security Center\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Threat Intelligence Security Center \(TISC\) supports ServiceNow® Generative AI \(GenAI\) skills in the Threat Intelligence Security Center workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)
+[ServiceNow Otto for Threat Intelligence Security Center\[Omitted image "bus-ai-otto.svg"\] Alt text:Learn how ServiceNow Otto for Threat Intelligence Security Center \(TISC\) supports ServiceNow® Generative AI \(GenAI\) skills in the Threat Intelligence Security Center workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-tisc-landing.md)
 
 </td><td>
 

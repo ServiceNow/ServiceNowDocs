@@ -24,12 +24,15 @@ Role required: sn\_grc.business\_user
 
 The tasks that appear on the **Tasks** page are unique to the logged-in user and therefore can help the user complete all tasks assigned to them. If you're not the rightful responder of the assessment, you can reassign the assessment to the correct responder. While performing regulatory assessments on the Tasks page, you can view the following:
 
--   Guidance for each section of the assessment under the Details section
--   The completion progress of the assessment
+-   Guidance for each section of the assessment under the Details section.
+-   The completion progress of the assessment.
+-   Details of the source regulatory alert that the assessment pertains to.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **GRC Tasks** &gt; **My to-dos** &gt; **Open** &gt; **Regulatory assessments**.
+
+    The **Record** column displays the regulatory alert that each assessment is associated with. Select the link to navigate to the alert.
 
 2.  Select and open the assigned assessment.
 
@@ -52,5 +55,5 @@ The tasks that appear on the **Tasks** page are unique to the logged-in user and
 
 ## Result
 
-The requestor responsible for initiating the assessment can monitor the progress activity by accessing the Regulatory Assessment related list of a regulatory alert.
+The requester responsible for initiating the assessment can monitor the progress activity by accessing the Regulatory Assessment related list of a regulatory alert.
 

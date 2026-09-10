@@ -21,6 +21,8 @@ Teams migrating to CWM from external task tracking tools often have months of st
 
 The import feature on a CWM Board lets you bring that existing work in from a file. ServiceNow Otto scans the file, identifies the tasks, and proposes how each source column maps to a column on your Board. You review and adjust the mapping, preview the tasks before they are created, and confirm to complete the import.
 
+\[Omitted image "cwm-import-upload-file.png"\] Alt text: Upload file step with AI scanning the uploaded file
+
 ## Key capabilities
 
 -   **AI-proposed column mapping**
@@ -77,7 +79,7 @@ The available target columns in the mapping step depend on the record type that 
 
 -   **Access requirements**
 
-    The **Import** button is visible only on Boards where ServiceNow Otto for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
+    The **Import tasks** option, under **Create with Otto** in the Board header, is visible only on Boards where ServiceNow Otto for CWM is active. You need the sn\_cwm\_ai.cwm\_ai\_user and lens\_user roles.
 
 -   **Single file per import**
 

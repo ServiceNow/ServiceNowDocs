@@ -55,15 +55,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d392049e248">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d425356e248">
 
 Option
 
-</th><th align="left" id="d392049e251">
+</th><th align="left" id="d425356e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d392049e257">
+</th></tr></thead><tbody><tr><td id="d425356e257">
 
 **Add enriched insights**
 
@@ -78,7 +78,7 @@ In the ServiceNow Otto panel, ask the agent to enrich a regulatory alert with we
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d392049e296">
+</td></tr><tr><td id="d425356e296">
 
 **Recommend impacted areas**
 

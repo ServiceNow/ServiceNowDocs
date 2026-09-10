@@ -8,8 +8,8 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Nested Playbooks, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+reading_time_minutes: 2
+breadcrumb: [Nested Playbooks, Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a nestable child playbook
@@ -23,6 +23,8 @@ Role required: admin, playbook.admin, or playbook.write
 ## About this task
 
 The child playbook must be activated to display as an option for selection in the parent playbook. After the child playbook is created, you must define at least one launch playbook permission for the child playbook to be activated.
+
+**Note:** Nested \(child\) playbook must have the same runtime permissions as the parent.
 
 To define a launch playbook permission for the child playbook:
 

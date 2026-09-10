@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforcontractmanagementpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,14 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Manage contract repository agentic workflow](https://www.servicenow.com/docs/access?context=cmpro-na-reminder-agentic-wf&family=yokohama&ft:locale=en-US)**
+
+Use the Manage contract repository agentic workflow to improve productivity by autonomously creating milestone reminders for the notice period of contract renewals or the notice period for termination of contract renewals.
+
+    |Agentic workflows|Description|
+    |-----------------|-----------|
+    |Manage contract repository|Uses AI agents to retrieve contract details such as renewal notice period, termination notice period, or auto-renewal clause information, and determine the average lead time for similar contracts to create contract milestone reminders for the notice period of contract renewals or the notice period for termination of contract renewals.|
+
 
 </td></tr><tr><td>
 
@@ -99,18 +106,28 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Using contract playbook to review AI-extracted metadata and contract reminder date](https://www.servicenow.com/docs/access?context=cmpro-na-review-ai&family=zurich&ft:locale=en-US)**
+
+Use the playbook within a contract repository record to review the metadata extracted by the AI agents in the manage contract repository agentic workflow. You can make necessary changes to the extracted information, and submit it to update the contract repository. If the contract end date is available, the **Review contract reminders** tab appears in the playbook, enabling you to review and update the AI-calculated contract reminder date and specify recipients for contract renewal or terminations.
+
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+-   **[Select LLMs](https://www.servicenow.com/docs/access?context=cmpro-na-manage-llm&family=zurich&ft:locale=en-US)**
+
+Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case. The selected LLM is applicable only for the specific use case and overrides the LLM selected for Now Assist in Contract Management skills.
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Export conversational search results](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&family=australia&ft:locale=en-US)**
-
-Export search results from conversational search in multiple file formats. The export includes all search results and uses the columns configured in your list view. Customize the exported columns using the Personalize fields option.
-
 
 -   **[Feedback for AI contract analysis](https://www.servicenow.com/docs/access?context=cmpro-review-contract-document&family=australia&ft:locale=en-US)**
 
@@ -150,7 +167,14 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Configuring contract metadata extraction](https://www.servicenow.com/docs/access?context=cncore-conf-metadata-extraction&family=yokohama&ft:locale=en-US)**
+
+Create a use case and its associated fields for contract metadata extraction in the AI Admin Hub console to define the information that you want Now Assist to detect in a signed contract.Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for metadata extraction.
+
+-   **[Configuring contract analysis](https://www.servicenow.com/docs/access?context=cmpro-conf-contract-analysis&family=yokohama&ft:locale=en-US)**
+
+Create a use case and its associated question groups for contract analysis in the AI Admin Hub console to identify the non-standard and missing clauses in a contract.Create a clause mapping AI Admin Hub console to map question groups of a use case to active clauses in the clause library to display suggestions for non-standard clauses in a contract.Create an expected response mapping in the AI Admin Hub console to map questions of a use case to an expected response to identify the non-standard clause in a contract.Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for contract analysis.
+
 
 </td></tr><tr><td>
 
@@ -158,18 +182,16 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[ServiceNow AI implementation](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
 
 -   **[Default large language model provider](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
@@ -180,19 +202,6 @@ The default model provider for contract metadata extraction, contract analysis, 
 -   **[Improved missing clause detection](https://www.servicenow.com/docs/access?context=cncore-NA-review-land&family=australia&ft:locale=en-US)**
 
 Missing clause detection in contract revision using the contract analysis skill has been enhanced for accuracy. The setup, configuration, and review experience remains unchanged across all supported workspaces.
-
-
--   **[Configure use case mappings for metadata and obligation extraction](https://www.servicenow.com/docs/access?context=cmpro-na-usecase-mappings-me&family=australia&ft:locale=en-US)**
-
-Clear the **Contracts created from contract request** check box on the use case mapping forms for the contract metadata extraction and contract obligation extraction skills to extract metadata and obligations form signed contracts that are uploaded directly on a contract record.
-
--   **[Conversational contract search and insights Workflow](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&family=australia&ft:locale=en-US)**
-
-The conversational search feature's improved experience enables you to:
-
-    -   View results in a listing view, making it easier to scan, compare, and navigate contract information.
-    -   Open contract documents directly from the search results and perform an in‐document search.
-The conversational search feature does not support searching within contract documents that are scanned PDFs.
 
 
 </td></tr></tbody>
@@ -283,7 +292,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -328,7 +340,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Contract Management Pro - Prime by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -553,7 +568,13 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   Contract Management Pro MCP Server to retrieve the approved contract analysis playbook for external AI tools, enabling the use of organization's standard terms and approved clause language when reviewing contracts.
+-   Contract document-based conversational search queries now return all matching results instead of 10 results. Use Show more option to load the remaining results.
+-   In conversational search, introduced an option to preform in-document search after the contract metadata search results are available.
+
+ [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
 
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Contract Management Pro. Check your entitlements to determine your access to specific features.
 -   Export conversational search results in multiple file formats.
@@ -569,7 +590,7 @@ Australia
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
- See [ServiceNow Otto for Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=australia&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-emplsm.cncore-now-assit-landing\]](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

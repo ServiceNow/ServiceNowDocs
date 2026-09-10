@@ -21,6 +21,8 @@ As an HR representative, automatically process various badge requests by trigger
 As a shipping coordinator, enter shipping details automatically from Excel to the Shipping Management app by triggering AI agents that use desktop action tools from the ServiceNow Otto panel.
 -   **[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)**  
 Trigger an AI agent that uses adaptive desktop actions from the ServiceNow Otto panel. These desktop actions perform tasks on an external website or web application.
+-   **[Execute adaptive desktop actions for desktop and web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use_ai_desktop_actions_adaptive.md)**  
+Use AI Desktop Actions to automate desktop or web-based tasks. Describe your task to the AI agent, review and approve the execution plan, and monitor real-time progress.
 
 **Parent Topic:**[AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-landing-page.md)
 

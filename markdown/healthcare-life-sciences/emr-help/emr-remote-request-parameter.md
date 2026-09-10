@@ -97,8 +97,6 @@ True/False
 
 Used to classify whether the information received by this parameter is sensitive or not.
 
- **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled.
-
 </td></tr><tr><td>
 
 Source system

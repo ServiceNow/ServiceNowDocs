@@ -17,7 +17,7 @@ Technology Lifecycle Management provide visibility, governance, and actionable i
 You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
 -   **[Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/use-tpm-encoded-query.md)**  
-Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want TLM to include other software \(non-licensable\) and filter the result.
+Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the **Lifecycle Timeline** view of a business application. By default, the TLM picks licensable software. Use this encoded query when you want Technology Lifecycle Management \(TLM\) to include other software \(non-licensable\) and filter the result.
 -   **[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)**  
 Manually update the Technology Lifecycle Management \(TLM\) lifecycle data for software and hardware models in your business applications and application services.
 -   **[Restart the TLM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**  
@@ -37,7 +37,7 @@ Run the **Populate Number field in TPM Discovered Technologies** job to populate
 -   **[Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md)**  
 Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 -   **[Schedule a job to generate TLM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md)**  
-Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the TLM technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the Technology Lifecycle Management \(TLM\) technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 
 **Parent Topic:**[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-ea-workspace.md)
 

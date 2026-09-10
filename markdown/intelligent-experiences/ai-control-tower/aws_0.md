@@ -16,11 +16,11 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Expl
 
 The AI Service Graph Connector for Amazon enables you to discover and import AI assets from your AWS environment into ServiceNow AI Control Tower.
 
-The connector integrates with your AWS account \(Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore\) to catalog AI systems, agents, models,prompts, and tools. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
+The connector integrates with your AWS account \(Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore\) to catalog AI systems, agents, models, prompts, and tools. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Download apps from the Store
 
-Visit the  ServiceNow store website to download the [AI Service Graph Connector for Amazon](https://store.servicenow.com/store/app/74d7378e47a73a50cbbce551336d4356) application.
+Visit the ServiceNow store website to download the [AI Service Graph Connector for Amazon](https://store.servicenow.com/store/app/74d7378e47a73a50cbbce551336d4356) application.
 
 ## Supported ServiceNow versions
 
@@ -47,7 +47,7 @@ Complete the following setup steps once when configuring the connector for the f
 
 **Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
 
-Update Data Source Access
+**Update Data Source Access**
 
 The connector requires write permissions to the Data Source table to create data sources.
 
@@ -119,7 +119,7 @@ Before deploying any templates, confirm the following:
 
 You have AWS CloudFormation Stack and StackSet deployment permissions in the relevant accounts.
 
-Target member accounts have Amazon Bedrock, SageMaker, and/or AgentCore enabled- accounts without these services will return 403 errors during discovery.
+Target member accounts have Amazon Bedrock, SageMaker, and/or AgentCore enabled - accounts without these services will return 403 errors during discovery.
 
 If using Standalone Mode, confirm the target account ID where SgAictReadOnlyAccessRole.yml will be deployed.
 
@@ -278,9 +278,9 @@ The SgcAictReadOnlyOrgAccessRole.yml template creates a read-only role in the Ma
     2.  Parameters:
         -   DesignatedAccountId: the 12-digit account ID where the ServiceNow user was created \(Prerequisite 4\).
         -   ServiceNowUserName: servicenow-aict-user
-    3.  Select**Next**.
+    3.  Select **Next**.
 5.  Under **Configure stack options**, leave the default values and select **Next**.
-6.  On the**Review and create** page, scroll to the bottom and select the check box **I acknowledge that AWS CloudFormation might create IAM resources**.
+6.  On the **Review and create** page, scroll to the bottom and select the check box **I acknowledge that AWS CloudFormation might create IAM resources**.
 7.  Select **Submit** and wait for CREATE\_COMPLETE.
 
 **Note:** This template is not needed for Scenario 1, because the user created in the Management account already has Organization permissions inline.
@@ -290,7 +290,7 @@ The SgcAictReadOnlyOrgAccessRole.yml template creates a read-only role in the Ma
 The SgcAictReadOnlyAccessRole.yml template creates the SgcAictReadOnlyAccessRole read-only role that the ServiceNow user assumes to make API calls in each member account. Deploy it as a StackSet from the Management account across all member accounts.
 
 1.  Sign in to the **Management account**.
-2.  Search for CloudFormation in the left navigation pane, select &gt; **StackSets** &gt; **Create StackSet**.
+2.  Search for CloudFormation in the left navigation pane, select **StackSets** &gt; **Create StackSet**.
 3.  Under **Permissions**, select **Service-managed permissions**.
 4.  Under **Specify template**:
     1.  Prepare template: Choose an existing template.
@@ -329,7 +329,7 @@ Standalone Mode: To validate against a single account before deploying org-wide,
 The connector requires an Access Key ID and Secret Access Key from the IAM user created in the Prerequisite 4 \(Deploy the ServiceNow IAM user \(Stack\) steps\).
 
 1.  Sign in to the account where the ServiceNow user was created.
-2.  Search for IAM, then select Users&gt; select servicenow-aict-user.
+2.  Search for IAM, then select Users &gt; servicenow-aict-user.
 
 3.  Select the **Security credentials tab**, then select **Create access key**.
 4.  Select **Application running outside AWS**, then select **Next**.
@@ -354,7 +354,7 @@ The connector requires an Access Key ID and Secret Access Key from the IAM user 
 
 The connector queries CloudWatch Logs to retrieve Bedrock invocation counts per agent. CloudTrail captures the Bedrock data events and delivers them to the log group. Complete this step in each member account from which you want usage data.
 
-This step is optional- complete it only if you want agent invocation counts. Asset discovery works without it.
+This step is optional - complete it only if you want agent invocation counts. Asset discovery works without it.
 
 1.  Create the CloudWatch Log Group.
 2.  Search CloudWatch → Logs → Log groups → Create log group
@@ -377,7 +377,7 @@ This step is optional- complete it only if you want agent invocation counts. Ass
 
 3.  Create an IAM Role for CloudTrail to CloudWatch Logs delivery
 
-    CloudTrail requires permission to write events into the log group. Create a role that allows.
+    CloudTrail requires permission to write events into the log group. Create a role that grants this permission.
 
 4.  IAM → Roles → Create role
     1.  Trusted entity type: AWS service
@@ -465,7 +465,11 @@ Bedrock data events are only logged when agents are invoked. If no invocations h
     1.  Search "CloudWatch" → CloudWatch → Logs → Log groups
     2.  CLI \(example\): aws logs describe-log-groups --region us-east-1
 
-## AWS Prerequisite troubleshooting
+**AWS prerequisites for version 2.1.2**
+
+To setup AWS instructions, see the [Automating AICT AWS Connector Setup Using the CloudShell Deployment Script \[KB3138431\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB3138431) article in the Now Support Knowledge Base.
+
+## AWS Prerequisite Troubleshooting
 
 |**Error**|**Solution**|
 |---------|------------|
@@ -478,10 +482,6 @@ Bedrock data events are only logged when agents are invoked. If no invocations h
 |Can't see Secret Access Key|Delete the key and create a new one.|
 |Log group already exists|Use the existing group; skip Prerequisite 8 or reuse the name.|
 |Explicit deny in service control policy|An SCP is blocking the action on that account. Contact the Organization administrator.|
-
-**AWS prerequisites for version 2.1.2**
-
-To setup AWS instructions, see the [Automating AICT AWS Connector Setup Using the CloudShell Deployment Script \[KB3138431\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB3138431) article in the Now Support Knowledge BaseKB3138431
 
 ## Data Mapping
 

@@ -40,6 +40,10 @@ Submit to CSF X Sandbox is an example of an activity definition process.
 **Related topics**  
 
 
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
+
 [Working with Security Incident Records]()
 
 [Security Incident Playbook]()

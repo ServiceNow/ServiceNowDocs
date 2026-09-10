@@ -18,7 +18,7 @@ All workflows consist of states, transitions, and reasons. Map your service-spec
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_uni\_req.ur\_admin
 
 ## About this task
 

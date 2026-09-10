@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-07-21"
 reading_time_minutes: 19
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # AI Agent Analytics dashboard

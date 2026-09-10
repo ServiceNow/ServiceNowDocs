@@ -58,7 +58,9 @@ You can change any base-system policy by modifying settings or making the policy
 
 7.  In the Policy Rule Actions related list, click the \(empty\) **Name** of the action.
 
-8.  On the Update Action pop-up window, enter an **Action Name** \(the value is required\), notice the value of the **Notification** \(you will use it in the next step\), and then close the pop-up window.
+8.  On the Update Action pop-up window, enter an **Action Name**.
+
+    The value is required. Notice the value of the **Notification** field; you will use it in the next step. Close the pop-up window.
 
     \[Omitted image "policy-lease-end-action.png"\] Alt text: Sending a notification
 

@@ -1,6 +1,6 @@
 ---
 title: Add signatories in self-served contract request
-description: Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+description: Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Leg
 
 # Add signatories in self-served contract request
 
-Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
 
 ## Before you begin
 
@@ -24,25 +24,25 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 1.  Navigate to your workspace.
 
-2.  Open the contract request that is assigned to you or for which you're a collaborator.
+2.  Open a contract request assigned to you or one for which you are a collaborator.
 
 3.  In the **Signatories** tab, select **Add**.
 
 4.  On the Add Signatory form, indicate whether you are configuring an internal or external signatory by selecting **Internal** or **External**.
 
-    \[Omitted image "cmpro-add-sign.png"\] Alt text: Add signatories in contract request.
+    \[Omitted image "cmpro-add-sign.png"\] Alt text: Add Signatory form showing Internal and External signatory options.
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d455507e112">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d457070e117">
 
 Option
 
-</th><th align="left" id="d455507e115">
+</th><th align="left" id="d457070e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d455507e121">
+</th></tr></thead><tbody><tr><td id="d457070e126">
 
 **Internal**
 
@@ -50,9 +50,12 @@ Steps
 
 1.  In the **Internal Signer** field, enter the name of the signer.
 
-The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
+The **Authorized signatory name**, **Signatory**, and **Signatory email** fields are automatically populated.
 
-2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique.
+2.  In the **Signatory order** field, enter the order in which the contract is sent to signers for an e-signature. Contracts are sent starting with the signatory assigned the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
 3.  In the **Signatory Role** field, select the role for the signatory.
 
 **Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
@@ -64,7 +67,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d455507e215">
+</td></tr><tr><td id="d457070e216">
 
 **External**
 
@@ -73,7 +76,10 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 1.  In the **Authorized signatory name** field, enter the external signer's name.
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
-4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value should be unique.
+4.  In the **Signatory order** field, enter the order in which the contract is sent to signers for an e-signature. Contracts are sent starting with the signatory assigned the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
 5.  In the **Signatory Role** field, select the role for the signatory.
 
 **Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.

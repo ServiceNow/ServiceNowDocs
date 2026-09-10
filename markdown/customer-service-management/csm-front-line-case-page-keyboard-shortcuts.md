@@ -1,18 +1,18 @@
 ---
 title: Front-line case page keyboard shortcuts
-description: Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CSM Configurable Workspace.
+description: Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page-keyboard-shortcuts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Front-line case page, Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Front-line case page, Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Front-line case page keyboard shortcuts
 
-Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CSM Configurable Workspace.
+Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CRM Workspace.
 
 When composing an email, using the shortcut key enables you to compose an email in a subtab.
 

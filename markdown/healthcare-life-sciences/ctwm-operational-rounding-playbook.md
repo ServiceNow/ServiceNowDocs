@@ -35,7 +35,7 @@ A purpose‑built Operational Rounding Playbook guides plan authoring across mul
 
     Complete the **Care team case** playbook stage in the Operational rounding playbook.
 
-6.  [Input Care team task details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-care-team-task.md)
+6.  [Complete Care team task details in Operational Rounding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-care-team-task.md)
 
     Complete the **Care team task** playbook stage in the Operational rounding playbook.
 

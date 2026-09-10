@@ -36,6 +36,8 @@ Delete contract template when you no longer need it.
 
 [Manage contract records]()
 
+[Manage AI skills]()
+
 [Platform Analytics Solutions for Contract Management Pro]()
 
 [Modify assignment rule for contract requests]()

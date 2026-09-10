@@ -40,11 +40,11 @@ Maximum number of daily resource allocation records that should be considered in
 
 Determines the maximum number of daily resource allocation records that should be considered in synchronous mode during confirmation and allocation. The property improves the system performance when the number of daily allocation records is more than the value set in the property.
 
- The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. The value is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\). It is also equivalent to allocating 5 users for a 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
+ The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. This is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\). It also applies to 5 users for 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
 
- If you want to confirm and allocate every time the resource plan in synchronous mode, set the value of the property to a higher number based on your requirements.
+ If you always want to confirm and allocate the resource plan in synchronous mode, set the value of the property to a higher number based on your requirements.
 
-**Note:** If the property **com.snc.resource\_management.run\_state\_changes\_async** is set to true, the confirmation and allocation of resource plans is considered in asynchronous mode.
+**Note:** If the property **com.snc.resource\_management.run\_state\_changes\_async** is set to true, the confirmation and allocation of resource plans is always considered in asynchronous mode.
 
 </td><td>
 
@@ -161,10 +161,12 @@ The default duration for a calendar event.
 
  For example, a user is available for three blocks of time: two 30-minute blocks and one 60-minute block.
 
--   If the value of this property is set to 30 minutes, and 1 hour needs to be allocated to the user. The allocation is then divided into two 30-minute blocks when the user is available.
+-   If the value of this property is set to 30 minutes, and 1 hour is allocated to the user, the allocation is divided into two 30-minute blocks. The blocks are assigned when the user is available.
 -   If the value of this property is set to 60 minutes, the allocation is given to the 60-minute block.
 
 **Note:** When you're changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
+
+ This property also determines the total effort used for group resource assignments with the **Hours** effort type. The requested effort is rounded down to the nearest multiple of this value before it's distributed among the group members.
 
 </td><td>
 
@@ -198,7 +200,7 @@ Perform Resource Confirmation/Allocation/Cancellation in asynchronous mode \(**c
 
 Uses asynchronous mode when confirming, allocating, or canceling resource plans to improve application performance.
 
- Resource confirmation and allocation create calendar events for each resource in a group and also consider each resource's schedule. As a result, the confirmation and allocation process can take an excessively long time to complete.
+ Resource confirmation and allocation create calendar events for each resource in a group and consider each resource's schedule. This process can take an excessively long time to complete.
 
  In asynchronous mode, the application uses an event manager to handle errors that might occur when processing the state of the resource plan. If the property is enabled:
 
@@ -213,7 +215,7 @@ No
 
 </td></tr><tr><td>
 
-Comma-separated list of resource event types which will be excluded from user's schedule to calculate available capacity. This setting avoids making resource allocations on the days having these events \(time\_off, meeting, and so on\) \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
+Comma-separated list of resource event types to exclude from user schedules when calculating available capacity and making resource allocations \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
 
 </td><td>
 
@@ -248,7 +250,7 @@ Number of records fetched at a time in Resource Grid\(**com.snc.resource\_manage
 
 The number of records that are fetched in resource grid in one server call.
 
- For example, if there are 100 projects in an allocation board, only 30 are fetched in the first call. When the user scrolls down, a call is made to fetch the next 30 projects. Similarly, when the user expands a project containing, say 100 resource plans, only 30 resource plans are fetched in the first call. On scrolling, the next 30 plans are fetched, and so on.
+ For example, if there are 100 projects in an allocation board, only 30 are fetched in the first call. When the user scrolls down, a call is made to fetch the next 30 projects. Similarly, when the user expands a project containing, say 100 resource plans, only 30 resource plans are fetched in the first call. Upon scrolling, the next 30 plans are fetched, and so on.
 
 </td><td>
 

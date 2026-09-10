@@ -17,7 +17,7 @@ Agents and customers use the Configurator to customize configurable products in 
 
 ## CPQ Configurator overview
 
-With the Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CSM Configurable Workspace, while customers use the configurator in the Business Portal for self-service transactions.
+With the Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CRM Workspace, while customers use the configurator in the Business Portal for self-service transactions.
 
 \[Omitted image "cpq-config-workspace-portal.png"\] Alt text: Example product bundle displayed in the CSM Configurable Workspace and the Business Portal.
 

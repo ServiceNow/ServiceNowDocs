@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-eventmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -66,38 +66,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[Mixed alert grouping](https://www.servicenow.com/docs/access?context=alert-group-use-cases&family=zurich&ft:locale=en-US)**
-
-Combine CMDB-based and tag-based alert grouping strategies into cohesive groups that reduce noise, enabling faster and more effective response.
-
--   **[AIOps 360 overview dashboard](https://www.servicenow.com/docs/access?context=aiops-360-overview-dashboard&family=zurich&ft:locale=en-US)**
-
-Gain actionable insights with a 360-degree dashboard that showcases product value, tracks operational efficiency, and highlights automation impact. Monitor alert handling, service health, and AIOps outcomes to drive smarter, faster decisions across IT operations.
-
--   **[Mixed alert grouping in Service Operations Workspace](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=zurich&ft:locale=en-US)**
-
-Choose how you want to group alerts from the **Criteria Type** field. Use the **Related CIs** option to combine CMDB-based and tag-based alert grouping.
-
--   **[Application services for impact calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&family=zurich&ft:locale=en-US)**
-
-Filter the application services to be considered in impact calculation for focused and accurate results.
-
--   **[Metric connector in Integrations Launchpad](https://www.servicenow.com/docs/access?context=configure-metric-pull-connector&family=zurich&ft:locale=en-US)**
-
-Configure metric pull connectors to automate data retrieval and seamlessly integrate external metrics for efficient monitoring.
-
--   **[View links between alerts in new alert groups in Express List®](https://www.servicenow.com/docs/access?context=el-link-view&family=zurich&ft:locale=en-US).**
-
-Starting in version 26.9.0, investigate alert group details and visualize connections through Link View in Express List®, now available for log analytics-based alert groups and mixed alert groups.
-
--   **[Anomaly information for log analytic based alerts and metric intelligence alerts in preview panel in Express List®.](https://www.servicenow.com/docs/access?context=view-anomaly-alert-display&family=zurich&ft:locale=en-US)**
-
-Starting in version 26.9.0, review visualizations for anomaly information in log analytic-based alerts and metric intelligence alerts in the preview panel in Express List\[var.express-reg-tm\].
-
--   **[Configure new property for automatic resume of the live list updates following a pause, and conﬁgure time ranges in Express List®](https://www.servicenow.com/docs/access?context=express-list&family=zurich&ft:locale=en-US)**
-
-Starting in version 26.9.0, admins gain the ability to conﬁgure the amount of time until the live list updates resume, after being paused in Express List®. Admins are also able to customize the time range options displayed in Express List®, such as the default time range.
 
 -   **[Centralized management with the ITOM AIOps configuration center](https://www.servicenow.com/docs/access?context=itom-aiops-conf-center&family=zurich&ft:locale=en-US)**
 
@@ -182,10 +150,6 @@ Zurich
 
 </td><td>
 
--   **[Automated regex generation](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=zurich&ft:locale=en-US)**
-
-Effortlessly extract event field content into alert fields with automated regex generation, reducing manual effort and improving accuracy.
-
 -   **[Support for OAuth authentication method in Kafka connector](https://www.servicenow.com/docs/access?context=configure-kafka-consumer-connector&family=zurich&ft:locale=en-US)**
 
 Starting in version 2.17.1, you can use OAuth authentication with the Kafka connector, enabling you to securely connect and manage access without storing or sharing static credentials.
@@ -211,7 +175,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
+
+    -   A fully overhauled color system for smoother gradients and better contrast.
+    -   Softer outlines and more rounded components for a modern, accessible look.
+    -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
+    -   New AI gradient styles and subtle animations to highlight intelligent features.
+    -   Smarter focus behavior that reduces visual clutter for mouse users.
 
 </td></tr></tbody>
 </table>## Removed
@@ -261,8 +233,6 @@ Zurich
 
 </td><td>
 
--   Event Management connector: Deprecate unused V1 connector definitions during Event Management connector upgrades.
--   vRealize connector: Enhance the vRealize event connector by replacing the deprecated XML API with a JSON-based API, ensuring compatibility with future versions.
 -   The "em\_alert\_lists\_auto\_refresh" table no longer controls live alert list updates in the Service Operation Workspace Lists. Use the new property, table sys\_ux\_list, to turn on and off live incoming alert updates.
 
 </td></tr><tr><td>
@@ -293,7 +263,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -301,7 +274,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

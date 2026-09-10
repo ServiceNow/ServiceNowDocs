@@ -50,15 +50,15 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 4.  When you're finished summarizing an incident, you can add it to the incident work notes, expand or collapse it, provide feedback, copy it, or view information about the incident.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d309985e226">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d311009e226">
 
 Option
 
-</th><th align="left" id="d309985e229">
+</th><th align="left" id="d311009e229">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d309985e235">
+</th></tr></thead><tbody><tr><td id="d311009e235">
 
 **Save the summary information by adding it to the work notes**
 
@@ -69,7 +69,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d309985e262">
+</td></tr><tr><td id="d311009e262">
 
 **Expand or collapse the summary**
 
@@ -77,7 +77,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d309985e283">
+</td></tr><tr><td id="d311009e283">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d309985e306">
+</td></tr><tr><td id="d311009e306">
 
 **Copy the case summary**
 
@@ -93,7 +93,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d309985e322">
+</td></tr><tr><td id="d311009e322">
 
 **Refresh the summary**
 
@@ -101,7 +101,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 Select the refresh icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh icon.\) to summarize the request again.
 
-</td></tr><tr><td id="d309985e337">
+</td></tr><tr><td id="d311009e337">
 
 **View the information about the case summary**
 

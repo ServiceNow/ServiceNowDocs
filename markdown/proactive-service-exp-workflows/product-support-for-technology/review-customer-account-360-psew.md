@@ -1,6 +1,6 @@
 ---
-title: Review an account by using the 360 View in Proactive Service Experience Workflows
-description: Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
+title: Review an account by using the Technology Account 360
+description: Review a customer or partner's account by using the Technology Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.html
 release: australia
@@ -12,160 +12,89 @@ reading_time_minutes: 2
 breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Review an account by using the 360 View in Proactive Service Experience Workflows
+# Review an account by using the Technology Account 360
 
-Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
+Review a customer or partner's account by using the Technology Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 
 ## Before you begin
 
-Role required: sn\_ind\_tsm\_core\_noc\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_eng
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the Service Operations Workspace **Lists** tab, click **Accounts** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "icon-list.png"\] Alt text: List Icon.\)
 
-3.  In the Accounts list, select a customer account.
+3.  Navigate to **Accounts** &gt; **All**.
 
-    **Note:** You can also access this view by clicking a company \(account\) name account inside the various incident lists or within the incident form in Service Operations Workspace.
+4.  In the Accounts list, select a customer account.
 
-4.  In the Account Information page, in the Customer Summary section, review the general customer details for the selected account.
+    **Note:** You can also access this view by selecting a company \(account\) name account inside the various incident lists or within the incident form in Service Operations Workspace.
 
-    These details include Active status of the customer, Rank tier, and the number of employees. If this account has any escalations, you can view it by clicking **View Escalations**. In the Overview section, view the insights into account information.
+5.  Review the following account details.
 
-<table id="table_em2_fg2_5tb"><thead><tr><th>
+<table id="choicetable_byy_nsr_fkc"><thead><tr><th align="left" id="d25148e136">
 
-Field
+Option
 
-</th><th>
+</th><th align="left" id="d25148e139">
 
-Description
+Details
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td id="d25148e145">
 
-Account Team Members
-
-</td><td>
-
-Team members of this customer. Click **View all** to see the list of all the team members.
-
-</td></tr><tr><td>
-
-Key Customer Contacts
+**Overview tab**
 
 </td><td>
 
-Important contacts of this customer. Click **View all** to see the list of all the key customer contacts.
+Select the **Overview** tab to view the touchpoints, escalations, and milestones. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25148e164">
 
-Single Score Cards
-
-</td><td>
-
--   Contracts
--   Entitlements
--   CSAT
-
-**Note:** Results are from the assessments tied to the out-of-the-box Customer Satisfaction Survey provided by the Core CSM plugin.
-
--   Escalation Cases
--   Sold Products
--   Install Base
--   Assets
--   Configuration Items
-
-
-</td></tr><tr><td>
-
-On-going Technical Support Work
+**Account health tab**
 
 </td><td>
 
--   Closed Tasks
--   Weekly New Tasks vs Closed Tasks
--   Current Month Task SLA Achievement
+Select the **Account health** tab to view the health insights. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).
 
+</td></tr><tr><td id="d25148e183">
 
-</td></tr><tr><td>
-
-Changes
+**Financials tab**
 
 </td><td>
 
-Change requests raised by your account
+Select the **Financials** tab to view the financial insights. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25148e202">
 
-Problems
-
-</td><td>
-
-Problems related to the account
-
-</td></tr><tr><td>
-
-Incidents
+**Product adoption tab**
 
 </td><td>
 
-Incidents related to the account
+Select the **Product adoption** tab to view the product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25148e222">
 
-Incidents SLA
-
-</td><td>
-
-Incident SLAs related to the account
-
-</td></tr><tr><td>
-
-Outages
+**Open work tab**
 
 </td><td>
 
-Outages related to the account
+Select the **Open work** tab to view the work insights. For more information, see [Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25148e241">
 
-Requests
-
-</td><td>
-
-Requests related to the account
-
-</td></tr><tr><td>
-
-Cases
+**Contextual Side-panel**
 
 </td><td>
 
-Cases related to the account
+-   To view the recommended next-best actions, select the recommended actions \(\[Omitted image "icon-recommended-actions.png"\] Alt text: Recommended Actions Icon.\) icon.
+-   To view the customer contact details, select the customer contacts \(\[Omitted image "icon-customer-contacts.png"\] Alt text: Customer Contacts Icon.\) icon.
+-   To view the teams contact details, select the teams contact \(\[Omitted image "icon-team-contacts.png"\] Alt text: Teams Contact Icon.\) icon.
+-   To get a chronological view of case history, select the customer timeline \(\[Omitted image "icon-customer-timeline.png"\] Alt text: Customer Timeline Icon.\) icon.
 
-</td></tr><tr><td>
-
-Contextual Side-panel
-
-</td><td>
-
--   Attachments
--   Templates
--   Account Assist
-
-**Note:**
-
-You can also search for Major Incidents, Major Cases, Knowledge, Articles, or Catalog Items.
 
 </td></tr></tbody>
-</table>5.  In the Related Records page, the default lists provided are:
-
-    -   Users
-    -   Contacts
-    -   Account Addresses
-    -   Product Models
-    -   Vendor Catalog Items
-
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+</table>
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

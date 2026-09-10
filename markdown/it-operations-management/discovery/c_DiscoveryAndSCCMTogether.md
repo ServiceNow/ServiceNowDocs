@@ -20,7 +20,7 @@ You must decide if you will use Asset Intelligence \(AI\) or non-AI software dat
 
 When Software Asset Management is not enabled, software installation records are stored in the Software Instance \[cmdb\_software\_instance\] table. When Software Asset Management is enabled, software installation records are stored in the Software Installation \[cmdb\_sam\_sw\_install\] table.
 
-**Note:** If records are not removed before the switch, duplicate records may exist. In the event that AI and non-AI data becomes mixed, clear the Software Installation table.
+**Note:** If records aren't removed before the switch, duplicate records may exist. In the event that AI and non-AI data becomes mixed, clear the Software Installation table.
 
 ## Overview of Service Graph connector for Microsoft SCCM
 
@@ -28,7 +28,7 @@ Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into y
 
 **Note:** If you upgrade your instance to a version of the ServiceNow AI Platform that does not provide support for your version of SCCM, you can continue to use that version. However, all new instances require the use of a supported SCCM version.
 
-## Upgrading to a new version
+## Upgrading to a later version
 
 The ServiceNow SCCM integrations are self-contained and can exist independently. They each use their own import set tables, data sources and transform maps. However, all SCCM integrations will transform data into the same tables within the ServiceNow CMDB. To avoid the data being overwritten by another source:
 

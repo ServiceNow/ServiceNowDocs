@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-08-14"
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,9 +23,11 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-You can deactivate an external content connector to suspend its scheduled crawls. The connector's status changes to `Inactive`. All content, metadata, and permissions indexed from the deactivated connector's previous crawls remain available in search, but no new updates are retrieved from the external data source unless you choose to run a one-time crawl. You can reactivate the connector to resume its scheduled crawls.
+You can deactivate an external content connector to suspend its scheduled crawls. The connector's status changes to `Inactive`. All content, metadata, and permissions indexed from the deactivated connector's previous crawls remain available in search. No new updates are retrieved from the deactivated connector's external data source unless you choose to run a one-time crawl. You can reactivate the connector to resume its scheduled crawls.
 
 You can delete an external content connector to remove its definition. When you delete a connector, AI Search removes all content, metadata, and permissions from that connector's crawls from the index. As a result, users cannot find content from the deleted connector when searching in AI Search applications.
+
+**Note:** Deleting an external content connector doesn't automatically unlink its search source from your search profiles. You must manually unlink the search source from any search profiles that it's linked to. For details on this procedure, see [Unlink a search source from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/unlink-search-source-profile-ais.md).
 
 ## Procedure
 
@@ -57,7 +59,9 @@ The result depends on which selection you made:
 
 ## What to do next
 
-If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions on demand. For details on running one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions. For details on running one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+
+If you deleted an external content connector, manually unlink its search source from any search profiles that it's linked to. For details on this procedure, see [Unlink a search source from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/unlink-search-source-profile-ais.md).
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

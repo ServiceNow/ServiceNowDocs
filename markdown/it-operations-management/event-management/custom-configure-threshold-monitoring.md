@@ -226,7 +226,11 @@ Additional information
 Further information about the monitor.
 
 </td></tr></tbody>
-</table>3.  To create a custom health monitor script, on the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form, and click **New**.
+</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon.
+
+    To create a custom health monitor script, click **New**.
+
+    The Health Monitor Scripts form opens.
 
 4.  On the form, fill in the fields.
 
@@ -268,7 +272,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the [script editor tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 
@@ -285,7 +289,9 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 
 </td></tr></tbody>
-</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts, and Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor, as initialized inside **runInsertHealthMonitorScripts**.
+</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts. Use the Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor.
+
+    These tables are initialized inside **runInsertHealthMonitorScripts**.
 
     For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 

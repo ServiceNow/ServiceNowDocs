@@ -63,3 +63,5 @@ View invoice documents directly in the Source-to-Pay Workspace using Document Vi
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

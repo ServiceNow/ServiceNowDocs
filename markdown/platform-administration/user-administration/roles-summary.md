@@ -254,7 +254,7 @@ Task Intelligence Analyst \[tia\_analyst\]
 
 </td><td>
 
-Now Assist for Creator \[now.assist.creator\]
+ServiceNow Otto for Creator \[now.assist.creator\]
 
 Issue auto resolution administrator \[iar\_admin\]
 

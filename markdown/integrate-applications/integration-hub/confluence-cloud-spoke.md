@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Confluence Cloud spoke v2.1.1 is the latest version.
+Confluence Cloud spoke v2.1.1 is the latest version. For version history of the spoke, see [Confluence Cloud Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-confluence-cloud.html).
 
 ## Supported versions
 

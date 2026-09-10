@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Box source system to allow access by the Box external content connector. For details on configuring these settings in the source system, see [Configure Box for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
+A source system administrator must have already configured your Box source system to allow access by the Box external content connector. For the required source system configuration steps, see [Configure Box for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-box-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

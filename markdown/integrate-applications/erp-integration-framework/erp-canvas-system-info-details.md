@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, information, software]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -25,7 +25,5 @@ For process details, see [View Zero Copy Connector for ERP software information]
 |Generation|The ERP system version, for example, SAP ECC or SAP S/4HANA 2021.|
 |Database type|Variety of database, for example, column store or row store.|
 |CPU architecture|CPU design and instruction set, for example, x86\_64.|
-|Unicode|If this option is selected, the system supports the international standard character set.|
-
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+|Unicode|Option that indicates whether the system supports the international standard character set.|
 

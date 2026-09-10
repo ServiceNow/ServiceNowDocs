@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-08-17"
 reading_time_minutes: 8
 breadcrumb: [Configure Service Level Agreement \(SLA\), Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -84,7 +84,7 @@ Flow
 
 </td><td>
 
-The flow to run when the SLA definition attaches to a Task record. Selecting a flow disables the **Workflow** field.
+The flow to run when the SLA definition attaches to a Task record. Selecting a flow disables the **Workflow** field. If retroactive start is enabled, a task SLA may already be breached when it attaches. By default, the flow does not run in this case. To change this behavior, set the **com.snc.sla.flow.run\_for\_breached** property to `true`.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Workflow
 
 </td><td>
 
-The workflow to run when the SLA definition attaches to a Task record. Selecting a workflow disables the **Flow** field.
+The workflow to run when the SLA definition attaches to a Task record. Selecting a workflow disables the **Flow** field. If retroactive start is enabled, a task SLA may already be breached when it attaches. By default, the workflow does not run in this case. To change this behavior, set the **com.snc.sla.workflow.run\_for\_breached** property to `true`.
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Defines the conditions under which the SLA is attached. From the **When to cance
 -   **Never** option: The SLA is never canceled.
  **Retroactive start**: Option to choose a date and time field from the task that provides the start time of the task SLA. If you select the **Retroactive start** check box, the **Set start to** field and the **Retroactive pause time** check box appear.
 
--   **Set start to** field: Offers the date and time fields available on the task type that this SLA definition applies to. For example, if you select **Retroactive start** on a Priority 1 SLA definition and choose **Created** in the **Set start to** field, then the SLA is attached with the start time that is the date and time from the **Created** field on the incident.
+-   **Set start to** field: Offers the date and time fields available on the task type that this SLA definition applies to. For example, if you select **Retroactive start** on a Priority 1 SLA definition and choose **Created**, then the SLA starts from the date and time in the **Created** field on the incident.
 -   **Retroactive pause time** check box: Enables the calculation of retroactive pause time on the specific SLA definition. For example, if you select **Retroactive start** on a Priority 1 SLA definition and then select the **Retroactive pause time** check box, the SLAs that have enabled retroactive start can recover before the pause time.
 
 **Note:** The **Retroactive pause time** check box is available only when the duration is a user-specified duration.

@@ -105,6 +105,22 @@ POA&amp;M attachments
 
 Upload a POA&amp;M JSON file if applicable. This section is optional. If provided, POA&amp;M items from this file are aggregated with the POA&amp;M items already present in the AR file.
 
+</td></tr><tr><td>
+
+Authorization boundary attachments.
+
+</td><td>
+
+Attach diagrams and other supporting documentation relevant to the authorization boundary, such as boundary assessment documents or architectural diagrams.
+
+</td></tr><tr><td>
+
+Authorization package documents.
+
+</td><td>
+
+Add specific authorization package documents.You can add the following files: SSP ReportSAP ReportSAR ReportATO LetterPOA&amp;M ReportExecutive Summary
+
 </td></tr></tbody>
 </table>6.  In the **User and Group Mapping** step, review the user and group mappings and update them if needed, then select **Next**.
 

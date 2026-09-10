@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-industrialprocessmanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -126,7 +126,33 @@ Zurich
 
 </td><td>
 
--   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=zurich&ft:locale=en-US)**
+-   **[Additional fields in the OT Subnet Mapping table](https://www.servicenow.com/docs/access?context=create-a-new-ot-subnet-mapping-record&family=zurich&ft:locale=en-US)**
+
+The following fields were added for equipment model entity mapping:
+
+    -   Subnet
+    -   Managed Network
+    -   VLAN ID
+-   **[OT Discovered Subnets table](https://www.servicenow.com/docs/access?context=automate-mappings-between-ot-assets-and-equipment-model-entity&family=zurich&ft:locale=en-US)**
+
+The OT Discovered Subnets table was added to the ServiceNow AI Platform and contains the discovered subnets in your OT network.
+
+To access the table, navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Industrial Process Manager** and select **OT Discovered Subnets**.
+
+-   **[Discovered Subnet value added to the OT Subnet Mapping table](https://www.servicenow.com/docs/access?context=create-a-new-ot-subnet-mapping-record&family=zurich&ft:locale=en-US)**
+
+A Discovered Subnet value was added to the **Type** field in the OT Subnet Mapping table on the ServiceNow AI Platform to identify which mappings were done with discovered subnets.
+
+-   **[Updated OT device mapping to equipment model entities in the Industrial Workspace](https://www.servicenow.com/docs/access?context=map-ot-devices-in-iw&family=zurich&ft:locale=en-US)**
+
+You can now map OT devices to multiple equipment model entities. When you navigate to the Equipment Model Manager and select the **Mapped OT Devices** tab in an equipment model record, you can select the **Map OT Device** button. In the Add OT Devices page, you can select the devices you want to map in both the **Unmapped OT Devices** tab and the **All Devices** tab. Then you can select the equipment model entities to map your devices to.
+
+-   **[Location Validation Map tab](https://www.servicenow.com/docs/access?context=create-location-hierarchy-isa&family=zurich&ft:locale=en-US)**
+
+The **Location Validation Map** tab was added to the Equipment Model Manager of the Industrial Workspace so you can view a node map that displays the location hierarchy and validation status of an equipment model entity.
+
+
+ -   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=zurich&ft:locale=en-US)**
 
 Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
 
@@ -137,7 +163,33 @@ Australia
 
 </td><td>
 
--   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US)**
+-   **[Additional fields in the OT Subnet Mapping table](https://www.servicenow.com/docs/access?context=create-a-new-ot-subnet-mapping-record&family=australia&ft:locale=en-US)**
+
+The following fields were added for equipment model entity mapping:
+
+    -   Subnet
+    -   Managed Network
+    -   VLAN ID
+-   **[OT Discovered Subnets table](https://www.servicenow.com/docs/access?context=automate-mappings-between-ot-assets-and-equipment-model-entity&family=australia&ft:locale=en-US)**
+
+The OT Discovered Subnets table was added to the ServiceNow AI Platform and contains the discovered subnets in your OT network.
+
+To access the table, navigate to **All** &gt; **Industrial Workspace Admin** &gt; **Industrial Process Manager** and select **OT Discovered Subnets**.
+
+-   **[Discovered Subnet value added to the OT Subnet Mapping table](https://www.servicenow.com/docs/access?context=create-a-new-ot-subnet-mapping-record&family=australia&ft:locale=en-US)**
+
+A Discovered Subnet value was added to the **Type** field in the OT Subnet Mapping table on the ServiceNow AI Platform to identify which mappings were done with discovered subnets.
+
+-   **[Updated OT device mapping to equipment model entities in the Industrial Workspace](https://www.servicenow.com/docs/access?context=map-ot-devices-in-iw&family=australia&ft:locale=en-US)**
+
+You can now map OT devices to multiple equipment model entities. When you navigate to the Equipment Model Manager and select the **Mapped OT Devices** tab in an equipment model record, you can select the **Map OT Device** button. In the Add OT Devices page, you can select the devices you want to map in both the **Unmapped OT Devices** tab and the **All Devices** tab. Then you can select the equipment model entities to map your devices to.
+
+-   **[Location Validation Map tab](https://www.servicenow.com/docs/access?context=create-location-hierarchy-isa&family=australia&ft:locale=en-US)**
+
+The **Location Validation Map** tab was added to the Equipment Model Manager of the Industrial Workspace so you can view a node map that displays the location hierarchy and validation status of an equipment model entity.
+
+
+ -   **[Admin role dependency](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US)**
 
 Several new granular admin roles were added to enable developers to complete administrative configuration tasks without requiring the full admin role.
 
@@ -219,7 +271,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -227,7 +282,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

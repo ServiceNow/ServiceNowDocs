@@ -60,6 +60,8 @@ Tab descriptions for the Invoice Line form, including details, exceptions, and g
 
 [Accounts Payable Operations properties]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

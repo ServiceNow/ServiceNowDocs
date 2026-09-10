@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-mcpserverconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,17 +91,7 @@ The ServiceNow AI Platform now brings you an AI native experience with three lic
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
 
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
-
-With this release, you can now create tools from additional categories like, Knowledge graphs, Subflow, Action, and REST APIs and Now Assist skills.
-
-
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
-
-With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
-
-
--   **[Get started with the preconfigured Quickstart Server](https://www.servicenow.com/docs/access?context=exploring-mcp-server-console&family=zurich&ft:locale=en-US)**
+ -   **[Get started with the preconfigured Quickstart Server](https://www.servicenow.com/docs/access?context=exploring-mcp-server-console&family=zurich&ft:locale=en-US)**
 
 Learn about MCP Server Console and connecting MCP Server Console clients to a ServiceNow instance with the preconfigured Quickstart Server. The Quickstart Server includes tools for looking up and summarizing incident and case records.
 
@@ -124,6 +114,14 @@ Australia
 
 </td><td>
 
+-   **[Monitoring dashboard](https://www.servicenow.com/docs/access?context=monitoring-dashboard&family=australia&ft:locale=en-US)**
+
+Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
+
+-   **[Create client authorizations](https://www.servicenow.com/docs/access?context=create-client-authorizations&family=australia&ft:locale=en-US)**
+
+Explore an alternate way of OAth creation with Client Authorization option by integrating OAuth Client registration directly within the MCP Server Console. This feature eliminates the need to switch between different consoles.
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
@@ -131,11 +129,6 @@ The ServiceNow AI Platform now brings you an AI native experience with three lic
     -   Foundation: AI agents and skills to deliver insights
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
-
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=australia&ft:locale=en-US)**
-
-With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -275,7 +268,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
+**Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
+
 
 </td></tr><tr><td>
 
@@ -283,7 +281,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=australia&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+
+**Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

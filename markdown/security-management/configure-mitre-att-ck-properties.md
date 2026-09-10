@@ -85,7 +85,7 @@ Time\(in hours\) to calculate "CVE - VUL Count"\[sn\_ti.time\_to\_calculate\_cve
 The scheduled time in hours to calculate the CVE and VUL information.Default value: 24
 
 </td></tr></tbody>
-</table>3.  Click **Save**.
+</table>3.  Select **Save**.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)

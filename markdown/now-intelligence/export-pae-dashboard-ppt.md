@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-pae-dashboard-ppt.html
 release: australia
 topic_type: task
-last_updated: "2026-06-10"
-reading_time_minutes: 4
+last_updated: "2026-08-14"
+reading_time_minutes: 5
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,11 +16,11 @@ Export a Platform Analytics experience dashboard to PDF or Microsoft PowerPoint.
 
 ## Before you begin
 
-Role required: Any, if the user has access to the dashboard.
+Role required: Any, as long as the user has access to the dashboard.
 
 **Note:**
 
--   This task only applies to dashboards created in the inline editor. Technical dashboards do not have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-vs-in-line-dashboards.md).
+-   This task only applies to dashboards created in the inline editor. Technical dashboards don't have the **Export** option in the **More actions** menu. For more information, see [Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-vs-in-line-dashboards.md).
 -   Dashboards can be exported only as PowerPoint and PDF, however, in a dashboard some of the data visualizations can't be exported, as shown in the following table:
 
 <table id="table_rfj_tf5_zjc"><thead><tr><th>
@@ -75,7 +75,8 @@ PowerPoint \(PPT\)
 </td></tr></tbody>
 </table>-   Only the supported data visualizations and Lists are exported, not Headings or Rich Text or any other element.
 -   Content is not necessarily exported in the order it appears on the dashboard.
--   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
+-   Because the length of a list can't be predicted, list visualizations are intentionally placed at the end of exported PDFs.
+-   Depending on your entitlements, you may be able export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
 -   Dashboards exported to PowerPoint include the title above and the description below each visualization in an editable format if this information is provided in the source visualization.
 
 -   You can also export individual data visualizations from a dashboard to a PNG or JPEG file. For more information, see [Download a data visualization from a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-data-vis-from-dboard.md).
@@ -92,11 +93,11 @@ PowerPoint \(PPT\)
 
 4.  In **File type**, select PDF or PowerPoint.
 
-    1.  If you're exporting to PDF, specify the page format and orientation.
+5.  If you're exporting to PDF, specify the page format and orientation.
 
-        Any filter values set on the dashboard at the time of export apply to the export.
+    **Note:** For PowerPoint, the export creates a separate slide for each visualization in the dashboard, not one slide for each tab on the dashboard.
 
-    2.  If you're exporting to PowerPoint, you can set the following options:
+6.  Set the following options:
 
 <table id="table_vxw_nnz_d2c"><thead><tr><th>
 
@@ -120,15 +121,17 @@ Export all visualizations in the top layout
 
 </td><td>
 
-If the dashboard has more than one tab and you are not exporting them all, you can set whether to export any visualizations that are in the layout outside the tabs.\[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
+If the dashboard has more than one tab and you aren't exporting all of the tabs, you can set whether to export any visualizations that are in the layout outside the tabs.\[Omitted image "db-top-level-layout-mini.png"\] Alt text: Dashboard with visualizations in a tab and in the top layout.
+
+Only the supported data visualizations and Lists \(PDF\) are exported in the top layout. Headings, Rich Text, and other element aren't supported.
 
 </td></tr><tr><td>
 
-Select tabs:
+Select tabs
 
 </td><td>
 
-If you are not exporting all tabs, select each tab to export.
+If you aren't exporting all tabs, select which tabs to export.
 
 </td></tr><tr><td>
 
@@ -139,16 +142,14 @@ Export with applied filters
 You can select whether to apply to the export any values that have been set in filters on the dashboard. For example, say your dashboard has an Incident Category filter and a single-score visualization showing the number of incidents. With nothing chosen in the filter, the visualization shows 6884 incidents. With the Software category chosen in the filter, it shows only 5278 incidents. Now you export the dashboard with Software chosen in the filter. If **Export with applied filters** is on, the slide for that visualization shows 5278 incidents; with it turned off, it shows 6884.Default: On
 
 </td></tr></tbody>
-</table>        **Note:** For PowerPoint, the export creates a separate slide for each visualization in the dashboard, not one slide for each tab on the dashboard.
-
-5.  Choose the delivery method, **Download file** or **Send via email**.
+</table>7.  Choose the delivery method, **Download file** or **Send via email**.
 
     |Delivery method|Result|
     |---------------|------|
-    |Download file|When the export is complete, you are prompted to download the export.|
+    |Download file|When the export is complete, you're prompted to download the export.|
     |Send via email|Choose the users to send it to. You can select only users on your instance. Security constraints may restrict who you can email. You must specify a subject, and you can add a message.|
 
-6.  Select **Export**.
+8.  Select **Export**.
 
 
 ## Result

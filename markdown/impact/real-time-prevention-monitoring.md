@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/real-time-prevention-monitoring.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [real-time prevention, AI code fix, Otto, Scan Engine, technical debt prevention]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
@@ -98,9 +98,9 @@ If you believe the finding is a false positive or the code has a valid business 
 </td></tr></tbody>
 </table>5.  If you chose to generate an AI-suggested fix, review the code comparison that appears.
 
-    \[Omitted image "AI-code-review-compare.png"\] Alt text: Code comparison view showing original code on the left and AI-suggested changes on the right with color-coded differences.
+    \[Omitted image "AI-code-review-compare.png"\] Alt text: Code comparison view showing original code and AI-suggested changes with color-coded differences.
 
-    Your original code displays on the left and the suggested changes on the right. Changes are color-coded, green indicates added code and pink indicates removed code. The script editor is read-only until you accept or reject the fix.
+    Your original code displays in one column and the suggested changes in another. Changes are color-coded: green indicates added code and pink indicates removed code. The script editor is read-only until you accept or reject the fix.
 
 6.  Decide how to proceed with the AI-suggested fix.
 

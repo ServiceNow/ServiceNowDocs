@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-releaseops-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 If you have customized the ReleaseOps sample playbooks, the runbook task playbook activity will not automatically populate when you upgrade to Australia.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -100,7 +103,7 @@ Create a deployment request for a scheduled release to contain your update set a
 Specify the details for your release, including the target instance that the changes deploy to and when the release should occur.
 
 
--   **[ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
+ -   **[ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
 
 Starting with version 1.2.1 of ReleaseOps, you can use guided setup to help simplify the initial configuration process.
 
@@ -126,14 +129,6 @@ Define the type of runbook task and when the task should occur in your ReleaseOp
 -   **[Set Automated Test Framework \(ATF\) code coverage](https://www.servicenow.com/docs/access?context=set-atf-code-coverage-threshold&family=australia&ft:locale=en-US)**
 
 Leverage Automated Test Framework \(ATF\) code coverage in ReleaseOps. ATF code coverage enables you to determine what percentage of code in a deployment request is covered by ATF test suites. You can define the threshold for ATF test failure and see what lines of code were covered by the ATF test suites.
-
--   **[Generate an update set description](https://www.servicenow.com/docs/access?context=generate-update-set-description&family=australia&ft:locale=en-US)**
-
-Generate update descriptions using the release lifecycle documentation AI agent.
-
--   **[Generate release notes](https://www.servicenow.com/docs/access?context=generate-release-notes&family=australia&ft:locale=en-US)**
-
-Generate release notes using the release lifecycle documentation AI agent.
 
 
 </td></tr></tbody>
@@ -242,7 +237,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ReleaseOps by requesting it from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+
 
 </td></tr><tr><td>
 
@@ -250,7 +248,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -271,7 +272,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
+
 
 </td></tr><tr><td>
 
@@ -279,7 +283,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -392,7 +399,7 @@ Zurich
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
- See [Release Ops](https://www.servicenow.com/docs/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
+ See [ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -405,7 +412,7 @@ Australia
 -   Leverage Automated Test Framework \(ATF\) code coverage to improve the efficacy of your ATF test suites.
 -   Generate update set descriptions and release notes using the release lifecycle documentation AI agent.
 
- See [Release Ops](https://www.servicenow.com/docs/access?context=releaseops-landing&family=australia&ft:locale=en-US) for more information.
+ See [ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

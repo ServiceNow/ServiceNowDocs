@@ -1,5 +1,5 @@
 ---
-title: Exploring AI in LEAP
+title: AI in LEAP
 description: AI-powered features in LEAP help administrators generate resolution steps, create problem records, publish knowledge base articles, build playbooks, and discover and execute Ansible automations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-ai-in-leap.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, generative AI, LEAP, AI agent, resolution steps, playbook
 breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Exploring AI in LEAP
+# AI in LEAP
 
 AI-powered features in LEAP help administrators generate resolution steps, create problem records, publish knowledge base articles, build playbooks, and discover and execute Ansible automations.
 
@@ -67,7 +67,7 @@ A LEAP administrator wants to convert a recurring incident pattern into a proble
 
 </td><td>
 
--   [LEAP AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
+-   [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/leap-ai-agent.md)
 -   [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
 -   [Generate LEAP knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.md)
 -   [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)

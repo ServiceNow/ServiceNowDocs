@@ -36,7 +36,7 @@ The goal of this example is to display a default value for both the schedule pro
 The example in this topic sets the values in different ways:
 
 -   The schedule profile default value is set directly on the Schedule Profile property and applies to all users without any conditions. You might want to do this to limit the use of virtual resources to specific schedule, such as during business hours only, for all users.
--   The business service default value is set using an action on a blueprint rule. You might want to use a rule to set a default value when you want the value to be the default only when certain conditions are met. For example, if the user belongs to a user group that deals with only one business service, set the value for the user so they do not have to sort through a long list of all the business services in your organization.
+-   The business service default value is set using an action on a blueprint rule. You might want to use a rule to set a default value when you want the value to be the default only when certain conditions are met. For example, if the user belongs to a user group that deals with only one business service, set the value for the user. This prevents them from sorting through a long list of all the business services in your organization.
 
 ## Procedure
 
@@ -56,7 +56,7 @@ The example in this topic sets the values in different ways:
 
     Notice that the **Pool** field on the **Type Specifications** tab specifies the pool from which the values for the schedule profile are derived: ScheduleProfilePool.
 
-    The **ScheduleProfilePool** pool specifies the **All** filter, which returns the values in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table. These values are static text values, which means that you can specify the exact text value for the name of the schedule profile that you want to make the default. \[Omitted image "schedule-profile-pool.png"\] Alt text: The ScheduleProfile pool
+    The **ScheduleProfilePool** pool specifies the **All** filter, which returns the values in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table. These values are static text values. You can specify the exact text value for the name of the schedule profile that you want to make the default. \[Omitted image "schedule-profile-pool.png"\] Alt text: The ScheduleProfile pool
 
 5.  On the **Default Value** tab of the ScheduleProfile property form, enter the text that matches the value in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table.
 

@@ -45,5 +45,5 @@ Verify that the value of the **Reporting** field is set to **Off** for the subfl
 
 To configure the external credential vault in RPA Hub, see [Steps to configure an external credential vault in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/config-ext-cred-rpa.md).
 
-Outbound request logging enables you to understand what third party services your instance accesses and the volume of outbound requests. Additionally, logging can provide valuable information when debugging outbound integrations. For more information about system logging or outbound logging, see  and .
+Outbound request logging enables you to understand what third party services your instance accesses and the volume of outbound requests. Additionally, logging can provide valuable information when debugging outbound integrations. For more information about system logging or outbound logging, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-configure.md) and [Outbound web service logging properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-properties.md).
 

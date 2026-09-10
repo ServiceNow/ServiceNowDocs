@@ -1,18 +1,18 @@
 ---
 title: Sales CRM for Telecommunications release notes
-description: The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+description: The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-17"
-reading_time_minutes: 4
+reading_time_minutes: 3
 ---
 
 # Sales CRM for Telecommunications release notes
 
 The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 
-## Sales CRM for Telecommunications highlights for the Australia release
+## About Sales CRM for Telecommunications
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -37,18 +37,44 @@ Australia Early Availability
 
 See [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/sales-crm.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+    Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## June 2026
+
+The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-task-template-generation-somt.md)**
 
     Use this agent to process an uploaded image file, extract task dependencies and store them as a task plan template for the given specification.
 
 
-[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+## April 2026
+
+The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -64,7 +90,11 @@ See [Sales Customer Relationship Management for Telecommunications](https://raw.
     Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
 
 
-Australia Early Availability
+## Australia
+
+The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Task plan templates driven order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/somt-flow-action-catalog-task.md)**
 
@@ -74,53 +104,4 @@ Australia Early Availability
 
     Use this agent to create a move order capture journey. The agent collects details such as the customer’s name, current service location, product offering, and new service address.
 
-
-## Changed in this release
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
-## Activation information
-
-Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
-
-    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
-
-
--   **[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/pricing-management.md)**
-
-    The Pricing Management application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales Customer Relationship Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
-
--   **[Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt.md)**
-
-    The Sales Agreement application captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    The AI Admin Hub console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface in the Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
--   **[TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md)**
-
-    Get the details of ServiceNow® implementation of TM Forum \(TMF\) APIs for Telecommunications, Media, and Technology \(TMT\) products.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

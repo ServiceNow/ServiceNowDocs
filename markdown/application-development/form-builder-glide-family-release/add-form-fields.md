@@ -44,15 +44,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Certain field types are only supported in Core UI. Fields are flagged with an exclamation icon \(!\) to indicate an unsupported type.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d251481e200">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d250670e200">
 
 Option
 
-</th><th align="left" id="d251481e203">
+</th><th align="left" id="d250670e203">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d251481e209">
+</th></tr></thead><tbody><tr><td id="d250670e209">
 
 **Add an existing field to a form**
 
@@ -65,7 +65,7 @@ Action
 2.  In the form editor, drag one or more selected fields to the desired location and then move them around as necessary.
 
 
-</td></tr><tr><td id="d251481e229">
+</td></tr><tr><td id="d250670e229">
 
 **Add a new field to a form**
 
@@ -84,7 +84,7 @@ A confirmation dialog displays. Select **Done** to close it, or select **Add ano
 
 The field appears at the top of the Fields list and can be dragged onto the form editor.
 
-</td></tr><tr><td id="d251481e296">
+</td></tr><tr><td id="d250670e296">
 
 **Remove field from form**
 

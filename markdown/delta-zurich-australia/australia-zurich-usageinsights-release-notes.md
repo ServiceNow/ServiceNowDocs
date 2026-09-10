@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-usageinsights-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -86,6 +86,18 @@ Australia
 
 </td><td>
 
+-   **[Conversations](https://www.servicenow.com/docs/access?context=conversations&family=australia&ft:locale=en-US)**
+
+Explore the conversations view by ServiceNow Otto chat activity. It reports engagement metrics such as total chat users and live agent transfers, chat-related events, from starting a conversation to rendering a chat response to selecting a chat action.
+
+-   **[Create cross-application conversion funnels](https://www.servicenow.com/docs/access?context=create-conversion-funnel-for-cross-application&family=australia&ft:locale=en-US)**
+
+Create and use cross-application conversion funnels to target all applications or one specific application, so that consecutive steps can follow from one application into another.
+
+-   **[Page properties analytics](https://www.servicenow.com/docs/access?context=page-properties-analytics&family=australia&ft:locale=en-US)**
+
+Filter a page detail page by one or more page properties to analyse how usage differs across page attributes such as owner, category, or load time.
+
 -   **[Bulk export of User Experience Analytics data via REST API](https://www.servicenow.com/docs/access?context=data-export-restapi&family=australia&ft:locale=en-US)**
 
 Use Usage Insights data export store app to deliver an asynchronous REST API endpoint that processes export requests in the background and streams results as JSON batches to a dedicated Kafka topic. Unlike manual export from the Usage Insights dashboard, data export is designed for programmatic, large-volume, recurring data movement scenarios.
@@ -122,7 +134,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -215,7 +230,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -223,7 +241,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

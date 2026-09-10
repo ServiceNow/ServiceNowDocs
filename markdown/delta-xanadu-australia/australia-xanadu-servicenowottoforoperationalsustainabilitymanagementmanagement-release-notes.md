@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,11 +99,6 @@ Zurich
 
 </td><td>
 
--   **[Use agentic workflows Now Assist for ESG](https://www.servicenow.com/docs/access?context=use-agentic-ai-in-now-assist-for-esg-management&family=zurich&ft:locale=en-US)**
-
-The carbon calculations agentic workflow acts as a copilot for sustainability teams, streamlining carbon accounting workflows. It intelligently selects metric definitions and emission factors from the library, generates calculated metric definitions, and enables user review and adjustments before final use.
-
-
 -   **[Extract data from utility invoices](https://www.servicenow.com/docs/access?context=extract-data-from-utility-invoices&family=zurich&ft:locale=en-US)**
 
 ServiceNow Otto for Operational Sustainability with document intelligence for utility bills, designed to streamline your ESG metric data collection and reporting. Here are the key highlights:
@@ -159,11 +154,8 @@ Zurich
 
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
-
-
--   ****
--   ****
 
 </td></tr><tr><td>
 
@@ -298,7 +290,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for Operational Sustainability by requesting it from the ServiceNow Store. 
+
 
 </td></tr><tr><td>
 
@@ -527,13 +522,22 @@ Zurich
 
 -   Review changes to Now Assist usage measurement.
 
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
+ [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
-Accelerate carbon reporting with AI-powered calculations, validation, and insights for Scope 3 emissions.
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
-Automate metric data collection from utility invoices by extracting key information using the AI-driven document intelligence for utility invoices.
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
-See [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US) for more information.
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+
+ Accelerate carbon reporting with AI-powered calculations, validation, and insights for Scope 3 emissions.
+
+ [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
+
+ Automate metric data collection from utility invoices by extracting key information using the AI-driven document intelligence for utility invoices.
+
+ See [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

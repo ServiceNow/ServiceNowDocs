@@ -38,7 +38,7 @@ Role required: sn\_slm.contact
 
 5.  On the Update banking details form, fill in the fields.
 
-    If you are adding a new account, you can auto-populate the Bank name, Account holder name, and Account number fields by selecting the **Extract values from the attachment to auto-populate from fields** checkbox. For more information about the form fields and descriptions, see [Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) \[Omitted image "update-banking-details-supplier-collaboration-portal.png"\] Alt text: Selected option for adding a new account.
+    If you are adding a new account, you can auto-populate the Bank name, Account holder name, and Account number fields by selecting the **Extract values from the attachment to auto-populate from fields** checkbox. For more information about the form fields and descriptions, see [Fields in the Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) \[Omitted image "update-banking-details-supplier-collaboration-portal.png"\] Alt text: Selected option for adding a new account.
 
 6.  Select **Submit**.
 
@@ -71,6 +71,8 @@ After the supplier manager approves the case, the banking details are updated in
 [Request elevated access]()
 
 [Update default supplier]()
+
+[Update tax information using the supplier catalog]()
 
 [Request something else using the supplier catalog]()
 

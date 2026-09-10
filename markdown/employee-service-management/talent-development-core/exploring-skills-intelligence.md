@@ -8,7 +8,7 @@ product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 

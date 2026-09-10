@@ -45,6 +45,8 @@ As an Operational Buyer, view a purchase order exception in the Purchase Order M
 The Details page is displayed when you select the link of a purchase order exception.
 -   **[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)**  
 View the purchase order exception record in Source-to-Pay Workspace to take action on your assigned task.
+-   **[View a purchase order confirmation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purchase-order-confirmation.md)**  
+As an Operational Buyer, view a purchase order confirmation associated with a purchase order.
 
 **Parent Topic:**[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
 

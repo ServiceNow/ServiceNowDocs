@@ -38,7 +38,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-Amazon EBS spoke v1.0.2 is the latest version.
+Amazon EBS spoke v1.0.2 is the latest version. For version history of the spoke, see [Amazon EBS spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-ebs.html).
 
 ## Supported version
 

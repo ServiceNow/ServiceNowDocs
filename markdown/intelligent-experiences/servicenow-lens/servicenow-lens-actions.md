@@ -410,11 +410,11 @@ Option to attach the captured images to the record that is auto-filled using Ser
 </td></tr></tbody>
 </table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d53771e948">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d59125e949">
 
 Method
 
-</th><th align="left" id="d53771e951">
+</th><th align="left" id="d59125e952">
 
 Steps
 
@@ -425,11 +425,11 @@ Steps
 </td><td>
 
 Select **Enable Roles** and perform the following steps.1.  Select the Unlock Roles \(\[Omitted image "lens-lock-icon.png"\] Alt text: Roles Unlock icon.\) icon.
-2.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Roles icon.\) and then select a role.
+2.  Select the Look up icon \[Omitted image "lens-magnify-icon.png"\] Alt text: and then select a role.
 
 Repeat the step to add more roles.
 
-3.  Select the Lock Roles icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
+3.  Select the Lock Roles icon \[Omitted image "lens-lock-roles-icon.png"\] Alt text:.
 
 
 </td></tr><tr><td id="assign-users-to-lens-action">
@@ -438,12 +438,12 @@ Repeat the step to add more roles.
 
 </td><td>
 
-1.  To assign yourself, select the Add Me icon \(\[Omitted image "lens-add-me-icon.png"\] Alt text: Add Me icon.\).
+1.  To assign yourself, select the Add Me icon \[Omitted image "lens-add-me-icon.png"\] Alt text:.
 2.  To assign one or more users, select the Unlock Users \(\[Omitted image "lens-lock-icon.png"\] Alt text: Roles Lock icon.\) icon.
-3.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Roles icon.\) and then select a user.
+3.  Select the Look up icon \[Omitted image "lens-magnify-icon.png"\] Alt text: and then select a user.
 4.  Repeat the step to add more users.
 
-5.  Select the Lock Users icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
+5.  Select the Lock Users icon \[Omitted image "lens-lock-roles-icon.png"\] Alt text:.
 
 
 </td></tr><tr><td id="assign-groups-to-lens-action">
@@ -452,12 +452,12 @@ Repeat the step to add more roles.
 
 </td><td>
 
-1.  Select the Unlock Groups \(\[Omitted image "lens-lock-icon.png"\] Alt text: Groups Unlock icon.\) icon.
-2.  Select the Look up icon \(\[Omitted image "lens-magnify-icon.png"\] Alt text: Lookup Groups icon.\) and then select a group.
+1.  Select the Unlock Groups \[Omitted image "lens-lock-icon.png"\] Alt text: icon.
+2.  Select the Look up icon \[Omitted image "lens-magnify-icon.png"\] Alt text: and then select a group.
 
 Repeat the step to add more groups.
 
-3.  Select the Lock Groups icon \(\[Omitted image "lens-lock-roles-icon.png"\] Alt text: Lock Roles icon.\).
+3.  Select the Lock Groups icon \[Omitted image "lens-lock-roles-icon.png"\] Alt text:.
 
 
 </td></tr></tbody>
@@ -476,15 +476,15 @@ Repeat the step to add more groups.
 
 10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d53771e1161">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d59125e1154">
 
 Assignment type
 
-</th><th align="left" id="d53771e1164">
+</th><th align="left" id="d59125e1157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d53771e1170">
+</th></tr></thead><tbody><tr><td id="d59125e1163">
 
 **Roles**
 
@@ -495,7 +495,7 @@ Steps
 3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d53771e1204">
+</td></tr><tr><td id="d59125e1197">
 
 **Users**
 
@@ -506,7 +506,7 @@ Steps
 3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d53771e1233">
+</td></tr><tr><td id="d59125e1226">
 
 **Groups**
 
@@ -822,15 +822,15 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
     \[Omitted image "lens-excel-mapping-file-upload-window.png"\] Alt text: Excel file upload window.
 
-<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d53771e2341">
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d59125e2334">
 
 File upload method
 
-</th><th align="left" id="d53771e2344">
+</th><th align="left" id="d59125e2337">
 
 File upload procedure
 
-</th></tr></thead><tbody><tr><td id="d53771e2350">
+</th></tr></thead><tbody><tr><td id="d59125e2343">
 
 **Add file**
 
@@ -842,12 +842,12 @@ File upload procedure
 **Note:**
 
     -   You can upload only one Excel sheet.
-    -   **Tip:** To remove an Excel sheet that you attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
+    -   **Tip:** To remove an Excel sheet that you attached, select the Remove file icon \[Omitted image "lens-file-attch-remove.png"\] Alt text:.
 
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
 
-</td></tr><tr><td id="d53771e2397">
+</td></tr><tr><td id="d59125e2389">
 
 **Drag and drop files**
 
@@ -859,7 +859,7 @@ File upload procedure
 **Note:**
 
     -   You can drag and drop only one Excel sheet.
-    -   **Tip:** To remove an Excel sheet that you've attached, select the Remove file icon \(\[Omitted image "lens-file-attch-remove.png"\] Alt text: Remove file\).
+    -   **Tip:** To remove an Excel sheet that you've attached, select the Remove file icon \[Omitted image "lens-file-attch-remove.png"\] Alt text:.
 
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 

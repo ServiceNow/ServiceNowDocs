@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-BigFix Inventory spoke v1.6.0 is the latest version.
+BigFix Inventory spoke v1.6.0 is the latest version. For version history of the spoke, see [BigFix Inventory spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-bigfix-inventory.html).
 
 ## Spoke dependencies
 

@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-date-
 release: australia
 topic_type: reference
 last_updated: "2026-05-07"
-reading_time_minutes: 3
-breadcrumb: [Fields, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 4
+breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Date and time field fields
@@ -109,6 +109,8 @@ var dayFraction = (endDay - startDay + 1) / daysInMonth;
 totalMonths += dayFraction;
 return Math.floor(totalMonths * 1000) / 1000;
 ```
+
+**Parent Topic:**[Quote transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-fields.md)
 
 **Related topics**  
 

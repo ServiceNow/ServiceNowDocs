@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI, AI Agents, agentic AI, SLO AI Agent, SLO agentic AI, supplier onboarding playbook, AI driven supplier onboarding, supplier data steward, supplier document strategy generator]
 breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -58,6 +58,8 @@ Supplier data steward AI agent
 **Note:** Duplicate supplier onboarding requests can be resolved from the ServiceNow Otto panel by updating the legal name or the email domain of the primary contact's email address.
 
 -   Handles supplier onboarding by creating an invitation case for the supplier contact and assigning the necessary supplier tasks. Additionally, it ensures that the supplier case status is updated appropriately in the system.
+-   Starting from the September 2026 release, leverages Web search results to generate a supplier scorecard highlighting key strengths, positive indicators, and potential risk signals.
+-   Starting from the September 2026 release, if Craft is configured, the workflow leverages the Craft integration to generate a comprehensive, normalized supplier scorecard and risk assessment. It provides a structured evaluation of the supplier’s overall profile and associated risk factors.
 
 </td></tr><tr><td>
 
@@ -112,9 +114,12 @@ AI driven primary data validation
 
 </td><td>
 
-This activity is triggered during the registration stage to validate banking details submitted by the supplier contact. It cross-references the banking details against the information in the attached proof and highlights any discrepancies. **Note:** In case of discrepancies, supplier managers can reopen the banking information task. Supplier contacts can then update the required information.
+-   This activity is triggered during the registration stage to validate banking details submitted by the supplier contact. It cross-references the banking details against the information in the attached proof and highlights any discrepancies.
+-   Starting from the September 2026 release, if Relish is integrated, the supplier's banking information is further validated and synchronized with Relish.
 
-Supplier contacts can auto-populate the bank name, account holder name, and account number fields by selecting the **Extract values from the attachment to auto-populate form fields** checkbox.
+-   Supplier contacts can auto-populate the bank name, account holder name, and account number fields by selecting the **Extract values from the attachment to auto-populate form fields** checkbox.
+
+ **Note:** In case of discrepancies, supplier managers can reopen the banking information task. Supplier contacts can then update the required information.
 
 </td></tr></tbody>
 </table>The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen in real time.

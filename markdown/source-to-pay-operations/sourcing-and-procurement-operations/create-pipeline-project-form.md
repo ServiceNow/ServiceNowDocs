@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -274,6 +274,10 @@ The unique identifier of the previous related project or sourcing record, used f
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
 [SPO and Asset Management data model mappings]()
 
 [Primary data tables for Sourcing and Procurement Operations]()
@@ -281,4 +285,6 @@ The unique identifier of the previous related project or sourcing record, used f
 [Domain separation and Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 

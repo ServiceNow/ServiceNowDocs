@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing business role:
         1.  Select **Add**.
-        2.  In the Add business role window, select the business role and the relationship type between the business actor and the business role.
+        2.  In the Add business role window, select the business role. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a business role, select **New** and fill in the fields on the form. For field information, see [Create business role form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-new-business-role-form.md).
 

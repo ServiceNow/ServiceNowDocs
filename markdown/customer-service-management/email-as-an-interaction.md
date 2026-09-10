@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Email Interaction

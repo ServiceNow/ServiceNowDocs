@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforconfigurepricequotecpq-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -66,8 +66,6 @@ Release notes
 Zurich
 
 </td><td>
-
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
 -   **[Summarize a quote](https://www.servicenow.com/docs/access?context=summarize-quote&family=zurich&ft:locale=en-US)**
 
@@ -197,7 +195,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for CPQ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -342,9 +343,11 @@ Zurich
 
 </td><td>
 
-Summarize quote for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
 
-See [ServiceNow Otto for CPQ](https://www.servicenow.com/docs/access?context=now-assist-for-cpq-landing&family=zurich&ft:locale=en-US) for more information.
+ Summarize quote for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+
+ See [ServiceNow Otto for CPQ](https://www.servicenow.com/docs/access?context=now-assist-for-cpq-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

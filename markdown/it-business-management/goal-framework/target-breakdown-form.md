@@ -23,7 +23,7 @@ The form is available when the Goal Framework for SPM application is installed.
 |Breakdown period|Period of the target breakdown.|
 |Parent breakdown|Year of the target breakdown.|
 |Target|Parent target of the target breakdown.|
-|Status|Status of the target breakdown. The status can be **Red**, **Yellow**, or **Green**.|
+|Status|Status of the target breakdown. The status can be **Red**, **Yellow**, **Green**, or **No status**.|
 |Breakdown|Breakdown interval specified in the parent target.|
 |Planned target|Target value for the target breakdown.|
 |Actual|Actual value for the target breakdown.|

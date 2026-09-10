@@ -1,9 +1,9 @@
 ---
 title: Dispute Rules Content Pack for Mastercard release notes
-description: The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
+description: The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.The ServiceNow Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-06-15"
 reading_time_minutes: 6
 ---
@@ -12,46 +12,38 @@ reading_time_minutes: 6
 
 The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 
-## Dispute Rules Content Pack for Mastercard highlights for the Australia release
+## About Dispute Rules Content Pack for Mastercard
 
 -   Keep Mastercard dispute assessments compliant with updated chargeback ineligibility rules across the Authorization, Processing Errors, and Cardholder Disputes categories.
 -   Assess chargeback eligibility accurately using new data fields sourced from the Mastercard authorization and clearing APIs.
 
 See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Dispute Rules Content Pack for Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Dispute Rules Content Pack for Mastercard to Australia
+-   **Activation information**
 
-The Australia release adds new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance.
+    Install Dispute Rules Content Pack for Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Australia release
+-   **Upgrade information**
 
--   **[May Store Release: New data fields for Mastercard chargeback eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+    The Australia release adds new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance.
 
-    New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
+-   **Additional requirements**
 
-    New fields on the Financial Transaction Authorization table:
+    This application requires Financial Services Card Operations \(sn\_bom\_credit\_card\) to be installed.
 
-    -   `adviceReasonCode`
-    -   `banknetDate`
-    -   `merchantAdviceCode`
-    -   `originalMessageTypeIdentifier`
-    -   `pinServiceCode`
-    -   `retrievalReferenceNumber`
-    -   `stan`
-    -   `transactionAmountLocal`
 
-        **Note:** This field already exists in the Financial Transaction table and is being extended to the Financial Transaction Authorization table in this release.
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
 
-    -   `transactionAmountUsd`
-    -   `transmissionDateAndTime`
-    New fields on the Financial Transaction table:
+## July 2026
 
-    -   `businessServiceIdCode`
-    -   `cardDataInputCapability`
-    -   `cardholderAuthenticationCapability`
-    -   `servicecode`
+The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[July Store Release: New data field for Mastercard chargeback ineligibility rule assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
     A new Mastercard data field `programRegistrationId` has been added to the Financial Transaction table to support chargeback ineligibility rule evaluation for RC 4853 Cardholder Disputes sub-categories. The field is sourced from the Mastercard clearing API.
@@ -72,28 +64,7 @@ The Australia release adds new data fields to the Authorization and Financial Tr
     -   Installment Billing Dispute-Participating Countries \(RC 4850\)
     -   Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(RC 4854\)
 
-## Changed in this release
-
--   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
-
-    Determine the eligibility of a selected transaction for chargeback through chargeback eligibility rules transformed into technical formulas.
-
-    For May Store release, new ineligibility conditions have been added across all five existing RC 4808 Authorization sub-categories:
-
-    -   Required Authorization Not Obtained \(RANO\)
-    -   Expired Chargeback Protection Period \(ECPP\)
-    -   Stand-in or X-Code Approval after Issuer Decline \(SIXCAID\)
-    -   CAT 3 Devices \(CAT3D\)
-    -   Transit First Ride Risk Framework Claims \(TFRR\)
-    For May Store release, expanded eligibility rules for the following fraud dispute reason codes:
-
-    -   RC 4837 \(No Cardholder Authorization\)
-    -   RC 4849 \(Questionable Merchant Activity\)
-    -   RC 4870 \(Chip Liability Shift\)
-    -   RC 4871 \(Chip Liability Shift – Lost/Stolen/Never Received Issue \(NRI\) Fraud\)
--   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
-
-    Benefit from the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard with some modified questions and added hard stop alerts.
+### What's changed
 
 -   **[July Store Release: Build and update Mastercard chargeback ineligibility rules — Processing Errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
@@ -122,36 +93,67 @@ The Australia release adds new data fields to the Authorization and Financial Tr
     New ineligibility rule conditions have also been added for the Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(RC 4854\) sub-category.
 
 
-## Removed in this release
+### What's deprecated or removed
 
 For July store release, the sub-category RC 4834 — Late Presentment has been removed.
 
-## Activation information
+## Australia General Availability
 
-Install Dispute Rules Content Pack for Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 
-## Additional requirements
+### What's new
 
-This application requires Financial Services Card Operations \(sn\_bom\_credit\_card\) to be installed.
+-   **[May Store Release: New data fields for Mastercard chargeback eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
-## Related ServiceNow applications and features
+    New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
 
--   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/card-ops-landing-page.md)**
+    New fields on the Financial Transaction Authorization table:
 
-    The ServiceNow® Financial Services Card Operations application digitizes and automates the card operations of your financial institution, enabling quick processing of credit card applications and card transaction disputes.
+    -   `adviceReasonCode`
+    -   `banknetDate`
+    -   `merchantAdviceCode`
+    -   `originalMessageTypeIdentifier`
+    -   `pinServiceCode`
+    -   `retrievalReferenceNumber`
+    -   `stan`
+    -   `transactionAmountLocal`
 
--   **[Financial Services Credit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-credit-operations-landing-page.md)**
+        **Note:** This field already exists in the Financial Transaction table and is being extended to the Financial Transaction Authorization table in this release.
 
-    The ServiceNow® Financial Services Credit Operations application enables the management of credit cases and tasks that are used in ServiceNow® Financial Services Operations workflows.
+    -   `transactionAmountUsd`
+    -   `transmissionDateAndTime`
+    New fields on the Financial Transaction table:
 
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
+    -   `businessServiceIdCode`
+    -   `cardDataInputCapability`
+    -   `cardholderAuthenticationCapability`
+    -   `servicecode`
 
-    Enable the extension of tables from the Customer Service Management \(CSM\) application into the Financial Services Card Operations application.
+## Australia
 
--   ****
+The ServiceNow® Dispute Rules Content Pack for Mastercard application supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines. Dispute Rules Content Pack for Mastercard was enhanced and updated in the Australia release.
 
-    Visualize business process workflows in a simple, task-oriented view with the Playbooks for Customer Service Management \(CSM\) to verify consistent responses to commonly encountered situations.
+### What's changed
 
+-   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
 
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
+    Determine the eligibility of a selected transaction for chargeback through chargeback eligibility rules transformed into technical formulas.
+
+    For May Store release, new ineligibility conditions have been added across all five existing RC 4808 Authorization sub-categories:
+
+    -   Required Authorization Not Obtained \(RANO\)
+    -   Expired Chargeback Protection Period \(ECPP\)
+    -   Stand-in or X-Code Approval after Issuer Decline \(SIXCAID\)
+    -   CAT 3 Devices \(CAT3D\)
+    -   Transit First Ride Risk Framework Claims \(TFRR\)
+    For May Store release, expanded eligibility rules for the following fraud dispute reason codes:
+
+    -   RC 4837 \(No Cardholder Authorization\)
+    -   RC 4849 \(Questionable Merchant Activity\)
+    -   RC 4870 \(Chip Liability Shift\)
+    -   RC 4871 \(Chip Liability Shift – Lost/Stolen/Never Received Issue \(NRI\) Fraud\)
+-   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-rules-content-pack-for-mastercard-landing-page.md)**
+
+    Benefit from the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard with some modified questions and added hard stop alerts.
+
 

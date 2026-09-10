@@ -22,7 +22,7 @@ The product value overview surfaces operational and monetized performance data d
 
 \[Omitted image "product\_value.png"\] Alt text: Product Value
 
-**Note:** For more information on the product value dashboard, see .
+**Note:** For more information on the product value dashboard, see [View outcome performance on the product value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/manage-product-value.md).
 
 ## Product value side panel
 

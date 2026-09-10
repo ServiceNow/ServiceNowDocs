@@ -72,7 +72,7 @@ When you finish the Day-1 setup process, your cloud account might look like this
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in regions/ LDCs such as, North America \(US East, US West and Canada Central\), South America, Europe, Africa, Middle East and Asia Pacific, raise an access request to the required endpoints with GCP Support.
+    -   To discover resources in additional regions, raise an access request to the required endpoints. Contact GCP Support for access.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 11. Click a datacenter.

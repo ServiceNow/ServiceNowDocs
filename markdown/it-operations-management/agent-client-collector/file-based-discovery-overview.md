@@ -71,6 +71,10 @@ For filtering rules and performance safeguards, see [Archive file scanning filte
 
 -   **[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/running-process-based-discovery.md)**  
 Running process-based discovery extends File-Based Discovery \(FBD\) with process-based path detection, enabling the Agent Client Collector for Visibility Content agent to detect software running outside of standard configured scan directories.
+-   **[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/license-key-discovery.md)**  
+License key discovery in Agent Client Collector for Visibility Content automatically collects software license keys from the Windows registry on managed endpoints.
+-   **[Configure a license key discovery rule and write a parser script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-license-key-rule.md)**  
+Enable license key discovery to verify the legitimacy of your software installation. Set up support for a new vendor's license file format by creating a parser script and defining a matching rule.
 
 **Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

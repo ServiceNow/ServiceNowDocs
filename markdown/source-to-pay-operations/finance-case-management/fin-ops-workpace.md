@@ -16,6 +16,15 @@ breadcrumb: [Explore, Finance Case Management, Finance and Supply Chain applicat
 
 The Finance Operations Workspace is a single system to manage and prioritize work.
 
+The Finance Operations Workspace provides a dashboard and tools that enable you to do the following:
+
+-   Manage all finance cases and complete your actionable tasks
+-   View and respond to customer inquiries, requests, and case updates
+-   Collaborate on cases using interactions, such as chats and emails
+-   Create and maintain knowledge base articles to support case resolution
+
+The Finance Operations Workspace supports global search, which enables you to search for information using keywords. The search results include all the items that the keyword appears in, for example, cases, tasks, inquiries, interactions, or knowledge articles.
+
 -   **[Finance Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-ws-landing-page.md)**  
 As a Finance Specialist \(sn\_fin\_ops.specialist\), view a summary of the important items, your performance, and recent activities on your cases.
 -   **[Finance Operations Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-ws-list-page.md)**  

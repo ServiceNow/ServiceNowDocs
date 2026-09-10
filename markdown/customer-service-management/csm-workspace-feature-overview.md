@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace features
-description: CSM Configurable Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+title: CRM Workspace features
+description: CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-feature-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace features
+# CRM Workspace features
 
-CSM Configurable Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
+CRM Workspace provides several different tools and features that agents can use to assist customers, research issues, and resolve cases.
 
 <table id="table_csm_workspace_feature_overview"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Displays information that provides agents with a complete view of a customer's h
 
 </td><td>
 
-Agents see their assignments in their CSM Configurable Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
+Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Windows that overlay the main window content in a workspace. Agents can use mode
 
 </td><td>
 
-Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CSM Configurable Workspace and then use the templates to automatically the configured fields.
+Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CRM Workspace and then use the templates to automatically the configured fields.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Use the case action status feature so that agents can easily identify cases that
 </td></tr></tbody>
 </table>## Additional applications
 
-A number of additional applications are available for use with CSM Configurable Workspace.
+A number of additional applications are available for use with CRM Workspace.
 
 |Feature|Description|
 |-------|-----------|

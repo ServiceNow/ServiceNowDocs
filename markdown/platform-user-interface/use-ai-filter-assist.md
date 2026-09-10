@@ -32,8 +32,8 @@ Role required: workspace\_user
 
 3.  Select one of the following options from the menu.
 
-    -   Select **Add to existing filters** to add additional conditions onto the filter that's currently applied.
-    -   Select **Edit existing filters** to refine the filter that's currently applied.
+    -   Select **Add to current filters** to add additional conditions onto the filter that's currently applied.
+    -   Select **Edit current filters** to refine the filter that's currently applied.
     -   Select **Start new** to generate a new filter.
 4.  Create a query with everyday language using one of the following options.
 

@@ -40,7 +40,7 @@ The system uses watermarks and reference IDs embedded in outbound email threads 
 
 ## Agent notification
 
-When a reply is linked to an open case, the agent assigned to that case receives a notification via the bell icon in the CSM Configurable Workspace. Notifications are sent regardless of which valid open state the case is in. The reply appears in the case activity stream.
+When a reply is linked to an open case, the agent assigned to that case receives a notification via the bell icon in the CRM Workspace. Notifications are sent regardless of which valid open state the case is in. The reply appears in the case activity stream.
 
 For a complete list of routing scenarios and system actions, see [Email reply linking scenarios for closed interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-email-reply-linking-scenarios.md).
 

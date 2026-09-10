@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/use-ai-capabilities-in-custom-apps.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-04"
+last_updated: "2026-08-13"
 reading_time_minutes: 4
-keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, Now Assist for creator, app generation, code generation, app summarization, UI generation, develop apps]
+keywords: [ServiceNow Otto, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, ServiceNow Otto for App Engine, custom app, ServiceNow Otto for Creator, code generation, app summarization, UI generation, develop apps]
 breadcrumb: [Building applications]
 ---
 
@@ -33,13 +33,13 @@ For more information, see [Agentic development on the ServiceNow AI Platform](ht
 
 ## ServiceNow Otto for Creator
 
-ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient. You can use the generative AI skills available with ServiceNow Otto for Creator, such as app generation, flow generation, and UI generation. ServiceNow Otto for Creator also includes Build Agent, an autonomous AI agent that can develop full-stack applications ready for deployment through conversations using natural language.
+ServiceNow Otto for Creator includes generative and agentic AI capabilities that can make developing on the ServiceNow AI Platform more efficient. You can use the generative AI skills available with ServiceNow Otto for Creator, such as app summary generation, flow generation, and UI generation. ServiceNow Otto for Creator also includes Build Agent, an autonomous AI agent that can develop full-stack applications ready for deployment through conversations using natural language.
 
 For more information, see [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md).
 
 ## ServiceNow Otto for App Engine
 
-ServiceNow Otto for App Engine enables you to enhance custom applications with AI agents and skills that application users can leverage at runtime. With ServiceNow Otto for App Engine, you have access to Now Assist AI assets, such as Platform skills, AI agents, and agentic workflows, as well as the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
+ServiceNow Otto for App Engine enables you to enhance custom applications with AI agents and skills that application users can use at runtime. With ServiceNow Otto for App Engine, you have access to Platform AI assets, such as Platform skills, AI agents, and agentic workflows, and the tools for developing custom AI assets using AI Skill Kit and AI Agent Studio.
 
 For more information, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
 
@@ -49,12 +49,12 @@ You can use both ServiceNow Otto for Creator and ServiceNow Otto for App Engine 
 
 ServiceNow Otto for Creator is primarily used when developing, enhancing, or testing custom applications in non-production instances. Creators and developers can use the ServiceNow Otto for Creator AI capabilities to quickly build applications and application elements, which are then deployed to production instances.
 
-ServiceNow Otto for App Engine is also used when developing custom applications in non-production instances. Creators and developers can modify Now Assist AI assets, or they can create custom skills, AI agents, and agentic workflows. Once the custom application is deployed to a production instance, application users can then leverage the AI assets to help streamline their workflows and improve efficiency.
+ServiceNow Otto for App Engine is also used when developing custom applications in non-production instances. Creators and developers can modify Platform AI assets, or they can create custom skills, AI agents, and agentic workflows. Once the custom application is deployed to a production instance, application users can then use the AI assets to help streamline their workflows and improve efficiency.
 
 |Persona|Benefit|Stage in the application life cycle|AI capability|
 |-------|-------|-----------------------------------|-------------|
-|Developer|Agentically develop entire applications with Build Agent|Development, testing|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|
 |Developer|Build and test applications and application elements quickly with generative and agentic AI capabilities.|Development, testing|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)|
+|Developer|Develop entire applications with Build Agent|Development, testing|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md)|
 |Developer|Enhance custom applications with Now Assist AI assets, or build custom skills and agentic workflows.|Development, testing|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
-|Requester, fulfiller, custom application user|Leverage AI assets in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
+|Requester, fulfiller, custom application user|Use AI assets in custom applications at runtime to help improve productivity and efficiency.|Release, post-release|[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)|
 

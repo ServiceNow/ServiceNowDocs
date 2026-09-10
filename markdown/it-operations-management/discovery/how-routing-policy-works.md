@@ -1,6 +1,6 @@
 ---
 title: Routing policy details
-description: Routing policies are essential for automated certificate management in TLS certificates as they define specific criteria, such as CA and environment, enabling efficient handling of different scenarios during the certificate lifecycle.
+description: Routing policies define specific criteria, such as CA and environment, for automated certificate management in TLS certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/how-routing-policy-works.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Automated certificate management for TLS certificates, Configure, C
 
 # Routing policy details
 
-Routing policies are essential for automated certificate management in TLS certificates as they define specific criteria, such as CA and environment, enabling efficient handling of different scenarios during the certificate lifecycle.
+Routing policies define specific criteria, such as CA and environment, for automated certificate management in TLS certificates.
 
 There are three different scenarios for how routing policies work for automated certificate management for TLS certificates.
 

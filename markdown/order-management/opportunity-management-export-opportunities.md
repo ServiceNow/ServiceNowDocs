@@ -37,8 +37,6 @@ Role required: sales\_agent
     The list of opportunities is exported according to the parameters set.
 
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

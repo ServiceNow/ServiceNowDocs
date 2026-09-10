@@ -42,7 +42,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **Investigative Classifications** &gt; **All**.
+1.  Navigate to the CRM Workspace and select **Investigative Classifications** &gt; **All**.
 
 2.  Select the classification title you want to edit, or select **New**.
 

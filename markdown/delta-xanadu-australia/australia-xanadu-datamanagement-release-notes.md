@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datamanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -46,9 +46,10 @@ Yokohama
 
 </td><td>
 
--   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
+-   **Upgrade information**
+    -   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
 
--   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
+    -   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
 
 </td></tr><tr><td>
 
@@ -150,10 +151,6 @@ Australia
 
 </td><td>
 
--   **[Archive data in object storage](https://www.servicenow.com/docs/access?context=c_ArchiveData&family=australia&ft:locale=en-US)**
-
-Store archive records and attachments in columnar format in an object storage outside the primary instance, freeing up primary storage and improving query performance for active data. The object storage is exclusive to RaptorDB Professional V2.
-
 -   **[Data Management rules wizard](https://www.servicenow.com/docs/access?context=data-management-policies&family=australia&ft:locale=en-US)**
 
 Create and manage your archive, cleanup, and one-time delete rules in the Data Management Console.
@@ -161,10 +158,6 @@ Create and manage your archive, cleanup, and one-time delete rules in the Data M
 -   **[Restore archive records in bulk](https://www.servicenow.com/docs/access?context=t_RestoreArchivedData&family=australia&ft:locale=en-US)**
 
 Search for archived records and restore them in bulk to live tables from the Data Management Console.
-
--   **[Granular admin role](https://www.servicenow.com/docs/access?context=data-management-role-1&family=australia&ft:locale=en-US)**
-
-Enable administrators to perform basic Data Management tasks by granting the data\_mgmt\_tools\_admin role instead of the full admin role.
 
 
 </td></tr></tbody>
@@ -205,7 +198,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -332,7 +328,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -340,7 +339,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Data Management is a ServiceNow AI Platform capability that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -348,9 +350,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Data Management and system archiving are ServiceNow AI Platform capabilities that are active by default.
 
- The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see [\[Placeholder link text to key install-data-archiving-plugin\]](https://www.servicenow.com/docs/access?context=install-data-archiving-plugin&family=australia&ft:locale=en-US).
+The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see [\[Placeholder link text to key install-data-archiving-plugin\]](https://www.servicenow.com/docs/access?context=install-data-archiving-plugin&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -477,7 +482,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

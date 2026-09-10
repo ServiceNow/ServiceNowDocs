@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-09"
 reading_time_minutes: 12
-breadcrumb: [Configure, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # ServiceNow Otto for Enterprise Architecture \(EA\) access roles

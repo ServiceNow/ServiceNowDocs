@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Zoom spoke v4.8.1 is the latest version.
+Zoom spoke v5.0.0 is the latest version. For version history of the spoke, see [Zoom spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-zoom.html).
 
 ## Supported versions
 
@@ -525,7 +525,7 @@ Lists information on participants from a past meeting.
 
 meeting:read:list\_past\_participants:admin
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="8">
 
 User Management
 
@@ -588,6 +588,30 @@ Retrieves all the users that are associated to your account.
 </td><td>
 
 user:read:list\_users:admin
+
+</td></tr><tr><td>
+
+Look up User Settings
+
+</td><td>
+
+Retrieves the settings details for a users profile.
+
+</td><td>
+
+user:read:settings:admin
+
+</td></tr><tr><td>
+
+Update User
+
+</td><td>
+
+Updates the Zoom profile information of the required user.
+
+</td><td>
+
+user:update:user:admin
 
 </td></tr><tr><td>
 
@@ -729,6 +753,22 @@ Copies the attachment that contains the chat message to the incident record.
 
 team\_chat:read:user\_message:admin
 
+</td></tr><tr><td>
+
+Webinar Management
+
+</td><td>
+
+Look up Webinars Stream
+
+</td><td>
+
+Retrieves a list of upcoming or scheduled webinars for the required user.
+
+</td><td>
+
+webinar:read:list\_webinars:admin
+
 </td></tr></tbody>
 </table>## Available AI agents
 
@@ -741,7 +781,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
 -   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
 Available AI agents include:
 

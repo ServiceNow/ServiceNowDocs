@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon EC2 spoke v1.4.1 is the latest version.
+Amazon EC2 spoke v1.4.1 is the latest version. For version history of the spoke, see [Amazon EC2 spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-ec2.html).
 
 ## Spoke dependencies
 

@@ -7,8 +7,8 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-07-27"
+reading_time_minutes: 7
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
@@ -67,6 +67,36 @@ sn\_dpr.complete\_phase\_override
 Enables users with specific roles to complete a release phase. The default role, sn\_dpr\_model.release\_admin, is set in the **Value** field. You can append additional roles that have write access to the release phase state, separated by commas.-   Type: string
 -   Default value: sn\_dpr\_model.release\_admin
 -   Other possible values: Roles that have write access to the release phase state.
+
+</td></tr><tr><td>
+
+sn\_dpr.default\_phase\_for\_changes
+
+</td><td>
+
+Determines which release phase is pre-populated when you associate a change with a release.-   When set to **current\_phase**, the phase the release is currently executing is used. If the release hasn't started, the first phase is used. If the release is completed, the last phase is used.
+-   When set to **release\_readiness\_phase**, the phase tied to the release readiness target is used.
+
+-   Type: choicelist
+-   Default value: current\_phase
+-   Other possible values: release\_readiness\_phase
+
+If you do not specify one of these values, the system uses **current\_phase** by default.
+
+</td></tr><tr><td>
+
+sn\_dpr.default\_phase\_for\_cis
+
+</td><td>
+
+Determines which release phase is pre-populated when you associate a configuration item with a release.-   When set to **current\_phase**, the phase the release is currently executing is used. If the release hasn't started, the first phase is used. If the release is completed, the last phase is used.
+-   When set to **release\_readiness\_phase**, the phase tied to the release readiness target is used.
+
+-   Type: choicelist
+-   Default value: current\_phase
+-   Other possible values: release\_readiness\_phase
+
+If you do not specify one of these values, the system uses **current\_phase** by default.
 
 </td></tr><tr><td>
 
@@ -244,23 +274,13 @@ States of primary epics that are considered for automatic creation of product en
 -   Default value: created,planned,wip,complete,proposed,active,design,ready
 -   Other possible values: You can provide new states or modify the list of existing states.
 
-</td></tr><tr><td>
-
-sn\_dpr\_workspace.auto\_create\_product\_enhancement\_for\_primary\_epic
-
-</td><td>
-
-Determines whether product enhancements can be automatically created for primary epics.-   Type: true\|false
--   Default value: false
--   Other possible values: true
-
 </td></tr><tr id="dpr-sys-prop-citype"><td>
 
 sn\_dpr\_workspace.cmdb\_model\_creation.supported\_ci\_types
 
 </td><td>
 
-Specifies the comma-separated list of Configuration Item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
+Specifies the comma-separated list of configuration item \(CI\) types that can be associated with products or services while requesting them. For more information, see [Request a new product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-request-product.md).-   Type: string
 -   Default value: cmdb\_ci\_service\_technical, cmdb\_ci\_service\_business, cmdb\_ci\_service\_auto, cmdb\_ci\_business\_app
 -   Other possible values: Valid CI types
 
@@ -273,6 +293,8 @@ sn\_dpr\_workspace.enhancement\_work\_item\_types
 Specifies the comma-separated list of work item types that can be mapped to a product enhancement. Use this property to extend the mapping beyond epics to other work item types available in your DevOps instance.-   Type: string
 -   Default value: epic
 -   Other possible values: A comma-separated list of valid work item types \(for example, epic,feature,story\).
+
+When the value is empty, product enhancements are not created automatically.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)

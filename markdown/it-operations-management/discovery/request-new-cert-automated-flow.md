@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-10"
 reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -18,13 +18,9 @@ Request a new certificate and automatically retrieve the certificates for an app
 
 ## Before you begin
 
-Ensure the Certificate Management catalog is enabled and that a Routing Policy is created.
-
-For DigiCert only: You must get the API key from DigiCert with a domain validated by DigiCert. If you submit a certificate request with a new domain that is not validated by DigiCert, the request will show as Pending, the automated flow will not be able to fetch the certificate information, and the request will be marked as Failed.
-
-Role required: Certificate requester, PKI Admin, PKI User, or Admin
-
-Certificate requester is a user who does not have the PKI Admin or PKI User role.
+-   Verify the certificate management catalog is enabled and that a routing policy is created.
+-   For DigiCert only: Get a domain validated API key from DigiCert. If you submit a certificate request with a new domain that is not validated by DigiCert, the request status is displayed as Pending. When the automated flow can't fetch the certificate information, the request status is marked as Failed.
+-   Role required: Certificate requester \[sn\_disco\_certmgmt.certificate\_requester\], PKI admin \[sn\_disco\_certmgmt.pki\_admin\], PKI user \[sn\_disco\_certmgmt.pki\_user\], or admin.
 
 **Note:** Approvals are only supported in the Fulfiller approval experience at this time.
 
@@ -45,7 +41,7 @@ Certificate requester is a user who does not have the PKI Admin or PKI User role
 
 ## Result
 
--   Once the request is submitted, the automated flow makes the request to the CA to get the certificate.
+-   After the request is submitted, the automated flow makes the request to the CA to get the certificate.
 
     **Note:** Powershell Step is used for Microsoft CA. This requires the plugin: com.glide.hub.action\_step.powershell.
 

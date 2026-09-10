@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Use agentic workflows, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage contract repository agentic workflow
@@ -17,6 +17,8 @@ breadcrumb: [Use agentic workflows, ServiceNow Otto for Contract Management Pro,
 Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts and setting the contract reminder dates for contract renewal or termination.
 
 ## Manage contract repository overview
+
+The Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\) must be installed to use AI capabilities.
 
 **Important:**
 
@@ -48,7 +50,7 @@ The following workflow explains the metadata extraction and contract reminder se
 
 1.  As a Contract Admin with the AI role, activate the contract metadata extraction skill in the AI Admin Hub console.
 
-    For more information, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 2.  As a Contract Admin, activate the business rules.
 3.  The metadata extraction process is automatically initiated when a contract record is created.
@@ -73,7 +75,7 @@ The following workflow explains the obligation extraction process.
 
 1.  As a Contract Admin with the AI role, activate the contract obligation extraction skill in the AI Admin Hub console.
 
-    For more information, see [Configure ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 2.  As a Contract Admin, activate the business rules.
 3.  The obligation extraction process is automatically initiated when a contract record is created.
@@ -92,7 +94,7 @@ The following workflow explains the obligation extraction process.
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
-For more information, see [Review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-obligations.md).
+For more information, see [Review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
 
 ## Conditions for the agentic workflow to trigger
 
@@ -139,4 +141,8 @@ Uses various tools to perform the following:-   Retrieves the contract repositor
 -   Calculates the average lead time for similar contracts.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)**  
+The playbook in a contract repository enables you to review information extracted by the manage contract repository agentic workflow, and configure reminders for your contract renewals or terminations.
+
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+

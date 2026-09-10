@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 3
-breadcrumb: [Test AI voice agents, Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Test AI voice agents, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Test a voice assistant from Assistant Designer
@@ -21,7 +21,7 @@ The following are required to access the voice testing experience:
 -   Conversational Studio v7 or later
 -   Zurich Patch 7 or later
 -   Microphone enabled on your device
--   ServiceNow Otto for Virtual Agent version 19 or later
+-   ServiceNow Otto for Virtual Agent version 20 or later
 
 Roles required: sn\_aia.admin and sn\_voice\_aia.admin
 
@@ -38,7 +38,7 @@ As the conversation progresses, the Analysis tab shows a turn-by-turn breakdown 
 
 1.  Navigate to **All** &gt; **Assistant Designer** &gt; **Assistants** tab and select **Test** for the voice assistant you wish to test.
 
-    **Note:** The **Test** button is disabled if the voice assistant is not active. To activate it, ensure a provider application is selected, at least one AI voice agent is added, and authentication and identification are configured.
+    **Note:** You can test a voice assistant without activating it first. The **Test** button is disabled until at least one AI voice agent is added to the assistant. Hover over the button to see the reason it is disabled.
 
     The voice testing interface opens in a new window. The window displays:
 

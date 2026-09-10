@@ -22,7 +22,7 @@ Use AI agents to resolve invoice inquiries and recommend business owners for Non
 |Inquiry resolution provider|Automates responses to high-volume, repetitive invoice inquiries that were raised by suppliers. It also reduces the workload of the AP agents.|
 |Recommend invoice owner|When a Missing or invalid business owner exception occurs, the AI agent identifies the missing business owner through semantic matching or by creating tasks.|
 
-The AI agents run autonomously. For more information about the AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+The AI agents run autonomously. For more information about the AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 

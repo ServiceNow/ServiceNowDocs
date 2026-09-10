@@ -1,20 +1,20 @@
 ---
 title: Configuring function fields
-description: You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
+description: You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation. Function fields that you create in Report Designer are available in Platform Analytics experience, but you cannot create them in Platform Analytics experience
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/configure-function-fields.html
 release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configuring function fields
 
-You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
+You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation. Function fields that you create in Report Designer are available in Platform Analytics experience, but you cannot create them in Platform Analytics experience
 
 Role required: admin, function\_field\_admin.
 

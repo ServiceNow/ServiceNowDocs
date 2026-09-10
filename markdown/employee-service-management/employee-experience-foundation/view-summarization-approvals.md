@@ -48,7 +48,7 @@ Role required:approver\_user, sn\_request\_read, sn\_write
 
 ## What to do next
 
-Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-approval-aia.md).
+Proceed to [Manage approvals with Approval Assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-approvals-with-approvals-agent.md). Review how to set up and use the Approval Assistance AI agent. For more information, see [Using the approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md).
 
 **Note:** Ensure the portal approval record is configured as explained in [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 

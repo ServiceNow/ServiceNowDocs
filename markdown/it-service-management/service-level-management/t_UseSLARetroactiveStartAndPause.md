@@ -7,7 +7,7 @@ release: australia
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-When a task record changes, typically a new SLA may be attached, with a new set of timing information. This is useful if you are re-assigning an incident to another group and want to attach a new SLA record with new timing information.
+When a task record changes, typically a new SLA may be attached, with a new set of timing information. This is useful if you're re-assigning an incident to another group and want to attach a new SLA record with new timing information.
 
-However, you may want to retain time information for the task in specific situations. For example, an incident is raised with a priority of **3 - Moderate** and the priority changes to **1 - Critical** after 3 hours. A priority 1 SLA is attached to the incident at that time. You can use retroactive start to ensure this SLA timing is adjusted retroactively to count from when the incident was first created, rather than from when the incident's priority changed. This reflects the actual time the user contacted you.
+However, you may want to retain time information for the task in specific situations. For example, an incident is raised with priority **3 - Moderate** and changes to **1 - Critical** after 3 hours. A priority 1 SLA is attached at that time. You can use retroactive start to adjust the SLA timing to count from when the incident was created, rather than when the priority changed. This reflects the actual time the user contacted you.
 
 You can use the retroactive pause property to apply pause times to the new SLA.
 
@@ -40,18 +40,18 @@ You can use the retroactive pause property to apply pause times to the new SLA.
 
     This option determines the start time used for every task SLA record created from this SLA definition.
 
-    For example, you can select **Opened** to start the SLA from when the task form was initially opened to create the record, which accurately reflects the time the end user contacts the service desk. Alternatively, you can select **Created** to start the SLA from when the task form was initially saved.
+    For example, select **Opened** to start the SLA when the task form was initially opened, which accurately reflects when the end user contacted the service desk. Alternatively, select **Created** to start the SLA when the task form was initially saved.
 
 5.  To enable the retroactive pause property, select the **Retroactive pause** check box.
 
-    Enabling this property ensures that the new task SLA record gets any pause time that would have been accumulated during the period between the retroactive start time and now. This pause time increases the breach time with the appropriate amount.
+    Enabling this property ensures the new task SLA record includes any pause time accumulated between the retroactive start time and now, which increases the breach time accordingly.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 ## What to do next
 
-When retroactive start is enabled, it may result in task SLAs being breached as soon they attach, which will trigger multiple notifications. To prevent the workflow from being processed for these breached SLAs, set the **com.snc.sla.workflow.run\_for\_breached** property to false.
+When retroactive start is enabled, it may result in task SLAs being breached as soon as they attach, which will trigger multiple notifications. To prevent a workflow from being processed for these breached SLAs, set the **com.snc.sla.workflow.run\_for\_breached** property to `false`. To prevent a flow from being processed for these breached SLAs, set the **com.snc.sla.flow.run\_for\_breached** property to `false`.
 
 **Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
 

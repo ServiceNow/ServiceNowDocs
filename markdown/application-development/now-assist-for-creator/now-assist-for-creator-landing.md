@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-07-28"
+last_updated: "2026-09-02"
 reading_time_minutes: 5
 keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation, ServiceNow Otto, ServiceNow Otto for Creator]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
@@ -57,15 +57,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.
+[Flow generation\[Omitted image "bus-workflow.svg"\] Alt text:Create multiple step flows with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-generation-landing.md)
 
 </td><td>
 
-Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.
+[Flow recommendations\[Omitted image "bus-innovation.svg"\] Alt text:Generate recommendations for the next step of a flow.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-recommendations-landing.md)
 
 </td></tr><tr><td>
 
-Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.
+[Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flow or subflow does with generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-summarization.md)
 
 </td><td>
 
@@ -73,7 +73,19 @@ Flow summarization\[Omitted image "bus-news.svg"\] Alt text:Summarize what a flo
 
 </td><td>
 
-[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate playbook outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)
+[Playbook generation\[Omitted image "bus-service-aware.svg"\] Alt text:Generate a playbook from text directions or an image.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-a-playbook-outline.md)
+
+</td></tr><tr><td>
+
+[Playbook recommendation\[Omitted image "bus-why-servicenow.svg"\] Alt text:Generate recommendation to replace placeholder activities in a playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-recommendations.md)
+
+</td><td>
+
+[Playbook generation from KB\[Omitted image "bus-work-order.svg"\] Alt text:Generate a playbook from an existing KB article using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-from-kb.md)
+
+</td><td>
+
+[Playbook summarization\[Omitted image "bus-news.svg"\] Alt text:Generate a summary of the playbook to understand the stages, activities, triggers, and inputs of the playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/generate-playbook-summary.md)
 
 </td></tr><tr><td>
 

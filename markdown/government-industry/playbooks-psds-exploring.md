@@ -46,7 +46,7 @@ The following applications are available with Public Sector Digital Services tha
     Provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users.
 
 
-The corresponding playbook for each case type automatically appears in the **Playbook** tab when an agent creates a public service request case in the CSM Configurable Workspace, or when a constituent puts in a request through the Government Service Portal.
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when an agent creates a public service request case in the CRM Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 To learn more about playbooks, see [Using Playbooks Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-playbooks-overview.md).
 

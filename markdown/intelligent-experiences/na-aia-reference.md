@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-aia-
 release: australia
 topic_type: reference
 last_updated: "2025-10-27"
-reading_time_minutes: 9
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+reading_time_minutes: 10
+breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # ServiceNow Otto AI agents reference
@@ -18,14 +18,80 @@ Find more information about user roles, tables, and the different properties tha
 
 The following roles are installed with ServiceNow Otto AI agents with a compatible ServiceNow Otto application.
 
-|Role|Description|
-|----|-----------|
-|AI Agent admin \[sn\_aia.admin\]|Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.|
-|AI Agent Viewer \[sn\_aia.viewer\]|Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.|
-|agent\_role\_config\_admin|With this role, user can access and modify Agent role configurations with AI Agent admin \[sn\_aia\_admin\] being the parent role.|
-|agent\_role\_config\_viewer|Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.|
+<table id="table_pxl_trr_k2c"><thead><tr><th>
 
-**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
+Role
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+AI Agent admin \[sn\_aia.admin\]
+
+</td><td>
+
+Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.
+
+</td></tr><tr><td>
+
+AI Agent Viewer \[sn\_aia.viewer\]
+
+</td><td>
+
+Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_admin
+
+</td><td>
+
+With this role, user can access and modify Agent role configurations with AI Agent admin \[sn\_aia\_admin\] being the parent role.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_viewer
+
+</td><td>
+
+Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.
+
+</td></tr><tr><td>
+
+itil\_admin or itil
+
+</td><td>
+
+Access to ITSM tables and workflows. Agents working with incident, Request, Change, Problem, CMDB records.
+
+</td></tr><tr><td>
+
+knowledge\_admin
+
+</td><td>
+
+Access to Knowledge Management tables and tools - Knowledge agents; KB article retrieval tools.
+
+</td></tr><tr><td>
+
+Custom role \(e.g., custom\_table.admin\)
+
+</td><td>
+
+Access to custom tables and fields. Agents accessing tables outside ITSM, Knowledge, or other standard modules.
+
+</td></tr><tr><td>
+
+snc\_internal
+
+</td><td>
+
+Overly permissive system role, use only if agent requires true system-level privileges \(rare\).**Note:** Don't use as fallback.
+
+</td></tr></tbody>
+</table>**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
 
 ## AI agents system properties
 
@@ -813,6 +879,14 @@ Invocation Sources \[sn\_aia\_invocation\_source\]
 </td><td>
 
 Functions as a registry of entry points and helps track and define the different contexts or surfaces from which an AI agent can be invoked or triggered.
+
+</td></tr><tr><td>
+
+generative AI Log \[sys\_generative\_ai\_log\]
+
+</td><td>
+
+Used for logging and auditing generative AI activity.
 
 </td></tr></tbody>
 </table>|Table|Description|

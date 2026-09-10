@@ -59,3 +59,5 @@ The roadmap is an interactive visualization tool that shows all demands that are
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

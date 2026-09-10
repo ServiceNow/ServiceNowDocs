@@ -1,9 +1,9 @@
 ---
 title: Process Mining release notes
-description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
+description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 
-## Process Mining highlights for the Australia release
+## About Process Mining
 
 -   Use parallel processing for playbook data.
 -   Benefit from the new use cases through the enhanced process step filter and rule-based findings.
@@ -23,7 +23,20 @@ The ServiceNow® Process Mining application enables analysts and process owners 
 
 See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activating-process-mining.md).
+
+
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Parallel processing for playbook data introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-to-playbook.md)**
 
@@ -71,7 +84,7 @@ See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Quickly analyze process maps with multiple tables through multidimensional maps on the Opportunity details page and Platform Analytics component of Process Mining.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Automated finding names updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automated-findings.md)**
 
@@ -84,28 +97,9 @@ See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     Role names in Process Mining that previously included "optimization" have been updated to use the term "mining" instead. For example, the sn\_process\_optimization\_admin role has been renamed sn\_process\_mining\_admin.
 
 
-## Removed in this release
+### What's deprecated or removed
 
 You no longer require the now.assist.creator role to access Now Assist features in the Creator Pro Plus package. However, you must enable the relevant Process Mining skill, which serves as the necessary prerequisite. Additionally, you should have appropriate access to the project.
 
-## Deprecated features
-
 Automation Discovery is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in the Australia release.
-
-## Activation information
-
-Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activating-process-mining.md).
-
-## Related ServiceNow applications and features
-
--   **[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)**
-
-    Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Use Process Mining with Platform Analytics insights to optimize your indicator data sources.
-
--   **[Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining.md)**
-
-    Task Mining enables process owners to collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
-
-
-**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

@@ -26,8 +26,6 @@ To review files on your Sensor and access logs for troubleshooting purposes, you
 The Discovery Sensor for OT provides you with enhanced scanning and query functionality to manage your assets in the OT environment.
 -   **[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-discovery-sensor-ot.md)**  
 Configuring the Discovery Sensor for OT provides discovery of all assets in your OT environment. The Sensor requires a Linux operating system that is installed either as a virtual machine or on a Bare-metal computer that is x86.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/upgrade-discovery-sensor.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/upgrade-discovery-sensor.md)**  
-
 
 **Parent Topic:**[Operational Technology Native Discovery components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-discovery-native-components.md)
 

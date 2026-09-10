@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription on the local instance where 
 
 ## Spoke version
 
-ServiceNow Remote Instance spoke v2.3.0 is the latest version.
+ServiceNow Remote Instance spoke v2.3.2 is the latest version. For version history of the spoke, see [ServiceNow Remote Instance spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sn-remote-instance.html).
 
 ## Supported versions
 

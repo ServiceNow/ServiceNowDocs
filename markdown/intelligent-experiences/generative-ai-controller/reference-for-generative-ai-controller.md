@@ -8,7 +8,7 @@ product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
@@ -40,7 +40,7 @@ sys\_one\_extend\_capability
 
 </td><td>
 
-Generative AI Controller capabilities that include Summarize, Record Summarization, Generate Content, and Generic Prompt.
+Generative AI Controller capabilities for routing and governing generative AI requests for your ServiceNow AI applications.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ sys\_one\_extend\_capability\_definition
 
 </td><td>
 
-Attribute configuration for input and output variables for Workflow Studio subflows.
+Attribute configuration for input and output variables for for generative AI capability definitions.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ sys\_one\_extend\_definition\_attribute
 
 </td><td>
 
-Input and output variables for Workflow Studio subflows. Variable names can't be changed if the capability is active and used on the instance. You can check whether a capability is used by going to the OneExtend Usages table.
+Input and output variables for for generative AI capability definitions. Variable names can't be changed if the capability is active and used on the instance. You can check whether a capability is used by going to the OneExtend Usages table.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ sys\_one\_extend\_builder\_config
 
 </td><td>
 
-Determines which capability and provider is related to each builder component for Workflow Studio and Virtual Agent Designer.
+Determines which capability and provider is related to each generative AI builder component.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ sys\_one\_extend\_usage
 
 </td><td>
 
-Each usage of a capability in a Workflow Studio or Virtual Agent Designer topic, as well as any scripts such as business rules or UI actions.
+Each usage of a generative AI capability across your Now Assist applications.
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ sys\_gen\_ai\_log\_metadata
 
 </td><td>
 
-Logs data about requests to the LLMs, including information about definition, errors, user, and feedback provided. AI-generated content can be tracked for a duration beyond six months with Now Assist configuration option. You can export historical data by writing a script to copy it into a different table without deleting the information.
+Log data about requests to the LLMs, including information about definition, errors, user, and feedback provided. AI-generated content can be tracked for a duration beyond six months. You can export historical data by writing a script to copy it into a different table without deleting the information.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ sys\_generative\_ai\_metric
 
 </td><td>
 
-Logs various metrics to evaluate LLM response performance and accuracy, including edit score, edit distance, guardrail activity, and LLM model details. It also records sensitive topic triggers and their scores for safety monitoring.
+Logs various metrics to help evaluate the performance and accuracy of LLM responses, such as edit score, edit distance, guardrail activity, and details about the LLM model used.
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ sys\_generative\_ai\_log
 
 </td><td>
 
-Logs Generative AI prompts, responses, and edited responses to debug LLM calls. Log records are retained for 180 days. HR-related logs are restricted to HR Administrators, ensuring sensitive information remains protected.
+Logs Generative AI prompts, responses, and edited responses to debug LLM calls. Log records are retained for 180 days.HR-related logs are restricted to HR Administrators, ensuring sensitive information remains protected.
 
 For more information, see [Generative AI Controller tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md).
 
@@ -219,11 +219,9 @@ domain.llm.usage.entitled
 
 </td><td>
 
-Determines if a specific domain has permission to use the Now Assist features and whether to use the large language model \(LLM\) to process data for that domain or restrict its use.Type: true \| false
+Determines whether to use the LLM for a specific domain to process data or restrict its use.Type: true \| false
 
 Default value: true
-
-**Note:** Setting `domain.llm.usage.entitled` to false, prevents a domain and its child domains from using Now Assist.
 
 </td></tr></tbody>
 </table>## External links
@@ -231,7 +229,6 @@ Default value: true
 |Provider|Data policy|Usage policy|
 |--------|-----------|------------|
 |Amazon Bedrock|[Data protection](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html)|[AWS Service Terms](https://aws.amazon.com/service-terms/)|
-|Aleph Alpha|[Data privacy](https://aleph-alpha.com/data-privacy/)|[Terms and Conditions](https://aleph-alpha.com/terms-conditions/)|
 |Google Cloud|[Google Cloud Platform Terms of Service](https://cloud.google.com/terms)|[Google Cloud Platform Terms of Service](https://cloud.google.com/terms)|
 |IBM watsonx|[Keeping your data secure and compliant](https://www.ibm.com/docs/en/watsonx/saas?topic=security-keeping-your-data-secure-compliant)|[Foundation model terms of use in watsonx.ai](https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-terms-use)|
 |Microsoft Azure OpenAI|[Data, privacy, and security for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy)|[Code of conduct for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct)|

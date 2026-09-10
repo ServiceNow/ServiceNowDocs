@@ -8,7 +8,7 @@ product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
 last_updated: "2025-09-16"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
@@ -32,7 +32,13 @@ Role required: sn\_skill\_builder.admin
 
 5.  Select **Run test**.
 
-    **Note:** Testing your skill consumes an assist.
+    **Important:**
+
+    Testing a skill consumes at least one Now Assist assist for the base prompt call.
+
+    If the skill has LLM-judged evaluation metrics attached on the **Deployment and skill settings** tab, each metric execution consumes additional assists. Metric execution is billed as a custom call at one assist per 1,000 output tokens. Script-based metrics \(metrics with a script instead of a judge prompt\) don't consume assists.
+
+    For information about adding evaluation metrics, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
     |Tab|Description|
     |---|-----------|
@@ -52,7 +58,7 @@ Role required: sn\_skill\_builder.admin
 
 After you test your prompt, you must finalize and publish it. To learn more about publishing a skill, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-If you have not configured the deployment settings for your skill, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+If you have not configured the deployment settings for your skill, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 **Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

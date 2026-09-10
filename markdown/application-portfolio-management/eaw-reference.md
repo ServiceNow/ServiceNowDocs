@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -21,19 +21,19 @@ An Enterprise architect can create a diagram using Lucidchart for a business cap
 -   **[Create TRM product request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-req-form.md)**  
 Create a new request to include a new software product to the TRM library. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-product-request-form.md)**  
-The Request TRM product form is used to submit a request to add a new software or hardware product to the Technology Reference Model \(TRM\) library. Optionally, add lifecycle records as part of the same request.
+The Request TRM product form is used for adding or editing a request to include a new software or hardware product to the Technology Reference Model \(TRM\) library.
 -   **[Create TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-trm-prod-form.md)**  
-The Create TRM product form lets you add a software or hardware product directly to the TRM library. The record is created immediately without an approval request.
+As an Enterprise Architect, you can add software product to the TRM library. It creates the record directly without sending a request for approval.
 -   **[Create TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.md)**  
-The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
+Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
-The Request TRM product lifecycle form is used to submit a request to add one or more lifecycle records to a TRM product. After you submit the request, an email notification is sent to the Enterprise Architect group for approval.
--   **[Request TRM Product form the Service Catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-prod-req-catalog-form.md)**  
-The Request TRM Product form is used to submit a request for adding a new software or hardware product to the Technology Reference Model \(TRM\) library from the service catalog. Optionally, include one or more lifecycle records with the request.
--   **[Request TRM Product Lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/trm-product-lifecycle-request-form.md)**  
-The Request TRM Product Lifecycle form is used to submit a request from the service catalog to add one or more lifecycle records to an existing TRM product.
+Add a new request to create a lifecycle for a TRM product. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-form.md)**  
-The Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
+Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+-   **[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-technical-debt-states.md)**  
+A TRM technical debt record persists across scheduled job runs and moves between Active, Resolved, and Archived states instead of being deleted and re-created.
+-   **[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)**  
+The TLM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table includes fields that link a discovered technology to the TRM product and product lifecycle that govern its obsolescence status.
 -   **[TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-phase-form.md)**  
 Define your own TRM phase or edit an existing TRM phase.
 -   **[Technology portfolio audit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-technology-portfolio-audit-form.md)**  

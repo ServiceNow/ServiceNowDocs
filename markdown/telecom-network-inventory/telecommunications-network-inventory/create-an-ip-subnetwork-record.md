@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -137,7 +137,7 @@ Current lifecycle status. This field is automatically set to **In Use**. **Note:
 
 10. View the hierarchy of records under this subnetwork by selecting the **Dependency View** option.
 
-11. View the related network inventories by selecting the brick icon.
+11. View the related network inventories by selecting the \[Omitted image "lists\_icon-proactive.png"\] Alt text: list icon list icon.
 
     The Infrastructure Relationships section shows all the related network inventories grouped by the individual network instance.
 

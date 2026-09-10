@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-o
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Oracle metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -18,8 +18,8 @@ Create a collector to import metadata from Oracle.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Oracle collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,28 +47,9 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Configure the authentication options.
+7.  Configure the connection options.
 
-    |Field|Description|
-    |-----|-----------|
-    |Username|Username to use to connect to the database.|
-    |Password|Password of the databsase user.|
-
-8.  Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
-
-    |Field|Description|
-    |-----|-----------|
-    |Collect all schemas|
-    |Collect all schemas|Catalog all schemas to which the user has access.|
-    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
-    |Include Information Schema|Include the database's Information Schema in catalog collection.|
-    |Specify which schema to collect|
-    |Specify which schema to collect|Catalog only the specified schemas.|
-    |Schema|Name of the database schema to catalog.|
-
-9.  Configure the connection information.
-
-<table id="table_mtg_br2_h3c"><thead><tr><th>
+<table id="table_s3_collector_props"><thead><tr><th>
 
 Field
 
@@ -94,7 +75,45 @@ Port of the database server \(if not the default\).
 
 </td></tr><tr><td>
 
-Database
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Username|Username to use to connect to the database.|
+    |Password|Password of the databsase user.|
+
+9.  Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+10. Configure the connection information.
+
+<table id="table_mtg_br2_h3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Include database
 
 </td><td>
 
@@ -109,7 +128,7 @@ Excluded database
 Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>10. Configure the statistics and sampling options.
+</table>11. Configure the statistics and sampling options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -152,7 +171,7 @@ Disable Extended Metadata collection
 Skip harvesting of extended metadata for data asset types such as database, schema, table, columns functions, stored procedures, user defined types, synonyms. Basic metadata for these data asset types will still be harvested.
 
 </td></tr></tbody>
-</table>11. Configure the harvesting scope and limits options.
+</table>12. Configure the harvesting scope and limits options.
 
     |Field|Description|
     |-----|-----------|
@@ -161,7 +180,7 @@ Skip harvesting of extended metadata for data asset types such as database, sche
     |Enable Sample String Values collection|Enable harvesting of sample values and histograms for columns containing string data.|
     |Exclude system functions|Exclude system functions from metadata collection.|
 
-12. Configure the connection and reliability options.
+13. Configure the connection and reliability options.
 
 <table id="table_jml_1bc_l3c"><thead><tr><th>
 
@@ -224,7 +243,7 @@ SQL parsing timeout
 Timeout in seconds for SQL parsing during lineage collection. Default: 60
 
 </td></tr></tbody>
-</table>13. Select **Save**.
+</table>14. Select **Save**.
 
 
 ## Result

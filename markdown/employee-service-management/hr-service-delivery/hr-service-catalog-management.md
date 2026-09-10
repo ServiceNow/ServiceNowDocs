@@ -1,6 +1,6 @@
 ---
 title: HR service catalog management
-description: Empower employees to request HR services through the HR service catalog. The HR service catalog provides employees a catalog of HR services that they can request directly from HR, such as to add beneficiaries to a benefits plan, request a travel visa, or inquire about a discrepancy in their paycheck.
+description: Enable employees to request HR services such as benefits updates, travel visas, or paycheck inquiries through the HR service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-service-catalog-management.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [HR services, HR Administration, Configure, Case and Knowledge Manag
 
 # HR service catalog management
 
-Empower employees to request HR services through the HR service catalog. The HR service catalog provides employees a catalog of HR services that they can request directly from HR, such as to add beneficiaries to a benefits plan, request a travel visa, or inquire about a discrepancy in their paycheck.
+Enable employees to request HR services such as benefits updates, travel visas, or paycheck inquiries through the HR service catalog.
 
 Employees can access the HR service catalog from a self-service portal such as the Employee Service Center. You can manage the setup and categorization of the HR service catalog, as well as configure the individual HR catalog items that populate it.
 
@@ -31,11 +31,11 @@ The HR service catalog is a collection of HR catalog items that employees can re
 
 \[Omitted image "hr-service-catalog-categorization.png"\] Alt text: The HR service catalog organizes the HR catalog items by category.
 
-You can manage the creation or modification of categories in the HR service catalog, as well as assign or remove HR catalog items from a category or assign or remove categories from an HR catalog item. To manage the categorization of HR catalog items in the HR service catalog, see [HR service catalog categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-categorization.md).
+Create, modify, and manage categories in the HR service catalog. Assign or remove catalog items from categories. To manage the categorization of HR catalog items in the HR service catalog, see [HR service catalog categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-categorization.md).
 
 ## HR catalog item configuration
 
-HR catalog items are the HR services that your organization makes available for employees to request directly from the HR service catalog. \(Not all HR services need to be accessible to employees; some services are only initiated internally by HR agents. This means that all HR catalog items have a corresponding HR service, but not all HR services have a corresponding HR catalog item.\) To configure the HR catalog items, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md).
+HR catalog items are HR services that employees can request from the HR service catalog. \(Not all HR services need to be accessible to employees; some services are only initiated internally by HR agents. This means that all HR catalog items have a corresponding HR service, but not all HR services have a corresponding HR catalog item.\) To configure the HR catalog items, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md).
 
 Once an HR catalog item is published to the HR service catalog, it is available for employees to request. When an employee submits an HR catalog item request, an HR case is created.
 

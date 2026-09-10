@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-securitycenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -108,22 +108,6 @@ Australia
 
 </td><td>
 
--   **Accept risk for hardening settings**
-
-Accept risk for hardening settings that are not applicable to your organization's security requirements. When accepting risk, provide a mandatory justification and review the projected security score impact before saving your decision. The compliance status updates to **Accepted Risk** and reflects in all security score calculations. Use the **Accept Risk Settings** filter to quickly identify and manage all accepted risk items across your instance.
-
--   **[Granular admin role for Security Center](https://www.servicenow.com/docs/access?context=granular-sc-roles&family=australia&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for Security Center without requiring the full admin role.
-
--   **[Explore Access management console](https://www.servicenow.com/docs/access?context=access-controls-console&family=australia&ft:locale=en-US)**
-
-Use the new Access Controls console within Security Center to review and remediate access issues and misconfigurations. The Access Controls console provides enhanced visibility and control of your Access Analyzer findings, and streamlines remediation efforts by enabling you to track, prioritize, and resolve access issues by assigning tasks.
-
--   **Enhanced IAM Integration in Security Center**
-
-Use the new Identity and Access Management \(IAM\) section in Security Center to access to critical IAM tools. The new section provides a comprehensive view of security metrics. This integration simplifies the administrative experience by bringing essential IAM functionality directly into Security Center, reducing the need to navigate multiple separate tools.
-
 -   **Version-based hardening settings**
 
 Security Center now only shows hardening settings that apply to your instance’s family version. This change helps eliminate irrelevant recommendations and provides clearer guidance and a more accurate security experience.
@@ -148,7 +132,12 @@ Zurich
 
 </td><td>
 
--   **[Auditor checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Auditor checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
 
 The Review Public Knowledge Bases and Review Public Knowledge Base Articles checks use global API calls, so they've been added in the Global scope.
 
@@ -257,7 +246,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
+
 
 </td></tr><tr><td>
 
@@ -265,7 +257,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

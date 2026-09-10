@@ -129,3 +129,5 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

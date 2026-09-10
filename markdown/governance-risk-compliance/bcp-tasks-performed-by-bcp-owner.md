@@ -54,7 +54,7 @@ When you create a business continuity plan \(BCP\), certain UI actions are assoc
 -   **[Recovery strategy and task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/recovery-strategy-and-task-templates-overview.md)**  
 Business continuity planners often rebuild the same recovery structures each time they author a plan. Reusable templates remove that repetition by capturing standard strategies, tasks, and task groupings once and applying them wherever they are needed.
 -   **[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)**  
-Create a business continuity plan in BCM UIB Workspace.
+Create a business continuity plan in ServiceNow Business Continuity Management.
 -   **[Create a business continuity plan from a plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.md)**  
 Create a business continuity plan from a plan template in BCM UIB Workspace so that the loss scenarios, recovery strategies, and recovery tasks defined on the template are generated automatically.
 -   **[Scheduling auto-update of related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/import-cmdb-updates-in-plans.md)**  
@@ -79,12 +79,16 @@ Add a recovery task as part of the planned recovery strategy. You can add one or
 Save individual tasks or groups of tasks for reuse across plans. You can add templates to new plans or insert them into existing plans. You can also generate templates directly from tasks and plans that already exist in the system.
 -   **[Create a quick recovery task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-quick-recovery-task.md)**  
 Create a quick recovery task from Recovery tasks or as part of the planned recovery strategy for a business continuity plan. Using the quick insert feature, you can create tasks without navigating to a separate form. Tasks can be ordered, inserted in sequence \(before, after, or in parallel with existing tasks\), and dependencies are updated automatically.
+-   **[Importing and exporting recovery tasks from Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-export-import-feature-recovery-tasks.md)**  
+Export recovery tasks to a Microsoft Excel file, edit offline, and import the file to create or update multiple tasks at once.
 -   **[Visualize recovery tasks on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-gantt-chart-for-reco-tasks.md)**  
 Use the Gantt chart component on recovery task pages to provide a visual timeline view of tasks associated with the current plan. Customize the view by adding, removing, or reordering columns as needed. The chart is implemented as a UI page to enable customizations and to support multiple versions without requiring changes to existing page behavior.
 -   **[Synchronize assets between loss scenarios and strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/syn-ast-be-lo-sce-and-rec-stgy.md)**  
 Use the asset syncing fields in the plan template to configure whether assets synchronize to loss scenarios, to recovery strategies, or both. Syncing is a two-step process: assets flow from the plan to loss scenarios first, and then from loss scenarios to recovery strategies.
 -   **[Automate recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/automate-the-recovery-tasks.md)**  
 Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.
+-   **[Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)**  
+Add an existing issue or create an issue from a business continuity plan to track problems identified during continuity planning.
 -   **[Submit the BCP for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-bcp-for-review.md)**  
 Submit the business continuity plan \(BCP\) for an approval. You can then view the details in BCM UIB Workspace.
 -   **[Visualize 360° relationships for the BCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/relationship-view-bcp.md)**  

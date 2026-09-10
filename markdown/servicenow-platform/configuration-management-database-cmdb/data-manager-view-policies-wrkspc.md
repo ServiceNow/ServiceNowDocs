@@ -1,6 +1,6 @@
 ---
 title: View CMDB Data Manager policies
-description: View Data Manager policies on a dashboard view in CMDB Workspace or in Service Graph Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
+description: View Data Manager policies on a dashboard view in CMDB Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration M
 
 # View CMDB Data Manager policies
 
-View Data Manager policies on a dashboard view in CMDB Workspaceor in Service Graph Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
+View Data Manager policies on a dashboard view in CMDB Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
 
 ## Before you begin
 
@@ -22,10 +22,8 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
 2.  Select **Policies** in the left-side bar.
 
     Select a tab on the Data Manager policies page:

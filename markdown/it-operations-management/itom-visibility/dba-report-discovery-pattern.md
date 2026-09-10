@@ -1,6 +1,6 @@
 ---
 title: Database Administrator \(DBA\) report discovery
-description: Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/dba-report-discovery-pattern.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # Database Administrator \(DBA\) report discovery
 
-Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

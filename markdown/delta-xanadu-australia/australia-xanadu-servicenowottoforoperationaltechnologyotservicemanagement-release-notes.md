@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -99,11 +99,6 @@ Zurich
 
 </td><td>
 
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
 -   **[Summarize an OT incident](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
 
 Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
@@ -185,9 +180,15 @@ Zurich
 
 </td><td>
 
--   **[Now Assist for OTSM to ServiceNow Otto for OT Service Management name change](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&family=zurich&ft:locale=en-US)**
+-   **[Summarize UI action](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=zurich&ft:locale=en-US)**
 
-ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for OTSM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+The **Summarize** UI action was added to OT incident records in the Industrial Workspace so you can automatically summarize the incident details.
+
+-   **[Generate resolution notes UI action](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=zurich&ft:locale=en-US)**
+
+The **Generate resolution notes** UI action was added to OT incident records in the Industrial Workspace so you can generate resolution notes after the incident state is set to **Resolved**.
+
+**Note:** This UI action appears after the OT incident state is set to **Resolved**.
 
 
 </td></tr><tr><td>
@@ -196,7 +197,16 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Summarize UI action](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&family=australia&ft:locale=en-US)**
+
+The **Summarize** UI action was added to OT incident records in the Industrial Workspace so you can automatically summarize the incident details.
+
+-   **[Generate resolution notes UI action](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&family=australia&ft:locale=en-US)**
+
+The **Generate resolution notes** UI action was added to OT incident records in the Industrial Workspace so you can generate resolution notes after the incident state is set to **Resolved**.
+
+**Note:** This UI action appears after the OT incident state is set to **Resolved**.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -323,7 +333,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for OT Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -331,7 +344,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for OT Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -548,7 +564,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
 
 -   Now Assist for Operational Technology Service Management \(OTSM\) has been changed to ServiceNow Otto for OT Service Management.
 

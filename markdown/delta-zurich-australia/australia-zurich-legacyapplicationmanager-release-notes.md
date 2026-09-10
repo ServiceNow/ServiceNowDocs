@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-legacyapplicationmanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Zurich
 
 </td><td>
 
-Legacy Application Manager is being deprecated as of Zurich patch 8. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Australia
 
 </td><td>
 
-Legacy Application Manager is being deprecated as of Australia patch 1. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -154,7 +154,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Legacy Application Manager is being deprecated as of Zurich patch 8. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Legacy Application Manager is being deprecated as of Australia patch 1. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
 
 </td></tr></tbody>
 </table>## Activation information

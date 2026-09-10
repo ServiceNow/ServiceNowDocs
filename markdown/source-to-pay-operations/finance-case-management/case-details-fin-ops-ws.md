@@ -70,3 +70,14 @@ Agent assist displays relevant search results based on the search text. The text
 
 **Parent Topic:**[Explore the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-ops-workpace.md)
 
+**Related topics**  
+
+
+[Finance Operations Workspace landing page]()
+
+[Finance Operations Workspace list page]()
+
+[Interaction management in Finance Operations Workspace]()
+
+[Process Automation Designer flows for playbook]()
+

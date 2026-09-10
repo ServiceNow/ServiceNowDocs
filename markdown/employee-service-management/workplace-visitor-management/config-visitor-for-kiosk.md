@@ -40,5 +40,7 @@ Create a check-in or check-out flow for the Workplace Service Kiosk.
 
 [Create a visitor badge template]()
 
+[Configure the frequency of email notifications]()
+
 [Quick start test for Workplace Visitor Management]()
 

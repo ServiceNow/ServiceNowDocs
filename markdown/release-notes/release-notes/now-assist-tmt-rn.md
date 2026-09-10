@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
-description: The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.The ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
 
-## ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) highlights for the Australia release
+## About ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 -   Automatically draft, refine, and publish release announcement emails to the multiple customers regarding the product changes and features adoption.
 -   Identify and match internal experts to customer needs based on engagement context, skills, region, and real-time availability.
@@ -22,9 +22,33 @@ The ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \
 
 See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) features
+-   **Activation information**
+
+    Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## Australia Early Availability
+
+The ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **Auto-onboarding**
+
+    Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to help ensure reliable, efficient integrations with minimal manual effort.
+
+
+## Australia
+
+The ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Squad resource identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-squad-resource-identifier.md)**
 
@@ -50,10 +74,6 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
 
     Analyze call, chat, billing, and interaction data with Knowledge Graph and Workflow Data Fabric. Provide service and network insights with recommendations on potential customer faults. Deliver task-based insights on recent cases, orders, A2A integration with RADCOM, voice agent interactions, and sentiment analysis related to customer health.
 
--   **Auto-onboarding**
-
-    Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to help ensure reliable, efficient integrations with minimal manual effort.
-
 -   **[Analyze the sentiment of a service problem case using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-analyze-sentiment-spc-adr.md)**
 
     Generates the customer's sentiment and the reasoning behind it on the complaint cases. Make informed decisions on complaint cases based on sentiment and link them to the Alternative Dispute Resolution \(ADR\) case record.
@@ -70,29 +90,4 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
 
     Generate details of a deadlock letter for an ADR case. If the customer doesn't agree with the ADR case resolution, then you can use this skill to generate the deadlock letter and share with the customer.
 
-
-## Activation information
-
-Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-## Related ServiceNow applications and features
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    The AI Admin Hub console provides you with quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
-
--   **[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface in Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

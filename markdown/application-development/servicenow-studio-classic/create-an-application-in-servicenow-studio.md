@@ -42,15 +42,15 @@ Use the following steps to create an app manually, or use Build Agent to create 
 
     **Note:** To browse completed apps for reference, select **Explore the App Gallery**. After signing in with your ServiceNow credentials, you can access a library of apps and app files.
 
-<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d297763e192">
+<table id="choicetable_tgq_ryl_m3c"><thead><tr><th align="left" id="d296877e192">
 
 How to create
 
-</th><th align="left" id="d297763e195">
+</th><th align="left" id="d296877e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d297763e201">
+</th></tr></thead><tbody><tr><td id="d296877e201">
 
 **On your own**
 
@@ -58,7 +58,7 @@ Description
 
 Create the application independently, adding content and files of your choosing.Select **On your own** &gt; **Continue** and continue with step 5 in this procedure.
 
-</td></tr><tr><td id="d297763e221">
+</td></tr><tr><td id="d296877e221">
 
 **With ServiceNow Otto, which opens Build Agent**
 
@@ -68,7 +68,7 @@ Begin a conversation with Build Agent to create your application.Select **With S
 
 For more information, see [Create an application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-a-new-application-using-build-agent.md).
 
-</td></tr><tr><td id="d297763e272">
+</td></tr><tr><td id="d296877e270">
 
 **With Creator Studio**
 

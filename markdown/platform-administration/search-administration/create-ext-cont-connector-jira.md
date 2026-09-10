@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Atlassian Jira Cloud source system to allow access by the Atlassian Jira Cloud external content connector. For details on configuring these settings in the source system, see [Configure Atlassian Jira Cloud for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
+A source system administrator must have already configured your Atlassian Jira Cloud source system to allow access by the Atlassian Jira Cloud external content connector. For the required source system configuration steps, see [Configure Atlassian Jira Cloud for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-src-sys-settings-jira-ext-cont-connector.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

@@ -16,6 +16,8 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 
 Using the ITSM Mobile Agent app, shift planning agents can access their schedule. They can request time off to get their manager's approval or swap shifts with their peers and receive notifications for those requests and approvals.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 **Important:** The ITSM Mobile Agent for Workforce Optimization for ITSM features are available with the ITSM Mobile Agent 5.0 store application. For more information, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
 ## Using On-Call Scheduling with Workforce Optimization for ITSM

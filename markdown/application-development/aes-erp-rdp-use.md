@@ -1,6 +1,6 @@
 ---
-title: Using App Engine for ERP rapid deployment packs
-description: Use App Engine for ERP rapid deployment packs to manage master data records, centralize business approvals, and complete month-end financial tasks.
+title: Using App Engine ERP Rapid Deployment Packs
+description: Use App Engine ERP Rapid Deployment Packs to manage master data records, centralize business approvals, and complete month-end financial tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-use.html
 release: australia
@@ -8,21 +8,21 @@ topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 1
 keywords: [app, engine, erp, sap, rapid, deployment, pack]
-breadcrumb: [App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# Using App Engine for ERP rapid deployment packs
+# Using App Engine ERP Rapid Deployment Packs
 
-Use App Engine for ERP rapid deployment packs to manage master data records, centralize business approvals, and complete month-end financial tasks.
+Use App Engine ERP Rapid Deployment Packs to manage master data records, centralize business approvals, and complete month-end financial tasks.
 
-## What do App Engine for ERP rapid deployment packs help you do?
+## What do App Engine ERP Rapid Deployment Packs help you do?
 
-Use App Engine for ERP rapid deployment packs to:
+Use App Engine ERP Rapid Deployment Packs to:
 
 -   Reduce implementation time with prebuilt workflows.
 -   Deliver agentic workflows with AI built in from the start.
 -   Configure, enhance, and extend a customizable foundation to meet business requirements.
--   Fit within your existing enterprise architecture, with App Engine for ERP operating as the system of action on top of ERP systems of record.
+-   Fit within your existing enterprise architecture, with App Engine ERP Rapid Deployment Packs operating as systems of action on top of ERP systems of record.
 
 -   **[Create master data requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-create-request.md)**  
 Submit a request to create a master data record, such as a customer, business partner, material, cost center, location, or bill of materials record, in MDM Orchestrator.
@@ -38,8 +38,8 @@ Add supplementary details to master data requests to prepare each record for gov
 Perform compliance and governance checks on enriched master data records to meet organizational policies before the record reaches the approver.
 -   **[Approve or reject requests in Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-approve-request.md)**  
 As an approver, review master data and journal entry requests in Approval Hub and approve or reject them.
--   **[Create a journal entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use-journal-entry.md)**  
+-   **[Create a manual journal entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-use-journal-entry.md)**  
 Create, validate, and submit journal entries for month-end account closing. The workflow verifies that debit and credit amounts balance before entries reach governance and approval.
 
-**Parent Topic:**[App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-overview.md)
+**Parent Topic:**[App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-overview.md)
 

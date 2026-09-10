@@ -21,7 +21,7 @@ The phone directory enables agents to make outbound calls to queues, other agent
 
 The phone directory helps agents make outbound calls to contacts within their organization and external numbers. Organizations can integrate with any third-party CCaaS call integration feature that enables agents to access their contacts and queues through their integrated contact center. The phone directory displays tabs for queue, agent contacts, and external contacts, and the contact center admin can configure the number of contacts displayed.
 
-The contact center admin must enable and configure the phone directory for the agents to view and use it in their global call list from their ServiceNow instance. After the back-end integration is complete, the phone directory displays in CSM Configurable Workspace.
+The contact center admin must enable and configure the phone directory for the agents to view and use it in their global call list from their ServiceNow instance. After the back-end integration is complete, the phone directory displays in CRM Workspace.
 
 ## Configuration
 

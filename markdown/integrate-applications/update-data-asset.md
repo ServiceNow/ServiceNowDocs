@@ -35,12 +35,11 @@ Enrich assets with descriptions, business context, and organizational metadata t
 5.  Update the general details.
 
     -   Name: Name of the data asset.
-    -   Description: Description of the asset.
-    -   Summary: Brief summary of the asset.
+    -   Description: Description of the asset. Use the rich text editor tools to format the content and add images, links, tables, etc.
 6.  Update the governance details.
 
     -   Lifecycle status: Current state of the data asset. Possible values are: Approved, Deprecated, Draft, In review, Rejected.
-    -   Status message: Description of why the data asset is in its current status.
+    -   Status message: Description of why the data asset is in its current status. Use the rich text editor tools to format the content and add images, links, tables, etc.
     -   Owner: Person responsible for business decisions about the data. Adding or removing an owner sends the owner an email notification.
     -   Steward: Person responsible for data quality and governance. Adding or removing a steward sends the steward an email notification.
 7.  Update the classification details.

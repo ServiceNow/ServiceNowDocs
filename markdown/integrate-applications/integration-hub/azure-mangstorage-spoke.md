@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Microsoft Azure Managed Storage spoke v2.0.0 is the latest version.
+The Microsoft Azure Managed Storage spoke v2.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure Managed Storage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-azure-managed-storage.html).
 
 ## Spoke dependencies
 

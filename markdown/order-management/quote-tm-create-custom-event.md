@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-creat
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
-reading_time_minutes: 1
-breadcrumb: [Events, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 2
+breadcrumb: [Events, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create an event
@@ -42,6 +42,8 @@ Role required: admin
 
     Multiple rule groupings and integrations can be assigned to the same event.
 
+    When pricing is enabled, you can attach the **Reprice** action to an event so that the event recalculates pricing when it runs. Default triggers such as **upsertLines** ship with the **Reprice** action already attached; you can disable these triggers per event if you don't want automatic repricing. For more information, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md).
+
 7.  To configure the event to transition the quote to another stage, enable the **Transition** toggle and set the transition direction \(forward or backward in the stage sequence\).
 
 8.  Select **Save**.
@@ -52,4 +54,6 @@ Role required: admin
 ## What to do next
 
 Add the event to the quote layout to make it available as a button to users. For more information, see [Create a quote transaction layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-create-layout.md).
+
+**Parent Topic:**[Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-events.md)
 

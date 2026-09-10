@@ -21,7 +21,7 @@ Role required: `sn_hco_intg_fhir.admin`.
 
 ## About this task
 
-When the integration imports a FHIR Organization, it uses a decision table named `FhirOrgTypeToBusinessLocationClass` to decide whether to create an internal or external business location, based on the organization type. By default, the organization types `pay`, `pharma`, `crs`, `govt`, `edu`, `reli`, `cg`, and `bus` are classified as external; all other types default to internal. You can edit these rules without changing code.
+When the integration imports a FHIR Organization, it uses the `FhirOrgTypeToBusinessLocationClass` decision table. This table determines whether to create an internal or external business location, based on the organization type. By default, the organization types `pay`, `pharma`, `crs`, `govt`, `edu`, `reli`, `cg`, and `bus` are classified as external; all other types default to internal. You can edit these rules without changing code.
 
 ## Procedure
 

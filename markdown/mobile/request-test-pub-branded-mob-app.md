@@ -183,7 +183,7 @@ None
 </td></tr></tbody>
 </table>-   **[Mobile Publishing build statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-pub-build-statuses.md)**  
 Learn what the Mobile Publishing build statuses "Build in progress" and "Ready for testing" mean and what actions they require from you.
--   **[Request a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-android-app.md)**  
+-   **[Request a branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-android-app.md)**  
 Request, test, and publish a custom Android app that has your unique company identity. Then make the app available for private distribution.
 -   **[Request a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-ios-app.md)**  
 Request, test, and publish a custom iOS app that has your unique company identity. Then make the app available for private distribution.

@@ -1,6 +1,6 @@
 ---
 title: Disable Dynamic Translation for LLM Virtual Agent conversations
-description: Enable dynamic translation of chat messages into English before they are sent to the ServiceNow large language model \(Now LLM\) in generative AI topics to support users who speak other languages.
+description: Enable dynamic translation of chat messages into English before they are sent to the large language model in generative AI topics to support users who speak other languages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/disable-dynamic-translation-for-llm-va-conversations.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI 
 
 # Disable Dynamic Translation for LLM Virtual Agent conversations
 
-Enable dynamic translation of chat messages into English before they are sent to the ServiceNow large language model \(Now LLM\) in generative AI topics to support users who speak other languages.
+Enable dynamic translation of chat messages into English before they are sent to the large language model in generative AI topics to support users who speak other languages.
 
 ## Before you begin
 
@@ -26,22 +26,24 @@ Role required: admin
 
 Dynamic Translation is enabled by default.
 
-There are certain limitations of Dynamic Translation for Virtual Agent. Catalog item names are not automatically translated, and only languages configured for language detection will be recognized.
+There are certain limitations of Dynamic Translation for Virtual Agent. Catalog item names aren't automatically translated, and only languages configured for language detection will be recognized.
 
 ## Procedure
 
-1.  Navigate to the System Properties table by entering `sys_properties.list` in the navigator.
+1.  Navigate to **All**, and then enter `sys_properties.list` in the filter.
 
-2.  Select the magnifying glass icon \(\[Omitted image "magnifying-glass-fill-24.svg"\] Alt text: Magnifying glass icon.\) to expand the column search row.
+2.  Select the magnifying glass icon \(\[Omitted image "magnifying-glass-fill-24.svg"\] Alt text:\) to expand the column search row.
 
-3.  In the Name column, enter `sn_generative_ai.disable_dynamic_translation` and press **Enter** to search, and then open the matching record.
+3.  In the Name column, enter `sn_generative_ai.disable_dynamic_translation` and then press **Enter** to search.
 
-4.  Set the property value to `true`.
+4.  Open the matching record.
 
-5.  Select **Save** to save the record.
+5.  Set the property value to `true`.
+
+6.  Select **Save** to save the record.
 
 
 ## Result
 
-Chat requester utterances are translated into English before being sent to Now LLM and output messages are translated back into the requester's preferred language.
+Chat requester utterances are translated into English before being sent to the LLM, and output messages are translated back into the requester's preferred language.
 

@@ -19,7 +19,7 @@ Source system administrators configure settings to allow external content connec
 
 Each external content connector has its own source system configuration requirements, as shown in the following topics.
 
-**Note:** The following external content connectors do not require any source system configuration.
+**Note:** The following external content connectors don't require any source system configuration.
 
 -   ServiceNow® documentation external content connector
 -   Webcrawler external content connector

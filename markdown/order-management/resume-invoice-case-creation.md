@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-04-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Resume an invoice case in Business Portal
@@ -46,6 +46,8 @@ The invoice case is created and its state changes to **New**.
 Track the status of your invoice case. For more information, see [View invoice case details in the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoice-cases-business-portal.md).
 
 Follow up on your invoice case. For more information, see [Communicate and share supporting documents for an invoice case from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-invoice-cases-bp.md).
+
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

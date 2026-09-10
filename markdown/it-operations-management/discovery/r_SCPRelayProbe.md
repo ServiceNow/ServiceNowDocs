@@ -16,7 +16,7 @@ breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Disco
 
 The SCP Relay Probe copies a single file or the contents of a directory from one host to another, using the MID Server as a relay.
 
-The SCP Relay probe uses the same parameters as SSHCommand. The commands may be sent in or out of the context of a terminal \(tty\), and with or without sudo \(for those commands, such as lsof, that require being executed in the context of root to cough up the information we need\). When commands are sent in the context of a terminal, the path is automatically widened to include a set of default paths \(and this can be further widened with the path\_override parameter\). If the target machine is the local machine, SSH is not used; instead, a local shell is run to execute the command.
+The SCP Relay probe uses the same parameters as SSHCommand. Commands can be sent in or out of the context of a terminal \(tty\), and with or without sudo. Some commands, such as lsof, require being executed in the context of root to return the required information. When commands are sent in the context of a terminal, the path is automatically widened to include a set of default paths. You can further widen the path with the path\_override parameter. If the target machine is the local machine, SSH is not used; instead, a local shell is run to execute the command.
 
 For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
 

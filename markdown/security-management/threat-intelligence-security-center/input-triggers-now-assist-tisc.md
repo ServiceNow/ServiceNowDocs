@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-05-18"
 reading_time_minutes: 1
 keywords: [Now Assist TISC, Threat Intelligence Security Center]
-breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Customize a skill, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Inputs and triggers for ServiceNow Otto for Threat Intelligence Security Center \(TISC\)

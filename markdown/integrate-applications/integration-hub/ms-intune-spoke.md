@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Microsoft Intune spoke v2.0.1 is the latest version.
+The Microsoft Intune spoke v2.0.1 is the latest version. For version history of the spoke, see [Microsoft Intune spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-intune.html).
 
 **Note:** Deployment of applications on Android devices isn’t supported.
 

@@ -43,7 +43,7 @@ Choose the environment based on your skill set and the type of work:
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 
 1.  Make sure that everything you need is properly configured in the settings, such as supported MCP server connections. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md).
-2.  Open ServiceNow Studio or the ServiceNow IDE to access the Build Agent panel in the workspace.
+2.  Open ServiceNow Studio.Use the central chat area on the home page to start a new conversation, or select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open an existing conversation.
 3.  Describe what to create or change in natural language.
 4.  Let Build Agent parse requirements and propose the application and files to create or modify.
 5.  Build Agent edits code or metadata or scaffolds a new application.

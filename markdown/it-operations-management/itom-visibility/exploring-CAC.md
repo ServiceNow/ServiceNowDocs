@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2024-12-19"
+last_updated: "2026-08-11"
 reading_time_minutes: 3
 keywords: [explore, cryptographic asset discovery, cryptographic assets, post-quantum cryptography]
 breadcrumb: [Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]

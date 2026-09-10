@@ -48,7 +48,7 @@ As you complete each configuration phase, the tabs at the top of the Discovery M
 
 The Service Account Field Options \[service\_account\_field\_options\] table contains fields to modify the labels in Discovery Manager. These fields enable you to customize the Discovery Manager to handle new service providers or to alter existing labels to meet internal policies. For example, the Microsoft Azure account ID label is Microsoft Azure Subscription GUID by default. You can change it to Subscription ID, Account ID, or anything else based on your needs.
 
-## Select a service account and test your credentials
+## Select a service account and test credentials
 
 Specify your cloud provider and select the service account to discover. You can include one or all available sub-accounts on a schedule. Provide the credentials for the cloud service account and test the connection.
 
@@ -74,9 +74,9 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
 2.  Select **Discover Cloud Resources** in the Welcome screen.
 
-    **Note:** The Welcome screen contains a link to the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-quick-start.md). This wizard is designed to quickly set up a basic Discovery. You can use Quick Start to evaluate Discovery or to explore new network devices, but the guide is not intended for discovering cloud resources.
+    **Note:** The Welcome screen includes a link to the [Discovery Quick Start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-quick-start.md). Quick Start sets up a basic Discovery for evaluating the product or exploring new network devices. It is not intended for discovering cloud resources.
 
-    If the system cannot detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md). This notification is also displayed if an existing MID Server is not available because it is upgrading.
+    If the system can't detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md). This notification is also displayed if an existing MID Server is not available because it is upgrading.
 
     \[Omitted image "QS\_NoMIDFound2.png"\] Alt text: MID Server setup link
 
@@ -133,7 +133,7 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
 9.  To validate the account with the provided details, select **Test Account**.
 
-    Messages in the header bar notify you of the validation results. If you specified a management account and the connection test was successful, then the wizard displays a selection screen for any members accounts \(sub-accounts\) that are associated with the management account. By default, all current member accounts are selected for the schedule and cannot be moved to the Available list.
+    Messages in the header bar notify you of the validation results. If you specified a management account and the connection test was successful, then the wizard displays a selection screen for any members accounts \(sub-accounts\) that are associated with the management account. By default, all current member accounts are selected for the schedule and can't be moved to the Available list.
 
     **Note:**
 

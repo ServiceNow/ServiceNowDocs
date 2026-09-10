@@ -1,6 +1,6 @@
 ---
 title: Microsoft Azure Functions discovery with Patterns
-description: The Discovery and Service Mapping Patterns application uses the Azure - Functions \(LP\) and Azure - Functions TD Patterns to discover Azure Functions apps and map them in the context of application services. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Azure - Functions \(LP\) and Azure - Functions TD Patterns to discover Azure Functions apps and map them in the context of application services. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-function-discovery.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Disc
 
 # Microsoft Azure Functions discovery with Patterns
 
-The Discovery and Service Mapping Patterns application uses the Azure - Functions \(LP\) and Azure - Functions TD Patterns to discover Azure Functions apps and map them in the context of application services. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Azure - Functions \(LP\) and Azure - Functions TD Patterns to discover Azure Functions apps and map them in the context of application services. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

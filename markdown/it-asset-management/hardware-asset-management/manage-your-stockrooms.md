@@ -112,6 +112,10 @@ Track and manage stockrooms efficiently by evaluating the inventory reports in t
 
 [Audit your hardware assets by using Asset Attestation]()
 
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
+
 [Acknowledge receipt of assets on the Employee Center portal]()
 
 [Update associated Decision tables for HAM flows]()

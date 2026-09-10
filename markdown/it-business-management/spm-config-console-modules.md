@@ -85,11 +85,12 @@ Items that configure Strategic Planning and Portfolio Planning capabilities, inc
 |------|------------------|-----------|
 |Strategic and Portfolio Planning|Set up Strategic Planning or Portfolio Planning|Launch the Strategic Planning or Portfolio Planning guided setup to configure planning capabilities in your SPM environment. The wizard walks you through integrations, alignment settings, portfolio structures, and planning settings, and you can run it multiple times as your configuration needs evolve.|
 
-## Enterprise-Wide Deployment
+## Enterprise-Wide Deployment and Extended Security for Enterprise-Wide Deployment
 
 Items that govern multi-partition deployment of Strategic Portfolio Management \(SPM\).
 
 |Module|Configuration item|Description|
 |------|------------------|-----------|
 |Partitions|Set up partitions|Define data visibility boundaries for teams on the same instance. Create a partition for each function such as team, business unit, or department that requires separate access to project, demand, program, or portfolio records. For more information, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md).|
+|Enable additional security|Enable additional ALL enforcement for partitioned tables to strengthen access control validation. Select the tables where you want to apply enhanced security. For more information, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).|
 

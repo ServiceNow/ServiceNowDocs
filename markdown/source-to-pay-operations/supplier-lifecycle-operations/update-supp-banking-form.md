@@ -1,5 +1,5 @@
 ---
-title: Update banking details form
+title: Fields in the Update banking details form
 description: Use the Update banking details form to update the banking details of the supplier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Update banking details form
+# Fields in the Update banking details form
 
 Use the Update banking details form to update the banking details of the supplier.
 
@@ -126,17 +126,17 @@ Option to upload the bank account proof document. Select **Required - Upload** t
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

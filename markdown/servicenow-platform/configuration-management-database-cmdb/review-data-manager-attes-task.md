@@ -1,5 +1,5 @@
 ---
-title: Review attestation tasks in CMDB Workspace or in Service Graph Workspace
+title: Review attestation tasks in CMDB Workspace
 description: Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.html
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Review attestation tasks in CMDB Workspaceor in Service Graph Workspace
+# Review attestation tasks in CMDB Workspace
 
 Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 
@@ -37,10 +37,8 @@ As you process the CIs in the task, only the fields **Attestation Status** \(val
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks view**.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **My Work** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Attestation**.
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 
 2.  Select a task to review from the Attestation tasks list.

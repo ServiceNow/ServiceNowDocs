@@ -166,7 +166,7 @@ Encryption Support plugin \(com.glide.encryption\)
 
 </td><td>
 
-Encrypts table columns and attachments associated with an EMR system in an IT service request.
+Installs platform encryption capabilities to support EMR Help.
 
 </td></tr></tbody>
 </table>## ServiceNow Store applications installed

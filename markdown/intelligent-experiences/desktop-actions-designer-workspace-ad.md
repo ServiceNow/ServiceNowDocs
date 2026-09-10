@@ -1,5 +1,5 @@
 ---
-title: Defined path desktop actions in AI Desktop Actions
+title: Defined desktop actions in AI Desktop Actions
 description: Desktop actions enable you to automate repetitive tasks on your desktop and web applications. This capability helps you streamline repetitive tasks, improve efficiency, and integrate desktop application workflows into your ServiceNow processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/desktop-actions-designer-workspace-ad.html
@@ -11,7 +11,7 @@ keywords: [defined desktop action, deterministic desktop action]
 breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
 
-# Defined path desktop actions in AI Desktop Actions
+# Defined desktop actions in AI Desktop Actions
 
 Desktop actions enable you to automate repetitive tasks on your desktop and web applications. This capability helps you streamline repetitive tasks, improve efficiency, and integrate desktop application workflows into your ServiceNow processes.
 
@@ -240,5 +240,5 @@ Desktop actions support a wide range of desktop application interactions, includ
 
 [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)
 
-[Add a defined desktop action tool to an AI agent for desktop and web-based task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-desktop-action-ai-agent.md)
+[add-desktop-action-ai-agent-1]
 

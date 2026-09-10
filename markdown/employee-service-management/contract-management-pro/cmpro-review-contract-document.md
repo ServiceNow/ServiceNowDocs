@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Contract analysis, Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review the AI suggestions for clause deviations
@@ -35,15 +35,15 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d269369e126">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d270353e126">
 
 Method
 
-</th><th align="left" id="d269369e129">
+</th><th align="left" id="d270353e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269369e135">
+</th></tr></thead><tbody><tr><td id="d270353e135">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d269369e182">
+</td></tr><tr><td id="d270353e182">
 
 **Workspace used by your application**
 
@@ -160,15 +160,15 @@ Lists all the standard clauses that are active for the contract type that the do
             -   Thumbs up \[Omitted image "thumbs-up-outline-24.svg"\] and Thumbs down \[Omitted image "thumbs-down-outline-24.svg"\] icons to capture the feedback.
     2.  Accept or ignore the suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d269369e510">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d270353e510">
 
 Action
 
-</th><th align="left" id="d269369e513">
+</th><th align="left" id="d270353e513">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269369e519">
+</th></tr></thead><tbody><tr><td id="d270353e519">
 
 **Replace the non-standard clause**
 
@@ -178,7 +178,7 @@ Steps
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d269369e540">
+</td></tr><tr><td id="d270353e540">
 
 **Ignore suggestion**
 
@@ -244,5 +244,5 @@ Select **Ignore**.
     **Note:** If you download the document to work on it offline, you must upload the document manually by creating a revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
 
-**Parent Topic:**[Contract analysis using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

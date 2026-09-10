@@ -1,6 +1,6 @@
 ---
 title: NowVoiceService class - Android
-description: Manages voice agent sessions for a single ServiceNow instance.Launches the full-screen voice agent Activity. This is a suspend function that returns after the session ends.Updates the visual theme of the currently active voice UI.
+description: Manages voice agent sessions for a single ServiceNow instance.Ends the current voice call.Checks whether there is a currently active voice call.Launches the full-screen voice agent Activity. This is a suspend function that returns after the session ends.Toggles the microphone mute state of the current call.Updates the visual theme of the currently active voice UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceServiceAndroidAPI.html
 release: australia
@@ -8,7 +8,7 @@ product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
 last_updated: "2026-07-21"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
@@ -18,12 +18,127 @@ Manages voice agent sessions for a single ServiceNow instance.
 
 **Note:** Initialize a NowVoiceService by calling [NowVoiceSDK - makeVoiceService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceSDKAndroidAPI.md).
 
+<table id="table_vx2_klw_nva1" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+configuration
+
+</td><td>
+
+[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)
+
+</td><td>
+
+The service configuration for the ServiceNow instance.
+
+</td></tr><tr><td>
+
+isMuted
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates the microphone mute state for the current call. Setting this property has no effect if no call is currently active.Valid values:
+
+-   true: The microphone is muted.
+-   false: The microphone is unmuted or no call is active.
+
+</td></tr><tr><td>
+
+nowVoiceEndpoints
+
+</td><td>
+
+List&lt;[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)&gt;
+
+</td><td>
+
+Read-only. The list of available voice endpoint configurations retrieved from the instance.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+
+## NowVoiceService - endCall\(\)
+
+Ends the current voice call.
+
+Has no effect if no call is active.
+
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|The service configuration for the ServiceNow instance.|
-|nowVoiceEndpoints|List&lt;[NowVoiceEndpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceEndpointAndroidClass.md)&gt;|Read-only. The list of available voice endpoint configurations retrieved from the instance.|
+|None| | |
 
-**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following code example ends the active voice call.
+
+```
+val voiceService = NowVoiceSDK.makeVoiceService(instanceUrl).getOrNull()
+
+val endpoint = voiceService?.nowVoiceEndpoints?.first()
+voiceService?.start(activity, endpoint = endpoint, theme = theme)
+
+// End a call on timeout, navigation, or from a custom hang-up button
+voiceService?.endCall()
+```
+
+## NowVoiceService - hasActiveCall\(\)
+
+Checks whether there is a currently active voice call.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_qft_qzv_nva8" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether there is an active voice call.Valid values:
+
+-   true: There is an active voice call.
+-   false: There isn't an active voice call.
+
+</td></tr></tbody>
+</table>The following code example checks if a voice call is in progress.
+
+```
+val voiceService = NowVoiceSDK.makeVoiceService(instanceUrl).getOrNull()
+
+val endpoint = voiceService?.nowVoiceEndpoints?.first()
+voiceService?.start(activity, endpoint = endpoint, theme = theme)
+
+// Guard UI state or prevent starting a second call
+if (voiceService?.hasActiveCall() == true) {
+    // A voice call is currently in progress
+}
+```
 
 ## NowVoiceService - start\(context: Context, endpoint: NowVoiceEndpoint, uiConfiguration: NowVoiceUiConfiguration, callbacks: NowVoiceCallbacks?, theme: NowVoiceTheme\)
 
@@ -142,6 +257,49 @@ voiceService.start(
 )
 ```
 
+## NowVoiceService - toggleMute\(\)
+
+Toggles the microphone mute state of the current call.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_qft_qzv_nva7" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates the new microphone mute state for the current call.Valid values:
+
+-   true: The microphone is now muted.
+-   false: The microphone is now unmuted or no call is active.
+
+</td></tr></tbody>
+</table>The following code example toggles and reads the microphone mute state.
+
+```
+val voiceService = NowVoiceSDK.makeVoiceService(instanceUrl).getOrNull()
+
+val endpoint = voiceService?.nowVoiceEndpoints?.first()
+voiceService?.start(activity, endpoint = endpoint, theme = theme)
+
+// Wire to a custom mute button or auto-mute on backgrounding
+voiceService?.toggleMute()
+
+// Check mute state to update a custom mute button icon
+val muted = voiceService?.isMuted ?: false
+```
+
 ## NowVoiceService - updateTheme\(theme: NowVoiceTheme\)
 
 Updates the visual theme of the currently active voice UI.
@@ -159,7 +317,12 @@ This function has no effect if no voice session is currently active. To apply a 
 The following code example updates the visual theme of the currently active voice UI.
 
 ```
-//voiceService is an initialized NowVoiceService
-voiceService.updateTheme(NowVoiceThemeDark())
+val voiceService = NowVoiceSDK.makeVoiceService(instanceUrl).getOrNull()
+
+val endpoint = voiceService?.nowVoiceEndpoints?.first()
+voiceService?.start(activity, endpoint = endpoint, theme = theme)
+
+// React to dark mode changes or apply brand colors at runtime
+voiceService?.updateTheme(NowVoiceThemeDark())
 ```
 

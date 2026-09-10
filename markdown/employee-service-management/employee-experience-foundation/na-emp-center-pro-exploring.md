@@ -1,27 +1,27 @@
 ---
-title: Exploring Now Assist for Employee Center Pro
-description: Now Assist for Employee Center Pro is a modern, multi-application employee engagement layer that is designed to provide a digital front-door for employee self-service capabilities, request support and conversational assistance, and powerful enterprise search capabilities.
+title: Exploring ServiceNow Otto for Employee Center Pro
+description: ServiceNow Otto for Employee Center Pro provides a clean employee engagement layer, and offers self-service capabilities, conversational assistance, and enterprise search across multiple applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [Now Assist for Employee Center Pro, Now Assist, Agentic AI]
-breadcrumb: [Now Assist for Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
-# Exploring Now Assist for Employee Center Pro
+# Exploring ServiceNow Otto for Employee Center Pro
 
-Now Assist for Employee Center Pro is a modern, multi-application employee engagement layer that is designed to provide a digital front-door for employee self-service capabilities, request support and conversational assistance, and powerful enterprise search capabilities.
+ServiceNow Otto for Employee Center Pro provides a clean employee engagement layer, and offers self-service capabilities, conversational assistance, and enterprise search across multiple applications.
 
-## Now Assist for Employee Center Pro overview
+## ServiceNow Otto for Employee Center Pro overview
 
-Now Assist for Employee Center Pro is layered with Employee Center Pro, a multi-department employee destination site that drives employee engagement and productivity. Now Assist, which improves productivity, efficiency, and self-service while empowering your users to search more effectively. AI Search, which enables your users to have a powerful consumer-grade search experience.
+ServiceNow Otto for Employee Center Pro is layered with Employee Center Pro, a multi-department employee destination site that drives employee engagement and productivity. This layer improves productivity, efficiency, and self-service while empowering your users to search more effectively. AI Search, which enables your users to have a powerful consumer-grade search experience.
 
-\[Omitted image "emp-center-pro-plus-exploring.png"\] Alt text: Landing Page features for Now Assist for Employee Center Pro.
+\[Omitted image "emp-center-pro-plus-exploring.png"\] Alt text: landing page features for ServiceNow Otto for Employee Center Pro.
 
 -   **Employee Center Pro**
 
@@ -39,11 +39,11 @@ Now Assist for Employee Center Pro is layered with Employee Center Pro, a multi-
 
     Employees stay informed on news and events, engage with coworkers and leaders, receive targeted communications, and find cross-enterprise answers.
 
--   **Now Assist**
+-   **ServiceNow Otto**
 
-    Now Assist is a growing cross-platform family of generative AI features, which are tasks that a large language model \(LLM\) can perform. Generative AI features are based on the initial training and architecture.
+    ServiceNow Otto is a growing cross-platform family of generative AI features, which are tasks that a large language model \(LLM\) can perform.
 
-    A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. Now Assist products provide features and skills that are tailored to meet the needs of users in different workflows.
+    A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. These products provide features and skills that are tailored to meet the needs of users in different workflows.
 
 -   **Now Assist Framework**
 
@@ -66,5 +66,5 @@ Now Assist for Employee Center Pro is layered with Employee Center Pro, a multi-
 
 ## What to explore next
 
-To learn more about configuring Now Assist for Employee Center Pro, see: [Configuring Now Assist for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
+To learn more about configuring ServiceNow Otto for Employee Center Pro, see: [Configuring ServiceNow Otto for Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
 

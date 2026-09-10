@@ -34,7 +34,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 5.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).\[Omitted image "create-ai-system-button.png"\] Alt text: Create AI System option is available on the Details page.
+    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 
 ## What to do next

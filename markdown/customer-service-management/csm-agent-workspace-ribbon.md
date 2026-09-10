@@ -1,5 +1,5 @@
 ---
-title: CSM Configurable Workspace form ribbon and components
+title: CRM Workspace form ribbon and components
 description: The form ribbon provides includes components that display relevant information about a case and provide agents with a quick overview of the case details. These components can include a contact or consumer summary, a timeline, and SLA details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-agent-workspace-ribbon.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Form features, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form ribbon and components
+# CRM Workspace form ribbon and components
 
 The form ribbon provides includes components that display relevant information about a case and provide agents with a quick overview of the case details. These components can include a contact or consumer summary, a timeline, and SLA details.
 
@@ -329,9 +329,9 @@ Following are a list of SLA messages displayed and the action required when they
 
 ## Configuring ribbon components
 
-For CSM Configurable Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
+For CRM Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
 
-**Note:** One ribbon configuration, **CSM/FSM Configurable Workspace Ribbon Config**, is included with CSM Configurable Workspace.
+**Note:** One ribbon configuration, **CSM/FSM Configurable Workspace Ribbon Config**, is included with CRM Workspace.
 
 You can also display the form ribbon in the form ribbon in the Contextual side panel. For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).
 

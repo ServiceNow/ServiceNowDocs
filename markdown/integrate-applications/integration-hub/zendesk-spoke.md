@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Zendesk spoke v1.9.0 is the latest version.
+Zendesk spoke v1.9.2 is the latest version. For version history of the spoke, see [Zendesk spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-zendesk.html).
 
 ## Supported versions
 

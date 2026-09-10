@@ -28,7 +28,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 2.  From the list of projects, select a project.
 
-3.  Select any transition.
+3.  Select any transition or node.
 
     A window is displayed with all the details.
 

@@ -1,6 +1,6 @@
 ---
 title: View fixes in USEM Workspace
-description: Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
+description: Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/view-fixes-in-workspace.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Use, Fix Intelligence for Security Exposure Management, Integrate, 
 
 # View fixes in USEM Workspace
 
-Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
+Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Fixes appear in Unified Security Exposure Management Workspace as a list and a f
 
 2.  Open the **Remediation overview** and select the **Fix Intelligence** tab.
 
-    The **Fix Intelligence** tab summarizes findings that have a fix identified, the number of unique fixes, and the top fixes to act on. To review the fixes themselves, open the Fix list from this tab or select **View All** on a widget. For how to use these widgets to prioritize, see [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/prioritize-remediation-by-fix.md).
+    The **Fix Intelligence** tab summarizes findings that have a fix identified, the number of unique fixes, and the top fixes to act on. To review the fixes themselves, open the Fix list from this tab or select **View All** on a widget.
 
 3.  Open the Fix list.
 
@@ -56,10 +56,6 @@ Fixes appear in Unified Security Exposure Management Workspace as a list and a f
 ## Result
 
 You can see the ingested fixes and the scope of each one.
-
-## What to do next
-
-Prioritize which fixes to act on first: [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/prioritize-remediation-by-fix.md).
 
 **Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-fix-intel-security-exposure-management.md)
 

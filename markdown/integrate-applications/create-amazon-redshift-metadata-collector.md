@@ -18,8 +18,8 @@ Create a collector to import metadata from Amazon Redshift.
 
 Before you begin, verify the following:
 
--   A MID Server is set up for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All prerequisite tasks are completed. For more information, see [Prepare to run the Amazon Redshift collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-amazon-redshift-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,28 +47,9 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Configure the authentication options.
+7.  Configure the connection options.
 
-    |Field|Description|
-    |-----|-----------|
-    |Username|Username to use to connect to the database.|
-    |Password|Password of the databsase user.|
-
-8.  From the schema collection options, select one of the following: **Collect all schemas** or **Specify which schema to collect**.
-
-    |Field|Description|
-    |-----|-----------|
-    |Collect all schemas|
-    |Collect all schemas|Catalog all schemas to which the user has access.|
-    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
-    |Include Information Schema|Include the database's Information Schema in catalog collection.|
-    |Specify which schema to collect|
-    |Specify which schema to collect|Catalog only the specified schemas.|
-    |Schema|Name of the database schema to catalog.|
-
-9.  Configure the connection information.
-
-<table id="table_mtg_br2_h3c"><thead><tr><th>
+<table id="table_s3_collector_props"><thead><tr><th>
 
 Field
 
@@ -94,6 +75,32 @@ Port of the database server \(if not the default\).
 
 </td></tr><tr><td>
 
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Username|Username to use to connect to the database.|
+    |Password|Password of the databsase user.|
+
+9.  Configure the databases information.
+
+<table id="table_mtg_br2_h3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
 Database
 
 </td><td>
@@ -109,7 +116,19 @@ Excluded database
 Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>10. Configure the harvesting scope and limits options.
+</table>10. From the schema collection options, select one of the following: **Collect all schemas** or **Specify which schema to collect**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+11. Configure the harvesting scope and limits options.
 
 <table id="table_nyb_fr2_h3c"><thead><tr><th>
 
@@ -168,7 +187,7 @@ Exclude system functions
 Exclude system functions from metadata collection.
 
 </td></tr></tbody>
-</table>11. Configure the connection and reliability options.
+</table>12. Configure the connection and reliability options.
 
 <table id="table_opv_dzw_n3c"><thead><tr><th>
 
@@ -211,7 +230,7 @@ SQL parsing timeout
 Timeout in seconds for SQL parsing during lineage collection. Default: 60
 
 </td></tr></tbody>
-</table>12. Select **Save**.
+</table>13. Select **Save**.
 
 
 ## Result

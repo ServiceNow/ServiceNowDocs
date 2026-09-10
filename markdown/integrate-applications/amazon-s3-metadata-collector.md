@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/amazon-s3-metadata-collector.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [Amazon S3, metadata collector, S3 bucket, S3 object]
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]

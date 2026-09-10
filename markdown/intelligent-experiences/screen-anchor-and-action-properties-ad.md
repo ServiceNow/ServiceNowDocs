@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-05-25"
 reading_time_minutes: 3
-breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Screen, anchor, and step properties in AI Desktop Actions

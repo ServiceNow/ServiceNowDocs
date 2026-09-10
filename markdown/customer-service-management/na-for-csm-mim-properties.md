@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-06-02"
 reading_time_minutes: 2
-breadcrumb: [Configure ServiceNow Otto for CRM Major Issue Management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure ServiceNow Otto for CSM Major Issue Management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # ServiceNow Otto for CSM Major Issue Management Properties

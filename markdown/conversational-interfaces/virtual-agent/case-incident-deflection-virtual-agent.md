@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-07-23"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 

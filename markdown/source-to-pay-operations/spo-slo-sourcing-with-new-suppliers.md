@@ -52,7 +52,7 @@ Install and activate these plugins.
 -   Common Service Delivery \[com.sn\_spend\_sdc\]
 -   Risk Assessments Integration for Sourcing and Procurement Operations \[com.sn\_spend\_vrm\]
 
-For information on the installation sequence, see [Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md).
+For more information on installation, see [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md).
 
 ## Get started with sourcing with a new supplier
 

@@ -91,6 +91,8 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 The ServiceNow® AI Search application provides a modern consumer-grade search engine for the Legal Service Portal.
 -   **[Delegation of legal duties and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-services-delegation.md)**  
 Legal fulfillers can delegate their legal duties to other users while they are unavailable. The delegate gets the same level of access as the legal fulfillers to work on their legal requests, legal matters, legal matter tasks, and approvals.
+-   **[Configure ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-configuring.md)**  
+Configure generative AI skills in ServiceNow Otto for Legal Service Delivery \(LSD\) for legal users working in Legal Counsel Center, Core UI, and Employee Center.
 
 **Parent Topic:**[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 

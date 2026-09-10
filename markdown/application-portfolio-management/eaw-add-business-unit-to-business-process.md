@@ -17,7 +17,7 @@ Add an existing business unit to a business process in Enterprise Architecture W
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_user
+Role required: sn\_apm.apm\_user along with cost\_transparency\_admin or cost\_transparency\_analyst or business\_planner or user\_admin
 
 ## Procedure
 

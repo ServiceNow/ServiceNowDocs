@@ -19,7 +19,7 @@ Reference topics provide additional information about mapping and fine-tuning ap
 -   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md)**  
 Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 -   **[Business App Mapping AI Agent confidence thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-ai-specialist-confidence-thresholds.md)**  
-Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
+The Business App Mapping AI Agent handles matches based on their AI confidence score. Each score range triggers a specific action.
 -   **[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/sm-dashboard.md)**  
 The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
 -   **[Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/default-traversal-rules.md)**  

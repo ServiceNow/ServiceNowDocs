@@ -16,9 +16,12 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your e
 
 Share the look and feel of the record pages in Service Operations Workspace \(SOW\) such as incident or change request as it is across other workspace such as CSM and FSM workspaces.
 
-To support interoperability, SOW enables sharing the look and feel of the record pages such as incident and change request across other workspaces like CSM and FSM workspaces. The interoperability feature provides a consistent experience for you to view the records across workspaces in the ServiceNow platform \(e.g., User sees the same view and actions for an incident record, whether in SOW or CSM workspaces\).
+To support interoperability, SOW enables sharing the look and feel of the record pages such as incident and change request across other workspaces like CSM and FSM workspaces. The shared experience ensures agents see the same view and actions for a record regardless of which workspace they use.
 
 To implement and consume this feature on other workspaces like CSM workspace, an admin in CSM must create record in the **UX Cross-experience route** UX property. The admin can then customize the usage conditions and other parameters to implement this feature for specific tables such as incident and mark this record as Active as per their requirement.
+
+-   **[Create a UX cross-experience route](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-ux-cross-experience-route.md)**  
+Create a UX cross-experience route to share a record page from one workspace so it opens automatically when the same record type is viewed in another workspace.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,11 +22,11 @@ Role required: admin, function\_field\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Core UI artifacts** &gt; **Reports.**
 
-2.  Select a report based on the table that you want to add a function field to.
+2.  Select a report based on the table that you want to edit a function field on.
 
-    When you configure a function field, it is available in any report on the same table. For example, a function field that calculates how long incidents have been open is available for all reports on the incident table.
+    When you configure a function field, it is available in any report or data visualization on the same table. For example, a function field that calculates how long incidents have been open is available for all reports and visualizations on the incident table.
 
 3.  Open the **Configure** tab and select **Configure function field**.
 

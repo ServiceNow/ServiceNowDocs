@@ -26,7 +26,7 @@ Verify that custom scripts have proper error handling to avoid issues. Without p
 
 1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Home**.
 
-2.  Select **Definitions** from the secondary navigation.
+2.  Select **Configuration** from the secondary navigation.
 
 3.  Select the **Cleanup scripts** tab.
 

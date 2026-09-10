@@ -40,7 +40,7 @@ The discovered services history appears only when there are multiple discovered 
 
     \[Omitted image "EMTimeline.png"\] Alt text: Discovered services history
 
-    The displayed color corresponds to the discovered services severity, and the length of the bar in each color corresponds to how long the discovered services stayed at that severity.
+    The displayed color corresponds to the discovered services severity. The length of the bar in each color corresponds to how long the discovered services stayed at that severity.
 
     The following table explains the severity colors:
 

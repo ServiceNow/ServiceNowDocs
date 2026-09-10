@@ -22,15 +22,15 @@ To see some examples of the Natural Language query responses, refer [Natural lan
 
 Enterprise graph schema simplifies Knowledge Graph setup by providing a preconfigured schema, eliminating the need for custom schema creation in Knowledge Graph designer.
 
-Admins can choose Enterprise graph as the Knowledge Graph schema when using AI agents, Now Assist Virtual Agent, or Now Assist panel admin and add tags to enhance accuracy.
+Admins can choose Enterprise graph as the Knowledge Graph schema when using AI agents, ServiceNow® Otto for Virtual Agent, or ServiceNow Otto panel admin and add tags to enhance accuracy.
 
 By mapping all tables, the Enterprise graph schema expands query capabilities to cover the entire database, whereas a custom or out-of-the-box \(OOTB\) schema limits queries to only the tables included in its specific schema.
 
 ## Benefits of Enterprise Graph on Prebuilt integration
 
-Now Assist Virtual Agent- With Enterprise Graph integration, Now Assist Virtual Agent can respond to a wide range of questions about their enterprise data from requester, helping to deflect queries.
+Now Assist ServiceNow® Otto for Virtual Agent- With Enterprise Graph integration, ServiceNow® Otto for Virtual Agent can respond to a wide range of questions about their enterprise data from requester, helping to deflect queries.
 
-Now Assist panel- With Enterprise Graph enabled, Now Assist panel allows fulfillers to obtain insights from the structured data in instance by asking natural language questions, which boosts their productivity.
+ServiceNow Otto panel- With Enterprise Graph enabled, ServiceNow Otto panel allows fulfillers to obtain insights from the structured data in instance by asking natural language questions, which boosts their productivity.
 
 AI agents- With Enterprise Graph enabled, AI agents can access relevant information from structured data in ServiceNow instance directly from the Knowledge Graph, giving them essential context for tasks.
 

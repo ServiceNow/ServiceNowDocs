@@ -1,6 +1,6 @@
 ---
 title: Engagement Overview
-description: The Engagement Overview is contained in the Audit Management application and provides an executive view into audit results, engagement breakdowns by task, and allows areas of concern to be identified quickly.
+description: The Engagement Overview provides an executive view into audit results and engagement breakdowns by task. You can identify areas of concern quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/c\_AuditEngagementOverview.html
 release: australia
@@ -9,12 +9,12 @@ classification: audit-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Risk Monitoring &amp; Indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Engagement Overview
 
-The Engagement Overview is contained in the Audit Management application and provides an executive view into audit results, engagement breakdowns by task, and allows areas of concern to be identified quickly.
+The Engagement Overview provides an executive view into audit results and engagement breakdowns by task. You can identify areas of concern quickly.
 
 The Engagement Overview module displays audit information that is tailored to the role of the user.
 

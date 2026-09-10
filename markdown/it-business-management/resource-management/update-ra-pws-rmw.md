@@ -8,7 +8,7 @@ product: Resource Management
 classification: resource-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage resource assignments from Project Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -24,12 +24,13 @@ In resource assignments, any changes made to the status of group resource assign
 
 ## About this task
 
-Before updating a resource assignment, verify the following to ensure accurate and effective resource allocation:
+Before updating a resource assignment, verify the following for accurate and effective resource allocation:
 
 -   Resource availability: Check that the resource has available capacity during the assignment period. Overallocated resources are indicated with a warning icon.
 -   Primary attributes: Verify the resource has the required primary attributes such as, skills or roles matching the project task requirements.
 -   Existing allocations: Review the resource's current assignments across all projects to avoid conflicts or overutilization.
 -   Group vs. individual: If updating a group resource assignment, note that status changes roll down to all child \(individual\) resource assignments. Similarly, individual status changes roll up to the group assignment.
+-   Effort changes: If you change the effort on a group resource assignment, the effort is redistributed across all child resource assignments. For the **Hours** effort type, effort is distributed in whole hours. Any remaining hours are distributed one hour at a time, so some members can receive one hour more than others.
 -   Assignment status: Verify the assignment is in the correct state \(Requested, Assigned, or Approved\) before making changes.
 
 ## Procedure

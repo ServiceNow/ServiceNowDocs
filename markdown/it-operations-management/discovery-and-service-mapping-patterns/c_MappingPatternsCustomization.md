@@ -105,14 +105,6 @@ Can view, create, edit, and publish patterns. The role enables users to run disc
 
 </td></tr><tr><td>
 
-PD user
-
-</td><td>
-
-Has read-only access to **Discovery Pattern Log**.
-
-</td></tr><tr><td>
-
 PD admin
 
 </td><td>
@@ -134,8 +126,6 @@ The pde\_viewer role can view the following tables only:
 -   Command Validation Task Results \[pd\_command\_validation\_results\]
 -   Pattern Shared Library Mapping \[pd\_pattern\_to\_shared\_library\_mapping\]
 -   Temporary Variable Mappings \[pd\_temp\_variable\_value\_mapping\]
-
-For more information, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md).
 
 </td></tr><tr><td>
 
@@ -189,7 +179,7 @@ Add related items to the patterns to perform horizontal discovery of configurati
 8.  [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)  
 Enable patterns to search for additional attributes and modify pattern discovery logic defined in identification sections by using extension sections. Each extension section contains a preconfigured set of discovery steps referred to as a shared library.
 9.  [Fine-tune patterns using traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.md)  
-As an alternative to customizing the pattern from the Pattern Designer side, improve existing patterns so that Service Mapping can use them to find configuration item \(CI\) connections previously found using traffic-based discovery.
+Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
 10. [Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)  
 After you finish defining your pattern, make it ready for use by Service Mapping and Discovery.
 11. [Copy patterns from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.md)  
@@ -204,8 +194,10 @@ If you have multiple cloud accounts and datacenters in AWS and Azure, you can di
 The **Populate Service Account and LDC IN CMDB** scheduled job populates the Service Account and Logical Datacenter fields in cloud configuration item \(CI\) tables, and the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. This direct population reduces query complexity and improves query performance.
 16. [Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)  
 Cloud discovery can populate Server CIs without running IP-based discovery, reducing discovery time in large environments.
-17. [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)  
-Enable Oracle Wallet authentication to use credentials stored on the target server during Oracle database discovery on UNIX systems.
+17. [Oracle Wallet authentication for database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)  
+With Oracle Wallet authentication, Discovery reads database credentials directly from the target server. This approach keeps credentials within the target environment instead of storing them on the ServiceNow AI Platform.
+18. [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md)  
+Populate the **Owned By Configuration Item** field on discovered IP address records with a direct reference to the main CI, instead of requiring a dot-walk through the network adapter. Populating the reference is supported only for AIX Server discovery.
 
 **Parent Topic:**[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Zero Copy Connector for ERP manage a model
+title: Zero Copy Connector for ERP model management
 description: Manage model inputs, outputs, and mappings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-manage-models.html
@@ -9,10 +9,10 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 1
-breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP manage a model
+# Zero Copy Connector for ERP model management
 
 Manage model inputs, outputs, and mappings.
 

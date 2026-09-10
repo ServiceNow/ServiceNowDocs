@@ -1,6 +1,6 @@
 ---
 title: Using Knowledge Graph Designer
-description: Use Knowledge Graph Designer to create customized Knowledge Graph schemas that consist of nodes and edges.
+description: Use Knowledge Graph Designer to create customized Knowledge Graph schema that consist of nodes and edges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.html
 release: australia
@@ -14,9 +14,9 @@ breadcrumb: [Knowledge Graph, Enable AI experiences]
 
 # Using Knowledge Graph Designer
 
-Use Knowledge Graph Designer to create customized Knowledge Graph schemas that consist of nodes and edges.
+Use Knowledge Graph Designer to create customized Knowledge Graph schema that consist of nodes and edges.
 
-Knowledge Graph schemas are the customized Knowledge graphs that consist of nodes and edges.
+Knowledge Graph schema are the customized Knowledge graphs that consist of nodes and edges.
 
 Like tables, nodes also denote and store details about entities such as user, location, department. You can add nodes to the Knowledge Graph schema so that the system can reach out to all the relevant tables to fetch the data. You can also edit node properties such as data source, start node, end node, and connected nodes.
 
@@ -30,9 +30,9 @@ Apart from ServiceNow tables, you can also create Knowledge Graph schema using W
 
 There’s an option to test a Knowledge Graph schema by generating and running a query.
 
-## View Knowledge Graph schemas
+## View Knowledge Graph schema
 
-By default, ServiceNow published Knowledge Graph schemas are available with the product. View the prebuilt schemas provided by ServiceNow, or the schemas created by your organization admin. There are currently two prebuilt schemas available that are read-only but can be cloned and edited:
+By default, ServiceNow published Knowledge Graph schema is available with the product. View the prebuilt schema provided by ServiceNow, or the schema created by your organization admin. There are currently two prebuilt schema available that are read-only but can be cloned and edited:
 
 1.  User profile schema
 2.  Employee schema

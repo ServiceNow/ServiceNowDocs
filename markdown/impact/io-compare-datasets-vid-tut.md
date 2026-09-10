@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Use the Compare datasets tool to compare high-level metrics across time. You can select from different dimensions for each dataset. For example, in the Average server response time, you can pick two days for about a three-hour period, and compare the overlays and analyze differences in performance metrics between the two time periods. This is useful to understand the impact of deployments, configuration changes, or identify performance degradation over time.
+Use the Compare datasets tool to compare high-level metrics across time. You can select from different dimensions for each dataset. For example, in the Average server response time, you can pick two days for about a three-hour period. Then compare the overlays and analyze differences in performance metrics between the two time periods. This is useful to understand the impact of deployments, configuration changes, or identify performance degradation over time.
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Use the Compare datasets tool to compare high-level metrics across time. You can
     -   **Average session summary enduser**: The average time span of a user when they log in until their session ends.
     -   **Average session summary loggedIn**: Total session counts for non-active users.
     -   **SQL Response Time**: The smallest unit of measurement to track SQL per SQL statement. Tracks the average time \(in ms\) for SQL queries to execute against the ServiceNow database
-    If it deviates beyond 2.5 milliseconds, select Query Patterns, zoom into 15 minutes on each side of the spike to analyze the graph and the dataset to understand the cause of the issue.
+    If it deviates beyond 2.5 milliseconds, select Query Patterns. Then zoom into 15 minutes on each side of the spike to analyze the graph and the dataset to understand the cause of the issue.
 
 10. Select **Releases** option in the **between** list to compare the date ranges between two upgrades.
 

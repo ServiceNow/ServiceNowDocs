@@ -36,6 +36,6 @@ Delete threat intelligence library records such as observables, indicators, and 
 Use the export feature to manually export the intelligence data in various formats.
 -   **[Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/confirm-potential-relationships.md)**  
 Confirm the relationships between the two SDOs.
--   **[Automated Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/automated-correlation-rules.md)**  
-Automated correlation helps you identify the relationships between observables, indicators, and objects.
+-   **[Automated correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/automated-correlation-rules.md)**  
+Automated correlation automatically establishes relationships between threat intelligence records based on predefined rules, helping you identify connections between observables, indicators, and threat objects.
 

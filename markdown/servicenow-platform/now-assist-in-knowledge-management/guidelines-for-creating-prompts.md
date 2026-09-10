@@ -9,7 +9,7 @@ classification: now-assist-in-knowledge-management
 topic_type: reference
 last_updated: "2026-07-20"
 reading_time_minutes: 5
-breadcrumb: [Configure custom prompts skills for knowledge article templates, Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure custom prompts for knowledge article templates, Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Guidelines for creating prompts
@@ -148,5 +148,5 @@ Generate a JSON response in the following format:
 
 ```
 
-**Parent Topic:**[Configure custom prompts skills for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
+**Parent Topic:**[Configure custom prompts for knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-legalconflictofinterest-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -124,7 +124,7 @@ The risk assessment utility evaluates conflict of interest disclosures against p
 
 **Note:** AI skill evaluation is available once you have installed and configured ServiceNow Otto for Legal Service Delivery \(LSD\).
 
--   **[Conversational intake for COI](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&family=australia&ft:locale=en-US)**
+-   **[Submit COI request using AI](https://www.servicenow.com/docs/access?context=now-assist-lsd-convi&family=australia&ft:locale=en-US)**
 
 Using natural language to submit a conflict of interest request from ServiceNow Otto in the Virtual Agent interface reduces the effort required to fill in form fields because details provided in natural language are automatically populated into the intake form. Achieve faster resolution due to automated risk assessment that routes requests to the appropriate approval workflow based on calculated risk scores.
 
@@ -301,7 +301,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -309,7 +312,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Legal Conflict of Interest by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

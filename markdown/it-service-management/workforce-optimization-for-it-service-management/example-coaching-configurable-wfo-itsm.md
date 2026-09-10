@@ -16,6 +16,8 @@ breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 
 Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skills sets with Coaching.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 An IT manager manages IT operations for a large organization that has 12 teams reporting to the manager. Each of the manager's teams has anywhere from 20 through 50 agents. This manager is also added as a manager of other teams where they need visibility.
 
 The manager wants a single location to:

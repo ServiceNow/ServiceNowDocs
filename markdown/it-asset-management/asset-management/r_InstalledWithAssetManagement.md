@@ -697,7 +697,7 @@ Displays a warning if a salvage value greater than the cost of an asset is enter
 
 </td></tr><tr><td>
 
-Set Cost of the Asset
+Set Asset's Cost and Expenditure Type
 
 </td><td>
 

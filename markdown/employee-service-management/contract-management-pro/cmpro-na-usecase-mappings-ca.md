@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Contract analysis, Contract use case mapping, Contract analysis use case mapping, Now Assist use case mapping, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
-breadcrumb: [Configure contract analysis, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract analysis

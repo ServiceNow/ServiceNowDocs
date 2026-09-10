@@ -1,20 +1,20 @@
 ---
 title: Create a reservation
-description: Create reservations across multiple buildings, campuses, neighborhoods, or sites. Create a reservation spanning across multiple days. Add attendees or visitors to a reservation. Synchronize reservation details and resolve conflicts when scheduling recurring reservation events. Add workplace services \(room configurations, catering, and so on\) to your reservation.
+description: Create reservations across multiple buildings, campuses, neighborhoods, or sites, spanning a single day or multiple days. Add attendees, visitors, and workplace services such as room configurations and catering, and synchronize details or resolve conflicts for recurring reservations.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 37
+last_updated: "2026-09-03"
+reading_time_minutes: 36
 ---
 
 # Create a reservation
 
-Create reservations across multiple buildings, campuses, neighborhoods, or sites. Create a reservation spanning across multiple days. Add attendees or visitors to a reservation. Synchronize reservation details and resolve conflicts when scheduling recurring reservation events. Add workplace services \(room configurations, catering, and so on\) to your reservation.
+Create reservations across multiple buildings, campuses, neighborhoods, or sites, spanning a single day or multiple days. Add attendees, visitors, and workplace services such as room configurations and catering, and synchronize details or resolve conflicts for recurring reservations.
 
 ## Before you begin
 
-Install and configure the following:
+The following must be installed and configured:
 
 -   Workplace Core
 -   Workplace Central
@@ -28,6 +28,8 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## About this task
 
+\[Omitted video\] Description: Reserve a space and add workplace services.
+
 Reserve a workplace space based on your office working hours.
 
 Create a workplace reservation for a single day or for multiple days. Administrators can set the max days in future value in the **Reservable Module Configuration** tab. For more information, see [Configure reservation multi-day settings in Reservable Module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-config-rsv-mod-value.md).
@@ -37,26 +39,24 @@ Space and reservation planners \(sn\_wsd\_rsv.reservation\_planner\) with the de
 For example, reservation planners or space planners with the dedicated role \(sn\_wsd\_rsv.bypass\_module\_validation\) can ignore or bypass the following settings in the Reservable module:
 
 -   Max days in the future
--   Max number of occurrence
+-   Max number of occurrences
 -   Min and Max duration
 -   Available in
 -   All day
-
-Role: sn\_wsd\_core.workplace\_user.
 
 ## Procedure
 
 1.  Select any of the following context menu navigation options to make a workplace reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d272893e135">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d273882e156">
 
 Location
 
-</th><th align="left" id="d272893e138">
+</th><th align="left" id="d273882e159">
 
 Navigation path
 
-</th></tr></thead><tbody><tr><td id="d272893e144">
+</th></tr></thead><tbody><tr><td id="d273882e165">
 
 **From Employee Center Portal**
 
@@ -75,7 +75,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 2.  From **Type**, select a Reservable Module configuration.
 
-    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+    For example, select any of the following Reservable Module configurations. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     -   Desks
     -   Desks with an Area
@@ -115,7 +115,7 @@ Building
 
 </td><td>
 
-Name of the building for a selected campus. Select a building from the list. For example, Demo Campus.The building names and location names are alphabetically sorted or sorted according to the **Order** that you have configured on the Buildings and Regions tables. When a sort **Order** is configured for a building or region, the building names and locations are sorted accordingly. If the sorting **Order** value isn’t specified for an item, the items are listed on top of the list \(ascending order\), and sorted alphabetically. The building names and location names are alphabetically sorted based on the label name. For example Building A, Building B, and so on.
+Name of the building for a selected campus. Select a building from the list. For example, Demo Campus.Building and location names are sorted alphabetically by label, or according to the **Order** configured on the Buildings and Regions tables. If a sort **Order** value isn't specified for an item, the item is listed at the top of the list, sorted alphabetically. For example, Building A, Building B, and so on.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Floor
 
 </td><td>
 
-Floor of a building where you want to make a reservation.The floor names are either alphabetically sorted or the values are sorted based on the indicated sort order. You can configure the sort **Order** in the Floors table. If the sorting **Order** value is not specified for an item, then the items are listed on top of the list \(ascending order\), and then, sorted alphabetically. The Floor names are alphabetically sorted based on the names and labels.
+Floor of a building where you want to make a reservation.Floor names are sorted alphabetically by label, or according to the sort **Order** configured in the Floors table. If a sort **Order** value isn't specified for an item, the item is listed at the top of the list, sorted alphabetically.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ From**Note:** The time directive fields \(From, time, To\) are also available on
 
 </td><td>
 
-Start date of your reservation. For a single day reservation, only the **From** field is shown and not the option to enter the end date.-   Employees can't select a date and create a reservation if the start date exceeds the Max days in future Reservable module value. Thisn’t value is configured on the Reservable module by your administrator. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
+Start date of your reservation. For a single day reservation, only the **From** field is shown and not the option to enter the end date.-   Employees can't select a date and create a reservation if the start date exceeds the Max days in future Reservable module value. This value is configured on the Reservable module by your administrator. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 When the Max days in future value is configured by your administrator, you can’t select a date past the max allowed date. The dates in the calendar date picker are inactive for dates that are too far in future.
 
@@ -188,18 +188,18 @@ Add another building
 
 </td><td>
 
-Reserve multiple workplace items spanning multiple buildings. The buildings time zones are different for a same date and time in a reservation.**Note:** This option is available if you have selected **Allow multiple reservations** check box on the **Reservable Module** &gt; **Reservable Module Configuration** tab. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
+Reserve multiple workplace items spanning multiple buildings. Building time zones can differ for the same date and time in a reservation.**Note:** This option is available if you have selected **Allow multiple reservations** check box on the **Reservable Module** &gt; **Reservable Module Configuration** tab. For more information, see [Create multi-building reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-building-reservation.md).
 
 </td></tr></tbody>
-</table>6.  Select Recurring to make a recurring reservation.
+</table>6.  Select **Recurring** to make a recurring reservation.
 
     When making a recurring reservation, select the most suitable recurring pattern \(Daily, Weekly, or Monthly\) based on the space availability within the recurring series.
 
-    **Note:** Reservations in a recurring series cannot be updated in bulk. To update a reservation from a recurring series, select a reservation and edit it as required. The option to make a recurring reservation is configured by your administrator. The **Allow recurring reservations** Reservable Module configuration option should be enabled for making recurring reservations. This option is dependent on the **Max days in future** and **Max number of Occurrences** value. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) Reservations with single occurrences are converted to a single-day reservation.
+    **Note:** Reservations in a recurring series cannot be updated in bulk. To update a reservation from a recurring series, select a reservation and edit it as required. The option to make a recurring reservation is configured by your administrator. The **Allow recurring reservations** Reservable Module configuration option should be enabled for making recurring reservations. This option is dependent on the **Max days in future** and **Max number of occurrences** value. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md). Reservations with single occurrences are converted to a single-day reservation.
 
-    Shift-based reservable module configuration is not supported for Recurring reservations.
+    Shift-based reservable module configuration is not supported for recurring reservations.
 
-    Calculate and set a recurring meeting pattern define the frequency and recurrence pattern in the Add Recurrence dialog box.
+    Calculate and set a recurring meeting pattern to define the frequency and recurrence pattern in the Add Recurrence dialog box.
 
     1.  Set a start date, end date, and duration \(start time and end time\) for your reservation.
 
@@ -215,7 +215,7 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
             The end time is based on the standard working hours \(full day\) of your office.
 
-            **Note:** The start date is reset if you select a different start and end date in the Add recurrence dialog box. For more information, see Step c. It's recommended that you select the start and end dates prior to setting the recurrence patterns in the Add recurrence dialog box.
+            **Note:** The start date is reset if you select a different start and end date in the Add recurrence dialog box. For more information, see Step c. Select the start and end dates before setting the recurrence patterns in the Add recurrence dialog box.
 
     2.  Select Recurring list options as required:
         -   **Daily**: Option to set daily recurring series.
@@ -225,7 +225,7 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
         -   **Custom**: Customize your recurring reservation options as required for Daily, Weekly, or Monthly recurrences.
     3.  Select any of the following recurring patterns to open the Add recurrence dialog box and select the required recurring pattern:
 
-        1.  Daily:The meeting occurs every day. You can define a repeat interval of every X days.
+        1.  Daily: The meeting occurs every day. You can define a repeat interval of every X days.
 
             \[Omitted image "add-recurrence-daily.png"\] Alt text: Daily Recurrence options showing reservation start and end date and recurrence pattern.
 
@@ -235,25 +235,23 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
             2.  Select **Save**.
 
-        2.  Weekly: The meeting takes place on the same weekday each week. You can define a repeat interval of every X weeks. For example, select the following recurrence Pattern for weekly or biweekly reservations.
+        2.  Weekly: The meeting takes place on the same weekday each week. You can define a repeat interval of every X weeks. For example, select the following recurrence pattern for weekly or biweekly reservations.
             -   Weekly, Every 1 week on Wednesday. The meeting occurs every Wednesday starting Feb 25, 2026, ending on Aug 19, 2026 \(the last Wednesday before Aug 23\). Confirm that the start and end dates are correct. Select the required recurrence pattern.
 
                 \[Omitted image "add-recurrence-weekly-end-date.png"\] Alt text: Select the weekly recurrence options and duration.
 
-            -   Bi-Weekly \(Every 2 Weeks\). Every 2 weeks on a selected weekday. For example, bi-weekly on Wednesday.
+            -   Bi-Weekly \(Every 2 Weeks\). Every 2 weeks on a selected weekday. For example, every two weeks on Wednesday.
             -   Select **Save** after selecting the required weekly recurring pattern and duration.
 
                 If the reservation time duration has only one occurrence in case of weekly recurring reservation, the single occurrences are converted to a single-day reservation. For example, consider a recurring reservation from 13-02-2026 to 18-02-2026 set to repeat weekly once on every Monday. Since, in this duration, there's a single Monday when the reservation is scheduled to repeat weekly, it is considered as a single-day reservation.
 
-        3.  Monthly: Specific day of a month. For example, the last Wednesday of every 1 month. In the Add recurrence dialog box, confirm that the start and end dates are correct. Select the required recurrence pattern. You can define a repeat interval of every X Month. To select a day of the month, select **On**. Select from a date range, for example **29**, **30**, **31** or **Last day**
+        3.  Monthly: Specific day of a month. For example, the last Wednesday of every 1 month. In the Add recurrence dialog box, confirm that the start and end dates are correct. Select the required recurrence pattern. You can define a repeat interval of every X month. To select a day of the month, select **On**. Select from a date range, for example **29**, **30**, **31** or **Last day**
 
-            Day 29,30, and 31: You can only select these days for a month, if the selected dates are available for a selected month. For example, February and April are skipped by the application if you select the date as **31**. If you set it to the **Last day** option, it selects the last day of a month automatically.
-
-            .
+            Day 29, 30, and 31: You can only select these days for a month, if the selected dates are available for a selected month. For example, February and April are skipped by the application if you select the date as **31**. If you set it to the **Last day** option, it selects the last day of a month automatically.
 
             \[Omitted image "add-recurrence-monthly-end-date.png"\] Alt text: Select the required recurrence meeting pattern and duration for monthly meetings.
 
-        **Note:** If you select an invalid date range or number of occurrences for a recurring patter, the **Save** button is not available for selection. Reset the date range to save your changes.
+        **Note:** If you select an invalid date range or invalid number of occurrences for a recurring pattern, the **Save** button is not available for selection. Reset the date range to save your changes.
 
     4.  Custom: Customize your recurring reservation options as required for Daily, Weekly, or Monthly recurrences.
     **Note:** If you change the start and end time duration for a reservation after setting a recurring reservation, it resets the duration for the reservation. You should add or update the recurring series and pattern again.
@@ -265,13 +263,13 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
     -   Total Reservation Duration: The date range span covers approximately 179 days, which is about 25 weeks.
     -   Reservation End duration: If the pattern extends beyond the end date 23.08.26, application ends the reservation. You can choose to end the recurrence after a certain number of occurrences. The calendar doesn’t allow you to select a range beyond what is specified in the **Max number of occurrences** reservable module property configuration.
     -   If your workplace manager has enabled time-bound allocations, the workplace availability changes based on the start and end date of an allocation. For example, if you select five recurring days, and the workplace is allocated for 3 out of the five days, the availability of the workplace is 3/5. Only the first occurrence of the recurring reservation is checked for time-bound allocations.
-    Upon confirming the required recurring reservation pattern and saving your changes, the Make a reservation portal page displays the recurring reservation duration selected by you.
+    After you confirm the required recurring reservation pattern and save your changes, the Make a reservation portal page displays the recurring reservation duration you selected.
 
     To update or edit recurring reservation series, select the edit option to edit your recurring reservation.
 
-    **Note:** Recurring series cannot be edited. You can edit single reservation at a time and not the entire series.
+    **Note:** Recurring series cannot be edited. You can edit a single reservation at a time and not the entire series.
 
-7.  Select Add Invitees.
+7.  Select **Add Invitees**.
 
     This option is available when your administrator has enabled the Reservable Module property configuration **Allow attendees based search** on the Reservation Widget Configuration. This option allows employees to add attendees to a reservation and search for their availability on the Make a reservation portal page. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md) and [Add invitees as collaborators and create a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.md).
 
@@ -281,7 +279,7 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
 9.  The application performs auto-search for reservable items when the reservation property \(**sn\_wsd\_rsv.enable\_auto\_search**\) is enabled by your administrator.
 
-    If an auto-search reservation property is configured by your administrator, the **Search** button is hidden on the reservation portal. The application searches for reservable locations and items automatically while creating a reservation. An auto- search is triggered when any of the following is changed or updated:
+    If an auto-search reservation property is configured by your administrator, the **Search** button is hidden on the reservation portal. The application searches for reservable locations and items automatically while creating a reservation. An auto-search is triggered when any of the following is changed or updated:
 
     -   Reservable module.
     -   Reservable paths.
@@ -290,10 +288,10 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
     -   Start Date.
     -   End Date.
     -   All day.
-    -   Recurring \(Daily/Weekly/Monthly\)
+    -   Recurring \(Daily/Weekly/Monthly\).
 10. Select **Refresh the results** manually to refresh the search results on the advanced reservation portal page while making a reservation.
 
-    When the auto-search property is enabled, the reservation portal search page shows a message to refresh the page when an employee stays too long on a page or when the search results are outdated. Select **Refresh the results** manually to fetch the latest reservation search results data.
+    The reservation portal search page shows a message to refresh the page when an employee stays too long on a page or when the search results are outdated. Select **Refresh the results** to fetch the latest data.
 
 11. Select the toggle option **Show Filters** to filter by:
 
@@ -303,9 +301,9 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
     -   Floors: Filter by Floors for a selected building.
     Select **Apply** to apply the selected filter option.
 
-12. Select **Alphabetically A-z** list option to sort the workplace items in an alphabetical order \(Z-A or A-Z\)
+12. Select **Alphabetically A-Z** list option to sort the workplace items in an alphabetical order \(Z-A or A-Z\).
 
-    The **My favorites First** sort option is automatically selected if you have favorite locations. Your favorite locations are displayed first in an alphabetical order followed by the other locations that match the search criteria.You can view and perform the following actions after you set a space as favorite:
+    The **My favorites first** sort option is automatically selected if you have favorite locations. Your favorite locations are displayed first in an alphabetical order followed by the other locations that match the search criteria. You can view and perform the following actions after you set a space as favorite:
 
     1.  When searching for a space, you can sort the workplace items to display your favorite locations at first using the **My favorites first** sort option. By default, if you have favorite locations, the default sort option is set to **My favorites first**.
 
@@ -330,27 +328,25 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
 
             \[Omitted image "rsv-map-view.png"\] Alt text: Map view showing spaces on a floor map.
 
-        -   Select a Floor from the drop-down list.
+        -   Select a floor from the drop-down list.
 
-            The floor names are alphabetically sorted or sorted based on the sorting **Order**. The values are sorted based on the indicated sort order, if it’s available. You can indicate the sort order in the Floors table. If the sorting Order value isn’t specified for an item, then the items are listed on top of the list \(ascending order\), and then, sorted alphabetically. The Floor names are alphabetically sorted based on the label names. For example Floor A, Floor B, and so on. For more information about sorting order, see [Add a floor using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-floor.md).
+            Floor names are sorted alphabetically by label, or according to the sort **Order** configured in the Floors table. For example, Floor A, Floor B, and so on. For more information about sorting order, see [Add a floor using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-floor.md).
 
             **Note:** If the **Order** is null for all available buildings in a selected campus, then floor names are alphabetically sorted based on floor name label. For example Floor A, Floor B, and so on.
 
-        -   Zoom in to select a building and location
+        -   Zoom in to select a building and location.
 
             The building names are alphabetically sorted or sorted according to the **Order** that you have configured in the Buildings table.
 
-    -   Select a space and then, select **Add** to add a space.
+    -   Select a space, and then select **Add** to add a space.
 
         While reserving or viewing a space, the employee can see if a space is part of a neighborhood. The neighborhood icon \(\[Omitted image "neighborhood-icon.png"\] Alt text: Neighborhood icon.\) is displayed on the space card.
 
         If your organization is using floor maps, you can view the floor maps for a location using Indoor Mapping as your map provider.
 
-        .
-
         If you have selected the **Browse by neighborhood** option in Step 6, the reservation portal shows spaces for a neighborhood.
 
-        When you browse by neighborhood, all spaces belonging to a neighborhood are displayed but you can only select available spaces within a neighborhood.
+        When you browse by neighborhood, all spaces belonging to a neighborhood are displayed, but you can only select available spaces within a neighborhood.
 
 16. To show or hide spaces or layers on the Map, do the following:
 
@@ -358,9 +354,9 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
     -   Select the Filter out layers and places icon \(\[Omitted image "filter-place-layers-icon.png"\] Alt text: Filter out layers and places.\) to filter out spaces and layers on the map.
     -   From the **Display Options** list, select **Spaces** or **Layers** and clear to remove the selected spaces or layers from the Map View.
     -   Select **Apply**.
-    By default, all the spaces and layers are selected or checked.
+    By default, all the spaces and layers are selected.
 
-    **Note:** The spaces and layers that are displayed on the floor map are based on the Layer types and Place types table configuration settings in Indoor Mapping. Navigate to **All** &gt; **Indoor Mapping** &gt; **Place types** or **All** &gt; **Indoor Mapping** &gt; **Layer types** to open the Places or Layer types page respectively. Set the Filter out layers and places **Filter out layers and places** column to **true** to display the places \(spaces\) or layers that you want to display on the floor map.
+    **Note:** The spaces and layers that are displayed on the floor map are based on the Layer types and Place types table configuration settings in Indoor Mapping. Navigate to **All** &gt; **Indoor Mapping** &gt; **Place types** or **All** &gt; **Indoor Mapping** &gt; **Layer types** to open the Places or Layer types page respectively. Set the **Filter out layers and places** column to **true** to display the places \(spaces\) or layers that you want to display on the floor map.
 
 17. Select a space and mark a location as favorite by selecting the favorite icon \(\[Omitted image "favorite-icon.png"\] Alt text: Favorite icon.\) on the space card.
 
@@ -454,7 +450,7 @@ Add notes
 
 </td><td>
 
-Option to add the meeting note to a reservation using the rich text editor. The notes can be shared with the meeting invitees. Users can also copy and paste text to the editor. The message can contain a maximum of 65,000 characters.Note is saved on the reservation record. You can update the note as required. The invitees receive a notification when note is added or updated. The reservation summary page shows the summary of the meeting note.
+Option to add the meeting note to a reservation using the rich text editor. The notes can be shared with the meeting invitees. Users can also copy and paste text to the editor. The message can contain a maximum of 65,000 characters.The note is saved on the reservation record. You can update the note as required. The invitees receive a notification when note is added or updated. The reservation summary page shows the summary of the meeting note.
 
 This option is available only if your administrator has configured the **Allow reservation message** option on the Reservation module. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
@@ -515,7 +511,7 @@ Select **Add extra services** to select a service from the list to add a workpla
 
 When you select multiple buildings while adding a reservation, new services are shown for selected locations. You can add these services as required to your reservation.
 
-From the list options, select Space arrangement as an extra service. Select the following options:
+From the list options, select **Space arrangement** as an extra service. Select the following options:
 
 -   On the **Add Space Arrangement** dialog box, select a service from the list. For example, select **Chair layout**.
 -   Select the Chair layout options:
@@ -526,27 +522,27 @@ From the list options, select Space arrangement as an extra service. Select the 
 -   Add additional comments for the service item.
 -   Select **Add**.
 -   A new case is created when a reservation or services are updated. A reference is added to the old and new service.
--   Application tries to retain the services when you update a location.
+-   The application tries to retain the services when you update a location.
 
 When updating a reservation, if the location isn’t updated, the services are visible and you can update the reservation after changing the date and time.
 
--   In case, if space or location is changed while updating a reservation, the application tries to propose available services for a new location. Select the required services and add it to your reservation while updating or modifying a reservation.
+-   If the space or location is changed while updating a reservation, the application tries to propose available services for a new location. Select the required services and add it to your reservation while updating or modifying a reservation.
 -   If you’re adding a new space while updating a reservation, you must add the services manually.
 **Note:** If a workplace service is added to a reservation, a workplace case is created. If you update the reservation date, time, or location and update services by retaining or removing the services, a reference is added to the updated workplace service. The **replacement case for** option is displayed on the new case record form and also a reference is added to the old service. A summary is added to a workplace case record for items that are added, updated, or removed. For more information, see [View and track workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-workplace-cases.md).
 
 </td></tr><tr><td>
 
-Edit &lt;services name&gt;
+Edit &lt;service name&gt;
 
 </td><td>
 
-Select **Edit** to update the services.-   The Update &lt;services name&gt; dialog box is shown.
+Select **Edit** to update the services.-   The Update &lt;service name&gt; dialog box is shown.
 -   Select **Update** to update the services.
 
 
 </td></tr><tr><td>
 
-Remove &lt;services name&gt;
+Remove &lt;service name&gt;
 
 </td><td>
 
@@ -561,7 +557,7 @@ Select **Remove** to remove the services from a reservation. A confirmation mess
 
     If the workplace item doesn't require any approval, the selected item is reserved. The reservation details are displayed on the Reservation summary page. The state of the request is updated to **Confirmed**. If your request requires approval, it’s submitted to a workplace approver. The state of the request is updated to **Awaiting approval**. For more information, see [Approve a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/approve-res-req.md).
 
-    An email notification is sent regarding the reservation confirmation along with the details to the organizer and the user is added to the reservation. If you have invited attendees or any visitors, they receive a notification for the reservation invite. You receive email notifications when reservable synchronization is configured for Workplace Calendar Synchronization. You receive notifications for your reservation on your mobile device when push notification is enabled.
+    An email notification with the reservation confirmation and details is sent to the organizer, and the user is added to the reservation. If you have invited attendees or any visitors, they receive a notification for the reservation invite. You receive email notifications when reservable synchronization is configured for Workplace Calendar Synchronization. You receive notifications for your reservation on your mobile device when push notification is enabled.
 
 21. Review the reservation summary page.
 
@@ -573,7 +569,11 @@ Select **Remove** to remove the services from a reservation. A confirmation mess
 
         **Note:** You must check in within 30 minutes before the reservation start time. If the reservation isn’t checked in within 30 minutes before the reservation start time, your reservation is canceled. An email notification is sent for the canceled reservation. The Check-in option is also available on the My Reservations page.
 
-        In case, if you have occupancy sensors installed in your workplace location, your reserved spaces are automatically checked in. You also receive a push notification on the Workplace Service Delivery for Mobile app when your reserved spaces are checked in automatically. If the workplace location or space state is Occupied, the application automatically checks in the reservation. The reservation state moves to In progress state. A push notification is sent to Workplace Service Delivery for Mobile "Your reservation has started. You’re automatically checked in based on the presence detected at the space. No further action is required." If the state of the space is Unoccupied or Invalid, the application sends a push notification "Your reservation for Reservation for &lt;space-name&gt; has started. Either Check in to confirm your attendance or Release Booking to Cancel the space reservation". For more information, see [Configure automatic check-in for reserved spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-check-in.md).
+        If you have occupancy sensors installed in your workplace, reserved spaces are automatically checked in. When your reserved spaces are checked in automatically, a push notification is received on the Workplace Service Delivery for Mobile app.
+
+        If the workplace location or space state is Occupied, the application automatically checks in the reservation. The reservation state moves to In progress state. A push notification is sent to Workplace Service Delivery for Mobile "Your reservation has started. You’re automatically checked in based on the presence detected at the space. No further action is required."
+
+        If the state of the space is Unoccupied or Invalid, the application sends a push notification "Your reservation for Reservation for &lt;space-name&gt; has started. Check in to confirm your attendance." You can also release the booking to cancel the space reservation. For more information, see [Configure automatic check-in for reserved spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-check-in.md).
 
     2.  Select **Check out** to check out a reservation.
 
@@ -597,7 +597,7 @@ Select **Remove** to remove the services from a reservation. A confirmation mess
 
     2.  On the Reservation details page, scroll to view Add Invitees to this reservation section.
 
-    3.  Add a new invitee or remove an existing invitee by selecting the invitee name from the search option.
+    3.  Add an invitee or remove an existing invitee by selecting the invitee name from the search option.
 
     4.  Select the **Update reservation details** tab.
 
@@ -614,11 +614,11 @@ Select **Remove** to remove the services from a reservation. A confirmation mess
 
 <table id="table_rps_3tt_1xb"><thead><tr><th>
 
- 
+Field
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -647,7 +647,7 @@ If you have selected this option on the Reservable module, then while editing a 
 
     When you update or change a location, a message is shown to indicate that certain services are going to be removed. This happens when workplace services for an updated location are not available. Users are notified if the services are available for a location. The Reservation details page shows services that are available on the new location and also shows the services that aren’t available on the new location.
 
-    Workplace Services are automatically retained when the date or time changes for a reservation. But if a location is changed, or if a new location or space is added, you must select to **Retain** your existing workplace services. You can retain, review, or discard the proposed services. When this action is performed, the services are considered **Resolved** for that location. When all location workplace services are resolved, confirm the changes. If location workplace services aren’t resolved, a pop-up message is displayed to confirm the action.
+    Workplace services are automatically retained when the date or time changes for a reservation. But if a location is changed, or if a new location or space is added, you must select **Retain** to keep your existing workplace services. You can retain, review, or discard the proposed services. When this action is performed, the services are considered **Resolved** for that location. When all location workplace services are resolved, confirm the changes. If location workplace services aren’t resolved, a pop-up message is displayed to confirm the action.
 
     **Note:** In this case, if the **Allow only single service item selection** option is selected on the Workplace services page, the **Retain Services** option isn’t shown on the Reservation details page and the existing services are removed after updating the reservation details for a space \(location\). You can add new services using the **Add extra services** option as shown in step 11. For more information, see [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
 
@@ -667,7 +667,7 @@ Retain extra services
 
 </td><td>
 
-URL link to the workplace location to view the list of services that are retained after updating the reservation details. Select the location link to review services to be retained or removed.
+Link to the workplace location to view the list of services that are retained after updating the reservation details. Select the location link to review services to be retained or removed.
 
 </td></tr><tr><td>
 
@@ -683,33 +683,33 @@ Retain
 
 </td><td>
 
-Option to retain services after updating the reservation details.Workplace services are automatically retained when date and time are updated for a reservation. Select **Retain**, when a location is changed or when a new location is added to a reservation. You can retain or remove the proposed workplace services. The workplace services are resolved for a location when you update a reservation.
+Option to retain services after updating the reservation details.Workplace services are automatically retained when date and time are updated for a reservation. Select **Retain** when a location is changed or when a new location is added to a reservation. You can retain or remove the proposed workplace services. The workplace services are resolved for a location when you update a reservation.
 
 **Note:** If workplace services are retained, the quantity is reset to 1. Review the retained workplace service. Workplace services such as space configurations and space layouts aren’t retained for a reservation.
 
 </td></tr></tbody>
 </table>    -   Services are canceled if they aren’t available or applicable for a location.
     -   While updating a multi-location reservation, employees are notified after matching the workplace services from previous workplace locations.
-    -   When you change an existing service or services for a reservation, existing workplace case is canceled. A new workplace case is created as a replacement for an existing case and the workplace services are updated.
+    -   When you change an existing service or services for a reservation, the existing workplace case is canceled. A new workplace case is created as a replacement for an existing case and the workplace services are updated.
     -   A state is added to the changed service. A note is added on the new service case with the changes to the ordered services \(added, updated, removed, no changes\). For more information, see [View and track workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-workplace-cases.md).
     -   The costs of services are shown based on the case or requested item fields.
     -   The cost is updated when a workplace service is updated.
 
-        **Note:** Cost of service items are updated if an employee updates existing service offerings. For example, if you have not changed your extra service item but have changed the time for a reservation record, the cost of the service item is updated based on the latest pricing of the service item. In case, if you remove a space \(location\) and the service item is also removed from a reservation record, suggested services in the **Retain Services** option show the latest pricing or cost in the reservation record.
+        **Note:** The cost of service items is updated if an employee updates existing service offerings. For example, if you have not changed your extra service item but have changed the time for a reservation record, the cost of the service item is updated based on the latest pricing of the service item. If you remove a space \(location\) and the service item is also removed from a reservation record, suggested services in the **Retain Services** option show the latest pricing or cost in the reservation record.
 
 
 ## Result
 
 -   Select **Reservations** &gt; **My Reservations** to view and track your reservation on the Reservation portal home page or on the Reservation summary page.
--   **Confirmed**: Reservation State to indicate that the reservation for the selected building is confirmed.
+-   **Confirmed**: Reservation state to indicate that the reservation for the selected building is confirmed.
 
     **Note:** The **New space** state indicates that a new space is assigned due to a conflicted reservation.
 
--   **Conflicted**: Reservation State on the Reservation summary page. This state shows that the application was not able to resolve the recurring reservation. You must manually find an alternate space, date, and time. Use the **Actions** tab on the Reservation Summary page to select the **Change reservation occurrence**, **Cancel series**, or **Share reservation**.
+-   **Conflicted**: Reservation state on the Reservation summary page. This state indicates that the application can't resolve the recurring reservation. You must manually find an alternate space, date, and time. Use the **Actions** tab on the Reservation Summary page to select the **Change reservation occurrence**, **Cancel series**, or **Share reservation**.
 
     An email notification is sent and the reservation is updated with your changes.
 
-    **Note:** When a conflicting recurring reservation gets auto-resolved with the auto-resolution feature, its status in the **Reservation subtype** column is shown as **Exception** on the Workplace Reservations table.
+    **Note:** When a conflicting recurring reservation is resolved using the auto-resolution feature, its status in the **Reservation subtype** column is shown as **Exception** on the Workplace Reservations table.
 
     For more information, see [Auto-resolve recurring reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/recurring-reservations.md).
 
@@ -724,11 +724,11 @@ While reserving or viewing a space, the employee can see if a space is part of a
 
     1.  On the Reservation summary page, select **Actions** &gt; **Share reservation**.
 
-        Sh\[Omitted image "rsv-share-reservation-form.png"\] Alt text: Share reservation details form showing options to add recipients for sharing the reservation.
+        \[Omitted image "rsv-share-reservation-form.png"\] Alt text: Share reservation details form showing options to add recipients for sharing the reservation.
 
     2.  In the **Send reservation details to** field, select the users that you want to share the reservation with.
-    3.  In the **Include a note**, enter a note if necessary.
-    4.  Select **Send**
+    3.  In the **Include a note** field, enter a note if necessary.
+    4.  Select **Send**.
     5.  When you share a reservation, invitees receive an email notification.
 
         \[Omitted image "wsd-shared-email-options.png"\] Alt text: Shared email notification for a reservation with Browse all spaces and Reserve a space for me navigational link options.
@@ -739,21 +739,21 @@ While reserving or viewing a space, the employee can see if a space is part of a
         -   Two navigational links **Browse all spaces** and **Reserve a space for me** are shown:
             -   **Browse all spaces**: Select the **Browse all spaces** link to open the reservation portal page.
 
-                If the shared reservation start date \(current date\) is within the number of days specified in the Max number of days for browse near a person, the **Browse all spaces** clickable link. The clickable links are shown from a shared email notification with pre-filled dates for a selected team member.
+                The **Browse all spaces** link appears when the shared reservation start date falls within the configured range. This range is defined by the Max number of days for browse near a person setting. The link is shown in the shared email notification with pre-filled dates for the selected team member.
 
-                -   The **Browse near a person** reservable path is selected by default. If it path isn’t available, the **Browse all** path is used.
+                -   The **Browse near a person** reservable path is selected by default. If this path isn’t available, the **Browse all** path is used.
                 -   All the fields are pre-filled for a selected team member or a colleague.
-                -   For multi-day reservation, the first day of a multi-day reservation is prefilled. If the first day is in the past but the current date is still within the reservation time, the current date is selected. In case of multi-day reservation, consider the following:
+                -   For a multi-day reservation, the first day of a multi-day reservation is prefilled. If the first day is in the past but the current date is still within the reservation time, the current date is selected. In case of multi-day reservation, consider the following:
 
                     -   From: The start date of your reservation.
                     -   Time: Select the start time for your reservation from the drop-down list.
                     -   To: End date of your reservation.
                     -   Time: Select the end time for your reservation from the drop-down list.
-                    For more information about multi-day reservation, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
+                    For more information about multi-day reservations, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md).
 
-                **Note:** If the start day \(current date\) of a shared reservation is past the value set in the **Max number of days for browse near a person** Reservable module property, the **Browse all spaces** link doesn't show prefilled dates on the Make a reservation page. The application shows a validation error message "**Reservation date for the selected user has changed. Select a date**. You must manually, select the start date and time and end date and time for a reservation.
+                **Note:** If the start day \(current date\) of a shared reservation is past the value set in the **Max number of days for browse near a person** Reservable module property, the **Browse all spaces** link doesn't show prefilled dates on the Make a reservation page. The application shows a validation error message "**Reservation date for the selected user has changed. Select a date**." You must manually select the start date and time and end date and time for a reservation.
 
-            -   **Reserve a space for me**: When you select the **Reserve a space for me** URL link from an email, the space reserved for a colleague or team member is selected by default on the reservation portal. A reservation is created with the same start and end date and time from your previous reservation. If the start date of the reservation falls prior to the current date, the current date is taken as the start date of the reservation. For example, if the start date of your previous reservation is October 15, 2023 and the current date is October 17, 2023, the application uses the current date \(October 17, 2023\).
+            -   **Reserve a space for me**: When you select the **Reserve a space for me** URL link from an email, the space reserved for a colleague or team member is selected by default on the reservation portal. A reservation is created with the same start and end date and time from your previous reservation. If the start date of the reservation falls before the current date, the current date is taken as the start date of the reservation. For example, if the start date of your previous reservation is October 15, 2023 and the current date is October 17, 2023, the application uses the current date \(October 17, 2023\).
 
                 **Note:** When making a reservation directly by using the **Reserve a space for me** navigational link option, the application ignores the value set in the **Max number of days for browse near a person** Reservable module configuration and creates a reservation.
 
@@ -761,7 +761,7 @@ While reserving or viewing a space, the employee can see if a space is part of a
 
 -   To edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 -   To download an iCalendar, see [Download an iCalendar for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/generate-ical.md).
--   -   If you want to reserve a space using a shared reservation, after you select **Reserve a space for me**, the application automatically reserves one of your favorite locations that has the closest proximity to the space reserved in the shared reservation details.
+-   -   To reserve a space using a shared reservation, select **Reserve a space for me**. The application automatically reserves one of your favorite locations with the closest proximity to the shared reservation space.
 -   Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Reservation Overview** &gt; **All Reservations** to view all workplace reservations.
 -   Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Reservation Overview** &gt; **My Reservations** to view all reservations made by you.
 

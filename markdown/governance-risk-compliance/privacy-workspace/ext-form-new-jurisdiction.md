@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: reference
 last_updated: "2026-05-25"
 reading_time_minutes: 2
-breadcrumb: [Configure jurisdiction, Configure external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure jurisdiction, Configure the external-facing PDR form, Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Personal Data Rights location configuration form fields

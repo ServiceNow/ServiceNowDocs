@@ -20,11 +20,11 @@ ServiceNow Fluent supports two-way synchronization, which allows changes to meta
 
 In ServiceNow Studio, when metadata in an application is changed, you're prompted to sync the application to get the latest changes. If metadata changes are detected in application, synchronizing is required before you can install the application across the instance.
 
-**Note:** If you ignore the notification to sync an application, you aren't prompted to do so again for the remainder of the session. If you try to install the application or refresh the browser, you are prompted to sync again.
+**Note:** If you ignore the notification to sync an application, you aren't prompted to do so again for the remainder of the session. If you try to install the application or refresh the browser, you're prompted to sync again.
 
-You can sync an application on demand from the Now SDK view \(\[Omitted image "servicenow-ide-sdk-icon.png"\] Alt text: Now SDK\) or from the command palette with the `Fluent: Sync Fluent App with changed metadata` command.
+You can sync an application on demand from the status bar, or from the command palette with the `Fluent: Sync Fluent App with changed metadata` command.
 
-\[Omitted image "servicenow-ide-sync.png"\] Alt text: The Sync command in the Now SDK view.
+\[Omitted image "sn-studio-status-bar.png"\] Alt text: Sync changes from the status bar.
 
 ## Synchronization process in ServiceNow Studio
 

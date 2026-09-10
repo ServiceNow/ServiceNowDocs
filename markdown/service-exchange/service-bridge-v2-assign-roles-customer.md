@@ -32,15 +32,15 @@ Roles control which actions are available to users and grant access to remote re
 
 3.  To assign roles and personas to a group, do the following steps.
 
-<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36707e102">
+<table id="choicetable_rh3_h3m_mjc"><thead><tr><th align="left" id="d36709e102">
 
 Option
 
-</th><th align="left" id="d36707e105">
+</th><th align="left" id="d36709e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36707e111">
+</th></tr></thead><tbody><tr><td id="d36709e111">
 
 **To assign roles**
 
@@ -51,7 +51,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d36707e138">
+</td></tr><tr><td id="d36709e138">
 
 **To assign personas**
 

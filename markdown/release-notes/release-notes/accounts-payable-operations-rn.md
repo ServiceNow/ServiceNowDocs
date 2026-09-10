@@ -1,9 +1,9 @@
 ---
 title: Accounts Payable Operations release notes
-description: The ServiceNow Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.
+description: The ServiceNow Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.The ServiceNow Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.
 
-## Now Assist &gt; ServiceNow Otto announcement
+## About Accounts Payable Operations
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
@@ -26,8 +26,6 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-## Accounts Payable Operations highlights for the Australia release
-
 -   Invoice tax lines now capture the jurisdiction, jurisdiction type, and tax authority applied during tax calculation.
 -   Suppliers can submit, track, and confirm resolutions without portal navigation.
 -   Configure rejection modes to customize workflows so that AI workers focus on resolution quality rather than administrative tasks.
@@ -35,9 +33,29 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
 
 See [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/acc-pay-mgmt-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Accounts Payable Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
+
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Accounts Payable Operations application adds capabilities for supplier case resolution and confirmation workflows. The large language model \(LLM\)-aided email parser agent automatically classifies incoming supplier inquiries, eliminating manual intervention and routes invoice inquiry cases to the appropriate teams. Invoice exceptions in Accounts Payable Operations are enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Tax engine integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/tax-engine-integration.md)**
 
@@ -53,26 +71,11 @@ See [Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/S
     APO supports configurable rejection modes for invoice exception handling. Administrators can configure rejection mode behavior per exception type to align with organizational policies and audit requirements.
 
 
-## Changed in this release
-
--   **[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-with-invoice-exceptions.md)**
-
-    Accounts Payable Operations flags invoices received from unrecognized or unverified supplier sources as exceptions. The system compares sender email addresses and identities against registered supplier contacts; invoices from unmatched sources are held for verification. This helps to reduce the risk of invoice fraud, verifies payment accuracy, and maintains supplier control by requiring verification before processing invoices from unknown sources.
-
-
-## Removed in this release
+### What's deprecated or removed
 
 -   Roll up logic applies only to system tax, not to supplier-declared tax. Supplier tax roll up is removed. This replaces the previous approach, which lacked independent validation of supplier-provided tax amounts.
 
-## Activation information
-
-Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Localization information
-
-Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -80,6 +83,4 @@ Accounts Payable Operations supports multiple languages. However, the current Do
 
     Tax Engine Integration with Vertex \(com.sn\_fsc\_vertex\): This plugin enables the integration of APO with Vertex \(vendor\) to perform tax validation on invoices resulting in tax accuracy and compliance.
 
-
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
 

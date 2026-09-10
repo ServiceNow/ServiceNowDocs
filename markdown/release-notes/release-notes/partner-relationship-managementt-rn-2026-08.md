@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 Streamline deal registration approvals and task management with configurable rules, automated notifications, and centralized visibility.
 
-## What's new
+## What's new in Deal Registration
 
 -   **Enable configurable deal approvals built on the Advanced Approval Management framework [Deal Registration approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-approvals-overview.md)**
 

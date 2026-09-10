@@ -18,7 +18,7 @@ Use Dynamic Translation to add multiple language support for generative AI capab
 
 ## Before you begin
 
-You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-dynamic-translation.md).
+You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-dynamic-translation.md).
 
 You must have a default Translation Configuration set in the Translation Configuration table \(sn\_dt\_translator\_configuration\).
 
@@ -28,7 +28,7 @@ Role required: admin
 
 By default, Dynamic Translation is inactive for capabilities with Generative AI Controller.​
 
-Dynamic Translation isn't available for capabilities in Virtual Agent or Now Assist panel.
+Dynamic Translation isn't available for capabilities in Virtual Agent or ServiceNow Otto panel.
 
 ## Procedure
 
@@ -48,4 +48,8 @@ Dynamic Translation isn't available for capabilities in Virtual Agent or Now Ass
 ## Result
 
 Dynamic Translation is installed for your generative AI capability on the attribute that you selected.
+
+## What to do next
+
+Configure generative AI skills in the AI Admin Hub console to use this capability. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

@@ -110,3 +110,5 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

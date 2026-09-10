@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-hierarchial-list-view-for-product-inventories.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ The hierarchical list view needs to be manually enabled via the UI builder for c
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  Navigate to the CRM Workspace and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Customer** &gt; **Accounts**.
 

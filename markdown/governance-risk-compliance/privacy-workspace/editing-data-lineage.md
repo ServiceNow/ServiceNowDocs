@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a lineage for a processing activity, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage data lineage, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Edit a lineage
@@ -49,5 +49,5 @@ You can edit a relationship from the lineage map by selecting the arrow between 
 7.  Select **Save** to save the changes.
 
 
-**Parent Topic:**[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
+**Parent Topic:**[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/lineage.md)
 

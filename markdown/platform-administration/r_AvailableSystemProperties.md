@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Avai
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 144
+reading_time_minutes: 145
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/update-security-hardening-params.md).
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see Instance Security Hardening Settings.
 
 -   **cdu.record.watcher.timeout**
 
@@ -4406,6 +4406,17 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: Boolean
     -   Default value: true
+-   **sn\_analytics\_list.pagination\_max\_value**
+
+    Maximum number of records per page in a List visualization in Platform Analytics experience.
+
+    **Danger**
+
+    Raising this property above 100 might lead to memory issues.
+
+    -   Type: integer
+    -   Default value: 100
+    -   Location: System Property \[sys\_properties\] table
 -   **sn\_app\_insights.minutes\_between\_triggers**
 
     How many minutes to wait before sending out a notification for an identical metric trigger.

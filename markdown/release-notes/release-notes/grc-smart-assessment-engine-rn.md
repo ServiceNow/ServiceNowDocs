@@ -1,18 +1,18 @@
 ---
 title: Smart Assessment Engine release notes
-description: The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
+description: The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.The ServiceNow Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # Smart Assessment Engine release notes
 
 The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
 
-## Smart Assessment Engine highlights for the Australia release
+## About Smart Assessment Engine
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)ServiceNow Otto® is the new name for the Now Assist experience in SAE. All Now Assist references have been updated to ServiceNow Otto.
 
@@ -31,9 +31,33 @@ The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customiza
 
 See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-asmnt-engine-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## June 2026
+
+The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/servicenow-otto-for-smart-assessment-engine.md)**
 
@@ -66,6 +90,12 @@ See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/Servi
     -   View scope item fields directly in the assessment task list so reviewers and assignees can see scope context without opening each assessment.
     -   Programmatically create a combined assessment from multiple assessment IDs using any custom logic, removing the need for manual combine actions. For example, combine all control attestations belonging to an entity group into a single assessment.
 
+## April 2026
+
+The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Collaboration in assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/collaboration-in-assessments.md)**
 
     Starting with version 22.3.X, use granular delegation as a primary owner to assign individual assessment sections to SMEs. Respondents can view the entire assessment for context but can edit only their assigned sections. Monitor overall assessment progress and maintain final review and submission capabilities.
@@ -75,28 +105,7 @@ See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/Servi
     Starting with version 22.3.X, edit published templates inline as a template manager, including edits to the titles, descriptions, and reader roles.
 
 
-## UI changes
-
--   **[Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/filtering-questions-in-an-assessment.md)**
-
-    Apply multiple assessment filters at once \(for example, **Unanswered** + **AI-assisted**\). The navigation pane dynamically grays out sections with no matching questions so responders see exactly where attention is needed.
-
--   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-asmnt-template-category-create.md)**
-
-    Starting with version 22.3.X, the **Category Role** field in the assessment template category form is replaced with the **Category Roles** field.
-
-
-## Changed in this release
-
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
-
--   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
--   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+### What's changed
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -107,18 +116,39 @@ See [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/Servi
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Hide conditional questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-q-text-create.md)**
 
-    Conditional questions that don't meet their visibility criteria are now fully hidden from the assessment and are no longer displayed as **Skipped**. Respondents see only the questions relevant to them, reducing assessment fatigue and eliminating "Skipped" clutter.
+## Australia Early Availability
+
+The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-asmnt-template-category-create.md)**
 
     Enables one or more roles to access a template category with the multiselect **Category Roles** field.
 
 
-## Activation information
+## Australia
 
-Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Smart Assessment Engine \(SAE\) enables you to create customizable assessment templates with detailed instructions and questions to gather information from assessors. SAE was enhanced and updated in the Australia release.
 
-**Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/grc-rn-landing.md)
+### What's changed
+
+-   **[Filtering questions in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/filtering-questions-in-an-assessment.md)**
+
+    Apply multiple assessment filters at once \(for example, **Unanswered** + **AI-assisted**\). The navigation pane dynamically grays out sections with no matching questions so responders see exactly where attention is needed.
+
+-   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-asmnt-template-category-create.md)**
+
+    Starting with version 22.3.X, the **Category Role** field in the assessment template category form is replaced with the **Category Roles** field.
+
+
+-   **[ServiceNow Otto® name announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Hide conditional questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-q-text-create.md)**
+
+    Conditional questions that don't meet their visibility criteria are now fully hidden from the assessment and are no longer displayed as **Skipped**. Respondents see only the questions relevant to them, reducing assessment fatigue and eliminating "Skipped" clutter.
+
 

@@ -1,19 +1,19 @@
 ---
-title: Configure Now Assist in Document Management
-description: If you have the admin role, you can configure Now Assist in Document Management in the application enabling the use of its generative AI skills within the application workspace.
+title: Configure ServiceNow Otto in Document Management
+description: If you have the admin role, you can configure ServiceNow Otto in Document Management in the application enabling the use of its generative AI skills within the application workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-now-assist-document-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Now Assist in Document Management
+# Configure ServiceNow Otto in Document Management
 
-If you have the admin role, you can configure Now Assist in Document Management in the application enabling the use of its generative AI skills within the application workspace.
+If you have the admin role, you can configure ServiceNow Otto in Document Management in the application enabling the use of its generative AI skills within the application workspace.
 
 ## Configuration overview
 

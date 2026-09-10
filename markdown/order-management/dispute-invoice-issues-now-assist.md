@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Dispute invoice issues using ServiceNow Otto Virtual Agent
@@ -103,7 +103,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 When the dispute is resolved, an email notification is sent to you with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

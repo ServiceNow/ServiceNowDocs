@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/approval-configuration-setup.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Deal Registration approvals, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

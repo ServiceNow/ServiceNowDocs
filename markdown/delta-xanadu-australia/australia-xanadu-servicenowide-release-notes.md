@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicenowide-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow IDE version 1.1.4 is active by default on instances on the Yokohama release. Update to ServiceNow IDE version 2.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Updating apps](https://www.servicenow.com/docs/access?context=updating-apps-app-manager&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -54,7 +57,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow IDE version 2.1.2 is active by default on instances on the Zurich release. Update to ServiceNow IDE version 3.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://www.servicenow.com/docs/access?context=install-servicenow-ide&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -62,7 +68,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow IDE version 3.2.3 is active by default on instances on the Australia release. Update to ServiceNow IDE version 4.0 or later to use the latest features. For information about updating ServiceNow IDE, see [Install or update the ServiceNow IDE](https://www.servicenow.com/docs/access?context=install-servicenow-ide&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -192,7 +201,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[New developer themes](https://www.servicenow.com/docs/access?context=servicenow-ide-user-interface&family=zurich&ft:locale=en-US)**
+
+Use the Developer Light \(default\) and Developer Dark themes in the ServiceNow IDE. Select a theme from the user settings in the ServiceNow IDE or with the `Preferences: Color Theme` command from the command palette.
+
+The theme preference selected by a user from the ServiceNow IDE applies to other builder applications such as ServiceNow Studio and Creator Studio.
+
 
 </td></tr><tr><td>
 
@@ -200,7 +214,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Updated Activity Bar](https://www.servicenow.com/docs/access?context=servicenow-ide-user-interface&family=australia&ft:locale=en-US)**
+
+The Activity Bar includes additional views for bookmarks and recent activity, and the Metadata Explorer view has been replaced with the File Categories and Apps views.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -319,7 +336,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow IDE is active by default starting in the Yokohama release and available for upgrade in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -327,7 +347,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow IDE is active by default and available for upgrade in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -335,7 +358,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow IDE is active by default and available for upgrade in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -372,7 +398,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry](https://www.servicenow.com/docs/access?context=use-library-private-npm-registry&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -380,7 +409,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry](https://www.servicenow.com/docs/access?context=use-library-private-npm-registry&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -507,7 +539,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -515,7 +550,10 @@ Australia
 
 </td><td>
 
+-   **Localization information**
+
 The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Highlight information

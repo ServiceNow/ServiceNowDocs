@@ -214,6 +214,8 @@ This conversational interface enables an agent to request a service problem case
 
 Remote Hands Request Summarization is an ServiceNow Otto capability that provides a contextual overview of a Remote Hands case. It combines current case data with insights from similar historical cases. Users with the Remote Hands Agent role can generate a summarized view of a Remote Hands case. Select the **Summarize** option from either the Remote Hands Case table or the CSM/FSM Configurable Workspace.
 
+\[Omitted image "remote-hands-summary.png"\] Alt text: Image displays the example for Remote hands case summary
+
 The comprehensive summary includes the following sections:
 
 -   Case Overview: The Case Overview section displays the key metadata retrieved from the Remote Hands Case table, including Case Category, Priority, Channel, and State.
@@ -222,6 +224,8 @@ The comprehensive summary includes the following sections:
 -   Case Reference: The Case Reference lists up to five similar cases found by the system
 -   Case Issue: The Case Issue displays the Short Description of the related case
 -   Case Resolution: The Case Resolution displays the Resolution Notes recorded in the related case
+
+\[Omitted image "remote-hands-summary-details.png"\] Alt text: Image displays the components in the Remote Hands Summary
 
 **Related topics**  
 

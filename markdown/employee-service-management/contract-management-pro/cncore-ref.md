@@ -45,6 +45,10 @@ The UFX Add on Event mapping form to configure the display of declarative action
 The obligation form provides the details to create or modify an obligation record in Obligation Management.
 -   **[Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md)**  
 Obligation Management uses email notifications to notify obligation fulfiller and obligation users when an obligation task is created, assigned, submitted, approved, or rejected.
+-   **[Contract Analysis Playbook form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.md)**  
+Fields on the Contract Analysis Playbook form define the negotiation guidance for a contract type and the conditions that determine when an external AI tool retrieves it.
+-   **[Contract analysis playbook tool messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.md)**  
+Messages that the playbook tool returns to an external AI tool when it cannot resolve or return a playbook for a contract. Each message tells the fulfiller how to correct the request.
 -   **[Contract Management Pro glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/contract-management-pro-glossary.md)**  
 Learn about the terms and concepts used in Contract Management Pro.
 -   **[Contract Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-cml-feature-compare.md)**  

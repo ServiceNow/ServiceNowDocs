@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Register instance, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Register target instance \(legacy\)
@@ -28,7 +28,7 @@ If an error occurs while registering a target instance see [Troubleshooting for 
 
 3.  Enter the URL for the receiving instance \(target\).
 
-    The system validates the instance enables clone targets and that High Availability Cloning is active. Production and demonstration instances fail these validation checks.
+    The system validates the instance enables clone targets and that High Availability Cloning is active.
 
 4.  Enter the basic authentication credentials for a user account with the admin role on the target instance.
 

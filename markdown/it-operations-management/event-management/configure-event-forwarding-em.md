@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The source instance, which forwards events to a target instance, must have a user with the evt\_mgmt\_integration role, a password for the credential, and a new event forwarding record. The target instance, which receives events from the source, must have a credential with the same user name and password as the source instance.
+The source instance forwards events to a target instance. The source instance must have a user with the evt\_mgmt\_integration role, a password for the credential, and a new event forwarding record. The target instance receives events from the source. The target instance must have a credential with the same user name and password as the source instance.
 
 The event forwarding record contains details about the target ServiceNow instance URL to which events are to be forwarded along with the credentials to connect it.
 

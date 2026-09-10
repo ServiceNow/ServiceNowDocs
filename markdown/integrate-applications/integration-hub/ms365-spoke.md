@@ -30,7 +30,7 @@ This spoke was built for Microsoft Graph: v1.0 and Microsoft Dynamics 365: v9.0,
 
 ## Spoke version
 
-Microsoft Dynamics 365 v1.0.8 is the latest version.
+Microsoft Dynamics 365 v1.0.8 is the latest version. For version history of the spoke, see [Microsoft 365 spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-365.html).
 
 ## Spoke requirements
 

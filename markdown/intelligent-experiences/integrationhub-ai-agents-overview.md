@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [Integration Hub, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Integration Hub, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Integration Hub AI agents
@@ -29,5 +29,5 @@ This Microsoft Teams integration agent automates communication between ServiceNo
 -   **[Microsoft Teams team management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-team-management-ai-agent.md)**  
 This Microsoft Teams integration agent simplifies the integration between ServiceNow and Microsoft Teams. The agent automates tasks such as creating and managing Teams, adding or removing members, and retrieving team-related information.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -30,6 +30,8 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 4.  Click **Update**.
 
+    When you deactivate or retire a control objective, the system retires the controls generated from it.
+
 
 **Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

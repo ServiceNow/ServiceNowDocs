@@ -1,6 +1,6 @@
 ---
 title: Network switch discovery using patterns
-description: The Discovery and Service Mapping Patterns application uses the Network Switch pattern to find network switches in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Network Switch pattern to find network switches in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/network-switch-patterns.html
 release: australia
@@ -8,13 +8,13 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Network switch discovery using patterns
 
-The Discovery and Service Mapping Patterns application uses the Network Switch pattern to find network switches in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Network Switch pattern to find network switches in your environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -23,6 +23,14 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 To learn about network switches and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 For information on probe-based network switch and router discovery, see [Network switch and router discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoNWRouteAndSwitch.md).
+
+## Cisco Nexus Virtual Routing and Forwarding \(VRF\) data model
+
+The pattern introduces the following CI class starting with Discovery and Service Mapping Patterns version 1.35.0.
+
+|CI class|Extends from|
+|--------|------------|
+|Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\]|Configuration Item \[cmdb\_ci\]|
 
 ## Prerequisites
 
@@ -47,9 +55,9 @@ For information on probe-based network switch and router discovery, see [Network
 
     You can configure these additional properties for network switch discovery.
 
-<table id="table_c5g_sh1_1gc"><thead><tr><th>
+<table id="table_zdl_34r_hkc"><thead><tr><th>
 
-Property
+System property
 
 </th><th>
 
@@ -65,7 +73,6 @@ Sets a maximum number of scheduled invocations for the same Discovery schedule. 
 
 -   **Type:** integer
 -   **Default value:** 3
--   **Location:** **Discovery Definition** &gt; **Properties**
 **Note:** This property does not apply to schedules that have a 'Run after' configuration set to 'Even if canceled'.
 
 </td></tr><tr><td>
@@ -74,15 +81,25 @@ glide.discovery.bgp\_router\_disable
 
 </td><td>
 
-Disables running the SNMP – Routing pattern when discovering a router running the BGP protocol. If you must populate the Device Neighbors \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the BGP-enabled devices, set the **BGP router exploration disable** property to **No**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
+Disables running the SNMP – Routing pattern when discovering a router running the BGP protocol. If you must populate the Device Neighbors \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the BGP-enabled devices, set the **glide.discovery.bgp\_router\_disable** property to **false**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
 
--   **Type:** true \| false
+-   **Type:** Boolean
 -   **Default value:** true
--   **Location:** **Discovery Definition** &gt; **Properties**
 
 
 </td></tr></tbody>
-</table>
+</table>-   **For Cisco Nexus VRF discovery**
+
+    Verify the following requirements:
+
+    -   Discovery and Service Mapping Patterns starting from version 1.35.0.
+    -   Read permissions for the following commands on the Cisco Nexus device:
+        -   `sh vrf`
+        -   `sh hsrp br`
+        -   `sh ip interface vrf all`
+        -   `sh ipv6 interface vrf all`
+    -   Create SSH credentials for the Cisco Nexus user. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+
 ## Discovering stacked switches
 
 Network switch discovery supports Cisco stacked switches. Multiple switches in the stack are identified by the primary IP address. Discovery identifies each member of the stack by elements such as the primary IP address, a name associated with the switch, and the stack mode. The relationship is created between a primary switch and the secondary switches.
@@ -120,6 +137,9 @@ Discovery populates the data in the CMDB when running the Network Switch pattern
 |IP Address \[ip\_address\]|IP address of the network switch.|
 |Netmask \[netmask\]|Netmask of the network switch.|
 |Nic \[nic\]|References the Network Adapter \[cmdb\_ci\_network\_adapter\] table.|
+|Owned By Configuration Item \[owned\_by\_cmdb\_ci\]\*|References the Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\] table|
+
+\* Populated for Cisco Nexus VRF discovery only.
 
 |Field|Description|
 |-----|-----------|
@@ -135,14 +155,21 @@ Discovery populates the data in the CMDB when running the Network Switch pattern
 |Name \[name\]|Name of the Domain Name System \(DNS\).|
 |IP Address \[ip\_address\]|IP address of the DNS.|
 
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|VRF name as configured on the network device.|
+|VRF ID \[vrf\_id\]|VRF identifier assigned by the network device operating system \(OS\).|
+|Display Name \[display\_name\]|Display name composed of the VRF name and the associated network device name.|
+|Configuration Item \[configuration\_item\]|References the IP Switch \[cmdb\_ci\_ip\_switch\] table.|
+
+\* Populated for Cisco Nexus VRF discovery only.
+
 ## CI relationships
 
-Discovery creates these relationships to support the network switch discovery.
+Discovery creates these relationships and references to support the network switch discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|Exit Interface Routing Rule \[dscy\_route\_interface\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|IP Address \[cmdb\_ci\_ip\_address\]|References|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Contains::Contained by|Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]|
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Contains::Contained by|Switch Partition \[dscy\_swtch\_partition\]|
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Contains::Contained by|Switchport \[dscy\_switchport\]|
@@ -152,17 +179,30 @@ Discovery creates these relationships to support the network switch discovery.
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Uses::Used by|Next Hop Routing Rule \[dscy\_route\_next\_hop\]|
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Uses::Used by|Router Interface \[dscy\_router\_interface\]|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Network ARP Table \[discovery\_net\_arp\_table\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Next Hop Routing Rule \[dscy\_route\_next\_hop\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Router Interface \[dscy\_router\_interface\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Serial Number \[cmdb\_serial\_number\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switch Bridge Port Table \[discovery\_switch\_bridge\_port\_table\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switch Forwarding Table \[discovery\_switch\_fwd\_table\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switch Partition \[sdcy\_swtch\_partition\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switch Spanning Tree Table \[discovery\_switch\_spanning\_tree\_table\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
-|Switchport \[dscy\_switchport\]|References|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|IP Switch \[cmdb\_ci\_ip\_switch\]|Owns::Owned by|Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\]\*|
+|Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\]|Contains::Contained by|IP Address \[cmdb\_ci\_ip\_address\]\*|
+
+\* Created for Cisco Nexus VRF discovery only.
+
+|CI/Table|Field|Referenced CI|
+|--------|-----|-------------|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Network ARP Table \[discovery\_net\_arp\_table\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Next Hop Routing Rule \[dscy\_route\_next\_hop\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Router Interface \[dscy\_router\_interface\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Serial Number \[cmdb\_serial\_number\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switch Bridge Port Table \[discovery\_switch\_bridge\_port\_table\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switch Forwarding Table \[discovery\_switch\_fwd\_table\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switch Partition \[sdcy\_swtch\_partition\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switch Spanning Tree Table \[discovery\_switch\_spanning\_tree\_table\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Switchport \[dscy\_switchport\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|Exit Interface Routing Rule \[dscy\_route\_interface\]|Configuration Item \[cmdb\_ci\]|IP Switch \[cmdb\_ci\_ip\_switch\]|
+|IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+|IP Address \[cmdb\_ci\_ip\_address\]|Owned By Configuration Item \[owned\_by\_cmdb\_ci\]|Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\]\*|
+|Virtual Routing and Forwarding \(VRF\) \[cmdb\_ci\_virtual\_routing\_forwarding\]|Configuration Item \[configuration\_item\]|IP Switch \[cmdb\_ci\_ip\_switch\]\*|
+
+\* Populated for Cisco Nexus VRF discovery only.
 
 **Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

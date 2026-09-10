@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-03"
 reading_time_minutes: 1
 keywords: [running process-based discovery, file-based discovery, FBD, process scan, agent client collector, software discovery]
-breadcrumb: [Agent Client Collector File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Running process-based discovery

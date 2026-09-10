@@ -7,14 +7,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace contextual side panel components
 
 Use the contextual side panel to quickly access tools and information directly from the record page, helping agents research and resolve customer issues without leaving the case view.
 
-The contextual side panel is embedded within multiple [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md) in CSM Configurable Workspace. The side panel contains tabs with different functionality that vary depending on the record page. While the content within the side panel may be similar from one record page to another, the order and availability of the tabs may vary.
+The contextual side panel is embedded within multiple [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md) in CRM Workspace. The side panel contains tabs with different functionality that vary depending on the record page. While the content within the side panel may be similar from one record page to another, the order and availability of the tabs may vary.
 
 <table id="id_rzq_vgj_vfc"><thead><tr><th>
 
@@ -110,7 +110,7 @@ Activity Stream
 
 </td><td>
 
-The activity stream displays a list of activities occurring on a case record. For more information, see Playbook activity stream component.
+The activity stream displays a list of activities occurring on a case record. For more information, see [Playbook activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-activity-stream-component.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ The Related Items tab provides access to the case-related lists.The Case playboo
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
-For more information, see Playbook related items component.
+For more information, see [Playbook related items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md).
 
 </td></tr><tr><td>
 

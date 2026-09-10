@@ -1,25 +1,45 @@
 ---
 title: Next Experience Components release notes
-description: The ServiceNow Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
+description: The ServiceNow Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.The ServiceNow Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 10
 ---
 
 # Next Experience Components release notes
 
 The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
 
-## Next Experience Components highlights for the Australia release
+## About Next Experience Components
 
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Australia release.
+
+### What's new
 
 |Component|Description|
 |---------|-----------|
@@ -34,7 +54,7 @@ The ServiceNow® Next Experience Components application provides the components 
 |Dashboard library|Includes all dashboards available to users. Users can filter dashboards by various criteria, such as recently opened, bookmarked, certified, by category, and ones the user owns. The Library section also lets users create dashboards. Users with analytics admin roles have an enhanced library view, enabling them to access usage data and other metadata. Admins can also deactivate, activate, or delete dashboards from this view.|
 |Data visualization library|Includes all data visualizations available to users. Users can filter dashboards by various criteria, such as bookmarked, certified, and ones that the user owns. The Library section also lets users create dashboards. Users with analytics admin roles have an enhanced library view, enabling them to access usage data and other metadata. Admins can also deactivate, activate, or delete dashboards from this view.|
 
-## Changed in this release
+### What's changed
 
 <table id="table_comp_list"><thead><tr><th>
 
@@ -406,36 +426,9 @@ Time series
 |---------|-----------|
 |Agent Workspace app shell|Configure alt text for a ServiceNow or customer logo button.|
 
-## Deprecations
+### What's deprecated or removed
 
 |UI Element|Description|
 |----------|-----------|
 |Dashboard overview template|Moved under "Legacy templates" and renamed to "Deprecated - Dashboard overview." This template can still be used, but you should use the new "Dashboard library" template instead, because the Dashboard overview template is marked for eventual deprecation.|
-
-## Activation information
-
-Next Experience Components is a ServiceNow AI Platform feature that is active by default.
-
-## Plugin information
-
-The following plugins are planned for deprecation in a future release.
-
-sn-component-account-hierarchy \(com.sn\_component\_account\_hierarchy\): Planned for deprecation in the C release. Beginning with the Australia release, this plugin migrate to a store application. Upgrade your instance to Australia or later release versions and the store applications automatically installs.
-
-## Accessibility information
-
-To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
-
-## Related ServiceNow applications and features
-
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
-
-    UI Builder is a low-code tool that helps enable you to build pages for workspace and portal web-based experiences.
-
--   **[Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)**
-
-    Use components to build custom workspace experiences for agents who solve internal or external customer issues.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

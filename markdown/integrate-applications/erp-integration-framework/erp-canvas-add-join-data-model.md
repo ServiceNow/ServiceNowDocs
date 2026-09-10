@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, join, table, read, operation]
-breadcrumb: [ERP model operations, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add joins between ERP tables
@@ -50,7 +50,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 6.  Add the tables to join as **Table read** operation entities if they haven't yet been added to the model.
 
-    For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
     \[Omitted image "erpc-tables-with-joins-ys2.png"\] Alt text: Multiple tables are joined.
 

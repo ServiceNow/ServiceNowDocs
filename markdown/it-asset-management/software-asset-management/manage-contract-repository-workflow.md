@@ -27,11 +27,11 @@ The manage contract repository agentic workflow uses an AI agent to do the follo
 
 ## Metadata, contract reminders, and obligation extraction
 
-The AI agent uses the Now Assist contract metadata extraction skill to extract key metadata from signed contracts. After the metadata extraction is complete, you can open the contract playbook to review the extracted information and set the contract reminder date. The AI agent uses the Now Assist obligation extraction skill to extract key contractual obligations from contracts. After obligations are extracted, you can review the obligations within the contract playbook and choose to accept or reject them. Accepted obligations are added as records in the **Obligations** tab of the contract record.
+The AI agent uses the contract metadata extraction skill to extract key metadata from signed contracts. After the metadata extraction is complete, you can open the contract playbook to review the extracted information and set the contract reminder date. The AI agent uses the obligation extraction skill to extract key contractual obligations from contracts. After obligations are extracted, you can review the obligations within the contract playbook and choose to accept or reject them. Accepted obligations are added as records in the **Obligations** tab of the contract record.
 
 The following workflow explains the metadata extraction and contract reminder setup process.
 
-1.  As a Contract Admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract metadata extraction skill and the contract obligation extraction skill in the AI Admin Hub console.
+1.  As a Contract admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract metadata extraction skill and the contract obligation extraction skill in the AI Admin Hub console.
 
     For more information, see [Configure the manage contract repository agentic workflow for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.md).
 
@@ -73,7 +73,7 @@ For more information reviewing extracted obligations, see [Review AI-extracted o
 
 When a software contract is created, the **Initiate contract extraction** button appears on the contract form when the following conditions are met:
 
--   One of the following Now Assist skills are activated on your ServiceNow instance:
+-   One of the following AI skills are activated on your ServiceNow instance:
     -   Contract metadata extraction
     -   Contract obligation extraction
 -   At least one of these two extraction skills hasn’t yet been executed on the contract record.
@@ -104,7 +104,7 @@ Uses various tools to perform the following:-   Retrieves the contract repositor
 
 </td></tr></tbody>
 </table>-   **[Configure the manage contract repository agentic workflow for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.md)**  
-Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
+Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
 -   **[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)**  
 Reduce manual effort by leveraging the Manage contract repository agentic workflow to extract key metadata and obligations from an uploaded signed contract, and calculate the contract reminder date.
 -   **[Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.md)**  

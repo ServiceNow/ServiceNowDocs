@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
@@ -26,10 +26,20 @@ Configure the Agent Client Collector with a MID Server to enable communication b
 Install Agent Client Collector on a system that uses a Linux OS, either using a single-line command script, or following the installation procedure to embed in your own package distribution mechanism. The installation procedure provides consistency when using package distribution solutions.
 -   **[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-windows-install-concept.md)**  
 When installing the Agent Client Collector on a Windows machine, either download an installation file and use a wizard to install the agent manually, or use silent installation to automate agent installation and configuration. Manual installation enables you to test the agent on a single system, while silent installation enables you to deploy the agent at scale.
+-   **[Require a maintenance token for Windows uninstalls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/require-maintenance-token-uninstall.md)**  
+Require using a maintenance token when uninstalling an agent from a Windows device. A maintenance token provides a layer of administrative control so that unauthorized personnel can't perform the uninstall.
+-   **[Create a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-maintenance-token.md)**  
+Create a maintenance token to use when uninstalling an agent from a Windows device. Administrators require maintenance tokens to ensure that unauthorized employees can't perform an uninstall.
+-   **[Uninstall an agent using a maintenance token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/uninstall-agent-maintenance-token.md)**  
+Uninstall an agent from a Windows device using a maintenance token. Administrators require maintenance tokens to ensure that unauthorized employees can't perform an uninstall.
+-   **[Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md)**  
+Configure the preliminary settings on an instance to enable using the agent with a non-persistent virtual desktop infrastructure machine \(NPVDI\) machine. NPVDI agents gather data more quickly than traditional agents not enabled for a VPVDI.
+-   **[Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md)**  
+Configure an agent to enable it to work in a non-persistent virtual desktop infrastructure \(NPVDI\) environment. NPVDI agents are self-sufficient and start running checks immediately.
 -   **[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)**  
 The Agent Client Collector Framework manages agent upgrades directly from the instance, with no manual action required on individual agent hosts.
 -   **[Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-assets.md)**  
-You can edit the default plugins, or you can add new plugins, as needed. Creating and editing plugins customizes the Agent Client Collector monitoring capabilities.
+Custom plugins extend Agent Client Collector monitoring capabilities beyond the default plugins. You can create plugins for specific monitoring requirements or modify existing plugins.
 -   **[Optimize distribution of agents to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-redistribute-agents-mid.md)**  
 Optimize the distribution of agents by allowing redistribution from one MID Server to another. Agents will always be connected to the MID Server with the fastest response time.
 -   **[View the Agent Client Collector configuration file for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-yml-view.md)**  
@@ -41,7 +51,7 @@ Validate plugins on your MID Server to ensure that they match the plugins on you
 -   **[Validate plugins on agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/validate-assets-agents.md)**  
 Validate plugins on your agents to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your agents' plugins.
 -   **[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md)**  
-You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\) even if the agent is in the cloud or any place that is external to your host server.
+You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\). This works even if the agent is in the cloud or external to your host server.
 -   **[Enable log monitoring in a Linux environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-enable-log-monitoring-linux.md)**  
 To enable monitoring logs in a Linux environment, select the relevant policy and assign specific check parameters to the policy. When log monitoring is enabled and a specified string is discovered in the log being monitored, the system creates an event.
 -   **[Enable log monitoring in a Windows environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-enable-log-monitoring-windows.md)**  

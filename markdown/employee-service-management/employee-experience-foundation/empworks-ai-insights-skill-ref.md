@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-01-27"
 reading_time_minutes: 3
 keywords: [AI insights skill, Bring Your Own Skill, skill contract, task configuration, ServiceNow Otto skill, task details widget, Employee Works]
-breadcrumb: [Configure a custom AI insights skill, Task configuration, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure a custom AI insights skill, Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # AI insights skill reference

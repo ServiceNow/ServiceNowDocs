@@ -1,6 +1,6 @@
 ---
 title: Install Data Catalog store applications
-description: You can install the Data Catalog application \(sn\_dcg\_ui\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Data Catalog application \(sn\_dcg\_app\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-data-catalog-store-applications.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Configure, Data Catalog, Workflow Data Fabric]
 
 # Install Data Catalog store applications
 
-You can install the Data Catalog application \(sn\_dcg\_ui\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Data Catalog application \(sn\_dcg\_app\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ The following items are installed with Data Catalog:
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ServiceNow Data Catalog \(sn\_dcg\_ui\) store application using the filter criteria and search bar.
+2.  Find the ServiceNow Data Catalog \(sn\_dcg\_app\) store application using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

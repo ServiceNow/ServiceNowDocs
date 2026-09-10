@@ -142,7 +142,7 @@ There are specific HR roles that allow users access to specific areas of the sys
 
 
 -   **[Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md)**  
-After system configuration, remove the HR Administrator role \(sn\_hr\_core.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive HR information via forms, lists and UI.
+Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
 -   **[Add Delegated Developer to HR Administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRAdminRoles.md)**  
 For an HR Administrator \[sn\_hr\_core.admin\] to perform some platform duties, the delegated developer role must be added.
 -   **[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)**  

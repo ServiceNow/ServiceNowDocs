@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-18"
 reading_time_minutes: 3
 breadcrumb: [Company events, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -41,7 +41,7 @@ The company event content type is built using the Rich Content Editor and publis
 
     |Field|Description|
     |-----|-----------|
-    |Event content record name|The name that describes the content you are creating.|
+    |Event content record name|The name that describes the content you're creating.|
     |Order|The order in which the event appears in a widget. An event with a lesser value appears first.|
     |Active|Indicates the content is active and available for use.|
 
@@ -67,7 +67,7 @@ Event start date and time
 
 </td><td>
 
-The date and time when the article becomes available for viewing on the portal.**Note:** The article becomes visible to specific users on a set date, based on the publish plan configurations.
+The date and time when the article is set to available for viewing on the portal.**Note:** The article is set to visible to specific users on a set date, based on the publish plan configurations.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Featured image
 
 </td><td>
 
-The image that will appear in the company event and as a thumbnail in the News feed widget in the Employee Center Pro.We recommend a 4:3 ratio for images.
+The image that will appear in the company event and as a thumbnail in the News feed widget in the Employee Center Pro.Use a 4:3 ratio for images.
 
 </td></tr><tr><td>
 
@@ -148,17 +148,38 @@ Social engagement settings
 
 </td><td>
 
-If the Content Admin enabled social engagement, the following settings appear in the form to allow employees to engage with the event:-   Allow comments
+If the Content admin enabled social engagement, the following settings appear in the form to let employees to engage with the event:-   Allow comments
 -   Allow reactions
 -   Show page view count
 
 
 </td></tr></tbody>
-</table>6.  Click **Save and continue** to proceed to publishing the event.
+</table><table id="table_sg5_1k2_hkc"><thead><tr><th>
+
+Tags
+
+</th><th>
+
+Tables
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_kg\_tag
+
+</td><td>
+
+-   sn\_cd\_content\_base
+-   sn\_cd\_content\_portal
+-   sn\_cd\_content\_news
+-   sn\_cd\_company\_event
+
+
+</td></tr></tbody>
+</table>6.  Select **Save and continue** to proceed to publishing the event.
 
     If you change the Content template after saving the Company event, the system deletes the auto-generated publish plans and generates new plans per the newly-selected Content template.
 
-    You are redirected to the **Publish** tab.
+    You're redirected to the **Publish** tab.
 
 
 ## What to do next

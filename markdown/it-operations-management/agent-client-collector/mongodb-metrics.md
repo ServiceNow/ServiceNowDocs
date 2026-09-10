@@ -75,8 +75,8 @@ The following table lists the metrics that are gathered as output from MongoDB c
 |mongodb.metrics.document.inserted| |count|Total number of documents inserted.|
 |mongodb.metrics.document.returned| |count|Total number of documents returned by queries.|
 |mongodb.metrics.document.updated| |count|Total number of documents updated.|
-|mongodb.metrics.getLastError.wtime\_num \(featured metric\)| |count|Total number of **getLastError** operations with a specified write concern \(w\) that wait for one or more members of a replica set to acknowledge the write operation \(a w value greater than 1.\)|
-|mongodb.metrics.getLastError.wtime\_totalMillis \(featured metric\)| |miliseconds|Total amount of time in milliseconds that the mongod has spent performing **getLastError** operations with write concern \(w\) that wait for one or more members of a replica set to acknowledge the write operation \(a w value greater than 1.\)|
+|mongodb.metrics.getLastError.wtime\_num \(featured metric\)| |count|Total number of **getLastError** operations with a specified write concern \(w\) that wait for replica set members to acknowledge the write operation \(w value greater than 1\).|
+|mongodb.metrics.getLastError.wtime\_totalMillis \(featured metric\)| |miliseconds|Total amount of time in milliseconds that the mongod has spent performing **getLastError** operations with write concern \(w\). These operations wait for one or more members of a replica set to acknowledge the write operation \(a w value greater than 1\).|
 |mongodb.metrics.getLastError.wtimeouts \(featured metric\)| |count|Number of times that write concern operations have timed out as a result of the **wtimeout** threshold to **getLastError**. This number increments for both default and non-default write concern specifications.|
 |mongodb.metrics.operation.scanAndOrder| |count|Total number of queries that return sorted numbers that cannot perform the sort operation using an index.|
 |mongodb.metrics.queryExecutor.scanned| |count|Total number of index items scanned during queries and query-plan evaluation. This counter is the same as **totalKeysExamined** in the output of explain\(\).|

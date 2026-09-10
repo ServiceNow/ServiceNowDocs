@@ -18,9 +18,9 @@ Install and configure the Workplace Calendar Synchronization application to crea
 
 ## Configuration overview
 
-This section provides a guided overview of all foundational setup tasks, from installing the application and configuring authentication credentials, to creating calendar providers and linking reservable spaces. Use the step-by-step links below to quickly access and configure essential features, ensuring your calendar sync processes are streamlined and ready for use.
+This section provides a guided overview of all foundational setup tasks, from installing the application and configuring authentication credentials, to creating calendar providers and linking reservable spaces. Use the step-by-step instructions to quickly access and configure essential features, ensuring your calendar sync processes are streamlined and ready for use.
 
-\[Omitted image "wsd-calendarsync-config.png"\] Alt text:
+\[Omitted image "wsd-calendarsync-config.png"\] Alt text: Calendar Synchronization Installation andConfiguration Workflow.
 
 ## Connections
 
@@ -45,7 +45,7 @@ Before starting configuration, select the synchronization mode that suits your o
 
 2.  [Register ServiceNow as an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.md)
 
-    Register ServiceNow as an OAuth provider in your external calendar service such as Microsoft Azure Active Directory or Google Cloud Console to authorize the connection between ServiceNow and the calendar provider. This step generates the Client ID and Client Secret you will need when configuring the Application Registry.
+    Register ServiceNow as an OAuth provider in your external calendar service such as Microsoft Azure Active Directory or Google Cloud Console. This authorizes the connection between ServiceNow and the calendar provider and generates the Client ID and Client Secret you need when configuring the Application Registry.
 
 3.  [Configure the Application Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-connectivity-with-msexchange-for-calendar-sync.md)
 

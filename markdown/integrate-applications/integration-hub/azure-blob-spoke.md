@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Azure Blob Storage spoke v2.0.0 is the latest version.
+Azure Blob Storage spoke v2.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure Blob Storage spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-blob-storage.html).
 
 ## Spoke dependencies
 

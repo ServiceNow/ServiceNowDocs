@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -122,10 +122,12 @@ For more information about risk ratings and risk scores, see [Set up risk rating
 The **Supplier Information** tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 -   **[Sidebar for supplier cases in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sidebar-smw.md)**  
 Sidebar enables stakeholders to collaborate with others by getting into discussions when working on supplier cases.
--   **[Configure due dates for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.md)**  
-Configure due dates for different case types so that the **Due date** field is auto-populated when you create supplier cases.
 -   **[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)**  
 Source-to-Pay Workspace includes a generic case playbook to complete supplier cases of specific case types.
+-   **[View a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-ws.md)**  
+As a supplier manager, view a supplier case that requires your input or approval.
+-   **[Configure due dates for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.md)**  
+Configure due dates for different case types so that the **Due date** field is auto-populated when you create supplier cases.
 -   **[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)**  
 Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 -   **[Assign a supplier case to yourself from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.md)**  
@@ -138,10 +140,8 @@ Mark a supplier case complete after finishing all associated tasks to close the 
 Reopen a closed supplier case if you are not satisfied with the case resolution.
 -   **[Add a related case to a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-related-case.md)**  
 If a supplier case has related cases, you can add them to that supplier case from the Source-to-Pay Workspace.
--   **[View a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-ws.md)**  
-As a supplier manager, view a supplier case that requires your input or approval.
 -   **[Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md)**  
-Using Relish integration, checking supplier's banking details, physical addresses, and sanction screening can be done efficiently.
+Using Relish integration, checking supplier's banking details, tax information, physical addresses, and sanction screening can be done efficiently.
 
 **Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
@@ -173,12 +173,4 @@ Using Relish integration, checking supplier's banking details, physical addresse
 [Emails view for supplier managers]()
 
 [Configure due dates for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.md)
-
-[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)
-
-[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
-
-[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)
-
-[Manage supplier tasks from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-tasks.md)
 

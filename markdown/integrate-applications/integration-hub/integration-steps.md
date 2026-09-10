@@ -157,6 +157,8 @@ For most integration steps, you can specify a MID Server or MID Cluster for the 
 
 When specifying a MID Server, Flow designers should avoid shifting the execution environment from one MID Server to another when a flow runs. Either configure each MID Server to perform operations on multiple endpoints, or provide multiple capabilities to each MID Server in your network. You may need a user with the connection\_admin role to update the connection records associated with an action, or a network administrator to update the MID Server network configuration.
 
+**Note:** If a selected MID Server is part of a cluster, the runtime MID may be different, depending on load. So even if a MID Server is specified at the connection or step level, a different MID Server in the same cluster may be used at runtime.
+
 ## Design considerations
 
 Design integration steps using the following guidelines.

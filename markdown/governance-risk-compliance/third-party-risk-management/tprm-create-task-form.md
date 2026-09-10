@@ -1,6 +1,6 @@
 ---
 title: Create new third-party risk task form
-description: Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external task.
+description: Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal or external task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.html
 release: australia
@@ -8,13 +8,13 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Third-party \(external\) risk assessment management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create new third-party risk task form
 
-Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external task.
+Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal orexternal task.
 
 <table id="table_krg_p53_2yb"><thead><tr><th>
 
@@ -47,7 +47,10 @@ Applies to
 </td><td>
 
 -   **Third party**: The task applies to the parent third-party organization.
+-   **Engagement**: The task applies to the engagement.
 -   **Element**: The task applies to the third-party element.
+
+ **Note:** The **Engagement** option is available only for internal tasks.
 
 </td></tr><tr><td>
 
@@ -56,6 +59,14 @@ Third party
 </td><td>
 
 Third party with which the task is associated.
+
+</td></tr><tr><td>
+
+Engagement
+
+</td><td>
+
+Engagement with which the task is associated.**Note:** Engagements are available only for internal tasks.
 
 </td></tr><tr><td>
 
@@ -83,11 +94,20 @@ Issue with which the task is associated.
 
 </td></tr><tr><td>
 
+Task respondent
+
+</td><td>
+
+User that has been assigned this task.**Note:** This field is only applicable for internal tasks.
+
+</td></tr><tr><td>
+
 State
 
 </td><td>
 
 State of progress for the task.-   Open
+-   Submitted to respondent: Applies to internal tasks.
 -   Submitted to third party: Applies to external tasks.
 -   Work in progress
 -   Review
@@ -194,6 +214,8 @@ Dates that the task was saved and date of the latest change.
 
 
 [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
+
+[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
 
 [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md)
 

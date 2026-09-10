@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 32
+reading_time_minutes: 33
 breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -322,7 +322,7 @@ If the removal candidates don't exist, a scheduled job runs nightly that creates
 
 </td></tr><tr><td>
 
-License all installs accessed by clients**Note:** This field appears only on software models that are associated with [client access records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md), except for Oracle DB Server software models.
+License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle DB Server software models.
 
 </td><td>
 

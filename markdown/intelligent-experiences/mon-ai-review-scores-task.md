@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-04-03"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Review scores, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Review scores across your AI portfolio
@@ -61,7 +61,7 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
     1.  Choose which metrics to display by selecting **All metric categories**, **Quality metrics**, or **Safety metrics** from the list.
 
-    2.  Adjust the time window using the date range picker.
+    2.  Adjust the time window in the date range picker.Select **Custom range** to specify an exact start and end date, up to 18 months apart.
 
     3.  Point to a data point on the chart to see the exact score for that date.
 

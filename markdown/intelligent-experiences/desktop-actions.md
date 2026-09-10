@@ -113,7 +113,7 @@ You don’t open the Execution workspace directly. It launches automatically whe
 -   Step in and out of the automation where your inputs are required.
 -   Check the outcome of the execution in the ServiceNow Otto panel.
 
-For more information, see [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md) and [Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md).
+For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md) and [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md).
 
 ## AI Desktop Actions capabilities
 

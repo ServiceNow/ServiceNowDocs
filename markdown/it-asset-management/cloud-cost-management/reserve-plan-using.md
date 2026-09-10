@@ -1,6 +1,6 @@
 ---
-title: Reduce resource cost with Reservation Plans
-description: View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.Configure Reservation/Saving plans processes and specify the amount of potential savings that triggers notifications.
+title: Reduce resource cost with Commitments
+description: View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.Configure Commitments processes and specify the amount of potential savings that triggers notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/reserve-plan-using.html
 release: australia
@@ -12,19 +12,19 @@ reading_time_minutes: 3
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
-# Reduce resource cost with Reservation Plans
+# Reduce resource cost with Commitments
 
 View the Reserved Instances \(RI\) report, implement recommendations, and configure processes to convert on-demand payment plans to reservation plans, and save the cost of your resources.
 
-You can filter by payment option, term, and look back period to view specific results for the Reserved Instances report.
+Refine your results for the Reserved Instances report using filters such as payment option, term, and look back period.
 
-\[Omitted image "reservation-ws.png"\] Alt text: Reservation/Saving plans in Operations view.
+\[Omitted image "reservation-ws.png"\] Alt text: Commitments page in Optimization view.
 
 |Chart|Description|
 |-----|-----------|
-|Upfront cost to reserve|Upfront cost if all Reservation/Saving plans recommendations were applied.|
-|Overall RI utilization percentage|Percentage of resources on reservation plans that were used and that weren’t used in the last 30-day period.|
-|Potential savings by service category|Monthly savings to expect when all Reservation/Saving plan recommendations are applied.|
+|Upfront cost to reserve|Upfront cost if all committed recommendations were applied.|
+|Breakdown by resource type|Percentage of resources that were used and that weren’t used in the last 30-day period.|
+|Potential savings by service category|Monthly savings to expect when all committed recommendations are applied.|
 
 <table id="table_jrn_f2d_qxb"><thead><tr><th>
 
@@ -44,7 +44,7 @@ New
 
 </td><td>
 
-Resources that would benefit most in reservation plans. Review the list and decide the conversion to reservation plans. You can perform conversion by moving a resource to one of the other tabs by selecting the appropriate action.
+Resources that would benefit most in commitments. Review the list and decide the conversion to commitments. You can convert by moving a resource to one of the other tabs by selecting the appropriate action.
 
 </td><td>
 
@@ -57,7 +57,7 @@ Accepted
 
 </td><td>
 
-Resources that are converted to reservation plans. After a resource is moved to the **Accepted Recommendations** tab, it won't reappear on the **New Recommendations** tab.
+Resources that are converted to commitments. After a resource is moved to the **Accepted** tab, it won't reappear on the **New** tab.
 
 </td><td>
 
@@ -69,24 +69,24 @@ Declined
 
 </td><td>
 
-Resources that aren’t converted to reservation plans. After a resource is moved to the **Declined Recommendations** tab, it won't reappear on the **New Recommendations** tab.
+Resources that aren’t converted to commitments. After a resource is moved to the **Declined** tab, it won't reappear on the **New** tab.
 
 </td><td>
 
 Accept
 
 </td></tr></tbody>
-</table>**Important:** When you move a resource to the **Accepted Recommendations** or **Declined Recommendations** tab, the Cloud Cost Management application doesn't perform any action. You can change payment plans on the provider management interface.
+</table>**Important:** When you move a resource to the **Accepted** or **Declined** tab, the Cloud Cost Management application doesn't perform any action. You can change payment plans on the provider management interface.
 
 Google Cloud recommendations are updated periodically and might not show the latest suggestions until the console is manually refreshed. In contrast, Cloud Cost Management fetches recommendations via API, ensuring it has the most current data. This difference can sometimes cause Google Cloud RI recommendations in Cloud Cost Management to diverge from what's shown in the Google Cloud console. A manual refresh is required to see the latest recommendations.
 
-You can also [configure Reservation/Saving plans operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
+[Configure Commitments operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reserve-plan-using.md) by selecting **Settings**.
 
 **Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
-## Configure Reservation/Saving plans operations
+## Configure Commitments operations
 
-Configure Reservation/Saving plans processes and specify the amount of potential savings that triggers notifications.
+Configure Commitments processes and specify the amount of potential savings that triggers notifications.
 
 ### Before you begin
 
@@ -98,7 +98,7 @@ Role required: insights\_admin and insights\_owner
 
 ### Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Reservation/Saving plans**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Commitments**.
 
 2.  On the Reserved Instances page, select **Settings**.
 
@@ -118,7 +118,7 @@ Enable Reserved Instance
 
 </td><td>
 
-Option for enabling Reserved Instance activities. Clearing the check box disables Reservation/Saving plans operations.
+Option for enabling Reserved Instance activities. Clearing the check box disables Commitments operations.
 
  Default: Enabled
 
@@ -130,7 +130,7 @@ Notify when potential reserved instance savings exceed \(%\) of total spends
 
 Percentage of overall cloud spends for potential savings on reserved savings that should trigger an email notification to the users or groups that you specify.
 
- The value is calculated using the amount that could be saved if all the Reservation/Saving plans recommendations are followed.
+ The value is calculated using the amount that could be saved if all the Commitments recommendations are followed.
 
  The default value of **15** means that notifications are sent only when the savings for potential reserved instances are greater than 15% of total costs.
 
@@ -140,9 +140,9 @@ Do not recommend if savings are below threshold
 
 </td><td>
 
-Minimum cost, as calculated over the Lookback period, to use when deciding whether to recommend a Reservation/Saving plan for a resource.
+Minimum cost, as calculated over the Lookback period, to use when deciding whether to recommend a Commitment for a resource.
 
- For example, a setting of ¥100 means that the app should ignore any Reservation/Saving plan recommendation that would result in less than ¥100 in savings.
+ For example, a setting of ¥100 means that the app should ignore any Commitments recommendation that would result in less than ¥100 in savings.
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Payment option
 
 </td><td>
 
-Sets the selected payment option as the default filter on the Reservation/Savings Plan page.
+Sets the selected payment option as the default filter on the Commitments page.
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ Term
 
 </td><td>
 
-Sets the selected term as the default filter on the Reservation/Savings Plan page.
+Sets the selected term as the default filter on the Commitments page.
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Look back period
 
 </td><td>
 
-Sets the selected look back period as the default filter on the Reservation/Savings Plan page.
+Sets the selected look back period as the default filter on the Commitments page.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

@@ -1,21 +1,21 @@
 ---
 title: Working with ERP systems in Zero Copy Connector for ERP
-description: A Zero Copy Connector for ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system. For example, sales orders or vendor invoices.
+description: A Zero Copy Connector for ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system, such as sales orders or vendor invoices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, system, erp system]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Working with ERP systems in Zero Copy Connector for ERP
 
-A Zero Copy Connector for ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system. For example, sales orders or vendor invoices.
+A Zero Copy Connector for ERP \(Enterprise Resource Planning\) system represents a connection to a section of your ERP system, such as sales orders or vendor invoices.
 
 ## ERP systems organize connections to the ERP system
 
@@ -25,7 +25,7 @@ Zero Copy Connector for ERP provides a standard set of models, such as SAP Mater
 
 ## Configuring ERP systems and checking connections
 
-Zero Copy Connector for ERP ERP systems are configured by ServiceNow admins. Zero Copy Connector for ERP supports connecting to multiple systems.
+ServiceNow administrators configure Zero Copy Connector for ERP ERP systems. Zero Copy Connector for ERP supports connecting to multiple systems.
 
 Zero Copy Connector for ERP regularly scans all connected ERP systems for the latest heartbeat, which indicates whether a ping to the ERP system connection is successful.
 

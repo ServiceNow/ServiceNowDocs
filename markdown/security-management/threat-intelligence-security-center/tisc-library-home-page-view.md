@@ -209,5 +209,5 @@ Use this search function to search for the source records across multiple source
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

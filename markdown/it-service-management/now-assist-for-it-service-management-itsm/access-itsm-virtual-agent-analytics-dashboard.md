@@ -48,5 +48,5 @@ To access the agentic workflow:
 
 The On Call Retrieval AI agent looks up on-call schedules, shifts, and rotations for any group and returns roster or coverage information. This agent is not enabled by default. You can enable it in the Select channels and status screen.
 
-\[Omitted image "image.now-assist-itsm-who-is-on-call"\] Alt text: Who is on call Otto panel
+\[Omitted image "now-assist-itsm-who-is-on-call.png"\] Alt text: Who is on call Otto panel
 

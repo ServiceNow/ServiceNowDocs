@@ -79,7 +79,7 @@ Agent names and avatars
 
 </td><td>
 
-Slide the toggle switch to activate or deactivate the display of the agent names and avatars in the Agent Chat client when a live agent enters, transfers, or exits a chat. Agents set their names and pictures in their Live Feed profiles.
+Activate or deactivate the display of the agent names and avatars in the Agent Chat client when a live agent enters, transfers, or exits a chat. Agents set their names and pictures in their Live Feed profiles.
 
  -   If activated, the **Agent name in header** is automatically activated and displays the agent name at the top of the chat client.
 -   If deactivated, agent identities remain anonymous. No names or avatars are displayed in the chat window.
@@ -203,7 +203,7 @@ Conversation History
 
 Select **View all** to display the Conversation History screen.
 
- Set maximum number of past conversation to display in the conversation window and apply filters to only show what is most relevant to agents based on channel type, assignment group, and more.
+ Set maximum number of past conversation to display in the conversation window. Also, apply filters to only show what is most relevant to agents based on channel type, assignment group, and more.
 
  For details on configuring the Conversation History options, see [Setting up conversation history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-conversation-history.md).
 

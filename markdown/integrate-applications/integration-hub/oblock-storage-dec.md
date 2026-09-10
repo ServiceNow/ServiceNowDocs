@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Block Storage spoke v1.0.4 is the latest version.
+Oracle Block Storage spoke v1.0.4 is the latest version. For version history of the spoke, see [Oracle Block Storage Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-block-storage.html).
 
 ## Supported versions
 

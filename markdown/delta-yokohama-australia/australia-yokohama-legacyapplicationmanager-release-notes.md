@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-legacyapplicationmanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,7 @@ Yokohama
 
 </td><td>
 
-Starting with Yokohama patch 11, Legacy Application Manager is being prepared for future deprecation. It will be hidden but will continue to be supported. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Zurich
 
 </td><td>
 
-Legacy Application Manager is being deprecated as of Zurich patch 8. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Australia
 
 </td><td>
 
-Legacy Application Manager is being deprecated as of Australia patch 1. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -186,7 +186,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Starting with Yokohama patch 11, Legacy Application Manager is being prepared for future deprecation. It will be hidden but will continue to be supported. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+Legacy Application Manager is being deprecated as of Zurich patch 8. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
 
 </td></tr><tr><td>
 
@@ -202,7 +202,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Legacy Application Manager is being deprecated as of Australia patch 1. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
 
 </td></tr></tbody>
 </table>## Activation information

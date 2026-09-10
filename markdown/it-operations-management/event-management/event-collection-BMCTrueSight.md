@@ -1,6 +1,6 @@
 ---
 title: Event collection from BMC TrueSight and BMC TrueSight\_v2
-description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\), utilizing event stream notification capabilities.
+description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). The collector uses event stream notification capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-BMCTrueSight.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Integrate with push connectors, Configure a push connector, Configu
 
 # Event collection from BMC TrueSight and BMC TrueSight\_v2
 
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\), utilizing event stream notification capabilities.
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). The collector uses event stream notification capabilities.
 
 ## Before you begin
 

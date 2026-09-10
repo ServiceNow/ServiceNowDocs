@@ -94,11 +94,11 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 
         The customization is now available as a retrieved update set with state Loaded.
 
-3.  [Preview the imported update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_PreviewARemoteUpdateSet.md).
+3.  Preview the imported update set.
 
     The system scans and validates the update set and displays its contents on the **Customer Updates** tab.
 
-4.  [Commit the update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_CommitAnUpdateSet.md).
+4.  Commit the update set.
 
 5.  Click **Close** in the success message.
 

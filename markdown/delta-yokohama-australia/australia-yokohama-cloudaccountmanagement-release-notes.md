@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-cloudaccountmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -77,21 +77,13 @@ Yokohama
 
 -   **[About data visualization in Cloud Account Management](https://www.servicenow.com/docs/access?context=about-data-visualzation-cam&family=yokohama&ft:locale=en-US)**
 
-Identify account violations and their severity using prebuilt policies in the Cloud Configuration Governance component. These scans support AWS, Azure, and GCP accounts. Confirm compliance and strengthen security by automatically detecting violations and categorizing them by severity across multiple cloud platforms.
-
-Support for AWS account and Azure subscription requests via direct API integrations or Terraform and GitHub integrations.
-
-Track cloud account spending details through integration with the Cloud Cost Management Workspace component. Provides real-time visibility into cloud expenditures, helping organizations stay within budget and optimize cost management.
+Identify account violations and their severity using prebuilt policies in the Cloud Configuration Governance component. These scans support AWS, Azure, and GCP accounts. Confirm compliance and strengthen security by automatically detecting violations and categorizing them by severity across multiple cloud platforms.Support for AWS account and Azure subscription requests via direct API integrations or Terraform and GitHub integrations. Track cloud account spending details through integration with the Cloud Cost Management Workspace component. Provides real-time visibility into cloud expenditures, helping organizations stay within budget and optimize cost management.
 
 **Note:** Tracking of cloud account spending only works when you've a Cloud Cost Management Workspace subscription.
 
 -   **[About provision modes in Cloud Account Management](https://www.servicenow.com/docs/access?context=about-provision-modes&family=yokohama&ft:locale=en-US)**
 
 Take advantage of flexible infrastructure management through provision mode, which also supports both Terraform Cloud/Terraform Enterprise \(supported in AWS\) and cloud native interface \(supported in AWS and Azure\).
-
--   **[Set up suspension of an AWS account using service control policy](https://www.servicenow.com/docs/access?context=configure-suspension-policy&family=yokohama&ft:locale=en-US)[Set up suspension of a subscription using Azure policy](https://www.servicenow.com/docs/access?context=configuring-lock-unlock-policy-for-azure&family=yokohama&ft:locale=en-US)**
-
-Suspend and reactivate accounts quickly in response to security or operational issues by leveraging a predefined AWS or Azure policy.
 
 -   **[Add an unmanaged cloud account](https://www.servicenow.com/docs/access?context=add-unmanaged-account-cam&family=yokohama&ft:locale=en-US)**
 
@@ -111,9 +103,7 @@ Promote compliance with organizational standards by certifying cloud accounts us
 
 -   **[Review request policies](https://www.servicenow.com/docs/access?context=viewing-pace-policy&family=yokohama&ft:locale=en-US)**
 
-Set guardrails for processes like account approval, budget approval, and configuration assignments through customizable default automated policies. Manage these policies using the existing Policy as Code Engine component.
-
-Customize the sequence of your approval process by using the standard playbook designer, also known as the Playbooks.
+Set guardrails for processes like account approval, budget approval, and configuration assignments through customizable default automated policies. Manage these policies using the existing Policy as Code Engine component.Customize the sequence of your approval process by using the standard playbook designer, also known as the Playbooks.
 
 
 </td></tr><tr><td>
@@ -262,7 +252,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Cloud Workspace \( sn\_itom\_cam\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -373,7 +366,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Implemented zoom functionality in all screens offering zoom levels of 110%, 125%, 150%, 175%, 200%, 250%, 300%, and 400%.
+
 
 </td></tr><tr><td>
 
@@ -410,7 +406,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 Localization is applicable to CAM in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr><tr><td>
 

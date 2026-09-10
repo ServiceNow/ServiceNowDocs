@@ -16,7 +16,7 @@ Configure a Configurable Workspace using UI Builder.
 
 **Note:**
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CSM Configurable Workspace.
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CRM Workspace.
 
 These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch.
 

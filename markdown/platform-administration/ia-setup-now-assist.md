@@ -34,7 +34,7 @@ Role required: admin
 
     **Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
 
-2.  Select **View product overview** for the ServiceNow Otto card to start the setup process.
+2.  Select the ServiceNow Otto card to start the setup process.
 
     The Product Hub page for ServiceNow Otto shows up.
 

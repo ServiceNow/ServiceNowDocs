@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/ai-security-exposure-install-config.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
-reading_time_minutes: 3
+last_updated: "2026-09-03"
+reading_time_minutes: 4
 breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -28,13 +28,11 @@ The following ServiceNow Plugins are required:
 
 At least one of these AI defense integrations supported by the application must be installed and activated.
 
--   Cisco AI Defense Integration - import AI security exposures such as model vulnerabilities and model validation findings \(automated red teaming alerts\).
--   Palo Alto Prisma AIRS Integration
+-   Cisco AI Defense Integration for AI Security Exposure Management - import AI security exposures such as model vulnerabilities and model validation findings \(automated red teaming alerts\).
+-   [Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/prisma-airs-integration.md)
+-   [Configure the Wiz test results integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/wiz-test-result-tab-filters.md)
 
-Although not mandatory, it's recommended that you install the one of the following service graph connectors. You should choice depends on the AI security tool that you're using in your organization to import AI inventory data into your CMDB.
-
--   AI Service Graph Connector for Palo Alto Prisma AIRS.
--   AI Service Graph Connector for HiddenLayer - import AI asset inventory data.
+Although not mandatory, it's recommended that you install the one of the following service graph connectors. You should choice depends on the AI security tool that you're using in your organization to import AI inventory data into your CMDB. AI Service Graph Connector for Palo Alto Prisma AIRS is currently supported.
 
 Role required: admin
 
@@ -64,7 +62,7 @@ Role required: admin
 
     The Application installation dialog is displayed. Any dependencies that are installed are displayed.
 
-    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
+    **Note:** The AI guardrails helper is a Now Assist skill that is activated by default. See [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-skills-now-assist-vulnerability-response.md) and [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-now-assist-skills-vulnerability-response.md) for more information about skills and agents.
 
 9.  Select **Close** after the application is successfully installed.
 

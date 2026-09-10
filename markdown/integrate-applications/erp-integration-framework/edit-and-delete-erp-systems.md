@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, edit, delete, remove]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit and delete ERP systems
@@ -31,7 +31,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 4.  Edit system information, such as name, description, connection, or ERP software.
 
-    For detailed information about the system record fields, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For detailed information about the system record fields, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 5.  On the status bar, confirm that the heartbeats are successful and the retrieval status is complete.
 

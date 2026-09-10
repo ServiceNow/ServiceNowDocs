@@ -1,20 +1,20 @@
 ---
 title: Set a provider for a generative AI capability
-description: Determine which AI provider to use for each of the generative AI capabilities of Generative AI Controller.
+description: Configure LLM providers for Generative AI Controller at the backend level. For most use cases, configure capabilities using AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Set a provider for a generative AI capability
 
-Determine which AI provider to use for each of the generative AI capabilities of Generative AI Controller.
+Configure LLM providers for Generative AI Controller at the backend level. For most use cases, configure capabilities using AI Admin Hub.
 
 ## Before you begin
 
@@ -24,56 +24,13 @@ Role required: admin
 
 ## About this task
 
-Generative AI Controller comes with four capabilities by default. You can only configure a provider for the capabilities listed in the table in step 2. If you have installed other Now Assist applications, you may see other capabilities on the OneExtend Capability table. Those other capabilities use the Now LLM Service as their provider and can't be reconfigured.
+Use this procedure to configure LLM providers at the OneExtend Capability level. Generative AI capabilities are configured using the AI Admin Hub, which is the recommended approach. This procedure is for backend configuration when you need to manage custom OneExtend configurations.
 
 ## Procedure
 
 1.  In the navigation filter, search for the OneExtend Capability table by entering `sys_one_extend_capability.list`.
 
-2.  Open the record for the capability that you would like to configure, such as Sentiment Analysis.
-
-<table><thead><tr><th>
-
-Capability
-
-</th><th>
-
-Definition
-
-</th></tr></thead><tbody><tr><td>
-
-Generate Content
-
-</td><td>
-
-Generate texts about a given topic with Workflow Studio and Virtual Agent Designer.
-
-</td></tr><tr><td>
-
-Generic Prompt
-
-</td><td>
-
-Create your own use case and prompt.
-
-</td></tr><tr><td>
-
-Sentiment Analysis
-
-</td><td>
-
-Analyze user sentiment with Workflow Studio and Virtual Agent Designer.
-
-</td></tr><tr><td>
-
-Summarize
-
-</td><td>
-
-Create summaries of topics with Workflow Studio and Virtual Agent Designer.
-
-</td></tr></tbody>
-</table>3.  In the OneExtend Definition Configs related list, set **Default** to `true` for your preferred capability provider.
+2.  In the OneExtend Definition Configs related list, set **Default** to `true` for your preferred capability provider.
 
     **Note:** By default, you can choose only one provider for a capability. For example, if **Default** is `true` for Sentiment \(OpenAI Completion\), you must set **Default** to `false` before changing **Default** to `true` for Sentiment \(Azure OpenAI\).
 
@@ -141,12 +98,9 @@ Granite
 </table>
 ## Result
 
-Flows, topics, and scripts that use the generative AI capability use the provider you've specified.
+The provider configuration is applied at the OneExtend Capability level and is available for use by generative AI capabilities in your instance.
 
-**Related topics**  
+## What to do next
 
-
-[Bring your own key for third-party AI provider integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.md)
-
-[Configure a custom resource path for BYOK models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.md)
+To configure generative AI capabilities through the standard approach, see , [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md), and [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

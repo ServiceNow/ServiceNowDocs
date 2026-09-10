@@ -1,14 +1,14 @@
 ---
 title: Set up the Jira spoke for Jira Cloud
-description: Integrate your ServiceNow instance with the Jira Cloud instance to authenticate the requests from ServiceNow.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Create an OAuth 2.0 integration in Atlassian Developer console to authenticate the requests.Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Use the information generate while creating the OAuth 2.0 integration to create an application registry record in your ServiceNow instance.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Cloud instance using an API key to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.Integrate the ServiceNow instance and Jira Cloud instance using an API key with scopes to authenticate ServiceNow requests.Generate an Atlassian account API token with the required scopes to authenticate requests for spokes associated with an Atlassian account.Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.API token scopes needed to use the required spoke action are listed here.
+description: Integrate your ServiceNow instance with the Jira Cloud instance to authenticate the requests from ServiceNow.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Obtain the value of Cloud ID of the cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Create an application registry record to provide client ID and client secret for authenticating the requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Cloud instance using an API key to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Cloud instance using an API key with scopes to authenticate ServiceNow requests.Generate an Atlassian account API token with the required scopes to authenticate requests for spokes associated with an Atlassian account.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.API token scopes needed to use the required spoke action are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-spk-opt2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 17
+last_updated: "2026-09-02"
+reading_time_minutes: 18
 breadcrumb: [Jira Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -36,73 +36,9 @@ Integrate the ServiceNow instance with your Jira account using OAuth to authenti
 
 Role required: admin.
 
-### Create an OAuth 2.0 integration in Jira account
-
-Create an OAuth 2.0 integration in Atlassian Developer console to authenticate the requests.
-
-#### Before you begin
-
-Role required: admin
-
-#### Procedure
-
-1.  Log in to [Atlassian Developer console](https://developer.atlassian.com/console/myapps/) as an admin.
-
-2.  Under **My apps**, click **Create** and select **OAuth 2.0 integration**.
-
-    \[Omitted image "jira-oauth-int.png"\] Alt text: Create an OAuth 2.0 integration.
-
-3.  On the form, provide name of the integration and click **Create**.
-
-    \[Omitted image "jira-create-oauth.png"\] Alt text: Provide integration name.
-
-    The integration is created and the value of **App ID** is displayed.
-
-4.  Click **Authorization**.
-
-    1.  Click **Add** under **Action**.
-
-        \[Omitted image "jira-auth-add.png"\] Alt text: Authorization to access APIs.
-
-    2.  In **Callback URL**, provide URL of your ServiceNow instance in this format: `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.
-
-        For example, `https://example.service-now.com/oauth_redirect.do`
-
-        \[Omitted image "jira-callback-url.png"\] Alt text: Add Callback URL.
-
-    3.  Click **Save Changes**.
-
-5.  Click **Settings**.
-
-    Under **Authentication details**, copy the values of **Client ID** and **Client Secret**.
-
-    \[Omitted image "jira-client-id.png"\] Alt text: Copy the values of Client ID and Client Secret.
-
-6.  Click **Permissions**.
-
-    1.  In **Classic scopes**, ensure that you select these scopes.
-
-        -   manage:jira-configuration
-        -   manage:jira-project
-        -   manage:jira-webhook
-        -   read:jira-work
-        -   read:jira-user
-        -   write:jira-work
-    2.  In **Granular scopes**, ensure that you select these scopes.
-
-        -   delete:sprint:jira-software
-        -   read:issue-details:jira
-        -   read:jql:jira
-        -   read:sprint:jira-software
-        -   write:sprint:jira-software
-        -   read:board-scope:jira-software
-        -   read:project:jira
-    You can configure other scopes as per your requirement.
-
-
 ### Obtain the value of Cloud ID
 
-Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.
+Obtain the value of Cloud ID of the cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.
 
 #### Before you begin
 
@@ -120,306 +56,6 @@ Role required: admin
 
 4.  Copy the value of the Cloud ID for later use.
 
-
-### Create an application registry in ServiceNow instance
-
-Use the information generate while creating the OAuth 2.0 integration to create an application registry record in your ServiceNow instance.
-
-#### Before you begin
-
-Role required: admin
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
-
-2.  Click **New**.
-
-    The system displays the message `What kind of OAuth application?`.
-
-3.  Select **Connect to a third party OAuth Provider**.
-
-4.  On the form, fill these values.
-
-<table id="table_pcv_pfs_gwb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name to identify the application registry record. For example, `Jira cloud OAuth app registry`.
-
-</td></tr><tr><td>
-
-Client ID
-
-</td><td>
-
-Client ID generated when the OAuth 2.0 integration was created in Atlassian Developer console.
-
-</td></tr><tr><td>
-
-Client Secret
-
-</td><td>
-
-Client secret generated when the OAuth 2.0 integration was created in Atlassian Developer console.
-
-</td></tr><tr><td>
-
-Default Grant type
-
-</td><td>
-
-Grant type used to establish the token. Select **Authorization Code**.
-
-</td></tr><tr><td>
-
-Authorization URL
-
-</td><td>
-
-OAuth authorization code endpoint. Enter: `https://auth.atlassian.com/authorize`.
-
-</td></tr><tr><td>
-
-Token URL
-
-</td><td>
-
-OAuth server token endpoint. Enter: `https://auth.atlassian.com/oauth/token`.
-
-</td></tr><tr><td>
-
-Redirect URL
-
-</td><td>
-
-OAuth callback endpoint. System generates the URL upon saving the application registry.
-
-</td></tr><tr><td>
-
-Refresh Token URL
-
-</td><td>
-
-URL to refresh a token. Enter: `https://auth.atlassian.com/oauth/token`.**Note:** This field is hidden in the form layout. Configure the form layout to show this field.
-
-</td></tr></tbody>
-</table>5.  In the **OAuth Entity Scopes** tab, create these entity scope records.
-
-    |Name|OAuth scope|
-    |----|-----------|
-    |`delete:sprint:jira-software`|`delete:sprint:jira-software`|
-    |`manage:jira-configuration`|`manage:jira-configuration`|
-    |`manage:jira-project`|`manage:jira-project`|
-    |`manage:jira-webhook`|`manage:jira-webhook`|
-    |`offline_access`|`offline_access`|
-    |`read:issue-details:jira`|`read:issue-details:jira`|
-    |`read:jira-user`|`read:jira-user`|
-    |`read:jira-work`|`read:jira-work`|
-    |`read:jql:jira`|`read:jql:jira`|
-    |`read:sprint:jira-software`|`read:sprint:jira-software`|
-    |`write:jira-work`|`write:jira-work`|
-    |`write:sprint:jira-software`|`write:sprint:jira-software`|
-    |`read:board-scope:jira-software`|`read:board-scope:jira-software`|
-    |`read:project:jira`|`read:project:jira`|
-
-6.  Right-click the form header and click **Save**.
-
-7.  Click the **OAuth Entity Profiles** tab and open the default record.
-
-    For example, **Jira OAuth Profile**.
-
-8.  In **OAuth Entity Profile Scopes**, ensure that the same entity scopes are provided.
-
-    Else, insert new rows and select the same entity scopes you had earlier provided in the **OAuth Entity Scopes** tab.
-
-9.  Right-click the form header and click **Save**.
-
-
-### Create credential record for the Jira spoke
-
-Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.
-
-#### Before you begin
-
-Role required: admin
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
-
-2.  Click **New**.
-
-    The system displays the message `What type of Credentials would you like to create?`
-
-3.  Select **OAuth 2.0 Credentials**.
-
-4.  On the form, fill these values.
-
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name to identify the credential record for the Jira spoke. For example, `Jira cloud OAuth credential`.|
-    |OAuth Entity Profile|Default OAuth entity profile record created when the application registry record is configured.|
-
-5.  Click **Submit**.
-
-
-### Create a connection record for the Jira spoke
-
-Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
-
-#### Before you begin
-
-Role required: admin.
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-
-2.  Open the alias record for **Jira** that shipped with the spoke.
-
-3.  On the **Connections** tab, click **New**.
-
-    The system displays a blank HTTP\(s\) Connection form.
-
-4.  Enter these values and click **Submit**.
-
-<table id="table_vsw_lkv_4fb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Value required
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Enter any name to uniquely identify the connection record. For example, enter `Jira cloud OAuth Connection`.
-
-</td></tr><tr><td>
-
-Credential
-
-</td><td>
-
-Select the Credential record created for Jira. For example, select **Jira cloud OAuth credential**.
-
-</td></tr><tr><td>
-
-
-
-</td><td>
-
-
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.For information about obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
-
-</td></tr></tbody>
-</table>5.  In the Attributes related list, provide these values.
-
-    1.  Enter the value `2` for **api\_version**.
-
-    2.  Enter the value `cloud` for **server\_type**.
-
-    \[Omitted image "jira-cloud-api-attribute.png"\] Alt text: Attribute values.
-
-6.  Click **Submit**.
-
-7.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
-
-8.  Open the credential record you had created for the Jira spoke.
-
-    For example, **Jira OAuth credential**.
-
-9.  Click the Get OAuth Token related link.
-
-    In a new window, system requests access to your Atlassian account.
-
-10. Click **Accept**.
-
-    Access is granted to Atlassian account and a confirmation message is displayed in your ServiceNow instance that the refresh token is available.
-
-
-## Option 2: Using basic authentication and API token \(does not comply with Atlassian security requirements\)
-
-Integrate the ServiceNow instance and Jira Cloud instance using an API key to authenticate ServiceNow requests.
-
-### Before you begin
-
-**Important:** Apps that collect API tokens to create individual 3LO apps don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
-
-Role required: admin.
-
-### About this task
-
-You can integrate a ServiceNow instance with multiple Jira instances. For this integration, create a connection and credential alias record and a connection record for each Jira instance.
-
-### Generate an Atlassian account API token
-
-Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.
-
-#### Before you begin
-
-Make sure you have an Atlassian account.
-
-Role required: Atlassian administrator credentials
-
-#### About this task
-
-Complete these steps from your Atlassian account. See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on generating your API token.
-
-**Note:** This procedure is applicable only if you are using the Jira Cloud subscription.
-
-#### Procedure
-
-1.  Log in to [Atlassian Start](https://start.atlassian.com/) as an admin.
-
-2.  Go to your account profile photo and select **Account Settings**.
-
-    \[Omitted image "jira-basic-settings.png"\] Alt text: Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.
-
-3.  Go to **Security**.
-
-4.  In the API token section, select **Create and manage API tokens**.
-
-5.  Click **Create API token**.
-
-6.  On the form, provide an integration name for the **Label** field.
-
-7.  Click **Create**.
-
-    \[Omitted image "jira-token.png"\] Alt text: The Create an API token modal with the Create button emphasized.
-
-    The API token is generated.
-
-8.  Click **Copy** and record the value of the API token for later use.
-
-    \[Omitted image "jira-api-token.png"\] Alt text: Confirmation modal of Your new API token with the Copy button emphasized.
-
-
-#### What to do next
-
-Use your API token to configure the cloud connection for the Jira spoke.
 
 ### Configure a connection for Jira spoke
 
@@ -447,24 +83,266 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Connection Name|Name to uniquely identify the connection. For example, `Jira spoke cloud basic conn`.|
-    |Connection URL|URL of your Jira instance in this format: `https://<provider-domain-name>.atlassian.net`.|
-    |Server Type|Select **cloud**.|
+    |Connection Name|Name to uniquely identify the connection. For example, `Jira Spoke OAuth basic conn`.|
+    |Connection URL|URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.|
+    |Scopes|By default, these scopes are provided `read:jira-work, read:jira-user, write:jira-work, manage:jira-project, manage:jira-configuration, manage:jira-webhook, manage:jira-data-provider, delete:sprint:jira-software, read:sprint:jira-software, write:sprint:jira-software, read:board-scope:jira-software, read:project:jira, read:jql:jira, read:issue-details:jira, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.|
+
+    \[Omitted image "jira-new-conf-temp.jpg"\] Alt text:
+
+6.  Click **Save and Get OAuth Token**.
+
+
+## Option 2: Using OAuth authentication \(Client Credentials grant type\)
+
+Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.
+
+### Before you begin
+
+-   In your Jira cloud instance, [Create OAuth 2.0 credential for service accounts](https://support.atlassian.com/user-management/docs/create-oauth-2-0-credential-for-service-accounts/).
+
+    Save the values of **Client ID**, **Client Secret**, and **Cloud ID**. You will need these for configurations in ServiceNow instance.
+
+-   Role required: admin.
+
+### Create an application registry record
+
+Create an application registry record to provide client ID and client secret for authenticating the requests.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry**.
+
+2.  Click **New**.
+
+    The system displays the message `What kind of OAuth application?`.
+
+3.  Select **Connect to a third party OAuth Provider**.
+
+4.  On the form, fill these values.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the application registry record. For example, `Jira Client Credentials OAuth`.|
+    |Client ID|Client ID generated when the OAuth 2.0 integration was created in Atlassian Developer console.|
+    |Client Secret|Client secret generated when the OAuth 2.0 integration was created in Atlassian Developer console.|
+    |Default Grant type|Grant type used to establish the token. Select **Client Credentials**.|
+    |Token URL|OAuth server token endpoint. Enter: `https://auth.atlassian.com/oauth/token`.|
+    |Token Revocation URL|OAuth server token revocation endpoint. Enter: `https://auth.atlassian.com/oauth/token`.|
+    |Active|Select the check box.|
+
+5.  In the **OAuth Entity Scopes** tab, create these entity scope records.
+
+    |Name|OAuth scope|
+    |----|-----------|
+    |Classic scopes|`manage:jira-configuration manage:jira-project manage:jira-webhook read:jira-work read:jira-user write:jira-work`|
+    |Granular Scopes|`delete:sprint:jira-software read:issue-details:jira read:jql:jira read:sprint:jira-software write:sprint:jira-software read:board-scope:jira-software read:project:jira`|
+
+6.  Right-click the form header and click **Save**.
+
+    The record is saved and a OAuth Entity Profile record under the **OAuth Entity Profiles** tab.
+
+7.  Click the **OAuth Entity Profiles** tab and open the default profile record.
+
+8.  Verify these values.
+
+    -   **Grant type** is set to **Client Credentials**.
+    -   Scope records previously created are listed under the **OAuth Entity Profile Scopes** related list.
+9.  Click **Update**.
+
+
+### Create credential record for the Jira spoke
+
+Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+
+2.  Click **New**.
+
+    The system displays the message `What type of Credentials would you like to create?`
+
+3.  Select **OAuth 2.0 Credentials**.
+
+4.  On the form, fill these values.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the credential record for the Jira spoke. For example, `Jira client credential cred`.|
+    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see [Create an application registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).|
+
+5.  Right-click the form header and click **Save**.
+
+6.  Click the **Get OAuth Token** related link.
+
+
+### Create a connection record for the Jira spoke
+
+Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for **Jira** that shipped with the spoke.
+
+3.  On the **Connections** tab, click **New**.
+
+    The system displays a blank HTTP\(s\) Connection form.
+
+4.  Enter these values and click **Submit**.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira cloud OAuth Connection`.|
+    |Credential|Select the Credential record created for Jira. For example, select **Jira cloud OAuth credential**.|
+    |Connection URL|Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.|
+
+5.  Click **Submit**.
+
+    The Jira spoke is configured to use OAuth 2.0 Client Credentials via the service account.
+
+
+## Option 3: Using basic authentication and API token \(does not comply with Atlassian security requirements\)
+
+Integrate the ServiceNow instance and Jira Cloud instance using an API key to authenticate ServiceNow requests.
+
+### Before you begin
+
+**Important:** Apps that collect or store API tokens don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
+
+Role required: admin.
+
+### About this task
+
+You can integrate a ServiceNow instance with multiple Jira instances. For this integration, create a connection and credential alias record and a connection record for each Jira instance.
+
+### Generate an Atlassian account API token
+
+Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.
+
+#### Before you begin
+
+Make sure you have an Atlassian account.
+
+Role required: Atlassian administrator credentials
+
+#### About this task
+
+Complete these steps from your Atlassian account. See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on generating your API token.
+
+**Note:** This procedure is applicable only if you're using the Jira Cloud subscription.
+
+#### Procedure
+
+1.  Log in to [Atlassian Start](https://start.atlassian.com/) as an admin.
+
+2.  Go to your account profile photo and select **Account Settings**.
+
+    \[Omitted image "jira-basic-settings.png"\] Alt text: Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.
+
+3.  Go to **Security**.
+
+4.  In the API token section, select **Create and manage API tokens**.
+
+5.  Select **API token**.
+
+6.  On the form, provide an integration name for the **Label** field.
+
+7.  Select **Create**.
+
+    \[Omitted image "jira-token.png"\] Alt text: The Create an API token modal with the Create button emphasized.
+
+    The API token is generated.
+
+8.  Select **Copy** and record the value of the API token for later use.
+
+    \[Omitted image "jira-api-token.png"\] Alt text: Confirmation modal of Your new API token with the Copy button emphasized.
+
+
+#### What to do next
+
+Use your API token to configure the cloud connection for a Jira or Jira Service Management spoke.
+
+### Create credential record for the Jira spoke
+
+Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+
+2.  Click **New**.
+
+    The system displays the message `What type of Credentials would you like to create?`
+
+3.  Select **Basic Auth Credentials**.
+
+4.  On the form, fill these values.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the credential record for the Jira spoke. For example, `Jira Cloud Basic Auth Token cred`.|
     |User name|Enter the email address of the user.|
-    |API Key|Enter the API token you generated for your Jira Cloud instance.|
+    |Password|Enter the API token you generated for your Jira Cloud instance.|
 
-    \[Omitted image "jira-cloud-basic.png"\] Alt text: Connection configuration for Jira Cloud.
-
-6.  Click **Create Connection**.
+5.  Right-click the form header and click **Save**.
 
 
-## Option 3: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)
+### Create a connection record for the Jira spoke
+
+Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for **Jira** that shipped with the spoke.
+
+3.  On the **Connections** tab, click **New**.
+
+    The system displays a blank HTTP\(s\) Connection form.
+
+4.  Enter these values and click **Submit**.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira cloud Basic Auth Token Connection`.|
+    |Credential|Select the Credential record created for Jira. For example, select **Jira Cloud Basic Auth Token cred**.|
+    |Connection URL|Enter the URL of your Jira instance in this format: `https://<provider-domain-name>.atlassian.net`.|
+
+5.  Click **Submit**.
+
+    The Jira spoke is configured to use basic credentials via the service account.
+
+
+## Option 4: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)
 
 Integrate the ServiceNow instance and Jira Cloud instance using an API key with scopes to authenticate ServiceNow requests.
 
 ### Before you begin
 
-**Important:** Apps that collect API tokens to create individual 3LO apps don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
+**Important:** Apps that collect or store API tokens don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
 
 Role required: admin.
 
@@ -485,8 +363,6 @@ Role required: Atlassian administrator credentials
 #### About this task
 
 Complete these steps from your Atlassian account. See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on generating your API token.
-
-**Note:** This procedure is applicable only if you are using the Jira Cloud subscription.
 
 #### Procedure
 
@@ -516,7 +392,7 @@ Complete these steps from your Atlassian account. See the [Atlassian Developer](
 
     \[Omitted image "jira-new-scopes.jpg"\] Alt text: Select the required scopes.
 
-    For details about scopes needed to use the required spoke actions, see [Required API token scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
+    For details about scopes needed to use the required spoke actions, see the Required API token scopes section.
 
 9.  Review the API token scopes and click **Create token**.
 
@@ -527,9 +403,9 @@ Complete these steps from your Atlassian account. See the [Atlassian Developer](
     \[Omitted image "jira-new-copy-token.jpg"\] Alt text: Copy the token value.
 
 
-### Configure a connection for Jira spoke
+### Create credential record for the Jira spoke
 
-Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.
+Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.
 
 #### Before you begin
 
@@ -537,38 +413,61 @@ Role required: admin
 
 #### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
 
-2.  Click the **Integrations** tab.
+2.  Click **New**.
 
-3.  Under **Connections**, the **Outbound** connections are displayed by default.
+    The system displays the message `What type of Credentials would you like to create?`
 
-4.  Locate the **Jira** connection alias and click **View Details**.
+3.  Select **Basic Auth Credentials**.
 
-    -   To configure the default connection and credential alias record that is shipped along with the Jira spoke, click **View Details**.
-    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
-    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
-
-5.  On the **Connection** form, fill in the fields.
+4.  On the form, fill these values.
 
     |Field|Description|
     |-----|-----------|
-    |Connection Name|Name to uniquely identify the connection. For example, `Jira spoke cloud basic conn`.|
-    |Connection URL|URL of your Jira instance in this format: `https://<provider-domain-name>.atlassian.net`.|
-    |Server Type|Select **cloud**.|
+    |Name|Name to identify the credential record for the Jira spoke. For example, `Jira Cloud Basic Auth Token Scopes cred`.|
     |User name|Enter the email address of the user.|
-    |API Key|Enter the API token you generated for your Jira Cloud instance.|
+    |Password|Enter the API token you generated for your Jira Cloud instance.|
 
-    \[Omitted image "jira-cloud-basic.png"\] Alt text: Connection configuration for Jira Cloud.
+5.  Right-click the form header and click **Save**.
 
-6.  Click **Create Connection**.
+
+### Create a connection record for the Jira spoke
+
+Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
+
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for **Jira** that shipped with the spoke.
+
+3.  On the **Connections** tab, click **New**.
+
+    The system displays a blank HTTP\(s\) Connection form.
+
+4.  Enter these values and click **Submit**.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira cloud Basic Auth Token Scope Conn`.|
+    |Credential|Select the Credential record created for Jira. For example, select **Jira Cloud Basic Auth Token Scopes cred**.|
+    |Connection URL|Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.|
+
+5.  Click **Submit**.
+
+    The Jira spoke is configured to use basic credentials via the service account.
 
 
 ### Required API token scopes
 
 API token scopes needed to use the required spoke action are listed here.
 
-These scopes are needed when you set up Jira spoke for Jira Cloud using API token with scope. For more information, see [Option 3: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
+These scopes are needed when you set up Jira spoke for Jira Cloud using API token with scope. For more information, see [Option 4: Using basic authentication with API token and scopes \(does not comply with Atlassian security requirements\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
 
 <table id="table_pvx_v4s_qwb"><thead><tr><th>
 

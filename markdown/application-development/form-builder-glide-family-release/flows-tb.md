@@ -170,7 +170,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 7.  Choose the event that your flow will be triggered by.
 
-<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d82043e740">
+<table id="choicetable_nl2_cmz_ztb"><tbody><tr><td id="d81688e740">
 
 **When the record is created**
 
@@ -178,7 +178,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 
 Create a flow that is triggered when a record in the selected table is created.
 
-</td></tr><tr><td id="d82043e749">
+</td></tr><tr><td id="d81688e749">
 
 **When the record is updated**
 
@@ -186,7 +186,7 @@ Create a flow that is triggered when a record in the selected table is created.
 
 Create a flow that is triggered when a record in the selected table is updated.
 
-</td></tr><tr><td id="d82043e758">
+</td></tr><tr><td id="d81688e758">
 
 **When the record is created or updated**
 

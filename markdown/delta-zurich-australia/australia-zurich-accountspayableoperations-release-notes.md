@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-accountspayableoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Tax engine integration](https://www.servicenow.com/docs/access?context=tax-engine-integration&family=zurich&ft:locale=en-US)**
-
-The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, maintains compliance with regional and global tax regulations. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual revalidation and rolling up of system tax.
-
-
 -   **[Convert invoice type](https://www.servicenow.com/docs/access?context=convert-invoice-case&family=zurich&ft:locale=en-US)**
 
 Enable your accounts payable specialist to manually change the invoice type, which results in improved accuracy and compliance. For example, changing a non-purchase order \(PO\) invoice to a PO invoice type.
@@ -89,12 +84,12 @@ Confirm that ITAM receipts are available and the received quantity is updated in
 The recommend invoice owner AI agent auto-suggests and fills in the appropriate business owner based on historical patterns. This process sets up auto-confirmation from suppliers, resulting in shorter invoice processing cycles.
 
 
--   **[Universal Request in Accounts Payable Operations](https://www.servicenow.com/docs/access?context=universal-request-in-apo&family=zurich&ft:locale=en-US)**
+ -   **[Universal Request in Accounts Payable Operations](https://www.servicenow.com/docs/access?context=universal-request-in-apo&family=zurich&ft:locale=en-US)**
 
 Employees and suppliers can raise general case requests and track case activity updates from their respective portals by using the ServiceNowUniversal Request \(UR\) application. Universal requests eliminate confusion about which department to contact for assistance.
 
 
--   **[Distribution set in Accounts Payable Operations](https://www.servicenow.com/docs/access?context=distribution-sets-in-apo&family=zurich&ft:locale=en-US)**
+ -   **[Distribution set in Accounts Payable Operations](https://www.servicenow.com/docs/access?context=distribution-sets-in-apo&family=zurich&ft:locale=en-US)**
 
 Apply predefined distribution sets to split invoice amounts across multiple cost centers or GL accounts without having to do manual entry for each invoice line in PO invoices and non-PO invoices. This process helps distribute costs to multiple cost centers automatically, reducing manual work for Accounts Payable specialists.
 
@@ -114,7 +109,7 @@ The tax engine integration framework validates supplier-provided tax against sys
 The email parser agent is an AI agent that automatically processes incoming emails \(Level 1 support cases and tasks\) from suppliers and invoice owners. The email parser agent identifies actionable requests, classifies them, and creates invoice cases.
 
 
--   **[Invoice rejection modes](https://www.servicenow.com/docs/access?context=invoice-rejection-modes&family=australia&ft:locale=en-US)**
+ -   **[Invoice rejection modes](https://www.servicenow.com/docs/access?context=invoice-rejection-modes&family=australia&ft:locale=en-US)**
 
 APO supports configurable rejection modes for invoice exception handling. Administrators can configure rejection mode behavior per exception type to align with organizational policies and audit requirements.
 
@@ -140,11 +135,7 @@ Zurich
 
 -   **[Invoice exceptions](https://www.servicenow.com/docs/access?context=work-with-invoice-exceptions&family=zurich&ft:locale=en-US)**
 
-The Insufficient goods receipt exception has been enhanced to validate line-level quantities accurately when multiple invoices are submitted against a single purchase order even if a sufficient goods receipt exist.
-
-The Insufficient Funds \(Line Amount\) functionality has been enhanced to perform validation of available funds at the invoice line level, matching each invoice line against its respective purchase order line when multiple invoices are generated for the same purchase order line.
-
-The Insufficient Funds \(Header Amount\) logic has been enhanced to validate available funds at the invoice header level against the corresponding purchase order when multiple invoices are created for the same purchase order.
+The Insufficient goods receipt exception has been enhanced to validate line-level quantities accurately when multiple invoices are submitted against a single purchase order even if a sufficient goods receipt exist.The Insufficient Funds \(Line Amount\) functionality has been enhanced to perform validation of available funds at the invoice line level, matching each invoice line against its respective purchase order line when multiple invoices are generated for the same purchase order line.The Insufficient Funds \(Header Amount\) logic has been enhanced to validate available funds at the invoice header level against the corresponding purchase order when multiple invoices are created for the same purchase order.
 
 
 </td></tr><tr><td>
@@ -153,10 +144,7 @@ Australia
 
 </td><td>
 
--   **[Invoice exceptions](https://www.servicenow.com/docs/access?context=work-with-invoice-exceptions&family=australia&ft:locale=en-US)**
-
-Accounts Payable Operations flags invoices received from unrecognized or unverified supplier sources as exceptions. The system compares sender email addresses and identities against registered supplier contacts; invoices from unmatched sources are held for verification. This helps to reduce the risk of invoice fraud, verifies payment accuracy, and maintains supplier control by requiring verification before processing invoices from unknown sources.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -185,7 +173,7 @@ Australia
 
 </td><td>
 
--   Roll up logic applies only to system tax, not to supplier-declared tax. Supplier tax roll up is removed. This replaces the previous approach, which lacked independent validation of supplier-provided tax amounts.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -214,7 +202,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Roll up logic applies only to system tax, not to supplier-declared tax. Supplier tax roll up is removed. This replaces the previous approach, which lacked independent validation of supplier-provided tax amounts.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -235,7 +223,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -243,7 +234,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -322,7 +316,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
@@ -354,7 +349,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. If you want to process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
 
 </td></tr><tr><td>
 
@@ -362,7 +360,10 @@ Australia
 
 </td><td>
 
+-   **Localization information**
+
 Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -398,7 +399,19 @@ Australia
 
 </td><td>
 
--   Invoice tax lines now capture the jurisdiction, jurisdiction type, and tax authority applied during tax calculation.
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   Invoice tax lines now capture the jurisdiction, jurisdiction type, and tax authority applied during tax calculation.
 -   Suppliers can submit, track, and confirm resolutions without portal navigation.
 -   Configure rejection modes to customize workflows so that AI workers focus on resolution quality rather than administrative tasks.
 -   Use automated email parsing and LLM-assisted responses to handle cases with less manual effort.

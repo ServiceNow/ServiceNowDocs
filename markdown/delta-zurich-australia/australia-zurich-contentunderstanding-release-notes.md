@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-contentunderstanding-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -202,7 +202,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+**Important:** Content Understanding is available in the ServiceNow Store.
 
 </td></tr></tbody>
 </table>## Additional requirements

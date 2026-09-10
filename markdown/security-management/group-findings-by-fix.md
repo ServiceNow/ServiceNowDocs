@@ -17,7 +17,7 @@ Use a remediation task rule to group the findings that share a fix, so your team
 
 ## Before you begin
 
-Prerequisites:
+Prerequisites:Role required: none
 
 -   Fix Intelligence for SEM has linked findings to fixes.
 -   You have the roles required to configure remediation task rules in USEM.
@@ -45,7 +45,7 @@ Fix Intelligence for SEM ships one remediation task rule out of the box, in an i
 
 ## Result
 
-Findings that share a fix and the same assignment group are grouped into a single remediation task, so your team can plan and track the fix as one unit of work. The remediation task appears on the fix, and your team can run the full remediation workflow from the Remediation Task record, including creating a change request, requesting an exception, and starting the investigation. Grouping by fix effectively de-duplicates many findings into one actionable remediation task.
+Findings that share a fix and the same assignment group are grouped into a single remediation task. It helps your team plan and track the fix as one unit of work. The remediation task appears on the fix, and your team can run the full remediation workflow from the Remediation Task record. The workflow includes creating a change request, requesting an exception, and starting the investigation. Grouping by fix effectively de-duplicates many findings into one actionable remediation task.
 
 **Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-fix-intel-security-exposure-management.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-synthetic-monitor.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-18"
 reading_time_minutes: 3
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
@@ -19,10 +19,13 @@ Create or edit a synthetic monitor to test the availability and performance of y
 -   A configuration item \(CI\) for the endpoint you want to test.
 -   If you're testing private endpoints or want to run the monitors from your environment, one or more locations must be created to host the monitor. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
-**Note:** For information about how to bulk create synthetic monitors, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
+**Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+
+**Note:** For information about how to bulk create synthetic monitors, see the .
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 
+1.  
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(\[Omitted image "sys-mon-icon.png"\] Alt text: Synthetic monitoring\).
@@ -35,7 +38,7 @@ Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.syn
 
     1.  In the Monitor details section, enter a unique name for the monitor and a description.
 
-    2.  In the Endpoint settings section, select HTTP Endpoints and complete the fields with required details.
+    2.  In the HTTP settings section, fill in the fields.
 
 <table id="table_fyp_s2l_c2c"><thead><tr><th>
 
@@ -51,7 +54,7 @@ HTTP method
 
 </td><td>
 
-HTTP method that you want to monitor for the endpoint.
+HTTP method that you want to monitor for the endpoint.**Note:** HEAD and OPTIONS methods aren't supported from a MID Server.
 
 </td></tr><tr><td>
 
@@ -59,7 +62,7 @@ HTTP endpoint CI
 
 </td><td>
 
-CI for the endpoint that you want the monitor to test.If the endpoint doesn't exist, choose **Create** to create a endpoint CI. When this field is populated, the Related service CI and support group are available.
+CI for the endpoint that you want the monitor to test.If the endpoint doesn't exist, choose **Manage HTTP endpoints in CMDB** to create a CI.
 
 </td></tr><tr><td>
 
@@ -67,7 +70,7 @@ Related service CI
 
 </td><td>
 
-Application service CI related to the HTTP endpoint. The entered value is used to create or update the CI relationship between the HTTP endpoint and the application service.
+Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship.
 
 </td></tr><tr><td>
 

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-CrowdStrike spoke v1.1.0 is the latest version.
+CrowdStrike spoke v1.1.0 is the latest version. For version history of the spoke, see [CrowdStrike spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-crowdstrike.html).
 
 ## Spoke requirements
 

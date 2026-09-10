@@ -1,6 +1,6 @@
 ---
 title: Catalog item generation
-description: Use the Catalog item generation skill to create catalog items of your choice using ServiceNow Otto.
+description: Use the Catalog item generation skill to create catalog items of your choice using AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-catalog-item-generation.html
 release: australia
@@ -15,11 +15,11 @@ breadcrumb: [AI Authoring for Catalog Builder reference, AI Authoring for Catalo
 
 # Catalog item generation
 
-Use the Catalog item generation skill to create catalog items of your choice using ServiceNow Otto.
+Use the Catalog item generation skill to create catalog items of your choice using AI.
 
-The Catalog item generation skill helps reduce the time needed to create catalog items. While creating a catalog item, you can describe the catalog item you want, and ServiceNow Otto generates the catalog item for you.
+The Catalog item generation skill helps reduce the time needed to create catalog items. While creating a catalog item, you can describe the catalog item you want, and AI generates the catalog item for you.
 
-**Note:** Verify that you have activated the skill before creating a catalog item by using ServiceNow Otto.
+**Note:** Verify that you have activated the skill before creating a catalog item by using AI.
 
 ## Availability
 

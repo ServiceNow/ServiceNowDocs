@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-AWS Lambda spoke v1.1.3 is the latest version.
+AWS Lambda spoke v1.1.3 is the latest version. For version history of the spoke, see [AWS Lambda spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-aws-lambda.html).
 
 ## Spoke dependencies
 

@@ -30,7 +30,7 @@ For more NLU and Virtual Agent context, refer to the following product documenta
 
 -   For ITSM context, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent.md).
 -   For HR context, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-virtual-agent-conversations.md).
--   For CSM context, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
+-   For CSM context, see Customer Service Virtual Agent conversations.
 
 ## Virtual Agent and NLU plugins and roles
 

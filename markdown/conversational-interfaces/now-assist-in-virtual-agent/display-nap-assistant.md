@@ -24,14 +24,18 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-If your instance is eligible, you can opt into the premium chat experience. ServiceNow performs a set of readiness checks to see if your instance is eligible for premium chat. The default chat experience is enhanced chat. However, if you also previously had standard chat enabled, you still have that as an option.
+Premium chat is available for instances that meet ServiceNow readiness requirements. ServiceNow automatically performs eligibility checks to determine whether your instance can use premium chat.
+
+For eligible new customers, premium chat is the default and the only available chat experience. For existing customers, enhanced chat remains the default experience unless you opt in to premium chat.
+
+If your instance previously had standard chat enabled, you can continue to use standard chat.
 
 **Note:** An alert is shown when:
 
 -   The instance is eligible for premium chat.
 -   There is a possible delay for premium chat to appear as an option on your instance.
 
-Remember to refresh your browser to view the option to opt in to the premium chat experience. Premium chat is not available for instances in regulated markets \(Government Cloud Community\), instances that use domain separation, or regional data routing.
+Remember to refresh your browser to view the option to opt in to the premium chat experience. Premium chat is not available for instances that use domain separation or regional data routing.
 
 If your instance doesn’t meet the requirements, you can continue using your existing standard or enhanced chat experience. For more information about premium chat, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md), otherwise, proceed to step 1.
 
@@ -47,7 +51,11 @@ For ServiceNow Otto panel – Developer assistant, premium chat is not available
 
         \[Omitted image "sno-nap-premium-0826.png"\] Alt text: Display experience for ServiceNow Otto panel - Platform
 
-    2.  Select the pencil icon if you want to edit the chat experience. The **Edit chat experience** modal appears.
+    2.  Select the pencil icon if you want to edit the chat experience. The **Edit chat experience** modal appears. For new customers, the edit option isn’t available when:
+
+        -   You're eligible for premium chat.
+        -   You aren’t eligible for premium chat and have enhanced chat as the default chat experience.
+        **Note:** Premium chat is available only for eligible assistants. If the assistant uses the Now LLM provider, the premium chat option isn't available.
 
         \[Omitted image "NAinVA-display-NAP-platform-modal-0426.png"\] Alt text: Select a chat experience from the modal.
 
@@ -61,10 +69,10 @@ For ServiceNow Otto panel – Developer assistant, premium chat is not available
 
 3.  Select **Save and continue**.
 
+    For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
+
 
 ## What to do next
-
-For help with installation, see [Solving installation and configuration issues with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md).
 
 See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

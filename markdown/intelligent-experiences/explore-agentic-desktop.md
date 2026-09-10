@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/explore
 release: australia
 topic_type: concept
 last_updated: "2025-11-02"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [explore, AI agent, AI agent studio, desktop automations, adaptive desktop action, defined desktop action, adaptive path desktop action, defined path desktop action, deterministic desktop action, probabilistic desktop action]
 breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
@@ -24,15 +24,24 @@ Desktop actions are tools used by AI agents—they are not AI agents themselves.
 -   **AI Agent**: The orchestrator that receives user requests and coordinates task execution
 -   **Desktop Action Tool**: The capability the AI agent uses to interact with desktop or web applications
 
-## Defined path desktop actions for desktop and web-based tasks
+## Defined desktop actions
 
 You can use AI Desktop Actions to execute predefined automation sequences on your desktop. Defined path actions provide consistent, repeatable workflows for common desktop tasks. AI Desktop Actions is a client application that is installed on the Windows operating system. The app offers two workspaces, the Design workspace, where you create and configure desktop automations, and the Execution workspace, where those automations run. The Design workspace enables you to automate multi-step processes by recording with AIor manually capturing a fixed sequence of steps. Execution workspace enables AI agents to execute desktop actions in an isolated desktop session.
 
 The Design workspace lets you build multi-step desktop actions by recording or manually capturing steps. The Execution workspace runs desktop actions in an isolated desktop session and is launched automatically when you test a desktop action or trigger an automation from the ServiceNow Otto panel. You don't open the Execution workspace manually. For more information, see [Defined path desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md).
 
-## Adaptive path desktop actions for web-based tasks
+## Adaptive desktop actions
 
-You can automate web-based tasks that involve adaptive steps using desktop actions. You create desktop actions in AI Agent Studio as part of a tool configuration for an AI agent. When a user triggers an AI agent from the ServiceNow Otto panel, the AI agent uses the desktop action tool to open a separate browser tab and performs the task. Screenshots of each step appear in the **Web view** tab of the ServiceNow Otto panel enhanced chat so you can monitor progress. For example, opening the application, selecting fields, and completing a workflow. The AI agent checks the state of the page and adjusts the sequence based on the user's goal. Because the steps are adjusted dynamically, results may vary. Review the output for accuracy before accepting it. For more information, see [Adaptive path desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md).
+-   **Desktop application for macOS**
+
+    You can automate desktop and web-based tasks that involve adaptive steps using desktop actions. You describe the task in the chat interface of AI Desktop Actions for macOS. Screenshots of each step appear in the preview window of the execution workspace so you can monitor progress.
+
+-   **Browser extension for macOS and Windows**
+
+    You can automate web-based tasks that involve adaptive steps using desktop actions. You configure desktop actions in AI Agent Studio as part of a AI agent tool configuration. When a user describes a task in the ServiceNow Otto panel, the AI agent uses the desktop action tool to open a separate browser tab and performs the task. Screenshots of each step appear in the **Web view** tab of the ServiceNow Otto panel enhanced chat so you can monitor progress.
+
+
+For example, opening the application, selecting fields, and completing a workflow. The AI agent checks the state of the page and adjusts the sequence based on the user's goal. Because the steps are adjusted dynamically, results may vary. Review the output for accuracy before accepting it. For more information, see [Adaptive path desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md).
 
 ## How it fits into ServiceNow workflows
 
@@ -58,8 +67,8 @@ You can trigger AI agents from the ServiceNow Otto panel while impersonating ano
 To learn more about configuring and using AI Desktop Actions, see:
 
 -   [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
--   [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
--   [Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
+-   [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+-   [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
 -   [Examples of creating desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/examples-of-agentic-desktop-automation.md)
 -   [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 -   [Components installed with AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)

@@ -25,7 +25,7 @@ You can perform the following tasks:
 -   Rate a driver's urgency
 -   Associate a driver with the stakeholders it influences and the goals it influences
 
-When you model a driver in a diagram, the default relationship between a driver and a stakeholder, and between a driver and a goal, is **Influences:Influenced by**.
+When you model a driver in a diagram, the default relationship between a driver and a stakeholder, and between a driver and a goal, is **Influences :: Influenced by**.
 
 **Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 

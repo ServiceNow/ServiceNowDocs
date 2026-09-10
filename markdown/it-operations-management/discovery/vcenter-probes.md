@@ -1,6 +1,6 @@
 ---
 title: vCenter probes and probe parameters
-description: vCenter probes scan virtual machines using VMware's vSphere product suite. Each probe scans for different kinds of data, such as networks, NICs, and tags. The VMware - vCenter probe that discovered all vCenter objects in previous releases is deprecated in the Istanbul release and replaced by multiple probes.vCenter Discovery extension allows you to collect additional attributes of currently discovered CI types or collect attributes of new CI types by triggering custom probes from an existing sensor.
+description: vCenter probes scan virtual machines using VMware's vSphere product suite. Each probe scans for different kinds of data, such as networks, NICs, and tags. The VMware - vCenter probe that discovered all vCenter objects in previous releases is deprecated in the Istanbul release and replaced by multiple probes.Use the vCenter Discovery extension to collect additional attributes of discovered configuration item \(CI\) types or attributes of new CI types. The extension triggers custom probes from an existing sensor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/vcenter-probes.html
 release: australia
@@ -174,7 +174,7 @@ Consider the following when setting these parameters:
 
 ## Trigger custom probes with the vCenter Discovery extension
 
-vCenter Discovery extension allows you to collect additional attributes of currently discovered CI types or collect attributes of new CI types by triggering custom probes from an existing sensor.
+Use the vCenter Discovery extension to collect additional attributes of discovered configuration item \(CI\) types or attributes of new CI types. The extension triggers custom probes from an existing sensor.
 
 ### Before you begin
 
@@ -184,7 +184,7 @@ Role required: admin
 
 vCenter sensor records support triggering custom probes that use conditional scripts for gathering data not typically collected by Discovery or for discovering CI types that you create.
 
-**Important:** The vCenter extension is intended to be used to create a single custom probe that extends existing Discovery functionality. Unless you're a user who is familiar with advanced scripting, do not attempt to configure your new probe/sensor to launch an additional probe.
+**Important:** The vCenter extension is intended to be used to create a single custom probe that extends existing Discovery functionality. Unless you're a user who is familiar with advanced scripting, don't attempt to configure your new probe/sensor to launch an additional probe.
 
 ### Procedure
 

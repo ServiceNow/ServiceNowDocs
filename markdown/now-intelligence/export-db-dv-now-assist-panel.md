@@ -1,5 +1,5 @@
 ---
-title: Export dashboards and data visualizations from the Now Assist panel
+title: Export dashboards and data visualizations from the ServiceNow Otto panel
 description: Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/export-db-dv-now-assist-panel.html
@@ -11,7 +11,7 @@ keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Plat
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
-# Export dashboards and data visualizations from the Now Assist panel
+# Export dashboards and data visualizations from the ServiceNow Otto panel
 
 Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 
@@ -25,19 +25,22 @@ Role required: now\_assist\_panel\_user. To schedule an export, you also need pa
 
     \[Omitted image "nowass-open-nowass-panel.png"\] Alt text: Control for opening the Now Assist panel.
 
-2.  From the options, select **Dashboard and visualization export**.
+    \[Omitted image "otto-panel-landing.png"\] Alt text: Initial ServiceNow Otto panel.
 
-    \[Omitted image "dash-viz-export.png"\] Alt text: Now Assist panel showing Dashboard and visualization export.
+2.  Select **View all** then search for `Export`.
 
-3.  Engage in an iterative conversation until ServiceNow Otto produces the export you want.
+3.  Select **Dashboard and data visualization export**.
 
-    -   If you want an immediate export, specify the word "Export" in your prompt. If you want to schedule an export, specify "Schedule."
-    -   Specify the name of the data visualization or dashboard.
-    -   Specify the word "visualization" or "dashboard" depending on what you want to export. Specify the word multiple times for best results.
+    \[Omitted image "dash-viz-export.png"\] Alt text: ServiceNow Otto panel showing the Dashboard and visualization export skill.
+
+4.  Engage in an iterative conversation until ServiceNow Otto produces the export you want.
+
+    -   Choose whether you want to download the export, send it by email, or schedule a regular export by email.
+    -   Choose whether you want to export a dashboard or a data visualization.
+    -   Specify the name of the data visualization or dashboard to export.
     -   Specify the desired output type.
-    -   Specify whether you want to download the export or have it emailed.
-    -   You can only export dashboards or data visualizations that have been saved to the library.
-    -   Although you can directly export only visualizations that are in the library, if you export a dashboard, you export all visualizations on that dashboard, including those that were not saved to the library.
+    **Important:** You can only export dashboards or data visualizations that have been saved to the library. However, if you export a dashboard, you export all visualizations on that dashboard, including those that were not saved to the library.
+
     For more information, see the topics linked after this procedure.
 
 

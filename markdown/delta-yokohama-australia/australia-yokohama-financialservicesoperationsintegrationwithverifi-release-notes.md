@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-financialservicesoperationsintegrationwithverifi-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -131,7 +131,18 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Playbook actions:
+    -   Create alert case
+    -   Get case details
+-   New fields:
+    -   Pre-dispute settlement eligibility: Indicates if a merchant is eligible for a CDRN settlement.
+    -   Customer decision: Indicates if a cardholder agrees or disagrees with the refund proposed by the merchant.
+
+ -   Create alert case
+-   Get case details
+
+ -   Pre-dispute settlement eligibility: Indicates if a merchant is eligible for a CDRN settlement.
+-   Customer decision: Indicates if a cardholder agrees or disagrees with the refund proposed by the merchant.
 
 </td></tr></tbody>
 </table>## Removed
@@ -242,7 +253,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install  by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -279,7 +293,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must be set to true, so that it will be shipped as false out of the box.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

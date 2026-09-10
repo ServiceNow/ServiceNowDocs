@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud File Configuration, Cloud File Access Setup, Cloud Document Management, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud File Configuration, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Cloud file configuration record form

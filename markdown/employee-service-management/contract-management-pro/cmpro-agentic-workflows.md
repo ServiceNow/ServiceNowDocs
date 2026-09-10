@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in ServiceNow Otto for Contract Management Pro
+title: Agentic workflows Contract Management Pro
 description: Use agentic workflows in Contract Management Pro to extract metadata and obligations from signed contracts, and set reminders for contract renewals or termination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-agentic-workflows.html
@@ -8,14 +8,39 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 3
 keywords: [AI agents in CM Pro, AI agents in contracts, AI agents in contract management pro, agentic workflows in contract management pro, agentic workflows in contracts, agentic workflows in CM Pro]
-breadcrumb: [ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [AI capabilities in Contract Management Pro, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Using agentic workflows in ServiceNow Otto for Contract Management Pro
+# Agentic workflows Contract Management Pro
 
 Use agentic workflows in Contract Management Pro to extract metadata and obligations from signed contracts, and set reminders for contract renewals or termination.
+
+The following agentic workflows are available for contract management:
+
+-   **Manage contract repository**
+
+    Extracts metadata and obligations from signed contracts, calculates reminder dates based on contract terms, and enables users to review and approve extracted information through a playbook interface before updating the contract repository.
+
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md). For more information on how to use the skill, see [Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md) and [Create obligations using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
+
+-   **Conversational contract search and insights**
+
+    Queries contract documents with conversational search using natural language and dialogue-driven queries, making it easier to find relevant information.
+
+    Conversational search enables queries based on:
+
+    -   Contract metadata
+    -   Content available in the contract document
+    -   Combined search across metadata and contract document
+    -   Summarization and Q&amp;A on contract documents
+    Limitations:
+
+    -   No support for search within scanned PDF documents
+    -   Search functionality is limited to contracts stored in internal storage only
+    For more information on activating the skill, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+
 
 <table id="table_dxr_mb1_v2c"><thead><tr><th>
 

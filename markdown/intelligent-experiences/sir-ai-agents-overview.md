@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sir-ai-
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
-breadcrumb: [Security Incident Response, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 3
+breadcrumb: [Security Incident Response, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Security Incident Response AI agents
@@ -33,5 +33,5 @@ This Operational Technology Security Incident Response agent can close a securit
 -   **[Security metrics analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sir-security-metrics-analysis-ai-agent.md)**  
 This Operational Technology Security Incident Response agent calculates and analyzes security incident response metrics for an individual analyst or a team over a specified time range.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -26,9 +26,11 @@ Role required: admin
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-2.  Click the CAB meeting record that you want to add an agenda item to.
+2.  Select the CAB meeting record that you want to add an agenda item to.
 
-3.  On the Agenda Items context menu, click **New**.
+3.  In the **Agenda Items** context menu, select **New**.
+
+    **Note:** If the **New** button does not appear on the **Agenda Items** related list, confirm that you have a required role and that the CAB meeting is in a state that allows adding agenda items.
 
 4.  On the form, fill in the fields.
 
@@ -121,7 +123,7 @@ Elapsed Time
 Time already spent on the agenda item.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 **Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)

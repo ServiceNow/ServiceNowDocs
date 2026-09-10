@@ -1,5 +1,5 @@
 ---
-title: Contract analysis using ServiceNow Otto for Contract Management Pro
+title: Contract review using ServiceNow Otto for Contract Management Pro
 description: As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the AI contextual side panel by using the ServiceNow Otto for Contract Management Pro application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-NA-review-land.html
@@ -9,18 +9,23 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use AI skills, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+keywords: [Contract analysis, AI contract review, Otto Contract Management, Non-standard clauses, Missing clauses, Automated contract analysis, AI-powered review]
+breadcrumb: [Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract analysis using ServiceNow Otto for Contract Management Pro
+# Contract review using ServiceNow Otto for Contract Management Pro
 
 As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the AI contextual side panel by using the ServiceNow Otto for Contract Management Pro application.
 
-You can analyze an entire document and identify any non-standard or missing clauses by the ServiceNow Otto for Contract Management Pro application.
+The ServiceNow Otto for Contract Management Pro application analyzes contract documents to identify non-standard or missing clauses, helping you ensure contract compliance and completeness. This AI-powered analysis provides faster, more consistent review compared to manual processes.
 
 **Note:** Be sure to review the AI-generated analysis for accuracy.
 
-By using the ServiceNow Otto for Contract Management Pro application, your organization can follow a workflow that moves through a series of states, which are displayed in the contract request. For more information on the states of the document during contract analysis, see [Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-states.md).
+## Contract analysis states
+
+The ServiceNow Otto for Contract Management Pro application follows a workflow that moves through a series of states, which are displayed in the contract request. Analysis details appear in the activity stream and are communicated by email notification to the contract fulfiller, contract collaborator, and assignment group manager.
+
+For more information on the states of the document during contract analysis, see [Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-states.md).
 
 -   **[Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md)**  
 Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the ServiceNow Otto for Contract Management Pro application.
@@ -31,10 +36,5 @@ Cancel a AI contract analysis when it’s no longer required due to a change in 
 -   **[Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-states.md)**  
 The ServiceNow Otto for Contract Management Pro analysis follows a workflow and moves through a series of states, which are displayed in the contract request. The contract analysis details are available in the activity stream and are also communicated by an email notification to the contract fulfiller, contract collaborator, and assignment group manager.
 
-**Parent Topic:**[Using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
-
-**Related topics**  
-
-
-[Contract metadata extraction using ServiceNow Otto for Contract Management Pro]()
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

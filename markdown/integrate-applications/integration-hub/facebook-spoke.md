@@ -28,7 +28,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workplace from Facebook spoke v4.2.0is the latest version.
+Workplace from Facebook spoke v4.2.0is the latest version. For version history of the spoke, see [Workplace from Facebook spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workplace.html).
 
 ## Spoke dependencies
 

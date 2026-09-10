@@ -1,18 +1,18 @@
 ---
 title: Mobile Platform release notes
-description: The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
+description: The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.The ServiceNow Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Mobile Platform release notes
 
 The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
 
-## Mobile Platform highlights for the Australia release
+## About Mobile Platform
 
 -   Speak with an AI-powered voice assistant directly from your mobile device.
 -   Use the enhanced mobile offline capabilities, including seamless online-to-offline continuity.
@@ -21,7 +21,27 @@ The ServiceNow® Mobile Platform application enables you to access your ServiceN
 
 See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Mobile Platform is a ServiceNow AI Platform feature that is active by default.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    Improved readability on tablet devices.
+
+
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
+
+## Australia
+
+The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Mobile offline enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md)**
 
@@ -67,7 +87,7 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Premium Chat opens a web-based chat experience within your mobile app, ensuring that every feature configured for the web is accessible on your mobile device.
 
 
-## UI changes
+### What's changed
 
 -   **[Mobile App Builder live component previews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-record-example-panel.md)**
 
@@ -93,8 +113,6 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Continue a Voice Agent call after backgrounding the mobile app on iOS and Android. Mute, unmute, or end the call from the home screen or lock screen without returning to the app.
 
-
-## Changed in this release
 
 -   **[Enhanced prelogin page customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/branded-landing-page.md)**
 
@@ -130,14 +148,4 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Navigate the redesigned Settings screen in the Now Mobile and Mobile Agent apps to manage entries like preferences, profile, and account switching in one place. Tap the arrow next to a heading to expand or collapse its related options.
 
-
-## Activation information
-
-Mobile Platform is a ServiceNow AI Platform feature that is active by default.
-
-## Accessibility information
-
-Improved readability on tablet devices.
-
-**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

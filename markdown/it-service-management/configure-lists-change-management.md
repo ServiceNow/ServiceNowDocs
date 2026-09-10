@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-lists-change-management.html
 release: australia
 topic_type: task
-last_updated: "2026-08-27"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Change Management, list configuration, admin experience]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
@@ -17,7 +17,9 @@ Configure which columns appear in the change lists for your IT fulfiller staff.
 
 ## Before you begin
 
-Role required: sn\_chg\_setup.lists\_config
+Role required: sn\_chg\_setup.lists\_config and sn\_ia\_config.ia\_user
+
+**Note:** The sn\_chg\_setup.lists\_config role no longer automatically inherits the sn\_ia\_config.ia\_user role. Users who need to configure the console must now be assigned both the appropriate Change Management role \(for example, sn\_chg\_setup.lists\_config\) and the sn\_ia\_config.ia\_user role explicitly. Existing roles aren't modified during upgrade, allowing you to maintain full control over assignment of elevated privileges. After upgrading, if you have previously relied on inherited access, you won't be able to configure the console until the sn\_ia\_config.ia\_user role is assigned explicitly.
 
 ## About this task
 
@@ -53,7 +55,7 @@ The Lists module in Simplified Change Management allows you to customize the col
 
     To revert changes made in the current session before saving, select **Undo**.
 
-    As an alternative to the form-based wizard, you can also complete this configuration through the **Configure with Now Assist** conversational flow, accessible from the banner at the top of the page.
+    As an alternative to the form-based wizard, you can also complete this configuration through the **Configure with AI** conversational flow, accessible from the banner at the top of the page.
 
 
 ## Result

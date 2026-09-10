@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 1
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
@@ -38,8 +38,11 @@ Role required: sn\_dpr\_model.release\_admin
 
 5.  Close the release.
 
-    -   In a single product or service release, on the Overview page, select **Complete release**.
-    -   In a multi-product release, on the Dashboard page, select **Complete release**.
+    -   In a single product or service release, select **Complete release**from any section page.
+    -   In a multi-product release, select **Complete release** on the Dashboard page or any section's page with **All products and services** selected.
+
+        **Note:** The **Complete release** button is not available on the individual section pages when a primary product or included product or service is selected.
+
 
 ## Result
 

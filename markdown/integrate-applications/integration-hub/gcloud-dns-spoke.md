@@ -30,7 +30,7 @@ This spoke was built for Google Cloud DNS API version v1, but may be compatible 
 
 ## Spoke version
 
-Google Cloud DNS Spoke version is 1.0.2.
+Google Cloud DNS Spoke version is 1.0.2. For version history of the spoke, see [Google Cloud DNS spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-cloud-dns.html).
 
 ## Spoke requirements
 

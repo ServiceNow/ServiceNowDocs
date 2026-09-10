@@ -45,7 +45,7 @@ Configure your playbook experience to include the following relevant information
 -   Ability to perform searches so that the case owner can search for knowledge articles on similar cases and learn how they were resolved.
 -   Embedded tasks in the playbook like directly updating the ERP, which ensures that all the work that must be done can be done from the playbook itself without the need to log in to any other ERP system.
 
-For more information, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
+For more information, see About Playbook Experience.
 
 ## Celonis triggers for Sourcing and Procurement Operations
 

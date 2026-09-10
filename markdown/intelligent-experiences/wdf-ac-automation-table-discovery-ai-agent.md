@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/wdf-ac-
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 1
-breadcrumb: [Workflow Data Fabric AI agents, Workflow Data Fabric AI agents, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Workflow Data Fabric AI agents, Workflow Data Fabric AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Automation table discovery AI agent
@@ -70,7 +70,7 @@ Questionnaire
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -78,7 +78,7 @@ sn\_ac.automation\_technical\_user
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

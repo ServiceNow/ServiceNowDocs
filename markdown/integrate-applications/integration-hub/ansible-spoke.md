@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Ansible spoke v2.4.0 is the latest version.
+Ansible spoke v2.4.0 is the latest version. For version history of the spoke, see [Ansible spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ansible.html).
 
 **Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke, delete the existing connection and credential record, and create a new connection and credential record using authentication template. For more information, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ansible.md).
 

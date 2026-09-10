@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/sem-groupin
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -44,6 +44,14 @@ You can change the execution mode using any of the following methods:
 ## How remediation task rules work
 
 When a new finding is created, imported, or reopened, the system evaluates it against the defined remediation task rules. In Match All mode, all rules are evaluated. In Match First mode, evaluation stops at the first matching rule based on execution order. For each rule where the condition matches, the system pulls the relevant data from the "Group by" selections and builds a group name. If a matching open remediation task exists, the finding is added to it. Otherwise, a new task is created. By default, remediation task rules use the assignment group set by the assignment rules on the finding. The assignment of these remediation tasks is controlled by the assignment rules. When a task rule is deleted, you have the option to delete all open tasks created by that rule.
+
+## Automatic re-evaluation of remediation task rules
+
+Remediation task rules are automatically re-evaluated when the **Assignment group** or **Preferred solution** changes on a finding. You don't need to manually reapply the rule. The finding is unlinked from its current remediation task and regrouped under the task that matches its updated value.
+
+To enable automatic re-evaluation, activate the sn\_sec\_rem.rerun\_task\_rules system property. This property is not activated by default. For steps to enable it, see [Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md).
+
+A change to any other Group by field doesn't trigger re-evaluation. To regroup findings based on changes to those fields, manually reapply the remediation task rule.
 
 ## Managing remediation task rules
 

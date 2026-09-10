@@ -1,14 +1,14 @@
 ---
 title: Customizing TSOM connector behavior with extension points
-description: Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.The resolution chain, the order field, the three dispatch patterns, and the scope restrictions determine whether a registered implementation runs and which implementation's result is applied at runtime. Review these mechanisms before implementing an extension point.Four extension points—one each for the Meraki, Fortinet, VeloCloud, and Catalyst connectors—control the lifecycle stage status assigned to discovered CIs. All four share the same contract.Assign a lifecycle stage status that varies by CI class for CIs discovered by a TSOM vendor connector. This procedure uses the Meraki connector; the steps are identical for Fortinet, VeloCloud, and Catalyst.Apply one set of lifecycle stage status rules across the Meraki, Fortinet, VeloCloud, and Catalyst connectors by centralizing the logic in a helper Script Include and delegating to it from thin per-connector wrappers.The EventFieldMapping extension point binds an incoming event to a configuration item. Use it to change how an existing vendor's events resolve to CIs, or to add CI mapping for a new vendor.Contract methods and shipped implementations for the EventFieldMapping extension point.Provide CI binding for a vendor that TSOM does not ship an event-to-CI mapper for.Replace how TSOM binds a supported vendor's events to configuration items.WebhookFieldMapping maps a vendor webhook payload to TMF688 event fields. This extension point is same-scope only, so you can't implement it from a custom scope.Two extension points control metric behavior: MetricsAggrSEP customizes aggregation, and UplinkThroughputPercentage customizes uplink throughput calculation.Replace the OOB metric aggregation logic with your own using the MetricsAggrSEP extension point.Five extension points customize narrow, vendor-specific behaviors: firmware version formatting, contract parsing, tag transformation, Nokia MPN formula handling, and recovery handling.Format the Fortinet firmware version string differently from the OOB default.Three extension points let you add API endpoints to Fortinet discovery, register new entity types, and reshape discovered data, without editing default code.Add a FortiManager API endpoint to Fortinet discovery so the connector collects data it doesn't collect by default and stores it on configuration items.Map extra fields from a FortiManager response onto Fortinet configuration items, and register transform functions to reshape the values.Properties that define a step in a Fortinet collection plan: how the endpoint is called, which entity it iterates over, and when its data is written.The five handlers a FortinetParserHooks implementation must provide, the arguments each receives, and what each returns.
+description: Learn how to use extension points to extend ServiceNow Telecommunications Service Operations Management \(TSOM\) connector behavior without modifying any default code.The resolution chain, the order field, the three dispatch patterns, and the scope restrictions determine whether a registered implementation runs and which implementation's result is applied at runtime. Review these mechanisms before implementing an extension point.Four extension points—one each for the Meraki, Fortinet, VeloCloud, and Catalyst connectors—control the lifecycle stage status assigned to discovered CIs. All four share the same contract.Assign a lifecycle stage status that varies by CI class for CIs discovered by a TSOM vendor connector. This procedure uses the Meraki connector; the steps are identical for Fortinet, VeloCloud, and Catalyst.Apply one set of lifecycle stage status rules across the Meraki, Fortinet, VeloCloud, and Catalyst connectors by centralizing the logic in a helper Script Include and delegating to it from thin per-connector wrappers.The EventFieldMapping extension point binds an incoming event to a configuration item. Use it to change how an existing vendor's events resolve to CIs, or to add CI mapping for a new vendor.Contract methods and shipped implementations for the EventFieldMapping extension point.Provide CI binding for a vendor that TSOM does not ship an event-to-CI mapper for.Replace how TSOM binds a supported vendor's events to configuration items.WebhookFieldMapping maps a vendor webhook payload to TMF688 event fields. This extension point is same-scope only, so you can't implement it from a custom scope.Two extension points control metric behavior: MetricsAggrSEP customizes aggregation, and UplinkThroughputPercentage customizes uplink throughput calculation.Replace the OOB metric aggregation logic with your own using the MetricsAggrSEP extension point.Five extension points customize narrow, vendor-specific behaviors: firmware version formatting, contract parsing, tag transformation, Nokia MPN formula handling, and recovery handling.Format the Fortinet firmware version string differently from the OOB default.Three extension points let you add API endpoints to Fortinet discovery, register new entity types, and reshape discovered data, without editing default code.Add a FortiManager API endpoint to Fortinet discovery so the connector collects data it doesn't collect by default and stores it on configuration items.Map extra fields from a FortiManager response onto Fortinet configuration items, and register transform functions to reshape the values.Properties that define a step in a Fortinet collection plan: how the endpoint is called, which entity it iterates over, and when its data is written.The five handlers a FortinetParserHooks implementation must provide, the arguments each receives, and what each returns.Avoid the mistakes that most often break a TSOM extension point implementation, and understand what an upgrade does and doesn't touch.Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.Once an implementation is confirmed active, use this table to confirm it produces the expected result for its category.Run this script in Scripts - Background to audit every order-based TSOM extension point on your instance in one pass.Disable a misbehaving custom implementation and fall back to the default without waiting for a fix.API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension point, in one table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/customize-TSOM-connector-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 30
+last_updated: "2026-09-10"
+reading_time_minutes: 36
 breadcrumb: [Developer guides, API implementation and reference]
 ---
 
@@ -20,7 +20,7 @@ TSOM ships 16 extension points across 5 connector scopes.
 
 Each TSOM extension point controls one aspect of connector behavior, from life cycle status assignment, to event-to-CI mapping, to metric aggregation. Implement an extension point when the default behavior doesn't match how your organization models or processes discovered data.
 
-For the full attribute matrix, see the TSOM extension point quick reference. The extension points are grouped by function:
+For the full attribute matrix, see [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md). The extension points are grouped by function:
 
 -   Lifecycle management \(4\)
 -   Event-to-CI mapping \(1\)
@@ -909,4 +909,200 @@ getEntityTypes: function(constants) {
     return [constants.FIRMWARE_UPGRADES];
 }
 ```
+
+## Extension point safety and best practices
+
+Avoid the mistakes that most often break a TSOM extension point implementation, and understand what an upgrade does and doesn't touch.
+
+### Common mistakes
+
+|Mistake|What happens|Fix|
+|-------|------------|---|
+|Modifying the OOB Script Include directly|Overwritten on the next TSOM upgrade.|Create a new Script Include and a new extension instance instead.|
+|Registering against a `restrict_scope = true` extension point from a custom scope|The platform silently ignores the registration. No error is logged.|Check `restrict_scope` before implementing. See [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).|
+|The `type` field doesn't match the Script Include name|The resolver can't look up the order for the implementation, so it defaults to 100.|Ensure `type` is an exact match.|
+|Forgetting to set `active = true`|The implementation never loads.|Verify the record in **System Definition** &gt; **Extension Instances**.|
+|Calling `eventGr.update()` inside an `EventFieldMapping` implementation|Corrupts the event pipeline.|Only set fields on the passed-in `eventGr`; return `true` or `false` and let the framework persist the record.|
+
+### Upgrade safety
+
+**Note:**
+
+Your custom extension instances aren't touched during upgrades. OOB instances registered at `order = 100` may be updated, but a lower-order custom override keeps its priority. New extension points may be introduced in a release; check [TSOM extension point quick reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) after each upgrade for additions.
+
+### Security considerations
+
+-   **Privilege model.** An extension point implementation runs with the calling process's context, typically the TSOM integration user or a MID Server. Your code inherits that context's privileges.
+-   **Audit regularly.** Review `sys_extension_instance` records periodically through **System Definition** &gt; **Extension Instances**.
+-   **Validate inputs.** A malformed payload passed into your implementation can cause cascading exceptions further down the pipeline. Validate before acting on it.
+
+## Verify that an extension point implementation is active
+
+Confirm that your custom implementation is registered, active, and resolving at the priority you expect before you rely on it in production.
+
+### Before you begin
+
+Role required: admin
+
+### About this task
+
+Run both scripts in **System Definition** &gt; **Scripts - Background**. The first confirms the runtime sees your implementation at all; the second confirms its `order` and `active` state.
+
+### Procedure
+
+1.  List the runtime implementations for the extension point, substituting its API name.
+
+    ```
+    var epName = 'sn_sgc_meraki.MerakiCustomizedLifeCycleStageStatus';
+    var ep = new GlideScriptedExtensionPoint();
+    var impls = ep.getExtensions(epName);
+    if (!impls || !impls.length) {
+        gs.info('No implementations for: ' + epName);
+    } else {
+        gs.info('Found ' + impls.length + ' impl(s) for: ' + epName);
+        for (var i = 0; i < impls.length; i++) {
+            gs.info('  [' + i + '] type=' + impls[i].type);
+        }
+    }
+    ```
+
+2.  Check the registration order and active state for that same extension point.
+
+    ```
+    var gr = new GlideRecord('sys_extension_instance');
+    gr.addQuery('point', 'sn_tsom_em_conns.EventFieldMapping');
+    gr.addActiveQuery();
+    gr.orderBy('order');
+    gr.query();
+    while (gr.next()) {
+        gs.info('SI: ' + gr.script_include.name +
+            ' | order: ' + gr.getValue('order') +
+            ' | active: ' + gr.getValue('active'));
+    }
+    ```
+
+3.  Confirm your implementation appears in both outputs, with the `order` you registered and `active = true`.
+
+    To audit every TSOM extension point at once instead of one at a time, see [Extension point diagnostic script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+
+
+### Result
+
+Once your implementation is confirmed active, verify the resulting behavior for its category. See [Verify behavior by extension point category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md).
+
+### Verify behavior by extension point category
+
+Once an implementation is confirmed active, use this table to confirm it produces the expected result for its category.
+
+|Extension point category|How to verify|
+|------------------------|-------------|
+|Lifecycle stage status|Run a vendor discovery sync, then check the discovered CI's `life_cycle_stage_status` field.|
+|Event field mapping|Create a test event, then check the resulting `em_event` record's `cmdb_ci` and `ci_type` fields.|
+|Webhook field mapping|Send a test webhook, then check the resulting `em_event` field mapping.|
+|Metrics aggregation|Wait for the scheduled aggregation job to run, then check the `sa_metric_instance` table.|
+|Tag transformation|Run a discovery sync on a CI with tags, then check its `additional_attributes` field.|
+|Nokia MPN formula engine|Import a Nokia MPN Excel file, then check the resulting formula table.|
+|Recovery handler|Create a test recovery queue record, then confirm your handler fires.|
+
+### Extension point diagnostic script
+
+Run this script in Scripts - Background to audit every order-based TSOM extension point on your instance in one pass.
+
+```
+(function() {
+    var EPS = [
+        'sn_sgc_meraki.MerakiCustomizedLifeCycleStageStatus',
+        'sn_sgc_fortinet.FortinetCustomizedLifeCycleStageStatus',
+        'sn_sgc_vcloud.VeloCloudCustomizedLifeCycleStageStatus',
+        'sn_sgc_catalyst.CatalystCustomizedLifeCycleStageStatus',
+        'sn_tsom_em_conns.EventFieldMapping',
+        'sn_tsom_em_conns.WebhookFieldMapping',
+        'sn_tsom_em_conns.MetricsAggrSEP',
+        'sn_tsom_em_conns.UplinkThroughputPercentage',
+        'sn_sgc_fortinet.FortinetCustomizedFirmwareVersion',
+        'sn_sgc_fortinet.FortinetCustomizedContractParsing',
+        'sn_sgc_meraki.TagTransformationExtensionPoint',
+        'sn_tsom_em_conns.NokiaMpnFormulaEngineSEP',
+        'sn_tsom_em_conns.RecoveryHandlerSEP'
+    ];
+
+    gs.info('=== TSOM Extension Point Diagnostic ===');
+    gs.info('Date: ' + new GlideDateTime().getDisplayValue());
+
+    for (var e = 0; e < EPS.length; e++) {
+        var epName = EPS[e];
+        gs.info('--- ' + epName + ' ---');
+        try {
+            var ep = new GlideScriptedExtensionPoint();
+            var impls = ep.getExtensions(epName);
+            var cnt = (impls && impls.length) ? impls.length : 0;
+            gs.info('  Runtime impls: ' + cnt);
+            for (var i = 0; i < cnt; i++)
+                gs.info('    ['+i+'] type='+impls[i].type);
+        } catch(ex) {
+            gs.info('  ERROR: ' + ex.message);
+        }
+
+        var gr = new GlideRecord('sys_extension_instance');
+        gr.addQuery('point', epName);
+        gr.orderBy('order');
+        gr.query();
+        while (gr.next())
+            gs.info('  Instance: ' + gr.script_include.name +
+                ' | order=' + gr.getValue('order') +
+                ' | active=' + gr.getValue('active'));
+    }
+    gs.info('=== Diagnostic Complete ===');
+})();
+```
+
+## Recover from a failing custom extension point
+
+Disable a misbehaving custom implementation and fall back to the default without waiting for a fix.
+
+### Before you begin
+
+Role required: TSOM admin
+
+### About this task
+
+Because the default implementation for every order-based extension point is registered at `order = 100`, deactivating your lower-order override immediately restores default behavior. No other configuration change is required.
+
+### Procedure
+
+1.  Navigate to **System Definition** &gt; **Extension Instances** and open your extension instance record.
+
+2.  Set `active` to `false` and save.
+
+    The OOB implementation at `order = 100` takes over immediately; no cache flush or restart is needed.
+
+3.  Check the system log for exceptions thrown by your Script Include to diagnose the failure.
+
+4.  Fix the implementation and test it in a non-production instance before you set `active` back to `true` in production.
+
+
+## TSOM extension point quick reference
+
+API name, scope, restrict\_scope, and dispatch pattern for every TSOM extension point, in one table.
+
+|Extension point|API name|Scope|`restrict_scope`|Dispatch pattern|
+|---------------|--------|-----|----------------|----------------|
+|Meraki lifecycle stage status|`sn_sgc_meraki.MerakiCustomizedLifeCycleStageStatus`|`sn_sgc_meraki`|`false`|Handler|
+|Fortinet lifecycle stage status|`sn_sgc_fortinet.FortinetCustomizedLifeCycleStageStatus`|`sn_sgc_fortinet`|`false`|Handler|
+|VeloCloud lifecycle stage status|`sn_sgc_vcloud.VeloCloudCustomizedLifeCycleStageStatus`|`sn_sgc_vcloud`|`false`|Handler|
+|Catalyst lifecycle stage status|`sn_sgc_catalyst.CatalystCustomizedLifeCycleStageStatus`|`sn_sgc_catalyst`|`false`|Handler|
+|Event field mapping|`sn_tsom_em_conns.EventFieldMapping`|`sn_tsom_em_conns`|`false`|Vendor-dispatch|
+|Webhook field mapping|`sn_tsom_em_conns.WebhookFieldMapping`|`sn_tsom_em_conns`|`true`|Vendor-dispatch|
+|Metrics aggregation|`sn_tsom_em_conns.MetricsAggrSEP`|`sn_tsom_em_conns`|`false`|Single-override|
+|Uplink throughput percentage|`sn_tsom_em_conns.UplinkThroughputPercentage`|`sn_tsom_em_conns`|`false`|Single-override|
+|Fortinet firmware version formatting|`sn_sgc_fortinet.FortinetCustomizedFirmwareVersion`|`sn_sgc_fortinet`|`false`|Handler|
+|Fortinet contract parsing|`sn_sgc_fortinet.FortinetCustomizedContractParsing`|`sn_sgc_fortinet`|`false`|Handler|
+|Tag transformation|`sn_sgc_meraki.TagTransformationExtensionPoint`|`sn_sgc_meraki`|`false`|Single-override, filtered by `handles()`|
+|Nokia MPN formula engine|`sn_tsom_em_conns.NokiaMpnFormulaEngineSEP`|`sn_tsom_em_conns`|`false`|Single-override|
+|Recovery handler|`sn_tsom_em_conns.RecoveryHandlerSEP`|`sn_tsom_em_conns`|`true`|Vendor-dispatch|
+|Fortinet collection plan|`sn_sgc_fortinet.FortinetCollectionPlan`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
+|Fortinet parser hooks|`sn_sgc_fortinet.FortinetParserHooks`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
+|Fortinet field mappings|`sn_sgc_fortinet.FortinetFieldMappings`|`sn_sgc_fortinet`|`false`|Contract validation \(single implementation\)|
+
+The three Fortinet discovery extensibility rows don't resolve by `order`; see [Fortinet discovery extensibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/customize-TSOM-connector-dev-guide.md) for how they're validated and how they fall back to the default implementation.
 

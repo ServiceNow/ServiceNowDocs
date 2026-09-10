@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage alerts autonomously agentic workflow, Respond to alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 4
+breadcrumb: [Manage alerts autonomously agentic workflow, Respond to alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Review AI-generated alert insights in Express List
@@ -22,11 +22,13 @@ For this feature, you must have ServiceNow Otto for IT Operations Management \(I
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
+Role required: None
 
 ## About this task
 
 The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md).
+
+Autonomous workflow is a simplified AI process elaborated in the AI Specialist. You can now activate and manage AI Specialist, controlling the groups it targets and the specific alert type it handles. Activating the AI Specialist automatically disables the Autonomous workflow.
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -39,7 +41,7 @@ There are several ways to explore AI insights in Express List.
 
 These options present differently, depending on whether the workflow is configured for automatic or manual execution.
 
--   When the workflow operates automatically, alerts are addressed as they’re created and AI insight information is displayed in Express List.
+-   When the workflow operates automatically, alerts are addressed as they're created and AI insight information is displayed in Express List.
 -   When the workflow operates manually, you must manually generate AI insights. For more information, see details in the following procedure.
 
 For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
@@ -52,15 +54,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d131394e210">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d135776e216">
 
 Review AI insights
 
-</th><th align="left" id="d131394e213">
+</th><th align="left" id="d135776e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d131394e219">
+</th></tr></thead><tbody><tr><td id="d135776e225">
 
 **Check for the AI Insights badge for alert status**
 
@@ -70,7 +72,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d131394e242">
+</td></tr><tr><td id="d135776e248">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -78,7 +80,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-free-text-search.md).
 
-</td></tr><tr><td id="d131394e258">
+</td></tr><tr><td id="d135776e264">
 
 **Filter using AI Insights filter attribute**
 
@@ -86,18 +88,19 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/filter-express-list.md).
 
-</td></tr><tr><td id="d131394e277">
+</td></tr><tr><td id="d135776e283">
 
 **Review AI insights in the preview panel**
 
 </td><td>
 
 1.  In the alerts list, select an alert by selecting the check box or the information icon \[Omitted image "info.png"\] Alt text: Information icon. next to the alert.
-2.  -   In the **Insights** tab, review **AI insights**.
--   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+2.  -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+-   In the **Insights** tab, review **AI insights**.
+-   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d131394e320">
+</td></tr><tr><td id="d135776e338">
 
 **Review AI Insights in the alert record overview**
 
@@ -107,8 +110,10 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 
 The **Overview** tab is selected by default.
 
-2.  -   If data is available, you can review the **AI insights** summary in the Summary section.
--   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+2.  -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+-   If data is available, you can review the **AI insights** summary in the Summary section.
+-   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page.
+3.  Select the **AI activity** tab to view the detailed report of the alert along with the workflow steps.
 
 
 </td></tr></tbody>

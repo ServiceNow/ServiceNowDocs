@@ -113,25 +113,6 @@ Field Encryption Enterprise supports on-premise customers. It doesn’t support 
 
 The standard version of Field Encryption is limited to five encrypted columns. Field Encryption Enterprise supports an unlimited number of encrypted columns.
 
-## Supported field information
-
-The following field types can be encrypted:
-
--   Attachments
--   Date
--   Date/Time
--   Email
--   HTML
--   Journal
--   Journal Input
--   Journal List
--   Phone
--   String text
--   Translated Field
--   Translated HTML
--   Translated Text
--   URL
-
 ## Attachment Encryption
 
 -   **Attachment encryption by default**

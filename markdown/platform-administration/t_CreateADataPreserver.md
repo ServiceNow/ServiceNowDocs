@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_Crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Add preservers, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+reading_time_minutes: 2
+breadcrumb: [Create preservers, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a data preserver \(legacy\)
@@ -16,26 +16,35 @@ Data preservers copy specified data to a target instance.
 
 ## Before you begin
 
-Role required: clone\_admin
+Database views can't be preserved.
 
--   Database views can't be preserved.
--   If preservers aren't configured, a clone can't be requested.
+Role required: clone\_admin
 
 ## About this task
 
+**Where to perform this task:** You must define data preservers on the **source instance** before initiating a clone. The preserved data is extracted from the source instance and restored on the target instance after the clone completes.
+
 Data preservers retain system settings and themes, such as instance-specific authentication settings from the source instance. Don't use data preservers to transfer large sets of data, such as user groups. If you must preserve table data such as users, groups, and roles, consider exporting the records to a file and importing it after the clone is complete.
 
-For information on how data preservers interact with exclusions see [Clarifying exclusions and preservers combinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-preservers-cleanupscripts.md).
+**Warning:**
+
+If you attempt to create a preserver on the target instance instead of the source instance, the configuration will not work as intended. No data will be preserved during the clone. Always verify you are working on the source instance before proceeding with these steps.
 
 ## Procedure
 
 1.  On the source instance, navigate to **Instance Clone** &gt; **Preserve Data**.
 
+    **Tip:**
+
+    Verify you are on the source instance \(the instance you are cloning FROM, not cloning TO\). You can confirm this by checking the instance name in the top-right corner or in the URL.
+
+    You are now on the Preserve Data configuration page on the source instance.
+
 2.  Select **New**.
 
-3.  Enter a **Name** for the preserver.
+3.  Enter a descriptive **Name** for the preserver.
 
-    For example, add the table label such as user preference for the `sys_user_preference` table. The data preserver must have a table name or it can’t be submitted.
+    Use a descriptive name that identifies the table and its purpose. For example, use "User Preferences" for the `sys_user_preference` table or "Firewall Devices CMDB" for a custom table. This name helps you identify the preserver in the list. The data preserver must have a table name or it can't be submitted.
 
 4.  Select the **Table** to be preserved.
 
@@ -56,4 +65,12 @@ For information on how data preservers interact with exclusions see [Clarifying 
     -   Core Instance Properties
     -   Semaphores
     -   Email Accounts
+
+## Result
+
+The data preserver is created on the source instance and will be applied to future clone operations. The preserved data will be retained and restored to the target instance after the clone completes.
+
+## What to do next
+
+After creating data preservers on the source instance, you can now request a clone. See [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md) for information on submitting a clone request. The configured preservers will be automatically applied based on your clone profile.
 

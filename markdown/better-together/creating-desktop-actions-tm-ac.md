@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/better-together/creating-deskto
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [create agent, decomposed automations, automations blocks, desktop actions, automation center, UI block, non UI block, deterministic desktop actions]
 breadcrumb: [Solutions]
 ---
@@ -38,6 +38,17 @@ This feature currently supports only Excel-to-browser interactions, where data i
 -   **[Stage 4: Execute \(AI Desktop Actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)**
     -   Authorized users invoke deployed AI agents from the ServiceNow Otto panel, where the agent automatically executes the complete desktop automation process.
     -   The agent runs both background tasks \(such as fetching data from source files\) and on-screen tasks \(such as navigating web applications and entering form data\) desktop actions in AI Desktop Actions on the Windows machine, completing the entire workflow without user intervention.
+
+## Example: Employee onboarding automation
+
+A human resources team needs to automate the employee onboarding process. Each new hire currently requires:
+
+1.  Reading new hire data from an Excel spreadsheet \(background task\) for creating an employee record in the HR system
+2.  Entering employee information into a web form \(on-screen task\)
+3.  Provisioning an email account in Microsoft 365 \(on-screen task\)
+4.  Adding the new hire to the team distribution list in Microsoft Outlook \(on-screen task\)
+
+This multi-application workflow is ideal for desktop automation. The team uses Task Mining to capture the actual onboarding steps performed by HR staff. Then, the technical user converts those steps into an automated agent that can execute the entire workflow end-to-end.
 
 ## Progressive refinement
 
@@ -155,7 +166,7 @@ Executing desktop actions
 
 [Task Mining agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining-agent-features-and-workarounds.md)
 
-[Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
 [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -19,6 +19,8 @@ While regular fields store a value in the database, a function field displays th
 The responsibility for creating, editing, and deactivating function fields belongs to the user with the role function\_field\_admin. On upgrade, no user has this role. An admin must give this role to a non-admin user. See [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
 
 Learn about function fields here: [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+
+You can use function fields in both Core UI and Platform Analytics experience, but you can only configure function fields in the Core UI Report Designer.
 
 ## Function field operations
 
@@ -204,7 +206,7 @@ Return type: Text
 
 </td></tr></tbody>
 </table>-   **[Configuring function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/configure-function-fields.md)**  
-You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
+You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation. Function fields that you create in Report Designer are available in Platform Analytics experience, but you cannot create them in Platform Analytics experience
 -   **[Create a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-function-field.md)**  
 Create a function field to be able to group and stack a report by the results of the field's calculation.
 -   **[Edit a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/edit-function-field.md)**  

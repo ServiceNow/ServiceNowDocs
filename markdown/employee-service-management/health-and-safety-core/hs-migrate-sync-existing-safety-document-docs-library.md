@@ -61,8 +61,6 @@ Use the Document Migration tool to seamlessly move your existing safety document
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Add a Health and Safety visitor]()

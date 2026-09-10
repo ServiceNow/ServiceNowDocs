@@ -25,7 +25,7 @@ Both GitHub and GitHub Enterprise are supported.
 The following operations are performed as part of integrating GitHub:
 
 -   Connect: Discover repositories, plans, and pipeline definitions by connecting your GitHub instances to DevOps Change Velocity.
--   Configure: Enable sending real-time notifications for commits, work items, and pipelines by automatically creating a Webhook \(push, issues, and workflow\_job\) in GitHub so that this data can be used to create change policies.
+-   Configure: Enable sending real-time notifications for commits, work items, and pipelines by automatically creating a Webhook \(push, issues, and workflow\_job\) in GitHub so this data can be used to create change policies.
 
 Repositories under an organization can also be discovered and configured if you have the following base permissions for the organization \(member privileges\):
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationaltechnologydiscovery-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -130,7 +130,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-optm.create-console-backup-concept\]](https://www.servicenow.com/docs/access?context=create-console-backup-concept&family=australia&ft:locale=en-US)**
+-   **[Create a backup for the Console](https://www.servicenow.com/docs/access?context=create-console-backup-concept&family=australia&ft:locale=en-US)**
 
 To support disaster recovery, the Discovery Console for OT generates backup files containing restore data, configuration, and logs.
 
@@ -190,7 +190,16 @@ Australia
 
 </td><td>
 
--   **[Requirements for Discovery Console for OT installation](https://www.servicenow.com/docs/access?context=reqs-ot-console-installation&family=australia&ft:locale=en-US)**
+-   **[Edit an Appliance](https://www.servicenow.com/docs/access?context=edit-an-appliance&family=australia&ft:locale=en-US)**
+
+Navigate to the Appliances page where the individual Sensors and Collectors with their status and location are displayed. The page displays the component type, its endpoint, and CPU usage. Select the appliance name to see its details and additional settings.
+
+-   **[Filter for Host Status](https://www.servicenow.com/docs/access?context=results-filter-host-status&family=australia&ft:locale=en-US)**
+
+In the Scan Results filtering types, the **Host Status** helps you view query results based on whether the queried host was **Up** or **Down**. This filter is derived from the Nmap XML status field inside the Raw scan output.
+
+
+ -   **[Requirements for Discovery Console for OT installation](https://www.servicenow.com/docs/access?context=reqs-ot-console-installation&family=australia&ft:locale=en-US)**
 
 The required dependency version changed from .NET 8 to .NET 10.
 
@@ -283,7 +292,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Starting with the Australia release, Operational Technology Discovery is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ -   Service Graph Connector for ServiceNow OT Discovery \(com.sn\_otdiscsgc\)
+-   Discovery Console
+-   Discovery Sensor
+-   Discovery Collector
 
 </td></tr></tbody>
 </table>## Activation information
@@ -320,7 +334,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Operational Technology Discovery by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -328,13 +345,15 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install the following Operational Technology Discovery applications using the Service Graph Connector for ServiceNow OT Discovery Guided Setup page. You must install the Service Graph Connector for ServiceNow OT Discovery before installing the following applications:
 
--   Discovery Console
--   Discovery Sensor
--   Discovery Collector
+    -   Discovery Console
+    -   Discovery Sensor
+    -   Discovery Collector
+Install Operational Technology Discovery by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
- Install Operational Technology Discovery by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -562,7 +581,14 @@ Australia
 
 </td><td>
 
-For more information, see [Operational Technology Discovery](https://www.servicenow.com/docs/access?context=operational-technology-discovery-landing&family=australia&ft:locale=en-US).
+**Important:** Operational Technology Discovery is being prepared for future deprecation. For more information, see the "Deprecated in this release" section of these release notes.
+
+ -   Create a backup ZIP file of the Console database from the Console web interface.
+-   Use Entra ID integration to log in to the Console with your organization's Microsoft Entra ID.
+-   Use the updated Console UI for an enhanced Appliances page.
+-   Identify open ports using the enhanced Open Port section of the Assets page.
+
+ For more information, see [Operational Technology Discovery](https://www.servicenow.com/docs/access?context=operational-technology-discovery-landing&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

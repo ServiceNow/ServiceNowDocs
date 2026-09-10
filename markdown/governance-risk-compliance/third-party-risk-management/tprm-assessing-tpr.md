@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -114,6 +114,8 @@ If the Smart Assessment Response Assist skill is active and template categories 
 The role of TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] is required to create and manage both tasks and issues.
 
 The TPR manager, TPR assessor, or contract negotiator can create tasks to help ensure that a team member or the third-party contact responds to concerns about the questionnaire responses or requested documents. They can manage existing tasks to verify that the assigned team member or third-party contact responds to a task and updates it as needed. For more information about creating and managing issues, see [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md) and [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md).
+
+For follow-up work that stays within your own organization instead of going to a third-party contact, TPR managers and internal task responders can create internal tasks. Internal tasks aren't visible in the Third-party portal and can be used for a variety of follow-up needs. For more information, see [Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md).
 
 Before creating an issue manually, TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] can use ServiceNow Otto for TPRM to generate a quick summary of an existing issue, or to get AI-driven recommendations for potential issues based on assessment responses and historical data. For more information, see [Generate a summary of a TPRM issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-a-summary-of-issue.md) and [Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md).
 

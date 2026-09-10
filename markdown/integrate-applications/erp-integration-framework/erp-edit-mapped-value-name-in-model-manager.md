@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, input, output, value, map, name, edit, model]
-breadcrumb: [Manage model, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit input and output mapped value name in Zero Copy Connector for ERP
@@ -37,7 +37,7 @@ Let's step through an example. In Zero Copy Connector for ERP, create a model. F
 
     \[Omitted image "erpc-mapped-value-example1.png"\] Alt text: Add entity page with T005 entity selected.
 
-    For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 3.  After data is retrieved, select **Specify inputs**.
 

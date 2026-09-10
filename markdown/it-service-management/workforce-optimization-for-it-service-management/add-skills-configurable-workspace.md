@@ -18,6 +18,8 @@ Add skills or update skill levels for an agent so that it gets added to their sk
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: skill\_manager
 
 ## Procedure
@@ -30,15 +32,15 @@ Role required: skill\_manager
 
 4.  Add a skill or update a skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d390707e98">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d395868e114">
 
 To
 
-</th><th align="left" id="d390707e101">
+</th><th align="left" id="d395868e117">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d390707e107">
+</th></tr></thead><tbody><tr><td id="d395868e123">
 
 **Add a skill**
 
@@ -50,7 +52,7 @@ Do this
 
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d390707e139">
+</td></tr><tr><td id="d395868e155">
 
 **Update a skill level**
 

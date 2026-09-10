@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-notifications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -109,10 +109,6 @@ Zurich
 
 </td><td>
 
--   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
-
-With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
-
 -   **[Email agentic workflow](https://www.servicenow.com/docs/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
 
 With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
@@ -131,10 +127,6 @@ Enable agents to integrate their personal corporate mail boxes to send and recei
 -   **[Granular admin roles required to secure the instance](https://www.servicenow.com/docs/access?context=granular-admin-roles-notifications&family=australia&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Notifications without requiring the full admin role.
-
--   **[Notification agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
-
-The Notification agent enables platform administrators to create and modify email notifications and templates using natural language prompts, reducing the need of navigating complex forms &amp; scripts.
 
 
 </td></tr></tbody>
@@ -175,7 +167,24 @@ Yokohama
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+-   **[Advanced filters options for notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Added categories, delivery channels, active or inactive notifications, subscriptions, and digest-enabled filter options for notification preferences.
+
+-   **[Standard forms](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Enabled standardized forms across custom notification preferences and delivery channels.
+
+-   **[Assignment group field](https://www.servicenow.com/docs/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add support for assignment groups.
+
+-   **[Advanced condition field](https://www.servicenow.com/docs/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add an advanced condition.
+
+
+ -   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
@@ -202,7 +211,16 @@ Zurich
 
 </td><td>
 
--   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Allow Digest](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+
+The **Allow Digest** check box is dynamic and includes **Digest type**.
+
+
+ -   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
 
 The email digest now supports both single or multiple target records within a set time interval.
 
@@ -217,23 +235,12 @@ Australia
 
 </td><td>
 
--   **[Send email using Microsoft Graph](https://www.servicenow.com/docs/access?context=send-email-using-ms-graph&family=australia&ft:locale=en-US)**
+-   **[Create and associate actions for intent](https://www.servicenow.com/docs/access?context=create-actions-for-intent&family=australia&ft:locale=en-US)**
 
-Connect Microsoft email accounts using Microsoft Graph within the ServiceNow instance for sending outbound emails.
+Added the Email Template field to the Reply Email Notification Intent Action type.
 
--   **[Email threading for inbound reply email](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&family=australia&ft:locale=en-US)**
 
-Enable classification of inbound emails by using the thread-index header for emails originating from Microsoft or Microsoft Outlook ecosystem.
-
--   **[Column Level Encryption for email attachments](https://www.servicenow.com/docs/access?context=cle-for-email-attachments&family=australia&ft:locale=en-US)**
-
-Attachments from inbound emails are now encrypted when stored in CLE-enabled tables and decrypted when sent in outbound emails, ensuring secure access without requiring scripting.
-
--   **[Enable push notifications for logged-out users](https://www.servicenow.com/docs/access?context=enable-notifications-logged-out-users&family=australia&ft:locale=en-US)**
-
-Push notifications can now be configured to be sent to users even when they are logged out, ensuring critical updates are not missed.
-
--   **[Now LLM support and email template configuration in Notification Agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
+ -   **[Now LLM support and email template configuration in Notification Agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
 
 Now LLM and third-party LLM models are now supported, and email templates can be configured for notifications created using the Notification Agent.
 
@@ -367,7 +374,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -375,9 +385,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
 
- Install Email agentic workflow by requesting it from the ServiceNow Store. 
+Install Email agentic workflow by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -385,11 +398,14 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
 
- Install Notifications Email Agents by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Notifications Email Agents by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
- The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
+The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

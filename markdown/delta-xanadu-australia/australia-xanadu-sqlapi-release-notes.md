@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-sqlapi-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Pro entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see [Configure](https://www.servicenow.com/docs/access?context=configuring-sql-api&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -62,7 +65,7 @@ Australia
 
 </td><td>
 
-ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see [Configure](https://www.servicenow.com/docs/access?context=configuring-sql-api&family=australia&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -101,7 +104,7 @@ Zurich
 
 -   **[Access your ServiceNow data using Live Connect](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&family=zurich&ft:locale=en-US)**
 
-The ServiceNow SQL API enables you to access your ServiceNow instance data through ODBC and JDBC drivers. Using SQL API, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow SQL API plugin uses ServiceNow web services support for a query-only interface.
+The ServiceNow Live Connect enables you to access your ServiceNow instance data through ODBC and JDBC drivers. Using SQL API, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow Live Connect plugin uses ServiceNow web services support for a query-only interface.
 
 
 </td></tr><tr><td>
@@ -110,10 +113,7 @@ Australia
 
 </td><td>
 
--   **[Access your ServiceNow data using Live Connect](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&family=australia&ft:locale=en-US)**
-
-The ServiceNow Store SQL API enables you to access your ServiceNow Store instance data through ODBC and JDBC drivers. Using SQL API, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow SQL API plugin uses ServiceNow web services support for a query-only interface.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -285,7 +285,10 @@ Zurich
 
 </td><td>
 
-SQL API is a ServiceNow feature that is available with the activation of SQL API plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Pro entitlement to activate the SQL API server-side plugin. The SQL API drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the SQL API client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install Live Connect plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=install-sql-api-plugin&family=zurich&ft:locale=en-US).
+-   **Activation information**
+
+Live Connect is a ServiceNow feature that is available with the activation of Live Connect plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Pro entitlement to activate the SQL API server-side plugin. The SQL API drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the SQL API client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install Live Connect plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=install-sql-api-plugin&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -293,7 +296,7 @@ Australia
 
 </td><td>
 
-SQL API is a ServiceNow feature that is available with the activation of SQL API plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the SQL API server-side plugin. The SQL API drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the SQL API client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install Live Connect plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=install-sql-api-plugin&family=australia&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -330,7 +333,10 @@ Zurich
 
 </td><td>
 
-You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the SQL API queries. You can download the ODBC and JDBC drivers from ServiceNow store.
+-   **Additional requirements**
+
+You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the Live Connect queries. You can download the ODBC and JDBC drivers from ServiceNow store.
+
 
 </td></tr><tr><td>
 
@@ -338,7 +344,7 @@ Australia
 
 </td><td>
 
-You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the SQL API queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -524,13 +530,7 @@ Australia
 
 </td><td>
 
--   Query your ServiceNow data directly without replicating it to external repositories or data warehouses.
--   Access data using read-only operations to avoid unintended changes to your ServiceNow records. Allow access only to the desired tables.
--   Integrate standard BI platforms such as Power BI, DBvisualizer, and other ODBC or JDBC-compatible tools directly with your ServiceNow data.
--   Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
--   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
-
- For more information, see [Access your ServiceNow data using Live Connect](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&family=australia&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-xanadu-australia/rn-combined-intro.md)

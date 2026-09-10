@@ -26,7 +26,7 @@ You can change the default price list selection logic by using the Price List De
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

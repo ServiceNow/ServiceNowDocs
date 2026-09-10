@@ -5,15 +5,15 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # App development and low-code release notes
 
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
 
--   **[App Engine for ERP Rapid Deployment Packs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-erp-rdp-rn-static.md)**  
-The ServiceNow® App Engine for ERP rapid deployment packs are templates for specific business processes in enterprise ERP workflows. App Engine for ERP rapid deployment packs are new in the Australia Patch 5 \(August 2026\) release.
+-   **[App Engine ERP Rapid Deployment Packs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-erp-rdp-rn.md)**  
+The ServiceNow® App Engine ERP Rapid Deployment Packs are templates for specific business processes in enterprise ERP workflows. App Engine for ERP Rapid Deployment Packs are new in the Australia Patch 5 \(August 2026\) release.
 -   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/aemc-rn.md)**  
 The ServiceNow® App Engine Management Center \(AEMC\) application enables admins to manage app development from intake to deployment to production monitoring. AEMC was enhanced and updated in the Australia release.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/app-engine-studio-rn.md)**  
@@ -42,8 +42,8 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 -   **[RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rpa-rn.md)**  
 The ServiceNow® RPA Hub application enables end-to-end automation for your organization. RPA Hub was enhanced and updated in the Australia release.
--   **[ServiceNow AI Experience Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
-The ServiceNow® AI Experience Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+-   **[ServiceNow Lux Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
+The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 -   **[ServiceNow CLI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-cli-rn.md)**  
 The ServiceNow CLI application is a command-line interface that enables you to perform instance operations from your local system and include new commands that meet your application's needs. ServiceNow CLI was enhanced and updated in the Australia release.
 -   **[ServiceNow IDE release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/servicenow-ide-rn.md)**  
@@ -65,7 +65,7 @@ The ServiceNow® Workflow Studio application consolidates playbooks, flows, acti
 -   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connectors-rn.md)**  
 The ServiceNow® Zero Copy Connectors application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Zero Copy Connectors was enhanced and updated in the Australia release.
 -   **[Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/zero-copy-connector-for-erp-rn.md)**  
-The ServiceNow® Zero Copy Connector for ERP application lets you connect to the ERP \(Enterprise Resource Planning\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
+The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

@@ -34,6 +34,8 @@ The answer generator skill is active by default and requires no activation. You 
     -   Outages linked to change request
 -   **Change request fields**: The skill reads a fixed set of fields from the change request record. Add or remove fields by updating a system property.
 
+**Note:** The skill also reads the risk and compliance attributes stored on the change request in the dynamic attribute store field. These attributes are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses them when it suggests answers, so it can determine details such as whether the change is compliant, how long a rollback takes, and how many users the change is estimated to impact. For information about dynamic attributes, see .
+
 ## Procedure
 
 1.  Navigate to **Change** &gt; **Change Administration** &gt; **AI Risk Data Sources**.

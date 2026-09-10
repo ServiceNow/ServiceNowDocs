@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Define security controls for an agentic workflow

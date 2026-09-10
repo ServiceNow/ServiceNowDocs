@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall a campaign phase, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a phase and sub-phase in a recall campaign

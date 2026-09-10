@@ -62,6 +62,10 @@ For users familiar with the classic Event Management experience, enrich automati
     2.  From the **Source** field menu, select the monitoring tool from where the alert is generated.
     3.  Set up the conditions by selecting the field, operator, and field value. Then, add more conditions using OR or AND operators.
 
+        When using time-based condition filters in Enrich/Event rules \(a filter that contains a time-based condition\), the value is saved as a static value. The time is evaluated in the system time zone of the instance, defined by the **glide.sys.default.tz** system property, which defaults to America/Los\_Angeles if left empty.
+
+        \[Omitted image "enrich-automation-time-condition.png"\] Alt text: Condition based on time of event
+
         To add another set of conditions, select **+ New condition set**. You can also manually add an additional info field if you don’t see it in the drop-down list.
 
         **Note:** Select **Load past events** to view previous events when creating the automation.
@@ -76,15 +80,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d210637e268">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d218551e286">
 
 Option
 
-</th><th align="left" id="d210637e271">
+</th><th align="left" id="d218551e289">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d210637e277">
+</th></tr></thead><tbody><tr><td id="d218551e295">
 
 **__Extract alert fields__**
 
@@ -115,7 +119,7 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d210637e379">
+</td></tr><tr><td id="d218551e397">
 
 **__Copy or compose fields__**
 
@@ -133,7 +137,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d210637e447">
+</td></tr><tr><td id="d218551e465">
 
 **__Change alert values__**
 
@@ -148,7 +152,7 @@ To add more field values, select **+ Add value** and to add more fields to map, 
 
 \[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d210637e503">
+</td></tr><tr><td id="d218551e521">
 
 **Improve configuration item \(CI\) identification**
 

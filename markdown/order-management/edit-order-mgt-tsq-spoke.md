@@ -29,19 +29,19 @@ The Order Qualification Request type is used to integrate order management with 
 
 1.  Navigate to **All** &gt; **Spoke selector** &gt; **Request type**.
 
-2.  Click the **Order Qualification Request** integration request type.
+2.  Select the **Order Qualification Request** integration request type.
 
     In the Order Qualification Request integration request type page, you can see the Demo Order Qualification Implementation request definition listed under the Integration request definitions tab. This is a sample request definition that invokes the Demo Order Qualification \(Mock Response\) subflow, simulates the response from a third-party inventory system, and updates the qualification request.
 
     You must add a new request definition, specify the conditions and create a subflow that you can use to invoke the API call to the third-party inventory system. You can create one or more request definitions depending on the number of external systems being used.
 
-3.  Click **New** to add a new request definition.
+3.  Select **New** to add a new request definition.
 
-    **Note:** To add a new request definition, you must be in the Order Management for Telecom, Media and Tech scope.
+    **Note:** To add a new request definition, you must be in the Order Management for Telecommunications, Media, and Technology scope.
 
 4.  Enter the name for the request definition and specify the conditions.
 
-5.  In the Request adapter field, select the subflow that will communicate with the third-party system to update the customer order and click **Submit**.
+5.  In the Request adapter field, select the subflow that will communicate with the third-party system to update the customer order and select **Submit**.
 
     -   Each request type can have multiple request definitions. For example, if you have multiple inventory systems or vendors, depending on the system you want to invoke, you can add multiple request definitions for each system. You must create a separate spoke to interact with each vendor or third-party system, create a flow in the spoke, and point the request adapter to this flow.
     -   For more information on how to create a spoke, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spokes.md). As shown in the demo subflow, ensure that the response from the third-party system passed to the Process Qualification Response block.

@@ -24,5 +24,5 @@ Before getting started with AI Admin Center, it is important to understand some 
 -   **[AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-roles.md)**  
 AI Admin Center is installed with these roles.
 
-**Parent Topic:**[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
 

@@ -28,7 +28,7 @@ Switching the toggle modifies how the pipeline events are processed. When switch
 
 ## How is the evidence collected
 
-When the change step in a pipeline is triggered, a callback record is created with the **state: created** and **change evidence status: pending**. An import request, with the corresponding import request pages are created to gather pipeline execution details and the required evidence. The change request is then created with all the evidence attached to it. In addition, the import based evidence collection feature is triggered again at the pipeline completion event to ensure all the associated evidence is accurately retrieved and associated with the change request. Post-creation of the change request, the auto-approval mechanisms, and subsequent behaviors remains the same as the existing behavior.
+When the change step in a pipeline is triggered, a callback record is created with the **state: created** and **change evidence status: pending**. An import request, with the corresponding import request pages is created to gather pipeline execution details and the required evidence. The change request is then created with all the evidence attached to it. In addition, the import based evidence collection feature is triggered again at the pipeline completion event to ensure all the associated evidence is accurately retrieved and associated with the change request. Post-creation of the change request, the auto-approval mechanisms, and subsequent behaviors remains the same as the existing behavior.
 
 -   **For ADO**
     -   For build pipeline, when the property is enabled, the evidence collection happens based on the pipeline completion event only \(step level events aren’t processed to reduce the instance overhead\).

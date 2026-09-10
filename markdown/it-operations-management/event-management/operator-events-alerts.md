@@ -1,6 +1,6 @@
 ---
 title: An overview of alerts for Event Management operators
-description: As an Event Management operator, you need to understand how an alert is generated from an event, what to look for in an alert, and how alerts can be grouped together.
+description: Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-events-alerts.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIO
 
 # An overview of alerts for Event Management operators
 
-As an Event Management operator, you need to understand how an alert is generated from an event, what to look for in an alert, and how alerts can be grouped together.
+Understand how alerts are generated from events, what to look for in an alert, and how alerts can be grouped together.
 
 This is the first lesson in the Event Management tutorial.
 
@@ -71,7 +71,7 @@ Lesson 4
 
 \[Omitted image "operator-event-management-overview.png"\] Alt text: An operator view of Event Management
 
-As an Event Management operator, your role is to view alerts and, depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. Later in this tutorial, you will see the phases of a typical alert management process.
+As an Event Management operator, your role is to view alerts. Depending on how Event Management is implemented in your organization, take an action to help resolve the underlying issue or notify someone who can. You will see the phases of a typical alert management process later in this tutorial.
 
 ## Alert priority and severity
 
@@ -140,7 +140,7 @@ The alert no longer needs action.
 </table>
 ## Correlated alerts
 
-Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy with one root alert, called the primary alert, at the top, and other related alerts, called secondary alerts, under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
+Some alerts are related to each other. For example, if a router goes down, several separate alerts could be generated, one for each server connected to the router. All of these alerts are related, or correlated. To help you manage correlated alerts, Event Management can automatically group them and establish a two-level hierarchy. One root alert, called the primary alert, appears at the top. Other related alerts, called secondary alerts, appear under the primary alert. When you view alerts, primary alerts stand out by default so you know which alert to focus on without being distracted by the secondary alerts.
 
 In our example, if a router goes down on your network, network communication is also affected for connected servers, assuming they cannot reach any other routers. The router outage becomes the primary alert and the alerts generated on the server are secondary alerts that are correlated under the router alert.
 
@@ -156,7 +156,7 @@ An alert can flap, meaning that it gets multiple open-close events in rapid succ
 
 \[Omitted image "alert-flapping-cpu.png"\] Alt text: CPU usage
 
-For example, if a server that hosts a web service has too many active processes, it might trigger an event about excessive CPU usage. Since CPU usage can fluctuate rapidly depending on web service requests, several events might be triggered, leading to the alert being put in the flapping state. As an operator, you might need to create an incident to have the server restarted, or someone might have to reconfigure the CPU, or possibly make a hardware change on the device.
+For example, if a server that hosts a web service has too many active processes, it might trigger an event about excessive CPU usage. Since CPU usage can fluctuate rapidly depending on web service requests, several events might be triggered, leading to the alert being put in the flapping state. As an operator, you might need to create an incident to have the server restarted. Someone might have to reconfigure the CPU or make a hardware change on the device.
 
 As another example, consider a loose network cable that causes momentary, repeated network outages. The thresholds that your administrator configures might not be optimal for this kind of alert and Event Management considers it a flapping alert.
 

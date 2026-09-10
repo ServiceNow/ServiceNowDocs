@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-manufacturingcommercialoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,64 +67,13 @@ Zurich
 
 </td><td>
 
--   **[Quality issue management](https://www.servicenow.com/docs/access?context=mco-quality-issue-management&family=zurich&ft:locale=en-US)**
-
-The MCO agents portal enables the manufacturers to identify, manage, and resolve product quality issues throughout the entire life cycle, from initial detection through remediation and closure.
-
--   **[Data model](https://www.servicenow.com/docs/access?context=data-model&family=zurich&ft:locale=en-US)**
-
-The quality issue management data model facilitates the OEMs to understand the quality issue management tables and their functions.
-
--   **[Phases and Sub-phases](https://www.servicenow.com/docs/access?context=mco-phases-and-subphases&family=zurich&ft:locale=en-US)**
-
-The MCO agents portal enables the manufacturers to create phases and sub-phases within a recall campaign and launch it for selected assets, and notify the targeted dealers.
-
--   **[Pre-authorization request](https://www.servicenow.com/docs/access?context=pre-authorization-request&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to initiate the pre-authorization request to confirm whether certain parts, labor fees, or repairs are covered under a warranty or service contract.
-
--   **[Recall campaign](https://www.servicenow.com/docs/access?context=mco-rcl-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to initiate reimbursement claim requests from the OEM for the work performed on the recalled products.
-
--   **[Repair claims](https://www.servicenow.com/docs/access?context=mco-warranty-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to raise a reimbursement claim request for the repair of an equipment or product that is under a warranty contract.
-
--   **[Sales promotion](https://www.servicenow.com/docs/access?context=mco-sls-prom-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealers to raise post sales promotion claims from the OEM depending on the claim case.
-
--   **[Dealer portal](https://www.servicenow.com/docs/access?context=mco-dealer-portal&family=zurich&ft:locale=en-US)**
-
-The dealer portal helps the agent to manage the day-to-day business activities and monitor the real-time data insight.
-
--   **[Plugins installed with MCO](https://www.servicenow.com/docs/access?context=manufacturing-commercial-operations-plugins&family=zurich&ft:locale=en-US)**
-
-The new MCO plugin enables you to install the Manufacturing Commercial Operations and other dependent modules.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[MCO landing page](https://www.servicenow.com/docs/access?context=mco-landing-page&family=australia&ft:locale=en-US)**
-
-The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
-
--   **[Summarize fraudulent claim detection](https://www.servicenow.com/docs/access?context=mco-summarize-fraudulent-claim-detection&family=australia&ft:locale=en-US)**
-
-Anomaly-detection rules scan claim case lines against historical patterns and thresholds to identify fraudulent claims, flagging inflated amounts, frequency anomalies, and suspicious submission patterns. Claims meeting approval thresholds auto-approve with audit trail recording. Claims exceeding thresholds or exhibiting anomalies route to designated reviewers for investigation and disposition.
-
--   **[Create a product non-conformance case using playbook](https://www.servicenow.com/docs/access?context=mco-playbook-create-non-conformance&family=australia&ft:locale=en-US)**
-
-QIM playbook enables you to create remediation action plans and access system-recommended correction actions. It automatically triages non-conformance records, assigns owners, and creates tasks based on historical patterns.
-
--   **[FSM integration](https://www.servicenow.com/docs/access?context=mco-fsm-integration&family=australia&ft:locale=en-US)**
-
-QIM integrates with FSM to support quality actions that require on-site intervention. When an NC or QI record identifies a need for field verification, containment, or remediation action, you can create an FSM work order directly from within QIM.
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -163,7 +112,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -242,9 +194,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -252,7 +207,10 @@ Australia
 
 </td><td>
 
-Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -302,7 +260,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -310,7 +271,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -331,7 +295,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

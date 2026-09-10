@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Incident Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -26,6 +26,11 @@ Using the Wrap-up and resolve incident agentic workflow:
 3.  Check for relevant available KE articles and attach any of them to the incident record when the resolution code is Known Error.
 4.  Check for relevant available KB articles and attach any of them to the incident record.
 5.  Create a draft KB and attach it to the incident record if necessary.
+
+**Note:** You can use the Wrap up and resolve incident agentic workflow only for the following valid incidents where the agent has done investigation and troubleshooting, and must quickly wrap up the incident:
+
+-   Incidents with **In progress** state with or without resolution code and notes populated.
+-   Incidents with **Resolved** state with resolution code and notes populated and where the resolution code is other than **Know Error**.
 
 To modify the Wrap-up and resolve incident agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 

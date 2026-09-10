@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/io-query-patterns-vid-tu
 release: australia
 topic_type: task
 last_updated: "2026-02-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [query patterns, filtering records, dynamic queries, ServiceNow scripting, GlideRecord]
 breadcrumb: [IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
@@ -38,9 +38,15 @@ This query pattern model is a tool that is geared for discovering and identifyin
     -   Top 20% increase in Total Execution Time compared to previous week
     \[Omitted image "io-query-pattern-sql.png"\] Alt text: Instance Observer query patterns.
 
+    Top Transactions pull data from your instance's pattern tables to show you which operations are running most frequently and consuming the most time. Knowing your top transactions helps you identify what's normal for your instance and spot when something has changed. This module works best over longer time periods—a day or several days—but you can also use it for shorter periods when investigating specific performance events.
+
+    Longer durations \(days or weeks\) show you trends over time. Shorter periods help when you're investigating a specific issue.
+
 4.  Select the **Menu** list and select each of the options to view the details in the instance.
 
 5.  Select the **Detailed** tab to display the breakdown details.
+
+    Review the execution count, average execution time, and how these numbers fluctuated over your selected period. A large increase in count means users are running that transaction more. If average execution time is steady and fast \(milliseconds\), it's working as expected. Wide variations in execution time may indicate occasional slow runs caused by other factors.
 
     By default all URLs or labels are sorted by **Total Execution Time**. However, you can sort them by:
 

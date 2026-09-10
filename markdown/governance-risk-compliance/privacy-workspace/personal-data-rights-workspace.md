@@ -20,7 +20,9 @@ The following image shows the Personal Data Rights workspace homepage.
 
 \[Omitted image "pdr-workspace.png"\] Alt text: PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.
 
-From the homepage you can create a new PDR request. The following are the sections on the home page.
+From the homepage you can create a new PDR request. Use the **Explore** button to analyze personal data rights using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer.md).
+
+The following are the sections on the home page.
 
 ## Overview section
 

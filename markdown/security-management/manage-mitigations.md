@@ -28,11 +28,9 @@ Role required:
 
     The mitigations are now listed.
 
-2.  Click a mitigation to view all the associated information.
+2.  Select a mitigation to view all the associated information.
 
-    In the following illustration, you can view the details for Access Token Manipulation mitigation, its ID, source, and other related information.\[Omitted image "mitre-mitigation-overview.gif"\] Alt text: View the details for the mitigation and other related information.
-
-3.  To view how these objects are related, click **Show Relationships**.
+3.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next

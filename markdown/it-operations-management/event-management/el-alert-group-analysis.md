@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Work with alert groups, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing an alert group analysis by ServiceNow Otto in Express List
@@ -28,7 +28,7 @@ The AI-driven alert group analysis offers a simplified, human-readable descripti
 
 -   **Log Analytics alert groups**
 
-    When Event Management identifies multiple Log Analytics alerts that are related in important ways, it groups them into a Log Analytics group. The system generates a Log Analytics group when the Log Analytics alerts share one or more relationships related to time, metadata, message text, and trend. The alert analysis for Log Analytics alert groups is based on the analysis of anomaly information provided by Health Log Analytics, and on the descriptions, CIs, and tags of the alerts in the group.
+    When Event Management identifies multiple Log Analytics alerts that are related in important ways, it groups them into a Log Analytics group. The system generates a Log Analytics group when the Log Analytics alerts share one or more relationships related to time, metadata, message text, and trend. The alert analysis for Log Analytics alert groups is based on anomaly information from Health Log Analytics. It also considers the descriptions, CIs, and tags of the alerts in the group.
 
 -   **Network Traffic-based alert groups**
 
@@ -40,7 +40,7 @@ The AI-driven alert group analysis offers a simplified, human-readable descripti
 
 -   **Automated alert groups**
 
-    Automated alert grouping uses aggregation algorithms to identify and group related alerts that share the same alert identifier, such as the CI and metric identifier, and that occurred multiple times within a similar time frame. The algorithms rely on historical data to detect recurring patterns and organize similar alerts. Alert analysis for automated alert groups provides details about the CI or time-based patterns that contributed to the grouping. The analysis also includes a summary of historical incidents related to the group, including frequency, criticality, and resolution strategies.
+    Automated alert grouping uses aggregation algorithms to identify and group related alerts that share the same alert identifier, such as the CI and metric identifier. The algorithms group alerts that occurred multiple times within a similar time frame and rely on historical data to detect recurring patterns. Alert analysis for automated alert groups provides details about the CI or time-based patterns that contributed to the grouping. The analysis also includes a summary of historical incidents related to the group, including frequency, criticality, and resolution strategies.
 
 
 -   **[View an alert group analysis by ServiceNow Otto in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/el-alert-group-analysis-view.md)**  

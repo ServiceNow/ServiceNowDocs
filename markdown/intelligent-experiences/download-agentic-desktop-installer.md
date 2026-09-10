@@ -1,24 +1,25 @@
 ---
-title: Download AI Desktop Actions installer
-description: Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running desktop actions.
+title: Download AI Desktop Actions installer for defined desktop actions
+description: Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running defined desktop actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/download-agentic-desktop-installer.html
 release: australia
 topic_type: task
 last_updated: "2025-11-02"
 reading_time_minutes: 2
-breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Download AI Desktop Actions installer
+# Download AI Desktop Actions installer for defined desktop actions
 
-Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running desktop actions.
+Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running defined desktop actions.
 
 ## Before you begin
 
+-   Perform this task in the ServiceNow instance.
 -   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
--   Ensure that you install the AI Desktop Actions installer using Windows administrator privileges.
--   Ensure that the Desktop-in-Desktop settings are configured correctly.
+-   Confirm that you install the AI Desktop Actions installer using Windows administrator privileges.
+-   Confirm that the Desktop-in-Desktop settings are configured correctly.
 -   Add the end users who interact with the Execution workspace of AI Desktop Actions to the Remote Desktop Users group on the target machine and provide Remote Desktop access permissions for seamless automation execution.
 
     If your organization uses Group Policy, add the end users to a Microsoft Active Directory group that is permitted to use Remote Desktop through Group Policy on each target machine where desktop actions run.
@@ -67,7 +68,7 @@ If AI Desktop Actions is not installed using Windows administrator privileges, y
 
 ## What to do next
 
-Use AI Desktop Actions to design desktop actions. For more information, see [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Use AI Desktop Actions to design defined desktop actions. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
 **Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-defined-path-da.md)
 

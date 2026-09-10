@@ -26,11 +26,11 @@ Role required:
 
 You can extend the Malware, Group, Mitigation, and Tool objects to a technique in the MITRE-ATT&amp;CK repository.
 
-You can create a new object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module, but you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
+You can create an object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module. But, you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
 
 If you map the relationship type between an existing technique and an existing object, then you must define the technique as the target object and the object as the source object. To do so, navigate to the **IoC Repository** &gt; **Object-Object Relationships** module.
 
-You can create a group and associate it with an attack pattern, but in the MITRE ATT&amp;CK Repository, you can only establish the relationship between the group and the attack pattern. To define the object-to-object relationship type, you must do so in the IoC Repository.
+You can create a group and associate it with an attack pattern. But, in the MITRE ATT&amp;CK Repository, you can only establish the relationship between the group and the attack pattern. To define the object-to-object relationship type, you must do so in the IoC Repository.
 
 **Note:** Any customizations that you make to the objects are saved during scheduled updates.
 
@@ -38,15 +38,9 @@ You can create a group and associate it with an attack pattern, but in the MITRE
 
 1.  Navigate to **Threat Intelligence** &gt; **MITRE ATT&amp;CK Repository** &gt; **Techniques**.
 
-2.  Click a techniques or sub-technique to view all the associated information with this technique.
+2.  Select a techniques or sub-technique to view all the associated information with this technique.
 
-    In the following illustration, you can see that the Botnet \(T1584.005\) technique is not associated with any group. If you have additional information about a technique or sub-technique, you can enrich it by adding or modifying the information.\[Omitted image "mitre-botnet.png"\] Alt text: Associate a Botnet with another object.
-
-3.  Click a related list to enrich its data to associate it with a new group.
-
-    In the following illustration, a group, Custom1, has been associated with the Botnet sub-technique.
-
-    \[Omitted image "mitre-extend-object.gif"\] Alt text: Extend MITRE object information by enriching its data.
+3.  Select a related list to enrich its data to associate it with a new group.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)

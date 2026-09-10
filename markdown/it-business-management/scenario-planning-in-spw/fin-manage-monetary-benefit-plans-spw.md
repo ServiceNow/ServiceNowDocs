@@ -22,6 +22,10 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning**.
@@ -34,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d287991e124">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d298253e138">
 
 Option
 
-</th><th align="left" id="d287991e127">
+</th><th align="left" id="d298253e141">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d287991e133">
+</th></tr></thead><tbody><tr><td id="d298253e147">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d287991e157">
+</td></tr><tr><td id="d298253e171">
 
 **Using finanicals record page**
 

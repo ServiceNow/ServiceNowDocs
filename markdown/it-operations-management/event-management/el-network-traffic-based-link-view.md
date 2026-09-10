@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Work with alert groups, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert links in network traffic-based alert groups

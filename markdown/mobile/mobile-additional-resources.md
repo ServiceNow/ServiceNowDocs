@@ -112,7 +112,7 @@ Release notes
 
 </td><td>
 
-
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/mobile-rn.md)
 
 </td></tr><tr><td>
 

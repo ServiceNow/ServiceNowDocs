@@ -38,9 +38,9 @@ A **Credential ID** is generated, which is required when creating configurations
 **Related topics**  
 
 
-[Configure Amazon Web Service Credentials for Cloud License Estimator]()
+[Configure AWS credentials for Cloud License Estimator]()
 
-## Create Azure Account Configuration and generate CLE reports
+## Create an Azure account configuration and generate CLE reports
 
 The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
 

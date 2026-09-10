@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Order case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Request order changes using ServiceNow Otto Virtual Agent
@@ -36,7 +36,7 @@ When you submit a request through the Virtual Agent, the AI agent performs the f
 -   Confirms the order number and your change request.
 -   After you confirm all the requested changes, creates an order case in the ServiceNow CRM and stamps the requested changes on the requested fields of the order case lines.
 -   Calls the configured scripted extension points to validate inventory availability, quantity feasibility, shipping location feasibility, and quote thresholds for the request. For example, the AI agent calls orderExceptionCheckEP to check whether the ordered item is in stock for early delivery, or ThresholdCheckForQuote to determine whether a quantity change requires a quote. If you approve the validation results, the AI agent stamps the approved values on the approved fields of the order case lines.
--   Posts the summary of the conversation as a work note in the order case, which can only be viewed by the agents from the CSM Configurable Workspace.
+-   Posts the summary of the conversation as a work note in the order case, which can only be viewed by the agents from the CRM Workspace.
 
 ## Procedure
 
@@ -84,5 +84,5 @@ When you submit a request through the Virtual Agent, the AI agent performs the f
     If you reject the quote, the AI agent offers to connect you to a live agent and the order case remains in progress.
 
 
-**Parent Topic:**[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+**Parent Topic:**[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-self-service.md)
 

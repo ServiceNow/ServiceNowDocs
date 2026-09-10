@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2026-06-11"
 reading_time_minutes: 3
-breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure guest user access to playbooks
@@ -20,7 +20,7 @@ Set up a playbook, public audience record, and UI experience so that guest users
 
 Role required: playbook.admin, pd\_author, playbook.write, ui\_builder\_admin, admin
 
-An admin must create a public table to receive guest-submitted records. The public table must be registered in `sys_public`, have the **public** role applied, and have create ACLs configured. For more information, see **Configure tables to work with guests**.
+An admin must create a public table to receive guest-submitted records. The public table must be registered in `sys_public`, have the **public** role applied, and have create ACLs configured.
 
 **Note:** Standalone playbooks can't be configured for guest user access. The playbook must use a public table as its parent table.
 
@@ -41,7 +41,7 @@ An admin must create a public table to receive guest-submitted records. The publ
         |Type|Select **Standard playbook**.|
         |Playbook name|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
         |Now assist input|Enter a short description about your playbook.|
-        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
+        |Application|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
         |Execution type|Select **Record driven** to tie the playbook to a public record. You can't make a standalone playbook public.|
         |Parent table|Set the parent table to the public table you created as the prerequisite. This field is activated when you select Record driven Execution type.|
         |Allow this playbook to be publicly accessible and embedded on public pages|Select this option to permit embedding the playbook on public pages. The playbook can be made public only after the Portal Playbook widget is configured for public access. For more information, see [Portal Playbook Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/portal-playbook-widget.md).|

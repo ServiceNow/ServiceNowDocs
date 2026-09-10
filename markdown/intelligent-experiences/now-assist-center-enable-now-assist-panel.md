@@ -51,5 +51,3 @@ The ServiceNow Otto panel is enabled and available globally via the ServiceNow O
 
 [Confirm installation of AI Admin Center]()
 
-[Setting up automation opportunity discovery in AI Admin Center]()
-

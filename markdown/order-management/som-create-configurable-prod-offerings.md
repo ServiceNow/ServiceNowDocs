@@ -26,7 +26,7 @@ A configurable product offering, also called a complex product offering, has mul
 
 1.  Create the configurable product offering.
 
-    1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+    1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
     2.  Create an offering or copy an existing offering to make a new offering.
 

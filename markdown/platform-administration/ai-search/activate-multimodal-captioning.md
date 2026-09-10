@@ -34,7 +34,7 @@ As an example, an attachment might include an image that yields the generated ca
 
 **Note:** Multimodal captioning is only supported for Knowledge \[kb\_knowledge\] table records from the Knowledge Table indexed source and for content retrieved by external content connectors.
 
-The multimodal captioning feature has been validated and tested for English-language content. For content in other languages, it may function but has not been evaluated for caption quality or accuracy. Multimodal captioning for non-English content is not currently supported.
+The multimodal captioning feature has been validated and tested for English-language content. For content in other languages, it may function but hasn't been evaluated for caption quality or accuracy. Multimodal captioning for non-English content is not currently supported.
 
 Multimodal captioning runs as a separate process after text indexing is completed for the attachment in question. Records with attachments that contain images, tables, charts, and other visual elements won't show generated captions until multimodal captioning completes.
 

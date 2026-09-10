@@ -28,7 +28,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-AI analyzes project data to identify potential risks and presents them for project manager review. AI-suggested risks are generated as part of the project insights cadence and appear in the AI Risks menu for project managers to accept or reject. AI generates risks by analyzing data from project insights, resources, financials, and milestones.
+AI analyzes project data to identify potential risks and presents them for project manager review. AI-suggested risks are generated as part of the project insights cadence and appear in the AI Identified Risks menu for project managers to accept or reject. AI generates risks by analyzing data from project tasks, resources, financials, and milestones.
 
 The AI Identified Risks menu is visible only to project managers when the risk generation skill is active. If no risks are identified during generation or regeneration, the AI Identified Risks page displays an empty state where you can generate risks again.
 
@@ -38,20 +38,22 @@ The AI Identified Risks menu is visible only to project managers when the risk g
 
 2.  From Project Workspace, [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md) or open an existing project.
 
-3.  Select **AI Identified Risks** from the navigation menu.
+3.  Select **AI-Identified Risks** from the RIDAC menu.
 
-4.  Review the AI-suggested risks in the list and perform one of these actions:
+4.  Review the AI generated risks in the list and perform one of these actions:
 
     -   Regenerate: When you select regenerate option, the risk is generated again and added to the AI identified risks list. AI-generated risks appear in AI draft state.
     -   Accept: When you accept a risk, the approved risk appear in the RIDAC list and its state moves from AI Draft to Pending.
     -   Reject: When you reject a risk, the rejected risk is removed or hided from the AI identified risks list and its state moves to Closed skipped. The rejected risks are retained so that AI does not generate the same risk again.
     If no risks are identified during generation or regeneration, the AI identified risks page displays an empty state. In this case, you can't regenerate risks immediately and are advised to revisit the page later as the project evolves.
 
+    Once the risks are accepted, a confirmation message includes a view RIDAC link that opens the accepted risks in RIDAC by Type view page.
+
 5.  Select **Generate AI Risks** if no risks are identified for the project.
 
     \[Omitted image "ai-generated-risks.png"\] Alt text: AI-generated risks for a project.
 
-    You can select any task ID, resource ID, or other reference in the AI Rationale column of AI project risks. This navigates directly to the related record without searching for the ID manually.
+    You can select any task ID, resource ID, or other reference in the AI Rationale column of AI-identified risks. This navigates directly to the related record without searching for the ID manually.
 
 
 **Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-ridac-pw.md)

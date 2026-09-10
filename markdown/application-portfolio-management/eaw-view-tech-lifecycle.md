@@ -26,6 +26,8 @@ The TLM lifecycle data enables you to manage your technology portfolio effective
 
 **Note:** For each TLM lifecycle phase, the end date of one phase is the start date of the next phase. For information on lifecycle end-date calculation logic, see [View TLM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md).
 
+Each software technology lifecycle record also shows which TRM product and product lifecycle govern its obsolescence status. For field details, see [Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
@@ -55,4 +57,6 @@ The TLM lifecycle data enables you to manage your technology portfolio effective
 [View TLM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 
 [View TLM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tech-risk.md)
+
+[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-governing-fields.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/manage-mitr
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -28,11 +28,9 @@ Role required:
 
     You can view the listed tools.
 
-2.  Click a source object to view all the associated information.
+2.  Select a source object to view all the associated information.
 
-    In the following illustration, you can view the details for the Red Alert 2.0 object, its ID, source, and other related information.\[Omitted image "mitre-relationships-stix.gif"\] Alt text: View the object to oject relationship and other related information.
-
-3.  To view how these objects are related, click **Show Relationships**.
+3.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next

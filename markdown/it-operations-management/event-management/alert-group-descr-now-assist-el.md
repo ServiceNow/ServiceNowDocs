@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert analysis, alert group, summary, description]
-breadcrumb: [Work with alert groups, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Save the ServiceNow Otto alert analysis as an alert group description

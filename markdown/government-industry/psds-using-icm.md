@@ -18,7 +18,7 @@ As an investigator or supervisory agent, you can use the Investigative Case Mana
 
 The Investigative Case Management experience begins on the ICM landing page for investigators and supervisors. Investigative organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-The following is an example of how the default landing page appears in the CSM Configurable Workspace ICM workspace for an investigator or supervisory agent.
+The following is an example of how the default landing page appears in the CRM Workspace ICM workspace for an investigator or supervisory agent.
 
 \[Omitted image "psds\_icm\_landing\_page.png"\] Alt text:
 

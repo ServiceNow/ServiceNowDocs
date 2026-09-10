@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you’re working with and select the **Quote Line Items** tab.
 

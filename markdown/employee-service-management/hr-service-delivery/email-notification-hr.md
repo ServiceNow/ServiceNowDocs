@@ -69,9 +69,7 @@ Sends an email notification when comments are added to an HR case.
 Opened for, Watch list
 
 </td></tr></tbody>
-</table>**Important:** These email notifications are automatically set up for a new user of HR Service Delivery.
-
-If you are an existing user of HR Service Delivery on a release prior to San Diego, upgrade to Employee Center or Employee Center Pro or install the Employee Experience Foundation plugin from ServiceNow Store to start using these email notifications.
+</table>**Important:** These email notifications are automatically set up for new users. Existing users must upgrade or install the Employee Experience Foundation plugin to enable these notifications.
 
 **Parent Topic:**[HR notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/HRNotifications.md)
 

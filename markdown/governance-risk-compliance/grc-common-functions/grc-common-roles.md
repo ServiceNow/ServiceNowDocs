@@ -251,6 +251,36 @@ None
 
 </td></tr><tr><td>
 
+GRC Issue Workflow Admin\[sn\_grc\_issue\_mgmt.issue\_workflow\_admin\]
+
+</td><td>
+
+Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, configure approval workflows for issues, and perform all actions available to the issue workflow reader role.
+
+</td><td>
+
+-   playbook.admin
+-   sn\_grc\_workspace.state\_model\_admin
+-   sn\_grc\_appr.admin
+-   sn\_rec\_pg\_vertical.admin
+-   sn\_grc\_issue\_mgmt.issue\_workflow\_reader
+
+</td></tr><tr><td>
+
+GRC Issue Workflow Reader\[sn\_grc\_issue\_mgmt.issue\_workflow\_reader\]
+
+</td><td>
+
+Read-only access to issue workflow configuration. Users with this role can view issue state models and the issue vertical view, and access the GRC workspace as a standard user. This role does not grant permission to modify workflow configuration.
+
+</td><td>
+
+-   sn\_rec\_pg\_vertical.reader
+-   sn\_grc\_workspace.state\_model\_reader
+-   sn\_grc\_workspace.user
+
+</td></tr><tr><td>
+
 Workspace task reader \[sn\_grc\_workspace.task\_reader\]
 
 </td><td>

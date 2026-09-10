@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-serviceportal-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,14 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
-
-The Service Portal Approval Info Record widget shows details about the approval request and a full record for an approval including the activity stream.
-
-The Approval Info Record widget and the new Now Assist Approval Assistance AI agent maintain parity. To use the new Approval Info Record widget, activate the Approval Details Page Route Map, and uptake the Approval Info Record widget in your custom page.
-
-The new Now Assist Approval Assistance AI agent allows you to see your pending approvals, as well as the details about your pending approvals. For more information, see [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US).
-
 -   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
 
 Configure the Service Portal Approval Configuration record to make the Approval Assistance AI agent and Approval Info Record widget work better for your specific use case.
@@ -82,6 +74,11 @@ Configure the Service Portal Approval Configuration record to make the Approval 
 -   **[Configure widget loading order in Service Portal](https://www.servicenow.com/docs/access?context=configure-widget-loading-order&family=zurich&ft:locale=en-US)**
 
 As an admin, configure the widget loading order to defer their loading. This feature enables faster loading of the page and makes the widgets available for interaction as they load, thus improving the user experience.
+
+
+ -   **[Deferred loading of AI Search assets in Service Portal](https://www.servicenow.com/docs/access?context=defer-loading-ais-sp&family=zurich&ft:locale=en-US)**
+
+Enable deferred loading of AI Search assets on the Service Portal page until the main content is loaded. This feature helps the page load faster and improves user experience.
 
 
 </td></tr><tr><td>
@@ -122,7 +119,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -130,7 +130,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&family=australia&ft:locale=en-US)**
+
+Create theme variants for Service Portal themes to tailor the visual experience for your users, which can help you match your brand.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -209,7 +212,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -217,7 +223,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -296,7 +305,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -304,12 +317,12 @@ Australia
 
 </td><td>
 
--   **[Enable dark theme](https://www.servicenow.com/docs/access?context=enable-dark-theme&family=australia&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Enable dark theme](https://www.servicenow.com/docs/access?context=enable-dark-theme&family=australia&ft:locale=en-US)**
 
 Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
 
-
--   **[\[Placeholder link text to key t\_ConfigureAPage\]](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&family=australia&ft:locale=en-US)**
+    -   **[\[Placeholder link text to key t\_ConfigureAPage\]](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&family=australia&ft:locale=en-US)**
 
 Add and edit more semantic tags within the Service Portal Designer to define key areas of a portal to support clearer navigation and descriptions for screen readers. This update helps users who are blind or have low vision by making it easier for assistive technology to identify and understand different sections of each page.
 

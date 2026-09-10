@@ -1,6 +1,6 @@
 ---
 title: Getting started with Service Operations Workspace for ITSM
-description: Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
+description: Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/getting-started-sow.html
 release: australia
@@ -14,23 +14,16 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM, Service Operatio
 
 # Getting started with Service Operations Workspace for ITSM
 
-Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
+Set up Service Operations Workspace by procuring the required license, configuring the Admin Center, and assigning the workspace to your agents.
 
-## Install Service Operations Workspace for ITSM applications
+Procure the ITSM Standard license or above for ServiceNow IT Service Management applications.
 
-Starting with the Australia release, Service Operations Workspace for ITSM provides two application tiers:
+## Setup journey
 
--   SOW ITSM Applications: Incident Management, Request Management
--   SOW ITSM Advanced Applications: Change Management, Problem Management, Major Incident Management, On-Call Scheduling, Walk-up Experience
-
-Upgrading an existing instance to Australia:
-
--   Family release upgrade: Your SOW applications upgrade automatically to the default version for the Australia release. No additional steps are required.
--   Store upgrade to a specific version: Install both SOW ITSM Applications and SOW ITSM Advanced Applications separately from the ServiceNow® Store.
-
-If you're setting up a new instance starting Australia, the SOW ITSM Applications are installed by default. To access SOW ITSM Advanced Applications, install them separately from the ServiceNow® Store.
-
-**Note:** Check your entitlements to determine whether you have access to SOW ITSM Advanced Applications.
+1.  Procure the ITSM Standard license or higher.
+2.  Activate the Service Operations Workspace.
+3.  Configure the [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/admin-center-sow.md).
+4.  Assign the workspace to your agent groups.
 
 ## Service Operations Workspace Admin Center
 

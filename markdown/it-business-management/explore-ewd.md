@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/explore-ewd.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
 
@@ -62,13 +62,15 @@ The following examples show how partition access works at runtime:
 -   A user assigned to the HR L&amp;D partition can access only HR L&amp;D records. No other partitioned data is visible anywhere in the application.
 -   A user with roles for multiple partitions, such as a portfolio lead, can access records from all assigned partitions across any view — workspaces, list views, search results, or dashboards — with no duplication or data merging.
 
+Extended Security for Enterprise-Wide Deployment \(Extended Security for EWD\) provides additional security for partitioned tables. It extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. For details, see [Additional security with Extended Security for EWD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/additional-security-with-extended-security-ewd.md).
+
 ## Workspace support
 
 EWD partition enforcement applies across the following workspaces:
 
 -   Project Workspace — Partition enforcement applies across all tabs including Details, Planning, Resources, Financials, RIDAC, and Status Reports.
 -   Portfolio Planning Workspace \(PPW\) — Partition enforcement applies to projects, demands, roadmaps, scenario planning, financial planning, resource capacity, and dashboards.
--   Strategic Planning Workspace \(SPW\) — Partition enforcement applies to planning item types — project and demand — when the **ServiceNow Internal** Alignment integration is enabled. When a user populates the partition criteria field on either the planning item or its linked execution record, the partition details are stamped on both records. This bidirectional behavior ensures that strategic and operational teams work from the same data while maintaining departmental data separation.
+-   Strategic Planning Workspace \(SPW\) — Partition enforcement applies to planning item types — project and demand — when the **ServiceNow Internal** Alignment integration is enabled. When a user populates the partition criteria field on either the planning item or its linked execution record, the partition details are stamped on both records. This bidirectional behavior verifies that strategic and operational teams work from the same data while maintaining departmental data separation.
 -   Resource Management Workspace — Partition enforcement applies to resource plans, allocations, capacity views, and time cards linked to partitioned records.
 
 ## EWD roles
@@ -95,4 +97,19 @@ Partition enforcement applies to classic form views, list views, search results,
 -   Changing partition criteria after data has been populated requires deleting and recreating the affected partitions.
 -   Partitioning is supported only on pm\_project, pm\_portfolio, dmn\_demand, and pm\_program.
 -   Partition enforcement does not apply to indicator-based reports and widgets that calculate scores from a separate table. Users may see unfiltered data in indicator-based widgets regardless of their partition assignment.
+
+## Comparing EWD with Extended Security for EWD
+
+-   EWD: Create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish the organizational plans and drive business outcomes.
+-   Extended Security for EWD: Automate the actual value of your targets by collecting the actuals from different target sources such as benefit plans, cost plans, assessments/surveys, and PA Indicators.
+
+|Feature|Enterprise-Wide Deployment|Extended Security for Enterprise-Wide Deployment|
+|-------|--------------------------|------------------------------------------------|
+|[Create and configure partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Assign partition role for access to the partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-partition-role-ewd.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Assign PMO role for visibility across all partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/assign-pmo-roles-for-visibility-across-all-partitions.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|[Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md)|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+
+**Note:** The Extended Security for Enterprise-Wide Deployment application is an extension to the Enterprise-Wide Deployment application. When you install the Enterprise-Wide Deployment application, you get all the features of Enterprise-Wide Deployment and the additional security for partitioned tables feature.
 

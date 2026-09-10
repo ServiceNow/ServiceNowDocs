@@ -56,7 +56,7 @@ These properties determine the security policy for the embedded chat widget, nam
 Configure the portable Virtual Agent chat widget to run Virtual Agent on third-party web pages.
 -   **[Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md)**  
 To use the portable chat widget for Virtual Agent on third-party web pages, add the necessary code to your web page.
--   **[Embed the Virtual Agent chat widget in an external web page \(legacy method\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-standalone-client.md)**  
+-   **[Embed the Virtual Agent chat widget in an external web page \(legacy method for standard chat\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-standalone-client.md)**  
 Load the Virtual Agent chat widget interface in an external web page by using an inline frame element \(iframe\). You can also optionally enable the single sign-on \(SSO\) authentication process to run automatically for guest users who are using the chat widget and are not logged in.
 
 **Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)

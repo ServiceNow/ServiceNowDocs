@@ -8,7 +8,7 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: workspace\_admin or ui\_builder\_admin​
 
@@ -52,15 +54,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d146020e216">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d148333e232">
 
 To Attach
 
-</th><th align="left" id="d146020e219">
+</th><th align="left" id="d148333e235">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d146020e225">
+</th></tr></thead><tbody><tr><td id="d148333e241">
 
 **The __CARD\_CLICKED__ event**
 
@@ -72,7 +74,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d146020e272">
+</td></tr><tr><td id="d148333e288">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 

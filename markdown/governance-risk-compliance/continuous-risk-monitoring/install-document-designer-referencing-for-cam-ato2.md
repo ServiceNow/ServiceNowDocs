@@ -7,7 +7,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Configuring ATO artifacts report templates, Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -39,6 +39,8 @@ For detailed instructions on how to deploy the manifest file, see the [Deploy ad
 
 To configure the HTTP response headers for add-in for Microsoft Word in the browser, see the [Response header resolution \[KB1434453\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1434453) article in the Now Support Knowledge Base.
 
+If you encounter a security constraint error during sign-in after installing the add-in, see the [Known error: Scoped UI page \(sn\_outlook\_addin\_OutlookLogin\) inaccessible without login in Australia \[KB3134148\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3134148) article in the Now Support Knowledge Base. This affects Australia Patch 3 and later, and Zurich Patch 10 and later.
+
 -   **[Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md)**  
 There are several properties that get installed with the Document designer plugin. These properties help to control the various aspects of how the plugin works.
 
@@ -49,5 +51,5 @@ There are several properties that get installed with the Document designer plugi
 **Related topics**  
 
 
-[AI reporting assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
+[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)
 

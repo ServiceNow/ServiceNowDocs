@@ -23,3 +23,10 @@ The agent supports the following operations on opportunity records and related e
 -   Create: add opportunities, contacts, tasks, touchpoints, and competitors.
 -   Delete: remove junction or child records such as opportunity competitors and associated contacts. Parent records such as the opportunity itself, the contact record, or the product are never deleted.
 
+**Related topics**  
+
+
+[Manage opportunity records using an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-opportunity-records.md)
+
+[Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-ai-capabilities-sales-crm.md)
+

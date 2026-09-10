@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforfsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -83,33 +83,12 @@ Access Now Assist Virtual Agent from a primary action button in the ServiceNow A
 
 Use voice input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app. Tap the microphone icon to dictate messages instead of typing.
 
--   **[AI agent: Create Work Order](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
-
-You can leverage AI to create work orders from a written description of the issue. The Create Work Order AI agent is available through the Now Assist panel on platform and through the ServiceNow Agent mobile app.
-
--   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
-
--   **[Custom template and custom prompt support](https://www.servicenow.com/docs/access?context=customize-a-skill&family=zurich&ft:locale=en-US)**
-
-As an admin, you can clone the KB generation skill and customize the input fields. You can also clone the Work order task summarization skill, then access the skill in the Now Assist skill kit, and update the prompts.
-
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[AI agent: Parts Manager](https://www.servicenow.com/docs/access?context=fsm-ai-agent-parts-manager&family=australia&ft:locale=en-US)**
 
@@ -147,13 +126,18 @@ Zurich
 
 </td><td>
 
--   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
+-   **[AI visual indicators](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)**
+
+Consistent gradient styles indicate when AI is assisting or augmenting an experience. Gradients appear across AI-powered features in Workspace, UI16, and mobile interfaces. Gradients subtly animate during AI processing and return to a static state when complete.
+
+-   **[Updated icons in Now Assist Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)**
+
+The Now Assist Virtual Agent interface includes updated icons for web search, photo upload, and microphone functions.
+
+
+ -   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-use-cases&family=zurich&ft:locale=en-US)**
 
 The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
-
--   **[Removed prompt headers](https://www.servicenow.com/docs/access?context=cust-now-assist-fsm-wot-summarization-skill&family=zurich&ft:locale=en-US)**
-
-The prompt headers have been removed from the work order summarization skill to support third-party large language models. You can now customize prompts via a hyperlink to the Now Assist skill.
 
 
 </td></tr><tr><td>
@@ -162,7 +146,20 @@ Australia
 
 </td><td>
 
--   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-create-work-order&family=australia&ft:locale=en-US)**
+-   **[Primary action button for Now Assist Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US)**
+
+Access Now Assist Virtual Agent from a primary action button in the ServiceNow Agent mobile app navigation bar. Administrators can configure this button to launch Now Assist Virtual Agent or another global function. When configured for Virtual Agent, tapping the button opens Now Assist without additional navigation steps.
+
+-   **[AI visual indicators](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US)**
+
+Consistent gradient styles indicate when AI is assisting or augmenting an experience. Gradients appear across AI-powered features in Workspace, UI16, and mobile interfaces. Gradients subtly animate during AI processing and return to a static state when complete.
+
+-   **[Updated icons in Now Assist Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US)**
+
+The Now Assist Virtual Agent interface includes updated icons for web search, photo upload, and microphone functions.
+
+
+ -   **[Create Work Order AI agent performance improvements](https://www.servicenow.com/docs/access?context=fsm-ai-agent-create-work-order&family=australia&ft:locale=en-US)**
 
 The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
 
@@ -244,7 +241,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -252,7 +252,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -273,7 +276,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The ServiceNow Otto for FSM application requires Field Service Management.
+
 
 </td></tr><tr><td>
 
@@ -281,7 +287,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 The ServiceNow Otto for FSM application requires Field Service Management.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -395,7 +404,7 @@ Zurich
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Enhance your productivity with the Create Work Order AI agent, which allows users to initiate work orders using AI to process descriptions from text.
 
- See [ServiceNow Otto for FSM](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -409,7 +418,7 @@ Australia
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Experience updated visual indicators with consistent AI gradients across platform, workspace, and mobile interfaces.
 
- See [ServiceNow Otto for FSM](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/delta-zurich-australia/rn-combined-intro.md)

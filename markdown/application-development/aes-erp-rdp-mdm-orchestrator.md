@@ -1,19 +1,30 @@
 ---
-title: MDM Orchestrator rapid deployment pack
-description: MDM Orchestrator, an App Engine for ERP rapid deployment pack, manages the full life cycle of master data records in your ERP system.
+title: MDM Orchestrator Rapid Deployment Pack
+description: MDM Orchestrator, an App Engine ERP Rapid Deployment Pack, manages the full life cycle of master data records in your ERP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/aes-erp-rdp-mdm-orchestrator.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-22"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-keywords: [app, engine, erp, rapid, deployment, pack, mdm, master data]
-breadcrumb: [Explore, App Engine for ERP rapid deployment packs, Building low-code applications, Developing your application, Building applications]
+keywords: [app, engine, sap, erp, rapid, deployment, pack, master data management, MDM, agentic, manufactur, operation, template, templatized, business, workflow]
+breadcrumb: [Explore, App Engine ERP Rapid Deployment Packs, Building low-code applications, Developing your application, Building applications]
 ---
 
-# MDM Orchestrator rapid deployment pack
+# MDM Orchestrator Rapid Deployment Pack
 
-MDM Orchestrator, an App Engine for ERP rapid deployment pack, manages the full life cycle of master data records in your ERP system.
+MDM Orchestrator, an App Engine ERP Rapid Deployment Pack, manages the full life cycle of master data records in your ERP system.
+
+## Master Data Management basics
+
+Master Data Management acts as the single source of truth so everyone in an organization uses the same correct information by:
+
+-   Gathering data from every department.
+-   Cleaning up mistakes such as spelling errors and duplicates.
+-   Storing the information centrally.
+-   Sharing updates.
+
+Sharing updates.
 
 ## MDM Orchestrator capabilities
 
@@ -42,20 +53,18 @@ The generic workflow proceeds through the following stages:
 -   The record moves to Approval Hub, where a human approver reviews it alongside all other pending approvals. The Conversational Agent is available to provide additional context about a pending request before the approver acts.
 -   After approval, MDM Orchestrator passes the record to your ERP integration layer, such as Integration Hub spokes or Zero Copy Connector for ERP, for creation in the target ERP system. MDM Orchestrator does not write directly to the ERP system.
 
-\[Omitted image "aes-erp-rdp-mdm-orchestrator-flow-infographic.png"\] Alt text: Diagram of the MDM Orchestrator workflow, from request submission through ERP integration. See the surrounding text for a description of each stage.
-
 ## Supported domains
 
 Domains are configurable. You can add or remove domains to match your organization's requirements.
 
 MDM Orchestrator supports the following domains:
 
--   Customer
--   Business Partner
--   Material
 -   Bill of Materials
--   Location
+-   Business Partner
 -   Cost Center
+-   Customer
+-   Location
+-   Material
 
-**Parent Topic:**[Exploring App Engine for ERP rapid deployment packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
+**Parent Topic:**[Exploring App Engine ERP Rapid Deployment Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-erp-rdp-explore.md)
 

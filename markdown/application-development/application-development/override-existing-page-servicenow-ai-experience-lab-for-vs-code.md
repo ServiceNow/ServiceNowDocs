@@ -21,7 +21,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow® AI Experience Lab for VS Code extension requires the following:
+The ServiceNow Lux Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -99,7 +99,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  In the ServiceNow® AI Experience Lab for VS Code extension, open an experience that extends an existing experience.
+1.  In the ServiceNow Lux Lab for VS Code extension, open an experience that extends an existing experience.
 
     For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
@@ -119,7 +119,7 @@ ServiceNow instance
 
     **Important:** The URL route must exactly match the URL route for the page that you're overriding, in order for the override to be successful.
 
-    After entering the URL route, the ServiceNow® AI Experience Lab for VS Code extension creates the folder and page file using the information you provided.
+    After entering the URL route, the ServiceNow Lux Lab for VS Code extension creates the folder and page file using the information you provided.
 
 
 ## Result

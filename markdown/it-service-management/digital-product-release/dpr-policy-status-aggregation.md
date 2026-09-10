@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
 breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
@@ -22,10 +22,13 @@ Consider a release with a primary product or service and three related products.
 
 **Note:** Removing a policy from an in-progress phase triggers automatic re-evaluation of the remaining policies. The aggregated policy status for the phase is recalculated based on the remaining policies.
 
+When a product is added to a multi-product release after the release starts, the policy status of its phase is included in the aggregated status using the same precedence order. The release automatically advances to the next phase once all products, including newly added ones, are compliant.
+
 The following table shows how the aggregated status is calculated from the status of each release.
 
 |Status for primary product or service|Status for Included product 1|Status for Included product 2|Status for Included product 3|Aggregated status on the main release|
 |-------------------------------------|-----------------------------|-----------------------------|-----------------------------|-------------------------------------|
+|In progress|Compliant|Compliant|Compliant|**In progress**|
 |Not run|Not run|Not run|Not run|**Not run**|
 |Not run|Non-compliant|Non-compliant|Non-compliant|**Not run**|
 |Not run|Compliant|Compliant|Compliant|**Not run**|

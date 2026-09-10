@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-serviceportfoliomanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -166,7 +166,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **Enhancements to the Web and installed apps monitoring setup**
+
+The process of adding an application for monitoring has been updated to enable you to choose any service from the cmdb\_ci\_service table or its child tables. The application type filed was added to the monitored applications list.
+
 
 </td></tr><tr><td>
 
@@ -293,7 +300,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -301,7 +311,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

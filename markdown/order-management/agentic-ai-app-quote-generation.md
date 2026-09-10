@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 2
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Agentic AI application for quote generation
@@ -39,4 +39,9 @@ The agent applies discounts at two levels:
 -   **Line level**: A discount applied to a specific line item.
 
 Discounts can be in percentage or absolute terms. They can be explicit where you state the amount directly, or implicit where the agent derives the discount from context such as a previously negotiated rate. The agent surfaces the applied discounts back to you as part of its response. When a discount exceeds the approval threshold, the agent notifies you and starts the approval workflow automatically.
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-quote-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-quote-ai-agent.md)**  
+
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

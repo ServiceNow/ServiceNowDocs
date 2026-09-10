@@ -1,5 +1,5 @@
 ---
-title: Generate and edit articles using Now Assist in the Knowledge Center article editor
+title: Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor
 description: This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/kc-article-editor.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Generate and edit articles using Now Assist in the Knowledge Center article editor
+# Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor
 
 This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 
@@ -40,7 +40,7 @@ Suggested reading: [Edit an article using the ServiceNow Otto context menu](http
 
     Using the Knowledge Center Article Editor helps you quickly produce high-quality, accurate, and lucid knowledge articles, saving time and improving support for your organization.
 
-    **Note:** The instruction block's content should not include any of the following tags: `img`, `video`, `audio`, `canvas`, `svg`, `iframe`, `script`, `input`, and `button`. Additionally, some elements, when selected on their own, can prevent the Now Assist icon from appearing.
+    **Note:** The instruction block's content should not include any of the following tags: `img`, `video`, `audio`, `canvas`, `svg`, `iframe`, `script`, `input`, and `button`. Additionally, some elements, when selected on their own, can prevent the ServiceNow Otto icon from appearing.
 
 
 **Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)

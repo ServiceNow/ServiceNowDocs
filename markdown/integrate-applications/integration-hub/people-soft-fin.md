@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Peoplesoft Financial spoke v1.2.1 is the latest version.
+Oracle Peoplesoft Financial spoke v1.2.1 is the latest version. For version history of the spoke, see [Oracle Peoplesoft Financial spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-peoplesoft-fin.html).
 
 ## Supported versions
 

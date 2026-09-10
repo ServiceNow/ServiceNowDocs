@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain Separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: discovery\_admin
 
 ## About this task
 
-In domain-separated environments, the domain of the user who creates a Discovery schedule typically determines where the discovered data is stored. Assigning a "Run as" user enables the discovery process to run under a different user’s domain and permissions, enabling administrators to control which domain stores the data and what resources the discovery process can access, regardless of who created the schedule.
+In domain-separated environments, the domain of the user who creates a Discovery schedule typically determines where the discovered data is stored. Assigning a "Run as" user enables the discovery process to run under a different user’s domain and permissions. This enables administrators to control which domain stores the data and what resources the discovery process can access, regardless of who created the schedule.
 
 **Note:** This procedure applies only to existing Discovery schedules. For information about creating a Discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 

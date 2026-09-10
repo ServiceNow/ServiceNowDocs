@@ -1,5 +1,5 @@
 ---
-title: Employee Slate for Moveworks
+title: EmployeeWorks Web App
 description: Employees search and take action across ServiceNow workflows and connected business applications from one AI front door on web and mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-moveworks.html
@@ -8,20 +8,20 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-24"
-reading_time_minutes: 4
-keywords: [Employee Slate for Moveworks, Moveworks AI assistant, AI front door]
-breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+reading_time_minutes: 3
+keywords: [EmployeeWorks Web App, Moveworks AI assistant, AI front door]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate for Moveworks
+# EmployeeWorks Web App
 
 Employees search and take action across ServiceNow workflows and connected business applications from one AI front door on web and mobile.
 
-Employee Slate for Moveworks combines the Moveworks AI assistant with key Employee Slate features. These features include the conversation-first home page, the interactive split view, Enterprise Search, and the Inbox.
+EmployeeWorks Web App \(built for Moveworks\) combines the Moveworks AI assistant with key EmployeeWorks Web App features. These features include the conversation-first home page, the interactive split view, Enterprise Search, and the Inbox.
 
 You start any request from one chat bar and complete the request. You can work across ServiceNow workflows and connected business applications without switching tools, opening separate forms, or filing tickets.
 
-\[Omitted image "es-moveworks-home.svg"\] Alt text: Employee Slate for Moveworks home page with the conversation interface and chat bar
+\[Omitted image "es-moveworks-home.svg"\] Alt text: EmployeeWorks Web App home page with the conversation interface and chat bar
 
 ## Quick features overview
 

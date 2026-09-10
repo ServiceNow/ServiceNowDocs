@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Automation Anywhere spoke v1.3.0 is the latest version
+Automation Anywhere spoke v1.3.0 is the latest version. For version history of the spoke, see [Automation Anywhere spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-automation-anywhere.html).
 
 ## Spoke dependencies
 

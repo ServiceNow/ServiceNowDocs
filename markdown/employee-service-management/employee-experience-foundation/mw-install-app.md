@@ -1,6 +1,6 @@
 ---
-title: Install Moveworks for Employee Center app
-description: Install and activate the Moveworks for Employee Center plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
+title: Install Otto chat application
+description: Install and activate the plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-install-app.html
 release: australia
@@ -9,12 +9,12 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-01-27"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto Chat Integration, Unified Employee Experience, Employee Service Management]
 ---
 
-# Install Moveworks for Employee Center app
+# Install Otto chat application
 
-Install and activate the Moveworks for Employee Center plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
+Install and activate the plugin to enable AI-powered conversational experience in Employee Center and Employee Center Pro.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **Applications**.
 
-2.  Find the Moveworks for Employee Center application using the filters and search bar.
+2.  Find the ServiceNow Otto Chat Integration using the filters and search bar.
 
 3.  Check for dependencies, if any, in the Review Installation Details dialog box.
 
@@ -35,7 +35,7 @@ Role required: admin
 
 ## Result
 
-The Moveworks for Employee Center application is now installed.
+The application is now installed.
 
 ## What to do next
 

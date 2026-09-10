@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Link View, mixed alert group, alert group, alert correlation, tag cluster, CMDB-based alert group, CI topology, service map, Service Operations Workspace]
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Work with alert groups, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in mixed alert groups
@@ -27,11 +27,11 @@ For more information about Link View for related groups, see [Viewing links betw
 
 \[Omitted image "link-view-mixed-group.png"\] Alt text: Sample mixed alert group in Link View
 
-The preceding figure shows the Link View of a mixed alert group. The dashed line with the number 1 between the CIs indicates that the CIs aren't connected directly but are separated by a CI in the service map in the CMDB topology. The sample also shows the defining attribute for the correlation, datacenter, linked to the relevant CIs.
+The preceding figure shows the Link View of a mixed alert group. The dashed line with the number 1 between the CIs indicates that the CIs aren't connected directly. They are separated by a CI in the service map in the CMDB topology. The sample also shows the defining attribute for the correlation, datacenter, linked to the relevant CIs.
 
 \[Omitted image "link-view-mixed-group-enhanced.png"\] Alt text: Mixed alert group with related log entities and shared impacted services in Link View
 
-The Link View for a mixed alert group that includes related log entities and shared impacted services displays connected nodes representing each correlation source and attribute, including log analytics data, CMDB information, and impacted services. This information gives operators a picture of the scope and nature of the grouping at a glance.
+The Link View for a mixed alert group that includes related log entities and shared impacted services displays connected nodes. Each node represents a correlation source and attribute, including log analytics data, CMDB information, and impacted services. This information gives operators a picture of the scope and nature of the grouping at a glance.
 
 The Link View **Display** legend lists the meaning of the symbols used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as **Correlation**. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
 

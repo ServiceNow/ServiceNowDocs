@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-04-24"
 reading_time_minutes: 2
 keywords: [personalized canvas, widgets, widget library, layout]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Personalized canvas
@@ -23,7 +23,7 @@ Each employee has a personal canvas. Employees configure the canvas within the b
 
 ## Canvas types
 
-Employee Slate supports personal and role-based canvases that adapt to individual employee needs and organizational roles.
+EmployeeWorks Web App supports personal and role-based canvases that adapt to individual employee needs and organizational roles.
 
 -   **Role-based canvas**
 
@@ -56,9 +56,9 @@ Administrators manage the canvas experience through three configuration layers:
 Administrators have controls over the canvas environment at the organizational level:
 
 -   Define mandatory widgets that appear on all employee canvases and that employees can't remove. Use mandatory widgets for compliance requirements, critical announcements, or high-priority organizational initiatives.
--   Define priority widgets that Employee Slate prepopulates on employee canvases but that employees can remove or reposition. Use priority widgets for targeted campaigns or role-specific tooling.
+-   Define priority widgets that EmployeeWorks Web App prepopulates on employee canvases but that employees can remove or reposition. Use priority widgets for targeted campaigns or role-specific tooling.
 
 ## Widget ecosystem
 
-Employee Slate includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
+EmployeeWorks Web App includes a library of predefined widgets that address common employee productivity use cases. These widgets are available for employees to add to their personal canvas and for administrators to configure as mandatory or priority widgets. Administrators extend the library with custom widgets built through the [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
 

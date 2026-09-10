@@ -212,7 +212,7 @@ Before implementing ITOM AIOps, verify that your instance has the necessary prer
 
 A well-populated Configuration Management Database \(CMDB\) is crucial to get the most out of AIOps. ITOM AIOps relies on accurate configuration item data to map events to infrastructure components, calculate service impact, and provide context for alert correlation. Use Discovery to populate your CMDB with current infrastructure data before activating AIOps applications.
 
-Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server, which is required for Event Management, and many instances of Agent Client Collector, and Health Log Analytics.
+Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server. This extension is required for Event Management and many instances of Agent Client Collector and Health Log Analytics.
 
 ServiceNow Otto for Setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the ServiceNow Otto for Setup, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md).
 

@@ -24,6 +24,8 @@ The Data Model Navigator app provides comprehensive information about CMDB table
 Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
 -   **[Business application candidate agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-ref.md)**  
 Reference information for the Business application candidate agent, including system properties, configuration limits, table names, role requirements, and operational constraints.
+-   **[CMDB MCP Server tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-mcp-server-ref.md)**  
+The CMDB Model Context Protocol \(MCP\) Server tools let an AI agent search for and create CIs, and ask questions about the CMDB data model, with example utterances for each tool.
 
 **Parent Topic:**[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 

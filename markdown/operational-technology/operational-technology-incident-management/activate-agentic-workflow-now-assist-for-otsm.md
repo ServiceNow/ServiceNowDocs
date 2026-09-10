@@ -29,7 +29,7 @@ Role required: sn\_aia.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 
 2.  Under the **Agentic workflows** tab, select the **Generate OT KB articles** agentic workflow.
 
@@ -39,9 +39,9 @@ Role required: sn\_aia.admin
 
     **Note:** In the Define who can access the agentic workflow section, a user must have the sn\_ot\_incident\_write role to access the agentic workflow.
 
-4.  In the **Add a preferred trigger** screen, ensure the **OT incident upon being resolved** trigger is set to **Active** by selecting the trigger to open the **Edit trigger** window and turning on the **Active** toggle.
+4.  In the **Add a preferred trigger** screen, confirm the **OT incident upon being resolved** trigger is set to **Active** by selecting the trigger to open the **Edit trigger** window and turning on the **Active** toggle.
 
-5.  In the **Select a UI display** screen next to the **ServiceNow Otto panel** option, select the **Display** toggle to display the conversation with the agent in the ServiceNowOtto panel.
+5.  In the **Select a UI display** screen next to the **ServiceNow Otto panel** option, select the **Display** toggle to display the conversation with the agent in the ServiceNow Otto panel.
 
 6.  Select **Save and test**.
 

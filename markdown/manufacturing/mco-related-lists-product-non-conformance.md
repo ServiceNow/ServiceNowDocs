@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [product non-conformance, related list, case task, root cause analysis, RCA, corrective actions, containment actions, Cost of Poor Quality, CoPQ, task SLA, Manufacturing Commercial Operations]
-breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Product non-conformance without playbook

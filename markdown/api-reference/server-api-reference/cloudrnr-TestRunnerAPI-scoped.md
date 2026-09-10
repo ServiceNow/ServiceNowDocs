@@ -207,7 +207,7 @@ Cancels the run job according to the given rootTrackerId instead of snboqId. Thi
 
 |Name|Type|Description|
 |----|----|-----------|
-|`rootTrackerId`|String|Sys\_id of the `sys_execution_tracker` for the run you want to cancel.|
+|rootTrackerId|String|Sys\_id of the `sys_execution_tracker` for the run you want to cancel.|
 
 |Type|Description|
 |----|-----------|
@@ -229,7 +229,7 @@ Looks up the run job according to a given rootTrackerId instead of snboqId.
 
 |Name|Type|Description|
 |----|----|-----------|
-|`rootTrackerId`|String|Sys\_id of the `sys_execution_tracker` for the run you want to look up.|
+|rootTrackerId|String|Sys\_id of the `sys_execution_tracker` for the run you want to look up.|
 
 |Type|Description|
 |----|-----------|

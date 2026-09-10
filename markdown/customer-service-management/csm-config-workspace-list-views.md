@@ -1,31 +1,31 @@
 ---
-title: CSM Configurable Workspace list views
-description: The CSM Configurable Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
+title: CRM Workspace list views
+description: The CRM Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace list views
+# CRM Workspace list views
 
-The CSM Configurable Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
+The CRM Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
 
-A list displays records from a database table. Each list includes rows and columns of data. Each row is a record in a table and each column is a field from the record. CSM Configurable Workspace uses list pages to display list information such as cases and case tasks. These pages are designed to help agents navigate, filter, and manage records.
+A list displays records from a database table. Each list includes rows and columns of data. Each row is a record in a table and each column is a field from the record. CRM Workspace uses list pages to display list information such as cases and case tasks. These pages are designed to help agents navigate, filter, and manage records.
 
-CSM Configurable Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
+CRM Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
 
 -   Work on multiple issues concurrently in an intuitive layout, reducing context and tab switching.
 -   Resolve issues faster with automated suggestions powered by machine learning.
 -   Get notified of potential major incidents based on issue frequency and impact.
 -   Keep informed of updates and surface important insights with a live activity feed and analytics.
 
-## List pages in CSM Configurable Workspace
+## List pages in CRM Workspace
 
-List pages for CSM Configurable Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
+List pages for CRM Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
 
 \[Omitted image "csm-config-ws-lists.png"\] Alt text: CSM Configurable Workspace includes several filtered lists that display database table, record, and field data
 

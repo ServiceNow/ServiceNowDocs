@@ -67,7 +67,7 @@ Role required: admin
 
 ### About this task
 
-For more information, see the [Workflow - cancelContext\(GlideRecord context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_Workflow_api.md).
+For more information, see the .
 
 ## Define an on-cancel script
 

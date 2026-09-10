@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, data, transform]
-breadcrumb: [Extracting and transforming data, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a new ERP extraction table in Zero Copy Connector for ERP

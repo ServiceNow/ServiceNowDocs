@@ -19,7 +19,7 @@ Several types of components are installed with activation of Sales Cart includin
 -   **[Components installed with Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-install-with-customer-request-for-quote.md)**  
 Several types of components are installed with activation of the Customer Request for Quote \(RFQ\) plugin, including tables, user roles, and plugins.
 -   **[Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-states.md)**  
-An RFQ can move through different states during its life cycle after being submitted by the customer based on agent activity in the CSM Configurable Workspace.
+An RFQ can move through different states during its life cycle after being submitted by the customer based on agent activity in the CRM Workspace.
 -   **[Invoice states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-states.md)**  
 Invoices move through different states during its life cycle after an accounts payable specialist processes the invoice.
 -   **[Invoice case states on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-states.md)**  

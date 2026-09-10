@@ -7,9 +7,9 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
-keywords: [KPI Template table, Threshold set, Supplier count, Recommended weight, Collection source type]
+keywords: [KPI Template table, Threshold set, Supplier count, Recommended weight, Collection source type, External source, Integration data collection]
 breadcrumb: [Primary data tables for SRPM, Supplier Relationship and Performance Management reference, Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -36,7 +36,8 @@ The KPI Template \[sn\_kpi\_template\] table contains the following fields.
 |Direction|Choice|Indicates whether the KPI should be minimized or maximised to show the ideal trend of the values.|
 |Precision|Integer|Specifies the number of decimal points to be used for data collection to ensure accuracy and consistency.|
 |Template owner|Reference|The person who owns the KPI template.|
-|Collection source type|Choice|The user persona that provides the data.|
+|Collection source type|Choice|The method used to collect KPI data. Options include Automated, Manual, and Integration. The Integration option enables automated data retrieval from external sources.|
+|External source|Reference|The external system that provides KPI data when the collection source type is Integration. This field references the ERP source table. For FedEx DataWorks integration, this field must be populated with FedEx DataWorks. This field is hidden by default on the KPI template form.|
 |Unit|Reference|Measurement unit used to quantify the KPI.|
 |Collection frequency|String|The frequency for collecting the KPI data.|
 |Instructions|Translated html|Populated in KPI collection tasks to give more context to the user providing the KPI data.|

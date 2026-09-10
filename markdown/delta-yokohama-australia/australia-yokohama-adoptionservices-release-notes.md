@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-adoptionservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -77,9 +77,7 @@ Yokohama
 
 -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.
-
-Add new steps to guided setups in progress during Playbook Experience.
+Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.Add new steps to guided setups in progress during Playbook Experience.
 
 
 </td></tr><tr><td>
@@ -90,9 +88,7 @@ Zurich
 
 -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=zurich&ft:locale=en-US)**
 
-Find the available Guided Tours that are now prominently listed in the Help Center.
-
-View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
+Find the available Guided Tours that are now prominently listed in the Help Center.View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
 
 
 </td></tr><tr><td>
@@ -125,32 +121,13 @@ Yokohama
 
 </td><td>
 
--   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
-
-Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.
-
-Set Guided Setup steps as mandatory by disabling the skip action.
-
-You can now run the Guided Setup player or builder multiple times.
-
-Select the multi-run feature while you’re configuring and executing the tasks multiple times.
-
-
 -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
 
-Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.
-
-This feature isn’t supported for non-Polaris users.
-
-
--   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
-
-Import non-English content without overriding the last uploaded language content.
-
+The Help Center panel is now attachable and detachable from the header. You can also drag and resize it after you detach it. This feature is available with a keyboard, for accessibility support.
 
 -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
 
-Create, edit, or delete Guided Tours from any scoped application including ServiceNow AI Platform.
+Guided Tours is now accessible in dark and light themes. This capability now inherits any theme-based color and scheme that you select.
 
 
 </td></tr><tr><td>
@@ -247,7 +224,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -268,7 +245,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is a ServiceNow AI Platform feature that is provided with the plugins, by default. You don’t need to activate this feature.
+
 
 </td></tr><tr><td>
 
@@ -276,7 +256,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is active by default with the plugins. Do not activate this feature explicitly.
+
 
 </td></tr><tr><td>
 
@@ -284,7 +267,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -387,13 +373,14 @@ Zurich
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
 
 Guided Tours is enhanced with more accessibility features including:
 
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+        -   Descriptive page titles
+        -   Keyboard assistance for suggesting required fields through screen reader
+        -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
 
 </td></tr><tr><td>
 
@@ -401,13 +388,14 @@ Australia
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=australia&ft:locale=en-US)**
 
 Guided Tours is enhanced with more accessibility features including:
 
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
+        -   Descriptive page titles
+        -   Keyboard assistance for suggesting required fields through screen reader
+        -   Keyboard assistance for focused user interface controls like, tool tip icons and check-boxes
 
 </td></tr></tbody>
 </table>## Localization information

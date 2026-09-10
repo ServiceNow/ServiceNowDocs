@@ -32,7 +32,7 @@ In Service Reliability Management \(SRM\), an SLO must have at least one SLI. SL
 
 Each SLI can be associated with only one SLO, helping prevent conflicting performance expectations.
 
-**Note:** SLOs can also be generated automatically using the SLO creator agent. For details, see [SLO creator agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
+**Note:** SLOs can also be generated automatically using the SLO creator agent. For details, see [Generating service level objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/now-assist-itom-slo-generation.md).
 
 ## Procedure
 
@@ -46,15 +46,15 @@ Each SLI can be associated with only one SLO, helping prevent conflicting perfor
 
 4.  In the Service Level Indicators \(SLI\) form, select the data source for your SLI.
 
-<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d393904e178">
+<table id="choicetable_bsn_r5m_dhc"><thead><tr><th align="left" id="d406644e178">
 
 Data source
 
-</th><th align="left" id="d393904e181">
+</th><th align="left" id="d406644e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d393904e187">
+</th></tr></thead><tbody><tr><td id="d406644e187">
 
 **Alerts**
 
@@ -62,7 +62,7 @@ Description
 
 Base the SLI on alerts from integrated monitoring tools.Use alerts when you want your SLI to include early warning signs and a broader view of reliability.
 
-</td></tr><tr><td id="d393904e198">
+</td></tr><tr><td id="d406644e198">
 
 **Outages**
 

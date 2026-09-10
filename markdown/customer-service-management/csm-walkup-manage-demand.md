@@ -16,7 +16,7 @@ Walk-up Experience managers and technicians can efficiently manage all aspects o
 
 Walk-up Experience provides technicians with inclusive fulfiller resources to organize and manage a walk-up queue.
 
-As a Technician you can access CSM Configurable Workspace to manage a walk-up interaction. Using CSM Configurable Workspace you can:
+As a Technician you can access CRM Workspace to manage a walk-up interaction. Using CRM Workspace you can:
 
 -   Access a personal inbox to view work assigned from multiple service channels, including the Walk-up Service Channel.
 -   Get assignments automatically pushed to your inbox from the walk-up interaction queue.
@@ -29,7 +29,7 @@ As a Technician you can access CSM Configurable Workspace to manage a walk-up in
 
 As a technician you can typically fulfill interactions on a first-come-first-served basis as interactions are pushed to individual walk-up inbox. Interactions are distributed to the walk-up agent inbox based on assignment rule configurations in the Advanced Work Assignment feature.
 
-Technicians can directly open cases in CSM Configurable Workspace when an issue is not resolved at the walk-up location.
+Technicians can directly open cases in CRM Workspace when an issue is not resolved at the walk-up location.
 
 Walk-up Experience also includes a **Technician** module in the application navigator where agents supporting a walk-up queue can perform the following actions:
 
@@ -40,7 +40,7 @@ Walk-up Experience also includes a **Technician** module in the application navi
 -   View walk-up queue locations.
 -   Transfer walk-up interactions to other technicians or queue locations when necessary.
 
-The following applications are included in the platform **Technician** module of the CSM Walk-up Experience navigation bar as well as viewed in the CSM Configurable Workspace under Walk-up:
+The following applications are included in the platform **Technician** module of the CSM Walk-up Experience navigation bar as well as viewed in the CRM Workspace under Walk-up:
 
 <table id="table_mlz_tdy_xfb"><thead><tr><th>
 
@@ -54,17 +54,17 @@ Description
 
 Platform: **My Walk-up Inbox**
 
- CSM Configurable Workspace: **Inbox**
+ CRM Workspace: **Inbox**
 
 </td><td>
 
-View walk-up interactions assigned to you in your personal inbox in CSM Configurable Workspace. Advanced Work Assignment pushes interactions to your inbox according to assignment rule configurations.
+View walk-up interactions assigned to you in your personal inbox in CRM Workspace. Advanced Work Assignment pushes interactions to your inbox according to assignment rule configurations.
 
 </td></tr><tr><td>
 
 Platform: **My Walk-up Locations**
 
- CSM Configurable Workspace: **Walk-up Locations**
+ CRM Workspace: **Walk-up Locations**
 
 </td><td>
 
@@ -72,7 +72,7 @@ View walk-up queue locations that you are assigned to support by physical addres
 
 </td></tr><tr><td>
 
-Platform and CSM Configurable Workspace: **My Assigned Walk-ups**
+Platform and CRM Workspace: **My Assigned Walk-ups**
 
 </td><td>
 
@@ -80,7 +80,7 @@ View walk-up interactions you are assigned to resolve or fulfill. These interact
 
 </td></tr><tr><td>
 
-Platform and CSM Configurable Workspace: **Open - Unassigned**
+Platform and CRM Workspace: **Open - Unassigned**
 
 </td><td>
 
@@ -88,7 +88,7 @@ View all open and unassigned walk-up interactions for your queue locations. Thes
 
 </td></tr><tr><td>
 
-Platform and CSM Configurable Workspace: **Closed Walk-ups**
+Platform and CRM Workspace: **Closed Walk-ups**
 
 </td><td>
 
@@ -98,7 +98,7 @@ View all closed walk-up interactions. Closed interactions have either a **Closed
 
 Platform: **Scheduled Appointments**
 
- CSM Configurable Workspace: **Appointments**
+ CRM Workspace: **Appointments**
 
 </td><td>
 

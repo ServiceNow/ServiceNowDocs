@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Docker spoke v2.4.0 is the latest version.
+Docker spoke v2.4.3 is the latest version. For version history of the spoke, see [Docker spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-docker.html).
 
 ## Spoke dependencies
 

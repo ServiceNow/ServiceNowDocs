@@ -52,7 +52,7 @@ ServiceNow AI Lens must be installed on the user's machine. For more information
 
         **Tip:** If your instance can't navigate to **All Properties**, in the search field, enter `sys_properties.list` and press **Enter**.
 
-    2.  Search for `sn_app_lens_core.lens_enable_auto_login` property.
+    2.  Search for **sn\_app\_lens\_core.lens\_enable\_auto\_login** property.
 
     3.  In the **value** field, set the value to **true**, and select **Update**.
 

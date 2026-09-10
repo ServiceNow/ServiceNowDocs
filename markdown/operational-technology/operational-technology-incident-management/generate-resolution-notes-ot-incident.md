@@ -43,7 +43,7 @@ OT incident resolution notes are generated from the following information:
 
 4.  Open the OT incident record to generate resolution notes for.
 
-5.  In the **Resolution notes** field, select the **Use AI to generate notes** \(\[Omitted image "resolution-note-quick-action.png"\]\) quick action.
+5.  In the **Resolution notes** field, select the **Use AI to generate notes** \[Omitted image "icon-otto.png"\] Alt text: quick action.
 
 6.  Select **Generate resolution notes**.
 
@@ -53,15 +53,15 @@ OT incident resolution notes are generated from the following information:
 
 8.  Manage the OT resolution notes using the available options.
 
-<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d67804e190">
+<table id="choicetable_oyw_3jm_ydc"><thead><tr><th align="left" id="d68330e193">
 
 Option
 
-</th><th align="left" id="d67804e193">
+</th><th align="left" id="d68330e196">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d67804e199">
+</th></tr></thead><tbody><tr><td id="d68330e202">
 
 **Insert the resolution notes**
 
@@ -69,7 +69,7 @@ Procedure
 
 To insert the generated OT resolution notes in the **Resolution note** field, select **Insert**.
 
-</td></tr><tr><td id="d67804e214">
+</td></tr><tr><td id="d68330e217">
 
 **Refine the resolution notes by elaborating or shortening**
 
@@ -77,7 +77,7 @@ To insert the generated OT resolution notes in the **Resolution note** field, se
 
 To provide more details in the OT resolution notes, select **Refine** and then **Elaborate**. To shorten the resolution notes, select **Shorten**.
 
-</td></tr><tr><td id="d67804e232">
+</td></tr><tr><td id="d68330e235">
 
 **Provide feedback for the summary**
 
@@ -85,7 +85,7 @@ To provide more details in the OT resolution notes, select **Refine** and then *
 
 If the OT resolution notes were helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the resolution notes weren't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).**Note:** This feedback improves the generative AI model and can help improve future versions of this skill.
 
-</td></tr><tr><td id="d67804e253">
+</td></tr><tr><td id="d68330e256">
 
 **Copy the resolution notes**
 
@@ -93,7 +93,7 @@ If the OT resolution notes were helpful, select the helpful icon \(\[Omitted ima
 
 To reuse the OT resolution notes, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\).
 
-</td></tr><tr><td id="d67804e268">
+</td></tr><tr><td id="d68330e271">
 
 **View the information about the resolution notes**
 

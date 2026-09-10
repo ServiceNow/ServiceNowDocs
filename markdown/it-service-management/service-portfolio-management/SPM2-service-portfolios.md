@@ -69,7 +69,7 @@ Don't opt in — keep legacy service portfolios
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available. For information on vendor scores, see .
+Therefore, if you have the Vendor Management Workspace application integrated with Service Portfolio Management, and if you are upgrading to the Service Portfolio Management standard portfolio, the metric data from the legacy indicators are no longer available.
 
 ## Portfolio administration
 

@@ -1,6 +1,6 @@
 ---
 title: NetApp Server and Cluster discovery
-description: Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/netapp-discovery.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibili
 
 # NetApp Server and Cluster discovery
 
-Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -920,7 +920,7 @@ Discovery populates the data in the CMDB when running the NetApp Cluster-Mode Pa
 
 **Note:** For more information on NetApp discovery with CIM, see [Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md).
 
-## CI relationships
+## CI relationships and references
 
 The NetApp Storage patterns create the following relationships and references to support NetApp Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

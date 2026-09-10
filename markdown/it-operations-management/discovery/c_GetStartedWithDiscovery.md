@@ -64,7 +64,7 @@ Discovery follows these phases:
 
 -   **Exploration**
 
-    The identifier launches additional probes configured in the classifier. These probes are especially designed as exploration probes to gather additional information about the device, like the applications running it, and additional attributes, such as memory, network cards, and drivers. Discovery then creates relationships between applications and devices and between applications. If you’re using patterns, the operations in the pattern perform the exploration of the CI.
+    The identifier launches additional probes configured in the classifier. These probes gather additional information about the device, including the applications running on it and attributes such as memory, network cards, and drivers. Discovery then creates relationships between applications and devices and between applications. If you’re using patterns, the operations in the pattern perform the exploration of the CI.
 
 
 ## Discovery communication through MID Servers
@@ -127,7 +127,7 @@ IP Service affinity saves the IP service information that is used to successfull
 For example: A network device has both an SSH port and an SNMP port open. By its agentless design, Discovery tries SSH first. However, network devices should be discovered through SNMP. Discovery tries the SSH probe and it fails. This triggers the SNMP probe, which succeeds. With the association between the IP address and the IP service, subsequent discovery runs that target this IP address use SNMP first, because that is the probe that succeeded.
 
 -   **[Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md)**  
-The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine, and then sensors, which help Discovery determine what to do with that information.
+The horizontal discovery process passes through the four phases of discovery using probes, which gather information on the target machine. Sensors then help Discovery determine what to do with that information.
 -   **[Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-process-flow-patterns.md)**  
 Horizontal discovery with patterns has four phases, just as horizontal discovery with probes does. However, for the last two phases, Discovery triggers operations from a pattern, rather than additional sets of probes.
 

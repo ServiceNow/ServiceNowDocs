@@ -103,6 +103,7 @@ Displays links that enable you to view additional information pertaining to supp
 -   Email domains
 -   Contracts
 -   Supplier products
+-   Tax information \(from September 2026 release onwards\)
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Stakeholders
 
 </td><td>
 
-Displays internal stakeholders and supplier contacts associated with a supplier. Internal stakeholders are internal users with a unique relationship type such as Procurement manager or Category manager. To view a list of all the internal stakeholders, select the **View stakeholders** option. For more information on adding and managing internal stakeholders, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md)Supplier contacts are associated external users. Primary supplier contact is indicated with a Primary tag. To view a list of all the external stakeholders, select the **View supplier contacts** link. For more information on adding and managing supplier contacts, see [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
+Displays internal stakeholders and supplier contacts associated with a supplier. Internal stakeholders are internal users with a unique relationship type such as Procurement manager or Category manager. To view a list of all the internal stakeholders, select the **View stakeholders** option. For more information on adding and managing internal stakeholders, see [Manage internal stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-internal-stakeholders.md).Supplier contacts are associated external users. Primary supplier contact is indicated with a Primary tag. To view a list of all the external stakeholders, select the **View supplier contacts** link. For more information on adding and managing supplier contacts, see [Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md).
 
 **Note:** The **View stakeholders** and **View supplier contacts** links are displayed only if the supplier has more than five internal stakeholders or supplier contacts respectively.
 
@@ -155,13 +156,25 @@ Options to sync supplier data with an external third-party application
 
 </td><td>
 
-Select **Connect to external data**: Enables you to synchronize the supplier data from an external third-party application so that you can view the latest supplier details in the Source-to-Pay Workspace
+Select **Connect to external data**: Enables you to synchronize the supplier data from an external third-party application so that you can view the latest supplier details in the Source-to-Pay Workspace.
 
- Select **Sync with external data** to synchronize with an external third-party application to update the supplier details in the Source-to-Pay Workspace
+ Select **Sync with external data** to synchronize with an external third-party application to update the supplier details in the Source-to-Pay Workspace.
 
 **Note:** The **Sync with external data** option replaces the **Connect to external data** option after you import supplier details for the first time using the **Connect to external data** option.
 
  For more information, see [Synchronize supplier data using external third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sync-supp-data-craft.md).
+
+</td></tr><tr><td>
+
+Option to fetch KPI data from FedEx
+
+</td><td>
+
+Select **Fetch KPI from FedEx**: Enables you to fetch KPI data from FedEx when **S2P FedEx Integration Connector** is installed.
+
+**Note:** The KPI data is fetched using the demo data templates.
+
+ For more information, see [Fetch KPI data using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/fedex-fetch-kpi-data.md).
 
 </td></tr><tr><td>
 

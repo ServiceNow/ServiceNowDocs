@@ -20,7 +20,7 @@ The **Event Input** pane that is included in the steps to create an event rule p
 
 In the **Transform and compose alert output** pane, you can also drag the information into the required fields to customize alert content. The fields in the right-hand pane appear as a reference to which fields, expressions, and their values are available when working in the Event Rule designer. The fields that display in the Transform and compose alert output left-hand workarea become the fields in the generated alert form. In addition, you can define alert tags that are specific for customization.
 
-**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md).
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
 
 ## General components and navigation
 
@@ -63,7 +63,7 @@ Edit text in the left-hand workarea by selecting it, as required. After you have
 </td></tr></tbody>
 </table>## Event additional info
 
-The Event additional info section displays default event form fields, plus fields that were created to display in alerts and that are added to the **Additional information** section of the alert.
+The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and that are added to the **Additional information** section of the alert.
 
 When configuring text in the fields in the left-hand workarea, you can drag field names and/or their value from this section into the fields.
 
@@ -92,7 +92,7 @@ Controlling how fields appear:
 
 -   Use the exclusion list \[em\_event\_rule\_black\_list\] table to hide fields from the right-pane.
 -   Use the em\_event\_rule\_order form to order the position of each field.
--   Fields that are not in the exclusion list and also not part of the em\_event\_rule\_order table, still appear in the event rule designer, in the right-panel and in the **Transform and Compose Alert Output** tab.
+-   Fields that are not in the exclusion list and also not part of the em\_event\_rule\_order table still appear in the event rule designer. They appear in the right-panel and in the **Transform and Compose Alert Output** tab.
 
 **Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
 

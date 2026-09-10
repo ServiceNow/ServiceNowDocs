@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Zoom source system to allow access by the Zoom external content connector. For details on configuring these settings in the source system, see [Configure Zoom for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
+A source system administrator must have already configured your Zoom source system to allow access by the Zoom external content connector. For the required source system configuration steps, see [Configure Zoom for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-zoom-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

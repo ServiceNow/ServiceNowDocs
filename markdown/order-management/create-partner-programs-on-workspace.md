@@ -1,16 +1,16 @@
 ---
-title: Create Partner Programs on the CSM Configurable Workspace
+title: Create Partner Programs on the CRM Workspace
 description: Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by creating partner programs on the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-partner-programs-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
-# Create Partner Programs on the CSM Configurable Workspace
+# Create Partner Programs on the CRM Workspace
 
 Enable channel partners to participate in structured initiatives designed to drive revenue, enhance market reach, and build customer relationships by creating partner programs on the workspace.
 

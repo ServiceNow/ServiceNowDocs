@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [metric aggregation configuration, aggregation parameters, metric aggregation, TSOM]
 breadcrumb: [Reference, Telecommunications Service Operations Management]

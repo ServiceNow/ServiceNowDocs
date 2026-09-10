@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-customercontractsandentitlements-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -109,37 +109,37 @@ Yokohama
 Enables customer to create and manage contracts for product inventory records.
 
 
--   **[New workspace view for service contracts and entitlements](https://www.servicenow.com/docs/access?context=components-installed-pss&family=yokohama&ft:locale=en-US)**
+ -   **[New workspace view for service contracts and entitlements](https://www.servicenow.com/docs/access?context=components-installed-pss&family=yokohama&ft:locale=en-US)**
 
 A new workspace view named Service Contract Workspace has been added for customers on service contracts and entitlements in the Customer Service Management workspace. This view is set as the default view and can be changed by an administrator.
 
 
--   **[Enhancement on contract lines and entitlements](https://www.servicenow.com/docs/access?context=using-post-sales-support&family=yokohama&ft:locale=en-US)**
+ -   **[Enhancement on contract lines and entitlements](https://www.servicenow.com/docs/access?context=using-post-sales-support&family=yokohama&ft:locale=en-US)**
 
 View location and subscription pricing information on contract lines and entitlements.
 
 
--   **[Automatic renewal of contracts](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Automatic renewal of contracts](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Enables customers to configure the date and pricing details of contract renewal while creating initial contracts.
 
 
--   **[Enable renewal opportunity creation](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Enable renewal opportunity creation](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Create an opportunity or an opportunity and quote when you renew service contracts and service contract lines.
 
 
--   **[Co-terminating of Contract lines](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Co-terminating of Contract lines](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Enables customers to assign same start and end date to multiple quote lines.
 
 
--   **[End-of-life check​](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
+ -   **[End-of-life check​](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
 
 Alert customers when the contract end date is exceeding the product offering end date during quote processing. Customers can then match the contract and product offering end date if required.
 
 
--   **[Renewal Uplift feature](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
+ -   **[Renewal Uplift feature](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
 
 Enables customers to set the pricing parameters of future renewals of contracts. You can select the markup or mark down percentage of the current contract price or you can apply the market price of the contract at the time of renewal.
 
@@ -155,38 +155,19 @@ Zurich
 Initiate renewals from contracts at either the line level or the contract level. The resulting renewal quotes and orders generate a new contract that is associated with the original contract in the renewal history.
 
 
--   **[Add contract lines to a service contract](https://www.servicenow.com/docs/access?context=cce-add-contract-lines&family=zurich&ft:locale=en-US)**
+ -   **[Add contract lines to a service contract](https://www.servicenow.com/docs/access?context=cce-add-contract-lines&family=zurich&ft:locale=en-US)**
 
 Add new line items to an existing contract by initiating the flow from contract. You can also add new line items to an existing contract while modifying a quote or contract.
 
 
--   **[Modify a service contract](https://www.servicenow.com/docs/access?context=cce-modify-service-contract&family=zurich&ft:locale=en-US)**
+ -   **[Modify a service contract](https://www.servicenow.com/docs/access?context=cce-modify-service-contract&family=zurich&ft:locale=en-US)**
 
 Initiate a modification from the contract header to generate a quote or order containing all contract lines. You can also select specific contract lines and initiate a modification, resulting in a quote or order that includes only the selected lines.
 
 
--   **[Upsell or Downsell a service contract line](https://www.servicenow.com/docs/access?context=cce-upsell-downsell-service-contract&family=zurich&ft:locale=en-US)**
+ -   **[Upsell or Downsell a service contract line](https://www.servicenow.com/docs/access?context=cce-upsell-downsell-service-contract&family=zurich&ft:locale=en-US)**
 
 Select one or more root contract lines to adjust quantities. You can add or reduce quantities on a contract line by selecting the Upsell or Downsell feature. After updating the quantities of the contract lines, a single quote or order is generated with the updated quote lines.
-
-
--   **[Support Price Ramps in contract](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=zurich&ft:locale=en-US)**
-
-Enable customers to specify price ramps for a product or service in a single quote. When the quote is completed and the order process is finalized, the contract captures the new pricing details.​
-
-
--   **[Enhancements in Renewals workflow](https://www.servicenow.com/docs/access?context=create-cont-ent-workflows-csm&family=zurich&ft:locale=en-US)**
-    -   Configure renewal opportunity and quote generation dates on separate dates.
-    -   Renewed quotes automatically update when new products are added to auto-renewed contracts.
-
--   **[Non-Standard Renewals](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=zurich&ft:locale=en-US)**
-
-Renew customer contracts outside the standard renewal cycle. You can perform early renewals to generate new contracts with updated pricing terms or late renewals to extend contracts after the expiry date.
-
-
--   **[Modify line item quantities](https://www.servicenow.com/docs/access?context=cce-upsell-downsell-service-contract&family=zurich&ft:locale=en-US)**
-
-Swap an existing subscribed product or service with another product, either partially or fully.
 
 
 </td></tr><tr><td>
@@ -205,7 +186,7 @@ Enables users to merge multiple customer contract lines into a single consolidat
 
 -   **[Contracts hierarchical list](https://www.servicenow.com/docs/access?context=using-post-sales-support&family=australia&ft:locale=en-US)**
 
-Enable agents to view contract lines under a customer contract record as a collapsible hierarchical list, making it easier to apply workflows at the appropriate root level and navigate complex product offering hierarchies.
+Enable agents to view contract lines under a customer contract record as a collapsible hierarchical list. This makes it easier to apply workflows at the appropriate root level and navigate complex product offering hierarchies.
 
 -   **[Contract renewal performance improvements](https://www.servicenow.com/docs/access?context=cce-renew-service-contract-line&family=australia&ft:locale=en-US)**
 
@@ -382,11 +363,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Contracts and Entitlements by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=yokohama&ft:locale=en-US).
+Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=yokohama&ft:locale=en-US).
 
- **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+**Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+
 
 </td></tr><tr><td>
 
@@ -394,11 +378,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Contracts and Entitlements by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
- Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=zurich&ft:locale=en-US).
+Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=zurich&ft:locale=en-US).
 
- **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+**Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+
 
 </td></tr><tr><td>
 
@@ -406,7 +393,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

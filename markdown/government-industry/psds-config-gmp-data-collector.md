@@ -24,9 +24,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
-2.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home**.
+2.  From the CRM Workspace sidebar, navigate to the **Policy Home**.
 
 3.  In the Variable Definition list, select the **Data Collectors** list.
 

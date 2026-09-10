@@ -1,20 +1,20 @@
 ---
-title: Migrate to CSM Configurable Workspace
-description: Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
+title: Migrate to CRM Workspace
+description: Follow the instructions in this topic to migrate from CSM Agent Workspace to CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-migrate-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Migrate to CSM Configurable Workspace
+# Migrate to CRM Workspace
 
-Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
+Follow the instructions in this topic to migrate from CSM Agent Workspace to CRM Workspace.
 
-If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) tool.
+If you are currently using CSM Agent Workspace and want to migrate to CRM Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CRM Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) tool.
 
 <table id="table_rrk_p52_v4b"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Examples
 
 </th></tr></thead><tbody><tr><td>
 
-Configurations that work in both CSM Agent Workspace and CSM Configurable Workspace without modification.
+Configurations that work in both CSM Agent Workspace and CRM Workspace without modification.
 
 </td><td>
 
@@ -35,7 +35,7 @@ Configurations that work in both CSM Agent Workspace and CSM Configurable Worksp
 
 </td></tr><tr><td>
 
-Configurations that are different for CSM Configurable Workspace.
+Configurations that are different for CRM Workspace.
 
 </td><td>
 
@@ -43,13 +43,13 @@ Configurations that are different for CSM Configurable Workspace.
 -   List categories
 
 </td></tr></tbody>
-</table>Also, be aware that some configuration changes made for one workspace can also affect the other. For example, changes to the CSM Agent Workspace configuration may impact CSM Configurable Workspace. The same applies to changes to the CSM Configurable Workspace configuration, which may impact CSM Agent Workspace.
+</table>Also, be aware that some configuration changes made for one workspace can also affect the other. For example, changes to the CSM Agent Workspace configuration may impact CRM Workspace. The same applies to changes to the CRM Workspace configuration, which may impact CSM Agent Workspace.
 
-**Note:** For customers who are **not** currently using CSM Agent Workspace and want to implement CSM Configurable Workspace, use the CSM Configurable Workspace guided setup by navigating to **Customer Service** &gt; **Administration** &gt; **Guided Setup** &gt; **CSM Configurable Workspace**. Clicking **Configure** in this category takes you to the Configurable Workspace guided setup. The information and instructions in the different guided setup categories can help you set up a new implementation of CSM Configurable Workspace.
+**Note:** For customers who are **not** currently using CSM Agent Workspace and want to implement CSM Configurable Workspace, use the CRM Workspace guided setup by navigating to **Customer Service** &gt; **Administration** &gt; **Guided Setup** &gt; **CSM Configurable Workspace**. Clicking **Configure** in this category takes you to the Configurable Workspace guided setup. The information and instructions in the different guided setup categories can help you set up a new implementation of CRM Workspace.
 
 ## Workspace features
 
-This section provides information, parameters, and steps to complete the migration of CSM Agent Workspace configurations to CSM Configurable Workspace. Select the feature that you want to migrate from the following list.
+This section provides information, parameters, and steps to complete the migration of CSM Agent Workspace configurations to CRM Workspace. Select the feature that you want to migrate from the following list.
 
 |Feature|Description|
 |-------|-----------|

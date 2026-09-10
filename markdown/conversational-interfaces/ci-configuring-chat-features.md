@@ -137,7 +137,7 @@ Customize your chat interface with your own brand, including company logo and bo
 -   **[Enable message preview on the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/web-client-message-preview.md)**  
 Admins can allow their end users to see a preview of any new or unread messages waiting for them when the chat window is minimized.
 -   **[Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-public-access-web-client.md)**  
-Enable public access to the Virtual Agent chat widget for portals.
+Enable public access to the standard chat Virtual Agent chat widget for portals.
 -   **[Configure context variables for storing chat-related information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md)**  
 Specify chat context variables, also called Live Agent chat variables, for storing chat-related information, such as pre-chat survey responses. These variables contain contextual information that can be used to determine topic intent or control how chats are routed to live agents. You can also define variables to capture contextual information passed in Virtual Agent topic scripts to share with live agents.
 -   **[Change Virtual Agent and Agent Chat system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-change-system-messages.md)**  

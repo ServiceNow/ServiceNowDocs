@@ -1,6 +1,6 @@
 ---
-title: Configure the organization chart for Employee Slate
-description: Configure the organization chart in Employee Slate. Set the eligible users and the fields that appear on each card.
+title: Configure the organization chart
+description: Configure the organization chart in EmployeeWorks Web App. Set the eligible users and the fields that appear on each card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-org-chart.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [organization chart, org chart configuration, eligible users, employee card fields, Employee Slate]
-breadcrumb: [Employee org chart, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee org chart, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure the organization chart for Employee Slate
+# Configure the organization chart
 
-Configure the organization chart in Employee Slate. Set the eligible users and the fields that appear on each card.
+Configure the organization chart in EmployeeWorks Web App. Set the eligible users and the fields that appear on each card.
 
 ## Before you begin
 
-Activate Employee Slate for Now Assist in the instance.
+Activate Employee Slate \(built for Now Assist\) in the instance.
 
-Role required: admin or Employee Slate administrator.
+Role required: admin.
 
 ## About this task
 

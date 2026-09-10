@@ -26,7 +26,7 @@ The **Touchpoints** tab on an opportunity record displays all touchpoints associ
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record and select the **Touchpoints** tab.
 
@@ -44,11 +44,6 @@ The **Touchpoints** tab on an opportunity record displays all touchpoints associ
 ## Result
 
 Changes are saved to the opportunity. The Touchpoints tab reflects the current state of all linked touchpoints.
-
--   **[Create a touchpoint from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-opportunity.md)**  
-Create a touchpoint to log a customer interaction directly from an opportunity record.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
 
 **Related topics**  
 

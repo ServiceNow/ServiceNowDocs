@@ -50,6 +50,8 @@ The newly created filter is saved and appears on the Filter page.
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

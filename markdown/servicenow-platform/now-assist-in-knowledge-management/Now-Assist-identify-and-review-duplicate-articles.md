@@ -28,13 +28,9 @@ The ServiceNow Otto knowledge skill required to enable the identify duplicate ar
 
 2.  Expand each list of duplicate topics to view the duplicate Knowledge articles.
 
-    \[Omitted image "duplicate-article-list-view.png"\] Alt text: Duplicate articles list view.
-
 3.  Review the article categories and select the duplicate articles listed under it.
 
 4.  From the **Actions on selected rows** menu select the **Unmark as Duplicate** action to be applied on the selected articles.
-
-    \[Omitted image "review-duplicate-articles-and-unmark.png"\] Alt text: Select the duplicate articles and also the action from the Action on selected rows drop-down list.
 
     **Note:**
 
@@ -42,7 +38,7 @@ The ServiceNow Otto knowledge skill required to enable the identify duplicate ar
 
     This feature applies to new articles, published articles, new drafts, and articles in review.
 
-    This feature may not work as expected for non-English articles.
+    This feature does not work for non-English articles.
 
 
 **Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)

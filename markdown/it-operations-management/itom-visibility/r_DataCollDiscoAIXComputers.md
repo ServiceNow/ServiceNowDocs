@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -16,13 +16,28 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 Discovery identifies and classifies information about AIX servers.
 
-## Credentials
+## Pattern-based discovery and mapping requirements
 
-Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   **Configure SSH credentials**
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
-Use OpenSSH version 7.5.102 and above for AIX machines since lower versions of OpenSSH can impact the discovered devices that are encountered with Discovery.
+-   **Verify that you're using at least version 7.5.102 of OpenSSH**
+
+    Use OpenSSH starting with version 7.5.102 for AIX machines since lower versions of OpenSSH can impact the discovered devices that are encountered with Discovery.
+
+-   **Verify privileged commands for AIX discovery**
+
+    For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+
+-   **Reference the main CI on discovered IP addresses**
+
+    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can populate the **Owned By Configuration Item** field on discovered IP address records with a reference to the main CI by setting the **add.owned.by.attribute** property to true. For more information, see [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md).
+
+-   **Discover only the latest OS patch versions**
+
+    Starting with Visibility Content version 6.35.0, you can collect only the current operating system patch level by setting the **sn\_itom\_pattern.discover\_latest\_os\_patches** MID Server property to true. For more information, see [Discover only the latest operating system patch versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/enable-latest-patch-discovery.md).
+
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 

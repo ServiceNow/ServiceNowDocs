@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agents-in-ba.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-25"
 reading_time_minutes: 3
 breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -22,7 +22,7 @@ All you need to do is describe the business problem you want to solve, and Build
 
 As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in AI Control Tower.
 
-**Note:** You need ServiceNow Otto for App Engine to create agents and skills. For more information, see [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md).
+**Note:** Your entitlements determine whether you have access to agentic workflows, agents, and skills in Build Agent.
 
 ## Custom in-app agents
 

@@ -18,21 +18,23 @@ Configure key performance indicators in queues to track the incoming work for sp
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_channel\_mgmt.admin
 
 ## Procedure
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d121516e57">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d123530e73">
 
 To
 
-</th><th align="left" id="d121516e60">
+</th><th align="left" id="d123530e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d121516e66">
+</th></tr></thead><tbody><tr><td id="d123530e82">
 
 **Add from a service channel**
 
@@ -44,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d121516e104">
+</td></tr><tr><td id="d123530e120">
 
 **Add from a queue**
 

@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP remote table form field descriptions
-description: The Remote table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit remote tables in the ERP model.
+description: The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the enterprise resource planning \(ERP\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-remote-table-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -15,7 +15,7 @@ breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflo
 
 # Zero Copy Connector for ERP remote table form field descriptions
 
-The Remote table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit remote tables in the ERP model.
+The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the enterprise resource planning \(ERP\) model.
 
 For process details, see [View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpi-find-tables.md).
 
@@ -51,7 +51,7 @@ ERP module
 
 ERP module in the ERP system, for example, sales orders or inventory. Select a module from the list. If the module you need isn't listed, contact [ServiceNow Technical Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0547260).
 
- ERP modules represent a distinct set of features and functionalities tailored to address business processes or activities.
+ Each ERP module represents a distinct set of features and functions tailored to address business processes or activities.
 
 </td></tr><tr><td>
 
@@ -61,7 +61,7 @@ ERP model
 
 ERP model connected to the remote table. The ERP model controls the available fields on the remote table.**Note:** Changing the ERP model removes any previously configured table fields that aren't available on the new model.
 
-To change the model for an ERP remote table, you must select the **Unlock ERP model field** button and then select the **Unlock model change** button on the confirmation dialog.
+To change the model for an ERP remote table, you must select the **Unlock ERP model field** button and then select the **Unlock model change** button in the confirmation dialog box.
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Attachment setting
 
 The remote table attachment is the cached response from the ERP system.
 
- If this field is set to **Use attachment**, Zero Copy Connector for ERP doesn't call the ERP system when someone fetches data from the remote table.
+ If this field is set to **Use attachment**, Zero Copy Connector for ERP doesn't call the ERP system when you fetch data from the remote table.
 
  If this field is set to **None**, Zero Copy Connector for ERP does call the ERP system.
 
@@ -97,7 +97,7 @@ Page size
 
 </td><td>
 
-Amount of data to read from the ERP system at a time. The default is 1000. Increasing the size may impact MID Server memory space.
+Amount of data to read from the ERP system at a time. The default is 1000. Increasing the size might impact MID Server memory space.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Long text
 
 </td><td>
 
-A longer description or information about the remote table.
+Longer description or more information about the remote table.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Requires queryable field
 
 </td><td>
 
-Indicates whether you can retrieve data from the remote table without querying the source table.Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
+Option to indicate whether you can retrieve data from the remote table without querying the source table.Smaller tables, such as a currency table, can have data stored locally and thus don't require a query to retrieve fields.
 
 </td></tr><tr><td>
 
@@ -129,8 +129,7 @@ Enable schedule
 
 </td><td>
 
-Select this option and specify a schedule to obtain data using the remote table.
+Option to specify a schedule for obtaining data using the remote table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

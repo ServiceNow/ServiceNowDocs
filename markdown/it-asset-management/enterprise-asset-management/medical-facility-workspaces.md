@@ -1,6 +1,6 @@
 ---
 title: Configurable workspaces
-description: Use configurable workspaces for creating and managing medical and facility assets and models your specific industry or operational environment.
+description: Use configurable workspaces to create and manage assets and models for your specific industry or operational environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/medical-facility-workspaces.html
 release: australia
@@ -14,18 +14,18 @@ breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 
 # Configurable workspaces
 
-Use configurable workspaces for creating and managing medical and facility assets and models your specific industry or operational environment.
+Use configurable workspaces to create and manage assets and models for your specific industry or operational environment.
 
-## Overview of configurable workspaces for medical and facilities industries
+## Overview of configurable workspaces
 
-Configurable workspace is available for the following applications:
+Configurable workspaces are available for the following applications:
 
 -   Enterprise Asset Management for Healthcare
 -   Enterprise Asset Management for Facilities
 -   OT Asset Management
 -   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
 
-Configurable workspace gives you a personalized experience as you work on assets and models pertaining to your industry or operational environment.
+Configurable workspaces give you a personalized experience as you work on assets and models pertaining to your industry or operational environment.
 
 |Application|Configurable workspace|Benefits|
 |-----------|----------------------|--------|
@@ -34,7 +34,7 @@ Configurable workspace gives you a personalized experience as you work on assets
 |OT Asset Management|OT Asset Workspace|Create and manage operational technology and operational equipment assets and models.|
 |Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)|Critical Environment Asset Workspace|Create and manage data center and network infrastructure assets, including facility-based enterprise assets and linear assets.|
 
-**Note:** The normalization process only runs in the Enterprise Asset Workspace and doesn't run for medical models and facility models within their specific workspaces.
+**Note:** The normalization process only runs in the Enterprise Asset Workspace and doesn't run for models within specific workspaces.
 
 ## Workspace roles
 

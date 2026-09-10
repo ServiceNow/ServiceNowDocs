@@ -14,7 +14,7 @@ breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 
 If you're a social benefits case agent or manager, you can use the Social Benefits Playbook for Public Sector Digital Services to manage and resolve requests for social benefits.
 
-The Social Benefits Playbook automatically appears in the **Playbook** tab when you create a social benefits request case by using the CSM Configurable Workspace. A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
+The Social Benefits Playbook automatically appears in the **Playbook** tab when you create a social benefits request case by using the CRM Workspace. A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
 -   View the playbook stages and activities.
 -   Select an activity and perform the work to complete that activity.

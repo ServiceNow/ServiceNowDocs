@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-proactiveserviceexperienceworkflows-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -67,16 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Components](https://www.servicenow.com/docs/access?context=components-psew&family=zurich&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for Proactive Service Experience Workflows without requiring the full admin role.
-
-
--   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for Product Support for Technology without requiring the full admin role.
-
-
 -   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
 
 Diagnose the incident in the Proactive Service Experience Workflows and create the resolution task manually to resolve the issue.
@@ -117,7 +107,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Technology Product Support Case](https://www.servicenow.com/docs/access?context=tech-product-support-case-app&family=zurich&ft:locale=en-US)**
+
+Technology Product Support Case menu is renamed to Product Support for Technology Case.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -204,7 +201,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Proactive Service Experience Workflows by requesting it from the ServiceNow® Store.
+
 
 </td></tr><tr><td>
 
@@ -291,7 +291,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

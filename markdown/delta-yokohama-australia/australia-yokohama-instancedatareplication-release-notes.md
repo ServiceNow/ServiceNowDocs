@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-instancedatareplication-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,9 +38,12 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=yokohama&ft:locale=en-US).
 
- Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
+Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
+
 
 </td></tr><tr><td>
 
@@ -48,8 +51,9 @@ Zurich
 
 </td><td>
 
--   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=zurich&ft:locale=en-US).
--   Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
+-   **Upgrade information**
+    -   Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses Hermes Messaging Service. For details, see [Upgrading legacy sets](https://www.servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=zurich&ft:locale=en-US).
+    -   Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
 
 </td></tr><tr><td>
 
@@ -57,7 +61,10 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is composed of seven shards, with five days for each shard. All log entries in this table that are created before the upgrade are automatically truncated.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -159,7 +166,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -196,8 +206,7 @@ Zurich
 
 </td><td>
 
--   The Key Management Service test has been removed from the IDR Diagnostics page.
--   The VAULT Service Status test has been removed from the IDR Diagnostics page.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -236,6 +245,9 @@ Zurich
 
 Legacy replication sets have been deprecated in the Zurich release and are no longer supported.
 
+ -   The Key Management Service test has been removed from the IDR Diagnostics page.
+-   The VAULT Service Status test has been removed from the IDR Diagnostics page.
+
 </td></tr><tr><td>
 
 Australia
@@ -263,7 +275,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request an Instance Data Replication subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -271,7 +286,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Instance Data Replication is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request a subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -279,7 +297,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 IDR is a ServiceNow AI Platform feature that is available with activation of the IDR \(com.glide.idr\) plugin, which requires a separate subscription. For details, see [Request a subscription](https://www.servicenow.com/docs/access?context=request-instance-data-replication&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -382,7 +403,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

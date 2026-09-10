@@ -20,7 +20,7 @@ The chemical management solution is designed to scale for organizations with lar
 
 The following graphic shows an example of the chemical management workflow. The admin can customize these workflows according to the needs of their organization.
 
-\[Omitted image "hs-chemical-mgmt-workflow.png"\] Alt text:
+\[Omitted image "hs-chemical-mgmt-workflow.png"\] Alt text: Chemical management workflow across four roles. For the text description, refer to the chemical management workflow section.
 
 The chemical management workflow enables chemical managers effectively track chemical libraries and manage chemical requests. This workflow promotes employee safety by providing accurate safety data to workers who handle chemicals. Integration with the 3E database enables you to access the latest chemical safety data online.
 

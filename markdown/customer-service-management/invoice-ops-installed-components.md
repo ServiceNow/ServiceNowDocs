@@ -324,9 +324,9 @@ To view the Invoice case type, navigate to **All** &gt; **Customer Service** &gt
 
 ## Invoice case form views
 
-The Case Management for Invoice Operations application includes form views to display invoice cases in CSM Configurable Workspace and in the Core UI.
+The Case Management for Invoice Operations application includes form views to display invoice cases in CRM Workspace and in the Core UI.
 
-This application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md) to display Invoice case records in CSM Configurable Workspace.
+This application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md) to display Invoice case records in CRM Workspace.
 
 Invoice cases include the following related lists:
 

@@ -39,11 +39,6 @@ Role required: sales\_manager
 
 You can create appointments in your opportunity tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-an-appoinment.md).
 
--   **[Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-an-appoinment.md)**  
-Create appointments with the required stakeholders to move the business discussion forward for your opportunity.
-
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

@@ -28,7 +28,7 @@ Here are a few basics about clone profiles:
 
 1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Home**.
 
-2.  Navigate to **Configurations** &gt; **Clone Profiles**
+2.  Navigate to **Configuration** &gt; **Clone Profiles**
 
 3.  Select **New**.
 

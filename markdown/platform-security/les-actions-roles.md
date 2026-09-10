@@ -1,6 +1,6 @@
 ---
 title: Log Export Service actions and required roles
-description: Reference table of Log Export Service \(LES\) actions, their descriptions, and the roles required to perform them.
+description: Log Export Service uses role-based access control to restrict actions to authorized users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-actions-roles.html
 release: australia
@@ -13,17 +13,17 @@ breadcrumb: [Reference, Log Export Service \(LES\), Platform Security]
 
 # Log Export Service actions and required roles
 
-Reference table of Log Export Service \(LES\) actions, their descriptions, and the roles required to perform them.
+Log Export Service uses role-based access control to restrict actions to authorized users.
 
 ## Role-based access control
 
-Log Export Service \(LES\) uses role-based access control so that only authorized users can perform specific actions. The following table maps LES actions to the roles required to perform them.
+Log Export Service uses role-based access control so that only authorized users can perform specific actions. The following table maps Log Export Service actions to the roles required to perform them.
 
 Unless otherwise noted, any one of the listed roles is sufficient to perform the action.
 
-## LES roles
+## Log Export Service roles
 
-LES includes the following three primary roles:
+Log Export Service includes the following three primary roles:
 
 -   **sn\_logstoanalytics.admin**
 
@@ -38,8 +38,8 @@ LES includes the following three primary roles:
     Required to generate the certificates that secure the connection between LES and the Hermes Messaging Service.
 
 
-|Action|Description|Required roles|Component|
-|------|-----------|--------------|---------|
+|Action|Description|Required roles|Instance Type|
+|------|-----------|--------------|-------------|
 |Initial setup and configuration|
 |Install Log Export Service application|Install LES from the ServiceNow Store.|admin|Instance|
 |Review Hermes Messaging Service diagnostics|Verify that the Hermes Messaging Service is up and running, check connectivity, and view topics.|admin|Instance|
@@ -54,12 +54,12 @@ LES includes the following three primary roles:
 |Configure Kafka consumer processes|Create consumer processes with separate bootstrap addresses to connect to both Hermes Kafka clusters for failover.|admin|External Kafka|
 |Verify Kafka consumer pulling logs|Verify that the chosen Kafka consumer can pull log events from the Hermes Messaging Service.|admin|External Kafka|
 |MID Server consumer configuration|
-|Install and validate dedicated MID Server|Install a MID Server dedicated to LES, and validate it to enable it to execute automation tasks.|admin|MID Server|
-|Add MID Server properties for Hermes|Configure properties that establish the Kafka connection between the MID Server and the Hermes Messaging Service.|admin|MID Server|
+|Install and validate dedicated MID Server|Install a MID Server dedicated to LES, and validate it to enable it to execute automation tasks.|admin|Both|
+|Add MID Server properties for Hermes|Configure properties that establish the Kafka connection between the MID Server and the Hermes Messaging Service.|admin|Instance|
 |Configure Log REST push destination|Create a Destination Configuration record that defines the REST endpoint that the MID Server Extension forwards logs to.|admin, sn\_logstoanalytics.admin|Instance|
 |Configure LES Consumer Context|Update the LES Consumer MID Server Extension record to execute on the dedicated MID Server installed for LES.|admin|Instance|
 |Configure Consumer|Create a Consumer record specifying the Hermes topic to retrieve logs from and the destination configuration to relay them to.|admin, sn\_logstoanalytics.admin|Instance|
-|Test MID Connection|Verify connectivity from the MID Server environment to the Hermes cluster.|admin, sn\_logstoanalytics.admin|Both|
+|Test MID Connection|Verify connectivity from the MID Server environment to the Hermes cluster.|admin, sn\_logstoanalytics.admin|Instance|
 |Verify MID Server integration|Monitor the Consumer Status view to confirm the MID Server process is relaying messages to the REST endpoint.|admin, sn\_logstoanalytics.admin|Instance|
 |Administration and monitoring|
 |Update the glide.les.disable\_logs\_forwarding system property|Pause or resume LES log forwarding during migration or database reseeding operations.|admin|Instance|

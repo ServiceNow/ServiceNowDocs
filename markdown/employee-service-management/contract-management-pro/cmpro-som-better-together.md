@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Better Together integrations, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation

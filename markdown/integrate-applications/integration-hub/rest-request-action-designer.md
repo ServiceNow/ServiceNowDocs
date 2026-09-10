@@ -18,7 +18,7 @@ Send an outbound REST web service request to an external system.
 
 **Note:** REST step is not available in the base system and requires the ServiceNow® Integration Hub subscription. After the required plugin is activated, the step is visible under Integrations.
 
-Outbound REST web service is a platform feature that enables you to retrieve, create, update, or delete data on a web services server that supports the REST architecture.
+[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) is a platform feature that enables you to retrieve, create, update, or delete data on a web services server that supports the REST architecture.
 
 ## Roles and availability
 
@@ -71,7 +71,7 @@ Use MID
 
 </td><td>
 
-Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that Outbound web services logging occurs. Instead, you can view this data in the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that [Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md) occurs. Instead, you can view this data in the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
 
 </td></tr><tr><td>
 
@@ -272,7 +272,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-05-03"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [Amazon Bedrock, AI Agent Topology Mapping, AWS Bedrock, AI discovery]
 breadcrumb: [Reference, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -70,46 +70,11 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
     To use the IAM user policy instead of credentials during discovery, configure the MID Server for AWS IAM roles. For more information, see [configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/config-mid-iam-roles.md).
 
-    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md). Ensure that the IAM user policy covers the following AWS resources:
-
-    ```
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Action": [
-            "elasticloadbalancing:DescribeLoadBalancerPolicyTypes",
-            "elasticloadbalancing:DescribeLoadBalancers",
-            "elasticloadbalancing:DescribeLoadBalancerPolicies",
-            "elasticloadbalancing:DescribeInstanceHealth",
-            "elasticloadbalancing:DescribeTags",
-            "elasticloadbalancing:DescribeLoadBalancerAttributes",
-            "account:ListRegions",
-            "elasticloadbalancing:Describe*",
-            "ec2:Describe*",
-            "ec2:DescribeNetworkInterfaceAttribute",
-            "ec2:DescribeInstanceStatus",
-            "ec2:DescribeCustomerGateways",
-            "ec2:DescribeSecurityGroups",
-            "ec2:DescribeHosts",
-            "ec2:DescribeImages",
-            "ec2:DescribeVpcs",
-            "ec2:DescribeAccountAttributes",
-            "ec2:DescribeInstanceAttribute",
-            "ec2:DescribeInstanceCreditSpecifications",
-           
-                ],
-                "Effect": "Allow",
-                "Resource": "*"
-            }
-        ]
-    }
-    
-    ```
+    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 -   **Configure access to the AWS resources**
 
-    To discover a single account, create an IAM account in the AWS Management Console, and ensure that it has the "ReadOnlyAccess" policy applied. To discover several member or child accounts, configure the credentials as described in [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
+    To discover a single account, create an IAM account in the AWS Management Console, and verify that it has the "ReadOnlyAccess" policy applied. To discover several member or child accounts, configure the credentials as described in [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/access-aws-accounts.md).
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -125,16 +90,21 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
 -   **Optimize discovery by including only datacenters with resources**
 
-    Starting with Discovery and Service Mapping Patterns version 1.29.0, you can optimize discovery by limiting it to only AWS datacenters with resources.
+    You can optimize discovery by limiting it to only AWS datacenters with resources.
 
-    -   Verify your service account has the following role permissions to access Config API:
-        -   `config:GetDiscoveredResourceCounts`
-        -   `config:DescribeConfigurationRecorderStatus`
-    -   Verify AWS Config recorder is enabled and configured to record the all resource types.
+    -   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.0\).
 
-        For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
+        |IAM permission|Coverage|
+        |--------------|--------|
+        |`resource-explorer-2:Search`|Partial|
+        |`resource-explorer-2:Search` + `iam:CreateServiceLinkedRole`|Full|
 
-    -   Enable discovery of only datacenters with resources by setting the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to **false**. For more information, see [Limit AWS discovery to datacenters with resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/limit-aws-discovery-active-datacenter.md).
+        For more information, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Getting started with Resource Explorer" article.
+
+    -   Discover only datacenters with resources by setting the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to **false**. For more information, see [Limit AWS discovery to datacenters with resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/limit-aws-discovery-active-datacenter.md).
+    -   To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.0\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
+    **Note:** Discovery and Service Mapping Patterns versions 1.29.0 through 1.32.0 used the AWS Config service instead of the Resource Explorer API to determine datacenter activity. For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
+
     For more information, see the **AWS resources discovery by datacenters** section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
@@ -365,7 +335,7 @@ On the Dependency Views map, you can view discovered Amazon Bedrock resources an
 
 \[Omitted image "amazon-bedrock-dependency-view.png"\] Alt text: Amazon Bedrock CI and connection on a Dependency Views map
 
-## CI relationships
+## CI relationships and references
 
 The Amazon Bedrock patterns create the following relationships and references to support Amazon Bedrock discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-11"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -33,7 +33,7 @@ A user permission crawl may take hours or days to complete, depending on the num
 
 You can run a user permission crawl as a one-time task or set it to recur on a scheduled basis.
 
-**Note:** Beginning with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
+**Note:** Starting with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
 
 For external content connectors that support user permission crawls, you can also start a user permission crawl by selecting the **Update user permissions** option when creating or scheduling a content crawl. For more details on this option and defining content crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md).
 
@@ -85,7 +85,7 @@ The Atlassian Confluence Cloud external content connector only retrieves permiss
 
 If you skipped step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md), your new user permission crawl is added to the system's crawl queue. The system runs your crawl when it has resources available to do so.
 
-If you selected the **Make recurring** option in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md), your new crawl appears in the Crawl schedules list in the external content connector editor's Create crawls tab.
+If you selected the **Make recurring** option in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md), your new crawl appears in the external content connector editor's **Manage crawls** tab.
 
 ## What to do next
 

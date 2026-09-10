@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -52,6 +52,10 @@ Glossary terms are grouped alphabetically.
 [Obligation form]()
 
 [Obligation Management notifications]()
+
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
 
 [Contract Management solutions]()
 

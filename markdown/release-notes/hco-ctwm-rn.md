@@ -1,10 +1,10 @@
 ---
 title: Care Team Work Management release notes
-description: The ServiceNow Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.
+description: The ServiceNow Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.The ServiceNow Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/hco-ctwm-rn.html
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Healthcare and Life Sciences release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
@@ -14,7 +14,7 @@ breadcrumb: [Healthcare and Life Sciences release notes, Features and changes by
 
 The ServiceNow® Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.
 
-## Care Team Work Management highlights for the Australia release
+## About Care Team Work Management
 
 -   Create ad-hoc or recurring scheduled task plans for care teams across one or more units.
 -   Use the unified workspace landing page for managing cases and tasks.
@@ -22,9 +22,24 @@ The ServiceNow® Care Team Work Management application enables clinicians to cre
 
 See [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-landing.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Care Team Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Care Team Work Management features
+-   **Activation information**
+
+    Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Care Team Work Management application enables clinicians to create and track ad-hoc and recurring tasks for their care team through the creation of orchestration and care team cases and tasks. Care Team Work Management is a new application in the Australia release.
+
+### What's new
 
 -   ****
 
@@ -39,11 +54,7 @@ See [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/Ser
     Use rounding templates with required fields and clinical checklists to standardize operations activities. The playbook generates one‑time and recurring rounding tasks across units using built‑in scheduling within the Healthcare Workspace. It supports completing task, capturing evidence, and tracking progress.
 
 
-## Activation information
-
-Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -51,19 +62,4 @@ Install Care Team Work Management by requesting it from the ServiceNow Store. Vi
 
     -   Healthcare Orchestration \(com.sn\_hco\_orc\): Enables cross team collaboration between multiple healthcare organizations.
     -   Care Team Case \(com.sn\_cto\): Enables care teams to create and track cases and tasks for operational work.
-
-## Related ServiceNow applications and features
-
--   **[Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-cto-app.md)**
-
-    ServiceNow® Healthcare Operations Core provides the foundation for Care Team Operations and enables hospitals to streamline and automate their operations by integrating with supporting service departments.
-
--   **[Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-mobile-landing.md)**
-
-    ServiceNow® Care Team Mobile provides a mobile experience for hospital care teams to report issues to support departments.
-
-
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
-
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/healthcare-life-sciences-rn-landing.md)
 

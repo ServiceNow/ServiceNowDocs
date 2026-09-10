@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 7
 keywords: [Amazon Connect, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, PSTN, Lambda]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Amazon Connect
@@ -57,6 +57,8 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
     Also note the voice service `sys_id`, which you can find in the URL when viewing the voice service record. You will need this value in the Amazon Connect configuration steps.
 
+    **Note:** The Call Context API uses client credentials OAuth 2.0 with the Client ID and Client Secret generated here. For details about OAuth request parameters, including access token and refresh token support, see [OAuth API request parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_OAuthAPIRequestParameters.md).
+
 9.  Enable context data persistence for the voice service.
 
     1.  Navigate to `sys_now_assist_deployment_config_attributes.list` and check whether a `persist_context_data` attribute exists for your voice service.
@@ -72,6 +74,8 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
         To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
+
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md).
 
 10. In your AWS account, create the Lambda function that connects Amazon Connect to the voice assistant.
 
@@ -121,7 +125,7 @@ The name portion of your ServiceNow instance URL. For example, `myinstance`, not
 
 </td><td>
 
-The base path for OAuth credentials in AWS Parameter Store: `/com.servicenow.cti/<sn-instance-id>`.
+The base path for OAuth credentials in AWS Parameter Store: `/com.servicenow.cti/<sn-instance-id>`. For example: `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4`.
 
 </td></tr><tr><td>
 
@@ -132,7 +136,7 @@ The base path for OAuth credentials in AWS Parameter Store: `/com.servicenow.cti
 The hostname from the ServiceNow call context URL.
 
 </td></tr></tbody>
-</table>        **Note:** Both `call_context_api_path` and `voice_service_host_name` are derived from the Call Context API URL in the voice service configuration. `voice_service_host_name` uses the hostname portion of that URL, and `call_context_api_path` uses the path portion after `.com`.
+</table>        **Note:** Both `call_context_api_path` and `voice_service_host_name` are derived from the Call Context API URL in the voice service configuration. `voice_service_host_name` uses the hostname portion of that URL, and `call_context_api_path` uses the path portion after `.com`. For example, for a Call Context API URL of `https://instance.service-now.com/api/v1/call-context`, set `voice_service_host_name` to `instance.service-now.com` and `call_context_api_path` to `/api/v1/call-context`.
 
         \[Omitted image "voice-agents-amazon-connect-lambda-env-vars.png"\] Alt text: The Lambda environment variables panel showing call\_context\_api\_path, now\_instance\_host\_name, now\_instance\_name, ssm\_oauth\_path, and voice\_service\_host\_name populated with example values.
 
@@ -182,6 +186,8 @@ Client Secret from the ServiceNow voice service configuration.
 
 </td></tr></tbody>
 </table>        \[Omitted image "voice-agents-amazon-connect-param-store.png"\] Alt text: AWS Parameter Store filtered to the /com.servicenow.cti/ path, showing the client\_id and client\_secret parameters created as SecureString type.
+
+        **Note:** For example, if your `instance_id` property value is `a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4` and your voice service `sys_id` is `b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8`, create parameters named `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_id` and `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_secret`.
 
     8.  Add the AWS PowerTools layer to the Lambda function.
 

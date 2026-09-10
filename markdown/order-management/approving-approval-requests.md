@@ -35,7 +35,7 @@ You evaluate requests based on business policies, financial rules, legal rules, 
 
 You can approve or reject requests from different channels, depending on how the approval process is configured and your notification preferences for various channels.
 
--   From the approval workflow interface in the CSM Configurable Workspace
+-   From the approval workflow interface in the CRM Workspace
 -   From system email notifications reminding you of your approval request tasks
 
     For example, you may receive a simple notification for a single approval request or a consolidated email notification that informs you of multiple approval requests for a given grouping of requests. You can approve or reject requests directly from the email. For consolidated email approvals, you can:

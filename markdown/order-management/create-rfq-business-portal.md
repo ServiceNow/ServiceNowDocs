@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/create-rfq-bus
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+reading_time_minutes: 3
+breadcrumb: [Managing RFQs, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Submit a request for quote from the Business Portal
@@ -93,6 +93,8 @@ The RFQ is submitted for further processing and you're redirected to the Request
 ## What to do next
 
 View the quote details on the Business Portal after the sales agent reviews and generates a quote for your request. For more information, see [View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-rfq-business-portal.md).
+
+**Parent Topic:**[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-business-portal.md)
 
 **Related topics**  
 

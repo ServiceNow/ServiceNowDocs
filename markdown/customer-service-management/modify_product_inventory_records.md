@@ -1,18 +1,18 @@
 ---
 title: Modify product inventory records
-description: Perform the Modify operation on a single product inventory record that results in the creation of an order on the CSM Configurable Workspace to update its existing configurations. For example, you may want to add or delete an optional product inventory or update its configurations.
+description: Perform the Modify operation on a single product inventory record that results in the creation of an order on the CRM Workspace to update its existing configurations. For example, you may want to add or delete an optional product inventory or update its configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify\_product\_inventory\_records.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify product inventory records
 
-Perform the **Modify**operation on a single product inventory record that results in the creation of an order on the CSM Configurable Workspace to update its existing configurations. For example, you may want to add or delete an optional product inventory or update its configurations.
+Perform the **Modify**operation on a single product inventory record that results in the creation of an order on the CRM Workspace to update its existing configurations. For example, you may want to add or delete an optional product inventory or update its configurations.
 
 ## Before you begin
 

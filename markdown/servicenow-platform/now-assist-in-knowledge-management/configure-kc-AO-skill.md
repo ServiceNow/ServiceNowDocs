@@ -8,7 +8,7 @@ product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
 last_updated: "2026-07-20"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -76,4 +76,6 @@ Activate the Knowledge Center Article Optimization skill to enable article optim
 
 
 [Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
+
+[Activate the Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)
 

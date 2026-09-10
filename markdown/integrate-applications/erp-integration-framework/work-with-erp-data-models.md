@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, platform, entity, entities, operation, input, output, map, field, data]
-breadcrumb: [Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Building and managing models to work with ERP data
@@ -21,11 +21,11 @@ Models in Zero Copy Connector for ERP \(Enterprise Resource Planning\) function 
 
 A model represents the logical structure and organization of data coming from the ERP system. Models define the entities, attributes, read/update operations, and table join relationships that capture and represent business processes and data elements in the ERP system.When you first open Zero Copy Connector for ERP, you view a list of the models for your instance.
 
-\[Omitted image "MMASSET0021842-erp-data-model-Horizontal.svg"\] Alt text: Infographic showing the relationship between models, model operations, ERP systems, and applications.
+\[Omitted image "MMASSET0021842-erp-data-model-Horizontal.svg"\] Alt text: The relationship between models, model operations, ERP systems, and applications.
 
-There are two types of models:
+Zero Copy Connector for ERP supports two types of models:
 
--   Platform model: Model with input and output fields mapped to an already existing platform table. These models standardize ERP data by mapping it to ServiceNow standardized platform tables.
+-   Platform model: Model with input and output fields mapped to an already existing platform table. These models standardize ERP data by mapping it to existing ServiceNow platform tables.
 -   ERP model: New, custom ERP model. These models follow the data structures defined by the connected, external ERP system. ERP models accommodate the unique formats of each ERP system.
 
 Zero Copy Connector for ERP provides a standard set of models, such as SAP Material Stock and SAP Purchase Document. For a list, see [Standard extraction tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.md). For information about building new models, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md). Use Zero Copy Connector for ERP data products, sets of predefined models and process extensions, as examples to help you implement and deploy applications with less manual work. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
@@ -34,18 +34,18 @@ A model serves as a blueprint for configuring, customizing, and integrating the 
 
 You can also build flows in Workflow Studio to use retrieved ERP data for processes or tasks outside of Zero Copy Connector for ERP.
 
-You can view the list of existing models or add a new one to create a custom dataset. After you add a remote table, you can manage models to map input and output parameters, update the ERP system using BAPIs, and create table joins. You can also create extraction tables that regularly pull large amounts of filtered data from the ERP system. Another option is to use a custom ERP action in Workflow Studio to use queried ERP data in other ServiceNow AI Platform processes.
+You can view the list of existing models or add a new one to create a custom dataset. After you add a remote table, you can manage models to map input and output parameters, update the ERP system using BAPIs, and create table joins. You can also create extraction tables that regularly pull large amounts of filtered data from the ERP system. Another option is to use a custom ERP action in Workflow Studio to bring queried ERP data into other ServiceNow AI Platform processes.
 
-You can create as many models as needed, though you can't edit their field names. The sn\_erp\_integration.erp\_admin role is required to create and edit models.
+You can create as many models as needed, though you can't edit their field names. You must have the sn\_erp\_integration.erp\_admin role to create and edit models.
 
-## How models are structured
+## Model structure
 
 Each model is linked to tables on the ERP system, as well as remote tables and ERP extraction tables on the ServiceNow AI Platform. You can connect the same table to multiple different models.
 
-Models are connected to an ERP system, one ERP system for each model. The connected ERP system:
+Each model connects to one ERP system. The connected ERP system:
 
 -   Enables access to field and table information.
--   Helps coordinate data synchronization, sharing, and collaboration, enabling seamless integration and operation between the model and the ERP system.
+-   Helps coordinate data synchronization, sharing, and collaboration, enabling integration and operation between the model and the ERP system.
 
 Models encompass remote tables from the ERP system, as well as APIs, ERP extraction tables, and create/read/update operations, to create a holistic dataset. For example, you can have one model for sales orders and another for inventory.
 
@@ -55,7 +55,7 @@ After installing Zero Copy Connector for ERP, an admin or a user with the sn\_er
 
 ## Managing models to perform create, read, and update operations on ERP systems
 
-After you create or clone a model, you can specify how Zero Copy Connector for ERP reads, writes, and creates on the ERP system using the model manager page. When managing models, you have the option to use a BAPI, which is a remote procedure SAP function call that's similar to an API.
+After you create or clone a model, you can specify how Zero Copy Connector for ERP reads, writes, and creates on the ERP system using the model manager page. When managing models, you can use a BAPI, which is an SAP remote procedure call that's similar to an API.
 
 Each model can have only one create, one read, and one update operation defined.
 

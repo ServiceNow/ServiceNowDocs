@@ -1,5 +1,5 @@
 ---
-title: Configure AI search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+title: Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 description: Activate the ServiceNow Otto in AI Search application to extract actionable Q&amp;A Genius Result answers from knowledge articles found in the Service Portal, Virtual Agent, Employee Center, and global searches using generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring-ai-search-toggle.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure AI search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+# Configure AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
 Activate the ServiceNow Otto in AI Search application to extract actionable Q&amp;A Genius Result answers from knowledge articles found in the Service Portal, Virtual Agent, Employee Center, and global searches using generative AI.
 
@@ -28,7 +28,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
-2.  If the screen says you don't have AI search on the instance, select **Request AI Search**.
+2.  If the screen says you don't have AI Search on the instance, select **Request AI Search**.
 
 3.  Wait until AI Search is displayed as activated and ready for use.
 

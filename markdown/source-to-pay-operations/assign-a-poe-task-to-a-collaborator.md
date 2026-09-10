@@ -40,7 +40,7 @@ Role required: sn\_poem\_core.operational\_buyer
     |Priority|Urgency level assigned to the task.|
     |Short description|Short description of the task.|
 
-    \[Omitted image "pom-poe-create-task-modal.png"\] Alt text: Creating a new purchase order exception task and assigning to a collaborator
+    \[Omitted image "pom-poe-create-task-modal.png"\] Alt text: Creating a purchase order exception task and assigning to a collaborator
 
 6.  Select **Create**.
 

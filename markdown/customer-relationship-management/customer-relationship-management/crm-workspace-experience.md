@@ -16,7 +16,7 @@ The workspace experience applications give administrators and implementation par
 
 -   **[Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-configurable-workspace.md)**
 
-    Understand how CSM Configurable Workspace provides a unified, configurable environment for agents to manage cases, access customer information, and use resolution tools, all without leaving the workspace.
+    Understand how CRM Workspace provides a unified, configurable environment for agents to manage cases, access customer information, and use resolution tools, all without leaving the workspace.
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-playbooks.md)**
 

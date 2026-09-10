@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace components
-description: Content pages in CSM Configurable Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
+title: CRM Workspace components
+description: Content pages in CRM Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-components.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace components
+# CRM Workspace components
 
-Content pages in CSM Configurable Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
+Content pages in CRM Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
 
 ## Action bar
 

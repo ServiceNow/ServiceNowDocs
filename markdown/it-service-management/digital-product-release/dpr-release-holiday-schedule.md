@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 6
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Digital Product Release, IT Service Management]
 
 You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
 
-The following example of a release shows how holiday schedules affect its overall timeline to keep important dates on working days.
+The following example of a release shows how holiday schedules affect its overall timeline to keep important dates on working days. When a release is retargeted, planned start and end dates for phases are adjusted by the retarget days.
 
 Let's say a release has 4 phases: Planning, Development, Testing, and Implementation, with durations of 10, 25, 15, and 10 days, respectively, totaling 60 working days. The release readiness target date is set to Sep 5, 2025, and has a public and weekend holiday schedule \(U.S. Federal + Weekend holidays in 2025\) associated. So, the start and end dates of each phase are adjusted to account for non-working days \(holidays and weekends on the schedule\), to keep the phase durations intact. Key dates also follow the same adjustment rule.
 

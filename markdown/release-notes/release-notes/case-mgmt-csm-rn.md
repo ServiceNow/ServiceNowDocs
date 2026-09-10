@@ -1,18 +1,18 @@
 ---
 title: Case management for CSM release notes
-description: The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
+description: The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.The ServiceNow Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Case management for CSM release notes
 
 The ServiceNow® Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
 
-## Case management for CSM highlights for the Australia release
+## About Case management for CSM
 
 -   Add dependencies between task plan template items to define predecessor–successor relationships using the supported dependency types: Finish to start, Start after start, and Start together
 -   Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
@@ -22,15 +22,15 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 See [Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-management.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
 
--   **[Task dependencies for task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)**
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 
-    Define dependency relationships between template items in the \[sn\_task\_plan\_template\_dependency\] table, and upon applying the template, create and store the resulting task dependencies in the \[sn\_task\_dependency\_m2m\] table to ensure controlled task sequencing through predecessor–successor relationships.
+## June 2026
 
--   **[Document References in Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.md)**
+The ServiceNow® Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
 
-    Add documents to Task Plan Template items, storing document references in the \[sn\_task\_plan\_template\_document\] table and making them accessible through form views and related lists based on template state and user permissions, ensuring secure and controlled document access aligned with template‑level permissions
+### What's new
 
 -   ****
 
@@ -46,7 +46,35 @@ See [Case management for Customer Service Management](https://raw.githubusercont
     Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
 
 
-## Changed in this release
+### What's changed
+
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
+
+    The following UI components have been added in the Task Plan Template table:
+
+    -   The Template Dependencies tab displays a node‑map view of dependencies between template items in saved task plan template records. Each dependency appears as a labeled edge between nodes, indicating its type \(Finish to start, Start after start\) or Start together\). Select Edge to edit or delete the dependency, based on your role.
+    -   The Share Plan modal in the task plan template workspace includes three views; **Share Plan**, **Success**, and **Manage Access**, for configuring, confirming, and managing access to a task plan template, with a search bar, Select all option, and Currently shared with list in the Share Plan view.
+
+## Australia Early Availability
+
+The ServiceNow® Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Task dependencies for task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)**
+
+    Define dependency relationships between template items in the \[sn\_task\_plan\_template\_dependency\] table, and upon applying the template, create and store the resulting task dependencies in the \[sn\_task\_dependency\_m2m\] table to ensure controlled task sequencing through predecessor–successor relationships.
+
+-   **[Document References in Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.md)**
+
+    Add documents to Task Plan Template items, storing document references in the \[sn\_task\_plan\_template\_document\] table and making them accessible through form views and related lists based on template state and user permissions, ensuring secure and controlled document access aligned with template‑level permissions
+
+
+## Australia
+
+The ServiceNow® Case management for CSM application enables customer service organizations and support teams to collaborate on customer problems proactively to resolve issues. Case management for CSM was enhanced and updated in the Australia release.
+
+### What's changed
 
 -   **[Granular viewer roles for Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-roles.md)**
 
@@ -91,18 +119,9 @@ See [Case management for Customer Service Management](https://raw.githubusercont
     -   List view
     -   Case task list view
 
-## UI changes
+### Plugin information
 
--   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
-
-    The following UI components have been added in the Task Plan Template table:
-
-    -   The Template Dependencies tab displays a node‑map view of dependencies between template items in saved task plan template records. Each dependency appears as a labeled edge between nodes, indicating its type \(Finish to start, Start after start\) or Start together\). Select Edge to edit or delete the dependency, based on your role.
-    -   The Share Plan modal in the task plan template workspace includes three views; **Share Plan**, **Success**, and **Manage Access**, for configuring, confirming, and managing access to a task plan template, with a search bar, Select all option, and Currently shared with list in the Share Plan view.
-
-## Plugin information
-
--   **New Plugins**
+-   **New plugins**
 
     The following plugin is new in Australia:
 
@@ -123,6 +142,4 @@ See [Case management for Customer Service Management](https://raw.githubusercont
     -   [Proxy contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md) \(com.snc.csm\_proxy\_contacts\)
     -   [Targeted communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) \(com.sn\_publications\)
     -   [Case Assignment Workbench Demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md) \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

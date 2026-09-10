@@ -36,7 +36,7 @@ Role required: admin
 
     **Note:** The Manage your products section is collapsible by default. You can expand it to see all the product family cards.
 
-2.  Select **View product overview** for a specific product family card in the Manage your products section to start the setup process.
+2.  Select a specific product family card in the Manage your products section to start the setup process.
 
     The Product Hub page for the selected product family shows up.
 

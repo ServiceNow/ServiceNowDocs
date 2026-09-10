@@ -37,7 +37,7 @@ The EMR Provider Directory Sync writes to tables owned by several Healthcare Ope
     -   Customer Service Management \(`sn_customerservice`\) — owns the related-party configuration used for the care-team-member responsibility.
 3.  Confirm that the HL7 FHIR Spoke's `HL7 FHIR` Connection &amp; Credential Alias is configured with valid credentials for your FHIR server.
 
-    See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fhir-spoke-activate.md).
 
 4.  Confirm that the administrator who will operate the sync has the `sn_hco.admin` role, which grants the `sn_hco_intg_fhir.admin` role through inheritance.
 

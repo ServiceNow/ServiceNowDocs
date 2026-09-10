@@ -99,6 +99,12 @@ Properties control the behavior of all MID Servers or a particular MID Server.
 
     -   Type: integer
     -   Default: 30000
+-   **sn\_itom\_pattern.ms.ca.limit.template**
+
+    Applies the Start\_offset and Limit parameters when the certificate management pattern for Microsoft CA discovers certificates for a specific certificate template. By default, the pattern applies Start\_offset and Limit parameters only when discovering certificates across all templates. When you specify a template in the Template\_list parameter, the pattern discovers all certificates for that template and ignores Start\_offset and Limit. Set this property to true to apply Start\_offset and Limit to template-specific certificate discovery.
+
+    -   Type: true \| false
+    -   Default value: false
 -   **mid.cloud.discovery.bypass.proxy**
 
     This configuration parameter accepts a comma separated list of DNS/IP addresses of proxy servers. The listed proxy servers are bypassed during Cloud Discovery. To bypass proxies on multiple cloud service providers \(such as AWS or Azure\), a separate MID Server must be set up for each provider. Otherwise, the MID Server proxy configuration is followed normally.

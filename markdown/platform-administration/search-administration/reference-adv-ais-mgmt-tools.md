@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,14 +47,6 @@ Load AI Search Dashboard Documents by Profile
 </td><td>
 
 Populates the Documents by Search Profile data visualization on the AI Search dashboard. Runs every hour.
-
-</td></tr><tr><td>
-
-Load AI Search Dashboard Documents by Search Source
-
-</td><td>
-
-Populates the Documents by Search Source data visualization on the AI Search Profile dashboard. Runs every hour.
 
 </td></tr><tr><td>
 

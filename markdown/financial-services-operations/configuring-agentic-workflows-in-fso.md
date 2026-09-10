@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/c
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [configuring fso agentic workflows, configuring fso ai agents]
 breadcrumb: [Enable AI capabilities, Configure, Financial Services Operations \(FSO\)]
 ---
@@ -76,5 +76,5 @@ You can choose which service provider to use for AI agents and agentic workflows
 
 [Help resolve friendly fraud disputes agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/friendly-fraud-agentic-ai-workflow.md)
 
-[Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
+[Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-friendly-fraud.md)
 

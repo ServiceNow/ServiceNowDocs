@@ -48,7 +48,7 @@ Australia Patch 3 includes fixes for security-related problems that affected cer
 -   **[Authentication release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/authentication-rn.md)**
     -   Email OTP as an authentication factor for AI voice service: Use Email OTP as a standalone factor, a primary factor, or a secondary factor in AI voice agent authentication flows. When a caller reaches the voice agent, a one-time password is sent to their registered email address. The caller provides the password to complete authentication.
     -   KBA for AI voice service: Use the KBA setup to configure Knowledge-Based Authentication \(KBA\) for the voice channel. Choose from base system questions at both the identification level and the authentication level. AI voice service mappings are populated automatically from your Assistant Designer selection, so manually mapping voice services is no longer a mandatory step in the KBA setup.
-    -   Authenticate callers at the start of every call: Prompt callers for authentication or identification details at the start of every call, before the voice-only assistant responds to any request, using the Authenticate at the start of the call option on the Assistant Designer's Caller verification page.
+    -   Authenticate callers at the start of every call: Prompt callers for authentication or identification details at the start of every call, before the voice-only assistant responds to any request. Use the Authenticate at the start of the call option on the Assistant Designer's Caller verification page.
 -   **[Clone Admin Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/clone-admin-console-rn.md)**
 
     The ServiceNow® Clone Admin Console application copies data and metadata from one ServiceNow instance to another ServiceNow instance to easily synchronize your instances. Clone Admin Console was enhanced and updated in the Australia release.
@@ -82,7 +82,7 @@ Australia Patch 3 includes fixes for security-related problems that affected cer
 
     The Hermes Settings page is a centralized interface that enables Hermes administrators and maintenance users to monitor and control the configuration properties that govern the Hermes Messaging Service.
 
--   **[Install Universal Request for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/install-universal-request-spo.md)**
+-   ****
 
     Install the Universal Request for Source-to-Pay Operations \[sn\_fsc\_ur\_common\] plugin to enable the Universal Request in Sourcing and Procurement Operations.
 
@@ -99,16 +99,12 @@ Australia Patch 3 includes fixes for security-related problems that affected cer
     View, modify, and manage configuration properties that control the behavior of Hermes Messaging Service. You can update property values, manage background job states, or adjust settings where automated detection is unavailable.
 
 -   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/performance-analytics-rn.md)**
-
-    If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
-
 -   **[Reviewing prediction errors with the Observability Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/prediction-errors-observability-dashboard.md)**
 
     View this table's records directly by entering `ml_predictor_error_logs.list` in the navigator.
 
 -   **[ServiceNow AI Platform core feature release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/core-platform-rn.md)**
-    -   The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
-    -   Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
+    -       -   Use the Feature Preview Program to choose which pre-release capabilities to activate and test on your instance.
 -   **[Theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/ais-sp-css-vars.md)**
 
     `transparent`

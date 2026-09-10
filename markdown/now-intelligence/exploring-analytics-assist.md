@@ -37,7 +37,7 @@ The now\_assist\_panel\_user role is required to use the dashboard and visualiza
 
 ## Activation
 
-The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md).
+The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md).
 
 ## Supported user interfaces
 

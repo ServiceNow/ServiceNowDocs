@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -26,6 +26,14 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Admin Hub
+
+</td><td>
+
+The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+
+</td></tr><tr><td>
+
 AI Agent Studio
 
 </td><td>
@@ -40,15 +48,15 @@ AI Desktop Actions
 
 </td><td>
 
-The following are required to use AI Desktop Actions:
+The following are required to use defined AI Desktop Actions:
 
 -   Operating system: Microsoft Windows 11.
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported ServiceNow Otto version of ServiceNow to be able to use the ServiceNow Otto AI agents. For more information, see [Install ServiceNow Otto AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
-You must enable Next Experience UI Framework before you can use the Now Assist panel.
+You must enable Next Experience UI Framework before you can use the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
@@ -105,6 +113,14 @@ Interview management
 </td><td>
 
 The Hiring Core application provides essential data models and shared components for Hiring Experiences, and must be activated.
+
+</td></tr><tr><td>
+
+Live Connect
+
+</td><td>
+
+You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the Live Connect queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -208,27 +224,11 @@ The Project Workspace application must be installed before installing the Retail
 
 </td></tr><tr><td>
 
-SQL API
-
-</td><td>
-
-You must download the SQL API ODBC and JDBC drivers on your client machine. These drivers enable your BI tools and data analysis platforms to connect to your ServiceNow data and run the Live Connect queries. You can download the ODBC and JDBC drivers from ServiceNow Store.
-
-</td></tr><tr><td>
-
 ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-library-private-npm-registry.md).
-
-</td></tr><tr><td>
-
-ServiceNow Otto
-
-</td><td>
-
-The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
 
 </td></tr><tr><td>
 
@@ -244,7 +244,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-servicenow-sdk.md).
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-SAP ECC and SAP S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
+SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)

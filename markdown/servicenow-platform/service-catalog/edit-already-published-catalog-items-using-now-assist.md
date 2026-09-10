@@ -1,6 +1,6 @@
 ---
-title: Edit already published catalog items using ServiceNow Otto
-description: You can edit published catalog items conversationally using ServiceNow Otto. If you’ve already started editing a published catalog item, you can still use ServiceNow Otto to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
+title: Edit already published catalog items using AI
+description: You can edit published catalog items conversationally using AI. If you’ve already started editing a published catalog item, you can still use AI to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-already-published-catalog-items-using-now-assist.html
 release: australia
@@ -9,12 +9,12 @@ classification: service-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow Otto conversation to create and edit catalog items, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using AI conversation to create and edit catalog items, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Edit already published catalog items using ServiceNow Otto
+# Edit already published catalog items using AI
 
-You can edit published catalog items conversationally using ServiceNow Otto. If you’ve already started editing a published catalog item, you can still use ServiceNow Otto to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
+You can edit published catalog items conversationally using AI. If you’ve already started editing a published catalog item, you can still use AI to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
 
 ## Before you begin
 
@@ -32,10 +32,10 @@ Role required: catalog\_builder\_editor
 
 5.  Select **Edit with AI**.
 
-6.  Give prompts in the ServiceNow Otto chat, you can generate the catalog item.
+6.  Give prompts in the AI conversation, you can generate the catalog item.
 
 7.  After you’ve completed your edits, publish the catalog item.
 
 
-**Parent Topic:**[Using ServiceNow Otto conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
+**Parent Topic:**[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
 

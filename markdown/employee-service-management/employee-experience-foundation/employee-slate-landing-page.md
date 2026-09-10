@@ -1,6 +1,6 @@
 ---
-title: Employee Slate
-description: Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
+title: ServiceNow EmployeeWorks Web App
+description: ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-landing-page.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate
+# ServiceNow EmployeeWorks Web App
 
-Employee Slate is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
+ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI-first employee experience that brings search, requests, tasks, knowledge, and communications together in one destination. Employees can easily find information, manage requests and tasks, stay informed through communications and news, connect with teams, and get work done faster.
 
 ## Get started
 
@@ -32,11 +32,11 @@ Employee Slate is your AI-first employee experience that brings search, requests
 
 </td></tr><tr><td>
 
-[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the Employee Slate experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
+[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
 
 </td><td>
 
-[Moveworks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Conversational experiences that power Employee Slate.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
+[Moveworks\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Conversational experiences that power EmployeeWorks Web App.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-slate-moveworks.md)
 
 </td><td>
 
@@ -47,7 +47,7 @@ Employee Slate is your AI-first employee experience that brings search, requests
 
 ## Additional resources
 
--   Learn what's new in the [Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-slate-rn.md).
+-   Learn what's new in the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-slate-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/employee-slate-rn.md).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other ServiceNow users at [Now Community](https://www.servicenow.com/community/).

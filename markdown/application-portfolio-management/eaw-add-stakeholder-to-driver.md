@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing stakeholder:
         1.  Select **Add**.
-        2.  In the Add stakeholder window, select the stakeholder and the relationship type between the stakeholder and the driver.
+        2.  In the Add stakeholder window, select the stakeholder. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a stakeholder: select **New** and complete the form. For field descriptions, see [Create a stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-stakeholder-form.md).
 

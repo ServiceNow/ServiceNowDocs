@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __10 Sept 2026__:
+  * September docs refresh
 - __28 August 2026__:
   * Updates to release notes and ITSM for new L1 IT Service Desk AI Specialist feature
 - __17 August 2026__:

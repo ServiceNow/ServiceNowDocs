@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-processmining-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -175,7 +175,7 @@ Australia
 Analyze ServiceNow Playbooks, including their stages and individual activities using Process Mining. This capability enables Playbook authors and business process owners to do performance evaluations and optimize Playbooks.
 
 
--   **[Process Step filter \(Previously Transition filter\) &amp; Rule-based Findings enhanced](https://www.servicenow.com/docs/access?context=rule-based-builder&family=australia&ft:locale=en-US)**
+ -   **[Process Step filter \(Previously Transition filter\) &amp; Rule-based Findings enhanced](https://www.servicenow.com/docs/access?context=rule-based-builder&family=australia&ft:locale=en-US)**
 
 Unlock new use cases and drive better process optimization outcomes through the enhanced process step filter and rule-based findings.
 
@@ -235,7 +235,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Usability improvements introduced](https://www.servicenow.com/docs/access?context=explore-process-mining&family=yokohama&ft:locale=en-US)**
+
+A few improvements are introduced for ease of usability.
+
+    -   View the improvement opportunities on the Summary and Insights page as a card view or list view.
+    -   Rename the scheduled tasks that help to identify and view a specific result.
 
 </td></tr><tr><td>
 
@@ -297,7 +302,7 @@ Australia
 
 </td><td>
 
-You no longer require the now.assist.creator role to access Now Assist features in the Creator Pro Plus package. However, you must enable the relevant Process Mining skill, which serves as the necessary prerequisite. Additionally, you should have appropriate access to the project.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -334,7 +339,9 @@ Australia
 
 </td><td>
 
-No updates for this release.
+You no longer require the now.assist.creator role to access Now Assist features in the Creator Pro Plus package. However, you must enable the relevant Process Mining skill, which serves as the necessary prerequisite. Additionally, you should have appropriate access to the project.
+
+ Automation Discovery is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in the Australia release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -355,7 +362,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Process Mining is available with activation of the sn\_po plugin. For details, see [Activating Process Optimization](https://www.servicenow.com/docs/access?context=activating-process-mining&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -363,7 +373,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Process Mining is available by default. For details, see [Activating Process Optimization](https://www.servicenow.com/docs/access?context=activating-process-mining&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -371,7 +384,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Process Mining is available by default. For details, see [Activate](https://www.servicenow.com/docs/access?context=activating-process-mining&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -547,6 +563,8 @@ Yokohama
 -   Access control \(ACL\) rules updated
 
  See [Process Optimization](https://www.servicenow.com/docs/access?context=process-mining&family=yokohama&ft:locale=en-US) for more information.
+
+ **Important:** Process Mining is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

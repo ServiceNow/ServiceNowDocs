@@ -40,6 +40,8 @@ This connection between the applications reduces context switching and ensures t
 
 For EAP teams integrated with CWM, existing sprints and their scheduled work automatically sync to CWM. These details are displayed in the Sprint Planning view on the CWM Board.
 
+Sprint name, state, capacity, and dates all sync automatically from EAP to CWM, including for Agile teams that use non-calendar-based iterations.
+
 As the team progresses through assigned work, they can update the work status directly in the Sprints section. The sprint can be marked **Complete** from this view and any incomplete work items can be moved either to the backlog or the next sprint, if it exists.
 
 New sprints for the team must be created in EAP. After creating new sprints in EAP, they will sync to CWM, allowing the team to schedule work into these sprints from CWM.

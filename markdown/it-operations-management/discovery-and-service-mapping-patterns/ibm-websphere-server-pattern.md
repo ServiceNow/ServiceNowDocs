@@ -1,6 +1,6 @@
 ---
 title: IBM WebSphere Application Server discovery using patterns
-description: The Discovery and Service Mapping Patterns application uses the Websphere On Windows and Websphere On Unix patterns to find IBM WebSphere Application Servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Websphere On Windows and Websphere On Unix patterns to find IBM WebSphere Application Servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-websphere-server-pattern.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 # IBM WebSphere Application Server discovery using patterns
 
-The Discovery and Service Mapping Patterns application uses the Websphere On Windows and Websphere On Unix patterns to find IBM WebSphere Application Servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Websphere On Windows and Websphere On Unix patterns to find IBM WebSphere Application Servers. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The IBM WebSphere Application Server is a software framework with middleware that hosts Java-based web applications. Discovery identifies and classifies information about the IBM WebSphere Application Server on both Windows and Linux computers.
 

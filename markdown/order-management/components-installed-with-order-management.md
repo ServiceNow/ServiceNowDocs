@@ -118,7 +118,7 @@ Order Approver
 
 </td><td>
 
-Approves customer orders in Order Management for Telecommunications. This role is included in the Order Management Business Stakeholder role.
+Approves customer orders in Order Management. This role is included in the Order Management Business Stakeholder role.
 
 </td><td>
 
@@ -132,7 +132,7 @@ Order Viewer
 
 </td><td>
 
-Views customer, product, service, and resource orders and any related order tasks in Order Management for Telecommunications. This role is included in the Order Management Business Stakeholder role.
+Views customer, product, service, and resource orders and any related order tasks in Order Management. This role is included in the Order Management Business Stakeholder role.
 
 </td><td>
 

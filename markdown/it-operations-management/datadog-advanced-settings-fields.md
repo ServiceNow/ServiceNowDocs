@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-operations-management/datado
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ITOM AIOps reference, ITOM AIOps, IT Operations Management]
 ---
 
@@ -29,6 +29,16 @@ Base API path
 </td><td>
 
 The specific API path for querying metrics.The default is `/api/v2/query/timeseries`.
+
+</td></tr><tr><td>
+
+Enable container
+
+</td><td>
+
+Enables collection of Docker container metrics \(CPU, memory, network\) and binds them to Docker Container CIs \(cmdb\_ci\_docker\_container\).Set this to true only after your Docker Container CIs have been discovered — if enabled before the CIs exist, container metrics are still collected but remain unbound.
+
+Default: false.
 
 </td></tr><tr><td>
 

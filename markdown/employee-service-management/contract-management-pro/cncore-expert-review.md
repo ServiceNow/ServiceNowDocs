@@ -1,21 +1,22 @@
 ---
-title: Internal review overview
-description: Get your contract document reviewed by internal subject matter experts who have the expertise you need.
+title: Manual internal review
+description: Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-expert-review.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
+keywords: [Expert review, Manual review, Internal review, Contract review workflow, Subject matter expert review]
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Internal review overview
+# Manual internal review
 
-Get your contract document reviewed by internal subject matter experts who have the expertise you need.
+Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 
 A workflow for getting content reviewed by subject matter experts might progress as follows:
 
@@ -46,5 +47,5 @@ As a contract fulfiller, share information requested by the reviewer to proceed 
 -   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

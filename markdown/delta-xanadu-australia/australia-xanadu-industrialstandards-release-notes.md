@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-industrialstandards-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -109,26 +109,16 @@ Australia
 
 -   **[Work set standards](https://www.servicenow.com/docs/access?context=work-set-standards&family=australia&ft:locale=en-US)Work Set standards**
 
-Author a work set standard that groups Standard and Action sub-activities, then publish it through the standard approval and versioning flow.
-
-Run a work set standard as a Work set task that automatically creates child industrial guided tasks and industrial actions for execution on the shop floor.
+Author a work set standard that groups Standard and Action sub-activities, then publish it through the standard approval and versioning flow.Run a work set standard as a Work set task that automatically creates child industrial guided tasks and industrial actions for execution on the shop floor.
 
 
--   **[Standards hub](https://www.servicenow.com/docs/access?context=industrial-standards-library&family=australia&ft:locale=en-US)**
+ -   **[Standards hub](https://www.servicenow.com/docs/access?context=industrial-standards-library&family=australia&ft:locale=en-US)**
 
-Browse and compare standards using an upgraded hub that provides tile and list views with filters for state, scope, category, functional location, and equipment model.
-
-Users can quickly compare similar standards and see linked tasks, skills, and knowledge.
-
-Access policies differentiate enterprise and site standards to help prevent misapplication.
+Browse and compare standards using an upgraded hub that provides tile and list views with filters for state, scope, category, functional location, and equipment model.Users can quickly compare similar standards and see linked tasks, skills, and knowledge.Access policies differentiate enterprise and site standards to help prevent misapplication.
 
 -   **[Scheduling](https://www.servicenow.com/docs/access?context=scheduling-standards&family=australia&ft:locale=en-US)**
 
-Generate recurring work from standards by configuring daily, weekly, monthly, and custom scheduling patterns to maintain a consistent operational cadence.
-
-A system property \(for example, an offset in minutes\) lets admins align task creation with shift handovers or production calendar boundaries.
-
-Runtime tracing improves visibility into created tasks, their status, and exceptions.
+Generate recurring work from standards by configuring daily, weekly, monthly, and custom scheduling patterns to maintain a consistent operational cadence.A system property \(for example, an offset in minutes\) lets admins align task creation with shift handovers or production calendar boundaries.Runtime tracing improves visibility into created tasks, their status, and exceptions.
 
 -   **[Skill-based task management](https://www.servicenow.com/docs/access?context=skill-based-task-management&family=australia&ft:locale=en-US)**
 
@@ -313,7 +303,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Industrial Standards is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

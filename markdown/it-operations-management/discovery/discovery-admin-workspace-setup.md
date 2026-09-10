@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -121,7 +121,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama released starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-msteams.md).
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Australia release, Zurich release, or the Yokohama released starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see .
 
 -   **Notification destinations**
 

@@ -16,7 +16,7 @@ breadcrumb: [Workspace, Source-to-Pay Operations, Finance and Supply Chain]
 
 Configure Source-to-Pay Workspace to set up queues, work assignments, integrations, and other settings for accounts payable operations.
 
--   For more information on configuring Sourcing and Procurement Operations, see [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md).
+-   For more information on configuring Sourcing and Procurement Operations, see [Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md).
 -   For more information on configuring Supplier Lifecycle Operations, see [Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md).
 -   For more information on configuring Source-to-Pay Workspace, see [Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md).
 

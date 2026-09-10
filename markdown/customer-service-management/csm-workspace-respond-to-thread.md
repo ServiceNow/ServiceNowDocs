@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Respond to a community thread from a case
@@ -24,7 +24,7 @@ Cases that have been created from a community discussion have the **Channel** fi
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Open a case that was created from a community discussion.
 

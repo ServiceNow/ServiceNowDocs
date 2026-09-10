@@ -1,6 +1,6 @@
 ---
 title: Import skills from your resume or LinkedIn profile
-description: Import the skills residing in your resume or LinkedIn profile and add them to your Employee Profile in the Employee Center so that you have all your skills at one place and focus on your career development in the organization.
+description: Import skills from your resume or LinkedIn profile and add them to your Employee Profile in the Employee Center to focus on your career development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/import-skills-from-resume.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Using Skills Foundation, Skills Foundation, Growth Experiences, HR 
 
 # Import skills from your resume or LinkedIn profile
 
-Import the skills residing in your resume or LinkedIn profile and add them to your Employee Profile in the Employee Center so that you have all your skills at one place and focus on your career development in the organization.
+Import skills from your resume or LinkedIn profile and add them to your Employee Profile in the Employee Center to focus on your career development.
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ Role required: sn\_skills\_int.emp
 
     All the skills obtained from your resume or LinkedIn profile are displayed.
 
-8.  De-select the skills that you don't want to add to your Employee Profile.
+8.  Unselect the skills that you don't want to add to your Employee Profile.
 
 9.  Select the proficiency level for the skills by dragging the horizontal slider on the skill.
 

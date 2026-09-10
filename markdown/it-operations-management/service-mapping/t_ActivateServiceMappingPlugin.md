@@ -32,7 +32,7 @@ Role required: admin
 
 -   Discovery \(com.snc.discovery\)
 
-    **Note:** If you're activating the Discovery plugin for the first time in the Australia release, install the Discovery \(com.snc.discovery\) plugin first, then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin version 1.0.52 for Cloud Discovery to work. You can then upgrade to Australia.
+    **Note:** If you're activating the Discovery plugin for the first time in the Australia release, install the Discovery \(com.snc.discovery\) plugin first. Then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin version 1.0.52 for Cloud Discovery to work. You can then upgrade to Australia.
 
 -   Pattern Designer \(com.snc.pattern.designer\)
 -   Cloud Provisioning and Governance Core \(com.snc.cloud.core\)

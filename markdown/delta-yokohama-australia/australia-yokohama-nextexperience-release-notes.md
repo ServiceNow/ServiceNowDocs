@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nextexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -134,11 +134,6 @@ Turn on the Enable auto-focus on page alerts preference to automatically move fo
 Create and edit application menus and modules directly from the Next Experience UI. Admins can configure Record, List, Dashboard, and Custom page modules from a centralized, platform-native interface.
 
 
--   **[In-Product Surveys](https://www.servicenow.com/docs/access?context=in-product-surveys-overview&family=australia&ft:locale=en-US)**
-
-Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
-
-
 </td></tr></tbody>
 </table>## Changes
 
@@ -158,7 +153,19 @@ Yokohama
 
 </td><td>
 
--   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
+-   **[Enable keyboard focus on truncated text user preference](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+
+The "Enable keyboard focus on truncated text" user preference has been updated to "Enable keyboard focus on text that displays a tooltip."
+
+-   **[Improved keyboard shortcut modal](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=yokohama&ft:locale=en-US)**
+
+The keyboard shortcut menu has improved usability in the following ways:
+
+    -   The modal now includes two columns that include the keyboard shortcut and a description with a scrollable list of available shortcuts on the viewed page.
+    -   A search field enables you to search for shortcuts that are relevant to the page you’re viewing.
+    -   A **Close** button enables you to easily close the modal.
+
+ -   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
 
 The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -169,9 +176,11 @@ Zurich
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+For existing customers who upgrade to Zurich, use [Theme Builder to publish Coral theme to your instance](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US) or [add Coral theme to the Next Experience UX Parent App Theme table](https://www.servicenow.com/docs/access?context=configure-presentation-order-of-themes&family=zurich&ft:locale=en-US). Once enabled by a system administrator, Coral is available for [selection in the user's Theme preference](https://www.servicenow.com/docs/access?context=select-a-theme-in-next-experience&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -257,7 +266,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see [Activation considerations](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&family=australia&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Activation information
@@ -278,9 +287,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Yokohama release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created prior to upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr><tr><td>
 
@@ -288,9 +300,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Zurich release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr><tr><td>
 
@@ -298,9 +313,12 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform® feature that is active by default when the user loads or upgrades to the Australia release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -358,7 +376,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 The Yokohama release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr><tr><td>
 
@@ -366,7 +387,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 The Zurich release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr><tr><td>
 
@@ -374,7 +398,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 The Australia release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -395,11 +422,12 @@ Yokohama
 
 </td><td>
 
--   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Create your own keyboard shortcuts for frequently used actions.
 
--   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+    -   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 **Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
 
@@ -407,7 +435,7 @@ Create your own keyboard shortcuts for frequently used actions.
 
 **Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
 
--   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+    -   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
 
 **Voice input for Now Assist**
 
@@ -424,15 +452,16 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
+    -   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
 
 Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
 
--   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
+    -   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
 
 A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
 
@@ -443,11 +472,12 @@ Australia
 
 </td><td>
 
--   **[Enable auto-focus on page alerts new accessibility preference](https://www.servicenow.com/docs/access?context=enable-auto-focus-on-page-alerts&family=australia&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Enable auto-focus on page alerts new accessibility preference](https://www.servicenow.com/docs/access?context=enable-auto-focus-on-page-alerts&family=australia&ft:locale=en-US)**
 
 When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
 
--   **[Learn about accessibility preferences with a guided tour](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=australia&ft:locale=en-US)**
+    -   **[Learn about accessibility preferences with a guided tour](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=australia&ft:locale=en-US)**
 
 Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
 

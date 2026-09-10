@@ -54,6 +54,6 @@ Role required: kg\_admin
 
     -   You can rename a saved query, but you can't edit its underlying logic directly.
     -   To change the logic, build the updated query in the builder and save it as a replacement.
-    -   Queries saved by other users might be visible to everyone but cannot be edited or deleted by you.
+    -   Queries saved by other users might be visible to everyone but can't be edited or deleted by you.
     -   You can only delete the queries that you have saved.
 

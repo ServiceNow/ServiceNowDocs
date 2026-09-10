@@ -97,6 +97,10 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
+
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
@@ -113,7 +117,7 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
 [Generate activity responses for HR cases]()
+
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

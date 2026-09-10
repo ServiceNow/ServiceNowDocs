@@ -1,6 +1,6 @@
 ---
 title: Exploring Risk and Compliance
-description: Risk and Compliance in AI Control Tower provides visibility into risk, compliance, and governance status across your AI portfolio.
+description: Risk and Compliance in AI Control Tower provides governance visibility into risk, compliance, and governance status across your AI portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-exploring.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, E
 
 # Exploring Risk and Compliance
 
-Risk and Compliance in AI Control Tower provides visibility into risk, compliance, and governance status across your AI portfolio.
+Risk and Compliance in AI Control Tower provides governance visibility into risk, compliance, and governance status across your AI portfolio.
 
 ## Risk and Compliance overview
 

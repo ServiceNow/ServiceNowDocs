@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon RDS spoke v1.0.5 is the latest version.
+Amazon RDS spoke v1.0.5 is the latest version. For version history of the spoke, see [Amazon RDS spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-rds.html).
 
 ## Spoke dependencies
 

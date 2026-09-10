@@ -1,6 +1,6 @@
 ---
 title: NowVoiceService class - iOS
-description: The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.Creates a UIViewController containing the voice agent UI, ready to be presented in a modal.Updates the visual theme of the currently active voice UI.
+description: The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.Ends the current voice call.Checks whether there is a currently active voice call.Creates a UIViewController containing the voice agent UI, ready to be presented in a modal.Toggles the microphone mute state of the current call.Updates the visual theme of the currently active voice UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.html
 release: australia
@@ -8,7 +8,7 @@ product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
 last_updated: "2026-07-14"
-reading_time_minutes: 3
+reading_time_minutes: 5
 breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
@@ -44,23 +44,6 @@ The service configuration for the ServiceNow instance.
 
 </td></tr><tr><td>
 
-voiceEnabled
-
-</td><td>
-
-Boolean
-
-</td><td>
-
-Flag that indicates whether voice is enabled on the instance. Valid values:
-
--   true: Voice is enabled.
--   false: Voice is turned off.
-
- Always `true` after a NowVoiceService is successfully initialized with [makeVoiceService\(instanceUrl:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
-
-</td></tr><tr><td>
-
 configurations
 
 </td><td>
@@ -71,10 +54,120 @@ Array of [NowVoiceEndpoints](https://raw.githubusercontent.com/ServiceNow/Servic
 
 List of available voice endpoint configurations retrieved from the instance.
 
+</td></tr><tr><td>
+
+isMuted
+
+</td><td>
+
+Bool
+
+</td><td>
+
+Flag that indicates the microphone mute state for the current call. Setting this property has no effect if no call is currently active.Valid values:
+
+-   true: The microphone is muted.
+-   false: The microphone is unmuted or no call is active.
+
+</td></tr><tr><td>
+
+voiceEnabled
+
+</td><td>
+
+Bool
+
+</td><td>
+
+Flag that indicates whether voice is enabled on the instance. Valid values:
+
+-   true: Voice is enabled.
+-   false: Voice is turned off.
+
+ Always `true` after a NowVoiceService is successfully initialized with [makeVoiceService\(instanceUrl:\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md).
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
-## NowVoiceService - startVoice\(endpoint: NowVoiceEndpoint, uiConfiguration: NowVoiceUIConfiguration, callbacks: NowVoiceCallbacks, theme: NowVoiceThemeable\) async
+## NowVoiceService - endCall\(\)
+
+Ends the current voice call.
+
+Has no effect if no call is active.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following code example shows how to call this function.
+
+```
+let voiceService = try? await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
+let endpoint = voiceService?.configurations.first
+
+if let voiceService, let endpoint {
+    if let vc = try? await voiceService.startVoice(endpoint: endpoint, theme: theme) {
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+}
+
+// End a call on timeout, navigation, or from a custom hang-up button
+voiceService?.endCall()
+```
+
+## NowVoiceService - hasActiveCall\(\)
+
+Checks whether there is a currently active voice call.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_qft_qzv_nva8" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether there is an active voice call.Valid values:
+
+-   true: There is an active voice call.
+-   false: There isn't an active voice call.
+
+</td></tr></tbody>
+</table>The following code example shows how to call this function.
+
+```
+let voiceService = try? await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
+let endpoint = voiceService?.configurations.first
+
+if let voiceService, let endpoint {
+    if let vc = try? await voiceService.startVoice(endpoint: endpoint, theme: theme) {
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+}
+
+// Guard UI state or prevent starting a second call
+if voiceService?.hasActiveCall() == true {
+    // A voice call is currently in progress
+}
+```
+
+## NowVoiceService - startVoice\(endpoint: NowVoiceEndpoint, uiConfiguration: NowVoiceUIConfiguration, callbacks: NowVoiceCallbacks, theme: NowVoiceThemeable\) async throws
 
 Creates a UIViewController containing the voice agent UI, ready to be presented in a modal.
 
@@ -154,17 +247,10 @@ import NowVoice
 
 let instanceUrl = URL(string: "https://your-instance.service-now.com")!
 
-// Initialize a NowVoiceService
-do {
-    let voiceService = try await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
-} catch {
-    // Handle NowServiceError
-    print("Failed to create voice service: \(error)")
-}
+let voiceService = try? await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
 
-// Get the voice endpoint from instance SDK settings
-guard let endpoint = voiceService.configurations.first else {
-    // No voice endpoints configured on this instance.
+guard let voiceService, let endpoint = voiceService.configurations.first else {
+    // Either the service failed to initialize, or no voice endpoints are configured.
     return
 }
 
@@ -182,15 +268,19 @@ let vc = try await voiceService.startVoice(
         },
         onMessageReceived: { message in
             // Receive real-time transcript messages during the session.
-            print("[\(message.role)]: \(message.text)")
+            print("[\(message.role)]: \(message.content)")
         },
-        onCallEnded: { conversationId, error in
+        onCallEnded: { conversationId, error, endedFromCallKitUI in
             // Called when the voice session ends.
             if let error {
                 print("Session ended with error: \(error)")
             } else {
                 print("Session complete. Conversation ID: \(conversationId ?? "unknown")")
             }
+        },
+        onCallMinimized: {
+            // Called when the voice UI is minimized.
+            print("Voice chat is minimized")
         }
     ),
     theme: NowVoiceDefaultTheme()
@@ -199,6 +289,55 @@ let vc = try await voiceService.startVoice(
 //Present the voice agent UI in a full-screen modal
 vc.modalPresentationStyle = .fullScreen
 present(vc, animated: true)
+```
+
+## NowVoiceService - toggleMute\(\)
+
+Toggles the microphone mute state of the current call.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_qft_qzv_nva7" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Bool
+
+</td><td>
+
+Flag that indicates the new microphone mute state for the current call.Valid values:
+
+-   true: The microphone is now muted.
+-   false: The microphone is now unmuted or no call is active.
+
+</td></tr></tbody>
+</table>The following code example shows how to call this function.
+
+```
+let voiceService = try? await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
+
+let endpoint = voiceService?.configurations.first
+
+if let voiceService, let endpoint {
+    if let vc = try? await voiceService.startVoice(endpoint: endpoint, theme: theme) {
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+}
+
+// Wire to a custom mute button or auto-mute on backgrounding
+voiceService?.toggleMute()
+
+// Check mute state to update a custom mute button icon
+let muted = voiceService?.isMuted ?? false
 ```
 
 ## NowVoiceService - updateTheme\(theme: NowVoiceThemeable\)
@@ -221,19 +360,11 @@ The following code example updates the visual theme of the currently active voic
 import NowVoice
 
 let instanceUrl = URL(string: "https://your-instance.service-now.com")!
+let voiceService = try? await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
 
-do {
-    let voiceService = try await NowVoice.makeVoiceService(instanceUrl: instanceUrl)
-} catch {
-    // Handle NowServiceError
-    print("Failed to create voice service: \(error)")
-}
-
-struct MyVoiceTheme: NowVoiceThemeable {
-    var color: NowUIColoring = MyAppColors()
-}
+struct MyVoiceTheme: NowVoiceThemeable { var color: NowUIColoring = MyAppColors()}
 
 // Update the theme while a voice session is active
-voiceService.updateTheme(theme: MyVoiceTheme())
+voiceService?.updateTheme(theme: MyVoiceTheme())
 ```
 

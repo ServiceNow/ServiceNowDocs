@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assign and manage alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an alert in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can close alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d421924e89">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d435101e89">
 
 Location
 
-</th><th align="left" id="d421924e92">
+</th><th align="left" id="d435101e92">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d421924e98">
+</th></tr></thead><tbody><tr><td id="d435101e98">
 
 **The Express List pane**
 
@@ -57,7 +57,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Close alert**.
 
 
-</td></tr><tr><td id="d421924e151">
+</td></tr><tr><td id="d435101e151">
 
 **The Express List preview panel for group alerts**
 

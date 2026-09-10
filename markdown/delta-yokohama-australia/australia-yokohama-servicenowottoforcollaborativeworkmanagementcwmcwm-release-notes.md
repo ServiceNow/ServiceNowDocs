@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,17 +75,24 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Generate tasks from Docs](https://www.servicenow.com/docs/access?context=generate-tasks-cwm-docs-now-assist&family=yokohama&ft:locale=en-US)**
+
+Help increase efficiency and save time by using Now Assist to automatically generate CWM Tasks for your Board. Using the information in your doc, Now Assist provides task recommendations. You can choose to refine or modify these recommendations. You can iterate multiple times to tweak the task recommendations according to your requirements.
+
+After you're satisfied with the recommendations, Now Assist can help you add these tasks to a board of your choice.
+
+-   **[Summarize and paraphrase Docs content](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+
+Use Now Assist capabilities to refine selected content in docs, or to get a summary of the whole document.
+
+    -   Summarize, elaborate, or shorten selected text.
+    -   Summarize the entire content on the page.
 
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
-
--   **[Generate acceptance criteria for CWM stories](https://www.servicenow.com/docs/access?context=generate-acceptance-criteria-for-stories-in-cwm&family=zurich&ft:locale=en-US)**
-
-Generate clear, consistent acceptance criteria for user stories with the acceptance criteria generation skill. By using story details as context and predefined templates, the skill helps you generate acceptance criteria in a format that aligns with your organizational requirements.
 
 -   **[Generate and improve content using open-text prompts](https://www.servicenow.com/docs/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist&family=zurich&ft:locale=en-US)**
 
@@ -132,7 +139,20 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 
 </td></tr><tr><td>
 
@@ -144,13 +164,6 @@ Zurich
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
-
--   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install an AI product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
 </td></tr><tr><td>
 
@@ -261,7 +274,10 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -269,7 +285,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

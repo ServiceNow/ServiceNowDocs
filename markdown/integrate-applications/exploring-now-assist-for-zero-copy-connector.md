@@ -15,21 +15,21 @@ breadcrumb: [ServiceNow Otto for Zero Copy Connector, Workflow Data Fabric]
 
 With the ServiceNow Otto for Zero Copy Connector application, you can obtain information about ERP systems, software, models, and data products.
 
-## ServiceNow Otto for ZCC overview
+## Otto for ZCC overview
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in ServiceNow Otto for ZCC.
+The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Otto for ZCC.
 
-## ServiceNow Otto for ZCC agentic workflows
+## Otto for ZCC agentic workflows
 
 Use the Explore ERP models agentic workflow to obtain information about working with ERP database tables and models.
 
-## ServiceNow Otto for ZCC AI agents
+## Otto for ZCC AI agents
 
 Use the OData Service Recommender AI agent to connect to SAP OData services without manually identifying endpoints or configuring data models. You can also have the agent create a data model if an appropriate one does not already exist.
 
-## ServiceNow Otto for ZCC skills
+## Otto for ZCC skills
 
-The ServiceNow Otto for ZCC application includes generative AI skills and features that enable you to find information about ERP software, models, data products, and more.
+The Otto for ZCC application includes generative AI skills and features that enable you to find information about ERP software, models, data products, and more.
 
 -   **ERP data discovery**
 

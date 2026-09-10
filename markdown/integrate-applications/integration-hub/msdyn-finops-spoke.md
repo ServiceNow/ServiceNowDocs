@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Dynamics 365 for Finance and Operations spoke v2.5.0 is the latest version.
+Microsoft Dynamics 365 for Finance and Operations spoke v2.5.0 is the latest version. For version history of the spoke, see [Microsoft Dynamics 365 for Finance and Operations spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-dynamics-365-fin-ops.html).
 
 ## Supported versions
 

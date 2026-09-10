@@ -1,18 +1,18 @@
 ---
 title: Resume product inventory records
-description: Perform the Resume operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace. By resuming a product inventory, you can restart a product or service.
+description: Perform the Resume operation on single or multiple product inventory records that result in the creation of orders or quotes on the CRM Workspace. By resuming a product inventory, you can restart a product or service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resume\_product\_inventory\_records.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Resume product inventory records
 
-Perform the **Resume** operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace. By resuming a product inventory, you can restart a product or service.
+Perform the **Resume** operation on single or multiple product inventory records that result in the creation of orders or quotes on the CRM Workspace. By resuming a product inventory, you can restart a product or service.
 
 ## Before you begin
 

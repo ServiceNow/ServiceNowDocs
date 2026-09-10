@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/prop
 release: australia
 topic_type: reference
 last_updated: "2026-05-04"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -84,6 +84,10 @@ decimalsMonetary \(sn\_dora\_accel.decimals\_monetary\)
 Decimal places for monetary values.
 
  Enter "-3" to round values to the nearest thousand \(for example, 123,456 becomes 123,000\).
+
+ Enter `2` to keep monetary values to 2 decimal places on download. When the value is greater than 0, the system formats the downloaded value to that many decimal places instead of rounding to a whole number.
+
+ The default value is 0. This property applies to the Excel Master Template download and CSV download only. It does not apply to UI display, upload or validation, individual table downloads, or database storage.
 
 </td></tr><tr><td>
 

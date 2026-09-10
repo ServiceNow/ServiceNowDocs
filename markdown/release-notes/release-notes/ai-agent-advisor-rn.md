@@ -1,19 +1,24 @@
 ---
 title: AI Agent Advisor release notes
-description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
+description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
-last_updated: "2026-07-30"
-reading_time_minutes: 4
-keywords: [AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI]
+topic_type: topic
+last_updated: "2026-08-07"
+reading_time_minutes: 5
+keywords: [AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI, AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI, AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI, AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI, AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI, AI Agent Advisor, AI Admin Center, Now Assist Center, Agent Miner, AI]
 ---
 
 # AI Agent Advisor release notes
 
 The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
 
-## AI Agent Advisor highlights for the Australia release
+## About AI Agent Advisor
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-6.md)
+
+-   Use the automation opportunities enhancements to refine your view and identify opportunities.
+-   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -34,9 +39,55 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 
 See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** AI Agent Advisor is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## AI Agent Advisor features
+-   **Activation information**
+
+    AI Agent Advisor installs and runs automatically as part of the standard ServiceNow AI setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md).
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
+
+## September 2026
+
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
+
+### What's new
+
+-   **[Automation opportunities enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
+
+    Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
+
+-   **Delete custom data set analysis**
+
+    Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
+
+
+### What's changed
+
+-   **[Calculate savings projections for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
+
+    Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
+
+-   **[Daily recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
+
+    The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
+
+
+## August 2026
+
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
+
+### What's new
 
 -   **[Pre-generated AI agents in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)**
 
@@ -55,10 +106,31 @@ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     View automation opportunities as actionable insights in AI Control Tower.
 
 
+## June 2026
+
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
+
+### What's new
+
 -   **[CSM automation opportunities from chat, voice, and email data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**
 
     Discover automation opportunities for CSM AI deployment by using AI Agent Advisor to analyze interaction data from chat, voice, and email channels. Match or generate channel-specific AI agents to implement the automation opportunities.
 
+
+### What's changed
+
+-   **[AI Agent Advisor enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
+
+    Several features are updated to improve the user experience.
+
+    -   The AI Agent Advisor section of the AI Admin Center home page is renamed to Automation opportunities.
+    -   The automation opportunities cards display the record type. Hours time saved is changed to Est cost savings per year. Estimated savings is changed to Est time saved per year. A Review opportunity link displays on the card.
+
+## Australia General Availability
+
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -76,20 +148,12 @@ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
 
 
-## UI changes
 
--   **[AI Agent Advisor enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md)**
+## Australia
 
-    Several features are updated to improve the user experience.
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. AI Agent Advisor is a new application in the Australia release.
 
-    -   The AI Agent Advisor section of the AI Admin Center home page is renamed to Automation opportunities.
-    -   The automation opportunities cards display the record type. Hours time saved is changed to Est cost savings per year. Estimated savings is changed to Est time saved per year. A Review opportunity link displays on the card.
-
-## Activation information
-
-AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -97,33 +161,4 @@ AI Agent Advisor installs and runs automatically as part of the standard Now Ass
 
     AI Agent Advisor \(sn\_agent\_miner\): AI Agent Advisor is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them.
 
-
-## Browser requirements
-
-The AI Agent Advisor application supports various browsers, including Google Chrome and Microsoft Edge. AI Agent Advisor isn’t supported in Internet Explorer. For more information, see Browser support.
-
-## Localization information
-
-AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
-
-## Related ServiceNow applications and features
-
--   **[ServiceNow® AI implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    Getting ready to implement AI is more than just installing plugins. It’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will help make your data ready, your applications prepared, and your organization's AI policy in alignment with your implementation.
-
--   **[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    ServiceNow Otto uses generative AI that can enhance user productivity and efficiency through conversation and proactive experiences.
-
--   **[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)**
-
-    The ServiceNow® AI Admin Center application is a single control hub that brings together other AI assets and workspaces, making it fast and effortless for administrators to set up and manage generative‑AI solutions from a unified experience.
-
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)**
-
-    The ServiceNow® AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

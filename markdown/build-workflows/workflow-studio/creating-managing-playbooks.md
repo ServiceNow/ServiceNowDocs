@@ -97,7 +97,7 @@ Generate a playbook directly from an existing knowledge base article to using AI
 -   **[Playbook recommendations for placeholder activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-recommendations.md)**  
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
 -   **[Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/preview-playbook-runtime-ui.md)**  
-See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance in real-time, and adjust its configuration before publishing the playbook.
+See how an activity will appear to end users when the playbook runs. Use the preview to confirm the activity's appearance as you work, and adjust its configuration before you activate the playbook.
 -   **[Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md)**  
 Verify that your playbook works as expected by running the playbook with test trigger data. Identify and resolve all errors before activating your playbook.
 -   **[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart.md)**  
@@ -118,5 +118,5 @@ Make Playbooks available in multiple languages during runtime, to support worldw
 
 [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md)
 
-[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-07-24"
-reading_time_minutes: 9
+last_updated: "2026-08-25"
+reading_time_minutes: 10
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -36,8 +36,11 @@ Define calendar entries in advance only if you have a specific requirement to ma
 
 The role that a user has and whether a timeline already exists for the team together determine who can create an iteration.
 
--   `sn_apw_advanced.eap_scrum_master`: Creates the first iteration for a set of teams that share a planning calendar. This role can also create, edit, and delete planning calendars and calendar spans, and it's the only role that can change the start date or end date of an iteration. The role is intended for team leads who plan iteration timelines without needing full EAP admin access.
--   `sn_apw_advanced.eap_user`: Creates iterations that follow a timeline which already exists, alongside their other Backlog activities. Users with this role can't change iteration dates.
+-   `sn_apw_advanced.eap_scrum_master`: Creates the first iteration for a set of teams that share a planning calendar. This role can also create, edit, and delete planning calendars and calendar spans, and it's the only role that can change the start date or end date of an iterationthat follows a planning calendar entry. The role is intended for team leads who plan iteration timelines without needing full EAP admin access.
+-   `sn_apw_advanced.eap_user`: Creates iterations that follow a timeline which already exists, alongside their other Backlog activities.
+
+    Users with this role can set the start date and the end date while they create an iteration. Afterward, they can change those dates only on an iteration that doesn't follow a planning calendar entry.
+
 
 Because many teams can share one planning calendar, an EAP scrum master creates the first iteration for one of the ARTs in a configuration. After that timeline exists, an EAP user can create the following Planning Intervals and Sprints for the other ARTs and teams that share the same calendar. If no timeline exists yet, the iteration isn't created and a message asks the user to contact their scrum master.
 
@@ -47,13 +50,21 @@ These roles are contained within one another. The EAP admin role contains the EA
 
 Planning calendars in EAP are set for each team level in the configuration. In the default configurations, the ART and Agile Team levels have a planning calendar. The levels above the ART, such as Portfolio and Solution Train, have no planning calendar, so they group teams organizationally and don't carry their own iteration timeline.
 
-All Agile Teams in one ART share that ART's timeline. When you create a Planning Interval for an ART and add child Sprints, the Sprints apply to every Agile Team in that ART. If an Agile Team is added to the ART later, the in-progress Sprint and the upcoming Sprints are created for that team automatically, to match the Sprints on its sibling teams. Sprints that already ended aren't copied, and no Sprints are created if the sibling teams don't have any.
+All Agile Teams in one ART share that ART's timeline. When you create a Planning Interval for an ART and add child Sprints, the Sprints apply to every Agile Team in that ART. If an Agile Team is added to the ART later, the in-progress Sprint and the upcoming Sprints are created for that team automatically. These Sprints match the Sprints on its sibling teams. Sprints that already ended aren't copied, and no Sprints are created if the sibling teams don't have any.
 
 By default, the ARTs in one EAP configuration also share their planning calendars. When the first ART creates a Planning Interval, its dates are recorded on the shared calendar. The other ARTs each still create their own Planning Interval from their own Backlog, but the date fields are read-only and use the dates that are already set. A message on the modal states that the calendar is shared with a team that has already created iterations. In this way, every ART in the configuration follows one cadence.
 
-To keep the ARTs in a configuration independent of each other, your admin selects **Have unique calendars** on the EAP configuration. Each ART that's added after this option is selected gets its own planning calendar, together with a matching calendar for each of its child levels. Creating a Planning Interval for one of those ARTs doesn't affect the others. Select this option before you add your teams, because it can't be cleared afterward and it doesn't change the calendars or the iterations that already exist. For more information, see [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
+To keep the ARTs in a configuration independent of each other, your admin selects **Allow unique cadence for each team** on the EAP configuration. Each team that's added to the configuration after this option is selected gets its own planning calendar, together with a matching calendar for each of its child levels. Teams that already exist continue to use the default calendar of the configuration. Creating a Planning Interval for one of those ARTs doesn't affect the others. Selecting this option doesn't change the calendars or the iterations that already exist. An EAP admin can clear the option later. For more information, see [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
 
 When you edit the start date or end date of an iteration, the change updates the underlying calendar entry. The change cascades to the iterations on all other teams that share that entry, which keeps iteration dates consistent across teams that plan together. For details on editing dates, see [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
+
+## Iterations on single-level configurations
+
+A configuration can define a planning calendar at the Agile Team level only, without having an ART level above it. When such a configuration also has **Allow unique cadence for each team** selected, each Agile Team sets its own cadence. The Sprints that the team creates carry their own start date and end date instead of following a shared planning calendar entry. The dates on one team don't move the Sprints of another team.
+
+On these Sprints, the **Enterprise agile calendar entry** field is empty and isn't required. An EAP user can change the start date and the end date of such a Sprint after it's created, without needing the EAP scrum master role. The date rules in this topic still apply, so a new Sprint can't overlap one that already exists on the same team.
+
+Sprints that carry their own dates also sync to the applications that EAP integrates with. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md) and [Connecting EAP with Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/integrate-eap-with-collaborative-work-management.md).
 
 ## Example: Full Configuration
 
@@ -69,7 +80,7 @@ The Large Solution Configuration uses the hierarchy **Solution Train &gt; ART &g
 
 -   The EAP scrum master creates a Planning Interval named **Q1 2027** for Personal Loans ART with six child Sprints. PLT Team A and PLT Team B both get the same six Sprints. Because both ARTs belong to the same configuration and share its planning calendar, these dates are now set for Business Loans ART as well. When someone creates the Planning Interval for Business Loans ART, the date fields are read-only and use the same dates, and BLT Team X's Sprints align to them.
 -   The scrum master extends the Q1 2027 end date by one week. The change cascades to the existing Sprint 6 on PLT Team A, PLT Team B, and BLT Team X, because all three teams follow the same calendar entry.
--   If the admin had selected **Have unique calendars** on this configuration, each ART would follow its own calendar. Personal Loans ART and Business Loans ART would then keep separate Planning Intervals and Sprints, and a date change on one ART wouldn't affect the other.
+-   If the admin had selected **Allow unique cadence for each team** on this configuration, each ART would follow its own calendar. Personal Loans ART and Business Loans ART would then keep separate Planning Intervals and Sprints, and a date change on one ART wouldn't affect the other.
 
 ## Rules that iteration dates must follow
 

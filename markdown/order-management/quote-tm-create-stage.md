@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-07"
 reading_time_minutes: 4
-breadcrumb: [Stages, CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Stages, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a quote transaction stage
@@ -89,4 +89,6 @@ When creating a stage, you assign it a variable name that serves as a unique ide
 
     The stage is saved with its rule groupings, entry criteria, and configured stage behaviors. The stage is available in the Stages list and can be associated with a blueprint layout.
 
+
+**Parent Topic:**[Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-tm-stages.md)
 

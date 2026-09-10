@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-virtualagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 17
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,61 +84,6 @@ Create and manage LLM-based chat and voice assistants within Assistant Designer,
 Manage the settings for an asset directly from the Asset library page.
 
 
--   **[Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&family=yokohama&ft:locale=en-US)**
-
-Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
-
--   **[Assistants in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&family=yokohama&ft:locale=en-US)**
-
-The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
-
--   **[AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
-
-Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=yokohama&ft:locale=en-US).
-
--   **Virtual Agent Designer [Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
-
-Slide the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
-
--   **Virtual Agent server**
-    -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked Agentic AI messages to server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
-
--   **[AI Connector Utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
-
-Link custom skills to generative AI to add their functionality to LLM conversations.
-
--   **[AI agents and agentic workflows in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=yokohama&ft:locale=en-US)**
-
-View AI agents and agentic workflows created in AI Agent Studio in Virtual Agent Designer.
-
--   **[Shorten responses option for bot text response](https://www.servicenow.com/docs/access?context=va-text-response&family=yokohama&ft:locale=en-US)**
-
-For bot text responses, use the **Shorten responses** toggle in Virtual Agent Designer to turn on the **Show more** option in the chat on the user side.
-
-
--   **[Application scope for topics](https://www.servicenow.com/docs/access?context=vad-topic-creation-form&family=yokohama&ft:locale=en-US)**
-
-Select the application scope for topics in Virtual Agent Designer.
-
-
--   **[Synthesized response in Slack conversations](https://www.servicenow.com/docs/access?context=slack-synthesized-response&family=yokohama&ft:locale=en-US)**
-
-Generate synthesized responses in Slack conversations with Now Assist.
-
--   **[Virtual Agent feature support in Microsoft Teams conversations](https://www.servicenow.com/docs/access?context=va-teams-other-features&family=yokohama&ft:locale=en-US)**
-
-Generate synthesized responses in Microsoft Teams conversations with Now Assist.
-
--   **[Custom skills in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=managing-custom-skills&family=yokohama&ft:locale=en-US)**
-
-View skills created in AI Skill Kit in Virtual Agent Designer.
-
--   **[Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US)**
-
-Create chat surveys compatible with LLM-enabled user inputs, aside from the Carousel user input.
-
-
 </td></tr><tr><td>
 
 Zurich
@@ -154,97 +99,11 @@ Create and manage LLM-based chat and voice assistants within Assistant Designer,
 Manage the settings for an asset directly from the Asset library page.
 
 
--   **[Integrating with Google Workspace](https://www.servicenow.com/docs/access?context=integrate-with-gsuite&family=zurich&ft:locale=en-US)**
-
-Integrate Google Workspace chat with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
-
--   **[AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=zurich&ft:locale=en-US)**
-
-Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=zurich&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=zurich&ft:locale=en-US).
-
--   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) server**
-    -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini large language models \(LLMs\). For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=zurich&ft:locale=en-US).
--   **[Create a Virtual Agent asset](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&family=zurich&ft:locale=en-US)**
-
-Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
-
--   **[Assistants in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&family=zurich&ft:locale=en-US)**
-
-The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
-
--   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Copilot](https://www.servicenow.com/docs/access?context=ms-copilot-na-va&family=zurich&ft:locale=en-US)**
-
-Custom Engine Agent \(CEA\) is replacing the legacy Microsoft bot framework, allowing Microsoft Copilot to discover Virtual Agent, Now Assist, and use multi-turn conversations.
-
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[View Live Agent status updates](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
-
-Routing messages and section headers indicate when the live agent has entered and left the chat in premium chat conversations.
-
-
--   **[Switch between interactive views](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
-
-In premium chat conversations, switch between multiple interactive views through the drop-down selector including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.
-
-
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=australia&ft:locale=en-US)**
-
-Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
-
--   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=australia&ft:locale=en-US)**
-
-Enable estimated wait time for the next live agent. When enabled, users see the estimated wait time for the live agent in the chat menu item.
-
--   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US)**
-
-Premium chat now supports uploading documents directly into a conversation.
-
--   **[Review settings](https://www.servicenow.com/docs/access?context=review-assistant-settings&family=australia&ft:locale=en-US)**
-
-The MCP servers section shows which users can access Model Context Protocol \(MCP\)-provided capabilities through the assistant.
-
--   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=australia&ft:locale=en-US)**
-
-Personalization is now shown by default.
-
-
--   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=australia&ft:locale=en-US)**
-
-Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
-
-By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
-
-The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
-
--   **[Select a display experience](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&family=australia&ft:locale=en-US)**
-
-Mobile custom apps support configuration of enhanced chat and premium chat display options, with availability dependent on the widget's current configuration.
-
--   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=australia&ft:locale=en-US)**
-
-If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
-
-Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
-
--   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=australia&ft:locale=en-US)**
-
-When editing an assistant with premium chat, create, edit, or delete prompts from the prompt library. Prompts help users ask better questions and get more accurate answers. Use the prompt library to manage prompts that users see in premium chat. Create your own prompts or use the default prompts.
-
--   **[Prompt library](https://www.servicenow.com/docs/access?context=now-assist-prompt-library&family=australia&ft:locale=en-US)**
-
-Browse and select from promoted prompt templates or save your own custom prompts, eliminating the need to retype frequently-used prompts within your chats. Access your reusable templates instantly from the omnibar for faster, more consistent conversations.
-
--   **[View uploaded documents in interactive view](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
-
-When in premium chat conversations, you can upload a document and view it in the interactive view.
-
 
 -   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=australia&ft:locale=en-US)**
 
@@ -262,88 +121,27 @@ An alert is shown when the instance is eligible for premium chat or when there i
 
 -   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=australia&ft:locale=en-US)**
 
-Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.
-
-To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=australia&ft:locale=en-US).
+Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=australia&ft:locale=en-US).
 
 -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US)**
 
-For Now Assist in Virtual Agent assistants, voice input is available for premium chat.
-
-For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
+For Now Assist in Virtual Agent assistants, voice input is available for premium chat.For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
 
 -   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=australia&ft:locale=en-US)**
 
-For premium chat, you can select a topic for fallback options.
-
-For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.
-
-For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
+For premium chat, you can select a topic for fallback options.For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
 
 -   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=australia&ft:locale=en-US)**
 
-View **All assets** to see the assets that are assigned to an assistant.
-
-There is no limit to the number of assets that can be promoted.
-
-If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
+View **All assets** to see the assets that are assigned to an assistant.There is no limit to the number of assets that can be promoted.If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
 
 -   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=australia&ft:locale=en-US)**
 
 Use the **sn\_nowassist\_va.assistant\_personalization** system property to show or hide chat personalization when branding an assistant. Personalization determines the tone of the assistant, response length, and persona.
 
--   **[\[Placeholder link text to key bundle-convint.deployment-config-attributes\]](https://www.servicenow.com/docs/access?context=deployment-config-attributes&family=australia&ft:locale=en-US)**
-
-Manage the behavior of suggestions that users see when typing in the input box.
-
 -   **[Post-chat surveys](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
 
 Collect user feedback in premium chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
-
-
--   **[View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=australia&ft:locale=en-US)**
-
-If you have the **com.snc.ex\_ai\_portal** \(Employee Slate\) app installed, the default Employee Slate assistant is shown, and Employee Slate is mapped to it by default. The default Employee Slate assistant can be activated, deactivated, edited, and tested. It can’t be deleted.
-
--   **[Select a display experience](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&family=australia&ft:locale=en-US)**
-
-The default Employee Slate assistant comes with premium chat. Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
-
--   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=australia&ft:locale=en-US)**
-
-For the default Employee Slate assistant, configure premium chat branding. Select and configure the chat header, chat logo, and chat menu items such as a phone number, email, and link.
-
-A **Channels** section is shown for Now Assist in Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
-
--   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=australia&ft:locale=en-US)**
-
-Depending on your configuration, different greeting, closing, and fallback options may appear. Legacy messages \(chat messages\) and legacy fallbacks \(chat fallbacks\) are shown when at least one display experience has standard chat or enhanced chat. Premium messages and premium fallbacks are shown when at least one display experience has premium chat.
-
--   **[Test a chat assistant](https://www.servicenow.com/docs/access?context=test-assistant&family=australia&ft:locale=en-US)**
-
-Test your chat assistant \(standard, enhanced, or premium chat\) to simulate an end-to-end conversation before moving your experience into a production environment.
-
--   **[Assistant Designer Asset library](https://www.servicenow.com/docs/access?context=vad-topics-page&family=australia&ft:locale=en-US)**
-
-Use the **Test Assistant** button to test your LLM assistant in Standard, Enhanced, and Premium Chat, after adding chat experiences in Assistant Designer's **Assistants** tab.
-
--   **[Now Assist in Virtual Agent on mobile](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=australia&ft:locale=en-US)**
-
-Use the modified version of Now Assist in Virtual Agent on your mobile device. This redesigned version adapts to smaller screens without losing functionality or clarity.
-
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
--   **[Premium chat experience for Now Assist Panel - Platform \(default\) assistant](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
-
-The Now Assist Panel - Platform \(default\) assistant now has the premium chat experience configured by default.
 
 
 </td></tr></tbody>
@@ -365,18 +163,21 @@ Yokohama
 
 </td><td>
 
--   **[Test assistant options](https://www.servicenow.com/docs/access?context=test-llm-topics&family=yokohama&ft:locale=en-US)**
+-   **[Topic Properties tab](https://www.servicenow.com/docs/access?context=vad-topic-properties-tab&family=yokohama&ft:locale=en-US)**
+    -   [Create a topic form](https://www.servicenow.com/docs/access?context=vad-topic-creation-form&family=yokohama&ft:locale=en-US): Read improved topic description field helper text and tooltip.
+    -   [Change the application scope for Virtual Agent Designer topics](https://www.servicenow.com/docs/access?context=change-application-scope-vad&family=yokohama&ft:locale=en-US): View the current scope setting on the Virtual Agent Designer topic properties tab.
+-   **[Topic Flow tab](https://www.servicenow.com/docs/access?context=vad-topic-flow-tab&family=yokohama&ft:locale=en-US)**
+    -   View an updated `Unpublished changes` message on the header bar.
+    -   Hover over the `Unpublished changes` message to get info on which changes are not yet published.
+    -   Recover unsaved changes using the **Recover changes** button that appears on the header bar if you close a topic without saving.
+    -   Both message and button appear on the header bar if you add a node to the canvas before closing without saving.
+-   **[Testing LLM topics](https://www.servicenow.com/docs/access?context=test-llm-topics&family=yokohama&ft:locale=en-US)**
 
-The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
+View a `Matching` badge next to the skill activated during testing.
 
+-   **[Custom skills in Virtual Agent Designer](https://www.servicenow.com/docs/access?context=managing-custom-skills&family=yokohama&ft:locale=en-US)**
 
--   **[Dynamic Translation calls](https://www.servicenow.com/docs/access?context=translation-for-now-assist&family=yokohama&ft:locale=en-US)**
-
-For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
-
--   **[Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=yokohama&ft:locale=en-US)**
-
-Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
+Use an updated Virtual Agent Designer list-based home page that includes custom skills.
 
 
 </td></tr><tr><td>
@@ -385,16 +186,20 @@ Zurich
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+-   **[Preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Assistant Designer Asset library](https://www.servicenow.com/docs/access?context=vad-topics-page&family=zurich&ft:locale=en-US)**
+    -   Tabs have replaced pills in the Virtual Agent Designer list view.
+    -   Hover over the tooltip icon \(\[Omitted image "image.i-tooltip"\] Alt text:\) to see information about the assistant you have selected from the drop-down menu.
+    -   Use the new **AI agents** and **Agentic workflows** tabs to select from the types of topics on the home page, along with **Topics**, **Subflows**, **Actions**, and **Custom skills**.
+-   **Virtual Agent Designer [Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=zurich&ft:locale=en-US)**
+
+Slide the new Show links for each record toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
 
--   **[Table bot response control](https://www.servicenow.com/docs/access?context=table-bot-response&family=zurich&ft:locale=en-US)**
-
-Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
-
--   **[Test assistant options](https://www.servicenow.com/docs/access?context=test-llm-topics&family=zurich&ft:locale=en-US)**
+ -   **[Test assistant options](https://www.servicenow.com/docs/access?context=test-llm-topics&family=zurich&ft:locale=en-US)**
 
 The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
@@ -405,9 +210,18 @@ Australia
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+-   **[Updated Otto processing animation](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
+
+View an updated Otto processing animation.
+
+-   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=australia&ft:locale=en-US)**
+
+Role-based configuration is no longer stored or managed within Assistant Designer.
 
 
+ -   **[Upload files improvements](https://www.servicenow.com/docs/access?context=upload-documents-na-va&family=australia&ft:locale=en-US)**
+
+Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, PNG for premium chat in ServiceNow Otto for Virtual Agent and Otto panel.
 
 
 </td></tr></tbody>
@@ -487,7 +301,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -508,11 +322,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Virtual Agent is a ServiceNow AI Platform feature that is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), which requires a separate subscription. For details, see [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&family=yokohama&ft:locale=en-US).
 
 **Note:** The Glide Virtual Agent plugin initially installs the Topic Recommendations and Conversational Analytics applications. Subsequent updates to these apps must be installed from the ServiceNow Store.
 
- ServiceNow® Virtual Agent Lite is a subset of the Virtual Agent platform that is available to ServiceNow® IT Service Management \(ITSM\) customers. It doesn't require activation and works with ITSM Virtual Agent Lite conversations, which are also available to ITSM customers.
+ServiceNow® Virtual Agent Lite is a subset of the Virtual Agent platform that is available to ServiceNow® IT Service Management \(ITSM\) customers. It doesn't require activation and works with ITSM Virtual Agent Lite conversations, which are also available to ITSM customers.
+
 
 </td></tr><tr><td>
 
@@ -520,7 +337,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Virtual Agent is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -528,7 +348,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Virtual Agent is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -586,7 +409,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -631,7 +457,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
@@ -663,7 +490,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 The ServiceNow® Localization Framework is integrated in Virtual Agent.
+
 
 </td></tr><tr><td>
 
@@ -762,7 +592,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   Embed the enhanced chat widget on third-party websites.
+
+ [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
 
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 

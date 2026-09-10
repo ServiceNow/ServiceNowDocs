@@ -101,7 +101,7 @@ The ServiceNow® Legal Simple Compliance application provides prebuilt legal wor
     The ServiceNow® Legal Stock Preclearance application enables you to manage stock preclearance requests complying with the company’s stock preclearance policy. You can set up trading windows, manage an access list, and approve or reject stock preclearance requests.
 
 
-## [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+## [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)
 
 Use the ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter. Request fulfillers can understand the context, refresh the summary, and post the summary to work notes more quickly with generative AI.
 
@@ -156,6 +156,6 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-    Access real-time courses, self-paced training, and career resources, such as [Legal Service Delivery \(LSD\) Essentials](https://learning.servicenow.com/lxp/en/legal-service-delivery/legal-service-delivery-lsd-essentials-tokyo?id=learning_course_prev&course_id=9dbcfc34974b8a10524eb3cf9153affb) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+    Access real-time courses, self-paced training, and career resources from [ServiceNow University](https://learning.servicenow.com/).
 
 

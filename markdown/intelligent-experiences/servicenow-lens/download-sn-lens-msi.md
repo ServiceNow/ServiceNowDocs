@@ -26,8 +26,8 @@ Role required: admin
 
 2.  In the ServiceNow AI Lens downloads and preferences page, do any of the following actions to download the required application for macOS or Windows:
 
-    -   Select the download icon \(\[Omitted image "rpa-hub-download-icon.png"\] Alt text: Download icon.\).
-    -   Select the copy link \(\[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text: Copy Link icon.\), and in the browser address bar, right-click and select the **Paste and Go** option.
+    -   Select the Download icon \[Omitted image "rpa-hub-download-icon.png"\] Alt text:.
+    -   Select the Copy link icon \[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text:, and in the browser address bar, right-click and select the **Paste and Go** option.
     \[Omitted image "sn-lens-download-msi.png"\] Alt text: Installers on ServiceNow AI Lens downloads and preferences page.
 
     A dialog box might prompt you to save or open the file.

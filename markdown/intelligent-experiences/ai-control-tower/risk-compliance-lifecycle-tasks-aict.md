@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-08-01"
 reading_time_minutes: 1
-breadcrumb: [Explore, AI Control Tower \(legacy\), Enable AI experiences]
+breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Risk and Compliance lifecycle tasks in AI Control Tower

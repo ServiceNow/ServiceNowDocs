@@ -1,18 +1,18 @@
 ---
 title: Predictive AI for CSM release notes
-description: The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+description: The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.The ServiceNow Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 12
+reading_time_minutes: 13
 ---
 
 # Predictive AI for CSM release notes
 
 The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
 
-## Predictive AI for CSM highlights for the Australia release
+## About Predictive AI for CSM
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-5.md)
 
@@ -41,6 +41,8 @@ The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applicati
 
 See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/intelligence-csm.md) for more information.
 
+## Activation and other requirements
+
 **Important:** The following applications are available in ServiceNow Store:
 
 -   Now Assist for CSM \(sn\_csm\_gen\_ai\)
@@ -51,11 +53,46 @@ See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
+
+    Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
+
+    Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+    Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
+
+    Starting with Zurich Patch 7, Customer Service Management AI agent collection is supported. Check your entitlements to determine whether you have access to the ServiceNow Otto for CSM
+
+-   **Browser requirements**
+
+    ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+
+
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+
+## August 2026
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Recommended Actions - Support for the Now Assist Multi-Content Response \(MCR\) genius model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md)**
 
     Recommended Actions now supports the Now Assist Multi-Content Response \(MCR\) genius model. When an author configures a recommendation backed by the MCR model, the agent sees a single MCR recommendation card in the Suggested Actions tab. The card appears in the Recommended Actions Contextual Side Panel in the agent workspace. The MCR recommendation card displays all its content blocks and citations grouped together under that one card.
+
+
+### What's changed
+
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
+
+    ServiceNow Otto® introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+## July 2026
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Real-time AI assistance for voice interactions using Live Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
 
@@ -64,6 +101,28 @@ For details, see the "Activation information" section of these release notes.
 -   **[Add a playbook as an action type in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
 
     As an admin, you can configure playbooks as an action type in Recommended Actions, and the Recommended Actions rule engine recommends the right playbook based on context. Playbooks surface inline as cards in the Recommended Actions panel in Agent Workspace and walk Agents through branching decision trees for support, sales, and troubleshooting scenarios. Embedded actions such as creating a task or triggering a workflow can be executed from within the playbook in the Recommended Actions panel in Agent Workspace.
+
+
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[Automated quality assurance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quality-assurance-management.md)**
+
+    Enable admins to filter scoring parameters and sort agent and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
+
+-   **[Activate Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
+
+    Enable admins to view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities.
+
+
+## June 2026
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Now Assist for CSM Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-na-for-csm-major-issue-management.md)**
 
@@ -90,6 +149,36 @@ For details, see the "Activation information" section of these release notes.
     Automatically receive concise summaries of case resolutions in ServiceNow Otto for CSM, with the extended table, enabling customer agents to quickly understand resolution details and respond to customers.
 
 
+-   **[Recommended Actions - Search query term available as an action input mapping value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)**
+
+    Added the search query term as a new pill picker value in the action input mapping for search result configurations. This provides the ability for agents to include the search query term as a guidance input.
+
+
+### What's changed
+
+-   **[Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-knowledge-generation-in-now-assist_0.md)**
+
+    Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in ServiceNow Otto for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
+
+-   **[Configure Sidebar Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-sidebar-summarization-in-now-assist.md)**
+
+    Enable customer agents to generate summaries built from the required case and task tables in ServiceNow Otto for CSM as default tables can now be pre-selected and locked.
+
+-   **[Provide Customer 360 insights agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)**
+
+    Enhanced Provide Customer 360 Insights with Enterprise Graph and AI agent deep research for richer, more contextual query results.
+
+-   **[Triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-resolving-use-case.md)**
+
+    Multilingual and localization flows in the Triage Cases workflow are now fully supported.
+
+
+## Australia General Availability
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Now Assist for CSM- Quality assurance management skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quality-assurance-management.md)**
 
     Automatically evaluate agent activity on closed cases using AI models that score each interaction against a configurable quality rubric, eliminating manual sampling and ensuring consistent, objective assessments at scale.
@@ -98,6 +187,17 @@ For details, see the "Activation information" section of these release notes.
 
     Automatically receive email reply recommendations on extended table record pages in ServiceNow Otto for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
 
+
+-   **Availability of MCP Server in ServiceNow Otto for Customer Service Management \(CSM\)**
+
+    ServiceNow Otto for Customer Service Management \(CSM\) can now provide key data and AI actions through MCP connectors, bringing intelligent case management to third-party interfaces seamlessly. CSM customers can now use subflow and actions such as retrieve cases and case task details or AI skills such as generate summaries and resolution notes, analyze sentiment, and draft activity responses when using any AI-enabled MCP client, such as Moveworks or frontier LLM model channels such as Claude in the web
+
+
+## April 2026
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -117,6 +217,27 @@ For details, see the "Activation information" section of these release notes.
     Availability of filter controls for CSM in the AI Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
 
 
+## Australia Early Availability
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md)**
+
+    Provides agents with AI assistance during the interaction wrap-up period. This feature generates wrap-up content for interaction records, such as the wrap-up code and notes.
+
+-   **[Process mining - Pre‑configured templates for CSM Process Mining Projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/process-opt-csm.md)**
+
+    Select pre‑configured templates from the Process Mining Content Pack for CSM to quickly set up customer service case projects with default settings already applied. These templates help accelerate project creation by providing standardized configurations tailored for common Customer Service Management scenarios.
+
+
+## Australia
+
+The ServiceNow® Predictive AI for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement ServiceNow Otto for Customer Service Management \(CSM\), Guided Decisions, Recommended Actions, and Task Intelligence features. The Predictive AI for CSM applications were enhanced and updated in the Australia release.
+
+### What's new
+
 -   **[Guided Decisions - UI Layout tab for the Guided Decision with inputs/outputs activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
 
     Configure the display of knowledge articles directly from the UI Layout tab by setting a default article height and choosing whether articles appear collapsed by default in the playbook.
@@ -124,10 +245,6 @@ For details, see the "Activation information" section of these release notes.
 -   **[Guided Decisions - Restart option for the Guided Decision with inputs and outputs activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-gd-input-output-playbook.md)**
 
     As an agent, you can restart a Guided Decision with inputs and outputs activity in a playbook by selecting the **Restart Activity** option. This option is available when the activity is in a complete, skipped, or error state and the stage is still in progress.
-
--   **[Recommended Actions - Search query term available as an action input mapping value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)**
-
-    Added the search query term as a new pill picker value in the action input mapping for search result configurations. This provides the ability for agents to include the search query term as a guidance input.
 
 -   **[Recommended Actions - Hybrid search in AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-hybrid-search.md)**
 
@@ -149,63 +266,8 @@ For details, see the "Activation information" section of these release notes.
 
     Grant granular admin users delegated developer privileges and required roles to manage and configure metadata. This includes the Manage update set permission, domain\_picker role, and metadata\_scope\_viewer role for viewing and modifying the application scope of metadata records.
 
--   **[AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md)**
 
-    Provides agents with AI assistance during the interaction wrap-up period. This feature generates wrap-up content for interaction records, such as the wrap-up code and notes.
-
--   **[Process mining - Pre‑configured templates for CSM Process Mining Projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/process-opt-csm.md)**
-
-    Select pre‑configured templates from the Process Mining Content Pack for CSM to quickly set up customer service case projects with default settings already applied. These templates help accelerate project creation by providing standardized configurations tailored for common Customer Service Management scenarios.
-
-
-## Changed in this release
-
--   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
-
-    ServiceNow Otto® introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
--   **[Automated quality assurance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quality-assurance-management.md)**
-
-    Enable admins to filter scoring parameters and sort agent and case lists. Admins can sort data, manage filters, and easily organize cases on the dashboard with the new sorting, visibility, and skill management capabilities.
-
--   **[Activate Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm-skills_0.md)**
-
-    Enable admins to view detailed information about each Now Assist skill to make faster and more informed decisions about enabling skill capabilities.
-
-
--   **[Configure knowledge generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-knowledge-generation-in-now-assist_0.md)**
-
-    Enable users with the **sn\_skill\_builder.admin** role to generate knowledge base articles in ServiceNow Otto for CSM by selecting the required input fields from a task record, reducing manual effort and streamlining the knowledge base generation process.
-
--   **[Configure Sidebar Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-sidebar-summarization-in-now-assist.md)**
-
-    Enable customer agents to generate summaries built from the required case and task tables in ServiceNow Otto for CSM as default tables can now be pre-selected and locked.
-
--   **[Provide Customer 360 insights agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)**
-
-    Enhanced Provide Customer 360 Insights with Enterprise Graph and AI agent deep research for richer, more contextual query results.
-
--   **[Triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-resolving-use-case.md)**
-
-    Multilingual and localization flows in the Triage Cases workflow are now fully supported.
-
-
-## Activation information
-
-Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
-
-Now Assist features are available with activation of the ServiceNow Otto for CSM plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-
-Starting with Vancouver Patch 4, ServiceNow Otto for CSM is supported.
-
-Starting with Zurich Patch 7, Customer Service Management AI agent collection is supported. Check your entitlements to determine whether you have access to the ServiceNow Otto for CSM
-
-## Plugin information
+### Plugin information
 
 -   **Renamed or changed plugins**
 
@@ -213,45 +275,4 @@ Starting with Zurich Patch 7, Customer Service Management AI agent collection is
 
     Recommended Actions for Customer Service \(sn\_cs\_nb\_action\): renamed to Recommended Actions for Service \(sn\_cs\_nb\_action\) starting with v31.0.
 
-
-## Browser requirements
-
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    Provide the service and support that your external customers need with Customer Service Management.
-
--   **[Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn.md)**
-
-    Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® ServiceNow Otto for CSM application.
-
--   **[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)**
-
-    Extract the data from documents and integrate the data into automation workflows to save time and resources by using the Document Intelligence AI solution.
-
--   **[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md)**
-
-    Improve processes across the platform, such as automatically populating fields when a case is created, categorizing and routing work, and suggesting case resolutions through Predictive Intelligence AI.
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   **[AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)**
-
-    Use the Now Assist admin console to provide you with quick and easy access to the important information that you must set up, configure, and monitor Now Assist applications and features.
-
--   **[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-    Use this conversational interface in Customer Service Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   **[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
-
-    Use ServiceNow Otto products to provide generative AI skills to meet the needs of users in different workflows. These skills include case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

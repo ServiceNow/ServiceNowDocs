@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforthirdpartyriskmanagementtprm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,17 +67,7 @@ Zurich
 
 </td><td>
 
--   **[Extended AI model support for Now Assist for TPRM](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-tprm&family=zurich&ft:locale=en-US)**
-
-Starting with Zurich Patch 12, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to previously supported models. Model availability depends on your ServiceNow Otto for Third-party Risk Management \(TPRM\) subscription, providing greater flexibility when selecting the AI model that meets your requirements.
-
-
- -   **[Generate TPRM issue recommendations](https://www.servicenow.com/docs/access?context=create-recommendation-tprm-issue&family=zurich&ft:locale=en-US)**
-
-If you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the if you have the third‑party assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\), you can use generative AI to automatically identify and recommend issues based on assessment responses. The TPRM issue management recommendation skill recommends issues with rationalized summaries. Recommended issues are presented for review and are created as standard TPRM issues only after user confirmation.
-
-
- -   **[Generate a summary of a TPRM issue](https://www.servicenow.com/docs/access?context=create-a-summary-of-issue&family=zurich&ft:locale=en-US)**
+-   **[Generate a summary of a TPRM issue](https://www.servicenow.com/docs/access?context=create-a-summary-of-issue&family=zurich&ft:locale=en-US)**
 
 If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\] role and have installed the ServiceNow Otto for Third-party Risk Management \(TPRM\) for TPRM application, you can use generative AI to automatically summarize complex issue records. The TPRM Issue Summarization skill works across all issue states including New, Analyze, Review, Finalize, and Closed and can help reduce manual review time, improve consistency in issue descriptions and remediation guidance, and accelerate triage and reporting for customers managing high volumes of third-party risk data.
 
@@ -115,24 +105,9 @@ Zurich
 
 </td><td>
 
--   **[AI in Third-party Risk Management](https://www.servicenow.com/docs/access?context=exploring-now-assist-tprm&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
-Starting with Zurich Patch 12, Now Assist for Third-party Risk Management is now ServiceNow Otto® for TPRM. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
-
--   **[Default AI model for issue recommendation skill](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-tprm&family=zurich&ft:locale=en-US)**
-
-Starting with Zurich Patch 12, the issue recommendation skill in ServiceNow Otto for Third-party Risk Management \(TPRM\) uses Azure OpenAI gpt-4-5-mini as the default model. This update changes the default model for issue recommendations. You can select alternative models, including the newly supported Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini, based on your requirements.
-
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
-
-
-
-
- -   ****
-
- -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
-
-
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 </td></tr><tr><td>
@@ -220,9 +195,12 @@ Zurich
 
 </td><td>
 
-Install the Now Assist for TPRM application by requesting it from ServiceNow Store. 
+-   **Activation information**
 
- After installing ServiceNow Otto for TPRM all ServiceNow Otto for TPRM skills are activated by default.
+Install the Now Assist for TPRM application by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+After installing ServiceNow Otto for TPRM all ServiceNow Otto for TPRM skills are activated by default.
+
 
 </td></tr><tr><td>
 

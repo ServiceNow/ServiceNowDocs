@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 4
 keywords: [AI insights skill, Bring Your Own Skill, task configuration, ServiceNow Otto skill, Employee Works, custom script, Applies to, Employee Center]
-breadcrumb: [Task configuration, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Task configuration, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure a custom AI insights skill for a task type
@@ -37,6 +37,8 @@ You can configure custom skills to provide task-specific insights. Examples incl
 
 **Note:** The widget displays AI insights only when you configure a skill for the task type.
 
+**Note:** Custom AI insights skill configuration is available in North America only.
+
 ## Procedure
 
 1.  Go to **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-dos Configurations**, select an existing to-dos configuration \(for example, **sn\_hr\_sp\_todos\_config**\) for the task category, such as **Approvals**\), and navigate to the **Task Configuration** related list.
@@ -55,7 +57,7 @@ You can configure custom skills to provide task-specific insights. Examples incl
 
     -   Existing AI Insight Skills: Select from the existing pre-configured AI Insight skills provided by ServiceNow.
     -   Custom AI Insight Skills: Enable custom skill processing by checking the custom skill option and providing your JSON format configuration.
-    **Note:** By default, the AI insights skill field is empty. Administrators can select the available skills such as built-in Checklist Generation skill instead of building a custom one. For example, select the built-in **Approval summary checklist generation** skill to show the approval checklist behavior. The checklist appears only while the approval is still actionable.
+    **Note:** By default, the AI insights skill field is empty. Administrators can select the available skills such as built-in Checklist Generation skill instead of building a custom one. For example, select the built-in **Approval summary checklist generation** skill to show the approval checklist behavior. The checklist appears only while the approval is still actionable.For Employee Slate in North America, this skill defaults to **On-demand** to support customers who are upgrading.
 
 4.  Select the **Use custom script** check box to customize how the skill processes data,
 

@@ -18,6 +18,8 @@ Check what create, read, update, and delete rights your groups or your team memb
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.admin
 
 ## Procedure
@@ -32,15 +34,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d224099e103">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d227510e119">
 
 To
 
-</th><th align="left" id="d224099e106">
+</th><th align="left" id="d227510e122">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d224099e112">
+</th></tr></thead><tbody><tr><td id="d227510e128">
 
 **Verify user access for all your groups**
 
@@ -48,7 +50,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d224099e124">
+</td></tr><tr><td id="d227510e140">
 
 **Specific groups and team members**
 

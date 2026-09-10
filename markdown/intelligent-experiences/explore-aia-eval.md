@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-16"
 reading_time_minutes: 3
 keywords: [explore]
-breadcrumb: [Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Explore agentic evaluations

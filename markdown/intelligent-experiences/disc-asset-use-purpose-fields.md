@@ -21,7 +21,7 @@ Field and value reference for the **Use and purpose** section of an AI asset rec
 |-----|-----------|
 |Not Applicable|Indication that the autonomy dimension does not apply to the asset.|
 |Assistive \(AI suggests\)|Mode in which the AI system suggests outputs and the user decides whether to act on them.|
-|Semi-Automated \(acts with confirmation\)|Mode in which the AI system performs actions only after the user confirms each one.|
+|Semi-Automated \(acts with confirmation\)|Mode in which the AI system performs actions following user confirmation.|
 |Condition-Based Automation|Mode in which the AI system acts automatically when defined conditions are met.|
 |Event-Triggered Automation|Mode in which the AI system acts automatically in response to specific events.|
 |Fully Automated Execution|Mode in which the AI system acts independently without human intervention.|
@@ -31,7 +31,7 @@ Field and value reference for the **Use and purpose** section of an AI asset rec
 |Value|Description|
 |-----|-----------|
 |Not Applicable|Indication that human involvement does not apply to the asset.|
-|Full User Control|Workflow in which the user makes all decisions and the AI system provides no automated action.|
+|Full User Control|Workflow in which the user is responsible for decision-making and the AI system isn't automated.|
 |User-Guided with AI Support|Workflow in which the user directs the activity and the AI system contributes recommendations or analysis.|
 |Shared Control|Workflow in which the user and the AI system share responsibility for decisions and actions.|
 |AI-Initiated with User Approval|Workflow in which the AI system proposes actions and the user approves them before execution.|

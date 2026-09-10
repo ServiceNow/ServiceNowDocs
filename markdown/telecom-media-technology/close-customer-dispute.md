@@ -80,7 +80,7 @@ Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceN
 
 9.  To generate a deadlock letter, draft the letter content and select **Generate and send**.
 
-    **Note:** If you are using the ServiceNow Otto for TMT application, you can generate the deadlock letter details using the Now Assist component. To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-deadlock-letter.md).
+    **Note:** If you are using the ServiceNow Otto for TMT application, you can generate the deadlock letter details using the ServiceNow Otto component. To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-deadlock-letter.md).
 
     The system creates a PDF of the letter, sends it to the customer by email, and adds the PDF to the dispute's attachments. The sent email is displayed at the Notify regulator step.
 

@@ -7,7 +7,7 @@ release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: task
-last_updated: "2026-05-25"
+last_updated: "2026-09-03"
 reading_time_minutes: 1
 keywords: [publish work set standard, create work set]
 breadcrumb: [Standard and task life cycles, Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]

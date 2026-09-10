@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Trello spoke v1.5.1 is the latest version.
+Trello spoke v1.5.1 is the latest version. For version history of the spoke, see [Trello spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-trello.html).
 
 ## Spoke requirements
 

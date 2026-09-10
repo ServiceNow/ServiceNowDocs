@@ -1,6 +1,6 @@
 ---
 title: Schedule a job to generate TLM technology risk
-description: Execute the  Populate Technology Lifecycle Risks scheduled job to generate the TLM technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+description: Execute the  Populate Technology Lifecycle Risks scheduled job to generate the Technology Lifecycle Management \(TLM\) technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspac
 
 # Schedule a job to generate TLM technology risk
 
-Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the TLM technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
+Execute the  **Populate Technology Lifecycle Risks** scheduled job to generate the Technology Lifecycle Management \(TLM\) technology lifecycle risks and populate the result in the TLM Technology Lifecycle Risks \[sn\_apm\_tpm\_technology\_risk\] table.
 
 ## Before you begin
 

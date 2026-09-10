@@ -31,7 +31,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Google Directory spoke v1.6.0 is the latest version.
+Google Directory spoke v1.6.0 is the latest version. For version history of the spoke, see [Google Directory spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-directory.html).
 
 ## Spoke dependencies
 

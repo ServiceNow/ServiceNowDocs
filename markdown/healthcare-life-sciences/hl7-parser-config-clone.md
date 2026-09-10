@@ -21,7 +21,7 @@ Role required: `sn_hl7_v2.admin`
 
 ## About this task
 
-The demo parser configurations are editable records. You can edit one in place or, to keep the original example intact, clone it and modify the copy — for example, to add hospital-specific field labels, include additional fields, or adjust field positions. Cloning is also a quick way to create a variant for a different sending facility.
+The demo parser configurations are editable records. Edit one in place, or clone it to keep the original intact. Modify the copy to add hospital-specific field labels, include additional fields, or adjust field positions. Cloning also creates a quick variant for a different sending facility.
 
 **Important:** Programmatic field keys in your clone remain stable even if you change field labels. Existing scripts and flows that reference field keys by name continue to work after relabeling.
 
@@ -52,7 +52,7 @@ The demo parser configurations are editable records. You can edit one in place o
 
 ## Result
 
-Your custom parser configuration is active. When ServiceNow receives a message matching its sending application, sending facility, HL7 version, message type, and trigger event, it uses your configuration to extract fields into the message log's parsed data.
+Your custom parser configuration is active. When ServiceNow receives a matching message, it uses your configuration to extract fields into the message log's parsed data. A matching message shares the same sending application, sending facility, HL7 version, message type, and trigger event.
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -37,7 +37,7 @@ If you have installed the Cloud Cost Management Infra Stack application, then to
 -   You can create only one Billing Download job for each account \(enrollment\).
 -   Configure AWS Billing download for the main account otherwise the spend doesn't generate.
 -   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
--   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Reservation/saving plans, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
+-   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Commitments, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
 -   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. You can apply the latest tag category definitions to cost data without running a Billing Download job, by selecting **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories** and then selecting **Re-Apply Categories**.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   All user-defined tags for cost allocation are assigned the prefix `user:` from AWS while all AWS-generated tag names are automatically assigned the prefix `aws:`. For example, if the tag name is `owner`, in the billing data it is displayed as `user:owner`.

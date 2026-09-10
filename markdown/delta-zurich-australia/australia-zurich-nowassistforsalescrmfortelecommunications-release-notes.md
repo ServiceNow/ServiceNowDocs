@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsalescrmfortelecommunications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,8 +75,6 @@ Australia
 
 </td><td>
 
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
@@ -89,10 +87,6 @@ Depending on your license, you will have access to certain application features,
 -   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
 
 Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
-
--   **[Move Order Voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US)**
-
-Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
 
 
 </td></tr></tbody>
@@ -209,7 +203,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

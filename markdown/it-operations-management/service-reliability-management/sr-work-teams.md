@@ -38,7 +38,7 @@ Choices are:
 
 The Your team requests section contains team cards for any pending requests, if there are any.
 
-The Your teams section contains cards that provide information about a specific team, such as the status of the team, name of the team, manager, team email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
+The Your teams section contains cards that provide information about a specific team. Each card shows the status, name, manager, team email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
 
 -   **[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)**  
 Request to create a team to start monitoring your services. Teams are responsible for the issues that occur in the associated services.

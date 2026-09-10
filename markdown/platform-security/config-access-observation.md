@@ -16,6 +16,8 @@ Create an access observation record to review access to a data column during a s
 
 ## Before you begin
 
+Download and install ServiceNow Otto for Vault from the [ServiceNow Store](https://store.servicenow.com/store/app/6632fc1fc333e6545ce25ddf050131df).
+
 Role required: security\_admin
 
 ## Procedure

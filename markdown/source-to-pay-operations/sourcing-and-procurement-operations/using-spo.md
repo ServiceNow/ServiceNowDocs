@@ -1,5 +1,5 @@
 ---
-title: Use Sourcing and Procurement Operations
+title: Using Sourcing and Procurement Operations
 description: Employees, shoppers, or requesters can use Sourcing and Procurement Operations to self-service requests, and source or purchase products and services through the procurement organization. Procurement specialists and sourcing managers can use Sourcing and Procurement Operations to work on various procurement objects such as purchase requisitions, sourcing requests, negotiations, procurement requests, cases, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.html
@@ -8,11 +8,11 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Use Sourcing and Procurement Operations
+# Using Sourcing and Procurement Operations
 
 Employees, shoppers, or requesters can use Sourcing and Procurement Operations to self-service requests, and source or purchase products and services through the procurement organization. Procurement specialists and sourcing managers can use Sourcing and Procurement Operations to work on various procurement objects such as purchase requisitions, sourcing requests, negotiations, procurement requests, cases, and more.
 
@@ -32,13 +32,17 @@ Use Spend and Savings Management to import and manage your organization's catego
 Use Pipeline Sourcing Management to create pipeline projects that capture key financial and opportunity data while providing end-to-end visibility into all sourcing activities.
 -   **[Create a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request-spo.md)**  
 Create a Universal Request \(UR\) in Employee Center when your request involves multiple departments or the right department to contact is unclear.
+-   **[Purchase requisition and purchase order progress tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.md)**  
+Procurement specialists and buyers use the Progress Tracker to monitor the approval and fulfillment lifecycle for purchase requisitions and purchase orders. View completed and pending workflow steps, access assigned work items, and review transition history.
+-   **[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)**  
+Procurement administrators can control whether the Progress Tracker displays on purchase requisition \(PR\) and purchase order \(PO\) records systemwide. You can customize which states appear in the stepper and control the order in which states are displayed.
 
 **Parent Topic:**[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
 
 **Related topics**  
 
 
-[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
+[Exploring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
-[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+[Configuring Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 

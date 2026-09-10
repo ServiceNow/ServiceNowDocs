@@ -25,8 +25,8 @@ The automated quality assurance dashboard is accessible from the CSM workspace l
 
 Live agents have limited access to QA reviews and cases:
 
--   **Permitted:** Live agents can view QA data if they closed the case themselves. The skill must be enabled by an admin and the live agent role must be selected in the skill configuration.
--   **Restricted:** Live agents can't access QA reviews for cases closed by other live agents.
+-   **Permitted:** Live agent can view QA data only if the skill is enabled by an admin, live agent role is selected in the skill configuration, and the case was closed by that live agent.
+-   **Restricted:** Live agents cannot access QA reviews for cases closed by other live agents.
 
 ## Dashboard Overview
 

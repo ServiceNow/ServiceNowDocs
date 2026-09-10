@@ -36,15 +36,15 @@ You can use these record summarization skills in either Core UI or Source-to-Pay
 
 3.  Generate a summary for either an invoice case record or an inquiry case record.
 
-<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d59281e137">
+<table id="choicetable_x5b_1vk_pdc"><thead><tr><th align="left" id="d61406e137">
 
 Option
 
-</th><th align="left" id="d59281e140">
+</th><th align="left" id="d61406e140">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d59281e146">
+</th></tr></thead><tbody><tr><td id="d61406e146">
 
 **Generate a summary for the invoice case record.**
 
@@ -55,7 +55,7 @@ Procedure
 3.  Open an invoice record and select **Cases**.
 
 
-</td></tr><tr><td id="d59281e184">
+</td></tr><tr><td id="d61406e184">
 
 **Generate a summary for the inquiry case record.**
 
@@ -82,15 +82,15 @@ Procedure
     -   **Next steps**: Lists the actions that the AP fulfillers must take next.
 6.  Add the summary to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d59281e283">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d61406e283">
 
 Option
 
-</th><th align="left" id="d59281e286">
+</th><th align="left" id="d61406e286">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d59281e292">
+</th></tr></thead><tbody><tr><td id="d61406e292">
 
 **Save the summary information by adding it to the recorded work notes**
 
@@ -101,7 +101,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d59281e319">
+</td></tr><tr><td id="d61406e319">
 
 **Expand or collapse the summary**
 
@@ -109,7 +109,7 @@ Procedure
 
 Select the expanded card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d59281e340">
+</td></tr><tr><td id="d61406e340">
 
 **Provide feedback for the summary**
 
@@ -117,7 +117,7 @@ Select the expanded card icon \(\[Omitted image "icon-expand.png"\] Alt text: Ex
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d59281e363">
+</td></tr><tr><td id="d61406e363">
 
 **Copy the record summary**
 
@@ -125,7 +125,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d59281e379">
+</td></tr><tr><td id="d61406e379">
 
 **View the information about the record summary**
 

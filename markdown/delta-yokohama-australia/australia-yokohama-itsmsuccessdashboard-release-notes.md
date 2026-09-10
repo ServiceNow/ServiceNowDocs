@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-itsmsuccessdashboard-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,8 +75,6 @@ Yokohama
 
 </td><td>
 
--   The all new KPIs **Successful Change Summarization - Now Assist** and **Successful Change Risk Explanation - Now Assist** are added to the Productivity moments. These new contributing indicators help you understand the benefits of using change summarization and change risk explanation through Now Assist.
--   The Key Performance Indicator \(KPI\) **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period.
 -   New KPI is added to the self solved - percentage. This new KPI shares the number of times the issue is resolved using the Digital End-User Experience self service channels like Desktop Assistant, Now Assist panel, and Employee portal.
 
 </td></tr><tr><td>
@@ -225,7 +223,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install ITSM Success Dashboard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

@@ -30,7 +30,7 @@ You can use AI for work notes analysis even with 5-50 eligible work notes. If th
 
 2.  From the list of projects, select a project.
 
-3.  Select any transition on the Analyst workbench.
+3.  Select any transition or node on the Analyst workbench.
 
     A window is displayed with all the details.
 

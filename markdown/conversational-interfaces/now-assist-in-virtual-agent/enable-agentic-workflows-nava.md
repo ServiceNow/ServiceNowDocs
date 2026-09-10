@@ -16,12 +16,6 @@ breadcrumb: [ServiceNow Otto for Virtual Agent reference, ServiceNow Otto for Vi
 
 Perform the following if you're trying to trigger an agentic workflow, but don't see the Virtual Agent option in the configuration.
 
--   Change system property:
-
-    Set the **Value** field of the system property **sn\_aia.enable\_va\_conversation** to **True**.
-
-    **Note:** Ensure your application scope is set to ServiceNow Otto AI Agents when making this change.
-
 -   Enable in AI Agent Studio:
 
     1.  Navigate to **AI Agent Studio** &gt; **Overview**.

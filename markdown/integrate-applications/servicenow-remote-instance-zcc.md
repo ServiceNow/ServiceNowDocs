@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicen
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Primary connectors, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -20,9 +20,15 @@ A connection admin can set up a connection to a remote ServiceNow instance in th
 
 ## How the connector works
 
-After a zero copy connection is established and a data steward creates a data fabric table with mapped data, the connector queries the remote instance each time users access the data fabric table. Records are retrieved in real time and displayed in lists and forms, but they're never stored or persisted on your local instance. After users close the list or form, the retrieved data is purged from memory.
+After a zero copy connection is established and a data steward creates a data fabric table with mapped data, the connector queries the remote instance each time users access the data fabric table. Records are retrieved in real time and displayed in lists and forms. They're never stored or persisted on your local instance. After users close the list or form, the retrieved data is purged from memory.
 
 This approach differs from other data synchronization methods like Instance Data Replication \(IDR\) or custom API integrations because no data transfer or storage occurs on the local instance.
+
+## ServiceNow Connector — Oracle instance limitation
+
+When using the ServiceNow Connector with Workflow Data Fabric or Zero Copy Connectors, the remote ServiceNow instance must be running on a supported database platform. Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance will fail.
+
+**Note:** This limitation applies specifically to ServiceNow to ServiceNow connectivity through the ServiceNow Connector. Workflow Data Fabric and Zero Copy Connectors continue to support direct connections to external Oracle databases through the Oracle Connector.
 
 ## Service account security model
 

@@ -41,6 +41,8 @@ Field descriptions for the Approval Plan form used to review and configure invoi
 
 [Create New Invoice Line form]()
 
+[Case exclusion reference fields]()
+
 [Create invoice cost allocation form]()
 
 [Outbound cost allocation staging table]()

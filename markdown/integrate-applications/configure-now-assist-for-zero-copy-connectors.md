@@ -21,9 +21,9 @@ Role required: admin and sn\_erp\_integration.erp\_ai\_user
 
 ## About this task
 
-Use the AI Admin Hub console to configure ServiceNow Otto for ZCC. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure Otto for ZCC. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following skills are included in ServiceNow Otto for ZCC:
+The following skills are included in Otto for ZCC:
 
 -   ERP data discovery
 -   ERP data query

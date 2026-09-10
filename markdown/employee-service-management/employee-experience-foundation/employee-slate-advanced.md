@@ -1,6 +1,6 @@
 ---
-title: Employee Slate Advanced
-description: Employee Slate Advanced delivers an AI-powered employee experience with targeted communications, AI-assisted content authoring, and enhanced productivity features.
+title: EmployeeWorks Web App Extended
+description: EmployeeWorks Web App Extended delivers an AI-powered employee experience with targeted communications, AI-assisted content authoring, and enhanced productivity features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-slate-advanced.html
 release: australia
@@ -9,25 +9,25 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate Advanced
+# EmployeeWorks Web App Extended
 
-Employee Slate Advanced delivers an AI-powered employee experience with targeted communications, AI-assisted content authoring, and enhanced productivity features.
+EmployeeWorks Web App Extended delivers an AI-powered employee experience with targeted communications, AI-assisted content authoring, and enhanced productivity features.
 
-The Employee Slate Advanced plugin provides an AI-powered employee experience where employees stay informed, find what they need, and boost everyday productivity. Targeted communications, AI-assisted content authoring, and AI service delivery combine in one experience that scales across your entire organization.
+The EmployeeWorks Web App Extended plugin provides an AI-powered employee experience where employees stay informed, find what they need, and boost everyday productivity. Targeted communications, AI-assisted content authoring, and AI service delivery combine in one experience that scales across your entire organization.
 
-**Note:** Employee Slate Advanced is an add-on application and requires either Employee Slate for Moveworks or Employee Slate for Now Assist to be separately downloaded.
+**Note:** EmployeeWorks Web App Extended is an add-on application and requires either EmployeeWorks Web App or Employee Slate \(built for Now Assist\) to be separately downloaded.
 
 ## Key features
 
-Employee Slate Advanced provides the following capabilities:
+EmployeeWorks Web App Extended provides the following capabilities:
 
 -   Targeted homepage announcements based on location, department, or role to reach specific employee audiences
 -   Built-in content library for authoring, scheduling, and managing internal communications
 -   AI-powered communications authoring for drafting and publishing announcements conversationally \(Now Assist only\)
 -   Communications analytics to track audience engagement including impressions and click-through rates
 -   Quick access to SSO apps \(Okta and Entra\)
--   Upcoming meetings with direct join functionality displayed on **My Calendar** widget in Canvas
+-   Upcoming meetings with direct join functionality displayed on **My Calendar** widget in Canvas.
 

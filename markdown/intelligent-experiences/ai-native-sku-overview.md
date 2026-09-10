@@ -58,19 +58,19 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
 -   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md)**
 
-    AI Control Tower is embedded at every tier, providing centralized governance, lifecycle management, and real-time visibility across all AI assets — whether built natively on ServiceNow or sourced from external vendors. At Foundation and Advanced, AI Control Tower discovers and manages ServiceNow AI assets; Prime extends full management and assist metering to external AI assets as well. For configuration guidance, see [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-exploring.md) and [Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md).
+    AI Control Tower is included in every tier \(Foundation, Advanced, and Prime\) with the same capabilities at each. It discovers and visualizes ServiceNow AI assets automatically, and external AI with setup. It also allows you to manage ServiceNow AI assets \(governs, secures, observes, and measures\). Full management of external AI assets \(govern, secure, observe, measure\) requires a separate AI Control Tower for Enterprise AI license. For configuration guidance, see [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-exploring.md) and [Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-configuring.md).
 
--   **Workflow Data Fabric**
+-   **[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-integrations-applications.md)**
 
-    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. Workflow Data Fabric Foundation, including Integration Hub, Robotic Process Automation Hub, Automation Center, and Data Catalog, is embedded in every tier edition. Workflow Data Fabric Advanced, adding Zero Copy Connectors and Stream Connect, is available as a paid upgrade.
+    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. Workflow Data Fabric Foundation, including [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md), [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-main-landing-page.md), [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center-landing-page.md), and [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md), is embedded in every tier edition. Workflow Data Fabric Advanced, adding [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md) and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-quick-start.md), is available as a paid upgrade.
 
--   **RaptorDB**
+-   **[RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/raptordb.md)**
 
-    RaptorDB is the next-generation ServiceNow database, purpose-built to deliver the performance and scale that AI-native workloads demand. RaptorDB Standard underpins every tier edition with improved response times and optimized query performance; RaptorDB Professional unlocks ultra-scale analytics, enhanced column-store capabilities, and advanced instance topology support for organizations running the most demanding generative AI and machine-scale data use cases.
+    RaptorDB is the next-generation ServiceNow database, purpose-built to deliver the performance and scale that AI-native workloads demand. RaptorDB Standard underpins every tier edition with improved response times and optimized query performance. RaptorDB Professional unlocks ultra-scale analytics, enhanced column-store capabilities, and advanced instance topology support for organizations running the most demanding generative AI and machine-scale data use cases.
 
 -   **Moveworks for ServiceNow \(EmployeeWorks\)**
 
-    ServiceNow EmployeeWorks combines Moveworks' conversational AI and enterprise search with ServiceNow's unified portal and autonomous workflows, giving employees a single, natural-language front door to enterprise services — available across Microsoft Teams, Slack, browser, and mobile. EmployeeWorks capability is bundled at a level aligned with each tier, ensuring that conversational access scales with your agentic AI investment. For more information, see the [Autonomous Workforce and EmployeeWorks announcement](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Autonomous-Workforce-that-thinks-and-acts-adds-Moveworks-to-the-ServiceNow-AI-Platform/default.aspx).
+    ServiceNow EmployeeWorks brings together Moveworks' conversational AI and enterprise search with ServiceNow's unified portal and autonomous workflows. This combination gives employees a single, natural-language front door to enterprise services. The solution is available across Microsoft Teams, Slack, browser, and mobile. EmployeeWorks capability is bundled at a level aligned with each tier, ensuring that conversational access scales with your agentic AI investment. For more information, see the [Autonomous Workforce and EmployeeWorks announcement](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Autonomous-Workforce-that-thinks-and-acts-adds-Moveworks-to-the-ServiceNow-AI-Platform/default.aspx).
 
 
 ## Get started
@@ -78,8 +78,8 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 To begin implementing the capabilities offered at each tier on your instance, see the following resources.
 
 -   [Now Assist overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md) — Learn about the applications and features that make up the AI experience.
--   AI governance — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
--   Data readiness — Learn how to prepare your instance data for AI.
+-   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md) — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
+-   [Data readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md) — Learn how to prepare your instance data for AI.
 
 ## Related ServiceNow applications and features
 
@@ -87,7 +87,7 @@ To begin implementing the capabilities offered at each tier on your instance, se
 -   [Exploring Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
 -   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 -   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md)
--   Workflow Data Fabric
--   RaptorDB
+-   [Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-integrations-applications.md)
+-   [RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/raptordb.md)
 -   [Now Assist for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)
 

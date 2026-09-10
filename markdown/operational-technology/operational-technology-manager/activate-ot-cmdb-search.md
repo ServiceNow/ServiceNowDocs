@@ -54,7 +54,7 @@ The following table lists the features and skills that you can access from the A
 
     **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 
     2.  In the **Agentic workflows** tab, select the **Search CMDB** agentic workflow.
 
@@ -64,7 +64,7 @@ The following table lists the features and skills that you can access from the A
 
 9.  Complete the following steps to verify the **Status** toggle is on and confirm the CMDB search AI agent is active and running.
 
-    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 
     2.  In the **AI agents** tab, select the **CMDB CI search AI agent**.
 

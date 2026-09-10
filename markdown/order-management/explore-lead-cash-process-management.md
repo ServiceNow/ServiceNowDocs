@@ -56,7 +56,7 @@ The following illustration describes the tasks involved in configuring and using
 1.  Sales admins create a business object group in the Next Experience UI, is a logical entity that defines your business process and the entities involved. For example, order-to-cash.
 2.  Create business entities \(business object type\) you want to monitor in your sales process and define relationships between them.
 3.  Add the business entities as members of the business object group.
-4.  The sales process manager creates sales process records in the CSM Configurable Workspace.
+4.  The sales process manager creates sales process records in the CRM Workspace.
 5.  Sales process managers create sales process records for monitoring a customer account. A dashboard is created that contains the hierarchical node map view of the opportunities, quotes, orders, and other related entities.
 6.  Manage tasks, status, documents, and emails related to the business entities, and follow up with respective teams to expedite the process.
 7.  Track other tasks at the sales process record level by creating business process records.

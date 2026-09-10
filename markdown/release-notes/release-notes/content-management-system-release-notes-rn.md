@@ -1,9 +1,9 @@
 ---
 title: Content Management System release notes
-description: The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).
+description: The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,17 @@ reading_time_minutes: 1
 
 The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).
 
-## Plugin information
+## About Content Management System
+
+## Activation and other requirements
+
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+
+## Australia
+
+The Content Management System \(CMS\) is a ServiceNow application that enables users to create a custom interface for the ServiceNow platform and ServiceNow applications. This application can no longer be activated and will be deprecated in the C release \(GA\).
+
+### Plugin information
 
 -   **Plugins planned for deprecation**
 
@@ -20,6 +30,4 @@ The Content Management System \(CMS\) is a ServiceNow application that enables u
 
     -   CMS core plugin \(com.glide.cms\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CMSAndSP.md).
     -   CMS core plugin \(com.glide.cms.extensions\): Planned for deprecation in the C release \(GA\). It will be hidden and no longer available for activation but will continue to be supported for regression and security defects until the C release \(GA\). Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md) and [Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CMSAndSP.md).
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

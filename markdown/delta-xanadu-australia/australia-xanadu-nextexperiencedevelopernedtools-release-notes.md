@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nextexperiencedevelopernedtools-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -155,7 +155,12 @@ Yokohama
 
 </td><td>
 
--   **Time filters for events**
+-   **Component visualization**
+
+Highlighted components feature a tooltip that displays the element tag name and element ID.
+
+
+ -   **Time filters for events**
 
 Icons were added to each event to enable you to select a timeframe when filtering events.
 
@@ -164,7 +169,7 @@ Icons were added to each event to enable you to select a timeframe when filterin
 Scroll and search through a selected portion of the component tree.
 
 
--   **Filters for traces**
+ -   **Filters for traces**
 
 Filter traces with front-end filters to streamline span visualizations, specialty filters to view targeted waterfall analysis without losing overall context, and level filters to adjust the detail display in span visualizations.
 
@@ -175,7 +180,17 @@ Zurich
 
 </td><td>
 
--   **Service Workers tab in the Next Experience Inspector**
+-   **Traces tab in the Next Experience Inspector**
+
+The following UI changes have been made to the Traces tab:
+
+    -   The Traces tab displays a full-screen waterfall view for trace inspection and an enriched root span list with more actionable metadata.
+    -   Locate traces by the name, IDs, or any other metadata directly from the root span list.
+    -   Filter traces by the minimum durations, span count, or source to view relevant traces only.
+    -   Sort traces by the duration, span count, or start time.
+    -   View high priority traces first by toggling between ascending or descending order.
+
+ -   **Service Workers tab in the Next Experience Inspector**
 
 The **Service Workers** tab displays cache buster details for viewing how service workers impact page performance.
 
@@ -186,7 +201,12 @@ Australia
 
 </td><td>
 
--   **Events tab in the Next Experience Inspector**
+-   **Service Workers tab in the Next Experience Inspector**
+
+The Service Workers tab displays an updated homepage.
+
+
+ -   **Events tab in the Next Experience Inspector**
 
 Exclude filters in the Events tab to filter out specific events.
 
@@ -312,7 +332,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Download Next Experience Developer Tools from the Google Chrome Web Store.
+
 
 </td></tr><tr><td>
 
@@ -320,7 +343,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Next Experience Developer Tools from the Google Chrome Web Store.
+
 
 </td></tr><tr><td>
 
@@ -328,7 +354,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Next Experience Developer Tools from the Google Chrome Web Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -402,7 +431,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Next Experience Developer Tools requires Google Chrome.
+
 
 </td></tr><tr><td>
 
@@ -410,7 +442,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Next Experience Developer Tools requires Google Chrome.
+
 
 </td></tr><tr><td>
 
@@ -418,7 +453,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Next Experience Developer Tools requires Google Chrome.
+
 
 </td></tr></tbody>
 </table>## Accessibility information

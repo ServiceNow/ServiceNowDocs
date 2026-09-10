@@ -28,7 +28,7 @@ The NSX Cluster pattern requires a credential alias that contains exactly one ap
 
 1.  Create an alias.
 
-    1.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+    1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
     2.  Select **New**.
 

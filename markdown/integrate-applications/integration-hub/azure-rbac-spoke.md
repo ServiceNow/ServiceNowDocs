@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Azure RBAC Spoke v1.0.2 is the latest version.
+Microsoft Azure RBAC Spoke v1.0.2 is the latest version. For version history of the spoke, see [Microsoft Azure RBAC Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-azure-rbac-spoke.html).
 
 ## Supported versions
 

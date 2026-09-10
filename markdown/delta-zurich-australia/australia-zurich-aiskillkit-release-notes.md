@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aiskillkit-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -66,32 +66,6 @@ Release notes
 Zurich
 
 </td><td>
-
--   **[Labelling](https://www.servicenow.com/docs/access?context=nadk-labelling&family=zurich&ft:locale=en-US)Use labeling workflows to annotate UI templates**
-
-Use the labeling framework to create and manage ground truth data. Published data collections can now be turned into labeling projects. Each record becomes a task assigned to labelers who annotate using pre-configured UI templates
-
--   **[s](https://www.servicenow.com/docs/access?context=configure-skill-prompt&family=zurich&ft:locale=en-US)Structured output support for AI responses**
-
-Enables consistent parsing in agentic workflows and reduces ambiguity in downstream automation.
-
--   **[Use multi-table data generator](https://www.servicenow.com/docs/access?context=use-multi-table-data-generator&family=zurich&ft:locale=en-US)New multi-table synthetic data generation option**
-
-You can generate related records across multiple tables in a single operation. You no longer need to generate each table separately and manually link records. Define your table relationships, set the cardinality and AI Data Kit generates coherent, referentially linked records across all tables in one pass, with foreign key integrity maintained automatically. 
-
--   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)AI Control Tower integration with custom LLMs.**
-
-Improve oversight and compliance for AI deployments with formal approval flows for custom models.
-
--   **[AI Skill Kit roles](https://www.servicenow.com/docs/access?context=na-skill-kit-roles&family=zurich&ft:locale=en-US)Update to the abilities of the admin role**
-
-The sn\_skill\_builder.admin role is now broken into smaller, task-specific roles, including a custom LLM-specific admin role.
-
-
--   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)**
-
-When you bring your own model you can keep data in your own environment and fine-tune it to meet your specific needs.
-
 
 -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
@@ -235,9 +209,11 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of any Now Assist plugins from ServiceNow Store. The following plugins are available:
 
--   
+    -   
 
 
 </td></tr><tr><td>
@@ -296,7 +272,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+
 
 </td></tr><tr><td>
 
@@ -354,7 +333,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 Now Assist supports Dynamic Translation for Zurich.
+
 
 </td></tr><tr><td>
 

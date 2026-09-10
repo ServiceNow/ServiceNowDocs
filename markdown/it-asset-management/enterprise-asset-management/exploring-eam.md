@@ -18,7 +18,7 @@ Use the Enterprise Asset Management application to optimize the quality and perf
 
 ## Enterprise Asset Management overview
 
-The Enterprise Asset Management automates the full lifecycle of your physical business assets with prescriptive workflows. With Enterprise Asset Management, you can maximize the return on your enterprise assets, control capital and operating costs, and reduce risk by tracking and managing your assets from planning to disposal.
+The Enterprise Asset Management application automates the full life cycle of your physical business assets with prescriptive workflows. With the Enterprise Asset Management application, you can maximize the return on your enterprise assets, control capital, and optimize operating costs. You can also reduce risk by tracking and managing your assets from planning to disposal.
 
 ## Enterprise Asset Management users
 

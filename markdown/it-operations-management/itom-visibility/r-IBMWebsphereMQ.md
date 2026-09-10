@@ -1,6 +1,6 @@
 ---
 title: IBM MQ discovery
-description: The ServiceNow Discovery application uses the WMQ On Unix and WMQ On Windows patterns to find IBM MQ \(formerly IBM WebSphere MQ\) resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the WMQ On Unix and WMQ On Windows patterns to find IBM MQ \(formerly IBM WebSphere MQ\) resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-IBMWebsphereMQ.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # IBM MQ discovery
 
-The ServiceNow Discovery application uses the WMQ On Unix and WMQ On Windows patterns to find IBM MQ \(formerly IBM WebSphere MQ\) resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the WMQ On Unix and WMQ On Windows patterns to find IBM MQ \(formerly IBM WebSphere MQ\) resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

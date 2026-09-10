@@ -123,7 +123,7 @@ Use the URL in the format:`http://{MID_Server_IP}:{MID_Web_Server_Port}/api/mid/
 </td></tr></tbody>
 </table>4.  In the Script section:
 
-    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include that accepts event messages that the required external event source generates and that the script parses into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
+    -   If the value selected for the **Type** field is `MID`, the **Transform script** field appears. In this field, specify or search for the name of the MID script include. The script accepts event messages from the external event source and parses them into the required event format. Use this naming convention for the script: `TransformEvents_<your source>`
     -   If the value selected for the **Type** field is **Instance**, the **Script** editor appears. In the **Script** editor, enter the customized script that accepts event messages that the required external event source generates and that the script parses into the required event format.
     This example shows the fields that have been transformed, being added to an event form.
 
@@ -189,7 +189,7 @@ Integrate Microsoft Azure with Event Management by adding the Azure Monitor as a
 -   **[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)**  
 The MID WebServer Event Collector enables you to collect JSON formatted event messages sent from the Microsoft Azure portal.
 -   **[Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)**  
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\), utilizing event stream notification capabilities.
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). The collector uses event stream notification capabilities.
 -   **[Metric collection from OpenTelemetry \(Otel\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/metric-collection-otel.md)**  
 The MID WebService metric Collector enables you to collect JSON and protobuf formatted metrics sent from OpenTelemetry \(Otel\).
 -   **[Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/new-relic-events-integration.md)**  

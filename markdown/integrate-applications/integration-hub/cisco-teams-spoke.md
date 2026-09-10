@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Cisco Webex Teams spoke v2.3.6 is the latest version.
+Cisco Webex Teams spoke v2.3.6 is the latest version. For version history of the spoke, see [Cisco Webex Teams spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-cisco-webex-teams-spoke.html).
 
 ## Supported versions
 

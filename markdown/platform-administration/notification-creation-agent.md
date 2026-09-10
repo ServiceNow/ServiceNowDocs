@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-16"
 reading_time_minutes: 1
-breadcrumb: [Now Assist in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Notification agent
@@ -16,7 +16,7 @@ Use the Notification agent to create and modify email notifications, templates, 
 
 ## Notification agent capabilities
 
-The Notification agent is an agentic AI feature within Now Assist. It simplifies the process of creating and modifying email notifications, template, and layouts using natural language prompts.
+The Notification agent is an agentic AI feature that simplifies the process of creating and modifying email notifications, template, and layouts using natural language prompts.
 
 Describe your notification requirement, and the agent handles configuration, templates, layouts, and duplicate detection.
 

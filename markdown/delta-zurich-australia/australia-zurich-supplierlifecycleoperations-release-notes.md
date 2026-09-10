@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-supplierlifecycleoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -82,32 +82,6 @@ Supplier managers can identify, prioritize, and track suppliers with high potent
 
 Supplier managers can conduct sanction screening, validate banking details change requests, and supplier location change requests via Relish integration.
 
--   **[Automated KPI data collection](https://www.servicenow.com/docs/access?context=create-auto-kpi-template&family=zurich&ft:locale=en-US)**
-
-This feature enables automated data collection, KPI template modifications, and calculation at supplier and contract levels. The automated KPI system integrated into action plans can be used for comprehensive performance monitoring.
-
--   **[Mapping multiple internal stakeholders to a supplier](https://www.servicenow.com/docs/access?context=manage-internal-stakeholders&family=zurich&ft:locale=en-US)**
-
-This feature enhances supplier governance in SLO by enabling the mapping of multiple internal stakeholders such as legal, business, technical, and risk teams to suppliers, improving visibility and management of supplier relationships.
-
--   **[Universal Request](https://www.servicenow.com/docs/access?context=universal-request&family=zurich&ft:locale=en-US)**
-
-Supplier contacts can create generic cases by selecting **Request Help** in the Supplier Collaboration Portal, if they can't find the relevant search results or are unsure of which department to contact for help. These cases are triaged and routed internally to appropriate case types. Universal requests remove ambiguity and improve efficiency for both suppliers and internal operations.
-
--   **[Overall supplier dashboard](https://www.servicenow.com/docs/access?context=overall-supplier-db&family=zurich&ft:locale=en-US)**
-
-The overall supplier performance dashboard provides detailed information about overall supplier scores, count of all active suppliers, their all-time spend, and overall risk ratings. It also includes the Supplier Insights section and the Action plans section showing relevant details.
-
--   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&family=zurich&ft:locale=en-US)**
-
-Supplier managers can use the segmentation rules and assessment templates to create smart assessments in bulk for users. Smart assessments provide a survey-like experience with enhanced UI capabilities for both internal and external users. This feature utilizes the capabilities of the Smart Assessment Engine application.
-
--   **[Emails view for supplier managers](https://www.servicenow.com/docs/access?context=enabling-emails-view-for-contacts&family=zurich&ft:locale=en-US)**
-
-Supplier managers can access their emails within the Source-to-Pay Workspace from the **Emails** tab in the case, task, and supplier details pages respectively. Email actions are reflected, incomplete email errors are handled, and email-related activities can be summarized from the workspace.
-
-Supplier contacts receive the emails and they can perform the assigned tasks directly via email without logging in to the Supplier Collaboration Portal.
-
 
 </td></tr><tr><td>
 
@@ -172,7 +146,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
@@ -180,7 +157,22 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Verify bank account ownership using Relish](https://www.servicenow.com/docs/access?context=verify-banking-information&family=australia&ft:locale=en-US)**
+
+When a banking details change request is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
+
+By default, bank validation checks only the bank routing number and address details. Relish also verifies the bank account number and account ownership information when bank account ownership validation is enabled.
+
+-   **[Conduct bulk sanction screening using Relish](https://www.servicenow.com/docs/access?context=perform-bulk-sanction-screening&family=australia&ft:locale=en-US)**
+
+When a sanction screening request for compliance verification is assigned to a supplier manager and they start working on it, they can verify the details using Relish.
+
+Supplier managers can conduct sanction screening for multiple suppliers simultaneously using the bulk sanction screening feature.
+
+-   **[AI driven supplier onboarding](https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&family=australia&ft:locale=en-US)**
+    -   Leverages Web search results to generate a supplier scorecard highlighting key strengths, positive indicators, and potential risk signals.
+    -   If Craft is configured, the workflow leverages the Craft integration to generate a comprehensive, normalized supplier scorecard and risk assessment. It provides a structured evaluation of the supplier’s overall profile and associated risk factors.
+    -   If Relish is integrated, the supplier's banking information is further validated and synchronized with Relish.
 
 </td></tr></tbody>
 </table>## Removed
@@ -238,7 +230,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -259,7 +254,10 @@ Zurich
 
 </td><td>
 
-Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -267,7 +265,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. 
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,7 +347,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -404,7 +409,9 @@ Zurich
 
 </td><td>
 
--   The plugin Supplier Operations \(com.snc.sn\_so\) **must** be installed after upgrading to Supplier Lifecycle Operations Zurich release. For more information, see [Install Supplier Operations](https://www.servicenow.com/docs/access?context=install-supplier-ops&family=zurich&ft:locale=en-US).
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ -   The plugin Supplier Operations \(com.snc.sn\_so\) **must** be installed after upgrading to Supplier Lifecycle Operations Zurich release. For more information, see [Install Supplier Operations](https://www.servicenow.com/docs/access?context=install-supplier-ops&family=zurich&ft:locale=en-US).
 -   The Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management. For more information, see [Supplier Case Management](https://www.servicenow.com/docs/access?context=supplier-case-management&family=zurich&ft:locale=en-US).
 
  See [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=zurich&ft:locale=en-US) for more information.
@@ -415,7 +422,19 @@ Australia
 
 </td><td>
 
-Australia Early Availability
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ Australia Early Availability
 
 -   Enable supplier managers and admins to create and manage smart assessments in bulk for internal and external users.
 -   Enhance email interactions for supplier managers by creating a centralized email view displaying all emails within the Source-to-Pay workspace at case, task, and supplier levels.

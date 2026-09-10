@@ -46,8 +46,6 @@ Before using the sidebar integration, you must first complete configuring the si
 
 Make your collaboration more effective by sharing emojis, messages, and attachments.
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
-
 **Related topics**  
 
 

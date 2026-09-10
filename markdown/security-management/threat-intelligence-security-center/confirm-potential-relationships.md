@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -66,5 +66,5 @@ Role required: sn\_sec\_tisc.analyst
 
 [Export intelligence data]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

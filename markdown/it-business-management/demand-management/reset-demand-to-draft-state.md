@@ -76,3 +76,5 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

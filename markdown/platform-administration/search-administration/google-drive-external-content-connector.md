@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-08-26"
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,6 +24,19 @@ The indexed content and metadata are stored as records in a connector-specific i
 ## Drive eligibility
 
 To be eligible for crawling, a shared drive must be accessible by at least one member who is a user in the Directory and who has the Manager role \(or is a member of a group with the Manager role\). To learn more about the Directory, see [https://support.google.com/a/answer/1628009](https://support.google.com/a/answer/1628009). For details on the Manager role, see [https://support.google.com/a/users/answer/12380484](https://support.google.com/a/users/answer/12380484).
+
+## Delta content crawls
+
+The Google Drive external content connector supports the ability to run delta content crawls in between full content crawls. Unlike full content crawls, delta content crawls only examine, retrieve, and index newly added, changed, or deleted items from your shared drives. By ignoring unchanged items, delta content crawling can significantly reduce the time taken to crawl content from the source system. This means you can refresh your searchable content more often by running delta content crawls between your scheduled full or partial content crawls.
+
+To learn more about delta content crawls, see [Delta content crawls for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/delta-content-crawls-external-content-connectors.md). For details on the activation procedure for delta content crawls, see [Activate delta content crawling for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/activate-delta-content-crawling-external-content-connector.md).
+
+**Note:** Delta content crawls don't replace full content crawls. They're supplemental crawls that enable you to refresh searchable content more frequently in between full content crawls.
+
+Delta content crawls for the Google Drive external content connector have the following limitations.
+
+-   Delta content crawls can't detect membership changes for Google Drive shared drives. As a result, user access permissions to files and attachments from your shared drives may be out of sync until the connector completes its next full content crawl.
+-   If members with the Manager role are removed from shared drives, future delta content crawls may not retrieve changed items from those drives. As a result, searchable content may be out of sync with the source system until the connector completes its next full content crawl.
 
 -   **[Configure Google Drive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md)**  
 Enable the Google Drive and Admin SDK APIs and create a Google Cloud service account to allow the Google Drive external content connector to crawl eligible shared drives and security principals in your Google Drive source system.

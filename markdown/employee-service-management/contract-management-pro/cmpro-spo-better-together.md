@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Better Together integrations, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Optimizing Sourcing and Procurement Operations through Contract Lifecycle Automation
@@ -76,7 +76,7 @@ You can assign your procurement and contracting professionals to these roles as 
 
 ## Requirements for integrating Sourcing and Procurement Operations and Contract Management Pro
 
-1.  [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/activate-finance-spend-central.md).
+1.  .
 2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
 3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/integrate-spo-with-cmpro.md).
 
@@ -87,7 +87,7 @@ You can assign your procurement and contracting professionals to these roles as 
 
 Get started with initiating contract request by completing these tasks:
 
-1.  [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configuring-spo.md).
+1.  .
 2.  Configuring Contract Management Pro
     -   **[Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-type.md)**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aianalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 AI Analytics is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
+
 
 </td></tr><tr><td>
 
@@ -135,7 +138,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Overall health**
+
+The Overall health dashboard page has been renamed to Usage and Adoption. The new page includes more indicators on usage and adoption of Now Assist.
+
 
 </td></tr><tr><td>
 
@@ -246,7 +252,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 AI Analytics features are available with activation of any Now Assist plugin from the ServiceNow Store. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -320,7 +329,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 AI Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

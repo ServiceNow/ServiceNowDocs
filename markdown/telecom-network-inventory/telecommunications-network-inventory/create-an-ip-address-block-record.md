@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage IP addresses, Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
@@ -60,7 +60,7 @@ CIDR
 
 </td><td>
 
-CIDR on save is subject to validation. For more information about the validation rules, see [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).
+CIDR is a notation system for specifying IP address ranges using a network prefix.The system validates the CIDR while you save the record. The validation is based on the following rules: [CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Managed Network
 
 </td><td>
 
-The value set in the Managed Network propagates to every subnetwork beneath this block and cannot be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
+The value set in the Managed Network propagates to every subnetwork beneath this block and can't be changed at a lower level. If you leave this empty, the block is unscoped, and its child subnetworks can each set their own Managed Network. For more information, see [Managed Network form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/managed_network_form.md).
 
 </td></tr><tr><td>
 

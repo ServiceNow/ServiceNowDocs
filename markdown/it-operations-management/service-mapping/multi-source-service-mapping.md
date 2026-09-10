@@ -80,7 +80,7 @@ Multi-source service mapping is valuable in the following scenarios:
 
 -   **Reporting and Compliance**
 
-    Organizations reporting on service uptime for Service Level Agreement \(SLA\) compliance can achieve more accurate statistics and reports with a unified view, rather than manually correlating data from multiple separate service maps.
+    A unified view enables more accurate statistics and reports for Service Level Agreement \(SLA\) compliance. Organizations can avoid manually correlating data from multiple separate service maps.
 
 
 ## Multi-source service-mapping workflows
@@ -95,7 +95,7 @@ The multi-source service-mapping process follows these key phases:
 
     After creating the unified service, the feature automatically transforms the selected unmapped services into non-operational service instances. This happens in order to prevent automatic discovery and impact on ITOM or ITSM processes. The Service Mapping administrator can choose to convert the services to operational using the **Mapped application services** list.
 
-    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format, through the CMDB Workspace, showing the complete consolidated view.
+    When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format through the CMDB Workspace. This view shows the complete consolidated service.
 
 -   **[Editing the unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)**
 

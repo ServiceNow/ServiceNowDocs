@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Express List]
-breadcrumb: [Reference, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Roles used by Express List

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-synthetic-monitor-for-discovered-api.html
 release: australia
 topic_type: task
-last_updated: "2026-07-24"
+last_updated: "2026-08-18"
 reading_time_minutes: 4
 keywords: [synthetic monitoring, discovered API, API insights, HTTP endpoint]
 breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
@@ -18,7 +18,7 @@ Create a synthetic monitor to test the availability of APIs discovered through A
 ## Before you begin
 
 -   API Insights
--   CMDB CI Class Models. For more information, see .
+-   CMDB CI Class Models. For more information, see [API extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-api.md).
 -   An existing API component \(cmdb\_ci\_api\_component\) record in the CMDB for the API Insights to discover APIs.
 -   One or more locations must be created to host the monitor to test private endpoints or run the monitors from your environment. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md).
 
@@ -28,7 +28,7 @@ Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.syn
 
 When API Insights discovers APIs through Service Graph Connectors, you can proactively monitor their availability and performance by creating synthetic monitors. Synthetic monitors identify issues before they impact users and verify continuous monitoring of critical API endpoints.
 
-For more information about how API discovery integrates with synthetic monitoring, see [API Insights and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/api-discovery-integration.md).
+For more information about how API discovery integrates with synthetic monitoring, see [API discovery and synthetic monitoring integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/api-discovery-integration.md).
 
 ## Procedure
 
@@ -59,7 +59,7 @@ For more information about how API discovery integrates with synthetic monitorin
 
     3.  Verify the service association.
 
-        If the discovered API is related to an application service in the CMDB, the service and its support group are populated automatically and shown as read-only. If no service relationship exists, these fields are hidden and the monitor is created without a service association.
+        If the discovered API is related to one or more application services in the CMDB, those services and their support groups are populated automatically and shown as read-only. If no service relationship exists, these fields are hidden and the monitor is created without a service association.
 
     4.  To configure optional request details, expand **Advanced settings**.
 

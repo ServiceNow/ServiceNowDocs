@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC IDoc spoke v1.5.1 is the latest version.
+SAP ECC IDoc spoke v1.5.1 is the latest version. For version history of the spoke, see [SAP ECC IDoc spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-idoc.html).
 
 ## Supported versions
 

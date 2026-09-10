@@ -66,7 +66,7 @@ Status
 
 </td><td>
 
-Status of the target. The status can be **Red**, **Yellow**, or **Green**.
+Status of the target. The status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

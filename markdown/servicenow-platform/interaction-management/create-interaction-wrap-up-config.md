@@ -124,7 +124,7 @@ Show duration to agent
 
 Enables a duration countdown timer for the agent. The default value is false. The system displays this field when you enable the **Enforce wrap up duration** field.
 
-The interaction wrap up timer display is available in CSM Configurable Workspace.
+The interaction wrap up timer display is available in CRM Workspace.
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Enable wrap up codes
 
 </td><td>
 
-Enables wrap up codes in CSM Configurable Workspace. When wrapping up an interaction, agents can select from the configured wrap up codes.
+Enables wrap up codes in CRM Workspace. When wrapping up an interaction, agents can select from the configured wrap up codes.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Enable AI code
 
 </td><td>
 
-Enables AI wrap up codes in CSM Configurable Workspace. When wrapping up an interaction, the system uses AI to recommend a wrap up code. In the Wrap up modeless dialog, this code appears at the top of the **Wrap up code** dropdown list under the AI Recommendation heading.
+Enables AI wrap up codes in CRM Workspace. When wrapping up an interaction, the system uses AI to recommend a wrap up code. In the Wrap up modeless dialog, this code appears at the top of the **Wrap up code** dropdown list under the AI Recommendation heading.
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Enable AI notes
 
 </td><td>
 
-Enables AI notes in CSM Configurable Workspace. When wrapping up an interaction, the system uses AI to generate the wrap up notes and add that content to the **Wrap up notes** field in the Wrap up modeless dialog.
+Enables AI notes in CRM Workspace. When wrapping up an interaction, the system uses AI to generate the wrap up notes and add that content to the **Wrap up notes** field in the Wrap up modeless dialog.
 
 </td></tr><tr><td>
 

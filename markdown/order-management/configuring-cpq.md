@@ -18,7 +18,7 @@ Set up tools that enable accurate product configuration, pricing, and quoting. T
 
 1.  [Setting up CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-cpq-integrator.md)
 
-    Plan and configure the implementation of the advanced configurator in CPQ. The advanced configurator runs in the CSM Configurable Workspace and the Business Portal for customers placing orders.
+    Plan and configure the implementation of the advanced configurator in CPQ. The advanced configurator runs in the CRM Workspace and the Business Portal for customers placing orders.
 
 2.  \(Optional\) [Setting up the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/confguring-product-configurator.md)
 

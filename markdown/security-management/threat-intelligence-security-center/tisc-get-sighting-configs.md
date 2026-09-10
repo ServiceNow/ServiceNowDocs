@@ -22,6 +22,8 @@ The Elasticsearch and Splunk Sighting Search integrations enrich observables wit
 Elasticsearch is a distributed, RESTful search and analytics engine that easily integrates with Security Operations.
 -   **[Configure and enable Splunk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-splunk-integration.md)**  
 Configure the Splunk Enrichment integration to automatically search your logs and add relevant sighting information to threat intelligence data.
+-   **[Configure CrowdStrike NextGen SIEM sighting search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-crowdstrike-ngsiem-integration.md)**  
+Configure the CrowdStrike NextGen SIEM integration with your Falcon API credentials so that analysts can search CrowdStrike log data for activity that matches an observable.
 
 **Parent Topic:**[Configure Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-sighting-search.md)
 

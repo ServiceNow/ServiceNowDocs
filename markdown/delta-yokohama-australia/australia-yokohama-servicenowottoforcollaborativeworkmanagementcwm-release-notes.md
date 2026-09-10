@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoforcollaborativeworkmanagementcwm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,18 +75,7 @@ Yokohama
 
 </td><td>
 
--   **[Generate tasks from Docs](https://www.servicenow.com/docs/access?context=generate-tasks-cwm-docs-now-assist&family=yokohama&ft:locale=en-US)**
-
-Help increase efficiency and save time by using Now Assist to automatically generate CWM Tasks for your Board. Using the information in your doc, Now Assist provides task recommendations. You can choose to refine or modify these recommendations. You can iterate multiple times to tweak the task recommendations according to your requirements.
-
-After you're satisfied with the recommendations, Now Assist can help you add these tasks to a board of your choice.
-
--   **[Summarize and paraphrase Docs content](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
-
-Use Now Assist capabilities to refine selected content in docs, or to get a summary of the whole document.
-
-    -   Summarize, elaborate, or shorten selected text.
-    -   Summarize the entire content on the page.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -123,17 +112,7 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
-
-Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -244,7 +223,10 @@ Yokohama
 
 </td><td>
 
-Install Now Assist for Collaborative Work Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Now Assist for Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

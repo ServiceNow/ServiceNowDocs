@@ -49,6 +49,8 @@ Create or modify timeline event configurations to control which events appear on
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

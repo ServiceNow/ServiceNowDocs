@@ -34,11 +34,11 @@ Set up the Healthcare Operations Core application.
 
     Create a group for team members with the sn\_hco.care\_team\_manager role assigned so that users added to this group inherits the collection of roles for Healthcare Operations Core.
 
-5.  [Create a healthcare location]()
+5.  [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-location.md)
 
     Create healthcare locations to designate the locations in which your care teams operate.
 
-6.  [Create a healthcare organization]()
+6.  [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-configure-healthcare-organizations.md)
 
     Create a healthcare organization for use with Healthcare Operations Core.
 
@@ -54,7 +54,7 @@ Set up the Healthcare Operations Core application.
 
     Add or remove members from your healthcare organizations.
 
-10. [Associate healthcare locations with a healthcare organizations]()
+10. [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
 
     Use the Healthcare organization location association table to associate locations with healthcare organizations.
 

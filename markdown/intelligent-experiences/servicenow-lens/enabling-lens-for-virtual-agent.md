@@ -122,7 +122,7 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "nav-va-designer.png"\] Alt text: Designer module for Virtual Agent under Conversational Interfaces.
 
-2.  In the Topic tab, select **ServiceNow Lens** topic.
+2.  In the Topic tab, select **ServiceNow AI Lens** topic.
 
     \[Omitted image "va-designer-lens-topic.png"\] Alt text: ServiceNow AI Lens topic in Virtual Agent Designer.
 

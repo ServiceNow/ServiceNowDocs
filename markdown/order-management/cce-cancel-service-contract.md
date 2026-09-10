@@ -1,6 +1,6 @@
 ---
 title: Cancel a customer contract
-description: Create an order to cancel a customer contract and its child customer contract lines on the CSM Configurable Workspace. By canceling a customer contract, you are terminating the services specified in that customer contract.
+description: Create an order to cancel a customer contract and its child customer contract lines on the CRM Workspace. By canceling a customer contract, you are terminating the services specified in that customer contract.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/cce-cancel-service-contract.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Cancel, Using Contracts and Entitlements Workflows, Customer Contra
 
 # Cancel a customer contract
 
-Create an order to cancel a customer contract and its child customer contract lines on the CSM Configurable Workspace. By canceling a customer contract, you are terminating the services specified in that customer contract.
+Create an order to cancel a customer contract and its child customer contract lines on the CRM Workspace. By canceling a customer contract, you are terminating the services specified in that customer contract.
 
 ## Before you begin
 

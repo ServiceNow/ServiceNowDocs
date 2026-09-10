@@ -18,6 +18,8 @@ Schedule shifts for your team so that you can make sure that you are covering al
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.admin
 
 ## About this task
@@ -42,15 +44,15 @@ In the **Shifts** tab, you can view the work shifts and on-call shifts in separa
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40714e180">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40892e196">
 
 To
 
-</th><th align="left" id="d40714e183">
+</th><th align="left" id="d40892e199">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40714e189">
+</th></tr></thead><tbody><tr><td id="d40892e205">
 
 **Create a work shift**
 
@@ -83,7 +85,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d40714e307">
+</td></tr><tr><td id="d40892e323">
 
 **Create an on-call shift**
 

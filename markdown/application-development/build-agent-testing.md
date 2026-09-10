@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-testing.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
-reading_time_minutes: 5
+last_updated: "2026-08-25"
+reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -51,6 +51,7 @@ The end-to-end workflow is:
 3.  Respond to Build Agent asking whether you want to run the tests.
 4.  Failures are automatically triaged. Test Agent produces an RCA and either applies safe fixes autonomously or proposes them to you through the Build Agent chat panel.
 5.  Build Agent ingests the RCA from Test Agent and re-executes tests until a passing status is achieved, completing the auto-heal loop. Stale tests are automatically updated to reflect the newest functionality.
+6.  Alternatively, ask Build Agent to create or run a test suite to execute multiple tests as a group and review consolidated results in the chat panel.
 
 ## Key developer experiences
 
@@ -63,6 +64,14 @@ The end-to-end workflow is:
     Generate comprehensive UI tests for applications you build with Build Agent. UI testing extends the existing functional test capability to cover browser-level interactions, such as multi-step page navigation flows. Request a UI test by prompting Build Agent to generate a UI test for the application or flow you want to validate. For more information, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-ui-test-script-atf.md).
 
     \[Omitted image "ba-tests-ui-prompt-for.png"\] Alt text: AI prompt asking whether to run UI tests, with options to select Yes or No and a Submit button.
+
+-   **List and related list step generation**
+
+    Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md). Available with Australia Patch 6 and later.
+
+-   **Test suite authoring and execution**
+
+    Create ATF test suites and edit existing ones from Build Agent. Group individual tests under a suite and execute the suite from the chat panel to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel. For more information on test suites, see [Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md). Available with Australia Patch 6 and later.
 
 -   **Assisted troubleshooting**
 
@@ -85,7 +94,7 @@ Test Agent is available in the following environments and scopes:
 |---------|----------------|
 |Authoring environment|ServiceNow Studio, the ServiceNow IDE, and the ServiceNow SDK \(execution tool only\)|
 |Application scope|Global, custom, store|
-|Test types|ATF functional and UI tests|
+|Test types|ATF functional tests, UI tests, and test suitesATF functional and UI tests|
 |Execution target|Cloud Runner lanes|
 
 **Note:** Test execution requires the ATF Test Generator and Cloud Runner app to be installed and a cloud user set up. For more information, see [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md).

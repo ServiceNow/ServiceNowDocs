@@ -68,25 +68,39 @@ The import wizard guides you through file attachment, user mapping, and preview 
 
 9.  Select **Next** to proceed to attach additional files.
 
-10. If your package includes overlays, select **Overlay Attachment** and upload one or more overlay JSON files.
+10. If your package includes overlays, in **Overlay Attachment** section, upload one or more overlay JSON files.
 
-11. Under Overlay attachment, select **Assessment Plan Attachments** and upload one or more AP JSON files.
+11. If your package includes POA&amp;Ms, select **POAM Attachment** and upload the POA&amp;M JSON file.
 
-12. If your package includes POA&amp;Ms, select **POAM Attachment** and upload the POA&amp;M JSON file.
+12. Add authorization boundary attachments.
 
-13. Select **Next**.
+    Attach diagrams and other supporting documentation relevant to the authorization boundary, such as boundary assessment documents or architectural diagrams.
+
+13. Add specific authorization package documents.
+
+    You can add the following files:
+
+    -   SSP Report
+    -   SAP Report
+    -   SAR Report
+    -   ATO Letter
+    -   POA&amp;M Report
+    -   Executive Summary
+14. In Assessment Plan Attachments section, upload one or more AP JSON files.
+
+15. Select **Next**.
 
     The system validates all attached files against OSCAL standards. If validation fails, error messages display indicating which files have issues. If validation succeeds, the wizard proceeds to user mapping.
 
-14. In the user mapping screen, review the list of users from the OSCAL file.
+16. In the user mapping screen, review the list of users from the OSCAL file.
 
     OSCAL users are automatically mapped to ServiceNow users and appear with the following mapping status:
 
     -   Auto-mapped: Indicates that a ServiceNow user with a matching username is found.
     -   Blank: Indicates no matching ServiceNow user is found, and that manual mapping is required.
-15. For OSCAL users without a corresponding ServiceNow user, select the appropriate ServiceNow user from the drop-down.
+17. For OSCAL users without a corresponding ServiceNow user, select the appropriate ServiceNow user from the drop-down.
 
-16. Verify mandatory roles are assigned:
+18. Verify mandatory roles are assigned:
 
     Required roles include:
 
@@ -95,9 +109,9 @@ The import wizard guides you through file attachment, user mapping, and preview 
     -   Information System Security Manager \(ISSM\)
     If any mandatory role is unassigned after auto-mapping, manually select a user for that role.
 
-17. Select **Next** to proceed to the preview screen.
+19. Select **Next** to proceed to the preview screen.
 
-18. Review the preview section.
+20. Review the preview section.
 
     The preview displays objects that will be created, overridden, or skipped based on whether the package exists in the target instance.
 
@@ -119,17 +133,17 @@ The import wizard guides you through file attachment, user mapping, and preview 
     -   Policies already existing in the instance
     Information type definitions and policies skip because they exist independently of packages and are not tightly coupled with authorization boundaries.
 
-19. To skip or override specific object types, do the following:
+21. To skip or override specific object types, do the following:
 
     1.  Select the object from the **Select the ones you would wish to override** list and choose **Override**.
 
     You can override objects at the boundary or package level. When you skip an authorization package, all child objects \(baseline controls, engagements, test plans, control tests\) skip automatically due to parent-child relationships.
 
-20. Select **Import** to begin the import process.
+22. Select **Import** to begin the import process.
 
     A confirmation message displays indicating the import process has started.
 
-21. On the status screen, monitor the import progress.
+23. On the status screen, monitor the import progress.
 
     The status screen displays each model being processed:
 
@@ -139,7 +153,7 @@ The import wizard guides you through file attachment, user mapping, and preview 
     -   Error: Failed \(shows error details\)
     The Assessment Plan typically takes a few minutes to process depending on the number of controls and control tests being created.
 
-22. After all models show Success status, navigate to the authorization package to verify the import results.
+24. After all models show Success status, navigate to the authorization package to verify the import results.
 
     Verify engagements were created, control tests exist for expected controls, and test plans are populated with assessment procedures.
 

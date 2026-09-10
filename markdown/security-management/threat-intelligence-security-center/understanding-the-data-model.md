@@ -35,5 +35,5 @@ The data model has the data structures which are represented as objects in the T
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

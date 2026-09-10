@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-30"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigate sessions, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Session details
@@ -27,6 +27,8 @@ View metric breakdowns, the judge's reasoning, and trace and span data for a spe
 ## Viewing session information
 
 The session details page shows the AI system, its type, session duration, and token usage. Duration is measured from the first interaction to session close or timeout \(10 minutes of inactivity\). Total runtime tokens reflect the cost of running the interaction, not the cost of evaluating it.
+
+The header also shows latency and span count for the session. Latency reflects the AI system's language model response time across the session's traces, which is typically much shorter than the session duration since duration also includes think time and tool-call execution. Span count is the number of spans across all traces in the session.
 
 ## Quality and safety score cards
 

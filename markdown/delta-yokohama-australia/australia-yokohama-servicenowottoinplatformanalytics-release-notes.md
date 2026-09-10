@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowottoinplatformanalytics-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,24 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Gather insights, plan, and collaborate in the AI Data Explorer](https://www.servicenow.com/docs/access?context=now-assist-explorer&family=yokohama&ft:locale=en-US) \(January 2026\)**
+
+Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis. Enable teams to discuss and act on findings instantly. Centralize insights and narratives for better decision making. Guide users with contextual insights and suggestions.
+
+Main features include:
+
+    -   [Optional deeper level of analysis](https://www.servicenow.com/docs/access?context=hidden-insights&family=yokohama&ft:locale=en-US)
+    -   [Add a data visualization from an exploration to a dashboard](https://www.servicenow.com/docs/access?context=add-data-viz-from-expl-to-dboard&family=yokohama&ft:locale=en-US)
+    -   [Share explorations with tagged users](https://www.servicenow.com/docs/access?context=share-now-assist-explorer&family=yokohama&ft:locale=en-US)
+    -   [Duplicate an exploration](https://www.servicenow.com/docs/access?context=nowass-expl-duplicate-exploration&family=yokohama&ft:locale=en-US)
+    -   [Duplicate an answer in an exploration](https://www.servicenow.com/docs/access?context=nowass-expl-dup-del-question-resp&family=yokohama&ft:locale=en-US)
+    -   [Summarize an exploration](https://www.servicenow.com/docs/access?context=summarize-exploration&family=yokohama&ft:locale=en-US)
+AI Data Explorer leverages Query Generation to translate natural language questions into actionable insights. Query Generation enables users of AI Data Explorer to analyze their data and access a broader range of data sets. Key capabilities include:
+
+    -   [Ability to add tables to the semantic data layer](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=yokohama&ft:locale=en-US)
+    -   [Multi-table source support](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=yokohama&ft:locale=en-US)
+    -   [Workflow Data Fabric table support](https://www.servicenow.com/docs/access?context=create-integrations-applications&family=yokohama&ft:locale=en-US)
+    -   [Database view support](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=yokohama&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -83,7 +100,24 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Gather insights, plan, and collaborate in the AI Data Explorer](https://www.servicenow.com/docs/access?context=ai-data-explorer&family=zurich&ft:locale=en-US) \(December 2025\)**
+
+Ask quick questions, receive tailored recommendations, and collaborate with AI and your colleagues to build long-term analysis. Enable teams to discuss and act on findings instantly. Centralize insights and narratives for better decision making. Guide users with contextual insights and suggestions.
+
+Main features include:
+
+    -   [Extended analysis](https://www.servicenow.com/docs/access?context=hidden-insights&family=zurich&ft:locale=en-US) generates a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
+    -   [Add a data visualization from an exploration to a dashboard](https://www.servicenow.com/docs/access?context=add-data-viz-from-expl-to-dboard&family=zurich&ft:locale=en-US)
+    -   [Share explorations with tagged users](https://www.servicenow.com/docs/access?context=share-now-assist-explorer&family=zurich&ft:locale=en-US)
+    -   [Duplicate an exploration](https://www.servicenow.com/docs/access?context=nowass-expl-duplicate-exploration&family=zurich&ft:locale=en-US)
+    -   [Duplicate an answer in an exploration](https://www.servicenow.com/docs/access?context=nowass-expl-dup-del-question-resp&family=zurich&ft:locale=en-US)
+    -   [Summarize an exploration](https://www.servicenow.com/docs/access?context=summarize-exploration&family=zurich&ft:locale=en-US)
+AI Data Explorer leverages Query Generation to translate natural language questions into actionable insights. Query Generation enables users of AI Data Explorer to analyze their data and access a broader range of data sets. Key capabilities include:
+
+    -   [Ability to add tables to the semantic data layer](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=zurich&ft:locale=en-US)
+    -   [Multi-table source support](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=zurich&ft:locale=en-US)
+    -   [Workflow Data Fabric table support](https://www.servicenow.com/docs/access?context=create-integrations-applications&family=zurich&ft:locale=en-US)
+    -   [Database view support](https://www.servicenow.com/docs/access?context=add-table-semantic-layer&family=zurich&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -112,7 +146,20 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=yokohama&ft:locale=en-US)**
+
+AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
+
+-   **[Ask questions about FX currency data](https://www.servicenow.com/docs/access?context=qg-supported-query-operations&family=yokohama&ft:locale=en-US)**
+
+Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
+
+-   **[Benefit from improvements to segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=yokohama&ft:locale=en-US)**
+
+Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
+
+Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for indicator sources or modules on domain-separated instances.
+
 
 </td></tr><tr><td>
 
@@ -120,42 +167,26 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=zurich&ft:locale=en-US)**
+
+AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
+
+-   **[Ask questions about FX currency data](https://www.servicenow.com/docs/access?context=qg-supported-query-operations&family=zurich&ft:locale=en-US)**
+
+Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
+
+-   **[Benefit from improvements to segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=zurich&ft:locale=en-US)**
+
+Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
+
+Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for modules on domain-separated instances.
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Promote selected indicators in AI Search results](https://www.servicenow.com/docs/access?context=indicator-scope-control&family=australia&ft:locale=en-US)**
-
-Add high-quality indicators that you identify to a list. The indicators on that list are given a boost in AI Search results for Query Generation.
-
--   **[View more indicator insights in Extended analysis](https://www.servicenow.com/docs/access?context=hidden-insights&family=australia&ft:locale=en-US)**
-
-See directional trends over time and indicator target information in Extended analysis summaries.
-
--   **[Improvements to data visualizations in Query Generation responses](https://www.servicenow.com/docs/access?context=ask-expl-questions&family=australia&ft:locale=en-US)**
-    -   Single-score charts now render sparklines by default.
-    -   When a user query on indicator data does not specify a visualization type, the response returns the indicator's default chart type.
--   **[Now Assist renamed to ServiceNow Otto®](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=australia&ft:locale=en-US)**
-
-The Now Assist Admin Console is now AI Admin Hub and many other changes have been made. This renaming is a work in progress.
-
-
--   **[Query indicator data](https://www.servicenow.com/docs/access?context=ai-data-explorer-implementation-checklist&family=australia&ft:locale=en-US)**
-
-Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
-
-
--   **[Explorations not available from visualization or list for unsupported scope](https://www.servicenow.com/docs/access?context=launch-now-assist-explorer&family=australia&ft:locale=en-US)**
-
-You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
-
--   **[Improvements to generated segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=australia&ft:locale=en-US)**
-    -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
-    -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
 
 -   **[Explore data from protected scopes](https://www.servicenow.com/docs/access?context=enable-aide-secure-scope-apps&family=australia&ft:locale=en-US)**
 
@@ -172,27 +203,6 @@ Provide access to protected application scopes to AI Data Explorer and Query Gen
 -   **[Query Generation support for Glide Lists](https://www.servicenow.com/docs/access?context=querygen-unsupported-field-types&family=australia&ft:locale=en-US)**
 
 Query Generation now supports Glide List fields on tables.
-
-
--   **[Customize semantic metadata in configuration tables](https://www.servicenow.com/docs/access?context=customize-semantic-metadata&family=australia&ft:locale=en-US)**
-
-Customize semantic descriptions and usage instructions in the table and column configuration tables. Unlike the previous method of editing Entity and Dimension records, these changes can be transferred between instances through update sets.
-
--   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&family=australia&ft:locale=en-US)**
-
-AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
-
--   **[Ask questions about FX currency data](https://www.servicenow.com/docs/access?context=qg-supported-query-operations&family=australia&ft:locale=en-US)**
-
-Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
-
--   **[Benefit from improvements to segments](https://www.servicenow.com/docs/access?context=querygen-segments&family=australia&ft:locale=en-US)**
-
-Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
-
-Manual segments are re-ranked to take priority over automatically generated segments.
-
-Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments aren't supported for modules on domain-separated instances.
 
 
 </td></tr></tbody>
@@ -304,7 +314,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -415,8 +428,9 @@ Australia
 
 </td><td>
 
--   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
--   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
+-   **Accessibility information**
+    -   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+    -   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
 
 </td></tr></tbody>
 </table>## Localization information

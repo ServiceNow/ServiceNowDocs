@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-05-22"
 reading_time_minutes: 5
-breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
+breadcrumb: [Design defined desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
 # Test and activate a desktop action in AI Desktop Actions
@@ -107,7 +107,7 @@ If you get en error that the file size is beyond 10 MB, you can increase the fil
 
 ## What to do next
 
-Create an AI agent. For more information, see [Creating AI agents for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md).
+Create an AI agent. For more information, see [Creating AI agents and adding desktop action tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md).
 
-Enable AI agents to perform desktop actions by adding desktop actions as tools. For more information, see [Add a defined desktop action tool to an AI agent for desktop and web-based task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-desktop-action-ai-agent.md).
+Enable AI agents to perform desktop actions by adding desktop actions as tools. For more information, see .
 

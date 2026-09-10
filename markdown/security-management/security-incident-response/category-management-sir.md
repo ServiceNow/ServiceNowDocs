@@ -26,6 +26,8 @@ Create subcategories for a category for a deeper classification of a security in
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

@@ -1,6 +1,6 @@
 ---
 title: Configuring CIs in a manual service as a manual cluster
-description: Configure or modify a CI as a specific CI or a generic CI class in a manual service \(that was not discovered automatically\) as a manually defined cluster. A manual cluster delivers redundancy capabilities in the cluster and provides continued operations or services of the entire cluster in case of failure of one or more CIs in that cluster.
+description: Configure or modify a CI as a specific CI or a generic CI class in a manual service \(that was not discovered automatically\) as a manually defined cluster. A manual cluster delivers redundancy capabilities and provides continued operations if one or more CIs fail.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manual-cluster-in-a-manual-service.html
 release: australia
@@ -14,13 +14,13 @@ breadcrumb: [Application services in Event Management, Configure, Event Manageme
 
 # Configuring CIs in a manual service as a manual cluster
 
-Configure or modify a CI as a specific CI or a generic CI class in a manual service \(that was not discovered automatically\) as a manually defined cluster. A manual cluster delivers redundancy capabilities in the cluster and provides continued operations or services of the entire cluster in case of failure of one or more CIs in that cluster.
+Configure or modify a CI as a specific CI or a generic CI class in a manual service \(that was not discovered automatically\) as a manually defined cluster. A manual cluster delivers redundancy capabilities and provides continued operations if one or more CIs fail.
 
 Manual cluster allows you to group CIs under a logical cluster in a service. In the impact tree you can set the relative impact of a cluster member on the cluster.
 
 **Note:** Creation of nested manual clusters \(cluster inside cluster\) is currently not supported.
 
-Once the CI is defined as a manual cluster its impact calculation shows the magnitude of an outage on its children CIs. Impact calculation uses factors such as impact rules and CI relationships to calculate the severity of a generated alert. Impact rules, which are used for impact calculation, estimate the magnitude or severity of an outage based on affected CIs and determines how the impact applies to parent or child entities that are part of an application service.
+Once the CI is defined as a manual cluster its impact calculation shows the magnitude of an outage on its children CIs. Impact calculation uses factors such as impact rules and CI relationships to calculate the severity of a generated alert. Impact rules estimate the magnitude or severity of an outage based on affected CIs. They determine how the impact applies to parent or child entities that are part of an application service.
 
 The magnitude of an outage can be 100% down, 60% affected, 40% impaired, or 20% impaired.
 
@@ -33,7 +33,7 @@ In a service map, you can configure or modify a specific CI or a generic CI clas
 -   **[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manual-cluster.md)**  
 Provide redundancy capabilities of an entire cluster in case of failure of one or more CIs in that cluster. By viewing the relative impact of a cluster member on the cluster information, you can better understand the source of alerts and take remediation steps.
 -   **[Modify a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/modify-a-manual-cluster.md)**  
-Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description in case of an incorrect initial configuration, changes in the network, or other issues.
+Modify an existing manual cluster to update its service, CI, CI class, or description.
 
 **Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
 

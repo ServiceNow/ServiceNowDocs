@@ -72,6 +72,8 @@ Load the supplier data from the excel template into the supplier inbound​ stag
 
 [Relish Integration for Supplier Lifecycle Operations]()
 
+[FedEx Dataworks Integration for Supplier Lifecycle Operations]()
+
 [Add supplier inbound data in an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/import-external-data-into-slo.md)
 
 [Load supplier data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-supplier-data.md)

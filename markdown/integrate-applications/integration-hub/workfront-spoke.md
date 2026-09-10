@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workfront v1.4.0 is the latest version.
+Workfront v1.4.3 is the latest version. For version history of the spoke, see [Workfront spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workfront.html).
 
 ## Supported versions
 

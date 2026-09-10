@@ -22,7 +22,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow® AI Experience Lab for VS Code extension requires the following:
+The ServiceNow Lux Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -100,7 +100,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Select the ServiceNow \[Omitted image "servicenow-youmoji-icon.png"\] icon in the side panel to open the ServiceNow® AI Experience Lab for VS Code extension.
+1.  Select the ServiceNow \[Omitted image "servicenow-youmoji-icon.png"\] icon in the side panel to open the ServiceNow Lux Lab for VS Code extension.
 
 2.  Open a net new or extension experience.
 

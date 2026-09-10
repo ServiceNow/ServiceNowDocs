@@ -36,7 +36,7 @@ For more information on modifying an agentic workflow, see.
 
 Looking for an AI agent?
 
--   There may be AI agents installed with the ServiceNow Otto application that aren't used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+-   There may be AI agents installed with the ServiceNow Otto application that aren't used in agentic workflows. To learn how to see all agents that are available on your instance, see .
 -   To find agents that may not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **AI agents security**

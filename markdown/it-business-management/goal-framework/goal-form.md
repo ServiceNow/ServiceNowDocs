@@ -108,7 +108,7 @@ Status
 
 </td><td>
 
-Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **None**.
+Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

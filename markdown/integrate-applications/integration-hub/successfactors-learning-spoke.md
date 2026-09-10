@@ -20,6 +20,10 @@ SuccessFactors Learning spoke can be used retrieve all learning-related informat
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+## Spoke version
+
+SuccessFactors Learning Spoke v1.0.0 is the latest version. For version history of the spoke, see [SuccessFactors Learning Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-successfactors-learning-spoke.html).
+
 ## Supported versions
 
 This spoke was built for version 1.5, but may be compatible with later versions.

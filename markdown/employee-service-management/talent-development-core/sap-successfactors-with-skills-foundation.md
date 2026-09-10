@@ -25,7 +25,7 @@ Prerequisites for SAP SuccessFactors integration.
     -   sn\_skills\_int.default\_skill\_level\_type: The sys\_id of a skill level type has unique number in the Value field. In case the Value field has an invalid number, an error message is displayed saying that the user has to restart the flow after providing the correct value.
     -   sn\_skills\_int.allow\_import\_to\_override\_skill\_level: This system property when set to True will override the proficiency of the existing skills of an employee. The highest proficiency whether it's from the import or the existing proficiency value will be retained.
 
-        If the system property is False, there is will be no change in the proficiency values, but if a skill is validated for an employee, the same will be reflected in employee profile after the import.
+        If the system property is False, proficiency values remain unchanged. However, validated skills are reflected in the employee profile after import.
 
 
 The integration options available are:

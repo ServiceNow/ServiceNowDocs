@@ -18,6 +18,8 @@ Setup Proactive Service Experience Workflows application to proactively resolve 
 
 -   **[Set up your environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/set-up-environment-psew.md)**  
 Begin your customer journey by preparing your Proactive Service Experience Workflows environment with data models, customer data, product data, and user management tools to go live.
+-   **[Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md)**  
+Modify the values of the indicators in the Technology Account 360 view.
 
 **Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

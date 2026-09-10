@@ -16,6 +16,10 @@ Use **Type mappings** to convert the Type and Subtype locations in Mappedin to t
 
 ## Before you begin
 
+**Important:**
+
+The Mappedin integration is not available for new customers. Existing customers can upgrade to Mappedin version 1.11.0.
+
 Role required: sn\_wsd\_mappedin.admin
 
 **Important:** In the Workplace Service Delivery Suite, from Workplace Core version 2.5.3, the **Space type \(space\_type\)** choice field is depreciated. After the upgrade, Space types are configured in the **Space Type Configuration**. The **Space type \(space\_type\)** field is migrated as **Space type \(location\_type\)** field in the Space table \[sn\_wsd\_core\_space\]. Customers having customization on the depreciated **Space type \(space\_type\)** field are advised to manually migrate their flow to use the new **Space type \(location\_type\)** field. A new fix script, **Populate Location Type from Space Type**, is introduced to execute the schedule job, **Populate location\_type from space\_type**, on the Space table \[sn\_wsd\_core\_space\] to migrate the depreciated **Space type \(space\_type\)** field value to the new **Space type \(location\_type\)** field.

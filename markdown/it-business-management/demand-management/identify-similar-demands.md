@@ -76,3 +76,5 @@ To view full details of a similar demand record, select the demand number link f
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

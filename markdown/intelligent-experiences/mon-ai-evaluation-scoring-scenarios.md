@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-06-30"
 reading_time_minutes: 6
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Evaluation scoring examples
@@ -136,6 +136,4 @@ Safety = (85 x 0.51) + (50 x 0.49) = 43.4 + 24.5 = 68%
 ```
 
 That single flagged trace would move the session safety score from green \(92%\) to orange \(68%\). Binary metrics make issues impossible to miss: even one flagged trace is immediately visible in the score.
-
-**Parent Topic:**[Exploring AI system monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-exploring-aict-evaluations.md)
 

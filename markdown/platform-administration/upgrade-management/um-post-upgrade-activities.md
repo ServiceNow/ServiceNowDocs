@@ -20,7 +20,7 @@ Implement the post-upgrade tasks for a successful upgrade completion on your ins
 
 **Note:** You will be able to perform the post-upgrade tasks only after completing the pre-upgrade and instance upgrade tasks.
 
-Role required: admin
+Role required: upgrade\_admin
 
 ## Procedure
 

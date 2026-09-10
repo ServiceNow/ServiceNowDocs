@@ -18,8 +18,8 @@ Create a collector to import metadata from BigQuery.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the BigQuery collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-bigquery-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,20 +47,39 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the BigQuery authentication details.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Enter the BigQuery authentication details.
 
     |Field|Description|
     |-----|-----------|
     |BigQuery Credential File Path|Upload the credentials file [you generated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-bigquery-metadata-collector.md) for authentication.|
 
-8.  Enter the BigQuery configuration details.
+9.  Enter the BigQuery configuration details.
 
     |Field|Description|
     |-----|-----------|
     |BigQuery Project|BigQuery project that contains the datasets to catalog.|
     |BigQuery Datasets to Catalog|BigQuery datasets to catalog in the project. By default, all datasets in a project are cataloged. When multiple projects are specified, the dataset filter applies to all projects.|
 
-9.  Select **Save**.
+10. Select **Save**.
 
 
 ## Result

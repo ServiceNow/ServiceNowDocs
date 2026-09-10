@@ -47,7 +47,7 @@ For more information about the components installed, see [Components installed w
 
 -   **Defined desktop action**
 
-    Download and install the AI Desktop Actions installer on your system to automate repetitive tasks that involve fixed steps in your desktop and web environment. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
+    Download and install the AI Desktop Actions installer on your system to automate repetitive tasks that involve fixed steps in your desktop and web environment. For more information, see [Download AI Desktop Actions installer for defined desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 -   **Adaptive desktop action**
 

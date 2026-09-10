@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP S4 HANA IDoc spoke v1.2.0 is the latest version.
+SAP S4 HANA IDoc spoke v1.2.0 is the latest version. For version history of the spoke, see [SAP S4 HANA IDoc spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-s4-hana-idoc.html).
 
 ## Supported versions
 

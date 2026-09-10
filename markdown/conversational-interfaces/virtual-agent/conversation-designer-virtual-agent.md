@@ -61,7 +61,10 @@ In the Asset library, you can access and edit any of these assets, and create to
 
 \[Omitted image "vad-home-page.png"\] Alt text: Assistant Designer Asset library page.
 
-**Note:** Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto in Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto Panel is available. For more information on the ServiceNow Otto Panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+**Note:**
+
+-   Conversational subflows and actions are available in Assistant Designer if ServiceNow Otto for Virtual Agent has been configured. Conversational subflows and actions are also shown in Assistant Designer if the ServiceNow Otto panel is available. For more information on the ServiceNow Otto panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+-   MCP Server capabilities that you add to an assistant are stored in the sys\_gen\_ai\_skills table at run time, the same underlying table used for other conversational assets. But they don't appear as an asset in the Asset library. MCP Servers aren't treated as a conversational asset, so you can only view and manage them from within the Assistant create/edit flow, in their own dedicated section. Because they don't appear in the Asset library, you can't update their Discoverable, Visible, or Promoted status.
 
 You can test and preview active topics to verify that they work as intended. You can also sort and search for topics. When you have many assets, use the search bar \[Omitted image "search-icon.png"\] Alt text: and filter icon \[Omitted image "filter-icon.png"\] Alt text: to quickly organize and find your topics. For more information, see [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topics-page.md).
 

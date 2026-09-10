@@ -1,18 +1,18 @@
 ---
 title: Activity stream
-description: The activity stream helps agents stay informed by displaying a running history of updates and communications within a CSM Configurable Workspace record like field changes, comments, work notes, and emails.
+description: The activity stream helps agents stay informed by displaying a running history of updates and communications within a CRM Workspace record like field changes, comments, work notes, and emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-19"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity stream
 
-The activity stream helps agents stay informed by displaying a running history of updates and communications within a CSM Configurable Workspace record like field changes, comments, work notes, and emails.
+The activity stream helps agents stay informed by displaying a running history of updates and communications within a CRM Workspace record like field changes, comments, work notes, and emails.
 
 \[Omitted image "csm-default-record-page-activity-stream.png"\] Alt text: The activity stream in the CSM Configurable Workspace is central to the record page and shows the record activity, including the user, action, and time
 

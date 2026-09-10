@@ -19,7 +19,7 @@ Create an Ansible configuration management provider, and then run Discovery on t
 ## Before you begin
 
 -   Ensure to have an Ansible server and [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
--   If you want to use Ansible Tower version 3.6.x or higher, ensure to set the mid.cmp.ansible.api\_version property to V2. You can access this property under the Properties section of the Mid Server module.
+-   If you want to use Ansible version 3.6.x or higher, ensure to set the mid.cmp.ansible.api\_version property to V2. You can access this property under the Properties section of the Mid Server module.
 -   Role required: cloud\_admin
 
 ## About this task
@@ -58,7 +58,7 @@ Organization
 
 </td><td>
 
-Ansible Tower organization for access controlYou can obtain this information from the configuration management provider console.
+Ansible organization for access controlYou can obtain this information from the configuration management provider console.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ URL
 
 </td><td>
 
-URL of the Ansible Tower.Enter the full URL of the Ansible Tower including the `https://<IP>` protocol.
+URL of the Ansible config.Enter the full URL of the Ansible config including the `https://<IP>` protocol.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Provider
 
 </td><td>
 
-Configuration provider type.Select **Ansible Tower** from the drop-down list.
+Configuration provider type.Select **Ansible** from the drop-down list.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,13 @@ Server Type
 
 </td><td>
 
-Ansible Tower server type.
+Ansible server type used by the provider. The available options are:
+
+-   Ansible Community
+-   Ansible Tower \(Legacy\)
+-   AWX
+-   Ansible Automation Platform
+
 
 </td></tr><tr><td>
 
@@ -90,7 +96,7 @@ Credential
 
 </td><td>
 
-Credentials to access the Ansible server. For more information on creating credential for Ansible server, see [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
+Credentials to access the Ansible server. For more information on creating credential [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +104,7 @@ Version
 
 </td><td>
 
-Version of the configuration provider you are creating. **Note:** For Ansible Tower versions higher than 3.1.2, select 3.4.0 from the list.
+Version of the configuration provider you're creating. **Note:** For Ansible versions higher than 3.1.2, select 3.4.0 from the list.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

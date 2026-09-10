@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/test-ag
 release: australia
 topic_type: concept
 last_updated: "2026-04-21"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
@@ -28,6 +28,8 @@ Test Agent delivers the following measurable outcomes:
 -   Greater release confidence: Automated tests enforce quality gates and validate code health before promoting to production.
 -   Seamless test reuse and execution: All generated ATF tests are stored in the standard sys\_atf\_tests table within the target application scope and can be reused to schedule and run regression tests, just like manually authored ATF tests.
 
+Test Agent can generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list tests. List step support extends test coverage beyond form-based interactions to include list view interactions on the ServiceNow AI Platform. For more information on list and related list test steps, see [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-list-related-list.md).
+
 ## Test Agent users
 
 AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
@@ -42,13 +44,13 @@ Test Agent has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|One-stop shop experience|[Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)|admin|
+|One-stop shop experience|[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)|admin|
 
 ## What to explore next
 
 To learn more about configuring and using Test Agent, see:
 
 -   [Test Agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-access.md)
--   [Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)
+-   [Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)
 -   [Test Agent guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-exceptions.md)
 

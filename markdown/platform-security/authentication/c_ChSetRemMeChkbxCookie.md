@@ -20,10 +20,16 @@ If the user logs out, the cookie is destroyed. The default value of the **Rememb
 
 Two properties, **glide.ui.user\_cookie.life\_span\_in\_days** and **glide.ui.user\_cookie.max\_life\_span\_in\_days** control the glide\_user system generated cookie expiration value. When a user accesses an instance with 'remember me' enabled, the access resets the cookie expiration period until the maximum \(glide.ui.user\_cookie.max\_life\_span\_in\_days\) life span limit is reached.
 
+## Remember me properties
+
+Configure the following properties to control the **Remember me** cookie behaviour:
+
 **Note:** To learn more about these properties, see the following topics in Instance Security Hardening Settings:
 
 -   [Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
 -   [Minimize session window timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
+
+If the **Remember me** feature does not persist between sessions, verify the following conditions:
 
 ## Change the default value of the Remember me check box
 

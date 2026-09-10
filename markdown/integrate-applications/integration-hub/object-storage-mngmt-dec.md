@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Object Storage Management spoke v1.0.3 is the latest version.
+Oracle Object Storage Management spoke v1.0.3 is the latest version. For version history of the spoke, see [Oracle Object Storage Management spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-object-storage-management.html).
 
 ## Supported versions
 

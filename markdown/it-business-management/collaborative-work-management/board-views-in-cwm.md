@@ -7,16 +7,14 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-08-20"
+reading_time_minutes: 2
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
 # Board views in CWM
 
 Create, customize, and switch seamlessly between Board display preferences such as column display, sorting, and filtering based on the audience and purpose in Collaborative Work Management \(CWM\).
-
-\[Omitted video\] Description: Introduction and overview of Board views in CWM.
 
 With Board views, you can save your preferred data views or create shared views to ensure a consistent experience across sessions and for the entire team. Saved preferences include column display, column order, sorting, filters, view mode display, Kanban vertical lane selection.
 
@@ -49,8 +47,8 @@ The view that you last visited for a Board is saved as your user preference and 
 
 Use the following sections to learn more on how to make the most out of Board views and their customizations for your team.
 
--   **[List, Gantt, and Kanban views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-views.md)**  
-Switch between List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
+-   **[Dashboard, List, Gantt, and Kanban views in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-board-views.md)**  
+Switch between Dashboard, List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
 -   **[Create a custom view for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-custom-view-for-cwm-boards.md)**  
 Modify Board display preferences and save them as custom personal or shared views that suit the working preferences for you and your team members in Collaborative Work Management \(CWM\).
 -   **[Update a CWM Board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/update-a-cwm-board-view.md)**  

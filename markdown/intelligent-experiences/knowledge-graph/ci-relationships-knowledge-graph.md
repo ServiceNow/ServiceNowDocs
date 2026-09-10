@@ -19,7 +19,7 @@ Configuration item \(CI\) Relationships enable Knowledge Graph to answer natural
 
 The **CMDB\_REL\_CI** table stores relationships between configuration items \(CIs\) in ServiceNow CMDB. Each relationship connects a parent CI to a child CI through a defined relationship type, enabling the Knowledge Graph to understand and traverse the topology of your IT environment.
 
-CI relationship support in Knowledge Graph allows users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+CI relationship support in Knowledge Graph enables users to ask natural language questions. You can ask about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
 
 ## Enabling CI relationship for Knowledge Graph
 

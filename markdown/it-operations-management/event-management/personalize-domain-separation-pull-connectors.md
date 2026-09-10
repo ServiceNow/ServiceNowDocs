@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d707906e292">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d733407e292">
 
 Parameter
 
-</th><th align="left" id="d707906e295">
+</th><th align="left" id="d733407e295">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d707906e301">
+</th></tr></thead><tbody><tr><td id="d733407e301">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d707906e311">
+</td></tr><tr><td id="d733407e311">
 
 **__payloadDomainInfoFieldName__**
 

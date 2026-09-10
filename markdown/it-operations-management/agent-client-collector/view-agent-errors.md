@@ -18,6 +18,11 @@ Agent Client Collector \(ACC\) errors are visible in logs related to the agent a
 
 ## Before you begin
 
+-   Ensure that the Error Framework plugin \(GlidePluginManager\) is active.
+-   Ensure that the system property **sn\_agent.use\_glide\_error\_framework** is set to **true** \(**All** &gt; **System properties** &gt; **All Properties**\).
+
+-   Role required: agent\_client\_collector\_admin
+
 Role required: agent\_client\_collector\_admin
 
 ## Procedure

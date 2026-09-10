@@ -18,7 +18,7 @@ Use Microsoft SharePoint for fetching user-specific external data, such as share
 
 ## Before you begin
 
-Knowledge Graph uses Microsoft OneDrive application for authentication of Microsoft SharePoint required to fetch external data such as shared files used for people citation in Virtual Agent. Use the below process to setup the necessary authentication, used for people citation in Virtual Agent.
+Knowledge Graph uses Microsoft OneDrive application for authentication of Microsoft SharePoint required to fetch external data such as shared files used for people citation in Virtual Agent. Use the following process to setup the necessary authentication, used for people citation in Virtual Agent.
 
 To view the share files, configure the Microsoft OneDrive application with Knowledge Graph.
 
@@ -27,7 +27,7 @@ To complete the configuration, you must:
 -   Create Microsoft OneDrive application.
 -   Setup Knowledge Graph application on Microsoft OneDrive tenant.
 -   Update Microsoft OneDrive permissions for delegated access.
--   Create a new client secret and complete the authentication process.
+-   Create client secret value and complete the authentication process.
 
 Role required: admin
 
@@ -49,7 +49,7 @@ Role required: admin
     -   Select **Add a certificate or secret**.
     -   Select **New client secret** and add Description and Expiry duration.
     -   Select **Add**.
-    -   Ensure that you copy and save the New client secret value that is created.
+    -   Copy and save the New client secret value that is created.
 4.  Select **Overview** from the left navigation pane to add the redirect URL.
 
     -   Select **Add a redirect URI**.
@@ -67,7 +67,7 @@ Role required: admin
     -   Select **Delegated permission**.
     -   Add and select **offline.access** and **Sites.Read.All** in Select permissions section.
     -   Select **Add permissions**.
-    -   Ensure that the **Admin consent required** field is set to Yes for the newly added Microsoft Graph.
+    -   Set the **Admin consent required** field to Yes for the newly added Microsoft Graph.
 6.  Go to your ServiceNow instance to change the Application registry settings:
 
     -   Select **All** &gt; **System OAuth** &gt; **Application registry**
@@ -75,6 +75,6 @@ Role required: admin
     -   Add the copied Application ID in the **Client ID** field.
     -   Add the Client secret in the **Client secret** field.
     -   Add the Tenant ID in the placeholder for \[tenantId\] in the Authorization URL and Token URL field.
-    -   Ensure that the Redirect URL is correct.
+    -   Verify that the Redirect URL is correct.
     -   Select **Update**.
 

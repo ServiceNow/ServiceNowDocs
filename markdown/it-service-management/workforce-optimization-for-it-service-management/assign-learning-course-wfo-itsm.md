@@ -18,6 +18,8 @@ Assign a course item to one or more agents and add a due date for them to comple
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_wfo\_cfg\_itsm.manager
 
 ## About this task
@@ -47,15 +49,15 @@ You can analyze the course items that were most taken by your team members. You 
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d293339e174">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d297202e190">
 
 To
 
-</th><th align="left" id="d293339e177">
+</th><th align="left" id="d297202e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d293339e183">
+</th></tr></thead><tbody><tr><td id="d297202e199">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -63,7 +65,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d293339e195">
+</td></tr><tr><td id="d297202e211">
 
 **Assign the course to specific groups or team members**
 

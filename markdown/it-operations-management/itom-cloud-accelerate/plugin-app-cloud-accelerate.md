@@ -16,6 +16,19 @@ breadcrumb: [ITOM Cloud Accelerate reference, ITOM Cloud Accelerate, IT Operatio
 
 Tables that list the plugins or applications that are installed with ITOM Cloud Accelerate applications. When you update your application, any newly required application dependencies are installed.
 
+**Important:** Starting with the Brazil release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
+
+-   Cloud Services Catalog
+-   Cloud Services Catalog Content Pack
+-   Cloud Configuration Governance
+-   Cloud Configuration Governance Content Pack
+-   Cloud Action Library
+-   Cloud Services Catalog Terraform Connector
+-   Cloud Config Management
+-   Cloud Provisioning and Governance
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Cloud Services Catalog
 
 The CSC Content Pack plugin \(sn\_itom\_csc\_cp\) provides the required predefined content for the Cloud Services Catalog application. This content includes governance policies and actions to deliver an end-to-end governed deployment workflow.

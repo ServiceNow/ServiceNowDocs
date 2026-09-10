@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Reference, Telecommunications Network Inventory]
 ---
@@ -43,7 +43,7 @@ The role required to edit naming patterns differs by layer:
 -   The Inventory Catalog Manager role edits naming patterns at the equipment model level and establishes the organization's naming convention.
 -   The Inventory Template Manager role creates and updates inventory templates, including editing the inherited naming patterns on related templates.
 
-Users who create CIs from existing templates do not write or edit naming patterns — they use the names the patterns produce.
+Users who create CIs from existing templates don't write or edit naming patterns — they use the names the patterns produce.
 
 ## Benefits of the two-layer model
 
@@ -59,7 +59,7 @@ Separating model and template responsibilities lets you:
 
 [Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)
 
-[CI name generation for inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
+[Inventory template name generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/how-inventory-template-names-are-generated.md)
 
 [Inventory template hierarchy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-template-overview-tab.md)
 

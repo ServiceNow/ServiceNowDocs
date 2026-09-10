@@ -1,6 +1,6 @@
 ---
-title: Performance insights dashboard in Service Graph Workspace
-description: Use the Performance insights page in Service Graph Workspace to analyze performance of key CMDB components such as Identification and Reconciliation Engine \(IRE\), and duplicate CIs. You can review and follow recommendations to improve performance.
+title: Performance insights dashboard in CMDB Workspace
+description: Use the Performance insights page in CMDB Workspace to analyze performance of key CMDB components such as Identification and Reconciliation Engine \(IRE\), and duplicate CIs. You can review and follow recommendations to improve performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-perfinsight.html
 release: australia
@@ -9,16 +9,16 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Insights view, Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Performance insights dashboard in Service Graph Workspace
+# Performance insights dashboard in CMDB Workspace
 
-Use the Performance insights page in Service Graph Workspace to analyze performance of key CMDB components such as Identification and Reconciliation Engine \(IRE\), and duplicate CIs. You can review and follow recommendations to improve performance.
+Use the Performance insights page in CMDB Workspace to analyze performance of key CMDB components such as Identification and Reconciliation Engine \(IRE\), and duplicate CIs. You can review and follow recommendations to improve performance.
 
 ## Access
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  In the navigation panel, select the Insights icon.
 3.  On the Insights page navigation pane, select **Performance insights**.
 
@@ -168,4 +168,6 @@ The Service Graph connectors tab contains the following tiles:
 
 
 For more information about processing data with Service Graph Connectors, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+
+**Parent Topic:**[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
 

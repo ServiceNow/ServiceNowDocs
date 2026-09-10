@@ -30,6 +30,14 @@ There are five cyclical metrics being tracked:
 -   The range represents the upper and lower boundary limits with a normal distribution of the metrics based on their historical dataset pattern.
 -   The mean line represents the four week average value of the metrics to compare the deviation at a given point in time.
 
+## Anomaly tool and alerts
+
+The AI Anomaly tool functions as a robust solution to identify anomalies within performance data. The approach involves utilizing AI-based anomaly detection across diverse metrics within the system.
+
+The Anomalies tab indicates the number of triggered anomalies within the chosen timeframe. An anomaly is a data point that is unusual or doesn't conform to the expected patterns based on historical trends. In addition to visualization, the AI Anomaly tool empowers you to establish alerts based on the identified anomalies.
+
+**Note:** For more information on configuring anomaly alerts, see [Configure anomaly alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-anomaly-alerts.md).
+
 ## Job anomaly detection
 
 Job anomaly charts track the number of scheduled jobs running concurrently for each hour of the day with the overlaying metric of the average of transaction counts for each hour. Any bar in the chart that has one or multiple anomalous jobs is highlighted as red. Select the detail link of the bar chart to view the job level details.

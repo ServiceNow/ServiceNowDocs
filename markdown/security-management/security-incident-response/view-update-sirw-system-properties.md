@@ -30,6 +30,8 @@ Configure whether the preview modal appears when security analysts attach files 
 **Related topics**  
 
 
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

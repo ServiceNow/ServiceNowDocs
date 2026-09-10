@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Telecom, Media and Tech AI agents, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Telecommunications, Media and Technology AI agents
@@ -21,5 +21,5 @@ This Telecommunications, Media, and Technology \(TMT\) agent provides detailed i
 -   **[Billing plan recommender AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/tmt-billing-plan-recommender-ai-agent.md)**  
 This Telecommunications, Media, and Technology \(TMT\) agent generates recommended service plans and updates the billing inquiry case work notes with the results. The agent helps to ensure a seamless recommendation process without requiring additional user input beyond initial confirmation.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

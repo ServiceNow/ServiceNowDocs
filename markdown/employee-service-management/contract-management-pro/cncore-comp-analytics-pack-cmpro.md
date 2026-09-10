@@ -123,6 +123,10 @@ Provides an immediate insight from your existing contract request data.
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
 [Contract Management Pro glossary]()
 
 [Contract Management solutions]()

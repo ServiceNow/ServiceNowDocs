@@ -51,5 +51,5 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and one of these roles:
 **Related topics**  
 
 
-[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md)
+[cmdb-workspace-insights-view]
 

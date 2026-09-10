@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicecatalog-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -93,7 +93,7 @@ Enable catalog item creators to create complex catalog items effortlessly in Cat
 They can create, edit, or delete client scripts to build a complex catalog item. Creators can also configure questions, set dynamic and advanced reference qualifiers, and scripted default values.
 
 
--   **[Use Catalog browse component](https://www.servicenow.com/docs/access?context=catalog-builder&family=zurich&ft:locale=en-US)**
+ -   **[Use Catalog browse component](https://www.servicenow.com/docs/access?context=catalog-builder&family=zurich&ft:locale=en-US)**
 
 Use the Catalog browse component in UI Builder to add catalog item browsing in your custom pages. Drag it onto the Next Experience UI page to use the Catalog browse component.
 
@@ -146,7 +146,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US)**
+
+Identify and resolve accessibility related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
+
 
 </td></tr><tr><td>
 
@@ -271,7 +274,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Catalog is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -279,7 +285,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Service Catalog is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -287,7 +296,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Service Catalog is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -382,7 +394,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
+
 
 </td></tr><tr><td>
 

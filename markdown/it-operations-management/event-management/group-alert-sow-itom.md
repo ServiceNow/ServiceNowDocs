@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-06-16"
+last_updated: "2026-03-12"
 reading_time_minutes: 11
 breadcrumb: [Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. Use of alert tags is the best way to group alerts when your CMDB or service maps are immature. This complements other grouping algorithms, including alert correlation rules, ML, and text-based grouping. To learn about grouping alerts based on CI relationships in the CMDB, see [CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-groups.md). Even if a new alert is matched with multiple groups, it is grouped only with the first match, and you can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
+Grouping of this method is most useful when alerts share common data or tags, such as a node or location. You can use fields or tags populated via an enrich automation. Use of alert tags is the best way to group alerts when your CMDB or service maps are immature. This complements our other grouping algorithms, including alert correlation rules, ML, and text-based grouping. Even if a new alert is matched with multiple groups, it is grouped only with the first match. You can control the priority order of these algorithms via system property. For information on correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 
 Alert automation also provides a simulation feature allowing you to test how many alert groups would be formed, how many are left ungrouped, and the compression rate. A higher compression rate means your team is more productive and may be able to identify root causes faster. However, consider whether the groups are accurate, operationally correct, and assigned to the right teams. You may adjust the group criteria until you are satisfied with the resulting groups.
 
@@ -46,15 +46,19 @@ For users familiar with the classic Event Management experience, this feature of
 
     \[Omitted image "group-automation-recomd-automations.png"\] Alt text: View all suggested grouping automations, including previously suggested and ignored automations.
 
-4.  Select **Create automation**.
+4.  Choose how to create the grouping automation.
+
+    -   To create the automation using natural language, select **Configure with Otto**. The ServiceNow Otto panel opens with guidance for describing the grouping automation that you want to create. Continue creating the automation in the panel.
+    -   To create the automation manually, continue to the next step.
+5.  Select **Create automation**.
 
     \[Omitted image "group-automtion-name.png"\] Alt text: Group alerts page opens.
 
-5.  In the **Automation name** field, enter the name of the automation for grouping alerts.
+6.  In the **Automation name** field, enter the name of the automation for grouping alerts.
 
     By default, the **Active** check box is selected.
 
-6.  In the **If these conditions are met** section, set up filter criteria to identify the alerts that you want to group.
+7.  In the **If these conditions are met** section, set up filter criteria to identify the alerts that you want to group.
 
     \[Omitted image "group-automation-operator.png"\] Alt text: Group alerts conditions.
 
@@ -73,7 +77,7 @@ For users familiar with the classic Event Management experience, this feature of
 
         To add another set of conditions, select **+ New condition set**. You can also manually add an additional info field if you don’t see it in the drop-down list.
 
-7.  In the **Then, group alerts by the following criteria** section, perform the following steps.
+8.  In the **Then, group alerts by the following criteria** section, perform the following steps.
 
     \[Omitted image "group-automation-criteria.png"\] Alt text: Alert grouping criteria
 
@@ -91,34 +95,34 @@ For users familiar with the classic Event Management experience, this feature of
 
                 When you select a value for the fuzzy match method in the grouping field, the **Similarity threshold \(percentage\)** field becomes visible. Alerts are grouped when their similarity is greater than or equal to the specified percentage based on edit distance.
 
-                For example, if you have alerts from USA, CA, and USA, NY, and you want to group the alerts by country, you would set the **Source** field to the location. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, then alerts will be grouped if they are at least 50% similar, meaning they share the country "USA" as a common attribute.
+                For example, if you have alerts from USA, CA, and USA, NY, you can group the alerts by country. Set the **Source** field to the location. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, alerts are grouped when they are at least 50% similar. They share the country "USA" as a common attribute.
 
             -   When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PatternMatching.md).
 
                 Use asterisks \(\*\) in the search string to match any number of characters or a question mark \(?\) to match any single character. Everything else in the search string matches itself. For example, use "HTTP Error 5??" to match all HTTP 500 errors.
 
-        -   **Related CIs**: Group alerts according to CI \(Configuration Item\) relationships—such as parent/child \(**VM** &gt; **host**\), sibling relationships \(for example, multiple VMs on the same host\), containment \(**process** &gt; **application** &gt; **server**\), and applicative flows that describe how components interact within an application. In simple terms, these alerts are connected because the underlying infrastructure components are connected.
+        -   **Related CIs**: Group alerts according to CI \(Configuration Item\) relationships. These include parent/child \(**VM** &gt; **host**\), sibling relationships \(for example, multiple VMs on the same host\), containment \(**process** &gt; **application** &gt; **server**\), and applicative flows that describe how components interact within an application. These alerts are connected because the underlying infrastructure components are connected.
         -   **Related log properties**: Health Log Analytics \(HLA\) alerts are grouped together because their underlying logs look related based on patterns detected by the HLA algorithms.
 
             You can create an alert group based on related log properties on HLA alerts combined with alert tags or CMDB logic. When you choose to use related log properties, only log analytics alerts will be considered for grouping. Run the related log properties rule later in the rule order so that other rules—such as CMDB- or service-based grouping—can evaluate and group log analytics alerts first.
 
         -   **Impacted service instances**: Alerts are grouped because they affect the same service instance, regardless of topological distance \(hops\) between the alert CIs.
 
-            You can control which service instance must be considered by specifying relevant impacted service instance. When you select **Impacted service instances**, two options are available: **Any service instance** and **Specific service instance**. If you choose **Specific service instance**, you can select one or more service instances from the list, or select the search icon \(\[Omitted image "icon-search-sow.png"\] Alt text: search icon\) to open the **Select impacted service instances** pop-up and choose the required service instances.
+            You can control which service instance must be considered by specifying relevant impacted service instance. When you select **Impacted service instances**, two options are available: **Any service instance** and **Specific service instance**. If you choose **Specific service instance**, you can select one or more service instances from the list. Alternatively, select the search icon \(\[Omitted image "icon-search-sow.png"\] Alt text: search icon\) to open the **Select impacted service instances** pop-up and choose the required service instances.
 
             By default, the Impacted service instances grouping criterion is based on the impacted service. It can also be configured to use service associations from the \[svc\_ci\_assoc\] table. You can control whether to use impacted services or service associations using the **sa\_analytics.use\_impacted\_services\_for\_mixed\_grouping** system property. If the property value is `true`, alerts are grouped by impacted services and if the property value is `false`, the alerts are grouped by service associations.
 
     3.  To include additional fields for grouping, select **+ Add criteria**.
-8.  In the **Advanced options** section, you can do the following:
+9.  In the **Advanced options** section, you can do the following:
 
     -   Enable the toggle switch to set the minimum number of alerts required to form a group. When you enable it, the **Minimum number of alerts in the group** field appears, allowing you to enter the number. The default value is 2, which means grouping occurs only when there are two or more alerts.
     -   Enable the toggle switch to form group only if at least one alert meets specific conditions you define.
 
         **Note:** The threshold and required alert act as prerequisites for forming an alert group. The threshold defines the minimum number of alerts required to create a group. The required alert condition ensures that at least one specific, meaningful alert is present before grouping starts. If that alert is not present, the group is not created — even if there are multiple other alerts. In other words, a group is created only when both conditions are satisfied.
 
-        Example: Imagine a network switch with multiple ports, where alerts can occur either on individual ports or on the switch itself. You want a group to be created only when the switch is affected, not when there is just a port-level issue. In this setup, if alerts occur only on one or more ports, no group is created. A group is created only when an alert occurs on the switch along with one or more alerts on its ports. This ensures that grouping happens only for larger, meaningful issues involving the switch, and not for minor or isolated port problems. This is useful because it prevents unnecessary alert groups from being created, helps you focus on more important and meaningful issues, and reduces noise caused by minor or isolated alerts.
+        Example: Imagine a network switch with multiple ports, where alerts can occur either on individual ports or on the switch itself. You want a group to be created only when the switch is affected, not when there is just a port-level issue. In this setup, if alerts occur only on one or more ports, no group is created. A group is created only when an alert occurs on the switch along with one or more alerts on its ports. This ensures that grouping happens only for larger, meaningful issues involving the switch, and not for minor or isolated port problems. This prevents unnecessary alert groups from being created. It helps you focus on more important and meaningful issues and reduces noise caused by minor or isolated alerts.
 
-9.  In the **Automation details** section, provide an order and automation description.
+10. In the **Automation details** section, provide an order and automation description.
 
     \[Omitted image "group-automation-details.png"\] Alt text: Alert grouping automation details
 
@@ -127,7 +131,9 @@ For users familiar with the classic Event Management experience, this feature of
         **Note:** Alerts are grouped based on the first match, executed in order from the lowest to the highest number. The **Automation is managed by** field displays the team or assignment group who owns, edits, and can delete this automation. The assignment group is the same as the one defined in the **If these conditions are met** section.
 
     2.  In the **Automation description** field, enter a brief description of the automation.
-10. To test if the alert grouping is working correctly, navigate to **Test this automation on past alerts**, select the timeframe for the simulation from the drop-down list, select whether you want to consider other grouping types, and then select **Test automation**.
+11. Test the alert grouping by navigating to **Test this automation on past alerts**.
+
+    Select the timeframe for the simulation from the drop-down list, select whether you want to consider other grouping types, and then select **Test automation**.
 
     **Note:** From the **Consider other group types** menu, you can select either **This automation only** or **Consider other group types**. Selecting **This automation only** ignores other alert group types while choosing **Consider other group types** includes all alert grouping automations, such as mixed, automated, and text-based alert grouping.
 
@@ -148,7 +154,7 @@ For users familiar with the classic Event Management experience, this feature of
 
     **Important:** You can run the simulation of alerts on your test as well as production instance. The test automation simulates the automation using up to 200 recent alerts that match the specified conditions. It only considers groups where all alerts meet the conditions for this automation, although additional grouping algorithms may be applied during actual runtime.
 
-11. Select **Save automation**.
+12. Select **Save automation**.
 
     A notification appears when the automation is successfully saved. Otherwise, an error message is displayed. The group automation that you created appears on the Group alerts page where you can view, edit, or delete the existing automation.
 

@@ -1,16 +1,16 @@
 ---
-title: Create AI ACL
+title: Create an AI ACL for a Subflow or Action
 description: Create the necessary AI Access Control List \(ACL\) for the component to be called externally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-ai-acl.html
 release: australia
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
-# Create AI ACL
+# Create an AI ACL for a Subflow or Action
 
 Create the necessary AI Access Control List \(ACL\) for the component to be called externally.
 
@@ -18,7 +18,9 @@ Create the necessary AI Access Control List \(ACL\) for the component to be call
 
 Role required: admin
 
-**Note:** An AI ACL is essential for ensuring security compatibility of the component, regardless of data types or execution logic. This approach embraces a proactive deny-by-default model.
+## About this task
+
+AI ACLs are required for any Subflow or Action to be used as an MCP tool. An AI ACL is essential for ensuring security compatibility of the component, regardless of data types or execution logic. This approach embraces a proactive deny-by-default model. For more information, see the [Understanding invoke\_from\_ai ACL in ServiceNow](https://www.servicenow.com/community/developer-articles/understanding-invoke-from-ai-acl-in-servicenow-ai-agent-flow/ta-p/3519795) article in the ServiceNow Community.
 
 ## Procedure
 
@@ -43,5 +45,5 @@ Role required: admin
     Confirm that a record-type ACL isn't created in error, instead of an AI ACL \(invoked from AI operation\). If the staging table still shows security\_compatible = false after publishing, verify the ACL type.
 
 
-**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
+**Parent Topic:**[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 

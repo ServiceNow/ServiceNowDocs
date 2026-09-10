@@ -116,7 +116,7 @@ The on Catalog item request start trigger fires after the user opens a request f
 
  You can use this trigger to run a custom script or workflow to fulfill enterprise processes like custom approval before the catalog item request is processed.​
 
- [Create an action for an 'on Catalog item request start/end' policy]()
+ [Create action for 'on Catalog item request start/end']()
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ The on Catalog item request end trigger fires after a user submits a request for
 
  Use this trigger to launch a workflow after a catalog item request is processed. Consider this trigger a post-provisioning step. For example, you could launch a workflow to install MySQL on the provisioned resource.
 
- [Create an action for an 'on Catalog item request start/end' policy]()
+ [Create action for 'on Catalog item request start/end']()
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ on Resource operation launch
 
 The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\). When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
- [Create an action for an 'on Resource operation launch' policy]()
+ [Create action for 'on Resource operation launch' policy]()
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ on Resource operation request start
 
 The on Resource operation request start trigger fires after a user submits a resource operation request \(Start, Stop, Deprovision\). A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 
- [Create an action for an 'on Resource operation request start/end' policy]()
+ [Create action for 'on Resource operation request start/end' policy]()
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ on Resource operation request end
 
 The on Resource operation request end trigger fires before completion of a life cycle operation on a resource \(Start, Stop, Deprovision\). A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 
- [Create an action for an 'on Resource operation request start/end' policy]()
+ [Create action for 'on Resource operation request start/end' policy]()
 
 </td></tr><tr><td>
 

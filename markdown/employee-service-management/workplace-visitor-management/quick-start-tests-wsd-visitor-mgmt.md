@@ -54,5 +54,7 @@ Workplace Visitor Management provides quick start test that you can run on your 
 
 [Create a visitor badge template]()
 
+[Configure the frequency of email notifications]()
+
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

@@ -1,24 +1,24 @@
 ---
-title: CSM Configurable Workspace interface
-description: The CSM Configurable Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
+title: CRM Workspace interface
+description: The CRM Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-interface.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace interface
+# CRM Workspace interface
 
-The CSM Configurable Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
+The CRM Workspace interface provides agents with the tools and information they need to resolve interactions and cases.
 
 \[Omitted image "csm-config-workspace-interface.png"\] Alt text: The CSM Configurable Workspace interface provides information such as record details, the activity stream, and tools in the contextual side panel such as recommended actions and templates.
 
 ## Multi-tab interface
 
-Within the CSM Configurable Workspace interface, two levels of tabs enable agents to work on multiple cases, tasks, and other customer records within a single browser window.
+Within the CRM Workspace interface, two levels of tabs enable agents to work on multiple cases, tasks, and other customer records within a single browser window.
 
 -   Top-level tabs display case records or case type records.
 -   Sub-tabs display record details in addition to related records, such as case tasks, work orders, and contact or account information.
@@ -29,7 +29,7 @@ Agents can use this tab configuration to quickly move between records without lo
 
 ## Contextual display
 
-Agents get a complete view of a customer's history, including interactions, products, and cases. Agents can find this information throughout the CSM Configurable Workspace interface. For example:
+Agents get a complete view of a customer's history, including interactions, products, and cases. Agents can find this information throughout the CRM Workspace interface. For example:
 
 -   Record details: Provides customer or consumer information, details about the product or service, and a short description of the issue.
 -   Contact and consumer lookup: Displays customer information in record cards and provides quick access to details such name, email, and phone.
@@ -40,7 +40,7 @@ Agents get a complete view of a customer's history, including interactions, prod
 
 ## Record details
 
-In CSM Configurable Workspace, each case or interaction record includes information about the customer or consumer, the product or service, and a short description of the issue being addressed. It can also include information about the record priority, state, and agent assignment.
+In CRM Workspace, each case or interaction record includes information about the customer or consumer, the product or service, and a short description of the issue being addressed. It can also include information about the record priority, state, and agent assignment.
 
 Depending on the record page configuration, record details can be found in the Details tab or in a case or interaction details component. For example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md) includes a case details component with the following collapsible sections:
 
@@ -67,7 +67,7 @@ For more information, see [CSM Configurable Workspace contextual side panel comp
 
 ## Agent inbox
 
-Agents see their assignments in their CSM Configurable Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
+Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
 
 For more information about the agent inbox, see the following topics:
 

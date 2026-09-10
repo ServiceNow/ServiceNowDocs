@@ -35,6 +35,15 @@ Comma-Separated Values
 
 </td></tr><tr><td>
 
+Email Message
+
+</td><td>
+
+-   `.eml`
+-   `.msg`
+
+</td></tr><tr><td>
+
 Extensible Markup Language
 
 </td><td>

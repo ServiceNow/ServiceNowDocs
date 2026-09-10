@@ -60,8 +60,6 @@ Contains:
 
  sn\_hco.loc\_support\_agent
 
- wm\_location\_agent \(if Field Service Management is installed\)
-
 </td><td>
 
 Views/resolves all cases under assignment group and tracks and fulfills cases.

@@ -24,7 +24,7 @@ Role required: admin or delegated\_developer
 
 Use the experience switcher when you need to continue app development in a different environment. For example, create an app in Creator Studio and continue working on it in ServiceNow Studio. The experience switcher provides access to Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
-As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio.
+As of version 29.2.11, ServiceNow IDE capabilities have been integrated into ServiceNow Studio. For more information, see [Building apps in source code in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/building-apps-in-source-code-sn-studio.md).
 
 ## Procedure
 

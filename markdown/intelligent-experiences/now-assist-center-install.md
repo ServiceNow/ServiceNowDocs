@@ -65,5 +65,3 @@ The application is installed and available to the appropriate user roles.
 
 [Enable the ServiceNow Otto panel]()
 
-[Setting up automation opportunity discovery in AI Admin Center]()
-

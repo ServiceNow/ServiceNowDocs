@@ -165,7 +165,7 @@ Change Team Role Configuration Agent
 
 </td><td>
 
-Configures team roles in Change Management to assign the right people to the right roles in Change Management.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure team roles using Now Assist, with support for PDF, DOCX, XLSX, and CSV file formats.
+Configures team roles in Change Management to assign the right people to the right roles in Change Management.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure team roles using AI, with support for PDF, DOCX, XLSX, and CSV file formats.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ CAB Configuration Agent
 
 </td><td>
 
-Configures the change advisory board \(CAB\) to define who reviews and approves significant changes before they are implemented.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure CAB setup using Now Assist, with support for PDF, DOCX, XLSX, and CSV file formats.
+Configures the change advisory board \(CAB\) to define who reviews and approves significant changes before they are implemented.**Note:** You can use a document upload flow as an alternative to the traditional form-based approach to configure CAB setup using AI, with support for PDF, DOCX, XLSX, and CSV file formats.
 
 </td></tr><tr><td>
 

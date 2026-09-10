@@ -22,7 +22,7 @@ Role required: platform\_document\_management\_admin
 
 1.  Navigate to **All** &gt; **Document Management** &gt; **Administration** &gt; **Redaction Codes**.
 
-2.  Add a redaction code
+2.  Add a redaction code.
 
     1.  Select **New**.
 
@@ -32,7 +32,7 @@ Role required: platform\_document\_management\_admin
 
     4.  Select **Active** and **Save**.
 
-3.  Modify an existing code
+3.  Modify an existing code.
 
     1.  Open the record.
 
@@ -40,7 +40,7 @@ Role required: platform\_document\_management\_admin
 
     3.  Select **Update**.
 
-4.  Deactivate a code
+4.  Deactivate a code.
 
     1.  Open the record.
 

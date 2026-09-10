@@ -37,15 +37,15 @@ The system property sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_car
 
 2.  Choose from the following.
 
-<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d41673e186">
+<table id="choicetable_cn3_bdn_fjc"><thead><tr><th align="left" id="d41441e186">
 
 Selection
 
-</th><th align="left" id="d41673e189">
+</th><th align="left" id="d41441e189">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41673e195">
+</th></tr></thead><tbody><tr><td id="d41441e195">
 
 **Select __New__**
 
@@ -55,7 +55,7 @@ Action
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d41673e218">
+</td></tr><tr><td id="d41441e218">
 
 **Select an existing field**
 

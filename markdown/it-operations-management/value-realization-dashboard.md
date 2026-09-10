@@ -18,7 +18,7 @@ The AIOps Value Realization dashboard includes a calendar feature that enables u
 
 \[Omitted image "aiops-value-realization-dashboard-calendar.png"\] Alt text: AIOps Value Realization dashboard date range selection
 
-The AIOps Value Realization dashboard offers key insights and metrics crucial for operational efficiency and business impact assessment. It includes features such as noise reduction to enhance focus on critical issues by reducing event-to-alert conversions. Tracking average MTTR for incidents and measuring downtime on critical services aids in improving operational efficiency and prioritizing resolutions. Categorized into Operational Excellence and Business Impact sections, the dashboard provides detailed coverage on alerts grouping, swift resolution of critical incidents reported by users, and quantifying service impacts by severity to optimize operational stability.
+The AIOps Value Realization dashboard offers key insights and metrics crucial for operational efficiency and business impact assessment. It includes features such as noise reduction to enhance focus on critical issues by reducing event-to-alert conversions. Tracking average MTTR for incidents and measuring downtime on critical services aids in improving operational efficiency and prioritizing resolutions. The dashboard is categorized into Operational Excellence and Business Impact sections. It provides detailed coverage on alerts grouping, swift resolution of critical incidents reported by users, and quantifying service impacts by severity to optimize operational stability.
 
 Run the \[PA EM\] Historic Data Collection job once to enable the partial collection of historical Event Management data:
 

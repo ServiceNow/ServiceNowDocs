@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-systemupdatesets-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -274,7 +274,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 System Update Sets is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 

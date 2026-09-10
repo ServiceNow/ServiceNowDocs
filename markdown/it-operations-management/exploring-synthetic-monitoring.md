@@ -16,7 +16,7 @@ Learn how synthetic monitoring provides proactive, automated testing of service 
 
 ## Synthetic monitoring overview
 
-Synthetic monitors continually call HTTP endpoints in the Configuration Management Database \(CMDB\) to test availability, response times, or the presence of a defined string in the response body. When a test fails the configured criteria, it can alert you to endpoint issues before your users do.
+Synthetic monitors continually call HTTP endpoints in the Configuration Management Database \(CMDB\) to test availability, response times, or the presence of a defined string in the response body. When a test fails the configured criteria, it can alert you to endpoint issues before your customers do.
 
 For example, you might create a monitor that tests the GET HTTP endpoint of a service. You could configure that monitor to check for a status code of 200 and a response time of under 500 ms. If any code other than `200` is returned or the request takes longer than 500 ms, the test fails. An alert can then be generated and sent through Event Management.
 
@@ -28,28 +28,37 @@ The synthetic monitoring tests can be run by an Agent Client Collector \(ACC\) d
 
 You can create synthetic monitors in the following ways:
 
--   Manual monitor creation: Create monitors for any HTTP endpoint by manually configuring the endpoint details. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md)
--   Monitors for discovered APIs: Create monitors for APIs discovered through API Insights. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md)
--   Monitors from incidents: Create monitors directly from incident records to prevent future occurrences. See [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitors-from-incidents.md).
+-   **Manual monitor creation**
+
+    Create monitors for any HTTP endpoint by manually configuring the endpoint details. See [Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor.md).
+
+-   **Monitors for discovered APIs**
+
+    Create monitors for APIs discovered through API Insights. Each discovered API is represented in the Configuration Management Database \(CMDB\) as an API component CI, and you create the monitor directly against that existing CI. See [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+
+-   **Monitors from incidents**
+
+    Create monitors directly from incident records to prevent future occurrences. See [Create synthetic monitors from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitors-from-incidents.md).
+
 
 ## Synthetic monitoring users
 
 |User|Description|
 |----|-----------|
-|Synthetic monitoring administrator \(admin role\)|Assigns roles, creates and edits monitors, and views monitor tests and their results.|
+|Synthetic monitoring administrator \(Admin role\)|Assigns roles, creates and edits monitors, and views monitor tests and their results.|
 |Service owner \(Editor role\)|Creates and edits monitors and can also view monitor tests and their results.|
 |Network operation center \(NOC\) operator \(Viewer role\)|Monitors tests and their results.|
 
 ## Synthetic monitoring customer-hosted workflow
 
-\[Omitted image "MMASSET0021786\_Synthetic\_monitoring\_workflow.png"\] Alt text: Synthetic monitoring architecture
+\[Omitted image "MMASSET0020780\_synthetic\_monitoring\_horizontal.png"\] Alt text: Workflow between admin and operator
 
 Admins, service owners, and NOC operators use synthetic monitoring in the following way:
 
 1.  As a service owner, you determine which endpoints to monitor based on business criticality.
 2.  As an admin or service owner, you configure locations to run the monitor from.
 
-    **Note:** The ServiceNow hosted location is available by default and does not have to be configured. However, endpoints tested by that location must be publicly available. You can also run the monitor from an ACC Proxy cluster or a MID Server.
+    **Note:** The ServiceNow hosted location is available by default and doesn't need to be configured. However, endpoints tested by that location must be publicly available. You can also run the monitor from an ACC Proxy cluster or a MID Server.
 
 3.  As an admin or service owner, you configure the monitor and then after it runs once, review the results of the tests. If the results aren't successful, you troubleshoot the configuration. You can also create an alert that fires when a test fails.
 4.  Synthetic monitoring runs tests based on the monitor's configuration and reports the results of each test.
@@ -159,6 +168,4 @@ To learn more about configuring and using synthetic monitoring, see:
 -   [Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/identifying-system-issues.md)
 -   [Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
 -   [Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
--   [Synthetic Monitoring Developer Guide](https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor_dev-guide.html)
--   [SyntheticsAsyncBulkCreate API](https://www.servicenow.com/docs/r/api-reference/rest-apis/synth-async-api.html)
 

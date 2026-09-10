@@ -30,7 +30,7 @@ Use the **Board Preferences** menu on the Board header to show items that are yo
 
     \[Omitted image "cwm-board-pref-toggle.png"\] Alt text: Board preferences toggle to show or hide completed work items on the CWM Board.
 
-    The Board preferences that you set are applied across the List, Gantt, and Kanban views.
+    The Board preferences that you set are applied across the Dashboard, List, Gantt, and Kanban views.
 
 
 **Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)

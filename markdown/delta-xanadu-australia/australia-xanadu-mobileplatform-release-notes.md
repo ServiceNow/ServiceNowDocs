@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-mobileplatform-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 19
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -127,23 +127,6 @@ Edit and annotate uploaded images within ServiceNow mobile apps. Markup options 
 
 See your mobile content change in real-time with live previews for most mobile components. The mobile interface changes according to what component you have selected, and updates when you add, change, or remove UI-based elements.
 
--   **[Web to mobile AI card creation](https://www.servicenow.com/docs/access?context=web-mobile-component-conversion&family=yokohama&ft:locale=en-US)**
-
-Use Now Assist to create a new mobile card for use on a record screen created using the Web to Mobile functionality. Now Assist will automatically choose the optimal card template and map the most relevant table fields from the selected web form view.
-
--   **[Agentic AI in Mobile Virtual Agent](https://www.servicenow.com/docs/access?context=agentic-ai-mobile-va&family=yokohama&ft:locale=en-US)**
-
-Use AI agents in your mobile app to boost live agent productivity. AI agents handle tasks from automated responses to complex problem-solving with human-like intelligence.
-
--   **[Otto in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=yokohama&ft:locale=en-US)Mobile Virtual Agent&gt;**
-
-Use the following enhancement added to Virtual Agent:
-
-    -   Enhanced chat offers a more robust conversational experience. Check the status of previous and on-going chats with the chat history button and view Now Assist’s responses with streamlined in-line citations. Enhanced chat also allows you to use your custom mobile search configuration to launch the standard search results page from within enhanced chat.
-    -   Use Now Assist’s people match function to search for information about a specific employee.
-    -   Now Assist can now suggest follow-up actions for your queries using the next best action feature.
-    -   Updated UI for choice list pickers and other actions for improved usability.
-    -   Added multi-language support.
 
 </td></tr><tr><td>
 
@@ -154,64 +137,6 @@ Zurich
 -   **[Client-side localization](https://www.servicenow.com/docs/access?context=localization-client&family=zurich&ft:locale=en-US)**
 
 Use the Mobile Custom Localization app, available from mobile client version 20.6, to let mobile users view app content in any language. This feature improves platform consistency and accessibility for global users. The ServiceNow Store app provides a collection of mobile strings that automatically populates the instance with translatable content required for localization. Once these strings are translated into a custom language, the mobile app automatically retrieves and displays them within the app interface.
-
-
--   **[Improved error handing for uploads manager](https://www.servicenow.com/docs/access?context=mobile-activity-stream-task&family=zurich&ft:locale=en-US)**
-
-Use the improved error handling in the upload manager to confirm that the necessary files are uploaded successfully. This feature is available in all areas of the ServiceNow mobile applications where you can upload attachments. This includes the following:
-
-    -   Activity stream
-    -   Input form screen with an attachment input type
-    -   Input form screen with an attachment input action
-    -   Functions of type attachment
-    -   Cabrillo JS events within a web page
--   **[Option to save videos and photos locally when using ServiceNow mobile apps](https://www.servicenow.com/docs/access?context=media-saving-mobile-apps&family=zurich&ft:locale=en-US)**
-
-Enable users to save and retrieve pictures and videos taken with the camera on their ServiceNow mobile app, directly to their device. By default, these images are saved for 24 hours on the phone’s local storage. You can set the storage time to be from 1 to 168 hours \(1 week\).
-
--   **[Additional descriptive element of type card for input form screens](https://www.servicenow.com/docs/access?context=descriptive-elements-script&family=zurich&ft:locale=en-US)**
-
-Add cards created in the Mobile Card Builder as a descriptive element in input form screens. Descriptive elements offer more context to users, making it clearer as to what is required for certain inputs within an input form screen.
-
--   **[Page menu button added to input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
-
-Display a page menu button for input form screens with more than two pages, showing users the current page that they are on, such as "Page 3 of 5." Tapping the button opens a page menu that lists all available pages and their level of completeness. This list helps users track their progress in completing an input form.
-
--   **[Complete an input form screen in a non-sequential order](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
-
-Work on all pages of an input form screen, even if required fields are not completed. Users can use the next and previous buttons at all times, enabling them to complete the form in a non-sequential manner. In addition, users can use the page menu to work on any page of their choosing.
-
--   **[Error indicator for failed submissions in input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=zurich&ft:locale=en-US)**
-
-View an information icon in the top menu bar in cases where a submitted input form contains at least one error. The icon remains accessible when working through all input form screen pages. Tapping the icon opens a page that lists the validation errors, enabling users to correct these errors and submit an error-free input form.
-
--   **[Slider option for adding numeric values in input form screen](https://www.servicenow.com/docs/access?context=parameter-screen-var-attr&family=zurich&ft:locale=en-US)**
-
-Configure sliders as an additional method for users to add numeric values in an input form screen. Sliders offer the advantage of defining minimum, maximum, incremental, and default values.
-
--   **[New icons added that you can use in your mobile apps](https://www.servicenow.com/docs/access?context=mobile-icon-reference&family=zurich&ft:locale=en-US)**
-
-Use new icons that have been added to the following font families in your mobile apps:
-
-    -   Actions font icons
-    -   Screen font icons
-    -   Mobile card font icons
-    -   Image icons
--   **[Mobile App Builder and Mobile Card Builder Studio integration](https://www.servicenow.com/docs/access?context=mab-studio-integration&family=zurich&ft:locale=en-US)**
-
-Develop and modify mobile applications and cards in ServiceNow Studio. Utilize all your necessary tools within a single, cohesive development environment.
-
--   **[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-mobile-va&family=zurich&ft:locale=en-US)**
-
-The following features have been added to ServiceNow Now Assist in Virtual Agent:
-
-    -   Upload documents and files with Doc QnA to have Now Assist generate summaries or answer questions about them.
-    -   Search the internet from within Virtual Agent using web search mode.
-    -   Capture and analyze data from a variety of visual sources such as images, emails, handwritten notes, websites, and applications using ServiceNow AI Lens.
-    -   View shared files when using people citations.
--   **[Now Assist Skill Kit integration](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-for-mobile&family=zurich&ft:locale=en-US)**
-
-Create and use custom Now Assist skills in your mobile app using Now Assist Skill Kit.
 
 
 </td></tr><tr><td>
@@ -336,7 +261,17 @@ Yokohama
 
 </td><td>
 
--   **[Input form screen enhancement and changes](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=yokohama&ft:locale=en-US)**
+-   **[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&family=yokohama&ft:locale=en-US)**
+
+Use the following enhancements added to Mobile App Builder:
+
+    -   Live component preview enables admins to view their mobile app changes in real-time.
+    -   Use Mobile App Builder to transform your web forms into native mobile experiences with the guided flow when you create a new mobile record screen.
+    -   The right-hand panel is now visible when a record is opened in a preview browser tab.
+    -   Component recommendations available for additional record types.
+    -   The card selection and preview screens in the Web to Mobile flow have been consolidated to create a more streamlined user experience. This allows for the ability to generate previews using the different card options and jump back and forth between them to review.
+
+ -   **[Input form screen enhancement and changes](https://www.servicenow.com/docs/access?context=parameter-input-screen&family=yokohama&ft:locale=en-US)**
 
 Use the following enhancements added to the input form screen:
 
@@ -371,15 +306,35 @@ Zurich
 
 </td><td>
 
--   **[Enhanced native features in hybrid web screens](https://www.servicenow.com/docs/access?context=url-screen&family=zurich&ft:locale=en-US)**
+-   **[NextGen Search Results](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
 
-Enhanced native features in hybrid web screens that support functionality such as native search, quick actions, and customizable welcome messages within hybrid screen launcher or header tabs.
+Refine search results and quickly find the most relevant information with additional search result filters.
 
--   **[Enhanced chat push notifications](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+-   **[Voice-to-text](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
 
-Tap enhanced chat push notifications to go directly to the associated chat.
+Enable voice-to-text in search and Now Assist in Virtual Agent by tapping the microphone icon.
 
--   **[Promoted actions and suggested topics](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+-   **[Prominent Action Button](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+
+Access Now Assist or other global functions directly from your tab bar to quickly access it from any screen.
+
+-   **[Richer people citations in Now Assist VA](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+
+View a person’s information in your company’s org chart when searching for an employee in Now Assist in Virtual Agent.
+
+-   **[ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&family=zurich&ft:locale=en-US)**
+
+Auto-fill mobile input forms and questionnaires with ServiceNow AI Lens instead of manually entering data.
+
+-   **[Doc QnA](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
+
+The following UI changes have been made to Doc QnA.
+
+    -   Upload multiple files simultaneously.
+    -   Preview files and attachments before sending them.
+    -   Upload multiple files alongside text within a single turn in Virtual Agent.
+
+ -   **[Promoted actions and suggested topics](https://www.servicenow.com/docs/access?context=using-enhanced-chat-mobile&family=zurich&ft:locale=en-US)**
 
 See how Virtual Agent can assist you with suggested actions and topics related to your request.
 
@@ -390,7 +345,32 @@ Australia
 
 </td><td>
 
--   **[Enhanced prelogin page customization](https://www.servicenow.com/docs/access?context=branded-landing-page&family=australia&ft:locale=en-US)**
+-   **[Mobile App Builder live component previews](https://www.servicenow.com/docs/access?context=mab-record-example-panel&family=australia&ft:locale=en-US)**
+
+Support was added for live component previews to the following:
+
+    -   Input form screens
+    -   Navigation tabs
+    -   Mobile app configurations
+    -   UI rules
+-   **[Mobile App Builder auto-loading](https://www.servicenow.com/docs/access?context=mab-workspace&family=australia&ft:locale=en-US)**
+
+Auto-load records and its downstream components when opening a record for the first time.
+
+-   **[Product branding in Virtual Agent](https://www.servicenow.com/docs/access?context=mobile-publishing&family=australia&ft:locale=en-US)**
+
+Add custom in-product branding to Virtual Agent.
+
+-   **[Chat button in standard search results](https://www.servicenow.com/docs/access?context=now-assist-mobile-search&family=australia&ft:locale=en-US)**
+
+Launch Virtual Agent directly from your standard search results to chat with the Virtual Agent about the selected search result.
+
+-   **[\[Placeholder link text to key mobile-voice-agent\]](https://www.servicenow.com/docs/access?context=mobile-voice-agent&family=australia&ft:locale=en-US)Mobile Voice Agent background calling**
+
+Continue a Voice Agent call after backgrounding the mobile app on iOS and Android. Mute, unmute, or end the call from the home screen or lock screen without returning to the app.
+
+
+ -   **[Enhanced prelogin page customization](https://www.servicenow.com/docs/access?context=branded-landing-page&family=australia&ft:locale=en-US)**
 
 Configure the placement of the branded landing page login button to be either in the top menu header or as a part of the web page. Integrating the button into a web page helps you to implement a secure flow that addresses issues like short authentication session lifetimes.
 
@@ -542,7 +522,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow mobile Mobile Platform is a ServiceNow AI Platform® feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -550,7 +533,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Mobile Platform is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -558,7 +544,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Mobile Platform is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -680,11 +669,13 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 The following accessibility updates are available in Mobile Card Builder:
 
--   Updated alternative text on key images to better support users who rely on screen readers.
--   Enhanced the focus indicator on the Mobile Card Builder home page to improve navigation for users relying on keyboards or Assistive Technology \(AT\).
--   Improved accessible names to provide clear and descriptive labels for interactive elements to support screen readers and other AT.
+    -   Updated alternative text on key images to better support users who rely on screen readers.
+    -   Enhanced the focus indicator on the Mobile Card Builder home page to improve navigation for users relying on keyboards or Assistive Technology \(AT\).
+    -   Improved accessible names to provide clear and descriptive labels for interactive elements to support screen readers and other AT.
 
 </td></tr><tr><td>
 
@@ -692,7 +683,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -700,7 +695,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 Improved readability on tablet devices.
+
 
 </td></tr></tbody>
 </table>## Localization information

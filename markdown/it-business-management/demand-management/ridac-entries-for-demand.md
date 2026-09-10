@@ -75,3 +75,5 @@ Link existing RIDAC records \(risks, issues, actions, decisions, and request cha
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

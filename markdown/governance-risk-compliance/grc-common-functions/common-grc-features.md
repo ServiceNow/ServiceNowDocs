@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Governance, Risk, and Compliance]
 ---
 
@@ -56,6 +56,12 @@ You can add tags to virtually any type of record defined in GRC applications tha
 The Entity Based Access \(EBA\) application enables you to segregate data on the records that are based on entities. Entity-based access administrators can use this tool to set up secure, controlled access to various objects.
 -   **[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)**  
 You can measure the effectiveness of your company's risk management program by how quickly and completely it identifies and reacts to risk and compliance issues.
+-   **[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-workflows.md)**  
+Issue workflows define the lifecycle, layout, guided activities, approval requirements, and routing rules for different types of issues.
+-   **[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)**  
+Complete playbook activities to progress an issue through the stages defined in its workflow.
+-   **[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)**  
+Manage approvals for issue and remediation task state changes and due date extensions.
 -   **[Domain separation in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-domain-separation.md)**  
 This is an overview of domain separation and the Governance, Risk, and Compliance applications. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)**  
@@ -68,6 +74,8 @@ GRC administrators can now configure the Tasks and Issues overview landing pages
 GRC administrators can configure the tasks for the individual users and user groups in the GRC Landing Page Configurations module. Based on these configurations, the workspace users can view the individual user tasks, user group tasks, my items, and watchlist on the Tasks page in the workspace view.
 -   **[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)**  
 Entities are one of the most fundamental and crucial elements for using Governance, Risk, and Compliance. Entities can be people, processes, departments, applications, or objects that are examined for risks.
+-   **[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-change-management.md)**  
+Review entity changes and their impact on associated risks and controls before the changes take effect.
 -   **[Viewing and updating Governance, Risk, and Compliance exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/viewing-and-updating-grc-exceptions.md)**  
 Report exceptions as it is critical for businesses to quickly identify and address key business process issues before they become a problem. Using exceptions to manage errors has advantages over traditional error-management techniques.
 -   **[Cybersecurity Executive dashboard for Chief Information Security Officers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-ced-ciso-db.md)**  

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/configure-ewd.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
 
@@ -25,6 +25,7 @@ EWD configuration is an administrative activity that requires planning before im
     Repeat this process for each function partition you need to create. For example, create separate partitions for IT Operations and HR Learning and Development.
 
 4.  Update the existing records in the project, demand, programs, portfolios, and planning item tables with partition details by running the scheduled job. For details, see [Update partition details for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/update-partition-details-for-existing-records.md).
+5.  Enable the additional security that extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. This configuration requires installation of Extended Security for Enterprise-Wide Deployment. For details, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enable-additional-security-extended-security-ewd.md).
 
 **Important:** Apply partition configuration changes and role assignments during a maintenance window when users are not accessing the instance, to ensure record visibility updates take effect correctly.
 

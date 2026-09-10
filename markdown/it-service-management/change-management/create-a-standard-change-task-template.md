@@ -24,11 +24,13 @@ Role required: itil, change\_manager, or sn\_change\_write
 
 1.  Navigate to **All** &gt; **Change** &gt; **Standard Change** &gt; **Open Proposals**.
 
-    **Note:** You can add standard change tasks to a standard change proposal only when the proposal is in the **New** state. Once you submit a standard change task for approval, you cannot add additional tasks.
+    **Note:** You can add standard change tasks to a standard change proposal only when the proposal is in the **New** state. After you submit standard change task for approval, you cannot add more tasks.
 
-2.  Click the **Change Task Templates** tab, and then click **New**.
+2.  Open the standard change proposal that is in **New** state.
 
-3.  On the form, fill in the fields.
+3.  Select the **Change Task Templates** tab, and then select **New**.
+
+4.  On the form, fill in the fields.
 
 <table id="table_mzj_4tq_nz"><thead><tr><th>
 
@@ -79,7 +81,7 @@ Change Task values
 Field values that are populated on the change task created as part of the standard change.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>5.  Select **Submit**.
 
     **Note:** Standard change catalog templates are not supported on Service Portal.
 

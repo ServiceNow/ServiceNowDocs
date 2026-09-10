@@ -33,10 +33,11 @@ Disambiguation or clarification helps the assistant handle situations where the 
     If you have
 
     -   ServiceNow Otto for Virtual Agent or
-    -   ServiceNow Otto panel \(standard chat, enhanced chat, or premium chat\)
+    -   ServiceNow Otto panel standard chat or
+    -   ServiceNow Otto panel enhanced chat
     then use this configuration:
 
-<table id="table_pkn_sn1_53c"><thead><tr><th>
+<table id="table_qhd_z5b_gkc"><thead><tr><th>
 
 Property
 
@@ -69,6 +70,43 @@ off
 -   off - clarification is disabled. The assistant responds directly to all queries without asking follow-up questions.
 -   low - clarification is triggered for highly ambiguous queries.
 -   high - clarification is triggered more frequently, covering a broader range of ambiguous queries.
+
+
+</td></tr></tbody>
+</table>    If you have ServiceNow Otto panel premium chat, then use this configuration:
+
+<table id="table_shd_z5b_gkc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Possible values
+
+</th><th>
+
+Default value
+
+</th><th>
+
+Definition
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_aia.type\_2\_disamb
+
+</td><td>
+
+off/on
+
+</td><td>
+
+off
+
+</td><td>
+
+-   off - clarification is disabled. The assistant responds directly to all queries without asking follow-up questions.
+-   on - clarification is triggered for ambiguous queries.
 
 
 </td></tr></tbody>

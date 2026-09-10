@@ -62,7 +62,7 @@ The TISC Case Summarization skill analyzes the content of a threat case — incl
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

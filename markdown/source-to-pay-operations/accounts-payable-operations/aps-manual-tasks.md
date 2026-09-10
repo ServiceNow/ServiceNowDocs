@@ -31,6 +31,8 @@ Convert an invoice type between PO and Non-PO to correctly classify an invoice b
 If you confirm an invoice as a duplicate by mistake, you can reset that invoice from the Confirmed duplicate status back to the Received status.
 -   **[Check for invoice exceptions on a single invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.md)**  
 Manually check for exceptions on a single invoice in the Source-to-Pay Workspace to identify and resolve issues before processing the invoice.
+-   **[Reopen a closed invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reopen-a-closed-invoice-case.md)**  
+Reopen a closed or cancelled invoice inquiry case to continue working on it instead of creating a new one. Reopening preserves the full case history, so you can correct details, send a follow-up email, or resume the conversation on the existing case.
 -   **[Start processing a third-party invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)**  
 Start the processing for an invoice that doesn't have an associated invoice processing case.
 

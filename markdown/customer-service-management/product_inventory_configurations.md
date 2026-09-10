@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/product\_inventory\_configurations.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your
 
 You can select one or more product inventory records to update their configurations and perform the **Modify**,**Suspend**, **Resume**, and **Disconnect** operations.
 
-Create orders or quotes from product inventory records on the CSM Configurable Workspace.
+Create orders or quotes from product inventory records on the CRM Workspace.
 
 |Action|Description|
 |------|-----------|

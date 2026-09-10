@@ -20,7 +20,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow® AI Experience Lab for VS Code extension requires the following:
+The ServiceNow Lux Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -102,7 +102,7 @@ ServiceNow instance
 
 2.  Select **Deploy**.
 
-    The ServiceNow® AI Experience Lab for VS Code extension attempts to deploy your changes. If successful, a banner appears confirming that the deployment to your target instance was successful.
+    The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a banner appears confirming that the deployment to your target instance was successful.
 
 
 ## What to do next

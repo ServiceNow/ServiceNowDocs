@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2025-10-25"
 reading_time_minutes: 2
 keywords: [Obligation extraction, Configure obligation extraction]
-breadcrumb: [Configure agentic workflows, Configure, ServiceNow Otto for Contract Management Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure Conversational contract search and insights

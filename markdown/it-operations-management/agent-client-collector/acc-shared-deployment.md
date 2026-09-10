@@ -28,6 +28,8 @@ The Agent Client Collector \(ACC\) health instance scan suite consists of checks
 Agent Client Collector certificates verify the authenticity of your agents, servers, and users. Using Agent Client Collector certificates ensures the safety of your environment.
 -   **[Using Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/logs-acc.md)**  
 Use Agent Client Collector logs to track events in your system. Log levels indicate the severity of each event.
+-   **[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/software-filter.md)**  
+The Software filter lets you define rules to automatically exclude irrelevant entries from your Software Asset Management \(SAM\) inventory. At the same time, it keeps a complete, auditable record of everything filtered so that nothing disappears silently.
 -   **[Configure the Google Cloud Platform \(GCP\) configuration data file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/gcp-config-data-file.md)**  
 Configure the Google Cloud Platform \(GCP\) configuration data file to monitor metrics in your GCP environment.
 -   **[Configure the action level for anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-level-anomaly-detection.md)**  

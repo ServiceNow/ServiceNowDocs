@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-aia-use-cases-list.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-02"
+last_updated: "2026-09-02"
 reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [AI assets, Enable AI experiences]
@@ -89,7 +89,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-now-assit-landing.md)
+[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-cmpro-landing-page.md)
 
 </td><td>
 
@@ -149,7 +149,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-fsm.md)
+[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)
 
 </td><td>
 
@@ -254,7 +254,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-lsd-landing.md)
+[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-management-overview.md)
 
 </td><td>
 
@@ -295,7 +295,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)
 
 </td><td>
 
@@ -312,7 +312,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Sales Automation
+[Sales Customer Relationship Management \(Sales CRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
 
 </td><td>
 
@@ -420,17 +420,19 @@ ServiceNow Otto for Sales Automation
 
 </td><td>
 
--   [Analyze incident trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/incident-trends.md)
+-   [Analyze task trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/incident-trends.md)
 -   [Classify tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/classify-tasks.md)
 -   [Error Analysis and Remediation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/error-framework-daw.md)
 -   [Generate my work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generate-work-plan.md)
 -   [Generate resolution plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/resolve-requests.md)
 -   [Help optimize team productivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/help-optimize-productivity.md)
+-   [Identify escalation signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/identify-escalation.md)
 -   [Identify ways to improve services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/service-improvement.md)
--   [Investigate IT problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/problem-investigation.md)
+-   [Investigate problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/problem-investigation.md)
 -   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
 -   [Process images for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/images-tasks.md)
 -   [Suggest survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/survey-suggest.md)
+-   [Task closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-closure.md)
 
 </td></tr></tbody>
 </table>

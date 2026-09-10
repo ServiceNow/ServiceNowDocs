@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Configure, AI Agent Advisor, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Confirm installation of AI Agent Advisor
@@ -74,5 +74,5 @@ The AI Agent Advisor application is installed and available to the appropriate u
 **Related topics**  
 
 
-[Setting up automation opportunity discovery]()
+[Setting up automation opportunity discovery in AI Admin Center]()
 

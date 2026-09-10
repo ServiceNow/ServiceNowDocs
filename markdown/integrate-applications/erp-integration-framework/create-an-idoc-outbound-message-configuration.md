@@ -1,21 +1,21 @@
 ---
 title: Create an IDoc outbound message configuration in Zero Copy Connector for ERP
-description: Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+description: Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message]
-breadcrumb: [IDoc, Connect to SAP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an IDoc outbound message configuration in Zero Copy Connector for ERP
 
-Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 7.  Based on the system, specify a **Partner Profile**.
 
-8.  Specify the **Message type**, for example, ORDERS.
+8.  Specify the **Message type**, for example, `ORDERS`.
 
     \[Omitted image "erp-create-idoc-outbound-message1.png"\] Alt text: New outbound message configuration record with fields completed.
 

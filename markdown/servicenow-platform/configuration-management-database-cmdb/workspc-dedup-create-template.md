@@ -20,9 +20,8 @@ Create a de-duplication template that you can then run to apply pre-configured a
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To access the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
--   To perform this task: cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task
 
@@ -30,10 +29,8 @@ By default, a newly created template is in draft mode. Therefor, after creating 
 
 ## Procedure
 
-1.  Navigate to either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and then select the Governance icon in the navigation panel.
 2.  Select the **De-duplication Template Library** link in Management tools, in the Manage section.
 
 3.  Create a library for the new template.
@@ -181,15 +178,15 @@ When merging duplicate CIs into the main CI:-   Prevents updates to main CI attr
 
 10. **Merge related items**: Select the method to use for merging related items associated with the duplicate CIs into the main CI, and then select **Next**.
 
-<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d153079e580">
+<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d152805e546">
 
 Choice
 
-</th><th align="left" id="d153079e583">
+</th><th align="left" id="d152805e549">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153079e589">
+</th></tr></thead><tbody><tr><td id="d152805e555">
 
 **Merge default related items**
 
@@ -197,7 +194,7 @@ Description
 
 Merge only related items in the default related items list, from duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d153079e598">
+</td></tr><tr><td id="d152805e564">
 
 **Do not merge any related items**
 
@@ -205,7 +202,7 @@ Merge only related items in the default related items list, from duplicate CIs i
 
 Don't merge related items from any duplicate CI into the main CI.
 
-</td></tr><tr><td id="d153079e607">
+</td></tr><tr><td id="d152805e573">
 
 **Merge all available related items**
 
@@ -213,7 +210,7 @@ Don't merge related items from any duplicate CI into the main CI.
 
 Merge all related items from all duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d153079e616">
+</td></tr><tr><td id="d152805e582">
 
 **Merge related items based on condition**
 
@@ -254,5 +251,5 @@ The new template is added to the specified library in draft mode and can be edit
 -   [Run a template to process de-duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-run-template.md)
 -   [Remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-remediate-single-task.md)
 
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
+**Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

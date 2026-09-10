@@ -1,5 +1,5 @@
 ---
-title: Add pre- or post-provisioning operations to a template-based catalog item
+title: Add pre- or post-provisioning operations to a catalog item
 description: Create a post-provisioning operation using subflows on a template-based catalog item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-postprov-example-subflows.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Add pre- or post-provisioning operations to a template-based catalog item
+# Add pre- or post-provisioning operations to a catalog item
 
 Create a post-provisioning operation using subflows on a template-based catalog item.
 

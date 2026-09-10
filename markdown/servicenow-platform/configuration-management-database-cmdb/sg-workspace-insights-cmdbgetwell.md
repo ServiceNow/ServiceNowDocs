@@ -1,6 +1,6 @@
 ---
-title: CMDB Data Foundation insights dashboard in Service Graph Workspace
-description: Access the CMDB Data Foundation insights dashboard in Service Graph Workspace to monitor foundational key health-related metrics in CMDB.
+title: CMDB Data Foundation insights dashboard in CMDB Workspace
+description: Access the CMDB Data Foundation insights dashboard in CMDB Workspace to monitor foundational key health-related metrics in CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.html
 release: australia
@@ -9,16 +9,16 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Insights view, Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB Data Foundation insights dashboard in Service Graph Workspace
+# CMDB Data Foundation insights dashboard in CMDB Workspace
 
-Access the CMDB Data Foundation insights dashboard in Service Graph Workspace to monitor foundational key health-related metrics in CMDB.
+Access the CMDB Data Foundation insights dashboard in CMDB Workspace to monitor foundational key health-related metrics in CMDB.
 
 ## Access
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  In the navigation panel, select the Insights icon.
 3.  On the Insights page navigation pane, select **CMDB Data Foundation**.
 
@@ -28,4 +28,6 @@ For additional information, see:
 
 -   [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 -   [CMDB Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-foundations-dashboard.md).
+
+**Parent Topic:**[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
 

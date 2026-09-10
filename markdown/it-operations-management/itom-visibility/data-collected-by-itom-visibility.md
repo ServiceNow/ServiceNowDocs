@@ -216,8 +216,6 @@ Discovery and Service Mapping can discover a wide range of operating systems and
 ITOM Visibility discovers resources on cloud platforms.
 -   **[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)**  
 Discovery identifies the following computers, clusters, and virtual machines.
--   **[Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md)**  
-Control which IP version Discovery populates on a Network Adapter CI during Linux, Windows, and Solaris discovery.
 -   **[Operating system-level virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-oslv-discovery.md)**  
 Discovery can collect image and container information from Operating system-level virtualization \(OS-level virtualization\) engines.
 -   **[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)**  

@@ -20,6 +20,8 @@ You can create a process configuration from various places in Process Mining.
 
 -   **[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/content-pack-config.md)**  
 Create a process configuration using content pack templates. Selecting content packs helps to use the default configuration to create your projects.
+-   **[Generate process configuration using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/gen_process_config_ai.md)**  
+Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 -   **[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md)**  
 Process configuration helps you configure preferences for a process table. This configuration assists you when creating projects using the configured table. It streamlines the project creation process by providing a ready-made framework tailored to your organization's needs. Importantly, completing the process configuration allows you to independently create projects, even if you do not have prior experience with process mining.
 -   **[Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md)**  

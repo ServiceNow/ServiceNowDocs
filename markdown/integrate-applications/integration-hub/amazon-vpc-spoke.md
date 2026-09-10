@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon VPC spoke v1.0.3 is the latest version.
+Amazon VPC spoke v1.0.3 is the latest version. For version history of the spoke, see [Amazon VPC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-vpc.html).
 
 ## Spoke dependencies
 

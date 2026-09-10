@@ -33,7 +33,7 @@ The system records activity completion state in the Sales CRM Progression Checkp
 
 1.  Navigate to **All** &gt; **Playbooks Designer**.
 
-2.  Open the **Sales essentials playbook**.
+2.  Open the **Sales stage guide**.
 
     The default playbook is triggered when an opportunity is created or updated with a sales cycle type of **New Business**. Configure the trigger condition to match the sales cycle type you want to support.
 

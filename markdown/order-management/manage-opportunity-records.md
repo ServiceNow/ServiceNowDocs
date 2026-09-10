@@ -255,5 +255,10 @@ Supported operations:
     The agent performs the operation and returns the result. For create operations, it returns the record name and a link. For delete operations, it confirms the record was removed. If you don't have the required access, the agent returns a permission denied message.
 
 
-**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+**Related topics**  
+
+
+[CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/crm-conversational-query.md)
+
+[AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/ai-capabilities-sales-crm.md)
 

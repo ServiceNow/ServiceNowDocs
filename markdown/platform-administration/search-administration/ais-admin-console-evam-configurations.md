@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Customizing the result-card, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Customizing the result-card interface of an AI Search application by using EVAM, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create or edit an EVAM view definition
@@ -80,15 +80,15 @@ Add a new result-card interface for your search application
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d375454e352">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d378328e349">
 
 Option
 
-</th><th align="left" id="d375454e355">
+</th><th align="left" id="d378328e352">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d375454e361">
+</th></tr></thead><tbody><tr><td id="d378328e358">
 
 **Create an EVAM view configuration**
 
@@ -98,7 +98,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d375454e389">
+</td></tr><tr><td id="d378328e386">
 
 **Edit the existing EVAM view configuration**
 

@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Rally.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d438479e95">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d444873e95">
 
 Option
 
-</th><th align="left" id="d438479e98">
+</th><th align="left" id="d444873e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d438479e104">
+</th></tr></thead><tbody><tr><td id="d444873e104">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d438479e128">
+</td></tr><tr><td id="d444873e128">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d438479e177">
+</td></tr><tr><td id="d444873e177">
 
 **Tools module**
 
@@ -75,8 +75,13 @@ Steps
 
 3.  On the Enter Rally instance details playbook activity, enter the following details:
 
-    1.  In the **URL of the Rally project** field, enter your Rally project URL.
-    2.  In the **Password or access token** field, enter the API token for your Rally instance.
+    1.  In the **URL of the Rally instance** field, enter your Rally instance URL.
+    2.  Select the credential type as **Basic Auth** or **OAuth 2.0**.
+        -   Basic Auth: Enter the password or access token of your Rally instance.
+        -   OAuth 2.0: Enter your OAuth credential.
+
+            For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
+
     3.  \(Optional\) If your Rally instance is attached to a MID Server, select the **Use MID Server** option and enter its details.
 
         A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md).

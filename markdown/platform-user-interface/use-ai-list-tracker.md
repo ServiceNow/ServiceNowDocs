@@ -28,7 +28,7 @@ Role required: sn\_ai\_filter\_tracker.user, workspace\_user
     -   This feature is limited to tables that extend task.
     -   The list must have less than 100 records.
     -   You can only track five lists at a time.
-2.  Select the AI tracking icon \(\[Omitted image "icon-ai-tracking.png"\] Alt text: AI tracking icon\).
+2.  Select the AI tracking icon \(\[Omitted image "icon-ai-tracking.png"\] Alt text: AI tracking icon\) to turn on AI tracking for the list.
 
     When records within the list change, you can summarize the changes.
 

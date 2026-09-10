@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -20,11 +20,13 @@ Configure LEAP properties to estimate cost and time savings calculations for you
 
 Role required: LEAP admin
 
+Each knowledge base you plan to use in LEAP must have the correct Can Contribute permissions configured before you set up knowledge base routing. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+
 ## About this task
 
-If you are a first-time user of LEAP, use the default values to understand how each value is used for estimation. You can modify these values to suit your organization's requirements.
+If you are a first-time user of LEAP, review the default values before making changes.
 
-Settings also include a default priority filter that controls which automation opportunities are eligible for resolution step generation. The default priority is Critical. Only automation opportunities at or higher than the configured priority level are processed in each run.
+Settings include three configuration areas: cost and time savings estimation, AI agent behavior, and knowledge base routing. AI agent configuration controls the conditions under which the LEAP AI agent automatically creates problem records and knowledge base articles, such as minimum incident count and severity thresholds. Knowledge base routing controls where articles are stored when created by the LEAP AI agent or manually from an automation opportunity. Selecting a default knowledge base is mandatory — you cannot save settings without one. For details on all fields, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
 ## Procedure
 

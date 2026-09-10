@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/c360-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -22,7 +22,7 @@ Key capabilities include:
 
 -   A 360-degree customer card with live information for immediate, complete context.
 -   A unified timeline of interactions, billing details, and live diagnostics to understand the full history behind a customer's issue.
--   AI-generated summaries of customer health, recent issues, and sentiment powered by Now Assist.
+-   AI-generated summaries of customer health, recent issues, and sentiment powered by ServiceNow Otto.
 -   Actions to create cases, billing inquiries, work orders, and customer orders, with playbook-driven recommendations for customer issues.
 -   Data visualizations including case breakdown charts and CSAT scores.
 -   Data configuration for different card components and ability to gather data from different sources.

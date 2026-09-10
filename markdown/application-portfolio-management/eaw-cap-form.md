@@ -54,7 +54,7 @@ Business Unit
 
 </td><td>
 
-Name of the business unit in the organizational structure.
+Name of the business unit in the organizational structure.Before Australia Patch 5, this field was the only way to associate a business unit with a business capability, and accepted a single value. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate multiple business units. The field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 </td></tr><tr><td>
 

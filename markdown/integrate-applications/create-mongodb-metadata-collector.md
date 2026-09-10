@@ -18,8 +18,8 @@ Create a collector to import metadata from MongoDB.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the MongoDB collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-mongodb-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,20 +47,39 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the MongoDB connection details.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Enter the MongoDB connection details.
 
     |Field|Description|
     |-----|-----------|
     |Connection String|[Connection string](https://www.mongodb.com/docs/manual/reference/connection-string-options/) for your MongoDB cluster or instance. Make sure that any option parameters in the connection string are URL-encoded.|
 
-8.  Enter the MongoDB configuration details.
+9.  Enter the MongoDB configuration details.
 
     |Field|Description|
     |-----|-----------|
     |Included Databases|Databases to collect. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are collected.|
     |Excluded Databases|Databases to exclude from collection. Provide database names or regular expressions. List only one database per line. Databases matching any specified expression are excluded. Included databases take precedence over excluded databases.|
 
-9.  Configure the advanced options.
+10. Configure the advanced options.
 
 <table id="table_oxn_jh5_rjc"><thead><tr><th>
 
@@ -79,7 +98,7 @@ Analysis samples count
 Number of documents sampled from each collection for [field type analysis](https://www.mongodb.com/docs/manual/reference/operator/aggregation/sample/). This field must be a non-negative integer.Default: 1000.
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>11. Select **Save**.
 
 
 ## Result

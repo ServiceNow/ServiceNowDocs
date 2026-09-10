@@ -35,7 +35,7 @@ Data visualizations exported to PowerPoint include the title and the description
 
 **Note:**
 
-If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
+If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md).
 
 ## Procedure
 

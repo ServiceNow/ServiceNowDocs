@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, data, product, example]
-breadcrumb: [Explore, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Exploring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Exploring Zero Copy Connector for ERP content packs
@@ -26,21 +26,17 @@ Each content pack is organized around a specific business process area. Currentl
 -   Source to Settle: Procurement models covering purchase orders, purchase requisitions, and purchasing info records.
 -   Hire to Retire: Employee life cycle models covering candidates, employee profiles, job applications, job requisitions, and positions.
 
-\[Omitted image "erp-explore-content-packs-infographic.png"\] Alt text: Infographic showing steps for using a content pack: installing from store, exploring models, cloning into scope, customizing, and building.
-
 ## Key benefits
 
-The biggest benefit is speed. Instead of building models from scratch, which requires mapping SAP tables, BAPIs \(business application programming interface\), input/output fields, and operations by hand, content packs give developers a ready-made starting point. Read, update, and create operations come pre-configured with typical input/output parameter mappings already in place.
+The biggest benefit is speed. Building models from scratch requires mapping SAP tables, BAPIs \(business application programming interfaces\), input/output fields, and operations by hand. Content packs give developers a ready-made starting point. Read, update, and create operations come pre-configured with typical input/output parameter mappings already in place.
 
-SAP data structures are complex. Content packs make SAP integrations accessible to developers who don't have deep SAP expertise, since the work of identifying the right tables, BAPIs, and field mappings has already been done.
+SAP data structures are complex. Content packs make SAP integrations accessible to developers who don't have deep SAP expertise. The work of identifying the right tables, BAPIs, and field mappings has already been done.
 
 ## Use case
 
-A developer is tasked with building an application that manages sales order delivery and billing blocks in SAP, but they're not an SAP expert and don't know which fields control blocking behavior.
+A developer must build an application that manages sales order delivery and billing blocks in SAP. However, the developer isn't an SAP expert and doesn't know which fields control blocking behavior.
 
-Rather than spending days researching, they install the Quote to Cash content pack. They find the DP: Sales Orders model already has Read, Update, and Create operations configured, with input and output parameters mapped to relevant SAP fields. They also find a process extension called Manage Delivery and Billing Block, that contains two sub-flows: one that reads all sales orders with delivery or billing blocks, and one that updates the blocking status for a given order.
+Rather than spending days researching, they install the Quote to Cash content pack. They find the CP: Sales Orders model already has Read, Update, and Create operations configured, with input and output parameters mapped to relevant SAP fields. They also find a process extension called Manage Delivery and Billing Block that contains two subflows: one that reads all sales orders with delivery or billing blocks, and one that updates the blocking status for a given order.
 
-The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application, without ever needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work.
-
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
+The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application. The developer can do this work without needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work.
 

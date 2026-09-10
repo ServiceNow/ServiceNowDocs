@@ -19,6 +19,10 @@ Add existing business capabilities to goals, or create business capabilities dir
 
 Role required: sn\_apm.apm\_user
 
+## About this task
+
+A goal is mapped to a business capability using the relationship type **Realizes :: Realized by**.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
@@ -39,7 +43,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing business capability:
         1.  Select **Add**.
-        2.  In the Add business capability window, select the business capability and the relationship type between the business capability and the goal.
+        2.  In the Add business capability window, select the business capability. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a business capability, select **New** and complete the fields on the form. For field descriptions, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-cap-form.md).
 

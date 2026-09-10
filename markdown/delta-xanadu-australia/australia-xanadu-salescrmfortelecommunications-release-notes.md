@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-salescrmfortelecommunications-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,15 +107,6 @@ Australia
 
 </td><td>
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   **[Image to task plan template AI agent](https://www.servicenow.com/docs/access?context=now-assist-task-template-generation-somt&family=australia&ft:locale=en-US)**
-
-Use this agent to process an uploaded image file, extract task dependencies and store them as a task plan template for the given specification.
-
-
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
@@ -128,17 +119,6 @@ Depending on your license, you will have access to certain application features,
 -   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&family=australia&ft:locale=en-US)**
 
 Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
-
-
-Australia Early Availability
-
--   **[Task plan template](https://www.servicenow.com/docs/access?context=somt-flow-action-catalog-task&family=australia&ft:locale=en-US)**
-
-Define tasks and their dependencies using the task plan template to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
-
--   **[Move order voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US)**
-
-Use this agent to create a move order capture journey. The agent collects details such as the customer’s name, current service location, product offering, and new service address.
 
 
 </td></tr></tbody>
@@ -186,7 +166,7 @@ Australia
 
 -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
-
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 </td></tr></tbody>
@@ -322,7 +302,10 @@ Australia
 
 </td><td>
 
-Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

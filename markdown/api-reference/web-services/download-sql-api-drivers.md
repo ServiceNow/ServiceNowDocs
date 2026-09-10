@@ -1,6 +1,6 @@
 ---
-title: Download the SQL API drivers on client machine
-description: Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
+title: Download the Live Connect drivers on a client machine
+description: Download ODBC and JDBC drivers to enable third-party Business Intelligence tools and data analysis platforms to connect to your ServiceNow data.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/download-sql-api-drivers.html
 release: australia
@@ -9,48 +9,49 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Download the SQL API drivers on client machine
+# Download the Live Connect drivers on a client machine
 
-Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
+Download ODBC and JDBC drivers to enable third-party Business Intelligence tools and data analysis platforms to connect to your ServiceNow data.
 
 ## Before you begin
 
+Verify that your client machine meets the following requirements:
+
+|Requirement|Description|
+|-----------|-----------|
+|Operating system|Windows with administrator permissions. For supported versions and troubleshooting guidance, see [KB0013659](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=82f2e4da97b6c7500af678ce2153af53).|
+|Java Development Kit \(JDK\)|JDK 17. Using a different JDK version may cause installation or configuration issues.|
+|Microsoft Visual C++ Redistributable|Required dependency for the ODBC driver.|
+
 Role required: admin
-
-## About this task
-
-After configuring the SQL API plugin on your ServiceNow instance, you must download the ODBC and JDBC drivers to your client machine. These drivers enable your Business Intelligence tools and data analysis platforms to connect to your ServiceNow data.
 
 ## Procedure
 
-1.  Go to [ServiceNow Store](http://store.servicenow.com).
+1.  Navigate to [store.servicenow.com](http://store.servicenow.com).
 
-2.  Search for SQL API.
+2.  Search for `Live Connect`.
 
-    The SQL API Drivers page appears.
+    The Live Connect tile appears in the search results.
 
-3.  Select **Get**.
+3.  Select the Live Connect tile.
 
-    The ServiceNow SQL API Driver ZIP file is downloaded on your client machine.
+    The download page appears.
+
+4.  Select **Download**.
+
+    The ServiceNowLive Connect Driver ZIP file is downloaded on your client machine.
 
     The ZIP file contains two folders:
 
-    -   `ServiceNow SQL API- ODBC driver`: This folder contains the ODBC driver executables for both 32-bit and 64-bit architectures, and a dependencies folder with JAR files.
-    -   `ServiceNow SQL API- JDBC driver`: This folder contains the JDBC driver JAR files.
+    -   `ServiceNow Live Connect - ODBC driver`: This folder contains the ODBC driver executables for both 32-bit and 64-bit architectures, and a dependencies folder with BCFIPS JAR files.
+    -   `ServiceNow Live Connect - JDBC driver`: This folder contains the JDBC driver JAR files.
 
 ## Result
 
-The SQL API drivers are downloaded to your client machine and ready for installation and configuration.
+The Live Connect drivers are downloaded to your client machine and ready for installation and configuration.
 
-## What to do next
-
-After downloading the drivers, proceed to install and configure them on your client machine.
-
--   For ODBC driver installation, see [Install ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/install-odbc-driver.md).
--   For JDBC driver configuration, see [Configure ServiceNow SQL API JDBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-jdbc-driver.md).
-
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
 

@@ -16,6 +16,8 @@ breadcrumb: [Schedule Adherence, Scheduling, Workforce Optimization for ITSM, IT
 
 Use the schedule adherence extension points to call custom scripts for agent schedule adherence and conformance.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 To access the extension points, navigate to **System Extension Points** &gt; **Scripted Extension Points**.
 
 |Extension point name|Description|

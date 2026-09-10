@@ -19,7 +19,7 @@ Review Knowledge Graph logs and history to analyze performance and diagnose issu
 
 ## Before you begin
 
-Ensure that you do not make any changes to the production instance.
+Don't make any changes to the production instance.
 
 Role required: admin
 

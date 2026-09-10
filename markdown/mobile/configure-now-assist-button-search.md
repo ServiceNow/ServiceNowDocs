@@ -18,7 +18,7 @@ Add a conversational chat button to standard catalog search results in mobile. T
 
 Role required: admin
 
-Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md) and [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md) for more information.
+Verify that ServiceNow Otto for AI Search and Otto Self Service Enhanced Chat are enabled for the catalog items you want to display the chat button on. See [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md) and  for more information.
 
 ## Procedure
 

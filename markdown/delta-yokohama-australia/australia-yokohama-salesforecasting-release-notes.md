@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-salesforecasting-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -130,12 +130,12 @@ Enhance forecast accuracy, reduce latency in pipeline views, and support faster,
 Improve parallel forecasting across different product lines or business structures by configuring Forecast Owner and Rollup Owner in the Forecast Model to define ownership and roll‑up responsibility.
 
 
--   **[Support for multiple configurable forecast models](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
+ -   **[Support for multiple configurable forecast models](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
 
 Define and manage forecasting rules beyond the default model by configuring up to ten forecast models to support different forecasting structures.
 
 
--   **[Multi-Period forecast rollups within a single Forecast Model](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
+ -   **[Multi-Period forecast rollups within a single Forecast Model](https://www.servicenow.com/docs/access?context=configure-forecast-model&family=australia&ft:locale=en-US)**
 
 Achieve better planning and strategy by configuring and managing forecasting for multiple time periods \(weekly, monthly, quarterly\) within a single forecast model for flexible data reporting.
 
@@ -286,7 +286,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -294,7 +297,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -302,7 +308,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -405,7 +414,8 @@ Zurich
 
 </td><td>
 
--   **Dark Theme**
+-   **Accessibility information**
+    -   **Dark Theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

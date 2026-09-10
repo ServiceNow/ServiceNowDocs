@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -180,7 +180,7 @@ Experience \(sn\_prm.partner\_ui\)
 
 </td><td>
 
-This role provides granular access to organization staff to ensure a consistent experience across all user interfaces.**Note:** The Experience role needs to be manually inherited into other roles to view the Partner Relationship Management modules on ServiceNow platform, CSM Configurable Workspace, and the Partner portal.
+This role provides granular access to organization staff to ensure a consistent experience across all user interfaces.**Note:** The Experience role needs to be manually inherited into other roles to view the Partner Relationship Management modules on ServiceNow platform, CRM Workspace, and the Partner portal.
 
 </td><td>
 

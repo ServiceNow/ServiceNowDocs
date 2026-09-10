@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-themebuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,10 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Upload brand guidelines to the theme creation workflow](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
-
-Upload your brand guidelines as a PDF to the theme creation workflow within the Now Assist panel to generate themes aligned with your brand.
-
 -   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
 
 As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
@@ -78,27 +74,6 @@ As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand
 -   **[Create a theme with AI in Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
 
 As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
-
--   **[Publish the new Coral theme](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US)**
-
-Publish or unpublish the new Coral theme directly from Theme Builder. This theme provides a fresh look and feel and features brand-neutral illustrations to enhance your user experience. A dark theme variant is available for web and mobile experiences.
-
--   **[Upload and manage custom fonts in your theme](https://www.servicenow.com/docs/access?context=upload-custom-font&family=zurich&ft:locale=en-US)**
-
-Use your organization's fonts to maintain a consistent look and feel for your brand throughout your experience.
-
-    -   Upload, preview, and edit at most 10 custom font families from the **Global styles** or **Component styles** tabs.
-    -   Add unlimited associated font faces to each font family and apply them individually to components.
-    -   Delete your font family or font face from your theme.
--   **[Explore the expanded image categories with color editing and override capability](https://www.servicenow.com/docs/access?context=working-with-image-styles&family=zurich&ft:locale=en-US)**
-
-As of Theme Builder version 6.1, configure the following new image categories to further enhance your theme:
-
-    -   Edit the colors of banners, modals, tile icons, and cards from within Theme Builder.
-    -   Override each of these default illustrations with your own custom images to uniquely align with your branding style.
--   **[Guided tours in Theme Builder](https://www.servicenow.com/docs/access?context=guided-tours-theme-builder&family=zurich&ft:locale=en-US)**
-
-As of version 6.1, learn about additional features and complete tasks through interactive steps by taking guided tours within Theme Builder.
 
 -   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
 
@@ -120,42 +95,6 @@ Australia
 As of Theme Builder, version 7.1, upload brand guidelines as a PDF in the Theme Builder wizard to generate theme colors from your documented brand standards.
 
 
--   **[Upload brand guidelines to generate theme colors in the ServiceNow Otto panel](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
-
-Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the ServiceNow Otto panel to generate themes aligned with your brand.
-
-
--   **[AI-powered color palette theme creation](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=australia&ft:locale=en-US)**
-
-Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
-
--   **[Generate themes using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=australia&ft:locale=en-US)**
-
-Use ServiceNow Otto to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator and a theme creation workflow enabled in AI Agent Studio.
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
--   **[Override default icons for a fully branded experience](https://www.servicenow.com/docs/access?context=tb-icon-illustrations&family=australia&ft:locale=en-US)**
-
-View and manage your theme’s icon library in Theme Builder, including uploading custom assets to replace default icons. Icons support size variants, outline and fill styles, and dynamic color adjustments and integrate with embeddable components.
-
--   **[Control typography at the component category level](https://www.servicenow.com/docs/access?context=assign-fonts-by-category&family=australia&ft:locale=en-US)**
-
-Assign fonts to individual component categories to create clearer visual distinction across your interface.
-
--   **[Flexible Font size control](https://www.servicenow.com/docs/access?context=edit-font-size&family=australia&ft:locale=en-US)**
-
-Fine-tune font sizes across component categories for a polished, consistent look. Use font‑size controls to tailor default or custom fonts to your brand needs. Applies across Next Experience and embeddable components, ensuring a consistent brand look even on external sites.
-
-
 </td></tr></tbody>
 </table>## Changes
 
@@ -175,9 +114,9 @@ Zurich
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+-   **[Create a theme wizard color selector updated](https://www.servicenow.com/docs/access?context=tb-create-theme&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+As of Theme Builder version 6.1, when you create a theme, the color selector now defaults to Coral theme colors instead of static gray tones. This means your initial color options feature a blue hue for a more vibrant look. Colors can still be customized at any time by selecting a preferred color in the color selector.
 
 
 </td></tr><tr><td>
@@ -188,7 +127,7 @@ Australia
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
-
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 </td></tr></tbody>
@@ -268,7 +207,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from the ServiceNow Store.
+
 
 </td></tr><tr><td>
 
@@ -276,7 +218,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -355,14 +300,15 @@ Zurich
 
 </td><td>
 
--   **[Upload custom font](https://www.servicenow.com/docs/access?context=upload-custom-font&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Upload custom font](https://www.servicenow.com/docs/access?context=upload-custom-font&family=zurich&ft:locale=en-US)**
 
 The ability to upload custom fonts to your theme can help users with disabilities in several ways, including:
 
-    -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
-    -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
-    -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
--   **[Dark mode in Theme Builder](https://www.servicenow.com/docs/access?context=dark-mode-theme-builder&family=zurich&ft:locale=en-US)**
+        -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
+        -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
+        -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
+    -   **[Dark mode in Theme Builder](https://www.servicenow.com/docs/access?context=dark-mode-theme-builder&family=zurich&ft:locale=en-US)**
 
 As of version 6.1, Theme Builder is now available in light and dark mode. This option is commonly used to alleviate eye strain and improve readability. Dark mode applies to the Theme Builder interface only and does not affect the appearance of individual themes.
 

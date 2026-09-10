@@ -1,6 +1,6 @@
 ---
 title: Add an entitlement to a case line
-description: Add one or more entitlements to a case line in CSM Configurable Workspace.
+description: Add one or more entitlements to a case line in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-entitlement-to-case-line.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Manage cases, Use, Customer Service Management]
 
 # Add an entitlement to a case line
 
-Add one or more entitlements to a case line in CSM Configurable Workspace.
+Add one or more entitlements to a case line in CRM Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent
 
 ## Procedure
 
-1.  Open a case line record in CSM Configurable Workspace.
+1.  Open a case line record in CRM Workspace.
 
 2.  Select the Case Line Entitlements tab.
 

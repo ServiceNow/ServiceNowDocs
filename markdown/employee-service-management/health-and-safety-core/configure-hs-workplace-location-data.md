@@ -44,8 +44,6 @@ The **Location** field on safety forms, for example, incidents and observations,
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Add a Health and Safety visitor]()

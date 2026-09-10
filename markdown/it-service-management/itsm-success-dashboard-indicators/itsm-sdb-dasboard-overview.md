@@ -16,9 +16,9 @@ breadcrumb: [Explore, ITSM Success Dashboard indicators, IT Service Management]
 
 Analyze the performance and self-solve data visually and drive business outcomes with the help of the dashboard components.
 
-## Now Assist for ITSM Success Dashboard
+## ServiceNow Otto for IT Service Management \(ITSM\) for Success Dashboard
 
-With the Now Assist for Success Dashboard, you can summarize the chat conversations and incident details, generate the incident resolution notes to share with other agents, and wrap up incidents faster.
+With the ServiceNow Otto for IT Service Management \(ITSM\) for Success Dashboard, you can summarize the chat conversations and incident details. You can generate the incident resolution notes to share with other agents, and wrap up incidents faster.
 
 The **Self-solved using QnA** KPI in the ITSM Success Dashboard uses Now Assist and AI search QnA as contributing indicators. You can interact with a Virtual Agent, read the Knowledge base article, get a summarized/succinct response by Now LLM in Virtual Agent or on the portal. This interaction, subsequently does not create an incident, access any knowledge base article, or interact with a live agent in the next 24 hours.
 

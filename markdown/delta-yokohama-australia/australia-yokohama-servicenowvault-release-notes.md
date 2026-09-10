@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-servicenowvault-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,13 +46,17 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 To install ServiceNow Vault, the following must be installed:
 
--   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
--   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
--   [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
--   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=zurich&ft:locale=en-US)
--   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=zurich&ft:locale=en-US)
+    -   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
+    -   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
+    -   [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
+    -   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=zurich&ft:locale=en-US)
+    -   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=zurich&ft:locale=en-US)
+**Note:** Field Encryption, Data Discovery, and Data Privacy can be automatically installed using Vault Console.
+
 
 </td></tr><tr><td>
 
@@ -60,15 +64,19 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Vault is a bundle of the following products:
 
--   [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&family=australia&ft:locale=en-US)
--   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=australia&ft:locale=en-US)
--   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=australia&ft:locale=en-US)
--   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=australia&ft:locale=en-US)
--   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=australia&ft:locale=en-US)
--   [Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&family=australia&ft:locale=en-US)
--   [Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-intro&family=australia&ft:locale=en-US)
+    -   [ServiceNow Vault](https://www.servicenow.com/docs/access?context=servicenow-vault-landing&family=australia&ft:locale=en-US)
+    -   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=australia&ft:locale=en-US)
+    -   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=australia&ft:locale=en-US)
+    -   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=australia&ft:locale=en-US)
+    -   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=australia&ft:locale=en-US)
+    -   [Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&family=australia&ft:locale=en-US)
+    -   [Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-intro&family=australia&ft:locale=en-US)
+**Note:** Field Encryption, Data Discovery, and Data Privacy can be automatically installed using Vault Console.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -98,11 +106,6 @@ Zurich
 </td><td>
 
 -   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
-    -   Manage and monitor cloud encryption metrics.
-    -   Get AI guidance using the Ask Now Assist panel.
-    -   Explore more detail for each metric.
-
--   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor your sensitive data in ServiceNow Vault with a comprehensive dashboard. The dashboard view shows metrics from each of the ServiceNow Vault tools and provides easy access to them.
 
@@ -118,15 +121,6 @@ Use guided setup to quickly start using ServiceNow Vault on the following applic
 Australia
 
 </td><td>
-
--   **[Vault Suite](https://www.servicenow.com/docs/access?context=vault-suite&family=australia&ft:locale=en-US)**
-
-Deploy the complete ServiceNow Vault offering on your instance with Vault Suite, which automates the installation of all paid ServiceNow Vault capabilities for instances with a ServiceNow Vault subscription. Vault Suite includes Vault Console, Field Encryption, Zero Trust Access \(Continuous Authentication, Location, and Session Access\), Log Export Service, Code Signing Enterprise, and Cloud Encryption, eliminating the manual plugin setup previously required to access the full set of ServiceNow Vault capabilities.
-
--   **[Default Log Export Service configuration for Vault](https://www.servicenow.com/docs/access?context=vault-default-policies-configs&family=australia&ft:locale=en-US)**
-
-Begin exporting security and audit logs from your instance with a preconfigured Log Export Service topic and curated log sources, designed for instances with a ServiceNow Vault subscription. Activate the default configuration in a single step from the Vault Console, with no manual setup required. Log Export Service version 3.5.0 or later must be installed on the instance.
-
 
 -   **[Guided setup for custom applications](https://www.servicenow.com/docs/access?context=use-vault-guided-setup&family=australia&ft:locale=en-US)**
 
@@ -147,15 +141,6 @@ Review and summarize access logs for a specific field, identifying access source
 -   **[Field encryption with Vault module agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-field-encryption-module&family=australia&ft:locale=en-US)**
 
 Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
-
-
--   **[Sensitive data monitoring in AI Insights](https://www.servicenow.com/docs/access?context=vault-tools&family=australia&ft:locale=en-US)**
-
-Identify unprotected sensitive data across your configured tables using the AI Insights section in the Vault console dashboard. View users entering sensitive data in unprotected columns and channels, grouped by sensitive data patterns. This information can further be used to prioritize protection efforts.
-
--   **[Guided setup for custom applications](https://www.servicenow.com/docs/access?context=use-vault-guided-setup&family=australia&ft:locale=en-US)**
-
-Autoclassify and protect the occurrences of sensitive data within your custom applications using guided setup for Vault. This flow helps you to quickly start using Vault capabilities in your own applications.
 
 
 </td></tr></tbody>
@@ -200,11 +185,6 @@ The `security_admin` role has been removed from the roles required to elevate to
 -   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=australia&ft:locale=en-US)**
 
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-
--   **[Default model provider for AI assets](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in ServiceNow Otto for Vault.
 
 
 </td></tr></tbody>
@@ -308,7 +288,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -316,7 +299,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

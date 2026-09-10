@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-codesigning-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -175,12 +175,12 @@ Yokohama
 The Code Signing Guardrails check has been improved to enhance signature verification, resulting in more secure workflows. In addition, multiple optimizations have been implemented to improve the performance benchmarks of the Guardrails scan, and log files now feature a more intuitive naming convention, which simplifies file identification within your system.
 
 
--   **[Generate update sets with a maximum size of 10,000 records](https://www.servicenow.com/docs/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
+ -   **[Generate update sets with a maximum size of 10,000 records](https://www.servicenow.com/docs/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
 
 Code Signing now enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 
 
--   **[Naming updates for trusted and production instances](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
+ -   **[Naming updates for trusted and production instances](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
 
 The trusted non-production instance has been renamed to trusted instance, and the protected production instance has been renamed to protected instance. These naming updates have been made to better align with customer usage.
 
@@ -191,7 +191,12 @@ Zurich
 
 </td><td>
 
--   **[Enhanced Code-Signing Verification for ACC Framework Table](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhanced Code-Signing Verification for ACC Framework Table](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US)**
 
 You can now generate KMF signature files for tables that extend Agent Client Collector Configuration \(`sn_agent_configuration_file`\) and Agent Client Collector Plugin \(`sn_agent_asset`\). This enhancement allows attachments from the tables to successfully pass code-signing verification and be downloaded to the MID Server when code signing is enabled.
 
@@ -324,7 +329,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -332,7 +340,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configure](https://www.servicenow.com/docs/access?context=config-code-signing&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -340,7 +351,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\). For details, see [Configure](https://www.servicenow.com/docs/access?context=config-code-signing&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

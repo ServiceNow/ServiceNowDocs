@@ -33,7 +33,7 @@ The ServiceNow® Sales CRM for Telecommunications enables to unify your sales, f
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Sales CRM for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-telecommunications-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-telecommunications-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-telecommunications-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM for Telecommunications features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ff08c50d9389361056aeb94c5cba10ae&s=1&ssa=3).

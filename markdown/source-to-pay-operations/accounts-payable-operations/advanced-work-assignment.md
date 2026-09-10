@@ -55,3 +55,5 @@ Set up Advanced Work Assignment \(AWA\) to automatically route work items to qua
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

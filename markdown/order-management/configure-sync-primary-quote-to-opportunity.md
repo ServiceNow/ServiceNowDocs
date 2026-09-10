@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sync
 release: australia
 topic_type: task
 last_updated: "2026-05-07"
-reading_time_minutes: 1
-breadcrumb: [CPQ Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Sync Primary Quote to Opportunity
@@ -72,4 +72,6 @@ The following snapshot helps you understand the event configuration to sync the 
 ## Result
 
 When a user selects **Enable Sync to Opportunity**, the quote's lines sync to the source opportunity lines, and subsequent changes to the quote's lines continue to sync. When a user selects **Disable Sync to Opportunity**, the sync stops.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-crm-tm-quoting-configure.md)
 

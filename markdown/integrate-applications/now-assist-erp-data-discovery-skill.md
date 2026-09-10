@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for Zero Copy Connector ERP data discovery skill
-description: Use the Otto ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
+description: Use the ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-data-discovery-skill.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for Zero Copy Connector, Workflo
 
 # ServiceNow Otto for Zero Copy Connector ERP data discovery skill
 
-Use the Otto ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
+Use the ERP data discovery skill in ServiceNow Otto for Zero Copy Connector to query SAP standard database tables for data and records.
 
 ## Now Assist ERP data discovery overview
 
@@ -33,15 +33,15 @@ The sn\_erp\_integration.erp\_ai\_user role is required to work with generative 
 
 Follow the instructions in [Configure ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md) to install the plugin.
 
-## Asking Now Assist for ERP data
+## Asking ServiceNow Otto for ERP data
 
-Select the Otto icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) from anywhere in your instance to open the ServiceNow Otto panel.
+Select the ServiceNow Otto icon \(\[Omitted image "bus-ai-otto.svg"\] Alt text:\) from anywhere in your instance to open the ServiceNow Otto panel.
 
 Ask for information in plain language. For example, `Get all sales orders from SAP where sales organization is 1710`.
 
-Otto responds with the table and filter condition it will use and asks for your confirmation. You select **Yes**.
+ServiceNow Otto responds with the table and filter condition it will use and asks for your confirmation. Select **Yes**.
 
-Otto provides the information you requested.
+ServiceNow Otto provides the information you requested.
 
 Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat by selecting the New chat icon \(\[Omitted image "icon-zoom-in.png"\]\).
 

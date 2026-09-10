@@ -31,7 +31,7 @@ A product specification defines a product that you sell to your customers. It ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** &gt; **Product Specifications** and select **New**.
 
@@ -236,15 +236,15 @@ You can't change this field.
 
 5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d51514e536">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d52124e536">
 
 Action
 
-</th><th align="left" id="d51514e539">
+</th><th align="left" id="d52124e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51514e545">
+</th></tr></thead><tbody><tr><td id="d52124e545">
 
 **Publish**
 
@@ -254,7 +254,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d51514e563">
+</td></tr><tr><td id="d52124e563">
 
 **Update**
 
@@ -262,7 +262,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d51514e572">
+</td></tr><tr><td id="d52124e572">
 
 **Copy**
 

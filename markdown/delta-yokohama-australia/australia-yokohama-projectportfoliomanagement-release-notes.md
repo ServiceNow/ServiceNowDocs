@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-projectportfoliomanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,10 +75,6 @@ Yokohama
 
 </td><td>
 
--   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=yokohama&ft:locale=en-US)**
-
-Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
-
 -   **[Migrate old status reports to new reporting tool](https://www.servicenow.com/docs/access?context=view-status-report-in-project-workspace&family=yokohama&ft:locale=en-US)**
 
 Import your old status reports to a new status report tool for a consistent and organized reporting system.
@@ -91,18 +87,6 @@ Secure sensitive projects by applying confidentiality settings to your projects 
 
 Track the list of activities to be completed for a task by creating a checklist for your project tasks.
 
--   **[Migrate notes of resource plans to resource assignments](https://www.servicenow.com/docs/access?context=migrate-rsrc-plan-rsrc-asgnmnt&family=yokohama&ft:locale=en-US)**
-
-Migrate the existing resource plan notes along with the allocation details to resource assignments and get clear insights while working with resource assignments in Resource Management Workspace.
-
--   **[Resource allocation and heatmap enhancements](https://www.servicenow.com/docs/access?context=use-resource-mgmt-prj-wksp&family=yokohama&ft:locale=en-US)**
-    -   Use the allocation heatmap modal to view resource status, remaining capacity, and utilization and enable resource managers to assess task efforts.
-    -   Use inline editing to update one or multiple cells in child resource assignments.
-    -   Added new fields for resource assignment:
-        -   Name
-        -   Ready for review
-        -   Notes
-    -   Extend a resource assignment for a project or project task using the **Extend** row context menu action.
 
 </td></tr><tr><td>
 
@@ -113,32 +97,12 @@ Zurich
 -   **[Manage projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=zurich&ft:locale=en-US)**
     -   End resource assignments when a project ends, view assignment details, and synchronize assignment dates with project dates.
     -   Access and edit the resource details directly from the Resource page without switching between views.
--   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
-
-Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
-
--   **[Convert demands to EAP entities](https://www.servicenow.com/docs/access?context=t_CrtArtftDmdMnu&family=zurich&ft:locale=en-US)**
-
-Convert your demand records quickly to Enterprise Agile Planning \(EAP\) entities, such as Epic, Feature, or Capability. When you convert a demand, the system generates a new record of the selected entity type, replicates common fields from the demand, and moves the demand to the Approved state.
-
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
 
 -   **[Associate AI systems with demands in Demand Management](https://www.servicenow.com/docs/access?context=associate-ai-systems-with-demands&family=australia&ft:locale=en-US)**
 
@@ -148,17 +112,6 @@ Add and manage AI system associations directly from the **AI Associations** tab 
 
 Generate a concise, structured summary of any demand using the demand summarization skill through the **Summarize** button in the demand form. The skill reviews the demand fields and helps create a clear summary of the demand.
 
--   **[Admin role enhancements in Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&family=australia&ft:locale=en-US)**
-    -   Enabling all users to create ideas with a minimum read role added to the **com.snc.idea.universal\_request.copy\_fields** system property.
-    -   The **com.snc.idea.universal\_request.copy\_fields** system property can be updated only by users with the idea\_admin or pps\_admin roles.
-    -   Help ensure that only authenticated users have access to the bubble chart workbench through the UserIsAuthenticated condition added to the bubble chart workbench ACL \(access control list\).
--   **[Admin role enhancements in Project Management](https://www.servicenow.com/docs/access?context=r_InstalledWithProjectManagement&family=australia&ft:locale=en-US)**
-
-The Project properties can be edited only by users with the pps\_admin role.
-
--   **[Admin role enhancements in Innovation Management](https://www.servicenow.com/docs/access?context=innovation-management-landing&family=australia&ft:locale=en-US)**
-    -   The write role has been added for the **idea.notification.sender.email** and**com.snc.innovation\_management.im\_editor\_attachment\_tag\_id** system properties.
-    -   The **idea.notification.sender.email** and **com.snc.innovation\_management.im\_editor\_attachment\_tag\_id** system properties can be added or updated only by users with idea\_admin roles.
 
 </td></tr></tbody>
 </table>## Changes
@@ -179,7 +132,9 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Demand Management UI changes](https://www.servicenow.com/docs/access?context=identify-similar-demands&family=yokohama&ft:locale=en-US)**
+    -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
+    -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
 
 </td></tr><tr><td>
 
@@ -187,7 +142,16 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Project Workspace UI changes](https://www.servicenow.com/docs/access?context=update-resource-assignment-pw&family=zurich&ft:locale=en-US)**
+
+The following items were added to Project Workspace:
+
+    -   Resource page to access and manage resource assignments.
+    -   **Sync all** button to synchronize project dates for all the resource assignments.
 
 </td></tr><tr><td>
 
@@ -195,25 +159,9 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
-
 -   **[AI skills for Demand Management](https://www.servicenow.com/docs/access?context=similar-demand-identification-using-now-assist&family=australia&ft:locale=en-US)**
 
-
-
--   **[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-
-
--   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&family=australia&ft:locale=en-US)**
-
-The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
-
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&family=australia&ft:locale=en-US)**
-
-The new Next Experience for Demand Management provides a unified layout, guided stages, improved navigation, and enhanced capabilities such as Playbooks and Docs integration. As you move to Next Experience for Demand Management, you’ll find it easier to create, review, and manage demands with a cleaner layout and guided actions. The classic UI is still available, but new improvements will appear in the workspace.
-
-Next Experience for Demand Management is available with the Strategic Portfolio Management \(SPM\) Standard and Pro licenses.
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
 </td></tr></tbody>
@@ -251,10 +199,7 @@ Australia
 
 </td><td>
 
--   For Demand Management:
-    -   The permission to edit the value of the **dmn\_stakeholder\_register.number** field in the Stakeholder Register \[dmn\_stakeholder\_register\] table has been removed for the admin role.
-    -   The admin role ACL has been removed for the bubble chart workbench.
-    -   The duplicate app module that was created for the admin role has been removed.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -300,7 +245,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Starting with Australia release, Scenario Planning for PPM \(com.snc.ppm\_scenario\_planning\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+Alternatively, Strategic Planning Workspace \(for SPM pro users\) or Portfolio Planning Workspace \(for SPM standard users\) provides the Scenario Planning capability. For details, see [Scenario planning in Strategic Planning](https://www.servicenow.com/docs/access?context=scenario-planning-in-strategic-planning&family=australia&ft:locale=en-US) or [Scenario planning in Portfolio Planning](https://www.servicenow.com/docs/access?context=scenario-planning-in-portfolio-planning&family=australia&ft:locale=en-US).
+
+-   Starting with Australia release, the Project Status Report \(com.sn\_store\_ppm.mobile\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Alternatively, Project Workspace provides the Status Report capability.
+-   Starting with Australia release, the PMO dashboard is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Alternatively, Execution dashboard provides the PMO dashboard capability.
+-   Starting with Australia release, the Investment Portal is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Alternatively, Portfolio Planning Workspace provides the Investment Portal capability.
+-   Starting Australia, Project Workbench is no longer deployed, enhanced, supported or available for activation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -321,9 +273,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \( Project Portfolio Management \)](https://www.webstg.servicenow.com/docs/access?topicname=t_ActivateProjectPortfolioSuiteWithFinancials&version=washingtondc&pubname=washingtondc-it-business-management).
 
- Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -331,9 +286,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate](https://www.servicenow.com/docs/access?context=t_ActivateProjectPortfolioSuiteWithFinancials&family=zurich&ft:locale=en-US).
 
- Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -341,7 +299,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Project Portfolio Management is a ServiceNow AI Platform feature that is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For details, see [Activate PPM Standard \(Project Portfolio Management\)](https://www.servicenow.com/docs/access?context=t_ActivateProjectPortfolioSuiteWithFinancials&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

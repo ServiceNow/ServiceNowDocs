@@ -7,7 +7,7 @@ release: australia
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -56,15 +56,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d319202e187">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d330259e187">
 
 Option
 
-</th><th align="left" id="d319202e190">
+</th><th align="left" id="d330259e190">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d319202e196">
+</th></tr></thead><tbody><tr><td id="d330259e196">
 
 **Provide feedback for the generated text**
 
@@ -72,7 +72,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the generated text wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d319202e219">
+</td></tr><tr><td id="d330259e219">
 
 **Copy the text**
 

@@ -1,6 +1,6 @@
 ---
 title: Set up the Jira spoke for Jira Server
-description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.Generate a personal access token from the Jira Server instance.Create an API key credential record to authenticate the requests from ServiceNow.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
+description: Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Integrate the ServiceNow instance and Jira Server using user name and password to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.Integrate the ServiceNow instance and Jira Server using API Token to authenticate ServiceNow requests.Generate a personal access token from the Jira Server instance.Create an API key credential record to authenticate the requests from ServiceNow.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-server.html
 release: australia
@@ -37,41 +37,73 @@ Integrate the ServiceNow instance and Jira Server using user name and password t
 
 Role required: admin
 
-### Procedure
+### Create credential record for the Jira spoke
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.
 
-2.  Click the **Integrations** tab.
+#### Before you begin
 
-3.  Under **Connections**, the **Outbound** connections are displayed by default.
+Role required: admin
 
-4.  Locate the **Jira** connection alias and click **View Details**.
+#### Procedure
 
-    -   To configure the default connection and credential alias record that is shipped along with the Jira spoke, click **View Details**.
-    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
-    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
 
-5.  On the **Connection** form, fill in the fields.
+2.  Click **New**.
+
+    The system displays the message `What type of Credentials would you like to create?`
+
+3.  Select **Basic Auth Credentials**.
+
+4.  On the form, fill these values.
 
     |Field|Description|
     |-----|-----------|
-    |Connection Name|Name to uniquely identify the connection. For example, `Jira Spoke OAuth basic conn`.|
-    |Connection URL|URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.|
-    |Scopes|By default, these scopes are provided `read:jira-work, read:jira-user, write:jira-work, manage:jira-project, manage:jira-configuration, manage:jira-webhook, manage:jira-data-provider, delete:sprint:jira-software, read:sprint:jira-software, write:sprint:jira-software, read:board-scope:jira-software, read:project:jira, read:jql:jira, read:issue-details:jira, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.|
+    |Name|Name to identify the credential record for the Jira spoke. For example, `Jira Data Center Basic Cred`.|
+    |Username|Username to log in to the Jira Data Center or Jira Server.|
+    |Password|Password to log in to the Jira Data Center or Jira Server.|
 
-    \[Omitted image "jira-new-conf-temp.jpg"\] Alt text:
-
-6.  Click **Create Connection**.
+5.  Right-click the form header and click **Save**.
 
 
-### What to do next
+### Create a connection record for the Jira spoke
 
-Select the server type in the connection record.
+Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 
-1.  Navigate to **Integration Hub** &gt; **Connection &amp; Credential Aliases**.
-2.  Open the **Jira** record.
-3.  In the **Connections** tab, open the active connection record.
-4.  In the **Attributes** tab, verify that the value of **server\_type** is set to **server**.\[Omitted image "jira-spoke-attribute-server.png"\] Alt text: Set the value of server\_type to server.
+#### Before you begin
+
+Role required: admin
+
+#### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+
+2.  Open the alias record for **Jira** that shipped with the spoke.
+
+3.  On the **Connections** tab, click **New**.
+
+    The system displays a blank HTTP\(s\) Connection form.
+
+4.  Enter these values and click **Submit**.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Name|Enter any name to uniquely identify the connection record. For example, enter `Jira cloud OAuth Connection`.|
+    |Credential|Select the Credential record created for Jira. For example, select **Jira Data Center Basic Cred**.|
+    |Connection URL|Base URL of the Jira server.|
+
+5.  In the Attributes related list, provide these values.
+
+    1.  Enter the value `2` for **api\_version**.
+
+    2.  Enter the value `server` for **server\_type**.
+
+    \[Omitted image "jira-spoke-attribute-server.png"\] Alt text: Set the value of server\_type to server.
+
+6.  Click **Submit**.
+
+    The Jira spoke is configured to use Basic Auth credentials.
+
 
 ## Option 2: Using API Token \(does not comply with Atlassian security requirements\)
 
@@ -79,7 +111,7 @@ Integrate the ServiceNow instance and Jira Server using API Token to authenticat
 
 ### Before you begin
 
-**Important:** Apps that collect API tokens to create individual 3LO apps don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
+**Important:** Apps that collect or store API tokens don't comply with Atlassian security requirements for cloud apps and Atlassian acceptable use policy.
 
 Role required: admin
 

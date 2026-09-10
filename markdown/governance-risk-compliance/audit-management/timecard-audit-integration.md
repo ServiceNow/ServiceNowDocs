@@ -45,7 +45,7 @@ A user can submit the time cards through the time sheet portal directly without 
 
 ## Time cards and rollup of expenses and resources
 
-In the version 12.0.1, release of Audit Management, when an engagement has a project associated with it, after a time card is approved and expense lines are processed, both the **Actual resources** and the **Actual expenses** values roll up on the engagement. Although you can create a time card and log hours before you create a project for an engagement, it is recommended to create a time card after a project is created. This task ensures accurate reporting of the expenses and resources. The Time Cards related list appears on an engagement only after a project is created.
+In the version 12.0.1, release of Audit Management, when an engagement has a project associated with it, time card approvals and expense line processing trigger rollups. Both the **Actual resources** and the **Actual expenses** values roll up on the engagement. Although you can create a time card and log hours before you create a project for an engagement, create a time card after a project is created. This ensures accurate reporting of the expenses and resources. The Time Cards related list appears on an engagement only after a project is created.
 
 **Related topics**  
 

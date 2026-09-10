@@ -30,27 +30,27 @@ Flapping occurs when the event source continues to generate events even after it
 
 2.  Edit the following properties, as appropriate.
 
-<table id="choicetable_ofd_yxs_xtb"><thead><tr><th align="left" id="d587590e96">
+<table id="choicetable_ofd_yxs_xtb"><thead><tr><th align="left" id="d608845e96">
 
 Property
 
-</th><th align="left" id="d587590e99">
+</th><th align="left" id="d608845e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d587590e105">
+</th></tr></thead><tbody><tr><td id="d608845e105">
 
 **evt\_mgmt.update\_alert\_restricted\_fields\_elapsed\_time**
 
 </td><td>
 
-When the system receives events that do not update alerts—because the event data is not new and is identical to the existing alert—system fields are not updated by default. This helps reduce noise. For example, a "keep alive" event might be sent every few minutes from a server to confirm that a device is still connected, even if no new data is being exchanged.
+When the system receives events that do not update alerts, system fields are not updated by default. This occurs when the event data is identical to the existing alert. This helps reduce noise. For example, a "keep alive" event might be sent every few minutes from a server. This confirms that a device is still connected, even if no new data is being exchanged.
 
  This property defines the minimum time interval \(in seconds\) that must pass before an alert can be updated based on identical events.
 
  If an identical event is received within this interval, the update is suppressed to avoid generating frequent, redundant notifications. By default, the interval is set to 86,400 seconds \(24 hours\).
 
-</td></tr><tr><td id="d587590e123">
+</td></tr><tr><td id="d608845e123">
 
 **evt\_mgmt.flap\_interval**
 
@@ -60,7 +60,7 @@ Flap interval, in seconds, which is the time period within which an alert enters
 
  An alert enters the flapping state when its current **Flap Count** value reaches or exceeds the given **evt\_mgmt.flap\_frequency** property value within the time period specified by the **__evt\_mgmt.flap\_interval__** property.
 
-</td></tr><tr><td id="d587590e148">
+</td></tr><tr><td id="d608845e148">
 
 **evt\_mgmt.flap\_frequency**
 
@@ -68,7 +68,7 @@ Flap interval, in seconds, which is the time period within which an alert enters
 
 Flap frequency, frequency an alert must reoccur to enter the flapping state.
 
-</td></tr><tr><td id="d587590e157">
+</td></tr><tr><td id="d608845e157">
 
 **evt\_mgmt.flap\_quiet\_interval**
 

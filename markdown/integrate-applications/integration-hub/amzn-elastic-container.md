@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Amazon Elastic Container Service spoke v1.0.2 is the latest version.
+Amazon Elastic Container Service spoke v1.0.2 is the latest version. For version history of the spoke, see [Amazon Elastic Container Service spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-elastic-container-service.html).
 
 ## Supported versions
 

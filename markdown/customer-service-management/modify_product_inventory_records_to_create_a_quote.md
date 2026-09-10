@@ -1,18 +1,18 @@
 ---
 title: Modify product inventory records to create a quote
-description: Perform the Modify operation on a single product inventory record that results in the creation of a quote on the CSM Configurable Workspace. For example, you might want to add or delete an optional product inventory or update its configurations.
+description: Perform the Modify operation on a single product inventory record that results in the creation of a quote on the CRM Workspace. For example, you might want to add or delete an optional product inventory or update its configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/modify\_product\_inventory\_records\_to\_create\_a\_quote.html
 release: australia
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Modify product inventory records, Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify product inventory records to create a quote
 
-Perform the **Modify**operation on a single product inventory record that results in the creation of a quote on the CSM Configurable Workspace. For example, you might want to add or delete an optional product inventory or update its configurations.
+Perform the **Modify**operation on a single product inventory record that results in the creation of a quote on the CRM Workspace. For example, you might want to add or delete an optional product inventory or update its configurations.
 
 ## Before you begin
 

@@ -14,6 +14,8 @@ breadcrumb: [Building applications in source code, Building pro-code application
 
 Configure a custom application \[sys\_app\] in the `now.config.json` file for an application in source code.
 
+**Note:** For the latest ServiceNow SDK application configuration documentation, see the [now.config.json reference](https://servicenow.github.io/sdk/config/now-config-reference) on GitHub.
+
 You can configure the application settings and aspects specific to developing the application in source code, such as the directory structure. In the `now.config.json` file, add the following parameters to configure the application settings.
 
 <table id="table_upn_kqw_zbc"><thead><tr><th>

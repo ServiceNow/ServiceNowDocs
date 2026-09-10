@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-policyandcompliancemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,54 +67,17 @@ Zurich
 
 </td><td>
 
--   **[Association of citations to controls](https://www.servicenow.com/docs/access?context=citation-to-control-mapping&family=zurich&ft:locale=en-US)**
-
-In many compliance frameworks, a single control objective may be referenced by multiple citations across different standards, regulations, or policy requirements. Without proper association management, organizations risk duplicating controls, misinterpreting coverage, or inaccurately reporting compliance. The association of citations to controls feature addresses this challenge by enabling users to associate controls with citations directly. When this feature is enabled, compliance scores update dynamically based on the status of directly associated active controls.
-
-
--   **[Enhancements to control objectives rationalization process](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
-
-The following enhancements have been introduced to the rationalization process of control objectives:
-
-    -   Rationalization process is now automatically created when selecting the Rationalize button in the control objective page. 
-    -   The recommendation workflow has been simplified into a two-step process: Step 1 identifies duplicates by accepting or dismissing recommendations; Step 2 finalizes by retaining one recommendation or creating a new common control objective.
-    -   Approvals for the rationalization process are skipped for owners who are reviewers, and levels where all reviewers are owners are automatically approved. 
-    -   Owners and approvers can add comments and justifications directly on recommendation cards and reply to existing comments. 
-    -   The user interface has been updated with better navigation, quick summaries, visual improvements, and clear error messages.
-
--   **[Citation impact analysis and updates with Now Assist for IRM](https://www.servicenow.com/docs/access?context=control-objective-change-agent&family=zurich&ft:locale=en-US)**
-
-When a citation’s description or supplemental guidance is updated, Now Assist identifies related control objectives that might be affected. It reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
-
-
--   **[Enhancements to control objectives and controls](https://www.servicenow.com/docs/access?context=co-overview-pc-ws&family=zurich&ft:locale=en-US)**
-
-The following enhancements have been introduced to control objectives and controls:
-
-    -   The Control objective requirements option provides a granular layer under a control objective. When each control objective has multiple statements, each statement becomes a control objective requirement.
-    -   The Create control requirements option generates control requirements automatically for every control generated under an entity type.
-    -   The Attestation at control requirement level enables attestation at a granular level for individual control requirements within a control.
-
--   **[Enhancements to policy exception and extension requests](https://www.servicenow.com/docs/access?context=review-policy-ext-and-extension-req-ws&family=zurich&ft:locale=en-US)**
-
-The following enhancements have been introduced:
-
-    -   For policy exception and extension requests, approvers can now view key details, such as justification, reason, and validity period, within a pop-up before approving or rejecting a policy exception or policy exception extension.
-    -   For manual indicators, if the associated control is marked as exempt, no indicator task is generated.
-    -   When a policy exception is in the Analyze state and the Awaiting Requested Information sub-state, the interface now includes a Send Information button that allows the requester to provide additional details or clarifications requested by the approver.
-    -   Previously, an issue-based exception required a linked policy or control objective for additional approvals. Now, it requires any one of the following: a linked policy, control objective, or control. The control must be linked to the policy exception itself, not just to the issue.
-
 -   **[GRC Approval Configurator](https://www.servicenow.com/docs/access?context=grc-approval-configurator-for-policy-extension-and-exception&family=zurich&ft:locale=en-US)**
 
 The GRC Approval Configurator can now be used to manage both policy exception and extension approvals. It allows verification, approval, and extension rules to be defined based on state, sub-state, and other filter conditions, with support for multiple user groups and multi-level approvals. This enhancement provides greater flexibility in assigning appropriate approvers at each level based on defined conditions, facilitating structured and collaborative reviews. For extension approvals, users can now configure multiple approvers, overcoming the previous limitation of a single default approver \(Compliance Manager\).
 
 
--   **[Common Control Objective Creation](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+ -   **[Common Control Objective Creation](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
 
 Use Generative AI to merge similar control objectives into a single, consolidated common control objective. The system automatically populates the name, description, and guidance fields from the accepted duplicates, eliminating the need to manually select a primary control objective.
 
 
--   **[Entity based record access rules to secure new records](https://www.servicenow.com/docs/access?context=c_GRCControls&family=zurich&ft:locale=en-US)**
+ -   **[Entity based record access rules to secure new records](https://www.servicenow.com/docs/access?context=c_GRCControls&family=zurich&ft:locale=en-US)**
 
 When entity based record access rules are enabled on the Entity Based Access Configuration Properties page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
 
@@ -132,11 +95,9 @@ Australia
 After upgrading Policy and Compliance Management to 22.3.2, you can enable personal authentication for policy authoring in Microsoft SharePoint and Google Drive. When enabled, policy authoring uses a hybrid authentication model. Create, connect, and upload operations run under the logged-in user's personal credentials, while document access permission grants and content sync always run under the shared service account. This approach supports audit traceability at the individual user level for document operations and keeps access management and sync consistent regardless of who initiates them.
 
 
--   **[Dashboard access from Compliance Workspace](https://www.servicenow.com/docs/access?context=view-dashboards-in-compliance-workspace&family=australia&ft:locale=en-US)**
+ -   **[Dashboard access from Compliance Workspace](https://www.servicenow.com/docs/access?context=view-dashboards-in-compliance-workspace&family=australia&ft:locale=en-US)**
 
-After upgrading to 22.3.2, you can access Policy and Compliance Management dashboards directly from the Compliance Workspace.
-
-The following dashboards are available:
+After upgrading to 22.3.2, you can access Policy and Compliance Management dashboards directly from the Compliance Workspace.The following dashboards are available:
 
     -   Compliance Overview
     -   Policy Acknowledgement
@@ -145,17 +106,17 @@ The following dashboards are available:
 These dashboards are also accessible from the Platform Analytics application.
 
 
--   **[Assessment template versioning](https://www.servicenow.com/docs/access?context=template-versioning&family=australia&ft:locale=en-US)**
+ -   **[Assessment template versioning](https://www.servicenow.com/docs/access?context=template-versioning&family=australia&ft:locale=en-US)**
 
 After upgrading Policy and Compliance Management to 22.3.2, CRI tiering questionnaire, CRI profile assessment, and control assessment templates support versioning. Template managers can create and publish new versions of these templates over time. When a CRI tiering questionnaire, CRI profile assessment, or control assessment is initiated, the assessment is generated using the latest published version of the template.
 
 
--   **[Role-based workspace redirection for email notification links](https://www.servicenow.com/docs/access?context=grc-tasks-pol-comp-ws&family=australia&ft:locale=en-US)**
+ -   **[Role-based workspace redirection for email notification links](https://www.servicenow.com/docs/access?context=grc-tasks-pol-comp-ws&family=australia&ft:locale=en-US)**
 
 After upgrading Policy and Compliance Management to 22.3.2, email notification links for Policy and Compliance Management records redirect users to their appropriate workspace based on their assigned roles. Users without a workspace role are redirected to the GRC Task Page, or to the classic UI if the common workspace is not installed. The following record types support workspace redirection: Controls, Evidence, Control risk indicators, Indicator task, Policy acknowledgments, and Policy exceptions.
 
 
--   **[Control objective workflow](https://www.servicenow.com/docs/access?context=concept_cob_workflow&family=australia&ft:locale=en-US)**
+ -   **[Control objective workflow](https://www.servicenow.com/docs/access?context=concept_cob_workflow&family=australia&ft:locale=en-US)**
 
 After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. Enable this feature using the **Enable Control Objective Workflow** property under **Policy and Compliance** &gt; **All** &gt; **Properties** and is disabled by default.
 
@@ -192,7 +153,22 @@ Zurich
 
 </td><td>
 
--   **[Improvements to the rationalization process of control objectives](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Improved widget presentation and page layouts](https://www.servicenow.com/docs/access?context=compliance-manager-compliance-ws&family=zurich&ft:locale=en-US)**
+
+As part of the Coral theme enhancements, rounded card containers with drop shadows have been introduced for widgets across Compliance pages, and the gray background has been removed from the Compliance home page to simplify the interface.
+
+
+ -   **[Tasks panel in Compliance Home page](https://www.servicenow.com/docs/access?context=compliance-manager-compliance-ws&family=zurich&ft:locale=en-US)**
+
+The Tasks section has been removed from the Compliance Workspace to improve page performance.
+
+
+ -   **[Improvements to the rationalization process of control objectives](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&family=zurich&ft:locale=en-US)**
 
 Several enhancements have been made to the rationalization process:
 
@@ -206,18 +182,6 @@ Several enhancements have been made to the rationalization process:
 Australia
 
 </td><td>
-
--   **[ServiceNow Otto® name announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
-
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
-The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
-
-
--   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -306,7 +270,10 @@ Zurich
 
 </td><td>
 
-Install Policy and Compliance Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -314,7 +281,10 @@ Australia
 
 </td><td>
 
-Install Policy and Compliance Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Policy and Compliance Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -364,12 +334,14 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Policy and Compliance Management supports the latest public release and the two preceding versions of the following web browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -377,12 +349,14 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Policy and Compliance Management supports the latest public release and the two preceding versions of the following web browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -403,7 +377,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

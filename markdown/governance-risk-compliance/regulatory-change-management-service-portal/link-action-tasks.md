@@ -45,6 +45,8 @@ Role required: sn\_grc\_reg\_change.user
 
 An action task is created for each of the selected impacted areas within the specific regulatory task.
 
+Impacted areas such as a citation, control objective, control, or policy, displays the linked action task in its **Regulatory action tasks** tab.
+
 Linking action tasks automates task assignment for each impacted area, ensuring accountability and streamlined execution of regulatory requirements across the organization.
 
 ## What to do next

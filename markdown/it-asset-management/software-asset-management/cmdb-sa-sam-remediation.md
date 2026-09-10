@@ -37,7 +37,9 @@ To open the Remediation actions panel, select a segment or count on a chart in t
 
 ## Available remediation actions
 
-The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart. The remediation actions are available for the improvement of the following issues:
+The Remediation actions panel provides relevant suggestions and actions based on the information in the selected chart.
+
+The remediation actions are available for the improvement of the following issues:
 
 -   **Stale CIs**
 

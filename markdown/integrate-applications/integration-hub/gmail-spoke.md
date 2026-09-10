@@ -30,7 +30,7 @@ API version v1.
 
 ## Spoke version
 
-Gmail spoke v1.3.3 is the latest version.
+Gmail spoke v1.3.3 is the latest version. For version history of the spoke, see [Gmail spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-gmail.html).
 
 ## Spoke subflows
 

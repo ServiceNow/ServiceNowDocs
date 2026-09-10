@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-retail-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -76,6 +76,16 @@ Australia
 </td><td>
 
 This section describes new features and enhancements in this release.
+
+ -   **[\[Placeholder link text to key rahi-retail-smart-assessment-questionnaires\]](https://www.servicenow.com/docs/access?context=rahi-retail-smart-assessment-questionnaires&family=australia&ft:locale=en-US)**
+
+Create and publish smart assessment templates for store operations with Smart Assessment support for conditional logic and role-based visibility.
+
+
+ -   **[Manage store plans](https://www.servicenow.com/docs/access?context=rahi-retail-manage-store-plans&family=australia&ft:locale=en-US)**
+
+Store plans provide new capabilities for HQ and regional managers to create operational plans, schedule recurring tasks, and fulfill the tasks through the Retail mobile application.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -191,7 +201,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -32,19 +32,15 @@ Role required:
 
 2.  To activate a matrix, point to **Active**, double-click, and select **true**.
 
-3.  To view all the associated information, click a matrix.
+3.  To view all the associated information, select a matrix.
 
-4.  To view all the tactics that are associated with this collection, click the **MITRE Tactics** tab.
+4.  To view all the tactics that are associated with this collection, select the **MITRE Tactics** tab.
 
-5.  To view additional details and the techniques that are associated with a selected tactic, click a tactic.
+5.  To view additional details and the techniques that are associated with a selected tactic, select a tactic.
 
 6.  Under the **MITRE ATT&amp;CK Techniques** tab, select a technique.
 
 7.  Under the related lists, view the associations that are available for the technique that you selected.
-
-    In the following illustration, you can see the navigational path from the Enterprise ATT&amp;CK matrix, to the Initial Access \(TA0001\) tactic, and then to the Phishing \(T1566\) technique. On the Attack Pattern - Phishing technique page, you can view the related list - Tactic, Sub Technique, Group, Mitigation, External References, Malware, and Tools.
-
-    \[Omitted image "enterprise-matrice-view.gif"\] Alt text: Threat Intelligence: MITRE ATT&amp;CK matrix.
 
 
 ## What to do next

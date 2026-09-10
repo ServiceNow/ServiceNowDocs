@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Cornerstone spoke v1.4 is the latest version.
+Cornerstone spoke v1.4 is the latest version. For version history of the spoke, see [Cornerstone spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-cornerstone.html).
 
 ## Supported versions
 

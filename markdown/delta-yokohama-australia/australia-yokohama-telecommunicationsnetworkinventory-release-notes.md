@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-telecommunicationsnetworkinventory-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 The Yokohama release needs the Xanadu platform version to support the Design and Assign playbook feature.
+
 
 </td></tr><tr><td>
 
@@ -126,11 +129,6 @@ Zurich
 
 </td><td>
 
--   **[Create logical connection record](https://www.servicenow.com/docs/access?context=create-logical-connection-record-design-assign-playbook&family=zurich&ft:locale=en-US)**
-
-Logical interfaces created are now automatically related to their corresponding cards or parent equipment. This enhancement ensures consistency across systems and helps prevent duplicate CI creation by improving the alignment between logical and physical interfaces.
-
-
 -   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
 
 Use the new L1 menu that consolidates all network visualizations into a single canvas and include a tabular section for each view, such as site, floor, and topology. The following roles are introduced to manage datacenter infrastructure.
@@ -197,26 +195,22 @@ Australia
 
 </td><td>
 
-Australia Early Availability
-
 -   **[Remote Hands Request Management](https://www.servicenow.com/docs/access?context=remote-hands-request-management&family=australia&ft:locale=en-US)**
 
 Enable your customers to request services such as power usage enquiries, equipment installation, equipment restarts, and more by connecting with onsite operations agents at your facility. Securely store your customer requests in the Remote Hands Case table, with role-based access controls. View an auto-generated summary of your requests for quick reference.
 
 
--   **[Remote hands case record](https://www.servicenow.com/docs/access?context=generate-summary-for-remote-hands-case-record&family=australia&ft:locale=en-US)**
+ -   **[Remote hands case record](https://www.servicenow.com/docs/access?context=generate-summary-for-remote-hands-case-record&family=australia&ft:locale=en-US)**
 
 Remote Hands Request Summarization generates contextual summary of a Remote Hands case by combining current case data with insights from similar historical cases, using information submitted by the DCIM user through the CSM portal.
 
 
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   **[IP address management](https://www.servicenow.com/docs/access?context=ip-address-management&family=australia&ft:locale=en-US)**
+ -   **[IP address management](https://www.servicenow.com/docs/access?context=ip-address-management&family=australia&ft:locale=en-US)**
 
 Multi-layer nested IP Subnetworks with CIDR validation: You can now create IP Subnetworks within IP Subnetworks, supporting recursive nesting for both IPv4 and IPv6. When creating a subnetwork at any level, the system validates that the CIDR is correctly formatted, falls within the parent's range, is more specific than the parent, and is unique within the parent.
 
 
--   **[Inventory template naming patterns](https://www.servicenow.com/docs/access?context=naming-patterns-in-inventory-templates&family=australia&ft:locale=en-US)**
+ -   **[Inventory template naming patterns](https://www.servicenow.com/docs/access?context=naming-patterns-in-inventory-templates&family=australia&ft:locale=en-US)**
 
 Author patterns from a variable library with real-time validation, verify resolved names across the full template hierarchy from a new Overview tab at design time, and add custom validation rules.
 
@@ -225,24 +219,12 @@ Author patterns from a variable library with real-time validation, verify resolv
 Standard ServiceNow platform roles no longer have read access to specific TNI tables. This change affects both new installations and upgrades.
 
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
-
--   **[Rack allocation workflow](https://www.servicenow.com/docs/access?context=rack-allocation-workflow&family=australia&ft:locale=en-US)**
+ -   **[\[Placeholder link text to key bundle-telmt.rack-allocation-workflow\]](https://www.servicenow.com/docs/access?context=rack-allocation-workflow&family=australia&ft:locale=en-US)**
 
 The rack allocation agentic workflow reserves rack unit space in a datacenter by evaluating placement policies, capacity metrics, and change request requirements to find suitable rack allocations.
 
 
--   **[TNI Data Model Navigator](https://www.servicenow.com/docs/access?context=data-model-navigator&family=australia&ft:locale=en-US)**
+ -   **[TNI Data Model Navigator](https://www.servicenow.com/docs/access?context=data-model-navigator&family=australia&ft:locale=en-US)**
 
 A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 
@@ -274,7 +256,36 @@ Zurich
 
 </td><td>
 
--   **[Define network service instance details](https://www.servicenow.com/docs/access?context=create_application_services&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
+
+The Network Visualization L1 menu is added to the Telecommunications Network Inventory Workspace. The Topology L1 menu has been removed and is available as **Topology** tab within the Network Visualization view.
+
+-   **[Geo map](https://www.servicenow.com/docs/access?context=visualization-map&family=zurich&ft:locale=en-US)**
+
+Network site map L1 menu is removed and repositioned as **Geo map** tab in the Network visualization view.
+
+-   **[Define the power circuit details](https://www.servicenow.com/docs/access?context=define-power-circuit-details&family=zurich&ft:locale=en-US)**
+
+The **Power Circuits** inventory is added.
+
+-   **[Define the facility hardware details](https://www.servicenow.com/docs/access?context=define-facility-hardware-details&family=zurich&ft:locale=en-US)**
+
+The **All Facilities** inventory is added.
+
+-   **[Create a facility model](https://www.servicenow.com/docs/access?context=create-facility-model&family=zurich&ft:locale=en-US)**
+
+The **Facility Models** inventory model is added.
+
+-   **[Lists view](https://www.servicenow.com/docs/access?context=network-inventory-workspace-list-view&family=zurich&ft:locale=en-US)**
+
+The **Network site** is renamed to **Site**.
+
+
+ -   **[Define network service instance details](https://www.servicenow.com/docs/access?context=create_application_services&family=zurich&ft:locale=en-US)**
 
 **xNF Instance** is renamed to **Service Instance**.
 
@@ -289,9 +300,16 @@ Australia
 
 </td><td>
 
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
+
+ -   **[Network topology](https://www.servicenow.com/docs/access?context=using-network-topology&family=australia&ft:locale=en-US)**
+
+Topology map icons updated to support dark theme colour contrast.
 
 
+ -   **[IP address management](https://www.servicenow.com/docs/access?context=ip-address-management&family=australia&ft:locale=en-US)**
+
+The IP Pool menu and records are now labeled as IP Address Block throughout the Network Inventory Workspace and Service Operations Workspace.
 
 
 </td></tr></tbody>
@@ -387,7 +405,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -395,7 +416,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install TNI](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -403,7 +427,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install TNI](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=australia&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -432,8 +459,9 @@ Zurich
 
 </td><td>
 
--   You must install Telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) and Customer Service Problem Management \(sn\_sprb\_mgmt\) plugin to view incident and alert details.
--   You must install the Indoor Mapping plugin \(sn\_map\_core\) to create and manage floor maps for data centers.
+-   **Additional requirements**
+    -   You must install Telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) and Customer Service Problem Management \(sn\_sprb\_mgmt\) plugin to view incident and alert details.
+    -   You must install the Indoor Mapping plugin \(sn\_map\_core\) to create and manage floor maps for data centers.
 
 </td></tr><tr><td>
 
@@ -441,7 +469,10 @@ Australia
 
 </td><td>
 
+-   **Additional requirements**
+
 You must install Customer service install base management \(sn\_cs\_sm\_request\) plugin and Remote Hands plugin from the ServiceNow Store to use the Remote Hands feature.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -515,7 +546,10 @@ Australia
 
 </td><td>
 
+-   **Accessibility information**
+
 Improved overall accessibility across Network Inventory application, focusing on keyboard navigation, screen readers, zoom levels, colour contrast, and text spacing.
+
 
 </td></tr></tbody>
 </table>## Localization information

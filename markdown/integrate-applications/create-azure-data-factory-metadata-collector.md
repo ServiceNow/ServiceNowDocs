@@ -18,8 +18,8 @@ Create a collector to import metadata from Azure Data Factory.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   All per-requisite tasks are completed. For more information, see [Prepare to run the Azure Data Factory collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-azure-data-factory-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,7 +47,26 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Enter the Azure Data Factory authentication details.
+7.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Enter the Azure Data Factory authentication details.
 
     |Field|Description|
     |-----|-----------|
@@ -56,14 +75,14 @@ Before you begin, verify the following:
     |Azure subscription ID|The subscription ID in which the data factories are available.|
     |Microsoft Entra Tenant ID|Azure Active Directory application tenant ID for the Azure Data Factory app.|
 
-8.  Enter the Azure Data Factory configuration details.
+9.  Enter the Azure Data Factory configuration details.
 
     |Field|Description|
     |-----|-----------|
     |Include Data Factory name\(s\)|Names of data factories to catalog. Enter either the exact name or a regular expression to match. List one data factory name per line.|
     |Exclude Data Factory name\(s\)|Names of data factories to exclude from cataloging. Enter either the exact name or a regular expression to match. List one data factory name per line.|
 
-9.  Configure the advanced options.
+10. Configure the advanced options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -90,7 +109,7 @@ Retry delay
 The number of seconds to wait between retry attempts for a failed API call.Default: 2 seconds
 
 </td></tr></tbody>
-</table>10. Select **Save**.
+</table>11. Select **Save**.
 
 
 ## Result

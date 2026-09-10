@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Without guided setup, Setting up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up instance for CPQ integration
@@ -24,11 +24,13 @@ Role required: admin
 
     1.  Navigate to https://&lt;service\_instance\_url&gt;/oauth\_entity.do?sys\_id=3b119df83b566210a0c0989e53e45a15
 
-    2.  Check that the CPQ.AI Admin UI Application Registry exists with a ClientID and secret.
+    2.  Check that the CPQ Admin UI Application Registry exists with a ClientID and secret.
 
         This information is used later.
 
 2.  In a directory on your local machine, generate the private and public certificates by using the `openssl` tool, then use `keytool` to convert the certificate from PKCS to JKS format.
+
+    **Note:** Skip this step if the CPQ integration is above 3.1 on the Australia ServiceNow Instance
 
     1.  Create the private key by using the command `openssl genrsa -out private.key 2048`.
 

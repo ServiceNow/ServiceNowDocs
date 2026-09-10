@@ -193,6 +193,8 @@ The roles associated with action items are listed in the table.
 |Viewers|Can read all action items.|
 |Recovery event/Plan owner|Can read and update all action items that they are assigned to.|
 
+-   **[Action item collaborator synchronization with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/action-item-collaborators-smart-assessment-sync-events.md)**  
+When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 -   **[Create task and assessment-type action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-action-items-in-events.md)**  
 Use integration of events and Smart Assessment for creating necessary action items related to an event.
 

@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -41,6 +41,7 @@ With ServiceNow Otto for SAM generative AI skills, organizations gain the follow
 -   Generate user resolution rules to support accurate mapping of incoming subscription data to SAM users.
 -   Create entitlements by extracting information from software contracts, reducing manual effort.
 -   Resolve entitlement import errors by normalizing the unresolved Publisher and Product field value.
+-   Identify software purchases in imported spend transactions, extract raw publisher and raw product values, and match them to existing publisher and product records in Software Asset Management Content Library for accurate spend reporting.
 
 For more information about AI capabilities in ServiceNow Otto for SAM, see the following:
 

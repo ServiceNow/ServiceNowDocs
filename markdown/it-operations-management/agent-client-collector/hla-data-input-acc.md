@@ -26,8 +26,6 @@ Agent Client Collector setup automatically creates an ACC data input for streami
 
 **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
-**Note:** Currently, this setup only supports basic authentication with the MID Server. mTLS is not supported.
-
 Role required: evt\_mgmt\_admin
 
 ## Procedure

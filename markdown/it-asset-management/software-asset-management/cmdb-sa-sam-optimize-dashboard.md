@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [manage SAM advisor scope, edit dashboard scope, SAM software product selection]
 breadcrumb: [Set up advisor, Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
@@ -31,7 +31,13 @@ Control which software products are included in the SAM advisor dashboard in CMD
 
 2.  Review your previously selected software products, shown as already selected in the Edit dashboard scope dialog box.
 
-    Add or remove software products using the same actions described in [Get started with CMDB success advisor setup for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cmdb-sa-sam-get-started.md).
+    |Action|Result|
+    |------|------|
+    |Select **Select all** for an expanded publisher.|Adds every available software product for that publisher to your selection.|
+    |Select the check box next to an individual software product.|Adds that software product to your selection.|
+    |Select **Remove** next to a product in the selected products list.|Removes that software product from your selection.|
+
+    **Note:** Only software products with a licensable product type that are flagged for reporting are available for selection. You can select up to 200 software products by default.
 
 3.  Select **Save** to apply the changes.
 

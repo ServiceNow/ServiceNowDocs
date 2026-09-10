@@ -8,7 +8,7 @@ product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -97,11 +97,11 @@ Configuration table
 
 </td><td>
 
-Table that contains the configuration flow for the kiosk.For example, for visitor check in, select the Kiosk Check-in Flow Configuration \[sn\_wsd\_visitor\_checkin\_flow\_configuration\] table.
+Table that contains the configuration flow for the kiosk. A configuration flow specifies the pages and features for the kiosk.For example, for visitor check in, select the Kiosk Check-in Flow Configuration \[sn\_wsd\_visitor\_checkin\_flow\_configuration\] table.
 
-For visitor check out, select the Kiosk Check-out Flow Configuration \[sn\_wsd\_visitor\_checkout\_flow\_configuration\] table.
+For visitor check out, select the Kiosk Check-out Flow Configuration \[sn\_wsd\_visitor\_checkout\_flow\_configuration\] table. For more information about visitor management flows, see [Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)
 
-For a kiosk indoor map, select the Kiosk indoor mapping feature configuration \[sn\_wsd\_indoor\_map\_feature\_configuration\] table.
+For a kiosk indoor map, select the Kiosk indoor mapping feature configuration \[sn\_wsd\_indoor\_map\_feature\_configuration\] table. For more information about indoor mapping flows, see [Configure map features for kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/config-map-features.md).
 
 </td></tr><tr><td>
 

@@ -114,8 +114,6 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 
 [Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates]()
-
 [Assign Health and Safety profile to a user]()
 
 [Add a Health and Safety visitor]()

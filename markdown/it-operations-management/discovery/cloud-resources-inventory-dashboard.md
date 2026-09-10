@@ -112,7 +112,7 @@ Cloud Analytics \[sn\_disco\_cd\_analytics\]
 
 This report displays the count of the top 10 CI classes discovered over time.You can select a report entry from the Configuration item classes report to view the analytics table on which the report entry is based. If you've selected a specific cloud provider, then the analytics table of that specific CI appears. Otherwise, the parent analytics table for that CI type appears.
 
- For example, if you select Google from the Cloud resources filter and select the Storage Volume bar from the report, the dedicated analytics table of the Google Storage Volume CI appears. If you select All Platforms from the Cloud resources filter and select the Storage Volume bar from the report, the parent analytics table of the storage volume CI appears.
+ For example, selecting Google from the Cloud resources filter and the Storage Volume bar opens the dedicated Google Storage Volume CI analytics table. If you select All Platforms from the Cloud resources filter and select the Storage Volume bar from the report, the parent analytics table of the storage volume CI appears.
 
 </td></tr><tr><td>
 

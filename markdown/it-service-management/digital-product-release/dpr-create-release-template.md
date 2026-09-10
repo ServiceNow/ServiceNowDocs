@@ -7,7 +7,7 @@ release: australia
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-31"
 reading_time_minutes: 10
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -215,15 +215,15 @@ Edit the release template
 
 </td><td>
 
-1.  Select the more actions button \(\[Omitted image "dpr-icon-more-actions.png"\] Alt text: More actions button icon.\) and select **Edit**.
-2.  In the Edit template pop-up window, select **Yes** to confirm editing.
+1.  Select **Edit release template**.
+2.  In the Edit release template pop-up window, select **Yes** to confirm editing.
 
-The release template becomes inactive and can't be used for creating a release.
+The release template status is set to inactive and can't be used can't be used to create a release.
 
 The release template opens in the Playbook for editing.
 
 3.  Update the template to add or change the phases, tasks, key dates, and policies as needed.
-4.  To save all the changes in the template, select **Mark as done** in the Policies activity.
+4.  To save the changes in the template, select **Mark as done** in the Policies activity.
 
 </td></tr><tr><td>
 

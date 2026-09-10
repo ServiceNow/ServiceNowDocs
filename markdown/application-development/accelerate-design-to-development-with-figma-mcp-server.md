@@ -18,6 +18,8 @@ MCP connections enable Build Agent to access external tools and resources throug
 The following MCP connections are currently supported for Build Agent:
 
 -   Atlassian Rovo
+-   AWS DevOps
+-   Box
 -   Docusign
 -   Figma
 -   Linear
@@ -46,7 +48,7 @@ For details on adding a new MCP connection in Workflow Data Fabric, see [Model C
 
 An example prompt: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 
-**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE, though you must be on Australia Patch 3 or higher to use MPC servers with Build Agent in ServiceNow Studio.
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
 ## Approve and activate MCP servers
 
@@ -58,6 +60,8 @@ The end-to-end flow for making an MCP server available is:
 2.  The administrator approves the server as an AI asset in AI Control Tower.
 3.  You authenticate the connection in Personal Integrations.
 4.  You enable the MCP server in Build Agent settings.
+
+For details on enabling MCP connections, see [Client registration using custom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-custom.md).
 
 Individual MCP servers are enabled by default, but the complete flow must be completed before any server is available for use.
 

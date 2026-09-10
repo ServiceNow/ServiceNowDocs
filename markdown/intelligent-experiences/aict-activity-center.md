@@ -21,7 +21,7 @@ Track and act on the governance work generated across AI Control Tower from a si
 -   Distinguish work assigned to you, work your team owns, work with no owner, and work you've submitted, so you can focus on what's yours and route what isn't. Team-level visibility is available to the AI steward.
 -   Resolve AI-generated recommendations directly or hand them off to the part of AI Control Tower where the resolution happens.
 
-\[Omitted image "aict-activity-center.png"\] Alt text: Tasks in Activity Center grouped by Task type.
+\[Omitted image "aict-activity-center.png"\] Alt text: Unassigned lifecycle tasks in Activity Center.
 
 ## Required roles
 

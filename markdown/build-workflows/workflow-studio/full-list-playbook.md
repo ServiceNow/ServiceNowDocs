@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Running Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Open full lists within playbook
@@ -24,5 +24,5 @@ A new tab opens to show a full list, as shown in the following image.
 
 \[Omitted image "playbook-list-tab.png"\] Alt text: Playbook List Tab example
 
-**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

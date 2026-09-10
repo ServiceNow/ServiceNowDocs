@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [MITRE-ATT&amp;CK Repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Manage Matrices
@@ -32,6 +32,10 @@ Role required: sn\_sec\_tisc.analyst
 
     **Note:** You can enable only those matrices that are relevant to your organization.
 
+    **Note:**
+
+    A matrix name includes the MITRE ATT&amp;CK collection version that the matrix was ingested from, so that you can tell which MITRE release the data reflects. For example, Enterprise ATT&amp;CK \(v18.0\).
+
 3.  Select any Matrix record and click **Disable** if you want to disable any specific record.
 
 4.  Alternatively, you can create new matrices record by clicking **New** to manually to create the MITRE ATT&amp;CK matrices.
@@ -42,6 +46,7 @@ Role required: sn\_sec\_tisc.analyst
     |-----|-----------|
     |Name|Enter the name of the matrix.|
     |Source|Specifies the threat source from which this record is created.|
+    |MITRE Collection Version|Version of the MITRE ATT&amp;CK collection that this matrix was ingested from. The value is set during ingestion and appears in the matrix name.|
     |Active|Select this check box to active the matrix record.|
     |Created Time In Source|Specifies the time the object is created in the source.|
     |Modified Time In Source|Specifies the time the object is modified in the source.|
@@ -53,5 +58,5 @@ Role required: sn\_sec\_tisc.analyst
     |Comments|Add any comments that you might have in addition.|
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
+**Parent Topic:**[MITRE-ATT&amp;CK repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 

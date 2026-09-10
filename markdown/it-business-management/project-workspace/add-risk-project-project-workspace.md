@@ -32,9 +32,7 @@ For information about RIDAC records for project management, see [Adding RIDAC re
 
     For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
-2.  Navigate to **RIDAC** &gt; **All RIDAC**.
-
-    The All RIDAC page displays all RIDAC records for the project in a single grid view, including Risks, Issues, Decisions, Actions, and Change Requests.
+2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
 3.  From the More actions menu, select the type of RIDAC record that you want to create.
 

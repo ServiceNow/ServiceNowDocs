@@ -34,7 +34,7 @@ Navigate to **All** &gt; **AI Agent Studio** to begin. Every AI agent is compose
 
 -   **Instructions \(the prompt\)**
 
-    Defines who the agent is, what it can do, how it should behave, and what it must never do. This is the most important configuration artifact. See [General guidelines for creating AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md) for guidelines on writing effective agent instructions.
+    Defines who the agent is, what it can do, how it should behave, and what it must never do. This is the most important configuration artifact. See [General guidelines for writing prompts for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md) for guidelines on writing effective agent instructions.
 
 
 ## Configure tools

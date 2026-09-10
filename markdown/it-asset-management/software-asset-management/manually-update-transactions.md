@@ -1,20 +1,20 @@
 ---
-title: Manually update transactions
-description: Manually update imported software transactions that weren't automatically labeled with a software product and publisher to track all software spending.
-locale: en-US
+title: Manually create a spend transaction
+description: Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
+locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manually-update-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Manually update transactions
+# Manually create a spend transaction
 
-Manually update imported software transactions that weren't automatically labeled with a software product and publisher to track all software spending.
+Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
 
 ## Before you begin
 
@@ -22,26 +22,55 @@ Role required: sam\_user
 
 ## About this task
 
-Sometimes, Software Spend Detection can't match a transaction to a software publisher and product. If Software Spend Detection can identify the publisher but not the product, the transaction is categorized as Unnormalized in the list of products for that publisher in the Software Spend Detection dashboard. The transaction amount is added to the total cost for that publisher. If Software Spend Detection can't identify the publisher, the transaction is added to **Unnormalized Transactions** and is excluded from the Software Spend Detection dashboard. The transaction amount isn't included in any of the spend amounts shown on the dashboard.
+Manual creation is useful for one-off software purchases or spend records that aren't captured in your accounts payable import file. Manually created transactions appear in the All transactions list along with imported transactions.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Unnormalized Transactions**.
+1.  Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **All transactions**.
 
-    **Note:** By default, this list shows only transactions identified as software by Software Spend Detection. To include transactions not identified as software, remove the filter condition **Is software = true**.\[Omitted image "spend-manually-update.png"\] Alt text: Remove the Is software = true filter condition by selecting the arrow in the filter.
+2.  Select **New**.
 
-2.  Select a transaction date.
+    The **Create New Software spend transactions** form appears with the **State** field set to **New**.
 
-3.  Select values for the **Publisher** and **Product** fields.
+3.  Under **Overview**, complete the mandatory fields.
 
-    **Note:** You can create software publishers and products directly from this form by selecting the Lookup using list icon \[Omitted image "List\_SearchIcon.png"\] next to the field and then selecting **New**.
+    -   **Description**
 
-4.  Clear or select the **Is software** check box to indicate if the transaction is a software purchase.
+        Enter a short description of the transaction.
 
-5.  Select **Update**.
+    -   **Amount**
 
-    The transaction is removed from the list of unnormalized transactions and is added to the Software Spend Detection dashboard.
+        Enter the transaction amount and select the currency.
+
+    -   **Transaction date**
+
+        Enter or select the date of the transaction in YYYY-MM-DD format.
+
+4.  Complete other **Overview** fields as needed.
+
+    Include the vendor name, GL account, source system, and transaction type. If you already know the publisher and product, select the **Is software** check box and populate the **Publisher** and **Product** fields.
+
+5.  Expand the **More details** section and complete any organizational or employee fields.
+
+    You can associate the transaction with a cost center, department, location, or employee record for reporting and tracking purposes.
+
+    To exclude this transaction from being shared with the Software Asset Management Content Library team, select the **Exclude from content service** check box.
+
+6.  Select **Save**.
+
+    The transaction is created with the **State** field set to **New** and appears in the All transactions list. The **SAM - Label Spend Transactions** scheduled job processes the transaction on its next run.
+
+    If you provided the valid values for **Is software**, **Publisher**, or **Product** fields during creation, the state changes to **Manually labeled** after save. For details on state values, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 
 **Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+
+**Related topics**  
+
+
+[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-spend-transactions.md)
+
+[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+
+[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)
 

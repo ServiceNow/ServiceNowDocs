@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-domainseparation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -251,7 +251,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -259,7 +262,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -267,7 +273,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Domain Separation is a ServiceNow AI Platform feature available with activation of the `com.glide.domain.activation_utility` plugin. For details, see [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-18"
 reading_time_minutes: 8
 breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -106,30 +106,6 @@ Provides access to all Content Experiences content. This includes:Creating and s
 -   sn\_esign.config\_manager
 -   sn\_cda.analytics\_reader
 -   sn\_cd.content\_approver
-
-</td></tr><tr><td>
-
-Content Publishing Analytics Admin\[sn\_cda.analytics\_admin\]
-
-</td><td>
-
-Required to set up an analytics profile.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Content Publishing Analytics Reader\[sn\_cda.analytics\_reader\]
-
-</td><td>
-
-Can access and view analytics reports.
-
-</td><td>
-
-None
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed
@@ -238,9 +214,9 @@ Defines the to-do content.To-do content are tasks assigned to employees that can
 
  Users verify task completion by:
 
--   Button click
+-   Button select
 -   Video launch
--   Link click
+-   Link select
 
 </td></tr><tr><td>
 
@@ -336,6 +312,26 @@ Link Content \[sn\_cd\_url\_asset\]
 URL links to information to appear on the Employee Center.
 
 </td></tr></tbody>
+</table><table id="table_sg5_1k2_hkc"><thead><tr><th>
+
+Tags
+
+</th><th>
+
+Tables
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_kg\_tag
+
+</td><td>
+
+-   sn\_cd\_content\_base
+-   sn\_cd\_content\_portal
+-   sn\_cd\_content\_news
+-   sn\_cd\_company\_event
+
+</td></tr></tbody>
 </table>## Widgets installed
 
 <table id="table_jm3_3kr_rdb"><thead><tr><th>
@@ -396,7 +392,7 @@ cd-content-todo
 
 </td><td>
 
-This widget is part of the HR to-do completion process used in the Employee Service Center, but cannot be used as a standalone widget.
+This widget is part of the HR to-do completion process used in the Employee Service Center, but can't be used as a standalone widget.
 
 </td></tr><tr><td>
 
@@ -480,7 +476,7 @@ cd-news-header
 
 </td><td>
 
-Appears on the Article details page and holds the headline, subheadline and image thumbnail.
+Appears on the Article details page and holds the headline, sub-headline and image thumbnail.
 
 </td></tr><tr><td>
 
@@ -605,7 +601,7 @@ cd-banner
 Shows portal content with content type of Banner. Generally used to show informative banners/text. Shows in a carousel when there are multiple items.
 
 </td></tr></tbody>
-</table>**Note:** These widgets support the Content Experience widget; they are not mean to be used directly in the portal: CD Preview widget, CE Banner content, CE Carousel Layout, CE List Layout, CE Styled Content, and CE Tile Layout.
+</table>**Note:** These widgets support the Content Experience widget; they aren't mean to be used directly in the portal: CD Preview widget, CE Banner content, CE Carousel Layout, CE List Layout, CE Styled Content, and CE Tile Layout.
 
 **Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 

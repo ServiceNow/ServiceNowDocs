@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-predictiveintelligence-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -116,10 +116,6 @@ Australia
 
 Usage Analytics dashboard is a central location to understand the adoption, effectiveness, and overall value of all your Predictive Intelligence solutions. Dashboard widgets offer several metrics such as total monthly count of predictions per solution type.
 
--   **Sys property: [ML Trainer - Glide communication KAA](https://www.servicenow.com/docs/access?context=predictive-intelligence-properties&family=australia&ft:locale=en-US)**
-
-A sys property \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation to the ML Trainer server. KAA validation occurs only if mTLS is enabled on the instance. If this property is enabled but mTLS isn't enabled, the KAA validation is skipped. Default value is true \(from the Australia release\).
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -148,7 +144,12 @@ Zurich
 
 </td><td>
 
--   **Validation logic ensures that Predictive Intelligence can access data tables**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **Validation logic ensures that Predictive Intelligence can access data tables**
 
 Reduce errors while training Predictive Intelligence models with the help of new validation logic. This validation checks whether your data tables have ACLs \(Access Control Lists\) granting access to Predictive Intelligence.
 
@@ -254,7 +255,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Predictive Intelligence is a ServiceNow AI Platform feature that is available with activation of the Predictive Intelligence plugin \(com.glide.platform\_ml\). For details, see [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -262,7 +266,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Predictive Intelligence is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -270,7 +277,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Predictive Intelligence is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -373,7 +383,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

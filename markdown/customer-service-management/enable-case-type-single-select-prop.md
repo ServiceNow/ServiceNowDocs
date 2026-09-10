@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-In CSM Configurable Workspace, there are three versions of the case type selector available to agents when creating cases of a specific type.
+In CRM Workspace, there are three versions of the case type selector available to agents when creating cases of a specific type.
 
 -   With the multi-select version, the agent selects a case type and optionally selects a category and subtype to narrow the available choices before creating a case. This is the default functionality.
 -   With the single-select version, the agent selects a case type and creates a case. The system populates some of the fields on the Case form with values that have been predefined in the selection configuration.

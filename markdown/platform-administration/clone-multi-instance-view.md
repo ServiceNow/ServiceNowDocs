@@ -1,6 +1,6 @@
 ---
-title: Multi-Instance View Overview
-description: Explain what MIF is, when to use it, and key benefits
+title: Multi-Instance View overview
+description: Multi-Instance View enables you to monitor and manage clone operations across multiple linked instances from a single primary instance. Use it to view clone status, track refresh history, and view cleanup script status without logging into each instance separately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-multi-instance-view.html
 release: australia
@@ -10,13 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Multi-Instance View Overview
+# Multi-Instance View overview
 
-Explain what MIF is, when to use it, and key benefits
+Multi-Instance View enables you to monitor and manage clone operations across multiple linked instances from a single primary instance. Use it to view clone status, track refresh history, and view cleanup script status without logging into each instance separately.
 
-Multi-Instance View enables you to view Instance Clone operations across multiple linked instances on the Clone Admin Console. Instead of logging into each instance separately, you can view all clones and their status from a primary instance.
-
-## Instance Clone multi-instance view
+## Instance Clone Multi-Instance view
 
 Use Instance Clone Multi-Instance View to manage clones centrally across multiple linked instances. Instead of logging into each instance individually, administrators submit clone requests, monitor status, and manage configurations from a primary instance.
 
@@ -25,11 +23,11 @@ Some of the key benefits of using Multi-Instance View are:
 -   View all clone requests across instances on the Clone Admin Console
 -   See which instances were last cloned and how recently
 
-Consider implementing Multi-Instance View if you need:
+Consider enabling Multi-Instance View if you need:
 
 -   Centralized visibility into clone status and history across all instances
 -   Quick identification of stale instances needing data refresh
--   Unified management without logging into each instance separately
+-   View cleanup script status without logging into each instance separately
 
 \[Omitted image "instance-clone-dashboard.png"\] Alt text: The Clone Admin Console dashboard with Multi-View Instance feature enabled.
 

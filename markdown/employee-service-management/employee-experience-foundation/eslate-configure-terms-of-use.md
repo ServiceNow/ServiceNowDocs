@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-07"
 reading_time_minutes: 1
 keywords: [Employee Slate, terms of use, attestation]
-breadcrumb: [Employee Slate home, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks home, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure terms of use attestation

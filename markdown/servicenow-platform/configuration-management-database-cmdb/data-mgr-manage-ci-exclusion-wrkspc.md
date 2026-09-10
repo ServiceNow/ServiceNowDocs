@@ -1,6 +1,6 @@
 ---
 title: Manage exclusion lists for CMDB Data Manager
-description: Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace or in Service Graph Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
+description: Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration M
 
 # Manage exclusion lists for CMDB Data Manager
 
-Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspaceor in Service Graph Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
+Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
 
 ## Before you begin
 
@@ -26,10 +26,8 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select the **Data Manager** quick link on the Home view.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
 2.  Select **Excluded records** in the left-side bar.
 
     The Excluded records list view shows lists of all records currently excluded, grouped by policy type. You can expand any group to show its CIs and other records and then drill down to any record.

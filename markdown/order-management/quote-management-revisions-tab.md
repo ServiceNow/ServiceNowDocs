@@ -24,7 +24,7 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Select **Quotes****All**.
 

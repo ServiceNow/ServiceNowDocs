@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforordermanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -66,40 +66,6 @@ Release notes
 Zurich
 
 </td><td>
-
-[Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
-
--   **[AI-powered invoice case management for customers](https://www.servicenow.com/docs/access?context=dispute-invoice-issues-now-assist&family=zurich&ft:locale=en-US)**
-
-Enable customers to report quantity-related invoice disputes through an AI-powered virtual assistant on the Business Portal. Customers can describe the discrepancies through natural conversation, and the assistant validates details, creates cases, and autonomously resolves eligible disputes by issuing credit notes or replacement orders, or connects customers with a human agent when needed.
-
--   **[Invoice dispute intake with voice assistant](https://www.servicenow.com/docs/access?context=now-assist-invoice-mgmt-voice-aiagent&family=zurich&ft:locale=en-US)**
-
-Enable customers to report quantity-related invoice disputes using voice commands through an AI-powered voice assistant on the Business Portal. Customers can describe discrepancies through natural speech and the assistant captures dispute details to create invoice cases or connects customers with a human agent.
-
--   **[Human agent handoff with context transfer](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&family=zurich&ft:locale=en-US)**
-
-Help customers to escalate complex disputes seamlessly to a live agent. The full conversation context, including invoice details, dispute reason, and prior AI actions are transferred to the CSM/FSM Configurable Workspace, enabling live agents to continue without asking customers to repeat information.
-
--   **[Now Assist for invoice case resolution](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&family=zurich&ft:locale=en-US)**
-
-Help accelerate invoice dispute resolution by surfacing similar cases and common resolution patterns in the Now Assist panel. Agents can request help with an invoice case to view how similar disputes were resolved, reducing research time and improving consistency.
-
--   **[Automated email notifications for invoice cases](https://www.servicenow.com/docs/access?context=now-assist-order-management-using&family=zurich&ft:locale=en-US)**
-
-Keep customers informed with automated email notifications at key points in the invoice case life cycle, including case creation confirmation, resolution details with credit note or replacement order information, and the next steps for cases requiring human review.
-
--   **[Return Merchandise Authorization](https://www.servicenow.com/docs/access?context=return-merchandise-authorization&family=zurich&ft:locale=en-US)**
-
-Leverage the RMA AI agent for automated entitlement and case handling with the following features:
-
-    -   Automates entitlement checks with real‑time warranty validation
-    -   Selects best‑fit resolution and sends for customer approval
-    -   Generates recommended actions when no valid entitlement is found
-    -   Provides proactive case updates and follow‑ups
-    -   Answers customer queries and handles multi‑intent emails
-
-[Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
 
 -   **[Enable the manage order operations agent in the Business Portal](https://www.servicenow.com/docs/access?context=enable-manage-order-operations-ai-agent&family=zurich&ft:locale=en-US)**
 
@@ -237,7 +203,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Request the ServiceNow Otto for Order Management application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/b75a55a63f71b6108428dd8d001f8bca) and install it using the ServiceNow® Application Manager. For more information, see [Install an application](https://www.servicenow.com/docs/access?context=t_InstallApplications&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -295,7 +264,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

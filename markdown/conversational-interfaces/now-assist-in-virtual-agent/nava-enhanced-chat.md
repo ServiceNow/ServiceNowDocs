@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 26
+reading_time_minutes: 25
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
@@ -45,7 +45,7 @@ You can start the chat experience either through the chat icon on the portal's s
 
 \[Omitted image "dw-syntheszied-response-search-bar-request-variations.png"\] Alt text: Portal search page results with entry points into chat.
 
-\[Omitted image "nass-chat-widget-button-portal.png"\] Alt text: Chat widget button on portal.
+\[Omitted image "nava-chat-widget-button-portal.png"\] Alt text: Chat widget button on portal.
 
 After selecting the chat widget button on the portal, the floating chat window opens and replaces the chat button. A greeting message appears, and a chat is created only after you have entered an initial utterance. If you have an active chat ongoing, the current active chat appears instead of a greeting message. You can select a predefined action, topic, suggested search query, start a new conversation, or view all options, if applicable. The **View all options** link only shows if more than one suggested search query or promoted topic is available.
 
@@ -158,8 +158,6 @@ You can create a new query from within a ServiceNow Otto conversation using mid-
 
 If AI Guardian is enabled and your request contains profane content, the Virtual Agent responds with a message prompting you to re-enter an appropriate request without profanity or offensive content.If your request is too ambiguous on the portal search, a synthesized response appears along with an **Ask a follow up** option. Selecting the **Ask a follow up** option redirects you to a Virtual Agent chat. In the Virtual Agent chat, you can submit your follow-up question or request, but the synthesized response links are only available to select on the portal page and are unavailable to select in the chat window. If your follow-up question or request is too ambiguous in the Virtual Agent chat, Virtual Agent asks a clarifying question and displays the go to search results icon \(\[Omitted image "nass-search-result-icon.png"\] Alt text: Go to search results icon.\) in the feedback panel.
 
-\[Omitted image "enhanced-chat-ask-follow-up-example.png"\] Alt text: Ask a follow up from the portal's synthesized response leads to a Virtual Agent chat where you can enter additional content.
-
 Responses generated in ServiceNow Otto for Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
 
 -   Catalog
@@ -181,7 +179,7 @@ Depending on the context of the response, an additional go to search results ico
 
 ## Agentic conversations
 
-**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md). ServiceNow Otto for Virtual Agent discovers and executes AI agents. For more information about AI agents, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
+**Note:** Admins must first enable AI agents before end users can experience agentic conversations. For more information on how to set up AI agents for agentic conversations, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md). ServiceNow Otto for Virtual Agent discovers and executes AI agents. For more information about AI agents, see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md).
 
 When you submit a single question to the Virtual Agent, the agent understands the query and begins a flow. When you submit a message with multiple questions or requests, Virtual Agent answers the multiple questions consecutively in a response. It can reason, plan, and execute across AI agents, Virtual Agent topics, conversational actions and subflows, catalogs, Knowledge Base articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you. Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen messages to let you know where the agent is at in the agentic processing flow. After the processing has completed its flow, a View AI Steps section header appears, where the processing flow steps can be expanded and viewed. You can stop the agentic processing flow at anytime by selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\). After an action starts, it cannot be stopped. Selecting the End flow icon \(\[Omitted image "agentic-end-flow-icon.png"\] Alt text: End flow icon.\) only stops the proceeding processing steps.
 
@@ -190,10 +188,6 @@ When you submit a single question to the Virtual Agent, the agent understands th
 ## Catalog citation
 
 If you're accessing the catalog citation through the synthesized response popover, the popover options vary depending on where you’re located. The only popover option when in chat is the **Start request** option which begins the catalog action within the chat. There are two popover options when you select the synthesized response through the portal's search bar: \[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request with form icon.**Request with form** and \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.**Request in chat**. Similar options also appear in the regular search results area, as indicated by the request in chat icon \( \[Omitted image "nass-chat-bubble-icon.png"\] Alt text: Request in chat icon.\) and request with form icon \(\[Omitted image "nass-open-new-tab-icon.png"\] Alt text: Request in form icon.\). Depending on your selection, the catalog request flow launches within either the Virtual Agent chat or a form.
-
-\[Omitted image "dw-syntheszied-response-search-bar-request-variations.png"\] Alt text: Example showing Miro access being requested with a popover explaining you can request access with a form or in the chat.
-
-\[Omitted image "nass-dw-kb-catalog-yp6.png"\] Alt text: Synthesized response with catalogs and knowledge base articles.
 
 If you chose to complete the catalog request through chat, after the catalog order is complete, Virtual Agent displays a summary card for the order.
 
@@ -262,10 +256,6 @@ Information about people in your organization can be found if you have activated
 
 Information about the person you're searching for appears in the synthesized response, along with an inline people citation. If a direct match doesn't occur and multiple people are found, try providing more information to narrow down the people search results. Up to three people can appear in a synthesized response. You may be asked a clarifying question, such as `Are you asking about [user_1], the programmer, or [user_2], the faculty member?` to yield better results. Selecting the person's name redirects you to the portal's user profile landing page.
 
-\[Omitted image "NASS-synthesized-response-search-bar.png"\] Alt text: People results appear in the synthesized response on the portal's search results page and provide details such as the person's name, position, location, and email.
-
-\[Omitted image "NASS-dw-people-citation-yp6.png"\] Alt text: People results appear in the synthesized response and provide details such as the person's name, position, location, and email.
-
 Selecting the person's name presents a popover. The information in the popover can include the following information:
 
 **Note:** The following popover details can be customized through EVAM. For more information about customizing the data details, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md).
@@ -286,11 +276,11 @@ Selecting the person's name presents a popover. The information in the popover c
     **Note:** Selecting **View org chart** opens the interactive view to the right of the chat conversation. The person's information is shown along with their reporting structure in their company's organization chart. You can view and select contact options in the reporting structure of the organization chart. Secondary links like **View profile** open in a new tab and do not disrupt the conversation.
 
 
-\[Omitted image "NASS-dw-people-citation-hover-card-yp10-zp4.png"\] Alt text: People popover card appears when selecting Lucius Bagnoli and presents information about Lucius.
+\[Omitted image "NASS-dw-people-citation-hover-card-yp10-zp4.png"\] Alt text: People popover card appears with information about org chart or person's profile.
 
 Although rare, when you receive a synthesized response that includes a person, you may also receive other citations associated with that person. For example, a Knowledge Base article that was authored by the person you searched for may also appear.
 
-**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
+**Note:** If you have activated Knowledge Graph, you may get more personalized Q&amp;A Knowledge Base responses depending on whether the user schema attributes were triggered. For more information about receiving these personalized responses, see [Knowledge Graph integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto® panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
 ## Extended entities and view records
 
@@ -308,8 +298,6 @@ These extended entities that come from the additional custom tables associated w
 
 Select an entity in-line citation to view that entity record in a new tab, or select **View records** to view a list of additional entities. Selecting a link from the **View records** pop-up opens a new tab with that entity table's data.
 
-The following example is of a conversation showing 3 out of 11 incidents and the option to view records to view additional users and incident records.
-
 \[Omitted image "dw-kg-nlq-view-records.png"\] Alt text: Example conversation.
 
 ## Chatting with a live agent in Virtual Agent
@@ -318,7 +306,7 @@ You can chat with a live agent if you need more support. Select the **Contact Li
 
 **Note:** When enhanced chat is turned on, post-chat surveys only appear after a live agent conversation has ended.
 
-\[Omitted image "dw-end-live-chat-yp6.png"\] Alt text: End live chat button appears in a banner at the top of the chat.
+\[Omitted image "dw-premium-live-agent-example.png"\] Alt text: End live chat button appears in a banner at the top of the chat.
 
 ## Fallback options
 

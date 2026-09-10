@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [ServiceNow, Health Log Analytics, HLA, Azure Event Hubs, MID-less, integration, configuration]
 breadcrumb: [MID-less integrations, Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -19,13 +19,15 @@ Set up an integration for streaming events from Microsoft Azure Event Hubs to yo
 
 ## Before you begin
 
+Set up MID-less log streaming via ITOM Gateway. Choose the deployment method based on your expected log volume. For more information, see [MID-less log streaming via ITOM Gateway in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-midless-streaming.md).
+
+As an alternative to the provided procedure, you can set up MID-less integrations for HLA from an AI-enabled MCP Client, without opening the ServiceNow UI. For more information, see [MID-less log ingestion for HLA from an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-mcp-server-hla-ingest.md).
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
 This Microsoft Azure Event Hubs integration eliminates the need for a MID Server, which simplifies setup and enables more efficient log data ingestion into your instance. By removing the MID Server requirement, log data collection and processing are streamlined to promote faster analysis and root cause identification.
-
-You set up integrations through the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/integrations-launchpad.md).
 
 ## Procedure
 

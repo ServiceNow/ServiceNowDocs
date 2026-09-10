@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -16,6 +16,10 @@ breadcrumb: [Security Incident Response Workspace, Security Incident Response, E
 
 Security Analysts and managers use SIR Workspace to perform day-to-day operations with an improved user experience, do complete incident investigation, and get an overview.
 
+-   **[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-for-security.md)**  
+Security analysts can close security incidents quickly from within their flow of work with the generative AI skills supported by ServiceNow Otto for Security Incident Response \(SIR\).
+-   **[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)**  
+Use the Security Incident Response AI agentic workflows to complete security incident tasks.
 -   **[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)**  
 The Security Incident Record consists of the following.
 -   **[Security Incident Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-playbook.md)**  

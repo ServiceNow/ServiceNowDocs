@@ -1,9 +1,9 @@
 ---
 title: SPM Enterprise-Wide Deployment release notes
-description: The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.
+description: The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-05-15"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.
 
-## SPM Enterprise-Wide Deployment highlights for the Australia release
+## About SPM Enterprise-Wide Deployment
 
 -   Separate and control record visibility across functions using partitions.
 -   Enforce partition visibility automatically across Project Workspace, Portfolio Planning Workspace, Resource Management Workspace, and Strategic Planning Workspace.
@@ -20,9 +20,22 @@ The ServiceNow® SPM Enterprise-Wide Deployment application provides data partit
 
 See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ewd-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Enterprise-Wide Deployment is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## SPM Enterprise-Wide Deployment features
+-   **Activation information**
+
+    Install Enterprise-Wide Deployment by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
+
+## Australia
+
+The ServiceNow® SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. Enterprise-Wide Deployment is a new application in the Australia release.
+
+### What's new
 
 -   **[Partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-partition-ewd.md)**
 
@@ -53,11 +66,7 @@ See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNo
     Populate partition details on records in the project, demand, program, portfolio, and planning item tables that were created before partition configuration was completed. Run this job only after completing partition configuration and assigning partition roles to users or user groups.
 
 
-## Activation information
-
-Install Enterprise-Wide Deployment by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Plugin information
+### Plugin information
 
 -   **New plugins**
 
@@ -65,25 +74,4 @@ Install Enterprise-Wide Deployment by requesting it from the ServiceNow Store. V
 
     Enterprise-Wide Deployment \(sn\_spm\_ewd\): Provides data partitioning capabilities that enable organizations to separate and control record visibility across departments and business units.
 
-
-## Related ServiceNow applications and features
-
--   **[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace-landing-page.md)**
-
-    As a project manager, use the ServiceNow® Project Workspace for an intuitive user experience that enables you to plan and manage your projects.
-
--   **[Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/planning-in-spw.md)**
-
-    As a product or portfolio manager, use the Portfolio Planning in Strategic Planning Workspace to align work with strategy across the organization, while facilitating Agile transformation by combining traditional and agile work streams.
-
--   **[Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning-app-landing-page.md)**
-
-    Use the Portfolio Planning Workspace to enhance your traditional product and portfolio management by prioritizing work and visualizing plan. Effectively plan, track, and manage work for projects and demands using a centralized workspace.
-
--   **[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rsrc-mgmt-wrkspc.md)**
-
-    Use the ServiceNow® Resource Management Workspace to get a centralized view of the resource allocation and requests. As a resource manager, you get a dedicated workspace to view the team's allocation and breakdown of the work assigned to the resources.
-
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/it-business-management-rn-landing.md)
 

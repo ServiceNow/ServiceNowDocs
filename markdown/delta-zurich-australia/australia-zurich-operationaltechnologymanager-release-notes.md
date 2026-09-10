@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-operationaltechnologymanager-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -72,71 +72,6 @@ Zurich
 Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
 
 
--   **[\[Placeholder link text to key bundle-platai.ai-native-sku-overview\]](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
--   **[Operational Technology Network Map](https://www.servicenow.com/docs/access?context=utilizing-ot-network-map&family=zurich&ft:locale=en-US)**
-
-Use the OT network map available in the Industrial Workspace to view the subnets of a site and the OT devices in each subnet.
-
--   **[CMDB OT class model updates](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&family=zurich&ft:locale=en-US)**
-
-Configure for your OT devices with the following CMDB OT class model updates:
-
-    -   The IP Network Subnets related list was added to IT devices in the OT view. The list shows all subnets related to the device and IP Network subnets for the selected OT device.
-    -   The IP Network Subnets related list was added to the following CMDB classes:
-
-        -   cmdb\_ci\_display
-        -   cmdb\_ci\_firewall\_network
-        -   cmdb\_ci\_security
-        -   cmdb\_ci\_ids\_network
-        -   cmdb\_ci\_imaging
-        -   cmdb\_ci\_unclassed\_hardware
-        -   cmdb\_ci\_multimedia
-        -   cmdb\_ci\_monitor\_control
-        -   cmdb\_ci\_aix\_server
-        -   cmdb\_ci\_computer
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_hardware
-        -   cmdb\_ci\_hpux\_server
-        -   cmdb\_ci\_hyper\_v\_server
-        -   cmdb\_ci\_iot
-        -   cmdb\_ci\_ip\_firewall
-        -   cmdb\_ci\_ip\_router
-        -   cmdb\_ci\_ip\_switch
-        -   cmdb\_ci\_linux\_server
-        -   cmdb\_ci\_monitor\_control
-        -   cmdb\_ci\_netgear
-        -   cmdb\_ci\_ot
-        -   cmdb\_ci\_pc\_hardware
-        -   cmdb\_ci\_printer
-        -   cmdb\_ci\_protocol\_converter
-        -   cmdb\_ci\_server
-        -   cmdb\_ci\_solaris\_server
-        -   cmdb\_ci\_unix\_server
-        -   cmdb\_ci\_ups
-        -   cmdb\_ci\_win\_server
-    -   You can now view the OT device details for the following CMDB classes:
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_hyper\_v\_server
-    -   Because the OT device details are included in the form view of the CMDB class table, the **OT device details** tab was removed for the following CMDB classes:
-        -   cmdb\_ci\_aix\_server
-        -   cmdb\_ci\_hpux\_server
-        -   cmdb\_ci\_pc\_hardware
-        -   cmdb\_ci\_hyper\_v\_server
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_solaris\_server
-        -   cmdb\_ci\_unix\_server
-        -   cmdb\_ci\_ups
-    -   Admins can edit the protection policy for an OT View rule for all CMDB classes.
-
 </td></tr><tr><td>
 
 Australia
@@ -147,76 +82,6 @@ Australia
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
-
--   **[Use Enhanced Access Control for OT](https://www.servicenow.com/docs/access?context=ot-enhanced-access-control&family=australia&ft:locale=en-US)**
-
-Enhanced Access Control for OT implements data filters, deny unless access control rules \(ACLs\), and ACL query rules to help promote system security.
-
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
--   **[Operational Technology Network Map](https://www.servicenow.com/docs/access?context=utilizing-ot-network-map&family=australia&ft:locale=en-US)**
-
-Use the OT network map available in the Industrial Workspace to view the subnets of a site and the OT devices in each subnet.
-
--   **[CMDB OT class model updates](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&family=australia&ft:locale=en-US)**
-
-Configure for your OT devices with the following CMDB OT class model updates:
-
-    -   The IP Network Subnets related list was added to IT devices in the OT view. The list shows all subnets related to the device and IP Network subnets for the selected OT device.
-    -   The IP Network Subnets related list was added to the following CMDB classes:
-
-        -   cmdb\_ci\_display
-        -   cmdb\_ci\_firewall\_network
-        -   cmdb\_ci\_security
-        -   cmdb\_ci\_ids\_network
-        -   cmdb\_ci\_imaging
-        -   cmdb\_ci\_unclassed\_hardware
-        -   cmdb\_ci\_multimedia
-        -   cmdb\_ci\_monitor\_control
-        -   cmdb\_ci\_aix\_server
-        -   cmdb\_ci\_computer
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_hardware
-        -   cmdb\_ci\_hpux\_server
-        -   cmdb\_ci\_hyper\_v\_server
-        -   cmdb\_ci\_iot
-        -   cmdb\_ci\_ip\_firewall
-        -   cmdb\_ci\_ip\_router
-        -   cmdb\_ci\_ip\_switch
-        -   cmdb\_ci\_linux\_server
-        -   cmdb\_ci\_monitor\_control
-        -   cmdb\_ci\_netgear
-        -   cmdb\_ci\_ot
-        -   cmdb\_ci\_pc\_hardware
-        -   cmdb\_ci\_printer
-        -   cmdb\_ci\_protocol\_converter
-        -   cmdb\_ci\_server
-        -   cmdb\_ci\_solaris\_server
-        -   cmdb\_ci\_unix\_server
-        -   cmdb\_ci\_ups
-        -   cmdb\_ci\_win\_server
-    -   You can now view the OT device details for the following CMDB classes:
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_hyper\_v\_server
-    -   Because the OT device details are included in the form view of the CMDB class table, the **OT device details** tab was removed for the following CMDB classes:
-        -   cmdb\_ci\_aix\_server
-        -   cmdb\_ci\_hpux\_server
-        -   cmdb\_ci\_pc\_hardware
-        -   cmdb\_ci\_hyper\_v\_server
-        -   cmdb\_ci\_esx\_server
-        -   cmdb\_ci\_solaris\_server
-        -   cmdb\_ci\_unix\_server
-        -   cmdb\_ci\_ups
-    -   Admins can edit the protection policy for an OT View rule for all CMDB classes.
 
 </td></tr></tbody>
 </table>## Changes
@@ -237,7 +102,24 @@ Zurich
 
 </td><td>
 
--   **[Use CMDB groups to add OT context to IT CIs](https://www.servicenow.com/docs/access?context=use-cmdb-groups-it-ot-conversion&family=zurich&ft:locale=en-US)**
+-   **[Automated IT OT Bulk Conversion name change](https://www.servicenow.com/docs/access?context=automatically-convert-it-records-to-ot-devices&family=zurich&ft:locale=en-US)**
+
+The Automated IT OT Bulk Conversion menu item was replaced with Automated IT OT Bulk Contextualization on the ServiceNow AI Platform.
+
+-   **[Banner messages for the Bulk Update Ruleset for Reassigning IT to OT feature](https://www.servicenow.com/docs/access?context=automatically-convert-it-records-to-ot-devices&family=zurich&ft:locale=en-US)**
+
+A banner message was modified during the Bulk Update Ruleset for Reassigning IT to OT feature process to reflect the correct information when you use this feature.
+
+-   **[IP Network Subnets related list](https://www.servicenow.com/docs/access?context=ot-assets-related-links-and-lists&family=zurich&ft:locale=en-US)**
+
+The IP Network Subnets list was added for OT devices so you can see all subnets the selected OT device is associated with.
+
+-   **[VLAN related list](https://www.servicenow.com/docs/access?context=ot-assets-related-links-and-lists&family=zurich&ft:locale=en-US)**
+
+The VLAN related list was added to the OT device form view to show the VLANs associated with a device.
+
+
+ -   **[Use CMDB groups to add OT context to IT CIs](https://www.servicenow.com/docs/access?context=use-cmdb-groups-it-ot-conversion&family=zurich&ft:locale=en-US)**
 
 When you use CMDB groups to add OT context to IT CIs, you can no longer create an Automated IT OT Bulk Contextualization record with more than one CMDB group.
 
@@ -256,12 +138,24 @@ Australia
 
 </td><td>
 
--   **[Now Assist for OTM was renamed to OT Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=australia&ft:locale=en-US)**
+-   **[Automated IT OT Bulk Conversion name change](https://www.servicenow.com/docs/access?context=automatically-convert-it-records-to-ot-devices&family=australia&ft:locale=en-US)**
 
-Now Assist for Operational Technology Manager \(OTM\) was renamed to Operational Technology \(OT\) Manager Foundation.
+The Automated IT OT Bulk Conversion menu item was replaced with Automated IT OT Bulk Contextualization on the ServiceNow AI Platform.
+
+-   **[Banner messages for the Bulk Update Ruleset for Reassigning IT to OT feature](https://www.servicenow.com/docs/access?context=automatically-convert-it-records-to-ot-devices&family=australia&ft:locale=en-US)**
+
+A banner message was modified during the Bulk Update Ruleset for Reassigning IT to OT feature process to reflect the correct information when you use this feature.
+
+-   **[IP Network Subnets related list](https://www.servicenow.com/docs/access?context=ot-assets-related-links-and-lists&family=australia&ft:locale=en-US)**
+
+The IP Network Subnets list was added for OT devices so you can see all subnets the selected OT device is associated with.
+
+-   **[VLAN related list](https://www.servicenow.com/docs/access?context=ot-assets-related-links-and-lists&family=australia&ft:locale=en-US)**
+
+The VLAN related list was added to the OT device form view to show the VLANs associated with a device.
 
 
--   **[Use CMDB groups to add OT context to IT CIs](https://www.servicenow.com/docs/access?context=use-cmdb-groups-it-ot-conversion&family=australia&ft:locale=en-US)**
+ -   **[Use CMDB groups to add OT context to IT CIs](https://www.servicenow.com/docs/access?context=use-cmdb-groups-it-ot-conversion&family=australia&ft:locale=en-US)**
 
 When you use CMDB groups to add OT context to IT CIs, you can no longer create an Automated IT OT Bulk Contextualization record with more than one CMDB group.
 
@@ -293,11 +187,7 @@ Zurich
 
 </td><td>
 
--   The **New** button was removed from the following related lists for users with read-only access to a site:
-    -   Network Adapters
-    -   Memory Modules
-    -   Software Installed
-    -   IP Addresses
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -305,13 +195,7 @@ Australia
 
 </td><td>
 
-Australia Early Availability
-
--   The **New** button was removed from the following related lists for users with read-only access to a site:
-    -   Network Adapters
-    -   Memory Modules
-    -   Software Installed
-    -   IP Addresses
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -332,7 +216,16 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   The **New** button was removed from the following related lists for users with read-only access to a site:
+    -   Network Adapters
+    -   Memory Modules
+    -   Software Installed
+    -   IP Addresses
+
+ -   Network Adapters
+-   Memory Modules
+-   Software Installed
+-   IP Addresses
 
 </td></tr><tr><td>
 
@@ -340,7 +233,16 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   The **New** button was removed from the following related lists for users with read-only access to a site:
+    -   Network Adapters
+    -   Memory Modules
+    -   Software Installed
+    -   IP Addresses
+
+ -   Network Adapters
+-   Memory Modules
+-   Software Installed
+-   IP Addresses
 
 </td></tr></tbody>
 </table>## Activation information
@@ -361,7 +263,10 @@ Zurich
 
 </td><td>
 
-Install Operational Technology Manager by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -369,7 +274,10 @@ Australia
 
 </td><td>
 
-Install Operational Technology Manager by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Operational Technology Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -518,7 +426,13 @@ Australia
 
 </td><td>
 
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
+Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+
+-   The Now LLM Service is being prepared for future deprecation.
+
+ [Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
 
 -   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
 

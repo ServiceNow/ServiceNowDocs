@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, configuration]
-breadcrumb: [Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure ServiceNow Otto for IT Operations Management \(ITOM\)

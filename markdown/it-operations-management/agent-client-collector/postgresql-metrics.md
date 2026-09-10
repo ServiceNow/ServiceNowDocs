@@ -110,7 +110,7 @@ pgsql.statsbgwriter.buffers\_backend\_fsync
 
 </td><td>
 
-Provides metrics related to the number of times a backend had to execute its own fsync call \(normally the background writer handles those, even when the backend performs its own write\).
+Provides metrics related to the number of times a backend executed its own fsync call. Normally the background writer handles these calls.
 
 </td></tr><tr><td>
 

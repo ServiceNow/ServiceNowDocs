@@ -38,15 +38,15 @@ When the approval process is enabled, an EDL entry is not activated or deactivat
 
 4.  Choose one option for approving the EDL entry.
 
-<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d160249e100">
+<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d162005e100">
 
 Option
 
-</th><th align="left" id="d160249e103">
+</th><th align="left" id="d162005e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d160249e109">
+</th></tr></thead><tbody><tr><td id="d162005e109">
 
 **Approve**
 
@@ -56,7 +56,7 @@ On the entry record, the **Status** field changes to `Added`, and the **Active**
 
  Work notes show that the request for the EDL entry has been approved.
 
-</td></tr><tr><td id="d160249e136">
+</td></tr><tr><td id="d162005e136">
 
 **Reject**
 

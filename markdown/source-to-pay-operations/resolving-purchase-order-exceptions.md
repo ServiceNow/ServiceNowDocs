@@ -47,6 +47,8 @@ Cancel a purchase order exception that is incorrectly filled or no longer requir
 
 [Create purchase order exception from Universal Request]()
 
+[Managing purchase order confirmations]()
+
 [Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
 
 [Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)

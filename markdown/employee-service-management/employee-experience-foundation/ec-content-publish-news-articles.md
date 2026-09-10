@@ -7,7 +7,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-18"
 reading_time_minutes: 2
 breadcrumb: [News articles, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -25,19 +25,19 @@ News articles can be published via a publish plan or using Content templates to 
 
 -   **Content templates**
 
-    If you selected a Content template when you created the news article, the system generates the publish plans defined in the Content template. You can edit the auto-generated publish plans. The changes you make to publish plans do not impact the Content templates.
+    If you selected a Content template when you created the news article, the system generates the publish plans defined in the Content template. You can edit the auto-generated publish plans. The changes you make to publish plans don't impact the Content templates.
 
-    **Note:** If the Content template is edited after the system auto-generated the publish plans, those changes are not reflected in existing publish plans.
+    **Note:** If the Content template is edited after the system auto-generated the publish plans, those changes aren't reflected in existing publish plans.
 
 -   **Content availability vs Publish plans**
 
     Content availability defines when the content is available and the core audience who can access it. These parameters are set at the content item level.
 
-    Publish plans determine how and where content is displayed in widgets. Publish plans specify the widget location, audience visibility \(which can expand the audience defined in content availability\), and the timeframe for displaying the content.
+    Publish plans determine how and where content is displayed in widgets. Publish plans specify the widget location, audience visibility \(which can expand the audience defined in content availability\), and the time-frame for displaying the content.
 
-    **Note:** Publish plans do not override content availability date settings. If a publish plan displays content outside of availability parameters \(for example, before it is available\), users attempting to access the content will encounter a message such as "Sorry, this isn't available".
+    **Note:** Publish plans don't override content availability date settings. If a publish plan displays content outside of availability parameters \(for example, before it is available\), users attempting to access the content will encounter a message such as "Sorry, this isn't available".
 
-    To avoid this, content managers must ensure that publish plan duration dates align with the content availability parameters.
+    To avoid this, content managers must verify that publish plan duration dates align with the content availability parameters.
 
 
 ## Procedure
@@ -52,13 +52,34 @@ News articles can be published via a publish plan or using Content templates to 
     |Content cannot be accessed after|Determines the date and time after which the content is no longer available.|
     |Add audience|Define the users who can view the content.|
 
-3.  Click **Save availability**.
+<table id="table_sg5_1k2_hkc"><thead><tr><th>
 
-4.  Review the auto-generated publish plans and edit as necessary, such as to change the audience or publishing dates, or create new publish plans: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+Tags
 
-    **Note:** If you edit an auto-generated publish plan, ensure you select the **Active** option.
+</th><th>
 
-5.  Click **Activate generated plans**.
+Tables
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_kg\_tag
+
+</td><td>
+
+-   sn\_cd\_content\_base
+-   sn\_cd\_content\_portal
+-   sn\_cd\_content\_news
+-   sn\_cd\_company\_event
+
+
+</td></tr></tbody>
+</table>3.  Click **Save availability**.
+
+4.  Review the auto-generated publish plans and edit as necessary, such as to change the audience or publishing dates, or create publish plans: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
+
+    **Note:** If you edit an auto-generated publish plan, verify you select the **Active** option.
+
+5.  Select **Activate generated plans**.
 
 
 ## What to do next

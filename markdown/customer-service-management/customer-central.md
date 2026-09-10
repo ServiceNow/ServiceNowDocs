@@ -7,16 +7,16 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customer Central
 
 Customer Central provides customer service agents with all the information about the customer in one central place. It enables them to quickly zoom in on the customer issues and provide efficient and supportive service to their customers.
 
-Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CSM Configurable Workspace in the form of two views: Customer Information and Customer History.
+Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CRM Workspace in the form of two views: Customer Information and Customer History.
 
-Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) displays customer activity information on some record pages in CSM Configurable Workspace.
+Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) displays customer activity information on some record pages in CRM Workspace.
 
 ## Customer Information view
 
@@ -53,7 +53,7 @@ The Customer History component displays customer, consumer, or account history i
 
 The Customer History component includes the Customer tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
-The Customer History component is available on the following record pages in CSM Configurable Workspace:
+The Customer History component is available on the following record pages in CRM Workspace:
 
 -   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md): Appears in the contextual side panel.
 -   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md): Appears in the left pane.
@@ -77,7 +77,7 @@ For more information about the Customer history component, see the following top
 
 ## Customer Central plugin
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CSM Configurable Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
 

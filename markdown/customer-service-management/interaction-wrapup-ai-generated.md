@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # AI interaction wrap-up
@@ -20,7 +20,7 @@ Agents can review and modify the AI-generated wrap-up content before submitting 
 
 **Note:** The AI interaction wrap-up feature uses the Wrap Up Completion skill to generate the wrap-up content. For more information, see [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
 
-The AI interaction wrap-up feature is available for the following interaction record pages in CSM Configurable Workspace:
+The AI interaction wrap-up feature is available for the following interaction record pages in CRM Workspace:
 
 -   [CSM interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
 -   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)

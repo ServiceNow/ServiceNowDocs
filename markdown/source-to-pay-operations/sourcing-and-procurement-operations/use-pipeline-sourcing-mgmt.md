@@ -29,7 +29,7 @@ As a sourcing manager, you can close the pipeline project when all the activitie
 -   **[Create a pipeline project from an expiring contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-expire-contract.md)**  
 As a sourcing manager, you can create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 
-**Parent Topic:**[Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+**Parent Topic:**[Using Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
 
 **Related topics**  
 
@@ -45,4 +45,8 @@ As a sourcing manager, you can create a pipeline project directly from an expiri
 [Using Spend and Savings Management]()
 
 [Create a Universal Request]()
+
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
 

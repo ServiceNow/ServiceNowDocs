@@ -1,0 +1,60 @@
+---
+title: Activate the business rule for the Triage legal requests agentic workflow
+description: Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/lsd-agentic-config-BR.html
+release: australia
+product: Legal Request Management
+classification: legal-request-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [Now Assist, ServiceNow Otto, generative AI]
+breadcrumb: [Configure agentic workflow, Configure AI capabilities for LSD, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+---
+
+# Activate the business rule for the Triage legal requests agentic workflow
+
+Activate the business rules for the Triage legal requests agentic workflow in the ServiceNow Otto for Legal Service Delivery \(LSD\) application.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+The Triage legal requests agentic workflow is shipped in an inactive state in the base system. To activate it, you must enable the business rule named the Trigger Triage Legal Request use case.
+
+By default, the script include in this business rule contains the sys\_id of the Trigger Triage Legal Request use case. If you have a customized use case, you must update the script include in the business rule with the sys\_id of your customized use case.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
+
+    The Business Rules table appears.
+
+2.  In the Name column, search for `Trigger Triage Legal Request use case`.
+
+3.  Open the **Trigger Triage Legal Request use case** rule.
+
+4.  Select the **Active** check box.
+
+5.  For a customized agentic workflow, update **usecaseId** in the script with the sys\_id of the customized agentic workflow.
+
+    1.  Navigate to the Advanced related list.
+
+    2.  In the script, update the value for **usecaseId** with the sys\_id of the customized agentic workflow.
+
+        \[Omitted image "lsd-agentic-add-sys-id.png"\] Alt text: Update the usecaseId with the sys\_id of the customized agentic workflow.
+
+        To get the sys\_id of a customized use case, navigate to the use cases list, right-click the customized use case record, and select  **Copy sys\_id**.
+
+6.  Select **Update**.
+
+
+## Result
+
+The Triage legal requests agentic workflow is activated for ServiceNow Otto for Legal Service Delivery \(LSD\).
+
+**Parent Topic:**[Configure Triage legal requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/conf-transfer-legal-request-agent.md)
+

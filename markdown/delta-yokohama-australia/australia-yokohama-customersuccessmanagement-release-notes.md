@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customersuccessmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -111,54 +111,24 @@ Zurich
 Starting with Customer Success Management 5.3.11, you can use the **Calculated** metric data source to determine the health score for an engagement. If you are upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `Set health migration status` script to enable the health score calculation using this data source.
 
 
--   **[Define a table data source](https://www.servicenow.com/docs/access?context=account-lifecycle-define-data-source-table&family=zurich&ft:locale=en-US)**
+ -   **[Define a table data source](https://www.servicenow.com/docs/access?context=account-lifecycle-define-data-source-table&family=zurich&ft:locale=en-US)**
 
 Starting with Customer Success Management 5.3.11, you can use the **Table** type data source to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Zero Copy Connector Hub application and create data fabric tables.
 
 
--   **[Risk and issues page](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-issues-page&family=zurich&ft:locale=en-US)**
+ -   **[Risk and issues page](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-issues-page&family=zurich&ft:locale=en-US)**
 
 Use the risk timeline visualization to manage the risk occurrences.
 
 
--   **[Granular admin roles](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roles&family=zurich&ft:locale=en-US)**
+ -   **[Granular admin roles](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roles&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Success Management without requiring the full admin role.
 
 
--   **[Read-only field enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-read-only&family=zurich&ft:locale=en-US)**
+ -   **[Read-only field enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-read-only&family=zurich&ft:locale=en-US)**
 
 Read-only field protections have been moved from the client side to the server side. This move prevents users from updating read-only fields through client-side methods.
-
-
--   **[Success report dashboard](https://www.servicenow.com/docs/access?context=account-lifecycle-success-report-overview&family=zurich&ft:locale=en-US)**
-
-Use the Success report dashboard to see the overall view of all the engagements under your hierarchy and manage your entire customer portfolio. Monitor engagement metrics, risk indicators, and get insights into onboarding and adoption status, risk indicators, onboarding and adoption insights, and expansion and renewal metrics.
-
-
--   **[Product adoption and usage](https://www.servicenow.com/docs/access?context=account-lifecycle-product-adopt&family=zurich&ft:locale=en-US)**
-
-Measure product adoption trends and proactively guide users to achieve desired outcomes using products and services that have been purchased. Identify active and power users and areas where additional training or support is required due to low engagement.
-
-
--   **[Implementation record](https://www.servicenow.com/docs/access?context=account-lifecycle-imp-record&family=zurich&ft:locale=en-US)**
-
-Track the progress of a partner or customer implementing a product or a service. Get a centralized view of the implementation status, identify risks, and run playbooks to mitigate issues.
-
-
--   **[Engagement hierarchy](https://www.servicenow.com/docs/access?context=account-lifecycle-view-engage&family=zurich&ft:locale=en-US)**
-
-View aggregate hierarchical data for an engagement. Make informed decisions, improve customer satisfaction through detailed tracking, identify risks early, and help prevent escalations.
-
-
--   **[Engagement timeline](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-planner&family=zurich&ft:locale=en-US)**
-
-View a chronological list of critical events related to an engagement. Review timelines to recall past events, customer interactions, and identify any issues.
-
-
--   **[Contextual color bands](https://www.servicenow.com/docs/access?context=account-lifecycle-setup-color-banding&family=zurich&ft:locale=en-US)**
-
-Associate thresholds and visual representations to health metric data. View product adoption and usage information relative to a specific product.
 
 
 </td></tr><tr><td>
@@ -167,64 +137,9 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
-
 -   **[Product adoption roadmap versioning](https://www.servicenow.com/docs/access?context=account-lifecycle-par-versioning&family=australia&ft:locale=en-US)**
 
 Track the history of published roadmap states and restore an earlier version as needed. Publishing a roadmap creates a version record with a complete snapshot of the lanes and items. You can revert to any previous version without losing the roadmap.
-
-
-[Australia Patch 4](https://www.servicenow.com/docs/access?context=australia-patch-4&family=australia&ft:locale=en-US)
-
--   **[Customer Discovery Hub](https://www.servicenow.com/docs/access?context=account-lifecycle-customer-discovery-hub&family=australia&ft:locale=en-US)**
-
-Customer Discovery Hub provides a structured way to capture and preserve customer business context from pre-sales through the post-sale handoff. Sales teams document business needs, challenges, expectations, and use cases that automatically carry forward to engagement records. This gives customer success managers immediate insight into customer objectives and success criteria.
-
-
-[Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
-
--   **[Adaptive desktop actions](https://www.servicenow.com/docs/access?context=now-assist-adaptive-desktop-actions&family=australia&ft:locale=en-US)**
-
-Use adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
-
-
-[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
-Australia Early Availability
-
--   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&family=australia&ft:locale=en-US)**
-
-Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations. This helps to promote faster and more effective collaboration across engagements.
-
--   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&family=australia&ft:locale=en-US)**
-
-Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.
-
--   **[Recommend risk signal solutions](https://www.servicenow.com/docs/access?context=now-assist-tmt-resolve-risk&family=australia&ft:locale=en-US)**
-
-Monitor solution records linked to risk signals and automatically sync updates back to the original risk signal record. Notify customer success managers with a summarized status, and prompt them to close resolved risks.
-
--   **[Generate product adoption roadmaps using Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-par-roadmap&family=australia&ft:locale=en-US)**
-
-Use generative AI to create product adoption roadmaps by analyzing customer characteristics, identifying similar products, and matching customer goals. Provide contract-level insights to support more effective renewal conversations and expansion opportunities.
-
--   **[Support renewals and expansion](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&family=australia&ft:locale=en-US)**
-
-Analyze renewal readiness automatically by evaluating health scores, product usage, and value achievement metrics using the Renewal Insight Engine.
-
--   **[Product adoption roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-par-roadmap&family=australia&ft:locale=en-US)**
-
-Enable customer success managers to create structured roadmaps that can guide customers through adoption of purchased products based on business value and current adoption scores. The planner supports two planning levels—Product \(strategic\) and Capabilities \(tactical\)—with sequencing to establish clear adoption pathways.
 
 
 </td></tr></tbody>
@@ -246,7 +161,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Success portfolio](https://www.servicenow.com/docs/access?context=account-lifecycle-success-landing&family=yokohama&ft:locale=en-US)**
+
+The Success portfolio dashboard provides visibility into the overall health of a customer success manager's portfolio. With this dashboard, you can view the health of an engagement, individual indicators, health and risk trends, and touchpoints.
+
+-   **[Engagement page enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-view-engage&family=yokohama&ft:locale=en-US)**
+
+Use the engagement home page to see a high-level overview of an engagement. You can also view the current health score, identify issues, and monitor objectives and outcomes.
+
+-   **[Data import enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-import-data&family=yokohama&ft:locale=en-US)**
+
+Optimize the onboarding process by importing and publishing a large amount of data and resolve any errors or issues​ quickly.
+
 
 </td></tr><tr><td>
 
@@ -254,20 +180,16 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
-
--   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
-
-
-
-
-**Australia Early Availability**
 
 -   **[Touchpoint home page](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoint-home&family=australia&ft:locale=en-US)**
 
@@ -367,7 +289,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Success Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -375,7 +300,10 @@ Zurich
 
 </td><td>
 
-Install Customer Success Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -383,7 +311,10 @@ Australia
 
 </td><td>
 
-Install Customer Success Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -486,7 +417,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

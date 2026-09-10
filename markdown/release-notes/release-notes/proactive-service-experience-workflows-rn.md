@@ -1,9 +1,9 @@
 ---
 title: Product Support for Technology release notes
-description: The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
+description: The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.The ServiceNow Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
 
-## Product Support for Technology highlights for the Australia release
+## About Product Support for Technology
 
 Australia Early Availability
 
@@ -21,11 +21,33 @@ Australia Early Availability
 
 See [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/assurance-workflows.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Product Support for Technology is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Australia release
+-   **Activation information**
 
-Australia Early Availability
+    Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
+
+## July 2026
+
+The ServiceNow® Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+## Australia
+
+The ServiceNow® Product Support for Technology helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Product Support for Technology was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/account-360-analytics-dashboard.md)**
 
@@ -36,51 +58,15 @@ Australia Early Availability
     Use the customer impact tab in the incident, change, and problem case records. This tab shows key metrics and insights across customer accounts, reactive cases, and install base items. It improves visibility and streamline decision-making during PSEW processes. You can also generate proactive cases and communicate with customers or consumers.
 
 
-## UI changes
-
-Australia Early Availability
+### What's changed
 
 -   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/account-360-analytics-dashboard.md)**
 
     The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
 
-## Changed in this release
-
--   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
-
-
-## Removed in this release
-
-Australia Early Availability
+### What's deprecated or removed
 
 -   The **Analytics** tab is removed from the customer account view.
 -   The **Notify Customers** UI action is removed from the case record.
-
-## Activation information
-
-Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
-
-## Related ServiceNow applications and features
-
--   **[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)**
-
-    The ServiceNow® Field Service Management application helps organizations manage work tasks performed on location. Match tasks to agents based on skills, geographic territory assignments, and available inventory. Agents can record details on assigned tasks like completion status, travel time to jobs, and time spent.
-
--   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md)**
-
-    ServiceNow® Incident Management restores normal service operation while minimizing the impact to business operations and maintaining quality. You can record an incident and track it through the entire incident life cycle until service is restored and the issue is resolved.
-
--   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)**
-
-    The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to the business operations.
-
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)**
-
-    ServiceNow® Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Create automated business process flows from your data that enable you to monitor and more quickly discover inefficiencies in your processes.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

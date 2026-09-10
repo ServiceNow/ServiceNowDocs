@@ -1,5 +1,5 @@
 ---
-title: Employee Slate canvas module
+title: EmployeeWorks Web App canvas module
 description: Canvas module provides a customizable workspace where employees can add, resize, and arrange widgets from a library to create personalized dashboards for their daily work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-canvas-module.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-04-29"
 reading_time_minutes: 1
 keywords: [canvas module, customizable workspace, widget library, personalized dashboard]
-breadcrumb: [Personalized canvas, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Personalized canvas, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Employee Slate canvas module
+# EmployeeWorks Web App canvas module
 
 Canvas module provides a customizable workspace where employees can add, resize, and arrange widgets from a library to create personalized dashboards for their daily work.
 

@@ -70,3 +70,5 @@ Role required: piwb\_manager
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

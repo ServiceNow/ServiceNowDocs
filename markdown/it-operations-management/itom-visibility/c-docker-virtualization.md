@@ -341,7 +341,7 @@ Discovery uses an application rule identifier to find the Docker engine and then
 
 -   **Application rule identifier**
 
-    The system creates the cmdb\_ci\_docker\_engine configuration item \(CI\) during process classification. Based on this, Discovery uses the Application Rule identifier on the Application \[cmdb\_ci\_appl\] table to identify the particular Docker engine encountered. After establishing this identity, Discovery uses the relationships defined in the containment and hosting rules to accurately create and update the individual Docker component CIs related to that engine.
+    The system creates the cmdb\_ci\_docker\_engine configuration item \(CI\) during process classification. Based on this, Discovery uses the Application Rule identifier on the Application \[cmdb\_ci\_appl\] table to identify the particular Docker engine encountered. After establishing this identity, Discovery applies the relationships defined in the containment and hosting rules. It then creates and updates the individual Docker component CIs related to that engine.
 
 -   **Identifiers**
 

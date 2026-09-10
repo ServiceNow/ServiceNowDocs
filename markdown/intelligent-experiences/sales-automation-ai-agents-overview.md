@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Sales Automation, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [Sales Automation, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Sales Automation AI agents
@@ -23,5 +23,5 @@ This Sales Customer Relationship Management agent analyzes order task comments a
 -   **[Order fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/som-order-fulfillment-ai-agent.md)**  
 This Sales Customer Relationship Management agent identifies fulfillment tasks for a domain order by checking historic tasks from similar orders, confirms the task list with the user, and creates them.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -46,15 +46,15 @@ For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d61118e200">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d63243e200">
 
 Option
 
-</th><th align="left" id="d61118e203">
+</th><th align="left" id="d63243e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61118e209">
+</th></tr></thead><tbody><tr><td id="d63243e209">
 
 **Summarize a record**
 
@@ -81,4 +81,8 @@ Description
 [Generate an email response for procurement cases]()
 
 [Analyze sentiment in procurement cases]()
+
+[AI L1 SPO Service Desk Specialist]()
+
+[Generate a knowledge article]()
 

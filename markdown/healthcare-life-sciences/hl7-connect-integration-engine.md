@@ -23,7 +23,7 @@ You need the ServiceNow HL7 endpoint URL and credentials from your ServiceNow ad
 
 ## About this task
 
-The ServiceNow HL7 endpoint accepts HTTP POST requests containing raw HL7 v2.x messages in ER7 format. The endpoint returns a standard HL7 ACK response in the HTTP 200 response body for every message — your integration engine receives the ACK exactly as it would from any HL7-capable system. No custom configuration is required on the integration engine beyond the endpoint URL and credentials.
+The ServiceNow HL7 endpoint accepts HTTP POST requests containing raw HL7 v2.x messages in ER7 format. For every message, the endpoint returns a standard HL7 ACK response in the HTTP 200 response body. Your integration engine receives the ACK exactly as it would from any HL7-capable system. No custom configuration is required on the integration engine beyond the endpoint URL and credentials.
 
 **For a detailed example of request and response, see the [HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md) reference.**
 

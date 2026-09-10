@@ -31,7 +31,7 @@ There are two types of desktop actions: defined path and adaptive path. Both ena
 
 -   **[Adaptive desktop actions for web-based tasks \(probabilistic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md)**
 
-    With adaptive path desktop actions, you describe what task you want to accomplish at a high level in the tool configuration for web-based tasks. The web-based tasks include performing tasks on web applications or websites. The AI agent processes the request, generates an execution plan, and dynamically determines the specific steps needed to complete the task.
+    With adaptive path desktop actions, you describe what task you want to accomplish at a high level for desktop and web-based tasks. The desktop tasks include cross-application processes. The web-based tasks include performing tasks on web applications or websites. The AI agent processes the request, generates an execution plan, and dynamically determines the specific steps needed to complete the task.
 
     Best for: Tasks that require flexibility, decision-making, or adaptation to changing UI elements.
 

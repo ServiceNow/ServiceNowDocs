@@ -1,9 +1,9 @@
 ---
 title: Configurable Workspace release notes
-description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+description: The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.The ServiceNow Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
 
-## Configurable Workspace highlights for the Australia release
+## About Configurable Workspace
 
 -   Add a background color to fields including unsaved fields and fields with highlighted values.
 -   Apply commands with keyboard shortcuts for journal fields.
@@ -22,14 +22,63 @@ The ServiceNow® Configurable Workspace application provides tools to agents, ca
 
 See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Configurable Workspace is a ServiceNow AI Platform feature that is active by default.
+
+-   **Browser requirements**
+
+    Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-screen-summarization.md)**
+
+        Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
+
+        Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
+
+
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
+
+## April 2026
+
+The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[Track record list changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-list-tracker.md)**
+
+    Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
+
+
+## Australia Early Availability
+
+The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-filter-assist.md)**
+
+    Convert everyday language into an encoded query with AI filter assist.
+
+
+## Australia
+
+The ServiceNow® Configurable Workspace application provides tools to agents, case managers, help desk professionals, and managers for answering customer questions and resolving customer problems. Configurable Workspace was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[UI interactions for declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-da-ui-interactions.md)**
 
     Combine logic, script, and configurable UI with a UI interaction, and apply it from any page event or declarative action. When you use a declarative action to apply a UI interaction, you can extend a page without taking ownership.
 
 
-## UI changes
+### What's changed
 
 -   **Session tabs**
 
@@ -69,8 +118,6 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
     -   A message displays in the header when an email is saved as a draft.
     -   Copy and apply text formatting for emails using the format painter.
 
-## Changed in this release
-
 -   **Record List component bundle enhancements in UI Builder**
 
     Configure these enhancements to the Record List component bundle in UI Builder:
@@ -82,14 +129,6 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
     -   Catalog variables and questions are supported as list columns.
     -   Open lists in multiple session tabs from the list menu.
     -   Customize gallery list card layouts including images, icons, text placement, and sizing.
--   **[AI filter assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-filter-assist.md)**
-
-    Convert everyday language into an encoded query with AI filter assist.
-
--   **[Track record list changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-ai-list-tracker.md)**
-
-    Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
-
 -   **[Grouping for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-related-list-grouping.md)**
 
     Configure related lists to persist selections for the Group by filter.
@@ -183,11 +222,7 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
     Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.
 
 
-## Activation information
-
-Configurable Workspace is a ServiceNow AI Platform feature that is active by default.
-
-## Plugin information
+### Plugin information
 
 -   **Plugins planned for deprecation**
 
@@ -195,26 +230,4 @@ Configurable Workspace is a ServiceNow AI Platform feature that is active by def
 
     Agent Workspace - Ribbon \(com.snc.agent\_workspace.ribbon\): Planned for deprecation in the C release. Beginning with the Australia release this plugin will be migrated to a store application. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed.
 
-
-## Browser requirements
-
-Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
-
-## Accessibility information
-
--   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-screen-summarization.md)**
-
-    Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
-
-    Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
-
-
-## Related ServiceNow applications and features
-
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)**
-
-    Use UI Builder to build your Configurable Workspace experience.
-
-
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

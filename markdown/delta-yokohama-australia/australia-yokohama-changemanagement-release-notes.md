@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-changemanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://www.servicenow.com/docs/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -121,9 +124,7 @@ Control the opening of a CAB meeting from the CAB Meeting calendar in the CAB Me
 
 -   **[Track conflict detection](https://www.servicenow.com/docs/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US)**
 
-Track the progress of conflict detection using the Change - Conflict Detection flow \(that runs as a system user\) and the Change Management Worker table instead of Progress Workers. You can choose between the Flow and Progress Worker options by updating the **change.conflict.useprogressworker** system property.
-
-A new UI formatter **change\_conflict\_worker\_progress\_gate.xml** has been introduced to the change request form to replace the existing **change\_request\_conflict\_progress.xml**. This update supports the **change.conflict.useprogressworker** system property when you upgrade to Zurich. The new formatter displays the same Conflict tab but selects the macro version to render the form according to the value of the new system property.
+Track the progress of conflict detection using the Change - Conflict Detection flow \(that runs as a system user\) and the Change Management Worker table instead of Progress Workers. You can choose between the Flow and Progress Worker options by updating the **change.conflict.useprogressworker** system property.A new UI formatter **change\_conflict\_worker\_progress\_gate.xml** has been introduced to the change request form to replace the existing **change\_request\_conflict\_progress.xml**. This update supports the **change.conflict.useprogressworker** system property when you upgrade to Zurich. The new formatter displays the same Conflict tab but selects the macro version to render the form according to the value of the new system property.
 
 -   **[Define the maximum records for conflict detection](https://www.servicenow.com/docs/access?context=configure-conflict-properties&family=zurich&ft:locale=en-US)**
 
@@ -182,7 +183,12 @@ Zurich
 
 </td><td>
 
--   **[Propose a standard change template in Service Operations Workspace](https://www.servicenow.com/docs/access?context=propose-standard-change-sow&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Propose a standard change template in Service Operations Workspace](https://www.servicenow.com/docs/access?context=propose-standard-change-sow&family=zurich&ft:locale=en-US)**
 
 As a user with the itil role, you can create a standard change template proposal in Service Operations Workspace.
 
@@ -214,7 +220,7 @@ Yokohama
 
 </td><td>
 
-Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -251,7 +257,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -288,7 +294,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Change Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -296,7 +305,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Change Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -304,7 +316,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -407,7 +422,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 
@@ -415,7 +434,8 @@ Australia
 
 </td><td>
 
--   **Reflow for Create a change request page**
+-   **Accessibility information**
+    -   **Reflow for Create a change request page**
 
 The Create a change request page now supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 

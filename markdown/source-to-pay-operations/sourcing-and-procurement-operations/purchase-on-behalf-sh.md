@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-07"
 reading_time_minutes: 4
 breadcrumb: [Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -20,7 +20,7 @@ Shoppers can purchase products and services on behalf of another user in Shoppin
 
 This functionality provides the following benefits:
 
--   Shopping controls allow administrators to define purchasing eligibility, ensuring that restricted products cannot be purchased.
+-   Shopping controls allow administrators to define purchasing eligibility, ensuring that restricted products can't be purchased.
 -   Checkout is allowed only if the product can be shipped to the delivery location of the user on whose behalf the purchase is made. If shipping is not supported, Shopping Hub prevents the purchase from being submitted.
 -   Shoppers purchasing on behalf of other users can easily view those users’ carts and purchases by selecting the user name from the filter list.
 
@@ -41,7 +41,7 @@ sn\_shop.skip\_shopping\_controls\_for\_purchase\_on\_behalf\_of\_users
 </td><td>
 
 Controls how Shopping Hub enforces shopping control restrictions when a super shopper purchases on behalf of another user.-   Default value: false
--   When set to false, shopping control restrictions for the selected user are enforced and restricted products cannot be purchased.
+-   When set to false, shopping control restrictions for the selected user are enforced and restricted products can't be purchased.
 -   When set to true, restricted products for the selected user display a warning, but the purchase on behalf of another user is allowed to proceed.
 
 </td></tr><tr><td>
@@ -50,8 +50,8 @@ sn\_shop.skip\_delivery\_restrictions\_for\_purchase\_on\_behalf\_of\_users
 
 </td><td>
 
-Controls how Shopping Hub enforces delivery address restrictions when a super shopper purchases on behalf of another user and the product cannot be delivered to the selected user’s default delivery address.-   Default value: false
--   When set to false, products that cannot be delivered to the selected user’s delivery address cannot be purchased.
+Controls how Shopping Hub enforces delivery address restrictions when a super shopper purchases on behalf of another user and the product can't be delivered to the selected user’s default delivery address.-   Default value: false
+-   When set to false, products that can't be delivered to the selected user’s delivery address can't be purchased.
 -   When set to true, a warning is displayed for non-deliverable products, and the super shopper is allowed to proceed with the purchase.
 
 </td></tr><tr><td>
@@ -71,7 +71,7 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 Plugin required: Shopping Hub \(sn\_spend\_uib\)
 
-Ensure that you configure the super shopper to purchase on behalf of other users. For more information, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
+verify that you configure the super shopper to purchase on behalf of other users. For more information, see [Enable a shopper to purchase on behalf of another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.md).
 
 ## How it works
 
@@ -79,7 +79,9 @@ The following points describe how this capability works:
 
 To make a purchase on behalf of another user, select a product and then select the **Purchase on behalf of** check box. From the **On behalf of** list, select the user for whom the purchase is being made \(for example, Andrew Griffin\).
 
-\[Omitted image "sh-purchase-behalf-field.png"\] Alt text: Shopping Hub product page showing "Purchase on behalf of" checkbox with "Andrew Griffin" selected.
+\[Omitted image "sh-purchase-behalf-field.png"\] Alt text: Shopping Hub product page showing "Purchase on behalf of" check box with "Andrew Griffin" selected.
+
+**Important:** If a shopper selects another product immediately after completing a purchase on behalf of a user, the **On behalf of** list automatically defaults to that same user, so the shopper does not need to reselect them for consecutive purchases. This default no longer applies after the shopper clears the **On behalf of** selection, and it resets when a new session begins.
 
 After **Request to buy** is selected, the system displays the relevant details configured for the selected user, such as cost center and delivery location. These details can be modified before the request is submitted.
 
@@ -87,23 +89,23 @@ After **Request to buy** is selected, the system displays the relevant details c
 
 After the request is submitted, the purchase is available in My purchases. By default, the page displays purchases made by you. You can use the filter to view purchases made on behalf of other users.
 
-Tasks are not automatically assigned to the person the item was purchased for. To ensure they can confirm receipt of the item, make sure the selected address includes the business owner’s name in the **Recipient** field. For all other tasks, the procurement specialist can reassign ownership to the business owner.
+Tasks aren't automatically assigned to the person the item was purchased for. To verify they can confirm receipt of the item, make sure the selected address includes the business owner’s name in the **Recipient** field. For all other tasks, the procurement specialist can reassign ownership to the business owner.
 
 \[Omitted image "sh-purchase-behalf-my-purchases.png"\] Alt text: My purchases page with the filter drop-down showing a list of users.
 
 If the **sn\_spend\_uib.purchased\_bahealf.enable.card.actions** system property is set to true, all available card options are displayed for purchases made on behalf of other users. If the property is set to false, only the View purchase option is available.
 
-\[Omitted image "sh-purchase-behalf-cards.png"\] Alt text: My purchases page showing card actions menu with Inquire, Add to cart, and View purchase options.
+\[Omitted image "sh-purchase-behalf-cards.png"\] Alt text: My purchases page showing card actions menu with ask, Add to cart, and View purchase options.
 
-You can also view the carts of users on whose behalf you are making purchases.
+You can also view the carts of users on whose behalf you're making purchases.
 
 \[Omitted image "sh-purchase-behalf-cart.png"\] Alt text: Shopping cart interface showing user drop-down with Shirley Ross and Warren Summers options.
 
-If a user is selected from the **Shopping for** list \(for example, Warren Summers\), the **Purchase on behalf of** check box is disabled. In this case, Shopping Hub automatically sets the purchasing capability to the selected user only.
+If a user is selected from the **Shopping for** list \(for example, Warren Summers\), the **Purchase on behalf of** check box is inactive. In this case, Shopping Hub automatically sets the purchasing capability to the selected user only.
 
 \[Omitted image "sh-purchase-behalf-list.png"\] Alt text: Shopping Hub interface showing "Shopping as" drop-down with Warren Summers selected
 
-\[Omitted image "sh-purchase-behalf-disabled.png"\] Alt text: Shopping Hub product page with disabled "Purchase on behalf of" check box showing Warren Summers selected.
+\[Omitted image "sh-purchase-behalf-disabled.png"\] Alt text: Shopping Hub product page with inactive "Purchase on behalf of" check box showing Warren Summers selected.
 
 **Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

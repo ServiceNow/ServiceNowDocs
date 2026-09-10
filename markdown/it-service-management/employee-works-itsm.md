@@ -1,18 +1,18 @@
 ---
 title: ITSM Employee Slate for Moveworks
-description: Use ITSM Employee Slate for Moveworks that includes the Service Health Broadcast widget that surfaces active outages and degradations to employees and lets them ask Otto for a summary.
+description: ITSM Employee Slate for Moveworks includes the Service Health Broadcast widget, which displays active outages and degradations to employees. Employees can ask Otto for a summary of current issues. The Tech Lounge widget enables employees to check in for walk-in IT help or book an appointment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/employee-works-itsm.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-21"
+last_updated: "2026-08-13"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
 
 # ITSM Employee Slate for Moveworks
 
-Use ITSM Employee Slate for Moveworks that includes the Service Health Broadcast widget that surfaces active outages and degradations to employees and lets them ask Otto for a summary.
+ITSM Employee Slate for Moveworks includes the Service Health Broadcast widget, which displays active outages and degradations to employees. Employees can ask Otto for a summary of current issues. The Tech Lounge widget enables employees to check in for walk-in IT help or book an appointment.
 
 ## Get started
 

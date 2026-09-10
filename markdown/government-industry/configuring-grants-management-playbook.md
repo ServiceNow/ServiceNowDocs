@@ -34,7 +34,7 @@ Install Grants Management from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
-
+[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
 
 </td><td>
 

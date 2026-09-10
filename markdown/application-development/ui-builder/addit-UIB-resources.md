@@ -26,7 +26,7 @@ Additional ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="6">
 
-UI Builder is a web user interface builder. Use UI Builder to build pages for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+UI Builder is a web user interface builder. Use UI Builder to build pages for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 </td><td>
 

@@ -8,7 +8,7 @@ product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -32,15 +32,58 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 4.  In the DevOps Tool Onboarding form, enter the tool details:
 
-    |Field|Description|
-    |-----|-----------|
-    |Tool name|Name for your Rally integration.|
-    |Tool integration|Select Rally.|
-    |Tool URL|URL of your Rally instance to integrate.|
-    |Tool password/ Access token|Enter the API key for Rally.|
-    |Use MidServer|Optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to  DevOps  and capability is set to REST.|
+<table id="table_ubw_p1p_gwb"><thead><tr><th>
 
-5.  Select **Order Now**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Tool name
+
+</td><td>
+
+Name for your Rally integration.
+
+</td></tr><tr><td>
+
+Tool integration
+
+</td><td>
+
+Select Rally.
+
+</td></tr><tr><td>
+
+Tool URL
+
+</td><td>
+
+URL of your Rally instance to integrate.
+
+</td></tr><tr><td>
+
+Credential type
+
+</td><td>
+
+Select Basic Auth or OAuth 2.0, depending on the credentials you're using.-   For Basic Auth, enter the password or access token.
+-   For OAuth 2.0, enter the credentials. For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
+
+
+</td></tr><tr><td>
+
+Use MidServer
+
+</td><td>
+
+Optional. Select MID Server for an on-premises tool that is attached to a MID Server. Application is automatically set to  DevOps  and capability is set to REST.
+
+</td></tr></tbody>
+</table>5.  Select **Order Now**.
 
     A request is created. When the request is approved, the tool is created, connected, discovered, and configured.
 

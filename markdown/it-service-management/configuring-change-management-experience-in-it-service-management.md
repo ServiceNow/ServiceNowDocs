@@ -78,6 +78,8 @@ Navigate the setup across the core configuration areas within the Configuration 
 
 You must have the Change Management Setup Administrator \(sn\_itsm\_chg\_admin.admin\) role to configure all the sections of the Change Management setup. This role contains the following roles that can be assigned for access to specific sections:
 
+**Note:** The following roles no longer automatically inherit the sn\_ia\_config.ia\_user role. Users who need to configure the console must now be assigned both the appropriate Change Management role \(for example, sn\_itsm\_chg\_admin.forms\_config\) and the sn\_ia\_config.ia\_user role explicitly. Existing roles aren't modified during upgrade, allowing you to maintain full control over assignment of elevated privileges. After upgrading, if you have previously relied on inherited access, you won't be able to configure the console until the sn\_ia\_config.ia\_user role is assigned explicitly.
+
 |Role|Description|
 |----|-----------|
 |sn\_itsm\_chg\_admin.forms\_config|Grants access to review and configure change forms.|

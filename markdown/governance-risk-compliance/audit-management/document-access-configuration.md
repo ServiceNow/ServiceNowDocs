@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud Document Management, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create Cloud File Access on engagements and audit tasks
@@ -27,7 +27,7 @@ Workspace users with the following roles can access the Cloud file configuration
 
 ## Cloud file configuration module
 
-If you're the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module to configure the permissions as shown in the example.
+If you're the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module. Configure the permissions as shown in the example.
 
 \[Omitted image "cloud-file-config-file-access-permission.png"\] Alt text: File access permissions.
 

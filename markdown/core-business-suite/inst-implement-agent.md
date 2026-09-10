@@ -16,7 +16,7 @@ Install the Implementation Agent to enable an admin home dashboard where you can
 
 ## Before you begin
 
-For information on using a centralized admin home dashboard to set up and manage applications, see .
+For information on using a centralized admin home dashboard to set up and manage applications, see [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
 
 **Note:** Core Business Suite guided setup is supported only on Australia patch 1 and later. Verify that your instance meets this requirement before installing the Implementation Agent.
 

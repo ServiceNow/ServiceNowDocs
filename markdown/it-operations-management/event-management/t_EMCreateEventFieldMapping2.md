@@ -105,7 +105,7 @@ Copies part of the Source field value to the Target field. Source and Target fie
 
 -   **Advanced mapping using script**:
 
-Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
 **Warning:** Complex scripts may affect event processing performance.
 
@@ -470,7 +470,7 @@ Run after binding
 
 </td><td>
 
-When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
  **Warning:** Complex scripts may affect event processing performance.
 

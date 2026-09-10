@@ -1,6 +1,6 @@
 ---
 title: Calendar and schedule management
-description: Calendar and schedule management in Employee Slate includes calendar widgets and AI-powered scheduling. Features include an AI assistant for scheduling tasks, a My Calendar widget for meeting access, and an Upcoming Holiday widget based on employee work location.
+description: Calendar and schedule management in EmployeeWorks Web App includes calendar widgets and AI-powered scheduling. Features include an AI assistant for scheduling tasks, a My Calendar widget for meeting access, and an Upcoming Holiday widget based on employee work location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-calendar-schedule.html
 release: australia
@@ -9,19 +9,19 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2024-03-12"
 reading_time_minutes: 2
-keywords: [calendar management, scheduling, holiday widget, time management, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+keywords: [calendar management, scheduling, holiday widget, time management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Calendar and schedule management
 
-Calendar and schedule management in Employee Slate includes calendar widgets and AI-powered scheduling. Features include an AI assistant for scheduling tasks, a My Calendar widget for meeting access, and an Upcoming Holiday widget based on employee work location.
+Calendar and schedule management in EmployeeWorks Web App includes calendar widgets and AI-powered scheduling. Features include an AI assistant for scheduling tasks, a My Calendar widget for meeting access, and an Upcoming Holiday widget based on employee work location.
 
-Employee Slate provides time-aware information through the following capabilities. The My Calendar widget in Canvas displays upcoming meetings with direct join functionality. The Upcoming Holiday widget displays the next relevant holiday on the home page. These capabilities work together to support both active scheduling and passive time awareness.
+EmployeeWorks Web App provides time-aware information through the following capabilities. The My Calendar widget in Canvas displays upcoming meetings with direct join functionality. The Upcoming Holiday widget displays the next relevant holiday on the home page. These capabilities work together to support both active scheduling and passive time awareness.
 
 ## Upcoming holiday widget
 
-The Upcoming Holiday widget appears on the Employee Slate home page and helps employees stay informed about upcoming time off. Unlike the My Calendar widget which focuses on daily meetings, this widget specifically highlights company holidays relevant to each employee work location.
+The Upcoming Holiday widget appears on the EmployeeWorks Web App home page and helps employees stay informed about upcoming time off. Unlike the My Calendar widget which focuses on daily meetings, this widget specifically highlights company holidays relevant to each employee work location.
 
 The Upcoming Holiday widget automatically determines which holiday to display through the following process:
 
@@ -30,13 +30,13 @@ The Upcoming Holiday widget automatically determines which holiday to display th
 -   Displays the holiday name, date, and day of the week in a clear format.
 -   Shows only the most immediate upcoming holiday relevant to the employee.
 
-Administrators populate the holiday calendar table per work location and control widget visibility from the **Employee Slate admin console**.
+Administrators populate the holiday calendar table per work location and control widget visibility from the admin console.
 
 **Note:** A widget hidden in the admin console does not appear on any employee home page. When no holiday is found for the work location or when the work location is not available, the widget falls back to the default location set on the holiday calendar table.
 
 ## My calendar widget
 
-The My Calendar widget appears in the **Canvas** module and provides employees with immediate access to their meeting schedule. This widget eliminates the need to switch between applications. Upcoming meetings display directly within Employee Slate, complete with join functionality.
+The My Calendar widget appears in the **Canvas** module and provides employees with immediate access to their meeting schedule. This widget eliminates the need to switch between applications. Upcoming meetings display directly within EmployeeWorks Web App, complete with join functionality.
 
 The My Calendar widget offers the following key features for meeting management:
 

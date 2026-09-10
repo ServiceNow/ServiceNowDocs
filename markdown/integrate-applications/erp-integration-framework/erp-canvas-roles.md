@@ -1,31 +1,31 @@
 ---
 title: Zero Copy Connector for ERP roles
-description: Assign Zero Copy Connector for ERP roles to give team members the access they must have to configure ERP systems, build models, or read ERP data.
+description: Zero Copy Connector for ERP roles give team members the access they must have to configure ERP systems, build models, or read ERP data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-roles.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, role]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP roles
 
-Assign Zero Copy Connector for ERP roles to give team members the access they must have to configure ERP systems, build models, or read ERP data.
+Zero Copy Connector for ERP roles give team members the access they must have to configure ERP systems, build models, or read ERP data.
 
-**Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the sn\_erp\_integration.erp\_admin role, not just erp\_admin.
+**Important:** When you assign Zero Copy Connector for ERP roles to a user, you must include the scope. For example, assign the sn\_erp\_integration.erp\_admin role, not just erp\_admin.
 
-For more on assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
+For more information about assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 To learn more about product-specific \(granular\) admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
 
-## Zero Copy Connector for ERP roles
+## Required roles and instances
 
-**Note:** All required roles are the same across development and production instances. However, only sn\_erp\_integration.erp\_user is required to read data in a production instance.
+All required roles are the same across development and production instances. However, only sn\_erp\_integration.erp\_user is required to read data in a production instance.
 
 <table id="table_jj3_ykv_cwb"><thead><tr><th>
 
@@ -45,7 +45,7 @@ sn\_erp\_integration.erp\_admin
 
 </td><td>
 
-Grants the user access to updating the application setup.
+Grants the user access to update the application setup.
 
 </td><td>
 
@@ -59,7 +59,7 @@ sn\_erp\_integration.erp\_ai\_user
 
 </td><td>
 
-Grants the user access to ERP-related generative AI capabilities including skills, agentic workflows, and agents.
+Grants the user access to ERP-related generative AI capabilities, including skills, agentic workflows, and agents.
 
 </td><td>
 
@@ -71,7 +71,7 @@ sn\_erp\_integration.erp\_data\_pill
 
 </td><td>
 
-Grants the user read access to all the tables needed for making Financial Services Remote Tables requests.This role can be combined with any single Financial Services Remote Tables role. For example, combining sn\_erp\_integration.erp\_data\_pill and sn\_erp\_integration.sap\_company\_code\_user enables the list of SAP Company Codes.
+Grants the user read access to all the tables required to make Financial Services Remote Tables requests.This role can be combined with any single Financial Services Remote Tables role. For example, combining sn\_erp\_integration.erp\_data\_pill and sn\_erp\_integration.sap\_company\_code\_user enables the list of SAP Company Codes.
 
 </td><td>
 
@@ -101,11 +101,11 @@ sn\_erp\_integration.erp\_user
 
 </td><td>
 
-Grants the user read access for all remote tables.
+Grants the user read access to all remote tables.
 
 </td><td>
 
-Contains sn\_erp\_integration.erp\_data\_pill and all the data model-specific roles listed in the next section.
+Contains sn\_erp\_integration.erp\_data\_pill and all the data model-specific roles listed in the Additional ERP data model roles section.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ sn\_erp\_integration.etl\_user
 
 </td><td>
 
-Grants the user the ability to trigger the ETL process.
+Grants the user access to trigger the ETL process.
 
 </td><td>
 

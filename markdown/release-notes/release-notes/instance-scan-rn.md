@@ -1,9 +1,9 @@
 ---
 title: Instance Scan release notes
-description: The ServiceNow Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.
+description: The ServiceNow Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.The ServiceNow Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The ServiceNow® Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.
 
-## Instance Scan highlights for the Australia release
+## About Instance Scan
 
 -   Enable parallel scans to streamline processing and reduce completion times.
 -   Experience the new scan\_check\_writer role to write checks in the Instance Scan table.
@@ -20,7 +20,20 @@ The ServiceNow® Instance Scan engine is used to interrogate your instance for c
 
 See [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-landing-page.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Instance Scan is a ServiceNow AI Platform feature that is active by default.
+
+
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Parallel execution of scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-parallel-scan.md)**
 
@@ -35,16 +48,10 @@ See [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
     You can now access Instance Scan from integrated development environment \(IDE\) on the ServiceNow AI Platform.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Scan execution of inactive and base system checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/hs-sys-properties.md)**
 
     You can now execute scans on inactive checks by setting the glide.scan.inactive\_records property to true. Add and enable glide.scan.base\_system\_records property to execute scans on base system checks.
 
-
-## Activation information
-
-Instance Scan is a ServiceNow AI Platform feature that is active by default.
-
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

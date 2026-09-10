@@ -16,10 +16,10 @@ Create a collector to import metadata from ServiceNow.
 
 ## Before you begin
 
-Before you begin, verify the following:
+Verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
--   All per-requisite tasks are completed. For more information, see [Prepare to run the ServiceNow collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-servicenow-collector.md).
+-   All prerequisite tasks are completed. For more information, see [Prepare to run the ServiceNow collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-servicenow-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 -   Role required: connection-admin
 
 ## Procedure
@@ -47,17 +47,38 @@ Before you begin, verify the following:
     |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-7.  Configure the instance URL.
+7.  Configure the connection options.
+
+<table id="table_dqp_tkd_j3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+ServiceNow Instance URL
+
+</td><td>
+
+Base URL of your ServiceNow instance, such as `https://your-instance.service-now.com`. Do not include a trailing slash.
+
+</td></tr><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>8.  Configure the authentication options.
 
     |Field|Description|
     |-----|-----------|
-    |ServiceNow Instance URL|Base URL of your ServiceNow instance, such as `https://your-instance.service-now.com`. Do not include a trailing slash.|
-
-8.  Configure the authentication options.
-
-    |Field|Description|
-    |-----|-----------|
-    |Username|ServiceNow user name to use for authentication.|
+    |Username|ServiceNow username to use for authentication.|
     |Password|Password for the specified username.|
 
 9.  Configure the advanced options.
@@ -65,7 +86,7 @@ Before you begin, verify the following:
     |Field|Description|
     |-----|-----------|
     |ServiceNow API Page Size|Number of records to request per page from the ServiceNow Table API. Default is 1000.|
-    |Skip Glide Tables, Fields, and Views|Specify to skip harvesting of Glide tables, fields, and views.|
+    |Skip Glide Tables, Fields, and Views|Select to skip harvesting of Glide tables, fields, and views.|
 
 10. Select **Save**.
 
@@ -76,7 +97,7 @@ The metadata collector is created and appears on the Connectors page with a Conf
 
 ## What to do next
 
-After creating the collector, you can perform any of the following tasks:
+You can perform any of the following tasks:
 
 -   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md).
 -   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md).

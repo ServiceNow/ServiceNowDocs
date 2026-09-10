@@ -1,5 +1,5 @@
 ---
-title: Configure Amazon Web Service Credentials for Cloud License Estimator
+title: Configure AWS credentials for Cloud License Estimator
 description: This task guides you in configuring IAM user permanent credentials for the designated account.There are several ways to configure AWS Service Accounts depending on the credentials and master accounts.The tool supports management accounts and single subscriptions. Management accounts include all subscriptions under that account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure Cloud License Estimator, Cloud License Estimator, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure Amazon Web Service Credentials for Cloud License Estimator
+# Configure AWS credentials for Cloud License Estimator
 
 This task guides you in configuring IAM user permanent credentials for the designated account.
 
@@ -22,13 +22,13 @@ Role required: admin
 
 ## About this task
 
-You can configure IAM roles to generate temporary credentials using STS API for a specified account. When using IAM roles for temporary credentials, the Credential ID is optional in the configuration form. However, AWS service accounts require an IAM role to be configured in service accounts. Ensure at least one service account has credentials to generate temporary credentials.
+You can configure IAM roles to generate temporary credentials using STS API for a specified account. When using IAM roles for temporary credentials, the Credential ID is optional in the configuration form. However, AWS service accounts require an IAM role to be configured in service accounts. At least one service account must have credentials to generate temporary credentials.
 
 ## Procedure
 
-1.  Navigate to **Filter Navigator** &gt; **All** &gt; **ITOM Cloud LIcense Estimator** &gt; **Home**.
+1.  Navigate to **Filter Navigator** &gt; **All** &gt; **ITOM Cloud License Estimator** &gt; **Home**.
 
-2.  On the Home Page, select **Go to Credentials** to open the **Credentials \(discovery\_credentials\)** page.
+2.  On the Home page, select **Go to Credentials** to open the **Credentials \(discovery\_credentials\)** page.
 
 3.  Select **New** &gt; **AWS Credentials** and enter the requisite information.
 

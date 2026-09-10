@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, interval, data]
-breadcrumb: [Data extraction, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create a scheduled extraction in Zero Copy Connector for ERP
@@ -21,7 +21,7 @@ Schedule extraction of information for an ERP \(Enterprise Resource Planning\) e
 
 **Important:**
 
-If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see .
+If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RunFixScripts.md).
 
 You must have a standard or custom ERP extraction table in place to use. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 

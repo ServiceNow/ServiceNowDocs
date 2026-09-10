@@ -7,21 +7,21 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-08-05"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extract, extraction table]
-breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # ERP data extraction and transformation
 
 ERP \(Enterprise Resource Planning\) extraction tables enable you to create daily processes that extract large amounts of data. You can then include the extracted data in an ERP model in Zero Copy Connector for ERP.
 
-## Hold large amounts of data in extraction tables
+## Data in extraction tables
 
 Use extraction tables, which are ETL \(extract, transform, and load\) data sources, to extract large amounts of data regularly.
 
-For example, you can extract all open purchase orders for the current month from an SAP system into a Glide table once a day at a set time. You can then access that data via ServiceNow AI Platform, such as Source-to-Pay Operations or a PO workspace created in App Engine Studio.
+For example, you can extract all open purchase orders for the current month from an SAP system into a Glide table once a day at a set time. You can then access that data through ServiceNow AI Platform, such as Source-to-Pay Operations or a PO workspace created in App Engine Studio.
 
 After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 

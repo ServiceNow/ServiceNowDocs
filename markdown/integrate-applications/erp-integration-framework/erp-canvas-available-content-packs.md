@@ -1,21 +1,21 @@
 ---
 title: Available Zero Copy Connector for ERP content packs
-description: These content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
+description: Content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [erp, canvas, content, pack, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Content packs, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Available Zero Copy Connector for ERP content packs
 
-These content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
+Content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
 
 ## ERP Content Pack for Enterprise Data Foundation
 
@@ -37,7 +37,7 @@ The ERP Content Pack for Hire to Retire contains models including Candidate, Job
 
 |Content pack contents|Target systems|Methods|
 |---------------------|--------------|-------|
-|Models| | |
+|Models|ECC and S/4|OData V2|
 
 ## ERP Content Pack for Quote to Cash
 

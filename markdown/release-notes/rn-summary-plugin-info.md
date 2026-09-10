@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-10"
-reading_time_minutes: 22
+last_updated: "2026-09-10"
+reading_time_minutes: 23
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -47,6 +47,10 @@ AI Agent Advisor \(sn\_agent\_miner\): AI Agent Advisor is an AI solution that a
 AI Control Tower
 
 </td><td>
+
+Shadow AI Detection \(sn\_shadow\_ai\): Detect unsanctioned AI use.
+
+AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
 -   com.sn\_ai\_disc - Enables the AI connections page in the AI Control Tower configuration.
 -   sn\_sgc\_central - Enables the Service Graph Connector \(SGC\) feature in the AI connections page.
@@ -157,11 +161,29 @@ Change Management
 
 </td></tr><tr><td>
 
+Cloud Cost Management
+
+</td><td>
+
+ServiceNow Otto for Cloud Cost Management \(com.sn\_now\_assist\_ccm\): Enables cloud resource admins and users to use the capabilities of generative AI skills in Cloud Cost Management.
+
+</td></tr><tr><td>
+
 Code Signing
 
 </td><td>
 
 Code Signing OOB Apps Signatures \(com.glide.code\_signing.oob\_apps\_signatures\): This plugin installs build time signatures for all relevant records in the trued-upServiceNow® Store application versions.
+
+</td></tr><tr><td>
+
+Common Governance, Risk, and Compliance feature
+
+</td><td>
+
+-   Integrated risk management foundation \(com.sn\_ai\_irm\_fdn\)
+-   Integrated risk management advanced \(com.sn\_ai\_irm\_adv\)
+-   Integrated risk management prime \(com.sn\_ai\_irm\_prm\)
 
 </td></tr><tr><td>
 
@@ -221,11 +243,19 @@ Data Catalog
 
 </td><td>
 
--   Data Catalog UI \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for browsing and viewing data assets in the catalog.
--   Data Catalog Core \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
--   Metadata Collectors \(sn\_meta\_collectors\): Enables automated metadata collection from external data platforms to populate and synchronize catalog content.
--   Metadata Collectors Core \(sn\_dcg\_cc\): Provides connectivity services for integrating Data Catalog with external data sources and platforms.
+ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+
+-   ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+-   Graph Explorer \(sn\_hexplorer\): Provides visualization of data flow and business context relationships across systems with column-level lineage tracking. Enables interactive catalog navigation with upstream and downstream data flows and dependency insights.
 -   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for managing external data source connections used by Workflow Data Fabric and Data Catalog.
+
+</td></tr><tr><td>
+
+Data Center and Network Asset Management
+
+</td><td>
+
+Data Center and Network Asset Management \(sn\_dcnam\): Data Center and Network Asset Management delivers end-to-end lifecycle management across all data center assets to increase visibility, reduce downtime, maximize usable life, and minimize risk.
 
 </td></tr><tr><td>
 
@@ -242,11 +272,9 @@ Data products
 </td><td>
 
 -   Data Products \(sn\_data\_product\): Enables data stewards to create data interfaces and package them into governed data products for sharing and consumption across the organization.
--   ServiceNow Data Catalog \(UI\) \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for consumers to browse and access data products and data interfaces in the Data Catalog.
--   ServiceNow Data Catalog \(Core\) \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
--   ServiceNow Data Catalog - Metadata Collectors \(UI\) \(sn\_meta\_collectors\): Provides the interface for configuring and running metadata collectors that synchronize schema information from external data platforms to the Data Catalog.
--   ServiceNow Data Catalog - Metadata Collectors \(Core\) \(sn\_dcg\_cc\): Provides the core connectivity services for integrating external data platforms with the Data Catalog through metadata collection.
--   Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for configuring and managing zero-copy connectors that establish live data pathways between ServiceNow and external data sources.
+-   ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+-   Graph Explorer \(sn\_hexplorer\): Provides visualization of data flow and business context relationships across systems with column-level lineage tracking. Enables interactive catalog navigation with upstream and downstream data flows and dependency insights.
+-   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for configuring and managing zero-copy connectors that establish live data pathways between ServiceNow and external data sources.
 
 </td></tr><tr><td>
 
@@ -277,15 +305,6 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
-Field Service Management
-
-</td><td>
-
--   Field Service Manager Mobile \(com.snc.fsm\_manager\_mobile\). For details, see [Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/activate-manager-mobile.md). Mangers can manage their technicians and tasks using their mobile device.
--   Field Service Manager Workforce \(com.snc.fsm\_manager\_workforce\). For details, see [Activate Field Service Manager Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/activate-workforce.md). Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
-
-</td></tr><tr><td>
-
 Industrial Connected Workforce Core
 
 </td><td>
@@ -299,6 +318,22 @@ Industrial Connected Workforce Mobile Experience
 </td><td>
 
 ICW Mobile \(sn\_icw\_mobile\): Contains the Industrial Connected Workforce Mobile Experience application.
+
+</td></tr><tr><td>
+
+Industrial Guided Tasks
+
+</td><td>
+
+Industrial Guided Task \(sn\_icw\_igt\): Contains the Industrial Guided Tasks application.
+
+</td></tr><tr><td>
+
+Industrial Standards
+
+</td><td>
+
+Industrial Standard \(sn\_icw\_std\): Contains the Industrial Standards application.
 
 </td></tr><tr><td>
 
@@ -330,6 +365,14 @@ Legal Conflict of Interest
 </td><td>
 
 Legal and Contracts Common Utilities \(sn\_lco\_cmn\): Common utilities plugin for Legal Service Delivery and Contract Management Pro.
+
+</td></tr><tr><td>
+
+Live Connect
+
+</td><td>
+
+Live Connect \(com.glide.rest.sqlapiserver\): Unified installer for the ServiceNow ODBC and JDBC server‑side plugin. This plugin works with ServiceNow client‑side drivers to enable clients to query and retrieve data from a ServiceNow instance using ODBC and JDBC API standards. You can download and install the client‑side drivers on your client machines from the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -396,14 +439,6 @@ SPM Enterprise-Wide Deployment
 </td><td>
 
 Enterprise-Wide Deployment \(sn\_spm\_ewd\): Provides data partitioning capabilities that enable organizations to separate and control record visibility across departments and business units.
-
-</td></tr><tr><td>
-
-SQL API
-
-</td><td>
-
-Live Connect \(com.glide.rest.sqlapiserver\): Unified installer for the ServiceNow ODBC and JDBC server‑side plugin. This plugin works with ServiceNow client‑side drivers to enable clients to query and retrieve data from a ServiceNow instance using ODBC and JDBC API standards. You can download and install the client‑side drivers on your client machines from the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -491,14 +526,6 @@ Telecommunications Network Inventory
 -   Remote Hands Request Management \(sn\_remote\_hands\): Remote Hands plugin enables you to use the Remote Hands request feature in the Customer Service Management portal.
 -   Racks Allocation Workflow \(sn\_genai\_platform 12.1.0\): Enables rack allocation via the Rack placement AI agent in the Telecommunication Network Inventory Workspace and Service Operation Workspace. The agent reserves the racks that meet the capacity requirements, based on the physical and logical constraints specified in the change request.
 
-</td></tr><tr><td>
-
-Telecommunications Service Operations Management \(TSOM\)
-
-</td><td>
-
-TSOM Event Management Connectors \(sn\_tsom\_em\_conns\): TSOM Assurance Connectors for events and metrics
-
 </td></tr></tbody>
 </table>## Deprecated plugins in Australia
 
@@ -522,6 +549,28 @@ Customer Service CTI Demo Data \(com.snc.customerservice\_cti\_demo\): ServiceNo
 
 </td></tr><tr><td>
 
+Data Catalog
+
+</td><td>
+
+Data Catalog UI \(sn\_dcg\_ui\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Data Catalog Core \(sn\_dcg\_core\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Metadata Collectors \(sn\_meta\_collectors\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+Metadata Collectors Core \(sn\_dcg\_cc\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
+
+</td></tr><tr><td>
+
+Legal Virtual Agent Conversations
+
+</td><td>
+
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
+
+</td></tr><tr><td>
+
 Predictive intelligence for Legal Service Delivery
 
 </td><td>
@@ -535,6 +584,14 @@ Security Incident Response
 </td><td>
 
 Security Incident Response UI \(sn\_app\_secops\_ui\): This plugin is replaced by Security Incident Response Workspace \(sn\_si\_aw\).
+
+</td></tr><tr><td>
+
+Self-service and omnichannel engagement for CSM
+
+</td><td>
+
+CTI Softphone \(com.snc.cti\): There is no replacement for this plugin.
 
 </td></tr><tr><td>
 
@@ -558,6 +615,14 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
+
+AI Admin Hub
+
+</td><td>
+
+Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+
+</td></tr><tr><td>
 
 Agent experience for CSM
 
@@ -610,6 +675,34 @@ The following Integration Hub flow templates are planned for deprecation in Sept
 -   Flow Templates for Integration Hub Enterprise \(com.sn.ft.enterprise\)
 -   Flow Templates for Notifications \(com.sn.ft.inc.ws.notif\)
 -   Flow Templates for Service Desk \(com.sn.servicedesk.flow.temp\)
+
+</td></tr><tr><td>
+
+Case management for CSM
+
+</td><td>
+
+These plugins are planned for deprecation in the C release. Beginning with the Australia release these plugins will be migrated to store applications. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed:
+
+-   [Action Status Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-action-status.md) \(com.sn\_action\_status\)
+-   [Customer Service Case Action Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-action-status.md) \(com.snc.csm\_action\_status\)
+-   [Case Digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-digests.md) \(com.sn\_csm\_case\_digest\)
+-   [Customer Service Document Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-case-digests.md) \(com.sn\_csm\_doc\_template\)
+-   [Customer Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-integration.md) \(com.snc.csm\_ppm\)
+-   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
+-   Customer Service with Service Management \(com.sn\_cs\_sm\)
+-   [Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md) \(com.sn\_majorissue\_mgt\)
+-   [Proxy contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/employee-create-case-for-customer.md) \(com.snc.csm\_proxy\_contacts\)
+-   [Targeted communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) \(com.sn\_publications\)
+-   [Case Assignment Workbench Demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md) \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
+
+</td></tr><tr><td>
+
+Cloud Cost Management
+
+</td><td>
+
+Cloud Cost Management \(sn\_clin\): Planned for deprecation in a future release. Planned for deprecation in a future release. Use the Cloud Cost Management Infra Stack application that includes related ServiceNow® Store applications and plugins if they aren’t already installed.
 
 </td></tr><tr><td>
 
@@ -668,52 +761,11 @@ Encryption
 
 </td></tr><tr><td>
 
-Field Service Management
-
-</td><td>
-
-The following plugins are planned for deprecation in the C release. Beginning with the Australia release, this plugin will be migrated to a store application. When you upgrade your instance to at least the Australia release, the store applications will be automatically installed.
-
--   Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\)
--   Field Service Marketplace \(com.snc.fsm\_marketplace\)
--   Marketplace Core \(com.snc.marketplace\_core\)
--   Field Service Management Intelligent Task Recommendations \(com.snc.fsm\_task\_recommendations\)
--   Field Service Management Scheduling Flows \(com.snc.sn\_app\_fsm\_scheduling\_flows\)
--   Intelligent Task Recommendations \(com.snc.task\_recommendations\)
--   Application Common Configuration \(com.snc.app\_cmn\_config\)
--   Field Service Capacity Management \(com.snc.fsm\_capacity\_management\)
--   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\)
--   Field Service with Service Locations support \(com.snc.fsm\_service\_locations\)
--   Sales Mobile Common \(com.snc.sales\_mobile\_cmn\)
--   Technician driven sales with Field Service \(com.snc.fsm\_technician\_sales\)
--   Territory Planning \(com.snc.territory\_planning\)
--   Field Service Mobile \(com.sn\_fsm\_mobile\)
--   Field Service Quality Management \(com.sn\_fsm\_quality\)
--   Quality Management \(com.sn\_quality\)
--   Field Service Contractor Management \(com.snc.fsm\_contractor\_management\)
--   Beans.AI Spoke \(com.sn\_beans\_ai\_spoke\)
--   Map Integrations for Field Service \(com.snc.app\_fsm\_map\_integr\)
--   Schedule Optimization \(com.snc\_schedule\_optimization\)
--   Field Service Multi-Day Task Scheduling \(com.snc.fsm\_multiday\_tasks\)
--   Field Service Management Access Hours Management \(com.snc.fsm\_access\_hours\)
--   Work Order Questionnaires \(com.snc.wm\_questionnaire\)
--   Work Order Management \(com.snc.work\_management\_core\)
-
-</td></tr><tr><td>
-
 Impact
 
 </td><td>
 
 Impact Health \(com.sn\_impact\_health\): Planned for deprecation in a future release. For this functionality,  to use the Scan Engine application.
-
-</td></tr><tr><td>
-
-Legal Virtual Agent Conversations
-
-</td><td>
-
-[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-va-conversations.md) \(sn\_lg\_virtual\_agent\): Planned for deprecation in C release.There is no replacement for this plugin.
 
 </td></tr><tr><td>
 
@@ -736,11 +788,19 @@ Self-service and omnichannel engagement for CSM
 
 </td></tr><tr><td>
 
+Service Graph Connector Integration for Claroty CTD
+
+</td><td>
+
+Service Graph Connector Integration for Claroty CTD \(sn\_clarotyctdsgc\): Planned for deprecation by the Canada release.
+
+</td></tr><tr><td>
+
 ServiceNow AI Platform core feature
 
 </td><td>
 
--   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. Form Builder is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 -   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 </td></tr><tr><td>
@@ -753,20 +813,20 @@ CLI Metadata \(com.sn\_cli\_metadata\): Planned for deprecation in the C release
 
 </td></tr><tr><td>
 
-ServiceNow Otto
-
-</td><td>
-
-Conversational Help Skills: Planned for deprecation in May 2026. Install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b). For configuration guidance, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
-
-</td></tr><tr><td>
-
 ServiceNow Otto for Creator
 
 </td><td>
 
 -   App generation \(sn\_ae\_gen\_ai\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
 -   Test generation \(sn\_text2test\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+
+</td></tr><tr><td>
+
+Vulnerability Response Integration with Claroty CTD
+
+</td><td>
+
+Vulnerability Response Integration with Claroty CTD \(sn\_clarotyctdvr\): Planned for deprecation by the Canada release.
 
 </td></tr><tr><td>
 
@@ -806,7 +866,9 @@ Data Management for CSM
 -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
 -   Outsourced Customer Service \(com.snc.csm\_ocs\)
 -   Service Organization \(com.snc.service\_organization\)
--   Outsourced Service Provider \(com.snc.outsourced\_service\_provider\)
+-   Outsourced service provider \(com.snc.outsourced\_service\_provider\)
+-   CSM Data Classification \(com.snc.csm\_data\_privacy\): Renamed to CRM Data Classification.
+-   Customer Service Household \(com.snc.household\): Renamed to CRM Household Entities.
 
 </td></tr><tr><td>
 

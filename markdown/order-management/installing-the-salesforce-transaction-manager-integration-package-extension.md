@@ -275,19 +275,19 @@ To troubleshoot permissions errors, follow these steps.
 1.  In Transaction Administration, click **Personas**.
 2.  In the list of personas, observe which persona is labeled DEFAULT. The screenshot below shows that "Sales Rep" is the default persona. By default, all new users are assigned this persona.
 
-    \[Omitted image "cpq-txn-mgr-personas.png"\] Alt text: Related List Properties
+    \[Omitted image "image.cpq-txn-mgr-personas"\] Alt text: Related List Properties
 
 3.  Open each persona record. Find your user name. The user you are debugging should only be visible in one persona. Once you find the appropriate persona, note the view that manages this persona’s access. In the example, the user is among the listed user names in the Sales Rep persona. This persona’s access is managed by the "sales" view.
 
-    \[Omitted image "cpq-txn-mgr-persona-managed-by.png"\] Alt text: Personas screen
+    \[Omitted image "image.cpq-txn-mgr-persona-managed-by"\] Alt text: Personas screen
 
 4.  Open the view that manages the persona’s access. In our example, the view is named "sales". To open the view, in CPQ Transaction Admin Home, go to Views, and then click the managing view.
 
-    \[Omitted image "cpq-txn-mgr-personas-view.png"\] Alt text: Transaction details
+    \[Omitted image "image.cpq-txn-mgr-personas-view"\] Alt text: Transaction details
 
 5.  On the view detail page, click **Access**, click **Events**, and search for `createTransaction`. In the initial stage, the create transaction event \(varname: createTransaction\) must be set to **Active**.
 
-    \[Omitted image "cpq-txn-mgr-personas-events.png"\] Alt text: Sales screen
+    \[Omitted image "image.cpq-txn-mgr-personas-events"\] Alt text: Sales screen
 
 
 To sum up: for any given user, the administrator must manage the items in the following table.

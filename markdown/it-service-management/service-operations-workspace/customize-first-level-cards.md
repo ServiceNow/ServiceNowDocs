@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -20,9 +20,15 @@ Configure the data displayed in donuts in the **Overview** section of the tier 1
 
 Role required: admin
 
+## About this task
+
+You can customize header label, data source, metric, group by field, and `viewAllQuery` for all metric cards \(referred to as donuts in the UI\).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview**.
+
+    **Note:** In the Service Operations Workspace UI, the metric cards on the tier 1 landing page are labeled **donuts**. Each cards displays a count from a configured data source.
 
 2.  On the **Overview** tab from the **Initial Setup** section, select the **Configure the landing page** option.
 
@@ -111,7 +117,9 @@ Role required: admin
      
     ```
 
-    To add Problem donut to tier 1 landing page, add additional snippets as per your requirement similar to the code snippet mentioned below.
+    **Note:** The `roles` property accepts an array of role names. Only users with the specified roles can view this metric card. If you omit `roles` or leave the array empty, the card is visible to all users.
+
+    To add Problem donut to tier 1 landing page, add additional snippets according to your requirement similar to the code snippet mentioned below.
 
     ```
     {
@@ -129,7 +137,7 @@ Role required: admin
     
     ```
 
-    Copy the **fetchTitle** method from **SowIncidentLandingPageUtilsSNC** to add labels for list that is displayed when you click on the donut.
+    Copy the **fetchTitle** method from **SowIncidentLandingPageUtilsSNC** to add labels for list that is displayed when you select on the donut.
 
     ```
         static async fetchTitle(table, selectedField, groupByField, groupMode = false) {
@@ -180,7 +188,7 @@ Role required: admin
     
     ```
 
-    Add the labels as mentioned in the below example code block to view them as a list heading when you click on the donut.
+    Add the labels as mentioned in the below example code block to view them as a list heading when you select the donut.
 
     ```
        'problem': {  

@@ -31,7 +31,7 @@ To learn more about topic blocks and how to use them in Virtual Agent conversati
 
 Before creating Virtual Agent conversations, review the following prerequisites and the basic process for working with pre-built topics and topic blocks in Virtual Agent Designer.
 
--   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
+-   Activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\) to access pre-built Customer Service conversations and topic blocks.
 -   Determine the public sector use cases for topics to be created.
 -   In Virtual Agent Designer:
     -   [Preview \(test\) pre-built topics and topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-designer-testing.md), such as the public sector blocks, to see how they work. Use the **Type** filter to sort the list of items, such as topic blocks, in the Topics page.

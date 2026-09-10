@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Google Drive source system to allow access by the Google Drive external content connector. For details on configuring these settings in the source system, see [Configure Google Drive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
+A source system administrator must have already configured your Google Drive source system to allow access by the Google Drive external content connector. For the required source system configuration steps, see [Configure Google Drive for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/cfg-gcloud-settings-gdrive-ext-cont-connector.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

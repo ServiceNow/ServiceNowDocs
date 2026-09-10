@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing driver:
         1.  Select **Add**.
-        2.  In the Add driver window, select the driver and the relationship type between the goal and the driver.
+        2.  In the Add driver window, select the driver. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a driver: Select **New** and complete the fields on the form. For descriptions of the fields on the Driver form, see [Create a driver form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-driver-form.md).
 

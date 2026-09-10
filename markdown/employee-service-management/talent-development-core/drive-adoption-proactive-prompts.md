@@ -18,7 +18,7 @@ With Proactive Prompts for the Skills Foundation application, your managers and 
 
 ## Proactive Prompts for Skills Foundation
 
-One of the biggest challenges that an organization faces is getting their employees to update their skills profiles. With the Proactive Prompts for Skills Foundation application, you can solve this challenge easily because you can use the prompts in multiple engagement channels, such as Microsoft Teams, Microsoft Outlook, Zoom, and the short messaging service \(SMS\).
+One of the biggest challenges that an organization faces is getting their employees to update their skills profiles. With the Proactive Prompts for Skills Foundation application, you can solve this challenge easily. You can use the prompts in multiple engagement channels, such as Microsoft Teams, Microsoft Outlook, Zoom, and the short messaging service \(SMS\).
 
 \[Omitted image "skills-intelligence-proactive-prompts.png"\] Alt text: Screen shot that shows a proactive prompt on an employee's mobile screen.
 
@@ -27,7 +27,7 @@ In the example, the employee receives a prompt to update the suggestions that th
 With this feature, the managers in your organization don't have to follow up or encourage their employees to take action at the right time. Skills recommendations can help your employees keep their skills profiles up to date without constant reminders from their managers. For more information, see [Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proactive-prompts-skills.md).
 
 -   **[Pre-seeding employee skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/pre-seeded-skills.md)**  
-The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up-to-date.
+Pre-seeding automatically detects missing skills in employee profiles and prompts employees to add necessary skills, helping keep profiles current and accurate.
 -   **[Proactive Prompts for Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proactive-prompts-skills.md)**  
 Recommend roles, skills, and missing proficiencies to the employees and get approval from managers in their flow of work using Proactive Prompts.
 

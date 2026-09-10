@@ -1,9 +1,9 @@
 ---
 title: Service Catalog release notes
-description: The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.
+description: The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.
 
-## Service Catalog highlights for the Australia release
+## About Service Catalog
 
 -   Enable other users, who are added to the **Secondary owner** field, to edit catalog items.
 -   Let your requesters view the stage and the state of their requests while using the service fulfillment step.
@@ -22,7 +22,20 @@ The ServiceNow® Service Catalog application provides a requester view of the av
 
 See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md) for more information.
 
-## New in the Australia release
+## Activation and other requirements
+
+-   **Activation information**
+
+    Service Catalog is a ServiceNow AI Platform feature that is active by default.
+
+
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **[Enable editing of catalog items by multiple users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/set-up-cat-builder.md)**
 
@@ -45,23 +58,10 @@ See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Configure the update set prefix to set a custom name for the update set that gets generated automatically in Catalog Builder, making update sets easy to identify and track for consistency. Use the **glide.sc.cb.item.update\_set\_prefix** property to standardize update set names. By default, the property uses the value **CB\_$\{template\_name\}\_$\{item\_name\}\_$\{timestamp\}**.
 
 
-## Changed in this release
+### What's changed
 
 -   **[Use UI Policy tab to add and manage the UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-ui-policies-in-catalog-builder.md)**
 
     Previously, when creating or editing a question in Catalog Builder, users could define UI policies or dynamic behavior by selecting the UI policies icon \(\[Omitted image "dyn-beh-quest.png"\] Alt text: UI policies icon\). This option has been removed. Now, users must directly use the UI Policy tab to add and manage the UI policies \(actions, conditions, scripts, and other required details\) to the catalog item.
 
-
-## Activation information
-
-Service Catalog is a ServiceNow AI Platform feature that is active by default.
-
-## Related ServiceNow applications and features
-
--   **[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-catalog-generation.md)**
-
-    Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
-
-
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
 

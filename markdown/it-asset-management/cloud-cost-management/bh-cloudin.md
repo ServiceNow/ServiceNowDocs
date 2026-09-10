@@ -22,7 +22,7 @@ The insights\_admin role can create policies for AWS and GCP databases.
 
 ## How the Business hours feature works
 
-Each successful execution of a Billing Download job triggers the Budget Forecast, Business Hours, Reservation Plans, Rightsizing, and Unused resources jobs to analyze the spend and usage data and to update the actionable recommendations in the reports. Business Hours jobs follow this process.
+Each successful execution of a Billing Download job triggers the Budget Forecast, Business Hours, Commitments, Rightsizing, and Unused resources jobs to analyze the spend and usage data and to update the actionable recommendations in the reports. Business Hours jobs follow this process.
 
 \[Omitted image "bh-policy-flow-diagram.png"\] Alt text: Process flow for Business Hours
 

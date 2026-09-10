@@ -20,8 +20,8 @@ Configure Discovery to process jobs using the Event Framework method, which enab
 
 Confirm the following:
 
--   Discovery Admin Workspace is using version 1.9.0 or later.
--   ServiceNow AI Platform is using version XP9, YP4, or later than YP4.
+-   You're using Discovery Admin Workspace v1.9.0 or later.
+-   You're using the Xanadu Patch 9, Yokohama Patch 4, or later version of the ServiceNow AI Platform®.
 
 Role required: discovery\_admin
 

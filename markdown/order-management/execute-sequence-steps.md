@@ -1,6 +1,6 @@
 ---
 title: Complete predefined customer engagement tasks
-description: Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
+description: Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/execute-sequence-steps.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Cu
 
 # Complete predefined customer engagement tasks
 
-Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
+Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
 
 ## Before you begin
 

@@ -1,31 +1,33 @@
 ---
 title: Create an ERP system in Zero Copy Connector for ERP
-description: Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection, so that models and tables can use it as a data source.
+description: Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection so that models and tables can use it as a data source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-erp-system.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, create, configure, erp, system]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an ERP system in Zero Copy Connector for ERP
 
-Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection, so that models and tables can use it as a data source.
+Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection so that models and tables can use it as a data source.
 
 ## Before you begin
 
-Role required: sn\_erp\_integration.erp\_admin
-
 \[Omitted video\] Description: Video that shows how to create an ERP system in Zero Copy Connector for ERP.
+
+Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
 Zero Copy Connector for ERP supports connecting to multiple systems.
+
+Beginning with the Australia Patch 8 release \(September 2026\), you can select Oracle E-Business Suite \(EBS\) as the ERP software when creating an ERP system record. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 ## Procedure
 
@@ -37,11 +39,9 @@ Zero Copy Connector for ERP supports connecting to multiple systems.
 
 4.  On the form, fill in the fields.
 
-    \[Omitted image "erpc-system-new-ys2.png"\] Alt text: new ERP system form.
+    \[Omitted image "erpc-system-new-ys2.png"\] Alt text: Zero Copy Connector for ERP new ERP system form.
 
-    **Note:** To use the HTTP connection option, you must have an SAP system that is enabled to make an OData connection.
-
-    For a description of the field values, see [Zero Copy Connector for ERP new system field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 5.  Select **Save**.
 

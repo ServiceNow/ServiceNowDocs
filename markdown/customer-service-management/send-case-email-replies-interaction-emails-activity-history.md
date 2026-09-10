@@ -1,18 +1,18 @@
 ---
-title: Send case email replies containing interaction emails in activity history
-description: Include emails from related interactions in agent case email responses to provide full context of prior email communications. The history is created by embedding an email script within an email client template.
+title: Send case email replies with interaction email history
+description: Include emails from related interactions in agent case email responses to provide full context of prior email communications. You can create history by embedding an email script within an email client template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/send-case-email-replies-interaction-emails-activity-history.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Send case email replies containing interaction emails in activity history
+# Send case email replies with interaction email history
 
-Include emails from related interactions in agent case email responses to provide full context of prior email communications. The history is created by embedding an email script within an email client template.
+Include emails from related interactions in agent case email responses to provide full context of prior email communications. You can create history by embedding an email script within an email client template.
 
 ## Before you begin
 

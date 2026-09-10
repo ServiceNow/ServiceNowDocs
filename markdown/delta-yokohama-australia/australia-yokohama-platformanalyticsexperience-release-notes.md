@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-platformanalyticsexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 If you had previously migrated your analytics assets to Platform Analytics, assets that were in compatibility mode but are newly supported in Yokohama are migrated automatically.
+
 
 </td></tr><tr><td>
 
@@ -46,9 +49,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 On upgrade, any homepages on your instance that have been opened are migrated to Core UI dashboards, which are visible in the dashboard library. For more information, see [Homepage deprecation](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&family=zurich&ft:locale=en-US).
 
- Simple lists are all converted to the new List element on upgrade.
+Simple lists are all converted to the new List element on upgrade.
+
 
 </td></tr><tr><td>
 
@@ -56,13 +62,16 @@ Australia
 
 </td><td>
 
+-   **Upgrade information**
+
 When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
- All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
 
- After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
+After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -174,7 +183,16 @@ Yokohama
 
 </td><td>
 
--   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
+-   **[Migration center flow UX improved](https://www.servicenow.com/docs/access?context=data-migration-perform&family=yokohama&ft:locale=en-US)**
+    -   A confirmation modal is displayed when **Start moving** or **Activate** is selected.
+    -   Bulk migration can be retriggered after source artifacts are changed.
+    -   The creation of new analytics artifacts can be blocked when bulk migration starts.
+-   **Percent information added to tooltips**
+
+Tooltips in geomap, vertical and horizontal bar, heatmap, and bubble visualizations now include percentages when applicable.
+
+
+ -   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
 
 Migration scripts are improved to support more features. All migration script improvements are applied automatically on upgrade to content that was previously migrated in compatibility mode.
 
@@ -253,7 +271,18 @@ Zurich
 
 </td><td>
 
--   **[Select whether to drill down to Platform Analytics or Core UI lists](https://www.servicenow.com/docs/access?context=visualization-drilldown-in-config-ws&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Consistent header and border configuration](https://www.servicenow.com/docs/access?context=add-elements-to-a-dashboard&family=zurich&ft:locale=en-US)**
+
+Dashboard components now have header and border configuration options that are consistent with data visualizations and each other.
+
+Component icons have consistent coloring for improved contrast and accessibility and are consolidated in the same corner.
+
+
+ -   **[Select whether to drill down to Platform Analytics or Core UI lists](https://www.servicenow.com/docs/access?context=visualization-drilldown-in-config-ws&family=zurich&ft:locale=en-US)**
 
 Decide whether data view chart interactions for data visualizations on an instance drill down to Platform Analytics or Core UI record lists. This choice applies only on the Platform Analytics experience.
 
@@ -285,7 +314,23 @@ Australia
 
 </td><td>
 
--   **[Manage Platform Analytics in the improved Analytics Overview page](https://www.servicenow.com/docs/access?context=analytics-center&family=australia&ft:locale=en-US)**
+-   **[Use simplified navigation](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=australia&ft:locale=en-US)**
+
+When you are moved to Next Experience navigation:
+
+    -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
+    -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+    -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+-   **[Sort library records by column values](https://www.servicenow.com/docs/access?context=find-dashboard-library&family=australia&ft:locale=en-US)**
+
+Select the header of any column in a library page to sort the library by that column.
+
+-   **[New settings in Single Score data visualizations](https://www.servicenow.com/docs/access?context=create-dv-sing-sc-ac&family=australia&ft:locale=en-US)**
+
+Configure new color settings for Single Score data visualizations. You can also change the relative position of both the score and the title header.
+
+
+ -   **[Manage Platform Analytics in the improved Analytics Overview page](https://www.servicenow.com/docs/access?context=analytics-center&family=australia&ft:locale=en-US)**
 
 Quickly discover artifacts, access relevant information and key metrics, and take actions to manage the health of the library. The Analytics Overview page \(formerly Analytics Center\) acts as a one-stop shop and entry point for role-specific access to all important information related to Platform Analytics.
 
@@ -446,10 +491,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The Platform Analytics experience is active by default. However, some additional steps might be required.
 
--   To use indicator data sources, you might need to activate Performance Analytics.
--   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
+    -   To use indicator data sources, you might need to activate Performance Analytics.
+    -   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
 
 </td></tr><tr><td>
 
@@ -457,7 +504,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -465,7 +515,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -560,7 +613,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Dashboard overview and Filter components now support Reflow at 400% zoom.
+
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -67,10 +67,6 @@ Zurich
 
 </td><td>
 
--   **[Generate acceptance criteria for CWM stories](https://www.servicenow.com/docs/access?context=generate-acceptance-criteria-for-stories-in-cwm&family=zurich&ft:locale=en-US)**
-
-Generate clear, consistent acceptance criteria for user stories with the acceptance criteria generation skill. By using story details as context and predefined templates, the skill helps you generate acceptance criteria in a format that aligns with your organizational requirements.
-
 -   **[Generate and improve content using open-text prompts](https://www.servicenow.com/docs/access?context=generate-summarize-and-refine-content-of-docs-with-now-assist&family=zurich&ft:locale=en-US)**
 
 Help improve your content and productivity with the ability to enter custom prompts directly in the Docs, alongside the Summarize, Elaborate, and Shorten options.
@@ -120,13 +116,6 @@ Zurich
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
-
--   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install an AI product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 
 </td></tr><tr><td>
 
@@ -213,7 +202,10 @@ Zurich
 
 </td><td>
 
-Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -221,7 +213,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Otto for CWM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-zerocopyconnectorhub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -98,14 +98,6 @@ Retrieve real-time data from external sources directly in the ServiceNow AI Plat
 
 Enable data consumers to access external data on the ServiceNow AI Platform to power AI features and build applications using data fabric tables.
 
--   **[Connect to Teradata](https://www.servicenow.com/docs/access?context=teradata-wdf&family=zurich&ft:locale=en-US)**
-
-Retrieve data from Teradata in real-time without copying or duplicating the data.
-
--   **[Connect to Amazon S3 tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-wdf&family=zurich&ft:locale=en-US)**
-
-Retrieve data from Amazon S3 tables in real-time without copying or duplicating the data.
-
 
 </td></tr><tr><td>
 
@@ -142,17 +134,9 @@ Zurich
 
 </td><td>
 
--   **[SAP ECC primary connector](https://www.servicenow.com/docs/access?context=sap-ecc-primary-wdf&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
 
-The SAP ECC connector is now certified as a primary connector.
-
--   **[SAP S/4HANA primary connector](https://www.servicenow.com/docs/access?context=sap-s4hana-primary-wdf&family=zurich&ft:locale=en-US)**
-
-The SAP S/4HANA connector is now certified as a primary connector.
-
--   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-wdf&family=zurich&ft:locale=en-US)**
-
-Primary connectors that are still being enhanced to include all planned functionality are now identified as in preview. These connectors are fully supported by ServiceNow®.
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
@@ -256,9 +240,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=yokohama&ft:locale=en-US).
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -266,9 +253,12 @@ Zurich
 
 </td><td>
 
-Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. 
+-   **Activation information**
 
- Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=zurich&ft:locale=en-US).
+Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-wdf&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -379,7 +369,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr><tr><td>
 

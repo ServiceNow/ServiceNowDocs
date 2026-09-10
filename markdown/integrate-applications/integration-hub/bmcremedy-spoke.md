@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-BMC Remedy spoke v1.5.0 is the latest version.
+BMC Remedy spoke v1.5.0 is the latest version. For version history of the spoke, see [BMC Remedy spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-bmc-remedy.html).
 
 ## Spoke dependencies
 

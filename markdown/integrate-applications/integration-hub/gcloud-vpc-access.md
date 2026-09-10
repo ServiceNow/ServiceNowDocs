@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The current Google Cloud VPC Access spoke version is 1.0.1.
+The current Google Cloud VPC Access spoke version is 1.0.1. For version history of the spoke, see [Google Cloud VPC Access spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-google-cloud-vpc-access.html).
 
 ## Supported versions
 

@@ -144,7 +144,7 @@ You can access the discovery data from the Console via the API. On the Settings 
 Edit the email settings as needed to match the settings on your mail server.
 -   **[Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/export-data-json.md)**  
 The Discovery Console for OT exports data as a JSON export file.
--   **[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/console-create-backup.md)**  
+-   **[Create a backup for the Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-console-backup-concept.md)**  
 You can create a full or partial backup of the Discovery Console for OT data.
 -   **[Edit the Query Driver on Metadata tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/edit-query-driver-on-metadata.md)**  
 Edit the Query Driver on **Metadata** tab. The Query Driver section enables you to import or download query drivers and control the speed of Auto Queries.

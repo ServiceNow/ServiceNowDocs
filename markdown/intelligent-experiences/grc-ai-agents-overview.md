@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Governance, Risk, and Compliance, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+breadcrumb: [Governance, Risk, and Compliance, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Governance, Risk, and Compliance AI agents
@@ -23,5 +23,5 @@ This AI agent identifies the remediation tasks for resolving an issue by referen
 -   **[Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/grc-report-a-grc-issue-ai-agent.md)**  
 This AI agent enriches the given issue description with additional information by looking at historical data and using GRC context. It analyzes, extracts key information \(such as issue type, date of occurrence, and so on\), and creates a GRC issue.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Configure notifications for Employee Slate
-description: Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate for Now Assist.
+title: Configure notifications
+description: Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate \(built for Now Assist\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/eslate-configure-notifications.html
 release: australia
@@ -10,18 +10,18 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
 keywords: [notifications, notification content, trigger conditions, recipients, Employee Slate, Now Assist]
-breadcrumb: [Notifications, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Notifications, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure notifications for Employee Slate
+# Configure notifications
 
-Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate for Now Assist.
+Configure the content, the trigger conditions, and the recipients for the default notifications shipped with Employee Slate \(built for Now Assist\).
 
 ## Before you begin
 
-Activate Employee Slate for Now Assist in the instance.
+Activate Employee Slate \(built for Now Assist\) in the instance.
 
-Role required: admin or Employee Slate administrator.
+Role required: admin.
 
 ## About this task
 
@@ -33,7 +33,7 @@ Each notification has a content template, an icon, a set of trigger conditions, 
 
 1.  Go to **All** &gt; **Employee Center** &gt; **Portal Notifications**.
 
-    The page lists the default notifications shipped for Employee Slate for Now Assist.
+    The page lists the default notifications shipped for Employee Slate \(built for Now Assist\).
 
 2.  Select a notification, such as **Incident commented**.
 

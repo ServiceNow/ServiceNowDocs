@@ -18,7 +18,7 @@ For product offerings that have associated specifications, you can toggle the hi
 
 \[Omitted image "product-catalog-hierarchy.png"\] Alt text: Hierarchical view of product specifications for the SD-WAN Gold Plan product offering
 
-To view the product catalog hierarchy in the CSM Configurable Workspace, in the List view navigate to **Offerings** &gt; **Product Offerings**. Select a product offering, then select the Catalog Hierarchy tab. Use the **Show specification** toggle to switch between the product offering and specification hierarchical views.
+To view the product catalog hierarchy in the CRM Workspace, in the List view navigate to **Offerings** &gt; **Product Offerings**. Select a product offering, then select the Catalog Hierarchy tab. Use the **Show specification** toggle to switch between the product offering and specification hierarchical views.
 
 The toggle legend identifies the product offering and specification icons displayed in the visualization. Similar to the selection of specification nodes, when you select any product offer node, the side panel displays the high-level details of the product offer. You can use the filter to select a node and display the hierarchy under the node rather than the whole tree.
 

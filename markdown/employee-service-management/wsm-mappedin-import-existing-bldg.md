@@ -16,6 +16,10 @@ Follow these steps to import an existing building for a Mappedin map.
 
 ## Before you begin
 
+**Important:**
+
+The Mappedin integration is not available for new customers. Existing customers can upgrade to Mappedin version 1.11.0.
+
 Role required: sn\_wsd\_mappedin.admin
 
 ## Procedure

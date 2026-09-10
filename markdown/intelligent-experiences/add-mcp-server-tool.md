@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client Legacy, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add an MCP server tool to an AI agent

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [AI agents, agentic AI]
-breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Reference, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Domain separation in AI Agent Studio

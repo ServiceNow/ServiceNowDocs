@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-07-28"
 reading_time_minutes: 4
-breadcrumb: [AI Agent Studio, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Deploy AI voice agents
@@ -30,7 +30,7 @@ When you create or edit a voice assistant, you configure communication channels 
 **Note:** AI voice agents support the following:
 
 -   **LLMs \(large language model\):** Azure OpenAI, Google Gemini, and AWS Claude. Now LLM Service is also supported but limited to English language only.
--   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), and NICE CXone \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
+-   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), NICE CXone \(SIP\), and Custom \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -54,7 +54,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

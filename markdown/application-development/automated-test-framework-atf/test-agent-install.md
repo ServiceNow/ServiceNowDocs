@@ -40,9 +40,9 @@ Role required: admin
 
 5.  Enable the ATF troubleshooting agent skill:
 
-    1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+    1.  Navigate to **All** &gt; **AI Admin Hub**.
 
-    2.  Go to the **Now Assist Skills** tab and select **Creator**.\[Omitted image "atf-troubleshooting-agent.png"\] Alt text: ATF troubleshooting agent is listed as Now Assist for Creator skills.
+    2.  Go to the **AI Skills** tab and select **Creator**.\[Omitted image "atf-troubleshooting-agent.png"\] Alt text: ATF troubleshooting agent is listed as Now Assist for Creator skills.
 
     3.  Select **Turn on** to enable the skill.
 

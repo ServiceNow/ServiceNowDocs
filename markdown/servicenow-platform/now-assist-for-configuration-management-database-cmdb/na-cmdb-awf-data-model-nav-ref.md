@@ -29,6 +29,7 @@ The app provides context-driven guidance for specific scenarios:
 -   Learn the differences between data modeling in cloud and non-cloud environments
 -   Make informed decisions about how to structure and populate your CMDB data
 -   Determine which tables and attributes to prioritize for your use case
+-   Identify tables and attributes that strengthen solutions for storage devices and file shares
 
 ## Integration with ServiceNow Otto
 

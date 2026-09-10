@@ -42,8 +42,6 @@ If the Change task related list is not visible, scroll down the change form or v
 
 3.  In the **Related Links** section, select **Change Tasks** tab and then, select **New**.
 
-    If the **New** button does not appear, confirm that you have the required roles and that the change request is in a state that allows adding change tasks. Adding change tasks can be restricted by change state. For more information on state restrictions, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
-
 4.  To associate an existing change task with the change request, open the change task record and update the **Change** field to the target change request and save the record.
 
     **Note:** The **New** button creates a change task and doesn't attach an existing change task. To carry tasks to the new change request, [Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/copy-a-change-request.md)

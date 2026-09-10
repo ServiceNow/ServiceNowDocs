@@ -1,6 +1,6 @@
 ---
 title: Managing payment claims and debit approvals
-description: Using the payment claims capability of the Financial Services Payment Operations application, you can submit and manage payment claims and debit approvals for your financial institution. The application supports both personal and business claims and debits.
+description: The payment claims capability of the Financial Services Payment Operations application enables you to submit and manage payment claims and debit approvals for your financial institution. The application supports both personal and business claims and debits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/managing-payment-claims.html
 release: australia
@@ -9,23 +9,23 @@ classification: financial-services-payment-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [payment claims, debit approvals, financial services, payment operations, internal claims, external claims, refund management, claim agents, customer refunds, third-party banks, inquiry cases, service catalog, customer service portal, consumer service portal]
+audience: administrator
 breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Managing payment claims and debit approvals
 
-Using the payment claims capability of the Financial Services Payment Operations application, you can submit and manage payment claims and debit approvals for your financial institution. The application supports both personal and business claims and debits.
+The payment claims capability of the Financial Services Payment Operations application enables you to submit and manage payment claims and debit approvals for your financial institution. The application supports both personal and business claims and debits.
 
 ## Types of Claims
 
 -   **Internal claim**
 
-    This claim comes from a customer of the bank—either from an inquiry or through an employee in the front-office \(branch or call center\) of your financial institution. Before a claim agent can resolve a claim, the agent needs to know where to get the refund from. For an internal claim, the refund type can be external or internal.
+    This claim comes from a customer of the bank—either from an inquiry or through an employee in the front-office \(branch or call center\) of your financial institution. Before a claim agent can resolve a claim, the agent needs to know where the refund comes from. For an internal claim, the refund type can be external or internal.
 
     -   An external refund type indicates that the refund comes from a third-party bank.
     -   An internal refund type indicates that the refund comes from someone at your bank. In this case, a debit approval may be required.
-    ​
-
 -   **External claim**
 
     This claim comes from a third-party bank. For an external claim, the refund type is always internal, which means that the refund is made by the bank internally – by a customer or the bank itself. In this case, a debit approval may be required.
@@ -47,7 +47,7 @@ Using the payment claims capability of the Financial Services Payment Operations
 
 ## Debit approval
 
-Claim agents can create debit approval cases to get approval from their customers for a refund against claims. Customers can either accept the debit or reject them.
+Claim agents can create debit approval cases to get approval from their customers for a refund against claims. Customers can either accept or reject the debit.
 
 -   **[Create a case for an external claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-case-external-claim.md)**  
 As a claim agent, you can create a case for a refund request that comes from a third-party bank.

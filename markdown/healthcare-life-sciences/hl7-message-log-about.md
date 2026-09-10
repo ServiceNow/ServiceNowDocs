@@ -32,11 +32,11 @@ Each message log record stores:
 
 ## Message log metadata as Flow Designer trigger conditions
 
-All metadata fields on the message log record are queryable, sortable, and available as Flow Designer trigger conditions. A flow author in a consuming application can configure a flow to trigger when a message log record is created and filter it with a condition such as "ACK code = AA AND message type = ADT AND trigger event = A03 AND sending facility = MAIN" — so routing logic lives in the flow's trigger condition, not in custom scripts.
+All metadata fields on the message log record are queryable, sortable, and available as Flow Designer trigger conditions. A flow author can configure a flow to trigger when a message log record is created. The flow can filter using a condition such as "ACK code = AA AND message type = ADT AND trigger event = A03 AND sending facility = MAIN". Routing logic lives in the flow's trigger condition, not in custom scripts.
 
 ## Parsing happens at reception
 
-When a message is received, ServiceNow looks up the active parser configuration that matches the message and parses the configured segment fields into the `parsed_data` JSON on the message log record — automatically, with no flow or action required. Downstream flows in consuming applications read `parsed_data` directly from the record rather than re-parsing the raw payload.
+When a message is received, ServiceNow looks up the active parser configuration that matches the message. It then parses the configured segment fields into the `parsed_data` JSON on the message log record, with no flow or action required. Downstream flows in consuming applications read `parsed_data` directly from the record rather than re-parsing the raw payload.
 
 ## PHI and access control
 

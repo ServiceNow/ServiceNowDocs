@@ -33,7 +33,7 @@ When Document Intelligence is installed and you want to use the invoice ingestio
 
 </td><td>
 
-1.  [Create a copy of the default invoice processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
+1.  [Create a copy of the default Invoice Processing use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-use-case-copy.md).
 2.  Do the following to configure the invoice ingestion flows:
     1.  [Configure the newly created DocIntel Extract Values Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-extract-values-flow.md).
     2.  [Configure the Invoice processing case for Invoice email flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-di-flow.md).

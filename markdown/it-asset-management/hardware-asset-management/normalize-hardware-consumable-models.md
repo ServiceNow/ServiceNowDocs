@@ -32,15 +32,15 @@ Role required: admin, asset, or model\_manager
 
 1.  Create a hardware or consumable model.
 
-<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d129882e74">
+<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d132512e74">
 
 Interface
 
-</th><th align="left" id="d129882e77">
+</th><th align="left" id="d132512e77">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129882e83">
+</th></tr></thead><tbody><tr><td id="d132512e83">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d129882e150">
+</td></tr><tr><td id="d132512e150">
 
 **Hardware Asset Workspace**
 
@@ -76,15 +76,15 @@ Action
 
 2.  Normalize your model manually if the normalization status of your model is Partially Normalized or Publisher Normalized.
 
-<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d129882e230">
+<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d132512e230">
 
 Interface
 
-</th><th align="left" id="d129882e233">
+</th><th align="left" id="d132512e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129882e239">
+</th></tr></thead><tbody><tr><td id="d132512e239">
 
 **Core UI**
 
@@ -92,7 +92,7 @@ Action
 
 Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
 
-</td></tr><tr><td id="d129882e254">
+</td></tr><tr><td id="d132512e254">
 
 **Hardware Asset Workspace**
 

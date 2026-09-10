@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/spoke-m
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 1
-breadcrumb: [Integration Hub AI agents, Integration Hub, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Integration Hub AI agents, Integration Hub, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Microsoft Teams channel management AI agent
@@ -90,7 +90,7 @@ Remove member from channel
 
 </td></tr><tr><td>
 
-Agent roles \(ACLs\)
+Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
@@ -98,7 +98,7 @@ snc\_internal
 
 </td></tr><tr><td>
 
-Data access roles
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

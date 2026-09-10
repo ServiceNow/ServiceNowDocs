@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itsm-ai
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 6
-breadcrumb: [IT Service Management, Available AI agents on the ServiceNow AI Platform, AI assets, Enable AI experiences]
+reading_time_minutes: 12
+breadcrumb: [IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # IT Service Management AI agents
@@ -20,10 +20,14 @@ This AI agent retrieves information beyond the incident itself and presents the 
 This agent assists users in resolving ACC errors by providing suggestions based on the error codes found in the ACC Error Reports. It aims to help users resolve errors efficiently and effectively.
 -   **[Categorize ITSM incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-categorize-itsm-incident-ai-agent.md)**  
 This AI agent assigns the appropriate category and subcategory to an incident.
+-   **[Create change request AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-create-change-ai-agent-auto.md)**  
+This AI agent creates structured change requests from conversational input by autonomously selecting the appropriate change model and template.
 -   **[Change backout plan AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-backout-plan-ai-agent.md)**  
 This AI agent creates a backout plan for a provided change request.
 -   **[Change CI suggestion AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-ci-suggestion-ai-agent.md)**  
 This AI agent recommends a list of relevant configuration items \(CIs\) that can be added as Affected CIs to the current change request.
+-   **[Change CI suggestion AI agent \(latest\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-ci-suggestion-ai-agent-auto.md)**  
+This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request without requiring multiple user interactions.
 -   **[Change conflict assessor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-conflict-assessor-ai-agent.md)**  
 This AI agent can assess conflicts for changes. This includes checking mandatory fields and trigger conflict detection, and updating worknotes.
 -   **[Change implementation plan AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-implementation-plan-ai-agent.md)**  
@@ -36,8 +40,12 @@ This AI agent creates outage records for the change request based on the impacte
 This AI agent provides suggestions to improve inputs for a change form.
 -   **[Change request plans AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent.md)**  
 This AI agent helps change owners and approvers by drafting high-quality, context-aware change request content.
+-   **[Change request plans AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-request-plans-ai-agent-auto.md)**  
+This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
 -   **[Change risk and impact analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-risk-and-impact-analysis-ai-agent.md)**  
 This AI agent evaluates the risks and potential impacts associated with a provided change request.
+-   **[Change template suggestion AI agent \(autonomous\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-template-suggestion-ai-agent-auto.md)**  
+This AI agent identifies the most relevant change template and model for new change requests by analyzing request details and comparing them against available templates and historical data.
 -   **[Change test plan AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-change-test-plan-ai-agent.md)**  
 This AI agent identifies the test plan for a provided change request.
 -   **[Classify service and CI AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-classify-service-and-ci-ai-agent.md)**  
@@ -72,10 +80,6 @@ This AI agent creates, modifies, and deactivates assignment rules for incident r
 This AI agent retrieves incident details and can add attached knowledge articles and additional comments.
 -   **[ITSM incident resolution plan investigation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-itsm-incident-resolution-plan-investigation-ai-agent.md)**  
 This AI agent gets incident details, reviews similar incidents and knowledge articles, and then generates an incident resolution plan.
--   **[Link incident to problem AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-link-incident-to-problem-ai-agent.md)**  
-This AI agent links an incident to a problem that was created in the last six months.
--   **[Link major incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-link-major-incident-ai-agent.md)**  
-This AI agent gathers information from an incident and checks for similar currently active major incidents.
 -   **[Link major incident or problem AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-link-major-incident-or-problem-ai-agent.md)**  
 This AI agent automatically identifies and links the most relevant major incident or problem with an incident.
 -   **[Manage ticket AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-manage-ticket-ai-voice-agent.md)**  
@@ -97,5 +101,5 @@ This AI voice agent helps users unlock accounts by invoking a tool call to submi
 -   **[Troubleshoot Outlook issue AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-troubleshoot-outlook-issue-with-voice-ai-voice-agent.md)**  
 This AI voice agent troubleshoots Microsoft Outlook issues. It also sends a troubleshooting article link to the user by email when requested.
 
-**Parent Topic:**[Available AI agents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

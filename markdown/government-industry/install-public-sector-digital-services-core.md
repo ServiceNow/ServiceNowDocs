@@ -53,5 +53,5 @@ For more information, see [Components and Roles installed with Public Sector Dig
 
 ## What to do next
 
-Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CSM Configurable Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-optional-config-steps.md).
+Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-optional-config-steps.md).
 

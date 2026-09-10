@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle Autonomous DB spoke v1.0.6 is the latest version.
+Oracle Autonomous DB spoke v1.0.6 is the latest version. For version history of the spoke, see [Oracle Autonomous DB spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-autonomous-db.html).
 
 ## Supported versions
 

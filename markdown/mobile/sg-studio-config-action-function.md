@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-config-action-function.html
 release: australia
 topic_type: task
-last_updated: "2026-06-21"
+last_updated: "2026-08-17"
 reading_time_minutes: 9
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -329,7 +329,7 @@ Button attributes
 Specifies an additional attribute for a button. Select **New** to configure this option. You can select from the following button attributes:-   **alerts\_require\_dismissal**: The button attribute when set to `true` enables the banner messages to persist until the user dismisses it. By default, banner messages are automatically dismissed.
 -   **used\_for\_deeplink**: The button attribute when set to `true` determines that the button is used for deep linking. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
 -   **trigger\_offline\_cache\_download**: The button attribute when set to `true` triggers offline cache generation. After the cache is successfully generated, a download of it is triggered.
--   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected and set to `true`, any field in the URL string is checked against the ACL \(access control list\). For example, a string like \{\{meeting\_id\}\}. If a field does not pass this check, the field value is not included in the URL. By default, the URL parameter field is not checked against the ACL for backward compatibility.
+-   **check\_acl\_on\_url\_parameter\_field**: When this button attribute is selected any field in the URL string is checked against the ACL \(Access Control List\). To opt-out of the check, mark the parameter as false. For example, a string like `{{meeting_id}}`. If a field does not pass this check, the field value is not included in the URL. If set to false, the URL parameter field is not checked against the ACL for backward compatibility.
 -   **refresh\_parameter\_screen\_after\_action **: When enabled for write-back action buttons in input form screens, the input form automatically reloads after the action completes. This attribute keeps field values current and prevents you from working with stale data. The default value is false.
 
 **Note:** To keep the fields up to date with the latest database values, you must configure either a data source or an auto-fill variable for the relevant fields. This ensures the fields display the value that was just inserted or updated in the database. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/loading-mechanisms.md).

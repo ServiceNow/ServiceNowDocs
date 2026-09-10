@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-appenginestudio-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -46,9 +46,12 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Due to a new process for assigning groups in AEMC, the same version of the Application Intake plugin must be activated on each of your instances.
 
- For more information, see [App Readiness and Compliance Report](https://www.servicenow.com/docs/access?context=app-readiness-report&family=yokohama&ft:locale=en-US).
+For more information, see [App Readiness and Compliance Report](https://www.servicenow.com/docs/access?context=app-readiness-report&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -167,10 +170,6 @@ Zurich
 -   **[Granular configuration admin roles](https://www.servicenow.com/docs/access?context=aes-personas-roles&family=zurich&ft:locale=en-US)**
 
 Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
-
--   **[Separate App Engine Management Center release notes](https://www.servicenow.com/docs/access?context=aemc-rn&family=zurich&ft:locale=en-US)**
-
-The App Engine Management Center \(AEMC\) release notes now appear separately from the App Engine Studio release notes because you can use AEMC to manage app development for apps built in App Engine Studio, Creator Studio, and ServiceNow Studio. For information about AEMC, see [App Engine Management Center release notes](https://www.servicenow.com/docs/access?context=aemc-rn&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -298,7 +297,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -306,7 +308,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -314,7 +319,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

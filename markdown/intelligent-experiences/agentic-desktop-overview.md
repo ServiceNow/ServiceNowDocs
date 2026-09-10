@@ -62,7 +62,7 @@ When you log in to AI Desktop Actions, the home page is the first screen you see
 
 ## What AI generates after recording
 
-When you use record with AI option, AI badge, AI analysis retry option, and screen context are shows in the properties panel for each screen. If you aren't satisfied with the results, you can regenerate anchors and screen context by selecting **Retry** \[Omitted image "icon-retry.png"\] Alt text:.
+When you use record with AI option, AI badge, AI analysis retry option, and screen context are shown in the properties panel for each screen. If you aren't satisfied with the results, you can regenerate anchors and screen context by selecting **Retry** \[Omitted image "icon-retry.png"\] Alt text:.
 
 \[Omitted image "ad-screen-ai-tag.png"\] Alt text: AI badge, retry option, and screen context for screens in the properties panel.
 
@@ -252,7 +252,7 @@ Screen capture options
 </table>**Related topics**  
 
 
-[Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
+[Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
 [Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
 

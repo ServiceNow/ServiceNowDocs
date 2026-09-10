@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,11 +18,11 @@ The user who created a function field or a user with the admin role can deactiva
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, function\_field\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Core UI artifacts** &gt; **Reports.**
 
 2.  Select the report with the function field to deactivate.
 
@@ -32,7 +32,7 @@ Role required: admin
 
 5.  Select the function field and choose **Deactivate**.
 
-    If one or more reports use the function field, you see a link to a list of those reports. You can review the list, choose **Deactivate anyway**, or select **Cancel**.
+    If one or more reports or visualizations uses the function field, you see a link to a list of those reports. You can review the list, choose **Deactivate anyway**, or select **Cancel**.
 
 6.  Confirm the deactivation or cancel.
 

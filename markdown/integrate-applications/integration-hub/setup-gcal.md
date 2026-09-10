@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2023-08-03"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Google Calendar Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -179,95 +179,40 @@ The connection and credential record includes the details that you had set up wh
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select Connections.
+2.  Click the **Integrations** tab.
 
-3.  In the Search all connections field, enter `Google Calendar`.\[Omitted image "google-calendar-search-conn-card.png"\] Alt text: Search the Google Calendar connection card.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  On the Google\_Calendar card, click **View Details**.
+4.  Locate the alias for **Google Calendar** and click **View Details**.
 
-5.  Click **Configure**.\[Omitted image "google-calendar-configure-button.png"\] Alt text: Google Calendar connection and credential record configure button.
+    -   To configure the default connection and credential alias record that is shipped along with the Google Calendar spoke, click **View Details**.
 
-6.  Fill the details in the form.
+        \[Omitted image "image.gcalendar-connection"\] Alt text: Connection for the Google Calendar spoke
 
-<table id="table_nck_bl4_5wb"><thead><tr><th>
+    -   To manage more than one Google Calendar spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-Field
+    \[Omitted image "image.gcalendar-connect-config"\] Alt text: Initial connection configuration
 
-</th><th>
+5.  On the form, fill in these fields:
 
-Description
+    |Field|Value required|
+    |-----|--------------|
+    |Connection Information|
+    |Name|Auto-generated name to identify the connection record.|
+    |URL|Auto-generated URL for the Google APIs website.|
+    |API Version|Auto-generated input of the current API version.|
+    |Credential Information|
+    |OAuth Client ID|Client ID you created during the Google Calendar application registration.|
+    |OAuth Client Secret|Key value you created during the Google Calendar application registration.|
+    |OAuth Redirect URL|Redirect URL of your ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
+    |Auth URL|Authorization URL for your Google Calendar configuration.|
+    |Token URL|Token URL for your Google Calendar configuration.|
 
-</th></tr></thead><tbody><tr><td>
+    \[Omitted image "image.gcalendar-config-temp"\] Alt text: Configure a connection for the Google Calendar spoke.
 
-Connection Name
-
-</td><td>
-
-Name of the connection with the Google Calendar API.**Note:** The first and default connection name is Google\_Calendar which is read-only. To provide a custom name to the connection, create a connection by selecting **Add Connection**.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-The URL to the Google Calendar APIs.Enter `https://googleapis.com`.
-
-</td></tr><tr><td>
-
-API Version
-
-</td><td>
-
-Version of the Google Calendar APIs that your ServiceNow instance accesses.Enter `V3`.
-
-</td></tr><tr><td>
-
-OAuth Client ID
-
-</td><td>
-
-The ID of the client that accesses the OAuth app you had created.**Tip:** You can find the OAuth Client ID in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
-
-</td></tr><tr><td>
-
-OAuth Client Secret
-
-</td><td>
-
-The secret that your ServiceNow instance uses to prove its identity to the OAuth app.**Tip:** You can find the OAuth Client secret in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
-
-</td></tr><tr><td>
-
-OAuth Redirect URL
-
-</td><td>
-
-The redirect URL to the application after the OAuth app authenticates the request from your ServiceNow instance.**Tip:** You can find the OAuth Redirect URL in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
-
-</td></tr><tr><td>
-
-OAuth Authorization URL
-
-</td><td>
-
-The URL provided by the OAuth service provider that your ServiceNow instance can use to initiate the OAuth authorization process.**Tip:** You can find the OAuth Authorization URL in the JSON file you had downloaded while creating the OAuth app.
-
-</td></tr><tr><td>
-
-OAuth Token URL
-
-</td><td>
-
-The URL provided by an OAuth service provider that your ServiceNow instance can use to exchange an authorization code for an access token.**Tip:** You can find the OAuth Authorization URL in the JSON file you had downloaded while creating the OAuth app.
-
-</td></tr></tbody>
-</table>7.  Select **Configure and Get OAuth Token**.
-
-8.  Log in to Google Workspace and get the OAuth Token.
-
-    The connection and credential record is created.
+6.  Click **Save and Get OAuth Token**.
 
 

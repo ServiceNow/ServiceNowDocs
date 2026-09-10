@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [File Access Permissions, Cloud File Access Setup, Cloud Document Management, Audit Management Overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [File Access Permissions, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # File access permission record form
@@ -58,7 +58,7 @@ Groupfield
 
 </td><td>
 
-Access permissions that can be configured for the users of a group. Displays a tree structure of all the group fields for the selected record. When the permissions are refreshed for the first time, every group member in the group who wants to have access to the document, should select the engagement record and select the **Request access** action manually to access the document.
+Access permissions that can be configured for the users of a group. Displays a tree structure of all the group fields for the selected record. When the permissions are refreshed for the first time, group members must request access manually. To access the document, select the engagement record and select the **Request access** action.
 
  The users of a group do not automatically receive an access to the record for the first time. They must request an access for the first time.
 

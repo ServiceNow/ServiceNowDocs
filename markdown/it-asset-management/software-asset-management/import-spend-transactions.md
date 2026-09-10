@@ -1,75 +1,70 @@
 ---
 title: Import financial transactions
-description: Import a Microsoft Excel spreadsheet of financial transaction data to start managing software spending.
-locale: en-US
+description: Import a Microsoft Excel spreadsheet of financial transaction data in the Software Asset Workspace to start managing software spending.
+locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-spend-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import financial transactions
 
-Import a Microsoft Excel spreadsheet of financial transaction data to start managing software spending.
+Import a Microsoft Excel spreadsheet of financial transaction data in the Software Asset Workspace to start managing software spending.
 
 ## Before you begin
 
-Role required: sam\_spend\_import or sam\_admin
+Role required: **sam\_user**
 
-**Note:** Users with the sam\_user role can manually create transaction records by selecting **New** at the top of the All Imported Transactions page.
+Have your financial transaction data ready, including vendor name, transaction description, amount, and GL account for each transaction.
 
-## About this task
-
-Your imported data can include all financial transaction data for your company. Software Spend Detection automatically determines whether each transaction is a software purchase. Before importing data, ensure that the fields **Vendor name**, **Transaction Description**, and **GL account** don't contain any identifiable information such as company or employee names. Make any necessary changes to the data before you import. All imported financial transaction data fields are read-only once loaded in your instance.
-
-The import may take several hours when importing large numbers of transactions.
-
-**Note:** Software Spend Detection currently supports transaction data in English only. If you would like to help train ServiceNow artificial intelligence using data in other languages, contact the ServiceNow IT Asset Management product team.
+**Note:** To use the AI pipeline for classifying imported transactions, install the ServiceNow Otto for Software Asset Management \(SAM\) store app. Without this store app, transactions are processed by the machine learning pipeline. For details, see [AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Administration** &gt; **Import Transactions**.
+1.  Go to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **Transaction imports**.
 
-2.  Select **Download Template File \(.xlsx\)**.
+2.  Select **New**.
 
-3.  Copy your financial data into the template file.
+    The **Create New Software spend transaction import** form appears.
 
-    The required fields are **Transaction date**, **Vendor name** or **Description**, and **Type**. Fill in as many fields as possible for the most robust results.
+3.  In the **Name** field, enter a name for the import.
 
-    |Field|Description|
-    |-----|-----------|
-    |Transaction date|Required. Transaction date.|
-    |Vendor name|Company associated with the transaction. Don't include any identifiable information such as your company or employee names. Provide at least one of vendor name or description.|
-    |Description|Description of the purchase. Don't include any identifiable information such as your company or employee names. Provide at least one of vendor name or description.|
-    |GL account|General ledger account or expense category. Don't include any identifiable information such as your company or employee names. Optional.|
-    |Amount|Transaction amount. Optional.|
-    |Type|Required. Select Accounts Payable or Expense. Accounts Payable transactions are from an accounting or procurement system. Expense transactions are from an employee expense system or credit card feed.|
-    |Location|Location. Optional.|
-    |Cost center|Cost center. Optional.|
-    |Department|Department. Optional.|
-    |Source|Name of the system that the transaction came from. Optional.|
-    |Type detail|Description for the Type field. For Accounts Payable, examples are vendor bill or invoice payment. For Expense, examples are credit card purchase or employee reimbursement. Optional.|
-    |External ID|ID of the transaction in the source system. Optional.|
-    |Employee ID|Employee ID. Optional.|
-    |Employee name|Employee name. Optional.|
-    |Employee email|Employee email. Optional.|
+4.  Select **Download template**.
 
-4.  Upload the completed file.
+    The template downloads as a Microsoft Excel \(.xlsx\) file.
 
-5.  Navigate to **Software Spend Detection** &gt; **Administration** &gt; **Transaction Import Results** to view information about the import and resolve any import errors.
+5.  Open the downloaded template and populate it with your financial transaction data.
 
-    When the import is complete, Software Spend Detection begins matching your transactions to software publishers and products. Software Spend Detection also assigns a **0 - 1** value to the **Is software probability**, **Product confidence**, and **Publisher confidence** fields for every transaction. For example, a value of **.85** for **Publisher confidence** means that Software Spend Detection is 85% sure that it matched the correct publisher to the transaction. When the matching process is complete, you can view the data in the Overview, Overlapping Software, and Software Spend Transactions modules under Software Spend Detection.
+    Include a value in each required column. For accurate classification results, include a GL account for every transaction.
+
+6.  Return to the **Create New Software spend transaction import** form and select **Attach file** to upload the completed template.
+
+7.  Select **Import**.
+
+    The import runs and the status updates based on the outcome, such as **Completed**, **Completed with Errors**, or **Error**. The form displays counts for Total rows, Inserts, Errors, Skipped, and Ignored. A confirmation or error banner appears at the top of the form.
+
+    The **SAM - Label Spend Transactions** scheduled job runs in the background to classify the imported transactions.
 
 
 ## What to do next
 
-Navigate to **Software Spend Detection** &gt; **Unnormalized Transactions** to view any transactions that Software Spend Detection wasn't able to match with a software publisher and product. You can manually update these transactions to add a publisher and product. [Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/opt-in-content-service.md) to improve matching for future imports.
+To see the row counts for every import, navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **Transaction imports**. The list view shows the total rows processed, skipped, ignored, and errored for every import. To review the transactions or errors created by a specific import, open the import record from the Transaction imports list. For details on the tabs available on an import record, see [Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md).
 
-If necessary, you can mass delete all transactions from an import. Navigate to **Software Spend Detection** &gt; **Administration** &gt; **Transaction Import Results**, select the import record, and then select **Delete**.
+To review individual transaction records across all imports, navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Software spend detection** &gt; **All transactions**. The list view shows every transaction record along with its assigned values.
 
 **Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
+
+**Related topics**  
+
+
+[Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md)
+
+[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
+
+[Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manually-update-transactions.md)
 

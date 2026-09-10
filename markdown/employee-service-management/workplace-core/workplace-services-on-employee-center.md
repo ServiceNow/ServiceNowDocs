@@ -9,7 +9,7 @@ classification: workplace-core
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Explore, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Safety Management, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace services on the Employee Center portal
@@ -45,7 +45,7 @@ The base taxonomy - Employee, is installed when you install the Employee Experie
 -   Create the content, such as [Create a workplace service record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md) or [Knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-kb-article-wsd.md).
 -   Associate the content to the taxonomy.
 
-**Parent Topic:**[Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md)
 
 **Related topics**  
 

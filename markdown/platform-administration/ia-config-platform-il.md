@@ -38,6 +38,8 @@ Specify roles for individuals or groups to provide the access needed.
 Configure the hardware and consumables to setup the assets for your ServiceNow implementation.
 -   **[Knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-knowledge-mgmt.md)**  
 Configure a self-service platform for users to store, share and manage content.
+-   **[CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/cmdb-implementation-agent.md)**  
+Using the configuration items \(CI\), monitor the infrastructure and ensure continuous service operations.
 -   **[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-ai-search.md)**  
 Configure and maintain the AI-Search engine to experience a modern search experience.
 -   **[Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-security-settings-il.md)**  

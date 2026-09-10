@@ -24,5 +24,5 @@ Cloud Provisioning and Governance now generates SSH private key credentials and 
 
 ## Delete credentials
 
-When you deprovision or delete a VM, all associated credentials are deleted, including the node credential and SSH private key credentials/Windows credentials, as well as the credentials alias tag.
+When you deprovision or delete a VM, all associated credentials are deleted. This includes the node credential, SSH private key credentials, Windows credentials, and the credentials alias tag.
 

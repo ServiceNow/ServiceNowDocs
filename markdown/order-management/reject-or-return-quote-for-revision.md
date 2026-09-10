@@ -35,7 +35,7 @@ When you reject an approval request:
 -   The approval request is marked as rejected and removed from active approval workflows
 -   The quote requester receives a notification with your rejection comments
 -   The requester can make changes and resubmit the quote
--   When resubmitted, the quote goes through the complete approval process again , starting from the first approver
+-   When resubmitted, the quote goes through the complete approval process again, starting from the first approver
 
 ## Procedure
 

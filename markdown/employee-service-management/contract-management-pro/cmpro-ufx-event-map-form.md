@@ -55,6 +55,10 @@ The UFX Add on Event mapping form to configure the display of declarative action
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
 [Contract Management Pro glossary]()
 
 [Contract Management solutions]()

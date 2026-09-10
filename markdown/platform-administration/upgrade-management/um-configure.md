@@ -46,6 +46,8 @@ Implement the following to experience the guided upgrade for a seamless upgrade 
 Follow the guided upgrade steps to experience the seamless upgrade on your non-production instance.
 -   **[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)**  
 Follow the guided upgrade steps to experience the seamless upgrade on your production instance.
+-   **[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um_bulk_app_update_desc.md)**  
+The bulk application update console enables you to review, select, and update multiple applications in a single workflow, improving efficiency compared to updating applications individually through the Application Manager.
 
 **Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-landing-page.md)
 

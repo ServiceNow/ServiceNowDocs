@@ -1,24 +1,26 @@
 ---
 title: Generative AI Controller tables
-description: Generative AI Controller use dedicated tables to log AI activities and track Now Assist usage across Now Assist capabilities.
+description: Generative AI Controller use dedicated tables to log AI activities and track AI usage across the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-01"
 reading_time_minutes: 4
 breadcrumb: [Reference for Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller tables
 
-Generative AI Controller use dedicated tables to log AI activities and track Now Assist usage across Now Assist capabilities.
+Generative AI Controller use dedicated tables to log AI activities and track AI usage across the platform.
 
 ## Generative AI Log \[sys\_generative\_ai\_log\] table
 
-Logs generative AI prompts, responses, and edited responses for debugging LLM calls. HR-related log entries are restricted to HR administrator to protect sensitive information.
+Logs generative AI prompts, responses, and edited responses for debugging LLM calls. Log records are retained for 180 days.
+
+HR-related log entries are restricted to HR administrator to protect sensitive information.
 
 |Column|Data type|Description|
 |------|---------|-----------|
@@ -35,7 +37,7 @@ Logs generative AI prompts, responses, and edited responses for debugging LLM ca
 |Edited Response|String|Captures the edited version of the response when a user modifies it.|
 |Error|String|Error message, if the request encountered an error.|
 |Error Code|String|Error code associated with the error message.|
-|External|True/False|Error code associated with the error message.|
+|External|True/False|Indicates whether the log entry is for a request sent to an external third-party LLM provider. The default value is False.|
 |Feedback|Choice|Feedback on the LLM response. Possible values: Accepted, Rejected, Ignored, SlightlyPositive, SlightlyNegative, LikelyPositive.|
 |Feedback Timestamp|Date/Time|Timestamp when the feedback was submitted.|
 |Gen AI Usage Log|Reference|Reference to the Gen AI Usage Log.|
@@ -43,7 +45,7 @@ Logs generative AI prompts, responses, and edited responses for debugging LLM ca
 |Metadata Documents|Glide List|Document IDs for metadata used for the requested execution, if multiple documents are used.|
 |Metadata Table|Table Name|Table name for the metadata.|
 |Model Name|String|Name of the model used for processing the generative AI request, such as gpt\_large, claude\_small, or gemini\_small.|
-|Model Version|String|Version of the ServiceNow LLM model used.|
+|Model Version|String|Version of the LLM model used.|
 |Output Metadata|String|Metadata received from the model or LLM, including tokens, processing time, and response time.|
 |Prompt|String|Final prompt passed to the model.|
 |Prompt Config|Reference|Reference to the prompt configuration, which contains settings such as model and temperature used in the request to the LLM.|
@@ -60,11 +62,12 @@ Logs generative AI prompts, responses, and edited responses for debugging LLM ca
 |Updated|Date/Time|Date and time when the log entry was last updated.|
 |Updated By|String|User who made updates to the log.|
 |Updates|Integer|Number of updates made to the log record.|
-|Reasoning tokens|Integer|Internal thinking tokens from reasoning models. Defaults to 0 for non-reasoning models. Used for cost/performance tracking.|
 
 ## Gen AI Usage Log \[sys\_gen\_ai\_usage\_log\] table
 
-Tracks each use of a Now Assist capability triggered from Workflow Studio, Virtual Agent Designer topics, or scripts such as business rules and UI actions.
+Tracks each use of an AI capability on the platform. Use this log to monitor how your organization consumes assists, review trial assist usage, and understand generative AI activity at the user or team level.
+
+To access the log, enter `sys_gen_ai_usage_log.list` in the navigation filter.
 
 |Column|Data Type|Description|
 |------|---------|-----------|

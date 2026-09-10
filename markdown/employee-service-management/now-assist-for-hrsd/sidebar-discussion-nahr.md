@@ -54,15 +54,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d589060e233">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d591770e233">
 
 Option
 
-</th><th align="left" id="d589060e236">
+</th><th align="left" id="d591770e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d589060e242">
+</th></tr></thead><tbody><tr><td id="d591770e242">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d589060e269">
+</td></tr><tr><td id="d591770e269">
 
 **Provide feedback for the summary**
 
@@ -100,6 +100,10 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
+
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
 [View employee summary reports]()
@@ -116,7 +120,7 @@ If you'd like to provide feedback, select either the helpful icon \(\[Omitted im
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
 [Generate activity responses for HR cases]()
+
+[Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

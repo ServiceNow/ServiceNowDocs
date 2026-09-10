@@ -16,6 +16,8 @@ breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 
 Understand how you can set up and publish agent schedules and how your agents can manage their own schedule based on an example.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 A manager manages IT operations for a large organization and has 12 teams reporting to them. Each of their teams has anywhere from 20 through 50 agents. At any given point, they needs visibility into their teams' schedule. They must also be able to create shifts, and approve or reject shift-swap or time-off requests from their agents.
 
 As a manager, they can manage their entire teams' schedule using **Scheduling**. Ingrid's team can manage their own schedule effectively by requesting shift-swaps or time-off.

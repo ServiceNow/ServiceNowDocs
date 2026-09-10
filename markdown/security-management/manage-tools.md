@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/manage-tool
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,11 +32,9 @@ Tools enable you to know how and when threat actors use them for executing campa
 
     You can view the listed tools.
 
-2.  Click a tool to view all the associated information.
+2.  Select a tool to view all the associated information.
 
-    In the following illustration, you can view the details for the CARROTBALL tool, its ID, source, and other related information.\[Omitted image "mitre-tools-overview.gif"\] Alt text: View the details for the tools and their related information.
-
-3.  To view how these objects are related, click **Show Relationships**.
+3.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next

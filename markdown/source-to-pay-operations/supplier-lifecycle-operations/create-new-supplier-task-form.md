@@ -1,5 +1,5 @@
 ---
-title: Create new task form
+title: Fields in the Create new task form
 description: Use the Create new task form to add a new task to a supplier case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-task-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Create new task form
+# Fields in the Create new task form
 
 Use the Create new task form to add a new task to a supplier case.
 
@@ -64,17 +64,17 @@ Use the **Details** tab of the task form to provide details about the supplier o
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Onboard a Supplier form]()
+[Fields in the Onboard a Supplier form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

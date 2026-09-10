@@ -16,6 +16,8 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 
 Include or exclude access to assignment group data to display only the groups that are relevant for the logged-in user in the Workforce Optimization for ITSM manager workspace.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 As a manager, by default, you can see all groups that you directly or additionally manage. You can add access to additional groups or remove access to any of the groups displayed by default.
 
 -   To add access to more groups, use an extension point.

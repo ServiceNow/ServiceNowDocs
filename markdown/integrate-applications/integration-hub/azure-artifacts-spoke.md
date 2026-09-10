@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Azure Artifacts spoke v1.0.3 is the latest version.
+Microsoft Azure Artifacts spoke v1.0.3 is the latest version. For version history of the spoke, see [Microsoft Azure Artifacts spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-azure-artifacts.html).
 
 ## Supported versions
 

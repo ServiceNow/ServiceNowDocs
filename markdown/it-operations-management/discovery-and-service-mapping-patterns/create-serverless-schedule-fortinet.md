@@ -67,8 +67,8 @@ Role required: discovery\_admin
 
         |Parameter|Value|
         |---------|-----|
-        |ip\_address|IP address of the F5 load balancer.|
-        |credentialsAlias|Name of the credential alias you created.|
+        |ip\_address|IP address of the firewall device.|
+        |credentialsAlias|ID of the credential alias you created.|
 
     3.  Select **Submit**.
 

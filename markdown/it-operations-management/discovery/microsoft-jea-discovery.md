@@ -32,7 +32,7 @@ Microsoft JEA enables role-based administration through PowerShell Remoting, whi
 
 Discovery with JEA requires profiles composed of a PowerShell Sessions Configuration and one or more PowerShell Role Capabilities files. You can create multiple PowerShell Role Capability files and multiple user groups to assign the roles to different groups as necessary. A sample profile is provided in [KB0965705](https://support.servicenow.com/kb_view.do?sysparm_article=KB0965705) as a reference implementation and to serve as a starting point. The configuration file in the KB supports all out-of-the-box horizontal Windows patterns at the time that it was created. ServiceNow isn’t responsible for the JEA profile deployment and setup on remote machines.
 
-The following sample profile improves security by blocking attackers if a Windows service account becomes compromised by restricting the MID Server user to execute only scripts signed by a trusted MID Server. After the profile is deployed, the connection between a MID Server and a Windows target is secured by script and parameter signatures created by the MID Server. This provides one layer of security; but monitoring on the ServiceNow instance and the MID Server itself also essential to promoting a secure deployment.
+The following sample profile improves security by blocking attackers if a Windows service account becomes compromised. It restricts the MID Server user to execute only scripts signed by a trusted MID Server. After the profile is deployed, the connection between a MID Server and a Windows target is secured by script and parameter signatures created by the MID Server. This provides one layer of security; but monitoring on the ServiceNow instance and the MID Server itself is also essential to promoting a secure deployment.
 
 Microsoft has detailed documentation at the following links:
 
@@ -138,6 +138,6 @@ Role required: discovery\_admin or admin
 
     2.  **glide.discovery.log\_debug\_info**: This is an optional system property to collect debug information.
 
-        When this property is set to true, the discovery sensor extracts the debug info from ECC input message and writes it to the discovery log table, so the debug information is visible when inspecting discovery status.
+        When this property is set to true, the discovery sensor extracts the debug info from ECC input message and writes it to the discovery log table. The debug information is visible when inspecting discovery status.
 
 

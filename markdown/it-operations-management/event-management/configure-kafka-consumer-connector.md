@@ -145,7 +145,7 @@ This field is automatically set to the last error message.
 
 6.  Right-click the form header and select **Save**.
 
-7.  In the table presenting the connector instance values, verify the populated connector instance values based on your Kafka setup and the message \(JSON payload\) that you received from the Kafka topic.
+7.  Verify the connector instance values based on your Kafka setup and the JSON payload from the Kafka topic.
 
     Change the connector instance values if necessary.
 

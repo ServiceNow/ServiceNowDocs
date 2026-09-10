@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-03-23"
-reading_time_minutes: 26
+reading_time_minutes: 30
 keywords: [azure kubernetes, kubernetes cluster, get kubernetes config file, kubernetes mid server]
 breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,9 +23,11 @@ Discovery uses the Kubernetes pattern and its extension sections to discover Kub
 -   The **Service Mesh** extension discovers service mesh details. This information enables the pattern to create service-to-service relations, shown as Connects to::Connected. Service mesh discovery requires deploying Istio on your K8s \(Kubernetes\) cluster. The Service Mesh extension section is available from [Kubernetes extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-kubernetes.md). It’s supported on the ServiceNow AI Platform using the Madrid release or later.
 -   The **Collect Container Repository** and extension section finds container registries and images in these registries.
 
+Starting from Discovery and Service Mapping Patterns version 1.35.0, the Kubernetes Cluster - Per-Namespace LP pattern is available for large cluster discovery. For more information, see the **Large-payload Kubernetes discovery** section.
+
 In addition, Discovery uses the Kubernetes Event pattern to discover events for Kubernetes components.
 
-From the 1.0.68 release on ServiceNow Store, Service Mapping can use CI relationships to add the Kubernetes components to application services during tag-based discovery.
+Starting from the 1.0.68 release on ServiceNow Store, Service Mapping can use CI relationships to add the Kubernetes components to application services during tag-based discovery.
 
 Discovery uses the following patterns to discover the entire Kubernetes infrastructure deployed on GCP, AWS, and Azure:
 
@@ -45,7 +47,13 @@ For the list of Kubernetes distribution versions validated against the Kubernete
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Prerequisites
+## Large-payload Kubernetes discovery
+
+By default, Discovery uses the Kubernetes pattern to discover an entire cluster in a single execution. On large clusters, this can result in incomplete discovery data in the CMDB. The Kubernetes Cluster - Per-Namespace LP pattern is available as an alternative for large cluster environments, starting from Discovery and Service Mapping Patterns version 1.35.0.
+
+The Kubernetes Cluster - Per-Namespace LP pattern identifies the cluster and then discovers each namespace separately, improving reliability on large clusters. The data collected and the CIs populated in the CMDB are identical between the two patterns. For configuration on on-premises clusters, see the **Prerequisites for on-premises Kubernetes discovery** section. For cloud clusters, see the prerequisites section for your cloud provider.
+
+## Prerequisites for on-premises Kubernetes discovery
 
 **Note:** For prerequisites for Kubernetes Cloud infrastructure discovery, see [below](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
@@ -87,6 +95,7 @@ Perform the following steps so that Discovery can use the pattern to successfull
         -   If you don't know the default token name, use the command: `kubectl describe secret`.
 3.  Verify that the API Server is reachable from the MID Server for successful Kubernetes discovery.
 4.  Verify that the user configured on the Kubernetes platform has **GET** permissions to run the following /api/v1 elements:
+
     -   https://&lt;url&gt;/api/v1/namespaces/
     -   https://&lt;url&gt;/api/v1/namespaces/&lt;namespace&gt;
     -   https://&lt;url&gt;/api/v1/namespaces/kube-system/endpoints/kube-controller-manager
@@ -101,6 +110,8 @@ Perform the following steps so that Discovery can use the pattern to successfull
     -   https://&lt;url&gt;/apis/apps/v1/replicasets
     -   https://&lt;url&gt;/apis/batch/v1/cronjobs
     -   https://&lt;url&gt;/apis/batch/v1/jobs
+    **Note:** When using the **Kubernetes Cluster - Per-Namespace LP** pattern, verify your RBAC setup before switching. The LP pattern requires the same permissions listed above, but lists resources per namespace instead of cluster-wide. A ClusterRole with a ClusterRoleBinding covers all namespaces automatically and requires no changes. If you use namespace-scoped Role and RoleBinding objects, verify that a binding exists in each namespace that discovery will enumerate, because missing bindings could cause incomplete discovery for that namespace.
+
 5.  To discover the OpenShift components of the Kubernetes deployment, verify that the user configured on the Kubernetes platform has **GET** permissions to run the following /api/v1 elements:
 
     -   /apis/apps.openshift.io/v1/deploymentconfigs
@@ -197,8 +208,101 @@ The alias appears in the Credential alias field.
 </td></tr></tbody>
 </table>    5.  On the Kubernetes credentials form, select **Update**.
 8.  Create a serverless discovery schedule for the Kubernetes pattern.
+    1.  Navigate to **All** &gt; **Discovery** &gt; **Discovery Schedules** and select **New**.
+    2.  On the form, fill in the fields.
 
-    Create and define the serverless execution pattern as described in the product documentation. Configure the parameters required by the Kubernetes pattern as follows:
+<table id="table_k8s_schedule_form"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for this discovery schedule.
+
+</td></tr><tr><td>
+
+Discover
+
+</td><td>
+
+Scan type, which should be **Serverless**.
+
+</td></tr><tr><td>
+
+MID Server selection method
+
+</td><td>
+
+Select the method that Discovery uses to select a MID Server:-   `Specific MID Cluster`: Use a preconfigured cluster of MID Servers. The MID Server can’t be part of multiple clusters
+-   `Specific MID Server`: Use only one MID Server. If that MID Server is part of a cluster, only that MID Server is used. The cluster isn’t used.
+
+
+</td></tr><tr><td>
+
+MID server
+
+</td><td>
+
+Name of the MID Server to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Server`.
+
+</td></tr><tr><td>
+
+MID Server cluster
+
+</td><td>
+
+Name of the MID Server cluster to use for this schedule. This field is available if **MID Server selection method** is set to `Specific MID Cluster`.
+
+</td></tr></tbody>
+</table>    3.  Select **Submit**.
+    4.  In the **Execution Patterns** related list, select **New**.
+    5.  On the form, fill in the fields.
+
+<table id="table_k8s_execution_pattern_form"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Descriptive name for this record.
+
+</td></tr><tr><td>
+
+Pattern
+
+</td><td>
+
+Pattern to use for this schedule: -   **Kubernetes**
+-   **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\)
+
+
+</td></tr><tr><td>
+
+Run Child Patterns
+
+</td><td>
+
+Enable this option if you selected **Kubernetes Cluster - Per-Namespace LP** as the pattern.
+
+</td></tr></tbody>
+</table>    6.  Select **Submit**.
+    7.  In the **Pattern Launcher Parameters** related list, configure the parameters.
 
 <table id="table_obc_k2z_3db"><thead><tr><th>
 
@@ -214,7 +318,7 @@ url
 
 </td><td>
 
-The identifier for the hostname, IP, or FQDN and the port of the Kubernetes apiserver. Use the following format: example\_hostname:example\_port or xample\_ip:example\_port. Provide the correct protocol \(HTTP or HTTPS\) in the URL.
+The identifier for the hostname, IP, or FQDN and the port of the Kubernetes apiserver. Use the following format: example\_hostname:example\_port or example\_ip:example\_port. Provide the correct protocol \(HTTP or HTTPS\) in the URL.
 
 </td></tr><tr><td>
 
@@ -224,7 +328,7 @@ namespace
 
 The namespaces that the system passes in the Kubernetes Discovery Configuration. Enter one of the following values:-   Individual namespace: enter the namespace and then "kube-system". For example: `dev,kube-system`
 -   The default value: enter `default, kube-system`
--   Multipile namespaces: enter the namespaces, use a comma \(,\) to separate the values, and then enter "kube-system". For example: `automation,application,test,kube-system`
+-   Multiple namespaces: enter the namespaces, use a comma \(,\) to separate the values, and then enter "kube-system". For example: `automation,application,test,kube-system`
 -   All namespaces: Use an asterisk \(\*\) to enter all namespaces
 
 
@@ -250,7 +354,9 @@ provider
 
 </td><td>
 
-The cloud provider: GCP or AWS or Azure.
+The cloud provider or deployment type: -   For cloud hosted clusters: GCP, AWS, or Azure
+-   For on-premises clusters: `OnPrem`
+
 
 </td></tr><tr><td>
 
@@ -258,10 +364,18 @@ cluster\_resource\_id
 
 </td><td>
 
-Cluster resource ID example:-   Azure Kubernetes clusters- Resource ID.
--   AWS- cluster ARN.
--   GCP- cluster global name.
+Cluster resource ID example:-   Azure Kubernetes clusters - Resource ID.
+-   AWS - cluster ARN.
+-   GCP - cluster global name.
 
+
+</td></tr><tr><td>
+
+cluster\_uid\_cache
+
+</td><td>
+
+Internal parameter used by the **Kubernetes Cluster - Per-Namespace LP** pattern. Leave this value empty.
 
 </td></tr></tbody>
 </table>9.  Create a serverless discovery schedule for the Kubernetes Event pattern. Configure the schedule to run every 5 or 10 minutes.
@@ -278,12 +392,13 @@ For the Google Cloud Platform \(GCP\) – Get Kubernetes Clusters pattern, perfo
 
 1.  In the ServiceNow instance, set up a Google Cloud Platform \(GCP\) service account with valid credentials and permissions.
 2.  On the GCP infrastructure, set up the MID Server with full access to all Cloud APIs: Set Cloud API access scopes to "Allow full access to all Cloud APIs". The MID Server instance can access only the Clusters specific to the project.
-3.  Navigate to `sys_properties.list` and configure the following properties:
-    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server name.
+3.  Navigate to `sys_properties.list` and, using the admin role, configure the following properties:
+    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\).
     -   **sn\_itom\_pattern.k8s\_create\_schedule\_enabled**: Set the value to **true**.
 
-        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created.
+        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created. An automatically created schedule has no "Max run time" defined.
 
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
 4.  Create and run Google Cloud Discovery
 
     **Note:**
@@ -331,12 +446,13 @@ For the Amazon Elastic Kubernetes Service \(EKS\) cluster discovery, perform the
 
         Refer to the following KB for detailed instructions: [KB1182188: EKS cluster discovery using STS AssumeRoles \(Without AWS CLI\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1182188)
 
-3.  Navigate to `sys_properties.list` and configure the following properties:
-    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server name.
+3.  Navigate to `sys_properties.list` and, using the admin role, configure the following properties:
+    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\).
     -   **sn\_itom\_pattern.k8s\_create\_schedule\_enabled**: Set the value to **true**.
 
-        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created.
+        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created. An automatically created schedule has no "Max run time" defined.
 
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
 4.  Create and run an AWS Cloud Discovery schedule.
 
 
@@ -344,14 +460,15 @@ For Microsoft Azure Kubernetes Services \(AKS\)- Kubernetes cluster discovery, p
 
 1.  Update to the latest Discovery and Service Mapping Patterns version.
 2.  In the ServiceNow instance, configure the Azure Service Account with valid Azure credentials and permission.
-3.  Navigate to `sys_properties.list` and configure the following properties:
-    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server name.
+3.  Navigate to `sys_properties.list` and, using the admin role, configure the following properties:
+    -   **sn\_itom\_pattern.k8s\_midserver**: Specify a valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\).
     -   **sn\_itom\_pattern.k8s\_create\_schedule\_enabled**: Set the value to **true**.
 
-        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created.
+        **Note:** Enabling the **sn\_itom\_pattern.k8s\_create\_schedule\_enabled** property automatically creates a serverless schedule for your cloud clusters, eliminating the need for manual scheduling. If you have an existing manual schedule and want to convert it to an automatic one, enable the property. Your manual schedule will be updated; no additional schedule will be created. An automatically created schedule has no "Max run time" defined.
 
         .
 
+    -   **sn\_itom\_pattern.k8s\_entry\_pattern**: To use the per-namespace large-payload \(LP\) discovery pattern, set the value to **Kubernetes Cluster - Per-Namespace LP** \(starting from Discovery and Service Mapping Patterns version 1.35.0\).
 4.  If you don't have local accounts with Kubernetes RBAC and want to improve pattern efficiency, navigate to **MID Server** &gt; **Properties** and set the **sn\_itom\_pattern.aks\_fetch\_local\_ad\_token** property to **false**.
 5.  Run an Azure cloud discovery schedule.
 6.  Configure the MID Server in the Discovery schedules according to the cluster account type. If you don't have Local accounts with RBAC, you can ignore this step.
@@ -448,7 +565,7 @@ sn\_itom\_pattern.k8s\_create\_schedule\_enabled
 
 </td><td>
 
-The feature flag that can be enabled/disabled under the system properties, which is responsible to control the pattern execution. When enabled, it creates discovery schedules despite the new property value.
+The feature flag that can be enabled/disabled under the system properties, which is responsible to control the pattern execution. When enabled, it creates discovery schedules despite the new property value. An automatically created schedule has no "Max run time" defined.
 
 </td><td>
 
@@ -484,13 +601,13 @@ MID Server
 
 </td><td>
 
-sn\_itom\_pattern.k8s\_midserver
+sn\_itom\_pattern.k8s\_midserver\*
 
 </td><td>
 
 \[Default\]
 
- Example- Valid MID Server name
+ Example- Valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\). Applies to newly created discovery schedules only; existing schedules aren't updated.
 
 </td><td>
 
@@ -502,13 +619,13 @@ String
 
 </td></tr><tr><td>
 
-sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_midserver
+sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_midserver\*
 
 </td><td>
 
 \[Based on Service Account Level\]
 
- Example- Valid MID Server name
+ Example- Valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\).
 
 </td><td>
 
@@ -520,13 +637,13 @@ String
 
 </td></tr><tr><td>
 
-sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_&lt;clustername&gt;\_midserver
+sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_&lt;clustername&gt;\_midserver\*
 
 </td><td>
 
 \[Based on Cluster name\]
 
- Example- Valid MID Server name
+ Example- Valid MID Server or MID Server cluster name \(MID Server cluster support starting with Discovery and Service Mapping Patterns version 1.35.0\).
 
 </td><td>
 
@@ -784,7 +901,7 @@ sn\_itom\_pattern.bring\_discovery\_container
 
 </td><td>
 
-Starting with Discovery and Service Mapping Patterns version 1.31.0, the property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs or only Docker image CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU.
+Available starting with Discovery and Service Mapping Patterns version 1.31.0. This property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs, or only Docker image CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU.
 
 </td><td>
 
@@ -794,8 +911,30 @@ Boolean
 
 true
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+sn\_itom\_pattern.k8s\_entry\_pattern
+
+</td><td>
+
+Controls which entry pattern Kubernetes cloud discovery uses. When set to **Kubernetes Cluster - Per-Namespace LP**, discovery identifies the cluster and then discovers each namespace separately, improving reliability on large clusters. The Kubernetes Cluster - Per-Namespace LP pattern is available starting from Discovery and Service Mapping Patterns version 1.35.0.
+
+</td><td>
+
+String
+
+</td><td>
+
+Kubernetes
+
 </td></tr></tbody>
-</table>**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md)
+</table>\* If a MID Server and a MID Server cluster share the same name, the MID Server cluster takes precedence. **sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_midserver** takes precedence over **sn\_itom\_pattern.k8s\_midserver** for that account. **sn\_itom\_pattern.k8s\_&lt;service\_account\_id&gt;\_&lt;clustername&gt;\_midserver** takes precedence over both for that account and cluster.
+
+**Note:** `<service_account_id>` is the account ID name under Cloud Service Accounts. For more information, see: [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md)
 
 ## Kubernetes Credential-less or mid-in-cluster discovery
 

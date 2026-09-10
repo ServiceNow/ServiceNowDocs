@@ -1,26 +1,26 @@
 ---
-title: CSM Configurable Workspace form headers
-description: Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
+title: CRM Workspace form headers
+description: Form headers in CRM Workspace provide agents with a brief description of the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-headers.html
 release: australia
 topic_type: reference
 last_updated: "2026-06-30"
 reading_time_minutes: 1
-breadcrumb: [Form features, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form headers
+# CRM Workspace form headers
 
-Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
+Form headers in CRM Workspace provide agents with a brief description of the case.
 
 Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md).
 
 \[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me
 
-For more information, see [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)
+For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)
 
-**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace.
+**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace.
 
 ## Record Information tab
 
@@ -37,7 +37,7 @@ The cards that appear in the Record Information tab can be configured in the rib
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md).
+For CRM Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md).
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

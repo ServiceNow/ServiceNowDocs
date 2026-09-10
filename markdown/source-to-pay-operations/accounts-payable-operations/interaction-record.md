@@ -70,3 +70,5 @@ View interaction record details to analyze supplier interactions, take immediate
 
 [Using Supplier Collaboration Portal in APO]()
 
+[AI worker case resolution confirmation]()
+

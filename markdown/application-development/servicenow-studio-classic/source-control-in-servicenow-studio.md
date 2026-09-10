@@ -28,14 +28,10 @@ For more information, see [Link an app to source control in ServiceNow Studio](h
 
 **Note:** When using source control to collaborate with other developers, only changes that have been checked in are available to other developers. For example, if an admin creates a new flow for an app linked to Git, the flow is not available to other users until the admin checks it into Git.
 
--   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)**  
-Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
 -   **[Source control operations in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-operations-in-sn-studio.md)**  
 Most source control operations in ServiceNow Studio run from within the platform. Some operations — such as creating branches and tags — can also be performed directly from the Git repository.
 -   **[Edit a Git repository configuration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.md)**  
 Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
--   **[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)**  
-Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
 -   **[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)**  
 Pull and commit changes in a Git repository directly from ServiceNow Studio to keep app development in sync across your team.
 -   **[Create versions and branches in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-create-versions-branches-git.md)**  

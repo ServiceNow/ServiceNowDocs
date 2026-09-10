@@ -1,6 +1,6 @@
 ---
 title: Platform Analytics Solutions for Health Log Analytics
-description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected, and the money it saved your organization by preventing critical outages.
+description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected. It also shows the money saved by preventing critical outages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-content-pack.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analyti
 
 # Platform Analytics Solutions for Health Log Analytics
 
-Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected, and the money it saved your organization by preventing critical outages.
+Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides valuable insights into the number of IT issues Health Log Analytics predicted before your users were affected. It also shows the money saved by preventing critical outages.
 
 ## Required roles
 
@@ -29,7 +29,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 -   **[Configure the Platform Analytics Solution for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-config.md)**  
 Run diagnostics, review and customize components, and start collecting data.
 -   **[Health Log Analytics Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-overview-dashboard.md)**  
-The Health Log Analytics Operational dashboard uses Performance Analytics to enable you to monitor log data, alerts, and error rate information in Service Operations Workspace and address issues as they occur in the system.
+The Health Log Analytics Operational dashboard uses Performance Analytics to monitor log data, alerts, and error rates in Service Operations Workspace.
 
 **Parent Topic:**[Analytics and Reporting in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-analytics-reporting.md)
 

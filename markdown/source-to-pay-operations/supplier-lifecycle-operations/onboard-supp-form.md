@@ -1,5 +1,5 @@
 ---
-title: Onboard a Supplier form
+title: Fields in the Onboard a Supplier form
 description: Use the Onboard a Supplier form to provide details about the supplier that you want to onboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/onboard-supp-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Onboard a Supplier form
+# Fields in the Onboard a Supplier form
 
 Use the Onboard a Supplier form to provide details about the supplier that you want to onboard.
 
@@ -30,17 +30,17 @@ Use the Onboard a Supplier form to provide details about the supplier that you w
 **Related topics**  
 
 
-[Create New Supplier Case form]()
+[Fields in the Create New Supplier Case form]()
 
-[Create new task form]()
+[Fields in the Create new task form]()
 
-[Add New Location form]()
+[Fields in the Add New Location form]()
 
-[Update banking details form]()
+[Fields in the Update banking details form]()
 
-[Update profile details form]()
+[Fields in the Update profile details form]()
 
-[Create New Documents form]()
+[Fields in the Create New Documents form]()
 
 [Primary data tables for Supplier Lifecycle Operations]()
 

@@ -7,9 +7,9 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-04-14"
-reading_time_minutes: 3
-breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+last_updated: "2026-08-10"
+reading_time_minutes: 4
+breadcrumb: [Reference, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
 # LEAP settings fields
@@ -181,7 +181,7 @@ KB agent: Minimum incident count
 
 </td><td>
 
-Minimum number of incidents a cluster must contain before the LEAP Knowledge base agent autonomously creates a knowledge base article. The default value is 15.
+Minimum number of incidents a cluster must contain before the LEAP AI agent autonomously creates a knowledge base article. The default value is 15.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,39 @@ KB agent: Severity
 
 </td><td>
 
-Automation opportunity severity levels that make a cluster eligible for knowledge base article creation by the LEAP Knowledge base agent. You can select multiple severity levels. The default values are Critical or High.
+Automation opportunity severity levels that make a cluster eligible for knowledge base article creation by the LEAP AI agent. You can select multiple severity levels. The default values are Critical or High.
+
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Knowledge base routing
+
+</td></tr><tr><td>
+
+Default knowledge base
+
+</td><td>
+
+The knowledge base where articles created automatically by the LEAP AI agent are stored. This field is mandatory. You cannot save settings without selecting a value.
+
+ Articles created through the ServiceNow Otto panel are also routed to this knowledge base.
+
+</td></tr><tr><td>
+
+Default category
+
+</td><td>
+
+The category within the default knowledge base where articles created by the LEAP AI agent are stored. The available categories are filtered based on the selected default knowledge base.
+
+</td></tr><tr><td>
+
+Eligible knowledge bases
+
+</td><td>
+
+The knowledge bases that users can select from when manually creating a knowledge base article from an automation opportunity using **Actions** &gt; **Draft KB article**.
+
+ When specific knowledge bases are selected, only those appear in the knowledge base selection dialog. If this field is not configured, all active knowledge bases are shown.
 
 </td></tr></tbody>
 </table>

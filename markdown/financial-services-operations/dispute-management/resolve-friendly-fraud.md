@@ -1,6 +1,6 @@
 ---
-title: Detect friendly fraud
-description: Detect friendly fraud and determine the course of action required depending on the amount being disputed, the customer relationship, and the outcome of the detection logic. The Friendly fraud AI agent can be enabled as part of the Help resolve friendly fraud disputes agentic workflow. The agent recommends an action and helps draft the customer response.
+title: Resolve friendly fraud disputes
+description: Resolve friendly fraud disputes by reviewing evidence, selecting an appropriate action, and communicating with customers. You can use the Help resolve friendly fraud disputes agentic workflow to receive AI-generated recommendations and draft responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resolve-friendly-fraud.html
 release: australia
@@ -8,13 +8,14 @@ product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-07-02"
-reading_time_minutes: 4
-breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+reading_time_minutes: 3
+keywords: [friendly fraud, dispute resolution, AI agent, agentic workflow]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Detect friendly fraud
+# Resolve friendly fraud disputes
 
-Detect friendly fraud and determine the course of action required depending on the amount being disputed, the customer relationship, and the outcome of the detection logic. The Friendly fraud AI agent can be enabled as part of the Help resolve friendly fraud disputes agentic workflow. The agent recommends an action and helps draft the customer response.
+Resolve friendly fraud disputes by reviewing evidence, selecting an appropriate action, and communicating with customers. You can use the Help resolve friendly fraud disputes agentic workflow to receive AI-generated recommendations and draft responses.
 
 ## Before you begin
 
@@ -22,7 +23,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-Friendly fraud occurs when a consumer makes a legitimate purchase but later disputes the transaction, claiming it was unauthorized or that they didn't receive the product or service. To detect friendly fraud accurately, a set of predefined rules is applied to disputed transactions.
+Friendly fraud occurs when a consumer makes a legitimate purchase but later disputes the transaction, claiming it was unauthorized or that they did not receive the product or service. A set of predefined rules is applied to disputed transactions to detect friendly fraud.
 
 By default, transactions are flagged for friendly fraud if they:
 
@@ -33,19 +34,17 @@ By default, transactions are flagged for friendly fraud if they:
 -   Have no active fraud reports or disputes.
 -   Have at least two matching core data elements \(User ID, IP address, shipping address, device ID/fingerprint\), with one being either IP address or device ID/fingerprint.
 
-The dispute agent can decline requests, issue credits, or proceed with chargebacks, along with modifying communication templates for customer interaction.
+You can decline requests, issue credits, or proceed with chargebacks. You can also modify communication templates for customer interaction.
 
-Dispute agents can also use the Help resolve friendly fraud disputes agentic workflow to provide suggested actions and draft customer responses. This agentic workflow detects friendly fraud through automated checks, guides the dispute agent toward appropriate actions, and helps draft responses for customers.
+When you enable the Help resolve friendly fraud disputes agentic workflow, the Friendly fraud AI agent provides recommendations and helps draft customer responses. The AI agent provides recommendations to assist your decision-making. AI-generated suggestions may not always be accurate. Review all recommendations carefully and apply your professional judgment before taking action.
 
-When this agentic workflow is enabled, the Friendly fraud AI agent has access to:
+The Friendly fraud AI agent has access to the following information:
 
--   **Tools**: The agent has access to various tools, including:
-    -   Knowledge base \(KB\) articles
-    -   Friendly fraud task details
-    -   Previous cases of disputes
--   **Decision Making**: The dispute agent can follow a generated recommendation of the AI agent or make a different decision. If the dispute agent decides to deviate from the generated suggestion, they must provide a reason for their decision. The process includes declining requests, issuing credits, or proceeding with chargebacks, and communication templates for customer interaction.
+-   Knowledge base articles
+-   Friendly fraud task details
+-   Previous dispute cases
 
-For information on modifying the agentic workflow, see [Configure agentic workflows in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-agentic-workflows-in-fso.md).
+You can follow the AI agent's recommendation or make a different decision. If you deviate from the generated suggestion, provide a reason for your decision.
 
 ## Procedure
 
@@ -63,75 +62,68 @@ For information on modifying the agentic workflow, see [Configure agentic workfl
 
 5.  Select the **Playbook** tab.
 
-6.  Select the transaction ID in the transaction level playbook of the **Processing** tab.
+6.  In the **Processing** tab, select the transaction ID in the transaction level playbook.
 
     The **Investigate** stage is initiated for the transaction.
 
-7.  The **Detect friendly fraud** activity appears in the **Investigate** stage.
+7.  In the **Investigate** stage, locate the **Detect friendly fraud** activity.
 
-    If friendly fraud is not detected for the transaction, the activity is marked as complete. The form is set to read-only and an information banner indicates that friendly fraud was not detected for this transaction.
+    If friendly fraud is not detected for the transaction, the activity is marked as complete and the form is set to read-only. An information banner indicates that friendly fraud was not detected for this transaction.
 
-8.  The transaction details along with the **Evidence** are displayed.
+8.  Review the transaction details and evidence.
 
-    If the Friendly fraud AI agent is enabled, a notification appears in the ServiceNow Otto panel and an active chat is initiated. The AI agent provides a recommendation for the dispute along with a valid reason. It guides the dispute agent in the panel to select the appropriate action and provide the reasons for the selection.
+    If the Friendly fraud AI agent is enabled, a notification appears in the ServiceNow Otto panel and an active chat is initiated. The AI agent provides a recommendation for the dispute with a valid reason and guides you to select the appropriate action.
 
-9.  If the Friendly fraud AI agent is enabled, select the ServiceNow Otto icon \(\[Omitted image "icon-otto.png"\] Alt text: Otto icon.\) and open the active chat for the disputed transaction.
+9.  Select one of the following resolution options.
 
-    In the chat, the AI agent generates a recommendation for the dispute with a valid reason. A new section appears with the AI-driven recommendation in the **Resolve friendly fraud** activity.
+    If you are working with the AI agent, enter the number corresponding to your decision in the chat. Otherwise, select an option directly on the form.
 
-10. Perform one of the following actions:
-
-    -   If you're working with the AI agent, in the chat, enter the number corresponding to your decision.
-    -   If you're not working with the AI agent, select one of the following options directly on the form.
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d110353e306">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d110311e259">
 
 Action
 
-</th><th align="left" id="d110353e309">
+</th><th align="left" id="d110311e262">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d110353e315">
+</th></tr></thead><tbody><tr><td id="d110311e268">
 
 **Decline dispute transaction**
 
 </td><td>
 
-1.  Provide the reason for the decline and select **Mark Complete.**
-2.  The next activity **Customer communication** is displayed. See [Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
+1.  Provide the reason for the decline and select **Mark Complete**.
+2.  The **Customer communication** activity is displayed. See [Resolve fraud customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d110353e345">
+</td></tr><tr><td id="d110311e299">
 
 **Issue credit and write-off**
 
 </td><td>
 
 1.  Provide the **Resolution reason**.
-2.  Select **Mark complete**.
+2.  Select **Mark complete**. The **Issue credit** activity is displayed.
+3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete**.
 
-The **Issue credit** activity is displayed.
 
-3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
-.
-
-</td></tr><tr><td id="d110353e381">
+</td></tr><tr><td id="d110311e335">
 
 **Proceed with dispute**
 
 </td><td>
 
-The **Report fraud** activity is displayed. Follow the further steps to resolve the fraud. For more information, see [Report fraud to a card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
+The **Report fraud** activity is displayed. See [Report fraud to card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
 
 </td></tr></tbody>
-</table>11. If you're working with the AI agent, continue interacting with it as needed to resolve the case.
+</table>10. If you are working with the AI agent, continue interacting with it as needed to resolve the case.
 
-    You can continue working in the playbook activities as you interact with the AI agent. For information about resolving customer communication for friendly fraud, see [Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
+    You can continue working in the playbook activities as you interact with the AI agent.
 
 
 ## Result
 
-Based on the resolution option selected, either directly on the form or through the Friendly fraud AI agent chat, the friendly fraud is resolved. The case proceeds to the next activity.
+Based on your selected resolution option, the friendly fraud dispute is resolved and the case proceeds to the next activity.
 
-**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
 

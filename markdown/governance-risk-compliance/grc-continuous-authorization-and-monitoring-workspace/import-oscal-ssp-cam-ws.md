@@ -52,32 +52,44 @@ The OSCAL SSP import is a synchronous process.
 
 7.  Select **Next** to continue to the next step in the OSCAL import process.
 
-    You’ll be directed to the **Roles and Responsibilities** tab to map the users for the import process.
-
-8.  Select the users in the **Roles and Responsibilities** tab.
-
-    Assign users to specific roles for the imported files. These users will retain their roles throughout each step in the authorization package.
-
-9.  Select **Next** to continue to the next step in the OSCAL import process.
-
     You’ll be directed to the **Attachments** tab to attach the SSP files.
 
-10. Attach the individual files in the **Attachments** tab, then select **Next** to upload the Overlay file.
+8.  Attach the individual files in the **Attachments** tab, then select **Next** to upload the Overlay file.
 
-    **Note:** Catalog, Profile, and SSP are required files to attach.
+    **Note:** Catalog, Profile, and SSP are mandatory files.
 
     -   **Catalog**: Contains the details of the control objectives and its related objects.
     -   **Profile**: Contains a baseline of selected controls from one or more control catalogs.
-    -   **Catalog Overlay**: Contains information regarding overlay policies and its control objectives and behavior of the overlay. This behavior depends on the addition or subtraction in which the overlay is included in the Authorization Package. For more information, see [Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md). You can also upload multiple overlay files.
     -   **SSP**: Contains the details of the authorization boundary, authorization package, system elements, information types, controls, common controls, inherit, hybrid controls, and others.
-    -   **Data flow diagram**, **Boundary diagram**, and **Network diagram**: These diagrams are attached to the authorization boundary.
-11. Select **Add file** to attach the Overlay file.
+    -   **Data flow diagram**, **Boundary diagram**, **Network diagram** and **Enterprise Architecture**: These diagrams are attached to the authorization boundary.
+9.  Select **Next** to continue with the attachments.
 
-    You can also upload multiple overlay files.
+    -   Overlay attachments: Attach one or more overlay files.
+    -   POA&amp;M attachments: Add one or more POA&amp;M files.
+    -   Authorization boundary attachments: Attach diagrams and other supporting documentation relevant to the authorization boundary, such as boundary assessment documents or architectural diagrams.
+    -   Authorization package attachments: Add specific authorization package documents. You can add the following files:
 
-12. Select **Next** to verify the files you uploaded.
+        -   SSP Report
+        -   SAP Report
+        -   SAR Report
+        -   ATO Letter
+        -   POA&amp;M Report
+        -   Executive Summary
+        These documents attach to specific authorization package document fields.
 
-    **Preview and Override** tab displays.
+        In addition, under the Attachments section, you can add general supporting documents, such as PDFs, Word documents, or images. These aren't linked to a specific field.
+
+10. Select **Next** to continue to **Roles and Responsibilities**, where you can assign users to specific roles for the imported files.
+
+    These users will retain their roles throughout each step in the authorization package.
+
+11. Select **Next** to continue to **User mapping**, where the system maps users from the OSCAL file to ServiceNow users.
+
+    These users will retain their roles throughout each step in the authorization package.
+
+    When usernames match, the system auto-maps them. When usernames do not match or the user does not exist in ServiceNow, you must manually select the corresponding ServiceNow user. The user mapping step verifies that all required roles are assigned \(System Owner, ISSO, ISSM, Engagement Lead, Auditors\). If mandatory roles are missing after auto-mapping, you must manually assign users before proceeding.
+
+12. Select **Next** to continue to **Preview and Override**, where you can verify the files you uploaded.
 
 13. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
 

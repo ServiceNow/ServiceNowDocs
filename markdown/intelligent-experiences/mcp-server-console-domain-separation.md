@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-server-console-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2025-11-12"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
 ---
 
@@ -25,11 +25,17 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## How domain separation works in MCP Server Console
 
-## How domain separation works in 
+Domain separation limits the MCP tools and servers that a user can access based on their current domain. The rules follow a top-down hierarchy: a domain can view its own records, all records from descendant domains, and global records. The domain can't access records from ancestor or sibling domains.
 
-## Use cases
+-   To enable domain separation in your MCP instance, install the domain separation plugin.
+-   The parent domain can view the servers, tools, and apps created within its child domains, and those created within its own domain.
+
+    **Note:** A domain can view it's own records, descendent domain's and global records. But it can't view ancestor's and sibling domain records.
+
+-   An MCP tool can be attached to a server within the same domain.
+-   When a tool or server is created via the UI, it is stamped with the creating user's current `sys_domain`. This stamp is the source of truth for all visibility and scoping decisions.
 
 **Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
 

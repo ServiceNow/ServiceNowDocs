@@ -1,9 +1,9 @@
 ---
 title: Application Manager release notes
-description: The ServiceNow Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.
+description: The ServiceNow Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.The ServiceNow Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
-topic_type: reference
+topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.
 
-## Application Manager highlights for the Australia release
+## About Application Manager
 
 -   Reduce potential runtime errors by installing and updating Now Assist applications with suites of interdependent versions.
 -   View all ServiceNow Store applications that are licensed or available for procurement from the **Available for you** tab.
@@ -20,11 +20,24 @@ The ServiceNow® Application Manager enables you to install, update, and manage 
 
 See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) for more information.
 
-## Important information for upgrading Application Manager to Australia
+## Activation and other requirements
 
-Application Manager is active by default on instances on the Australia release. Upgrade your instance to Australia patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md).
+-   **Activation information**
 
-## New in the Australia release
+    Application Manager is a ServiceNow AI Platform feature that is active by default.
+
+-   **Upgrade information**
+
+    Application Manager is active by default on instances on the Australia release. Upgrade your instance to Australia patch 4 or later to use the latest features. For information about upgrading your ServiceNow AI Platform instance, see [Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-prepare-landing-page.md).
+
+
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
+
+## Australia
+
+The ServiceNow® Application Manager enables you to install, update, and manage licensed applications and plugins for your instance. Application Manager was enhanced and updated in the Australia release.
+
+### What's new
 
 -   **Now Assist suites for version compatibility**
 
@@ -35,7 +48,7 @@ Application Manager is active by default on instances on the Australia release. 
     Review information about any applicable installation considerations, requirements, and blockers in the header of application details.
 
 
-## UI changes
+### What's changed
 
 -   **Coral theme**
 
@@ -47,27 +60,8 @@ Application Manager is active by default on instances on the Australia release. 
     -   New AI gradient styles and subtle animations to highlight intelligent features.
     -   Smarter focus behavior that reduces visual clutter for mouse users.
 
-## Changed in this release
-
 -   **[Unlicensed application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/available-for-you-app-mgr.md)**
 
     In addition to details about applications that are already licensed, the "Available for you" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.
 
-
-## Activation information
-
-Application Manager is a ServiceNow AI Platform feature that is active by default.
-
-## Related ServiceNow applications and features
-
--   **[ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/servicenow-store.md)**
-
-    Get applications that haven't been licensed yet from the ServiceNow Store, then install and update them through the Application Manager.
-
--   **[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    The Application Manager helps verify that Now Assist applications that you install or update remain compatible with any other Now Assist applications on your ServiceNow AI Platform instance.
-
-
-**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

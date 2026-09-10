@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-industrialguidedtasks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -109,43 +109,27 @@ Australia
 
 -   **[Authoring Guided Tasks](https://www.servicenow.com/docs/access?context=task-authoring-configuration-settings&family=australia&ft:locale=en-US)**
 
-Design structured workflows with sections, steps, assessments, and conditional paths by using an authoring interface that enforces consistency and quality.
-
-Built‑in rules help to maintain consistency by following correct steps sequence, naming, and safety requirements. Authors can preview the guided tasks’ end‑user experience before publishing.
+Design structured workflows with sections, steps, assessments, and conditional paths by using an authoring interface that enforces consistency and quality.Built‑in rules help to maintain consistency by following correct steps sequence, naming, and safety requirements. Authors can preview the guided tasks’ end‑user experience before publishing.
 
 -   **[Assessment-driven scoring, evaluation, and execution](https://www.servicenow.com/docs/access?context=scoring-industrial-guided-tasks&family=australia&ft:locale=en-US)**
 
-Capture and evaluate task data by using multiple assessment types, including numeric inputs, selections, measurements, and conditional evaluations. Supports multiple assessment types including numeric inputs, selections, measurements, and conditional evaluations.
-
-Automatic scoring determines the following task outcomes based on configured thresholds: Successful, Unsuccessful, or Not Scored. Assessment data is captured for reporting, quality control, and continuous improvement.
+Capture and evaluate task data by using multiple assessment types, including numeric inputs, selections, measurements, and conditional evaluations. Supports multiple assessment types including numeric inputs, selections, measurements, and conditional evaluations.Automatic scoring determines the following task outcomes based on configured thresholds: Successful, Unsuccessful, or Not Scored. Assessment data is captured for reporting, quality control, and continuous improvement.
 
 -   **[Automation and Smart Actions](https://www.servicenow.com/docs/access?context=industrial-guided-tasks-reference&family=australia&ft:locale=en-US)**
 
-Reduce manual intervention by configuring automation features that trigger follow‑up work, standard tasks, or actions based on assessment results.
-
-Complex logic can route execution flows, creating dynamic experiences that adapt to operator input. This reduces manual intervention and maintains consistent responses to equipment or process conditions. You need an additional plugin to use this functionality.
-
-Template capabilities for duplication of task structures.
+Reduce manual intervention by configuring automation features that trigger follow‑up work, standard tasks, or actions based on assessment results.Complex logic can route execution flows, creating dynamic experiences that adapt to operator input. This reduces manual intervention and maintains consistent responses to equipment or process conditions. You need an additional plugin to use this functionality.Template capabilities for duplication of task structures.
 
 -   **[Easy accessibility and execution](https://www.servicenow.com/docs/access?context=execute-igt-icw-mobile&family=australia&ft:locale=en-US)**
 
-Execute guided tasks through a clean step‑by‑step interface that supports images, instructions, validations, and attachments for accurate task completion.
-
-Integrated barcode or QR scanning helps identify parts, equipment, or materials during task execution.
-
-Offline access to guided tasks in the ICW mobile application. Offline mode minimizes interruption in your work, even in low‑connectivity industrial environments.
+Execute guided tasks through a clean step‑by‑step interface that supports images, instructions, validations, and attachments for accurate task completion.Integrated barcode or QR scanning helps identify parts, equipment, or materials during task execution.Offline access to guided tasks in the ICW mobile application. Offline mode minimizes interruption in your work, even in low‑connectivity industrial environments.
 
 -   **[IGT Lifecycle Governance](https://www.servicenow.com/docs/access?context=industrial-guided-task-life-cycle&family=australia&ft:locale=en-US)**
 
-Govern your guided tasks through separated life-cycle states that provide clearer oversight and a better audit trail.
-
-Review and approval workflows helps in maintaining quality, safety, and operational standards of guided tasks before release. Historical versions are archived for audits, root cause analysis \(RCA\) investigations, and long‑term reporting.
+Govern your guided tasks through separated life-cycle states that provide clearer oversight and a better audit trail.Review and approval workflows helps in maintaining quality, safety, and operational standards of guided tasks before release. Historical versions are archived for audits, root cause analysis \(RCA\) investigations, and long‑term reporting.
 
 -   **[Create standards using templates](https://www.servicenow.com/docs/access?context=creating-standards-from-templates&family=australia&ft:locale=en-US)**
 
-Accelerate guided task creation by duplicating existing tasks or using them as reusable templates.
-
-Structural components such as steps, assessments, and conditional logic can be reused across multiple workflows, which maintains consistency while reducing authoring time.
+Accelerate guided task creation by duplicating existing tasks or using them as reusable templates.Structural components such as steps, assessments, and conditional logic can be reused across multiple workflows, which maintains consistency while reducing authoring time.
 
 
 </td></tr></tbody>
@@ -326,7 +310,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Industrial Guided Tasks is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

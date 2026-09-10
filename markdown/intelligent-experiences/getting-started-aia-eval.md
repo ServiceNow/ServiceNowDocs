@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
 keywords: [automated evaluations]
-breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Evaluate, Evaluate agentic AI assets, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Getting started with agentic evaluations

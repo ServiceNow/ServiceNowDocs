@@ -83,11 +83,11 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
     You can create common or global catalogs items based on templates, at the SP domain, making it available for all domains you're managing. You can also create custom catalog items for each domain/company based on your requirements. A user with domain admin/cloud designer roles, can update or delete cloud scripts and cloud script templates belongs to domain and sub-domains. You cannot use common catalogs with different pool-filter for each domain. Create a custom catalog for each domain instead.
 
-    Deployment, post-provisioning, and Day-2 operations are domain separated. For example, if a cloud portal user from a specific company orders a VM, the stack, the request, virtual machine, and all components in the stack are stored in its respective domain. Subsequent operations for a domain are also handled in same manner. You can generate a catalog item based on Terraform configuration management template, or use Azure Resource Manager and AWS CloudFormation templates.
+    Deployment, post-provisioning, and Day-2 operations are domain separated. For example, if a cloud portal user from a specific company orders a VM, the stack, request, virtual machine, and all components are stored in its respective domain. Subsequent operations for a domain are also handled in the same manner. You can generate a catalog item based on a Terraform configuration management template, or use Azure Resource Manager and AWS CloudFormation templates.
 
 -   [Create Cloud Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md)
 
-    Do not add sensitive and private information such as CIDR values, IP addresses, credentials, etc, to the template content, if setting up the catalog item as a global catalog item. The sensitive information could be exposed to other cloud admins.
+    Do not add private information such as CIDR values, IP addresses, or credentials to the template content if setting up the catalog item as a global catalog item. This information could be exposed to other cloud admins.
 
     Create a cloud template and associate the template with a catalog item. Once you've created a template, you can reuse the template to create additional catalog items for the services you want to provision.
 

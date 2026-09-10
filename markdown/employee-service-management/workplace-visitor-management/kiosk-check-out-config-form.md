@@ -8,7 +8,7 @@ product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -85,6 +85,8 @@ Option to make the page configuration active.
 [New visit form]()
 
 [Additional requirement form]()
+
+[About visit-related tables]()
 
 [Differences between Workplace Visitor Management versions]()
 

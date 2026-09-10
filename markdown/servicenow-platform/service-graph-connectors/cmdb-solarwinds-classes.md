@@ -16,32 +16,6 @@ breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data 
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from SolarWinds. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 
-The following attributes in the IP Address \[cmdb\_ci\_ip\_address\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|IP Address|ip\_address|
-|Netmask|netmask|
-|IP version|ip\_version|
-|Nic|nic|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|IP Address \[cmdb\_ci\_ip\_address\]|Reference|Network Adapter \[cmdb\_ci\_network\_adapter\]|
-
-The following attributes in the Software Instance \[cmdb\_software\_instance\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Install date|install\_date|
-|Installed on|installed\_on|
-|Name|name|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|Software Instance \[cmdb\_software\_instance\]|Reference|Computer \[cmdb\_ci\_computer\]|
-|Software Instance \[cmdb\_software\_instance\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
-
 ## Availability Zone \[cmdb\_ci\_availability\_zone\]
 
 The following attributes in the Availability Zone \[cmdb\_ci\_availability\_zone\] table are populated by collected data:
@@ -64,11 +38,24 @@ The following attributes in the Cloud Key Pair \[cmdb\_ci\_cloud\_key\_pair\] ta
 |---------------|--------------|
 |Name|name|
 |Object ID|object\_id|
-| |source\_recency\_timestamp|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Cloud Key Pair \[cmdb\_ci\_cloud\_key\_pair\]|Hosted on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
+
+## Cloud Network \[cmdb\_ci\_network\]
+
+The following attributes in the Cloud Network \[cmdb\_ci\_network\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Name|name|
+|Object ID|object\_id|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
+|Cloud Network \[cmdb\_ci\_network\]|Hosted on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
 
 ## Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]
 
@@ -89,21 +76,6 @@ The following attributes in the Cloud Subnet \[cmdb\_ci\_cloud\_subnet\] table a
 |---------------|--------------|
 |Name|name|
 |Object ID|object\_id|
-| |source\_recency\_timestamp|
-
-## Compute Template \[cmdb\_ci\_compute\_template\]
-
-The following attributes in the Hardware Type \[cmdb\_ci\_compute\_template\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Name|name|
-|Object ID|object\_id|
-| |source\_recency\_timestamp|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|Hardware Type \[cmdb\_ci\_compute\_template\]|Hosed on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
 
 ## Computer \[cmdb\_ci\_computer\]
 
@@ -116,44 +88,12 @@ The following attributes in the Computer \[cmdb\_ci\_computer\] table are popula
 |CPU manufacturer|cpu\_manufacturer|
 |CPU name|cpu\_name|
 |CPU speed \(MHz\)|cpu\_speed|
-| |source\_recency\_timestamp|
 |Is Virtual|virtual|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Computer \[cmdb\_ci\_computer\]|Virtualized by::Virtualizes|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 |Computer \[cmdb\_ci\_computer\]|Contains::Contained by|Disk \[cmdb\_ci\_disk\]|
-
-## DB Mssql Database \[cmdb\_ci\_db\_mssql\_database\]
-
-The following attributes in the MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Data Base|database|
-|Name|name|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
-
-## DB Mssql Instance \[cmdb\_ci\_db\_mssql\_instance\]
-
-The following attributes in the MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Edition|edition|
-|Install Status|install\_status|
-|Instance Name|instance\_name|
-|Name|name|
-|Operational status|operational\_status|
-|Service pack|service\_pack|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
-|MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\]|Contains::Contained by|MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\]|
 
 ## Disk \[cmdb\_ci\_disk\]
 
@@ -169,7 +109,6 @@ The following attributes in the Disk \[cmdb\_ci\_disk\] table are populated by c
 |Name|name|
 |Size|size|
 |Size bytes|size\_bytes|
-| |source\_recency\_timestamp|
 |Volume serial number|volume\_serial\_number|
 
 |Parent class|Relationship type|Child class|
@@ -182,25 +121,32 @@ The following attributes in the Hardware \[cmdb\_ci\_hardware\] table are popula
 
 |Attribute label|Attribute name|
 |---------------|--------------|
-| |cpu\_count|
 |Default Gateway|default\_gateway|
 |DNS Domain|dns\_domain|
 |Fully qualified domain name|fqdn|
 |Manufacturer|manufacturer|
 |Model ID|model\_id|
 |Name|name|
-| |os|
-| |os\_service\_pack|
-| |os\_version|
-| |ram|
 |Serial number|serial\_number|
-| |source\_recency\_timestamp|
 |Class|sys\_class\_name|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Hardware \[cmdb\_ci\_hardware\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
 |Hardware \[cmdb\_ci\_hardware\]|Owns::Owned by|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+
+## Hardware Type \[cmdb\_ci\_compute\_template\]
+
+The following attributes in the Hardware Type \[cmdb\_ci\_compute\_template\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Name|name|
+|Object ID|object\_id|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|Hardware Type \[cmdb\_ci\_compute\_template\]|Hosed on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
 
 ## IIS Virtual directory \[cmdb\_ci\_iisdirectory\]
 
@@ -225,7 +171,7 @@ The following attributes in the IP Address \[cmdb\_ci\_ip\_address\] table are p
 |IP Address|ip\_address|
 |IP version|ip\_version|
 |Netmask|netmask|
-||source\_recency\_timestamp|
+|Nic|nic|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
@@ -239,7 +185,6 @@ The following attributes in the Logical Datacenter \[cmdb\_ci\_logical\_datacent
 |---------------|--------------|
 |Name|name|
 |Region|region|
-| |source\_recency\_timestamp|
 |Class|sys\_class\_name|
 
 |Parent class|Relationship type|Child class|
@@ -263,23 +208,39 @@ The following attributes in the Microsoft IIS Web Server \[cmdb\_ci\_microsoft\_
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
-|Microsoft iis Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]|Contains::Contained by|IIS Virtual Directory \[cmdb\_ci\_iisdirectory\]|
-|Microsoft iis Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+|Microsoft IIS Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]|Contains::Contained by|IIS Virtual Directory \[cmdb\_ci\_iisdirectory\]|
+|Microsoft IIS Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
 
-## Network \[cmdb\_ci\_network\]
+## MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\]
 
-The following attributes in the Cloud Network \[cmdb\_ci\_network\] table are populated by collected data:
+The following attributes in the MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\] table are populated by collected data:
 
 |Attribute label|Attribute name|
 |---------------|--------------|
+|Data Base|database|
 |Name|name|
-|Object ID|object\_id|
-| |source\_recency\_timestamp|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
-|Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
-|Cloud Network \[cmdb\_ci\_network\]|Hosted on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
+|MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+
+## MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\]
+
+The following attributes in the MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Edition|edition|
+|Install Status|install\_status|
+|Instance Name|instance\_name|
+|Name|name|
+|Operational status|operational\_status|
+|Service pack|service\_pack|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+|MSFT SQL Instance \[cmdb\_ci\_db\_mssql\_instance\]|Contains::Contained by|MS SQL DataBase \[cmdb\_ci\_db\_mssql\_database\]|
 
 ## Network Adapter \[cmdb\_ci\_network\_adapter\]
 
@@ -292,13 +253,12 @@ The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] t
 |Mac manufacturer|mac\_manufacturer|
 |Name|name|
 |Netmask|netmask|
-| |source\_recency\_timestamp|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 
-## OS Template \[cmdb\_ci\_os\_template\]
+## Image \[cmdb\_ci\_os\_template\]
 
 The following attributes in the Image \[cmdb\_ci\_os\_template\] table are populated by collected data:
 
@@ -306,24 +266,10 @@ The following attributes in the Image \[cmdb\_ci\_os\_template\] table are popul
 |---------------|--------------|
 |Name|name|
 |Object ID|object\_id|
-| |source\_recency\_timestamp|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Image \[cmdb\_ci\_os\_template\]|Hosted on::Hosts|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
-
-## SAM SW Install \[cmdb\_sam\_sw\_install\]
-
-The following attributes in the SAM SW Install \[cmdb\_sam\_sw\_install\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-| |discovery\_source|
-| |display\_name|
-| |last\_scanned|
-| |publisher|
-| |source\_recency\_timestamp|
-| |version|
 
 ## Serial Number \[cmdb\_serial\_number\]
 
@@ -333,29 +279,13 @@ The following attributes in the Serial Number \[cmdb\_serial\_number\] table are
 |---------------|--------------|
 |Serial Number|serial\_number|
 |Serial Number Type|serial\_number\_type|
-| |source\_recency\_timestamp|
 |Valid|valid|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Serial Number \[cmdb\_serial\_number\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 
-## Software Instance \[cmdb\_software\_instance\]
-
-The following attributes in the Software Instance \[cmdb\_software\_instance\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Install date|install\_date|
-|Name|name|
-| |source\_recency\_timestamp|
-
-|Parent class|Relationship type|Child class|
-|------------|-----------------|-----------|
-|Software Instance \[cmdb\_software\_instance\]|Reference|Computer \[cmdb\_ci\_computer\]|
-|Software Instance \[cmdb\_software\_instance\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
-
-## Spkg \[cmdb\_ci\_spkg\]
+## Software \[cmdb\_ci\_spkg\]
 
 The following attributes in the Software \[cmdb\_ci\_spkg\] table are populated by collected data:
 
@@ -364,12 +294,26 @@ The following attributes in the Software \[cmdb\_ci\_spkg\] table are populated 
 |Key|key|
 |Manufacturer|manufacturer|
 |Name|name|
-| |source\_recency\_timestamp|
 |Version|version|
 
 |Parent class|Relationship type|Child class|
 |------------|-----------------|-----------|
 |Software \[cmdb\_ci\_spkg\]|Reference|Software Instance \[cmdb\_software\_instance\]|
+
+## Software Instance \[cmdb\_software\_instance\]
+
+The following attributes in the Software Instance \[cmdb\_software\_instance\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Install date|install\_date|
+|Installed on|installed\_on|
+|Name|name|
+
+|Parent class|Relationship type|Child class|
+|------------|-----------------|-----------|
+|Software Instance \[cmdb\_software\_instance\]|Reference|Computer \[cmdb\_ci\_computer\]|
+|Software Instance \[cmdb\_software\_instance\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 
 ## Storage Volume \[cmdb\_ci\_storage\_volume\]
 
@@ -395,7 +339,6 @@ The following attributes in the VM Instance \[cmdb\_ci\_vm\_instance\] table are
 |IP Address|ip\_address|
 |Name|name|
 |Object ID|object\_id|
-| |source\_recency\_timestamp|
 |State|state|
 
 |Parent class|Relationship type|Child class|

@@ -53,7 +53,7 @@ If you need to track work items at a single level \(for example, stories for you
 
     View work items across four portfolio levels: Portfolio, Solution Train, Agile Release Train \(ART\), and Agile Team. Each level displays its default work item type such as Epics, Capabilities, Features, and Stories based on the configuration.
 
-    If your configuration enables a work item type that sits higher in the hierarchy than the configuration's default top-level type, for example enabling Epics on an Essential Configuration, the Hierarchy tab displays that enabled type at the top level instead of the configuration's original default.
+    Your configuration may enable a work item type that sits higher in the hierarchy than the default top-level type. For example, you can enable Epics on an Essential Configuration. The Hierarchy tab displays that enabled type at the top level, overriding the configuration's original default.
 
 -   **Context-sensitive navigation**
 

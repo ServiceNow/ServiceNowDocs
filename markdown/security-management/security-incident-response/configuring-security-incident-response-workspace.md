@@ -16,6 +16,8 @@ breadcrumb: [Security Incident Response Workspace, Security Incident Response, E
 
 This section describes the configurations needed to work with the Security Incident Response Workspace.
 
+-   **[Configuring ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)**  
+The ServiceNow Otto for Security Incident Response \(SIR\) application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the AI Admin Hub console to configure ServiceNow Otto for Security Incident Response \(SIR\).
 -   **[Set up view of SIR Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-view-of-sir-records.md)**  
 This section describes how the related lists are grouped and presented on the SIR Related Records tab for easy navigation.
 -   **[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)**  

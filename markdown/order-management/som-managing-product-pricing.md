@@ -20,7 +20,7 @@ As a pricing administrator or pricing manager, you complete various configuratio
 
 \[Omitted image "q4-som-catalog-pricing-workflow.svg"\] Alt text: Workflow infographic that shows the main pricing configuration steps described in the following table, which also identifies other pricing features that can be configured
 
-Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CSM Configurable Workspace to configure product pricing.
+Starting with the May 2024 release of Sales Customer Relationship Management applications, you can use the CRM Workspace to configure product pricing.
 
 **Note:** Check your entitlements to determine if you have access to these features.
 

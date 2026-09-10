@@ -44,3 +44,7 @@ The refine record skill improves demand quality by enabling AI-assisted text ref
 
 The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently.
 
+For more information, see [Improve data quality using the refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/improve-data-quality-using-the-refine-records-skill.md).
+
+\[Omitted image "demand-refine-records.png"\] Alt text: The shorten or elaborate options available in the Refine with AI menu.
+

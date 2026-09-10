@@ -18,16 +18,13 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 
 ## Before you begin
 
--   Ensure that the Now Assist panel is enabled on your instance. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   Ensure that the ServiceNow Otto panel is enabled on your instance. For details, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Ensure that ServiceNow Otto for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-now-assist-itom.md).
 -   Enable the Agent Client Collector diagnostic workflow in AI Agent Studio.
     1.  Select **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
     2.  On the **Agentic workflows** tab, select **Agent Client Collector \(ACC\) Diagnostic**.
     3.  Select the **Select channels and status** option.
-    4.  In the **Engage via the Now Assist** panel, slide the **Display** toggle bar to the right \(active\).
-
-        \[Omitted image "display-toggle-bar.png"\] Alt text: Display toggle bar
-
+    4.  In the **Engage via the ServiceNow Otto** panel, slide the **Display** toggle bar to the right \(active\).
 -   Role required: agent\_client\_collector\_admin, agent\_client\_collector\_user, or now\_assist\_panel\_user
 
 ## About this task
@@ -39,9 +36,9 @@ Invoke the Agent Client Collector \(ACC\) diagnostic workflow to:
 
 ## Procedure
 
-1.  In a ServiceNow instance, select the Now Assist icon \(\[Omitted image "now-assist-icon.png"\] Alt text: Now Assist icon\).
+1.  In a ServiceNow instance, select the ServiceNow Otto icon \(\[Omitted image "now-assist-icon.png"\] Alt text: ServiceNow Otto icon\).
 
-2.  In the Now Assist panel, enter prompts to invoke the ACC diagnostic workflow and perform remediation actions on the agent.
+2.  In the ServiceNow Otto panel, enter prompts to invoke the ACC diagnostic workflow and perform remediation actions on the agent.
 
     Possible prompts include:
 

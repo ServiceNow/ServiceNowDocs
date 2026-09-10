@@ -34,15 +34,15 @@ Role required: it\_demand\_user, it\_demand\_manager, or demand\_approver
 
 6.  Determine whether you want to apply a template to the doc or save the doc as a template.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d73033e114">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d76331e114">
 
 Goal
 
-</th><th align="left" id="d73033e117">
+</th><th align="left" id="d76331e117">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d73033e123">
+</th></tr></thead><tbody><tr><td id="d76331e123">
 
 **Apply a template**
 
@@ -52,7 +52,7 @@ Actions
 2.  Select **Use** in the card for the template that you want to use.
 
 
-</td></tr><tr><td id="d73033e147">
+</td></tr><tr><td id="d76331e147">
 
 **Save the doc as a template**
 

@@ -18,7 +18,7 @@ Use Mobile Card Builder to modify the cards for your screens.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see .
 
 ## Procedure
 

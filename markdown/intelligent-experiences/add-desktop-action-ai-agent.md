@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 7
 keywords: [defined desktop action, deterministic desktop action]
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add a defined desktop action tool to an AI agent for desktop and web-based task
@@ -17,7 +17,7 @@ Add a desktop action as a tool to an AI agent in AI Agent Studio so that AI agen
 
 ## Before you begin
 
-Familiarize yourself with defined path desktop actions. For more information, see [Defined desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md) and [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Familiarize yourself with defined path desktop actions. For more information, see [Defined desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md) and [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
 Role required: sn\_aia.admin
 
@@ -80,7 +80,7 @@ The background task desktop actions are supported for the following applications
 2.  Select the option **Record a fixed sequence of steps for desktop and web-based tasks**.
 3.  Select **Open AI Desktop Actions app**.
 
-Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
+Record or manually capture the desktop action in AI Desktop Actions Windows application, activate it, and then come back here to add it as a tool. For more information, see [Defined desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
 The creation process of defined desktop actions ends here.
 

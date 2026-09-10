@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure process rules for incoming emails, Email to case, Email channel, Configure Omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure process rules for incoming emails, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Define rules to process incoming emails
@@ -22,7 +22,7 @@ Role required: admin, sn\_customerservice\_manager
 
 Email flows use conditional logic to incorporate multiple business processes into one flow. When designing inbound email flows, note the following:
 
--   The execution order of the inbound email flows takes a higher precedence than inbound actions. For example, if an email flow executes, it prevents the execution of inbound actions.
+-   The execution order of the inbound email flows comes before inbound actions. For example, if an email flow executes, it prevents the execution of inbound actions.
 -   The user who sends an email should have the necessary roles to perform the operations specified in the flow. Otherwise the system stops the operation.
 
 ## Procedure

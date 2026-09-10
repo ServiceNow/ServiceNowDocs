@@ -56,5 +56,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Application version
 
-Connect Hub v2.2.0 is the latest version.
+Connect Hub v2.4.0 is the latest version.
 

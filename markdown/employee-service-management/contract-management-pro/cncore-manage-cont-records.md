@@ -30,6 +30,8 @@ As a contract configurator, update an advanced script to print the correct displ
 
 [Manage clauses, tables, and contract templates]()
 
+[Manage AI skills]()
+
 [Platform Analytics Solutions for Contract Management Pro]()
 
 [Modify assignment rule for contract requests]()

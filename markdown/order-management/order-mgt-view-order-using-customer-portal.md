@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # View an order on the Business Portal
@@ -31,6 +31,8 @@ Role required: sn\_customerservice.customer
     -   To export as a PDF, Excel, or CSV - use the Action icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.
     -   To open an order - select the order number.
     -   To navigate back to the main window - use the breadcrumbs.
+
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/self-service-order-management.md)
 
 **Related topics**  
 

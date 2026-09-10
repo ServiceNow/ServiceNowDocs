@@ -48,7 +48,7 @@ To achieve this, follow these steps:
 
 5.  Select the **Binding** tab.
 
-    In this tab, you select the CI type as a service \(non-host\) instead of a host because the goal is to bind alerts to an Application Service, not to a physical or virtual machine.
+    In this tab, you select the CI type as a service \(non-host\) instead of a host. The goal is to bind alerts to an Application Service, not to a physical or virtual machine.
 
 6.  Perform the following steps:
 
@@ -65,7 +65,7 @@ To achieve this, follow these steps:
 
     1.  Clear the **Node** field.
 
-        When an event is processed, it often comes with multiple fields of information. The **Node** field typically contains the host or device name. However, since the goal is to bind the alert to an Application Service rather than a host, clearing the **Node** field ensures that the system focuses on identifying the correct service instead of mistakenly associating the alert with a host CI.
+        When an event is processed, it often comes with multiple fields of information. The **Node** field typically contains the host or device name. However, the goal is to bind the alert to an Application Service rather than a host. Clearing the **Node** field ensures that the system focuses on identifying the correct service instead of mistakenly associating the alert with a host CI.
 
         \[Omitted image "em-example-clear-node.png"\] Alt text: Clear the Node field.
 
@@ -166,7 +166,7 @@ Corp E-mail
 </td></tr></tbody>
 </table>13. Select **Submit**.
 
-    The system extracts the IP address of the service from the event and stores it in the **service\_ip\_address** field. Since the Application Service table \(cmdb\_ci\_service\_auto\) does not have a column for searching by IP address, the Transform value pairs feature is used to map the IP address to a name—in this case, Corp E-mail and and saves it in the **name** field within the **Additional info** field of the alert. The **Target field** specifies where to search for the Corp E-mail in the Application Service table. The system looks for Corp E-mail in the **name** column of the Application Service table \(cmdb\_ci\_service\_auto\). If a match is found, the alert is bound to the corresponding Application Service.
+    The system extracts the IP address of the service from the event and stores it in the **service\_ip\_address** field. Since the Application Service table \(cmdb\_ci\_service\_auto\) does not have a column for searching by IP address, the Transform value pairs feature maps the IP address to a name. In this case, it maps to Corp E-mail and saves it in the **name** field within the **Additional info** field of the alert. The **Target field** specifies where to search for the Corp E-mail in the Application Service table. The system looks for Corp E-mail in the **name** column of the Application Service table \(cmdb\_ci\_service\_auto\). If a match is found, the alert is bound to the corresponding Application Service.
 
     \[Omitted image "em-example-result.png"\] Alt text: Binds alerts to service.
 

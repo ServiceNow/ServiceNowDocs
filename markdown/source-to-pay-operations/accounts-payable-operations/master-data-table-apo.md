@@ -8,7 +8,7 @@ product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [APO, Accounts Payable Operations, invoice automation, Purchase Order, invoice processing]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
@@ -67,6 +67,8 @@ Field descriptions for the organization tax table \[sn\_fin\_org\_tax\_detail\] 
 [Accounts Payable Operations properties]()
 
 [Create New Invoice Line form]()
+
+[Case exclusion reference fields]()
 
 [Create invoice cost allocation form]()
 

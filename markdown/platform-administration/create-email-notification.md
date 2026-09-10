@@ -1,18 +1,18 @@
 ---
 title: Create an email notification using the Notification agent
-description: Create an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
+description: Create an email notification using the Notification agent by describing your requirements in natural language, without navigating forms or writing scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-20"
 reading_time_minutes: 1
-breadcrumb: [Notification agent, Now Assist in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification agent, Notification agent and agentic workflows in Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email notification using the Notification agent
 
-Create an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
+Create an email notification using the Notification agent by describing your requirements in natural language, without navigating forms or writing scripts.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  Select **Configure with Now Assist**.
 
-    Now Assist opens the conversational panel, detects the current page context, and invokes the Notification Agent.
+    The conversational panel opens, detects the current page context, and invokes the Notification Agent.
 
 6.  Select **Create a new notification**, or enter a natural language prompt.
 

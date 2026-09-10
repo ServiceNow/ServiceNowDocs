@@ -8,7 +8,7 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for
 Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_agent\_forecast.user
 
@@ -42,15 +44,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d90136e122">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d91550e138">
 
 To analyze staff alignment
 
-</th><th align="left" id="d90136e125">
+</th><th align="left" id="d91550e141">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d90136e131">
+</th></tr></thead><tbody><tr><td id="d91550e147">
 
 **For each day**
 
@@ -70,7 +72,7 @@ You can also view the number of agents you have and the demand for every hour fo
 |Yellow|The number of agents you have scheduled are more than the demand you have for that hour.|
 |Red|The number of agents you have scheduled are less than the demand you have for that hour.|
 
-</td></tr><tr><td id="d90136e209">
+</td></tr><tr><td id="d91550e225">
 
 **For a given week**
 

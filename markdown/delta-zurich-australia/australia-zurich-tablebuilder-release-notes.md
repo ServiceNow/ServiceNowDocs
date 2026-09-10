@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-tablebuilder-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -96,7 +96,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Accessing Table Builder](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=zurich&ft:locale=en-US)**
+
+In the search input, enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` to access the table directly.
+
 
 </td></tr><tr><td>
 
@@ -104,7 +107,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Field configuration in Table Builder](https://www.servicenow.com/docs/access?context=field-parameters&family=australia&ft:locale=en-US)**
+
+A new **Read Only Option** has been added to the dictionary tables \(`sys_dictionary` and `sys_dictionary_override`\). The existing **read\_only** field is now locked and cannot be edited in the UI. Field behavior depends on the selected option. With **Display Read Only**, the field appears read-only but can still be updated through APIs. With **Strict Read Only**, the field can't be changed in the UI or by client scripts such as \[`g_form.setValue()`\]. A new system property,`glide.read_only.legacy_read_only_behavior`, controls whether the old behavior, where client scripts could override read-only settings, is retained.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -183,7 +189,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr><tr><td>
 
@@ -191,7 +197,7 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -241,7 +247,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr><tr><td>
 
@@ -249,7 +258,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information

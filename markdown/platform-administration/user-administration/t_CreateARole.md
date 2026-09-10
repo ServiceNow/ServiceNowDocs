@@ -8,7 +8,7 @@ product: User Administration
 classification: user-administration
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -26,9 +26,7 @@ After access has been granted to a role, all groups or users assigned to the rol
 
 For a complete list of the roles included with the base instance, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
-**Note:**
-
-You can’t rename roles of any kind in the ServiceNow AI Platform. If you manually create a role, you can’t rename it after you save it.
+**Warning:** If your organization hasn't manually allocated user-based subscriptions before,subscription assignments are based on user roles and the kind of access each role permits. Creating, customizing, and assigning roles can have subscription usage impact. For more information about how roles are evaluated for subscription assignment, see [Automatic subscription assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-subscription-auto-assignment.md).
 
 Move this action to the background so you aren’t waiting when adding a number of group members by adding the system property **glide.ui.schedule\_slushbucket\_save\_for\_group\_roles**. Set the system property to **true**. The system user is used to create records or update existing ones since the action is running in the background.
 

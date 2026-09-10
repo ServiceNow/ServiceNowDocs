@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-05-27"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [custom hardware lifecycle, custom consumable lifecycle, internal hardware lifecycle, internal consumable lifecycle]
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -31,15 +31,15 @@ Beyond approximated and calculated lifecycles, Hardware Asset Management support
 
 2.  Open the create lifecycle form for the hardware model or consumable model record.
 
-<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d166813e95">
+<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d169676e95">
 
 Option
 
-</th><th align="left" id="d166813e98">
+</th><th align="left" id="d169676e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166813e104">
+</th></tr></thead><tbody><tr><td id="d169676e104">
 
 **Open the __Hardware Model Lifecycles__ tab**
 
@@ -52,7 +52,7 @@ Description
 
 The Create New Hardware Model Lifecycle form is displayed.
 
-</td></tr><tr><td id="d166813e142">
+</td></tr><tr><td id="d169676e142">
 
 **Open the __Consumable Lifecycles__ tab**
 
@@ -141,6 +141,10 @@ The custom lifecycle record is created and listed in the Hardware Model Lifecycl
 [Manage asset put away using the Hardware Asset Workspace]()
 
 [Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Manage obligations in the Hardware Asset Workspace]()
 
 [Acknowledge receipt of assets on the Employee Center portal]()
 

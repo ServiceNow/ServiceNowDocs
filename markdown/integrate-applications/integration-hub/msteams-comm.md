@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Teams Communications spoke v1.5.1 is the latest version.
+Microsoft Teams Communications spoke v1.6.2 is the latest version. For version history of the spoke, see [Microsoft Teams Communications spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-teams-communications.html).
 
 ## Supported versions
 
@@ -65,7 +65,9 @@ The Microsoft Teams Communications spoke provides actions to automate tasks when
 |Look up Meeting Recording Content|Retrieves the recording content of a specified online meeting.|
 |Look up transcript data|Retrieves the meeting transcript using the specified user ID and meeting ID.|
 |Look up transcripts|Retrieves Microsoft Teams transcripts using the specified user ID, meeting ID, and transcript ID.|
+|Update User Online Meeting|Updates the details of the specified user online meeting.|
 |User Management|Look up User IDs Stream|Retrieves the user ID and display name for the specified users.|
+|Metadata|Get User Online Meeting Additional Fields|Retrieves the metadata for the additional fields input for the Update Online Meeting action. This action returns the online-meeting settings you can update, along with each field's type and choice values, so the Additional Fields input renders as a dynamic template.|
 
 ## Connection and credential alias requirements
 

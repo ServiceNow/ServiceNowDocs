@@ -403,26 +403,6 @@ None.
 
 </td></tr><tr><td>
 
-Now Assist for Creator \[now.assist.creator\]
-
-</td><td>
-
-This role grants users access to Now Assist for Creator skills.
-
-</td><td>
-
-None
-
-</td><td>
-
-None.
-
-</td><td>
-
-None.
-
-</td></tr><tr><td>
-
 Search application administrator \[search\_application\_admin\]
 
 </td><td>
@@ -453,6 +433,26 @@ Performs CRUD operations on Pattern and Activity configuration and the Deflectio
 </td><td>
 
 None.
+
+</td><td>
+
+None.
+
+</td><td>
+
+None.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator \[now.assist.creator\]
+
+</td><td>
+
+This role grants users access to ServiceNow Otto for Creator skills.
+
+</td><td>
+
+None
 
 </td><td>
 

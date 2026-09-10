@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [agentic AI, AI agents]
-breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # AI Agent Studio overview
@@ -53,7 +53,7 @@ The following example shows several execution logs in AI Agent Studio.
 
 From the AI Agent Studio testing page, you can review the different tests your AI agents and agentic workflows, both manual and automated. You can test the performance of your agentic AI by simulating a single execution manually, or you can use [automated agentic evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md) for testing multiple executions. Single tests are best for evaluating whether the AI agent or agentic workflow does what you expect it to. Agentic evaluations are better at finding underlying patterns and trends that may not be noticeable one execution at a time.
 
-**Note:** The testing feature does not support the Now Assist panel assistance for live agent interactions. To connect to a live agent, use Virtual Agent instead. Otherwise, during live agent chat sessions, requester and agent users may be logged out unexpectedly due to sessions expiring prematurely.
+**Note:** The testing feature does not support the ServiceNow Otto panel assistance for live agent interactions. To connect to a live agent, use Virtual Agent instead. Otherwise, during live agent chat sessions, requester and agent users may be logged out unexpectedly due to sessions expiring prematurely.
 
 There are two types of manual tests you can do: **AI agent or agentic workflow** to test execution or **Test access** to test security controls. You can view your executed tests in the two tabs of the testing page. For manual execution tests, you can select the reply button to repeat the test. You can open the full details page of an automated test by selecting the test's name in the list in the **Automated** tab.
 
@@ -65,7 +65,7 @@ The following example shows the inputs for a Generate Resolution Plan agentic wo
 
 ## AI Agent Studio settings
 
-From the AI Agent Studio Settings page, you can enable AI Guardian for your AI agents. By using AI Guardian, you can configure:
+From the AI Agent Studio Settings page, you can enable AI GuardianGuardian for your AI agents. By using AI Guardian, you can configure:
 
 -   [Offensiveness detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)
 -   [Prompt injection attempt decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md)

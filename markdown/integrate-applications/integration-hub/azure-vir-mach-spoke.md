@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Microsoft Azure Virtual Machine spoke v2.0.0 is the latest version.
+The Microsoft Azure Virtual Machine spoke v2.0.0 is the latest version. For version history of the spoke, see [Microsoft Azure Virtual Machine spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-azure-virtual-machine.html).
 
 ## Spoke dependencies
 

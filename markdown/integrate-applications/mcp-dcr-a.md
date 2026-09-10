@@ -1,18 +1,18 @@
 ---
 title: Dynamic client registration
-description: Connect an MCP connector in Connect Hub to enable AI agents in to interact with an external system using automatic OAuth authorization.
+description: Connect an MCP connector in Connect Hub to enable AI agents in Workflow Data Fabric to interact with an external system using automatic OAuth authorization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-dcr-a.html
 release: australia
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-03"
 reading_time_minutes: 2
 breadcrumb: [Model Context Protocol connectors, Build integrations with connectors, Connect, Workflow Data Fabric]
 ---
 
 # Dynamic client registration
 
-Connect an MCP connector in Connect Hub to enable AI agents in  to interact with an external system using automatic OAuth authorization.
+Connect an MCP connector in Connect Hub to enable AI agents in Workflow Data Fabric to interact with an external system using automatic OAuth authorization.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Connect an MCP connector in Connect Hub to enable AI agents in  to interact with
 
 Dynamic client registration enables you to connect an MCP connector that supports automatic OAuth authorization, such as Linear. In this, Connect Hub redirects you to the third-party provider's authorization page, where you approve the connection. No Client ID or Client secret is required. If the connector you want to use requires manual setup with a Client ID and Client secret, see [Manual client registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-mcr-a.md).
 
-For the list of MCP connectors for which dynamic client registration is supported, see [Available Enterprise MCP Registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-reg-enterprise.md).
+For the list of available MCP connectors, see [Available Enterprise MCP Registries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mcp-reg-enterprise.md).
 
 ## Procedure
 
@@ -44,7 +44,7 @@ For the list of MCP connectors for which dynamic client registration is supporte
 
     A details panel opens on the right, displaying the connector's description, system, type, endpoint URL, and certification status. If multiple connectors are available for the same system, they are listed under **Other connectors** in the panel.
 
-    \[Omitted image "mcp-dcr-linear.jpg"\] Alt text:
+    \[Omitted image "jira-dcr-rovo.png"\] Alt text:
 
 5.  Select **Connect**.
 
@@ -52,7 +52,7 @@ For the list of MCP connectors for which dynamic client registration is supporte
 
 6.  In the third-party provider's authorization page, review the requested permissions and select **Approve**.
 
-    \[Omitted image "mcr-approve.jpg"\] Alt text:
+    \[Omitted image "jira-dcr-rovo-connect.png"\] Alt text:
 
 7.  Provide the credentials when prompted.
 

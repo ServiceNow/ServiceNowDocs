@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforsourcetopayoperations-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,40 +75,7 @@ Yokohama
 
 </td><td>
 
--   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
-
-ServiceNow Otto for SPO includes an agentic workflow that enhances conversational intake capabilities. This AI-powered agent team streamlines user inquiries to sourcing and procurement teams by gathering knowledge, clarifying requests, deflecting common questions, providing product information, and recommending the appropriate purchase plan. For more information, see [Use agentic workflows](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US).
-
-The following new skills are available in Now Assist for SPO:
-
-    -   Negotiation summarization for fulfillers: Summarize negotiations to keep fulfillers informed on their current status, progress, and action items.
-    -   Negotiation event summarization for fulfillers: Summarize negotiation events to keep fulfillers informed on their current status, progress, and action items.
-    -   Purchase order summarization for requesters: Summarize purchase orders to keep requesters informed about their current status, progress, and action items.
-    -   Purchase requisition summarization for requesters: Summarize purchase requisitions to keep requesters informed about their current status, progress, and action items.
-    -   Sourcing request summarization for requesters: Summarize sourcing requests to keep requesters informed about their current status, progress, and action items.
--   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
-
-ServiceNow Otto for SLO includes an agentic workflow to streamline the supplier onboarding process by automating supplier registration. AI agents automate the supplier onboarding process, including data validation, duplicate checking, task generation, and communication with suppliers, streamlining the entire process for faster time-to-activation. For more information, see [\[Placeholder link text to key bundle-stpop.agentic-workflows-na-slo\]](https://www.servicenow.com/docs/access?context=agentic-workflows-na-slo&family=yokohama&ft:locale=en-US).
-
-The following new skills are available in ServiceNow Otto for SLO:
-
-    -   Conversational intake for suppliers: Suppliers can request profile updates, submit cases, and track inquiry statuses through a conversational interface powered by AI.
-    -   Now Assist summarization panel: Case summaries are generated directly within the Now Assist Panel with no need to open individual case records.
-    -   Multilingual support for summarization: Case details are summarized in the user's preferred language, improving accessibility for global teams.
--   **[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=yokohama&ft:locale=en-US)**
-
-With the ServiceNow Otto for APO application, AP fulfillers can leverage generative AI capabilities to chat with live agents, submit a request, and track its status.
-
-The ServiceNow®Now Assist experience brings generative AI powered purchase order line mapping feature designed to enhance matching accuracy and reducing manual intervention.
-
-Generate purchase order summarization using Now Assist skills powered by generative AI.
-
-Use agentic workflows in Accounts Payable Operations to resolve invoice inquiry cases raised by employees and suppliers. These workflows also help track associated invoice records efficiently. With an agentic workflow, you can process a high volume of invoice inquiries that come through email attachments to significantly reduce the workload of human agents.
-
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
-
-Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -145,17 +112,7 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
-
-Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -266,7 +223,10 @@ Yokohama
 
 </td><td>
 
-Install Now Assist for Source-to-Pay Operations by requesting it from ServiceNow Store. 
+-   **Activation information**
+
+Install Now Assist for Source-to-Pay Operations by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

@@ -73,7 +73,7 @@ For information about generating a report using AI, see [Generate a Case Report 
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

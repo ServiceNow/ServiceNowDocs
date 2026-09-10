@@ -33,7 +33,7 @@ MID
 The MID Server to which the logs stream.**Note:**
 
 -   Only one ACC data input can be defined per MID Server. You can select only MID Servers with AgentClientCollector capability that support basic authentication. MID Servers that support mTLS are not listed.
--   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties. However, when 10 data inputs that are not ACC data inputs have been defined for a MID Server, one ACC data input can still be defined for it, making a total of 11 data inputs defined for that MID Server.
+-   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties. However, when 10 non-ACC data inputs are defined for a MID Server, you can still define one ACC data input for it. This addition makes a total of 11 data inputs for that MID Server.
 -   When you submit the form, this field becomes read-only.
 
 This field is required.

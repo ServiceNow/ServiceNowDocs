@@ -153,7 +153,12 @@ Customer Success Advanced \(app-cust-succ-adv\)
 New pro plus plugin for customer success. Used for product adoption roadmap.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
+</table>|Plugin ID|Description|
+|---------|-----------|
+|Technology Account Management Experiences \[sn\_tech\_exp\]|Proactive Service Experience Workflows. Contains Technology Account 360, Executive Portfolio, and the recommendation framework. Install this plugin to enable all three capabilities.|
+|AI Agents for Meetings \[sn\_meeting\_ai\_ag\]|Automates meeting preparation by reading relevant records, proposing agendas, and coordinating logistics for review and confirmation.|
+
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-get-started.md)
 
 **Related topics**  
 

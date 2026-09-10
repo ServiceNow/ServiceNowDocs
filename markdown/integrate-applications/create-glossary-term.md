@@ -6,8 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-g
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Governing the Data Catalog, Data Catalog, Workflow Data Fabric]
+reading_time_minutes: 2
+keywords: [glossary term, business glossary, data catalog]
+breadcrumb: [Managing glossary terms, Data Catalog, Workflow Data Fabric]
 ---
 
 # Create a glossary term
@@ -18,10 +19,6 @@ Create glossary terms to define business concepts and provide context for data a
 
 Role required: Data Steward \(df\_data\_steward\)
 
-## About this task
-
-Business glossary terms define business concepts and can be linked to catalog assets to provide business context. Terms include definitions, synonyms, related concepts, and ownership information. Use glossary terms to bridge the gap between technical data structures and business understanding. \[Omitted image "dc-glossary-list.png"\] Alt text: List of glossary terms
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
@@ -30,31 +27,31 @@ Business glossary terms define business concepts and can be linked to catalog as
 
 3.  Select **Create** &gt; **Glossary term**.
 
-4.  Complete the general details.
+4.  Complete the general details:
 
-    -   Name: The name of the business term. For example, Customer Lifetime Value.
-    -   Alternate name: Alternative names for the same concept.
-    -   Description: A clear explanation of what the term means.
-5.  Complete the governance details.
+    -   **Name**: The name of the business term. For example, Customer Lifetime Value.
+    -   **Alternate name**: Alternative names for the same concept.
+    -   **Description**: A clear explanation of what the term means. Use the rich text editor tools to format the content and add images, links, tables, and other elements.
+5.  Complete the governance details:
 
-    -   Lifecycle status: Current state of the glossary term. Possible values are: Approved, Deprecated, Draft, In review, Rejected.
-    -   Version: Provide a version number or label for the term.
-    -   Status message: Description of why the glossary term is in its status.
-    -   Owner: Person responsible for the term definition.
-    -   Reviewer: Person responsible for reviewing the glossary term.
-6.  Complete the classification details.
+    -   **Lifecycle status**: Current state of the glossary term. Possible values are: **Approved**, **Deprecated**, **Draft**, **In review**, **Rejected**.
+    -   **Version**: Version number or label for the term.
+    -   **Status message**: Description of why the glossary term is in its status. Use the rich text editor tools to format the content and add images, links, tables, and other elements.
+    -   **Owner**: Person responsible for the term definition.
+    -   **Reviewer**: Person responsible for reviewing the glossary term.
+6.  Complete the classification details:
 
-    -   Domain: Terms that represent the logical grouping of related data assets \(like customer or product data\).
-    -   Tags: A non-hierarchical label or keyword that provides context and descriptive metadata to a piece of data, making it easier to organize, locate, and manage.
-7.  Complete the context details.
+    -   **Domain**: Select from the list of available domains. Domains organize data assets into logical groupings based on business areas, departments, or data types. For details about creating domains, see [Create catalog domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-domains-dc.md).
+    -   **Tags**: Select from the list of available tags. Catalog tags are metadata labels for classifying, categorizing, and discovering data assets. For details about creating tags, see [Create catalog tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md).
+7.  Complete the context details:
 
-    -   Related terms: Other glossary terms connected to this concept.
-    -   Related assets: Link the glossary term to a collected data asset \(non-glossary term\) to provide further context to the data asset.
-    -   Parent Term: Relationship with a broader - or more general – term or concept giving important context and disambiguation of the child term
-    -   Child Term: Relationship with a narrower - or more specific – term or concept giving important context and helping to disambiguate child terms
-    -   Reference URL: URLs where the term is defined or more context is accessed.
+    -   **Related terms**: Other glossary terms connected to this concept.
+    -   **Related assets**: Link the glossary term to a collected data asset \(non-glossary term\) to provide further context to the data asset.
+    -   **Parent Term**: Relationship with a broader or more general term or concept that provides context and disambiguation of the child term.
+    -   **Child Term**: Relationship with a narrower or more specific term or concept that provides context and helps disambiguate child terms.
+    -   **Reference URL**: URLs where the term is defined or more context is accessed.
 8.  Select **Save**. \[Omitted image "dc-glossary-create.png"\] Alt text: Create a glossary term
 
 
-**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
+**Parent Topic:**[Managing glossary terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-glossary-terms.md)
 

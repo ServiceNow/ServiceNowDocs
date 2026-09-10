@@ -1,6 +1,6 @@
 ---
 title: Parser configurations
-description: Parser configurations define which HL7 segments and fields ServiceNow extracts from a received message and the output path where each value is written in the message log's parsed data.
+description: Parser configurations define which HL7 segments and fields ServiceNow extracts from a received message. Each value is written to an output path in the message log's parsed data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-parser-configs-about.html
 release: australia
@@ -13,9 +13,9 @@ breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life 
 
 # Parser configurations
 
-Parser configurations define which HL7 segments and fields ServiceNow extracts from a received message and the output path where each value is written in the message log's parsed data.
+Parser configurations define which HL7 segments and fields ServiceNow extracts from a received message. Each value is written to an output path in the message log's parsed data.
 
-The HL7 parser is message-type agnostic — it does not know in advance what fields a given message contains. A parser configuration tells ServiceNow which segments to extract and the output path for each field. When a message is received, ServiceNow looks up the active configuration whose sending application, sending facility, HL7 version, message type, and trigger event match the incoming message header, then uses that configuration to drive parsing. Because each message type gets its own configuration, the same parser engine can handle ADT, ORU, ORM, or any other HL7 message type without modification.
+The HL7 parser is message-type agnostic — it does not know in advance what fields a given message contains. A parser configuration tells ServiceNow which segments to extract and the output path for each field. When a message is received, ServiceNow looks up the active configuration matching the incoming message header's sending application, facility, HL7 version, message type, and trigger event. It then uses that configuration to drive parsing. Because each message type gets its own configuration, the same parser engine can handle ADT, ORU, ORM, or any other HL7 message type without modification.
 
 ## Configuration hierarchy
 
@@ -36,7 +36,7 @@ Parser configurations use a three-level hierarchy:
 
 ## Runtime lookup
 
-The message log has no foreign key to the parser configuration table. Instead, ServiceNow performs a lookup at reception, matching the message's MSH fields \(sending application, sending facility, HL7 version, message type, trigger event\) against the parser configuration table to find the single active configuration for that key. If exactly one active configuration matches, the message is parsed with it; if none or more than one matches, the message is staged with status Failed and an AR acknowledgment.
+The message log has no foreign key to the parser configuration table. Instead, ServiceNow performs a lookup at reception. It matches the message's MSH fields against the parser configuration table to find the single active configuration for that key. The matched fields are: sending application, sending facility, HL7 version, message type, and trigger event. If exactly one active configuration matches, the message is parsed with it. If none or more than one matches, the message is staged with status Failed and an AR acknowledgment.
 
 ## Demo configurations and cloning
 

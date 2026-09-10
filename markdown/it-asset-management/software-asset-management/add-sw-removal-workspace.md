@@ -276,55 +276,14 @@ Used to track the actions that have been performed on this task.
     -   Software model
     You may select any action button on the form to further configure the removal candidate. Action buttons are dependent on the removal candidate's justification and state.
 
-<table id="table_bb5_hq2_kxb"><thead><tr><th>
+    |Action|Description|
+    |------|-----------|
+    |Update|Update the removal candidate.|
+    |Resume Reclaim|Verify the completeness of data for processing.|
+    |Close Complete|Reclaim rights and close the removal candidate.|
+    |Close Skipped|Close the removal candidate without reclaiming rights.|
+    |Delete|Delete removal candidate.|
 
-Action
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Update
-
-</td><td>
-
-Update the removal candidate.
-
-</td></tr><tr><td>
-
-Resume Reclaim
-
-</td><td>
-
-Verify the completeness of data for processing.This button is displayed when the state of the reclamation candidate is **Attention Required**.
-
-</td></tr><tr><td>
-
-Close Complete
-
-</td><td>
-
-Reclaim rights and close the removal candidate.
-
-</td></tr><tr><td>
-
-Close Skipped
-
-</td><td>
-
-Close the removal candidate without reclaiming rights.
-
-</td></tr><tr><td>
-
-Delete
-
-</td><td>
-
-Delete removal candidate.
-
-</td></tr></tbody>
-</table>
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

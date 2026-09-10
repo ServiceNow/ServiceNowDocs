@@ -30,9 +30,7 @@ Community connectors are developed by the open-source community and made availab
 |[MariaDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mariadb-zcc.md)|starting with Yokohama Patch 5|
 |[Microsoft SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sqlserver-zcc.md)|starting with Yokohama Patch 5|
 |[MongoDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mongodb-zcc.md)|starting with Yokohama Patch 5|
-|[MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-zcc.md)|starting with Yokohama Patch 5|
 |[OpenText Analytics Database \(Vertica\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/vertica-zcc.md)|starting with Yokohama Patch 5|
-|[PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-zcc.md)|starting with Yokohama Patch 5|
 |[SingleStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/singlestore-zcc.md)|starting with Yokohama Patch 5|
 |[Prometheus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prometheus-zcc.md)|starting with Australia Patch 1|
 

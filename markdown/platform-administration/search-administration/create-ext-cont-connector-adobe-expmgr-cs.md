@@ -8,7 +8,7 @@ product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Adobe Experience Manager as a Cloud Service external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content from your Ad
 
 ## Before you begin
 
-A source system administrator must have already configured your Adobe Experience Manager as a Cloud Service source system to allow access by the Adobe Experience Manager as a Cloud Service external content connector. For details on configuring these settings in the source system, see [Configure Adobe Experience Manager as a Cloud Service for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md).
+A source system administrator must have already configured your Adobe Experience Manager as a Cloud Service source system to allow access by the Adobe Experience Manager as a Cloud Service external content connector. For the required source system configuration steps, see [Configure Adobe Experience Manager as a Cloud Service for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-adobe-expmgr-cs-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

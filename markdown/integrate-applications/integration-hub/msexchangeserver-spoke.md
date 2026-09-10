@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Server spoke v2.6.0 is the latest version.
+Microsoft Exchange Server spoke v2.6.0 is the latest version. For version history of the spoke, see [Microsoft Exchange Server spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-server.html).
 
 ## Spoke dependencies
 

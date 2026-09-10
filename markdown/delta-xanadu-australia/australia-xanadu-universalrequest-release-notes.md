@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-universalrequest-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -294,7 +294,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 Universal Request is available with activation of the Universal Request plugin \(com.snc.universal\_request\). For details, see [Activate Universal Request](https://www.servicenow.com/docs/access?context=activate-ur-plugin&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

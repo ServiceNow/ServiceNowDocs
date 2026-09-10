@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-
 release: australia
 topic_type: concept
 last_updated: "2026-04-08"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigate sessions, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Evaluated sessions
@@ -26,7 +26,7 @@ View all evaluated AI sessions across your portfolio, compare quality and safety
 
 ## Required roles
 
-The AI Asset Owner or AI Steward role is required to view evaluated sessions.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to view evaluated sessions.
 
 ## Accessing evaluated sessions
 
@@ -54,6 +54,10 @@ Find the sessions that need attention by reviewing the evaluated sessions table.
 
     Number of traces in the session. A session with many traces represents a longer, multi-turn interaction. Low scores on sessions with few traces can indicate a fundamental issue, while low scores on sessions with many traces may point to degradation over the course of the conversation.
 
+-   **Spans**
+
+    Number of spans across all traces in the session. A high span count relative to the number of traces can indicate the AI system is taking many steps, such as tool calls, to complete its task, which can also help explain elevated latency or token usage.
+
 -   **AI system**
 
     The AI system associated with the session. Select the name to view aggregated quality and safety scores across all evaluated sessions for that system.
@@ -77,6 +81,10 @@ Find the sessions that need attention by reviewing the evaluated sessions table.
 -   **Total runtime tokens**
 
     Combined input and output tokens consumed by the AI system during this session. This reflects the cost of running the interaction, not the cost of evaluating it. Unusually high token counts can indicate inefficient agent behavior such as excessive retries or overly verbose responses.
+
+-   **Latency \(ms\)**
+
+    Combined language model response time, in milliseconds, across all traces in the session. This measures time spent in language model calls, not total session duration. Unusually high latency can point to a slow-responding model or a high number of tool-calling steps within the session.
 
 
 **Parent Topic:**[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)

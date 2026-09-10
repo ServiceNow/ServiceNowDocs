@@ -1,6 +1,6 @@
 ---
-title: Route SQL API calls to Read Replica
-description: You can route SQL API calls to Read Replica to optimize the performance of your ServiceNow instance.
+title: Route Live Connect calls to Read Replica
+description: You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/routing-sql-api-calls-to-read-replica.html
 release: australia
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-15"
 reading_time_minutes: 1
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Route SQL API calls to Read Replica
+# Route Live Connect calls to Read Replica
 
-You can route SQL API calls to Read Replica to optimize the performance of your ServiceNow instance.
+You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
 
 ## Before you begin
 
@@ -45,5 +45,5 @@ Query routing takes the load off the primary database for SELECT queries that ta
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
 

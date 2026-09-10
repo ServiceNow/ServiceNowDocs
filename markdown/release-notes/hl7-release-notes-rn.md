@@ -24,7 +24,7 @@ The ServiceNow® HL7 v2.x Integration application works alongside the HL7 v2.x I
 
 ## HL7 v2.x Integration features
 
--   **[HL7 v2.x Inbound REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/hl7-inbound-api.md)**
+-   **HL7 v2.x Inbound REST API**
 
     The HL7 v2.x Inbound REST API receives inbound HL7 v2.x ADT messages from EHR systems over HTTP and returns standard HL7 v2.x acknowledgment responses. It implements the HAPI HL7-over-HTTP convention, accepting raw pipe-delimited ER7 message bodies and processing them against configured parser profiles.
 

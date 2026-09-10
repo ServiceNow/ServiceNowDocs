@@ -1,22 +1,22 @@
 ---
 title: Migrating to Configurable Workspace
-description: If you are currently using CSM Agent Workspace, you can implement CSM Configurable Workspace and continue using some of your existing CSM Agent Workspace configurations.
+description: If you are currently using CSM Agent Workspace, you can implement CRM Workspace and continue using some of your existing CSM Agent Workspace configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migrate-to-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Migrating to Configurable Workspace
 
-If you are currently using CSM Agent Workspace, you can implement CSM Configurable Workspace and continue using some of your existing CSM Agent Workspace configurations.
+If you are currently using CSM Agent Workspace, you can implement CRM Workspace and continue using some of your existing CSM Agent Workspace configurations.
 
-Some configurations can be used by both CSM workspaces while others need to be configured specifically for CSM Configurable Workspace. Of these configurations that are specific to CSM Configurable Workspace, some are accomplished in the platform interface using lists and forms, while others are accomplished using the UI Builder.
+Some configurations can be used by both CSM workspaces while others need to be configured specifically for CRM Workspace. Of these configurations that are specific to CRM Workspace, some are accomplished in the platform interface using lists and forms, while others are accomplished using the UI Builder.
 
-Use the topics in the following table to explore CSM Configurable Workspace features. Then follow the steps to implement CSM Configurable Workspace and migrate your existing CSM Agent Workspace configurations.
+Use the topics in the following table to explore CRM Workspace features. Then follow the steps to implement CRM Workspace and migrate your existing CSM Agent Workspace configurations.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 

@@ -47,7 +47,7 @@ Configure Article Optimization scans for articles in the Knowledge Center. Two t
             **Note:** the scan must still be associated with a job in order to run but the job schedule will not control when this scan runs.
 
         -   **Always:**If you want the scan to run based on the schedule set up in the associated job.
-    2.  Set the **Execution type** to **Now Assist skill**.
+    2.  Set the **Execution type** to **AI skill**.
 
     3.  Select the **Look-up** icon and open the **List filter**.
 
@@ -61,7 +61,7 @@ Configure Article Optimization scans for articles in the Knowledge Center. Two t
 
     **Note:**
 
-    -   Using a copy of an existing scan can come in handy as this specific format has to be used for sending data to the Now LLM Service and processing the results.
+    -   Using a copy of an existing scan can come in handy as this specific format has to be used for sending data to the LLM service and processing the results.
     -   The last part of the **Process Outputs** script is used to define the finding record and what appears on the **Article Optimization** cards in the editor UI.
 5.  Select **Save**.
 

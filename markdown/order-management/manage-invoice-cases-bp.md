@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
+breadcrumb: [Invoice case self-service, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Communicate and share supporting documents for an invoice case from Business Portal
@@ -42,6 +42,8 @@ You can use these tabs proactively without waiting to be contacted, for example,
 
     You can drag files or use the Add attachments icon \[Omitted image "attachments-icon.png"\] Alt text: to browse and upload files from your system.
 
+
+**Parent Topic:**[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-self-service.md)
 
 **Related topics**  
 

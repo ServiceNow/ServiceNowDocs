@@ -7,10 +7,10 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, flow, reference]
-breadcrumb: [Troubleshooting, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use ERP Data action details for flows
@@ -30,19 +30,19 @@ Available as part of Zero Copy Connector for ERP.
 
 ## Inputs
 
-Provide a value for each input that your action needs. To add dynamic values, you can also select data pills using the pill picker.
+Provide a value for each input that your action requires. To add dynamic values, you can also select data pills using the pill picker.
 
 -   **ModelName**
 
     Data type: **Dynamic Choice**
 
-    Name of the ERP model that contains the read or update operation. The model must already be created, and have the read or update operation defined in Zero Copy Connector for ERP. For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
+    Name of the ERP model that contains the read or update operation. The model must already be created and have the read or update operation defined in Zero Copy Connector for ERP. For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
 
 -   **ModelOperation**
 
     Data type: **Dynamic Choice**
 
-    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in Zero Copy Connector for ERP. For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
+    Whether to **Read** or **Update** the ERP system. The read or update entity must already be defined in Zero Copy Connector for ERP. For more information, see [Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 -   **Required Fields**
 
@@ -54,7 +54,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Dynamic Template**
 
-    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you managed the model. For more information, see [Manage input parameters for a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
+    Fields that are optional for the operation. Fields must already be defined as optional input parameters when you manage the model. For more information, see [Manage input parameters for a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
 
 -   **System**
 

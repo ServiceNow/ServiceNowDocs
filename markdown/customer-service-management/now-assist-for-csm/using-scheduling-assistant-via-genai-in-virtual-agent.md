@@ -23,7 +23,7 @@ Virtual Agent conversations supported by AI uses large language model \(LLM\) to
 
 To book a new appointment:
 
-1.  Initiate the Conversation: The logged-in user contacts your business via your portal. User starts a chat with the Virtual Agent through the ServiceNow Otto panel. The user enters the appointment booking request into the chat, and the Virtual Agent uses large language model \(LLM\)to understand the request.
+1.  Initiate the Conversation: The logged-in user contacts your business via your portal. User starts a chat with the Virtual Agent through the ServiceNow Otto panel. The user enters the appointment booking request into the chat, and the Virtual Agent uses large language model \(LLM\) to understand the request.
 2.  Provide Details: The Virtual Agent asks the user to share the necessary details such as the date, time, location and purpose of the appointment. The user chooses the purpose, a location and a date and time slot for the appointment.
 
     **Note:** If the time provided by the user has a conflict with the location's calendar, the Virtual Assistant opens the calendar for the requester to choose a new time.
@@ -34,7 +34,7 @@ To book a new appointment:
 
 To reschedule an existing appointment:
 
-1.  Start the Chat: The logged-in user contacts your business via your portal. The user enters the appointment booking request into the chat, and the Virtual Agent uses large language model \(LLM\)to understand the request.
+1.  Start the Chat: The logged-in user contacts your business via your portal. The user enters the appointment booking request into the chat, and the Virtual Agent uses large language model \(LLM\) to understand the request.
 2.  Specify the Appointment: The user chooses an appointment to reschedule.
 3.  New Details: The Virtual Agent shares the new dates and times for the rescheduled appointment. User chooses a date and time for the rescheduled appointment.
 4.  Confirmation: The Virtual Agent updates the calendar and confirms the new appointment details.

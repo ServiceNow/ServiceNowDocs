@@ -1,6 +1,6 @@
 ---
 title: Map a role level to the employee profile
-description: Mapping a role level to the employee is a critical step that links the job architecture data with the employee data in your organization, which enables you to track the skills of the employee.
+description: Mapping a role level to the employee links job architecture data with employee data in your organization, enabling you to track employee skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-attach-role-level-emp.html
 release: australia
@@ -14,14 +14,14 @@ breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experience
 
 # Map a role level to the employee profile
 
-Mapping a role level to the employee is a critical step that links the job architecture data with the employee data in your organization, which enables you to track the skills of the employee.
+Mapping a role level to the employee links job architecture data with employee data in your organization, enabling you to track employee skills.
 
 ## About this task
 
 The standard method to assign a role level is to create a Proactive Prompts configuration that is triggered when the job architecture tables are loaded and checks whether employees have one or more relevant role levels based on employee profiles and job profiles.
 
 -   If an employee has more than one role level, a prompt with a list of relevant roles is sent to the employee. The employee selects suitable role levels from the list that are then added to the employee's profile.
--   If an employee has a single relevant role, a scheduled job triggered in set intervals that checks for employees who do not have a primary role assigned automatically attaches the primary role to the employee profile.
+-   If an employee has a single relevant role, a scheduled job runs at set intervals. The job checks for employees who don't have a primary role assigned and automatically attaches the primary role to the employee profile.
 
 This procedure describes how to run this scheduled job on demand.
 

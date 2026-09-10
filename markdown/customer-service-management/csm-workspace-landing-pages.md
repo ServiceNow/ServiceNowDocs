@@ -1,5 +1,5 @@
 ---
-title: CSM Configurable Workspace landing pages
+title: CRM Workspace landing pages
 description: A landing page is an initial view of your workspace. Landing pages present content tailored to a user’s assigned role and provide the information they must get started with their work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-landing-pages.html
@@ -7,20 +7,20 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace landing pages
+# CRM Workspace landing pages
 
 A landing page is an initial view of your workspace. Landing pages present content tailored to a user’s assigned role and provide the information they must get started with their work.
 
-Landing pages can include filtered lists, KPIs, and other features that enables you to access information from one location. CSM Configurable Workspace landing pages provide customer service agents and managers with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
+Landing pages can include filtered lists, KPIs, and other features that enables you to access information from one location. CRM Workspace landing pages provide customer service agents and managers with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
 Agents use landing pages as a starting point to get into their work, where they can quickly scan and prioritize cases and case tasks, access records, and track their performance.
 
-## CSM Configurable Workspace landing pages
+## CRM Workspace landing pages
 
-Several landing pages are available for CSM Configurable Workspace.
+Several landing pages are available for CRM Workspace.
 
 -   **[CSM Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-original.md) and [CSM Landing Page - Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-premium.md)**
 
@@ -33,9 +33,9 @@ Several landing pages are available for CSM Configurable Workspace.
     This landing page uses dashboards to display information. You can duplicate the provided dashboards and modify them as desired or create dashboards and then share these dashboards with other users.
 
 
-## CSM Configurable Workspace landing page plugins
+## CRM Workspace landing page plugins
 
-The following table describes the plugin requirements for the CSM Configurable Workspace landing pages.
+The following table describes the plugin requirements for the CRM Workspace landing pages.
 
 <table id="table_czt_w5n_4xb"><thead><tr><th>
 
@@ -51,7 +51,7 @@ CSM Landing Page
 
 </td><td>
 
-Available with the CSM Configurable Workspace plugin \(sn\_csm\_wrkspc\).
+Available with the CRM Workspace plugin \(sn\_csm\_wrkspc\).
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ CSM Landing Page - Premium
 
 </td><td>
 
-Available with the following plugins:-   CSM Configurable Workspace \(sn\_csm\_wrkspc\)
+Available with the following plugins:-   CRM Workspace \(sn\_csm\_wrkspc\)
 -   Performance Analytics - Content Pack - Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)
 
 </td></tr><tr><td>
@@ -68,7 +68,7 @@ CSM Dashboards
 
 </td><td>
 
-Available with the CSM Configurable Workspace plugin \(sn\_csm\_wrkspc\).
+Available with the CRM Workspace plugin \(sn\_csm\_wrkspc\).
 
 </td></tr></tbody>
 </table>

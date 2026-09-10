@@ -29,7 +29,7 @@ Install plugins for ServiceNow Otto to enable generative AI on your instance.
 Activate the ServiceNow Otto panel standard chat to enable your agents to use AI skills, such as task summarization or navigation, in a side panel on the user interface.
 -   **[Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md)**  
 Activate the ServiceNow Otto panel enhanced chat to enable your agents to use ServiceNow Otto skills, such as task summarization or navigation, in a side panel on the user interface.
--   **[Activate Now Assist panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md)**  
+-   **[Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md)**  
 You must activate ServiceNow Otto panel assistants before using them.
 -   **[Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md)**  
 Give users the option to use their voice when interacting with the ServiceNow Otto panel to make the panel more accessible. Voice input enables you to use the panel without needing to use a keyboard.

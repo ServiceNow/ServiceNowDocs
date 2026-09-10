@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-advancedworkassignmentawa-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -293,9 +293,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=zurich&ft:locale=en-US).
 
- To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
+To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
+
 
 </td></tr><tr><td>
 
@@ -303,7 +306,10 @@ Australia
 
 </td><td>
 
+-   **Activation information**
+
 AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -385,7 +391,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in Browser support.
+
 
 </td></tr><tr><td>
 
@@ -393,7 +402,10 @@ Australia
 
 </td><td>
 
+-   **Browser requirements**
+
 Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=australia&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information

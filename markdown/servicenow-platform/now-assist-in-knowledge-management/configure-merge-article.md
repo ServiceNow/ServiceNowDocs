@@ -1,6 +1,6 @@
 ---
-title: Configure Now Assist skills for merging articles
-description: To merge the duplicate knowledge articles, activate Now Assist skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
+title: Configure AI skills for merging articles
+description: To merge the duplicate knowledge articles, activate AI skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Now Assist skills for merging articles
+# Configure AI skills for merging articles
 
-To merge the duplicate knowledge articles, activate Now Assist skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
+To merge the duplicate knowledge articles, activate AI skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Platform** &gt; **knowledge**.
+1.  Navigate to **All** &gt; **AI Admin** &gt; **AI Skills** &gt; **Platform** &gt; **knowledge**.
 
 2.  Select the **Merge duplicate articles** to activate or deactivate the skill.
 

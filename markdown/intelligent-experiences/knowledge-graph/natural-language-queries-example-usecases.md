@@ -55,18 +55,18 @@ Here are some example queries and description of how they works in Knowledge Gra
 |Example|Description|
 |-------|-----------|
 |Find details of request items linked to REQ0010144.|The request item refers to sc\_req\_item table and REQ sys-id refers to to sc\_request table.|
-|Show details for INC0000044.|INC as sys-id refers to Incident table.|
+|Show details for INC0000044.|INC as sys-id refers to incident table.|
 |Get status for CHG000567.|CHG as sys-id refers to change request table and the status refers to the status column for that record.|
 |Find department for person who requested RITM0010144.|The RITM sys-id refers to sc\_request\_item and department refers to department column from cmn\_department which is linked to the person who requested RITM0010144.|
 |Find details of problem linked to INC0000047.|This query requests the details of problem record linked to incident INC0000047.|
-|Show incidents assigned to Fred Luddy.|Finds Incident table with user in assigned to column.|
+|Show incidents assigned to Fred Luddy.|Finds incident table with user in assigned to column.|
 |List tasks created by Beth Anglin.|Task refers to task table and User name refers to created by column.|
 |Find approvals pending for Joe’s reportees.|Find approvals from the sysapproval\_approver table for approval that are pending for the user's reportees.|
-|Display incidents created more than 3 days ago and are not resolved yet.|Uses Incident table, created date, and state column to fetch the details.|
+|Display incidents created more than 3 days ago and aren't resolved yet.|Uses incident table, created date, and state column to fetch the details.|
 |Find certificates expiring in the next 30 days.|Certificates refer to table name, the next 30 days reference can be converted to date related condition and can be understood from the date reference in query.|
 |Find case task created in last 30 minutes.|Case task refers to table, created refers to created column and time related condition can be understood from time reference in query.|
 |What are the Problems open with my group?|Problem refers to problem table, group refers to column, ‘my’ reference will be resolved to the person asking the query.|
-|Show my open incidents.|Uses Incident table and 'my' reference is the person asking the query.|
+|Show my open incidents.|Uses incident table and 'my' reference is the person asking the query.|
 |What is the status of my request?|Uses request table and 'my' reference is the person asking the query.|
 |What are their pending approvals?|Uses `sysapproval_approver` table and 'their' reference is the person who was referred to in previous turn of conversation.|
 |Give me the watchlist for incident INC0009009.|INC0009009 is the sys-id referring to the incident table, and watch\_list refers to the glidelist field that contains related sys\_user records associated with that incident.|
@@ -74,7 +74,7 @@ Here are some example queries and description of how they works in Knowledge Gra
 
 ## Aggregate or Sorting Queries
 
-These queries let users perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
+These queries let users perform simple statistics and sorting directly in ServiceNow® Otto for Virtual Agent or ServiceNow Otto® panel.
 
 Here are some example queries and description of how they works in Knowledge Graph.
 
@@ -92,7 +92,7 @@ Knowledge Graph does not support the following types of queries:
 
 ## Queries Missing References or with Misspellings
 
-Queries that lack references to table, columns, choice values, or conditions, or contain misspellings, are not supported.
+Queries that lack references to table, columns, choice values, or conditions, or contain misspellings, aren't supported.
 
 Here are a few examples of unsupported queries that will work if rephrased, as suggested below:
 
@@ -130,5 +130,5 @@ Here are a few examples of unsupported queries:
 
 ## CMDB query support
 
-Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.md)
+Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.md).
 

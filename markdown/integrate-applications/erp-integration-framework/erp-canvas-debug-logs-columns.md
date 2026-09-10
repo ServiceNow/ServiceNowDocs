@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, log]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -27,7 +27,5 @@ For process details, see [Debug Zero Copy Connector for ERP models](https://raw.
 |Probe Payload|Data that the probe collects and returns.|
 |Probe Response|The data received from the probe's target.|
 |Status|Value that indicates if the call was successful.|
-|Transaction Id|Unique number that identifies each request and response exchange.|
-
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+|Transaction ID|Unique number that identifies each request and response exchange.|
 

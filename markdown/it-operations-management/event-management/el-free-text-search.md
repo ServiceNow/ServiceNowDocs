@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Assign and manage alerts, Express List in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assign and manage alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Find alert records in Express List using text search
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 ## About this task
 
-Event Management searches through the alerts that you're currently seeing in the Express List based on the filters and time range you have set. It searches in the following predefined fields even if they aren’t visible: **Metric name**, **Node**, **Alert number**, **Alert Tags**, and **Description**. It treats the text that you enter as a single string rather than individual words.
+Event Management searches through the alerts that you're currently seeing in the Express List based on the filters and time range you have set. It searches in the following predefined fields even if they aren’t visible: **Metric name**, **Node**, **Alert number**, **Alert Tags**, and **Description**. It treats the text that you enter as a single string rather than individual words. The selected alert list mode determines which alert types are displayed and included in the search. **Essential** mode displays primary and single alerts only. **Extended** mode displays all alert types, including secondary alerts.
 
 ## Procedure
 
@@ -30,14 +30,16 @@ Event Management searches through the alerts that you're currently seeing in the
 
 2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
-3.  In the Search filtered alerts field, enter the search text.
+3.  Select **Essential** or **Extended** from the **Switch search scope** menu.
+
+    **Essential** includes primary and single alerts. **Extended** includes all alert types, including secondary alerts.
+
+4.  In the **Search filtered alerts** field, enter the search text.
 
     -   Ensure that the text string meets or exceeds the minimum character requirement specified in the notification message.
     -   The maximum character limit is 50.
     -   The search isn’t case-sensitive.
     **Note:** The minimum character requirement is determined by the **evt\_mgmt.express\_list.min\_search\_chars** system property setting.
-
-4.  Expand the search to all alerts, including secondary alerts that are a part of alert groups, by selecting **Switch search scope** and then selecting **Extended**.
 
 5.  Perform the search by selecting the check icon \[Omitted image "check-icon.png"\] or pressing **Enter**.
 

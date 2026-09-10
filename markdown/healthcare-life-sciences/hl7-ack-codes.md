@@ -1,6 +1,6 @@
 ---
 title: HL7 ACK codes
-description: ServiceNow returns one of three HL7 acknowledgment codes in the MSA segment of every ACK response, indicating whether the message was accepted, rejected at the application level, or resulted in an error.
+description: ServiceNow returns one of three HL7 acknowledgment codes in the MSA segment of every ACK response. The code indicates whether the message was accepted, rejected at the application level, or resulted in an error.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hl7-ack-codes.html
 release: australia
@@ -13,13 +13,13 @@ breadcrumb: [Components installed with HL7 v2.x Integration, HL7 v2.x Integratio
 
 # HL7 ACK codes
 
-ServiceNow returns one of three HL7 acknowledgment codes in the MSA segment of every ACK response, indicating whether the message was accepted, rejected at the application level, or resulted in an error.
+ServiceNow returns one of three HL7 acknowledgment codes in the MSA segment of every ACK response. The code indicates whether the message was accepted, rejected at the application level, or resulted in an error.
 
 |Code|Meaning|When it occurs and what to do|
 |----|-------|-----------------------------|
 |`AA`|Application Accept|ServiceNow received the message, validated its MSH header, matched a parser configuration, and parsed and staged it. The message log record is created with status Pending for downstream processing. No action required.|
 |`AE`|Application Error|ServiceNow could not process the message, either because its MSH header failed structural validation or because a field could not be parsed against the matched configuration. The message log record is created with status Failed. Review the **Error message** field for detail, then reprocess the message after the underlying issue is resolved.|
-|`AR`|Application Rejection|ServiceNow received a structurally valid message but could not match it to exactly one active parser configuration — either no active configuration matches the message's sending application, sending facility, HL7 version, message type, and trigger event, or more than one active configuration matches. The message log record is created with status Failed. Review the **Error message** field for the rejection reason, then add or correct the parser configuration.|
+|`AR`|Application Rejection|ServiceNow received a structurally valid message but could not match it to exactly one active parser configuration. Either no active configuration matches the message's sending application, sending facility, HL7 version, message type, and trigger event, or more than one active configuration matches. The message log record is created with status Failed. Review the **Error message** field for the rejection reason, then add or correct the parser configuration.|
 
 ## ACK delivery and HTTP status codes
 

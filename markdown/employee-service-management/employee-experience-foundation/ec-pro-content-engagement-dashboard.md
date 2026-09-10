@@ -7,8 +7,8 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-01"
+reading_time_minutes: 3
 breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ Content analytics displays data visualizations of engagement metrics for content
 
 ## Dashboard overview
 
-The Content engagement dashboard displays metrics for user engagement, such as content views, reaction icon clicks, comments, and replies to comments. For more information, see [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
+The Content engagement dashboard displays metrics for user engagement, such as content views, reaction icon selects, comments, and replies to comments. For more information, see [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
 |Visualization|Description|
 |-------------|-----------|
@@ -26,6 +26,13 @@ The Content engagement dashboard displays metrics for user engagement, such as c
 |Unique views|Number of unique views by day|
 |Reported content|Lists content items with reported comments.|
 |Reported comments|Lists reported comments.|
+
+|Role|Access|
+|----|------|
+|sn\_ce.admin|Required to view the Content engagement dashboard. Grants dashboard read access and displays the **Analytics Dashboard** navigation menu item.|
+|sn\_ce.analytics\_reader|Grants read access to the underlying engagement tables \(views, reactions, comments, and flags\).|
+
+**Note:** sn\_ce.analytics\_reader is a separate, lower-privilege role. It grants access to the underlying engagement data but does not grant access to the dashboard UI. Dashboard access requires sn\_ce.admin.
 
 **Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
