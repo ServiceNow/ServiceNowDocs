@@ -1,17 +1,34 @@
 ---
 title: Documentation site release notes
-description: This product documentation site is continuously updated for not only content but also requested functionality. Please review the changes introduced to this site to make the most of your experience.Improvements in accessibility, mobile responsiveness, and AI discoverability of the ServiceNow product documentation site, plus the release of the Australia family of product documentation.We've rebuilt the doc site experience to improve how we deliver content and help you find what you need more easily.
+description: This product documentation site is continuously updated for not only content but also requested functionality. Please review the changes introduced to this site to make the most of your experience.Our search functionality has been upgraded to use semantic search in addition to keyword search. With semantic search, results are returned based on the meaning and intent behind a query rather than only exact keyword matches.Improvements in accessibility, mobile responsiveness, and AI discoverability of the ServiceNow product documentation site, plus the release of the Australia family of product documentation.We've rebuilt the doc site experience to improve how we deliver content and help you find what you need more easily.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/using-this-site/explore-doc-site.html
 release: nofamily
 topic_type: reference
 last_updated: "2026-04-13"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Documentation site release notes
 
 This product documentation site is continuously updated for not only content but also requested functionality. Please review the changes introduced to this site to make the most of your experience.
+
+## Q3 2026 changes
+
+Our search functionality has been upgraded to use semantic search in addition to keyword search. With semantic search, results are returned based on the meaning and intent behind a query rather than only exact keyword matches.
+
+### Notable changes
+
+Semantic search is now available! You can search using natural language questions and get relevant results even when your wording doesn't match the terms used in the content. This search enhancement is only available for our English results; a future release will include support of semantically searching localized content.
+
+### Future changes
+
+-   Semantic search for localized content
+-   Chatbot functionality
+-   Agentic features via Chatbot
+-   Broader AI discoverability
+-   More stable URLs
+-   Single and multiple topic PDF generation on-the-fly
 
 ## Q2 2026 changes
 

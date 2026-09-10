@@ -15,7 +15,7 @@ breadcrumb: [Product accessibility]
 
 Discover accessibility features and configuration options in the ServiceNow AI Platform and products. Explore links to additional accessibility information throughout ServiceNow product documentation.
 
-**Note:** To review accessibility highlights for the Australia release, see [Accessibility and Conformance](https://www.servicenow.com/docs/r/release-notes/r_Accessibility508Compliance.html). For a summary of all accessibility improvements for Australia, see [Release Notes for Accessibility](https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html).
+**Note:** To review accessibility highlights for the Brazil release, see [Accessibility and Conformance](https://www.servicenow.com/docs/r/release-notes/r_Accessibility508Compliance.html). For a summary of all accessibility improvements for Brazil, see [Release Notes for Accessibility](https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html).
 
 ## ServiceNow AI Platform user interfaces
 

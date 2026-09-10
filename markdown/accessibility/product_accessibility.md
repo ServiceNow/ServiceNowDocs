@@ -16,20 +16,14 @@ Explore product accessibility on the ServiceNow AI Platform. Watch demo videos a
 
 ## Demos of accessibility features
 
-Playlist with nine demo videos of ServiceNow AI Platform Accessibility features.
-
- 
+\[Omitted video\] Description: Playlist with five demo videos of ServiceNow AI Platform Accessibility features.
 
 For more information on the accessibility features in the demo videos, see:
 
+-   [Use Screen Summarization](https://www.servicenow.com/docs/r/platform-user-interface/configure-user-experiences/use-screen-summarization.html)
 -   [Now Assist Panel](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-overview.html): Voice input for Now Assist
--   [Text Adjust Neurodiversity browser extension](https://store.servicenow.com/sn_appstore_store.do#!/store/application/a03c912a1bab4e506cb36201b24bcbd5)
--   [Next Experience Keyboard Shortcuts](https://www.servicenow.com/docs/r/platform-user-interface/next-experience-keyboard-shortcuts.html)
--   [Customize the Next Experience Keyboard Shortcuts](https://www.servicenow.com/docs/r/platform-user-interface/customize-keyboard-shortcuts.html)
--   [Reflow for configurable workspace](https://www.servicenow.com/docs/r/platform-user-interface/auto-reflow.html)
--   [Working with the dark theme](https://www.servicenow.com/docs/r/platform-user-interface/tb-working-in-dark-theme.html)
 -   [Adjust components to meet accessibility standards \(Theme Builder\)](https://www.servicenow.com/docs/r/platform-user-interface/tb-adjust-component-wcag.html)
--   [Configure Next Experience accessibility user preferences](https://www.servicenow.com/docs/r/platform-user-interface/next-experience-accessibility-preferences.html)
+-   [Working with the dark theme](https://www.servicenow.com/docs/r/platform-user-interface/tb-working-in-dark-theme.html)
 -   Forced Colors: settings are available at the operating system \(OS\) level of your Mac OS or Windows device.
 
 ## Exploring accessibility
@@ -44,7 +38,7 @@ For detailed information on the product accessibility commitment from ServiceNow
 
 Accessibility release notes are available in two locations:
 
--   The [Accessibility information for all Australia features and products](https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html) page provides a comprehensive listing of accessibility features, benefits, and improvements organized by product, making it easy to find changes relevant to the specific ServiceNow products you use.
+-   The [Accessibility information for all Brazil features and products](https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html) page provides a comprehensive listing of accessibility features, benefits, and improvements organized by product, making it easy to find changes relevant to the specific ServiceNow products you use.
 -   The [Accessibility and conformance](https://www.servicenow.com/docs/r/release-notes/r_Accessibility508Compliance.html) page offers a curated release highlights summary, featuring the most important accessibility features and improvements from each release.
 
 
@@ -142,7 +136,7 @@ Accessibility conformance reports \(ACRs\) are published for currently supported
 -   **[Accessibility by persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/nofamily/markdown/accessibility/r-accessibility-personas.md)**  
 Specific accessibility features and user preferences can help users with varying access needs. Learn more about accessibility personas and the ServiceNow products and features that can support them.
 -   **[Text Adjust neurodiversity browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/nofamily/markdown/accessibility/text-adjust-extension.md)**  
-Discover the Text Adjust neurodiversity browser extension and its benefits. The extension allows users to change the visual appearance of text on web pages to make them easier to read.
+The Text Adjust neurodiversity browser extension helps users with dyslexia, ADHD, autism, and other cognitive disabilities adjust font and spacing on web pages for improved readability.
 -   **[Product documentation for accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/nofamily/markdown/accessibility/available-accessibility-product-documentation.md)**  
 Discover accessibility features and configuration options in the ServiceNow AI Platform and products. Explore links to additional accessibility information throughout ServiceNow product documentation.
 

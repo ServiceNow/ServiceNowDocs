@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/accessibility/available-accessi
 release: nofamily
 topic_type: concept
 last_updated: "2026-05-08"
-reading_time_minutes: 16
+reading_time_minutes: 17
 keywords: [VPAT, VPATs, accessibility 508 conformance, section 508, us conformance code, voluntary product accessibility template, accessibility-508-conformance, conformance, european union accessibility, EN 301 549, ACR, accessibility conformance report, WCAG, WCAG 2.0, WCAG 2.1, Web content accessibility guidelines]
 breadcrumb: [Product accessibility]
 ---
@@ -37,7 +37,71 @@ Employee Service Management
 
 </td><td>
 
-[Employee Slate powered by Nextwave \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_employee_slate_powered_by_nextwave.pdf)
+[Alumni Service Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_alumni_service_center.pdf)
+
+ [Employee Slate powered by Moveworks \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_employee_slate_powered_by_moveworks.pdf)
+
+ [Employee Slate powered by Nextwave \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_employee_slate_powered_by_nextwave.pdf)
+
+</td></tr><tr><td>
+
+IT Asset Management
+
+</td><td>
+
+[ITAM EAM Provider Return Merchandise Authorization Workflow \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itam_eam_provider_rma_workflow.pdf)
+
+</td></tr><tr><td>
+
+IT Service Management
+
+</td><td>
+
+[Change Advisory Board \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_itsm_cab_workbench.pdf)
+
+</td></tr><tr><td>
+
+Public Sector Digital Services
+
+</td><td>
+
+[GOV.UK Developer Toolkit \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_gov_uk_dev_toolkit.pdf)
+
+</td></tr><tr><td>
+
+Security Operations
+
+</td><td>
+
+[Security Posture Control \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_secops_security_posture_control.pdf)
+
+</td></tr><tr><td>
+
+ServiceNow AI Platform
+
+</td><td>
+
+[Accessibility Preferences Guided Tour \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_pss_accessibility_preferences_guided_tour.pdf)
+
+ [App Engine Management Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_app_engine_management_center_v2.pdf)
+
+ [App Engine Creator Studio \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_app_engine_creator_studio.pdf)
+
+ [Condition Builder in Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_condition_builder_in_workspace.pdf)
+
+ [Data Management Console \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_data_management_console.pdf)
+
+ [List Selector Component \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_list_selector_component.pdf)
+
+ [Localization Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_localization_workspace.pdf)
+
+ [Platform Core Subscription Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_platform_core_subscription_management_v2.pdf)
+
+ [Platform Data Knowledge Graph \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_platform_data_knowledge_graph.pdf)
+
+ [Security Center \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_security_center.pdf)
+
+ [Upgrade Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/australia_acr_upgrade_management_v2.pdf)
 
 </td></tr></tbody>
 </table>## Zurich ACRs
@@ -316,7 +380,11 @@ Mobile Platform
 
  [Knowledge Management for Now Mobile for Android \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_knowledge_management_now_mobile.pdf)
 
+ [Knowledge Management for Now Mobile for iOS \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_knowledge_management_now_mobile_for_ios.pdf)
+
  [Knowledge Management in Now Agent Mobile for Android \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_knowledge_management_now_agent_android.pdf)
+
+ [Knowledge Management in Now Agent Mobile for iOS \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_knowledge_management_for_now_agent_for_ios.pdf)
 
  [Now Mobile for iOS \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_now_mobile_for_ios.pdf)
 
@@ -330,7 +398,9 @@ Now Assist
 
 </td><td>
 
-[Now Assist Panel \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_now_assist_panel_v2.pdf)
+[Now Assist Nextwave Experience \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_now_assist_nextwave_experience.pdf)
+
+ [Now Assist Panel \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_now_assist_panel_v2.pdf)
 
  [Voice Input for Now Assist \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_voice_input_for_now_assist.pdf)
 
@@ -382,6 +452,8 @@ Security Operations
 
  [Security Incident Response Workspace \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_secops_security_incident_response_workspace.pdf)
 
+ [Security Incident Response Mobile for Android \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_secops_security_incident_response_mobile_for_android.pdf)
+
  [Security Incident Response Mobile for iOS \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_secops_security_incident_response_mobile_for_ios.pdf)
 
 </td></tr><tr><td>
@@ -395,6 +467,8 @@ ServiceNow AI Platform
  [Clone admin Console \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_clone_admin_console.pdf)
 
  [Core UI Components \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_coreui16_components.pdf)
+
+ [Data Discovery \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_data_discovery.pdf)
 
  [Guided Tour Designer \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/zurich_acr_guided_tours_designer.pdf)
 
@@ -1181,7 +1255,7 @@ Workplace Space Management
 [Space Optimization for WSM\(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/xanadu_acr_wsm_space_optimization.pdf)
 
 </td></tr></tbody>
-</table>## Washington DC ACRs
+</table>## Washington ACRs
 
 <table id="table_nyj_skq_21c"><thead><tr><th>
 
@@ -1416,7 +1490,7 @@ Workplace Service Delivery
 [Workplace Move Management \(`.pdf`\)](https://downloads.docs.servicenow.com/resource/enus/compliance/washington_acr_wsd_workplace_move_management.pdf)
 
 </td></tr></tbody>
-</table>## Vancouver Family Release ACRs
+</table>## Vancouver ACRs
 
 <table id="table_skb_1zr_pyb"><thead><tr><th>
 

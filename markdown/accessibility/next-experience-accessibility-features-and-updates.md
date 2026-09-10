@@ -53,6 +53,14 @@ Next Experience includes a guided tour that introduces the available accessibili
 
 </td></tr><tr><td>
 
+[Next Experience preferences by persona.](https://www.servicenow.com/docs/r/platform-user-interface/configure-user-experiences/accessibility-preference-by-persona.html)
+
+</td><td>
+
+Learn more about accessibility preferences in Next Experience, organized by persona: visual, physical, cognitive/neurodiverse, and universal design. These settings help reduce barriers and create an inclusive experience for all users.
+
+</td></tr><tr><td>
+
 [Configure Next Experience Workspace preferences](https://www.servicenow.com/docs/r/platform-user-interface/next-experience-workspace-preferences.html)
 
 </td><td>

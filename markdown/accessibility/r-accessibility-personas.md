@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/accessibility/r-accessibility-p
 release: nofamily
 topic_type: reference
 last_updated: "2026-03-18"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [accessibility, visual disability, cognitive disability, physical disability, accessibility persona, speech disability]
 breadcrumb: [Product accessibility]
 ---
@@ -105,6 +105,10 @@ Core UI also includes accessibility features such as:
 -   The use of skip links
 -   The option to modify session time out
 -   The ability to configure how much time users have to extend a session
+
+## Accessibility user preferences by persona
+
+In Next Experience, you can select accessibility user preferences to improve your experience. See how different accessibility features support specific user needs in [Next Experience preferences by persona.](https://www.servicenow.com/docs/r/platform-user-interface/configure-user-experiences/accessibility-preference-by-persona.html)
 
 ## Accessibility Persona Cards on Horizon
 

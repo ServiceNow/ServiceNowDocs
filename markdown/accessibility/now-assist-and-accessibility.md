@@ -25,7 +25,7 @@ Now Assist delivers its AI capabilities through modular **skills**—such as sum
 
 Many capabilities in Now Assist align with accessibility guidelines, helping reduce cognitive load, supporting multiple input preferences, and making complex tasks easier to complete. Standard platform features—such as Next Experience accessibility preferences, keyboard support, dark theme, and focus indicators—combine with AI‑powered assistance to improve usability for diverse needs.
 
-A key accessibility enhancement is the ability to interact with the Now Assist panel using voice input, enabling hands‑free prompts and navigation. Voice input supports users with mobility or dexterity limitations, blind or low‑vision users, neurodivergent users, and anyone who prefers speech‑driven interaction. Voice input can be enabled by system administrators and turned on in a user's personal accessibility preferences. See [Enable Voice input for Now Assist Panel](https://www.servicenow.com/docs/r/intelligent-experiences/enable-voice-input-for-now-assist-panel.html) for more information..
+A key accessibility enhancement is the ability to interact with the Now Assist panel using voice input, enabling hands‑free prompts and navigation. Voice input supports users with mobility or dexterity limitations, blind or low‑vision users, neurodivergent users, and anyone who prefers speech‑driven interaction. Voice input can be enabled by system administrators and turned on in a user's personal Next Experience accessibility preferences. See the accessibility user preference document [Enable Voice input for Now Assist Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html) for more information.
 
 Another capability that supports cognitive accessibility is the Smart Documents skill, which can summarize content, generate questions and answers, and produce common questions and answers—helping readers understand materials quickly without parsing long or complex text. See the [Now Assist Smart Documents skill](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html) page for more information.
 
@@ -77,6 +77,8 @@ The Now Assist context menu uses generative AI to help agents summarize, create,
 </td><td>
 
 Give users the option to use their voice when interacting with the Now Assist panel to make the panel more accessible. Voice input enables you to use the panel without a keyboard.
+
+ See also, [Enable Voice input for Now Assist Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html), which describes the accessibility user preference.
 
 </td></tr><tr><td>
 
