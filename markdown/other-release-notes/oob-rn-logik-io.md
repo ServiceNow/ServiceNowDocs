@@ -101,6 +101,12 @@ Logik.ai 2026/07/31 release notes include new enhancements and minor bug fixes.
 Logik.ai 2026/08/07 release notes include new enhancements and minor bug fixes.
 -   **[Logik.ai 2026/08/14 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-08-14-.md)**  
 Logik.ai 2026/08/14 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/08/21 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-08-21-.md)**  
+Logik.ai 2026/08/21 release notes include new enhancements and minor bug fixes.
+-   **[Logik.ai 2026/08/28 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-08-28-.md)**  
+Logik.ai 2026/08/21 release notes includes minor bug fixes.
+-   **[Logik.ai 2026/09/04 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-ai-2026-09-04-.md)**  
+Logik.ai 2026/09/04 release notes includes minor bug fixes.
 
 **Parent Topic:**[OOB Other release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/sn-oob-rn.md)
 
