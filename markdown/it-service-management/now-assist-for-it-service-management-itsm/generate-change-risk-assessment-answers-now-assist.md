@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-07-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [AI, generative AI, change risk assessment]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -26,6 +26,8 @@ Roles required: `sn_change_write`, `change_manager`
 This skill is active by default and available to users with the appropriate roles. The skill is automatically available to users with the appropriate roles. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
 When you trigger the skill, AI reviews the change request, related records, and additional knowledge—such as compliance details, policies, or other relevant information. AI then suggests an answer and provides reasoning for each supported question in the risk assessment. The **Reasoning** field explains why AI selected each answer. You can review and adjust the suggested answers before submitting, or complete the assessment manually.
+
+**Note:** The skill also reads all dynamic schema store type fields on the change request form. These fields are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses the retrieved values when it suggests answers. For information about dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-schema.md).
 
 The skill supports Likert-scale questions only. Each option in a Likert-scale question has a numerical value, which the system uses to calculate the risk score. Questions that are not Likert-scale type open without a **Reasoning** field, and you select the answer manually.
 
@@ -66,15 +68,15 @@ This AI capability for generating change risk assessment answers and reasoning r
     -   Select **Generate** to create a new risk assessment.
 6.  After you submit the risk assessment in Service Operations Workspace for ITSM, view, edit, or regenerate the saved answers.
 
-<table id="choicetable_sow_options"><thead><tr><th align="left" id="d462718e359">
+<table id="choicetable_sow_options"><thead><tr><th align="left" id="d468406e322">
 
 Option
 
-</th><th align="left" id="d462718e362">
+</th><th align="left" id="d468406e325">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d462718e368">
+</th></tr></thead><tbody><tr><td id="d468406e331">
 
 **View the saved answers**
 
@@ -82,7 +84,7 @@ Procedure
 
 In the **Record information** panel, select **View risk assessment**. The **Change Risk Assessment** dialog opens in read-only mode and shows the saved answers and reasoning for each question.
 
-</td></tr><tr><td id="d462718e386">
+</td></tr><tr><td id="d468406e349">
 
 **Edit the saved answers**
 
@@ -90,7 +92,7 @@ In the **Record information** panel, select **View risk assessment**. The **Chan
 
 Select **Assess Risk** again. The **Change Risk Assessment** dialog opens with the answers from the previous assessment copied in. Update any answers as needed, then submit the assessment.When you edit an assessment, the plain assessment page opens with the existing answers and no **Reasoning** field.
 
-</td></tr><tr><td id="d462718e406">
+</td></tr><tr><td id="d468406e369">
 
 **Regenerate the answers with the current change request context**
 

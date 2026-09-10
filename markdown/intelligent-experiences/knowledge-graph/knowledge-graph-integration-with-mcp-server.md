@@ -18,5 +18,5 @@ The Knowledge Graph integration with MCP server provides a secure and governed a
 
 Use Knowledge Graph as a tool within MCP server console to help AI agents by providing context and insights based on live instance data and enable AI agents to complete their task.
 
-Refer [Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-a-tool-from-knowledge-graphs.md) to add Knowledge Graph as a tool and to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+Refer [Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-a-tool-from-knowledge-graphs.md) to add Knowledge Graph as a tool and to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 

@@ -18,6 +18,8 @@ Empower your teams to sign up for work shifts based on their availability and pr
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_shift\_planning.admin
 
 ## About this task
@@ -119,15 +121,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d427024e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d432176e389">
 
 To
 
-</th><th align="left" id="d427024e376">
+</th><th align="left" id="d432176e392">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d427024e382">
+</th></tr></thead><tbody><tr><td id="d432176e398">
 
 **Auto-assign agents**
 
@@ -135,7 +137,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d427024e397">
+</td></tr><tr><td id="d432176e413">
 
 **Assign agents manually**
 

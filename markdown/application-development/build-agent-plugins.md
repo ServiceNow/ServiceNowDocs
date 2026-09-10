@@ -1,11 +1,11 @@
 ---
 title: Build Agent plugins
-description: The plugins for Build Agent depend on whether you're using the free/trial version or premium version.
+description: Plugins are required for Build Agent, and vary by version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/build-agent-plugins.html
 release: zurich
 topic_type: reference
-last_updated: "2026-06-24"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -13,13 +13,15 @@ breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Pl
 
 # Build Agent plugins
 
-The plugins for Build Agent depend on whether you're using the free/trial version or premium version.
+Plugins are required for Build Agent, and vary by version.
 
 Build Agent is available in both ServiceNow Studio and the ServiceNow IDE.
 
 **Note:** The trial app was formerly called "Build Agent" and has been renamed to "Build Agent \(Trial\)."
 
 ## Plugins for Build Agent \(Trial/Free\)
+
+Build Agent is available as a trial app on a freemium model. To install Build Agent \(Trial\), visit the [ServiceNow Store](https://www.servicenow.com/products/vibe-coding.html#benefits).
 
 The following plugins are required:
 

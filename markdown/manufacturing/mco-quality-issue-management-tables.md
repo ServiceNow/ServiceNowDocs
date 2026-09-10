@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-quality-issue-management-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -19,7 +19,6 @@ This section explains quality issue management \(QIM\) tables in Manufacturing C
 The QIM feature adds or modifies the existing tables:
 
 -   Task \[sn\_customerservice\_task\]
--   RCA node category \[sn\_rca\_node\_category\]
 -   Planning item \[sn\_align\_core\_planning\_item\]
 -   Expense line \[fm\_expense\_line\]
 -   Case
@@ -57,7 +56,7 @@ Product Quality Investigation\[sn\_mfg\_qm\_prd\_qi\]
 
 </td><td>
 
-Store the manufacturing quality issues that require deeper analysis.
+Stores the manufacturing quality issues that require deeper analysis.
 
 </td></tr><tr><td>
 
@@ -113,7 +112,7 @@ Remediation Action\[sn\_rm\_core\_rem\_action\]
 
 </td><td>
 
-Store the investigation related information.
+Stores the investigation related information.
 
 </td></tr><tr><td>
 

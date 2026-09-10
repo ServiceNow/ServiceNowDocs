@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/install-based-item-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
@@ -158,5 +158,5 @@ Specification that is associated with an install base item. Option that helps in
 **Related topics**  
 
 
-[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-install-base-item.md)
+[Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-install-base-item.md)
 

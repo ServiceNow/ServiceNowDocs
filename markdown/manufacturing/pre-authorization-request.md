@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/pre-authorization-request.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Core features, Explore, Manufacturing Commercial Operations]
+breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
 # Pre-authorization request

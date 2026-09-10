@@ -46,7 +46,7 @@ Role required: admin
 **Related topics**  
 
 
-[Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/t_AddADeveloper.md)
+[bundle-cadev.t_AddADeveloper]
 
-[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/delegated_deployment_user_roles.md)
+[bundle-cadev.delegated_deployment_user_roles]
 

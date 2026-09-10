@@ -1,6 +1,6 @@
 ---
 title: MID Server Azure Key Vault integration
-description: The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server supports specific credential types for integration with Azure Key Vault. Each credential is stored as a secret and must be a valid JSON string matching a supported credential type.
+description: The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.Use PEM certificate authentication to connect the MID Server to Azure Key Vault. This method provides an alternative to client secret authentication. This feature requires External Credential Storage and Management Application v1.1.1.The MID Server supports specific credential types for integration with Azure Key Vault. Each credential is stored as a secret and must be a valid JSON string matching a supported credential type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/mid-server/mid-azure-key-vault-integration.html
 release: zurich
@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -136,6 +136,43 @@ MID servers can use the Vault Credential Resolver to consume secrets directly fr
     |---------|--------------------|
     |`ext.cred.azure.vault_name` is set in `config.xml`|`<secret_name>`|
     |`ext.cred.azure.vault_name` is not set|`<secret_name>:<azure_key_vault_name>`|
+
+
+## Configure Azure Key Vault authentication using PEM certificates
+
+Use PEM certificate authentication to connect the MID Server to Azure Key Vault. This method provides an alternative to client secret authentication. This feature requires External Credential Storage and Management Application v1.1.1.
+
+### Before you begin
+
+Role required: External Credential Storage and Management application \(Scope ID:**com.sn\_mid\_extcredstrg**\) is required.
+
+### Procedure
+
+1.  Add the PEM certificate to the agent\_keystore.
+
+    Run the appropriate command for your operating system:
+
+    -   Windows:
+
+        ```
+        .\bin\scripts\manage-certificates.bat -a AzureKeyVaultSecurityKeyPairHandle cert.pem
+        ```
+
+    -   Linux/Unix:
+
+        ```
+        bin/scripts/manage-certificates.sh -a AzureKeyVaultSecurityKeyPairHandle cert.pem
+        ```
+
+    **Warning:** The script must be executed from the agent directory. Running it from another location may corrupt `agent\security\agent_keystore` because the script cannot access `agent\config.xml`.
+
+2.  Add the **vault\_name**, **tenant\_id**, and **client\_id** to the `config.xml` file.
+
+3.  Create a credential on the instance with **Credential storage vault** set to **Azure Key Vault**.
+
+4.  Test the credential to verify the configuration.
+
+5.  Run a discovery schedule that uses the configured credential.
 
 
 ## Supported Credentials for Azure Key Vault Integration

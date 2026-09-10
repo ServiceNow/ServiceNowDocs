@@ -48,7 +48,7 @@ The appearance of the default chat widget button varies depending on whether you
 
 \[Omitted image "NAVA-FAB.png"\] Alt text: Chat bubble button.
 
-\[Omitted image "NASS-dynamic-window-FAB.png"\] Alt text: Sparkle button.
+\[Omitted image "NASS-dynamic-window-FAB.png"\] Alt text: Otto button.
 
 ## Enhanced or premium chat's full-page experience
 

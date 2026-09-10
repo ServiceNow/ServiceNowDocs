@@ -27,6 +27,7 @@ For an application, this page includes the following:
 -   Key features
 -   Release notes
 -   Technical details such as system requirements and dependencies
+-   Resource usage permissions for the application, if provided by the developer
 
 For a plugin or product, this page shows a summary of the plugin or product's function and its dependencies.
 

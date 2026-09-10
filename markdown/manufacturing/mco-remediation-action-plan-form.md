@@ -1,18 +1,18 @@
 ---
 title: Remediation action plan form
-description: Remediation action plan enables you to add the remediation details.
+description: The Remediation action plan form enables you to add the remediation details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-remediation-action-plan-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Remediation action plan form
 
-Remediation action plan enables you to add the remediation details.
+The Remediation action plan form enables you to add the remediation details.
 
 <table id="table_wsj_pdq_xhc"><thead><tr><th>
 
@@ -36,7 +36,7 @@ Name
 
 </td><td>
 
-Enter the name of the remediation action.
+Name of the remediation action.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Type
 
 </td><td>
 
-Select the remediation action type.
+Remediation action type.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Issue
 
 </td><td>
 
-Select the issue record for which remediation action plan is created.
+Issue record for which remediation action plan is created.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Planned start date
 
 </td><td>
 
-Select the remediation action start date.
+Remediation action start date.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Planned end date
 
 </td><td>
 
-Select the remediation action end date.
+Remediation action end date.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ State
 
 </td><td>
 
-Choose the state of the RAP.-   Draft
+State of the RAP.-   Draft
 -   Pending review
 -   Approved
 -   Rejected
@@ -91,7 +91,7 @@ Priority
 
 </td><td>
 
-Choose the priority of the RAP.
+Priority of the RAP.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Actual start date
 
 </td><td>
 
-Select the actual start date.
+Actual start date.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Actual end date
 
 </td><td>
 
-Select the actual end date.
+Actual end date.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Total estimated cost
 
 </td><td>
 
-Enter the total estimated cost of the RAP case.
+Total estimated cost of the RAP case.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Total actual cost
 
 </td><td>
 
-Enter the total actual cost of the RAP case.
+Total actual cost of the RAP case.
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Description
 
 </td><td>
 
-Enter the detailed description of the RAP.
+Detailed description of the RAP.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

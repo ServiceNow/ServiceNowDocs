@@ -226,7 +226,9 @@ Additional information
 Further information about the monitor.
 
 </td></tr></tbody>
-</table>3.  To create a custom health monitor script, on the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form, and click **New**.
+</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form.
+
+    To create a custom health monitor script, click **New**.
 
 4.  On the form, fill in the fields.
 
@@ -285,8 +287,11 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 
 </td></tr></tbody>
-</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts, and Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor, as initialized inside **runInsertHealthMonitorScripts**.
+</table>    You can use the following tables for self-health monitoring:
 
+    -   Monitoring Configurations \[em\_monitor\_conf\] for configuration
+    -   Health Monitor Scripts \[em\_monitor\_scripts\] for scripts
+    -   Monitoring States \[em\_monitor\_state\] for displaying monitor results, as initialized inside **runInsertHealthMonitorScripts**
     For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 
 5.  Click **Submit**.

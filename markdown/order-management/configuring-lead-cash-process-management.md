@@ -18,7 +18,7 @@ Plan and configure your implementation of Lead-to-Cash Process Management.
 ## Configuration overview
 
 1.  Review the dependencies for installing and using Lead-to-Cash Process Management.
-    -   For sales process managers to be able to create and monitor sales process records through the CSM Configurable WorkspaceCustomer Service Management \(CSM\) must be installed.
+    -   For sales process managers to be able to create and monitor sales process records through the CRM WorkspaceCustomer Service Management \(CSM\) must be installed.
     -   To be able to monitor opportunities, quotes, or orders in the sales process, you must have Opportunity Management, Quote Management, Order Management installed.
     -   Business Object Core \(sn\_bo\_core\) is automatically installed as a dependency when you install the Lead-to-Cash Process Management application \(app-l2c-cockpit\).
 2.  [Install Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-lead-cash-process-management.md)

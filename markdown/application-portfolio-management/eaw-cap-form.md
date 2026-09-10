@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -54,7 +54,7 @@ Business Unit
 
 </td><td>
 
-Name of the business unit in the organizational structure.
+Name of the business unit in the organizational structure.Before Zurich Patch 12, this field was the only way to associate a business unit with a business capability, and accepted a single value. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate multiple business units. The field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
 
 </td></tr><tr><td>
 

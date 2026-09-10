@@ -18,6 +18,8 @@ Change the default number of work items that an agent can handle for a service c
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_wfo\_cfg\_ws.manager
 
 ## About this task
@@ -32,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d229135e87">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d231939e103">
 
 To set the override capacity
 
-</th><th align="left" id="d229135e90">
+</th><th align="left" id="d231939e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d229135e96">
+</th></tr></thead><tbody><tr><td id="d231939e112">
 
 **From Channels**
 
@@ -51,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d229135e120">
+</td></tr><tr><td id="d231939e136">
 
 **From Teams**
 

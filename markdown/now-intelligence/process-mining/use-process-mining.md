@@ -36,6 +36,8 @@ The following flowchart displays the steps that you use to set up a project for 
 
 -   **[Creating process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/creating-process-config.md)**  
 Process configurations include process preferences that activate features in the Process Mining workspace and assist in the creation of projects. Having complete process configurations enables you to independently create projects and quickly gain insights, even without prior process mining knowledge. This enhances the scalability of process mining across the organization.
+-   **[Meter-based guardrails and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/meter-based-guardrails.md)**  
+Meter-based guardrails and controls help you in identifying situations when you unexpectedly exceed your entitled record count.
 -   **[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/define-workflow-model.md)**  
 Create and mine a project using the Project Builder to analyze and optimize your business processes. Create a template to reuse it when you want to use the same project conditions multiple times. In the Project Builder, the entire process is broken down into three sections and an overview to make the task easier and more efficient.
 -   **[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/create-proj.md)**  

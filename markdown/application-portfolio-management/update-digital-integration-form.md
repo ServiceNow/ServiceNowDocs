@@ -137,7 +137,7 @@ Description
 
 </td><td>
 
-Description of the digital integration. Describe in detail why the integration is being created between two business applications or between an external service provided interface and a business application and what business value it adds.
+Description of the digital integration. Explain why the integration is being created and what business value it adds.
 
 </td></tr></tbody>
 </table><table id="table_qkg_gny_ncc"><thead><tr><th>

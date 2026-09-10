@@ -1,18 +1,18 @@
 ---
-title: Product quality investigation task
-description: Create the non-conformance case task report for products that had an issue.
+title: Create a product quality investigation
+description: Create a non-conformance case task report for products that had an issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-quality-investigation-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for quality issues, Create Product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Product quality investigation task
+# Create a product quality investigation
 
-Create the non-conformance case task report for products that had an issue.
+Create a non-conformance case task report for products that had an issue.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-pqi.md)
+**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
 
 **Related topics**  
 

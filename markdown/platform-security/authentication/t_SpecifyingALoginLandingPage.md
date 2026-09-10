@@ -1,6 +1,6 @@
 ---
 title: Specify a login landing page
-description: By default, users see their homepage upon login. You can specify a different login landing page by using a system property or the content management system.
+description: By default, users see their homepage on login. You can specify a different login landing page by using a system property or the content management system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/t\_SpecifyingALoginLandingPage.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Define login scenarios, Local authentication, Access Management]
 
 # Specify a login landing page
 
-By default, users see their homepage upon login. You can specify a different login landing page by using a system property or the content management system.
+By default, users see their homepage on login. You can specify a different login landing page by using a system property or the content management system.
 
 ## Before you begin
 
@@ -38,7 +38,9 @@ To specify a login landing page for all users, change the property value on the 
 
     To specify a Platform Analytics dashboard as the login landing page, set the property to `$pa_dashboards.do?id=<SYS_ID>`. Replace &lt;SYS\_ID&gt; with the sys\_id of the Platform Analytics dashboard.
 
-    To direct users to service portal, set the property to `/sp`
+    **Tip:** Platform Analytics dashboards are the standard from Xanadu onward. Use the `$pa_dashboards.do?id=` URL format for new configurations.
+
+    To direct users to service portal, set the property to `/sp`.
 
     **Note:** This property is system-wide, so setting it affects all users. To set a login specifically for users with no roles, you can apply these same steps and use the **glide.entry.loggedin.page\_ess** property.
 

@@ -1,18 +1,18 @@
 ---
-title: Initiate messaging conversations from CSM Configurable Workspace
-description: Compose an SMS message from CSM Configurable Workspace to interact with a customer contact or a consumer regarding customer service cases.
+title: Initiate messaging conversations from CRM Workspace
+description: Compose an SMS message from CRM Workspace to interact with a customer contact or a consumer regarding customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/agent-init-messg-csm-cws.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
-# Initiate messaging conversations from CSM Configurable Workspace
+# Initiate messaging conversations from CRM Workspace
 
-Compose an SMS message from CSM Configurable Workspace to interact with a customer contact or a consumer regarding customer service cases.
+Compose an SMS message from CRM Workspace to interact with a customer contact or a consumer regarding customer service cases.
 
 ## Before you begin
 

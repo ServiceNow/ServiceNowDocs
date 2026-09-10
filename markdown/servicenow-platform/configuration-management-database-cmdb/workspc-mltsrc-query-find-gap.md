@@ -1,6 +1,6 @@
 ---
 title: Create a Find Gap query
-description: Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspace or in Service Graph Workspace to help you find CIs that are not being reported by a discovery source.
+description: Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs that are not being reported by a discovery source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.html
 release: zurich
@@ -14,11 +14,9 @@ breadcrumb: [CMDB 360 experience in a workspace, CMDB 360/Multisource CMDB, Conf
 
 # Create a Find Gap query
 
-Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspaceor in Service Graph Workspace to help you find CIs that are not being reported by a discovery source.
+Create a Find Gap query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs that are not being reported by a discovery source.
 
 ## Before you begin
-
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor
 
@@ -28,10 +26,8 @@ Gaps in discovery source reporting occur when at least one discovery source repo
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 2.  Select **Create Query.**
 
 3.  Select **I want to find gaps in data between discovery sources**.

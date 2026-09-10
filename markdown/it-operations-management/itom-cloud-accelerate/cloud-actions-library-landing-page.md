@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 # Cloud Action Library
 
 Use the ready-to-use actions and subflows of the ServiceNow® Cloud Action Library application to interact with the cloud resources of the organization. ServiceNow® ITOM Cloud Accelerate features, such as Cloud Configuration Governance, use these actions to operate.
+
+**Important:** Starting with the Brazil release, Cloud Action Library is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 

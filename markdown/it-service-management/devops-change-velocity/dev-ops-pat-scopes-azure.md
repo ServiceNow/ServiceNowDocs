@@ -87,7 +87,7 @@ Read &amp; Execute
 
 </td><td>
 
--   Read: Required to discover the build pipelines and receive pipeline execution details like stages, artifacts, test results, code security results, etc., either through import/polling or real time with a configured webhook.
+-   Read: Required to discover build and receive pipeline execution details like stages, artifacts, test results, code security results, etc., either through import/polling or real time with a configured webhook.
 -   Execute: Required to pause/resume the pipelines based on the change control step.
 
 </td></tr><tr><td>
@@ -104,7 +104,7 @@ Read, write and execute
 
 </td><td>
 
--   Read: Required to discover the release pipelines and receive pipeline execution details like stages, artifacts, test results, code security results, etc, either through import/polling or real time with a configured webhook.
+-   Read: Required to discover release and receive pipeline execution details like stages, artifacts, test results, code security results, etc, either through import/polling or real time with a configured webhook.
 -   Write and Execute: Required to pause/resume the pipelines based on change control step.
 
 </td></tr><tr><td>
@@ -160,7 +160,7 @@ Required to discover the artifact repositories and receive the feeds and package
 
 ## Limitation of Azure DevOps
 
-If you create an Azure tool with custom defined access level, and you reconfigure such a tool because of change in your Integration user credentials, then the existing service hooks for release created and release deployment are not updated. Instead, two new service hooks are created with new configuration details. To avoid the duplication of these service hooks, you must create the tool with full access level.
+If you create an Azure tool with custom defined access level, and you reconfigure that tool because of change in your Integration user credentials, then the existing service hooks for release created and release deployment aren't updated. Instead, two new service hooks are created with new configuration details. To avoid the duplication of these service hooks, you must create the tool with full access level.
 
 **Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

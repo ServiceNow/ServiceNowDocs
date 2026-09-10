@@ -7,7 +7,7 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

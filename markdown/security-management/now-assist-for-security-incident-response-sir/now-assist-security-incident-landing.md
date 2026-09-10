@@ -8,7 +8,7 @@ product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
 
@@ -21,14 +21,6 @@ With ServiceNow Otto for Security Incident Response \(SIR\), security analysts c
 Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 ## Get started
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
--   Foundation: AI basics to deliver insights
--   Advanced: AI to boost productivity across relevant use cases
--   Prime: Act autonomously with all AI assets, and create your own
-
-For more information, see .
 
 <table id="table_jlh_dgk_1cc" class="nav-card presentation"><tbody><tr><td>
 

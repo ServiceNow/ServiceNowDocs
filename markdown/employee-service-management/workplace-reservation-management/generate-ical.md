@@ -32,15 +32,15 @@ For example, assume that your calendar provider is Microsoft Outlook. After you 
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d418791e66">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d419347e66">
 
 Location
 
-</th><th align="left" id="d418791e69">
+</th><th align="left" id="d419347e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d418791e75">
+</th></tr></thead><tbody><tr><td id="d419347e75">
 
 **From the application navigator**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d418791e96">
+</td></tr><tr><td id="d419347e96">
 
 **Employee Center**
 

@@ -37,6 +37,8 @@ Role required: admin
     -   If the hardware asset belongs to a custom model category whose parent model category is associated with an opted-out resource category.
 4.  Select **Save**.
 
+    **Note:** To exclude assets using other criteria — for example, a specific model — select the **Exclude from HAM features** check box on each asset record manually. You can't exclude assets automatically using custom criteria.
+
 
 ## Result
 

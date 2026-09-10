@@ -1,6 +1,6 @@
 ---
-title: Explore Workplace Core
-description: The ServiceNow Workplace Core application enables you to create well-maintained and well-managed processes for employees in the workplace. You can manage various units of your workplace such as workplace locations, maintenance, space administrations, reservations, requests, visitors, moves and more. The Workplace Core is the core application of the Workplace Service Delivery suite.
+title: Workplace Core
+description: The ServiceNow Workplace Core application manages workplace locations, reservations, visitors, and moves for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-core/workplace-service-delivery-overview.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 6
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Explore Workplace Core
+# Workplace Core
 
-The ServiceNow® Workplace Core application enables you to create well-maintained and well-managed processes for employees in the workplace. You can manage various units of your workplace such as workplace locations, maintenance, space administrations, reservations, requests, visitors, moves and more. The Workplace Core is the core application of the Workplace Service Delivery suite.
+The ServiceNow® Workplace Core application manages workplace locations, reservations, visitors, and moves for your organization.
 
 -   **Space administration**
 
@@ -25,7 +25,7 @@ The ServiceNow® Workplace Core application enables you to create well-maintaine
     -   Regions of all locations
     As a workplace manager, you can upload floor plans of your organization so employees can more easily view and select available spaces when they request workplace reservations.
 
-    Avoid large gatherings or long queues for locations at your workplace such as the cafeteria, gym, and entry and exit gates by defining arrival intervals and having employees schedule their arrivals.
+    Define arrival intervals and have employees schedule their arrivals. This helps avoid large gatherings or long queues at workplace locations such as the cafeteria, gym, and entry and exit gates.
 
 -   **Shift management**
 
@@ -55,28 +55,28 @@ The ServiceNow® Workplace Core application enables you to create well-maintaine
 
 -   **Workplace Case Management**
 
-    As a workplace manager, you can enable employees to raise workplace-related requests. The Workplace Case Management application enables you to configure services using which employees case can raise their requests.
+    As a workplace manager, you can enable employees to raise workplace-related requests. The Workplace Case Management application enables you to configure the services that employees use to raise their requests.
 
     As a case manager, you can manage the requests raised by the employees in the form of workplace cases. You can create task, sub-tasks as per requirement and perform various other actions. For more information, refer to [Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-case-management/workplace-case-mgmt-feat.md).
 
 -   **Visitor management**
 
-    Manage visitors expected at the workplace. Register visitors and manage their visit such as getting a visitor agreement, printing their visitor badge, and more. For more information, refer to [Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md).
+    Manage visitors expected at the workplace. Register visitors and manage their visit, such as generating a visitor agreement and printing a visitor badge. For more information, refer to [Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-feat.md).
 
--   **Manage workplace moves**
+-   **Workplace moves**
 
-    As a workplace manager, the application enables you to manage the move requests raised by employees. You can track the expected start and due date by when a move must be fulfilled. You can perform various other actions. For more information, refer to [Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-move-mgmt-overview.md).
+    As a workplace manager, the application enables you to manage the move requests raised by employees. You can track the expected start date and the date by which a move must be completed. You can perform various other actions. For more information, refer to [Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-move-mgmt-overview.md).
 
 -   **Workplace Central**
 
-    As a workplace manager, save your time by focusing on all your main workplace activities in a single workspace, that is, Workplace Central. The workplace central is a workspace available on the Employee Center. It is a one-stop workspace from where you can check all the dashboards, perform space allocation activities, manage move requests, manage reservations and more. For more information, refer to [Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/workplace-central-feat.md).
+    As a workplace manager, focus on all your main workplace activities in a single workspace, Workplace Central, to save time. Workplace Central is a workspace available on the Employee Center. It is a one-stop workspace from which you can check all the dashboards, perform space allocation activities, manage move requests, and manage reservations. For more information, refer to [Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/workplace-central-feat.md).
 
 
 **Note:**
 
-In Workplace Core \[sn\_wsd\_core\] version 2.19.0 and above, the navigation path for Workplace Services Portal is not available in the application context search menu **All****Workplace Core**. You can access the Workplace Service from the Employee Center portal home page. Select **Workplace Service**, **Site safety**. For more information, see [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
+In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for Workplace Services Portal is not available in the application context search menu **All** &gt; **Workplace Core**. You can access the Workplace Service from the Employee Center portal home page. Select **Workplace Service**, **Site safety**. For more information, see [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
-Workplace Core customers using Workplace Core version 2.18.1 and later can access Workplace services portal from **All** &gt; **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home**.
+Workplace Core customers using Workplace Core starting with version 2.18.1 can access Workplace services portal from **All** &gt; **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home**.
 
 ## Use with other Workplace Service Delivery applications
 
@@ -85,7 +85,7 @@ Workplace Core is the core application of the ServiceNow® Workplace Service Del
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 -   **[Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-portal-wsd.md)**  
-The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
+ The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 -   **[Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/workplace-services-on-employee-center.md)**  
 Avail workplace-related services using the Employee Center portal. The Employee Center portal is a unified portal that brings all the employee-related services at one place.
 -   **[Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/va-conversations-wsd.md)**  

@@ -66,6 +66,8 @@ Connect your Genesys Cloud contact center to a ServiceNow voice assistant using 
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/voice-agent-reference.md).
+
 9.  In your Genesys Cloud account, configure the SIP trunk using the ServiceNow SIP FQDN and authentication token.
 
     Use the **ServiceNow SIP Trunk information** and the **x-snc-param** token generated in the previous step. For SIP trunk configuration details, see [KB3023612](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3023612).

@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_user
 
 **Note:**
 
-Use the custom-built Add Relationship UI to relate the business application with the information object because this UI also captures the attributes in the relationship between the two configuration items. You should not use the CMDB relationship editor to associate the two configuration items because the create, read, update, and delete \(CRUD\) attributes of the relationship cannot be captured in the relationship editor.
+Use the custom-built Add Relationship UI to relate the business application with the information object. This UI also captures the attributes in the relationship between the two configuration items. Don't use the CMDB relationship editor to associate the two configuration items. The create, read, update, and delete \(CRUD\) attributes of the relationship can't be captured in the relationship editor.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ Use the custom-built Add Relationship UI to relate the business application with
 
     For field information, see [Add relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-relationship-form.md).
 
-    By adding an information object to the business application, not only a record is created in the CI relationship \[cmdb\_ci\_rel\] table, but the CRUD attributes are also captured in the CI Relation Attributes \[cmdb\_rel\_attributes\] table.
+    Adding an information object creates a record in the CI relationship \[cmdb\_ci\_rel\] table and captures the CRUD attributes in the CI Relation Attributes \[cmdb\_rel\_attributes\] table.
 
 6.  Click **Save**.
 
     To edit the CRUD relationship of an information object, select the record and click **Edit**. In the Manage Relationship pop-up, update the CRUD details.
 
-    To delete the relationship between the business application and an information object record, select the record and click **Delete Relationship**. This action deletes the relationship record from the CI relationship table and also deletes the qualifier properties, if any, that are set in this relationship between the business application and the information object, which are captured in the CI Relation Attributes table.
+    To delete the relationship between the business application and an information object record, select the record and click **Delete Relationship**. This action deletes the relationship record from the CI relationship table. It also deletes any qualifier properties that are set in this relationship, which are captured in the CI Relation Attributes table.
 
-    To check for information objects that are not linked to any business applications, run the Information Objects not related to any Business Application desired state audit on demand. For more information, see [Information Objects not related to any Business Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md).
+    To check for information objects that aren't linked to any business applications, run the Information Objects not related to any Business Application desired state audit on demand. For more information, see [Information Objects not related to any Business Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-desired-and-scripted-audits.md).
 
 
 ## What to do next

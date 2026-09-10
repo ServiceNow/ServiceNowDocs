@@ -1,6 +1,6 @@
 ---
 title: Configure the Supplier Collaboration Queue
-description: Configure Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
+description: Configure the Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Setting up Advanced Work Assignment for Supplier Lifecycle Operatio
 
 # Configure the Supplier Collaboration Queue
 
-Configure Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
+Configure the Supplier Collaboration Queue to route and assign supplier portal chat requests in a defined group via AWA.
 
 ## Before you begin
 

@@ -31,7 +31,7 @@ The interaction wrap up configuration includes the following information:
 -   The selected communication channel.
 -   Additional conditions that apply to the interaction records included in the configuration.
 -   Whether wrap up is automatically ended by the system and, if automatically ended the duration of the wrap up period.
--   Whether a countdown timer that displays the wrap up duration is shown to agents in CSM Configurable Workspace.
+-   Whether a countdown timer that displays the wrap up duration is shown to agents in CRM Workspace.
 
 The interaction wrap up configuration adds the Wrap Up state to the **State** field on the Interaction record. For more information about the wrap up state, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-states.md).
 
@@ -66,7 +66,7 @@ If an agent has not already ended wrap up, the system can automatically end the 
 -   **[Interaction form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-form.md)**  
 The Interaction form displays information about a customer interaction.
 -   **[Interaction wrap up timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-timer.md)**  
-The interaction wrap up timer displays a countdown of the wrap up duration period in CSM Configurable Workspace.
+The interaction wrap up timer displays a countdown of the wrap up duration period in CRM Workspace.
 -   **[Interaction wrap up scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/interaction-wrap-up-scheduled-job.md)**  
 The interaction wrap up feature includes a scheduled job to close any interactions in the Wrap Up state that were not closed either manually by an agent or automatically by the system.
 -   **[Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md)**  

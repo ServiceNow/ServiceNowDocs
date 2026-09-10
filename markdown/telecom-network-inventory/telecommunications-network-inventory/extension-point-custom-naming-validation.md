@@ -1,20 +1,20 @@
 ---
 title: Extension point for custom naming validation
-description: The TNI Naming Application validates resolved names in the Inventory Template Overview tab through a pluggable extension point. Customer administrators can register their own validation rules against the extension point to enforce organization-specific naming conventions, alongside or instead of the default check that ships with the application.
+description: The TNI Naming Application validates resolved names in the Inventory Template Overview tab through a pluggable extension point. Customer administrators can register their own rules to enforce organization-specific naming conventions, alongside or instead of the default check.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/extension-point-custom-naming-validation.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Inventory template naming patterns, Network inventory models, Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Extension point for custom naming validation
 
-The TNI Naming Application validates resolved names in the Inventory Template Overview tab through a pluggable extension point. Customer administrators can register their own validation rules against the extension point to enforce organization-specific naming conventions, alongside or instead of the default check that ships with the application.
+The TNI Naming Application validates resolved names in the Inventory Template Overview tab through a pluggable extension point. Customer administrators can register their own rules to enforce organization-specific naming conventions, alongside or instead of the default check.
 
 ## The extension point identity
 
@@ -37,7 +37,7 @@ The default rule appears in the Implementations table on the extension point rec
 
 ## Implementations
 
-When the Inventory Template Overview tab refreshes, every active implementation of the extension point runs against the hierarchy. Each implementation receives an array of the related templates at one tree level — the siblings under a single parent template — examines them according to its own rule, and writes validation outputs back to any related template that fails the rule.
+When the Inventory Template Overview tab refreshes, every active implementation of the extension point runs against the hierarchy. Each implementation receives the sibling related templates at one tree level, examines them by its own rule, and writes validation outputs back to any template that fails.
 
 After all implementations have run, their outputs appear in the Overview as follows:
 
@@ -46,7 +46,7 @@ After all implementations have run, their outputs appear in the Overview as foll
 -   The **Error** badge on the tree node is set by the last implementation that flagged the related template — only one badge displays per node.
 
 
-The order in which implementations run is configurable. Because order determines which implementation's badge label appears on the tree, customer administrators that introduce custom implementations choose order deliberately when the visible badge matters to the audience reading the Overview.
+The order in which implementations run is configurable. Because order determines which badge label appears on the tree, administrators choose order deliberately when the visible badge matters to the audience reading the Overview.
 
 **Related topics**  
 

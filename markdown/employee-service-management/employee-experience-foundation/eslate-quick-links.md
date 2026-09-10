@@ -1,6 +1,6 @@
 ---
 title: Quick links widget configuration
-description: Employee Slate provides Quick Link widgets on the home page and Canvas to give employees direct access to key destinations.
+description: EmployeeWorks Web App provides Quick Link widgets on the home page and Canvas to give employees direct access to key destinations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-quick-links.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-06-09"
 reading_time_minutes: 1
 keywords: [quick links, widget configuration, homepage, canvas, Employee Slate]
-breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Quick links widget configuration
 
-Employee Slate provides Quick Link widgets on the home page and Canvas to give employees direct access to key destinations.
+EmployeeWorks Web App provides Quick Link widgets on the home page and Canvas to give employees direct access to key destinations.
 
 Both Quick Link widgets use records from Employee Center \(`sn_ex_sp_quick_link`\).
 

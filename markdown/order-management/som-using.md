@@ -1,6 +1,6 @@
 ---
 title: Using Sales Customer Relationship Management applications
-description: As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
+description: As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-using.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Sales Customer Relationship Management]
 
 # Using Sales Customer Relationship Management applications
 
-As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
+As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 
 From the workspace you can access product catalogs to see the product offerings available in your organization and select them for Sales Customer Relationship Management transactions. You use a configurator interface, either the [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-servicenowcpq.md) or the [legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-som-product-configurator.md), to customize configurable products that you add to opportunities, quotes, and orders or to make changes in sold products and product inventory.
 

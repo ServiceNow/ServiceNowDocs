@@ -1,5 +1,5 @@
 ---
-title: Create stories agentic workflow using ServiceNow Otto for Strategic Portfolio Management
+title: Create stories agentic workflow using ServiceNow Otto
 description: Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.html
@@ -7,12 +7,12 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-11-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create stories agentic workflow using ServiceNow Otto for Strategic Portfolio Management
+# Create stories agentic workflow using ServiceNow Otto
 
 Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 
@@ -53,5 +53,5 @@ To configure the Create stories agentic workflow and associated AI agents, see [
 
 ## Using the Create stories agentic workflow
 
-See [Generate stories for work items in EAP using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
+See [Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 

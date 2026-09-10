@@ -1,0 +1,73 @@
+---
+title: Service Graph Connector for Microsoft Defender for IoT \(Azure\) release notes
+description: The ServiceNow Service Graph Connector for Microsoft Defender for IoT \(Azure\) application automates the import of devices and sensor appliances. Service Graph Connector for Microsoft Defender for IoT \(Azure\) was enhanced and updated in the Zurich release.The ServiceNow Service Graph Connector for Microsoft Defender for IoT \(Azure\) application automates the import of devices and sensor appliances. Service Graph Connector for Microsoft Defender for IoT \(Azure\) was enhanced and updated in the Zurich release.
+locale: en-US
+release: zurich
+topic_type: topic
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+---
+
+# Service Graph Connector for Microsoft Defender for IoT \(Azure\) release notes
+
+The ServiceNow® Service Graph Connector for Microsoft Defender for IoT \(Azure\) application automates the import of devices and sensor appliances. Service Graph Connector for Microsoft Defender for IoT \(Azure\) was enhanced and updated in the Zurich release.
+
+## About Service Graph Connector for Microsoft Defender for IoT \(Azure\)
+
+-   View the class mappings available for the Service Graph Connector using the new Class Mappings menu
+-   Use the Firmware Installation \[cmdb\_firmware\_install\] table to capture the firmware version.
+-   Avoid OT entity update issues by using the new **ire\_criterion\_attribute** attribute on the OT Entity \[cmdb\_ot\_entity\] table.
+-   Extend capabilities of the Service Graph Connector to import devices actively scanned by Microsoft Defender for IoT.
+-   Ingest actively scanned devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance automatically using the **Site Map** table.
+
+See [Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/integration-sgc-microsoft-defender-iot-azure.md) for more information.
+
+## Activation and other requirements
+
+**Important:** Service Graph Connector for Microsoft Defender for IoT \(Azure\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Service Graph Connector for Microsoft Defender for IoT \(Azure\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/operational-technology-rn-landing.md)
+
+## Zurich
+
+The ServiceNow® Service Graph Connector for Microsoft Defender for IoT \(Azure\) application automates the import of devices and sensor appliances. Service Graph Connector for Microsoft Defender for IoT \(Azure\) was enhanced and updated in the Zurich release.
+
+### What's new
+
+-   **[View the class mappings available for the Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/sgc-microsoft-d4iot-azure-classes.md)**
+
+    View the available class mappings and targeted CMDB classes on the MSFT D4IoT Azure SGC Class Mappings page.
+
+-   **[Capture firmware version of devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/sgc-microsoft-d4iot-azure-classes.md)**
+
+    Firmware versions of your Service Graph Connector for Microsoft Defender for IoT \(Azure\) devices are captured in the Firmware Installation \[cmdb\_firmware\_install\] table.
+
+-   **[Use the ire\_criterion\_attribute in the OT Entity \[cmdb\_ot\_entity\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/sgc-microsoft-d4iot-azure-classes.md)**
+
+    The ire\_criterion\_attribute identifies configuration items \(CIs\) for an OT entity-related entry and helps avoid entity update issues.
+
+-   **[Actively scan device data from Microsoft Defender for IoT with the Site Mappings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/operational-technology/actively-scan-device-data-msft-azure.md)**
+
+    Access the Site Mappings table to actively scan devices from Microsoft Defender for IoT and assign them to a site in your ServiceNow instance.
+
+
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+

@@ -1,11 +1,11 @@
 ---
 title: Edit an existing application using Build Agent
-description: Modify existing ServiceNow applications using natural language prompts with Build Agent.
+description: Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/edit-an-existing-application-using-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-08-19"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -13,7 +13,7 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 # Edit an existing application using Build Agent
 
-Modify existing ServiceNow applications using natural language prompts with Build Agent.
+Use natural language prompts to modify an existing application in Build Agent. You can describe changes in plain language and review, refine, and approve updates before the application is built and installed.
 
 ## Before you begin
 
@@ -32,6 +32,7 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 -   Applications created with Build Agent are automatically added to the workspace in which they were created. They can also be opened in other workspaces in the ServiceNow IDE.
 -   For applications that were not developed using the ServiceNow IDE, ServiceNow Studio, or the ServiceNow SDK, you must convert them into Fluent format to enable development within the Build Agent. You can prompt the Build Agent to use the open app tool to locate the application you want. Alternatively, you can search for an application directly within the Build Agent, and it will automatically use the open app tool. The open app tool can find an application, convert it to Fluent format, and then add the converted app to your workspace.
 -   Copy an existing application created with the ServiceNow IDE or ServiceNow SDK from a Git repository. For more information, see [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md).
+-   Right-click a record or artifact and select **Configure** to open the metadata editor in ServiceNow Studio.
 
 ## Procedure
 
@@ -39,41 +40,47 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the \[Omitted image "ba-otto-icon.png"\] Alt text:ServiceNow Otto icon in the application banner.
+    ServiceNow Studio opens to a Build Agent chat box.
 
-    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
+    \[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
 
-2.  Select **Update an app** in the chat panel.
+2.  Display the Build Agent chat panel by selecting the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
 
-    \[Omitted image "ba-update-app-1.png"\] Alt text: Chat panel showing four action buttons with Update an app highlighted
+3.  Select **New conversation**.
 
-3.  Select the application that you want to edit and select the **Submit** button.
+    \[Omitted image "ba-sns-new-convo.png"\] Alt text: Build Agent panel with New conversation button highlighted. \[Omitted image ""\] Alt text:
+
+4.  Select **Update an app** in the chat panel.
+
+    \[Omitted image "ba-sns-update-app.png"\] Alt text: New Chat panel with Update an app highlighted.
+
+5.  Select the application that you want to edit and select the **Submit** button.
 
     Applications converted into ServiceNow Fluent code appear in the Application list.
 
     \[Omitted image "ba-update-app-2.png"\] Alt text: App selection dialog with Planner Tracker selected from a list of available apps
 
-4.  Describe what you want to change in the application in plain language.
+6.  Describe what you want to change in the application in plain language.
 
     Build Agent can provide you with some suggestions, such as `Update a table or add/modify fields`.
 
-5.  Select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:.
+7.  Select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:.
 
     Build Agent starts updating the application.
 
-6.  Review the changes in the Change Log in a tab in ServiceNow Studio and continue iterating to refine the app.
+8.  Review the changes in the Change Log in a tab in ServiceNow Studio and continue iterating to refine the app.
 
     For more information on the change log, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
 
     Review updates to generated tables, flows, and scripts, and preview any user interfaces created in your application. You can interact with the preview to make additional edits, for example, select a button in the **Preview** tab and tell Build Agent to `Change the color of the button to purple`.
 
-7.  Approve the changes:
+9.  Approve the changes:
 
     1.  If prompted, select **Review all edits** to view the changes.
 
     2.  If the changes are correct, select **Approve plan**.
 
-8.  Prompt and **Approve** Build Agent to build and deploy the application to an update set if it doesn't do so automatically.
+10. Prompt and **Approve** Build Agent to build and deploy the application to an update set if it doesn't do so automatically.
 
 
 ## Result
@@ -88,7 +95,7 @@ Review the application and its metadata in ServiceNow Studio using the change lo
 
 When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 
-If you want to view source code, open the ServiceNow IDE and select the **File Explorer** view from the Activity bar. The ServiceNow Fluent application code and other source code in the `src` directory appears.
+If you want to view source code, open the ServiceNow IDE within ServiceNow Studio and select the **Explorer** view from the Navigator panel. The ServiceNow Fluent application code and other source code in the `src` directory appears.
 
 \[Omitted image "build-agent-file-explorer.png"\] Alt text: File Explorer showing project structure with folders and configuration files
 

@@ -1,18 +1,19 @@
 ---
-title: Corrective action
-description: Create corrective action for the quality investigation case.
+title: Create a corrective action
+description: Create a corrective action for the quality investigation case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-corrective-action.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for quality issues, Create Product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+keywords: [corrective action, quality investigation, product quality investigation, quality management]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Corrective action
+# Create a corrective action
 
-Create corrective action for the quality investigation case.
+Create a corrective action for the quality investigation case.
 
 ## Before you begin
 
@@ -31,12 +32,12 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-pqi.md)
+**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
 
 **Related topics**  
 
 
-[CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
+[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)
 
 [Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md)
 

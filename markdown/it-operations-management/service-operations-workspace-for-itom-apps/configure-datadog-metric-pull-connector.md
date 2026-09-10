@@ -1,28 +1,34 @@
 ---
 title: Configure Datadog metric pull connector
-description: Configure metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
+description: Configure OAuth-based integration between your Datadog instance and ServiceNow Event Management to securely ingest metric from the Datadog Instance. This setup enables authenticated metric delivery using client credentials, maps discovered server CIs, and allows anomaly alerts to create actionable events in ServiceNow through standard webhooks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-datadog-metric-pull-connector.html
 release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-08-17"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Datadog metric pull connector
 
-Configure metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
+Configure OAuth-based integration between your Datadog instance and ServiceNow Event Management to securely ingest metric from the Datadog Instance. This setup enables authenticated metric delivery using client credentials, maps discovered server CIs, and allows anomaly alerts to create actionable events in ServiceNow through standard webhooks.
 
 ## Before you begin
 
-Role required: evt\_mgmt\_admin
-
 Configure the Datadog API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Datadog API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/API-key-credential-form.md).
 
+Ensure you have the application key configured in the Datadog. For more information, see [https://docs.datadoghq.com/account\_management/api-app-keys/](https://docs.datadoghq.com/account_management/api-app-keys/).
+
+To use container metrics: First, discover your Docker Container CIs \(through Discovery, Cloud Discovery, or Agent Client Collector\) so that the container\_id field on each cmdb\_ci\_docker\_container record is populated. The shipped Datadog Metrics Container Binding event rule matches container metric events to these CIs based on container\_id. Datadog reports the container\_id as the container's short ID \(the first 12 characters of the Docker container ID\), which is what Discovery stores on the CI. Once the CIs are discovered, enable the Enable container metrics advanced setting \(set it to true\).
+
+Role required: evt\_mgmt\_admin
+
 ## About this task
+
+The Datadog connector can collect Docker container metrics and bind them to Docker Container CIs \(cmdb\_ci\_docker\_container\). This capability is off by default and is enabled through the **Enable container metrics** advanced setting.
 
 ## Procedure
 
@@ -32,7 +38,7 @@ Configure the Datadog API Key credential from **All** &gt; **Connections and Cre
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
-3.  On the ITOM AIOps configuration center page, under the **Setup** &gt; **Integrations** section, select **Add integrations**.
+3.  On the ITOM AIOps configuration center page, under the **Setup** &gt; **Integrations** section, select **Manage Installed integrations**.
 
 4.  In the **Browse Integrations** tab, select the **All integrations** drop-down list and select **Metrics** &gt; **Pull**.
 
@@ -67,9 +73,10 @@ Configure the Datadog API Key credential from **All** &gt; **Connections and Cre
 
         **Note:** You can select multiple MID Server. The system randomly assigns one as the primary and uses the others as backups.
 
+    -   in the **Application key** field, enter the application key that is associated with the user account.
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md).
+    For more information on fields, see [Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d387569e245">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d388130e245">
 
 Option
 
-</th><th align="left" id="d387569e248">
+</th><th align="left" id="d388130e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d387569e254">
+</th></tr></thead><tbody><tr><td id="d388130e254">
 
 **Yes, draft with ServiceNow Otto**
 
@@ -76,7 +76,7 @@ Description
 
 Use ServiceNow Otto to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d387569e270">
+</td></tr><tr><td id="d388130e270">
 
 **No, write it myself**
 

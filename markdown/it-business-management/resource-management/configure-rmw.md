@@ -39,6 +39,8 @@ Define and assign custom statuses for resource assignments to mark the assignmen
 Configure the resource profiling score to adjust how the AI Resource Finder ranks candidates by modifying attribute weights in the CandidateProfileScoringConfigSNC script include.
 -   **[Configure progressive disclosure for the resource board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/config-progressive-disclosure-rmw.md)**  
 Configure whether the resource board in the Resource Management Workspace uses progressive disclosure to load users incrementally or loads all 200 users at once.
+-   **[Scheduled job to handle resource effort termination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/resource-termination-scheduled-job.md)**  
+Activate and define a scheduled job to automatically terminate requested or allocated efforts based on the last working day of the resource.
 
 **Parent Topic:**[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rsrc-mgmt-wrkspc.md)
 

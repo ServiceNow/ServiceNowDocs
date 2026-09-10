@@ -1,6 +1,6 @@
 ---
 title: Manually create and review your network asset instances
-description: A key function that you can perform in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+description: A key function that you can perform in the network inventory workspace is to manually create your network assets. You can also build a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.html
 release: zurich
@@ -14,9 +14,9 @@ breadcrumb: [Defining inventory records, Use, Telecommunications Network Invento
 
 # Manually create and review your network asset instances
 
-A key function that you can perform in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+A key function that you can perform in the network inventory workspace is to manually create your network assets. You can also build a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 
-To manually create and to review your individual network inventory records, and define the relationships between each asset, you can easily access the appropriate forms from the workspace landing page. For example, you can select the **Interface cards** count in the Network entities by categories widget on the Network Inventory Workspace landing page to create an interface card instance.
+To manually create and review your individual network inventory records, access the appropriate forms from the workspace landing page. For example, you can select the **Interface cards** count in the Network entities by categories widget on the Network Inventory Workspace landing page to create an interface card instance.
 
 **Note:** As an alternative to manually creating individual network asset instances, you can instead use a more automated, and potentially less labor-intensive method to do so. To learn more, see the following:
 

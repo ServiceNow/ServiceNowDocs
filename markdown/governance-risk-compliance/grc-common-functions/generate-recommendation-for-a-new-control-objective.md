@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Use generative AI skills, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Use Recommendation of similar control objectives skill to generate suggestions

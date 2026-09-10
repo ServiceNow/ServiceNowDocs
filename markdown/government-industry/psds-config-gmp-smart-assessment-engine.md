@@ -71,5 +71,5 @@ The template is now published, and can be selected in the **Compliance Assessmen
 
 **Previous topic:**[Configure PaCE Restricted Caller Access Privileges \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-rca.md)
 
-**Next topic:**[Configure the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-reviewer-service-portal.md)
+**Next topic:**[Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-gpp-tabs.md)
 

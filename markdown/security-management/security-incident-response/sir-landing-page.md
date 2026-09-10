@@ -59,7 +59,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 </td></tr></tbody>
 </table>## Request a Security Operations app on Store
 
-If you are a new Security Operations customer on London Patch 6 or later, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+If you are a new Security Operations customer on London Patch 6 or later, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all available apps. For information about submitting requests to the store, see the website.
 
 ## Troubleshoot and get help
 

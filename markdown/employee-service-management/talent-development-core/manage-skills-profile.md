@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_skills\_int.emp
 
 The **Career** tab contains various widgets to manage your work data like, experience, aspirations, and skills in your profile.
 
-**Note:** The **Career** tab and the widgets are activated with the installation of the Skills Foundation application driven by the sn\_skills\_int.enable\_skills property. For more information, see [Add the Career tab and enable the Skills widget in the Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/add-career-tab.md).
+**Note:** The **Career** tab and the widgets are activated with the installation of the Skills Foundation application driven by the sn\_skills\_int.enable\_skills property. For more information, see [Add the Career tab in the Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/add-career-tab.md).
 
 ## Role details
 
@@ -43,7 +43,7 @@ View objectives that enable you to excel in your career and also promote growth 
 
 ## Achievements
 
-Import and view your accomplishments as credentials from Credly by syncing the badges into your organization’s Credly account.
+Import and view your accomplishments as credentials from Credly by synchronizing the badges into your organization’s Credly account.
 
 \[Omitted image "career-achievments-credentials.png"\] Alt text: Credentials
 
@@ -72,7 +72,7 @@ There are three sections within the skills widget. All the skills within these s
 
 -   **Additional skills**
 
-    Skills in your profile that are not part of your role level are displayed in the additional skills section. The skills that have been derived from your resume or added manually using the **Add skill** option are also part of the additional skills. For more information, see [Add skills by using the skill recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/add-skills-using-skill-recommender.md).
+    Skills in your profile that aren't part of your role level are displayed in the additional skills section. The skills that have been derived from your resume or added manually using the **Add skill** option are also part of the additional skills. For more information, see [Add skills by using the skill recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/add-skills-using-skill-recommender.md).
 
 -   **Recommended skills**
 

@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 12
 keywords: [agentic AI, generative AI, Gen AI]
 breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -16,6 +16,16 @@ breadcrumb: [Agentic AI in the Change Management application, Use agentic AI in 
 # IT Service Management AI agent collection assess quality of a change request agentic workflow
 
 Use the assess quality of a change request agentic workflow to assess the quality of a change request and generate suggestions to improve the information in the fields. The workflow uses an active change policy document if one applies, or falls back to similar closed change requests.
+
+**Note:** Change request plans AI agent can be used to set the values in the change request. For more information, see .
+
+## AI agent execution modes
+
+The change quality assessor AI agent is available in two versions: version 1 \(supervised mode\) and version 2 \(autonomous mode\).
+
+In version 1, supervised mode, the AI agent assesses the change request and prompts the user for confirmation. After the initial confirmation, the agent adds field suggestions to the change request. After a second confirmation, it records the change score in the Change Quality Scores table and saves the work notes to the change request.
+
+In version 2, autonomous mode, the AI agent acts without pausing for user confirmation. The agent assesses the change request and suggests improvements automatically. It records the change score in the Change Quality Scores table and saves the work notes to the change request without setting values on change request fields. Use the Change request plans AI agent to update values on the change request field. For more information, see .
 
 ## Change quality assessor AI agent overview
 
@@ -53,8 +63,6 @@ To create a change policy document:
 5.  Select **Submit**.
 
 When you save the record, the **Ingest policy document** business rule runs automatically. It calls to extract the policy criteria from the attached document, populates the **Policies** field with the results, and selects the **Active** check box.
-
-\[Omitted image "Assess\_change\_quality\_using\_change\_policy\_control.png"\] Alt text: Change Policy Control form for Normal Type showing the Name, Active, Policies, and Change Type fields populated after ingesting a policy document.
 
 Keep the following in mind when working with change policy documents:
 
@@ -121,6 +129,31 @@ To make the workflow available in the panel:
 
 **Note:** Turning on the **Display** toggle is the only configuration required. The remaining configuration is available out of the box. Turning on this toggle also triggers a business rule that activates the text index the workflow requires for change requests.
 
+## Configure change quality assessor AI agent versions
+
+Select the active version for each change quality assessor child AI agent. The version controls whether the agent surfaces recommendations only or also sets change request fields.
+
+The following child AI agents each support two versions:
+
+-   **Change quality assessor using change policy documents** AI agent
+-   **Change quality assessor using similar changes** AI agent
+
+Each agent supports the following versions:
+
+-   **Version 1 \(supervised\)**: The agent asks for confirmation before setting a field.
+-   **Version 2 \(autonomous\)**: The agent surfaces recommendations but does not set change request fields.
+
+To set the active version:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+2.  Open the child AI agent to configure.
+3.  On the **Define the specialty** page, select **View versions**.
+4.  In the **View all versions** dialog, select a version from the list.
+5.  Turn on the **Set as active** toggle.
+6.  Select **Save**.
+
+**Note:** On the **Add tools and information** page, each tool shows an **Execution mode** of **Autonomous** or **Supervised**. Regardless of the active version, the **Set Change Field** and **Set chosen Change Fields** tools always run in supervised mode.
+
 ## Assess a change request from the ServiceNow Otto panel
 
 To assess a change request, open the change request and enter a prompt in the ServiceNow Otto panel, such as assess quality of &lt;change request number&gt;. You can enter the change request number from the list of suggestions, add keywords, or type a custom prompt.
@@ -131,7 +164,15 @@ The agent returns a quality assessment in the panel. The assessment includes:
 -   A summary of the assessed fields with a justification for each rating.
 -   Suggested improvements for fields that are not rated **Excellent**.
 
-The agent asks for confirmation before updating any field. When you confirm a suggested value, the agent updates the field, saves the change request, and marks the update as **AI Generated**. The agent then asks whether to record the quality summary. If you confirm, the summary is added to **Work notes** and a record is created in the **AI Change Quality Scores** table.
+The results that the AI agent generates depend on the configured agent version.
+
+**Version 1 \(supervised mode\)**: In Version 1, the agent asks for confirmation before it updates any field. On confirmation of a suggested value, the agent updates the field, saves the change request, and marks the update as **AI Generated**. The agent then asks whether to record the quality summary. On confirmation, the agent adds the summary to the **Work notes** field and creates a record in the AI Change Quality Scores table.
+
+**Note:** Select Version 1 for the agent to suggest and write field values. For more information, see Configure change quality assessor AI agent versions section in this topic.
+
+**Version 2 \(autonomous mode\)**: In Version 2, the agent automatically records the quality rating and the explanation as a work note on the change request. The agent also creates a record in the AI Change Quality Scores table. This record stores the change request, the explanation, the per-field score, the rating, and the numerical score. The agent does not update any fields on the change request, such as **Impact**, **Priority**, or **State**. Use the Change request plans AI agent to update values on the change request field. For more information, see .
+
+The system keeps only the most recent rating for a change request. A second assessment of the same change request replaces the existing AI Change Quality Scores record instead of adding a record. If the policy control record that a rating used is later deactivated, the existing score record continues to reference that policy control record. This reference persists as long as the change request is not reassessed. The score record still shows which policy version applied and when it applied. The AI generated results are generated based on the agent version setup.
 
 For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

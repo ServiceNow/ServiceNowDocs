@@ -1,6 +1,6 @@
 ---
 title: Status reporting in Project Workspace
-description: A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+description: A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health . These areas include cost, resources, milestones, health, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/project-workspace/status-reporting-in-pw.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic
 
 # Status reporting in Project Workspace
 
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health . These areas include cost, resources, milestones, health, and more.
 
 \[Omitted video\] Description: Status reporting in Project Workspace video.
 
@@ -48,7 +48,7 @@ Status report templates simplify the process of generating project updates by pr
 -   Default Status Report: This template includes a more comprehensive range of data points, covering areas such as milestones, risks, issues, decisions, and change requests. It offers a detailed view of the project's progress and status, similar to a classic status report.
 
 -   You can create a status report using one of the existing templates: [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
--   You can also create your own status report template from scratch: [Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+-   You can also create your own status report template from scratch: [Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
 ## Project status reports using AI
 
@@ -78,5 +78,5 @@ Project health outcomes \(such as red/yellow/green\) are determined by admin-con
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

@@ -58,7 +58,7 @@ The color of the horizontal bar changes incrementally to reflect the completion 
 
 The available phases depend on how Project Management is installed. When Project Management is installed as a standalone app, the project manager can only create and edit the Waterfall phase type. When Project Management is installed as part of the Project Portfolio Management \(PPS\), the project manager can create and edit all phase types \(Waterfall, Agile, and Test\).
 
-When you point to a phase, the cursor changes from an arrow to a hand and a pop-up window displays the phase name and the start and end dates. Clicking a phase in the timeline displays the corresponding task information in the bottom pane of the project workbench.
+When you point to a phase, the cursor changes from an arrow to a hand. A pop-up window also displays the phase name and the start and end dates. Clicking a phase in the timeline displays the corresponding task information in the bottom pane of the project workbench.
 
 **Milestones in timeline**
 

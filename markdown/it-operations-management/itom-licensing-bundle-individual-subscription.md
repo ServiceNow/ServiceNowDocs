@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-licensing-bundle-individual-subscription.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ITOM/OT SU Licensing subscription types, Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -14,13 +14,13 @@ breadcrumb: [ITOM/OT SU Licensing subscription types, Explore ITOM/OT SU Licensi
 
 You can purchase subscriptions for individual ITOM applications \(a la carte\) or as a bundle covering multiple ITOM applications.
 
-The ITOM/OT SU Licensing application calculates and displays the subscription usage for ITOM products. It displays the ITOM products individually or as part of a bundle, based on your subscription. In cases where your organization has purchased ITOM subscriptions both as a bundle and individually \(a la carte\), the licensing module deducts the consumed subscriptions from the bundle first, before deducting from the individually purchased subscriptions.
+The ITOM/OT SU Licensing application calculates and displays the subscription usage for ITOM products. It displays the ITOM products individually or as part of a bundle, based on your subscription. Your organization can purchase ITOM subscriptions both as a bundle and individually \(a la carte\). The licensing module deducts consumed subscriptions from the bundle first, before deducting from individually purchased subscriptions.
 
-If your organization surpasses the allocated number of subscription units, the Subscriptions window indicates the corresponding subscriptions as overdrawn. If the combined number of subscriptions from both bundle and a la carte options exceeds the allocation, the licensing module identifies the surplus as taken from the a la carte subscription. Furthermore, if the total subscriptions for an application covered solely by the bundle surpass the allocation, the Subscriptions window displays the bundle as overdrawn without listing the individual application separately.
+If your organization surpasses the allocated number of subscription units, the Subscriptions window indicates the corresponding subscriptions as overdrawn. When subscriptions from both bundle and a la carte options exceed the allocation, the surplus is identified as taken from the a la carte subscription. If the total subscriptions for an application covered solely by the bundle surpass the allocation, the Subscriptions window displays the bundle as overdrawn. The individual application is not listed separately.
 
 ## Subscription deduction process: Bundle usage and a la carte scenario
 
-If you purchased ITOM subscriptions as a bundle and also acquired a la carte subscriptions for an application included in the bundle, the licensing module deducts the consumed subscriptions from the bundle before subtracting from the separately purchased subscriptions.
+If you purchased ITOM subscriptions as a bundle and acquired a la carte subscription for an application included in the bundle, subscriptions are deducted in a specific order. The licensing module deducts consumed subscriptions from the bundle first, then from the separately purchased subscriptions.
 
 In the following example, an organization utilized all subscriptions allocated by the ITOM Pro bundle for ITOM AIOps. Subsequently, the licensing module deducted from the a la carte subscriptions for ITOM AIOps.
 
@@ -40,7 +40,7 @@ The diagram illustrates how the licensing module calculates subscriptions throug
 
 In this scenario, the Subscriptions window indicates the a la carte subscriptions for this application as overdrawn. If your organization exceeds the total subscriptions for an application covered solely by the bundle, the Subscriptions window displays the bundle as overdrawn.
 
-In the provided figure, ITOM AIOps consumed 810 subscriptions, surpassing the subscriptions provided by the bundle \(500\) and a la carte \(250\). Consequently, the Subscriptions window indicates the ITOM AIOps a la carte subscription as overdrawn.
+In the provided figure, ITOM AIOps consumed 860 subscriptions, surpassing the subscriptions provided by the bundle \(500\) and a la carte \(250\). Consequently, the Subscriptions window indicates the ITOM AIOps a la carte subscription as overdrawn.
 
 For ITOM Visibility, which consumed 550 subscriptions, and with no a la carte subscriptions purchased, the ITOM Pro bundle covering ITOM Visibility appears as overdrawn.
 

@@ -25,6 +25,7 @@ This evaluation version works on the data that you have stored in your productio
 -   Allows you to access a CSM preconfigured Process Mining project configuration limited to up to 3600 records that were resolved in the last seven days. If there are more than 3600 records resolved in the last seven days, the evaluation is restricted to the first 3600 records.
 -   The default activity definitions are: State and Assignment group \(so you can analyze State and Assignment group\).
 -   Includes multiple automated improvement opportunities such as ping-pong, rework, and others.
+-   Includes a rule-based finding that flags cases that take longer to route than to resolve.
 -   Includes introduction videos, FAQs, Academy sessions, and use cases.
 
 The promin.pa\_integration\_required\_roles is already available that would enable you to run the project. For more information, see [Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/components-installed.md).

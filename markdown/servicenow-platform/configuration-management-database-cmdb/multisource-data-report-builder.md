@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 12
+reading_time_minutes: 11
 breadcrumb: [CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +18,7 @@ Improve CMDB data management by querying and reporting on Multisource CMDB data.
 
 ## CMDB 360 in CMDB Workspace
 
-Starting with the Zurich release, the Multisource CMDB feature is part of the CMDB 360 feature which is accessible in the CMDB Workspace. Create, view, modify, schedule, create reports, and run CMDB 360 queries using the [CMDB 360 query builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) store app. Use the CMDB 360 query builder to create queries of the following types:
+Starting with the Zurich release, the Multisource CMDB feature is part of the CMDB 360 feature which is accessible in the CMDB Workspace. Create, view, modify, schedule, create reports, and run CMDB 360 queries using the CMDB 360 query builder in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) store app. Use the CMDB 360 query builder to create queries of the following types:
 
 -   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Queries your discovery sources for CIs that match your criteria.
 -   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Queries for gaps in discovery sources reporting your CMDB 360 data. Queries discovery sources that report CIs against discovery sources that don't report those same CIs.
@@ -268,7 +268,7 @@ Role required: cmdb\_ms\_user
 
 Creating a report that is based on a Multisource \(CMDB 360\) query, creates a report source which you can then manage using [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/reporting-landing-page.md) capabilities.
 
-**Note:** If you are using the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) to generate the CMDB 360 query and the report, you can skip to step 4 in the procedure below.
+**Note:** If you are using the  to generate the CMDB 360 query and the report, you can skip to step 4 in the procedure below.
 
 ### Procedure
 

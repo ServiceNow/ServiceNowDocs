@@ -25,6 +25,7 @@ This evaluation version works on the data that you have stored in your productio
 -   Allows you to access a preconfigured Process Mining project configuration limited to up to 3600 records that were closed in the last seven days. If there are more than 3600 records closed in the last seven days, the evaluation is restricted to the first 3600 records.
 -   The default activity definitions are: State and Assignment group \(so you can analyze State and Assignment group\).
 -   Includes multiple automated improvement opportunities such as ping-pong, rework, and others.
+-   Includes a rule-based finding that flags cases that take longer to route than to resolve.
 -   Includes introduction videos, FAQs, Academy sessions, and use cases.
 
 If you have the following required roles, you will have the Process Mining for HR icon or the Performance Analytics KPIs icon:

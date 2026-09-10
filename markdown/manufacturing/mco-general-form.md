@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-general-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
@@ -17,9 +17,9 @@ General forms used in MCO.
 -   **[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-notes.md)**  
 Notes form enables you to add the watch list details.
 -   **[Resolution information form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-resolution-information-form.md)**  
-To be done.
+This form enables you to add the report closing details.
 -   **[Effectiveness form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-effectiveness-form.md)**  
-To be done.
+This form enables you to add the effectiveness information.
 -   **[Discuss form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-discuss-sidebar.md)**  
 The Start a Sidebar discussion form enables you to start a discussion.
 

@@ -1,6 +1,6 @@
 ---
-title: Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace
-description: Configure settings on the CMDB 360 of the CMDB Workspace or the Service Graph Workspace to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards on your CMDB 360 dashboard.
+title: Configure the CMDB 360 dashboard in CMDB Workspace
+description: Configure settings on the CMDB 360 of the CMDB Workspace to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards on your CMDB 360 dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.html
 release: zurich
@@ -12,26 +12,22 @@ reading_time_minutes: 6
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace
+# Configure the CMDB 360 dashboard in CMDB Workspace
 
-Configure settings on the CMDB 360 of the CMDB Workspaceor the Service Graph Workspace to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards on your CMDB 360 dashboard.
+Configure settings on the CMDB 360 of the CMDB Workspace to determine how your CMDB 360 data is analyzed and aggregated. These settings affect the data that appears on the cards and the records shown when you drill down on those cards on your CMDB 360 dashboard.
 
 ## About this task
 
-For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, that are installed with CMDB Workspace, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md)or [Components installed with Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-sg-workspace.md).
+For detailed information about CMDB 360-related components, such as system properties, scheduled jobs, and tables, that are installed with CMDB Workspace, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 
 ## Before you begin
-
-To access the CMDB 360 dashboard in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: cmdb\_ms\_admin
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 2.  Select **Settings**.
 
 3.  Configure Global settings.

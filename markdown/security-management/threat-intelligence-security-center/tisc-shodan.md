@@ -1,20 +1,20 @@
 ---
 title: Shodan integration
-description: Shodan is a search engine that analyzes service banner information from connected devices all around the globe.
+description: Configure Shodan integration to enable automated discovery and analysis of internet-connected devices in your network infrastructure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/tisc-shodan.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Observable Enrichment, TISC Enrichment Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure Observable Enrichment, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Shodan integration
 
-Shodan is a search engine that analyzes service banner information from connected devices all around the globe.
+Configure Shodan integration to enable automated discovery and analysis of internet-connected devices in your network infrastructure.
 
 The Shodan integration performs enrichment on the following observables:
 

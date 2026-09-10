@@ -45,7 +45,7 @@ You can open the work item from the success message to add more information.
 
 ## What to do next
 
--   Refine the description with Now Assist. See .
+-   Refine the description with Now Assist.
 
     This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 

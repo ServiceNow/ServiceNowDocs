@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -26,29 +26,29 @@ As a hardware model manager, you can add lifecycle data to a hardware model.
 
 **Note:** The start date of a subsequent lifecycle phase marks the end of the previous lifecycle phase. Hence there is no phase end date specified in the lifecycle information pop-up.
 
-If you do not want a lifecycle phase to be rendered on the TPM timeline, then set the **Active** flag of that software product lifecycle record to false. For example, you can have **General Availability**, **End of Extended Support**, and **End of Support** lifecycle phases as three records for **Oracle DB Server** software model in the Software Product Lifecycles list. However, if you do not want **General Availability** phase to be shown on the timeline, you can clear the **Active** check box in the Software Product Lifecycle form for that lifecycle phase record. As a result, the timeline starts with the End of Support phase. Although the lifecycle phase record exists for the software product lifecycle, the lifecycle data will not be rendered on the timeline. Because only active lifecycle records are considered and plotted in the TPM timeline.
+If you don't want a lifecycle phase to be rendered on the TPM timeline, then set the **Active** flag of that software product lifecycle record to false. For example, you can have **General Availability**, **End of Extended Support**, and **End of Support** lifecycle phases as three records for **Oracle DB Server** software model in the Software Product Lifecycles list. If you do not want **General Availability** phase to be shown on the timeline, clear the **Active** check box in the Software Product Lifecycle form for that lifecycle phase record. As a result, the timeline starts with the End of Support phase. Although the lifecycle phase record exists for the software product lifecycle, the lifecycle data will not be rendered on the timeline. Only active lifecycle records are considered and plotted in the TPM timeline.
 
 ## Lifecycle sources on the timeline
 
-The sources of the publisher and internal lifecycle types are generated externally and internally, respectively. The records that are created internally are marked as **I** on the timeline and you cannot edit such product lifecycle source. But, if the publisher is external and if there are more than one publisher source for the same product model, then you can configure your preferred publisher source using the [field mapping functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/example-field-mapping.md) to the **Sequence** field in the Choices \[sys\_choice\_list\] table.
+The sources of the publisher and internal lifecycle types are generated externally and internally, respectively. The records that are created internally are marked as **I** on the timeline and you cannot edit such product lifecycle source. If the publisher is external and there are multiple publisher sources for the same product model, you can configure your preferred publisher source. Use the [field mapping functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/example-field-mapping.md) to set the **Sequence** field in the Choices \[sys\_choice\_list\] table.
 
 The timeline shows the publisher sources that fulfill the following conditions:
 
 -   The publisher source with the least sequence number is prioritized and plotted on the timeline.
--   If a product model has multiple publisher sources for its lifecycle phases, then the source with the least Sequence number alone is plotted on the timeline and the rest of the phases are not considered.
+-   If a product model has multiple publisher sources for its lifecycle phases, the source with the least Sequence number is plotted on the timeline. The rest of the phases are not considered.
 -   The first alphabet in the name of the publisher source is plotted on the timeline. However, if there is more than one source beginning with the same letter, then the character is appended with a positive integer. For example, C1 for Central, C2 for Corporate.
 
 ## Date range configuration for the lifecycle phases
 
-If you are an admin user, then you can configure the date ranges.
+If you're an admin, then you can configure the date ranges.
 
 1.  To configure the date ranges, navigate to **System Properties** &gt; **All Properties**.
-2.  Click **startRangeOfTPMLifecycle** property name to open the record.
+2.  Select **startRangeOfTPMLifecycle** property name to open the record.
 3.  Enter a positive value of your choice for the start range of TPM lifecycle in the timeline.
-4.  Click **Update**.
-5.  Click **endRangeOfTPMLifecycle** property name to open the record.
-6.  Enter a positive value of your choice for the end range of TPM lifecycle.
-7.  Click **Update**.
+4.  Select **Update**.
+5.  Select **endRangeOfTPMLifecycle** property name to open the record.
+6.  Select a positive value of your choice for the end range of TPM lifecycle.
+7.  Select **Update**.
 
 To know more about the Date conditions and the lifecycle phases of the record, see [Date conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/date-conditions.md).
 

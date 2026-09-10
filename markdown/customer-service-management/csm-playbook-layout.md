@@ -1,6 +1,6 @@
 ---
 title: Playbook layout and features
-description: A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
+description: A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-layout.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize age
 
 # Playbook layout and features
 
-A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
+A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CRM Workspace.
 
 UI Builder [page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-templates.md) and [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-pages.md) that include horizontally and vertically oriented playbooks are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\].
 

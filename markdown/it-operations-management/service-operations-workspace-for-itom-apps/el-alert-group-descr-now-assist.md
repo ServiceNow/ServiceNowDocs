@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Express List, Event Management, Alert, Otto]
-breadcrumb: [Viewing an alert group analysis by ServiceNow Otto in Express List, Using agentic and generative AI in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing an alert group analysis by ServiceNow Otto in Express List, Using agentic and generative AI in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Update an alert description in Express List based on a ServiceNow Otto analysis summary

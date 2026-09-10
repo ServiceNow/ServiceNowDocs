@@ -61,6 +61,8 @@ The Source-to-Pay Workspace helps you automate the entire process, right from tr
 Several email notifications are triggered from Playbook. This may be a result of your action, an assignment for you, or to keep you updated on the status of your purchases, including purchase revisions.
 -   **[Email composer with quick messages and response templates in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/email-composer-with-quick-messages-and-response-templates-psm.md)**  
 Insert predefined content into the message body of emails that you send from the email client in Source-to-Pay Workspace.
+-   **[View received, sent, and draft emails on procurement records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/emails-related-list.md)**  
+Procurement specialists can see the emails associated with a purchase requisition, purchase order, or procurement case directly on the record, instead of switching to a separate mailbox.
 -   **[Agent assist in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/agent-assist-procurement-workspace.md)**  
 Agent assist in Source-to-Pay Workspace automatically displays relevant search results based on the search text, which is defaulted with the short description of the procurement case you’re working on. You can edit the search text as required. These search results help you to work on the record.
 -   **[Interaction Management in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.md)**  
@@ -79,9 +81,13 @@ The Procurement Case Management Dashboard helps you to track, analyze, and manag
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Spend and Savings Management]()
 

@@ -30,7 +30,7 @@ To remediate failures of the duplicate metric, use [de-duplication tasks](https:
 
 For all metrics except for audit, each CI that failed a metric test is associated with a single task. Because a CI can fail multiple audits, a single CI can be associated with multiple audit tasks. The first of those tasks is in the **Task** field, and any additional tasks are in the **Additional Tasks** field. To remediate failures of the audit metric, refer to the audit tasks for the audits that the CI failed.
 
-CMDB remediation is applied in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
+CMDB remediation is applied in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or .
 
 ## Procedure
 

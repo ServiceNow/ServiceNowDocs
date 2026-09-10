@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -20,9 +20,9 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-Enterprise Architecture takes advantage of CMDB Query Builder to build complex queries and retrieve data from CMDB CI classes, Enterprise Architecture tables, and configuration items that are associated to each other by different CMDB CI relationships.
+Enterprise Architecture takes advantage of CMDB Query Builder to build complex queries and retrieve data from CMDB CI classes and Enterprise Architecture tables. You can also retrieve data from configuration items that are associated to each other by different CMDB CI relationships.
 
-Before launching the reports that fetch data from the tables and CMDB CI classes, you must run the respective scheduled jobs. These jobs are set as active with frequency as **On Demand**. However, update the frequency as per your requirement to daily, weekly, monthly, periodically, once, on demand, Business Calendar – entry start, or entry end, based on how often the data for the report should be updated. Set the frequency of these scheduled jobs accordingly. For more information, see [Run scheduled jobs for CMDB Query Builder reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/scheduled-job-cmdb-query-builder.md).
+Before launching the reports that fetch data from the tables and CMDB CI classes, you must run the respective scheduled jobs. These jobs are set as active with frequency as **On Demand**. Update the frequency based on how often the data for the report should be updated. Available options include daily, weekly, monthly, periodically, once, on demand, Business Calendar – entry start, or entry end. For more information, see [Run scheduled jobs for CMDB Query Builder reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/scheduled-job-cmdb-query-builder.md).
 
 **Note:** Ensure to run these scheduled jobs from **Global** scope only. Only a system administrator can run these scheduled jobs from global scope. However, as an Enterprise Architecture user you can view the reports.
 

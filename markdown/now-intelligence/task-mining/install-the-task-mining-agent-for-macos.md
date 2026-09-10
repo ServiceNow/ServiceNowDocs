@@ -38,11 +38,11 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Select an existing key or create one.
 
-        \[Omitted image "image.tm-agent-3"\] Alt text: Screenshot of registration key selection.
+        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
 
     3.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    \[Omitted image "image.tm-agent-4"\] Alt text: Screenshot of instance URL and registration key.
+    \[Omitted image "tm-agent-4.png"\] Alt text: Screenshot of instance URL and registration key.
 
 2.  Install the macOS agent by running the terminal script.
 
@@ -50,7 +50,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Select **Copy** next to **Download and Install** to collect the one-line macOS command line script.
 
-        \[Omitted image "image.tm-agent-2"\] Alt text: Screenshot of macOS command line.
+        \[Omitted image "tm-agent-2.png"\] Alt text: Screenshot of macOS command line.
 
     3.  Open the macOS **Terminal** application.
 
@@ -60,7 +60,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     **Note:** For a manual install, download the Intel &amp; Apple Silicon and JSON files. Place both files in the same folder. Do not rename the JSON file. Double-click \(or use the keyboard shortcut\) the .pkg file to launch the installer, and follow the on-screen instructions.
 
-    \[Omitted image "image.tm-agent-1"\] Alt text: Screenshot of JSON and Intel &amp; Apple Silicon.
+    \[Omitted image "tm-agent-1.png"\] Alt text: Screenshot of JSON and Intel &amp; Apple Silicon.
 
 3.  Add the agent package to JAMF.
 

@@ -31,7 +31,7 @@ You can also use web search as a fallback option. For example, if you ask `What'
 
 \[Omitted image "dw-web-search-fallback-example.png"\] Alt text: Search the web button is a fallback option for end users.
 
-**Note:** When entering web search via the Start web search icon \(\[Omitted image "Globe.png"\] Alt text: Start web search icon.\), the prior conversational history is blanked out. When entering web search via the fallback **Search the web** option, only the last query prior to entering web search mode is taken into account.
+**Note:** When entering web search via the Start web search icon \(\[Omitted image "Globe.png"\] Alt text: Start web search icon.\), the prior conversational history is blanked out. When entering web search via the fallback **Search the web** option, only the last query before entering web search mode is taken into account.
 
 To exit out of web search mode and return to internal search results, do one of the following:
 

@@ -26,7 +26,7 @@ Upgrade MID Servers manually, or automatically through the instance. MID Server 
 
 -   **MID Server access to OCSP blocked**
 
-    Firewalls and proxy configurations may block calls to the OCSP Entrust and DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
+    Firewalls and proxy configurations may block calls to the OCSP DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
 -   **MID Server operating system compatibility**
 

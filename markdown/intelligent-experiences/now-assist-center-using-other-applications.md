@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-07-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Using other AI applications and features from AI Admin Center
@@ -39,7 +39,7 @@ AI Agent Advisor section of the AI Admin Center home page, Automation opportunit
 
  Navigate to **AI Admin Center** &gt; **Home** and view the **AI Agent Advisor** section.
 
- For more information, see [Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Asset inventory page.
 
  Navigate to **AI Admin Center** &gt; **Asset inventory**.
 
- For more information, see [Using the asset inventory in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-asset-inventory.md).
+ For more information, see [Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-asset-inventory.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ AI Admin Hub page
 
  Navigate to **AI Admin Center** &gt; **Admin** and select one of the options under **AI Experiences**.
 
- For more information, see [Using AI Admin Hub features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-admin-console.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ AI Admin Hub page
 
  Navigate to **AI Admin Center** &gt; **Admin**.
 
- For more information, see [Using AI Admin Hub features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-admin-console.md).
+ For more information, see .
 
 </td></tr><tr><td>
 
@@ -137,28 +137,7 @@ AI Readiness section of the AI Admin Center home page, AI readiness page, and as
 
  Navigate to **AI Admin Center** &gt; **AI readiness**.
 
- For more information, see [Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+ For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
 </td></tr></tbody>
-</table>-   **[Using AI Admin Hub features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-admin-console.md)**  
-Access AI Admin Hub features in the AI Admin Center workspace.
--   **[Use AI Data Kit features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-use-data-kit-features.md)**  
-Use AI Data Kit on the data page in the AI Admin Center workspace.
--   **[Use AI Guardian features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-use-guardian-features.md)**  
-Use AI Guardian features in the AI Admin Center workspace to detect offensive content, prompt injection attacks, and sensitive topics in generative AI interactions.
-
-**Parent Topic:**[Using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-center.md)
-
-**Related topics**  
-
-
-[Using the conversational experience in AI Admin Center]()
-
-[Activating actionable use cases from AI Admin Center]()
-
-[Using AI readiness assessments in AI Admin Center]()
-
-[Using AI Agent Advisor in AI Admin Center]()
-
-[Using the asset inventory in AI Admin Center]()
-
+</table>

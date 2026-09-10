@@ -41,7 +41,7 @@ AI Agent Advisor analyzes your instance data to identify the leading AI opportun
 
 Select **View all** to see a list of all the opportunities identified by AI Agent Advisor.
 
-For more information, see [Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md).
+For more information, see .
 
 ## Recently activated AI
 
@@ -69,7 +69,7 @@ Select **Start AI readiness assessment** to run the assessment of your instance.
 
 Select **View Assessment** to see the assessment on a separate workspace tab.
 
-For more information, see [Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
+For more information, see [Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md).
 
 ## AI tools
 

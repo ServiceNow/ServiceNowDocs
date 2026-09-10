@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Admin Center, Enable AI experiences]
 ---
 
 # Using the conversational experience in AI Admin Center
@@ -44,7 +44,7 @@ After you enter your request in the chat, your AI companion generates a plan to 
 
 ## Self-healing AI agent
 
-Depending on your prompt, the self-healing AI agent may be engaged to diagnose and resolve common AI administration issues.
+Depending on your chat request, the self-healing AI agent may be engaged to diagnose and resolve common AI administration issues.
 
 The self-healing AI agent can help with issues such as:
 
@@ -58,25 +58,23 @@ The self-healing AI agent can help with issues such as:
 
 For more information, see [Self-healing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-self-healing-agent.md).
 
--   **[Self-healing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-self-healing-agent.md)**  
-Use the self-healing AI agent in the AI Admin Center conversational experience to diagnose and resolve common AI administration issues.
--   **[AI Admin Center help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-help-agent.md)**  
-Use the AI Admin Center help AI agent in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
--   **[AI Analytics Q and A agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-ask-analytics-agent.md)**  
-Use the AI Analytics Q and A agent to get answers about AI analytics metrics, dashboard widgets, and calculations by asking questions in the ServiceNow Otto® panel.
+## AI Admin Center help AI agent
 
-**Parent Topic:**[Using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-center.md)
+Based on your chat request, the help AI agent may be engaged to find answers to your AI admin questions based on ServiceNow documentation. The AI agent responses provide relevant descriptions, instructions, references, and links to source documents that support your product experience.
 
-**Related topics**  
+For more information, see [AI Admin Center help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-help-agent.md).
 
+## AI Analytics Q and A AI agent
 
-[Activating actionable use cases from AI Admin Center]()
+Based on your chat request, the AI Analytics Q and A AI agent may be engaged to provide answers about AI analytics in AI Admin Center including metrics, dashboard widgets, and calculations.
 
-[Using AI readiness assessments in AI Admin Center]()
+The AI Analytics Q and A AI agent can address topics such as:
 
-[Using AI Agent Advisor in AI Admin Center]()
+-   KPI definitions in AI analytics dashboards, such as CSAT, deflection rate, and so on.
+-   How a dashboard widget or metric is calculated
+-   Data flows and processing context for AI analytics
+-   Deflection log states and common deflection scenarios
+-   Changes to AI analytics dashboards between releases, such as updated or removed indicators and new dashboards
 
-[Using the asset inventory in AI Admin Center]()
-
-[Using other AI applications and features from AI Admin Center]()
+For more information, see [AI Analytics Q and A agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-ask-analytics-agent.md).
 

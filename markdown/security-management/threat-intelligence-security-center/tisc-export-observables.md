@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [export,intelligence data,tisc,observables,marking definition,tlp2.0]
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -23,31 +23,31 @@ Role required: sn\_sec\_tisc.analyst
 
 ## About this task
 
-The export functionality is limited to observables, indicators, and case management. The following procedure describes exporting observables data. Follow the same procedure to export indicators data.
+Currently, the export functionality is limited to observables, indicators, and case management. The following procedure describes how you can export the observables data, and follow the same procedure to export the indicators data.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Threat Intel Library** &gt; **Observables** &gt; **All Observables**.
 
-2.  Open any observable record.
+2.  Select any observable record.
 
 3.  Select **Export**.
 
-    **Note:** The **Export** button is enabled only when observables are selected for export. If no observables are selected, the button remains inactive.
+    **Note:** The **Export** button is enabled only when observables are selected for export. If no observables are selected, the button remains disabled.
 
 4.  Select the desired file type for export.
 
-    -   The supported export formats are Excel, CSV, and STIX 2.1 JSON. If your export type is Excel, you can export up to 10,000 records at a time.
-    -   If the selection exceeds 10,000 records, the system displays an error message indicating that the maximum limit has been surpassed. Only the first 10,000 records will be exported.
-    -   If the export format is CSV and the record limit is exceeded, the system displays an alert message. The message indicates that the export is in progress, along with a link to view the export status. You can click the link to view the status, and refresh the record. After it moves to **processed** state, you can download the attachment.
+    -   Currently, the supported export formats are Excel, CSV, and STIX 2.1 JSON. Suppose, if your export type is Excel then the number of records that can be exported at a time is limited to 10,000, regardless of the selected format type.
+    -   If the selection exceeds 10,000 records, then an error message displays indicating that the maximum limit for the selected format type has been surpassed, and only the first 10,000 records will be exported.
+    -   If the export format is CSV and the record limit is exceeded, an alert message is displayed indicating that the export is **in progress** state, along with a link to view the export status. You can click the link to view the status, and refresh the record. Once it moves to **processed** state you can download the attachment.
 
-        **Note:** When you export records in STIX 2.1 format, the system includes Traffic Light Protocol \(TLP\) definitions applied to the intelligence object. The export includes them as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/define-market-definition.md).
+        **Note:** When you export records in STIX 2.1 format Traffic Light Protocol \(TLP\) definitions applied to the intelligence object are included in the export as TLP 2.0 marking definition objects. For more information, see [Define Marking Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/define-market-definition.md).
 
 5.  Select **Export**.
 
     **Note:** You can also view export data from the **Imports/Exports** module.
 
-    The system displays a confirmation message indicating that the export is successful and your download is complete.
+    A confirmation message indicating that the export is successful and your download is complete displays.
 
 
 **Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
@@ -55,7 +55,7 @@ The export functionality is limited to observables, indicators, and case managem
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Objects form view]()
 
@@ -67,5 +67,5 @@ The export functionality is limited to observables, indicators, and case managem
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

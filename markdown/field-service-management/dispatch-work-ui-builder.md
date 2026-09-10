@@ -1,6 +1,6 @@
 ---
 title: Customize Dispatcher Workspace
-description: Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
+description: Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/dispatch-work-ui-builder.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Fi
 
 # Customize Dispatcher Workspace
 
-Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
+Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
 
 ## UI Builder
 

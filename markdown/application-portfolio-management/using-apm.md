@@ -1,6 +1,6 @@
 ---
 title: Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy
-description: Learn how to use the features of Enterprise Architecture to identify business applications inventory, measure the applications by gathering metrics, evaluate the usage, and decide to maintain, replace, or retire the applications.
+description: Learn how to use Enterprise Architecture to identify business applications, gather metrics, evaluate usage, and decide to maintain, replace, or retire applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/using-apm.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management
 
 # Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy
 
-Learn how to use the features of Enterprise Architecture to identify business applications inventory, measure the applications by gathering metrics, evaluate the usage, and decide to maintain, replace, or retire the applications.
+Learn how to use Enterprise Architecture to identify business applications, gather metrics, evaluate usage, and decide to maintain, replace, or retire applications.
 
 -   **[Add or edit a business application - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-business-appln.md)**  
 Use the Business application form to add the applications that your organization uses based on their functions and the business processes they fulfill. In Enterprise Architecture, add any business application that is used to assess and track costs, usage, business value, functional fitment, and risks.
@@ -107,7 +107,7 @@ Define your own TRM phase or edit an existing TRM phase.
 -   **[Review TRM lifecycle status - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/review-trm-status-tpm-view.md)**  
 View the Technology Reference Model \(TRM\) lifecycle information along with the risk and technical debt information in the Technology Lifecycle Management page.
 -   **[Configure business application form for risk - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/configure-related-lists-risk.md)**  
-Configure the business application form to enable application managers to provide risk and control information associated with a business application through a risk assessment questionnaire or a control attestation survey.
+Configure the business application form to enable application managers to provide risk and control information through a risk assessment questionnaire or control attestation survey.
 -   **[Respond to a risk assessment questionnaire - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/take-assesment-risk.md)**  
 Respond to a risk questionnaire to provide risk-related information for your business application to a risk manager.
 -   **[Take the control attestation survey - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/take-assessment-controls.md)**  

@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Set up Agent Client Collector Log Analytics without using guided setup
@@ -28,8 +28,6 @@ Configure the Agent Client Collector to stream log data from Linux and Windows h
 
 -   The Agent Client Collector comes with the default **servicenow** user. Ensure that this user has read access to enable Agent Client Collector to view all the configured log paths. For example, the Agent Client Collector **servicenow** user that comes installed with the base system does not have permissions to view the paths to `/var/log/` in Linux and `C:\Windows\System32` in Windows. For information about configuring permissions for the **servicenow** user, see the [ACC-L Permission Denied issues \[KB1117271\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117271) article in the Now Support Knowledge Base.
 
-**Note:** Currently, this setup only supports basic authentication with the MID Server. mTLS is not supported.
-
 Role required: agent\_client\_collector\_admin
 
 ## Procedure
@@ -44,7 +42,7 @@ Role required: agent\_client\_collector\_admin
 
     In addition, the system automatically creates an ACC data input. When it has been created, the data input record is added to the ACC data inputs table and the data input is ready to stream logs.
 
-    **Note:** It is important to configure an ACC data input for every MID Server to which Agent Client Collectors can connect. For more information, see .
+    **Note:** It is important to configure an ACC data input for every MID Server to which Agent Client Collectors can connect.
 
     The system also prompts you to set up the MID Web Server. For more information, see [MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/mid-web-server.md).
 
@@ -62,8 +60,6 @@ Role required: agent\_client\_collector\_admin
 
 6.  Install the ACC agent on the endpoint machine.
 
-    **Note:** If you have already installed the ACC agent, proceed to Agent Client Collector log policies.
-
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads**.
 
     2.  Download the ACC agent for the appropriate operating system.
@@ -76,8 +72,4 @@ Role required: agent\_client\_collector\_admin
 ## Result
 
 Agent Client Collector Log Analytics and the ACC agent are installed. You can start using the application.
-
-## What to do next
-
-Review the .
 

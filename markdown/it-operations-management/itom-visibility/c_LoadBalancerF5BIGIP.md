@@ -7,8 +7,8 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-08-26"
+reading_time_minutes: 9
 breadcrumb: [Load balancers, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -22,24 +22,28 @@ Discovery and Service Mapping can find F5 BIG-IP load balancers via SNMP, SSH, a
 
 You can download VMware images of BIG-IP with a free 90-day trial from [https://www.f5.com/trial](https://www.f5.com/trial).
 
-For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resolve the DNS name of the F5 GTM hardware as well as the DNS names of all the servers associated with the load balancer that receive distributed traffic. To view this data, navigate to **All** &gt; **Configuration** &gt; **Load Balancers** &gt; **LB Hardware** and open the F5 load balancer record and then select the **DNS Names for CIs** related list. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information to map F5 relationships.
+For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery resolves DNS names for the F5 GTM hardware and all associated servers that receive distributed traffic. To view this data, navigate to **All** &gt; **Configuration** &gt; **Load Balancers** &gt; **LB Hardware**, open the F5 load balancer record, and select the **DNS Names for CIs** related list. [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md) uses this information to map F5 relationships.
 
 **Note:** If your F5 BIG-IP device is part of a failover cluster, it can be associated with two cluster nodes. In this case, one of the nodes appears as Operational in the **Operational Status** field, and the other appears as Non-Operational.
 
 ## Prerequisites
 
+-   Verify that the following applications are up to date:
+    -   Discovery and Service Mapping Patterns
+    -   Visibility Content
+    -   CMDB CI Class Models
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
     -   Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/c_SNMPCredentials.md) on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   \(Optional\) If there are iRules or SNMP community credentials aren't enough for discovering outgoing connections, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
 
-        **Note:** If you do not want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
+        **Note:** If you don't want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
-        Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
+        Service Mapping uses the SSH credentials to retrieve connections that aren't from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
     -   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md).
-    -   Verify permissions for the following SSH commands:
+    -   Verify permissions for the following SSH commands. In newer versions of F5 BIG-IP, only A-type GTM pools are supported.
         -   `list auth partition all`
         -   `list sys global-settings`
         -   `show sys hardware`
@@ -61,6 +65,11 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
         -   `show gtm wideip all | grep -e 'WideIp' 'State'`
         -   `list gtm wideip`
         -   `list gtm wideip all`
+        -   `list gtm pool one-line`
+        -   `list gtm pool a one-line`
+        -   `list gtm pool /<partition_name>/* one-line`
+        -   `list gtm pool a /<partition_name>/* one-line`
+        -   `list gtm server one-line`
 -   For F5REST pattern:
     -   For horizontal discovery using Discovery, provide read-only permissions to run the following APIs:
 
@@ -78,6 +87,21 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
+        -   `"https://" + $ipAddress + "/mgmt/tm/gtm/server"`
+        -   For BIG-IP starting with version 12:
+
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/srv"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
     -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
@@ -96,6 +120,21 @@ For F5 Global Traffic Manager \(GTM\) BIG-IP load balancers, Discovery can resol
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
+        -   `"https://" + $ipAddress + "/mgmt/tm/gtm/server"`
+        -   For BIG-IP starting with version 12:
+
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/pool/srv"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/a"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/aaaa"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/cname"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/mx"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/naptr"`
+            -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip/srv"`
     -   Create [basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_BasicAuthCredentialsForm.md) credentials.
     -   Create [a credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/discovery-credential-alias.md) for the basic authentication credential.
     -   Create a [serverless discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/create-serverless-sched-f5-rest-oauth.md).
@@ -173,69 +212,109 @@ These patterns use iRules to get information via REST. Service Mapping uses thes
 </td></tr></tbody>
 </table>To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
-## Connections discovered by Service Mapping during the top-down discovery
-
-Service Mapping performs the top-down discovery of the GTM BIG-IP load balancer in the context of application services. It discovers configured URLs of the GTM BIG-IP load balancers.
-
 ## Data collected by Discovery during horizontal discovery
 
-The following data is collected on the F5 Big-IP `[cmdb_ci_lb_bigip]` table.
+Discovery populates the data in the CMDB when running the F5 patterns.
 
-|Table and field|Description|
-|---------------|-----------|
-|F5 Big-IP \[cmdb\_ci\_lb\_bigip\]|
-|Name \[name\]|Details about the load balancer. View a record in this table to see the upstream and downstream relationships with the load balancer.|
-|Serial Number \[serial\_number\]|
-|Operational Status \[operational\_status\]|
-|Load Balancer Interface \[cmdb\_ci\_lb\_interface\]|
-|Name \[name\]|Details about each interface for the load balancer.|
-|MAC Address \[mac\_address\]|
-|Operational Status \[operational\_status\]|
-|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
-|Name \[name\]|The name of the pool and the method of load balancing it enables.|
-|Load balancing method \[load\_balancing\_method\]|
-|Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|
-|Name \[name\]|The name, IP address, and service port that each pool member uses.|
-|IP Address \[ip\_address\]|
-|Service Port \[service\_port\]|
-|Pool \[pool\]|
-|Load Balancer VLAN \[cmdb\_ci\_lb\_vlan\]|
-|Name \[name\]|The name of the VLAN and the tag that is associated with this VLAN to identify it.|
-|Tag \[tag\]|
-|MAC Address \[mac\_address\]|
-|Load Balancer Services \[cmdb\_ci\_lb\_service\]|
-|Name \[name\]|Details about the load balancer service that distributes the workload to other servers, such as web servers.|
-|IP Address \[ip\_address\]|
-|Port \[port\]|
-|Operational Status \[operational\_status\]|
-|Hit count \[hit\_count\]|
-|DNS \[cmdb\_ci\_dns\_name\]|
-|Name \[name\]|The name and IP address of the Domain Name Server for the network adapters.|
-|IP Address \[ip\_address\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|
-|Name \[name\]|Details about the network adapters on the load balancer.|
-|IP Address \[ip\_address\]|
-|Netmask \[netmask\]|
-|Mac address \[mac\_address\]|
-|Cluster \[cmdb\_ci\_cluster\]|
-|Name \[name\]|Details about the load balancer cluster.|
-|Cluster status \[cluster\_status\]|
-|Cluster ID \[cluster\_id\]|
-|IP address \[ip\_address\]|
-|Cluster Node \[cmdb\_ci\_cluster\_node\]|
-|Name \[name\]|Details about each node in a cluster.|
-|Cluster ID \[cluster\_id\]|
-|Cluster status \[cluster\_status\]|
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the load balancer CI.|
+|Serial number \[serial\_number\]|The serial number of the load balancer hardware.|
+|Operational status \[operational\_status\]|The operational status of the load balancer.|
 
-## Configuration item \(CI\) relationships for clusters
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the load balancer interface.|
+|MAC Address \[mac\_address\]|The MAC address of the interface.|
+|Operational status \[operational\_status\]|The operational status of the interface.|
 
-These relationships are created for clusters:
+<table id="table_lb_pool"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name \[name\]
+
+</td><td>
+
+The name of the load balancer pool.
+
+ GTM pool names end with the suffix **- GTM** to differentiate them from LTM pools with the same name.
+
+</td></tr><tr><td>
+
+Load balancing method \[load\_balancing\_method\]
+
+</td><td>
+
+The method used to distribute traffic across pool members.
+
+</td></tr></tbody>
+</table>|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the pool member.|
+|IP Address \[ip\_address\]|The IP address of the pool member.|
+|Service port \[service\_port\]|The port on which the pool member receives traffic.|
+|Pool \[pool\]|The load balancer pool that this member belongs to.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the VLAN.|
+|Tag \[tag\]|The tag that identifies the VLAN.|
+|MAC Address \[mac\_address\]|The MAC address associated with the VLAN.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the load balancer service.|
+|IP Address \[ip\_address\]|The IP address of the load balancer service.|
+|Port \[port\]|The port on which the load balancer service receives traffic.|
+|Operational status \[operational\_status\]|The operational status of the load balancer service.|
+|Hit count \[hit\_count\]|The number of connections the load balancer service has received.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The DNS name associated with the load balancer or its GTM WideIPs.|
+|IP Address \[ip\_address\]|The IP address associated with the DNS name.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the network adapter.|
+|IP Address \[ip\_address\]|The IP address of the network adapter.|
+|Netmask \[netmask\]|The netmask of the network adapter.|
+|MAC Address \[mac\_address\]|The MAC address of the network adapter.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the cluster.|
+|Cluster status \[cluster\_status\]|The status of the cluster.|
+|Cluster ID \[cluster\_id\]|The unique identifier of the cluster.|
+|IP Address \[ip\_address\]|The IP address of the cluster.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name of the cluster node.|
+|Cluster ID \[cluster\_id\]|The unique identifier of the cluster this node belongs to.|
+|Cluster status \[cluster\_status\]|The status of the cluster node.|
+
+## CI relationships
+
+The following relationships are created to support F5 BIG-IP load balancer discovery.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|cmdb\_ci\_cluster|Hosts::Hosted on|cmdb\_ci\_lb\_bigip|
-|cmdb\_ci\_cluster\_node|Hosted on::Hosts|cmdb\_ci\_lb\_bigip|
-|cmdb\_ci\_cluster\_node|Cluster of::Cluster|cmdb\_ci\_cluster|
+|Cluster \[cmdb\_ci\_cluster\]|Hosts::Hosted on|F5 BIG-IP \[cmdb\_ci\_lb\_bigip\]|
+|Cluster Node \[cmdb\_ci\_cluster\_node\]|Hosted on::Hosts|F5 BIG-IP \[cmdb\_ci\_lb\_bigip\]|
+|Cluster Node \[cmdb\_ci\_cluster\_node\]|Cluster of::Cluster|Cluster \[cmdb\_ci\_cluster\]|
+|F5 BIG-IP \[cmdb\_ci\_lb\_bigip\]|Owns::Owned by|DNS Name \[cmdb\_ci\_dns\_name\]|
+
+## Connections discovered by Service Mapping during the top-down discovery
+
+Service Mapping performs the top-down discovery of the GTM BIG-IP load balancer in the context of application services. It discovers configured URLs of the GTM BIG-IP load balancers.
 
 **Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

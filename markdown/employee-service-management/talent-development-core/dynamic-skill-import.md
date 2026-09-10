@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Skills import, Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ For example, an employee Abel Tuter receives a badge which has three skills - Ja
 
 Working of skill mapping - Skill mapping is the process of linking a skill, either imported or from a badge to an existing skill in the skill library. The mapping can be done automatically or manually, to avoid duplicates.
 
--   System Mapping \(Automatic\): If a new skill, for example, Java 1.8 is similar to the existing skill, for example, Java in the cmn\_skills table, the system detects it as a duplicate and maps it automatically.
+-   System Mapping \(Automatic\): If a new skill, for example, Java 1.8, is similar to an existing skill in the cmn\_skills table, for example, Java, the system detects it as a duplicate. The system maps it automatically.
 -   Admin Mapping \(Manual\): An administrator can manually map a skill. For instance, if Python is imported, the admin might map it to Jupyter Notebook depending on the relevance.
 
 Important behavior - When a skill is mapped, a new entry is not created for the imported skill. Instead, the existing skill is used in the employee profile. For example, if Java 1.8 is mapped to Java, and Python is mapped to Jupyter Notebook, only Java and Jupyter Notebook appear in the employee profile, not Java 1.8 and Python.
@@ -55,7 +55,7 @@ Important behavior - When a skill is mapped, a new entry is not created for the 
 
 7.  Select **Import**.
 
-    You are redirected to the Playbook experience and the custom import option is selected automatically.
+    You're redirected to the Playbook experience and the custom import option is selected automatically.
 
 8.  Select **Next**.
 

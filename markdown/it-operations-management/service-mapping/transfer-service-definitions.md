@@ -177,7 +177,7 @@ An imported service group appears to have wrong application services assigned to
 
 </td><td>
 
-This is a different service group with the same name, not the service group you imported. The system failed to import the service group, because the source instance already has a service group with the same name or with the same name and Sys ID.
+This is a different service group with the same name, not the service group you imported. The system failed to import the service group. The source instance already has a service group with the same name or with the same name and Sys ID.
 
 </td><td>
 

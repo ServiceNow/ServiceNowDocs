@@ -18,7 +18,7 @@ Request a TRM product using the TRM catalog to add a new software to the TRM lib
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Reference Model module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md).
+Starting with the Xanadu release, the legacy Technology Reference Model module is moved to the Enterprise Architecture Workspace. To learn more, see [Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md).
 
 Role required: sn\_apm.apm\_user
 

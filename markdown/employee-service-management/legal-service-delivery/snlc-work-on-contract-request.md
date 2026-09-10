@@ -50,15 +50,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d556460e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d557186e172">
 
 Option
 
-</th><th align="left" id="d556460e175">
+</th><th align="left" id="d557186e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556460e181">
+</th></tr></thead><tbody><tr><td id="d557186e181">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d556460e202">
+</td></tr><tr><td id="d557186e202">
 
 **As a collaborator**
 
@@ -103,15 +103,15 @@ Steps
 
     **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d556460e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d557186e342">
 
 Option
 
-</th><th align="left" id="d556460e345">
+</th><th align="left" id="d557186e345">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556460e351">
+</th></tr></thead><tbody><tr><td id="d557186e351">
 
 **Internal**
 
@@ -133,7 +133,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d556460e445">
+</td></tr><tr><td id="d557186e445">
 
 **External**
 

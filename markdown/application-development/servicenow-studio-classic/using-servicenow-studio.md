@@ -26,8 +26,8 @@ ServiceNow Studio improves upon a lot of great features in the legacy Studio pro
 
 -   **[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-apps-in-servicenow-studio.md)**  
 You can create, update, manage, publish, and delete applications in your instance all from ServiceNow Studio, depending on your permissions.
--   **[Now Assist tools and AI files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)**  
-Several Now Assist tools are available for you to use in ServiceNow Studio. AI files provide ways to use generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+-   **[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)**  
+Use AI tools and files in ServiceNow Studio to create and summarize apps using generative AI. You can also add AI files to applications to enhance user productivity through conversation and proactive experiences.
 -   **[Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md)**  
 Use Build Agent, an autonomous AI agent, to create and update applications in ServiceNow Studio through conversational interaction.
 -   **[Change your development experience in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/change-your-development-experience.md)**  

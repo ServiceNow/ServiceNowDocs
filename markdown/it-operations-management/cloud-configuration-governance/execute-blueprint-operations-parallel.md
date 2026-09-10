@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build a Cloud Provisioning blueprint, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ By default, the blueprint resource operations are listed serially and follow an 
 
 4.  Click **Optimize Plan** for the Cloud Provisioning and Governance application to suggest an optimized plan for you.
 
-    The Cloud Provisioning and Governance application looks at the blueprint that you created and based on the attributes, the mappings, and the dependencies of each resource, the application suggests an optimized plan to execute.
+    The Cloud Provisioning and Governance application looks at the blueprint that you created. Based on the attributes, mappings, and dependencies of each resource, the application suggests an optimized plan to execute.
 
 
 **Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)

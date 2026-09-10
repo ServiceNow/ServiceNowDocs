@@ -25,7 +25,7 @@ The ITOM AI Agents for Service Mapping application \[sn\_sm\_gen\_ai\] provides 
 
 -   **Service Mapping AI Agent**
 
-    Automatically creates ML-based service maps from Application Service Candidates \(ASCs\) and persists the full service topology in the CMDB. This Agent evaluates ML-powered candidates, focuses on those with a high-confidence name suggestion source such as Service Fingerprints \(SFPs\), filters out noise \(such as monitoring clients, security clients, and operating system processes\), and creates the service topology. Created service maps are set to non-operational by default so that the Service Mapping administrator can review them before making them operational.
+    Automatically creates ML-based service maps from Application Service Candidates \(ASCs\) and persists the full service topology in the CMDB. This Agent evaluates ML-powered candidates, focuses on those with a high-confidence name suggestion source such as Service Fingerprints \(SFPs\). It filters out noise \(such as monitoring clients, security clients, and operating system processes\), and creates the service topology. Created service maps are set to non-operational by default so that the Service Mapping administrator can review them before making them operational.
 
 -   **Business App Mapping AI Agent**
 
@@ -78,7 +78,7 @@ Tag-Based Service Map Creation AI Agent process:
 2.  The Agent validates the candidate through prerequisite checks: confirming it is not hidden, ensuring at least 2 configuration items \(CI\) exist to form a topology, and verifying no existing service already maps it.
 3.  The agent performs a coherence evaluation by analyzing the running processes and process groups \(AFP groups\) across all member VMs. It determines whether all VMs running under this tag belong to the same application service or whether multiple unrelated systems are incorrectly grouped.
 4.  If the candidate is incoherent \(containing multiple distinct business systems\), the agent records the outcome and skips service creation, flagging the candidate for administrator review.
-5.  If the candidate is coherent or uncertain, the agent evaluates the signal strength by combining the cloud tag name \(for example, "order-management"\) with running process evidence to determine whether a real business service exists.
+5.  If the candidate is coherent or uncertain, the agent evaluates the signal strength. It combines the cloud tag name \(for example, "order-management"\) with running process evidence to determine whether a real business service exists.
 6.  If the signal is strong enough, the agent derives a service name using this priority order:
 
     1.  Service Fingerprint \(SFP\) name if the candidate's CIs match an Application Service Fingerprint in the Discovery Content Library.
@@ -95,7 +95,7 @@ The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent are act
 
 **Note:** The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent operate independently despite sharing the same orchestrator and writing the results to a shared run record table \[sn\_sm\_gen\_ai\_svc\_create\_run\]. They process different input sources and have no data dependencies.
 
-No configuration in AI Agent Studio is required for Service Mapping administrators; AI Agent Studio is used by platform administrators or users who have the AI admin role to manage agent definitions and token usage.
+No configuration in AI Agent Studio is required for Service Mapping administrators. AI Agent Studio is used by platform administrators or users who have the AI admin role to manage agent definitions and token usage.
 
 After activation, administrators can monitor activity and review results in the **AI Activity** section of the Service Mapping list navigation. For more information, see [Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md).
 
@@ -120,7 +120,7 @@ Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from
 -   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md)**  
 Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 -   **[Business App Mapping AI Agent confidence thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-specialist-confidence-thresholds.md)**  
-Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
+Understand how the Business App Mapping AI Agent handles matches based on their AI confidence score and the action taken for each score range.
 
 **Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

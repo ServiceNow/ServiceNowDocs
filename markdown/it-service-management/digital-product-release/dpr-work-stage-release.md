@@ -76,7 +76,7 @@ By restarting a phase, you can reassess and adjust the plan to overcome the new 
 
 ### Procedure
 
-1.  On the Release execution page, select the release phase action button \(\[Omitted image "image.dpr-icon-menu"\] Alt text: Release phase action icon.\) and then select **Restart phase**.
+1.  On the Release execution page, select the release phase action button \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Release phase action icon.\) and then select **Restart phase**.
 
 2.  On the Restart phase dialog box, select a phase from where you want to restart.
 

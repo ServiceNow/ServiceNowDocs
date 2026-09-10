@@ -19,7 +19,7 @@ Several types of components are installed with activation of Sales Cart includin
 -   **[Components installed with Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/components-install-with-customer-request-for-quote.md)**  
 Several types of components are installed with activation of the Customer Request for Quote \(RFQ\) plugin, including tables, user roles, and plugins.
 -   **[Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/rfq-states.md)**  
-An RFQ can move through different states during its life cycle after being submitted by the customer based on agent activity in the CSM Configurable Workspace.
+An RFQ can move through different states during its life cycle after being submitted by the customer based on agent activity in the CRM Workspace.
 
 **Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-reference.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -80,13 +80,27 @@ The application will automatically parse the uploaded file to extract observable
 
 Observables
 
+</td></tr><tr><td>
+
+Import using AI
+
+</td><td>
+
+AI extracts the threat entities from the content of the uploaded file.Supported file types: PDF, DOCX, JPEG, and PNG.
+
+Available with Threat Intelligence Security Center-Advanced.
+
+</td><td>
+
+Selected types of observables and objects
+
 </td></tr></tbody>
 </table>For a better understanding of each import format and the types of records supported, refer to the Related Information section.
 
 -   **[Import data using structured file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/import-data-using-structured-file.md)**  
 Upload the structured data in the supported file formats such as CSV, XLSX or XLS.
 -   **[Import data using standard format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/import-data-using-standard-format.md)**  
-Import data in supported formats \(STIX 2.x JSON or MISP JSON\) to enable full ingestion of all STIX Domain Objects \(SDOs\) and MISP objects.
+Upload the standard data in the supported file formats such as STIX 2.x JSON, MISP JSON.
 -   **[Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)**  
 Import the observables data by copying and pasting raw text or entering the free text.
 -   **[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)**  

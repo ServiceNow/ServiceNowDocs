@@ -48,7 +48,7 @@ The risk reduction for a CVE and TPE is enabled by default.
 
 [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/create-compensatory-control.md)
 
-[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/associate-controls-cve-risk-reduction.md)
+[associate-controls-cve-risk-reduction]
 
 [Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
 

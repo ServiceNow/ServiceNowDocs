@@ -18,9 +18,9 @@ Collect trace data from AI agents running on supported cloud platforms and monit
 ## Key benefits
 
 -   Collect trace data from AWS, Google Cloud, and Microsoft Azure platforms through a single interface, without SDK instrumentation in your agent code.
--   Discover AI agents running on third-party platforms and add them to your AI asset inventory automatically.
--   Generate evaluation and security metrics from collected traces when evaluations and security monitoring capabilities are enabled.
 -   Access cloud platforms securely through a MID Server, which authenticates to your cloud provider and keeps credentials protected within your ServiceNow instance.
+-   Generate evaluation and security metrics from collected traces when evaluations and security monitoring capabilities are enabled.
+-   Discover AI agents running on third-party platforms and add them to your AI asset inventory automatically.
 
 ## Trace connections and SDK instrumentation
 

@@ -35,7 +35,7 @@ A similar message for completing the resource plans appears on the Demand form w
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d113179e92">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d115103e92">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d113179e128">
+</td></tr><tr><td id="d115103e128">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d113179e164">
+</td></tr><tr><td id="d115103e164">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d113179e200">
+</td></tr><tr><td id="d115103e200">
 
 **Open a Closed or Deferred demand record**
 

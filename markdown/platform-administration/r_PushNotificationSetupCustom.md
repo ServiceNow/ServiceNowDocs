@@ -63,5 +63,5 @@ Create the push messages and push notifications: The administrator [creates the 
 
 ## Next steps
 
-Use the Push Installation API to opt users in to receive push notifications. For more information, see [Push Installation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/pushinstallation-api.md).
+Use the Push Installation API to opt users in to receive push notifications. For more information, see Push Installation API.
 

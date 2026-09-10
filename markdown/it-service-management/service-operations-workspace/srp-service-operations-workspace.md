@@ -28,8 +28,8 @@ Service Operations Workspace contains incidents, cases, and tasks that an agent 
 -   If you are on a version prior to 4.0, you can change the Incident record page using **Record SNC** in the UI Builder.
 -   ServiceNow doesn’t recommend customizing the Incident record page using methods such as **Record SNC** or **SRP Record**. So, no support is provided for record page customizations.
 
--   **[Adding Declarative Actions on the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-srp-sow.md)**  
-Adding declarative actions on the Incident page and the tabs inside the incident record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
+-   **[Add declarative actions on the standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/customize-srp-sow.md)**  
+Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
 -   **[Custom Modal Migration in Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/custom-modal-migration-srp.md)**  
 Modify the modal containers inside a record page in the Service Operations Workspace.
 -   **[Modify the Record Page in the Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/configure-record-page-order-sow.md)**  

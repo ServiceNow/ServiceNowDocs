@@ -56,7 +56,7 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
         2.  Select **Pattern Sync to Mid**.
         **Note:** This action synchronizes both TSOM and ITOM patterns.
 
-        For more information on how to configure a MID Server, see .
+        For more information on how to configure a MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/configure-mid-server.md).
 
 4.  Configure TSOM System Properties:
 

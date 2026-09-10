@@ -8,7 +8,7 @@ product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -36,7 +36,7 @@ The following image shows the overview of a processing activity:\[Omitted image 
 -   **[Understanding processing activity hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.md)**  
 Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
 -   **[Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/hierarchy-tab.md)**  
-Use the Hierarchy tab to connect your processing activity to applications, vendors, companies, entities, business processes, and other activities. The Hierarchy tab builds a clear picture of how data moves through your organization.
+The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 
 **Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

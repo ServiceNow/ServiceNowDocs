@@ -1,5 +1,5 @@
 ---
-title: Configure AI settings in AI Admin Center
+title: Configure AI Admin Hub settings in AI Admin Center
 description: Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-configure-admin-settings.html
@@ -8,10 +8,10 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI Admin Hub features, Using other AI applications from AI Admin Center, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
-# Configure AI settings in AI Admin Center
+# Configure AI Admin Hub settings in AI Admin Center
 
 Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 
@@ -57,7 +57,7 @@ Account
 
 Opens the Account page from AI Admin Hub.
 
- Review your ServiceNow Otto license details to make sure that you're up to date on what's available to you.
+ Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
 
  For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/review-now-assist-account-information.md).
 
@@ -219,5 +219,3 @@ Opens the ServiceNow Otto Context Menu page from AI Admin Hub.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using AI Admin Hub features in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-admin-console.md)
-

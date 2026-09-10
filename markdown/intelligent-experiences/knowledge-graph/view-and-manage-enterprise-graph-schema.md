@@ -44,7 +44,7 @@ Role required: admin
 
 4.  From the toolbar, select **Nodes details** option to view details or add a synonym for the node.
 
-    The other fields are read-only and cannot be edited. In the tag view of Enterprise Graph, you can also see tag configuration when you click on a node.
+    The other fields are read-only and can't be edited. In the tag view of Enterprise Graph, you can also see tag configuration when you click a node.
 
 5.  Use the \[Omitted image "icon-edit-pencil.png"\] icon in the **Tag configurations** section to go to the Edit tag configurations page and update the following details:
 

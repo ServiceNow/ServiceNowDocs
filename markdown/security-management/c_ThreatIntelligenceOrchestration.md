@@ -36,6 +36,8 @@ The base system includes workflows and workflow activities you can use to automa
 
 [MITRE D3FEND framework]()
 
+[MITRE ATLAS framework]()
+
 [Threat Intelligence administration]()
 
 [Threat Intelligence integrations]()

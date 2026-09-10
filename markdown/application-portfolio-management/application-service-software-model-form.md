@@ -38,7 +38,7 @@ Ignore Technical Risk
 
 </td><td>
 
-Check box to ignore the technical risk of the software model.The risk of an application service is high even if one of its underlying software models risk is high. Hence, use this check box to ignore the risk of a software model if it is insignificant and does not contribute much to the risk of the application service.
+Check box to ignore the technical risk of the software model.The risk of an application service is high even if one of its underlying software model's risk is high. Use this check box to ignore the risk of a software model if it is insignificant and does not contribute much to the risk of the application service.
 
 </td></tr><tr><td>
 

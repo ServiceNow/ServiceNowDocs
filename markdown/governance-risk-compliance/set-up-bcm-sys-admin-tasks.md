@@ -21,6 +21,8 @@ Setting up the common administrative tasks requires configuring the pre-requisit
 -   To set up an approval configuration in the Business Continuity Management \(BCM\) application, see [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-approval-configuration.md).
 -   To refer to the BCM application menu options, see [Application menu options for BCM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/app-menu-views-bcm-viewers.md).
 
+-   **[Configure email for collaboration threads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-email-for-collaboration-threads.md)**  
+Configure an email account and enable the outbound and inbound email properties so that crisis managers can send and receive email from collaboration threads.
 -   **[Update number of records for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configure-referencefield-system-property.md)**  
 Update the number of the records that are displayed for a reference field in the Business Continuity Management \(BCM\) Workspace. You can configure the **referenceFieldLoadLimit** system property to control the number of the records that are displayed for each reference field on the grid configuration pages.
 -   **[Update the number of element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-ele-def-for-dependency-assessment.md)**  

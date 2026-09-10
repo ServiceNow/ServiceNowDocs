@@ -80,7 +80,7 @@ To clear the cache:
 
 Moveworks setup Instructions:
 
-An API key is required to integrate with Moveworks. Refer to the [Moveworks API reference documentation](https://help.moveworks.com/api-reference/api-credentials#rotation--revocation) for instructions on how to create an API key.
+An API key is required to integrate with Moveworks. Refer to [Create API credentials](https://help.moveworks.com/ai-assistant/data-api/data-api-generate-api-credentials) for instructions on how to create an API key.
 
 The API key must contain the following scopes:
 

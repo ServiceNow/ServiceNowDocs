@@ -23,7 +23,7 @@ Inputs identify the data used for a skill. Inputs include the table and fields u
 
 You can modify inputs, but you can't modify a skill's data source. The data source contains the tables and fields that the skill relies on.
 
-## Now Assist skill for ServiceNow Otto for SLO
+## AI skills for ServiceNow Otto for SLO
 
 The ServiceNow Otto for SLO includes the following skills:
 

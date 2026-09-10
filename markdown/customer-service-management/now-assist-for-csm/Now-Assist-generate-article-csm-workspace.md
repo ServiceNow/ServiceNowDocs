@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article with ServiceNow Otto
-description: Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
+description: Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service
 
 # Generate a knowledge article with ServiceNow Otto
 
-Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
+Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
 
 ## Before you begin
 
@@ -41,11 +41,11 @@ Role required: agent
 
 ## About this task
 
-In the CSM Configurable Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
+In the CRM Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
 
 **Note:**
 
-The Create Knowledge UI action is available to customer service agents with assigned cases in the Resolve or Close state. You can also generate knowledge article information on demand from the ServiceNow Otto panel. For more information, see [Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md).
+The Create Knowledge UI action is available to customer service agents with assigned cases in the Resolve or Close state. You can also generate knowledge article information on demand from the panel. For more information, see [Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md).
 
 ## Procedure
 
@@ -88,7 +88,7 @@ The Create Knowledge UI action is available to customer service agents with assi
 
     The article is generated in the selected knowledge base and displayed in the selected language.
 
-10. Select some text in the KB article and then select the ServiceNow Otto icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text:.
+10. Select some text in the KB article and then select the ServiceNow Otto icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Sparkle icon.
 
     The icon generates recommended text based on the selected content. Select **Elaborate** or **Shorten** to refine the response.
 
@@ -98,7 +98,7 @@ The Create Knowledge UI action is available to customer service agents with assi
 
     The ServiceNow Otto success message disappears, indicating the article is no longer AI-generated.
 
-    **Note:** The icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: is also available for published KB articles.
+    **Note:** The icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon is also available for published KB articles.
 
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)

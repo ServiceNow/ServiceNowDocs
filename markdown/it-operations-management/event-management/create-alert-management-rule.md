@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -24,6 +24,8 @@ Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
+**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses with an easier interface.
+
 Use alert management rules to track and resolve alerts.
 
 While working in the alert management rule designer, you can work in multiple sections without losing information in any section.
@@ -31,7 +33,7 @@ While working in the alert management rule designer, you can work in multiple se
 **Note:**
 
 -   Alert management rules that are not configured to perform any action are skipped and the rule is automatically set to inactive.
--   If an alert is bound to a CI by a user action \(such as an alert management rule\) and the CI is in the Maintenance state, you must manually bind the CI to the alert and mark it with the **In Maintenance** status.
+-   An alert can be bound to a CI by a user action, such as an alert management rule. If the CI is in the Maintenance state, you must manually bind the CI to the alert. Then mark it with the In **In Maintenance** status.
 
 Create alert management rules that:
 

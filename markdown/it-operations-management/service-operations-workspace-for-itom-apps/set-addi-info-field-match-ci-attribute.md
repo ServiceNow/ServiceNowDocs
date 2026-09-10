@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -42,7 +42,9 @@ The system attempts to match the **Additional Info** fields of the alert with at
 
     \[Omitted image "sow-enrich-ci-binding-2.png"\] Alt text: Details of a CI
 
-4.  In the Enrich Alerts page, use **Extract fields**, **Copy or Compose fields**, and **Change alert values** to set at least one **Additional info** field in your alert to precisely match the field and value format of the CI attributes in the CI record.
+4.  In the Enrich Alerts page, use **Extract fields**, **Copy or Compose fields**, and **Change alert values** to set at least one **Additional info** field in your alert.
+
+    The field must precisely match the field and value format of the CI attributes in the CI record.
 
     Example: Suppose the CI record page has the **name** field with the value **CRUPRGWMIDCAV15**. To include these fields and their values in the **Additional info** field of the alert, set the fields as shown in the image.
 

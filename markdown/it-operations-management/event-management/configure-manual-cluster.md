@@ -44,7 +44,9 @@ For more information, see [Alert impact calculation](https://raw.githubuserconte
 
     3.  Preview the record by selecting the Preview this record icon \(\[Omitted image "info.png"\] Alt text: Preview this record icon\).
 
-4.  In the **Select a Specific CI or generic CI class** section, in the **Defined As** field, select whether to define the manual cluster as a specific CI of a manual cluster or as a generic CI class of a manual cluster that will be applied to all CIs of this class.
+4.  In the **Select a Specific CI or generic CI class** section, in the **Defined As** field, select whether to define the manual cluster as a specific CI or as a generic CI class.
+
+    A generic CI class of a manual cluster is applied to all CIs of this class.
 
     -   Specific CI - In the **Configuration item** field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon\) and select the configuration item.
     -   Generic CI class – In the **Configuration item class** field, select the configuration item class.

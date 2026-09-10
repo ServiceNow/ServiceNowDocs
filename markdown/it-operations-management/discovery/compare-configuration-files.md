@@ -35,15 +35,15 @@ Changes to configuration files are associated with CIs to which these files belo
 
 1.  Compare two versions of the CI configuration file from Service Mapping or Discovery.
 
-<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d275118e143">
+<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d284816e143">
 
 Product
 
-</th><th align="left" id="d275118e146">
+</th><th align="left" id="d284816e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d275118e152">
+</th></tr></thead><tbody><tr><td id="d284816e152">
 
 **Service Mapping**
 
@@ -61,7 +61,7 @@ Steps
 
 The Tracked Configuration File Comparison tab opens, displaying the most recent and the previous versions of the configuration file.
 
-</td></tr><tr><td id="d275118e216">
+</td></tr><tr><td id="d284816e216">
 
 **Discovery**
 

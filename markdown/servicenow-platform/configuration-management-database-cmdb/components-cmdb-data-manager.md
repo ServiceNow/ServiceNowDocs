@@ -1,6 +1,6 @@
 ---
 title: Components related to CMDB Data Manager
-description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
+description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
 release: zurich
@@ -14,15 +14,13 @@ breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), C
 
 # Components related to CMDB Data Manager
 
-The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspaceand Service Graph Workspace.
+The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
 
 ## System properties
 
 As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
 
-1.  Open either workspace:
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Management** and then select the **Data Manager** quick link in Management tools, in the Manage section.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager overview**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and in the navigation panel, select the Governance icon. Then, in the Governance navigation pane, select **Data Manager**.
 2.  Select **Settings** in the left navigation bar.
 
 <table id="table_w2w_tdx_npb"><thead><tr><th>

@@ -1,6 +1,6 @@
 ---
-title: Download the SQL API drivers on client machine
-description: Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
+title: Download the Live Connect drivers on client machine
+description: Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable Live Connect connectivity.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/download-sql-api-drivers.html
 release: zurich
@@ -9,12 +9,12 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Download the SQL API drivers on client machine
+# Download the Live Connect drivers on client machine
 
-Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable SQL API connectivity.
+Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable Live Connect connectivity.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-After configuring the SQL API plugin on your ServiceNow instance, you must download the ODBC and JDBC drivers to your client machine. These drivers enable your Business Intelligence tools and data analysis platforms to connect to your ServiceNow data.
+After configuring the Live Connect plugin on your ServiceNow instance, you must download the ODBC and JDBC drivers to your client machine. These drivers enable your Business Intelligence tools and data analysis platforms to connect to your ServiceNow data.
 
 ## Procedure
 
@@ -30,11 +30,11 @@ After configuring the SQL API plugin on your ServiceNow instance, you must downl
 
 2.  Search for `SQL API`.
 
-    The SQL API Drivers page appears.
+    The Live Connect Drivers page appears.
 
 3.  Select **Get**.
 
-    The ServiceNowSQL API Driver ZIP file is downloaded on your client machine.
+    The ServiceNowLive Connect Driver ZIP file is downloaded on your client machine.
 
     The ZIP file contains two folders:
 
@@ -43,14 +43,14 @@ After configuring the SQL API plugin on your ServiceNow instance, you must downl
 
 ## Result
 
-The SQL API drivers are now downloaded to your client machine and ready for installation and configuration.
+The Live Connect drivers are now downloaded to your client machine and ready for installation and configuration.
 
 ## What to do next
 
 After downloading the drivers, proceed to install and configure them on your client machine.
 
--   For ODBC driver installation, see [Install ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/install-odbc-driver.md).
--   For JDBC driver configuration, see [Configure ServiceNow SQL API JDBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-jdbc-driver.md).
+-   For ODBC driver installation, see [Install ServiceNow Live Connect ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/install-odbc-driver.md).
+-   For JDBC driver configuration, see [Configure ServiceNow Live Connect JDBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-jdbc-driver.md).
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

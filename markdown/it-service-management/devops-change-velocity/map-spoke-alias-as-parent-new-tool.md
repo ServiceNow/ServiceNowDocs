@@ -1,5 +1,5 @@
 ---
-title: Map spoke alias as parent alias for new DevOps tool
+title: Map spoke alias as parent alias for a DevOps tool
 description: Create Jira, GitHub or Jenkins tool with parent alias set to respective spoke alias instead of DevOps Basic authentication. Use a script include to reset parent alias to spoke alias for existing or onboarded tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/devops-change-velocity/map-spoke-alias-as-parent-new-tool.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
 
-# Map spoke alias as parent alias for new DevOps tool
+# Map spoke alias as parent alias for a DevOps tool
 
 Create Jira, GitHub or Jenkins tool with parent alias set to respective spoke alias instead of DevOps Basic authentication. Use a script include to reset parent alias to spoke alias for existing or onboarded tool.
 

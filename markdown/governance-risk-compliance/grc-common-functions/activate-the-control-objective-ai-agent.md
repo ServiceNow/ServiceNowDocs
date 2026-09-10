@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-11-15"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Activate the control objective change agent

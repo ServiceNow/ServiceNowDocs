@@ -1,18 +1,18 @@
 ---
-title: Install MCO
-description: Install the Manufacturing Commercial Operations Core application with the admin role. The application includes demo data Manufacturing Commercial Operations core and installs related ServiceNow store applications and plugins that aren’t already installed.
+title: Install Manufacturing Commercial Operations
+description: Install the Manufacturing Commercial Operations Core application with the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/install-manufacturing-commercial-operations-core.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Getting started with MCO, Set up your environment, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
-# Install MCO
+# Install Manufacturing Commercial Operations
 
-Install the Manufacturing Commercial Operations Core application with the admin role. The application includes demo data Manufacturing Commercial Operations core and installs related ServiceNow® store applications and plugins that aren’t already installed.
+Install the Manufacturing Commercial Operations Core application with the admin role.
 
 ## Before you begin
 
@@ -29,29 +29,35 @@ The following items are installed with Manufacturing Commercial Operations:
 -   Plugins
 -   ServiceNow Store applications
 
-The Manufacturing Commercial Operations Core application is dependent on the Product Catalog Management Core, CIWF UI components, and Industry Core applications.
+For details about the plugins, see [Plugins installed with Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations-plugins.md).
 
-To review all the plugins that are activated by installing the Sales promotion management, Manufacturing recall management, and Manufacturing repair management, see [Plugins installed with MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-commercial-operations-plugins.md).
-
-For more information on the components, see [Components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-components-installed.md).
+**Note:** Installing a plugin from the store also installs its dependent hidden store applications automatically. The MCO Integrations plugin is an exception: it doesn't install with the core apps. You must search for and install it separately.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Application** &gt; **All Available Applications &gt; All.**.
+1.  Navigate to **All** &gt; **System Application** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Manufacturing Commercial Operations Core application using the filter criteria and search bar.
+2.  Find the Manufacturing Commercial Operations application using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    -   Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]
-    -   Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]
-    -   Manufacturing recall claim management \[sn\_rcl\_claim\_mgmt\]
-    -   Remediation Core \(com.sn\_rm\_core\)
-    -   Manufacturing Quality Management \(com.sn\_mfg\_qm\)
     Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
+3.  Select **Install**.
 
-4.  Select **Install**.
+    In the Application installation dialog box, review the application dependencies.
 
+4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
+
+5.  If demo data is available, select the **Load demo data** check box to install it.
+
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+
+6.  Select **Install**.
+
+
+**Related topics**  
+
+
+[Assigning roles in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/assign-mco-roles.md)
 

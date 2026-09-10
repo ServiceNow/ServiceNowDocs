@@ -27,7 +27,7 @@ For Enterprise Architecture users, Business Stakeholder \(com.snc.business\_stak
 
 ## Why business stakeholder read-only role
 
-Analyst \(sn\_apm.apm\_analyst\) role in Enterprise Architecture is a licensable role that requires subscription. Users with this role can access all Enterprise Architecture PA dashboards and this role contains Enterprise Architecture administrator role who has different levels of access not only to read but to approve and update information data. Organizations procure this licensable role in limited numbers as it comes with a price. Business stakeholder role comes with a similar function but access is controlled at read-only level. Users with this role can access reports to review and approve only.
+Analyst \(sn\_apm.apm\_analyst\) role in Enterprise Architecture is a licensable role that requires subscription. Users with this role can access all Enterprise Architecture PA dashboards. This role contains Enterprise Architecture administrator role, which has different levels of access to read, approve, and update information data. Organizations procure this licensable role in limited numbers as it comes with a price. Business stakeholder role comes with a similar function but access is controlled at read-only level. Users with this role can access reports to review and approve only.
 
 ## Share dashboards with business stakeholder read-only users
 

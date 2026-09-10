@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-expense-line-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-07"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-CoPQ expense line number is automatically generated. The number starts with COPQEXP and incremented for every new report.
+CoPQ expense line number that is automatically generated. The number starts with COPQEXP and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Parent
 
 </td><td>
 
-Select the parent. It’s used to build the hierarchical categories \(parent&gt;child\).
+Parent. that is used to build the hierarchical categories.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Source table
 
 </td><td>
 
-Select the source table \(correction action\) for which the CoPQ expense line is generated.
+Source table \(correction action\) for which the CoPQ expense line is generated.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Source ID
 
 </td><td>
 
-Select the record number for which the CoPQ expense line is generated.
+Record number for which the CoPQ expense line is generated.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Issue
 
 </td><td>
 
-Select the product non-conformance or product quality investigation issue type.
+Product non-conformance or product quality investigation issue type.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Short description
 
 </td><td>
 
-Enter a short note on the expense line.
+Short note on the expense line.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ State
 
 </td><td>
 
-Choose the state of the CoPQ expense line:-   Pending
+State of the CoPQ expense line:-   Pending
 -   Approved
 -   Rejected
 -   Processed
@@ -87,7 +87,7 @@ CoPQ type
 
 </td><td>
 
-Choose the CoPQ type:-   Part
+CoPQ type:-   Part
 -   Labor
 -   Service
 -   Material
@@ -99,7 +99,7 @@ Summary type
 
 </td><td>
 
-Choose the summary type:-   Grow business: Expanding revenue and market reach.
+Summary type. Options are:-   Grow business: Expanding revenue and market reach.
 -   Run business: Streamlining and automating daily sales, support, and service operations for efficiency.
 -   Transform business: Digitally reinventing processes and integrating ecosystems to deliver innovative, agile, and customer-centric manufacturing solutions.
 
@@ -109,7 +109,7 @@ Planned line charge
 
 </td><td>
 
-Defines planned cost line items for CoPQ financial requests, with unit cost, quantity, and type.
+Planned cost line items for CoPQ financial requests, with unit cost, quantity, and type.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Amount
 
 </td><td>
 
-Enter the amount.
+Amount of CoPQ expense line.
 
 </td></tr><tr><td colspan="2">
 
@@ -129,7 +129,7 @@ Asset
 
 </td><td>
 
-The identification number of the asset associated with the expense line, if any.
+Identification number of the asset associated with the expense line, if any.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Contract
 
 </td><td>
 
-The identification number \(not the contract number\) of the contract associated with the Asset, if any.
+Identification number \(not the contract number\) of the contract associated with the Asset, if any.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ User
 
 </td><td>
 
-The name of the user associated with the Asset, if any.
+Name of the user associated with the Asset, if any.
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Configuration item
 
 </td><td>
 
-The name of the configuration item associated with the expense line, if any.
+Name of the configuration item associated with the expense line, if any.
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Task
 
 </td><td>
 
-The identification number of the task associated with the expense line, if any.
+Identification number of the task associated with the expense line, if any.
 
 </td></tr><tr><td>
 
@@ -177,7 +177,7 @@ Cost center
 
 </td><td>
 
-The cost center financially responsible for the item identified in Source ID, if any.
+Cost center financially responsible for the item identified in Source ID, if any.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

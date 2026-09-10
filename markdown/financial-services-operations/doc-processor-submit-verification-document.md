@@ -66,5 +66,5 @@ If Document Intelligence is integrated, once a document verification task is cre
 
 ## What to do next
 
-A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/doc-processor-work-on-doc-verification-task.md).
+A document agent can [Work on a document verification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown).
 

@@ -469,7 +469,7 @@ Glossary terms are grouped alphabetically.
 
 Unified interface that consolidates multiple tools and data views into a single screen, enabling customer service agents to efficiently manage cases, interactions, and tasks.
 
-To learn more about the workspace, see [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspaces-configure.md).
+To learn more about the workspace, see [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-workspaces-configure.md).
 
 -   **Also known as**
 

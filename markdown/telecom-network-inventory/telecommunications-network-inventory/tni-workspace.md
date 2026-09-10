@@ -17,7 +17,7 @@ breadcrumb: [Use, Telecommunications Network Inventory]
 You use the Network Inventory Workspace to manage your inventory and perform the tasks in the Telecommunications Network Inventory application.
 
 -   **[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)**  
-A key function that you can perform in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+A key function that you can perform in the network inventory workspace is to manually create your network assets. You can also build a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 -   **[Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md)**  
 Delete an inventory record that is no longer relevant or needed in the Telecommunications Network Inventory application.
 -   **[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)**  

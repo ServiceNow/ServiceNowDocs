@@ -16,7 +16,7 @@ View daily CI counts or the average of the last 90 daily counts.
 
 ## Before you begin
 
-Ensure that your organization has purchased ITOM subscriptions. You can't view the information in the **ITOM License** module without subscriptions.
+Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
 
 Role required: sn\_itom\_license.reader
 

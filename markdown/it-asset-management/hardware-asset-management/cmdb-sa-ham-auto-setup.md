@@ -7,8 +7,8 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-07-07"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [auto-setup, automatic dashboard setup, HAM advisor dashboard, model categories]
 breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
 ---
@@ -38,7 +38,7 @@ Auto-setup runs only when all the following conditions are met:
 
 ## Scope selected by auto-setup
 
-Auto-setup selects the top five recommended HAM model categories. Rankings are based on the asset footprint of each model category in your environment.
+Auto-setup selects up to 10 recommended HAM model categories, ranked primarily by asset count. For more information, see [HAM model category recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-scope-recom.md).
 
 For each selected model category, auto-setup also marks the corresponding CI class as a principal class so the class appears in CI selection filters on incident, change, and problem forms.
 

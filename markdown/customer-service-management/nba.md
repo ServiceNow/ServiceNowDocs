@@ -14,7 +14,7 @@ breadcrumb: [Implement Intelligence, Configure, Customer Service Management]
 
 Use the Recommended Actions application to display relevant actions to agents based on a context of a recordor enable agents to perform an AI search to find relevant resources. Agents can quickly and easily take action to help customers and resolve their issues.
 
-\[Omitted image "ra-actions-overview-2.png"\] Alt text: Recommended actions and Search tabs in the contextual side panel in CSM Configurable Workspace
+\[Omitted image "ra-actions-overview-2.png"\] Alt text: Recommended actions and Search tabs in the contextual side panel in CRM Workspace
 
 With Recommended Actions:
 
@@ -86,7 +86,7 @@ Agents can enter their queries in the search bar to access AI-powered search res
 
 ## Using recommended actions
 
-Agents can access recommended actions in a workspace such as CSM Configurable Workspace by selecting the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon\) in the contextual side panel. For more information, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-using-recommended-actions.md).
+Agents can access recommended actions in a workspace such as CRM Workspace by selecting the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon\) in the contextual side panel. For more information, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-using-recommended-actions.md).
 
 ## Setting up recommended actions
 

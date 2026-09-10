@@ -31,7 +31,7 @@ If either of these conditions is satisfied for a record in the AI Search index, 
 
 AI Search automatically purges stale records from the index daily. Administrators can purge records manually by running a background script.
 
-For more information on running background scripts, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_ScriptsBackground.md).
+For more information on running background scripts, see .
 
 ## Procedure
 

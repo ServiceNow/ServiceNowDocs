@@ -39,7 +39,7 @@ The integration provides the following functionalities:
 
 -   Transfer the idea to another department with or without resolution: If the idea is rejected or cannot be implemented, the routing agent can transfer the idea to another department.
 
-    When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC when the idea is deemed not feasible.
+    When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC. This happens when the idea is deemed not feasible.
 
     **Note:** When the idea created from a universal request is transferred to another department, the resulting INC, HRC, or custom task becomes the primary ticket for the parent universal request.
 

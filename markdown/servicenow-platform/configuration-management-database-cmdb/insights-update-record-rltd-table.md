@@ -46,5 +46,5 @@ You can see the full list of related tables and associated referenced fields in 
 
 [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cnfig-mgmt-and-cmdb.md)
 
-[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md)
+[cmdb-workspace-insights-view]
 

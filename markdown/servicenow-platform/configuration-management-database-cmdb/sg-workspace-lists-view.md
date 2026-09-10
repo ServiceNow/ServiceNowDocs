@@ -1,6 +1,6 @@
 ---
-title: Lists view in Service Graph Workspace
-description: The Lists view in Service Graph Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
+title: Lists view in CMDB Workspace
+description: The Lists view in CMDB Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-lists-view.html
 release: zurich
@@ -9,22 +9,22 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-02-09"
 reading_time_minutes: 2
-breadcrumb: [Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Lists view in Service Graph Workspace
+# Lists view in CMDB Workspace
 
-The Lists view in Service Graph Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
+The Lists view in CMDB Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
 
 ## Access
 
-Navigate to **Workspaces** &gt; **Service Graph Workspace**, and then in the navigation panel, select the Lists icon.
+Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the navigation panel, select the Lists icon.
 
 Role required: sn\_cmdb\_user, sn\_cmdb\_editor, or sn\_cmdb\_admin
 
 ## Default lists
 
-Provides lists of records from the associated list tables as specified in the Platform table UX List Menu Configuration \[sys\_ux\_list\_menu\_config\] table, in the Service Graph Workspace record. By default, the list contains related tables that are referenced in commonly used CI classes, and tables that a CMDB Admin might need to update records in.
+Provides lists of records from the associated list tables as specified in the Platform table UX List Menu Configuration \[sys\_ux\_list\_menu\_config\] table, in the CMDB Workspace record. By default, the list contains related tables that are referenced in commonly used CI classes, and tables that a CMDB Admin might need to update records in.
 
 Initially, the default lists are:
 
@@ -43,7 +43,7 @@ Initially, the default lists are:
 -   Tags:
 
     -   Source table: Key Value \[cmdb\_key\_value\]
-    -   More information: To manage a tag, select a tag, and then in CI Form select Tags and in the Tags card select **Manage**. For more information, see [Manage CI details using CI Form in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-sg-workspace.md)
+    -   More information: To manage a tag, select a tag, and then in CI Form select Tags and in the Tags card select **Manage**. For more information, see [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
 -   Switch Forwarding Rules:
 
     -   Source table: Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]
@@ -69,5 +69,7 @@ Users with the sn\_cmdb\_editor or sn\_cmdb\_admin roles, can select **New** to 
 
 ## My lists
 
-Custom and shared lists where you can select **Create new list** to create a new custom list associated with the logged on user. For more information, see [Create a custom list in the Lists view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.md).
+Custom and shared lists where you can select **Create new list** to create a new custom list associated with the logged on user. For more information, see [Create a custom list in the Lists view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.md).
+
+**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
 

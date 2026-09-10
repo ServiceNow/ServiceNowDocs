@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-containment-actions-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-Containment action number is automatically generated. The number starts with CONT and incremented for every new report.
+Containment action number that is automatically generated. The number starts with CONT and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Remediation action plan
 
 </td><td>
 
-Defines how to address issues such as non-compliance, process gaps, or contamination with clear steps.
+Definition of how to address issues such as non-compliance, process gaps, or contamination with clear steps.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Issue
 
 </td><td>
 
-Select the record for which containment action must be performed.
+Record for which the containment action must be performed.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Total actual cost
 
 </td><td>
 
-Enter the total cost.
+Total cost.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Implementation date
 
 </td><td>
 
-Select the date when the correction action must be implemented.
+Date when the correction action must be implemented.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Validated date
 
 </td><td>
 
-Select the date when the actions were validated.
+Date when the actions were validated.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Priority
 
 </td><td>
 
-Choose the severity of the containment action from the options:-   Critical
+Severity of the containment action. Options are:-   Critical
 -   High
 -   Moderate
 -   Low
@@ -88,7 +88,7 @@ State
 
 </td><td>
 
-Choose the state of the containment action:-   New
+State of the containment action:-   New
 -   In review
 -   In progress
 -   Closed complete
@@ -101,7 +101,7 @@ Table
 
 </td><td>
 
-Select the table name for which containment action must be performed.
+Table name for which the containment action must be performed.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Remediation item
 
 </td><td>
 
-Select the remediation item record associated with the action.
+Remediation item record associated with the action.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Assignment group
 
 </td><td>
 
-Select the organizational units or teams responsible for handling specific tasks, cases, or issues
+Organizational units or teams responsible for handling specific tasks, cases, or issues
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Assigned to
 
 </td><td>
 
-Select the user to whom the containment action has been assigned.
+User to whom the containment action has been assigned.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Short description
 
 </td><td>
 
-Enter a short note.
+Short note.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Description
 
 </td><td>
 
-Enter the detailed description of the containment action.
+Detailed description of the containment action.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

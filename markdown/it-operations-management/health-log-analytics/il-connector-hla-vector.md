@@ -33,7 +33,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-If your organization uses Vector by Datadog to handle log data from multiple sources before sending it to Health Log Analytics, the log format HLA receives is distinct from other types. The Vector Agent integration enables HLA to detect and separate transport headers from inner log messages in this format. Only the inner messages are forwarded to the source type structure for processing.
+If your organization uses Vector by Datadog to handle log data from multiple sources before sending it to Health Log Analytics, the log format is distinct from other types. The Vector Agent integration enables HLA to detect and separate transport headers from inner log messages in this format. Only the inner messages are forwarded to the source type structure for processing.
 
 You set up integrations through the Integrations Launchpad in Service Operations Workspace, which you access from the ITOM AIOps configuration center. The AIOps configuration center is a centralized workspace for configuring and managing AIOps features from a single place. The integrations setup process reduces implementation time compared to manual data input setup in the classic interface in Health Log Analytics. For more information, see [Integrations Launchpad in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md).
 

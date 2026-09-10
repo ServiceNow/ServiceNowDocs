@@ -1,6 +1,6 @@
 ---
 title: Amazon Simple Storage Service \(Amazon S3\) discovery with Patterns
-description: The ServiceNow Discovery application uses the Amazon AWS S3 pattern to find public and non-public storage buckets of Amazon Simple Storage Service. The pattern uses a set of REST API calls to find these resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Amazon AWS S3 pattern to find public and non-public storage buckets of Amazon Simple Storage Service. The pattern uses a set of REST API calls to find these resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-s3-discovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # Amazon Simple Storage Service \(Amazon S3\) discovery with Patterns
 
-The ServiceNow Discovery application uses the Amazon AWS S3 pattern to find public and non-public storage buckets of Amazon Simple Storage Service. The pattern uses a set of REST API calls to find these resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Amazon AWS S3 pattern to find public and non-public storage buckets of Amazon Simple Storage Service. The pattern uses a set of REST API calls to find these resources. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 In addition to the discovery schedule, the ServiceNow instance triggers the Amazon AWS S3 pattern when AWS Config sends an event to the ServiceNow instance. Config is a service that continuously monitors AWS resources and sends events to the ServiceNow every time it senses that a resource configuration has changed.
 

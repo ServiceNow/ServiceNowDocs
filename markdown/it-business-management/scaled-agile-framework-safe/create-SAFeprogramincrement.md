@@ -24,15 +24,15 @@ Role required: safe\_admin
 
 1.  Navigate to the program increment form using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d153003e56">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d155612e56">
 
 Option
 
-</th><th align="left" id="d153003e59">
+</th><th align="left" id="d155612e59">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153003e65">
+</th></tr></thead><tbody><tr><td id="d155612e65">
 
 **From the Program Increment Planning tab**
 
@@ -45,7 +45,7 @@ Steps
 5.  Click **Create Program Increment**.
 
 
-</td></tr><tr><td id="d153003e110">
+</td></tr><tr><td id="d155612e110">
 
 **From the Program Increment related list**
 

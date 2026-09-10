@@ -18,7 +18,7 @@ ServiceNow Health Log Analytics predicts IT issues before they affect your users
 
 ## Health Log Analytics overview
 
-Health Log Analytics typically receives and processes log data and sends events to ServiceNow Event Management. The application discovers anomalies as they happen and helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data.
+Health Log Analytics typically receives and processes log data and sends events to ServiceNow Event Management. The application discovers anomalies as they happen. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data.
 
 Health Log Analytics can handle any kind of machine-generated textual log data. It can process application, infrastructure, and network logs, as well as other types of textual log data. Although a configuration management database \(CMDB\) can be helpful to generate high-quality events and alerts, it is not necessary.
 

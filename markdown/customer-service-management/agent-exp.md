@@ -18,7 +18,7 @@ Your agents can assist customers through various interaction channels to resolve
 
 Your agents have one desktop for any interaction–phone, chat, messaging, web forms, etc. Multiple tabs allow agents to efficiently manage several cases at once. Agents have ongoing visibility into the status of issues assigned to middle and back-office teams for resolution. The workspace dynamically displays related contextual information based on the current state. Agents can also set compact mode and dark mode to optimize their experience and productivity.
 
-To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/exploring-configurable-workspace.md).
+To learn more about CSM Configurable Workspace, see [Explore CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/exploring-configurable-workspace.md).
 
 ## Advanced Work Assignment
 

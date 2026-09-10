@@ -124,13 +124,13 @@ Metric Intelligence — Validate MID Distributed cluster
 
 1.  Checks the status of the cluster node.
 
-If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], then the job changes the status of the cluster node to **Stopped**.
+If status is **Started** and the status of the Metric Intelligence extension is not any of **Started**/**Starting**/**Warning** \[warning with specific errors\], the job changes the status of the cluster node to **Stopped**.
 
 This happens when MID Server stops unexpectedly without notifying the instance that it is stopping.
 
 2.  Checks the status of all cluster nodes on all MID Servers in the cluster.
     -   If the status of all nodes is **Stopped** and the status of the cluster itself is **Started**, then the job changes the status of the cluster to **Stopped**.
-    -   If the status of the cluster is **Stopped** but there are MID Servers with a cluster node that is running, then the job changes the status of the cluster to **Started**.
+    -   If the cluster status is **Stopped** but MID Servers have a running cluster node, the job changes the cluster status to **Started**.
 3.  Checks the number of Cluster Leaders: If two are detected, then the job stops the entire cluster.
 
 This happens when MID Servers are not able to connect with other members of the cluster and form multiple sub-clusters.
@@ -190,7 +190,7 @@ Metric Intelligence - Combined Model Learner Job
 
 </td><td>
 
-Constructs all the information required for performing real time anomaly detection \(calculating data frequency and building statistical models\) on a subset of all series for which data is being collected.
+Constructs information for real time anomaly detection on a subset of collected series. Calculates data frequency and builds statistical models.
 
 </td></tr></tbody>
 </table>## Tables installed

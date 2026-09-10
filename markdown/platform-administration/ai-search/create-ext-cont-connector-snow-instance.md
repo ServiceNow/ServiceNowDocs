@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A user with the admin role must have already configured your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector. For details on configuring these settings on your source instance, see [Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md).
+A user with the admin role must have already configured your ServiceNow AI Platform source instance to allow access by the ServiceNow instance external content connector. For the required source instance configuration steps, see [Configure your ServiceNow AI Platform instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-sn-aip-instance-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

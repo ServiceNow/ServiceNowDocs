@@ -37,7 +37,7 @@ Role required: sn\_apm.apm\_user
 
     -   To add an existing value stream:
         1.  Select **Add**.
-        2.  In the Add value stream window, select the value stream and the relationship type between the stakeholder and the value stream.
+        2.  In the Add value stream window, select the value stream. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a value stream, select **New**, and fill in the fields on the form. For field information, see [Create value stream form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-new-value-stream-form.md).
 

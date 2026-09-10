@@ -34,15 +34,15 @@ Role required: service\_mapping\_admin
 
 3.  Either select an existing tag category or create a new tag category.
 
-<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d667091e179">
+<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d687213e179">
 
 Tag category option
 
-</th><th align="left" id="d667091e182">
+</th><th align="left" id="d687213e182">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d667091e188">
+</th></tr></thead><tbody><tr><td id="d687213e188">
 
 **Select an existing tag category**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **Define the tag values** and enter values for the selected category.
 
 
-</td></tr><tr><td id="d667091e212">
+</td></tr><tr><td id="d687213e212">
 
 **Create a new tag category**
 

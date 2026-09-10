@@ -26,41 +26,47 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Discovery** &gt; **Credentials** and select **New**.
+1.  Navigate to **Discovery** &gt; **Credentials**.
 
-2.  For the type of credential, select **Azure Service Principal**.
+2.  Select **New**.
 
-3.  Fill in the form with the required info and submit.
+3.  For the type of credential, select **Azure Service Principal**.
 
-    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: The Azure Service Principle record.
+4.  Fill in the form with the required information.
 
-4.  Navigate to **Discovery** &gt; **Credentials** and select **New**.
+    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: Azure Service Principle record
 
-5.  For this type of credential, select **Azure SSH Certificate Credential**.
+5.  Select **Submit**.
 
-6.  Fill in the form with the necessary information, including linking the Service Principle credential you created.
+6.  Navigate to **Discovery** &gt; **Credentials**.
+
+7.  Select **New**.
+
+8.  For this type of credential, select **Azure SSH Certificate Credential**.
+
+9.  Fill in the form with the necessary information, including linking the Service Principle credential you created.
 
     The Azure Service Provider and SSH Certificate credentials have been created and linked. Continue the procedure to create the Cloud Discovery schedule.
 
-7.  Navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
+10. Navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-8.  Select **New Discovery** from the header of any tab on the Schedules page.
+11. Select **New Discovery** from the header of any tab on the Schedules page.
 
-9.  Select **Cloud-based discovery** and select **Continue**.
+12. Select **Cloud-based discovery** and select **Continue**.
 
-10. Provide a name for the schedule and select **Azure** as the cloud provider.
+13. Provide a name for the schedule and select **Azure** as the cloud provider.
 
-11. Choose a MID Server.
+14. Choose a MID Server.
 
-12. Select **next**.
+15. Select **next**.
 
-13. Create a new cloud account using your Azure Service Principal credential.
+16. Create a cloud account using your Azure Service Principal credential.
 
     For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md).
 
-14. Select **next**.
+17. Select **next**.
 
-15. Select cloud regions for the discovery schedule.
+18. Select cloud regions for the Discovery schedule.
 
     You can choose to include all regions linked to the cloud account or select specific regions. There’s no restriction on the number of cloud regions that you can add.
 
@@ -68,15 +74,15 @@ Role required: admin
 
     2.  If the cloud regions don't appear, select **Refresh cloud regions**.
 
-16. Select **next**.
+19. Select **next**.
 
-17. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle.
+20. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle.
 
     1.  Select a MID Server or cluster that can discover the Virtual Machines \(VM\) and their attributes.
 
-18. Select **next**.
+21. Select **next**.
 
-19. Complete the schedule creation by selecting **Finish and run**.
+22. Complete the schedule creation by selecting **Finish and run**.
 
 
 ## Result

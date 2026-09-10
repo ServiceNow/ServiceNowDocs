@@ -29,7 +29,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 
-In CSM Configurable Workspace and Core UI, you can generate the resolution information for a case by selecting **Propose Solution** on the case record. This UI Action displays the Propose Solution modal. Using this modal, you can select a resolution code, add information about the cause of the issue, and review and edit the resolution notes text.
+In CRM Workspace and Core UI, you can generate the resolution information for a case by selecting **Propose Solution** on the case record. This UI Action displays the Propose Solution modal. Using this modal, you can select a resolution code, add information about the cause of the issue, and review and edit the resolution notes text.
 
 **Note:** The Propose Solution UI action is available to the customer service agents who have assigned cases in the Open state.
 
@@ -41,7 +41,7 @@ You can also generate resolution information on demand from the ServiceNow Otto 
 
 ## Procedure
 
-1.  In CSM Configurable Workspace, open a customer service case.
+1.  In CRM Workspace, open a customer service case.
 
 2.  Select **Propose Solution**.
 

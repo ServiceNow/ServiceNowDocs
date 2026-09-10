@@ -37,15 +37,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 1.  Create a target for a goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d275728e116">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d281833e116">
 
 Option
 
-</th><th align="left" id="d275728e119">
+</th><th align="left" id="d281833e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d275728e125">
+</th></tr></thead><tbody><tr><td id="d281833e125">
 
 **From the Goals view**
 
@@ -57,7 +57,7 @@ Steps
 4.  Next to the goal that you want to create a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
 
-</td></tr><tr><td id="d275728e173">
+</td></tr><tr><td id="d281833e173">
 
 **From the Targets tab**
 

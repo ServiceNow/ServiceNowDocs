@@ -1,6 +1,6 @@
 ---
 title: Creating or extending pages with pro-code tools
-description: Extend your AI Control Tower pages beyond the built-in configuration options with the ServiceNow® AI Experience Lab for VS Code extension.
+description: Extend your AI Control Tower pages beyond the built-in configuration options with the ServiceNow AI Experience Lab for VS Code extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-create-extend-pages-pro-code-tools.html
 release: zurich

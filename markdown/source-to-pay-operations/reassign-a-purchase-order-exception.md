@@ -1,18 +1,18 @@
 ---
 title: Reassign a purchase order exception
-description: Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
+description: Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/reassign-a-purchase-order-exception.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Reassign a purchase order exception
 
-Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
+Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an exception that you want to work on.
 
-4.  Select the More actions icon.
+4.  Select the More Actions icon \(\[Omitted image "pom-more-actions-icon.png"\] Alt text:\).
 
 5.  Select **Reassign exception**.
 
@@ -34,10 +34,15 @@ Role required: sn\_poem\_core.operational\_buyer
 
 7.  Select **Reassign**.
 
+    The purchase order exception is reassigned.
 
-## Result
-
-The purchase order exception is reassigned.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Change the priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/change-priority-of-poe.md)
+
+[Create a supplier escalation case from a PO exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)
 

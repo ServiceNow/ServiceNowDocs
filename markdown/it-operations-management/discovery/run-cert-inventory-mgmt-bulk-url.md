@@ -1,6 +1,6 @@
 ---
 title: Use bulk certificate upload
-description: In Certificate Inventory and Management version 1.2.0 and later, you have the option to efficiently import SSL certificates in bulk, allowing you to upload up to 5000 certificates within a single .xlsx file for time and resource savings.
+description: In Certificate Inventory and Management version 1.2.0 and later, you can import up to 5000 SSL certificates in bulk using a single .xlsx file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-bulk-url.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory an
 
 # Use bulk certificate upload
 
-In Certificate Inventory and Management version 1.2.0 and later, you have the option to efficiently import SSL certificates in bulk, allowing you to upload up to 5000 certificates within a single .xlsx file for time and resource savings.
+In Certificate Inventory and Management version 1.2.0 and later, you can import up to 5000 SSL certificates in bulk using a single .xlsx file.
 
 ## Before you begin
 

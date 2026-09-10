@@ -1,6 +1,6 @@
 ---
 title: Technology Portfolio Management - Legacy
-description: The underlying technologies of the business applications used in your business enterprise have a shelf life that must be actively managed and diligently monitored to track their versions and life cycle. Use the timeline view of the Technology Portfolio Management to track their dates, and then create a demand or a project to upgrade or retire them.
+description: The underlying technologies of business applications have a shelf life that must be actively managed and monitored to track their versions and life cycle. Use the timeline view of the Technology Portfolio Management to track their dates, and then create a demand or a project to upgrade or retire them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/technology-portfolio-management.html
 release: zurich
@@ -12,15 +12,15 @@ breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Por
 
 # Technology Portfolio Management - Legacy
 
-The underlying technologies of the business applications used in your business enterprise have a shelf life that must be actively managed and diligently monitored to track their versions and life cycle. Use the timeline view of the Technology Portfolio Management to track their dates, and then create a demand or a project to upgrade or retire them.
+The underlying technologies of business applications have a shelf life that must be actively managed and monitored to track their versions and life cycle. Use the timeline view of the Technology Portfolio Management to track their dates, and then create a demand or a project to upgrade or retire them.
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
 
 The technology of a business application is also known as a software model. A software model is a specific version or configuration of software.
 
-The software models used in your business applications can be operating systems, database management systems, development tools, and middleware, each of which has a life cycle. If these life-cycle stages are not tracked, there are risks where the vendor may not support them any longer and the business applications that run on these technologies are at stake.
+The software models used in your business applications can be operating systems, database management systems, development tools, and middleware, each of which has a life cycle. If these life-cycle stages are not tracked, vendors may stop supporting them. Business applications that run on these technologies are then at stake.
 
 Creating an inventory of all technologies used in the enterprise helps to:
 
@@ -56,7 +56,7 @@ Enterprise Architecture no longer integrates with Service Mapping through the **
 
 ## TPM depends on Software Asset Management \(SAM\) to retrieve the technology information of the software product
 
-**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you do not have either SAM Foundation or SAM Professional installed on your instance.
+**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you don't have either SAM Foundation or SAM Professional installed on your instance.
 
 You can use Technology Portfolio Management even if you do not have Software Asset Management \(SAM\) installed. A preconfigured Software Product Model table is available to all TPM users. You can create a list of all software models that your organization uses either manually or import from an existing database or source.
 
@@ -64,7 +64,7 @@ Using TPM depends on SAM plugins. The dependency is as follows:
 
 -   **With SAM Premium plugin**
 
-    To access the Product Classification \[samp\_sw\_product\] table, you need the Software Asset Management Premium plugin. Reference to samp\_sw\_product\_classification is in samp\_sw\_product table. This content table is referenced in the Software Product Model \[cmdb\_software\_product\_model\] table to retrieve the technology information. Subscribing to the SAM Premium plugin enables you to view the applications by Business Applications as well as by Product Classification in the TPM timeline.
+    To access the Product Classification \[samp\_sw\_product\] table, you need the Software Asset Management Premium plugin. Reference to samp\_sw\_product\_classification is in samp\_sw\_product table. This content table is referenced in the Software Product Model \[cmdb\_software\_product\_model\] table to retrieve the technology information. Subscribing to the SAM Premium plugin enables you to view the applications by Business Applications and by Product Classification in the TPM timeline.
 
 -   **Without SAM plugin**
 

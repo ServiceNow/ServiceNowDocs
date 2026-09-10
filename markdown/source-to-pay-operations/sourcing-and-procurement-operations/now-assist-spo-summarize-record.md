@@ -7,7 +7,7 @@ release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-07-30"
+last_updated: "2026-08-17"
 reading_time_minutes: 4
 breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Use ServiceNow Otto for SPO, ServiceNow Otto for SPO, Sourcing and 
 Get a quick overview of a procurement record's status, completed actions, and next steps, without reading through all the details. ServiceNow Otto for SPO generates a focused summary in seconds.
 
 ## Before you begin
-
-**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
@@ -31,11 +29,12 @@ The summary appears in different places depending on which interface you're usin
 
 -   **What the summary includes**
 
-    Based on the type of procurement record, ServiceNow Otto for SPO generates a summary with three sections:
+    Based on the type of procurement record, ServiceNow Otto for SPO generates a summary with the following sections:
 
-    -   **Overview**: Basic information about the record.
+    -   **Overview**: Information about the record.
     -   **Actions completed**: Actions that have been taken so far.
-    -   **Next steps**: Actions you need to do next.
+    -   **Next steps**: Actions you need to do next for open cases. For purchase requisitions and procurement cases, if the record has associated email records, this also factors in the sender, date, and key message from those emails \(excluding standard state-change notifications\).
+    -   **Close notes**: Complete resolution summary for closed procurement cases.
 
 ## Procedure
 
@@ -79,29 +78,23 @@ To generate a summary for the following procurement records:-   Negotiation
 </td></tr></tbody>
 </table>4.  Navigate to the **Details** tab.
 
-5.  In the **Record summary** section, select **Summarize**.\[Omitted image "image.otto-spo-summarize-record"\] Alt text: Record summary in Source-to-Pay Workspace.
+5.  In the **Record summary** section, select **Summarize**.\[Omitted image "otto-spo-summarize-record.png"\] Alt text: Record summary in Source-to-Pay Workspace.
 
     ServiceNow Otto for SPO begins generating your summary. This typically takes a few seconds. The summary will appear on screen once complete.
 
-6.  When you opt to summarize a purchase requisition, you see the following message:
+6.  Review the summary details.
 
-    ServiceNow Otto is summarizing your purchase requisition.
+7.  After ServiceNow Otto for SPO generates the summary, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-    **Note:** Generating and displaying the summary may take several seconds.
-
-7.  Review the summary details.
-
-8.  After ServiceNow Otto for SPO generates the summary, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
-
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d206142e328">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d218777e325">
 
 Option
 
-</th><th align="left" id="d206142e331">
+</th><th align="left" id="d218777e328">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d206142e337">
+</th></tr></thead><tbody><tr><td id="d218777e334">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -112,7 +105,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d206142e367">
+</td></tr><tr><td id="d218777e364">
 
 **Expand or collapse the summary**
 
@@ -120,7 +113,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d206142e388">
+</td></tr><tr><td id="d218777e385">
 
 **Provide feedback for the summary**
 
@@ -128,7 +121,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d206142e411">
+</td></tr><tr><td id="d218777e408">
 
 **Copy the record summary**
 
@@ -136,7 +129,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spo.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d206142e427">
+</td></tr><tr><td id="d218777e424">
 
 **View the information about the record summary**
 
@@ -144,7 +137,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spo.png"\] Alt te
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d206142e442">
+</td></tr><tr><td id="d218777e439">
 
 **Refresh the record summary**
 
@@ -168,4 +161,6 @@ If you want to refresh the summary, select the refresh icon \(\[Omitted image "i
 [Analyze sentiment in procurement cases]()
 
 [Generate an email response for procurement cases]()
+
+[Generate a knowledge article]()
 

@@ -88,9 +88,13 @@ The name of this field mapping rule.
 
 ## Example
 
-The use case for this script is to automatically enrich incoming events with classification details before they are processed further. For example, by adding u\_alert\_classification = "Network" into the event’s metadata, the system can tag and group network-related alerts more effectively. This helps streamline event correlation, reduce noise, and improve routing so incidents are categorized and resolved faster.
+The use case for this script is to automatically enrich incoming events with classification details before they are processed further. For example, by adding u\_alert\_classification = "Network" into the event's metadata, the system can tag and group network-related alerts more effectively. This helps streamline event correlation, reduce noise, and improve routing so incidents are categorized and resolved faster.
 
-This script checks the event’s additional\_info field, ensures it contains valid JSON, and then updates it by adding a new property called u\_alert\_classification with the value “Network.” If the JSON is invalid, it logs an error and stops the binding. Otherwise, it saves the updated data back to the event record and allows the binding to proceed.
+This script checks
+
+1.  The event's additional\_info field and verifies it contains valid JSON
+2.  Updates the field by adding a new property called u\_alert\_classification with the value "Network"
+3.  If the JSON is invalid, it logs an error and stops the binding. If valid, it saves the updated data back to the event record and allows the binding to proceed.
 
 ```
 try {

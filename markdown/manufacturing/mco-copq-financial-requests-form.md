@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-financial-requests-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-CoPQ number is automatically generated. The number starts with COPQFR and incremented for every new report.
+CoPQ number that is automatically generated. The number starts with COPQFR and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Remediation action plan
 
 </td><td>
 
-Select the remediation action plan from the list.
+Remediation action plan from the list.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Issue
 
 </td><td>
 
-Select the record for which CoPQ action must be performed.
+Record for which CoPQ action must be performed.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Total actual amount
 
 </td><td>
 
-Enter the actual cost of the CoPQ financial request action.
+Actual cost of the CoPQ financial request action.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Total planned amount
 
 </td><td>
 
-Enter the planned cost allocated to address the issue through the request.
+Planned cost allocated to address the issue through the request.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ State
 
 </td><td>
 
-Choose the state of the preventive action:-   Draft
+State of the preventive action:-   Draft
 -   Pending review
 -   Partially approved
 -   Approved
@@ -83,7 +83,7 @@ Parent
 
 </td><td>
 
-Select the parent record.
+Parent record.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Priority
 
 </td><td>
 
-Choose the priority of the CoPQ financial requests.
+Priority of the CoPQ financial requests.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Assignment group
 
 </td><td>
 
-Select the organizational units or teams responsible for handling specific tasks, cases, or issues
+Organizational units or teams responsible for handling specific tasks, cases, or issues
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Assigned to
 
 </td><td>
 
-Select the user to whom the preventive action has been assigned.
+User to whom the preventive action has been assigned.
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Short description
 
 </td><td>
 
-Enter a short note.
+Short note.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Description
 
 </td><td>
 
-Enter the detailed description of the CoPQ financial requests.
+Detailed description of the CoPQ financial requests.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

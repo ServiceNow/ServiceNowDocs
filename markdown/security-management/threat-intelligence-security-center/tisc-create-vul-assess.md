@@ -51,6 +51,10 @@ Role required:
 
 [Automated IOC Enrichment]()
 
+[Automated sharing of high-risk IOC's with trusted partners]()
+
+[Automatically add threat intelligence to a TAXII collection]()
+
 [Analyze, assess, and disseminate observables]()
 
 [Analyze and assess threat IoC’s]()

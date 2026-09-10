@@ -18,7 +18,7 @@ This view also lists applications by technology category. For example, data tech
 
 This view displays all software models including those software models that are not associated with a business application.
 
-You can select this view to dynamically load all technology categories. Expand a technology category to load all the software models associated to the category. Similarly, expand a software model to view its full versions, expand a version to view its associated business applications, and expand a business application to view its related application services, demands, and projects.
+You can select this view to dynamically load all technology categories. Expand a technology category to load all the software models associated to the category. Similarly, expand a software model to view its full versions, and expand a version to view its associated business applications. Expand a business application to view its related application services, demands, and projects.
 
 **Note:**
 

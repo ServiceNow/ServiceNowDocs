@@ -1,6 +1,6 @@
 ---
 title: Amazon Athena Workgroup pattern-based discovery
-description: Discovery and Service Mapping Patterns finds Amazon Athena Workgroups on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds Amazon Athena Workgroups on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-athena-workgroup.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # Amazon Athena Workgroup pattern-based discovery
 
-Discovery and Service Mapping Patterns finds Amazon Athena Workgroups on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds Amazon Athena Workgroups on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 
@@ -101,7 +101,7 @@ Discovery and Service Mapping Patterns application populates data in the CMDB wh
 |Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
 |Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
 
-## CI relationships
+## CI relationships and references
 
 The Amazon AWS - Athena Workgroup - Extended Inventory \(LP\) pattern creates the following relationships and references to support Amazon Athena Workgroup discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

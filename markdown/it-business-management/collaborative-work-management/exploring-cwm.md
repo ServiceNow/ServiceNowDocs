@@ -68,7 +68,7 @@ All users
 Get started without admin involvement by configuring your own workflow and organizing work the way your team needs it.
 
 -   Create custom fields for task records.
--   Switch between List, Gantt, and Kanban views.
+-   Switch between Dashboard, List, Gantt, and Kanban views.
 -   Create custom work item types.
 -   Add a list of additional assignees to a task.
 
@@ -160,7 +160,31 @@ Agile practitioner
 
 </td></tr><tr><td>
 
-Switch between List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
+Visualize task and sprint progress at a glance with configurable widgets, such as charts, dials, and score cards, on a dedicated Dashboard view. Choose from a set of predefined widgets or build your own custom widgets bound to any column on the Board.
+
+</td><td>
+
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Save and reuse filtered views of records from any table. Default lists such as My Epics, Stories, and Active Sprints are also available for quick access.
+
+</td><td>
+
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-lists.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
 
 </td><td>
 
@@ -255,7 +279,7 @@ Share Doc content with stakeholders who don't have access to CWM by exporting pa
 Knowledge worker
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+</table>**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## What to explore next
 

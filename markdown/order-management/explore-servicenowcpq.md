@@ -50,7 +50,7 @@ The following workflow describes the tasks involved in configuring and using the
 2.  The product catalog admin creates and saves a configurable product offering in Product Catalog Management.
 3.  The product catalog admin generates the product offering blueprint.
 4.  The product catalog admin publishes the configurable product offering so that it’s available in the product catalog and also deployed as a blueprint.
-5.  The agent creates a transaction, such as a quote or order in the CSM Configurable Workspace. Or a customer uses the Business Portal for a self-service transaction, for example, placing an order.
+5.  The agent creates a transaction, such as a quote or order in the CRM Workspace. Or a customer uses the Business Portal for a self-service transaction, for example, placing an order.
 6.  The agent or customer selects a configurable product from the product catalog.
 7.  The agent or customer configures the product using the CPQ Configurator.
 8.  The agent or customer saves and closes the product offering configuration. The product offering is added as a line item for the transaction, such as a quote line or order line item.

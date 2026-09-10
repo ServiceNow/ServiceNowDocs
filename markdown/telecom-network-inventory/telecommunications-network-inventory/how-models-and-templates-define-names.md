@@ -1,32 +1,32 @@
 ---
 title: How models and templates work together to define names
-description: Two layers shape how a configuration item \(CI\) is named when it is created in TNI inventory: the equipment model establishes default naming patterns, and the inventory template inherits and optionally overrides them.
+description: Two layers shape how a CI is named in TNI: the equipment model establishes default naming patterns, and the inventory template inherits and optionally overrides them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/how-models-and-templates-define-names.html
 release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Inventory template naming patterns, Network inventory models, Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # How models and templates work together to define names
 
-Two layers shape how a configuration item \(CI\) is named when it is created in TNI inventory: the equipment model establishes default naming patterns, and the inventory template inherits and optionally overrides them.
+Two layers shape how a CI is named in TNI: the equipment model establishes default naming patterns, and the inventory template inherits and optionally overrides them.
 
 ## The two layers
 
-An equipment model represents a class of equipment — for example, a Cisco ASR 9006 router. The model captures the structural facts that apply to every device of that type: how many slots it has, what kinds of cards each slot accepts, and the default naming patterns that names of slots and interfaces should follow.
+An equipment model represents a class of equipment — for example, a Cisco ASR 9006 router. It captures the structural facts for every device of that type: how many slots it has, what card types each slot accepts, and the default naming patterns for slots and interfaces.
 
-An inventory template represents a specific way of configuring that equipment for use in your environment. The template selects which card models occupy which slot positions, defines the related templates for sub-components, and carries naming patterns that apply when CIs are created from the template.
+An inventory template represents a specific way of configuring that equipment for use in your environment. It selects which card models occupy which slot positions, defines sub-component templates, and carries naming patterns that apply when CIs are created.
 
 You can build more than one template from the same model. The same Cisco ASR 9006 model is the basis for the ASR9006 Edge Template and the ASR 9006 - Router Template — two configurations of the same physical equipment serving different roles in a network.
 
 ## How a template inherits naming patterns from its model
 
-When you create inventory template based on an equipment model, the system auto-creates the related templates that match the model's structure. Each related template's Name Pattern field is pre-populated with the corresponding default from the model — slot related templates inherit the model's slot naming pattern, interface related templates inherit the interface naming pattern.
+When you create an inventory template from an equipment model, the system auto-creates related templates that match the model's structure. Each related template's Name Pattern field is pre-populated from the model — slot related templates inherit the slot naming pattern, and interface related templates inherit the interface naming pattern.
 
 After creation, each related template owns its naming pattern independently. Changing the pattern on one related template has no effect on its siblings or on the model. To restore a related template's pattern to the model's default, you must edit the field manually.
 

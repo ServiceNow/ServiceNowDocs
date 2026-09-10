@@ -1,6 +1,6 @@
 ---
 title: Using proxy agents in Agent Client Collector
-description: You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\) even if the agent is in the cloud or any place that is external to your host server.
+description: You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\). This works even if the agent is in the cloud or external to your host server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/proxy-agent.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Man
 
 # Using proxy agents in Agent Client Collector
 
-You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\) even if the agent is in the cloud or any place that is external to your host server.
+You can use a proxy agent to monitor the health and performance of your configuration items \(CIs\). This works even if the agent is in the cloud or external to your host server.
 
 Proxy agents are used to monitor:
 
@@ -33,7 +33,7 @@ You can configure the proxy agent to do a custom check when it is monitoring ext
 
 You can create a cluster of proxy agents on multiple proxy servers to monitor the services that are external to the host server. To learn how to create a proxy agent cluster, see [Create a proxy agent cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.md).
 
-Use a Proxy Auto-Configuration \(PAC\) file to dynamically determine the appropriate proxy server to use. PAC files provide flexible and automated proxy configuration, enabling the agent to use different proxies for different destinations, connect directly to internal resources, implement complex proxy routing logic, and to automatically handle proxy failover. For details on the parameters used for PAC file configuration, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-yml-options.md).
+Use a Proxy Auto-Configuration \(PAC\) file to dynamically determine the appropriate proxy server to use. PAC files provide flexible and automated proxy configuration. They enable the agent to use different proxies for different destinations, connect directly to internal resources, implement complex proxy routing logic, and automatically handle proxy failover. For details on the parameters used for PAC file configuration, see [Configuration file options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-yml-options.md).
 
 Following is a sample PAC file:
 

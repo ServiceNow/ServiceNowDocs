@@ -100,7 +100,7 @@ Upgrade the prod instance to version 6.2.4 when you upgrade a sub-prod instance 
 
 **Note:** All the preferences mentioned earlier for a sub-prod instance are available in read-only mode, when Multi-Instance is configured and enabled.
 
-For information on Data, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/data.md)
+For information on Data, see [Data sharing, processing, and security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/data.md)
 
 For more information on trust concepts and trust configuration management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/r/platform-administration/grant-access-v2.html).
 

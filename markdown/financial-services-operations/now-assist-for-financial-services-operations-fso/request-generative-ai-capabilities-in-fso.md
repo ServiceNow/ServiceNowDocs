@@ -29,7 +29,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the ServiceNow Otto panel in Financial Services Workspace to request a case summary.
 
-For more information about the panel, see . For information about activating the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ For more information about the panel, see . For information about activating the
 
 4.  After you request the generative AI capabilities, you can summarize a case.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28347e245">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28352e246">
 
 Option
 
-</th><th align="left" id="d28347e248">
+</th><th align="left" id="d28352e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28347e254">
+</th></tr></thead><tbody><tr><td id="d28352e255">
 
 **Summarize a case**
 

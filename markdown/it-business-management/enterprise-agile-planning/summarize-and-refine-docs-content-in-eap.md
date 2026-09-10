@@ -21,7 +21,7 @@ Use ServiceNow Otto capabilities to elaborate, shorten, and summarize selected c
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   [Create a Doc in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization ServiceNow Otto skill.
@@ -36,15 +36,15 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 2.  Navigate to your Doc.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d130616e162">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d133088e159">
 
 Type
 
-</th><th align="left" id="d130616e165">
+</th><th align="left" id="d133088e162">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d130616e171">
+</th></tr></thead><tbody><tr><td id="d133088e168">
 
 **Team Doc**
 
@@ -54,7 +54,7 @@ Actions
 2.  Select the Docs tab and open your Doc.
 
 
-</td></tr><tr><td id="d130616e189">
+</td></tr><tr><td id="d133088e186">
 
 **Planning item Doc**
 

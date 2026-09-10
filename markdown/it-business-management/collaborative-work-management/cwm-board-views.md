@@ -1,23 +1,38 @@
 ---
-title: List, Gantt, and Kanban views in CWM
-description: Switch between List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
+title: Dashboard, List, Gantt, and Kanban views in CWM
+description: Switch between Dashboard, List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/collaborative-work-management/cwm-board-views.html
 release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-keywords: [board views, List view, Gantt view, Kanban view, CWM, quick filters, scrum tasks, sprint tracking]
+last_updated: "2026-08-20"
+reading_time_minutes: 6
+keywords: [board views, Dashboard view, List view, Gantt view, Kanban view, CWM, quick filters, scrum tasks, sprint tracking]
 breadcrumb: [Board views in CWM, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
-# List, Gantt, and Kanban views in CWM
+# Dashboard, List, Gantt, and Kanban views in CWM
 
-Switch between List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
+Switch between Dashboard, List, Gantt, and Kanban views to manage and visualize work on a CWM Board in the way that best fits your team's workflow.
 
-Each CWM Board supports three views: List, Gantt, and Kanban. You can switch between views at any time without losing data, and each view can be personalized to show the columns and attributes most relevant to your team. For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+Each CWM Board supports four views: Dashboard, List, Gantt, and Kanban. You can switch between views at any time without losing data. The Dashboard view displays widgets that summarize Board data. List, Gantt, and Kanban views can each be personalized to show the columns and attributes most relevant to your team. For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+
+## Dashboard view
+
+The Dashboard view displays widgets that give teams an at-a-glance summary of task progress, priorities, and assignments for the Board. The Dashboard tab is enabled by default for new and existing Boards.
+
+Each Board can have multiple dashboards. Use the dashboard selector in the dashboard header to switch between them. The selector shows the name of the currently selected dashboard and lists the shared dashboards available on the Board.
+
+\[Omitted image "cwm-dashboard-selector.png"\] Alt text: Dashboard selector shows the name of the current open dasboard.
+
+-   **Relationship between dashboards and Board views**
+    -   The only Dashboard-related setting saved to a Board view is whether the Dashboard tab is shown or hidden. For more information, see [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/personalize-cwm-board-views.md).
+    -   Changes you make within a dashboard, such as adding widgets, are saved to the dashboard, not to the Board view.
+    -   All Board views, shared and private, display the same dashboard data, unless a specific view has the Dashboard tab turned off.
+
+For more information about working with dashboards and widgets, see [Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-board-dashboards.md).
 
 ## List view
 
@@ -73,6 +88,8 @@ Show, hide, or rearrange columns and apply sorting or filters to personalize the
 
 
 [Personalize List, Gantt and Kanban display for CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/personalize-cwm-board-views.md)
+
+[Monitor and track work using dashboards in CWM Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
 
 [Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 

@@ -18,9 +18,11 @@ Submit KPI performance data from Supplier Collaboration Portal to complete assig
 
 ## Before you begin
 
-Role required: sn\_slm.contacSupplier Collaboration Portal
+Role required: sn\_slm.contact
 
--   KPI templateKPI managementKPI collection taskquantitative KPI valuequalitative KPI valuesegmentation ruleis run.
+A KPI is instantiated when:
+
+-   A segmentation rule is run.
 -   A supplier is added to the KPI template.
 -   An existing KPI template is added to the KPI management tab of a supplier.
 

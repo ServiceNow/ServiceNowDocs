@@ -50,7 +50,7 @@ Note the following important details:
     -   To export the list and the associated form for each record in landscape mode, select **Export** &gt; **PDF** &gt; **Details Landscape** &gt; **Export**.
     -   To export the list to a file using an export set, select **Export** &gt; **Export Set**.
     -   To export the list to a Google spreadsheet, select **Export** &gt; **Google Sheets**.
-    For details on using export sets, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ExportSets.md).
+    For details on using export sets, see Export sets.
 
 4.  When the export completes, select **Download**.
 

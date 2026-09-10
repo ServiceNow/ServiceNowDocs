@@ -8,7 +8,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -41,6 +41,9 @@ You can use Programs \(pm\_program\) from the Project Program lens to create hig
 Here's a sample portfolio plan that shows a few programs of the company and the low-level work \(projects and demands\) that are aligned with them.\[Omitted image "high-level-planning-programs-view.png"\] Alt text: High-level portfolio plan hierarchy view.
 
 Start creating portfolio plans to align work with your company's objectives. See [Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md).
+
+-   **[Programs enhanced experience with portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/program-portfolio-plan-ppw.md)**  
+Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, and Financials views for focused program management without navigating portfolio-wide interfaces.
 
 **Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

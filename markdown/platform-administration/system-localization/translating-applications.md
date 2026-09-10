@@ -108,7 +108,7 @@ Playbooks
 
 </td><td>
 
-[Add translations for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-translations-playbooks.md)
+
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Working with technology portfolio audit details
@@ -32,7 +32,7 @@ Whether the script runs on demand or scheduled, you can view the results in the 
 
 If the software product full version is 9.2.1, it may be that the **End of Support** lifecycle version in the Software Asset Management content library was only full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. The table helps you to identify exact lifecycle version matches. It also identifies when no valid lifecycle version could be found against the software product or hardware model version used in your organization.
 
-**Parent Topic:**[Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
 
 **Related topics**  
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 3
 keywords: [configure AI preferences, usage limits, insights, summaries]
-breadcrumb: [Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure tasks and requests

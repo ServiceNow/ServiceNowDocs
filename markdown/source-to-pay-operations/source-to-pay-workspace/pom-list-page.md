@@ -7,7 +7,7 @@ release: zurich
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Source-to-Pay Workspace list page, Explore, Workspace, Source-to-Pay Operations, Finance and Supply Chain]
 ---

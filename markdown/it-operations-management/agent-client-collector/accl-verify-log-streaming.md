@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Identify and resolve log streaming issues
@@ -42,8 +42,4 @@ For example, if the last event time for a data input's endpoint server is yester
 
     1.  Navigate to **All** &gt; **ACC Log Analytics** &gt; **ACC Log Alerts**.
     2.  Open alerts and address the specified issues.
-
-## What to do next
-
-Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see .
 

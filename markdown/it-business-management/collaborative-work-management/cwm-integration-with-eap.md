@@ -7,7 +7,7 @@ release: zurich
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-10-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -39,6 +39,8 @@ This connection between the applications reduces context switching and ensures t
 ## Creating or managing sprints for EAP teams in CWM
 
 For EAP teams integrated with CWM, existing sprints and their scheduled work automatically sync to CWM. These details are displayed in the Sprint Planning view on the CWM Board.
+
+Sprint name, state, capacity, and dates all sync automatically from EAP to CWM, including for Agile teams that use non-calendar-based iterations.
 
 As the team progresses through assigned work, they can update the work status directly in the Sprints section. The sprint can be marked **Complete** from this view and any incomplete work items can be moved either to the backlog or the next sprint, if it exists.
 

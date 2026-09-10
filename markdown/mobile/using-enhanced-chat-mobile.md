@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI, Virtual Agent]
-breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Using enhanced chat on mobile

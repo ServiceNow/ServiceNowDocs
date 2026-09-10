@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-29"
 reading_time_minutes: 1
-breadcrumb: [Configuring Multi-instance, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
+breadcrumb: [Multi-instance, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
 # Request a Manager instance
@@ -22,26 +22,22 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-This task can be performed if you're logged in from a sub-prod \(Managed\) instance.
+This task can be performed if you're logged in from a sub-prod \(managed\) instance.
 
-**Note:** Confirm that the plugin com.glide.mif.mtls is active. If it isn’t active, install the plugin com.glide.mif.mtls by submitting a support request with Now support for Multi-instance Framework \(MIF\) features.
+**Note:** Confirm that the plugin com.glide.mif.mtls is active. If it isn’t active, install the plugin com.glide.mif.mtls by submitting a support request with Now Support for Multi-instance Framework \(MIF\) features.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Multi-instance**.
 
-2.  Under Request a Manager instance, click **Select a Manager instance**.
+2.  Under Request a Manager instance, select **Select a Manager instance** drop-down and select the manager instance.
 
-    Select a Manager instance dialog box appears.
-
-3.  Select the Manager instance from the drop-down.
-
-4.  Select **Send request**.
+3.  Select **Send request**.
 
 
 ## Result
 
-The request gets approved by your Manager instance.
+The request is sent to your Manager instance for approval.
 
-**Parent Topic:**[Configuring Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-multi-instance.md)
+**Parent Topic:**[Multi-instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-multi-instance.md)
 

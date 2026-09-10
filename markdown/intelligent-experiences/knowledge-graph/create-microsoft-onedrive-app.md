@@ -18,7 +18,7 @@ Use Microsoft SharePoint for fetching user-specific external data, such as share
 
 ## Before you begin
 
-Knowledge Graph uses Microsoft OneDrive application for authentication of Microsoft SharePoint required to fetch external data such as shared files used for people citation in Virtual Agent. Use the below process to setup the necessary authentication, used for people citation in Virtual Agent.
+Knowledge Graph uses Microsoft OneDrive application for authentication of Microsoft SharePoint required to fetch external data such as shared files used for people citation in ServiceNow® Otto for Virtual Agent. Use the following process to setup the necessary authentication, used for people citation in Virtual Agent.
 
 To view the share files, configure the Microsoft OneDrive application with Knowledge Graph.
 
@@ -75,6 +75,6 @@ Role required: admin
     -   Add the copied Application ID in the **Client ID** field.
     -   Add the Client secret in the **Client secret** field.
     -   Add the Tenant ID in the placeholder for \[tenantId\] in the Authorization URL and Token URL field.
-    -   Ensure that the Redirect URL is correct.
+    -   Verify if the Redirect URL is correct.
     -   Select **Update**.
 

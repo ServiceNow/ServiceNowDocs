@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The ServiceNow Store regularly releases new applications and updates to applications that are created by ServiceNow. If you already have the application, you can download the latest version to enhance your existing experience with our products. Since different features are available or enhanced each time an application is released in the Store, the content and features available in a particular release are indicated by version number in this document.
+**Note:** The ServiceNow Store regularly releases new applications and updates to ServiceNow applications. If you already have an application, you can download the latest version to enhance your existing experience with ServiceNow products. Features vary by release. The version number indicates which content and features are available in each release.
 
 ## Procedure
 

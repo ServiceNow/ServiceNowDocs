@@ -16,6 +16,8 @@ Mappedin is a third-party Indoor map provider. Integrate Mappedin with Workplace
 
 ## Configure Mappedin Overview
 
+**Important:**
+
 Mappedin version 1.11.0 is not available for new customers to install. Existing customers can upgrade to Mappedin version 1.11.0.
 
 Mappedin indoor mapping software is integrated with Workplace Service Delivery to deliver digital mapping platform for employees and workplace users.

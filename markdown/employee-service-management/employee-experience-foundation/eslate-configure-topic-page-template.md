@@ -8,9 +8,9 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-07-27"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [topic page template, Employee Slate, apply to children, default topic template]
-breadcrumb: [Browse and topic experience, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Assign a custom topic page template
@@ -27,9 +27,11 @@ Role required: admin or aix\_widget\_admin
 
 A topic page template controls the layout of widgets on a topic page, such as the topic header, subtopics, quick links, and support resource content. Employee Slate includes a default template that renders on every topic page. You can assign a custom template to an individual topic when that topic requires a different layout.
 
--   Employee Slate checks for templates in this order: a custom template assigned to the topic and experience, the default topic template set on the experience record, or the default template.
+-   App checks for templates in this order: a custom template assigned to the topic and experience, the default topic template set on the experience record, or the default template.
 -   You can apply a custom template to a single topic or extend it to all child topics for consistent layout across a subtree.
 -   You can use template extension to maintain consistent layouts for related topics, such as all topics under a department-owned parent topic.
+-   By default, you get an out-of-the-box **Topic template directory** template that displays subtopic cards. Assign this template to topics that have subtopics but no content of their own.
+-   Cards display a banner image when configured. When no banner image is set, cards display the topic icon instead. When a topic has no subtopics, the template shows an empty state.
 
 ## Procedure
 
@@ -52,7 +54,7 @@ A topic page template controls the layout of widgets on a topic page, such as th
 
 4.  To change the default template for every topic in an experience, set the **Default topic template** property on the experience record.
 
-    Employee Slate applies the default topic template to any topic that has no custom template assigned.
+    The default topic template is applied to any topic that has no custom template assigned.
 
 
 ## Result

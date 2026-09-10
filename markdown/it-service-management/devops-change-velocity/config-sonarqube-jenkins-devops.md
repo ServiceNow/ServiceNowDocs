@@ -32,7 +32,7 @@ Role required: sn\_devops.admin
 
 ## About this task
 
-When you run a pipeline which has SonarQube scan executions, the details are fetched into ServiceNow DevOps from the Jenkins pipeline. Using the Jenkins plugin, we check if the scan execution is configured in the Jenkins pipeline and check for SonarQube scans on every orchestration stage, using the `withSonarQubeEnv` tag. If a SonarQube analysis has happened on any stage of the pipeline’s execution, as part of our end notification we add a model with the `scanID` and `url` details for every scan that occurs in a particular stage. These scan analytics or details are correlated and displayed in the Software Quality Summary related list from Change requests and Task executions.
+When you run a pipeline which has SonarQube scan executions, the details are fetched into ServiceNow DevOps from the Jenkins pipeline. Using the Jenkins plugin, we check if the scan execution is configured in the Jenkins pipeline and check for SonarQube scans on every orchestration stage, using the `withSonarQubeEnv` tag. If a SonarQube analysis occurs on any stage of the pipeline's execution, the end notification includes a model with `scanID` and `url` details. This model captures every scan that occurs in a particular stage. These scan analytics or details are correlated and displayed in the Software Quality Summary related list from Change requests and Task executions.
 
 ## Procedure
 

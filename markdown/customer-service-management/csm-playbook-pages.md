@@ -1,6 +1,6 @@
 ---
 title: Playbook pages
-description: Use playbook pages in CSM Configurable Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
+description: Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-playbook-pages.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize age
 
 # Playbook pages
 
-Use playbook pages in CSM Configurable Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
+Use playbook pages in CRM Workspace so that your agents can view the stages and activities in a playbook, work on activities, and have quick access to in-context information.
 
 ## Overview of templates, pages, and page variants
 
-Pages provide the base structure for how the system displays record information in CSM Configurable Workspace. You can create and customize pages with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md), a web user interface builder.
+Pages provide the base structure for how the system displays record information in CRM Workspace. You can create and customize pages with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md), a web user interface builder.
 
 A page template is a pre-defined page configuration. When you create a page in UI Builder, you can select a page template as a starting point. You can also create a page from scratch or by copying another page and then customizing the page to meet your needs.
 
@@ -31,7 +31,7 @@ The Playbooks for Customer Service Management plugin provides the following play
 -   [Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-horizontal-stages.md) page
 -   [Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-playbook-vertical-stages.md) page
 
-Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CSM Configurable Workspace.
+Additional CSM playbook applications provide playbook pages that you can activate and use with case types in CRM Workspace.
 
 |Application|Page variant|Description|
 |-----------|------------|-----------|

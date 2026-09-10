@@ -1,18 +1,18 @@
 ---
-title: Product non-conformance case form
-description: Product non-conformance form enables you to add the case details.
+title: Product details form
+description: The Product non-conformance details form enables you to add the case details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-non-conformance-case-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
-# Product non-conformance case form
+# Product details form
 
-Product non-conformance form enables you to add the case details.
+The Product non-conformance details form enables you to add the case details.
 
 <table id="table_kvk_3tj_whc"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-Product non-conformance case task number is automatically generated. The number starts with PNCC and incremented for every new report.
+Product non-conformance case task number that is automatically generated. The number starts with PNCC and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Issue severity
 
 </td><td>
 
-Choose the severity of the non-conformance case from the options:-   Critical
+Severity of the non-conformance case from the options:-   Critical
 -   Major
 -   Moderate
 -   Minor
@@ -47,7 +47,7 @@ Priority
 
 </td><td>
 
-Choose the priority of the non-conformance case.
+Priority of the non-conformance case.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Install Base
 
 </td><td>
 
-Select the install base item that has the issue.
+Install base item that has the issue.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,15 @@ Asset
 
 </td><td>
 
-Select the impacted asset.
+Impacted asset.
+
+</td></tr><tr><td>
+
+Requesting Service Organization
+
+</td><td>
+
+Select the service organization, business unit, or department on whose behalf this case record is being submitted.
 
 </td></tr><tr><td>
 
@@ -71,12 +79,13 @@ State
 
 </td><td>
 
-Choose the state of the non-conformance case.-   Draft
+State of the non-conformance case.-   Draft
 -   New
 -   In progress
 -   Closed complete
 -   Closed canceled
 -   Closed incomplete
+-   Closed duplicate
 
 </td></tr><tr><td>
 
@@ -84,7 +93,7 @@ Complaint type
 
 </td><td>
 
-Choose the complaint type.-   Product
+Complaint type.-   Product
 -   Location
 -   Service
 -   Delivery
@@ -97,7 +106,7 @@ Issue type
 
 </td><td>
 
-Choose the category of the non-conformance case, which helps classify the nature of the issue for accurate tracking and resolution.-   Design
+Category of the non-conformance case, which helps classify the nature of the issue for accurate tracking and resolution.-   Design
 -   Process
 -   Supplier
 -   Material
@@ -110,7 +119,7 @@ Total estimated cost
 
 </td><td>
 
-Enter the total estimated cost of the non-conformance case.
+Total estimated cost of the non-conformance case.
 
 </td></tr><tr><td>
 
@@ -118,7 +127,7 @@ Total actual cost
 
 </td><td>
 
-Enter the total actual cost of the non-conformance case.
+Total actual cost of the non-conformance case.
 
 </td></tr><tr><td>
 
@@ -126,7 +135,7 @@ Assignment group
 
 </td><td>
 
-Organizational units or teams responsible for handling specific tasks, cases, or issues.
+Organizational units or teams responsible for handling specific tasks, cases, or issues. It is auto-populated.
 
 </td></tr><tr><td>
 
@@ -134,15 +143,15 @@ Assigned to
 
 </td><td>
 
-User to whom the non-conformance case has been assigned.
+User to whom the non-conformance case has been assigned. It is auto-populated based on the **Assignment group** owner, but you can reassign it to available user.
 
 </td></tr><tr><td>
 
-Required product quality investigation
+Product quality investigation candidate
 
 </td><td>
 
-If you select this option, **Product quality investigation** is displayed.
+Option to display **Product quality investigation**.
 
 </td></tr><tr><td>
 
@@ -150,7 +159,7 @@ Product quality investigation
 
 </td><td>
 
-Select the product quality investigation.
+Product quality investigation.
 
 </td></tr><tr><td>
 
@@ -158,7 +167,7 @@ Short description
 
 </td><td>
 
-Enter a short description on the non-conformance case.
+Short description on the non-conformance case.
 
 </td></tr><tr><td>
 
@@ -166,67 +175,7 @@ Complaint details
 
 </td><td>
 
-Enter the complaint details, if any.
-
-</td></tr><tr><td class="subhead" colspan="2">
-
-Issue definition
-
-</td></tr><tr><td>
-
-What
-
-</td><td>
-
-Description of the problem or incident in clear, concise terms.
-
-</td></tr><tr><td>
-
-Where
-
-</td><td>
-
-Location of the issue.
-
-</td></tr><tr><td>
-
-Who
-
-</td><td>
-
-Individuals or teams involved in the issue or affected by it.
-
-</td></tr><tr><td>
-
-When
-
-</td><td>
-
-Timeline of the issue: When it was first detected, when it occurred, and the duration of its impact.
-
-</td></tr><tr><td>
-
-Why
-
-</td><td>
-
-Underlying causes of the issue.
-
-</td></tr><tr><td>
-
-How
-
-</td><td>
-
-Details of how the issue occurred and how it was resolved.
-
-</td></tr><tr><td>
-
-How much
-
-</td><td>
-
-Details of how many cases are there and what is the scale of impact.
+Complaint details, if any.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)
@@ -234,5 +183,5 @@ Details of how many cases are there and what is the scale of impact.
 **Related topics**  
 
 
-[Create a Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-non-conformance.md)
+[mco-playbook-create-non-conformance]
 

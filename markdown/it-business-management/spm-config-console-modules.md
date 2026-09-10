@@ -49,8 +49,8 @@ Items that configure project management, including user roles, project types, te
 |------|------------------|-----------|
 |Setup user roles|Users|Manage users that have access to project management. For more information, see [Project Management user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/exploring-project-management.md).|
 |Setup user roles|Groups|Manage groups that have access to project management. For more information, see [Project Management user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/exploring-project-management.md).|
-|Setup project types|Setup dynamic categories|Define dynamic categories and attributes in the Default SPM Dynamic Namespace to add custom fields, such as Boolean, Date, or Integer, to projects and other planning items.|
-|Setup project types|Setup form views|Customize the project form used by project managers and project users. Use Form Builder to add or remove fields and adjust the layout. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).|
+|Setup project types|Setup dynamic categories|Define dynamic categories and attributes in the Default SPM Dynamic Namespace to add custom fields, such as Boolean, Date, or Integer, to projects and other planning items. For more information, see [Working with Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/working-with-dynamic-schema.md).|
+|Setup project types|Setup form views|Customize the project form used by project managers and project users. Use Form Builder to add or remove fields and adjust the layout. For more information, see [Configuring forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/basic-form-administration.md).|
 |Setup project types|Project types|Define project types to apply distinct workflows, approval flows, and field requirements to different categories of projects. Assign project types to specific projects, portfolios, or departments.|
 |Project Management|Configure Project Playbooks|Review the default project playbooks \(Project default and Stage gate default\) and customize them in Workflow Studio to match your project management methodology. For more information, see [Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-playbooks-pw.md).|
 |Project Management|Setup project templates|Create reusable project templates as starting points for new projects to ensure consistency and reduce setup time. For more information, see [Project templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectTemplates.md).|
@@ -85,11 +85,12 @@ Items that configure Strategic Planning and Portfolio Planning capabilities, inc
 |------|------------------|-----------|
 |Strategic and Portfolio Planning|Set up Strategic Planning or Portfolio Planning|Launch the Strategic Planning or Portfolio Planning guided setup to configure planning capabilities in your SPM environment. The wizard walks you through integrations, alignment settings, portfolio structures, and planning settings, and you can run it multiple times as your configuration needs evolve.|
 
-## Enterprise-Wide Deployment
+## Enterprise-Wide Deployment and Extended Security for Enterprise-Wide Deployment
 
 Items that govern multi-partition deployment of Strategic Portfolio Management \(SPM\).
 
 |Module|Configuration item|Description|
 |------|------------------|-----------|
 |Partitions|Set up partitions|Define data visibility boundaries for teams on the same instance. Create a partition for each function such as team, business unit, or department that requires separate access to project, demand, program, or portfolio records. For more information, see [Create and configure a partition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/create-partition-ewd.md).|
+|Enable additional security|Enable additional ALL enforcement for partitioned tables to strengthen access control validation. Select the tables where you want to apply enhanced security. For more information, see [Enable additional security for partitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enable-additional-security-extended-security-ewd.md).|
 

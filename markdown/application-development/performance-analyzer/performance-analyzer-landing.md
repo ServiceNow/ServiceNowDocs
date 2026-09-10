@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Testing and debugging applications, Building applications]
 ---

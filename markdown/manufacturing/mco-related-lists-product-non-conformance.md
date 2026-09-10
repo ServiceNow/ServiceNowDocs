@@ -1,40 +1,45 @@
 ---
-title: Related lists for Non-conformance
-description: In the workspace, you can use the product non-conformance related list to log the report.
+title: Product non-conformance without playbook
+description: In the workspace, you can use the product non-conformance related list to log the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-related-lists-product-non-conformance.html
 release: zurich
 topic_type: concept
-last_updated: "2026-01-06"
-reading_time_minutes: 1
-breadcrumb: [Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+keywords: [product non-conformance, related list, case task, root cause analysis, RCA, corrective actions, containment actions, Cost of Poor Quality, CoPQ, task SLA, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Related lists for Non-conformance
+# Product non-conformance without playbook
 
-In the workspace, you can use the product non-conformance related list to log the report.
+In the workspace, you can use the product non-conformance related list to log the case.
 
 |Related list|Description|
 |------------|-----------|
-|[Product non-conformance case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task.md)|Create Non-conformance case task that had issue.|
-|[Root cause analysis task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)|Create root cause analysis of the case.|
-|[Correction actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)|Create corrective actions.|
-|[Containment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions.md)|Create containment actions.|
-|[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-sla.md)|Create task SLA.|
-|[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-relationships.md)|It is used to track similar or duplicate product non-conformance case.|
+|[Create a product non-conformance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task.md)|Create a non-conformance case task that has an issue.|
+|[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)|Create a root cause analysis \(RCA\) of the case.|
+|[Associating a task cause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-cause-associations.md)|Associate the cause with the RCA for the root cause analysis.|
+|[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)|Create corrective actions.|
+|[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)|Create the Cost of Poor Quality \(CoPQ\) expense line.|
+|[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions.md)|Create containment actions.|
+|[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-sla.md)|Record the task SLA.|
+|[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-relationships.md)|Track similar or duplicate product non-conformance cases.|
 
--   **[Product non-conformance case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task.md)**  
-Create the non-conformance case task report for products that had an issue.
--   **[Root cause analysis task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)**  
-Create root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
--   **[Correction actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)**  
-Create the correction actions for the non-conformance report.
--   **[Containment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions.md)**  
-Create a containment action report to address issues such as non-compliance and process gaps.
+-   **[Create a product non-conformance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task.md)**  
+Create a non-conformance case report for products that had an issue.
+-   **[Create a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task.md)**  
+Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
+-   **[Create a correction action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions.md)**  
+Create a correction actions for the non-conformance report.
+-   **[Create a containment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions.md)**  
+Create a containment action report to address issues for the impacted assets.
+-   **[Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-work-order.md)**  
+When off-site work is required, create a work order to provide field service agents with the information they must fulfill the request. You can create a work order from scratch or from another existing work order.
 -   **[Task SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-task-sla.md)**  
 Create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
--   **[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-relationships.md)**  
+-   **[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-relationships.md)**  
 Create the relationship between parent and child and assign the type of relationship.
 
-**Parent Topic:**[Create a Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformances.md)
 

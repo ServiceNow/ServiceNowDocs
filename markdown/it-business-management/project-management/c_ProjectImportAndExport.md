@@ -38,7 +38,7 @@ If you are managing your projects using Microsoft Project, you can export your S
 
 You can choose to export the project data in MPP, XML, or CSV file formats. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
-If your project in the ServiceNow instance contains dates with any of the supported constraint types, then these constraints are also exported when you export the project and project tasks. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
+If your project in the ServiceNow instance contains dates with any of the supported constraint types. Then these constraints are also exported when you export the project and project tasks. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
 ## Supported versions
 

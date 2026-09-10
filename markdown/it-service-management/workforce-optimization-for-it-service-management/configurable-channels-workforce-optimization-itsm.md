@@ -16,6 +16,8 @@ breadcrumb: [Channels, Workforce Optimization for ITSM, IT Service Management]
 
 Route work items to assigned groups using channels. Use skill-based routing to ensure that the right work goes to the right agent. Review real-time performance as your team is actively working on tasks across channels. When you see escalations, you can help your agents resolve issues without the requester being aware of it.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   **[Monitor ongoing work in service channels and queues​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/monitor-service-channels-configurable-workspace.md)**  
 Monitor the incoming data and on-going work done by your agents against each service channel and queue.
 -   **[Manage service channels and queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/monitor-queues-itsm-configurable-workspace.md)**  

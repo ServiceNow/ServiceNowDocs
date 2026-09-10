@@ -35,7 +35,7 @@ Trending Topics Widget
 
 </td><td>
 
-The trending topics widget can be accessed from the CSM Configurable Workspace and Workforce Optimization home page and provides an overview of current trends. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
+The trending topics widget can be accessed from the CRM Workspace and Workforce Optimization home page and provides an overview of current trends. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
 
 </td></tr><tr><td>
 

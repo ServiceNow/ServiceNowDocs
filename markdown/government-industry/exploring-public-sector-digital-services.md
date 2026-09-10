@@ -170,7 +170,7 @@ A dedicated, customizable workspace for government agents and agents from extern
 
 </td><td>
 
-[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
+[CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

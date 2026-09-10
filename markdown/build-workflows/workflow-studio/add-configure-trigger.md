@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Triggers, Building playbooks, Use, Workflow Studio, Build workflows]
 ---
@@ -21,8 +21,6 @@ Begin building your playbook by adding and configuring the trigger.
 Role required: playbook.admin or pd\_author
 
 Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/process-automation-designer-triggers.md).
-
-[Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/create-trigger-definition.md) if needed.
 
 ## About this task
 
@@ -63,8 +61,13 @@ Record based
 Go to **Add trigger** &gt; **Record based** and select when you want the playbook to run:-   When record is created
 -   When record is updated
 -   When record is created or updated
-If you want to specify a different table for the trigger than the parent table, use dot-walking to specify the relation between the two tables. You can choose to run your trigger on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md) or start your trigger only on unique change of records. After you specify the **Conditions** that should start your playbook, select **Save and close**.
+Specify the following settings and select **Save and close**.1.  If required, specify a different table for the trigger than the parent table.
+2.  Select **Run this trigger on extended tables** if you want the playbook to run on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-extension-and-classes.md).
+3.  Select **Trigger on unique values** if you want the playbook to run only on unique changes of the record values.
 
+If you edit and reactivate an existing playbook, the playbook may run automatically for a fulfilled trigger. To prevent the playbook from running again for the same trigger, select the trigger to run on unique values.
+
+4.  Specify any additional conditions that should start the playbook.
 If you want to use a trigger that has all the conditions you need for your playbook, select **Choose existing playbook trigger**. Then, choose an existing trigger from the list and select **Save and close**.
 
 </td></tr><tr><td>

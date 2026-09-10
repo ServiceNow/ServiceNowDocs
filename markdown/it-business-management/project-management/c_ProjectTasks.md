@@ -54,7 +54,7 @@ The Project Task form includes a **Time Constraint** field, which can be one of 
 
 -   If a task is set to **Start ASAP**: The task appears on the Gantt chart as starting when the dependency allows it. However, a task can start on a later date when a lag value is set for the relationship.
 -   If a task is set to **Start on specific date**: The task appears on the Gantt chart as starting on the constraint date. The start date of such a task is not impacted even after you put the task in a relation to another task, for example, FS relation.
--   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date or if the task is in a relation to another task, for example, FS relationship.
+-   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date. If the task is in a relation to another task, for example, FS relationship.
 -   If a task is set to **Start no later than**: The task appears on the Gantt chart as starting on or before the constraint date. If the task has any predecessor task, the dependency on the predecessor task determines when the task can start. A scheduling conflict occurs if the predecessor task attempts to move the task beyond the date specified in the **Constraint date** field.
 
     **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Retain start on constraint on tasks after adding relations** controls the behavior for **Start on** selection. The property is set to True by default and is not editable.
@@ -81,7 +81,7 @@ Parent-child task relationships have several effects on task time constraints.
 
 -   **When a child task is set to __Start ASAP__**
 
-    The child task starts at the same time as the parent task. If Project itself is set as a parent, the **Start ASAP** tasks starts on the same date as set in the **Constraint Date** field, as long as it does not have dependencies with other child tasks.
+    The child task starts at the same time as the parent task. If Project itself is set as a parent, the **Start ASAP** tasks start on the same date as set in the **Constraint Date** field. This applies as long as it does not have dependencies with other child tasks.
 
 -   **When a parent task is set to __Start ASAP__ and child tasks are set to __Start on specific date__:**
     -   The earliest child task start date determines the start date of the parent, assuming no other dependencies.

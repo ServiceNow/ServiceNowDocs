@@ -63,7 +63,7 @@ Total time
 
 </td><td>
 
-Total time the AI Search back end spent processing the search query. This time includes the pre-processing time, search query time, Genius Result computation time, and security processing time values that are reported separately. It does not include time spent sending the search query results across the network to the user's browser.
+Total time the AI Search back end spent processing the search query. This time includes the pre-processing time, search query time, Genius Result computation time, and security processing time values that are reported separately. It doesn't include time spent sending the search query results across the network to the user's browser.
 
 </td></tr><tr><td>
 

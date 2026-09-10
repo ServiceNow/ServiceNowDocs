@@ -89,7 +89,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/now-assist-fsm.md)
+ServiceNow Otto for Field Service Management \(FSM\)
 
 </td><td>
 

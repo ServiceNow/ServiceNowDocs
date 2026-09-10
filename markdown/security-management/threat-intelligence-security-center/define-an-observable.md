@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -24,15 +24,17 @@ Role required: sn\_sec\_tisc.analyst
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Threat Intel Library** &gt; **Observables** &gt; **All Observables**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Select the **Observable Type**.
 
-    **Note:** When you create records for observables, indicators, entities, or objects, a source record is created and a prompt message appears that the new object record is created. You are then redirected to the aggregated record.
+    Create New Observable record form is displayed.
+
+    **Note:** Whenever you create new object records for observables, indicators, entities or objects a source record is created and a prompt message is displayed that the new object record is created and then the user is redirected to the aggregated record.
 
 4.  On the form, fill in the fields.
 
-    **Note:** When you create a new observable or view existing observables, the **Attachments** pane appears by default on the form view. You can select the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-workspace-preferences.md).
+    **Note:** Whenever you either create a new observable or view the existing observables, the **Attachments** pane is by default displayed on the form view. You can either click the Attachments icon on the right-contextual menu or go to **Preferences** &gt; **Workspaces** and disable the **Show the sidebar**. For more information, see [Configure Next Experience Workspace preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/next-experience-workspace-preferences.md).
 
 <table id="table_hmw_qzm_2yb"><thead><tr><th>
 
@@ -48,7 +50,7 @@ Value
 
 </td><td>
 
-Value \(for example, IP address or hash\) associated with the observable.
+The value \(for example, IP address or hash\) associated with the observable.
 
 </td></tr><tr><td>
 
@@ -64,7 +66,7 @@ Author
 
 </td><td>
 
-Name of the author.
+Enter the name.
 
 </td></tr><tr><td>
 
@@ -72,7 +74,7 @@ Type
 
 </td><td>
 
-Observable classification type such as an IP address, domain name, artifact, directory, file, or hash.By default, this appears when you select the new record.
+The observable classification type such as an IP address, domain name, artifact, directory, file, or hash.By default, this is displayed when you selected the new record.
 
 </td></tr><tr><td>
 
@@ -80,7 +82,7 @@ Status
 
 </td><td>
 
-Active or inactive status of the observable.
+The active or inactive status of the observable.
 
 </td></tr><tr><td>
 
@@ -88,7 +90,7 @@ Attack Phases
 
 </td><td>
 
-Attack phase in a kill chain such as LM, MITRE ATT&amp;CK.
+Represents attack phase in a kill chain such as LM, MITRE ATT&amp;CK.
 
 </td></tr><tr><td>
 
@@ -96,7 +98,7 @@ TLP
 
 </td><td>
 
-Unique value that indicates the data sensitivity setting per TLP.
+Unique value that indicates the Data sensitivity setting per TLP.
 
 </td></tr><tr><td>
 
@@ -104,7 +106,7 @@ Reputation
 
 </td><td>
 
-Malicious reputation of the observable.
+Specifies the malicious reputation of the observable.
 
 </td></tr><tr><td>
 
@@ -112,7 +114,7 @@ Status
 
 </td><td>
 
-Status of the observable if active or inactive.
+Enter the status of the observable if active or inactive.
 
 </td></tr><tr><td>
 
@@ -120,7 +122,7 @@ Threat Score
 
 </td><td>
 
-Threat score for that observable.
+Indicates the threat score for that observable.
 
 </td></tr><tr><td>
 
@@ -128,7 +130,7 @@ Expiration Time
 
 </td><td>
 
-Expiration time of the observable record.
+Specifies the expiration time of the observable record.
 
 </td></tr><tr><td>
 
@@ -136,7 +138,7 @@ Source
 
 </td><td>
 
-Threat source from which this record is created.
+Specifies the threat source from which this record is created.
 
 </td></tr><tr><td>
 
@@ -144,7 +146,7 @@ Confidence
 
 </td><td>
 
-Confidence for this observable record.The confidence property identifies the confidence that the creator has in the correctness of their data. The confidence value must be a number in the range of 0-100.
+Enter the confidence for this observable record.The confidence property identifies the confidence that the creator has in the correctness of their data. The confidence value MUST be a number in the range of 0-100.
 
 </td></tr><tr><td>
 
@@ -152,7 +154,7 @@ Prevent System Updates
 
 </td><td>
 
-Setting this flag to true prevents the system from overriding values of fields on the record.
+Setting this flag to true will prevent system from overriding values of fields on record.
 
 </td></tr><tr><td>
 
@@ -160,31 +162,31 @@ Is False Positive
 
 </td><td>
 
-Boolean flag that indicates if the observable is identified as a false positive.
+A boolean flag that indicates if observable is identified as false positive.
 
 </td></tr></tbody>
 </table>    |Field|Description|
     |-----|-----------|
-    |Resolves To|List of references to one or more IP addresses or domain names that the domain name resolves to.|
-    |Is FQDN|Fully qualified domain name \(FQDN\) is the complete address of an internet host or computer. It provides its exact location within the domain name system \(DNS\) by specifying the hostname, domain name, and top-level domain \(TLD\).|
+    |Resolves To|Specifies a list of references to one or more IP addresses or domain names that the domain name resolves to.|
+    |Is FQDN|A fully qualified domain name\(FQDN\) is the complete address of an internet host or computer. It provides its exact location within the domain name system \(DNS\) by specifying the hostname, domain name and top-level domain \(TLD\).|
 
     |Field|Description|
     |-----|-----------|
-    |Threat Level|Threat level of the observable record.|
-    |First Seen|Time that this observable record was first seen performing malicious activities.|
-    |Threat Severity|Threat severity of the observable record.|
-    |Last Seen|Time that this observable record was last seen performing malicious activities.|
+    |Threat Level|Indicates the threat level of the observable record.|
+    |First Seen|The time that this observable record was first seen performing malicious activities.|
+    |Threat Severity|Indicates the threat severity of the observable record.|
+    |Last Seen|The time that this observable record was last seen performing malicious activities.|
     |Usage Categories|Categories that the observable falls under, such as botnet or phishing.|
-    |Attack Phases|Attack phase in a kill chain such as LM, MITRE ATT&amp;CK.|
-    |Additional Context|Any additional context.|
-    |Sources|Threat source from which this record is created.|
+    |Attack Phases|Represents attack phase in a kill chain such as LM, MITRE ATT&amp;CK.|
+    |Additional Context|Add any additional context.|
+    |Sources|Specifies the threat source from which this record is created.|
 
-    **Important:** **Source Reported Score**: This field contains the aggregated value of threat scores reported by the sources from which the observable is ingested. To see this field on the observable record form, you must add it manually, as it isn't available by default.
+    **Important:** **Source Reported Score**: This field contains the aggregated value of threat scores reported by the sources from which the observable is ingested. To see this field on the observable record form, you must add it manually, as it is not available by default.
 
     |Field|Description|
     |-----|-----------|
-    |Resolves To|List of references to one or more IP addresses or domain names that the domain name resolves to.|
-    |Is FQDN|Fully qualified domain name \(FQDN\) is the complete address of an internet host or computer. It provides its exact location within the domain name system \(DNS\) by specifying the hostname, domain name, and top-level domain \(TLD\).|
+    |Resolves To|Specifies a list of references to one or more IP addresses or domain names that the domain name resolves to.|
+    |Is FQDN|A fully qualified domain name\(FQDN\) is the complete address of an internet host or computer. It provides its exact location within the domain name system \(DNS\) by specifying the hostname, domain name and top-level domain \(TLD\).|
 
     **Note:** **Resolves To** and **Is FQDN** attributes are only applicable to the **Domain Name** type of observables.
 
@@ -462,41 +464,35 @@ X.509 Certificate
 </td></tr></tbody>
 </table>    |Field|Description|
     |-----|-----------|
-    |Notes|Any additional notes for an observable record.|
+    |Notes|Add any additional notes for an observable record.|
 
-5.  Select **Save**.
+5.  Click **Save**.
 
-    After you save, a prompt message appears indicating that a new observable record is created. Select **Continue** to edit the record and create new relationships.
+    After you save, a prompt message is displayed indicating that A new observable record is created. Click **Continue** to edit the record and create new relationships.
 
-6.  To delete any observable record, select **Delete** to delete the aggregated record.
+6.  Click **Continue**.
 
-    When you select this action, it removes all the related records, except the original source data, and triggers reaggregation.
+    **Important:** After you create a new observable record, **Prevent System Updates** check box is displayed.
 
-    **Note:** A confirmation message appears to verify that you want to delete the aggregated record. To also delete the source records and prevent reaggregation, select the **Delete Source Records** check box. This action removes all the associated source records.
-
-7.  Select **Continue**.
-
-    **Important:** After you create a new observable record, the **Prevent System Updates** check box appears.
-
-    Select this check box to prevent any updates from the system after the observable, indicator, or STIX objects records are created.
+    Select this check box to prevent any updates from the system after the observable or indicator or STIX objects records are created.
 
     |Field|Description|
     |-----|-----------|
     |Tags|
-    |Select Tags|Tags that are associated with an observable.|
-    |Add Tags|New tags.|
+    |Select Tags|Select the tags that are associated with an observable.|
+    |Add Tags|Add new tags.|
     |Taxonomies|
-    |Select Taxonomy|Taxonomy that is associated with an observable.|
-    |Add Taxonomy Values|Taxonomy values that are associated with an observable.|
+    |Select Taxonomy|Select the Taxonomy that is associated with an observable.|
+    |Add Taxonomy Values|Add the Taxonomy values that are associated with an observable.|
 
     |Field|Description|
     |-----|-----------|
-    |Source records details for an observable appear, if any.|
+    |The source records details for an observable are displayed, if any.|
 
 
 ## What to do next
 
-The following table lists the related records related to the observables:
+Following table lists the related records related to the Observables:
 
 <table id="table_svf_lcn_2yb"><thead><tr><th>
 
@@ -536,7 +532,7 @@ Campaigns
 
 </td><td>
 
-Campaigns that are related to this observable.
+List the campaigns that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -544,7 +540,7 @@ Infrastructure
 
 </td><td>
 
-Infrastructure such as systems, software services, and any associated physical or virtual resources that are related to this observable.
+List the Infrastructure such as systems, software services, and any associated physical or virtual resources that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -552,7 +548,7 @@ Intrusion Sets
 
 </td><td>
 
-Intrusion sets such as a set of adversarial behaviors and resources with common properties that are related to this observable.
+List the intrusion sets such as a set of adversarial behaviors and resources with common properties that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -560,7 +556,7 @@ Malware
 
 </td><td>
 
-Malware source records that are related to this observable.
+List the malware source records that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -568,7 +564,7 @@ Threat Actors
 
 </td><td>
 
-Threat actors that are related to this observable.
+List the threat actors that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -576,7 +572,7 @@ Threat Events
 
 </td><td>
 
-Threat events that are related to this observable.
+List the threat events that are related to this observable.
 
 </td></tr><tr><td>
 
@@ -590,7 +586,7 @@ If the observable is an IP address, this list shows any resources \(configuratio
 </table>**Note:**
 
 1.  You can link and unlink the related records associated with this object. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
-2.  From the **Related Records** section, you can confirm the relationships between two observables using the **Potential Relationships** section available on the **Observables** form view. For more information, see [Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/confirm-potential-relationships.md).
+2.  Also, from the **Related Records** section, you can confirm the relationships between two Observables using the **Potential Relationships** section available on the **Observables** form view. For more information on see, [Confirm Potential Relationships from Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/confirm-potential-relationships.md).
 3.  You can add observables to cases. For more information, see [Add to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/add-to-case.md).
 4.  You can also run enrichment actions to observables. For more information, see [Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/run-enrichment-results.md).
 

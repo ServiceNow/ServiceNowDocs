@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-01-27"
+last_updated: "2026-08-18"
 reading_time_minutes: 2
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+keywords: [Now Assist, agentic AI, generative AI, Gen AI]
 breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
@@ -27,7 +27,7 @@ Analyze CSAT metrics by comparing ITSM Virtual Agent performance against live ag
 |-----------------------|-----------|
 |Compare ITSM Virtual Agent performance against live agents.|Identify automation opportunities or areas where escalation protocols should be adjusted.|
 |Monitor satisfaction trends over time.|Measure the impact of ITSM Virtual Agent improvements or training updates.|
-|Analyze if the conversations had positive or negative feedback.|With negative feedback, shown as thumbs -down, you can understand failure points.|
+|Analyze if the conversations had positive or negative feedback.|With negative feedback, shown as thumbs-down, you can understand failure points.|
 |Get CSAT metrics across different time periods.|Analyze CSAT performance at different times.|
 |Reviewing AI-inferred CSAT scores alongside explicit user feedback.|Gain comprehensive understanding of customer experience quality.|
 
@@ -83,7 +83,7 @@ This metric provides a holistic view of customer experience across your entire s
 |Number of chat messages that received a thumbs up|The total count of messages in a chat that received positive feedback as thumbs up from users. This direct feedback metric indicates successful interactions where users explicitly expressed satisfaction. The trend line shows changes over the selected time period, helping identify improvements or issues affecting customer satisfaction.|
 |Number of chat messages that received a thumbs down|The total count of messages in a chat that received negative feedback as thumbs down from users. This metric highlights problematic interactions requiring investigation. Review associated conversations to understand root causes and implement improvements. The trend line helps track whether changes are reducing negative feedback over time.|
 
-You can drill down into the data by selecting the thumbs-up or thumbs-down icon and then selecting the filter icon in the KPI details page. You can then see the breakdown of the thumbs-up or thumbs-down feedback data based on the different portals, such as Now Assist panel or Now Assist in Virtual Agent, in which it was given.
+You can drill down into the data by selecting the thumbs-up or thumbs-down icon and then selecting the filter icon in the KPI details page. You can then see the breakdown of the thumbs-up or thumbs-down feedback data based on the different portals, such as ServiceNow Otto panel or ServiceNow Otto for Virtual Agent, in which it was given.
 
 \[Omitted image "now-assist-itsm-va-csat-feedback-drilldown.png"\] Alt text: Number of chat messages that received feedback from different portals
 

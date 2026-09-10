@@ -16,6 +16,8 @@ breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 
 Workforce Optimization for ITSM installs the roles and tables when you enable the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\).
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Roles
 
 <table id="table_q14_lwc_llb"><thead><tr><th>

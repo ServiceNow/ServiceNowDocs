@@ -34,7 +34,7 @@ Role required: kg\_admin
 
     The Edit Knowledge Graph Schema details form is displayed.
 
-4.  In the Add nodes to Knowledge graph schema​ window, enter or search for the nodes that you want to add to the Knowledge Graph schema.
+4.  In the Add nodes to Knowledge Graph schema​ window, enter or search for the nodes that you want to add to the Knowledge Graph schema.
 
     \[Omitted image "add-nodes.png"\] Alt text: Add nodes.
 

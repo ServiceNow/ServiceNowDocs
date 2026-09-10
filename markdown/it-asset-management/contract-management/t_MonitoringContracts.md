@@ -20,6 +20,8 @@ You can monitor contracts by viewing contract history and creating contract repo
 
 Role required: asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
 
+**Note:** Contracts with the Contract model set to **Subscription** are readable by all authenticated users regardless of their assigned roles. This allows users to view their own subscription-based assets in the **My Assets** report. For all other contract types, the role requirements in the prerequisites section apply.
+
 ## About this task
 
 If changes are made to a contract start date, end date, or terms and conditions, a copy of the contract is automatically saved and placed in contract history. This is useful for tracking changes to a contract and keeping an audit trail. Configure the **Contract History** related list or tab to include columns for creation and update so you can easily see who edited the contract.

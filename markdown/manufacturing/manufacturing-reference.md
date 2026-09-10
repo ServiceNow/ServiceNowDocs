@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/manufacturing-reference.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manufacturing Commercial Operations]
 ---
@@ -15,9 +15,7 @@ breadcrumb: [Manufacturing Commercial Operations]
 Reference topics provide additional information about Manufacturing Commercial Operations.
 
 -   **[Components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-components-installed.md)**  
-Several types of components are installed with installation of the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
--   **[Components installed with additional plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-components-installed-with-other-product-workflows.md)**  
-Several types of components are installed when you activate the Customer Service Management, Cash to lead, and Service Bridge applications.
+Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
 -   **[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/data-model.md)**  
 Learn about the Manufacturing Commercial Operations application as well as its entitlements and integrations by viewing the data model and integrations architecture diagrams. These diagrams show the relationships between the tables and roles within the application. They provide an overall picture of how the Manufacturing Commercial Operations application operates.
 -   **[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-form.md)**  

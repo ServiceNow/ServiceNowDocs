@@ -18,7 +18,7 @@ Similarity solutions enable you to use Machine Learning \(ML\) to compare the te
 
 ## Training a similarity solution
 
-To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words in the set match words in an open alert. The resolved alert, which is similar to an open alert, provides an example to show how the open alert can be resolved.
+To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in alert fields. ML compares text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words match words in an open alert. The resolved alert, which is similar to an open alert, provides an example to show how the open alert can be resolved.
 
 To train a solution, the filter must return at least one record. If your filter returns no records, update it.
 

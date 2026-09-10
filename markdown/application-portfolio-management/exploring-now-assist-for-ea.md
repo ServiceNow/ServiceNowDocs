@@ -18,7 +18,7 @@ With the ServiceNow Otto for EA features, you can use generative AI skills to su
 
 ServiceNow Otto for EA includes generative AI skills and features that enable Enterprise Architecture Workspace users to work more efficiently with their enterprise architecture data.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Skills
 

@@ -68,7 +68,7 @@ Credential alias
 
 </td><td>
 
-Option to allow flow and workflow creators to assign individual credentials to any activity in a flow or workflow or assign different credentials to each occurrence of the same activity type in a flow or workflow.
+Allows flow and workflow creators to assign individual credentials to any activity or different credentials to each occurrence of the same activity type.
 
 </td></tr><tr><td>
 

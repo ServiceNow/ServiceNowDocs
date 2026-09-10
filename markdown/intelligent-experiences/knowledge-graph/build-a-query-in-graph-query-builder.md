@@ -26,11 +26,11 @@ Role required: kg\_admin
 
 2.  Select a graph from the graph drop-down in the **Input query for graph** section.
 
-    \[Omitted image "query\_builder\_tagselection.png"\]
+    \[Omitted image "query\_builder\_tagselection.png"\] Alt text: Query builder tag selection
 
     If you select Enterprise Graph or Enterprise Graph \(small\), you will see an additional tag selection field to scope the available entities to specific tables.
 
-    **Note:** Tags aren't available for user created graphs.
+    **Note:** Tags aren't available for custom graphs.
 
     \[Omitted image "query\_builder\_visual.png"\] Alt text: Graph Query Builder example
 
@@ -69,7 +69,7 @@ Role required: kg\_admin
     -   Restrict results to distinct records
 10. Select **Run Query**.
 
-    \[Omitted image "query\_builder\_result.png"\]\[Omitted image "query\_builder\_json\_output.png"\]
+    \[Omitted image "query\_builder\_result.png"\] Alt text: Query Result\[Omitted image "query\_builder\_json\_output.png"\] Alt text: JSON Query result
 
     Graph Query Builder runs the query and displays the results in table view and as JSON.
 

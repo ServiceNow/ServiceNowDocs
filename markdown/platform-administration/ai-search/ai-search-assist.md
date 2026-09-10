@@ -7,7 +7,7 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, AI Search, Search administration, Configure core features, Administer]
 ---
@@ -18,7 +18,7 @@ AI Search Assist is a Service Portal widget that uses AI Search to improve incid
 
 ## AI Search Assist overview
 
-AI Search Assist can help a user find the most relevant Catalog Items and knowledge articles in a search on your portal. For example, a user, creating an Incident via the Service Portal, can see related Catalog Items that the user can order. The user can also view related knowledge articles to assist them to resolve the issue on their own without involving the service desk.
+AI Search Assist can help a user find the most relevant Catalog Items and knowledge articles in a search on your portal. For example, a user who creates an Incident via the Service Portal can see related Catalog Items that they can order. The user can also view related knowledge articles to assist them to resolve the issue on their own without involving the service desk.
 
 AI Search Assist helps with incident deflection for incident record producers, deflecting incidents by helping end users resolve issues before they raise an incident.
 

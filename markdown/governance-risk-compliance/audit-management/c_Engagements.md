@@ -8,8 +8,8 @@ product: Audit Management
 classification: audit-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Use, Audit Management, Governance, Risk, and Compliance]
+reading_time_minutes: 5
+breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage engagements
@@ -102,7 +102,7 @@ Generate an audit report and maintain different versions of audit reports from a
 -   **[Create an engagement from a previous engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/create-engagement-from-previous.md)**  
 Audit managers can create engagements from previous engagements to reduce the need to redefine the scope, auditors, and approvers for similar engagements that are conducted throughout the year.
 -   **[Create a control test from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateControlTest.md)**  
-After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 -   **[Create an audit task activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateAnActivity.md)**  
 After defining a control, audit managers create activities that explore and provide documented evidence of whether the associated control is operating correctly.
 -   **[Create an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/t_CreateAnInterview.md)**  

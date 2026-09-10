@@ -7,9 +7,9 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing email Notifications in TISC, Administer, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Manage email Notifications, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Email logs
@@ -53,7 +53,7 @@ As an admin, you can create, view, and edit the notifications in the classic UI.
 
 \[Omitted image "tisc-email-logs.png"\] Alt text: Email Logs selected
 
-**Parent Topic:**[Managing email Notifications in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 

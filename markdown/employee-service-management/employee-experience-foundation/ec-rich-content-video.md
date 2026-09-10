@@ -7,7 +7,7 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-09"
+last_updated: "2026-08-17"
 reading_time_minutes: 5
 breadcrumb: [Microsites, Creating employee communications, Manage, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -33,7 +33,7 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** Hover-text or tool tips are not supported for HTML5 at this time.
+    **Note:** Hover-text or tool tips aren't supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
@@ -56,7 +56,7 @@ The **Rich Content Editor** supports the following types of video:
 
 4.  Use any of the following styling settings:
 
-    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacity and shadows, improved cells and buttons add additional border settings, colors and types, and additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
 5.  Use the following steps to set up provider Other:
 
@@ -164,7 +164,7 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player control. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
 </table>15. Select **Save** or **Save and Finish**.

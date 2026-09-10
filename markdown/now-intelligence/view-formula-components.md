@@ -18,6 +18,8 @@ The Information icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:
 
 \[Omitted image "kpi-details-formula-info.png"\] Alt text: Information pane for formula indicator showing formula with contributing indicators.
 
+\[Omitted image "kpi-signals-no-signal.png"\] Alt text:
+
 Depending on how the UI Builder admin has configured the KPI Details component you’re viewing, the names of the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) can be clickable. If clickable, selecting an indicator name opens that indicator in KPI Details. Again depending on the configuration, the indicator can open either in the same KPI Details tab or a new tab in the same workspace.
 
 **Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details-components.md)

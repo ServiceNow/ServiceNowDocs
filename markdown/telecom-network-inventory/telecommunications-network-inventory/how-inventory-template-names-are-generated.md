@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Inventory template naming patterns, Network inventory models, Model your workflow, Explore, Telecommunications Network Inventory]
 ---
@@ -20,7 +20,7 @@ When you instantiate an inventory template, each related template in the hierarc
 
 How a related template's CI gets its name depends on the related template's type:
 
--   **Slot, sub-slot, and interface related templates** have a Name Pattern field, and the pattern is mandatory. A non-empty naming pattern is required to create the related template; you cannot save a slot, sub-slot, or interface related template without a valid pattern that resolves to a non-empty string. At instantiation, the pattern is evaluated as a JavaScript expression and the resulting string becomes the CI name.
+-   **Slot, sub-slot, and interface related templates** have a mandatory Name Pattern field. You cannot save such a template without a valid pattern that resolves to a non-empty string. At instantiation, the pattern is evaluated as a JavaScript expression and the resulting string becomes the CI name.
 
 -   **Card and module related templates** do not have a Name Pattern field. At instantiation, the CI name is built from the site that the equipment belongs to and the inventory model name, in the form `<site name>/<model name>`.
 

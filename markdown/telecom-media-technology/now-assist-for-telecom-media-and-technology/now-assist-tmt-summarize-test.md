@@ -52,15 +52,15 @@ The test summarization skill checks the test results record to determine if ther
 
 6.  After you're finished summarizing the test for the service problem case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d34101e173">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d34119e173">
 
 Option
 
-</th><th align="left" id="d34101e176">
+</th><th align="left" id="d34119e176">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d34101e182">
+</th></tr></thead><tbody><tr><td id="d34119e182">
 
 **Expand or collapse the summary**
 
@@ -70,7 +70,7 @@ Procedure
 -   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d34101e212">
+</td></tr><tr><td id="d34119e212">
 
 **Provide feedback for the summary**
 
@@ -80,7 +80,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d34101e245">
+</td></tr><tr><td id="d34119e245">
 
 **Copy the test summary**
 
@@ -88,7 +88,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d34101e260">
+</td></tr><tr><td id="d34119e260">
 
 **Refresh the test summary**
 

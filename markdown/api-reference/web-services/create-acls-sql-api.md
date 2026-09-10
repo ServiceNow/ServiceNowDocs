@@ -1,6 +1,6 @@
 ---
-title: Create Access Control Lists \(ACLs\) for SQL API
-description: Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the SQL API.
+title: Create Access Control Lists \(ACLs\) for Live Connect
+description: Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the Live Connect.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/create-acls-sql-api.html
 release: zurich
@@ -9,31 +9,31 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure SQL API plugin on your ServiceNow instance, Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure Live Connect plugin on your ServiceNow instance, Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Create Access Control Lists \(ACLs\) for SQL API
+# Create Access Control Lists \(ACLs\) for Live Connect
 
-Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the SQL API.
+Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the Live Connect.
 
 ## Before you begin
 
 Verify the following prerequisites are in place:
 
 -   You created a Service Account and assigned it with sn\_odbc\_rest\_access or/and sn\_jdbc\_rest\_access role.
--   You identified which ServiceNow tables must be accessible via the SQL API.
+-   You identified which ServiceNow tables must be accessible via the Live Connect.
 
 Role required: security\_admin
 
 ## About this task
 
-Access to tables through the SQL API is not granted globally. For each table that a Service Account needs to query, you must create two Access Control Lists \(ACLs\). Create one for the egress\_sql operation \(which controls SQL API data export\) and one for the read operation \(which controls record-level access\). A Service Account can only query tables for which both ACLs have been explicitly configured.
+Access to tables through the Live Connect is not granted globally. For each table that a Service Account needs to query, you must create two Access Control Lists \(ACLs\). Create one for the egress\_sql operation \(which controls Live Connect data export\) and one for the read operation \(which controls record-level access\). A Service Account can only query tables for which both ACLs have been explicitly configured.
 
-By default, the SQL API checks access at the table, row, and field level for every query. This follows ServiceNow's secure-by-default approach. The SQL API validates all ACLs in your instance record by record. This may result in longer response times. This is expected.
+By default, the Live Connect checks access at the table, row, and field level for every query. This follows ServiceNow's secure-by-default approach. The Live Connect validates all ACLs in your instance record by record. This may result in longer response times. This is expected.
 
 If your use case does not require row and field-level checks, you can turn them off by assigning the `sn_sql_api_privileged_mode` role to the service account. For example, a Business Intelligence integration. Table-level ACL checks remain in effect and cannot be turned off.
 
-Repeat this procedure for each table and role combination that requires SQL API access. If you have multiple Service Accounts with different roles, create separate ACLs for each role and table combination.
+Repeat this procedure for each table and role combination that requires Live Connect access. If you have multiple Service Accounts with different roles, create separate ACLs for each role and table combination.
 
 ## Procedure
 
@@ -57,7 +57,7 @@ Operation
 
 </td><td>
 
-Select **egress\_sql** from the drop-down list. This operation controls whether data can be exported via the SQL API.
+Select **egress\_sql** from the drop-down list. This operation controls whether data can be exported via the Live Connect.
 
 </td></tr><tr><td>
 
@@ -101,16 +101,16 @@ Enter the role assigned to your Service Account \(for example, **sn\_odbc\_rest\
 
 7.  Select and hold \(or right-click\) the form header and select **Save**.
 
-8.  Repeat steps 2 through 7 for each additional table that requires SQL API access.
+8.  Repeat steps 2 through 7 for each additional table that requires Live Connect access.
 
     You have created both required ACLs \(egress\_sql and read\) for each table.
 
 
 ## Result
 
-You have successfully configured table-level access control for the SQL API. The Service Account can query the tables for which both egress\_sql and read ACLs have been created, subject to the role requirements you specified.
+You have successfully configured table-level access control for the Live Connect. The Service Account can query the tables for which both egress\_sql and read ACLs have been created, subject to the role requirements you specified.
 
 Remember that access is granted on a per-table basis. If you grant access to additional tables, or if you create additional Service Accounts with different roles, repeat this procedure to create the appropriate ACLs.
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
+**Parent Topic:**[Configure Live Connect plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-sql-api-overview.md)
 

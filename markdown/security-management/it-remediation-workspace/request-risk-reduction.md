@@ -7,7 +7,7 @@ release: zurich
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-03"
 reading_time_minutes: 3
 breadcrumb: [Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
@@ -28,6 +28,8 @@ Starting from v21.0 of Vulnerability Response, you can request risk reduction on
 -   A third-party \(TPE\) for which risk reduction is enabled.
 
 **Note:** The compensating controls feature is available for host vulnerabilities only.
+
+A remediation task can include vulnerable items associated with more than one CVE or TPE. If risk change is restricted for some of those CVEs or TPEs, you can still request risk reduction for the eligible vulnerable items. The Request Exception form shows how many of the selected items are eligible for risk change. If none of the selected items are eligible, the form states that risk change is restricted and the request can't proceed.
 
 ## Procedure
 
@@ -70,7 +72,7 @@ For more information on how the **Until date for risk reduction** is updated for
 
 [Understanding compensating controls for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/compensating-controls-overview.md)
 
-[Disable or enable risk reduction for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
+[Restrict or enable risk change for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/disable-risk-reduction.md)
 
 [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/create-compensatory-control.md)
 

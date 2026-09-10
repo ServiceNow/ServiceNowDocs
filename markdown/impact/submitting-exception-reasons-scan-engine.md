@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
 # Submit exceptions for the Scan Engine findings

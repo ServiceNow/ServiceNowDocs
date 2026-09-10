@@ -27,10 +27,6 @@ Detection rule mapping enables your organization to see which detection rules ar
 
 The primary purpose of the mapping is to provide visibility if your organization has the necessary detection rules to identify when an alert or event is triggered as a result of an attack by an adversary using a specific technique.
 
-For example, view the following illustration that shows a list of the detection rules mapped to various techniques. You can also view this information in [the MITRE-ATT&amp;CK navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitre-att-ck-heatmap-and-navigator.md).
-
-\[Omitted image "mitre-detection-rules.png"\] Alt text: MITRE ATT&amp;CK detection rules.
-
 If you do not intend to use the base system SIEM auto-extraction rules, then enable the automatic rollup of MITRE-ATT&amp;CK TTPs based on the detection rule mapping. You can populate the alert or event rule that triggers the security incident in the Alert Rule name field. You can also populate the Alert Rule name field by using SIEM integration, email parsing, manual creation, etc. For more information, see [Rollup MITRE-ATT&amp;CK information from detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/rollup-mitre-attack-information-detection-rules.md).
 
 **Note:**
@@ -66,20 +62,13 @@ The detection rules feature has been updated to include mapping a single tactic 
         |Deprecated|The detection rule mapping is deprecated.|
         |Active|Option to specify if the detection rule is active and deployed in your environment.|
 
-        \[Omitted image "mitre-detection-rules-example.png"\] Alt text: Detection Rules example.
-
-    2.  Click **Submit**.
+    2.  Select **Submit**.
     Method 2: Import and create detection rules.
 
     1.  Right-click the Rule Name column header.
-    2.  From the list, click **Import**.
-    3.  Click **Create Excel template**.
-    4.  Click **Download** after the export completes. An excel template with the filename sn\_ti\_alert\_rules\_mitre\_attack\_technique\_mapping is downloaded to your computer.
-
-        In the following illustration, you see how to export the excel template, fill the details in the spreadsheet, upload the file, preview the fields, and import it back to the ServiceNow AI Platform.
-
-        \[Omitted image "mitre-import-download.gif"\] Alt text: MITRE download import template.
-
+    2.  From the list, select **Import**.
+    3.  Select **Create Excel template**.
+    4.  Select **Download** after the export completes. An excel template with the filename sn\_ti\_alert\_rules\_mitre\_attack\_technique\_mapping is downloaded to your computer.
     5.  Open the spreadsheet, select the second sheet tab, and review what you entered. On the form, fill in the fields and then, save your file.
 
         |Field|Description|
@@ -98,18 +87,12 @@ The detection rules feature has been updated to include mapping a single tactic 
         |MITRE-ATT&amp;CK Tactic|Relevant MITRE-ATT&amp;CK tactic.|
         |MITRE-ATT&amp;CK Technique|Relevant MITRE-ATT&amp;CK technique.|
 
-        The following illustration shows the spreadsheet template. The required fields are highlighted in red - Rule Name, MITRE-ATT&amp;CK Tactic ID, and MITRE-ATT&amp;CK Technique ID.
-
-        \[Omitted image "mitre-rules-mapping-excel.png"\] Alt text: Update the mapping details in the spreadsheet template.
-
-    6.  Click **Choose file** and select the spreadsheet on your computer.
-    7.  Click **Upload**.
-    8.  Click **Preview Imported Data**.
-    9.  Preview the mappings and click **Complete Import**.
+    6.  Select **Choose file** and select the spreadsheet on your computer.
+    7.  Select **Upload**.
+    8.  Select **Preview Imported Data**.
+    9.  Preview the mappings and select **Complete Import**.
 
         The following illustration shows how to upload the spreadsheet, preview the data, review any errors, and complete the detection rule mapping import process.
-
-        \[Omitted image "mitre-import-upload.gif"\] Alt text: Upload the spreadsheet to complete the detection rule mapping.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitre-att-ck-administration.md)

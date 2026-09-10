@@ -86,7 +86,7 @@ GRC: Auditable Unit with Detailed Risk Assessment
 
 </td><td>
 
-Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor once the assessor responds and Marks Assessment as Complete after performing the control assessment and residual assessment, the risk assessment fields should be auto updated.
+Create an Auditable unit with method as "Detailed Risk Assessment." Request for Assessing the Risk Assessment by adding the Assessor. After the assessor responds and marks Assessment as Complete, the risk assessment fields are automatically updated.
 
 </td><td>
 

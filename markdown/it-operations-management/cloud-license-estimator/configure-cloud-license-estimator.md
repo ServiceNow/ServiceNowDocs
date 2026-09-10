@@ -18,7 +18,7 @@ Set up the accounts and credentials needed for Cloud License Estimator.
 
 -   **[Configure Azure Credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.md)**  
 To use this tool, configure the Azure Service Principal Account credentials. If you already have credentials configured in the ServiceNow instance, those credentials can be used.
--   **[Configure Amazon Web Service Credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.md)**  
+-   **[Configure AWS credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cle-aws-credential-setup.md)**  
 This task guides you in configuring IAM user permanent credentials for the designated account.
 
 **Parent Topic:**[Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-license-estimator/cloud-license-estimator-landing.md)

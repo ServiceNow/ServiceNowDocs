@@ -1,18 +1,18 @@
 ---
-title: Identify and execute mitigation strategies for purchase order exceptions
-description: Leverage the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+title: Identify and execute mitigation strategies for PO exceptions
+description: Use the Define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/mitigation-strategies-for-po-exceptions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using agentic workflows in Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows in ServiceNow Otto for POM, ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
-# Identify and execute mitigation strategies for purchase order exceptions
+# Identify and execute mitigation strategies for PO exceptions
 
-Leverage the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
+Use the Define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
 ## Define PO exception mitigation strategy agentic workflow overview
 

@@ -7,8 +7,8 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -20,6 +20,10 @@ Configure event pull connectors that require a script, connector definition, and
 
 Role required: evt\_mgmt\_admin
 
+## About this task
+
+Starting with the Brazil release, you can use ServiceNow Otto® to configure the following connectors: vCenter, NagiosXI, SolarWinds, SCOM, and Zabbix. Each connector tile displays the **Install with Otto** option. When you select it for any connector, the Otto panel opens on the right side of the screen. In the Otto panel, you can chat with Otto to configure the connector, and later deactivate or delete it if required. You need the ServiceNow Otto for ITOM plugin for the **Install with Otto** option to appear.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
@@ -28,7 +32,7 @@ Role required: evt\_mgmt\_admin
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
-3.  On the ITOM AIOps configuration center page, under the **Setup** &gt; **Integrations** section, select **Add integrations**.
+3.  On the ITOM AIOps configuration center page, under the **Setup** &gt; **Integrations** section, select **Manage Installed integrations**.
 
 4.  In the **Browse Integrations** tab, select the **All integrations** drop-down list and select **Pull**.
 
@@ -147,6 +151,8 @@ Sets the duration for the initial synchronization process when retrieving histor
 
 </td></tr></tbody>
 </table>13. Test the connector before activating it by selecting **Test and Save**.
+
+    When the test succeeds, a pop-up appears where you can activate the pull connector by selecting **Activate integration**.
 
 14. To save the connector, select **Save**.
 

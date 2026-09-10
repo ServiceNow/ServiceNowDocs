@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-07-24"
 reading_time_minutes: 2
-keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, use generative AI]
+keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, use generative AI]
 breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -17,7 +17,7 @@ breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceN
 
 Enhance custom applications with generative and agentic AI capabilities.
 
-With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. You can implement any number and combination of AI capabilities within your custom apps, depending on your app's workflow. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
+With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
 
 Certain app workflows might be well suited for AI agents and agentic workflows. Other workflows might be best handled with skills. To learn about which AI capability might be best for your use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
 
@@ -25,15 +25,15 @@ Certain app workflows might be well suited for AI agents and agentic workflows. 
 
 The following list outlines the process for implementing a skill within a custom application:
 
-1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-new-skill.md) or configure a Now Assist Platform skill for your app's use case.
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-new-skill.md) or duplicate and reconfigure a Platform generative AI skill for your app's use case.
 2.  [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-prompt-template.md) to choose what skill inputs to use and the type of tool.
 3.  [Test the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/test-prompt-template.md) to verify that you’re seeing the expected prompt results before the skill is activated.
 4.  [Evaluate the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/evaluate-prompt.md) to assess the effectiveness of your skill prompts.
-5.  [Finalize and publish the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/publish-skill.md) to enable a Now Assist admin to activate it.
+5.  [Finalize and publish the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/publish-skill.md) to enable a ServiceNow Otto admin to activate it.
 6.  [Activate the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-skill.md), enabling you to trigger the skill within the UI.
 7.  Use the skill in your custom application.
 
-**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
+**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them. To learn more about approvals for custom skills, see [Governing AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-governing-ai-assets.md).
 
 ## Implementing AI agents and agentic workflows
 
@@ -49,8 +49,8 @@ The following list outlines the process for implementing an AI agent and agentic
 
 -   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
 Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
--   **[Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
-Quickly understand the contents of a record through a conversation with Now Assist.
+-   **[Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
+Quickly understand the contents of a record through a conversation with ServiceNow Otto.
 
 **Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 

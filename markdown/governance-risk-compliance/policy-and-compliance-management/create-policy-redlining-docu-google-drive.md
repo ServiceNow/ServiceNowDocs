@@ -26,7 +26,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **Workspace** &gt; **Compliance Workspace**.
 
-2.  Select \[Omitted image "lists-icon.png"\] Alt text: List Icon from the sidebar.
+2.  Select \[Omitted image "lists-icon.png"\] from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -38,7 +38,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     1.  Select the **Enable document editing** button.
 
-        If the policy is in **Draft** state, then the policy owner can alone create a document or associate a document from Google Drive to enable the policy text for editing by the approvers, reviewers, and contributors.
+        If the policy is in **Draft** state, only the policy owner can create or associate a Word document from Microsoft OneDrive. This enables approvers, reviewers, and contributors to edit the policy text.
 
     2.  To create a document as a policy owner, select **Create new document** in the **Enable document editing** list.
 

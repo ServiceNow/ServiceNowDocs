@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -18,13 +18,13 @@ Add or delete tabs from the contextual side panel that is available in all recor
 
 ## Before you begin
 
-Role required: admin, workspace\_admin, sn\_sow\_admin.sn\_sow\_admin, or ui\_builder\_admin
+Role required: admin, workspace\_admin, or ui\_builder\_admin
 
 ## About this task
 
 By default, all record pages such as an incident and interaction record page have a contextual side panel with multiple tabs in Service Operations Workspace. From these tabs, you can perform multiple tasks such as viewing the record information, collaborating through Microsoft Teams, viewing recommendations and so on.
 
-\[Omitted image "contextual-side-panel-coral-theme.png"\] Alt text: Contextual side panel in SOW
+\[Omitted image "sow-contextual-side-panel.png"\] Alt text: Contextual side panel in Service Operations Workspace
 
 ## Procedure
 

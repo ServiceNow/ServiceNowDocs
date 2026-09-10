@@ -24,7 +24,7 @@ Role required: adminor Guided Application Creator roles
 
 ## About this task
 
-You can create apps using the following procedure, or you can use Now Assist tools to get a head start creating your app. For more information about using a conversational interface to create an app, see [Now Assist for app generation in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
+You can create apps using the following procedure, or you can use Now Assist tools to get a head start creating your app. For more information about using a conversational interface to create an app, see [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md).
 
 ## Procedure
 
@@ -41,7 +41,7 @@ You can create apps using the following procedure, or you can use Now Assist too
     -   Create the application on your own, adding content and files of your choosing. If you're beginning on your own, select **On your own** &gt; **Continue**, and continue with step 5 in this procedure.
     -   Begin a chat with Now Assist, which uses AI to help you create an app based on your conversation. Select **With Now Assist** &gt; **Start a chat**, and begin the conversation to create your app.
 
-        For more information, see [Generate apps with Now Assist for app generation within ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md).
+        For more information, see [Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md).
 
     -   Use Creator Studio to create a simple request and fulfill application, which you can then add to in ServiceNow Studio. Select **With Creator Studio** &gt; **Continue in Creator Studio**, and Creator Studio opens, where you can start working.
 

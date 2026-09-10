@@ -1,5 +1,5 @@
 ---
-title: Configure ServiceNow SQL API ODBC driver on client machine
+title: Configure ServiceNow Live Connect ODBC driver on client machine
 description: Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/configure-odbc-driver.html
@@ -9,24 +9,24 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Configure ServiceNow SQL API ODBC driver on client machine
+# Configure ServiceNow Live Connect ODBC driver on client machine
 
 Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
 
 ## Before you begin
 
 -   You have a valid ServiceNow credentials for a Service Account with the required roles assigned. See [Create a Service Account and assign Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-service-account.md) for more information.
--   Your client machine's IP address is included in the SQL API IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-ip-filter-criteria.md) for more information.
+-   Your client machine's IP address is included in the Live Connect IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/create-ip-filter-criteria.md) for more information.
 -   You have the necessary connection parameters including your ServiceNow instance URL and Service Account credentials.
 
 Role required: local administrator on client machine for installation
 
 ## About this task
 
-After installing the ServiceNow SQL API ODBC driver on your client machine, you must configure the connection settings to establish a secure connection to your ServiceNow instance. After configuration, you can test the connection to verify that your client machine can successfully communicate with the ServiceNow SQL API.
+After installing the ServiceNow Live Connect ODBC driver on your client machine, you must configure the connection settings to establish a secure connection to your ServiceNow instance. After configuration, you can test the connection to verify that your client machine can successfully communicate with the ServiceNow Live Connect.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ After installing the ServiceNow SQL API ODBC driver on your client machine, you 
 
 6.  Append the value, separated by semicolons, with the location where the `bc-fips-2.0.0.jar`, `bcutil-fips-2.0.3.jar`, and `bcpkix-fips-2.0.7.jar` files are extracted.
 
-    See [Download the SQL API drivers on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/download-sql-api-drivers.md) to locate the JAR files.
+    See [Download the Live Connect drivers on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/download-sql-api-drivers.md) to locate the JAR files.
 
     For example, the JAR file location follows this pattern:
 
@@ -128,11 +128,11 @@ Custom Properties
 
 ## Result
 
-The ServiceNow SQL API ODBC driver is configured on your client machine. You can connect your ODBC-compatible applications, such as Power BI, or Excel, to this data source to access your ServiceNow data.
+The ServiceNow Live Connect ODBC driver is configured on your client machine. You can connect your ODBC-compatible applications, such as Power BI, or Excel, to this data source to access your ServiceNow data.
 
 ## What to do next
 
-You can use Interactive SQL application to verify the connection and test SQL queries. See [Test SQL API ODBC driver connection using Interactive SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md).
+You can use Interactive SQL application to verify the connection and test SQL queries. See [Test Live Connect ODBC driver connection using Interactive SQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md).
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Storage discovery examples
-description: Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached directly to application and database servers or by fibre channel switched fabric in a multi-path configuration.
+description: Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached to application and database servers or by fibre channel switched fabric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-visibility/storage-discovery-examples.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibili
 
 # Storage discovery examples
 
-Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached directly to application and database servers or by fibre channel switched fabric in a multi-path configuration.
+Discovery creates configuration items \(CI\) and CI relationships for physical and logical storage components attached to application and database servers or by fibre channel switched fabric.
 
 ## Direct attached storage
 
@@ -141,13 +141,13 @@ Linux logical volume, mapped with LVM to a physical disk storage partition.
 </td></tr></tbody>
 </table>## Multipath fibre channel storage
 
-In this example of a fibre channel storage area network \(SAN\), two physical storage devices, `mpatha` and `mpathb`, are attached to a Linux host through fibre switches, which provide failover capabilities. The `mpatha` drive contains two partitions, `mpatha1` and `mpatha2`. The first partition is mounted directly to `/boot` on the Linux host. Three logical volumes are mapped to the `mpatha2` partition and to the physical device `mpathb`. The logical volumes are mounted as Ext4 file systems in folders on the Linux root structure. This example shows the CIs that Discovery manages for each component and the mounting points for the logical volumes on the Linux host.
+In this example of a fibre channel storage area network \(SAN\), two physical storage devices, `mpatha` and `mpathb`, are attached to a Linux host through fibre switches. The switches provide failover capabilities. The `mpatha` drive contains two partitions, `mpatha1` and `mpatha2`. The first partition is mounted directly to `/boot` on the Linux host. Three logical volumes are mapped to the `mpatha2` partition and to the physical device `mpathb`. The logical volumes are mounted as Ext4 file systems in folders on the Linux root structure. This example shows the CIs that Discovery manages for each component and the mounting points for the logical volumes on the Linux host.
 
 \[Omitted image "MultipathFibreSANDiagram.png"\] Alt text: Multipath fibre channel storage example
 
 ## Switched fibre fabric details
 
-Discovery creates CIs for the logical sub-components in NAS and SAN environments, such as fibre channel disks and pool components, as well as for host bus adapters \(HBA\) and physical block storage. In multipath environments, Discovery creates CI relationships within the switched fibre fabrics that connects the Linux host to the physical storage devices. In this diagram, the fibre fabrics have redundant paths that the SAN environment can use for failover if connections fail.
+Discovery creates CIs for the logical sub-components in NAS and SAN environments, such as fibre channel disks and pool components. Discovery also creates CIs for host bus adapters \(HBA\) and physical block storage. In multipath environments, Discovery creates CI relationships within the switched fibre fabrics that connects the Linux host to the physical storage devices. In this diagram, the fibre fabrics have redundant paths that the SAN environment can use for failover if connections fail.
 
 \[Omitted image "MultipathFibreFabricDiagram.png"\] Alt text: Fibre fabric redundant paths
 

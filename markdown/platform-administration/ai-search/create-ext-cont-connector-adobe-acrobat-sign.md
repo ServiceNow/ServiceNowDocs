@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content and security
 
 ## Before you begin
 
-A source system administrator must have already configured your Adobe Acrobat Sign source system to allow access by the Adobe Acrobat Sign external content connector. For details on configuring these settings in the source system, see [Configure Adobe Acrobat Sign for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-adobe-acrobat-sign-external-content-indexing.md).
+A source system administrator must have already configured your Adobe Acrobat Sign source system to allow access by the Adobe Acrobat Sign external content connector. For the required source system configuration steps, see [Configure Adobe Acrobat Sign for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-adobe-acrobat-sign-external-content-indexing.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

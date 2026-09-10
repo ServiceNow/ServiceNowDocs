@@ -1,20 +1,20 @@
 ---
 title: Configuring Certificate Inventory and Management
-description: Establish a streamlined process for gaining insights into Certificate Inventory Management, covering key aspects like certificate discovery, bulk upload functionality, maintenance of certificate chain relationships, configuration of Credential Identifiers, customization of the system, creation of new/renewal requests, archiving tasks, automation of TLS certificate management, integration with Event Management, Slack notifications for alerts, and leveraging cert-Manager for efficient certificate generation.
+description: Streamline the process of gaining insights into certificate and inventory Management, covering key aspects like certificate discovery, bulk upload functionality, maintenance of certificate chain relationships, configuration of Credential Identifiers, customization of the system, creation of new/renewal requests, archiving tasks, automation of TLS certificate management, integration with Event Management, Slack notifications for alerts, and leveraging cert-Manager for efficient certificate generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-inventory-mgmt-config.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Configuring Certificate Inventory and Management
 
-Establish a streamlined process for gaining insights into Certificate Inventory Management, covering key aspects like certificate discovery, bulk upload functionality, maintenance of certificate chain relationships, configuration of Credential Identifiers, customization of the system, creation of new/renewal requests, archiving tasks, automation of TLS certificate management, integration with Event Management, Slack notifications for alerts, and leveraging cert-Manager for efficient certificate generation.
+Streamline the process of gaining insights into certificate and inventory Management, covering key aspects like certificate discovery, bulk upload functionality, maintenance of certificate chain relationships, configuration of Credential Identifiers, customization of the system, creation of new/renewal requests, archiving tasks, automation of TLS certificate management, integration with Event Management, Slack notifications for alerts, and leveraging cert-Manager for efficient certificate generation.
 
 ## Configuration overview
 
@@ -24,7 +24,7 @@ After the prerequisites are met, you can proceed with the following tasks.
 
 |Task|Description|
 |----|-----------|
-|[Visibility to TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-discovery.md)|Establish an efficient Certificate Inventory Management system by: configuring certificate discovery, enabling bulk certificate uploads, managing chain relationships, configuring secure access, and customizing the system to meet specific organizational needs.|
+|[Visibility to TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-discovery.md)|Establish an efficient certificate inventory management system by configuring certificate discovery, enabling bulk certificate uploads, managing chain relationships, configuring secure access, and customizing the system to meet specific organizational needs.|
 |[Manual flow for certificate requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/manual-cert-requests.md)|Enable the creation of new certificate requests or certificate renewals within the system, adhering to defined policies. Implement a process to archive completed certificate tasks, maintaining a historical record for auditing and compliance purposes.|
 |[Automated certificate management for TLS certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/automated-cert-requests.md)|Set up automation processes to manage TLS certificates, including renewal, updates, and revocation as needed.|
 |[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)|Establish integration between Event Management systems and Certificate Inventory Management for real-time monitoring and response to certificate-related events. Configure notifications to be sent to Slack channels, keeping stakeholders informed about critical certificate events and changes.|

@@ -32,7 +32,7 @@ Optionally, you can create decomposition rules for the selected source and targe
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **List** &gt; **Specifications** and select a specification type.
 

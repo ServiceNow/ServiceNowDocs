@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Use Workforce Optimization for ITSM to optimize your workforce and manage your teams efficiently. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams work to provide better coverage with integrated channel management.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Workforce Optimization for ITSM overview
 
 As a manager, you can monitor the demand for agents and skills in your organization to resolve issues. Assess agent skills, identify areas where they need improvement and provide training to enhance their skills set. Track your teams performance, and manage the schedule of all agents in your assignment group—all from a unified location.

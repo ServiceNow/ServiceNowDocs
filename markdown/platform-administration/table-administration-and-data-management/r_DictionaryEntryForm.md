@@ -353,7 +353,7 @@ Calculation Type \[Advanced view\]
 
 </td><td>
 
-Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see [Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/formulas-columns-table-builder.md).
+Allows you to select script based calculation or formula based calculation for a column. For more information about predefined functions and example formulas, see Formulas for column values in Table Builder.
 
 </td></tr><tr><td>
 

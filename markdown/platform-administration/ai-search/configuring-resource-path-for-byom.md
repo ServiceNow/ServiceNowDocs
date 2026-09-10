@@ -29,7 +29,7 @@ The `resource_path` should include any additional URL paths beyond the base URL 
 -   **Base URL vs Resource Path**
     -   The Connection URL in the alias contains only the base URL. For example, https://example.com.
 
-        **Note:** Do not add any additional path, such as \(`/api/v1/model`\) in the connection URL, as it may break the LLM configuration.
+        **Note:** Don't add any additional path, such as \(`/api/v1/model`\) in the connection URL, as it may break the LLM configuration.
 
     -   Specify any additional paths in the resource\_path value.
 

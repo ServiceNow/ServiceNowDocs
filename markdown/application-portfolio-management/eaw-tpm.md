@@ -1,6 +1,6 @@
 ---
-title: Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
-description: Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+title: Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+description: Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-tpm.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 10
 breadcrumb: [Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
+# Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace
 
-Technology Lifecycle Management helps Enterprise Architects to manage technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
+Technology Lifecycle Management helps Enterprise Architects to track technology life-cycle risks and technology life-cycle exceptions. Enterprise Architects can evaluate all their business applications and application services by accessing the discovered technologies and auditing information in the Enterprise Architecture Workspace.
 
 **Important:**
 

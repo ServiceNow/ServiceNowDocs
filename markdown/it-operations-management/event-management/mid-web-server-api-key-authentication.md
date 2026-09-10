@@ -30,7 +30,7 @@ When working in the global domain while Domain Separation is enabled, API keys a
 
 You can configure API keys to expire on a specified date.
 
-When creating a new extension with API key authentication \(or updating an existing one to use API key authentication\), the system checks for an available API key for the extension. If there is no available API key, the system creates one.
+When creating a new extension with API key authentication \(or updating an existing one to use API key authentication\), the system checks for an available API key. If no API key is available, the system creates one.
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Option for setting an expiration date for the API key.Expired, deactivated, or d
         3.  In the **Related Links** section, select **View API Key**.
         4.  Copy the API key that appears in the MID Web Server dialog box.
 
-            When connecting to a MID Web Server extension configured with API Key authentication, place an API key that the extension has access to in the Authorization header of the request in the following format:
+            When connecting to a MID Web Server extension configured with API Key authentication, place an API key in the Authorization header. Use the following format:
 
             `Key <API_KEY>`
 

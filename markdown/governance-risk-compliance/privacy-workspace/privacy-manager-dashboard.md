@@ -18,6 +18,8 @@ The Privacy Management home page provides an overview of the complete privacy ri
 
 The home page is organized into four tabs: **Processing activity**, **Risk and compliance**, **Operations**, and **Privacy cases**.
 
+Use the **Explore** button to analyze privacy data in the workspace using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ai-data-explorer.md).
+
 \[Omitted image "processing-activity-privacy-management-homepage.png"\] Alt text: Processing activity tab of the Privacy management dashboard.
 
 ## Required roles

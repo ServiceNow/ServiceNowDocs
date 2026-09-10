@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 The encryption scheme that you use can affect whether you can train solutions.
 
 -   If your data is encrypted by Full Disc Encryption \(FDE\), you can train solutions.
--   If the field you are using for training is encrypted using Field Encryption, ensure that the shared service worker user has the correct encryption module role that has been used for encryption.
+-   If the field you are using for training is encrypted using Field Encryption, verify the shared service worker user configuration. Ensure that the user has the correct encryption module role that has been used for encryption.
 -   If you are using Edge Encryption, training is not supported.
 
 **Note:** This feature supports only English language processing.

@@ -21,21 +21,25 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
 2.  Create a monetary benefit plan using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d333650e88">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d341344e102">
 
 Option
 
-</th><th align="left" id="d333650e91">
+</th><th align="left" id="d341344e105">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d333650e97">
+</th></tr></thead><tbody><tr><td id="d341344e111">
 
 **Using Monetary benefit plan related list**
 
@@ -46,7 +50,7 @@ Procedure
 
 \[Omitted image "fin-slct-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Monetary Benefit Plans related link.
 
-</td></tr><tr><td id="d333650e127">
+</td></tr><tr><td id="d341344e141">
 
 **Using finanicals record page**
 

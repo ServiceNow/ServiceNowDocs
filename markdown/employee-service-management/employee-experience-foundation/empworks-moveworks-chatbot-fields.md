@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [Moveworks chatbot fields, chatbot record, internal setup, trusted issuer]
-breadcrumb: [Employee Slate for Moveworks, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Moveworks chatbot configuration fields
@@ -43,5 +43,5 @@ Field reference for the Moveworks web chatbot record and the internal setup reco
 **Related topics**  
 
 
-[Configure the Moveworks chatbot for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)
+[Configure the Moveworks chatbot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.md)
 

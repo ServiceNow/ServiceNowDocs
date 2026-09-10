@@ -43,7 +43,7 @@ Use the ServiceNow Otto for HR Service Delivery \(HRSD\) application to summariz
  
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+</table>**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 **Important:**
 

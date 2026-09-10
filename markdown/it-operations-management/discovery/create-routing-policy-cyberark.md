@@ -31,7 +31,7 @@ Role required: pki\_admin or admin.
 
 3.  On the Certificate Routing Policy form, fill in the fields.
 
-    For a description of the field values, see [Certificate Routing Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form.md).
+    For a description of the field values, see [Certificate Routing Policy form for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form.md).
 
 4.  If used by your organization as filtering criteria, set values for the **Organization**, **Organizational Unit**, **Locality**, **Country**, **State**, or **Email Address** fields.
 

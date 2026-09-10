@@ -25,7 +25,7 @@ Role required: password\_reset\_admin
 The default email content is:
 
 -   Subject: Reminder: Enroll in the Password Reset program
--   Body: Click here to enroll in the Password Reset program.
+-   Body: Select here to enroll in the Password Reset program.
 
 To customize the email, see [Customize the Password Reset enrollment reminder email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/password-reset/customize-pwd-reset-enroll-reminder.md).
 

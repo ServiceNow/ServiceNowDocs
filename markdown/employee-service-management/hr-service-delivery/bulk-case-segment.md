@@ -110,7 +110,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
  For the **HR Profile** and **Users** filter, you can refine the selection. Right-click on a column, select **Filter Out** or **Show Matching**.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

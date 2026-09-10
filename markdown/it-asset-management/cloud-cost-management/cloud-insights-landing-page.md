@@ -1,6 +1,6 @@
 ---
 title: Cloud Cost Management
-description: ServiceNow Cloud Cost Management application \(formerly known as Cloud Insights\) gives you visibility and control of your cloud usage and costs and helps you to discover all of your cloud resources, breaks down cloud spend by cost center, business service, and other entity, provides recommendations on how to reduce cloud spend, and automates repetitive cost optimization tasks.
+description: ServiceNow Cloud Cost Management application \(formerly Cloud Insights\) gives you visibility and control of your cloud usage and costs. It helps you discover all your cloud resources, break down cloud spend by cost center, business service, and other entities. You also get recommendations on how to reduce cloud spend and automate repetitive cost optimization tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/cloud-insights-landing-page.html
 release: zurich
@@ -8,19 +8,30 @@ product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [IT Asset Management]
 ---
 
 # Cloud Cost Management
 
-ServiceNow® Cloud Cost Management application \(formerly known as Cloud Insights\) gives you visibility and control of your cloud usage and costs and helps you to discover all of your cloud resources, breaks down cloud spend by cost center, business service, and other entity, provides recommendations on how to reduce cloud spend, and automates repetitive cost optimization tasks.
+ServiceNow® Cloud Cost Management application \(formerly Cloud Insights\) gives you visibility and control of your cloud usage and costs. It helps you discover all your cloud resources, break down cloud spend by cost center, business service, and other entities. You also get recommendations on how to reduce cloud spend and automate repetitive cost optimization tasks.
 
 Watch this short video for an introduction to the Cloud Cost Management application.
 
 \[Omitted video\] Description: Introduction to the Cloud Cost Management application.
 
-**Important:** Cloud Cost Management version 8.0.0 and below are in the Planned Deprecation phase \(see [Deprecation Process](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) for more details\). These versions won’t be available on the ServiceNow Store for download and installation for new deployments, but continue to be supported for existing deployments.
+Cloud Cost Management gives you visibility and control over your cloud spending with these capabilities:
+
+-   Discover all cloud resources across your environment
+-   Analyze cloud costs by cost center, business service, and custom entity
+-   Receive recommendations to reduce unnecessary spending
+-   Automate repetitive cost optimization tasks
+
+For complete visibility into both cloud and software license spending, use Cloud Cost Management alongside Software Asset Management. For further details, see [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/explore-sam-workspace.md).
+
+Use the Asset Management Executive dashboard to track critical performance indicators for Cloud Cost Management across a unified view. For further details, see [Visibility into Cloud Cost Management KPIs using the Asset Management Executive Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/itam-exec-dashboard-cloudinsights.md).
+
+**Important:** Cloud Cost Management 8.0.0 and earlier versions are in the Planned Deprecation phase \(see [Deprecation Process](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) for more details\). These versions won’t be available on the ServiceNow Store for download and installation for new deployments, but continue to be supported for existing deployments.
 
 <table id="ci-flow" class="nav-card"><tbody><tr><td>
 

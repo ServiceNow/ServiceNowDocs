@@ -8,7 +8,7 @@ product: Resource Management
 classification: resource-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 14
+reading_time_minutes: 13
 keywords: [resource assignments, resource management, resource allocation]
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -25,7 +25,7 @@ Quickly create multiple portfolios using resource cards and navigate between the
 
 ## Overview dashboard
 
-Resource Management Workspace overview dashboard provides a high-level interactive resource assignment details that help Resource managers to focus on where to prioritize the efforts. This includes identifying conflicts and reviewing the upcoming or pending assignments. Using this dashboard, Resource managers can view the data around their resources and work for efficient resource forecast planning.
+Resource Management Workspace overview dashboard provides a high-level interactive resource assignment details. Resource managers can use these details to focus on where to prioritize the efforts, identify conflicts, and review the upcoming or pending assignments. Using this dashboard, Resource managers can view the data around their resources and work for efficient resource forecast planning.
 
 The Overview dashboard is crafted to reduce the effort of navigate between different resource boards to view the unassigned work, pend activities, and prioritize day-today tasks.
 
@@ -38,6 +38,8 @@ You can edit the dashboard based on:
 
 \[Omitted image "rmw-dashboard.png"\] Alt text: Dashboard view of Resource Management Workspace displaying the resource assignments stats.
 
+For more details about the dashboard, see [Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-dashboard-widget-details.md).
+
 The interactive dashboard creates a resource board for any selected data helping you to directly access the customized board view from the dashboard. For example, if you select the Unassigned tasks widget, this creates and navigates you to a resource board view with the list of unassigned tasks from the widget.
 
 On the board view, you can get the drill down view of all the assigned assignments to the users. The timeline range in the board view matches with the date range of the dashboard.
@@ -46,139 +48,7 @@ By accessing these custom boards, Resource managers can assign and approve the a
 
 \[Omitted image "rmw-interactive-dashboard-gif.gif"\] Alt text: GIF showing the interactive dashboard selection navigating to resource board view.
 
-<table id="table_am1_hdr_1fc"><thead><tr><th>
-
-Widget title
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Resources over allocated
-
-</td><td>
-
-Number of over-allocated users.
-
-</td></tr><tr><td>
-
-Resources under utilized
-
-</td><td>
-
-Number of users with available bandwidth.
-
-</td></tr><tr><td>
-
-Unassigned assignment requests
-
-</td><td>
-
-Number of unassigned tasks.
-
-</td></tr><tr><td>
-
-Pending resource requests
-
-</td><td>
-
-Total number of requests in Pending state.
-
-</td></tr><tr><td>
-
-Upcoming pending assignments
-
-</td><td>
-
-Number of assignments starting by next month.There are two views for this widget. A pie chart and a list view.
-
-Selecting Pie chart navigates you to the resource board view.
-
-Selecting the table values.
-
--   Start date - opens resource assignment record view.
--   Resource - opens to resource details page.
--   Task - opens project task details in record view.
--   Top task - opens the top task details in record view.
-
-Select **View all** to see the simple list view of assignments.
-
-</td></tr><tr><td>
-
-Assignments ending soon
-
-</td><td>
-
-Number of assignments ending from current date to next month.
-
-</td></tr><tr><td>
-
-Ready for review
-
-</td><td>
-
-Number of assignments that are in ready for review state.
-
-</td></tr><tr><td>
-
-Overdue assignments
-
-</td><td>
-
-Number of assignments with past end dates.
-
-</td></tr><tr><td>
-
-Unapproved assignments
-
-</td><td>
-
-Number of unapproved assignments.
-
-</td></tr><tr><td>
-
-Utilization percentage
-
-</td><td>
-
-Average of the utilization % of the users based on the selected primary attributes.Example: You can select a primary group to view the average utilization % of the entire group. This helps Project Managers to better plan the resource requests. Resource Managers can use this data while approving the assignments.
-
-</td></tr><tr><td>
-
-Assignments status
-
-</td><td>
-
-Breakdown view of the resource assignments based on the status.
-
-</td></tr><tr><td>
-
-Total efforts
-
-</td><td>
-
-Bar chart displaying the monthly breakdown view of allocated hours vs capacity. Select the chart to get the drill down view of the resource allocations in the resource board.
-
-</td></tr><tr><td>
-
-Total resource work by type
-
-</td><td>
-
-Displays the allocated hours based on the task type.Example: Operation work, Project Task, and so on.
-
-</td></tr><tr><td>
-
-Role allocation
-
-</td><td>
-
-Bar chart displaying monthly breakdown view of the total number of allocated hours based on the user roles. Select the chart to get the drill down view of the resource allocations in the resource board.
-
-</td></tr></tbody>
-</table>## Resource board
+## Resource board
 
 Using this intuitive workspace, Resource Managers can:
 
@@ -331,6 +201,12 @@ Resource Managers can use this information to plan the resources and manage assi
 **Tip:** Grouping the resources based on the primary attributes helps Resource Managers to easily reassign the work as the primary attributes should match to reassign work. For more information on how to reassign a work, see [Reassign or unassign work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-reassign-unassign-work.md).
 
 \[Omitted image "rmw-board-groupby-primary-group.png"\] Alt text: Resource board grouped by Primary Group attribute.
+
+## Resource efforts termination
+
+Capacity is generated only for the date range between employment start date and employment end date specified in the employee profile. This information is available when the Employee Profile plugin is installed. If the start and end date are unavailable for an employee, manually specify these dates.
+
+Availability for terminated resources is automatically updated to 0 when you run the [resource termination handler job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/resource-termination-scheduled-job.md). This update occurs when the termination date is after the date on which the job is run. If resources are booked for a time period beyond the user's termination dates, those bookings are also updated to 0 in the resource assignments.
 
 -   **[Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/rmw-create-rsrc-card.md)**  
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.

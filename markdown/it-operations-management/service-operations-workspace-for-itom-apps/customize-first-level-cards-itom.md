@@ -1,6 +1,6 @@
 ---
 title: Modify the first-level cards in the Service Operations Workspace for ITOM Overview section
-description: Customize the data displayed in the first-level cards in the Overview section by configuring various parameters such as the header label, data source, metric, group by field, and viewAllQuery. This allows for a more tailored and relevant display of information.
+description: Customize the data displayed in the first-level cards in the Overview section. Configure parameters such as header label, data source, metric, group by field, and viewAllQuery for tailored information display.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/customize-first-level-cards-itom.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Customize the SOW for ITOM home page, Configure, Service Operations
 
 # Modify the first-level cards in the Service Operations Workspace for ITOM Overview section
 
-Customize the data displayed in the first-level cards in the Overview section by configuring various parameters such as the header label, data source, metric, group by field, and viewAllQuery. This allows for a more tailored and relevant display of information.
+Customize the data displayed in the first-level cards in the Overview section. Configure parameters such as header label, data source, metric, group by field, and viewAllQuery for tailored information display.
 
 ## Before you begin
 

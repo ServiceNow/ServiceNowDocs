@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-connct-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-08-25"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
@@ -18,6 +18,8 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 ## Before you begin
 
 Before you can enable an MCP server in Build Agent, an administrator must approve it as an AI asset in AI Control Tower. Each MCP server requires this approval, regardless of whether the server is enabled by default.
+
+You must have Connect Hub installed.
 
 The end-to-end flow for making an MCP server available is:
 
@@ -32,7 +34,7 @@ Individual MCP servers are enabled by default, but the complete flow must be com
 
 See [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/accelerate-design-to-development-with-figma-mcp-server.md) for a list of supported MCP servers.
 
-**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE, though you must be on Zurich Patch 10 or higher to use MPC servers with Build Agent in ServiceNow Studio.
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
 Role required: admin
 

@@ -28,21 +28,21 @@ This is a one-time setup. You can set the integration user password either using
 
 The DevOps integration user is the ServiceNow system user that your third-party orchestration tools use to send data to DevOps Change Velocity.
 
-The default integration user credential will be applicable for all the tools. However, if you want to set up separate integration user credential per tool connection you can also do the same but ensure that the user account has the sn\_devops.integration role assigned.
+The default integration user credential will be applicable for all the tools. If you want to set up separate integration user credential per tool connection you must ensure that the user account has the sn\_devops.integration role assigned.
 
 ## Procedure
 
 1.  Set the integration user password in one of the following ways.
 
-<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d235938e88">
+<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d238795e88">
 
 Option
 
-</th><th align="left" id="d235938e91">
+</th><th align="left" id="d238795e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235938e97">
+</th></tr></thead><tbody><tr><td id="d238795e97">
 
 **Using workspace**
 
@@ -64,7 +64,7 @@ Steps
 
 \[Omitted image "setupsystemaccount-3.png"\] Alt text: Selecting Set password for DevOps integration user account through workspace.
 
-</td></tr><tr><td id="d235938e177">
+</td></tr><tr><td id="d238795e177">
 
 **Using Classic UI**
 

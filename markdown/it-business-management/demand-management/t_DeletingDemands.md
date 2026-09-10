@@ -66,3 +66,5 @@ To delete a demand:
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

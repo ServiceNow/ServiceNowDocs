@@ -7,8 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -63,6 +63,10 @@ Whenever a sighting search enrichment is requested:
 
 
 [Automated IOC Enrichment]()
+
+[Automated sharing of high-risk IOC's with trusted partners]()
+
+[Automatically add threat intelligence to a TAXII collection]()
 
 [Create vulnerability assessment for zero day]()
 

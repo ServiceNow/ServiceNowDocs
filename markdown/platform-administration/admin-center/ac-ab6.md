@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-application-landing-page.md)
+
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use Advanced Work Assignment to automatically assign work items to your qualifie
 
 </td><td>
 
-[Roles installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-roles.md)
+Roles installed with Advanced Work Assignment
 
 </td><td>
 

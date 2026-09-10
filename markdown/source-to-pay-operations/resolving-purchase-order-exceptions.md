@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [resolve purchase order exceptions, Resolve PO exceptions, PO exceptions resolution]
 breadcrumb: [Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -24,17 +24,17 @@ After a purchase order exception is assigned to you, update the impacted purchas
 -   **[Find alternative suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/find-alternative-suppliers.md)**  
 If a supplier's inability to fulfill an order creates a shortfall, find an alternative supplier. Review open orders with other suppliers for the same material at the required location. You can then request for expedited delivery or increased quantities.
 -   **[Reassign a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/reassign-a-purchase-order-exception.md)**  
-Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
--   **[Change priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/change-priority-of-poe.md)**  
-Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
+-   **[Change the priority level of a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/change-priority-of-poe.md)**  
+Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 -   **[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/confirm-resolution.md)**  
 Confirm a resolution for a purchase order exception. You can close the purchase order exception when all necessary actions are complete.
 -   **[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)**  
-Create tasks associated with purchase order exceptions and assign it to an operational buyer or collaborator. You can track the task status from the purchase order exception.
+Create a task associated with a purchase order exception and assign it to an operational buyer or collaborator. You can track the task status from the purchase order exception.
 -   **[Work on a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/work-on-a-purchase-order-exception.md)**  
 View a purchase order exception task record to take action on your assigned task.
--   **[Create a supplier escalation case from a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)**  
-Create a supplier escalation case from the purchase order exception record to engage procurement team members and resolve supplier issues faster.
+-   **[Create a supplier escalation case from a PO exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/create-supplier-escalation-case-from-poe.md)**  
+Create a supplier escalation case from the purchase order \(PO\) exception record to engage procurement team members and resolve supplier issues faster.
 -   **[Cancel a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/cancel-purchase-orders.md)**  
 Cancel a purchase order exception that is incorrectly filled or no longer required.
 
@@ -46,4 +46,8 @@ Cancel a purchase order exception that is incorrectly filled or no longer requir
 [Reporting delivery plan issues]()
 
 [Create purchase order exception from Universal Request]()
+
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

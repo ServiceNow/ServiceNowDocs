@@ -24,7 +24,7 @@ Role required: sn\_si.analyst
 
 2.  Select the security case that you want to enrich with the MITRE-ATT&amp;CK information.
 
-3.  From the related list, click **Associate MITRE ATT&amp;CK Technique**.
+3.  From the related list, select **Associate MITRE ATT&amp;CK Technique**.
 
     In the following illustration, you can see how to navigate from the related list to **Associate MITRE ATT&amp;CK Technique**, review the source, and add a tactic and technique.
 
@@ -32,9 +32,9 @@ Role required: sn\_si.analyst
 
 5.  Review the **Tactic** and **Techniques**, and add or remove them based on the relevance with the case.
 
-6.  Click **Save**.
+6.  Select **Save**.
 
-    The tactics and techniques that you have added appear in the MITRE-ATT&amp;CK Card.\[Omitted image "mitre-case-management.gif"\] Alt text: This illustration shows how to associate MITRE information with a security case.
+    The tactics and techniques that you have added appear in the MITRE-ATT&amp;CK Card.
 
 
 **Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitre-att-ck-features.md)

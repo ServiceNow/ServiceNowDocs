@@ -1,18 +1,18 @@
 ---
-title: Create remediation action plan
-description: Create the remediation action plan for product quality investigation case.
+title: Create a remediation action plan
+description: Create a remediation action plan for product quality investigation case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-remediation-action-plan.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Create remediation action plan
+# Create a remediation action plan
 
-Create the remediation action plan for product quality investigation case.
+Create a remediation action plan for product quality investigation case.
 
 ## Before you begin
 
@@ -31,8 +31,10 @@ Role required: admin
 4.  Select **Save**.
 
 
--   **[Related list for remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-remediation-action-plan.md)**  
-In the workspace, you can use the remediation action-related list to log the information.
+-   **[Create a CoPQ financial request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-financial-requests.md)**  
+Create a CoPQ financial request for remediation action plan.
+-   **[Cause action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-cause-action-plans.md)**  
+Create a cause action plan for the remediation action.
 
 **Parent Topic:**[Remediation action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-remediation-action-plans.md)
 

@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Create a supplier, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -203,16 +203,7 @@ Set the case status to On Hold.
 Sets the case status to On Hold.After this activity is completed, the playbook moves to the Qualification stage.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-## Qualification stage
+</table>## Qualification stage
 
 The following table lists the activities in the Qualification stage of the Supplier onboarding playbook.
 
@@ -301,16 +292,7 @@ If you select **Reject**, the playbook opens the [Rejection stage](https://raw.g
 After this activity is completed, the playbook moves to the Activation stage.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-## Activation stage
+</table>## Activation stage
 
 The following table lists the activities in the Activation stage of the Supplier onboarding playbook.
 
@@ -409,16 +391,7 @@ Set onboarding case to complete.
 Updates the onboarding case to Closed completed.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Rejection stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-## Rejection stage
+</table>## Rejection stage
 
 The following table lists the activities in the Rejection stage of the Supplier onboarding playbook.
 
@@ -468,12 +441,4 @@ Set onboarding case to rejected
 Updates the onboarding case to Closed rejected.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Registration stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Qualification stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
-[Activation stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
-
+</table>

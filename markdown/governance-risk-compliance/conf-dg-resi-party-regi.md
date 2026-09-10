@@ -29,6 +29,8 @@ The Operational Resilience administrators and managers can access the Digital Re
 Create records in bulk from the Digital resilience third-party registers rather than creating one record at a time for single or multiple entities. You can save time and effort by working on multiple records at a time.
 -   **[Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/update-existing-records-in-bulk.md)**  
 Update existing records in bulk from the Digital resilience third-party registers.
+-   **[Schedule a CSV download report for historic snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/schedule-csv-report-historic-snapshots.md)**  
+Schedule a recurring job to generate CSV download reports of historic snapshots from the Digital resilience third-party registers. The job reuses the configuration of an existing Excel download/upload request record.
 -   **[Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/opres-drtp-validate-roi.md)**  
 Run real-time validation on Register of Information \(RoI\) packages to help ensure compliance with DORA requirements.
 -   **[Display the help tips on the forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/display-help-tips-on-forms.md)**  

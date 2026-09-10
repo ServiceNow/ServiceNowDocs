@@ -26,7 +26,7 @@ Role required: admin, personalize\_form
 
 ## About this task
 
-By default, the **Track Specific Pipeline** field is set to **False** when you discover Azure DevOps orchestration tasks and pipelines. The **Track** flag for all Azure DevOps pipelines is also disabled. So, by default, this leads to all pipelines sending job notifications to DevOps and increased processing times, which could cause the pipeline you really want to track to be delayed. So, enable the **Track Specific Pipeline** check box to process only notifications for the pipeline events that you specify to track, and ignore all other pipeline notifications.
+By default, the **Track Specific Pipeline** field is set to **False** when you discover Azure DevOps orchestration tasks and pipelines. The **Track** flag for all Azure DevOps pipelines is also disabled. This leads to all pipelines sending job notifications to DevOps and increased processing times, which causes the pipeline you want to track to be delayed. So, enable the **Track Specific Pipeline** option to process only notifications for the pipeline events that you specify to track, and ignore all other pipeline notifications.
 
 ## Procedure
 

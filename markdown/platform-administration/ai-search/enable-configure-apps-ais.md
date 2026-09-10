@@ -24,11 +24,11 @@ Some applications support additional configuration for AI Search, as described i
 
 [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md) enables you to provide service and support for external customers through communication channels such as web, email, chat, telephone, and social media. The CSM application includes Customer and Consumer Service Portals that support AI Search.
 
-For details on configuring the Customer and Consumer Service Portals to use AI Search, see [Configure AI Search for the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/config_AI_search_csm_csp.md). To activate AI Search widgets so that guest users on these portals can use AI Search, see [Enabling AI Search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure_search_csp_guestuser.md).
+For details on configuring the Customer and Consumer Service Portals to use AI Search, see Configure AI Search for the Customer and Consumer Service Portals. To activate AI Search widgets so that guest users on these portals can use AI Search, see Enabling AI Search in the Customer and Consumer Service Portals for unauthenticated users.
 
 ## Now Mobile
 
-Enable your users to submit incidents and requests, manage tasks, and access company resources from anywhere using the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/mobile-employee-experience.md) app.
+Enable your users to submit incidents and requests, manage tasks, and access company resources from anywhere using the Now Mobile app.
 
 For details on configuring and using AI Search as the Now Mobile search engine, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/text-search-advanced-now.md).
 
@@ -42,7 +42,7 @@ For details on enabling and using AI Search as the Service Portal search engine,
 
 [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md) is a platform for providing user assistance through conversations within a messaging interface. Use Virtual Agent to design and build automated conversations that help your users quickly obtain information, make decisions, and perform common work tasks.
 
-For information on how Virtual Agent uses AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-ai-search.md).
+For information on how Virtual Agent uses AI Search, see Improving the user experience with AI Search.
 
 ## AI Search for Next Experience
 

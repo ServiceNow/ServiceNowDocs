@@ -25,8 +25,6 @@ Role required: sn\_align\_core.apw\_user, sn\_apw\_advanced.spw\_goal\_user, or/
 
 The RIDAC home page provides a centralized view of all risks, issues, decisions, actions, and changes across your strategic planning portfolio. From this single view, you can access and filter RIDAC records by planning scope and type to focus on items relevant to your role and responsibilities.
 
-**Note:** Users can view only the RIDAC records they have access to, based on their assigned roles. For example, a user with only the sn\_align\_core.apw\_user role \(without the sn\_apw\_advanced.spw\_goal\_user and sn\_apw\_advanced.eap\_user roles\) can view RIDAC items associated with planning items only, not RIDAC items associated with goals or EAP iterations.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **RIDAC**.
@@ -37,8 +35,8 @@ The RIDAC home page provides a centralized view of all risks, issues, decisions,
 
     -   **All RIDAC** — to view all risks, issues, decisions, actions, and changes across all planning item types, goals, and EAP iterations.
     -   **Project RIDAC** — to view only RIDAC items created on project planning items.
-    -   **Portfolio Risks** — to view only risks associated with portfolio planning items.
-    -   **Program Risks** — to view only risks where a program is the top-level parent.
+    -   **Portfolio Risks** — to view only risks and issues associated with portfolio planning items.
+    -   **Program Risks** — to view only risks and issues where a program is the top-level parent.
     The RIDAC records are filtered based on your selection, and the list updates to show only the relevant items.
 
 3.  Select the RIDAC type you want to view from the left navigation panel.

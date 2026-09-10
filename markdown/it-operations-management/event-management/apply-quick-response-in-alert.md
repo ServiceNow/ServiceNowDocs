@@ -38,7 +38,7 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 
     If the link that you require is not available, perform one of these actions.
 
-<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d678286e123">
+<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d698405e123">
 
 **For Remediation, define a remediation task using an Alert rule based on the selected alert**
 
@@ -55,7 +55,7 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 7.  Click **Update**.
  For further information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
-</td></tr><tr><td id="d678286e202">
+</td></tr><tr><td id="d698405e202">
 
 **For Launch Application, create a web application link using an Alert rule based on the selected alert**
 

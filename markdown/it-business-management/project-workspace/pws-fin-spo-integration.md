@@ -18,7 +18,7 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/activate-finance-spend-central.md)
+Install Sourcing and Procurement Operations
 
 Role required: it\_project\_manager
 

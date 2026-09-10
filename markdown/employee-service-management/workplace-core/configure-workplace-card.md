@@ -35,7 +35,7 @@ Card configuration enables admins to tailor the display and functionality of spa
     |Field|Description|
     |-----|-----------|
     |Name|Name of the card configuration.|
-    |Template|UI template that is used for the card. You can use existing templates or create your own by using UI macros. For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_UIMacros.md).|
+    |Template|UI template that is used for the card. You can use existing templates or create your own by using UI macros. For more information, see .|
     |Order|Order of the card configuration.|
     |Table|Table that is used to generate the fields on the card.|
     |Applications|Applications that use the card configuration. You can select Location Directory, Reservation, and Kiosk Indoor Mapping.|

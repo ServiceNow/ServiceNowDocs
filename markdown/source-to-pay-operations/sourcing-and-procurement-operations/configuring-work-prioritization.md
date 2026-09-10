@@ -29,6 +29,16 @@ Configure the **Priority defaulting for sourcing requests** decision table to au
 **Related topics**  
 
 
+[Sourcing and Procurement Operations product tile]()
+
+[Sourcing and Procurement Operations Product Hub]()
+
+[Install Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations Configuration Console]()
+
+[Configure Sourcing and Procurement Operations]()
+
 [Install Sourcing and Procurement Operations]()
 
 [Setting up primary data for Shopping Hub]()

@@ -7,8 +7,8 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: reference
-last_updated: "2025-10-29"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Reference, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -34,6 +34,23 @@ Root URL or endpoint used to connect to the Dynatrace Metrics API. All API reque
 
 </td></tr><tr><td>
 
+connectionAliasSysID
+
+</td><td>
+
+Sys ID of the connection alias record associated with the Dynatrace connection.
+
+</td></tr><tr><td>
+
+debug
+
+</td><td>
+
+-   Debug: Provides detailed logs for troubleshooting.
+-   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
+
+</td></tr><tr><td>
+
 Initial sync in mins
 
 </td><td>
@@ -41,6 +58,24 @@ Initial sync in mins
 Time, in minutes, that the system takes to complete the first synchronization of data with the Dynatrace Metrics API.For example, if the value is 15, the connector fetches metrics from the past 15 minutes.
 
 Default: 15
+
+</td></tr><tr><td>
+
+isGrailApiEnabled
+
+</td><td>
+
+Enables Grail-based metric collection for the Dynatrace connection. When enabled, this allows Grail API calls to fetch metrics data and populates the Connector Instance Metrics \[sn\_em\_connector\_instance\_metrics\] table with Grail-related metric IDs. When disabled, the table is populated with classic metric IDs.
+
+Default: false.
+
+</td></tr><tr><td>
+
+logPayload
+
+</td><td>
+
+Enables logging of the request and response payloads for the Dynatrace connection, useful for debugging.
 
 </td></tr><tr><td>
 
@@ -93,15 +128,6 @@ Protocol
 </td><td>
 
 Communication protocol used for retrieving events from Dynatrace server.Default: https
-
-</td></tr><tr><td>
-
-Debugging
-
-</td><td>
-
--   Debug: Provides detailed logs for troubleshooting.
--   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
 
 </td></tr></tbody>
 </table>To return to the procedure, see [Configure Dynatrace metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/configure-dynatrace-metric-pull-connector.md).

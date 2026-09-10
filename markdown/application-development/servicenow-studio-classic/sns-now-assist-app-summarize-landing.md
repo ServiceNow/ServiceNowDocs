@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist tools and AI files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Now Assist for app summary generation in ServiceNow Studio
@@ -79,5 +79,5 @@ Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow S
 -   **[Now Assist for app summary generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-reference.md)**  
 The following roles are required for use with the ServiceNow Otto for Creator app summary generation skill.
 
-**Parent Topic:**[Now Assist tools and AI files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
+**Parent Topic:**[AI tools and files in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.md)
 

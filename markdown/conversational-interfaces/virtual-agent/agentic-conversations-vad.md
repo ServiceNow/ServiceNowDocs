@@ -17,16 +17,18 @@ breadcrumb: [Explore, Virtual Agent, Conversational Interfaces]
 
 When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 
--   If for the given assistant, specific agents are available to perform user tasks or sub tasks, they’re used.
+-   If specific agents are available for the assistant to perform user tasks or subtasks, they are used.
 -   If no specific agent is available for the task or subtask, the system automatically employs the Search Agent to discover answers or appropriate skills within the system. This is based on the assistant's scope.
 -   If skill execution is required, the system automatically executes the discovered skills.
--   The system can plan and orchestrate execution among multiple agents, skills, and QnA to accomplish complex tasks.
+-   The system plans and orchestrates execution among multiple agents, skills, and QnA to accomplish complex tasks.
+
+**Note:** When a Virtual Agent conversation is triggered, any updates or comments in the record's work notes display as the AI agent rather than the user who initiated the conversation.
 
 ## Enable AI agents in Virtual Agent
 
 Role required: admin or virtual\_agent\_admin
 
-**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
+**Note:** Manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
 
 To enable AI agents in Virtual Agent:
 
@@ -34,18 +36,15 @@ To enable AI agents in Virtual Agent:
 
     The configuration consists of the following:
 
-    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    -   Create an assistant in Virtual Agent or use the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
+    -   Assign specific assistants to a specific portal or portals. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
     \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
-2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+2.  Verify that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
     \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
 3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configure-next-best-action-agent.md).
-
-    \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
-
 
 During execution, only the configured AI agents are considered for the current assistant and dynamically makes them available to the Orchestrator for planning.
 
@@ -90,7 +89,7 @@ Spam
  ESPP policy
 
 </td></tr></tbody>
-</table>**Scenario 1: Multiple questions from KB articles**
+</table>## Scenario 1: Multiple questions from KB articles
 
 Utterance: `How do I avoid spam? How do I detect it?`
 
@@ -103,7 +102,7 @@ Utterance: `How do I avoid spam? How do I detect it?`
     \[Omitted image "utterance-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance-agentic2.png"\] Alt text: Agentic response part2.
 
 
-**Scenario 2: Multiple skills with slot filling**
+## Scenario 2: Multiple skills with slot filling
 
 Utterance: `Hey, order a coffee for me, preferably dark roast and something to eat, maybe a pizza?`
 
@@ -116,7 +115,7 @@ Utterance: `Hey, order a coffee for me, preferably dark roast and something to e
     \[Omitted image "utterance2-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance2-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance2-agentic3.png"\] Alt text: Agentic response part3.
 
 
-**Scenario 3: Complex utterance with a combination of skills, agents, and QnA**
+## Scenario 3: Complex utterance with a combination of skills, agents, and QnA
 
 Utterance: `I am going on PTO tomorrow. Get my expense report and my IT ticket status. Send a summary of the expense report to John Jacob and the details on ticket status to Robert Williams, informing them of my PTO and requesting them to work on them.`
 
@@ -129,11 +128,11 @@ Utterance: `I am going on PTO tomorrow. Get my expense report and my IT ticket s
     \[Omitted image "utterance3-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance3-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance3-agentic3.png"\] Alt text: Agentic response part3.\[Omitted image "utterance3-agentic4.png"\] Alt text: Agentic response part4.\[Omitted image "utterance3-agentic5.png"\] Alt text: Agentic response part5.\[Omitted image "utterance3-agentic6.png"\] Alt text: Agentic response part6.
 
 
-**Scenario 4: Complex utterance with a combination of QnA \(KB\) and agent**
+## Scenario 4: Complex utterance with a combination of QnA \(KB\) and agent
 
 Utterance: `What is the maximum contribution amount for espp? Send an email to Robert with the details.`
 
--   Non-agentic response: Produces a single answer and doesn’t complete or even suggest the second action since there’s no corresponding skill.
+-   Non-agentic response: Produces a single answer and doesn't complete or even suggest the second action since there's no corresponding skill.
 
     \[Omitted image "utterance4-qna.png"\] Alt text: Non-agentic response.
 
@@ -148,9 +147,9 @@ If you want to stop an agentic conversation mid-query, hover over the send icon 
 
 ## Error handling and fallback options
 
-When the AI agent cannot understand a request, encounters a system error, or a session becomes inactive, it displays a message and presents options to help you continue.
+When the AI agent can't understand a request, encounters a system error, or a session becomes inactive, it displays a message and presents options to help you continue.
 
--   When ServiceNow Otto cannot find an answer:
+-   When ServiceNow Otto can't find an answer:
 
     Depending on how your administrator has configured the assistant, these options may include:
 
@@ -160,23 +159,23 @@ When the AI agent cannot understand a request, encounters a system error, or a s
 
     -   Viewing office hours.
 
-    For example, if you ask about a topic the AI agent can't find information on, you might see a message such as: “I can’t find anything on that directly but I can help you explore other options.” Select one of the displayed options to continue.
+    For example, if you ask about a topic the AI agent can't find information on, you might see a message such as: "I can't find anything on that directly but I can help you explore other options." Select one of the displayed options to continue.
 
 -   Session timeout due to inactivity:
 
-    If you stop responding during a conversation, the AI agent waits for a set period before ending the session. When a session is about to time out, you will receive a warning message. For example: “Looks like you’ve left this conversation. Would you like to keep going?”. If you want to continue, respond to resume the conversation.
+    If you stop responding during a conversation, the AI agent waits for a set period before ending the session. When a session is about to time out, you will receive a warning message. For example: "Looks like you've left this conversation. Would you like to keep going?". If you want to continue, respond to resume the conversation.
 
-    If there is no response to the warning, the session ends with a session end message. For example, “Our chat has timed out due to inactivity. Just start a new conversation whenever you’re ready. I’ll be here to help!”. You can start a new chat to continue getting help.
+    If there is no response to the warning, the session ends with a session end message. For example, "Our chat has timed out due to inactivity. Just start a new conversation whenever you're ready. I'll be here to help!". You can start a new chat to continue getting help.
 
 -   Technical errors and system timeout:
 
-    If the AI agent encounters a backend error or cannot complete a request due to a technical issue, it displays a message and presents fallback options. For example: “It looks like I’m having trouble completing your request right now because of a technical failure. But I can help you explore other options.” You can select one of the available fallback options to continue.
+    If the AI agent encounters a backend error or can't complete a request due to a technical issue, it displays a message and presents fallback options. For example: "It looks like I'm having trouble completing your request right now because of a technical failure. But I can help you explore other options." You can select one of the available fallback options to continue.
 
 -   Errors during agentic tasks:
 
     When you ask the AI agent to complete a multi-step task on your behalf, it plans and carries out the steps automatically. If a step in the plan can't be completed, it lets you know and offers fallback options so you can decide how to proceed.
 
-    For example, if the AI agent is creating an expense report and encounters a problem, it displays a message such as: “Unfortunately that didn’t work. But I can help you explore other options.” The fallback options available depend on your configuration.
+    For example, if the AI agent is creating an expense report and encounters a problem, it displays a message such as: "Unfortunately that didn't work. But I can help you explore other options." The fallback options available depend on your configuration.
 
 
 **Note:** Review AI generated responses for accuracy before taking action.

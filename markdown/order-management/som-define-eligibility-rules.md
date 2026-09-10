@@ -33,7 +33,7 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

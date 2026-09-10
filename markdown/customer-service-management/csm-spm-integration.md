@@ -26,7 +26,7 @@ The Customer Service Management integration with Service Portfolio Management ca
 1.  Customer service managers can associate service offerings to product models. For more details, see [Associate services with product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-service-offering-product.md)
 2.  Customer service managers can associate service offerings to sold products. For more details, see [Associate service offerings with sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/asssociate-service-offering-sold-prod.md)
 3.  Service owners can view service offerings and which customers have subscribed to them.
-4.  Customer service agents can view which service offerings are associated to the sold products affected by an issue. They can also see the service commitments and availability. For more details, see [View sold product information in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-sold-product-info-workspace.md)
+4.  Customer service agents can view which service offerings are associated to the sold products affected by an issue. They can also see the service commitments and availability. For more details, see [View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-sold-product-info-workspace.md)
 
 ## Activation information
 

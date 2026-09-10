@@ -30,15 +30,15 @@ Role required: it\_project\_manager
 
 2.  Create task dependencies in one of the following ways.
 
-<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d191155e89">
+<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d194893e89">
 
 Option
 
-</th><th align="left" id="d191155e92">
+</th><th align="left" id="d194893e92">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d191155e98">
+</th></tr></thead><tbody><tr><td id="d194893e98">
 
 **From the data grid**
 
@@ -52,7 +52,7 @@ Use the dependency type-ahead feature.
 4.  Select the lag period to be applied to the dependency.
 
 
-</td></tr><tr><td id="d191155e124">
+</td></tr><tr><td id="d194893e124">
 
 **From the timeline view**
 

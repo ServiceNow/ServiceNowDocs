@@ -33,11 +33,15 @@ Additional prerequisites for SCOM event collection:
 
 Additional prerequisites for SCOM metric collection:
 
-The MID Server that retrieves metrics is configured with the Metric Intelligence extension and the extension is in Started mode. See Manually configure the Metric Intelligence extension.If "Database login with Windows authentication" is selected, the MID Server service must run with a user having read access to the SCOM database \(OperationsManagerDW\). To configure this: In the local services, right-click the MID Server service and select Properties. In the Log On tab, ensure that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
+The MID Server that retrieves metrics is configured with the Metric Intelligence extension and the extension is in Started mode. See Manually configure the Metric Intelligence extension.
+
+If "Database login with Windows authentication" is selected, the MID Server service must run with a user having read access to the SCOM database \(OperationsManagerDW\).
+
+To configure this: In the local services, right-click the MID Server service and select Properties. In the Log On tab, verify that "This account" is selected with the details of the Windows domain user that has read access to the SCOM database.
 
 If "Database login with Windows authentication" is NOT selected, you need a Windows credential in the credential store that has read access to the OperationsManagerDW database.
 
-Upgrading from a previous release: If you are upgrading from a release where a single SCOM connector handled both events and metrics, the upgrade automatically disables metric collection on the old SCOM connector and deprecates the old metric-related parameters and event rules. Your existing SCOM connector continues to handle event collection as before — no action needed for events. To resume metric collection after the upgrade, create a new SCOM Metrics connector instance.
+Upgrading from a previous release: If you are upgrading from a release where a single SCOM connector handled both events and metrics, the upgrade automatically disables metric collection on the old SCOM connector. The upgrade also deprecates the old metric-related parameters and event rules. Your existing SCOM connector continues to handle event collection as before — no action needed for events. To resume metric collection after the upgrade, create a new SCOM Metrics connector instance.
 
 Role required: evt\_mgmt\_admin
 
@@ -180,7 +184,7 @@ SCOM 2025
 
             If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event does not process correctly.
 
-            For example, if an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**, modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+            For example, an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
 
             In **scom\_date\_format**, `a` represents AM, and `p` represents PM.
 

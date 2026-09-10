@@ -18,6 +18,8 @@ Set up default responses for questions so that assessors can complete assessment
 
 Response automation aims to make the assessment process efficient by reducing manual data entry and providing a static response or script-based approach to automate responses. A template manager can make the responses read-only or editable. You can set up the automated responses with the following:
 
+**Note:** This feature is available starting with Zurich Patch 10.
+
 -   **Default Response field**
 
     Enables you to set default answers for the following question types:

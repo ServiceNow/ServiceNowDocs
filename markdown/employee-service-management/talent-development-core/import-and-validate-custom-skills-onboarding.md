@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -40,15 +40,15 @@ Role required: sn\_skills\_int.admin
 
 7.  In the Select a source section, choose how you want to import the skills.
 
-<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d344071e143">
+<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d344530e143">
 
 Option
 
-</th><th align="left" id="d344071e146">
+</th><th align="left" id="d344530e146">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d344071e152">
+</th></tr></thead><tbody><tr><td id="d344530e152">
 
 **File upload**
 
@@ -56,7 +56,7 @@ Process
 
 Access the predefined skills import template so you can import your skills data in the required format. For more information, see [Import skills through file upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/file-upload-skills-import.md).
 
-</td></tr><tr><td id="d344071e171">
+</td></tr><tr><td id="d344530e171">
 
 **Integration**
 
@@ -70,7 +70,7 @@ For more information, see [Workday spoke integration in Skills Foundation](https
 
 For more information, see [SAP SuccessFactors integration Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/sap-successfactors-with-skills-foundation.md).
 
-</td></tr><tr><td id="d344071e226">
+</td></tr><tr><td id="d344530e226">
 
 **Custom import**
 
@@ -83,9 +83,9 @@ Skills from Credly \(OOTB source\) that are in the Queue \(Dynamic skills table\
 </td></tr></tbody>
 </table>8.  Select **Next**.
 
-9.  In the Existing matches section, skills that are identical to the existing skills in the library \(cmn\_skills table\) are identified by AI Search and are not processed again, but are only listed as existing skills.
+9.  Review the Existing matches section.
 
-    You have the following tabs to review the skills:
+    Skills that are identical to the existing skills in the library \(cmn\_skills table\) are identified by AI Search. These skills aren't processed again, but are only listed as existing skills. You have the following tabs to review the skills:
 
     -   Summary - Overview of skill matches.
     -   Existing matches - Skills that have been mapped to the existing skills in the cmn\_skills table.

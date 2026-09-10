@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with job architecture, Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -52,7 +52,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace]()
+[Creating a role group through the Skills Workspace]()
 
 [Edit skills and proficiencies in the Skills Matrix]()
 

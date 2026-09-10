@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-27"
 reading_time_minutes: 1
 keywords: [Knowledge widget, widget configuration, employee slate, widget properties, visibility settings]
-breadcrumb: [Knowledge overview, Tasks and requests, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Knowledge widget, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure knowledge widget

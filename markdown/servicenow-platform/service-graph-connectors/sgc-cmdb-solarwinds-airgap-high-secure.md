@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Download the `SgSolarWindsHighSecureSetup.ps1` and `GetSolarWindsData.ps1` PowerShell scripts from the link provided in the Add Another Connection section.
 
-3.  Log on to your high-secure server.
+3.  Log in to your high-secure server.
 
 4.  Create a SolarWinds directory.
 
@@ -53,15 +53,13 @@ Role required: admin
 
         The directories are created if they don’t already exist.
 
-    5.  Enter the SolarWinds credentials.
-
-        **Note:** You can either use Windows credential manager to store the user name and password, or implement your own mechanism for storing the credentials. The `GetSolarWindsData.ps1` script must have access to the credentials to trigger REST calls.
+    5.  Enter the SolarWinds credentials in the **Windows PowerShell credential request** pop-up window.
 
     6.  Exit the PowerShell session.
 
-7.  Provide write and delete permissions for the SolarWinds directory and the child directories.
+7.  Provide write and delete permissions for the SolarWinds data directory and the child directories created in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-high-secure.md) to the account that will run the `GetSolarWindsData.ps1` script.
 
-    You must provide delete permissions for old records to be cleaned up.
+    Delete permissions are required for old records to be cleaned up.
 
 
 **Related topics**  

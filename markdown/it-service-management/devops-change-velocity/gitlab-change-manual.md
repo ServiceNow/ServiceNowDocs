@@ -37,7 +37,7 @@ deploy:
 
 **Note:** For **when:manual** based changes, for a change request to get created at a certain stage, all the previous stages must complete successfully. If any of the previous stages is not invoked or not successful, even though there is no dependency of the current stage on its immediate previous stage, a change request will not get created in ServiceNow.
 
-GitLab pipeline parallel stages is supported with GitLab Docker Image. For more details, see [GitLab pipelines with parallel jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/gitlab-parallel-stages.md) and [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+GitLab pipeline parallel stages is supported with GitLab Docker Image. For more details, see [GitLab pipelines with parallel jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/gitlab-parallel-stages.md) and [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
 Refer to the [CI/CD pipeline configuration reference](https://docs.gitlab.com/) for more information on how to configure a GitLab job.
 

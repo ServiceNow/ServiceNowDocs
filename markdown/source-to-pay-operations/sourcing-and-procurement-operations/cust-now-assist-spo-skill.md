@@ -200,3 +200,5 @@ Requester SR closed
 
 [Skill inputs for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 
+[Activate the Spend categorization agent]()
+

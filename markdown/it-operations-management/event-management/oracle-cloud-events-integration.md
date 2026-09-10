@@ -26,7 +26,7 @@ Integrate Oracle Cloud Infrastructure \(OCI\) alarms with Event Management to se
 
 The Oracle Cloud Notifications service enables you to set up communication channels for publishing messages using topics and subscriptions. When a message is published to a topic, the Notifications service sends the message to all of the topic's subscriptions.
 
-When an Oracle Management Cloud alert is raised, worsens in severity, or clears, you may want to be actively notified through an https custom URL to the ServiceNow instance. The Oracle Cloud connector will be used to create events in ServiceNow®.
+When an Oracle Management Cloud alert is raised, worsens in severity, or clears, you can be actively notified through an https custom URL to the ServiceNow instance. The Oracle Cloud connector creates events in ServiceNow®.
 
 You can configure the Event Management environment for the collection of alarms from Oracle Cloud by setting your ServiceNow AI Platform instance as the https subscription.
 

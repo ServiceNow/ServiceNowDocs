@@ -59,7 +59,7 @@ Health and Safety includes the following applications:
 
 Now Assist brings generative AI to the Health and Safety with capabilities such as conversational incident reporting and incident summarization. It also uses agentic workflows to analyze incident data, identify patterns, and generate corrective and preventive action plans, empowering safety teams avoid future incidents."
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Mobile experience for Health and Safety
 

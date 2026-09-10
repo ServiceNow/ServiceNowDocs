@@ -410,11 +410,11 @@ Option to attach the captured images to the record that is auto-filled using Ser
 </td></tr></tbody>
 </table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d46925e948">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d49642e948">
 
 Method
 
-</th><th align="left" id="d46925e951">
+</th><th align="left" id="d49642e951">
 
 Steps
 
@@ -476,15 +476,15 @@ Repeat the step to add more groups.
 
 10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d46925e1161">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d49642e1161">
 
 Assignment type
 
-</th><th align="left" id="d46925e1164">
+</th><th align="left" id="d49642e1164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46925e1170">
+</th></tr></thead><tbody><tr><td id="d49642e1170">
 
 **Roles**
 
@@ -495,7 +495,7 @@ Steps
 3.  Assign one or more new roles. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d46925e1204">
+</td></tr><tr><td id="d49642e1204">
 
 **Users**
 
@@ -506,7 +506,7 @@ Steps
 3.  Assign one or more new users. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md)
 
 
-</td></tr><tr><td id="d46925e1233">
+</td></tr><tr><td id="d49642e1233">
 
 **Groups**
 
@@ -822,15 +822,15 @@ Ensure that the Lens action for this purpose is already defined. To view the ste
 
     \[Omitted image "lens-excel-mapping-file-upload-window.png"\] Alt text: Excel file upload window.
 
-<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d46925e2341">
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d49642e2341">
 
 File upload method
 
-</th><th align="left" id="d46925e2344">
+</th><th align="left" id="d49642e2344">
 
 File upload procedure
 
-</th></tr></thead><tbody><tr><td id="d46925e2350">
+</th></tr></thead><tbody><tr><td id="d49642e2350">
 
 **Add file**
 
@@ -847,7 +847,7 @@ File upload procedure
     -   The data only in the first worksheet of the Excel sheet will be analyzed.
 
 
-</td></tr><tr><td id="d46925e2397">
+</td></tr><tr><td id="d49642e2397">
 
 **Drag and drop files**
 

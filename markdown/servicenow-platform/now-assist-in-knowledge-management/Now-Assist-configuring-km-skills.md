@@ -58,7 +58,7 @@ Role required: admin
     -   **Otto panel**: Skills are available in the panel. Select the arrow next to the toggle switch to define roles that can use this skill in the panel.
 
 
-8.  Select **Save and continue** to go to the next step.
+8.  Select **Save and continue** to go to the next step.
 
 9.  Review your choices and select **Activate** to complete the configuration.
 
@@ -71,6 +71,8 @@ Your skill is configured.
 
 **Related topics**  
 
+
+[Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/additional-skill-input-and-trigger-information-for-now-assist_0.md)
 
 [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/now-assist-itsm-skills.md)
 

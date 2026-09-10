@@ -1,6 +1,6 @@
 ---
 title: Model your workflow
-description: Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can also define the relationship between each inventory record so that you can design a digital model of your network.
+description: Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can define the relationship between each inventory record to design a digital model of your network.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Telecommunications Network Inventory]
 
 # Model your workflow
 
-Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can also define the relationship between each inventory record so that you can design a digital model of your network.
+Learn how to create a network inventory record in the Telecommunications Network Inventory application to store the details about your network assets. As you create the records, you can define the relationship between each inventory record to design a digital model of your network.
 
 ## Network inventory workflow overview
 

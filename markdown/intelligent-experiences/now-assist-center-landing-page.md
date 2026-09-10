@@ -1,17 +1,17 @@
 ---
-title: AI Admin Center
+title: AI Admin Center \(formerly Now Assist Center\)
 description: Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-center-landing-page.html
 release: zurich
 topic_type: reference
 last_updated: "2026-07-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Enable AI experiences]
 ---
 
-# AI Admin Center
+# AI Admin Center \(formerly Now Assist Center\)
 
 Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform from a single workspace.
 
@@ -19,23 +19,35 @@ Set up, manage, and optimize your AI solutions on the ServiceNow AI Platform fro
 
 <table id="table_sqc_w3w_bhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AI Admin Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
+[Explore\[Omitted image "icon-aiac-landing-explore-aiac.png"\] Alt text:Learn about AI Admin Center concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-now-assist-center.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-docintel.png"\] Alt text:Set up AI Admin Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md)
+[Configure\[Omitted image "icon-aiac-landing-configure-aiac.png"\] Alt text:Set up AI Admin Center to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Use AI Admin Center to implement your AI solutions from a single workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-center.md)
+[ServiceNow Otto\[Omitted image "bus-ai-otto.svg"\] Alt text:Use the conversational interface to perform tasks and answer questions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
 
 </td></tr><tr><td>
 
-[Monitor\[Omitted image "icon-monitor-now-assist-center.png"\] Alt text: Monitor AI readiness, usage, and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-monitoring.md)
+[Increase AI readiness\[Omitted image "icon-aiac-landing-ai-readiness.png"\] Alt text:Find improvable areas in your instance to prepare for AI implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about AI Admin Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
+[Set up AI on your instance\[Omitted image "icon-aiac-landing-ai-setup.png"\] Alt text:Set up, manage, and optimize your AI solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-setting-up-ai.md)
+
+</td><td>
+
+[AI Agent Advisor\[Omitted image "icon-aiac-landing-ai-agent-advisor.png"\] Alt text:Discover opportunities in your instance to use AI agents to automate work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-landing-page.md)
+
+</td></tr><tr><td>
+
+[Monitor\[Omitted image "icon-aiac-landing-monitor-ai.png"\] Alt text: Monitor AI readiness, usage, and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-monitoring.md)
+
+</td><td>
+
+[Reference\[Omitted image "icon-aiac-landing-references.png"\] Alt text:Get details about AI Admin Center properties and components, such as roles and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-reference.md)
 
 </td><td>
 

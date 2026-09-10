@@ -7,7 +7,7 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Contextual search, Search administration, Configure core features, Administer]
 ---
@@ -25,7 +25,7 @@ The contextual search components diagram helps you to understand how contextual 
 |\[Omitted image "table-conf.png"\] Alt text: Table configuration module.|You can configure the search title and the form using the **All** &gt; **Contextual search** &gt; **Table configuration** module. For more information, refer [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/t_DefineContextualSearchForForm.md).|
 |\[Omitted image "search-contexts.png"\] Alt text: Search Contexts module.|You can configure the searcher text and the searcher using the **All** &gt; **Contextual search** &gt; **Search Contexts** module. For more information, see [Define a search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/t_DefineSearchContext.md).|
 |\[Omitted image "search-result-display-conf.png"\] Alt text: Search Result Display Configurations module.|You can configure the card title, card description field, and card additional fields using the **All** &gt; **Contextual search** &gt; **Search Result Display Configurations** module. For more information, see [Edit search resource display field record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/edit-addi-resources-field.md).|
-|\[Omitted image "search-action-conf.png"\] Alt text: Search Action Configurations module.|You can configure the search actions using the **All** &gt; **Contextual search** &gt; **Table Configuration** &gt; **Search Action Configurations** module. For more information, see [Modify or disable search actions available for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/modify-search-actions-avail-for-cxs.md).|
+|\[Omitted image "search-action-conf.png"\] Alt text: Search Action Configurations module.|You can configure the search actions using the **All** &gt; **Contextual search** &gt; **Table Configuration** &gt; **Search Action Configurations** module. For more information, see [Modify or disable search actions available for contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/modify-search-actions-avail-for-cxs.md). To add conditional logic such as filtering results by record state, see [Define a search context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/t_DefineSearchContext.md)|
 
 **Parent Topic:**[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/contextual-search/c_ContextualSearch.md)
 

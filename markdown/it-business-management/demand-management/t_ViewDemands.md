@@ -82,3 +82,5 @@ Hover over a bubble in the demand workbench bubble chart to display a summary of
 
 [Associate AI systems with demands]()
 
+[Work with demands in Employee Slate]()
+

@@ -25,7 +25,7 @@ ServiceNow Otto is a chat assistant that helps you complete procurement tasks th
 2.  Select the Virtual Agent chat icon \(\[Omitted image "agentic-ai-now-assist-icon.png"\] Alt text:\).
 3.  In the chat, select a suggested topic or type what you need.
 
-\[Omitted image "image.otto-spo-chat"\] Alt text: ServiceNow Otto Virtual Agent.
+\[Omitted image "otto-spo-chat.png"\] Alt text: ServiceNow Otto Virtual Agent.
 
 ServiceNow Otto for SPO interprets conversational input, so you can phrase requests different ways. For example:
 
@@ -113,4 +113,6 @@ For information on configuring ServiceNow Otto for SPO, see [Configure ServiceNo
 [Analyze sentiment in procurement cases]()
 
 [Generate an email response for procurement cases]()
+
+[Generate a knowledge article]()
 

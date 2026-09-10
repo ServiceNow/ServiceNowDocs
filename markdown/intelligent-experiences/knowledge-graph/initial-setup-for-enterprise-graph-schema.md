@@ -1,6 +1,6 @@
 ---
-title: Initial setup for Enterprise Graph schema in production instance
-description: Setup and use Enterprise Graph Schema, a unified knowledge graph schema, that captures all the ServiceNow and third party tables and their connections.
+title: Enterprise Graph schema Initial setup in production instance
+description: Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that captures all the ServiceNow and third party tables and their connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/initial-setup-for-enterprise-graph-schema.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
 ---
 
-# Initial setup for Enterprise Graph schema in production instance
+# Enterprise Graph schema Initial setup in production instance
 
-Setup and use Enterprise Graph Schema, a unified knowledge graph schema, that captures all the ServiceNow and third party tables and their connections.
+Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that captures all the ServiceNow and third party tables and their connections.
 
 ## Before you begin
 

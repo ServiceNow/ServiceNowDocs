@@ -1,0 +1,99 @@
+---
+title: Mastercard Spoke release notes
+description: The ServiceNow Mastercard Spoke application enables seamless integration with Mastercard’s Mastercom API Suite and Mastercom Extended APIs, enabling organizations to manage the full card dispute life-cycle, including pre-arbitration and arbitration case filings. Mastercard Spoke was enhanced and updated in the Zurich release.The ServiceNow Mastercard Spoke application enables seamless integration with Mastercard’s Mastercom API Suite and Mastercom Extended APIs, enabling organizations to manage the full card dispute life-cycle, including pre-arbitration and arbitration case filings. Mastercard Spoke was enhanced and updated in the Zurich release.
+locale: en-US
+release: zurich
+topic_type: topic
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+---
+
+# Mastercard Spoke release notes
+
+The ServiceNow® Mastercard Spoke application enables seamless integration with Mastercard’s Mastercom API Suite and Mastercom Extended APIs, enabling organizations to manage the full card dispute life-cycle, including pre-arbitration and arbitration case filings. Mastercard Spoke was enhanced and updated in the Zurich release.
+
+## About Mastercard Spoke
+
+-   File pre-arbitration and arbitration cases directly through Mastercard’s API.
+-   Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
+-   Enable dispute agents with real-time data exchange and embedded Mastercard dispute life cycle workflows.
+-   Accelerate time to value with a predefined Mastercom Extended spoke that reduces development effort and speeds up deployment.
+
+See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/mastercard-spoke.md) for more information.
+
+## Activation and other requirements
+
+**Important:** Mastercard Spoke is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/financial-services-operations-rn-landing.md)
+
+## Zurich
+
+The ServiceNow® Mastercard Spoke application enables seamless integration with Mastercard’s Mastercom API Suite and Mastercom Extended APIs, enabling organizations to manage the full card dispute life-cycle, including pre-arbitration and arbitration case filings. Mastercard Spoke was enhanced and updated in the Zurich release.
+
+### What's new
+
+-   **[Pre-arbitration and arbitration case filing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/mastercard-spoke.md)**
+
+    Dispute agents \(issuers\) can create pre-arbitration cases and escalate them to arbitration, or directly create arbitration cases by skipping pre-arbitration, using the new Mastercard spoke actions.
+
+    New Mastercard Spoke actions include:
+
+<table id="table_yq4_v2h_tfc"><thead><tr><th>
+
+Category
+
+</th><th>
+
+Spoke actions
+
+</th></tr></thead><tbody><tr><td>
+
+Mastercom Case Filing Management
+
+</td><td>
+
+-   Create Case Request Builder
+-   Create Case Response Parser
+-   Look up Case Documents Request Builder
+-   Look up Case Documents Response Parser
+-   Look up Cases Status
+-   Take Action on Case
+-   Look up List of Claims
+
+
+</td></tr><tr><td>
+
+Mastercom Chargeback Management
+
+</td><td>
+
+-   Look up Chargeback Documents Request Builder
+-   Look up Chargeback Documents Response Parser
+
+
+</td></tr><tr><td>
+
+Health Check
+
+</td><td>
+
+Look up API Suite Health
+
+</td></tr></tbody>
+</table>
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+

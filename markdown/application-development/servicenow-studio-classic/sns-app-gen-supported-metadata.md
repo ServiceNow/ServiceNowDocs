@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Reference, Now Assist for app generation in ServiceNow Studio, Now Assist tools and AI files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Reference, App generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Now Assist for app generation supported metadata

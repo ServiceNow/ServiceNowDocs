@@ -47,3 +47,7 @@ As a sourcing manager, you can create a pipeline project directly from an expiri
 
 [Create a Universal Request]()
 
+[Purchase requisition and purchase order progress tracking]()
+
+[Configure the Progress Tracker]()
+

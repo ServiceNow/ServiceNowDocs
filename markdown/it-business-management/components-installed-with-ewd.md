@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/components-installed-with-ewd.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]
 ---
@@ -38,5 +38,28 @@ The following scheduled jobs are installed with Enterprise-Wide Deployment.
 |--------|-----------|
 |Update existing records with partition details|Populates partition values on existing records — projects, demands, programs, and portfolios — that were created before partition configuration was completed. Run this job after defining partitions to associate historical records with the correct partition.|
 
-**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-reference.md)
+## System properties installed
+
+The following system properties are installed with Enterprise-Wide Deployment.
+
+<table id="table_system_properties"><thead><tr><th>
+
+System property name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions
+
+</td><td>
+
+Determines whether system administrators bypass partition role requirements to access partitioned data.Default: **false** — System administrators must have the appropriate partition role to access partition-protected data.
+
+Set to **true** to grant administrators access to all partitioned data without partition role assignment.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[SPM Enterprise-Wide Deployment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ewd-reference.md)
 

@@ -58,7 +58,9 @@ Starting in the Yokohama family release, you can use new Splunk data inputs to i
 
     For a description of the fields, see [Splunk data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-splunk-ref.md).
 
-5.  On the **Outputs.conf** tab, add the following stanzas to the `outputs.conf` file to make the shipper forward log data over the selected transport protocol on the selected port, and then select **Next**.
+5.  On the **Outputs.conf** tab, add the following stanzas to the `outputs.conf` file to make the shipper forward log data over the selected transport protocol on the selected port.
+
+    Select **Next** when finished.
 
     **Note:** If you have already configured outputs, merge these lines with your existing configuration.
 

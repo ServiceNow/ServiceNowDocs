@@ -9,7 +9,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in mixed alert groups
@@ -22,7 +22,7 @@ To view how different alert groups are visualized in Link View, see the descript
 
 \[Omitted image "link-view-mixed-group.png"\] Alt text: Sample mixed alert group in Link View
 
-In this sample Link View of a mixed alert group, the dashed line with the number 1 between the CIs indicates that the CIs are not connected directly but are separated by a CI in the service map in the CMDB topology. The sample also shows the defining attribute for the correlation, datacenter, linked to the relevant CIs.
+In this sample Link View of a mixed alert group, the dashed line with the number 1 between the CIs indicates that the CIs are not connected directly. The CIs are separated by a CI in the service map in the CMDB topology. The sample also shows the defining attribute for the correlation, datacenter, linked to the relevant CIs.
 
 The Link View **Display** legend lists the meaning of the symbols used to represent the tags and their number of unique nodes. In the legend, defining tags are marked as Correlation. You can toggle between hiding and showing tag types to reduce noise. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 

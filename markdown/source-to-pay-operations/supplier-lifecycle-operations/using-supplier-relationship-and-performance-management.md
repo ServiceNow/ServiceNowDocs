@@ -29,7 +29,7 @@ You can view the details of the existing KPIs from the List view page.
 -   **[Manage supplier KPIs from the supplier record page of the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/kpi-mgmt-tab-supplier.md)**  
 You can view the latest KPI data that is collected for a particular supplier from the supplier page of the Source-to-Pay Workspace.
 -   **[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)**  
-Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
+Create action plans for under-performing KPIs to track improvement milestones and assigned tasks for suppliers in the Supplier Collaboration Portal.
 -   **[View supplier performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/view-supplier-performance-dashboard.md)**  
 You can view the overall supplier score, risk score, individual KPI scores, and performance domain-specific scores in the supplier performance dashboard.
 

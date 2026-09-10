@@ -24,5 +24,5 @@ View performance metrics on your most recently activated AI solutions on the AI 
 -   **[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-view-ai-usage.md)**  
 Use AI Admin Center to view dashboards showing the usage and performance of your AI assets.
 
-**Parent Topic:**[AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
+**Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
 

@@ -1,24 +1,27 @@
 ---
 title: Create a reservation waitlist
-description: When all spaces in a location are fully booked, and when employees are unable to find a space, they can join a reservation waitlist queue.
+description: When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/workplace-reservation-management/create-rsv-waitlist.html
 release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-03"
 reading_time_minutes: 7
+keywords: [join, subscribe, reservation waitlist, waitlist]
 breadcrumb: [Manage and configure reservation waitlist, Manage reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a reservation waitlist
 
-When all spaces in a location are fully booked, and when employees are unable to find a space, they can join a reservation waitlist queue.
+When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
 
 ## Before you begin
 
-Employees can join a waitlist when no spaces are available for reservation. When a space is freed up or is available, application assigns the space to an employee in the waitlist. The space allocation is done on the basis of weight \(priority\), created date \(start time when the reservation record was created\), and alphabetical order. Email and push notifications are sent when a waitlist is Queued, Confirmed, Canceled, or Expired.
+\[Omitted video\] Description: Join or create a waitlist to reserve a space.
+
+Employees can join a waitlist when spaces are fully booked or reserved in a location. When a space is freed up or is available, application assigns the space to an employee in the waitlist. The space allocation is done on the basis of weight \(priority\), created date \(start time when the reservation record was created\), and alphabetical order. Email and push notifications are sent when a waitlist is Queued, Confirmed, Canceled, or Expired.
 
 Make sure you have installed and configured the following:
 

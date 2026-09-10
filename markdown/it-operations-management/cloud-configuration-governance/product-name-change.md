@@ -18,7 +18,7 @@ Starting with the Paris release, the ServiceNow® Cloud Management application w
 
 The standalone subscription for Cloud Provisioning and Governance is discontinued. It is restructured and incorporated into Cloud Accelerate. Furthermore, it has been segmented into Cloud Migration Assessment, Cloud Account Management, Cloud Services Catalog, Cloud Configuration and Governance, and Cloud Action Library.
 
-While product name references throughout the product documentation and the graphical user interface \(GUI\) are being updated, you might come across occasional references to their old names, based on the context. For some core components, the product name remains intentionally unchanged to maintain existing functionality.
+Product name references throughout the product documentation and the graphical user interface \(GUI\) are being updated. You might come across occasional references to their old names, based on the context. For some core components, the product name remains intentionally unchanged to maintain existing functionality.
 
 |Component|Former name|New name|
 |---------|-----------|--------|

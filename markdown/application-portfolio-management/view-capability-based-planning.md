@@ -24,7 +24,11 @@ Role required: sn\_apm.apm\_analyst
 
 ## About this task
 
-Capability map is a pictorial representation of the capability-based planning displaying capabilities in a hierarchy. The hierarchical structure helps you to easily drill down to the lowest level and identify major and minor gaps. With this map, you get a complete view of all the capabilities, the applications associated with each of the capabilities, and the indicator scores of each business application in association with the capability.
+Capability map is a pictorial representation of the capability-based planning displaying capabilities in a hierarchy. The hierarchical structure helps you to easily drill down to the lowest level and identify major and minor gaps. With this map, you get a complete view of the following:
+
+-   All capabilities
+-   Applications associated with each of the capabilities
+-   Indicator scores of each business application in association with the capability
 
 The capabilities are color-coded which enables you to identify, in a glimpse, those capabilities that have major, medium, and minor gaps. Since you have visibility of the business applications that support the capabilities, you can create goals, demands, or programs to improve the performance of the applications.
 
@@ -34,7 +38,12 @@ The capabilities are color-coded which enables you to identify, in a glimpse, th
 
     The left pane lists all parent capabilities in the hierarchy. By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, click the icon to expand and view its sub-capabilities at each level. This view is similar across Business Capability, Technology Risk, and also in Manage Capability Hierarchy views.
 
-    The left pane also displays the total count of sub-capabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. Similarly, on expanding a parent capability, you can see the number of subcapabilities, the total count of business applications that are directly related to the sub-capability at that level.
+    The left pane also displays:
+
+    -   Total count of sub-capabilities below each parent capability
+    -   Total number of business applications directly related to each capability
+    -   The capability score
+    Similarly, on expanding a parent capability, you can see the number of subcapabilities, the total count of business applications that are directly related to the sub-capability at that level.
 
     The right pane displays the overall capability summary of the business capabilities in your enterprise with the following details. It shows the overall capability risk summary if you toggle to the technology risk view.
 
@@ -44,7 +53,7 @@ The capabilities are color-coded which enables you to identify, in a glimpse, th
 
     -   **Leaf Capabilities**
 
-        Total number of capabilities at the leaf level \(that has no child capabilities of its own\) in all the hierarchies of the business capabilities listed in the left pane.
+        Total number of capabilities at the leaf level \(that has no child capabilities of its own\). It also displays the hierarchies of the business capabilities listed in the left pane.
 
     -   **Assessed**
 
@@ -95,8 +104,11 @@ The capabilities are color-coded which enables you to identify, in a glimpse, th
 
         Select the list to [create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/create-an-idea.md), a goal, or a program for the capability that you have currently selected.
 
-        Similarly, toggle over to the technology risk view to raise a demand, create a goal, or a program for the underlying technology of an application if the technology is at risk.
+        Similarly, toggle over to the technology risk view to:
 
+        -   Raise a demand
+        -   Create a goal
+        -   Program for the underlying technology of an application if the technology is at risk
         **Note:** The Program option is available only when you activate the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin.
 
     -   **Manage Capability Hierarchy**
@@ -113,7 +125,7 @@ Use the capability map to assess capabilities on dimensions such as people, proc
 -   **[View technology risk details in capability map - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/technology-risk-map.md)**  
 Use the technology risk view of the capability map to know the risk profiles of the technologies that support the business capability.
 -   **[Manage capability hierarchy in the capability map - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/manage-relationships-in-capability-map.md)**  
-Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability in the capability map.
 
 **Parent Topic:**[Using Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/using-apm.md)
 

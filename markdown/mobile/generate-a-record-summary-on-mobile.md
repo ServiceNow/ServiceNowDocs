@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI, Now Assist, record summarization]
-breadcrumb: [Using Now Assist, ServiceNow Otto for Mobile, Mobile Platform]
+breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 
 # Generate a record summary on mobile

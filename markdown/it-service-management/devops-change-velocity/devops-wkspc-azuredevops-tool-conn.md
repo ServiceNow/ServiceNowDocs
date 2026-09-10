@@ -41,15 +41,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41936e220">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42083e220">
 
 Option
 
-</th><th align="left" id="d41936e223">
+</th><th align="left" id="d42083e223">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41936e229">
+</th></tr></thead><tbody><tr><td id="d42083e229">
 
 **Homepage**
 
@@ -59,7 +59,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41936e253">
+</td></tr><tr><td id="d42083e253">
 
 **Applications module**
 
@@ -71,7 +71,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41936e302">
+</td></tr><tr><td id="d42083e302">
 
 **Tools module**
 
@@ -99,7 +99,7 @@ Steps
 
 3.  In the Enter Azure DevOps instance details section, select one of the following values in the **Credential type** field.
 
-<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d41936e409">
+<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d42083e409">
 
 **Personal Access Token**
 
@@ -107,7 +107,7 @@ Steps
 
 Enter the password or access token to access this instance.For information on creating a PAT, see [Personal access token \(PAT\)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). \[Omitted image "ado-pat-01.png"\] Alt text: Connect to a tool - ADO PAT
 
-</td></tr><tr><td id="d41936e429">
+</td></tr><tr><td id="d42083e429">
 
 **OAuth 2.0**
 
@@ -219,7 +219,7 @@ You’ve successfully onboarded your Azure DevOps tool to DevOps Change Velocity
 From the **Projects** tab on the tool record page, select a project to navigate to the project record page. From here, you can discover project objects, and configure webhooks for the project.
 
 -   Select **Discover** to discover the project objects, including existing plans \(boards\), repositories, and pipelines.
--   If you created the tool directly at the project level, then selecting **Discover projects** from the **Projects** tab of the tool record page will discover all the projects in your organization as well.
+-   If you created the tool directly at the project level, then selecting **Discover projects** from the **Projects** tab of the tool record page will discover all the projects in your organization.
 -   Select **Configure** and enter the integration user credentials to configure webhooks for the project.
 -   If you're on the tool records page, selecting **Configure projects** and entering the integration user credentials gives the list of unconfigured projects in your organization. Select the projects that you want webhooks configured for and select **Configure**.
 
@@ -241,15 +241,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d41936e1062">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42083e1063">
 
 Option
 
-</th><th align="left" id="d41936e1065">
+</th><th align="left" id="d42083e1066">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d41936e1071">
+</th></tr></thead><tbody><tr><td id="d42083e1072">
 
 **Homepage**
 
@@ -259,7 +259,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41936e1095">
+</td></tr><tr><td id="d42083e1096">
 
 **Applications module**
 
@@ -271,7 +271,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d41936e1144">
+</td></tr><tr><td id="d42083e1145">
 
 **Tools module**
 

@@ -47,7 +47,7 @@ Build desktop automations by transforming task mining observations into producti
 -   Technical users generate automation blocks \(on-screen and background tasks\) and create desktop actions and associated AI agent in Automation Center.
 -   Authorized users execute the completed automations \(desktop actions\) in AI Desktop Actions using the deployed AI agent.
 
-To learn more about desktop action creation journey from Task Mining, see [Building desktop automations from Task Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/better-together/creating-desktop-actions-tm-ac.md).
+To learn more about desktop action creation journey from Task Mining, see .
 
 ## Impersonating users
 

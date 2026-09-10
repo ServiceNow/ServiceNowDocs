@@ -30,15 +30,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d641030e80">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d641933e80">
 
 Option
 
-</th><th align="left" id="d641030e83">
+</th><th align="left" id="d641933e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641030e89">
+</th></tr></thead><tbody><tr><td id="d641933e89">
 
 **As an assignee**
 
@@ -50,7 +50,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d641030e118">
+</td></tr><tr><td id="d641933e118">
 
 **As a collaborator**
 
@@ -105,15 +105,15 @@ The state and the Contract status of the contract request is Work in progress.
 
 12. Add the internal or external signatories needed for the signatures on the contract.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d641030e351">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d641933e351">
 
 Option
 
-</th><th align="left" id="d641030e354">
+</th><th align="left" id="d641933e354">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641030e360">
+</th></tr></thead><tbody><tr><td id="d641933e360">
 
 **Internal**
 
@@ -129,7 +129,7 @@ The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_doc
 
 To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
-</td></tr><tr><td id="d641030e446">
+</td></tr><tr><td id="d641933e446">
 
 **External**
 
@@ -152,15 +152,15 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
     The action you take depends on the signature type.
 
-<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d641030e546">
+<table id="choicetable_ymt_4dx_hjc"><thead><tr><th align="left" id="d641933e546">
 
 Signature type
 
-</th><th align="left" id="d641030e549">
+</th><th align="left" id="d641933e549">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d641030e555">
+</th></tr></thead><tbody><tr><td id="d641933e555">
 
 **Electronic signature**
 
@@ -173,7 +173,7 @@ The document opens on the configured e-signature portal.
 2.  In the e-signature portal, complete the document by adding the required fields, including the **Signature** field, and then select **Send**.
  An e-signature envelope is created and sent to all signatories. If the system receives a success notification from the e-signature provider, the state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d641030e598">
+</td></tr><tr><td id="d641933e598">
 
 **Wet signature**
 
@@ -181,7 +181,7 @@ The document opens on the configured e-signature portal.
 
 Select **Send for signature**. A signature request email is sent to all the signatories. The state and contract status update to **Awaiting signature**.
 
-</td></tr><tr><td id="d641030e613">
+</td></tr><tr><td id="d641933e613">
 
 **Offline signature**
 

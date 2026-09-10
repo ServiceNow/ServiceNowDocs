@@ -42,7 +42,7 @@ Now LLM Service is currently the only provider for this application's skills.
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md).
     -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
+2.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 3.  Select the **Customer** &gt; **FSO** workflow group.
 

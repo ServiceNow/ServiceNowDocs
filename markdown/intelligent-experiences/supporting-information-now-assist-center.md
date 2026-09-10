@@ -46,5 +46,3 @@ For more information, see [Configuring AI Admin Center](https://raw.githubuserco
 
 [AI readiness assessments in AI Admin Center]()
 
-[AI Agent Advisor in AI Admin Center]()
-

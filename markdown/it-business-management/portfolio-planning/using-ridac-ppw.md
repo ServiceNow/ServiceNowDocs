@@ -19,32 +19,12 @@ Access and filter risks, issues, decisions, actions, and changes from a centrali
 
 ## Roles required for using RIDAC
 
-<table id="table_y1f_zgp_43c"><thead><tr><th>
+|Access level|Required role|
+|------------|-------------|
+|Read access to RIDAC|sn\_align\_ws.ridac\_read\_only|
+|Edit access to RIDAC|sn\_align\_ws.ridac\_user|
 
-Access level
-
-</th><th>
-
-Required role
-
-</th></tr></thead><tbody><tr><td>
-
-Read access to RIDAC
-
-</td><td>
-
-sn\_align\_ws.ridac\_read\_only**Note:** The sn\_align\_core.ap\_read\_only role automatically include the sn\_align\_ws.ridac\_read\_only role by default. This provides read-only access to RIDAC records for their respective planning scopes.
-
-</td></tr><tr><td>
-
-Edit access to RIDAC
-
-</td><td>
-
-sn\_align\_ws.ridac\_user**Note:** The sn\_align\_core.apw\_user role automatically include the sn\_align\_ws.ridac\_user role by default. This provides full access to create, edit, and manage RIDAC records for their respective planning scopes:
-
-</td></tr></tbody>
-</table>## Overview of RIDAC home page
+## Overview of RIDAC home page
 
 The RIDAC home page provides a centralized view of all risks, issues, decisions, actions, and changes across your portfolio planning portfolio. The interface is organized into four filtering tabs, each designed to help different roles quickly locate and focus on the RIDAC items most relevant to their planning responsibilities.
 
@@ -57,13 +37,9 @@ The RIDAC home page offers multiple filtering tabs to accommodate different role
 The four RIDAC filtering tabs are:
 
 -   **All RIDAC** — Displays every risk, issue, decision, action, and change that you have access to across your entire planning portfolio. This view includes RIDAC items created on all planning item types—projects and demands. Use this tab for a comprehensive overview of all planning uncertainties and dependencies you're responsible for, regardless of their planning scope or parent type.
-
 -   **Project RIDAC** — Shows only RIDAC items created on project planning items. Use this tab when you want to focus on risks, issues, decisions, actions, and changes specific to projects without viewing items from other planning item types.
-
--   **Portfolio RIDAC** — Displays RIDAC items associated with planning items that have a top portfolio assignment. These are items that roll up to a portfolio and are scoped by portfolio context. Use this tab to analyze cross-project impacts, portfolio-level planning dependencies and risks across one or multiple portfolios.
-
--   **Program RIDAC** — Shows RIDAC items where a program is the top-level parent. These are items scoped at the program level. Use this tab to track risks, issues, decisions, actions, and changes across programs and portfolios within single or multiple programs.
-
+-   **Portfolio RIDAC** — Displays risks and issues at the portfolio level. These are created for execution items within the portfolio or roll up from them. All items shown have a portfolio as the top-level parent. Use this tab to review portfolio-level risks and cross-project impacts.
+-   **Program RIDAC** — Displays risks and issues at the program level. These are created directly on the program or roll up from execution items within the program. All items shown have a program as the top-level parent. Use this tab to review program-level risks and interdependencies.
 
 ## Using RIDAC
 

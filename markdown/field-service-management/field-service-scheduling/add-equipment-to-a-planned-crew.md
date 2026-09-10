@@ -69,15 +69,15 @@ Role required: wm\_ admin, wm\_dispatcher
 
 3.  Use either the dispatcher calendar or the dispatcher calendar sidebar to add equipment to a crew.
 
-<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d129869e324">
+<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d129984e324">
 
 Method
 
-</th><th align="left" id="d129869e327">
+</th><th align="left" id="d129984e327">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d129869e333">
+</th></tr></thead><tbody><tr><td id="d129984e333">
 
 **Dispatcher calendar**
 
@@ -88,7 +88,7 @@ Action
 3.  Select a crew to add the equipment to.
 
 
-</td></tr><tr><td id="d129869e363">
+</td></tr><tr><td id="d129984e363">
 
 **Dispatcher calendar sidebar**
 

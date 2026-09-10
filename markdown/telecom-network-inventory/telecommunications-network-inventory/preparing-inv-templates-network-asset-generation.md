@@ -18,7 +18,7 @@ As an inventory template manager, you create templates using functions you acces
 
 An inventory template includes the rules on the proper way to configure the equipment. These rules are based on the operating requirements from the manufacturer. A template also includes such information as the number of available slots and whether the hardware in a piece of equipment is compatible with the equipment that is related to it.
 
-Your network inventory templates represent a unique configuration of a network entity that a network service provider would instantiate based on their business guidance. If you properly define your templates and their relationships, the instantiation process uses the configuration rules from the vendor and you do not generate unsupported network asset instances.
+Your network inventory templates represent a unique configuration of a network entity that a network service provider would instantiate based on their business guidance. If you properly define your templates and their relationships, the instantiation process uses the configuration rules from the vendor. This prevents the generation of unsupported network asset instances.
 
 **Note:** To learn more about creating templates and generating network assets from your model and template records, see [Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md).
 

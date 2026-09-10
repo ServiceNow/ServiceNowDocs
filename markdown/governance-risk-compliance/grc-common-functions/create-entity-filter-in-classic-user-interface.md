@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Entity filters, Entity types, Explore entities, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Create an entity filter in the Core UI
@@ -24,9 +24,9 @@ Role required: sn\_grc.manager
 
 1.  In the classic user interface, navigate to the **Entity types** list.
 
-2.  Click an entity type in the list and navigate to the **Entity Filters** tab.
+2.  Select an entity type in the list and navigate to the **Entity Filters** tab.
 
-3.  To create a new entity filter, click **New**.
+3.  To create an entity filter, select **New**.
 
 <table id="table_kv1_tx3_jqb"><thead><tr><th>
 
@@ -88,12 +88,12 @@ Option to use **Owner** field information in the query. The owner is the identif
 -   **Default owner** field: Select a default owner from the list.
 -   **Empty owner** field: Select one of the following options:
     -   **Create**: Create an owner for the entity filter.
-    -   **Do not create**: Do not create a new owner for the entity filter.
+    -   **Do not create**: Do not create an owner for the entity filter.
     -   **Use Default**: Use the default owner for the entity filter.
 
 
 </td></tr></tbody>
-</table>4.  To save the entity filter, click **Submit**.
+</table>4.  To save the entity filter, select **Submit**.
 
 
 **Parent Topic:**[Entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/what-is-an-entity-filter.md)

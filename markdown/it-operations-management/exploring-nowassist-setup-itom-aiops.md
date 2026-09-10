@@ -27,7 +27,7 @@ The Welcome! Let's get started section walks first-time administrators through t
 
 Instance information provides visibility into your ITOM setup progress, including installed applications, available entitlements, and ServiceNow Otto skill deployment status. This helps administrators track implementation milestones and verify that all required components are properly configured.
 
-\[Omitted image "nowassist-setup-instance-info.png"\] Alt text: Instance information section showing upgrade status, entitled apps count, adoption blueprints, and ServiceNow Ottoskill summary.
+\[Omitted image "nowassist-setup-instance-info.png"\] Alt text: Instance information section showing upgrade status, entitled apps count, adoption blueprints, and ServiceNow Otto skill summary.
 
 The Resources section helps you build foundational knowledge of ITOM. Watch an introductory video to get a quick overview of ITOM capabilities before diving into configuration.
 

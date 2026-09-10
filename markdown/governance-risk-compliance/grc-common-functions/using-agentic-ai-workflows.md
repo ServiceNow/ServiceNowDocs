@@ -1,5 +1,5 @@
 ---
-title: Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
+title: Using agentic workflows in IRM
 description: Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
@@ -7,13 +7,13 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, generative AI]
-breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Using agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
+# Using agentic workflows in IRM
 
 Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 
@@ -44,7 +44,7 @@ Enables issue managers to auto-generate action plans and remediation tasks for f
 
 </td></tr><tr><td>
 
-Get Regulatory Analysis
+Get regulatory insights
 
 </td><td>
 
@@ -57,7 +57,7 @@ Assists regulatory change management professionals by analyzing regulatory alert
 
 </td></tr><tr><td>
 
-Generate regulatory action plan
+Generate regulatory action plans
 
 </td><td>
 
@@ -67,18 +67,14 @@ Supports regulatory change management professionals in implementing change and a
 
 Regulatory change task planning agent
 
-</td></tr><tr><td>
-
-Suggest potential risks
-
-</td><td>
-
-Helps risk managers and entity owners identify risks for an entity, minimize manual work, and view all risks in one place for review and assessment.
-
-</td><td>
-
-Risk Suggestion AI agent
-
 </td></tr></tbody>
-</table>For more information on language support, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/translation-for-now-assist.md) and [Multilingual support for ServiceNow generative AI products](https://www.servicenow.com/community/now-assist-articles/multilingual-support-for-servicenow-generative-ai-products/ta-p/3099258).
+</table>**Important:** By default, all agentic workflows and AI agent records are read-only.
+
+To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+
+-   Activate the workflow.
+-   Activate all agents within the workflow.
+-   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
+
+There may be AI agents installed with the Now Assist application that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-recall-campaign-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
@@ -53,6 +53,14 @@ Product issue number
 </td><td>
 
 Serial number of the product for which the recall campaign is created.
+
+</td></tr><tr><td>
+
+Minimum parts availability percentage
+
+</td><td>
+
+The minimum percentage of parts that must be available.
 
 </td></tr><tr><td>
 
@@ -122,7 +130,7 @@ Detailed issues for which the product is recalled.
 
 </td></tr><tr><td>
 
-Work notes
+Recall campaign Work notes
 
 </td><td>
 

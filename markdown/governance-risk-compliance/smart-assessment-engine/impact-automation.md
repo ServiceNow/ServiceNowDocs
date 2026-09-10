@@ -20,6 +20,8 @@ Post-assessment automations, also known as post-assessment actions, in Smart Ass
 
 Post-assessment actions help automate decision-making processes. You can configure them to execute rules based on specific conditions or to run automatically without any conditions. It provides a structured and user-friendly interface to set up these rules without requiring technical expertise.
 
+**Note:** This feature is available starting with Zurich Patch 10.
+
 Using post-assessment actions, the template designer can complete actions like updating fields, creating follow-up assessments, or generating other records automatically after an assessment is submitted. Post-assessment automation involves the following key components:
 
 -   Action sets

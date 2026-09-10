@@ -1,6 +1,6 @@
 ---
 title: Manage quick links widgets
-description: Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
+description: Select and display Quick Links on the EmployeeWorks Web App home page and Canvas by capturing sys\_ids and updating each widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-configure-quick-links.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-06-09"
 reading_time_minutes: 2
 keywords: [quick links, homepage widget, canvas widget, sys\_id, background script, Employee Slate]
-breadcrumb: [Configure quick links widget, Quick Links widgets, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure quick links widget, Quick Links widgets, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Manage quick links widgets
 
-Select and display Quick Links on the Employee Slate home page and Canvas by capturing sys\_ids and updating each widget.
+Select and display Quick Links on the EmployeeWorks Web App home page and Canvas by capturing sys\_ids and updating each widget.
 
 ## Before you begin
 

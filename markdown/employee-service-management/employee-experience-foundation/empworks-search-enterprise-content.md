@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 1
 keywords: [Enterprise Search, Dive Deeper, AI summary, source filters]
-breadcrumb: [Working with Otto capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Working with Moveworks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Search enterprise content with Enterprise Search
@@ -23,6 +23,8 @@ Before you start, confirm the following:
 
 -   Your organization has connected sources to Enterprise Search, such as SharePoint, OneDrive, Slack, and internal training libraries.
 -   You have access to the search sources.
+
+Role required: admin
 
 ## About this task
 

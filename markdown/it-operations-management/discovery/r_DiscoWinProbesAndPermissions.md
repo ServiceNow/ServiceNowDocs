@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-08-14"
 reading_time_minutes: 14
 breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Disco
 # Windows probes and permissions
 
 Discovery accesses devices and software by executing commands as a specific user on Windows computers.
+
+**Important:** Use patterns to run Discovery on Windows devices. The legacy Windows probes on this page are outdated and should no longer be used for Discovery. To use patterns, see [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md).
 
 Most probes require access to Windows classes, properties, and registry entries. Certain probes also require additional access to Windows directories and resources. Security policies vary by organization, so there’s no one specific role or right to grant. Verify that the Windows user has `local admin` permission for these Windows components.
 

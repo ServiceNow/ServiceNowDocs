@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 1
-breadcrumb: [Demands Dashboard, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Demands Dashboard, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Using the Demands Dashboard

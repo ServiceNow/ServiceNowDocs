@@ -16,6 +16,8 @@ breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 
 Manage your workforce efficiently by planning shifts for each day and assigning users to the shifts. With Scheduling, you can use your resources efficiently by planning and managing schedules and staffing needs across your teams from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You can add meeting, training, time-off request, or an ad hoc work shift using the team calendar. You can also filter agents in the team calendar based on their location, region, assignment groups, schedule plan, list of team members, or any field in the agent's record.
 
 **Important:** You must index new tables to see them in Work Scheduling. For more information on indexing tables, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-single-table-for-indexing.md).

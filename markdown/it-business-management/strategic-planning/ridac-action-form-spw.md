@@ -30,8 +30,8 @@ Use the RIDAC Action form to create and track action items related to your strat
 |Assigned to|User or team responsible for completing the action.|
 |Due date|Target date by which the action should be completed.|
 |Planning Item|The planning item \(project, demand, epic, feature, or custom planning item\) that this action is associated with. This field is auto-populated when an action is created from a planning item context.|
+|Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Enterprise agile iteration|The EAP iteration associated with this action. This field is auto-populated when an action is created from an EAP iteration context.|
 |Goal|The goal \(portfolio plan goal or board goal\) that this action is associated with. This field is auto-populated when an action is created from a goal context.|
-|Parent|Parent action, if this action is dependent on another action or is part of a larger action group. Used for action hierarchy and dependency tracking.|
 |Work notes|Internal notes and updates about action progress, blockers, completion status, and any changes. Used to track work history and communication.|
 

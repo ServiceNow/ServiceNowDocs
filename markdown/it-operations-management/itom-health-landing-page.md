@@ -22,7 +22,7 @@ The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management a
 
 -   **Agent Client Collector**
 
-    Use the ServiceNow® Agent Client Collector application to monitor your service availability, examine the health and performance of your environment, and ensure that your infrastructure and its applications are running properly. You can also proactively analyze your IT infrastructure to spot issues and prevent service outages, using Metric Intelligence. Using advanced machine learning to analyze information about your IT infrastructure, the Metric Intelligence application automatically determines dynamic thresholds and identifies anomalies that may indicate potential service outages.
+    Use the ServiceNow® Agent Client Collector application to monitor your service availability and examine the health and performance of your environment. You can proactively analyze your IT infrastructure to spot issues and prevent service outages, using Metric Intelligence. Using advanced machine learning to analyze information about your IT infrastructure, the Metric Intelligence application automatically determines dynamic thresholds and identifies anomalies that may indicate potential service outages.
 
 -   **Health Log Analytics**
 

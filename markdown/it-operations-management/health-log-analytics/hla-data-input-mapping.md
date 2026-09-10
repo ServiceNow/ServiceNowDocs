@@ -25,11 +25,11 @@ Role required: evt\_mgmt\_admin
 
 By default, Health Log Analytics tries to [auto-map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md) every incoming log line to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function.
 
-In the JavaScript function, you are required to map only the service instance \(here called application service\). Mapping the component and the source type is optional: Health Log Analytics tries to extract their values from the log data automatically. If the attempt fails, it assigns the default values. If you map the component but not the source type or vice versa, the system tries to extract the missing value from the log data. If it fails, it assigns the component value to the source type or vice versa, depending on which one you have mapped. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+In the JavaScript function, you're required to map only the service instance \(here called application service\). Mapping the component and the source type is optional: Health Log Analytics tries to extract their values from the log data automatically. If the attempt fails, it assigns the default values. If you map the component but not the source type or vice versa, the system tries to extract the missing value from the log data. If it fails, it assigns the component value to the source type or vice versa, depending on which one you have mapped. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 **Note:**
 
-\(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For information about failover protection in Agent Client Collector Log Analytics \(ACC-L\), see .
+\(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 **Note:** You can manipulate raw log data before Health Log Analytics maps and structures it. For more information, see [Edit raw log data before processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-preprocess.md).
 
@@ -49,7 +49,7 @@ In the JavaScript function, you are required to map only the service instance \(
 
 4.  Activate Test mode by setting the **Test mode** value to ON.
 
-    In Test mode, Health Log Analytics doesn't create the source types, sources, or any other objects it creates in the standard flow to avoid blowing up Elasticsearch storage with sample data. For more information, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
+    In Test mode, Health Log Analytics doesn't create the source types, sources, or any other objects it creates in the standard flow. This avoids filling Elasticsearch storage with sample data. For more information, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 5.  View how the current JavaScript function affects log lines.
 
@@ -123,7 +123,7 @@ Object that contains: -   Event Stream: Access via: &lt;metadata value&gt;. For 
 
         -   Return type and structure
 
-            **Note:** The JavaScript function returns a map of two entries. Do not change this return structure.
+            **Note:** The JavaScript function returns a map of two entries. don't change this return structure.
 
 <table id="table_z3g_fs1_24b"><thead><tr><th>
 
@@ -190,7 +190,7 @@ The new script is automatically added to the list of JS function templates from 
 
 ## What to do next
 
--   \(Optional\) [Edit your raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics maps and structures it. If you want to perform this task immediately, click the **Go to Preprocessor** related link to proceed to the **Data Input Preprocessor** page.
+-   \(Optional\) [Edit your raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics maps and structures it. If you want to perform this task immediately, select the **Go to Preprocessor** related link to proceed to the **Data Input Preprocessor** page.
 -   \(Optional\) Fine-tune how the system reads your log data by [refining the Source Type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md). This step enables you to reclassify auto-classified properties and change auto-mapped labels.
 
 **Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-automapping.md)

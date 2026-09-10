@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
 keywords: [configure themes, branding, audience targeting]
-breadcrumb: [Employee Slate for Now Assist, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Slate \(built for Now Assist\), Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure additional themes

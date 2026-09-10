@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [generative AI, gen AI, genai, artificial intelligence]
 breadcrumb: [Use, ServiceNow Otto for SLO, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -52,18 +52,19 @@ You can use the supplier case summarization skill in either Core UI or Source-to
 
     -   **Overview**: Provides information about the case.
     -   **Actions Completed**: Lists all the actions that have been taken so far.
-    -   **Next steps**: Lists the actions that the supplier managers must take next.
+    -   **Next steps**: Lists the actions that the supplier managers must take next \(only for open cases\).
+    -   **Close notes**: Provides complete summary of case resolution \(applicable for closed cases when Advanced Work Assignment for Source-to-Pay Operations is installed\).
 7.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39175e232">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d40810e237">
 
 Option
 
-</th><th align="left" id="d39175e235">
+</th><th align="left" id="d40810e240">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39175e241">
+</th></tr></thead><tbody><tr><td id="d40810e246">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -74,7 +75,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d39175e268">
+</td></tr><tr><td id="d40810e273">
 
 **Expand or collapse the summary**
 
@@ -82,7 +83,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d39175e289">
+</td></tr><tr><td id="d40810e294">
 
 **Provide feedback for the summary**
 
@@ -90,7 +91,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d39175e312">
+</td></tr><tr><td id="d40810e317">
 
 **Copy the record summary**
 
@@ -98,7 +99,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d39175e328">
+</td></tr><tr><td id="d40810e333">
 
 **View the information about the record summary**
 
@@ -106,7 +107,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d39175e343">
+</td></tr><tr><td id="d40810e348">
 
 **Refresh the record summary**
 

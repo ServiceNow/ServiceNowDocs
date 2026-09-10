@@ -98,7 +98,7 @@ Enhanced chat results
 
 </td><td>
 
-Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Summary Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+Results from enhanced chat conversations and searches, such as Virtual Agent topics.**Note:** Enhanced chat results are only available in synthesized responses when Summary Genius Result answers are generated in a Now Assist in Virtual Agent experience. To learn more about how these results appear in enhanced chat conversations and searches, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md). For more details on Now Assist in Virtual Agent, see .
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -124,7 +124,7 @@ In global and workspace search, when a Virtual Agent topic is cited as a source 
 -   The panel must be activated.
 -   A search source derived from the Skill \(topics\) indexed source must be linked to the search profile used for global search or the workspace search.
 
-If these requirements are not met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
+If these requirements aren't met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
 
 ## Asking follow-up questions
 

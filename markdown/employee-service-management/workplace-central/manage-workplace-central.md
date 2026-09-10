@@ -27,7 +27,7 @@ Submit a workplace service request to get space allocation recommendations using
 -   **[Approve a space assist request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/approve-a-space-assist-request.md)**  
 As a workplace manager, you can approve or reject a space assist request.
 -   **[Manage reservation waitlist records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.md)**  
-Workplace Reservation event planners can view and update the weight of a queued record and cancel waitlist records. You can also manually assign a space to employees.
+Only Workplace Reservation event planners are allowed to update the weight of a queued waitlist record. They can also manually assign a space to employees and cancel a waitlist record.
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-central/workplace-central-feat.md)
 

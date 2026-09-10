@@ -34,7 +34,7 @@ You can't use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNo
 
 You can use the following store apps with supported non-CMDB tables:
 
--   [CMDB 360 in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md)
+-   CMDB 360 in CMDB Workspace
 -   [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/integration-hub-etl/integrationhub-etl.md)
 
 IRE processes are applied to supported non-CMDB tables with the following differences:

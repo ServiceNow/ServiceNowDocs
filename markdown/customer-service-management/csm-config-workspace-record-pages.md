@@ -1,28 +1,28 @@
 ---
-title: CSM Configurable Workspace record pages
-description: A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This structure includes records such as cases, tasks, and interactions.
+title: CRM Workspace record pages
+description: A record page provides the base structure for how a record is displayed in CRM Workspace. This structure includes records such as cases, tasks, and interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-record-pages.html
 release: zurich
 topic_type: concept
 last_updated: "2025-11-19"
 reading_time_minutes: 6
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM Configurable Workspace record pages
+# CRM Workspace record pages
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This structure includes records such as cases, tasks, and interactions.
+A record page provides the base structure for how a record is displayed in CRM Workspace. This structure includes records such as cases, tasks, and interactions.
 
 ## Record page overview
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
+Several record pages are included with CRM Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
 
-## Record pages available with CSM Configurable Workspace
+## Record pages available with CRM Workspace
 
-Several record pages are included with CSM Configurable Workspace.
+Several record pages are included with CRM Workspace.
 
 <table id="table_hmm_t21_lzb"><thead><tr><th>
 
@@ -101,7 +101,7 @@ This page provides the basic structure for an interaction record, including inte
 </td></tr></tbody>
 </table>## Record page elements
 
-Record pages are made up of different elements that determine how record information is displayed in CSM Configurable Workspace.
+Record pages are made up of different elements that determine how record information is displayed in CRM Workspace.
 
 <table id="table_iyv_lzx_hzb"><thead><tr><th>
 
@@ -162,7 +162,7 @@ An extension point enables subpages, such as viewports and page collections, to 
 </td></tr></tbody>
 </table>## Determining which record page is used
 
-Record pages include several settings that the system uses to determine which record page to use when displaying information in CSM Configurable Workspace.
+Record pages include several settings that the system uses to determine which record page to use when displaying information in CRM Workspace.
 
 -   **Active**: A record page can be active or inactive. The system evaluates active pages when determining which page to use.
 -   **Order**: A record page has an order value. The system uses this order value when determining which page to use. The page with the lowest order value is the default record page.

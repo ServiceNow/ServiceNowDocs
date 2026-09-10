@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-quality-investigation-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -77,7 +77,7 @@ Problem solving methodology
 </td><td>
 
 Select the type of methodology to solve the problem:-   8D: A comprehensive, team-based approach for complex issues \(plan, team, describe, contain, root cause, correct, prevent, recognize\)
--   4D: A phased a phased approach for solving issues \(Describe, contain, correct, close\)
+-   4D: A phased approach for solving issues \(Describe, contain, correct, close\)
 -   Other
 
 </td></tr><tr><td>
@@ -171,5 +171,5 @@ Enter the summary of the PQI report.
 **Related topics**  
 
 
-[Create Product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
+[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
 

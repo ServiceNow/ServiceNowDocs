@@ -98,7 +98,7 @@ Audit observations are the results of an audit. As an important part of the audi
 
 </td><td>
 
-As an audit user, request evidence. Evidence request is used by audit and compliance teams for requesting supporting documents during an audit. Auditors and compliance teams require these documents from the first line of defense. For details see, [Request evidence for audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/request-evidence.md)
+As an audit user, request evidence. Evidence request is used by audit and compliance teams for requesting supporting documents during an audit. Auditors and compliance teams require these documents from the first line of defense. For details see, [Request evidence for audit using two-step process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/audit-management/request-evidence.md)
 
 </td></tr></tbody>
 </table>

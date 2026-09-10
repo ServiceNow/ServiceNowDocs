@@ -16,6 +16,10 @@ Activate the Mappedin integration if you have the admin role.
 
 ## Before you begin
 
+**Important:**
+
+The Mappedin integration is not available for new customers. Existing customers can upgrade to Mappedin version 1.11.0.
+
 Role required: admin
 
 ## About this task

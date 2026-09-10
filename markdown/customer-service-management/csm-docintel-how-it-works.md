@@ -120,7 +120,7 @@ DocIntel extracts the data for all fields and processes the document task if the
 </td></tr></tbody>
 </table>## Extraction labels
 
-In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CRM Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 In Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
@@ -129,7 +129,7 @@ In Core UI, the fields on the Case form that contain Document Intelligence predi
 
 ## Predicted field values
 
-In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CRM Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 In Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 

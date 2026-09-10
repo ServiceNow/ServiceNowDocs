@@ -30,6 +30,8 @@ Agent Client Collector certificates verify the authenticity of your agents, serv
 Use Agent Client Collector logs to track events in your system. Log levels indicate the severity of each event.
 -   **[Configure the Google Cloud Platform \(GCP\) configuration data file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/gcp-config-data-file.md)**  
 Configure the Google Cloud Platform \(GCP\) configuration data file to monitor metrics in your GCP environment.
+-   **[Software filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/software-filter.md)**  
+The Software filter lets you define rules to automatically exclude irrelevant entries from your Software Asset Management \(SAM\) inventory. At the same time, it keeps a complete, auditable record of everything filtered so that nothing disappears silently.
 -   **[Configure the action level for anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-level-anomaly-detection.md)**  
 Create a configuration setting rule that refines the level of anomaly detection processing and analysis that is applied to specific CIs and metrics. Set a processing level that reflects the importance of metrics at different stages of implementation, to reduce data load if needed.
 -   **[Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-policies-azure.md)**  

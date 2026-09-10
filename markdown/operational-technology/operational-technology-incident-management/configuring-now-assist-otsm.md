@@ -1,6 +1,6 @@
 ---
 title: Configure ServiceNow Otto for Operational Technology \(OT\) Service Management
-description: If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their Operational Technology \(OT\) incidents.
+description: If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their OT incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/operational-technology-incident-management/configuring-now-assist-otsm.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Operational Technology Incident Management, Operational 
 
 # Configure ServiceNow Otto for Operational Technology \(OT\) Service Management
 
-If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their Operational Technology \(OT\) incidents.
+If you have the admin role, you can configure the ServiceNow Otto for Operational Technology \(OT\) Service Management application so that teams can use the generative AI capabilities in the Industrial Workspace for their OT incidents.
 
 ## Before you begin
 

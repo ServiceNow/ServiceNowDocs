@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Defender for Endpoint, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,22 +52,6 @@ The following attributes in the IP Address \[cmdb\_ci\_ip\_address\] table are p
 |------------|-----------------|-----------|
 |IP Address \[cmdb\_ci\_ip\_address\]|Reference|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 
-## SG-Defender Machines Related \[sn\_defender\_integ\_sg\_defender\_machines\_related\]
-
-The following attributes in the SG-Defender Machines Related \[sn\_defender\_integ\_sg\_defender\_machines\_related\] table are populated by collected data:
-
-|Attribute label|Attribute name|
-|---------------|--------------|
-|Agent Version|agent\_version|
-|Device Id|device\_id|
-|Exposure Level|exposure\_level|
-|First Seen|first\_seen\_date|
-|Health Status|health\_status|
-|IsAadJoined|isaadjoined|
-|Last Reported|last\_reported|
-|Managed by|managed\_by|
-|Onboarding Status|onboarding\_status|
-
 ## Network Adapter \[cmdb\_ci\_network\_adapter\]
 
 The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] table are populated by collected data:
@@ -83,6 +67,22 @@ The following attributes in the Network Adapter \[cmdb\_ci\_network\_adapter\] t
 |------------|-----------------|-----------|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Server \[cmdb\_ci\_server\]|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Computer \[cmdb\_ci\_computer\]|
+
+## SG-Defender Machines Related \[sn\_defender\_integ\_sg\_defender\_machines\_related\]
+
+The following attributes in the SG-Defender Machines Related \[sn\_defender\_integ\_sg\_defender\_machines\_related\] table are populated by collected data:
+
+|Attribute label|Attribute name|
+|---------------|--------------|
+|Agent Version|agent\_version|
+|Device Id|device\_id|
+|Exposure Level|exposure\_level|
+|First Seen|first\_seen\_date|
+|Health Status|health\_status|
+|IsAadJoined|isaadjoined|
+|Last Reported|last\_reported|
+|Managed by|managed\_by|
+|Onboarding Status|onboarding\_status|
 
 ## Software \[cmdb\_ci\_spkg\]
 

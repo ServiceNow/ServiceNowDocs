@@ -1,6 +1,6 @@
 ---
-title: Configure the Moveworks chatbot for Employee Slate
-description: Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
+title: Configure the Moveworks chatbot
+description: Configure the Moveworks chatbot in the Moveworks Setup application. EmployeeWorks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/empworks-configure-moveworks-chatbot.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-04-24"
 reading_time_minutes: 2
 keywords: [Moveworks chatbot, Moveworks Setup, trusted issuer, chatbot configuration]
-breadcrumb: [Employee Slate for Moveworks, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks Web App, Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Configure the Moveworks chatbot for Employee Slate
+# Configure the Moveworks chatbot
 
-Configure the Moveworks chatbot in the Moveworks Setup application. Employee Slate for Moveworks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
+Configure the Moveworks chatbot in the Moveworks Setup application. EmployeeWorks then renders the Moveworks AI Assistant, ingests identity from ServiceNow, and authenticates employees.
 
 ## Before you begin
 
@@ -39,9 +39,9 @@ The Moveworks chatbot configuration captures two related setups. The first is th
 
     The list shows the chatbots configured for the organization. To edit an existing chatbot, select the record. To add a new chatbot, select **Create**.
 
-3.  Set the chatbot fields for the Employee Slate surface.
+3.  Set the chatbot fields for the surface.
 
-    For each field and the value to use, see the chatbot record table in [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md). The required value is **Surface** = **Unified Front Door**, which lets Employee Slate render the chatbot.
+    For each field and the value to use, see the chatbot record table in [Moveworks chatbot configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-moveworks-chatbot-fields.md). The required value is **Surface** = **Unified Front Door**, which lets EmployeeWorks render the chatbot.
 
     \[Omitted image "es-moveworks-chat-bot-j.png"\] Alt text: Chatbots ChatVars Edit page showing core configurations for the Moveworks chatbot including Channel, Bot ID, Bot Name, and Channel Configurations
 
@@ -59,7 +59,7 @@ The Moveworks chatbot configuration captures two related setups. The first is th
 
 8.  Open the Employee Slate URL and verify that the Moveworks assistant responds.
 
-    Open the Employee Slate home page. Enter a greeting in the chat, such as `Hi`. The Moveworks assistant responds, which verifies connectivity and authentication.
+    Open the home page. Enter a greeting in the chat, such as `Hi`. The Moveworks assistant responds, which verifies connectivity and authentication.
 
 
 ## Result

@@ -1,6 +1,6 @@
 ---
-title: SQL API reference information
-description: This section provides details about SQL API reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
+title: Live Connect reference information
+description: This section provides details about Live Connect reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/troubleshooting.html
 release: zurich
@@ -10,17 +10,17 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [reference]
-breadcrumb: [Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# SQL API reference information
+# Live Connect reference information
 
-This section provides details about SQL API reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
+This section provides details about Live Connect reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
 
--   **[Minimum requirements and supported software for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**  
-This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
--   **[Usage Limitations for SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/usage-limitations.md)**  
-The SQL API imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
+-   **[Minimum requirements and supported software for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**  
+This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for Live Connect.
+-   **[Usage Limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/usage-limitations.md)**  
+The Live Connect imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
 
-**Parent Topic:**[Access your ServiceNow data using SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
+**Parent Topic:**[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)
 

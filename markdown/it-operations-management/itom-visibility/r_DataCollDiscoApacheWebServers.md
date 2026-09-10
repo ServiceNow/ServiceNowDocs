@@ -139,29 +139,27 @@ You can configure the Unix - Active Processes probe to elevate privileges.
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Probes**.
 
-2.  In the **Search** field, search for Unix - Active Processes.
+2.  In the **Search** field, search for `Unix - Active Processes`.
 
 3.  Select the **Unix - Active Processes** link from the table.
 
 4.  In the **Probe Parameters** related list, select **New**.
 
-5.  Select **New**
-
-6.  Use the following information to fill out the form:
+5.  Use the following information to fill out the form:
 
     |Probe|Commands|
     |-----|--------|
     |Name|must\_sudo|
     |Value|true|
 
-7.  Select **Submit**.
+6.  Select **Submit**.
 
 
 ## Data collected by Mod\_jk module
 
 The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.
 
-Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. When the Apache Web Server process is detected, if the mod\_jk module is running on the web server as a load balancer, the related information populates to the CMDB.
+Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. When the Apache Web Server process is detected, Discovery checks for the mod\_jk module. If the module is running as a load balancer, the related information populates to the CMDB.
 
 -   The MID Server user account to explore the target server must have access to the httpd.conf configuration file in the /etc/httpd/conf/ folder.
 -   Discovery uses secure shell \(SSH\) commands to identify the following associated elements:
@@ -189,7 +187,9 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
     -   Apache – Get Configuration: this probe contains a Bourne shell script and an argument that determines the path of the Apache configuration file. The sensor of this probe populates some additional information in the Web Server record.
 3.  The sensor processing of Apache – Get configuration probe results triggers the following probes if the mod\_jk module is running on the web server:
 
-    Apache – JK Module: if the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates the information in the Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\] and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\] tables.
+    Apache – JK Module:
+
+    If the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
 
 
 ### Data Collected
@@ -269,7 +269,9 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
     -   Apache – Get Configuration: this probe contains a Bourne shell script and an argument that determines the path of the Apache configuration file. The sensor of this probe populates some additional information in the Web server \[cmdb\_ci\_web\_server\] record.
 3.  The sensor processing of the Apache – Get configuration probe results triggers the following probes if the mod\_proxy module is running on the web server:
 
-    Apache - Get Proxy Module: if the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates the information in the Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\] and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\] tables.
+    Apache - Get Proxy Module:
+
+    If the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. The Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\] tables are populated.
 
 
 ### Data Collected

@@ -23,6 +23,8 @@ Role required: sn\_apm.apm\_user
 
 Link business processes to goals to document which processes contribute to achieving specific strategic objectives. You can add existing business processes or create new ones directly from the goal record.
 
+A goal is mapped to a business process using the relationship type **Realizes :: Realized by**.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
@@ -41,7 +43,7 @@ Link business processes to goals to document which processes contribute to achie
 
     -   To add an existing business process:
         1.  Select **Add**.
-        2.  In the Add business process window, select the business process and the relationship type between the business process and the goal.
+        2.  In the Add business process window, select the business process. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a business process, select **New** and complete the fields on the form. For field descriptions, see [Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-business-process-form.md).
 

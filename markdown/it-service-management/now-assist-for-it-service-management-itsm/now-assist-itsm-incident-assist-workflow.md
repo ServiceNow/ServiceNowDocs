@@ -86,7 +86,7 @@ In the AI Agent Studio, the human agent gets notified as soon as the recommendat
 
 As a user, follow these steps in the ServiceNow Otto panel. You need the itil role to access this workflow in the ServiceNow Otto panel.
 
-**Note:** The Incident assist agentic workflow loads automatically with the current incident in context when you open the Now Assist panel on an incident record.
+**Note:** The Incident assist agentic workflow loads automatically with the current incident in context when you open the Otto panel on an incident record.
 
 1.  Open an incident record in Service Operations Workspace or in the Core UI and select the Otto panel icon.
 

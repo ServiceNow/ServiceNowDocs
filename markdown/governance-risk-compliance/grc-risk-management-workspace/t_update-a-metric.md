@@ -315,11 +315,11 @@ Citations
 Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, click **Add**.
 
 </td></tr></tbody>
-</table>6.  To save the metric, click **Save**.
+</table>6.  To save the metric, select **Save**.
 
-7.  To delete the metric definition, click **Delete**.
+7.  To delete the metric definition, select **Delete**.
 
-8.  To execute the metric, click **Execute**.
+8.  To execute the metric, select **Execute**.
 
     A metric data score is created if it doesn’t exist for the current interval. Re-executing a metric or a metric definition for the current interval only updates the score.
 

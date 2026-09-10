@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-07-28"
+last_updated: "2026-09-03"
 reading_time_minutes: 5
 keywords: [Now Assist panel]
 breadcrumb: [Using ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
@@ -83,6 +83,6 @@ Role required: now\_assist\_panel\_role, sn\_wsd\_rsv.reservation\_planner, sn\_
         \[Omitted image "wsd-now-assist-panel-three-rsv-locations.png"\] Alt text: AI agents showing three available locations to move an existing reservation to a new date, time, and duration.
 
     -   AI agents then provide case resolution notes and summarization for Workplace Event planners to review.
-    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the ServiceNow Otto panel conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+    The team of AI agents updates an existing reservation with a new date, time, or duration. AI agents notifies Workplace Event Planners using the conversational interface about the changed date and time for a reservation. If the old location is not available for reservation, AI agents move the reservation with updated date and time to a new location. For more information, see [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 

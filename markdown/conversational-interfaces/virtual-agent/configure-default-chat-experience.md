@@ -133,15 +133,15 @@ Script editor for specifying the condition in a script, if you selected Advanced
 
     **Note:** the Live Agent and Virtual Agent Feedback topics are not listed in the Virtual Agent topic picker \(All Topics\) menu by default. You must associate a setup topic type to a setup topic as part of the default or custom chat experience.
 
-<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d109212e338">
+<table id="choicetable_c2f_2g2_3xb"><thead><tr><th align="left" id="d109101e338">
 
 I want to...
 
-</th><th align="left" id="d109212e341">
+</th><th align="left" id="d109101e341">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d109212e347">
+</th></tr></thead><tbody><tr><td id="d109101e347">
 
 **Activate a setup topic, such as the Anything Else or Virtual Agent Feedback topic**
 
@@ -158,7 +158,7 @@ For example, **Anything Else topic**.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d109212e390">
+</td></tr><tr><td id="d109101e390">
 
 **Remove a setup topic from a chat experience**
 
@@ -169,7 +169,7 @@ For example, **Anything Else topic**.
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d109212e420">
+</td></tr><tr><td id="d109101e420">
 
 **Add a new setup topic**
 

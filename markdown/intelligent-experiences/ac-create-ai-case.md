@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [AI cases, Manage tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI cases, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
 # Create an AI case
@@ -90,7 +90,7 @@ An AI case documents an incident that needs investigation, such as a suspected s
     |Field|Description|
     |-----|-----------|
     |Breach status|Whether the case involves a data or security breach. Defaults to **To be determined**.|
-    |Reporting status|Whether the case has been reported to regulators. This field is set automatically based on the regulations associated with the case. Defaults to **To be determined**.|
+    |Reporting status|Whether the case has been reported to regulators. This field is set automatically based on the frameworks associated with the case. Defaults to **To be determined**.|
 
 9.  In the Root cause analysis section, document your findings and any remediation.
 

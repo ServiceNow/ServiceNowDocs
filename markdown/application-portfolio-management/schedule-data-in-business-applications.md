@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-As an administrator with the Enterprise Architecture admin role, you can create and assign the data certification tasks to the system owners for them to certify the business applications data. You also require certification\_filter\_admin role to set filter to those fields that require certification.
+As an administrator with the Enterprise Architecture admin role, you can create and assign data certification tasks to system owners to certify business applications data. You also require the certification\_filter\_admin role to set filters for fields that require certification.
 
 Inventory of business applications is created one time. But the data on a business applications table are highly dynamic and keep changing over time. Therefore, it’s imperative to keep the data complete, accurate, and current. Data certification is a platform feature that helps you to keep the data up to date.
 
@@ -54,7 +54,7 @@ The following preconfigured certification schedules are available for the admini
 
     Related certification tasks \(to verify and certify the data of a business application record\) are created in the **Certification Tasks** related list and is assigned to the application owner. As a administrator you can also track the data certification progress assigned to the application owner.
 
-    When a certification task is newly assigned, reassigned, or is about to expire, you can notify the task owners about the pending status of the task at hand by an email.
+    When a certification task is newly assigned, reassigned, or is about to expire, you can notify the task owners by email.
 
     Preconfigured email notifications such as **APM DC task assignment**, **APM DC task reassign**, and **APM DC task expiry** are available that you can trigger depending on the certification task when you execute a schedule by selecting **Execute Now**.
 

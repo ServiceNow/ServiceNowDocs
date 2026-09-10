@@ -61,7 +61,7 @@ The Social Benefits Playbook application provides the following items that are u
 -   **Social Benefits Request service channel** - The default service channel for routing incoming public sector social benefits requests to specific government agents. This service channel includes related attributes that define the default conditions for determining the items handled in the channel, work queue associated with agent assignment groups, agent inbox layouts, and more.
 -   **Public Sector Social Benefits Request assignment group** - The default assignment group that identifies the agents handling public sector social benefits requests. Agent assignments are based on agent availability, capacity, and skills.
 -   **Public Sector Social Benefits Requests queue** - The default queue to which public sector social benefits requests are routed.
--   **Inbox layouts** - The default card layouts for social benefits request items displayed in the agent inbox view of CSM Configurable Workspace:
+-   **Inbox layouts** - The default card layouts for social benefits request items displayed in the agent inbox view of CRM Workspace:
     -   Constituent Social Benefits Layout: Includes **Short description**, **Constituent**, and **Case Type** fields.
     -   Business Social Benefits Layout: Includes **Short description**, **Business**, **Business Contact**, and **Case Type** fields.
 
@@ -87,15 +87,15 @@ You can modify the context and attributes for [service channels](https://raw.git
 
 1.  Configure the Social Benefit Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34242e456">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34675e456">
 
 Options
 
-</th><th align="left" id="d34242e459">
+</th><th align="left" id="d34675e459">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34242e465">
+</th></tr></thead><tbody><tr><td id="d34675e465">
 
 **Enable the Social Benefit Request service channel**
 
@@ -108,7 +108,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d34242e522">
+</td></tr><tr><td id="d34675e522">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -128,7 +128,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d34242e604">
+</td></tr><tr><td id="d34675e604">
 
 **Configure the Social Benefit Requests queue**
 
@@ -142,7 +142,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-create-queue.md).
 
-</td></tr><tr><td id="d34242e656">
+</td></tr><tr><td id="d34675e656">
 
 **Change Inbox card layouts for Social Benefit request items in CSM Configurable Workspace**
 
@@ -165,7 +165,7 @@ The License and Permit Playbook application provides the following items that ar
 -   **License and Permit Request service channel** - The default service channel for routing incoming public sector license/permit requests to specific government agents. This service channel includes related attributes that define the default conditions for determining the items handled in the channel, work queue associated with agent assignment groups, agent inbox layouts, and more.
 -   **Public Sector License and Permit Request assignment group** - The default assignment group that identifies the agents handling public sector license/permit requests. Agent assignments are based on agent availability, capacity, and skills.
 -   **Public Sector License and Permit Requests queue** - The default queue to which public sector license/permit requests are routed.
--   **Inbox layouts** - The default card layouts for license/permit request items displayed in the agent inbox view of CSM Configurable Workspace:
+-   **Inbox layouts** - The default card layouts for license/permit request items displayed in the agent inbox view of CRM Workspace:
     -   Constituent License/Permit Layout: Includes **Short description**, **Constituent**, and **Case Type** fields.
     -   Business License/Permit Layout: Includes **Short description**, **Business**, **Business Contact**, and **Case Type** fields.
 
@@ -191,15 +191,15 @@ You can modify the context and attributes for [service channels](https://raw.git
 
 1.  Configure the License and Permits Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34242e915">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34675e915">
 
 Options
 
-</th><th align="left" id="d34242e918">
+</th><th align="left" id="d34675e918">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34242e924">
+</th></tr></thead><tbody><tr><td id="d34675e924">
 
 **Enable the License and Permit Request service channel**
 
@@ -212,7 +212,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d34242e981">
+</td></tr><tr><td id="d34675e981">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -232,7 +232,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d34242e1063">
+</td></tr><tr><td id="d34675e1063">
 
 **Configure the License and Permit Requests queue**
 
@@ -246,7 +246,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-create-queue.md).
 
-</td></tr><tr><td id="d34242e1115">
+</td></tr><tr><td id="d34675e1115">
 
 **Change Inbox card layouts for License and Permits request items in CSM Configurable Workspace**
 
@@ -269,7 +269,7 @@ The Information Request Playbook application provides the following items that a
 -   **Information Request service channel** - The default service channel for routing incoming public sector information requests to specific government agents. This service channel includes related attributes that define the default conditions for determining the items handled in the channel, work queue associated with agent assignment groups, agent inbox layouts, and more.
 -   **Public Sector Information Request assignment group** - The default assignment group that identifies the agents handling public sector information requests. Agent assignments are based on agent availability, capacity, and skills.
 -   **Public Sector Information Requests queue** - The default queue to which public sector information requests are routed.
--   **Inbox layouts** - The default card layouts for information request items displayed in the agent inbox view of CSM Configurable Workspace:
+-   **Inbox layouts** - The default card layouts for information request items displayed in the agent inbox view of CRM Workspace:
     -   Constituent Information Request layout: Includes **Short description**, **Constituent**, and **Service** fields.
     -   Business Information Request layout: Includes **Short description**, **Business**, **Business Contact**, and **Service** fields.
     -   Generic Information Request layout: Includes **Short description** and **Service** fields.
@@ -296,15 +296,15 @@ You can modify the context and attributes for [service channels](https://raw.git
 
 1.  Configure the Information Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34242e1383">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34675e1383">
 
 Options
 
-</th><th align="left" id="d34242e1386">
+</th><th align="left" id="d34675e1386">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34242e1392">
+</th></tr></thead><tbody><tr><td id="d34675e1392">
 
 **Enable the Information Request service channel**
 
@@ -317,7 +317,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d34242e1449">
+</td></tr><tr><td id="d34675e1449">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -337,7 +337,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d34242e1527">
+</td></tr><tr><td id="d34675e1527">
 
 **Configure the Information Requests queue**
 
@@ -351,7 +351,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-create-queue.md).
 
-</td></tr><tr><td id="d34242e1575">
+</td></tr><tr><td id="d34675e1575">
 
 **Change Inbox card layouts for information request items in CSM Configurable Workspace**
 
@@ -374,7 +374,7 @@ The Service Request Playbook application provides the following items that are u
 -   **Service Requests service channel** - The default service channel for routing incoming public sector service requests to specific government agents. This service channel includes related attributes that define the default conditions for determining the items handled in the channel, work queue associated with agent assignment groups, agent inbox layouts, and more.
 -   **Public Sector Requests assignment group** - The default assignment group that identifies the agents handling public sector service requests. Agent assignments are based on agent availability, capacity, and skills.
 -   **Public Service Requests queue** - The default queue to which public sector service requests are routed.
--   **Inbox layouts** - The default card layouts for service request items displayed in the agent inbox view of CSM Configurable Workspace:
+-   **Inbox layouts** - The default card layouts for service request items displayed in the agent inbox view of CRM Workspace:
     -   Constituent Service Request layout: Includes **Short description**, **Constituent**, and **Service** fields.
     -   Business Service Request layout: Includes **Short description**, **Business**, **Business Contact**, and **Service** fields.
     -   Generate Service Request Layout: Displayed when anonymous users submit service requests. Includes **Short description** and **Service** fields
@@ -401,15 +401,15 @@ You can modify the context and attributes for [service channels](https://raw.git
 
 1.  Configure the Service Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34242e1844">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34675e1844">
 
 Options
 
-</th><th align="left" id="d34242e1847">
+</th><th align="left" id="d34675e1847">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34242e1853">
+</th></tr></thead><tbody><tr><td id="d34675e1853">
 
 **Enable the Service Request service channel**
 
@@ -421,7 +421,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d34242e1904">
+</td></tr><tr><td id="d34675e1904">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -441,7 +441,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d34242e1982">
+</td></tr><tr><td id="d34675e1982">
 
 **Configure the Public Service Requests queue**
 
@@ -455,7 +455,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-create-queue.md).
 
-</td></tr><tr><td id="d34242e2030">
+</td></tr><tr><td id="d34675e2030">
 
 **Change Inbox card layouts for service request items in CSM Configurable Workspace**
 

@@ -17,7 +17,7 @@ breadcrumb: [Integration with CWM, Project Workspace, Project Portfolio Manageme
 
 Understand how the connected Collaborative Work Management \(CWM\) tasks are displayed on your project's planning page.
 
-When CWM is active in your instance, CWM tasks and stories linked to your project tasks appear inline as child rows under each project task on the planning page. Project managers can see execution activity from the team without leaving Project Workspace.
+When CWM is active in your instance, CWM tasks and stories linked to your project tasks. These items appear inline as child rows under each project task on the planning page. Project managers can see execution activity from the team without leaving Project Workspace.
 
 Only the first level of the CWM hierarchy is displayed under a project task. Nested children within CWM aren't shown on the planning page.
 

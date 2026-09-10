@@ -8,7 +8,7 @@ product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
 ---
 
@@ -30,7 +30,7 @@ Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or adm
 
 ## About this task
 
-The following procedure describes the process of creating an AWS IAM user policy and configuring credentials-based authentication for Cloud Cost Management. If you prefer to use Assume Role authentication, see .
+The following procedure describes the process of creating an AWS IAM user policy and configuring credentials-based authentication for Cloud Cost Management. If you prefer to use Assume Role authentication, see [Set up AWS Assume Role authentication for Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/setup-aws-assume-role-ccm.md).
 
 ## Procedure
 

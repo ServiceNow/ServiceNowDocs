@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d152545e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d152563e61">
 
 Method
 
-</th><th align="left" id="d152545e64">
+</th><th align="left" id="d152563e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d152545e70">
+</th></tr></thead><tbody><tr><td id="d152563e70">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d152545e117">
+</td></tr><tr><td id="d152563e117">
 
 **Contract Workspace landing page**
 
@@ -59,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d152545e150">
+</td></tr><tr><td id="d152563e150">
 
 **Workspace used by your application**
 
@@ -70,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d152545e171">
+</td></tr><tr><td id="d152563e171">
 
 **Reviews tab**
 

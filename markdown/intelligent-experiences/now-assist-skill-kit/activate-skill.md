@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Select **Activate skill**.
 
-    Make sure you are in the correct application scope when you activate the skill. To learn more about application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationScope.md).
+    Make sure you are in the correct application scope when you activate the skill. To learn more about application scopes, see .
 
     \[Omitted image "nask-activation.png"\] Alt text: Skill activation page in AI Admin Hub.
 

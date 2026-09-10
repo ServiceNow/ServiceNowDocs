@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Use agentic AI, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)

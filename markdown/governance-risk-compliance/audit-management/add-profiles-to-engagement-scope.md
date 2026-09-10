@@ -9,7 +9,7 @@ classification: audit-management
 topic_type: task
 last_updated: "2026-06-05"
 reading_time_minutes: 1
-breadcrumb: [Manage engagements, Use, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Add entities to an engagement scope

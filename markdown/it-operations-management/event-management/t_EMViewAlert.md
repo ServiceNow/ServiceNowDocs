@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -292,11 +292,13 @@ You can respond to the alert in the following ways:
 |------|-----------|
 |Submit|Save the modifications that were made to the form and return to the **Alerts** list.|
 |Acknowledge the alert.|Click **Acknowledge**. If the alert is reopened, this button reappears so you can reacknowledge the alert.|
-|Create an incident.|Click **Create incident**. For more information, see .|
+|Create an incident.|Click **Create incident**. For more information, see [Create incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md).|
 |If Security Incident Response is activated, create a security incident response.|Click **Create Security Incident**.|
 |Designate that the alert is in maintenance.|Select the **Maintenance** check box. For more information, see [View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMViewAlertmaintenance.md).|
 |Close the alert.|Click **Close**. For more information, see [Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCloseAlert.md).|
 
+-   **[Create incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md)**  
+When an alert must be escalated and assigned to someone who can resolve the underlying issue, you can open an incident.
 -   **[Priority group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-priority-group.md)**  
 For better triage and focus, alerts that have a higher priority are brought to the top of the alert list. This placement brings to your attention those alerts that require you to handle them at a higher priority than other alerts.
 -   **[Alert execution information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-execution.md)**  

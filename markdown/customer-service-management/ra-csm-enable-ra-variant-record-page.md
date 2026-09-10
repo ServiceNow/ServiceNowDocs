@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-01-20"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Restore Recommended Actions on record page variants after upgrade

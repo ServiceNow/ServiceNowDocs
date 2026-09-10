@@ -19,7 +19,7 @@ Use the conversational experience of ServiceNow Otto for Virtual Agent to create
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   An application that supports Virtual Agent is installed.
 -   The conversational experience for demand creation is configured.

@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34312e342">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d34906e342">
 
 Option
 
-</th><th align="left" id="d34312e345">
+</th><th align="left" id="d34906e345">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34312e351">
+</th></tr></thead><tbody><tr><td id="d34906e351">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d34312e360">
+</td></tr><tr><td id="d34906e360">
 
 **Select Roles**
 

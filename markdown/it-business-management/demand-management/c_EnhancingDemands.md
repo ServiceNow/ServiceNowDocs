@@ -8,7 +8,7 @@ product: Demand Management
 classification: demand-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -99,4 +99,6 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 [PPM PIWB template - Find similar demands]()
 
 [Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

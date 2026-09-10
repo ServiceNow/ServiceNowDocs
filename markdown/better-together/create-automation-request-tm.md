@@ -50,13 +50,13 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 5.  Edit any of these steps if you want to change task details.
 
-    1.  Select the Duplicate step icon \[Omitted image "image.task-mining-duplicate-step"\] next to the step to make a copy of the step.
+    1.  Select the Duplicate step icon \[Omitted image "task-mining-duplicate-step.png"\] next to the step to make a copy of the step.
 
         The new task step is created. The **Interaction** column of the duplicated step is empty.
 
-    2.  Select the Delete step icon \[Omitted image "image.tm-delete-step-icon"\] next to the step to remove a step from the task.
+    2.  Select the Delete step icon \[Omitted image "tm-delete-step-icon.png"\] next to the step to remove a step from the task.
 
-    3.  Select the Reorder step icon \[Omitted image "image.tm-reorder-icon"\] next to the step to drag the step to a different order.
+    3.  Select the Reorder step icon \[Omitted image "tm-reorder-icon.png"\] next to the step to drag the step to a different order.
 
     4.  Double-click a task field \(or use the keyboard shortcut\) to edit details, enter the new text, and select **Apply**.
 
@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d22834e291">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d22972e288">
 
 Option
 
-</th><th align="left" id="d22834e294">
+</th><th align="left" id="d22972e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22834e300">
+</th></tr></thead><tbody><tr><td id="d22972e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d22834e318">
+</td></tr><tr><td id="d22972e315">
 
 **Complete manually**
 
@@ -91,7 +91,7 @@ Open an Automation Center request based on the improvement opportunity. Populate
 Fill in the Automation Center request form with details of the improvement opportunity, and submit the request.**Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
 </td></tr></tbody>
-</table>    \[Omitted image "image.tm-io-generate-ai"\] Alt text: Screenshot showing the UI option to generate details with AI.
+</table>    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
 
 8.  Select **Generate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
@@ -107,6 +107,16 @@ Fill in the Automation Center request form with details of the improvement oppor
 
     The automation request is created and associated with the task that it was based on. A link to the automation request record is available under the **Automation request** column of the project's Task timeline analysis.
 
+
+## Example: Onboarding automation request
+
+In this example, an HR analyst captures the employee onboarding workflow:
+
+-   A workstation user \(HR staff member\) uses the Task Mining agent to record themselves completing the onboarding process for a new hire
+-   The agent captures their interactions across the HR system, email interface, and Microsoft Outlook
+-   The HR analyst reviews the captured task timeline and submits an automation request
+-   The automation request includes the complete task recording, screenshots, and interaction summary
+-   Automation Center receives this request and uses it to generate automation blocks
 
 ## What to do next
 

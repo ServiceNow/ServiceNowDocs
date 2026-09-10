@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [HAM licensing, Hardware Asset Management licensing]
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
@@ -21,6 +21,8 @@ The ServiceNow platform uses a licensing method where your organization is charg
 
 Get the most out of your asset data to save time and resources with the following prescriptive workflows or features.
 
+-   [Hardware Asset Management on Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/product-hub-for-ham.md)
+-   [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-ham.md)
 -   [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 -   [Hardware Asset dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md)
 -   [Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/hardware-normalization.md)

@@ -24,7 +24,7 @@ When you're creating the product offering, use the **Distribution channel** fiel
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CRM Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings**.
 
@@ -70,7 +70,7 @@ Offering type
 
 </td><td>
 
-Offering entity. Select one of the following types:-   Product: A product entity that an agent can add to an order using the CSM Configurable Workspace.
+Offering entity. Select one of the following types:-   Product: A product entity that an agent can add to an order using the CRM Workspace.
 -   Entitlement: An entity such as a warranty or subscription that can be added to an order by an agent.
 
 
@@ -275,15 +275,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d58925e536">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d59400e536">
 
 Action
 
-</th><th align="left" id="d58925e539">
+</th><th align="left" id="d59400e539">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58925e545">
+</th></tr></thead><tbody><tr><td id="d59400e545">
 
 **Publish**
 
@@ -293,7 +293,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d58925e563">
+</td></tr><tr><td id="d59400e563">
 
 **Update**
 
@@ -301,7 +301,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d58925e572">
+</td></tr><tr><td id="d59400e572">
 
 **Copy**
 

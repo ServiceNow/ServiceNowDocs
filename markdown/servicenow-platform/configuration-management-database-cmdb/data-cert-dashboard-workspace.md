@@ -1,6 +1,6 @@
 ---
 title: Data Certification Dashboard
-description: Use the Data Certification Dashboard in CMDB Workspace or in Service Graph Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
+description: Use the Data Certification Dashboard in CMDB Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Data Certification experience in a workspace, Data Certification, C
 
 # Data Certification Dashboard
 
-Use the Data Certification Dashboard in CMDB Workspaceor in Service Graph Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
+Use the Data Certification Dashboard in CMDB Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
 
 \[Omitted image "cmdb-data-certif-dashboard.jpg"\] Alt text: Data certification dashboard.
 
-The Data Certification Dashboard gets populated by Data Certification execution records. For information about the archive rules that control the retention of those records, see 'Retention of Data Certification records' in [Data Certification experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
+The Data Certification Dashboard gets populated by Data Certification execution records. For information about the archive rules that control the retention of those records, see 'Retention of Data Certification records' in [Data Certification experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 
 ## Role requirements
 
@@ -29,10 +29,7 @@ The user role determines which certification tasks are included in the dashboard
 
 ## Access
 
-Navigate to either workspace:
-
--   Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the Home view, select the **Data Certification Dashboard** quick link.
--   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification**.
+Navigate to **Workspaces** &gt; **CMDB Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification**.
 
 ## Reviewing certification tasks
 

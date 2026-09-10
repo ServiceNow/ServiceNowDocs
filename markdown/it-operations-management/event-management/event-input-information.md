@@ -59,9 +59,7 @@ Edit text in the left-hand workarea by selecting it, as required. After you have
 </td></tr></tbody>
 </table>## Event additional info
 
-The Event additional info section displays default event form fields, plus fields that were created to display in alerts and that are added to the **Additional information** section of the alert.
-
-When configuring text in the fields in the left-hand workarea, you can drag field names and/or their value from this section into the fields.
+The Event additional info section displays default event form fields. It also displays fields that were created to display in alerts and that are added to the **Additional information** section of the alert. When configuring text in the fields in the left-hand workarea, you can drag field names and their values from this section into the fields.
 
 ## Expressions
 
@@ -88,7 +86,7 @@ Controlling how fields appear:
 
 -   Use the exclusion list \[em\_event\_rule\_black\_list\] table to hide fields from the right-pane.
 -   Use the em\_event\_rule\_order form to order the position of each field.
--   Fields that are not in the exclusion list and also not part of the em\_event\_rule\_order table, still appear in the event rule designer, in the right-panel and in the **Transform and Compose Alert Output** tab.
+-   Fields that are not in the exclusion list and also not part of the em\_event\_rule\_order table still appear in the event rule designer. They appear in the right-panel and in the **Transform and Compose Alert Output** tab.
 
 **Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/create-event-rules.md)
 

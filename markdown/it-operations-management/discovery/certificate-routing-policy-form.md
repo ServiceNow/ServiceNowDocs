@@ -1,5 +1,5 @@
 ---
-title: Certificate Routing Policy form
+title: Certificate Routing Policy form for CyberArk
 description: The Certificate Routing Policy form enables you to configure routing policies for CyberArk Certificate Manager SaaS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/certificate-routing-policy-form.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Certificate Routing Policy form
+# Certificate Routing Policy form for CyberArk
 
 The Certificate Routing Policy form enables you to configure routing policies for CyberArk Certificate Manager SaaS.
 

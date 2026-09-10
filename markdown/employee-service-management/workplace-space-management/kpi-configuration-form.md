@@ -93,7 +93,7 @@ For KPIs that require multiple operations, you can set the type to **None** and 
 
 For reference, you can view the Script Includes like `KPI_profiles_assigned` or `KPI_assignment_ratio`, which are included with Workplace Space Management.
 
-For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/extension-points.md).
+For more information about extension points, see .
 
 </td></tr><tr><td>
 

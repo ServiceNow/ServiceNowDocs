@@ -38,7 +38,7 @@ Because automations blocks are created using AI, results may vary between runs. 
 
 1.  Navigate to **Workspaces** &gt; **Automation center Workspace**.
 
-2.  Select the list icon \(\[Omitted image "image.autocenter-list-icon"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -56,7 +56,7 @@ Because automations blocks are created using AI, results may vary between runs. 
 
     The **Generate automations** window is displayed.
 
-    \[Omitted image "image.unified-gen-auto"\] Alt text: Generate automations window
+    \[Omitted image "unified-gen-auto.png"\] Alt text: Generate automations window
 
 8.  Enter additional instructions in the **Optional context** field to guide the decomposition.
 
@@ -122,6 +122,57 @@ A summary of the steps the automation performs. This field is used as the basis 
 
     **Important:** Each prompt starts fresh and doesn't carry forward the previous changes. To keep earlier changes, include all your requirements in one prompt.
 
+
+## Example: Generating onboarding automation blocks
+
+When the HR analyst's automation request arrives in Automation Center, the following automation blocks are created.
+
+<table id="table_qth_wv1_hkc"><thead><tr><th>
+
+Task type
+
+</th><th>
+
+Automation blocks
+
+</th></tr></thead><tbody><tr><td>
+
+On-screen tasks
+
+</td><td>
+
+-   **Fill HR form**
+
+Fill HR system form with new hire data.
+
+Requires screenshots and UI interaction metadata.
+
+-   **Add employee to Outlook**
+
+Add employee to Outlook distribution list.
+
+Requires browser navigation and form interaction.
+
+
+</td></tr><tr><td>
+
+Background tasks
+
+</td><td>
+
+-   **Read data from Excel**
+
+Read new hire information from Excel file.
+
+Operates silently based on instructions.
+
+
+</td></tr></tbody>
+</table>The technical user reviews the generated blocks:
+
+-   Verifies that the on-screen form-filling task captured all required fields
+-   Confirms the distribution list task navigates to the correct team list
+-   Reviews the background task instructions for reading Excel data correctly
 
 ## What to do next
 

@@ -40,11 +40,7 @@ Role required: author or agent
 
 3.  In the Use AI to draft this article? modal, select **Yes, draft with Otto**.
 
-    \[Omitted image "now-assist-kb-dialog-box.png"\] Alt text: Enable the KB article generation skill in the workspace.
-
 4.  Select up to five additional relevant cases in the modal and select **Continue with selected tasks**.
-
-    \[Omitted image "now-assist-kb--multiple-similar-cases.png"\] Alt text: Select up to five additional relevant cases to generate the article.
 
     The article appears in a new tab with a unique ID.
 

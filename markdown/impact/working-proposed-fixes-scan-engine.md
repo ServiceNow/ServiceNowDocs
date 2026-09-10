@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
 # View and implement proposed fixes for Scan Engine

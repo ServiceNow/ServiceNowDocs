@@ -44,7 +44,7 @@ Build a foundation
 
 </td><td>
 
-[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_EM.md)
+
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use the Event Management application as a single management console to identify 
 
 </td><td>
 
-[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_InstalledWithEventManagement.md)
+Roles installed with Event Management
 
 </td><td>
 
@@ -64,7 +64,7 @@ Optimize the functionality
 
 </td><td>
 
-[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-landing-page.md)
+
 
 </td><td>
 
@@ -72,7 +72,7 @@ Health Log Analytics helps prevent IT issues before your users are affected. It 
 
 </td><td>
 
-[Roles installed with Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/hla-components.md#section_okx_gk3_2nb)
+Roles installed with Health Log Analytics
 
 </td><td>
 
@@ -105,7 +105,7 @@ Optimize the functionality
 
 </td><td>
 
-[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/c_ServiceMappingOverview.md)
+
 
 </td><td>
 
@@ -113,7 +113,7 @@ Service Mapping discovers all application services in your organization and buil
 
 </td><td>
 
-[Roles installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/components-installed-with-service-mapping.md#section_wly_yyh_wdb)
+Roles installed with Service Mapping
 
 </td><td>
 
@@ -134,7 +134,7 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/components-installed-with-sow-itom.md)
+Roles installed with Service Operations Workspace for ITSM
 
 </td><td>
 

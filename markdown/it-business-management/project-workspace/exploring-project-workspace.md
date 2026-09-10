@@ -54,7 +54,7 @@ Plan and allocate resources using the Project Workspace application to enable op
 -   **[Financials in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/financial-planning-in-pw.md)**  
 Plan, re-forecast, track the financials, and create baselines for projects and demands.
 -   **[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/status-reporting-in-pw.md)**  
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health . These areas include cost, resources, milestones, health, and more.
 -   **[Project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/project-types-in-pw.md)**  
 Project Workspace supports that let administrators define custom fields and form layouts for each project type. This enables configuration independence across different types of projects without affecting default fields or other project types.
 -   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/better-together-with-itam.md)**  

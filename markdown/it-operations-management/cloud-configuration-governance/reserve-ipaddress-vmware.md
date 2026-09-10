@@ -1,5 +1,5 @@
 ---
-title: Reserve IP addresses for VMware vSphere virtual machines in InfoBlox
+title: Reserve IP addresses for VMware vSphere VMs in InfoBlox
 description: Create a policy to reserve IP addresses for VMware vSphere virtual machines in Infoblox, at the time of provisioning the virtual machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/reserve-ipaddress-vmware.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [IPAM integration, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Reserve IP addresses for VMware vSphere virtual machines in InfoBlox
+# Reserve IP addresses for VMware vSphere VMs in InfoBlox
 
 Create a policy to reserve IP addresses for VMware vSphere virtual machines in Infoblox, at the time of provisioning the virtual machines.
 

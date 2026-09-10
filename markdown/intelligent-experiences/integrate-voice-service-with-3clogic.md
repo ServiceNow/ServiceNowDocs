@@ -63,6 +63,8 @@ Connect your 3CLogic voice service to a ServiceNow voice assistant using the Web
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/voice-agent-reference.md).
+
 9.  In your 3CLogic account, paste the **URL**, **Client secret**, and **Client id** into the corresponding fields.
 
 10. Complete any additional configuration required in your 3CLogic account.

@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery Items, Data Import, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

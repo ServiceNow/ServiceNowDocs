@@ -8,7 +8,7 @@ product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: reference
 last_updated: "2026-07-01"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [system properties, configuration, limits, reference, Business application candidate agent, ServiceNow Otto for CMDB]
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -149,7 +149,5 @@ Access to all Business application candidate agent tables, forms, and configurat
 **Related topics**  
 
 
-[Activate the Business application candidate agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-act.md)
-
-[Review Business application candidate agent recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-biz-app-candidate-rec.md)
+[na-cmdb-agent-biz-app-candidate-act]
 

@@ -1,20 +1,22 @@
 ---
-title: Discovery Admin Workspace data visualizations
-description: The Overview tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
+title: Schedule details data visualizations
+description: When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The Overview tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/r\_dawScheduleDetailsOverview.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-08-17"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery Admin Workspace data visualizations
+# Schedule details data visualizations
 
-The **Overview** tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
+When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The **Overview** tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
+
+**Note:** For certificate discovery schedules, the Total CIs and CIs discovered count visualizations are replaced by the Total Certificates Discovered and Certificates discovered count visualizations, respectively. Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
 
 <table id="table_cb2_yjv_fsb"><thead><tr><th>
 
@@ -74,7 +76,19 @@ Indicator
 
 </td><td>
 
-Number of CIs detected on the last run.
+Number of certificates detected on the last run.
+
+</td></tr><tr><td>
+
+Total Certificates Discovered
+
+</td><td>
+
+Indicator
+
+</td><td>
+
+Number of certificates detected on the last run.
 
 </td></tr><tr><td>
 
@@ -86,7 +100,19 @@ Line chart
 
 </td><td>
 
-Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Note:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-setup.md).
+
+</td></tr><tr><td>
+
+Certificates discovered count
+
+</td><td>
+
+Line chart
+
+</td><td>
+
+Trends of discovered certificates for this Discovery schedule across the statuses listed in Run History.
 
 </td></tr><tr><td>
 

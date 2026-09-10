@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Using grants management, setup grants, configure grants]
 breadcrumb: [Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -21,7 +21,7 @@ The Grants Application Workflow in the Public Sector Digital Services \(PSDS\) G
 
 The Grants Management experience begins on the Grants Management landing page for grants agents and grants program managers. Grants organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-The following is an example of how the default landing page appears in the CSM Configurable Workspace Grants Management workspace for a grant agents or grant program manager.
+The following is an example of how the default landing page appears in the CRM Workspace Grants Management workspace for a grant agents or grant program manager.
 
 \[Omitted image "psds\_gmp\_landing\_page.png"\] Alt text: grants management landing page view for agents or managers
 
@@ -45,7 +45,7 @@ Once grant program set-up is complete, you can see every case detail \(narrative
 
 \[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 
-For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see 
+For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see [Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-gpp-tabs.md)
 
 ## Grants Management Application Intake​
 
@@ -59,7 +59,7 @@ For more information on how applicants can use the Grants Management to view gra
 
 ## Grants Management Application Screening
 
-For grants program managers \(case agents\) and directors, the application screening feature provides visibility across all proposal and submission details related to the grant program, once an applicant submits a proposal for an active grant program created by the grant program manager. Tools for agents to streamline the screening of submissions. The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
+For grants program managers \(case agents\) and directors, the application screening feature provides visibility across all proposal and submission details related to the grant program. This visibility is available once an applicant submits a proposal for an active grant program. The feature provides tools for agents to streamline the screening of submissions. The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
 
 Using the Grants Management Screening feature, managers can:
 
@@ -74,9 +74,9 @@ For more information on how grants managers can use the Application Screening fe
 
 ## Grants Management Application Evaluation
 
-Grant proposals that pass the screening stage enter the evaluation phase, where the grants program manager creates and assigns proposal evaluation tasks to a group of external evaluators known as merit reviewers. Once all evaluation tasks are completed, the application is ready for the funding proposal phase, where certain grant applications will be selected for approval.
+Grant proposals that pass the screening stage enter the evaluation phase. The grants program manager creates and assigns proposal evaluation tasks to a group of external evaluators known as merit reviewers. Once all evaluation tasks are completed, the application is ready for the funding proposal phase, where certain grant applications will be selected for approval.
 
-\[Omitted image "psds\_gmp\_proposal-playbook\_evaluation\_view.png"\] Alt text:
+\[Omitted image "psds\_gmp\_proposal-playbook\_evaluation\_view.png"\] Alt text: Grant manager evaluation agent view
 
 The funding proposal workflow involves the assessment of the evaluations conducted by the merit reviewers, and the definition of a proposal which will be sent to the Grant Program Director \(GPD\) for final approval. The funding proposal contains the individual grant applications which the grants program manager has selected for approval, as well as the proposed award amount for each.
 

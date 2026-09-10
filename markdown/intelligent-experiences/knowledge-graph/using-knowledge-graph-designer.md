@@ -26,7 +26,7 @@ The relationship or connections between these nodes are referred to as edges. Yo
 
 With Knowledge Graph Designer, you can create, edit, duplicate, or delete a Knowledge Graph schema.
 
-Apart from ServiceNow tables, you can also create Knowledge Graph schema using WorkFlow Data Fabric tables to retrieve data from different systems in real time without moving it.
+Apart from ServiceNow tables, you can also create Knowledge Graph schema using Workflow Data Fabric tables to retrieve data from different systems in real time without moving it.
 
 There’s an option to test a Knowledge Graph schema by generating and running a query.
 

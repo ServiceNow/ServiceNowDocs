@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-07-30"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
-breadcrumb: [Configure, AI Admin Center, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Setting up automation opportunity discovery in AI Admin Center
@@ -23,15 +23,29 @@ Create and activate a scheduled analysis of your instance records to discover au
 Edit a scheduled analysis of your instance records.
 -   **[Deactivate an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-deactivate-data-source.md)**  
 Deactivate a data source analysis that you no longer want to run for automation opportunity discovery.
+-   **[Delete an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**  
+Delete a data source analysis that you no longer want to run for automation opportunity discovery.
+-   **[Activate a deactivated analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-activate-data-source.md)**  
+Reactivate a previously deactivated data source analysis.
+-   **[Set up a data source for analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-set-up-data-source.md)**  
+Create and activate a scheduled analysis of your instance records to discover automation opportunities.
+-   **[Edit an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-edit-data-source.md)**  
+Edit a scheduled analysis of your instance records.
+-   **[Deactivate an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-deactivate-data-source.md)**  
+Deactivate a data source analysis that you no longer want to run for automation opportunity discovery.
+-   **[Delete an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-delete-data-source.md)**  
+Delete a data source analysis that you no longer want to run for automation opportunity discovery.
 -   **[Activate a deactivated analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-activate-data-source.md)**  
 Reactivate a previously deactivated data source analysis.
 
-**Parent Topic:**[Configuring AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
+
+**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configuring-ai-agent-advisor.md)
 
 **Related topics**  
 
 
-[Confirm installation of AI Admin Center]()
+[Confirm installation of AI Agent Advisor]()
 
-[Enable the ServiceNow Otto panel]()
+[Confirm installation of AI Agent Advisor]()
 

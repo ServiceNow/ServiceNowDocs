@@ -28,7 +28,7 @@ Role required: admin
 
 4.  In the **Messages** field, enter the name of the role that was added, and add a line in the script to include the option.
 
-    \[Omitted image "psds\_config\_internalprogramteam\_script.png"\] Alt text:
+    \[Omitted image "psds\_config\_internalprogramteam\_script.png"\] Alt text: Internal program team script view
 
 
 ## Result

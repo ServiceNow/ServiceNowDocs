@@ -1,6 +1,6 @@
 ---
 title: Create a case on behalf of a supplier from the Source-to-Pay Workspace
-description: Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+description: Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier
 
 # Create a case on behalf of a supplier from the Source-to-Pay Workspace
 
-Create a supplier case to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from a supplier.
+Create supplier cases to track the progress of supplier tasks, resolve issues related to supplier products or services, and request additional information from the suppliers.
 
 \[Omitted video\] Description: Describes the procedure for creating a case on behalf of a supplier from the Source to Pay workspace.
 
@@ -30,15 +30,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 2.  Do one of the following.
 
-<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d45838e92">
+<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d47639e92">
 
 To
 
-</th><th align="left" id="d45838e95">
+</th><th align="left" id="d47639e95">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d45838e101">
+</th></tr></thead><tbody><tr><td id="d47639e101">
 
 **To create a case from Quick actions**
 
@@ -50,7 +50,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier case**.
 
 
-</td></tr><tr><td id="d45838e138">
+</td></tr><tr><td id="d47639e138">
 
 **To create a case from the List page**
 

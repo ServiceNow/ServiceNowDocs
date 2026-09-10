@@ -15,6 +15,10 @@ breadcrumb: [Enable AI experiences]
 
 Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with AI Control Tower.
 
+\[Omitted video\] Description: AI Control Tower overview video, approximately 3 minutes and 15 seconds long.
+
+Watch this short video to learn more about the AI Control Tower application.
+
 ## Get started
 
 <table id="table_get_started" class="nav-card presentation"><tbody><tr><td>
@@ -23,7 +27,7 @@ Gain visibility into your organization's AI footprint, manage the lifecycle of A
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate, install, and set up AI Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
 
 </td><td>
 
@@ -31,7 +35,7 @@ Gain visibility into your organization's AI footprint, manage the lifecycle of A
 
 </td></tr><tr><td>
 
-[Discover AI assets\[Omitted image "bus-discover.svg"\] Alt text:Build your AI inventory.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-discovering-ai-assets.md)
+[Discover and manage AI assets\[Omitted image "bus-discover.svg"\] Alt text:Build and manage your inventory and work with individual AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-discovering-ai-assets.md)
 
 </td><td>
 
@@ -73,5 +77,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

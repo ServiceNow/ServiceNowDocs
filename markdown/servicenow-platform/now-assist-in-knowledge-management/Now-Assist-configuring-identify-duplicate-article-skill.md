@@ -1,20 +1,20 @@
 ---
-title: Configure and activate the Now Assist Identify duplicate articles skill
-description: Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
+title: Configure and activate the identify duplicate articles skill
+description: Configure the Knowledge content management skill to enable admins and managers to activate the identify duplicate articles skill in ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.html
 release: zurich
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
 breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure and activate the Now Assist Identify duplicate articles skill
+# Configure and activate the identify duplicate articles skill
 
-Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
+Configure the Knowledge content management skill to enable admins and managers to activate the identify duplicate articles skill in ServiceNow Otto.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ This skill enables admins and managers to identify and review duplicate content.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Platform**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin** &gt; **AI Skills** &gt; **Platform**.
 
-2.  In the Now Assist Skills for Platform list view, scroll down to the Identify duplicate articles skill.
+2.  In the Skills for Platform list view, scroll down to the Identify duplicate articles skill.
 
 3.  Navigate to the skill configuration page by selecting **Activate**.
 
@@ -56,7 +56,7 @@ Fields
 
 </td><td>
 
-Select the fields that will be used to identify duplicate articles. These fields can be configured in both OOB and custom templates. The duplicate detection job will use these configured fields to find duplicate articles.
+Specify the fields which will be used to identify duplicate articles. To run this job on OOB templates, select **Configure custom template**. After configuration, this becomes a read-only field.
 
 </td></tr><tr><td>
 
@@ -78,6 +78,14 @@ Set the frequency at which the job for identifying the duplicate articles is run
 -   When you select the **Run once** option and activate the skill, the application runs the job immediately after its activation. Selecting any other option, runs the job soon after its activation and, as per the selected frequency in the subsequent runs.
 
 
+</td></tr><tr><td>
+
+Configure custom template
+
+</td><td>
+
+Use the template to specify all the fields that will be used in the identify duplicate articles job. Fields specified in this template will be used to configure the job runs.
+
 </td></tr></tbody>
 </table>5.  Select **Save and continue**.
 
@@ -86,7 +94,12 @@ Set the frequency at which the job for identifying the duplicate articles is run
 
 ## Result
 
-The Now Assist Identify duplicate articles skill is configured.
+The identify duplicate articles skill is configured.
 
 **Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+
+**Related topics**  
+
+
+[Identify and resolve duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/identify-duplicate-articles.md)
 

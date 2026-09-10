@@ -17,7 +17,7 @@ Agents and customers use the CPQ Configurator to customize configurable products
 
 ## CPQ Configurator overview
 
-With the CPQ Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CSM Configurable Workspace, while customers use the configurator in the Business Portal for self-service transactions.
+With the CPQ Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CRM Workspace, while customers use the configurator in the Business Portal for self-service transactions.
 
 **Note:** The CPQ Configurator is available if it's been implemented in your organization. Otherwise, the [legacy product configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-som-product-configurator.md) is available for customizing configurable products.
 

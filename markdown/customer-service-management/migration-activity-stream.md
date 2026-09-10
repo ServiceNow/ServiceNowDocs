@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-08-06"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity stream

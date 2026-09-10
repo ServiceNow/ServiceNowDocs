@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Azure DevOps Boards spoke v3.1.0 is the latest version.
+Azure DevOps Boards spoke v3.1.3 is the latest version.
 
 ## Supported versions
 

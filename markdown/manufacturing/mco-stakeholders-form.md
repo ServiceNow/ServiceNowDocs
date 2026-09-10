@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-stakeholders-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -36,7 +36,7 @@ Stakeholder
 
 </td><td>
 
-Select the user involved in solving the issue.
+User involved in solving the issue.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Responsibility
 
 </td><td>
 
-Select the responsibility of the stakeholder.
+Responsibility of the stakeholder.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ RACI
 
 </td><td>
 
-Select the role of the stakeholder involved in the issue.-   None
+Role of the stakeholder involved in the issue.-   None
 -   Responsible
 -   Accountable
 -   Consulted

@@ -36,15 +36,15 @@ You can interact with ServiceNow Otto directly in your Doc to create content, ad
 
 3.  From your Doc, open the page you want to work with and use ServiceNow Otto for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d303866e126">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d310375e126">
 
 Choice
 
-</th><th align="left" id="d303866e129">
+</th><th align="left" id="d310375e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d303866e135">
+</th></tr></thead><tbody><tr><td id="d310375e135">
 
 **Work with content of the whole page**
 
@@ -60,7 +60,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** ServiceNow Otto uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d303866e183">
+</td></tr><tr><td id="d310375e183">
 
 **Refine, elaborate, or improve the existing content within the page**
 
@@ -76,7 +76,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: ServiceNow Otto inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d303866e234">
+</td></tr><tr><td id="d310375e234">
 
 **Take assistance on a blank page**
 
@@ -93,7 +93,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using ServiceNow Otto.
 
-</td></tr><tr><td id="d303866e287">
+</td></tr><tr><td id="d310375e287">
 
 **Answer questions in the context of this Doc**
 

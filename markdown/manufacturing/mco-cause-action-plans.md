@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-cause-action-plans.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for remediation action plan, Create remediation action plan, Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a remediation action plan, Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Cause action plans
@@ -29,5 +29,5 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-remediation-action-plan.md)
+**Parent Topic:**[Create a remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-remediation-action-plan.md)
 

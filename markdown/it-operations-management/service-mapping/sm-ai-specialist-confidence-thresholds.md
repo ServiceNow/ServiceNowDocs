@@ -1,6 +1,6 @@
 ---
 title: Business App Mapping AI Agent confidence thresholds
-description: Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
+description: Understand how the Business App Mapping AI Agent handles matches based on their AI confidence score and the action taken for each score range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/sm-ai-specialist-confidence-thresholds.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [AI Agents for Service Mapping, AI in Service Mapping, Using Service
 
 # Business App Mapping AI Agent confidence thresholds
 
-Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
+Understand how the Business App Mapping AI Agent handles matches based on their AI confidence score and the action taken for each score range.
 
 |Score range|Confidence level|Action|
 |-----------|----------------|------|

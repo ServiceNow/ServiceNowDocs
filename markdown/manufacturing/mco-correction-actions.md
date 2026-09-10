@@ -1,18 +1,18 @@
 ---
-title: Correction actions
-description: Create the correction actions for the non-conformance report.
+title: Create a correction action
+description: Create a correction actions for the non-conformance report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-correction-actions.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a Product non-conformance, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Correction actions
+# Create a correction action
 
-Create the correction actions for the non-conformance report.
+Create a correction actions for the non-conformance report.
 
 ## Before you begin
 
@@ -39,12 +39,12 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 6.  Select **Save**.
 
 
--   **[CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)**  
-Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality—Such as rework, scrap, warranty claims, customer returns.
+-   **[Create a CoPQ expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line.md)**  
+Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
 -   **[Impacted asset action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-impacted-asset-action.md)**  
-Create the list of assets the are impacted under non-conformance cases.
+Create the list of assets that are impacted under non-conformance cases.
 
-**Parent Topic:**[Related lists for Non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product non-conformance without playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

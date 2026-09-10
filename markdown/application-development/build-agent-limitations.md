@@ -52,10 +52,8 @@ Customers in regulated environments must remain on Build Agent v1, which runs on
 
 In regulated environments where Build Agent v2 is unavailable, you can continue to use the following:
 
--   Developer Sandboxes
 -   Core update set and Git workflows in ServiceNow Studio
 -   Instance Scan
--   ReleaseOps
 
 ## Feedback on Build Agent
 

@@ -32,14 +32,14 @@ Before connecting Claude Desktop to the Service Mapping MCP Server, confirm the 
 
 -   Verify that you have the required role configuration. For more information, see [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
-    Role required: service\_mapping\_user assigned with the sn\_sm\_gen\_ai.sm\_mcp\_user role
+    Role required: sn\_sm\_gen\_ai.sm\_mcp\_user
 
-    \[Omitted image "sm-mcp-roles.png"\] Alt text: service\_mapping\_user contains sn\_sm\_gen\_ai.sm\_mcp\_user, which contains sn\_mcp\_server.viewer. The sn\_sm\_gen\_ai.sm\_mcp\_admin role separately contains sn\_sm\_gen\_ai.sm\_mcp\_user.
+    \[Omitted image "sm-mcp-roles-sep26.png"\] Alt text: sn\_sm\_gen\_ai.sm\_mcp\_admin contains sn\_sm\_gen\_ai.sm\_mcp\_user and service\_mapping\_admin. sn\_sm\_gen\_ai.sm\_mcp\_user contains service\_mapping\_user and sn\_mcp\_server.viewer.
 
 
 ## About this task
 
-Claude Desktop supports custom MCP connectors that let Claude query external data sources on your behalf. After you add the Service Mapping MCP Server as a connector and authorize it with your ServiceNow credentials, Claude can call the Service Mapping MCP tools whenever you ask a question about application services in a chat.
+Claude Desktop supports custom MCP connectors that let Claude query external data sources on your behalf. After you add the Service Mapping MCP Server as a connector and authorize it with your ServiceNow credentials, Claude can call the Service Mapping MCP tools according to the prompt.
 
 For detailed information, see [Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)
 

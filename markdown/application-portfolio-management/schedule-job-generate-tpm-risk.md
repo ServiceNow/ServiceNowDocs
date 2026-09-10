@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table.
+The scheduled job populates the risk scores for business applications \(BA\), application services \(AS\), software products, and hardware models. The scores are calculated for a fiscal period of type month in the Technology lifecycle risks \(sn\_apm\_tpm\_technology\_risk\) table.
 
 The scores of software products and hardware models are calculated based on their lifecycle dates \(EOS, EOES, EOL\), where 100 is the maximum score. The sum of the related software and hardware risk score is the risk score of an application service. And, the sum of the related application service risk score is considered as the risk score of a business application.
 

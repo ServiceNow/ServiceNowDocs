@@ -26,7 +26,7 @@ The Tabs component displays tabs for the contextual sidebar is configured and cu
 
 ## Standard record page tabs
 
-The standard record page template in UI Builder displays some tabs by default. If you're using a prebuilt workspace like CSM Configurable Workspace or Service Operations Workspace, additional tabs may be configured for you based on the needs of that product.
+The standard record page template in UI Builder displays some tabs by default. If you're using a prebuilt workspace like CRM Workspace or Service Operations Workspace, additional tabs may be configured for you based on the needs of that product.
 
 The following components are added as tabs for the standard record page template.
 

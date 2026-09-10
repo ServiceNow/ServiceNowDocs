@@ -1,18 +1,18 @@
 ---
 title: Global Search in configurable workspaces
-description: Learn about how the CSM Agent Workspace Global Search functions with CSM Configurable Workspace.
+description: Learn about how the CSM Agent Workspace Global Search functions with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/migration-search-config.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Global Search in configurable workspaces
 
-Learn about how the CSM Agent Workspace Global Search functions with CSM Configurable Workspace.
+Learn about how the CSM Agent Workspace Global Search functions with CRM Workspace.
 
 Global Search provides users with the ability to search for information within the defined search sources.
 

@@ -42,7 +42,7 @@ Consider the following points before you begin setting up resource order control
 
     2.  Specify quota definitions.
 
-        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. If you want to trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded, you can either modify the base system policy action or create a custom policy for your instance.
+        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. You can trigger other actions when the resource limit is exceeded, such as notifications or a custom approval subflow. To do this, modify the base system policy action or create a custom policy for your instance.
 
     -   Modify a base system quota definition by specifying the default quota values per user and user group and the user groups to which the defined quota applies.
 
@@ -104,7 +104,7 @@ Consider the following points before you begin setting up resource order control
 
 Based on the Policy Rule action you configured for the Resource order control policy, either an email notification or an approval subflow or both will be triggered if the specified quota is exceeded.
 
-If you have configured an approval policy, the requester receives a notification stating that the approval request has been sent to a designated approver on exceeding the specified quota. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
+If you have configured an approval policy, the requester receives a notification when the specified quota is exceeded. The notification states that the approval request has been sent to a designated approver. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
 
-**Parent Topic:**[Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
+**Parent Topic:**[Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 

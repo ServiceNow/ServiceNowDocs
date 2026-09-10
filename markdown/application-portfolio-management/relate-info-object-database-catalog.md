@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use - Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -58,7 +58,7 @@ You may have applications, the data of which are not stored in a conventional da
 
 ## What to do next
 
-Click the show dependency views icon \(\) in the **Information Object** related items to view the dependency of the business application that is using the information object, which is running on a database server.
+In the **Information Object** related items, click the show dependency views icon \(\). The dependency view shows the business application using the information object and the database server running it.
 
 Apply the information portfolio for auditing. [Integrate with GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/apm-grc-integration-identify-risks.md) \(Governance, Risk, and Compliance\) and use the information object as an entity. GRC uses any entity such as a database, server, or a business application to audit. Associating the information object as an audit entity gives you the complete profile of the business application that uses the information object and its source of data.
 

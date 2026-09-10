@@ -24,7 +24,7 @@ AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/Servic
 
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 With generative AI skills with ServiceNow Otto for Security Incident Response \(SIR\), your security analysts have the option to:
 

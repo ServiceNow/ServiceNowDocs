@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/roll
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -28,15 +28,13 @@ If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from Thre
 
 2.  Select the security incident that you want to enrich with the MITRE-ATT&amp;CK information.
 
-3.  Click **Show All Related Lists** and the **Threat Lookup Results** tab.
+3.  Select **Show All Related Lists** and the **Threat Lookup Results** tab.
 
-4.  Select the observable and then from the Actions menu, click **Roll up MITRE ATT&amp;CK Information to SI**.
+4.  Select the observable and then from the Actions menu, select **Roll up MITRE ATT&amp;CK Information to SI**.
 
     You can select multiple observables and rollup the information.
 
-5.  Click **Reload** to confirm the changes.
-
-    The following illustration shows how to select an observable and roll up the Threat Lookup results to the security incident.\[Omitted image "mitre-rollup-threat-lookup.gif"\] Alt text: Manually rollup threat lookup results.
+5.  Select **Reload** to confirm the changes.
 
     You can view the MITRE-ATT&amp;CK Card to confirm that the Threat Lookup results have been rolledup to the security incident.
 

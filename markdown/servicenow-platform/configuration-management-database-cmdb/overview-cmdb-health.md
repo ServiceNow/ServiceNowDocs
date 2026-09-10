@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Explore, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -43,7 +43,7 @@ For more details about the KPIs and their associated metrics, see [CMDB Health K
 
 ## CMDB Health dashboards and reports
 
-You can view CMDB Health dashboards and reports in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). Those dashboards show CMDB Health aggregated results for compliant and non-compliant CIs for CMDB Health KPIs and their metrics.
+You can view CMDB Health dashboards and reports in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in Service Graph Workspace. Those dashboards show CMDB Health aggregated results for compliant and non-compliant CIs for CMDB Health KPIs and their metrics.
 
 <table id="table_dlz_mff_s5"><thead><tr><th>
 

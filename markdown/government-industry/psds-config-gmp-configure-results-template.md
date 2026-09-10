@@ -1,6 +1,6 @@
 ---
 title: Create a Grants Program results letter template
-description: As an agent or Grants Program manager, you can leverage templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
+description: As an agent or Grants Program manager, you can use templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-gmp-configure-results-template.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Set up a grant program, Grants Management, Playbooks and Solutions,
 
 # Create a Grants Program results letter template
 
-As an agent or Grants Program manager, you can leverage templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
+As an agent or Grants Program manager, you can use templates to compose letters informing applicants of the result, choosing from Award, Rejection \(ineligible\), and Rejection \(decline\). These letters are displayed to applicants on the Grants Management Portal, once a decision has been communicated.
 
 ## About this task
 
-You can create and define several results letter or document templates that are used to notify applicants about the final status of their grants proposals, and record the outcome. The applicant is then notified and can access and view their results letter and merit review summaries on the applicant portal, and decline or accept the award notice if their proposal is approved.
+You can create and define several results letter or document templates that are used to notify applicants about the final status of their grants proposals. The applicant is then notified and can access and view their results letter and merit review summaries on the applicant portal. If their proposal is approved, they can decline or accept the award notice.
 
 ## Before you begin
 

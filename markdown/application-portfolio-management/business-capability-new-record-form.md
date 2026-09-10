@@ -1,6 +1,6 @@
 ---
 title: Business capability record form
-description: Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+description: Create, edit, and delete business capabilities and manage their relationships in the capability map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/business-capability-new-record-form.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio
 
 # Business capability record form
 
-Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+Create, edit, and delete business capabilities and manage their relationships in the capability map.
 
 ## Business Capability record form fields
 

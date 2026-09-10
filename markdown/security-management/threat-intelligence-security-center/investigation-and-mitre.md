@@ -7,8 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -38,19 +38,21 @@ Role required: sn\_sec\_tisc.analyst
 
     \[Omitted image "tisc-investigation-canvas-mitre.png"\] Alt text: Investigation Canvas MITRE Framework.
 
-    The MITRE ATT&amp;CK Framework shows different levels of tactics and techniques association on the canvas by default.
+    The MITRE ATT&amp;CK Framework shows different levels of tactics and techniques association.
+
+    **Note:**
+
+    Each matrix in the list includes the MITRE ATT&amp;CK collection version that it was ingested from, for example Enterprise ATT&amp;CK \(v18.0\). The framework excludes any association that comes from a tactic and technique pair that MITRE has stopped mapping. For more information, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
 
     1.  The top row displays all the tactics present in the selected MITRE ATT&amp;CK matrix.
 
-    2.  Each technique within the framework now shows both the node type and the corresponding node value.
+    2.  By default, each tactic shows the count of total techniques and sub-techniques associated with it.
 
-    3.  By default, each tactic shows the count of total techniques and sub-techniques associated with it.
+    3.  Use the **Refresh** icon to reload the MITRE ATT&amp;CK framework and view the latest technique-tactic associations.
 
-    4.  Use the **Refresh** icon to reload the MITRE ATT&amp;CK framework and view the latest technique-tactic associations.
+    4.  View the MITRE ATT&amp;CK techniques and sub-techniques related to all the nodes \(entities\) in the canvas.
 
-    5.  View the MITRE ATT&amp;CK techniques and sub-techniques related to all the nodes \(entities\) in the canvas.
-
-    6.  Click on one or more node\(s\) to view the associated MITRE ATT&amp;CK techniques and sub-techniques related to those selected node\(s\) in the canvas.
+    5.  Click on one or more node\(s\) to view the associated MITRE ATT&amp;CK techniques and sub-techniques related to those selected node\(s\) in the canvas.
 
         **Important:** In the framework, the techniques and sub-techniques that are associated with the nodes in the canvas are highlighted.
 

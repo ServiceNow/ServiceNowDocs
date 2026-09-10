@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-08-25"
 reading_time_minutes: 4
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Creating pages and page variants

@@ -1,18 +1,18 @@
 ---
 title: Supending sold products
-description: Suspend sold products to create a suspend order or quote on the CSM Configurable Workspace.Create an order to suspend a sold product and its hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.Create an order to suspend multiple sold product and their hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
+description: Suspend sold products to create a suspend order or quote on the CRM Workspace.Create an order to suspend a sold product and its hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.Create an order to suspend multiple sold product and their hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/supending\_sold\_products.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Supending sold products
 
-Suspend sold products to create a suspend order or quote on the CSM Configurable Workspace.
+Suspend sold products to create a suspend order or quote on the CRM Workspace.
 
 Supend single or multiple root sold products and create combined orders for suspension and resumption of products and servies at the same time, to improve agent efficiency.
 
@@ -23,7 +23,7 @@ Supend single or multiple root sold products and create combined orders for susp
 
 ## Suspend a single sold product
 
-Create an order to suspend a sold product and its hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
+Create an order to suspend a sold product and its hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 
 ### About this task
 
@@ -66,7 +66,7 @@ An order with the suspend action is created for the suspend order line items. If
 
 ## Suspend multiple sold products
 
-Create an order to suspend multiple sold product and their hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
+Create an order to suspend multiple sold product and their hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 
 ### Before you begin
 

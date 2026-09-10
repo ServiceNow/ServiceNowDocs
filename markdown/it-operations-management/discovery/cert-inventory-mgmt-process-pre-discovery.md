@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Process flow, Explore, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ The port probe \[tls\_ssl\_certs\] automatically scans 14 default preauthorized 
 -   Typical ports for SSL: 443, 8443, 9443, 636 \(ldaps\), 993 \(imaps\), 995 \(popssl\), 989, 990
 -   StartTLS ports: 25 \(smtp\), 110, 143, 389, 21, 587 \(smtp\)
 
-As part of the CI Discovery process during Shazzam, the MID Server uses scanners to gather certificate chain information from the IP port number, capturing diverse attributes, including the certificate hierarchy. The MID Server then transforms these certificates into an XML payload, sharing it with the instance. The Shazzam sensor, in turn, detects the ECC queue entry and inserts a new record into the Discovered Certificate table \[sn\_disco\_certmgmt\_certificate\_history\].
+As part of the CI Discovery process during Shazzam, the MID Server uses scanners to gather certificate chain information from the IP port number and capturing diverse attributes, including the certificate hierarchy. The MID Server then transforms these certificates into an XML payload, sharing it with the instance. The Shazzam sensor, in turn, detects the ECC queue entry and inserts a new record into the Discovered Certificate table \[sn\_disco\_certmgmt\_certificate\_history\].
 
 The following fields are pulled from the XML payload and verified in java code from the Shazzam TLS port probe for discovered certificates: certificate id, revocation\_status, subject, issuer, sans/, is\_self\_signed, is\_ca, valid\_from, valid\_to, signature\_algorithm, fingerprint\_algorithm, key\_size, serial\_number, and version.
 
@@ -44,7 +44,7 @@ The Import certificates are discovered through the Import SSL Certificate patter
 
 ## Discovery via CA authority \(Version 1.1.7 Certificate Inventory and Management\)
 
-Once the Certificate Inventory and Management credential is set up with either GoDaddy, DigiCert, Entrust, or Sectigo Certificate Authority and the Discovery schedule runs, the specific CA pattern makes REST API calls to \(GoDaddy, DigiCert, Entrust, or Sectigo\), collects certificate information, retrieves the list of certificates, and stores it in the \[cmdb\_ci\_certificate\], \[certificate\_domain\], and \[sys\_attachment\] tables.
+After the Certificate Inventory and Management credential is set up with either GoDaddy, DigiCert, Entrust, or Sectigo Certificate Authority and the Discovery schedule runs, the specific CA pattern makes REST API calls to \(GoDaddy, DigiCert, Entrust, or Sectigo\), collects certificate information, retrieves the list of certificates, and stores it in the \[cmdb\_ci\_certificate\], \[certificate\_domain\], and \[sys\_attachment\] tables.
 
 ca\_api\_url and ca\_api\_version are optional parameters. If these parameters are left empty inside pattern parameters, default values will be used. The default values include:
 

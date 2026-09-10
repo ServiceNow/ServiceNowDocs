@@ -7,8 +7,8 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-08-24"
+reading_time_minutes: 3
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,15 +18,22 @@ Discovery can find running instances of PostgreSQL on Windows and Linux systems.
 
 ## Credentials and other prerequisites
 
-These credentials are required:
+-   **Create credentials for PostgreSQL discovery**
+    -   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md)
+    -   \[optional\] [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md)
 
--   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/r_SSHCredentialsForm.md)
--   \[optional\] [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/applicative-creds.md)
+-   **Verify root-level access to the database**
 
+    The user must have root-level access to the database to access the `postgresql.conf` file.
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+-   **Verify privileged commands for for PostgreSQL discovery**
 
-The user must have root-level access to the database to access the `postgresql.conf` file.
+    For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+
+-   **Differentiate multiple PostgreSQL instances on the same host by port number**
+
+    Starting with Discovery and Service Mapping Patterns version 1.35.0, you can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the **mid.discovery.postgresql.include\_port\_in\_name** MID Server property. For more information, see [Include the port number in PostgreSQL instance names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/enable-postgresql-port-in-name.md).
+
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -65,21 +72,28 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 
 ## Data collected
 
-The following gathers specified information from the target. If the source is not configured, it brings back default information. For instance, for PostgreSQL Instance@hostname \(default name\), the source needs to be modified. If not, all the "PostgreSQL Instance@hostname" will be added in the source for the \[cmdb\_ci\_db\_postgresql\_instance\] table.
+Discovery populates the data in the CMDB when running the PostgreSQL DB pattern.
 
-|Label|Table Name|Field Name|Source|
-|-----|----------|----------|------|
-|Name|cmdb\_ci\_db\_postgresql\_instance|name|PostgreSQL Instance@*hostname*|
-|Data Directory|cmdb\_ci\_db\_postgresql\_instance|data\_dir|running process|
-|TCP port|cmdb\_ci\_db\_postgresql\_instance|tcp\_port|running process|
-|SQL Configuration|cmdb\_ci\_db\_postgresql\_instance|postgres\_conf|*data\_directory*/postgresql.conf|
-|Version|cmdb\_ci\_db\_postgresql\_instance|version|postmaster/postgres|
+The following fields gather specified information from the target. If the source is not configured, it brings back default information. For instance, for PostgreSQL Instance@hostname \(default name\), the source needs to be modified. If not, all the "PostgreSQL Instance@hostname" will be added in the source for the PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\] table.
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The display name of the PostgreSQL instance.\*|
+|Data Directory \[data\_dir\]|The data directory of the PostgreSQL instance, parsed from the process command line.|
+|TCP port\(s\) \[tcp\_port\]|The port on which the PostgreSQL instance is listening, determined from the running process.|
+|Config File \[postgres\_conf\]|The path to the `postgresql.conf` configuration file.|
+|Version \[version\]|The PostgreSQL version, retrieved from the process executable.|
+
+\* To populate the **Name** field in the format **instance-port-tcp\_port@hostname** instead of the default **instance@hostname**, create the **mid.discovery.postgresql.include\_port\_in\_name** MID Server property. For more information, see [Include the port number in PostgreSQL instance names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/enable-postgresql-port-in-name.md).
 
 ## Relationships
 
-|Parent class|Relationship|Child class|
-|------------|------------|-----------|
-|cmdb\_ci\_db\_postgresql\_instance|Runs on:Runs|cmdb\_ci\_windows\_server or cmdb\_ci\_linux\_server|
+|CI|Relationship|CI|
+|---|------------|---|
+|PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\]|Runs on::Runs|Windows Server \[cmdb\_ci\_windows\_server\] or Linux Server \[cmdb\_ci\_linux\_server\]|
+
+-   **[Include the port number in PostgreSQL instance names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/enable-postgresql-port-in-name.md)**  
+You can make multiple PostgreSQL instances on the same host distinguishable by port number by creating the **mid.discovery.postgresql.include\_port\_in\_name** MID Server property. This property is supported for UNIX hosts only.
 
 **Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/database-discovery.md)
 

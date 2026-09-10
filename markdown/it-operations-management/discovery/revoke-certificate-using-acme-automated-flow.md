@@ -1,5 +1,5 @@
 ---
-title: Revoke certificate using ACME automated flow
+title: Revoke certificates using ACME automated flow
 description: Request a revoke certificate for an application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.html
@@ -7,32 +7,33 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Revoke certificate using ACME automated flow
+# Revoke certificates using ACME automated flow
 
 Request a revoke certificate for an application.
 
 ## Before you begin
 
-Ensure that the Certificate Management catalog is enabled and that a Routing Policy is created.
-
-Role required: pki\_admin or admin
+-   Ensure that a credential has been set up. For more information, see [Create credentials for ACME certificate authority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-credential-for-acme-ca.md).
+-   The Certificate Management catalog has been enabled.
+-   A routing policy with a DNS challenge action exists. For more information, see [Set up routing policies for ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/set-up-routing-policy-for-acme.md).
+-   Role required: certificate administrator \[sn\_disco\_certmgmt.pki\_admin\] or admin.
 
 ## Procedure
 
-1.  Access the certificate request automated flow.
+1.  Navigate to **All** &gt; **Self-Service** &gt; **Service Catalog**.
 
-    1.  Navigate to **All** &gt; **Service Catalog**.
+2.  Access the form for renewing a certificate.
 
-    2.  Select **Certificate Management**.
+    1.  Select **Certificate Management**.
 
-    3.  Select **Automated Flow**.
+    2.  Select **Automated Flow**.
 
-2.  Select **Revoke Certificate \(Automated\)**.
+    3.  Select **Revoke Certificate \(Automated\)**.
 
 3.  Unlock the **Issued Certificate** field.
 
@@ -49,5 +50,5 @@ Role required: pki\_admin or admin
 
 ## Result
 
-A task is automatically created that triggers the revocation operation. Once the operation completes, the status of the certificate changes to Revoked.
+A task is automatically created that triggers the revocation operation. After the operation is complete, the status of the certificate changes to Revoked.
 

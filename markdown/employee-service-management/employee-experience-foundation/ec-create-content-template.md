@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Content templates, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 

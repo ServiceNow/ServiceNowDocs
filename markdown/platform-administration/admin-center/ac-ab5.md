@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cert-inventory-mgmt.md)
+
 
 </td><td>
 
@@ -52,7 +52,7 @@ Certificate Inventory and Management discovers, takes inventory of, and proactiv
 
 </td><td>
 
-[Roles installed with Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cert-inventory-mgmt-user-roles.md#section_i3j_qfd_mjb)
+Roles installed with Certificate Inventory and Management
 
 </td><td>
 
@@ -64,7 +64,7 @@ Add advanced features
 
 </td><td>
 
-[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/cloud-management-v2-landing-page.md)
+
 
 </td><td>
 
@@ -84,7 +84,7 @@ Enhance the experience
 
 </td><td>
 
-[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/firewall-audit-reporting.md)
+
 
 </td><td>
 
@@ -92,7 +92,7 @@ Firewall Audits and Reporting discovers and takes inventory of your firewall sec
 
 </td><td>
 
-[Roles installed with Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/firewall-audit-reporting-users-roles.md#section_e1j_1f1_plb)
+Roles installed with Firewall Audits and Reporting
 
 </td><td>
 

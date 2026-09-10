@@ -27,7 +27,7 @@ ML Service Mapping uses machine learning to automatically discover and map out t
 -   Host identification: Alerts related to network issues are generated from various sources.
 -   Network context identification: The correlation process uses horizontal discovery results and ML Service Mapping to identify the most relevant service candidates and network connections.
 
-    This process uses the results of the scheduled job **Event Management - Populate Service candidate process to process mapping - Daily**, which runs once a day and is used to store process-to-process connections for Host CIs in the format required by the alert grouping algorithm.
+    This process uses the results of the scheduled job **Event Management - Populate Service candidate process to process mapping - Daily**, which runs once a day. The job stores process-to-process connections for Host CIs in the format required by the alert grouping algorithm.
 
 -   Alert grouping: Alerts are grouped based on direct process-to-process connections within the context of the same service candidate. Grouping is updated in real-time as new alerts are received.
 

@@ -1,20 +1,20 @@
 ---
 title: Install Supplier Collaboration Portal
-description: You can install the Supplier Collaboration Portal application \(com.snc.sn\_supplier\_sp\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.html
 release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Install Supplier Collaboration Portal
 
-You can install the Supplier Collaboration Portal application \(com.snc.sn\_supplier\_sp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 

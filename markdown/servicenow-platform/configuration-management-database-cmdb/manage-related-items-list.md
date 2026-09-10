@@ -24,9 +24,9 @@ Role required: itil\_admin
 
 The default related items list is used by the Duplicate CI Remediator, appearing on the **Merge Relationships and Related Items** tab. You can modify the list for only a specific task in the Duplicate CI Remediator without affecting the default global list.
 
-The default related items list is also used by the [De-duplication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceand in Service Graph Workspace for remediation.
+The default related items list is also used by the [De-duplication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) in CMDB Workspace for remediation.
 
-Globally modifying the list affects the remediation of all de-duplication tasks in the Duplicate CI Remediatorand in the De-duplication dashboard in CMDB Workspaceand in Service Graph Workspace.
+Globally modifying the list affects the remediation of all de-duplication tasks in the Duplicate CI Remediatorand in the De-duplication dashboard in CMDB Workspace.
 
 **Note:** Only related items in which the reference field points to Configuration Item \[cmdb\_ci\] in **sys\_dictionary** can be selected for the default related items list. Related items with references to any child of the Configuration Item class cannot be selected for the default related items list, but are still available for merging in the Duplicate CI Remediator for a specific task.
 

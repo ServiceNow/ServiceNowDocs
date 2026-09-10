@@ -16,7 +16,7 @@ If you're a government service agent or manager, you can use the Service Request
 
 A playbook provides a step-by-step guidance through the life cycle of a government service case.
 
-The Service Request Playbook automatically appears in the **Playbook** tab when you open or create a service request case in the CSM Configurable Workspace.
+The Service Request Playbook automatically appears in the **Playbook** tab when you open or create a service request case in the CRM Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a constituent when a stage or activity is complete, or auto-sending a work order to a field service agent. When using a playbook, you can:
 

@@ -28,6 +28,8 @@ Create synthetic monitors from incidents to proactively track endpoint failures 
 Create a synthetic monitor to test the availability of APIs discovered through API Insights.
 -   **[Manage synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/manage-synthetic-monitors.md)**  
 Edit or delete synthetic monitors after creating them.
+-   **[Enable ECC queue cleanup for synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/enable-ecc-queue-cleanup.md)**  
+Grant the ECC Queue auto-purge job permission to remove old synthetic monitoring messages from the ECC queue.
 
 **Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-health-landing-page.md)
 

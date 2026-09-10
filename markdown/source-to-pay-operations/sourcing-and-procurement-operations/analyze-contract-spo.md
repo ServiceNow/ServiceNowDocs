@@ -48,15 +48,15 @@ For more information, see [Contract analysis using Now Assist in Contract Manage
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d87577e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d91523e159">
 
 Method
 
-</th><th align="left" id="d87577e162">
+</th><th align="left" id="d91523e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87577e168">
+</th></tr></thead><tbody><tr><td id="d91523e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d87577e195">
+</td></tr><tr><td id="d91523e195">
 
 **Run Now Assist analysis on multiple contract documents**
 

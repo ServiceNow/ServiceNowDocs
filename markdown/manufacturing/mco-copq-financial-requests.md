@@ -1,18 +1,18 @@
 ---
-title: CoPQ financial requests
-description: Create CoPQ financial request for remediation action plan.
+title: Create a CoPQ financial request
+description: Create a CoPQ financial request for remediation action plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-financial-requests.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for remediation action plan, Create remediation action plan, Remediation action plans, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a remediation action plan, Remediation action plans, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# CoPQ financial requests
+# Create a CoPQ financial request
 
-Create CoPQ financial request for remediation action plan.
+Create a CoPQ financial request for remediation action plan.
 
 ## Before you begin
 
@@ -31,10 +31,10 @@ Role required: admin
 4.  Select **Save**.
 
 
--   **[CoPQ planned line charge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-planned-line-charge.md)**  
+-   **[Create a CoPQ planned line charge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-planned-line-charge.md)**  
 Create a CoPQ planned line charge for CoPQ financial request.
 
-**Parent Topic:**[Related list for remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-remediation-action-plan.md)
+**Parent Topic:**[Create a remediation action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-remediation-action-plan.md)
 
 **Related topics**  
 

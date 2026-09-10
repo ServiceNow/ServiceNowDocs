@@ -21,7 +21,7 @@ Use ServiceNow Otto for Customer Service Management \(CSM\) to generate a consol
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
-The **Case Insights** section requires the case summarization skill to be enabled. [Customer summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.md) and [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.md) must be active to enable all sections. The **Case Insights** section is available in the CSM default record page and front line record page in the CSM Configurable Workspace version 26.1.1 and later. Earlier version was **Case summary** and is available in CSM Configurable Workspace version 26.1.0 and earlier.
+The **Case Insights** section requires the case summarization skill to be enabled. [Customer summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-customer-summarization-in-now-assist-for-csm.md) and [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-special-handling-notes-summarization-in-now-assist-for-csm.md) must be active to enable all sections. The **Case Insights** section is available in the CSM default record page and front line record page in the CRM Workspace version 26.1.1 and later. Earlier version was **Case summary** and is available in CRM Workspace version 26.1.0 and earlier.
 
 ## About this task
 
@@ -44,7 +44,7 @@ The **Case Insights** section includes:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace** and open a customer service case.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case.
 
 2.  In the **Case Insights** section, select **Generate**.
 

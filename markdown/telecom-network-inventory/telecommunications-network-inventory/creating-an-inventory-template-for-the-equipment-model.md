@@ -8,7 +8,7 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
 
@@ -20,7 +20,7 @@ In the Inventory Template form in the Network Inventory Workspace Lists view, yo
 
 When you create an equipment inventory model, you must enter the following information:
 
-1.  In the **Name** and **Inventory Model** fields, your names and inventory model number must be unique for that piece of equipment, and can't be the same as any other piece of equipment.
+1.  In the **Name** and **Inventory Model** fields, your names and inventory model number must be unique for that piece of equipment. They cannot be the same as those of any other piece of equipment.
 2.  In the **Inventory Model** field, you must enter a reference qualifier to the equipment model.
 3.  In the **Default Field Values** field, you must select a default template for the tagging of the default attribute values.
 

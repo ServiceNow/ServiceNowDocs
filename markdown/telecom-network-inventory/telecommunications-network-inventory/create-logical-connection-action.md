@@ -22,7 +22,7 @@ When you enter the Interface A, this function automatically retrieves the data f
 
 This function also creates the connection elements and associates them to the logical connection.
 
-If you configure a network interface, equipment, physical connection, logical connection, or managed function as a connection element, the Logical Connection Creation function creates the corresponding connection element and associates it to a logical connection.
+If you configure any CI type as a connection element \(network interface, equipment, physical or logical connection, or managed function\), the function creates the corresponding connection element and associates it to the logical connection.
 
 You can use this function as a Workflow Studio action in the Telecommunications Network Inventory workflow.
 

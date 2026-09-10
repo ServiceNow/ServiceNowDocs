@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/configure-partner-relationship-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
@@ -124,7 +124,7 @@ Partner admins, agents, and managers can manage partner programs and partnership
 -   **[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-segment-management.md)**  
 Install the Segment Management application \(com.snc.segment\_mgmt\) from the ServiceNow® Store to manage and group entities into various segments to promote progression.
 -   **[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/deal-registration-management.md)**  
-Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\) to enable channel partners to create a structured and organized process to identify and manage a customer's interest in the enterprise's products.
+Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\) to enable channel partners to identify and manage customer interest in products.
 -   **[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-sales-common-for-partner-relationship-management.md)**  
 Install the Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
 -   **[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/install-order-management-for-channel-partners.md)**  

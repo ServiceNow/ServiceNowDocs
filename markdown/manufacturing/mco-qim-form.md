@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-qim-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Manufacturing Commercial Operations]
 ---
@@ -14,14 +14,14 @@ breadcrumb: [Reference, Manufacturing Commercial Operations]
 
 Includes all the forms related to quality issue management.
 
--   **[Product non-conformance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-form.md)**  
-Product non-conformance form enables you to add the case details.
+-   **[Product details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-form.md)**  
+The Product non-conformance details form enables you to add the case details.
 -   **[Product non-conformance case task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-product-non-conformance-case-task-form.md)**  
-Product non-conformance case task form enables you to add the case task details.
+The Product non-conformance case task form enables you to add the case task details.
 -   **[Root cause analysis task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-root-cause-analysis-task-form.md)**  
 Root cause analysis task form enables you to enter the root cause of the product non-conformance.
 -   **[Correction actions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-correction-actions-form.md)**  
-Correction action form enables you to enter the correction action details for the issue.
+The Correction action form enables you to enter the correction action details for the issue.
 -   **[Containment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-containment-actions-form.md)**  
 The containment action form lets you record details of products with quality issues and helps prevent their sale to new customers.
 -   **[CoPQ expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-expense-line-form.md)**  
@@ -35,15 +35,15 @@ The stakeholders form enables you to add the stakeholder details involved in the
 -   **[Corrective action form for PQI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-corrective-action-form-for-pqi.md)**  
 The corrective action form enables you to add the details for PQI.
 -   **[Preventive action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-preventive-action-form.md)**  
-The preventive action form enables you to add the details for QI.
+The preventive action form captures the remediation plan, cost, priority, and status details for a quality issue \(QI\).
 -   **[Remediation action plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-remediation-action-plan-form.md)**  
-Remediation action plan enables you to add the remediation details.
+The Remediation action plan form enables you to add the remediation details.
 -   **[CoPQ financial requests form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-financial-requests-form.md)**  
 CoPQ financial form enables you to enter the financial requests raised for the remediation plan.
 -   **[CoPQ planned line charge form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-copq-planned-line-charge-form.md)**  
-The CoPQ planned line form enables you to add the required details.
+The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 -   **[Cause action plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-cause-action-plan-form.md)**  
-Cause action plan form enable you to add the cause action details for remediation plan.
+The Cause action plan form enables you to add the cause action details for a remediation plan.
 
 **Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/manufacturing-reference.md)
 

@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Veracode.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d288743e93">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d291985e93">
 
 Option
 
-</th><th align="left" id="d288743e96">
+</th><th align="left" id="d291985e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d288743e102">
+</th></tr></thead><tbody><tr><td id="d291985e102">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d288743e129">
+</td></tr><tr><td id="d291985e129">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Veracode from the **Security** category.
 
 
-</td></tr><tr><td id="d288743e178">
+</td></tr><tr><td id="d291985e178">
 
 **Tools module**
 
@@ -119,8 +119,8 @@ Steps
         -   If you are using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always.
         -   If you’re using Jenkins, and your pipeline already has a Veracode security scan step, you don’t have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has **waitForScan: true**. This is required for the system to retrieve the scan information.
     -   If this is the not the first security tool instance you’re onboarding, the respective custom action codes for orchestration tools that you’ve selected in step 6 will be available to copy. If you’re using Jenkins, and your pipeline already has a Veracode security scan step, you don’t have to add the custom action code in your pipeline. Ensure that your Veracode security scan step has **waitForScan: true**. This is mandatory for the system to retrieve the scan information.
-    -   If you want to configure Veracode for the GitLab tool, you can either use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
-    -   For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+    -   If you want to configure Veracode for the GitLab tool, you can use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+    -   For Harness pipelines, you can configure Veracode scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
     -   Alternatively, you can associate pipeline with security tool instance by adding security tool ID to the custom action code. This will override any previously associated security tool instance.
     \[Omitted image "veracode-playbook-05.png"\] Alt text: Playbook activity to copy custom action code
 

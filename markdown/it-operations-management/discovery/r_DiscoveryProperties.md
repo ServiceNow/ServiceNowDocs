@@ -45,7 +45,7 @@ glide.discovery.enforce\_unique\_ips
 
 </td><td>
 
-Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network gear with a valid IP address is discovered, any other devices with the same IP address have their IP address field cleared. If inactive, stores the IP address for each device.
+Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network device with a valid IP address is discovered, the IP address field is cleared on any other device sharing that address. If inactive, stores the IP address for each device.
 
  -   Type: true \| false
 -   Default value false
@@ -67,12 +67,12 @@ glide.discovery.bgp\_router\_disable
 
 </td><td>
 
-BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. Normally such exploration IS inactive because of the huge size of BGP routing tables, and because generally such routers are only operating at the edge of large networks where further network discovery would be irrelevant. This value could be set to false if your organization only uses BGP routers as edge routers between relatively small networks \(such as between buildings on a single campus\).
+BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. This exploration is inactive by default because BGP routing tables are large. These routers typically operate at the edge of large networks, where further network discovery is not relevant. Set this value to false if your organization uses BGP routers as edge routers between relatively small networks. For example, between buildings on a single campus.
 
  If you must populate the \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the bgp-enabled devices, set the **BGP router exploration disable** property to **No**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
 
  -   Type: true \| false
--   Default value true
+-   Default value: true
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ glide.discovery.debug.network\_discovery
 Network discovery debugging: Enables extensive logging of all Network Discovery activities on the instance.
 
  -   Type: true \| false
--   Default value true
+-   Default value: true
 -   Learn More: [Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
 
 </td></tr><tr><td>
@@ -151,18 +151,6 @@ com.snc.use\_external\_credentials
 
 Allows the use of external storage of credentials.-   Type: true \| false
 -   Default value: true
-
-</td></tr><tr><td id="increase-scale-factor-max">
-
-com.glide.processing.framework.max\_thread\_utilization\_percentage
-
-</td><td>
-
-Enables you to modify the scale factor for the **discovery.sensor** and **discovery.cloud.sensor** queues. Increasing the value allows you to increases the scale factor, which subsequently increases the number of worker threads per app node.-   Type: integer
--   Default value: 30
--   Max value: 75
-
-**Note:** This behavior only applies when **discovery.use.event.processing** is set to **true**.
 
 </td></tr><tr><td>
 
@@ -350,10 +338,10 @@ glide.discovery.certs.enable\_incident\_creation\_for\_expired\_certificates
 
 </td><td>
 
-Certificate Inventory and Management: Enables the Scheduled Job to create the incidents for expired certificates, for example, certificates whose validity is past current system date or time. By default, this property is enabled.
+Certificate Inventory and Management: Enables the Scheduled Job to create the incidents for expired certificates, for example, certificates whose validity is past current system date or time.
 
  -   Type: true \| false
--   Default value: true
+-   Default value: false
 
 </td></tr><tr><td>
 
@@ -463,7 +451,7 @@ glide.discovery.enable\_mac\_address\_verification
 
 </td><td>
 
-Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device being discovered to the MID Server so that probes can determine if the IP address has changed while Discovery is running. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
+Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device being discovered to the MID Server. Probes can then determine if the IP address has changed while Discovery is running. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
 
  -   Type: true \| false
 -   Default value: false
@@ -761,6 +749,15 @@ If set to **true**, Discovery populates these tables for software discovery: `cm
 
 </td></tr><tr><td>
 
+glide.discovery.retire\_stale\_accounts
+
+</td><td>
+
+When set to **true**, Discovery automatically removes stale service account references from the Discovery Config - Logical Datacenters \[cmp\_discovery\_ldc\_config\] table when previously discovered cloud service accounts have been retired or deleted. This prevents Discovery from attempting to use invalid service accounts and helps avoid canceled Discovery runs caused by missing service account references. This property applies to Cloud Discovery schedules that use master/member account relationships.-   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
 glide.discovery.roundingInterval.cpu
 
 </td><td>
@@ -898,7 +895,9 @@ glide.discovery.sensors.save\_attachments
 
 </td><td>
 
-Save ECC queue attachments: The normal behavior for discovery sensors is to delete attachments to ECC queue entries upon successful sensor processing. Setting this property to true overrides this behavior, and forces attachments to be preserved. This would normally only be useful for debugging purposes.-   Type: true \| false
+Determines whether discovery sensors save ECC queue attachments after successful sensor processing. When this property is **true**, sensors preserve the attachments. When it’s **false**, sensors delete the attachments after they finish processing. Preserving attachments lets you inspect the data that sensors return.
+
+ -   Type: true \| false
 -   Default value: true
 
 </td></tr><tr><td>
@@ -907,7 +906,7 @@ glide.discovery.shazzam\_ranges\_json
 
 </td><td>
 
-Use JSON for IP ranges in Shazzam: If set to **true**, discovery encodes Shazzam's IP ranges as JSON, dramatically reducing the payload size.-   Type: true \| false
+Use JSON for IP ranges in Shazzam: If set to **true**, Discovery encodes Shazzam's IP ranges as JSON, dramatically reducing the payload size.-   Type: true \| false
 -   Default value: true
 
 </td></tr><tr><td>
@@ -916,7 +915,7 @@ glide.discovery.shazzam\_simplify\_ranges
 
 </td><td>
 
-If set to true, Shazzam detects if an IP is included in multiple ranges of the same Discovery schedule and removes the duplicate IP from all but one range. Deduplication is limited to schedules with a single behavior. Schedules with multiple behaviors work, but duplicate IPs aren’t removed.
+If set to **true**, Shazzam detects if an IP is included in multiple ranges of the same Discovery schedule and removes the duplicate IP from all but one range. Deduplication is limited to schedules with a single behavior. Schedules with multiple behaviors work, but duplicate IPs aren’t removed.
 
  -   Type: true \| false
 -   Default value: true
@@ -1098,7 +1097,7 @@ sn\_disco\_workspace.discovery\_schedule\_anomaly\_discover\_type
 
 </td><td>
 
-Discovery Admin Workspace: Determines the type of Discovery schedules for which anomaly detection is enabled, IP-based \(CIs\) and/or Cloud Discovery \(Cloud Resources\). To disable anomaly detection for a specific type of discovery, excaustralialude it from the value. For example, remove "Cloud Resources" from the string if you only want to detect anomalies for IP-based Discovery schedules.-   Type: string
+Discovery Admin Workspace: Determines the type of Discovery schedules for which anomaly detection is enabled, IP-based \(CIs\) and/or Cloud Discovery \(Cloud Resources\). To disable anomaly detection for a specific type of discovery, exclude it from the value. For example, remove "Cloud Resources" from the string if you only want to detect anomalies for IP-based Discovery schedules.-   Type: string
 -   Default value: CIs, Cloud Resources
 
 </td></tr><tr><td>

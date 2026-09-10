@@ -590,7 +590,7 @@ Summed duration of closed changes for an application for the given fiscal period
 -   To see the impacted business applications for the **Number of Incidents via Service** and **Number of Changes via Service** indicators, you must refresh the **Impacted Services and CIs** related list for that record. For instructions, see [Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/refresh-impacted-services-cis.md) and [Refresh impacted services and CIs for incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/refresh-impacted-cis.md).
 
 -   **[Performance Analytics indicators for applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/pa-indicators-jobs.md)**  
-Use performance analytic \(PA\) indicators to know the count of incidents, problems, and changes logged against a business application and use this insight to improve the performance of your applications.
+Use performance analytic \(PA\) indicators to track incidents, problems, and changes logged against a business application. This insight helps you improve application performance.
 
 **Parent Topic:**[Framework setup for application assessment - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/applications-assessment-overview.md)
 

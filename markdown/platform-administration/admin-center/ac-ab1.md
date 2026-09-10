@@ -93,11 +93,11 @@ Use the Employee Center portal to experience a standard multi-department, dynami
 
 </td><td>
 
-[Roles installed with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-center-personas.md)
+Roles installed with Employee Center
 
 </td><td>
 
--   [Employee Center limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/explore-emp-center.md)
+-   Employee Center limitations and support
 -   [Employee Center \(ServiceNow Community](https://www.servicenow.com/community/employee-center/ct-p/employee-center)
 -   [Employee Center success story](https://www.servicenow.com/success/success-map/employee-center.html)
 -   [Employee Center implementation success story](https://www.servicenow.com/success/success-map/employee-center/implement.html)
@@ -108,7 +108,7 @@ Build the foundation
 
 </td><td>
 
-[Configure Walk-up Experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-walk-up-csm.md)
+
 
 </td><td>
 
@@ -116,7 +116,7 @@ Use the Walk-up Experience application to create and manage an on-site IT walk-u
 
 </td><td>
 
-[Roles installed with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-walkup-experience-dashboard.md)
+Roles installed with Walk-up Experience
 
 </td><td>
 
@@ -136,7 +136,7 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/components-installed-with-sow-itom.md)
+Roles installed with Service Operations Workspace for ITSM
 
 </td><td>
 
@@ -303,7 +303,7 @@ Use Service Portal to build a mobile-friendly self-service portal experience for
 
 </td><td>
 
-[Roles installed with Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
+Roles installed with Service Portal
 
 </td><td>
 
@@ -324,11 +324,11 @@ Unlock your enterprise productivity with ServiceNow® Virtual Agent. Provide you
 
 </td><td>
 
-[Roles installed with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/localization-roles-va.md)
+Roles installed with Virtual Agent
 
 </td><td>
 
--   [Virtual Agent limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/exploring-virtual-agent.md)
+-   Virtual Agent limitations and support
 -   [Virtual Agent success story](https://www.servicenow.com/success/success-map/itsm-intelligent-automation/virtual-agent.html#csc-hub)
 
 </td></tr><tr><td>
@@ -398,7 +398,7 @@ Optimize the functionality
 
 </td><td>
 
-[Implement NLU in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/implement-nlu-va.md)
+
 
 </td><td>
 
@@ -418,7 +418,7 @@ Add advanced features
 
 </td><td>
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r-discovery.md)
+
 
 </td><td>
 

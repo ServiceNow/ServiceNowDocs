@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-apprat-business-application-form.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-03"
 reading_time_minutes: 6
 breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
@@ -148,7 +148,6 @@ Operational status of the application. Use the following options:
 -   **Implementing**
 -   **In Production**
 -   **Pilot**
--   **Retired**
 -   **Under Evaluation**
 
 Auditing is enabled for this field. Thus, whenever you update the value in this field, the **Activities** field on the **Activities** tab displays the update.
@@ -246,14 +245,6 @@ Age in months
 </td><td>
 
 Age of the business application, in months. This field is auto-populated when the date and time are entered in the **Installed** field.
-
-</td></tr><tr><td>
-
-Retired
-
-</td><td>
-
-Date when the business application is going to be retired.
 
 </td></tr><tr><td>
 
@@ -373,7 +364,7 @@ Managed by group
 
 </td><td>
 
-Group responsible for overall management of the business application, including maintenance, upgrades, and lifecycle decision
+Group responsible for overall management of the business application, including maintenance, upgrades, and lifecycle decisions.
 
 </td></tr><tr><td>
 

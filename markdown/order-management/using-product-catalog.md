@@ -14,7 +14,7 @@ breadcrumb: [Lead-to-cash foundation apps, Use, Sales Customer Relationship Mana
 
 The product catalog provides a visual display of the available product offerings that can be added to a Sales Customer Relationship Management transaction, such as an opportunity, quote, or order. Use the catalog interface to add simple products and complex products that can be further customized.
 
-Agents use the Catalog tab \(related list\) for a transaction in the CSM Configurable Workspace to open the product catalog. Customers engaged in self-service transactions such as placing orders, use the product catalog in the Business Portal.
+Agents use the Catalog tab \(related list\) for a transaction in the CRM Workspace to open the product catalog. Customers engaged in self-service transactions such as placing orders, use the product catalog in the Business Portal.
 
 **Note:** When you start a lead, the Catalog tab displays only simple products that can be added and don't require further customization.
 

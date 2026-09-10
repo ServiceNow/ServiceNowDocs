@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 13
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ Use the features of Project Workspace to plan and manage your project.
 
 \[Omitted image "project-workspace-listview.png"\] Alt text: project-workspace-list-view
 
-The homepage contains the following UI components to help you navigate through the workspace.
+Project managers can now edit the project details directly from the list view using the inline edit feature. The homepage contains the following UI components to help you navigate through the workspace.
 
 <table id="table_t11_fpz_hsb"><thead><tr><th>
 
@@ -131,7 +131,30 @@ New
 Option to create a project.
 
 </td></tr></tbody>
-</table>## Planning header
+</table>## Lists in Project Workspace
+
+Lists view provides a single place to view, filter, sort, and manage project, RIDAC, program, and portfolio records in Project Workspace.
+
+Select the **Lists** icon on the left navigation bar to open this view, and use the left panel to browse by category.
+
+Lists are organized into two tabs. The **Default lists** tab displays standard, default lists, such as **Projects**, **Project RIDAC**, and **Programs and portfolios**. The **My lists** tab displays lists that you personalize or save for quick access.
+
+The following table describes the key elements of the **Lists** view.
+
+|Feature|Description|
+|-------|-----------|
+|Navigation panel|Browse lists by category, such as **Projects**, **Project RIDAC**, and **Programs and portfolios**.|
+|Default lists|Displays standard, default lists for projects, RIDAC records, programs, and portfolios.|
+|My lists|Displays lists that you personalize or save for quick access.|
+|Search|Search for records based on project names or project number.|
+|Filter|Option to define a filter condition the list using column-level operators, such as contains, starts with, or on, along with a value to view custom required projects.|
+|Sort by|Option to sort the list based on the required fields.|
+|Group by|Option to group the list records by an attribute.|
+|Export|Option to download or email the list as Excel, CSV, json, or PDF files.|
+|New|Option to create a project.|
+|Refresh|Reloads the list and displays the time of latest refresh.|
+
+## Planning header
 
 The header displays the project name and provides the following various options.
 
@@ -427,7 +450,7 @@ Edit an individual cell
 
 Edit or copy the info of this cell by selecting the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) or select and hold \(or right-click\) a cell.
 
- Use this menu to copy and paste cell contents, add dependencies, add project tasks directly above or below this cell position, or delete the whole row.
+ Use this menu to copy and paste cell contents, add dependencies, add project tasks directly before or after this cell position, or delete the whole row.
 
 </td></tr><tr><td>
 
@@ -457,6 +480,12 @@ The timescale view that you choose is saved in the preferences.
 ## Dependency lines
 
 These lines show the dependencies between the project tasks. You can add new dependencies by drawing them on the timeline view, or select an existing dependency to edit its details in the side panel. See [Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md). The dependencies that you choose are saved in the preferences.
+
+## Parent-child rollups
+
+Date changes, state changes, effort and percent complete made to child project tasks automatically roll up to update the parent task and the project on the planning page. Rollups include planned and actual effort values in the task planner, and duration, cost, and state changes.
+
+Planned effort is calculated as the sum of the planned effort values of all child tasks. Actual efforts are fetched from approved time cards, therefore making them read-only. Actual effort is set to read only for all parent and child tasks.
 
 -   **[Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/access-new-project-workspace.md)**  
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
@@ -492,7 +521,7 @@ Create dependencies between project tasks using the interactive UI of Project Wo
 Set up a dependency between tasks of different projects using the new Project Workspace.
 -   **[Create and compare project baselines in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md)**  
 Create a schedule baseline and financial baseline of a project. A baseline is a snapshot of the project's progress at the particular moment of time.
--   **[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
+-   **[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 -   **[Generate a project status report with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
 Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.

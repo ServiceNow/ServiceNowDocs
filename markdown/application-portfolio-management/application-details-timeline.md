@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_user
 
 By default, the TPM timeline view expands the first business application in the list to display its associated application services at the first level. It then displays the software and hardware models underlying the application service at the next level.
 
-For the subsequent list of business applications, click to expand the arrow of the business application label to see the count and list of application services that are tied to the application. You can also view the underlying software and hardware models that are associated to the business application.
+For the subsequent list of business applications, click to expand the arrow of the business application label. This displays the count and list of application services that are tied to the application. You can also view the underlying software and hardware models that are associated to the business application.
 
 Application Services, Software Models, and Hardware Models headers are in bold font to distinguish them from the application service, software, and hardware model labels that are in hypertext.
 
@@ -38,7 +38,7 @@ Application Services, Software Models, and Hardware Models headers are in bold f
 
 4.  To navigate to the Hardware form and to add or update the hardware lifecycle details in the Hardware Model Lifecycles related list, click the hardware label.
 
-5.  To add a demand or project to a particular business application \(in the By Business Application view\) or to a software model \(in the By Software Model view\), point to the application or the software model and click the add new project or demand icon \(\) that appears next to the application or software model name.
+5.  To add a demand or project to a particular business application \(in the By Business Application view\) or to a software model \(in the By Software Model view\), point to the application or the software model and click the add new project or demand icon \(\).
 
     **Note:**
 

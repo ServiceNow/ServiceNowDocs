@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 8
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -43,6 +43,46 @@ The workflow for integrating BIA with the Smart Assessment Engine is shown in th
 ## Configuring BIA templates
 
 You can configure the BIA template with the legacy or Smart Assessment. The legacy assessment shows only drop-down questions, while the Smart Assessment enables multiple question types and configures RTO, RPO, and recovery tier calculations based on the responses to the questionnaire. For more information, see [Setup for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/bcm-admin-tasks.md).
+
+## Managing life cycle of Smart Assessment templates in BIAs
+
+BIAs that use Smart Assessment templates inherit the template life cycle controls provided by the Smart Assessment Engine. As BIA requirements evolve, BCM administrators can update an existing published impact assessment template using one of these approaches:
+
+-   **Versioning**
+
+    Versioning allows template managers to make additions or modifications to an existing published template. Changes affect only future assessments.
+
+    Version history: Every published version is maintained for traceability. Each version is time-stamped and user-attributed.
+
+    When a new version is published, it completes the following actions:
+
+    -   The previous published version moves to the retired state.
+    -   In-progress assessments are cancelled or retained as open, based on the **Assessment handling on version retirement** configuration on the template category.
+    -   Completed and cancelled assessments are unaffected.
+    -   Future assessments are triggered from the new version of the template.
+    Impact on Copy Response and reporting: When a new version is published, responses are copied from the previous version and reporting is unaffected if no structural changes were made to questions. Structural changes include modifications to question type, label, choice labels, or multi-select settings, moving questions across sections, or changing reference tables on reference questions.
+
+    Impact on Post Assessment Actions: When a new version is published, a copy of the existing Post Assessment Actions is created in Draft state. It must be reviewed and published before the new version becomes fully operational. Post Assessment Actions execute based on the template version from which the assessment was triggered. Assessments from earlier versions continue to follow the Post Assessment Actions of those versions.
+
+-   **Quick edit**
+
+    Quick edit allows template managers to make minor, non-contextual corrections to published template questions—such as fixing typos, correcting grammar, or improving clarity—without creating a new version. Changes take effect immediately across past, in-progress, and future assessments, with no impact to question meaning, scoring, or logic.
+
+    Every quick edit is logged at the template level, time-stamped, and user-attributed, making all changes fully traceable for audit and governance purposes. Template managers are accountable for ensuring that quick edits preserve the original context and intent of the question. Quick edit is optional and can be enabled or disabled at the template category level.
+
+    For more information, see [Quick edit for published templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/quick-edit-for-published-templates.md).
+
+-   **When to use quick edit vs. versioning**
+
+    Use quick edit when the meaning or context of a question does not change — that is, when the edit has no impact on how a respondent would answer. Use versioning when the change affects the meaning or context of a question in a way that could change the answer.
+
+    |Aspect|Quick edit|New version|
+    |------|----------|-----------|
+    |Purpose|Correction|Functional change|
+    |Context impact|No|Yes|
+    |New version created|No|Yes|
+    |Impacts existing assessments|Yes|No|
+
 
 ## Roles and responsibilities
 

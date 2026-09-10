@@ -8,7 +8,7 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 

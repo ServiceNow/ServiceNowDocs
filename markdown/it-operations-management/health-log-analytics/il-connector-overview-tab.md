@@ -21,7 +21,7 @@ Review the log data streaming status and streaming sources of an active integrat
 
 Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md).
 
-For MID-less or OpenTelemetry Protocol \(OTLP\) integrations, verify that the **mid.hla.itom\_gateway\_streaming.enabled** property is set to true in the MID Server properties to enable displaying the ITOM Gateway component on the Overview screen.
+For MID-less or OpenTelemetry Protocol \(OTLP\) integrations, verify that the **mid.hla.itom\_gateway\_streaming.enabled** property is set to true in the MID Server properties. This enables displaying the ITOM Gateway component on the Overview screen.
 
 To access the Log Viewer from the Overview tab with context from the integration, you must have the ServiceNow Service Operations Workspace Log Analytics application installed.
 

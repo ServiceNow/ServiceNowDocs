@@ -1,21 +1,21 @@
 ---
-title: Use agentic AI in ServiceNow Otto for Operational Sustainability
-description: Use AI agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
+title: Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)
+description: Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.html
 release: zurich
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [ServiceNow Otto, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Use agentic AI in ServiceNow Otto for Operational Sustainability
+# Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)
 
-Use AI agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
+Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 
-Find information such as the large language models \(LLM\) supported in Now Assist and security controls that are important considerations for using agentic AI.
+Find information such as the Large Language Models \(LLM\) supported in Now Assist and security controls that are important considerations for using agentic AI.
 
 ## Agentic workflows in ServiceNow Otto for Operational Sustainability
 
@@ -45,30 +45,31 @@ Accelerate carbon reporting with AI-powered calculations, validation, and insigh
 -   Calculations operands AI agent
 
 </td></tr></tbody>
-</table>## Supported large language models
+</table>## Supported Large Language Models
 
 **Note:**
 
 -   You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
--   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
+-   For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 
 Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user.For more information, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md)
 
-## Considerations for running autonomous AI agents
+## Considerations for running the autonomous AI Agents
 
 **Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
+-   Azure OpenAI is recommended for ServiceNow Otto for Operational Sustainability agentic workflows.
 
 -   **[Generate Scope 3 carbon calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/generate-carbon-calculcations-for-metrics.md)**  
-Use the carbon calculations agentic workflow to create a calculated metric definition \(CMD\) for Scope 3 carbon emissions. The workflow employs AI agents and integrated tools to guide methodology selection, map metrics, and simplify sustainability reporting with accuracy and efficiency.
+Use the AI-driven workflow to create calculated metric definitions \(CMD\) for Scope 3 carbon emissions. The workflow employs conversational agents and integrated tools to guide methodology selection, map metrics, and simplify sustainability reporting with accuracy and efficiency.
 
 **Parent Topic:**[ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/now-assist-for-esg.md)
 

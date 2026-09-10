@@ -59,7 +59,7 @@ The Integration Hub AI Search spoke provides Workflow Studio actions that you ca
 
  You can specify security principal access permissions for documents ingested using these actions. To learn more about access permissions and security for external document content, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md).
 
- For the full list of Workflow Studio actions provided by the AI Search spoke, see [AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/ai-search-spoke.md).
+ For the full list of Workflow Studio actions provided by the AI Search spoke, see AI Search spoke.
 
  The Integration Hub AI Search spoke combines flexible configuration and handling with the simple drag-and-drop Workflow Studio interface.
 
@@ -76,7 +76,7 @@ The External Content REST API provides endpoints that you can use to index conte
 
  You can specify security principal access permissions for documents ingested using the ingestDocuments endpoint. To learn more about access permissions and security for external document content, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md).
 
- For full descriptions of the External Content REST API endpoints, see [External Content Ingestion REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+ For full descriptions of the External Content REST API endpoints, see External Content Ingestion REST API.
 
  The External Content REST API is the most complex tool for indexing content and metadata from your external documents, but it offers the most flexibility.
 

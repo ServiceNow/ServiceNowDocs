@@ -45,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d239225e173">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d239573e173">
 
 Decision
 
-</th><th align="left" id="d239225e176">
+</th><th align="left" id="d239573e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239225e182">
+</th></tr></thead><tbody><tr><td id="d239573e182">
 
 **Approve the report**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d239225e194">
+</td></tr><tr><td id="d239573e194">
 
 **Reject the report**
 

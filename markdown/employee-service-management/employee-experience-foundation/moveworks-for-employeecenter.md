@@ -1,6 +1,6 @@
 ---
-title: Moveworks for Employee Center
-description: Moveworks for Employee Center enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+title: ServiceNow Otto Chat Integration
+description: ServiceNow Otto Chat Integration \(built on Moveworks\) \(formerly known as Moveworks for Employee Center \) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.html
 release: zurich
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
 
-# Moveworks for Employee Center
+# ServiceNow Otto Chat Integration
 
-Moveworks for Employee Center enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+ServiceNow Otto Chat Integration \(built on Moveworks\) \(formerly known as Moveworks for Employee Center \) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 
 Using Moveworks embedded AI assistant, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -35,13 +35,13 @@ Moveworks unifies the enterprise systems under one intelligent layer to deliver 
 **Related topics**  
 
 
-[Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
+[Getting started with Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Otto chat application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
 [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Otto Chat Integration on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 

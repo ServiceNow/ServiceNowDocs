@@ -1,17 +1,17 @@
 ---
-title: AI agent containment using kill switch protocol
+title: AI agent containment using kill switch protocol manually
 description: Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.html
 release: zurich
 topic_type: concept
 last_updated: "2026-07-21"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
-# AI agent containment using kill switch protocol
+# AI agent containment using kill switch protocol manually
 
 Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
 
@@ -29,11 +29,11 @@ The system suggests that the next best action is to deactivate the AI agent. The
 
 ## Audit and compliance
 
-Every containment action including the PEP-by-PEP confirmation, produces a complete, immutable audit trail shown in the kill switch protocol log. This audit record can help satisfy compliance documentation requirements.
+Every containment action including the PEP-by-PEP confirmation, produces a complete, immutable audit trail shown in the agent containment list. This audit record can help satisfy compliance documentation requirements.
 
 ## Next steps
 
-To configure and use AI agent containment with kill switch protocol, see [Configure AI agent containment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configure-ai-agent-containment.md) and [Manage AI agents using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
+To configure and use AI agent containment with kill switch protocol, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configure-ai-agent-containment.md) and [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
 **Parent Topic:**[Exploring security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring.md)
 

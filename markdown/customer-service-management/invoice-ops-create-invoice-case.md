@@ -20,7 +20,7 @@ Role required: sn\_csm\_invoice.agent, sn\_csm\_invoice.manager, admin
 
 ## Procedure
 
-1.  In CSM Configurable Workspace, select **New** from the Invoice Cases list view.
+1.  In CRM Workspace, select **New** from the Invoice Cases list view.
 
 2.  Add information to the Invoice Case form, such as **Account** and **Contact** and **Short description**.
 

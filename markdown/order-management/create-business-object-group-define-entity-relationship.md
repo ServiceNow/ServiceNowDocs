@@ -89,5 +89,5 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 
 ## Result
 
-Business object group and business object types are available in Business process and Business entity lists respectively in the Create new sales process record form in the CSM Configurable Workspace.
+Business object group and business object types are available in Business process and Business entity lists respectively in the Create new sales process record form in the CRM Workspace.
 

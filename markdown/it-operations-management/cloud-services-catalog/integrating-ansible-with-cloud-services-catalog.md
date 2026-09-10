@@ -68,7 +68,7 @@ Store in CMDB as referrable objects.
 
 </td></tr></tbody>
 </table>-   **[Set up Ansible as a Day 1 task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.md)**  
-Set up the Ansible console as a Day 1 task before you run Discovery and deploy a job template via a ServiceNow catalog item by using the Cloud Services Catalog application.
+Set up the Ansible console as a Day 1 task to enable job template deployment through catalog items.
 -   **[Run Discovery on the Ansible config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.md)**  
 Add the Ansible config provider and run Discovery to discover what's in the inventory, the host group, and the available job templates.
 -   **[Order an Ansible job template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/ordering-ansible.md)**  

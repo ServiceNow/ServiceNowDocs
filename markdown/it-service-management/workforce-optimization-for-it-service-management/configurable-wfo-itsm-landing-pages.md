@@ -16,6 +16,8 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 
 Track and monitor the performance of your organization using the Workforce Optimization for ITSM landing pages. If you are a coach or a channel manager, you can access metrics specific to your application using the Channels or the Quality landing pages respectively.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You can clone an existing landing page and customize it using the Next Experience UI Builder. For more information, see [Customize a Workforce Optimization for ITSM page using Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.md).
 
 -   **[Workforce Optimization for ITSM manager landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/wfo-itsm-manager-landing-page-configurable.md)**  

@@ -31,6 +31,8 @@ Create a status report or use an existing status report to download it as a Micr
 
 Exporting the project is beneficial if your stakeholders prefer a slide deck rather than using a dashboard. It also helps the wider audience or external stakeholders who don't have access to the dashboards but are waiting for an update.
 
+You can export a status report directly from the Details page or Planning page by selecting the **Export status report** option from more actions menu.
+
 ## Procedure
 
 1.  Open a project from the home page of Project Workspace.

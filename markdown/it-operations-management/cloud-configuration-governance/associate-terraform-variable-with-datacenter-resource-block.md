@@ -1,5 +1,5 @@
 ---
-title: Associate the Terraform environment variable with the datacenter resource block
+title: Associate the Terraform environment variable with a resource block
 description: Associate the Terraform environment variable with the Cloud Provisioning and Governance datacenter resource block. After associating the environment variable, you can use it to pass custom inputs parameters during resource deployment through Terraform Enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-configuration-governance/associate-terraform-variable-with-datacenter-resource-block.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Associate the Terraform environment variable with the datacenter resource block
+# Associate the Terraform environment variable with a resource block
 
 Associate the Terraform environment variable with the Cloud Provisioning and Governance datacenter resource block. After associating the environment variable, you can use it to pass custom inputs parameters during resource deployment through Terraform Enterprise.
 

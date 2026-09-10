@@ -47,5 +47,5 @@ Role required: sn\_apm.apm\_analyst
 
 On the Digital Integrations page, a success message and the link to the newly created digital integration appear.
 
-After submission of the form, within the CMDB platform, a CI relationship \(Interfaces::Interfaced By\) gets created between provider and subscriber business applications. In a case, where the digital interface has no relation to a business application \(using Open or Public API\), the digital integration is created between the subscriber business application and a standalone digital interface.
+After you submit the form, a CI relationship \(Interfaces::Interfaced By\) is created between provider and subscriber business applications within the CMDB platform. The digital interface might have no relation to a business application \(using Open or Public API\). In this case, the digital integration is created between the subscriber business application and a standalone digital interface.
 

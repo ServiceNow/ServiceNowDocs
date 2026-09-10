@@ -1,6 +1,6 @@
 ---
-title: Install ServiceNow SQL API ODBC driver on client machine
-description: Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the SQL API.
+title: Install ServiceNow Live Connect ODBC driver on client machine
+description: Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the Live Connect.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/install-odbc-driver.html
 release: zurich
@@ -9,16 +9,16 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Install ServiceNow SQL API ODBC driver on client machine
+# Install ServiceNow Live Connect ODBC driver on client machine
 
-Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the SQL API.
+Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the Live Connect.
 
 ## Before you begin
 
--   ServiceNow SQL API ODBC driver can only be installed on a Windows client machine.
+-   ServiceNow Live Connect ODBC driver can only be installed on a Windows client machine.
 -   Verify that JDK 17 is installed on your client machine.
 
 Role required: local administrator on client machine for installation, admin on ServiceNow instance for server-side configuration.
@@ -49,7 +49,7 @@ Role required: local administrator on client machine for installation, admin on 
 
     **Note:**
 
-    You must enter the `jvm.dll` file location for the ServiceNow SQL API ODBC driver to work.
+    You must enter the `jvm.dll` file location for the ServiceNow Live Connect ODBC driver to work.
 
 8.  Add the JDK location now or later.
 
@@ -85,7 +85,7 @@ Role required: local administrator on client machine for installation, admin on 
 
 ## Result
 
-The installation creates a ServiceNow SQL API – ODBC folder in the Start menu with these links:
+The installation creates a ServiceNow Live Connect – ODBC folder in the Start menu with these links:
 
 -   **Interactive SQL\(ODBC\)**: An interactive SQL command window for directly testing SQL statements.
 -   **Management Console**: A Microsoft MMC snap-in for configuring default properties for the ODBC driver.
@@ -97,7 +97,7 @@ The ServiceNow ODBC driver is installed on your client machine and registered wi
 
 ## What to do next
 
-After completing the installation, configure the ODBC driver to connect to your ServiceNow instance. For configuration instructions, see [Configure ServiceNow SQL API ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-odbc-driver.md).
+After completing the installation, configure the ODBC driver to connect to your ServiceNow instance. For configuration instructions, see [Configure ServiceNow Live Connect ODBC driver on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configure-odbc-driver.md).
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

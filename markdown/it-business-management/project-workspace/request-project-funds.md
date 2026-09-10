@@ -31,7 +31,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-If you have added cost plans to your project, you can refer the total planned cost displayed on the column header of each period to determine the amount to request.
+If you have added cost plans to your project, refer the total planned cost displayed on the column header of each period to determine the amount to request.
 
 ## Procedure
 

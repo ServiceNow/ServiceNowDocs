@@ -21,7 +21,7 @@ As your organization deploys AI systems across business units, from generative A
 
 -   Maintain a complete, current inventory of AI systems, models, prompts, and tools across ServiceNow and external platforms including AWS, Azure, and Google Cloud.
 -   Detect quality and safety regressions before they escalate, using automated scoring and trend analysis for AI interactions in production.
--   Track regulatory compliance posture against frameworks like NIST AI RMF and EU AI Act across your entire AI portfolio.
+-   Track compliance posture against frameworks like NIST AI RMF and EU AI Act across your AI assets.
 -   Quantify the business value of AI investments with productivity, cost savings, and adoption metrics tied to individual AI systems.
 -   Coordinate governance work across cross-functional teams with lifecycle playbooks, approval routing, and AI-generated recommendations.
 
@@ -32,7 +32,7 @@ As your organization deploys AI systems across business units, from generative A
 |AI steward|Oversees the state of AI across all inventory, including value and adoption insights. Reviews quality and safety scores, monitors risk and compliance posture, investigates cases and inquiries, and coordinates with AI system owners to maintain governance standards.|
 |Administrator|Activates and configures AI Control Tower plugins, manages data sharing and multi-instance settings, configures AI model providers and data routing, sets up playbook templates, and maintains users and roles.|
 |AI asset owner / Product owner|Manages the AI assets they own, views value and adoption metrics for their systems, tracks lifecycle status, and creates or responds to AI cases and approval requests.|
-|Risk and compliance user|Monitors risk classifications, reviews compliance posture against authority documents and policies, manages risk assessments, and tracks regulatory changes affecting AI assets.|
+|Risk and compliance user|Monitors risk classifications, reviews compliance posture against authority documents and policies, manages risk assessments, and helps track regulatory changes affecting AI assets.|
 
 ## AI Control Tower workflow
 

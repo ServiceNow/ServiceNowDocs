@@ -62,7 +62,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 8.  Make changes to the report by editing the data, formatting, organizing the content, and entering additional data.
 
-    The changes you make to the status report here are saved to the underlying status report record, which you access from the status report related list in Projects form.
+    The changes you make to the status report here are saved to the underlying status report record. You access this record from the status report related list in the Projects form.
 
 9.  Observe and monitor the report.
 
@@ -81,15 +81,15 @@ Modify a status report in Project Workspace for your project to update project h
 Save time by duplicating an existing status report to copy all the project details without having to copy the information manually in the Project Workspace.
 -   **[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/import-old-status-reports.md)**  
 Migrate your old status reports from the classic Project Workspace to the new Project Workspace and optimize reporting process of your projects.
--   **[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)**  
-Add dynamic content to a status report in Project Workspace for your projects. The dynamic content gets updated automatically in the status report as a change is made to the record.
+-   **[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)**  
+Add dynamic content to a status report or a Project Docs template in Project Workspace. The dynamic content gets updated automatically as a change is made to the underlying record.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
 [Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/status-reporting-in-pw.md)
 
@@ -97,5 +97,5 @@ Add dynamic content to a status report in Project Workspace for your projects. T
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 

@@ -33,11 +33,11 @@ Create customized lists with fields tailored to your needs.
 -   **[Metrics View Configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/metrics-view-config-fields.md)**  
 Define how metrics are displayed within Service Operations Workspace.
 -   **[Integration and configuration health event fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/integration-config-health-event-fields.md)**  
-Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message, enabling precise tracking, effective incident management, and improved error analysis.
+Populate the event fields to capture details such as event time, description, alert number, state, severity, metric name, node, message key, and error message.
 -   **[Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/dynatrace-advanced-settings-fields.md)**  
 Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md)**  
-
+-   **[Datadog advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.md)**  
+Populate the Datadog advanced settings fields to define API paths, batching limits, host filters, sync duration, connection details, and debugging options. These values control how the pull connector retrieves and processes metrics and host data from Datadog, ensuring the connector runs with the desired scope and behavior.
 -   **[Pull connector fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/pull-connector-advanced-settings-fields.md)**  
 Populate the pull connector advanced settings fields to optimize event retrieval and synchronization based on specific requirements such as connection preferences, event frequency, and time zone settings.
 

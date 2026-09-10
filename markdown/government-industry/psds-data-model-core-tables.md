@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds
 release: zurich
 topic_type: reference
 last_updated: "2025-10-23"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Core, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -111,6 +111,18 @@ Contains information about service evaluation tasks.
 </td><td>
 
 Government Service Task \(sn\_gsm\_government\_service\_task\)
+
+</td></tr><tr><td>
+
+Task Document Verification Task Mapping\[sn\_gsm\_task\_gvt\_mapping\]
+
+</td><td>
+
+Maps case tasks created for document resubmission requests to the specific Document Verification Tasks that initiated them. Enables tracking and association of flagged documents back to the case task that triggered the resubmission request, supporting cases where multiple documents are flagged for different reasons.
+
+</td><td>
+
+N/A
 
 </td></tr></tbody>
 </table>## Flows installed

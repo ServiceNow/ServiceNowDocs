@@ -18,7 +18,7 @@ AI instructions add more business context to natural language queries. They guid
 
 ## AI instructions
 
-AI instructions help clarify how the knowledge graph interprets user queries and accesses data. When a user submits a query, relevant instructions at all applicable levels like node, property, and edge are considered.
+AI instructions help clarify how the Knowledge Graph interprets user queries and accesses data. When a user submits a query, relevant instructions at all applicable levels like node, property, and edge are considered.
 
 Referencing data within tables directly in instructions is not a general guideline. Instead, instructions should be generalized and context-driven.
 
@@ -36,7 +36,7 @@ Instructions:
 
 -   Use **Always include** for business-critical filters that must apply regardless of user query phrasing.
 -   Omit **Always include** for context-sensitive instructions that should only apply when relevant.
--   Verify that flagged instructions do not conflict with each other or produce duplicate results.
+-   Verify that flagged instructions don't conflict with each other or produce duplicate results.
 
 Examples of Good AI Instructions:
 
@@ -251,10 +251,10 @@ When instructions are added, the query correctly considers all 3 choices “norm
 Follow these guidelines when creating AI instructions to verify optimal performance and accuracy:
 
 -   Write clear, unambiguous, and actionable instructions tied to business logic. Always reference the correct tables \(nodes\), columns \(properties\), and relationships \(edges\). Use flags like Always include only when enforcing true default business behavior.
--   Avoid vague or contradictory instructions. Instructions that do not align with the underlying data model can confuse the system and lead to incorrect results. For example, an instruction like "Filter by manufacturer" without specifying the column or condition is ambiguous.
+-   Avoid vague or contradictory instructions. Instructions that don't align with the underlying data model can confuse the system and lead to incorrect results. For example, an instruction like "Filter by manufacturer" without specifying the column or condition is ambiguous.
 -   Use conditions to control when logic applies. Clearly state when an instruction should be applied \(for example, only when the user asks for host information\), rather than applying logic universally.
 -   Keep instructions focused and generalized. Instructions should guide intent interpretation across similar queries, not solve a single one-off case.
--   Do not duplicate logic already handled elsewhere. Avoid restating filters or constraints that are already enforced through data filters to avoid conflict.
+-   Don't duplicate logic already handled elsewhere. Avoid restating filters or constraints that are already enforced through data filters to avoid conflict.
 
 ## Support for Synonyms, Data Filters and hidden columns
 
@@ -276,7 +276,7 @@ Data filters are applied deterministically as post-processing rules to refine qu
 
 Hidden columns:
 
-Hidden columns cannot be queried and do not appear in the result.
+Hidden columns cannot be queried and don't appear in the result.
 
 For example: add Employee number as hidden columns for sys\_user table to hide the employee number from query results.
 

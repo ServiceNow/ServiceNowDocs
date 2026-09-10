@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,18 +20,20 @@ Create streamlined alert correlations with alert clustering tags by grouping ale
 
 Role required: evt\_mgmt\_admin
 
+## About this task
+
+**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Tag Based Alert Clustering Engine** &gt; **Alert Clustering Tags**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the values on the [Event Management tag based alert clustering tag form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/tag-based-alert-clustering-tag-form.md).
 
 4.  Select **Submit**.
 
+    The tag appears in the Tag Based Alert Clustering Tags table.
 
-## Result
-
-The tag appears in the Tag Based Alert Clustering Tags table.
 

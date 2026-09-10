@@ -1,16 +1,16 @@
 ---
-title: Create a repair claim
+title: Create a repair claim manually
 description: Create a repair claim for the products under warranty or recall.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-repair-claim.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Create a repair claim
+# Create a repair claim manually
 
 Create a repair claim for the products under warranty or recall.
 
@@ -36,7 +36,7 @@ Role required: Manufacturing operations admin
 
 5.  Select **Add claim jobs**.
 
-6.  Set **Type** as **Warranty**.
+6.  Set **Type** as **Warranty** or **Recall**.
 
 7.  On the Repair claim jobs form, fill in the fields.
 

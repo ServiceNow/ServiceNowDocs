@@ -1,6 +1,6 @@
 ---
-title: Set up an Identity Access Manager account for a ServiceNow user in AWS
-description: AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\) so you can manage multiple AWS accounts with a centralized IAM user.
+title: Set up an IAM account for a ServiceNow user in AWS
+description: AWSCreate an Identity Access Manager \(IAM\) user in the management account using the CloudFormation template. This allows you to manage multiple AWS accounts with a centralized IAM user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.html
 release: zurich
@@ -12,15 +12,15 @@ reading_time_minutes: 3
 breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Set up an Identity Access Manager account for a ServiceNow user in AWS
+# Set up an IAM account for a ServiceNow user in AWS
 
-AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\) so you can manage multiple AWS accounts with a centralized IAM user.
+AWSCreate an Identity Access Manager \(IAM\) user in the management account using the CloudFormation template. This allows you to manage multiple AWS accounts with a centralized IAM user.
 
 ## Before you begin
 
-Ensure that the target user account has the required AWS IAM permissions. For more information, see [About Amazon Web Services API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/about-aws-api-permissions.md).
+-   Role required: AWS admin
+-   The ServiceNow IAM user account requires specific AWS IAM permissions to perform basic operations. To learn more about the permissions, see [About Amazon Web Services API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/about-aws-api-permissions.md).
 
-Role required: AWS admin.
 
 ## Procedure
 

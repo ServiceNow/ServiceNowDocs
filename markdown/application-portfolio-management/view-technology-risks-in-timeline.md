@@ -55,7 +55,7 @@ Role required: sn\_apm.apm\_user
     -   To display the lifecycle data sources of all software models related to a business application, click show all lifecycle data sources icon \(\). Use the icon to toggle between show and hide the data sources.
     You can view the timelines of life-cycle data sources in By Business Application, By Product Classification, By Software Model views, and Application Backlog view. All available sources for a software model are queried and retrieved from the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table. The Choices \[sys\_choice\_list\] table lists all the sources of the software models corresponding to the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table.
 
-    The sources of software life-cycle data can be internal and can also come from multiple external sources. The life-cycle phase information of the internal data with one external publisher data, with the least sequence number from the Choices \[sys\_choice\] table, is collated and displayed for each of the software models in the timeline. The other external publisher data sources, if present, are not shown in the timeline. Moreover, the overlapping of internal and the external publisher information in the software model timeline can make the phases indistinguishable between the two sources.
+    The sources of software life-cycle data can be internal and can also come from multiple external sources. The timeline displays collated life-cycle phase information for each software model. This information combines internal data with one external publisher data source that has the least sequence number from the Choices \[sys\_choice\] table. The other external publisher data sources, if present, are not shown in the timeline. Moreover, the overlapping of internal and the external publisher information in the software model timeline can make the phases indistinguishable between the two sources.
 
     Showing all lifecycle data sources helps in displaying all the publisher data sources for the product model as separate timelines instead of one with the least sequence number. The life-cycle information for each of the sources, whether internal or external, are shown separately. In the presence of more than one external publisher source, the sources displayed are in alphabetical order. As the life-cycle phase information is not merged or collated, the phase details for each source are comprehensible on the timeline.
 
@@ -69,7 +69,7 @@ Role required: sn\_apm.apm\_user
 
     Project in the list appears only when you activate the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin.
 
-8.  To view and edit the application services, hardware and software models, projects, and create demands associated with the business application, click to expand a business application in the **Application** column.
+8.  In the **Application** column, expand a business application to view and edit its details.
 
     See [Perform application-related tasks from timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-details-timeline.md).
 
@@ -85,7 +85,7 @@ Role required: sn\_apm.apm\_user
 
     Risk is calculated for all business applications that are active. A business application that consumes an application service is said to be active, and the relationship between the two is established in the CI Relationships \[cmdb\_rel\_ci\] table. The engine evaluates the risk of each application service \(of production type only\). It also evaluates the risks of all the application services consumed by a business application collectively from the Application Service Risk \[sn\_apm\_tpm\_business\_service\_risk\] table. If the risk of any one of the application services is at a higher level, then the overall risk is high.
 
-    Formerly business application risks were calculated dynamically while loading the TPM timeline. To reduce the load to the risk engine, the engine now calculates the risk of each business application and stores the information in a Business Application Risk \[sn\_apm\_tpm\_business\_application\_risk\] table.
+    Previously, business application risks were calculated dynamically while loading the TPM timeline. To reduce the load to the risk engine, the engine now calculates the risk of each business application. The engine stores the information in a Business Application Risk \[sn\_apm\_tpm\_business\_application\_risk\] table.
 
     Run the [Load TPM Risk Parameters and compute Application Service Risks scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/run-scheduled-job-to-calculate-risks.md) daily to obtain the risk status of the application services on which the business applications run.
 

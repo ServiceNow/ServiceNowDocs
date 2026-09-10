@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/
 release: zurich
 topic_type: task
 last_updated: "2026-02-02"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -34,8 +34,6 @@ Roles required:
 2.  In the chat window, enter `Create a theme`.
 
     This triggers the AI-enabled Theme Builder workflow.
-
-    \[Omitted image "tb-nap-chat-window.png"\] Alt text: ServiceNow Otto panel with Create a theme entered into the chat window.
 
 3.  Select **Yes** when prompted to proceed.
 

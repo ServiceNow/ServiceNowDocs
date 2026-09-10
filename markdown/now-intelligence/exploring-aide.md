@@ -16,7 +16,7 @@ AI Data Explorer is your AI companion for instant insights and deep data explora
 
 ## AI Data Explorer overview
 
-The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration]() that serves as a centralized space for data-driven decision making.
+The objective of AI Data Explorer is to bring your thoughts into one place by empowering users to explore, generate interesting findings, and collaborate seamlessly. This is achieved through an AI-assisted, interactive [exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) that serves as a centralized space for data-driven decision making.
 
 **Note:** AI Data Explorer supports English only. Queries in other languages are not supported.
 

@@ -1,18 +1,19 @@
 ---
 title: CoPQ planned line charge form
-description: The CoPQ planned line form enables you to add the required details.
+description: The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-copq-planned-line-charge-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [CoPQ, cost of poor quality, planned line charge, CoPQ financial request, quality issue management]
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
 # CoPQ planned line charge form
 
-The CoPQ planned line form enables you to add the required details.
+The CoPQ planned line charge form contains fields for defining planned costs on a CoPQ financial request.
 
 <table id="table_uky_wgq_xhc"><thead><tr><th>
 
@@ -28,7 +29,7 @@ Number
 
 </td><td>
 
-CoPQ planned line charge number is automatically generated. The number starts with PLC and incremented for every new report.
+CoPQ planned line charge number that is automatically generated. The number starts with PLC and is incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +37,7 @@ State
 
 </td><td>
 
-Choose the state of the preventive action:-   New
+State of the planned line charge:-   New
 -   On hold
 -   In progress
 -   Closed complete
@@ -49,7 +50,7 @@ Financial request
 
 </td><td>
 
-Select the financial request that inks planned line charge to the parent CoPQ financial request.
+Financial request that links planned line charge to the parent CoPQ financial request.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ CoPQ type
 
 </td><td>
 
-Select the CoPQ type, it categorizes the cost as material/part-related or labor-related.
+CoPQ type that categorizes the cost as material/part-related or labor-related.
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Product model
 
 </td><td>
 
-Select the model type.
+Model type.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Quantity
 
 </td><td>
 
-Enter the quantity of the item/service planned.
+Quantity of the item/service planned.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Unit of measure
 
 </td><td>
 
-Enter the number of product quantities.
+Number of product quantities.
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Unit cost
 
 </td><td>
 
-Enter the cost of each product.
+Cost of each product.
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Planned cost
 
 </td><td>
 
-Enter the planned cost allocated to address the issue through the request.
+Planned cost allocated to address the issue through the request.
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Actual cost
 
 </td><td>
 
-Enter the actual cost incurred for the CoPQ request.
+Actual cost incurred for the CoPQ request.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

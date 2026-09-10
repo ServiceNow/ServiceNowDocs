@@ -39,7 +39,7 @@ The way isolation works depends on the environment:
 Build Agent supports the following deployment methods for apps created and edited with agentic development:
 
 -   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
-    -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow IDE supports bring-your-own Git integration, such as GitHub or Bitbucket.
+    -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
     -   You must be on Zurich Patch 12 to use source control in ServiceNow Studio.
     -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.

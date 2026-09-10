@@ -104,7 +104,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
         Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-widget-security.md).
 
-        For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**.
+        For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**. For more information on public access across the entire instance, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/enable-public-access-web-client.md).
 
 2.  In **Channels**, select your preferred messaging channels to display a chat assistant.
 
@@ -117,8 +117,8 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
         \[Omitted image "NAinVA-display-channels-062026.png"\] Alt text: List of channels to integrate with Virtual Agent.
 
     -   Select the ellipsis to remove a channel. The edit option is only available for Microsoft Teams. You can toggle between standard and premium chat.
-        -   For standard chat, conversations in Microsoft Teams display responses using adaptive, in-context cards.
-        -   For premium chat, conversations in Microsoft Teams display text-based responses for a faster, more conversational experience.
+        -   For standard chat, conversations in Microsoft Teams display a condensed conversational experience.
+        -   For premium chat, conversations in Microsoft Teams display a contextual chat experience that works best for end users using premium chat in their portal experience.
 3.  In **Mobile**, select a mobile app display experience.
 
     In the **Mobile** tab, if no mobile app is selected to display standard chat or enhanced chat, users see the traditional NLU Virtual Agent in the mobile app. There are different mobile app components that admins can display with an assistant: mobile search widget, chat launcher, prominent action button override, and a custom app \(mobile SDK\).

@@ -22,6 +22,10 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and select a planning item.
@@ -34,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d148272e111">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d150868e125">
 
 Option
 
-</th><th align="left" id="d148272e114">
+</th><th align="left" id="d150868e128">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d148272e120">
+</th></tr></thead><tbody><tr><td id="d150868e134">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d148272e144">
+</td></tr><tr><td id="d150868e158">
 
 **Using finanicals record page**
 

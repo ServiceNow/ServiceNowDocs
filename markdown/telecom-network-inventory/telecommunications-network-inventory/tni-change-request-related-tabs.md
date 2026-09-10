@@ -43,8 +43,8 @@ List of configuration items \(CI\). These items \(from the CMDB\) are affected b
  **Note:**
 
 -   The **Affected CIs** tab of the Change Request form lists all CIs that are created through the change tasks of that change request. This tab also lists all the affected CIs of the change tasks.
--   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the changes are also updated in the affected CI list of the corresponding change request.
--   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the same CI is deleted in the affected CI list of the corresponding change request.
+-   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the affected CI list of the corresponding change request is also updated.
+-   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the same CI is also deleted from the affected CI list of the corresponding change request.
 
 </td></tr><tr><td>
 

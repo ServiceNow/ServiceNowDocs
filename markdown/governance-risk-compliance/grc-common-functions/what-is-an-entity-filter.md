@@ -9,14 +9,14 @@ classification: grc-common-functions
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Entity types, Explore entities, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Entity filters
 
 Entity types enable you to find and create entities that match a set of filter conditions. Entity types include predefined entity filters that define the data to be displayed in the user interface. The entity filter defines the table from which data is pulled into each entity type for display.
 
-Entities in entity type are created based on the conditions set in the entity filter. You can create a new entity filter by navigating to the Entity types tab under the List view.
+Entities in entity type are created based on the conditions set in the entity filter. You can create an entity filter by navigating to the Entity types tab under the List view.
 
 The options in the **Entity filter** tab under the Entity type are revised so that **Build your own conditions** condition builder uses the same option that was used in the previous condition builder. In addition, the new **Select from predefined queries** option leverages the Configuration Management Database \(CMDB\) queries. The following options are now available in the Entity filters related list under Entity type:
 
@@ -33,10 +33,16 @@ The **Entity filters** tab displays the following information:
 
 Use the new Entity class field in the entity filters under the entity type to assign an entity class to an entity filter. When you use an entity filter to create an entity, an entity class gets assigned to it automatically.
 
+-   **[Entity filter fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-filter-fields.md)**  
+Descriptions of the fields displayed in the Entity filters related list under Entity type.
 -   **[Create an entity filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-new-entity-filter-ws.md)**  
 Create an entity filter under an entity type in the workspace view. Entities in entity type are created based on the conditions set in the Entity Filter. The entity filter defines the table from which data is pulled into each entity type for display.
 -   **[Create an entity filter in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/create-entity-filter-in-classic-user-interface.md)**  
 Create an entity filter under an entity type in the classic user interface. The entity filter defines the table from which data is pulled into each entity type for display. If the entities belong to an application, the users who have access to the entity class that is associated with the entity can only view those entities.
+-   **[Configure automatic updates for entity owner and class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-automatic-updates-for-entity-owner-and-entity-class.md)**  
+Configure an entity filter to automatically update entity owner and class when source data changes or an entity moves between filters.
+-   **[Entity owner and class derivation behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-owner-and-class-derivation-behavior.md)**  
+Entity owner and entity class derivation settings determine how the system selects owner and class values when one or more entity filters apply to an entity.
 
-**Parent Topic:**[Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md)
+**Parent Topic:**[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)
 

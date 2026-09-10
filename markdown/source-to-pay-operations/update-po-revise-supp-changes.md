@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/update-po-revise-supp-changes.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Address exception, Resolve purchase order exception, Update purchase order, Edit order]
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -27,25 +27,23 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an open exception that you want to work on.
 
-4.  Select **Address exception**.
-
-5.  From the drop-down list, select **Update impacted order**.
+4.  From the **Address exception** list, select **Update impacted order**.
 
     \[Omitted image "pom-update-impacted-order.png"\] Alt text: Update an impacted purchase order to address the exception
 
-6.  Select **Edit order**.
+5.  Select **Edit order**.
 
     \[Omitted image "pom-update-order-edits.png"\] Alt text: Edit the order to revise the supplier's changes
 
-7.  In the Quick edit window, update the purchased quantity or requested delivery date, or both.
+6.  In the Quick edit window, update the purchased quantity or requested delivery date, or both.
 
     \[Omitted image "pom-update-order-quickedits.png"\] Alt text: Revise the quantity or delivery date or both
 
-8.  Select **Save edit**.
+7.  Select **Save edit**.
 
     .
 
-9.  To update more fields, select **Edit full record**.
+8.  To update more fields, select **Edit full record**.
 
 
 ## Result
@@ -53,4 +51,13 @@ Role required: sn\_poem\_core.operational\_buyer
 A purchase requisition of type Revision is created with your updates and is assigned to a reviewer for further action.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/confirm-resolution.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

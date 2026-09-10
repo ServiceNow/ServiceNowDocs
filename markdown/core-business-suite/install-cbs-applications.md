@@ -94,7 +94,7 @@ Procurement services
 
 </td><td>
 
-Enable employees to make procurement related inquiries. See [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/source-to-pay-operations/activate-finance-spend-central.md).
+Enable employees to make procurement related inquiries. See .
 
 </td><td>
 

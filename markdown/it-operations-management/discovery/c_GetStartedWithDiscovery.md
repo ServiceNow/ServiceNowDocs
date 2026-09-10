@@ -1,6 +1,6 @@
 ---
 title: Exploring Discovery
-description: Discovery finds computers, servers, printers, a variety of IP-enabled devices, and the applications that run on them. It can then update the CIs in your CMDB with the data it collects.
+description: Discovery finds computers, servers, printers, a variety of IP-enabled devices, and the applications that run on them. It can then update the configuration items \(CIs\) in your Configuration Management Database \(CMDB\) with the data it collects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_GetStartedWithDiscovery.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 
 # Exploring Discovery
 
-Discovery finds computers, servers, printers, a variety of IP-enabled devices, and the applications that run on them. It can then update the CIs in your CMDB with the data it collects.
+Discovery finds computers, servers, printers, a variety of IP-enabled devices, and the applications that run on them. It can then update the configuration items \(CIs\) in your Configuration Management Database \(CMDB\) with the data it collects.
 
 ## Horizontal discovery and top-down discovery
 
@@ -64,7 +64,7 @@ Discovery follows these phases:
 
 -   **Exploration**
 
-    The identifier launches additional probes configured in the classifier. These probes are especially designed as exploration probes to gather additional information about the device, like the applications running it, and additional attributes, such as memory, network cards, and drivers. Discovery then creates relationships between applications and devices and between applications. If you’re using patterns, the operations in the pattern perform the exploration of the CI.
+    The identifier launches additional probes configured in the classifier. These probes gather additional information about the device, including the applications running on it and attributes such as memory, network cards, and drivers. Discovery then creates relationships between applications and devices and between applications. If you’re using patterns, the operations in the pattern perform the exploration of the CI.
 
 
 ## Discovery communication through MID Servers

@@ -99,8 +99,12 @@ Add a task to the crisis event in BCM UIB Workspace. You can then monitor and co
 Import the automated task from the business continuity plan in an actual event. Utilizing automated tasks during an actual event enhances efficiency and reduces response time for users.
 -   **[Creating action items in crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/creating-action-items-in-crisis.md)**  
 Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
+-   **[Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/creating-collaboration-threads-in-crisis.md)**  
+Starting with BCM core release 12.x.x, crisis managers can create collaboration threads on crisis events to coordinate responses with recovery teams and send email updates.
 -   **[Create a similar tasks group in a crisis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-sim-tasks-grp-crisis.md)**  
 Identify and group similar or duplicate tasks related to a crisis event using the **Similar tasks groups** tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
+-   **[Add or create an issue from a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-or-create-issue-from-crisis-event.md)**  
+Add an existing issue or create an issue to track problems identified during a crisis event.
 -   **[Request an approval and approve the crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/submit-event-task-for-crisis-event-uib-ws.md)**  
 Approve the crisis event in BCM UIB Workspace.
 

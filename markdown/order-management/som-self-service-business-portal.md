@@ -43,7 +43,7 @@ B2B customers can perform the following order management tasks using the Busines
 |Admin|Manages and administers the Business Portal, installs new plugins to enable new features.|
 |Customers|B2B customers browse products catalog, order products, create request for quotes, order cases to request changes to orders and order line items, view quotes and order case details.|
 
-Sales agents do not directly use the Business Portal, but work on orders, order cases, and RFQs submitted through the Business Portal from the CSM Configurable Workspace. Depending on the process for orders, order cases, RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, they review RFQs, convert RFQs to quotes, apply price adjustments, and return the quote to the customer for approval.
+Sales agents do not directly use the Business Portal, but work on orders, order cases, and RFQs submitted through the Business Portal from the CRM Workspace. Depending on the process for orders, order cases, RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, they review RFQs, convert RFQs to quotes, apply price adjustments, and return the quote to the customer for approval.
 
 ## What to explore next
 

@@ -30,15 +30,15 @@ The **Gifts Approval** flow available in the base system, automatically routes y
 
 1.  Open the approval request
 
-<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d555835e81">
+<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d556561e81">
 
 Method
 
-</th><th align="left" id="d555835e84">
+</th><th align="left" id="d556561e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d555835e90">
+</th></tr></thead><tbody><tr><td id="d556561e90">
 
 **From Legal Counsel Center list**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the Items Pending Approval list, open a request by clicking the request number in the **Approving** column.
 
 
-</td></tr><tr><td id="d555835e144">
+</td></tr><tr><td id="d556561e144">
 
 **From Legal Counsel Center landing page**
 
@@ -61,7 +61,7 @@ Steps
 3.  Select the request for approval.
 
 
-</td></tr><tr><td id="d555835e180">
+</td></tr><tr><td id="d556561e180">
 
 **From Employee Center**
 

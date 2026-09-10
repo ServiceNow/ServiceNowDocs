@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-06-04"
 reading_time_minutes: 1
 keywords: [audience criteria, user criteria, applicability, targeting]
-breadcrumb: [Configure multi-theme, Employee Slate for Now Assist, Configuration flow, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure multi-theme, Employee Slate \(built for Now Assist\), Configuration flow, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # User criteria form and reference

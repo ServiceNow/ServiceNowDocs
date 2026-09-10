@@ -46,7 +46,7 @@ You can configure the script at the following levels:
 
 7.  Configure the function to return **True** based on the sys\_id of the API at the product model level, application service level, or business application level.
 
-    The risk engine then calls the API for the custom logic and calculates the risk in line with this logic, which bubbles up to the next level of risk calculation.
+    The risk engine calls the API for the custom logic and calculates the risk accordingly. The risk then bubbles up to the next level of risk calculation.
 
 8.  Click **Update**.
 

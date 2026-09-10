@@ -66,7 +66,9 @@ Your business application is the assessable record and it’s linked to a metric
 
     After the user submits the assessments, the **State** of the assessment instance in the **Assessments Instances** tab changes to **Complete**.
 
-11. Select the **Assessments Instances** tab to view the instances of assessments that have been created, the total number of assessments that have been sent out to users who fit in the filter criteria, and the status of the assessment instances.
+11. Select the **Assessments Instances** tab to view the instances of assessments that have been created.
+
+    You can also view the total number of assessments sent out to users who fit in the filter criteria, and the status of the assessment instances.
 
     Each occurrence of a questionnaire assigned to one user is an assessments instance.
 

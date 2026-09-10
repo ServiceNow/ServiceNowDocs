@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the asset inventory, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # Create an AI asset in the asset inventory
@@ -29,7 +29,7 @@ From the asset inventory, asset types are created by opening their respective ap
 
     For more information, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-studio.md).
 
--   Create Virtual Agent assets with Virtual Agent Assistant Designer, including topics, virtual assistants, subflows, and actions.
+-   Create assets with Assistant Designer, including topics, virtual assistants, subflows, and actions.
 
     For more information, see [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/assistant-designer.md).
 
@@ -118,7 +118,7 @@ Opens the New Subflow form in Assistant Designer.
 
  A subflow is an automated process that is part of a larger automated process. It consists of reusable actions and flow logic, data inputs, and outputs.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -128,9 +128,9 @@ Action
 
 Opens the New Action form in Assistant Designer.
 
- An action is a single step or task performed by a an AI agent, a workflow, or a subflow.
+ An action is a single step or task performed by an AI agent, a workflow, or a subflow.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Opens the Create a topic form in Assistant Designer.
 
  A conversational topic is used to structure back-and-forth conversations between the virtual agent and the end user.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
+ For more information on creating an asset with the Assistant Designer asset library, see [Getting started with Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
 
 </td></tr><tr><td>
 
@@ -214,10 +214,10 @@ Opens Knowledge Graph Designer home page.
 
 An asset is created and can be seen in the related asset inventory list.
 
-**Parent Topic:**[Using the asset inventory in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-asset-inventory.md)
+**Parent Topic:**[Managing AI assets in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-asset-inventory.md)
 
 **Related topics**  
 
 
-[View your AI assets in the asset inventory]()
+[View and manage your AI assets in the asset inventory]()
 

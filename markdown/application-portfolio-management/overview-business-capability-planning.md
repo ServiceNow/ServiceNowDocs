@@ -1,6 +1,6 @@
 ---
 title: Overview of business capability planning - Legacy
-description: Capability-based planning directs toward planning, designing, and delivering effective plans of action to improve business capabilities in a business enterprise. The effective implementation of capability-based planning lies with the roles of business personas such as the business owner, application portfolio owner, and capability planner in understanding the existing capabilities and in planning to fill the technical gaps.
+description: Capability-based planning directs toward planning, designing, and delivering effective plans of action to improve business capabilities in a business enterprise. Business owners, application portfolio owners, and capability planners use capability-based planning to understand existing capabilities and plan to fill technical gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/overview-business-capability-planning.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Management of business capability - Legacy, Explore- Legacy, Enterp
 
 # Overview of business capability planning - Legacy
 
-Capability-based planning directs toward planning, designing, and delivering effective plans of action to improve business capabilities in a business enterprise. The effective implementation of capability-based planning lies with the roles of business personas such as the business owner, application portfolio owner, and capability planner in understanding the existing capabilities and in planning to fill the technical gaps.
+Capability-based planning directs toward planning, designing, and delivering effective plans of action to improve business capabilities in a business enterprise. Business owners, application portfolio owners, and capability planners use capability-based planning to understand existing capabilities and plan to fill technical gaps.
 
 **Important:**
 
@@ -22,7 +22,7 @@ Capability-based planning is a mechanism to better understand how to map strateg
 
 Business capability is a configuration item \(CI\) that helps to understand how the business capability is supported by the related applications and services.
 
-Capability-based planning is structured as a hierarchy and supports up to six levels of capabilities in its series, which means a parent capability can have six levels of sub-capabilities beneath its level. However, a capability in each level of the hierarchy can have as many capabilities as its siblings at its own level and each one can have one-to-many relationships between the levels.
+Capability-based planning is structured as a hierarchy and supports up to six levels of capabilities in its series. A parent capability can have six levels of sub-capabilities beneath its level. A capability in each level of the hierarchy can have as many capabilities as its siblings at its own level. Each one can have one-to-many relationships between the levels.
 
 ## Personas governing capability based planning
 
@@ -30,7 +30,7 @@ Following are the personas with appropriate roles to use capability-based planni
 
 -   **Business owner**
 
-    As a business owner it is important that you perceive the existing capabilities and work out strategies to identify the areas that need investments to plan for better allocation of expenses on projects.
+    As a business owner, you perceive the existing capabilities and work out strategies to identify areas that need investments. This helps you plan for better allocation of expenses on projects.
 
 -   **Application portfolio owner**
 
@@ -38,7 +38,7 @@ Following are the personas with appropriate roles to use capability-based planni
 
 -   **Capability planner**
 
-    As a capability planner, you have to establish capabilities in the light of the industry norms of applying procedures that have been termed as a best practice, being most effective and yielding the best results.
+    As a capability planner, you establish capabilities based on industry standards and general guidelines that are most effective.
 
 
 ## What to do next

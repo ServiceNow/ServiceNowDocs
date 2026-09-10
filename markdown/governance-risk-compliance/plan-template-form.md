@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure the BCP template, Configuring plan template, Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -92,6 +92,30 @@ Loss scenarios to be included in the plan. Available options are:
 -   **Loss of Windows Servers**
 
  You can also create a loss scenario and add it to the template. For more information on creating a loss scenario, see [Add loss scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-loss-scenario-recovery-task-bcp-uib-ws.md).
+
+</td></tr><tr><td>
+
+Recovery strategy templates
+
+</td><td>
+
+Recovery strategy templates that should be applied to the matching loss scenarios when a plan is created from this template. See [Recovery strategy template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/recovery-strategy-template-form.md). **Note:** Recovery strategies are displayed in the Loss scenarios as a related list, along with groups and templates.
+
+</td></tr><tr><td>
+
+Task template groups
+
+</td><td>
+
+Task template groups whose tasks should be created on the plan record when a plan is created from this template. See [Task template group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/task-template-group-form.md).
+
+</td></tr><tr><td>
+
+Task templates
+
+</td><td>
+
+Individual task templates whose tasks should be created on the plan record when a plan is created from this template. See [Task template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/task-template-form.md).
 
 </td></tr><tr><td>
 

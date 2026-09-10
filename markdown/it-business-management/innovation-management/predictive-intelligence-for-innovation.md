@@ -16,7 +16,7 @@ breadcrumb: [Explore, Innovation Management, Project Portfolio Management, Strat
 
 The Predictive Intelligence for Innovation Management capability uses machine-learning algorithms to search and display similar ideas while submitting a new idea.
 
-The PPM Predictive Intelligence Workbench includes a prebuilt use case template that systematically guides you through the process of creating and training new predictive models, evaluating and testing them, and finally adding them to your business process to add value to your Idea, Demand, and Project Management.
+The PPM Predictive Intelligence Workbench includes a prebuilt use case template that systematically guides you through the process of creating and training new predictive models. This template also helps with evaluating and testing them, and finally adding them to your business process to add value to your Idea, Demand, and Project Management.
 
 Once you train your custom use cases, they are usable immediately. No prior knowledge or experience with artificial intelligence or machine learning is required when you use the PPM Predictive Intelligence Workbench.
 

@@ -18,7 +18,7 @@ After you create a program, you can use the guided plan to formulate steps in ex
 
 You can use the guided plan to execute a program only when you activate PPM Standard \(com.snc.financial\_planning\_pmo\) plugin.
 
-You can select a specific program by clicking the view link of the programs in the Opportunities &amp; Solutions section of the Application Portfolio Management portal to open the guided program navigation page. The Program Navigation page guides you in creating a step-by-step plan to set a goal target, identify opportunities and create demands, and track the project.
+You can select a specific program by clicking the view link of the programs in the Opportunities &amp; Solutions section of the Application Portfolio Management portal. This opens the guided program navigation page. The Program Navigation page guides you in creating a step-by-step plan to set a goal target, identify opportunities and create demands, and track the project.
 
 The Program Navigation page is divided into these sections:
 

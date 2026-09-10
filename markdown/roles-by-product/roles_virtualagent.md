@@ -234,7 +234,7 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
- Any user assigned this role can alter or delete topics created in the Virtual Agent Designer system, including topics that other topics refer to or have as dependencies.
+ Any user assigned this role can alter or delete topics created in the Assistant Designer Asset library system, including topics that other topics refer to or have as dependencies.
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ Localization editor \[localization\_editor\]
 
 </td><td>
 
-Edits the translations directly in Virtual Agent Designer. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.
+Edits the translations directly in Assistant Designer Asset library. The NLU admin \[nlu\_admin\] and Virtual Agent admin \[virtual\_agent\_admin\] roles contain this role by default.
 
 </td><td>
 
@@ -403,26 +403,6 @@ None.
 
 </td></tr><tr><td>
 
-Now Assist for Creator \[now.assist.creator\]
-
-</td><td>
-
-This role grants users access to Now Assist for Creator skills.
-
-</td><td>
-
-None
-
-</td><td>
-
-None.
-
-</td><td>
-
-None.
-
-</td></tr><tr><td>
-
 Search application administrator \[search\_application\_admin\]
 
 </td><td>
@@ -453,6 +433,26 @@ Performs CRUD operations on Pattern and Activity configuration and the Deflectio
 </td><td>
 
 None.
+
+</td><td>
+
+None.
+
+</td><td>
+
+None.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator \[now.assist.creator\]
+
+</td><td>
+
+This role grants users access to ServiceNow Otto for Creator skills.
+
+</td><td>
+
+None
 
 </td><td>
 

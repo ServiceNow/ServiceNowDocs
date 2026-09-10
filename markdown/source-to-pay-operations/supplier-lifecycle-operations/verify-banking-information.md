@@ -8,7 +8,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-06-04"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Review supplier information using Relish, Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -22,6 +22,12 @@ Ensure that the SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_con
 
 Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
+## About this task
+
+By default, bank validation checks only the bank routing number and address details. Relish also verifies the bank account number and account ownership information when bank account ownership validation is enabled.
+
+To enable bank account ownership validation, see [Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
@@ -34,7 +40,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 4.  Select **Validate** to invoke the Relish verification process.
 
-    It takes a few minutes for Relish to complete the verification process. Depending on the result, the supplier manager can approve or reject the request.
+    It takes a few minutes for Relish to complete the verification process. The validation checks bank details and, if enabled, bank account ownership. When both validations are performed, the overall result is determined by the least favorable outcome.
 
     \[Omitted image "relish-bank-info.png"\] Alt text: Verifying bank information using Relish
 
@@ -47,6 +53,8 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 7.  Close the case.
 
 
+-   **[Enable bank account ownership validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/enable-bank-ownership-validation.md)**  
+Configure the bank validation flow to include bank account ownership validation in addition to standard bank details validation.
 -   **[Banking verification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/banking-information-request-response.md)**  
 Request and response parameters for verifying banking information through the Relish Data Assure API.
 

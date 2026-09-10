@@ -45,7 +45,9 @@ The following procedure describes the collection of JSON formatted event message
 
 ## Procedure
 
-1.  In the Google Cloud Platform \(GCP\) console, make sure the MID Server IP is accessible from the GCP console and MID rest point is accessible from GCP or install the MID Server on a GCP VM and provide the GCP VM external IP address in the URL.
+1.  Verify that the MID Server IP is accessible from the Google Cloud Platform \(GCP\) console and that the MID rest point is accessible from GCP.
+
+    Alternatively, install the MID Server on a GCP VM and provide the GCP VM external IP address in the URL.
 
     In the GCP console, create a firewall rule.
 

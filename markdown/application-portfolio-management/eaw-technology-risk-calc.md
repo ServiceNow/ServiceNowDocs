@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Technology risk calculation in Enterprise Architecture Workspace
@@ -95,7 +95,7 @@ A business application can run on many software models. The risk of a business a
 
 You can customize the script that is executed to calculate the risks at the product model risk level \(hardware and software models\). The script also calculates risks at the application service risk level and business application risk level.
 
-**Parent Topic:**[Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
 
 **Related topics**  
 

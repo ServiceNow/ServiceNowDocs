@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/revert-app-changes-using-build-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-08-19"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, Now Assist, AI Agents, generative AI, agentic AI]
+audience: administrator
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -25,21 +26,17 @@ Role required: admin
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-2.  Open Build Agent.
+2.  Select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open Build Agent.
 
-    **Note:** The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the corner of your browser.
+3.  Select the chat that contains checkpoints you can revert to.
 
-3.  Open a previous chat to revert your changes by selecting the chats icon \[Omitted image "sn-studio-ba-chats-icon.png"\] Alt text:.
+4.  View all available checkpoints by selecting the checkpoints icon \[Omitted image "sn-studio-ba-checkpoint-icon.png"\] Alt text:
 
-    \[Omitted image "ba-chats-selection.png"\] Alt text: Build Agent panel with chat selection icon
+    \[Omitted image "ba-chats-checkpoint.png"\] Alt text: Daily Planner Tracker chat panel showing completed Install and UI Diagnostics steps, each marked with a green check mark.
 
-4.  Select the chat that contains checkpoints you can revert to.
+5.  Select the checkpoint you want to revert back to, and select **Restore**.
 
-5.  View all available checkpoints by selecting the checkpoints icon \[Omitted image "sn-studio-ba-checkpoint-icon.png"\] Alt text:
-
-    \[Omitted image "ba-chats-checkpoint.png"\] Alt text: Build Agent chat panel for Planner Tracker summary and checkpoints list with highlighted checkpoints button
-
-6.  Select the checkpoint you want to revert back to, and select **Restore**.
+    \[Omitted image "ba-restore-button.png"\] Alt text: Daily Planner Tracker checkpoint panel with the Restore button highlighted.
 
 
 ## Result

@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-GitLab spoke v2.5.0 is the latest version.
+GitLab spoke v2.5.3 is the latest version.
 
 ## Compatible versions
 

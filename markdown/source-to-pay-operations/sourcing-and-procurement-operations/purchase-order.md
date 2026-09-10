@@ -115,22 +115,6 @@ Indicates if the purchase order is of the type **Standard** or **Blanket**.
 
 </td></tr><tr><td>
 
-Minimum spend
-
-</td><td>
-
-Minimum amount that must be spent to avail a discount.This field isn’t displayed for a blanket order type.
-
-</td></tr><tr><td>
-
-Discount percentage
-
-</td><td>
-
-Discount provided if the minimum spend requirement is met.This field isn’t displayed for a blanket order type.
-
-</td></tr><tr><td>
-
 Total amount
 
 </td><td>

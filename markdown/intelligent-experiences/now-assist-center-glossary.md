@@ -40,9 +40,9 @@ An agentic system is a type of software or AI that perceives its environment, ma
 
 An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio by using triggers, tools, and evaluation plans, and deploy across ITSM, HR, and CSM use cases.
 
-## Citation
+## citation
 
-Small, interactable number next to AI-generated content in the Now Assist panel that cites the source of the information.
+Small, interactable number next to AI-generated content in the ServiceNow Otto panel that cites the source of the information.
 
 ## Now Assist
 
@@ -50,13 +50,13 @@ Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assi
 
 To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
-## Now Assist skill
+## generative AI skill
 
-A predefined capability within Now Assist that uses generative AI to perform tasks such as generating summaries, resolution notes, and so on.
+A predefined capability on the ServiceNow AI Platform that uses generative AI to perform tasks such as generating summaries, resolution notes, and so forth.
 
-## Orchestrator
+## orchestrator
 
-The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to Agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
+The AI agent orchestrator is a specialized agent that plans, coordinates, and manages the execution of tasks across multiple AI agents. It holds short-term memory, tracks goals, and ensures agents collaborate effectively. This component is central to agentic AI architecture and is configured in AI Agent Studio. The orchestrator conducts the planning and leads a team of AI agents to address a given agentic workflow.
 
 ## subflow
 

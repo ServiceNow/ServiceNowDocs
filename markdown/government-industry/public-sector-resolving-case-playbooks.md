@@ -16,7 +16,7 @@ You can use playbooks to create cases and to complete the tasks and activities t
 
 **Note:** Verify that the Service Request Playbook application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Service Request Playbook application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configuring-service-request-playbook.md).
 
-By default, the following stages are available to you as a government service agent in the Service Request Playbook in the CSM Configurable Workspace.
+By default, the following stages are available to you as a government service agent in the Service Request Playbook in the CRM Workspace.
 
 -   Intake
 -   Review
@@ -43,7 +43,7 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 ### Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Service Request case list** &gt; **All**.
+1.  In the CRM Workspace, navigate to **Lists** &gt; **Service Request case list** &gt; **All**.
 
 2.  Select **New**.
 
@@ -82,15 +82,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether or not you have duplicate cases.
 
-<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d30534e369">
+<table id="choicetable_lk3_nsm_gwb"><thead><tr><th align="left" id="d30956e369">
 
 Options
 
-</th><th align="left" id="d30534e372">
+</th><th align="left" id="d30956e372">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30534e378">
+</th></tr></thead><tbody><tr><td id="d30956e378">
 
 **If there are no duplicate cases**
 
@@ -98,7 +98,7 @@ Steps
 
 Select **Request inspection**, then check the box to confirm that there are no similar service requests.
 
-</td></tr><tr><td id="d30534e390">
+</td></tr><tr><td id="d30956e390">
 
 **If there are duplicate cases**
 
@@ -120,15 +120,15 @@ In the Decision stage, the Resolution code is `Void/Cancelled, Duplicate Issue` 
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d30534e485">
+<table id="choicetable_srl_gtm_gwb"><thead><tr><th align="left" id="d30956e485">
 
 Option
 
-</th><th align="left" id="d30534e488">
+</th><th align="left" id="d30956e488">
 
  
 
-</th></tr></thead><tbody><tr><td id="d30534e493">
+</th></tr></thead><tbody><tr><td id="d30956e493">
 
 **If a field service agent must be dispatched**
 
@@ -142,7 +142,7 @@ Option
 3.  Once the work order has been fulfilled, select **Move to process** to move to the next activity.
 
 
-</td></tr><tr><td id="d30534e522">
+</td></tr><tr><td id="d30956e522">
 
 **If no field service agent must be dispatched**
 
@@ -172,15 +172,15 @@ Role required: admin, sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_g
 
 2.  Do one of the following actions depending on whether a resource approval is required to proceed.
 
-<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d30534e630">
+<table id="choicetable_tpm_25m_gwb"><thead><tr><th align="left" id="d30956e630">
 
 Options
 
-</th><th align="left" id="d30534e633">
+</th><th align="left" id="d30956e633">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30534e639">
+</th></tr></thead><tbody><tr><td id="d30956e639">
 
 **If a resource approval is required**
 
@@ -190,7 +190,7 @@ Steps
 2.  After all approvals have been received, select **Start work** to move to the **Perform work** activity.
 
 
-</td></tr><tr><td id="d30534e669">
+</td></tr><tr><td id="d30956e669">
 
 **If a resource approval is not required**
 
@@ -203,15 +203,15 @@ If no approvals are needed, select **Start work** to bypass the **Approve resour
 
 4.  Do one of the following actions depending on whether a field service agent must be dispatched to the service request location.
 
-<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d30534e702">
+<table id="choicetable_tgk_p5m_gwb"><thead><tr><th align="left" id="d30956e702">
 
 Options
 
-</th><th align="left" id="d30534e705">
+</th><th align="left" id="d30956e705">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d30534e711">
+</th></tr></thead><tbody><tr><td id="d30956e711">
 
 **If a field service agent must be dispatched to the request location**
 
@@ -221,7 +221,7 @@ Steps
 2.  Fill in the required information and select **Submit**.
 
 
-</td></tr><tr><td id="d30534e735">
+</td></tr><tr><td id="d30956e735">
 
 **If no field service agent must be dispatched**
 

@@ -54,7 +54,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 5.  Verify that your topics work as expected by opening them in a test conversation window in one of the following ways.
 
-<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d95262e224">
+<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d95151e224">
 
 **Topic properties tab**
 
@@ -64,7 +64,7 @@ You can also publish topic blocks and custom controls to make them available for
 -   For LLM topics, select **Test** or open the drop-down menu and select **Preview in ServiceNow Otto panel**.
 
 
-</td></tr><tr><td id="d95262e254">
+</td></tr><tr><td id="d95151e254">
 
 **LLM home page**
 
@@ -72,7 +72,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 Under the **Select assistant** drop-down menu, choose the assistant associated with your topic, then select **Test assistant**.
 
-</td></tr><tr><td id="d95262e269">
+</td></tr><tr><td id="d95151e269">
 
 **NLU/keyword home page**
 

@@ -16,6 +16,8 @@ breadcrumb: [Work scheduler, Workforce Optimization for ITSM, IT Service Managem
 
 Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Properties
 
 Enter **sys\_properties.list** in the Workspace filter navigator and search for the work scheduler properties listed below.

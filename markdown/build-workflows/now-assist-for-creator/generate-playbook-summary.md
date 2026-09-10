@@ -19,11 +19,9 @@ Generate an AI-generated summary of the stages, activities, triggers, and inputs
 
 ## Before you begin
 
-Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Summarization** skill is active.
+Verify that the ServiceNow Otto for Creator plugin is installed and the **Playbook Summarization** skill is turned on.
 
-**Note:** The skill is available in **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Creator**. If you don't see **Creator** under **Now Assist Skills**, the plugin is not installed.
-
-\[Omitted image "now-assist-creator-skills.png"\] Alt text: Now assist for creator skills page.
+**Note:** AI skills are available in **Admin** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Creator**.
 
 For information about installing ServiceNow Otto for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/now-assist-for-creator/install-now-assist-for-creator.md).
 

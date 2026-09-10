@@ -39,7 +39,7 @@ To enable the Process Mining content pack for HR Service Delivery, see [Activate
 
 HR Service Delivery Process Mining configuration model includes process definitions for standard HR services, and a process map that uses multi-dimensional mining for Lifecycle Events if this application is installed.
 
-Process maps and transitions look across your portfolio of HR services to find and visualize problem areas, opportunities for enhancements, and process compliance​.
+Process maps and transitions look across your portfolio of HR services to find and visualize problem areas, opportunities for enhancements, and process conformance​.
 
 |All standard HR services|Lifecycle Events \(if installed\)|
 |------------------------|---------------------------------|
@@ -73,7 +73,7 @@ The process model definitions include default activity definitions and breakdown
 
 ## Continual Improvement Management initiative for HR cases
 
-If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and process optimization model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/integrate-with-continuous-i.md).
+If the Continual Improvement Management \(CIM\) application is enabled, you can also use the CIM project from the Analyst Workbench to track the progress of improvement initiatives for HR cases. The improvement initiative and process mining model are automatically linked. For more information, see [Integration with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/integrate-with-continuous-i.md).
 
 ## Performance Analytics for HR cases
 

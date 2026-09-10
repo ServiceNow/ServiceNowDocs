@@ -64,7 +64,7 @@ The following steps describe the waitlist lifecycle:
 -   **[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/waitlist-configuration.md)**  
 The Reservation Waitlist data model describes the tables and configuration options that support waitlist requests, space allocation, and reservation fulfillment for employees.
 -   **[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)**  
-When all spaces in a location are fully booked, and when employees are unable to find a space, they can join a reservation waitlist queue.
+When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
 -   **[Create a schedule job for waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/schedule-job-waitlist.md)**  
 A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
 -   **[Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/purge-waitlist.md)**  

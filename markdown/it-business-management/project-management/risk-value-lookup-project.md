@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Add risks for a project, Adding RIDAC records for a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 

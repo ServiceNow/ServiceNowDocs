@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 1
 keywords: [Quick Links, home page widget configuration, admin console, Employee Slate]
-breadcrumb: [Quick Links widgets, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Quick Links widgets, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure quick links from the admin console

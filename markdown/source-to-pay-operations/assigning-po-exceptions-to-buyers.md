@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/assigning-po-exceptions-to-buyers.html
 release: zurich
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [automatic assignment, assignment, assign purchase order exception]
 breadcrumb: [Configure, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Purchase Order Management, Source-to-Pay Operations, Fin
 
 Use queues in Advanced Work Assignment to assign purchase order exceptions to the appropriate buyer.
 
-You can leverage the following default queues:
+You can use the following default queues:
 
 -   **Critical priority purchase order exceptions**
 -   **Moderate priority purchase order exceptions**
@@ -32,4 +32,6 @@ Modify these existing queues or create a queue by selecting the purchase order e
 [Install Purchase Order Management]()
 
 [Assigning priority to a purchase order]()
+
+[Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md)
 

@@ -687,3 +687,5 @@ Base input fields
 
 [Customize an AI skill in ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)]()
 
+[Activate the Spend categorization agent]()
+

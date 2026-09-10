@@ -1,6 +1,6 @@
 ---
 title: Renew a service contract line
-description: Renew a service contract line on the CSM Configurable Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
+description: Renew a service contract line on the CRM Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/cce-renew-service-contract-line.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and 
 
 # Renew a service contract line
 
-Renew a service contract line on the CSM Configurable Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
+Renew a service contract line on the CRM Workspace. You can renew the services specified in the service contract line and its associated child service contract lines and entitlements.
 
 ## About this task
 

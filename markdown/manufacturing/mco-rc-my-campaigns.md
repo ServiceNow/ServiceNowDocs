@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-rc-my-campaigns.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a campaign
@@ -35,10 +35,8 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
     The following actions are displayed:
 
     -   Import Impacted Assets: To import impacted assets, refer [Importing impacted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco_importing_impacted_assets.md)
-    -   Initiate Recall Campaign: To change the recall campaign state from draft to in-progress, you must have atleast one corrective action marked as In use. Only then can the campaign progress beyond the draft stage.
+    -   Initiate Recall Campaign: To change the recall campaign state from draft to in-progress, you must have at least one corrective action marked as In use. Only then can the campaign progress beyond the draft stage.
     -   Cancel Campaign: To cancel the recall campaign.
-    .
-
 
 ## What to do next
 

@@ -8,13 +8,15 @@ product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Setting up Teams in Workforce Optimization for ITSM
 
 Organize your teams into assignment groups and create reports for those groups so that you can gain visibility into the team's performance.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Important:** If you have enabled the Team Performance \(sn\_team\_perf\) plugin from the ServiceNow Store, you must make sure that you have upgraded the following plugins to latest version of the store release for the Tokyo family release:
 

@@ -54,15 +54,15 @@ this record summarization skill in either Core UI or Source-to-Pay Workspace.
     -   **Next steps**: Lists the actions that the fulfillers need to take next.
 7.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d105387e212">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d110749e212">
 
 Option
 
-</th><th align="left" id="d105387e215">
+</th><th align="left" id="d110749e215">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d105387e221">
+</th></tr></thead><tbody><tr><td id="d110749e221">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d105387e248">
+</td></tr><tr><td id="d110749e248">
 
 **Expand or collapse the summary**
 
@@ -81,7 +81,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text:\) to show more or fewer summary details.
 
-</td></tr><tr><td id="d105387e267">
+</td></tr><tr><td id="d110749e267">
 
 **Provide feedback for the summary**
 
@@ -89,7 +89,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or
 
 If the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).This feedback improves the generative AI model and may improve future versions of this skill.
 
-</td></tr><tr><td id="d105387e288">
+</td></tr><tr><td id="d110749e288">
 
 **Copy the record summary**
 
@@ -97,7 +97,7 @@ If the summary was helpful, select the helpful icon \(\[Omitted image "icon-help
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\) to use the summary in another location, such as an email.
 
-</td></tr><tr><td id="d105387e303">
+</td></tr><tr><td id="d110749e303">
 
 **View the information about the record summary**
 
@@ -105,7 +105,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text:\
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text:\).
 
-</td></tr><tr><td id="d105387e317">
+</td></tr><tr><td id="d110749e317">
 
 **Refresh the record summary**
 

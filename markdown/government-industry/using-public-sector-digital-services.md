@@ -28,7 +28,7 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 </td></tr><tr><td>
 
-[CSM Configurable Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
+[CRM Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 

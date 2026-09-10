@@ -16,7 +16,7 @@ breadcrumb: [Set up your Healthcare Workspace, Healthcare and Life Sciences Serv
 
 Improve agent efficiency and the quality of patient interactions by enabling healthcare agents to view relevant patient information within a case that extends the healthcare case type.
 
-By default, patient information is displayed on interaction records associated with patients. You can configure the CSM Configurable Workspace to display patient information for a case that extends the healthcare case type.
+By default, patient information is displayed on interaction records associated with patients. You can configure the CRM Workspace to display patient information for a case that extends the healthcare case type.
 
 <table id="table_m25_vzr_cqb"><thead><tr><th>
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-11-19"
 reading_time_minutes: 1
 keywords: [Control Objective Impact Analyzer skill, Gen AI skill, Impacted control objectives]
-breadcrumb: [Use generative AI skills, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Use generative AI skills, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Use the control objective impact analyzer skill to identify control objectives

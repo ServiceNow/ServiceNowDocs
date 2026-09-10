@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-27"
 reading_time_minutes: 1
 keywords: [Topic Assist, topic prompts, Employee Slate, ServiceNow Otto]
-breadcrumb: [Browse and topic experience, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add topic prompts for the Topic Assist widget
@@ -19,7 +19,7 @@ Add preconfigured chat prompts to a topic so employees can start a conversation 
 
 ## Before you begin
 
-Configure the browse experience for your Employee Slate experience. For more information, see [Configure browse experience in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md).
+Configure the browse experience for your Employee Slate experience. For more information, see [Configure browse experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-configure-browse-experience.md).
 
 Role required: admin or sn\_hr\_sp.esc\_admin
 

@@ -90,7 +90,7 @@ If the MITRE-ATT&amp;CK information is not available in the raw payload field of
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Technique Extraction Rule**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -185,7 +185,7 @@ Tactic Extraction
 Option that you specify to extract tactic related information from the raw payload. If a payload contains specific tactic and technique related information, you can extract and append the information to the security incident.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 ## Use SIEM auto-extraction rules
@@ -211,7 +211,7 @@ Enable either the SIEM auto-extraction rule or the alert rule at a time.
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Technique Extraction Rule**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -228,10 +228,6 @@ Enable either the SIEM auto-extraction rule or the alert rule at a time.
     |Script Extraction|Script process method that you use if you want to customize how the MITRE-ATT&amp;CK information is extracted.|
     |Tactic Extraction|Option that you specify to extract tactic related information from the raw payload. If a payload contains specific tactic and technique related information, you can extract and append the information to the security incident.|
 
-    In the following illustration, you see an example of the Splunk Enterprise SIEM technique extraction rule in the form view. This rule is similar to all the other SIEM technique extraction rules.
-
-    \[Omitted image "mitre-splunk-extraction.gif"\] Alt text: Splunk technique extraction rule.
-
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 

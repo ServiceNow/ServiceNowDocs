@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-17"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, reference]
 breadcrumb: [AI Control Tower, Enable AI experiences]

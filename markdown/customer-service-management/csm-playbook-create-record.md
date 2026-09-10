@@ -42,7 +42,7 @@ To create cases in this way, the following configuration is required:
 
 ## Procedure
 
-1.  Navigate to a list or form in CSM Configurable Workspace.
+1.  Navigate to a list or form in CRM Workspace.
 
     For example, navigate to the All Onboarding Cases list.
 

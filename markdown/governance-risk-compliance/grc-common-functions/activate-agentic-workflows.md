@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Activate agentic workflows in ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -35,41 +35,39 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
 4.  On the AI agent page, perform the following steps:
 
-    1.  Under the **Define the specialty**, review the details and select **Continue** to proceed to the next section.
+    1.  Under the **Differentiate and define**, review the details and select **Continue** to proceed to the next section.
 
     2.  Under the **Add tools and information** section, review the details and select **Continue** to proceed to the next section.
 
-    3.  Under the **Define security controls** section, review the details in **Define user access** and **Define data access** sub-sections, and select **Continue**.
+    3.  Under the **Define trigger** section, review the details and select **Continue** to proceed to the next section.
 
-    4.  Under the **Add triggers** section, review the details and select **Continue** to proceed to the next section.
-
-    5.  Under the **Select channels and status** section, in the **Activation status** section, turn on the **This AI agent is active** toggle switch to make the AI agent available in related workflows.
+    4.  Under the **Toggle display** section, set the status as active.
 
         \[Omitted image "ai-agent-status-active.png"\] Alt text: Status of the AI agent.
-
-    6.  Select **Save and test**.
-
-    7.  On the Test AI reasoning page, select the **Version** and then enter details for **Task**.
-
-    8.  Select **Start test** to initiate the testing of the AI agent.
-
-5.  Repeat steps 4 for all the AI agents \(if available\).
-
-6.  On the agentic workflow page, perform the following steps:
-
-    1.  Under the **Define key requirements**, review the details and select **Continue** to proceed to the next section.
-
-    2.  Under the **Define security controls** section, review the details in **Define user access** and **Define data access** sub-sections, and select **Continue**.
-
-    3.  Under the **Add triggers** section, review the details and select **Continue** to proceed to the next section.
-
-    4.  Under the **Select channels and status** section, set the display as active.
 
     5.  Select **Save and test**.
 
     6.  On the Test AI reasoning page, select the **Version** and then enter details for **Task**.
 
-    7.  Select **Start test** to initiate the testing of the agentic workflow.
+    7.  Select **Start test** to initiate the testing of the AI agent.
+
+5.  Repeat steps 4 for all the AI agents.
+
+6.  On the agentic workflow page, perform the following steps:
+
+    1.  Under the **Define key requirements**, review the details and select **Continue** to proceed to the next section.
+
+    2.  Under the **Add a preferred trigger** section, review the details and select **Continue** to proceed to the next section.
+
+    3.  Under the **Select a UI display** section, set the display as active.
+
+    4.  Select **Save and test**.
+
+    5.  On the Test AI reasoning page, select the **Version** and then enter details for **Task**.
+
+    6.  Select **Start test** to initiate the testing of the agentic workflow.
+
+7.  [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 
 ## Result

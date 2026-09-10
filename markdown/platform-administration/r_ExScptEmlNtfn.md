@@ -98,7 +98,7 @@ if(!current.watch_list.nil()){
 
 [Useful attachment scripts]()
 
-[TemplatePrinter API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_TemplatePrinterScopedAPI.md)
+[bundle-crapiref.c_TemplatePrinterScopedAPI]
 
-[GlideEmailOutbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md)
+[bundle-crapiref.c_GlideEmailOutboundScopedAPI]
 

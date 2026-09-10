@@ -5,23 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/convert-emails-to-exceptions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-02-11"
-reading_time_minutes: 3
-breadcrumb: [Using agentic workflows in Now Assist for POM, Now Assist for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Use agentic workflows in ServiceNow Otto for POM, ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Automated purchase order exception creation from emails
 
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.
 
-The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents. For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/email-agentic-workflow.md).
+The Email Intent to Action Agentic workflow analyzes incoming supplier emails, identifies the email intent, and executes associated actions using the Intent Identification and Intent Executor agents.
 
 The workflow can process supplier emails in any of these languages: English, French, Canadian French, German, Japanese, or Dutch.
 
-Suppliers must provide one of the following IDs in their email to identify the relevant purchase order line:
-
--   ERP purchase order \(PO\) and purchase order line \(POL\) IDs
--   ServiceNow® PO number or ERP PO number when the purchase order contains only one line
+For more information on the Email Intent to Action Agentic workflow, see [Email Intent to Action Agentic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/email-agentic-workflow.md).
 
 ## Prerequisites for automated creation of purchase order exceptions
 

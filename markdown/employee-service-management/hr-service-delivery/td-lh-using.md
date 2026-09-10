@@ -16,6 +16,10 @@ breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 
 Use the Leader Hub app to access pertinent data about the talent in your organization so you can enhance employee engagement, adapt to changing circumstances, and make data-driven decisions that steer your organization toward success.
 
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 -   **[Integrations for Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-integrate.md)**  
 Extend the Leader Hub application's capabilities by integrating with the Talent Development suite of applications to acquire pertinent data about the talent in your organization.
 -   **[View north-star and drill-down metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/td-lh-view-metrics.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Skills Workspace, Explore, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Skills Workspace, Explore, Skills Foundation, Growth Experiences, H
 
 Create, update or modify skills and job architecture data from a single location in the Skills Workspace.
 
--   **[Creating a new role group through the Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/create-new-role-group.md)**  
+-   **[Creating a role group through the Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/create-new-role-group.md)**  
 Add a new role group in the Skills Workspace to create a category of roles in your organization.
 -   **[Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md)**  
 Add new skills at each role level in a role group that were not added when creating the role group using the Skills Matrix in the Skills Workspace.

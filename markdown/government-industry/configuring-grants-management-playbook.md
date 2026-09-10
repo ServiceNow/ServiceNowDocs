@@ -34,11 +34,11 @@ Install Grants Management from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
-
+[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
 
 </td><td>
 
-Enable publishing of grant programs, as well as authorized representative activities.
+Enable publishing of grant programs, and authorized representative activities.
 
 </td></tr><tr><td>
 

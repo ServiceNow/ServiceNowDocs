@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
 last_updated: "2025-12-09"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Tanium, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -20,7 +20,14 @@ Set up scheduled import jobs to pull in Tanium data into your Configuration Mana
 
 Install Service Graph Connector for Tanium version 1.7.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
-Role required: admin
+Role required: The following table shows the roles required for each stage of the playbook.
+
+|Stage|Role|
+|-----|----|
+|Prerequisites|admin|
+|Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
+
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 

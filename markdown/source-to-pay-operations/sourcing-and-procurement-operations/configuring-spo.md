@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -16,6 +16,16 @@ breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 
 Plan and configure your implementation for Sourcing and Procurement Operations.
 
+-   **[Sourcing and Procurement Operations product tile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-product-tile.md)**  
+The Sourcing and Procurement Operations product tile is an entitlement-driven entry point on Admin Home for admins to discover and install SPO.
+-   **[Sourcing and Procurement Operations Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-product-hub.md)**  
+The Sourcing and Procurement Operations Product Hub is the central surface for installing SPO, tracking installation status, and reaching learning resources.
+-   **[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/install-spo-ai.md)**  
+Install Sourcing and Procurement Operations \(SPO\) on your instance from the Product Hub.
+-   **[Sourcing and Procurement Operations Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-configuration-console.md)**  
+The SPO Configuration Console guides administrators through configuring SPO in a structured, sequenced set of steps.
+-   **[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-spo-apps.md)**  
+Open the SPO Configuration Console and complete the configurations for your SPO deployment.
 -   **[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)**  
 Install Sourcing and Procurement Operations and its dependent applications from the ServiceNow Store.
 -   **[Setting up primary data for Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)**  

@@ -30,7 +30,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 3.  From the Pages section, select **Create status report** and select **Import existing status report**.
 
-    By default, the create status report and create new from template options are visible, while the import existing status report option appears only if an old status report exists.
+    By default, the create status report and create new from template options are visible. The import existing status report option appears only if an old status report exists.
 
 4.  Select **Import** to import old status report to new reporting tool.
 
@@ -42,9 +42,9 @@ Role required: it\_pps\_admin, it\_project\_manager
 **Related topics**  
 
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
 [Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/update-status-report-project-workspace.md)
 

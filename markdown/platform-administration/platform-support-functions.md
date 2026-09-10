@@ -60,9 +60,9 @@ Platform functions can be defined in two ways:
 
     |APIs|Description|
     |----|-----------|
-    |[Scoped GlideDBFunctionBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDBFunctionBuilderScopedAPI.md)|Construct the function to perform a SQL operation.|
-    |[GlideRecord - addFunction\(Object function\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|Apply the function to a GlideRecord.|
-    |[GlideDBFunctionCaseBuilder - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDBFunctionCaseBuilderAPI.md)|Build case statements.|
+    |Scoped GlideDBFunctionBuilder|Construct the function to perform a SQL operation.|
+    |GlideRecord - addFunction\(Object function\)|Apply the function to a GlideRecord.|
+    ||Build case statements.|
 
 2.  Create a field that holds the function definition, as shown in the following example.
 

@@ -30,6 +30,8 @@ Create various types of assessments and send those assessments to the business p
 Create your assessment configurations to determine when a processing activity must be automatically created.
 -   **[Map a table with a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.md)**  
 Keep your processing activity updated and in sync with any table in ServiceNow® by mapping the entity fields with the processing activity.
+-   **[Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md)**  
+Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
 
 **Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

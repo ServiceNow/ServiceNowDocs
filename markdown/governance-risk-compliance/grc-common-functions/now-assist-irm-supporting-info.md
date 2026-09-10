@@ -7,10 +7,10 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-keywords: [Now Assist, generative AI]
-breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [ServiceNow Otto, generative AI]
+breadcrumb: [Explore, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Supporting information for ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -19,14 +19,16 @@ Get a quick overview of the important information that is related to the Service
 
 ## Supported versions
 
-ServiceNow Otto for IRM is supported starting from the Yokohama patch 3 release.
+ServiceNow Otto for IRM is supported starting from the Yokohama Patch 3 release.
 
 -   GRC: Regulatory Change Management application: version 20.1.2
 -   ServiceNow Otto for IRM application: version 20.1.1
 
 ## Supported language models
 
-You can use Now LLM Service, Now LLM LTS, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS, as the AI model provider for all Now Assist skills and AI agents. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model providers for supported Now Assist capabilities. Model availability depends on the feature and your ServiceNow Otto subscription. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
+
+As of version 22.4.0, ServiceNow Otto for IRM supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the Issue Summarization skill is Azure OpenAI gpt-5.4-mini.
 
 ## Supported user interfaces
 
@@ -50,16 +52,16 @@ Risk Workspace
 
 </td><td>
 
--   Issue summarization
--   Risk assessment summarization
+-   Issue Summarization
+-   Risk Assessment Summarization
 -   Recommendation for similar control objectives
 -   Rationalization
 
 </td><td rowspan="3">
 
 -   Optimize GRC issue resolution agentic workflow
--   Get regulatory analysis agentic workflow
--   Generate regulatory action plan agentic workflow
+-   Get Regulatory Insights agentic workflow
+-   Generate Regulatory Action Plans agentic workflow
 
 </td></tr><tr><td>
 
@@ -67,7 +69,7 @@ Core UI
 
 </td><td>
 
-Issue summarization
+Issue Summarization
 
 </td></tr><tr><td>
 
@@ -75,12 +77,11 @@ Compliance Workspace
 
 </td><td>
 
--   Issue summarization
+-   Issue Summarization
 -   Regulatory alert summarization
 -   Regulatory alert impacted citations
 -   Regulatory alert impacted control objectives
 -   Regulatory alert impacted controls
--   Regulatory alert impacted policies
 
 </td></tr></tbody>
 </table>## Security enhancements
@@ -93,26 +94,11 @@ Activate the ServiceNow Otto for IRM store app \(sn\_irm\_gen\_ai\) to use the s
 
 This store app has the following dependencies:
 
--   Now Assist Platform
-
-    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see [Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
-
--   GRC Common Generative AI
-
-    Provides foundational AI capabilities for Governance, Risk, and Compliance \(GRC\), automating tasks like risk assessments and compliance documentation while helping ensure consistency across GRC workflows.
-
--   GRC Shared Generative AI
-
-    Delivers centralized generative AI services for multiple GRC domains, supporting shared governance, secure automation, and integration with AI systems for compliance and risk management.
-
--   GRC Compliance Generative AI
-
-    Enables continuous monitoring, predictive risk management, and automated regulatory mapping to transform compliance from periodic audits to real-time oversight.
-
+-   ServiceNow Otto for Platform
+-   GRC Common generative AI
+-   GRC Shared generative AI
+-   GRC Compliance generative AI
 -   Recommendation Template
-
-    Provides actionable, AI-powered insights seamlessly within the user interface. The framework offers rich contextual details about recommendations to enable users to make informed decisions and take necessary follow-up actions effortlessly. Admin users can set up contexts for recommendations, and compliance users can review the recommendations for implementation. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
-
 
 For more information, see [Configure ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md).
 

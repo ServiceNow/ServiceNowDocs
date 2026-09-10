@@ -1,20 +1,20 @@
 ---
-title: Dealer portal
-description: The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
+title: Dealer landing page
+description: The dealer portal supports post-sales service for OEMs and dealers, who submit claims, manage recalls, and view real-time insights for informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-dealer-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
 
-# Dealer portal
+# Dealer landing page
 
-The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
+The dealer portal supports post-sales service for OEMs and dealers, who submit claims, manage recalls, and view real-time insights for informed decisions.
 
-\[Omitted image "Dealer-portal-lp.png"\] Alt text: Decorative
+\[Omitted image "Dealer-portal-lp.png"\] Alt text: Dealer portal landing page
 
 The Dealer Portal landing page includes different sections and components.
 
@@ -43,6 +43,7 @@ My lists
 Displays the list of claims that includes:-   Sales promotion claims
 -   Sales promotion bulk upload
 -   Repair claims
+-   Report an issue
 -   All Cases
 
 </td></tr><tr><td>
@@ -52,7 +53,7 @@ Catalogs
 </td><td>
 
 Displays the categories under the dealer catalog:-   Customer Operations
--   Support &amp; services
+-   Support &amp; Services
 
 </td></tr><tr><td>
 
@@ -68,7 +69,7 @@ My information
 
 </td><td>
 
-Displays the dealer information.**Note:** Here, dealer is business location.
+Displays the dealer information.**Note:** Here, dealer refers to a business location.
 
 </td></tr><tr><td>
 
@@ -116,13 +117,13 @@ User Profile
 
 </td><td>
 
-Display user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/user-profile-widget.md).
+Displays user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/user-profile-widget.md).
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>## What to explore next
 
+To learn more about configuring and using the dealer portal, see:
 
-[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/dealer-data-model-overview.md)
-
-[Dealer management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-use-dealer-portal.md)
+-   [Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/dealer-data-model-overview.md)
+-   [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-use-dealer-portal.md)
 

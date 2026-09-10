@@ -32,7 +32,7 @@ Role required: kg\_admin
 
 3.  From the toolbar, select **Test**.
 
-4.  In the Query section of the Test Knowledge Graph Schema window, enter your question.
+4.  In the Query section of the Test Knowledge Graph schema window, enter your question.
 
 5.  Select an LLM model from the following:
 

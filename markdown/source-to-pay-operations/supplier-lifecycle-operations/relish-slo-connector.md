@@ -18,9 +18,16 @@ The SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\) provid
 
 **Important:** Check your entitlements to determine whether you have access to Relish Integration for Supplier Lifecycle Operations.
 
-Relish is a third-party supplier intelligence platform that helps in validating supplier data while working on supplier cases \(for banking information change requests, supplier location change requests, and conducting sanction screening\). For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
+Relish is a third-party supplier intelligence platform that validates supplier data while working on supplier cases. The integration supports the following validation types:
 
-To install SLO Connector for Relish Data Assure, the following plugins must be installed:
+-   Supplier location validation for location change requests
+-   Banking information and bank account ownership validation for banking details change requests
+-   Tax information validation for tax change requests
+-   Sanction screening for compliance verification
+
+For more information, see [Review supplier information using Relish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/review-supp-info-relish.md).
+
+To install the SLO Connector for Relish Data Assure, the following plugins must be installed:
 
 -   **Required plugins**:
     -   SLO Connector for Relish Data Assure plugin \(x\_reliq\_slo\_connec\)

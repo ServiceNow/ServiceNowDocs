@@ -27,7 +27,7 @@ Use the ServiceNow Otto Admin console to configure ServiceNow Otto for IT Servic
 
 Domain separation is supported in ServiceNow Otto for IT Service Management \(ITSM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 ## Procedure
 

@@ -1,6 +1,6 @@
 ---
 title: Add a Microsoft Azure service account
-description: Add a Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
+description: Add an Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/cloud-cost-management/add-azure-serv-acc.html
 release: zurich
@@ -14,11 +14,11 @@ breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure 
 
 # Add a Microsoft Azure service account
 
-Add a Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
+Add an Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
 
 ## Before you begin
 
-Role required: sn\_cmp.cloud\_admin
+Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 Set up download jobs for billing and price sheet data for the service account.
 

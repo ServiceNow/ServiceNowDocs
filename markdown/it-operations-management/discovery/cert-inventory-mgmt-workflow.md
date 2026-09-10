@@ -22,6 +22,8 @@ In Certificate Inventory and Management version 1.2.0 and later, Event Managemen
 In Version 1.2.0 of Certificate Inventory and Management, set up Slack notifications to stay informed about expiring and expired certificates. Receive detailed alerts with convenient URL links for additional information.
 -   **[Receive certificate notifications via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/receive-email-certificate-notifications.md)**  
 Configure certificate notifications to be delivered via email to relevant recipients.
+-   **[Renew certificates via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/renew-cert-ms-outlook-email.md)**  
+Certificate renewal notifications are sent to users configured in the **Certificate notification policy** table via email 60 days before a certificate expires or after a certificate expires.
 -   **[Receive certificate notifications via Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-ms-teams-cert-notifications.md)**  
 Configure certificate notifications to be delivered to a Microsoft Teams channel so that you can receive alerts and initiate certificate renewal workflows directly from Microsoft Teams.
 

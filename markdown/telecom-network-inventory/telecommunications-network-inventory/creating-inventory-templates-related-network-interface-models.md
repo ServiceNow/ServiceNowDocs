@@ -1,6 +1,6 @@
 ---
 title: Creating inventory templates for related network interface models
-description: In the Inventory Template form in the Network Inventory Workspace Lists view, you can create inventory templates for the network interface models that are associated with the equipment inventory template.
+description: In the Inventory Template form in the Network Inventory Workspace Lists view, you can create inventory templates for the network interface models. These templates are associated with the equipment inventory template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-related-network-interface-models.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Create inventory template relationship, Use, Telecommunications Net
 
 # Creating inventory templates for related network interface models
 
-In the Inventory Template form in the Network Inventory Workspace Lists view, you can create inventory templates for the network interface models that are associated with the equipment inventory template.
+In the Inventory Template form in the Network Inventory Workspace Lists view, you can create inventory templates for the network interface models. These templates are associated with the equipment inventory template.
 
 ## Procedure
 

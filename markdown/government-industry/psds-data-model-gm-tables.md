@@ -7,6 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-10-23"
 reading_time_minutes: 1
+keywords: [grants management, tables, data model, government services]
 breadcrumb: [Grants Management, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -39,6 +40,30 @@ Contains cases associated with grant management, including application details, 
 </td><td>
 
 Government Service Case \(sn\_gsm\_government\_service\_case\)
+
+</td></tr><tr><td>
+
+Funding Allocation Review Task\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_review\_task\]
+
+</td><td>
+
+Captures the recommendation reason and automatically computes the proposal and funding/decline counts along with the total allocated amount.
+
+</td><td>
+
+Government Service Task \(sn\_gsm\_government\_service\_task\)
+
+</td></tr><tr><td>
+
+Funding Allocation Proposal Mapping\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_case\_mapping\]
+
+</td><td>
+
+Links individual proposals to a Funding Allocation Review Task. A flag indicates whether the proposal is included in the batch or removed during the review.
+
+</td><td>
+
+N/A
 
 </td></tr><tr><td>
 
@@ -106,7 +131,7 @@ Government Service Document\[sn\_gsm\_document\]
 
 </td><td>
 
-Contains information about service documents.
+Contains information about service-related documents required for government service requests and case management.
 
 </td><td>
 
@@ -118,23 +143,11 @@ Government Service Evaluation Task\[sn\_gsm\_government\_service\_evaluation\_ta
 
 </td><td>
 
-Contains information about service evaluation tasks.
+Contains information about evaluation tasks for assessing the quality and outcomes of government services provided to constituents.
 
 </td><td>
 
 Government Service Task \(sn\_gsm\_government\_service\_task\)
-
-</td></tr><tr><td>
-
-Grant Award\[sn\_gsm\_grants\_mgmt\_items \_received\]
-
-</td><td>
-
-Tracks individual social benefit items received by constituents, noting benefit type, amount, and date of issuance.
-
-</td><td>
-
-Install Base Item \(sn\_install\_base\_item\)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-gm.md)

@@ -28,7 +28,7 @@ Knowledge Graph transforms search into an intelligent, predictive, and efficient
 
 **Note:** Knowledge Graph is not applicable to the ServiceNow Otto panel - Developer assistant.
 
-For more information about Knowledge Graph, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
+For more information about Knowledge Graph, see [Knowledge Graph integration with ServiceNow® Otto for Virtual Agent and ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md).
 
 **Note:** By default, search personalization is available with AI Search in the assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open support ticket.
 

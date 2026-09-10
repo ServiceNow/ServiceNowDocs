@@ -16,9 +16,9 @@ Use the Grants Management Eligibility Rules Engine, powered by Policy as Code En
 
 Agencies administering grants management programs must ensure that applicants meet certain eligibility conditions before receiving a grant. With the Grants Management Eligibility Framework, agencies can apply a low code approach to eligibility rule creation and management. This enables agencies to manage a variety of rules, from simple to complex, across multiple programs and with ease.
 
-Define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CSM Configurable Workspace. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Grants Management workspace.
+Define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CRM Workspace. In the Policy Home of the CRM Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Grants Management workspace.
 
-\[Omitted image "psds\_gmp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CSM Configurable Workspace
+\[Omitted image "psds\_gmp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CRM Workspace
 
 PaCE is a scalable workspace that allows you to set up the foundational elements of the Public Sector Eligibility Framework, use data collectors to create complex policies, save policies as a template to make future policy creation easier, and use config parameters to create reusable policies that can be applied across multiple grant programs.
 

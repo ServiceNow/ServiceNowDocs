@@ -41,7 +41,7 @@ Associating business process activities with business actors documents which rol
 
     -   To add an existing business process activity:
         1.  Select **Add**.
-        2.  In the Add business process activity window, select the business process activity and the relationship type between the business actor and the business process activity.
+        2.  In the Add business process activity window, select the business process activity. A suggested relationship type appears in the **Relationship type** field, but you can select a different type from the list, if needed.
         3.  Select **Add**.
     -   To create a business process activity, select **New** and complete the fields on the form. For field descriptions, see [Create a business process activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-business-process-activity-form.md).
 

@@ -32,7 +32,9 @@ The Enhanced Requests Experience let's you create a request and keep it in your 
 
 The requests are displayed in a card view by default. You can the view toggle icons next to the search bar to switch between card view and list view. The toggle functionality is only available on Employee Center version 40 onwards.
 
-Enhance the visibility of requests by using the **Filter by** option. You can only have one filtering view for one portal. Filter options can be like **Request Type**, **State**, **Location**, and so on.
+Enhance the visibility of requests by using the **Filter by** option. You can only have one filtering view for one portal. Filter options can be like **Request Type**, **State**, **Location**, and so on.Known Limitations
+
+**Important:** Keyword search in Enhanced Requests Experience searches only the table with the Source Configuration record. It does not extend to child or parent tables. For example, if you search for a Requested Item \(RITM\), related Request \(REQ\) records will not surface in the search results. Support for traversing related tables through grouping is planned for a future release.
 
 The multiple tab interface and the filter options are configurable. For more information, see:
 

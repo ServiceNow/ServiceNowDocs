@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-05-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
@@ -37,6 +37,8 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 ```
 
 For more information, see [Traceloop OpenLLMetry for Python](https://www.traceloop.com/docs/openllmetry/getting-started-python).
+
+If you have a domain-separated instance, create a separate connection and credential record for each domain. Use the same connection alias, `sn_ai_security.Traceloop_API`, for each one, but a relevant value for the domain. The domain of each connection record determines the domain of the runtime metrics it pulls.
 
 ## Procedure
 

@@ -1,18 +1,19 @@
 ---
-title: Stakeholders
-description: Create the stakeholder form to update the stakeholder involved in the product quality investigation.
+title: Create a stakeholder
+description: Add a person who is involved in the product quality investigation as a stakeholder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-stakeholders.html
 release: zurich
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for quality issues, Create Product quality investigation, Product quality investigation, Agent management, Use, Manufacturing Commercial Operations]
+keywords: [stakeholder, Product Quality Investigation, PQI, quality investigation, Manufacturing Commercial Operations, MCO]
+breadcrumb: [Create a product quality investigation, Product quality investigation, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Stakeholders
+# Create a stakeholder
 
-Create the stakeholder form to update the stakeholder involved in the product quality investigation.
+Add a person who is involved in the product quality investigation as a stakeholder.
 
 ## Before you begin
 
@@ -31,5 +32,5 @@ Role required: admin
 4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-related-list-for-pqi.md)
+**Parent Topic:**[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-create-product-quality-investigation.md)
 

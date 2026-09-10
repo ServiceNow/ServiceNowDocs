@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI readiness assessments, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
 ---
 
 # Run the AI readiness assessment job in AI Admin Center
@@ -74,7 +74,7 @@ The AI readiness assessment is performed with the Now Assist Readiness Evaluatio
 
 Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance. For more information, see [View your AI readiness assessment in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-ai-readiness-now-assist-center.md).
 
-**Parent Topic:**[Using AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
+**Parent Topic:**[Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 **Related topics**  
 

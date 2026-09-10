@@ -98,3 +98,5 @@ An AI-generated email response is sent to the requester.
 
 [Analyze sentiment in procurement cases]()
 
+[Generate a knowledge article]()
+

@@ -81,5 +81,5 @@ Scripts that update or insert records into the database \(GlideRecord\) are norm
 **Related topics**  
 
 
-[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/p_GlideServerAPIs.md)
+[bundle-crapiref.c_GlideRecord]
 

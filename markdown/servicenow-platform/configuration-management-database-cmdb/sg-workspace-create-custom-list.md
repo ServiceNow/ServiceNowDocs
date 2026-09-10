@@ -1,6 +1,6 @@
 ---
-title: Create a custom list in the Lists view in Service Graph Workspace
-description: Create your own lists of classes that you can then navigate in the Lists view in Service Graph Workspace to explore data.
+title: Create a custom list in the Lists view in CMDB Workspace
+description: Create your own lists of classes that you can then navigate in the Lists view in CMDB Workspace to explore data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.html
 release: zurich
@@ -9,20 +9,20 @@ classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-02-09"
 reading_time_minutes: 1
-breadcrumb: [Configure, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Create a custom list in the Lists view in Service Graph Workspace
+# Create a custom list in the Lists view in CMDB Workspace
 
-Create your own lists of classes that you can then navigate in the Lists view in Service Graph Workspace to explore data.
+Create your own lists of classes that you can then navigate in the Lists view in CMDB Workspace to explore data.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_user
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Graph Workspace** and then in the navigation panel, select the Lists icon.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then in the navigation panel, select the Lists icon.
 
 2.  In Lists view, select the My lists tab and then select **Create new list**.
 
@@ -42,4 +42,6 @@ Role required: admin
 
 4.  Select **Create**.
 
+
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

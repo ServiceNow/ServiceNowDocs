@@ -72,7 +72,7 @@ Conditions
 
 </td><td>
 
-Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -246,7 +246,7 @@ Conditions
 
 </td><td>
 
-Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -311,7 +311,7 @@ Conditions
 
 </td><td>
 
-Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 

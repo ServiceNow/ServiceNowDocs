@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-04-03"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitor and evaluate AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
 # Sessions, traces, and spans
@@ -38,6 +38,4 @@ Each trace displays telemetry data alongside evaluation scores: total latency, s
 ## Navigating the hierarchy
 
 Evaluation data is structured so you can move from a broad signal to a specific cause. A low quality score tells you something is wrong. Session-level scores tell you which interaction went wrong. Trace-level scores and reasoning tell you which step in that interaction produced the problem. Span-level input and output data tells you exactly why: the wrong tool was called, a parameter was malformed, or a data source returned an error.
-
-**Parent Topic:**[Exploring AI system monitoring in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-exploring-aict-evaluations.md)
 

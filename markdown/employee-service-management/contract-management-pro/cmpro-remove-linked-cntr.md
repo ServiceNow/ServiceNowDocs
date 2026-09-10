@@ -28,15 +28,15 @@ The **Remove linked contract** button is not available when there are no linked 
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d462399e63">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d463002e63">
 
 Method
 
-</th><th align="left" id="d462399e66">
+</th><th align="left" id="d463002e66">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d462399e72">
+</th></tr></thead><tbody><tr><td id="d463002e72">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d462399e119">
+</td></tr><tr><td id="d463002e119">
 
 **Workspace used by your application**
 

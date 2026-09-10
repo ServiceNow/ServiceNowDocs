@@ -73,21 +73,23 @@ Supplier case summarization
 
 6.  Configure and activate a skill by using the Guided Setup.
 
-7.  Select **View Case Input** and review the base input table and input fields, and then select **Save and continue** to go to the next step in the Guided Setup.
+7.  Select **Choose input** for the skill and review the base input table and input fields, and then select **Save and continue** to go to the next step in the Guided Setup.
 
-8.  Test the prompt on a case by selecting **Customize &amp; Test Prompt** and then selecting **Save and continue** to go to the next step in the Guided Setup.
+8.  Select **Customize and test Prompt** to test the prompt on a record
 
-9.  Define the availability of the skill by selecting **Define Availability**, and then selecting one of the following options.
+9.  Select **Save and continue** to go to the next step in the Guided Setup.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d29214e373">
+10. Select **Define Availability** and select one of the following options.
+
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d29561e379">
 
 Option
 
-</th><th align="left" id="d29214e376">
+</th><th align="left" id="d29561e382">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29214e382">
+</th></tr></thead><tbody><tr><td id="d29561e388">
 
 **Skill is always available**
 
@@ -95,24 +97,49 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d29214e391">
+</td></tr><tr><td id="d29561e397">
 
 **Customize skill availability**
 
 </td><td>
 
-The skill is available only when certain conditions are met \(default\).Use the condition builder to set your conditions.
+The skill is available only when certain conditions are met \(Default\).Use the condition builder to set your conditions.
 
 </td></tr></tbody>
-</table>10. Select **Save and continue** to go to the next step in the Guided Setup.
+</table>11. Select **Save and continue** to go to the next step in the Guided Setup.
 
-11. Display the ServiceNow Otto skills on forms and workspaces by selecting **Select display** and then **In-product desktop**.
+12. Choose **Select display** to determine where you'd like to display the skill.
 
-12. Select **Save and continue** to go to the next step.
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d29561e433">
 
-13. Review your choices and complete the configuration of the skill by selecting **Activate**.
+Option
 
-14. Select **Return to Case summarization**.
+</th><th align="left" id="d29561e436">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d29561e442">
+
+**In-product desktop**
+
+</td><td>
+
+AI skills are displayed on forms and workspaces.
+
+</td></tr><tr><td id="d29561e451">
+
+**ServiceNow Otto panel**
+
+</td><td>
+
+AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+
+</td></tr></tbody>
+</table>13. Select **Save and continue** to go to the next step.
+
+14. Review your choices and complete the configuration of the skill by selecting **Activate**.
+
+15. Select **Return to Supplier Lifecycle Operations**.
 
     The skill is activated.
 

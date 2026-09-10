@@ -48,7 +48,15 @@ Lists the field mappings between ITAM receipt line records and SPO receipt recor
 
 [Purchase requisition, purchase order, and sourcing request states]()
 
+[Purchase requisition state model]()
+
+[Purchase order state model]()
+
+[Primary data tables for Sourcing and Procurement Operations]()
+
 [Domain separation and Sourcing and Procurement Operations]()
 
 [Sourcing and Procurement Operations glossary]()
+
+[Address deletion permissions]()
 

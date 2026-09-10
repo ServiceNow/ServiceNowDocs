@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
 ---
 
@@ -116,7 +116,7 @@ Max Elapsed Time \(seconds\)
 
 </td><td>
 
-Maximum cumulative time in seconds after which the retry attempts are stopped. This field appears only when **Honor "Retry-After" Header** is selected from **Retry Strategy**.**Note:** If the maximum retry time is specified in the **glide.fdih.retry.max\_time\_in\_seconds** property, the system property value takes precedence over this field value. Also, make sure that the max elapsed time is equal to or greater than the system property value.
+Maximum cumulative time in seconds after which the retry attempts are stopped. This field appears only when **Honor "Retry-After" Header** is selected from **Retry Strategy**. For Data Stream actions, the max elapsed time cannot exceed 30 seconds total, and only the fixed time interval strategy is supported.**Note:** If the maximum retry time is specified in the **glide.fdih.retry.max\_time\_in\_seconds** property, the system property value takes precedence over this field value. Verify that the max elapsed time is equal to or greater than the system property value.
 
 </td></tr></tbody>
 </table>3.  Create a global system property with the following attributes.

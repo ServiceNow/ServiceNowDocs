@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/map-
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -52,8 +52,6 @@ The customizations that you make to the coverage types, colors, or percentages a
     |Overall Technique Mitigation Coverage \(Calculated\)|The overall technique mitigation coverage. This value is determined based on the [mitigation coverage that is defined for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/define-the-mitigation-coverage.md).|
     |Comment|Description about the technique and mitigation coverage mapping.|
     |Revoked|The technique to mitigation coverage mapping is revoked.|
-
-    In this illustration, you see that the technique Valid Accounts has five mitigations associated, each with a mitigation coverage of 16 for user training, 92 for application developer guidance, and 16 for password policies, 91 for privileged account management, and 14 for valid accounts mitigation. The calculated technique mitigation coverage is 45.8 percent. \[Omitted image "mitre-mitigation-coverage-mapping.png"\] Alt text: The illustration shows the mitigation coverage mapping for each of the techniques.
 
 
 -   **[Overall technique mitigation coverage calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/mitigation-coverage-calculator.md)**  

@@ -61,15 +61,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d153724e357">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d162854e357">
 
 Option
 
-</th><th align="left" id="d153724e360">
+</th><th align="left" id="d162854e360">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153724e366">
+</th></tr></thead><tbody><tr><td id="d162854e366">
 
 **Skill is always available**
 
@@ -77,7 +77,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d153724e375">
+</td></tr><tr><td id="d162854e375">
 
 **Customize skill availability**
 
@@ -90,15 +90,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d153724e411">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d162854e411">
 
 Option
 
-</th><th align="left" id="d153724e414">
+</th><th align="left" id="d162854e414">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153724e420">
+</th></tr></thead><tbody><tr><td id="d162854e420">
 
 **In-product desktop**
 
@@ -106,7 +106,7 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d153724e429">
+</td></tr><tr><td id="d162854e429">
 
 **panel**
 

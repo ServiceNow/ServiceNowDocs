@@ -47,7 +47,15 @@ The following procedure describes the collection of JSON formatted event message
 
 ## Procedure
 
-1.  In the Azure Monitor Portal, make sure the MID Server IP is accessible from the Azure portal and the MID rest point is accessible from Microsoft Azure or install the MID Server on a Azure VM and provide the Azure VM public address in the URL and allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
+1.  In the Azure Monitor Portal, verify network accessibility.
+
+    1.  Verify the MID Server IP is accessible from the Azure portal and the MID rest point is accessible from Microsoft Azure.
+
+    2.  Alternatively, install the MID Server on an Azure VM.
+
+    3.  Provide the Azure VM public address in the URL.
+
+    4.  Allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
 
 2.  Create an action group with a webhook and provide the rest endpoint as `http://<MID_Web_Server_User>:<MID_Web_Server_Password>@<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidAzureMonitor`
 

@@ -1,5 +1,5 @@
 ---
-title: View an alert group analysis byServiceNow Otto in Express List
+title: View an alert group analysis by ServiceNow Otto in Express List
 description: View an alert group analysis created using generative AI. The analysis offers a simplified, human-readable description of the alert group and technical information to help you investigate it more efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-alert-group-analysis-view.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Express List, Event Management, Alert, Otto]
-breadcrumb: [Viewing an alert group analysis by ServiceNow Otto in Express List, Using agentic and generative AI in Express List, Express List in SOW for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing an alert group analysis by ServiceNow Otto in Express List, Using agentic and generative AI in Express List, Express List, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# View an alert group analysis byServiceNow Otto in Express List
+# View an alert group analysis by ServiceNow Otto in Express List
 
 View an alert group analysis created using generative AI. The analysis offers a simplified, human-readable description of the alert group and technical information to help you investigate it more efficiently.
 

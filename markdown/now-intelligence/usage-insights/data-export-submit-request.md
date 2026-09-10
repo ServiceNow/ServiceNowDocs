@@ -7,7 +7,7 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Bulk export of Usage Insights data via REST API, Use, Usage Insights, Platform Analytics]
 ---
@@ -51,7 +51,7 @@ This task involves preparing the export request parameters, managing API request
 
 6.  Prepare your export request parameters.
 
-    See  to learn more.
+    See [UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/usage-insight-data-exp-api.md) to learn more.
 
     1.  Submit the export request via the REST API.
 

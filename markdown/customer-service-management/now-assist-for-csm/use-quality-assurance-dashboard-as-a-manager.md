@@ -1,6 +1,6 @@
 ---
 title: Use automated quality assurance dashboard as a manager
-description: Access the automated quality assurance dashboard from the CSM Configurable Workspace to view detailed agent performance metrics and quality assurance scoring data.
+description: Access the automated quality assurance dashboard from the CRM Workspace to view detailed agent performance metrics and quality assurance scoring data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service
 
 # Use automated quality assurance dashboard as a manager
 
-Access the automated quality assurance dashboard from the CSM Configurable Workspace to view detailed agent performance metrics and quality assurance scoring data.
+Access the automated quality assurance dashboard from the CRM Workspace to view detailed agent performance metrics and quality assurance scoring data.
 
 ## Before you begin
 
@@ -24,17 +24,17 @@ Role required: Manager
 Before you begin, confirm you have:
 
 -   Manager role permissions in CSM
--   Access to the CSM Configurable Workspace
+-   Access to the CRM Workspace
 
 ## About this task
 
 The automated quality assurance dashboard provides managers with detailed insights into individual agent performance metrics. This view displays comprehensive QA scoring data at both the agent and case levels, enabling you to monitor, evaluate, and provide feedback on agent interactions.
 
-The automated quality assurance widget serves as an entry point to access the quality assurance supervisor dashboard and is available on the CSM Configurable Workspace.
+The automated quality assurance widget serves as an entry point to access the quality assurance supervisor dashboard and is available on the CRM Workspace.
 
 ## Procedure
 
-1.  Log in to CSM Configurable Workspace.
+1.  Log in to CRM Workspace.
 
 2.  Navigate to the dashboard.
 

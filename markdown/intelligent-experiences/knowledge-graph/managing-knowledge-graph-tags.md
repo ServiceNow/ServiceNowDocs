@@ -1,6 +1,6 @@
 ---
 title: Managing Knowledge Graph tags
-description: Edit or delete Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist Panel Enterprise Graph use case.
+description: Edit or delete Knowledge Graph tags for ServiceNow Otto for Virtual AgentServiceNow OttoKnowledge Graph Enterprise Graph use case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/managing-knowledge-graph-tags.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema,
 
 # Managing Knowledge Graph tags
 
-Edit or delete Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist Panel Enterprise Graph use case.
+Edit or delete Knowledge Graph tags for ServiceNow® Otto for Virtual AgentServiceNow OttoKnowledge Graph Enterprise Graph use case.
 
 ## Before you begin
 

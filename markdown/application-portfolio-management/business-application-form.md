@@ -151,7 +151,6 @@ Status
 Operational status of the application. Use the following options:-   Implementing
 -   In Production
 -   Pilot
--   Retired
 
 Auditing is enabled. Thus, whenever a user updates the value in this field, the **Activities** field in the **Activities** tab displays the update.
 

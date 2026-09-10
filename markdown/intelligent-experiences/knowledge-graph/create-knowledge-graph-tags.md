@@ -1,6 +1,6 @@
 ---
 title: Create Knowledge Graph tag
-description: Create Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
+description: Create Knowledge Graph tags for ServiceNow Otto for Virtual Agent, AI agent or ServiceNow Otto panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema,
 
 # Create Knowledge Graph tag
 
-Create Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
+Create Knowledge Graph tags for ServiceNow® Otto for Virtual Agent, AI agent or ServiceNow Otto panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ Role required: admin
 
     \[Omitted image "kg-new-tag-table-config.png"\] Alt text: New tag configure tables page
 
-4.  Select a table from the left pane to add the following: , column and edge configurations, data filters and hidden columns.
+4.  Select a table from the left pane to add the following: table, column and edge configurations, data filters and hidden columns.
 
     -   Tables configurations: Synonyms and AI instructions
     -   Column and edge configurations: Synonyms and AI instructions
@@ -102,7 +102,7 @@ Role required: admin
 
 14. Select irrelevant or insensitive columns from the **Hidden column** drop-down to exclude them from queries.
 
-    Hidden columns cannot be queried and do not appear in the result.
+    Hidden columns can't be queried and don't appear in the result.
 
     For example, add `Employee number` as hidden columns for `sys_user` table to hide the employee number from query results.
 

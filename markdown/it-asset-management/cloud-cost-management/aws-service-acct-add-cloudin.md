@@ -22,7 +22,7 @@ You must perform these tasks:
 
 -   Set up download jobs for billing and price sheet data for the service account.
 -   [Configure the MID Server for AWS IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/config-mid-iam-roles.md).
--   Role required: sn\_clin\_core.insights\_admin
+-   Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 ## About this task
 

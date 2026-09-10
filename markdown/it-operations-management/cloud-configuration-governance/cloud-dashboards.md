@@ -8,7 +8,7 @@ product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -119,15 +119,15 @@ Administrators can assign a budget for a group and a user within the group. When
 **Important:**
 
 -   The budget-based notification and approval feature is no longer available if you are using the Cloud Cost Management app for cloud billing.
--   You can only continue using the Budget Consumption feature if you are using Cloud Provisioning and Governance on a domain separated instance, or have switched back to the native Cloud Provisioning and Governance billing feature.
+-   You can only continue using the Budget Consumption feature in two scenarios. The first is if you are using Cloud Provisioning and Governance on a domain separated instance. The second is if you have switched back to the native Cloud Provisioning and Governance billing feature.
 
 Administrators can assign a budget \(in USD\) on a weekly, monthly, quarterly, or yearly basis. The budget set for a user and for a group are independent of each other. For example, a group consisting of five users can have a budget of $100 and each user in that group can be assigned a limit of 25 dollars. An organization decides on the frequency of the budget and all the groups in that organization follow the same frequency. For example, if an organization decides on a monthly budget, then all the groups and users in that organization follow a monthly budget. See [Configure budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
 
 A default budget is given to each new group and new user. A new group gets a default budget of $1000 and a new user gets a default budget of 100 dollars.
 
-Administrators can increase or decrease the budget at any given time. Notifications are sent to the user and the group when the budget limit reaches its threshold limits. Notifications trigger as part of the billing process. Billing discovery is scheduled for each user and group. At the end of the billing discovery, a comparison is made between the budget limit and the actual cost and if the threshold has reached or has exceeded, notifications are triggered.
+Administrators can increase or decrease the budget at any given time. Notifications are sent to the user and the group when the budget limit reaches its threshold limits. Notifications trigger as part of the billing process. Billing discovery is scheduled for each user and group. At the end of the billing discovery, the budget limit is compared to the actual cost. If the threshold is reached or exceeded, notifications are triggered.
 
-Administrators can set up a policy whereby if the budget limit reaches a particular threshold or exceeds the limit, the administrator gives an approval for the user or the group to continue using the resources. For example, the administrator can create a policy for a group whereby when the group's budget threshold reaches 90%, an approval is required for the group to continue consuming resources. If the administrator does not set up a policy for the budget, the user or the group can continue using the resources.
+Administrators can set up a policy for budget thresholds. When the budget limit reaches a particular threshold or exceeds the limit, the administrator can approve continued resource use for the user or group. For example, the administrator can create a policy for a group whereby when the group's budget threshold reaches 90%, an approval is required. The approval allows the group to continue consuming resources. If the administrator does not set up a policy for the budget, the user or the group can continue using the resources.
 
 You can view the budget details on the at **Analyze** &gt; **Budget Consumption**. You can view the budget consumption details for a user as well as for groups.
 

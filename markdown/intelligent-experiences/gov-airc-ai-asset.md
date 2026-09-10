@@ -63,7 +63,7 @@ Compliance score
 
 </td><td>
 
-Overall compliance score for the AI asset and trend information over time. The score reflects the asset's compliance with adopted frameworks and policies.
+Overall compliance score for the AI asset and trend information over time. The score reflects an assessment of the asset's compliance with adopted frameworks and policies.
 
 </td><td>
 

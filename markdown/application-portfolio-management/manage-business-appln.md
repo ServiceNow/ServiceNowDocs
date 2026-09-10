@@ -48,7 +48,7 @@ Role required: sn\_apm.apm\_analyst
 
 7.  To get all the available and significant information of a business application, select [Application 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/applications-360-dashboard.md).
 
-8.  To know the application cost in the last period, manage application cost as a percentage of total spend, determine its future trend, and provide a cost-effective business application, select **Application TCO**.
+8.  To view application cost data, manage cost as a percentage of total spend, and determine future trends, select **Application TCO**.
 
     **Note:**
 
@@ -68,7 +68,9 @@ Role required: sn\_apm.apm\_analyst
 
     Business applications are related to application services, and application services are related to the underlying servers and infrastructure through the CMDB. To associate servers with a business application, relate the business application to an application service.
 
-11. To navigate to the timeline view of the business application and to view the timeline of all its associated epics, stories, enhancements, other stories, projects, and demands, select the additional actions icon \(\) and configure UI actions to display the **View Application Backlog** button.
+11. To view the application timeline, select the additional actions icon \(\) and configure UI actions to display the **View Application Backlog** button.
+
+    The timeline view displays all associated epics, stories, enhancements, other stories, projects, and demands for the business application.
 
     Select the button to go to the Application backlog view of the timeline.
 

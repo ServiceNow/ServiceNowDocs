@@ -39,7 +39,7 @@ For more information on database limitations and general questions on tables in 
 
 3.  In the **Create new field** section, fill in the following fields
 
-<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d120359e164">
+<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d120222e164">
 
 **Name**
 
@@ -47,7 +47,7 @@ For more information on database limitations and general questions on tables in 
 
 Enter the name of the field as you want it to appear on forms and lists.
 
-</td></tr><tr><td id="d120359e173">
+</td></tr><tr><td id="d120222e173">
 
 **Type**
 
@@ -55,7 +55,7 @@ Enter the name of the field as you want it to appear on forms and lists.
 
 Select a field type.
 
-</td></tr><tr><td id="d120359e182">
+</td></tr><tr><td id="d120222e182">
 
 **Field length**
 

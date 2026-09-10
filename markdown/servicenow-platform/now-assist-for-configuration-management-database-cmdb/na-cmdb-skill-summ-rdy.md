@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Summarize CMDB readiness skill, ServiceNow Otto for CMDB, CMDB success advisor dashboard, summarize dashboard data, remediation actions]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -59,17 +59,19 @@ The summary also applies the following rules when ranking and presenting issues:
 
     **Note:** Each remediation link has a minimum role requirement. Some links navigate to business rules, data manager policies, or other records that require the sn\_cmdb\_admin role. The **Minimum user role** column in the Remediation Action \[sn\_cmdb\_gen\_ai\_advisor\_remediation\_action\] table shows the role required for each remediation action.
 
-5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
+5.  Select **View reasoning** to see how the issues are ranked.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d213293e327">
+6.  Provide feedback, copy the response text to the clipboard, or refresh the response.
+
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d212580e337">
 
 Option
 
-</th><th align="left" id="d213293e330">
+</th><th align="left" id="d212580e340">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d213293e336">
+</th></tr></thead><tbody><tr><td id="d212580e346">
 
 **Provide feedback for the summary**
 
@@ -77,7 +79,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d213293e351">
+</td></tr><tr><td id="d212580e361">
 
 **Copy the summary**
 
@@ -85,7 +87,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d213293e362">
+</td></tr><tr><td id="d212580e372">
 
 **Refresh the summary**
 

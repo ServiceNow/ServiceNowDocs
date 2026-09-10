@@ -67,7 +67,7 @@ Number of days after which if one or more discovery sources stop reporting CIs, 
  -   Type: integer
 -   Default: 7
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Number of days since CIs were last discovered by a discovery source** in the Potential issues section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Maximum number of records that appear as list views when drilling down from the 
 -   Type: integer
 -   Default: 100,000
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Maximum number of records to process** in the Global section.
--   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Enables the use of the CI Form feature when selecting CIs to view in CMDB Worksp
 
 The following roles are installed by the Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin which is included in base systems. These roles are required for access and interaction with the CMDB Workspace, and are included for completeness.
 
-**Note:** On an instance that has been upgraded to the Zurich release, to correctly configure some of the user roles as described below, such as CMDB Admin and CMDB Editor, you must run the '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**' scheduled job. For more information about this scheduled job and its use, see the Zurich [Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/cmdb-rn.md).
+**Note:** On an instance that has been upgraded to the Zurich release, to correctly configure some of the user roles as described below, such as CMDB Admin and CMDB Editor, you must run the '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**' scheduled job. For more information about this scheduled job and its use, see the Zurich [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/cmdb-rn.md).
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 

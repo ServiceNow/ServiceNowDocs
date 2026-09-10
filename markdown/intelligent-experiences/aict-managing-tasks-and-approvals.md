@@ -15,7 +15,7 @@ breadcrumb: [Address action items, AI Control Tower, Enable AI experiences]
 
 Track and resolve the governance work that AI Control Tower generates as your AI portfolio grows, such as lifecycle tasks, security tasks, cases, and risk assessments.
 
-As AI Control Tower discovers new assets, evaluates their quality and safety, monitors them for risk and security concerns, and tracks their progress through the lifecycle, it produces a continuous stream of items that need human judgment. AI Control Tower routes these items to the people who can act on them and gives those people a single workspace, Activity Center, to track and resolve the items. For the AI-generated recommendations that Activity Center also surfaces, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-resolving-ai-recommendations.md).
+As AI Control Tower discovers new assets, evaluates their quality and safety, monitors them for risk and security concerns, and tracks their progress through the lifecycle, it produces a continuous stream of items that need human judgment. AI Control Tower can route these items to users who can track and resolve the items in Activity Center. For the AI-generated recommendations that Activity Center also surfaces, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-resolving-ai-recommendations.md).
 
 ## Types of governance work
 

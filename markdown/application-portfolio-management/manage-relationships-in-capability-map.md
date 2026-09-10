@@ -1,6 +1,6 @@
 ---
 title: Manage capability hierarchy in the capability map - Legacy
-description: Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+description: Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability in the capability map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/manage-relationships-in-capability-map.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Capability map for planning - Legacy, Use - Legacy, Enterprise Arch
 
 # Manage capability hierarchy in the capability map - Legacy
 
-Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability, and manage the relationships between the capabilities in the capability map.
+Create a root-level capability, add a child capability to a parent, edit a capability, and delete a leaf capability in the capability map.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-When you add a child capability or update its order in the hierarchy, you can view the effect of your changes immediately in the hierarchical tree view of the capability map by refreshing or reloading the page. Whereas, when you add or edit a level-0 capability the **Update Business Capability Levels** scheduled job that updates the business capability levels is automatically executed to update the order and hierarchy of the capabilities in the map. Updating your business capabilities in the capability map saves your time and gives quick access to the updated data in the map.
+When you add a child capability or update its order in the hierarchy, you can view the effect immediately in the hierarchical tree view. Refresh or reload the page to see the updates. When you add or edit a level-0 capability, the **Update Business Capability Levels** scheduled job automatically executes to update the order and hierarchy of the capabilities in the map. Updating your business capabilities in the capability map saves your time and gives quick access to the updated data in the map.
 
 ## Procedure
 
@@ -60,7 +60,7 @@ When you add a child capability or update its order in the hierarchy, you can vi
     -   Move a root-level capability as child capability in a different hierarchy.
     -   Edit a child capability to make it as a new root-level capability.
     -   Move a child capability from one root to another root.
-    You can either enter a new name or keep the same name to the capability and add a parent to move the root-level capability from the existing hierarchy to a different hierarchy as a child capability. In a business scenario, this functionality is especially useful when you have to move a business capability from one business unit to another. For example, if your organization decides to move the Reward and Retain employees business capability from Finance to HR, then the business capability \(along with its child capabilities\) can be moved from Finance and appended in the HR business capability hierarchy.
+    You can enter a new name or keep the same name for the capability. Add a parent to move the root-level capability from the existing hierarchy to a different hierarchy as a child capability. This functionality is useful when you move a business capability from one business unit to another. For example, your organization might move the Reward and Retain employees business capability from Finance to HR. The business capability and its child capabilities can be moved from Finance and appended in the HR business capability hierarchy.
 
 11. Click **Submit**.
 

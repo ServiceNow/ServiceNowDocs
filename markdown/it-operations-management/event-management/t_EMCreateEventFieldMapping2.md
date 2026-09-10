@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -23,6 +23,8 @@ Role required: evt\_mgmt\_admin
 ## About this task
 
 Create the rule to match the event by its class and original values. Also, specify the new values to replace the original values in the event.
+
+For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -103,7 +105,7 @@ Copies part of the Source field value to the Target field. Source and Target fie
 
 -   **Advanced mapping using script**:
 
-Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
 **Warning:** Complex scripts may affect event processing performance.
 
@@ -466,7 +468,7 @@ Run after binding
 
 </td><td>
 
-When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
+When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
 
  **Warning:** Complex scripts may affect event processing performance.
 

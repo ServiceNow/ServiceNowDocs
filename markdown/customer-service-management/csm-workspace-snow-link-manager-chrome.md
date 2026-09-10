@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-09-19"
 reading_time_minutes: 1
-breadcrumb: [Organize records tabs with ServiceNow Link Manager, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Organize records tabs with ServiceNow Link Manager, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Open new cases in the same tab with ServiceNow Link Manager for Google Chrome

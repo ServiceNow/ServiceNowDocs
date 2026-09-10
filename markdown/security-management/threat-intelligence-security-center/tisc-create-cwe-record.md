@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-02-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Vulnerability Artifacts, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -26,7 +26,7 @@ You must have the appropriate role to create records in the threat intelligence 
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Threat Intelligence Library** &gt; **Vulnerability Artifacts** &gt; **CWEs**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields appropriately.
 
@@ -71,11 +71,17 @@ Type
 Select a **Type**: **Primary** or **Secondary**.**Note:** The type indicates whether this CWE is a primary or secondary weakness as defined by the NVD schema.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>4.  Select **Save**.
 
-5.  To link vulnerabilities to this CWE, scroll to the **Vulnerabilities** related list and click **Link**.
+5.  Select **Related Records** to perform one of the following actions.
 
-6.  To link related CWEs, scroll to the **Related Records** &gt; **CWEs** related list and click **Link**.
+    1.  Select an option to view the associated records.
+
+    2.  Select **Link** and follow the modal to link a record.
+
+    3.  Select **New** to create a CWE and link it to a related CWE or vulnerability.
+
+    The **Link** and **New** buttons may not apply to all the record types.
 
 
 **Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/vulnerability.md)

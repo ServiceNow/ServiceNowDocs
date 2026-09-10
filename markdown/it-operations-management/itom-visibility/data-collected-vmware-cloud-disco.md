@@ -733,7 +733,7 @@ Disk \[cmdb\_ci\_disk\]
 </td></tr></tbody>
 </table>\* These relationships are part of Software Asset Management \(ServiceNow Otto for SAM\) use case.
 
-† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule "Virtual Computer Check." The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
+† The relationships between the listed server CIs and the ESX Server and VM Instance are created by the business rule Virtual Computer Check. The server CI must be discovered after the vCenter is discovered to trigger the business rule and create the relationships.
 
 **Note:** Software installation records appear as a related list on Server \[cmdb\_ci\_server\], Windows Server \[cmdb\_ci\_win\_server\], and Linux Server \[cmdb\_ci\_linux\_server\] CI records.
 
@@ -1178,7 +1178,7 @@ Users with the **itil** and **asset** roles can access ESXi configuration item \
 
 To run a standalone ESXi discovery, you need VMware credentials. Create the credentials by navigating to **Discovery** &gt; **Credentials** &gt; **VMware Credentials.**
 
-If you use a domain account to access the ESXi host, specify the domain with the user name in the credential record in one of the supported formats, such as **Domain\\UserName**.
+If you use a domain account to access the ESXi host, specify the domain with the user name in the credential record. Use one of the supported formats, such as **Domain\\UserName**.
 
 **Note:** The VMware credentials must have a read-only role in the ESXi host.
 

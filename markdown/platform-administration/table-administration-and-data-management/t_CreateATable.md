@@ -26,7 +26,7 @@ Check your custom table entitlements before creating custom tables. See [Managin
 
 ServiceNow AI Platform application subscriptions include custom table entitlements. You can create custom tables for any purpose, up to the entitlement limit in the subscription. To learn more about how your usage administrator maps the custom tables that you create to subscriptions, see [Map custom tables to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/allocate-custom-table-subsc-app-v2.md).
 
-**Note:** It is best to create tables when building applications with tools. To learn more, see [Building applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-applications.md). To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
+**Note:** It is best to create tables when building applications with tools. To learn more, see . To minimize the existence of unneeded and extraneous tables in an instance, don't overdo table creation. Create only those tables you need to minimize administration tasks and shorten upgrade times. Do not extend the \[sys\_choice\] table. Extending the \[sys\_choice\] table is not supported.
 
 ## Procedure
 
@@ -200,7 +200,7 @@ Indicate whether this field is the [Display values](https://raw.githubuserconten
 
 6.  In the **Application Access** section, define the scope protection for the table.
 
-    For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationAccessSettings.md).
+    For more information, see Application access settings.
 
 <table id="table_xwp_pny_wt"><thead><tr><th>
 
@@ -270,7 +270,7 @@ Allow access to this table via web services
 
 </td><td>
 
-Select the check box to enable users to make inbound [Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/r_AvailableWebServices.md) web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
+Select the check box to enable users to make inbound Web services web service queries to this table. This option offers both design-time and runtime protection. The user performing the query must have the correct permissions to access this table, even when this check box is selected.
 
  Clear the check box to prevent users from making web service queries to this table.
 

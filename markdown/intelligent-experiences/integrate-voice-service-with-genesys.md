@@ -101,6 +101,8 @@ Read-only. API key to authenticate your Genesys Cloud service to the ServiceNow 
 
     4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
 
+    When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/voice-agent-reference.md).
+
 9.  Create Audio Connector integration.
 
     1.  Navigate to **Menu** &gt; **IT and Integrations** &gt; **Integrations** and select **Add new integration**.

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,8 +20,8 @@ Reference topics provide additional information about the lists, forms, and sett
 The **Support tools** tab provides tools to investigate and troubleshoot your instance.
 -   **[Application fingerprint suggestion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-app-fingerprint-form.md)**  
 When viewing suggestions based on application fingerprints, verify the information on the Application fingerprints suggestion form.
--   **[Discovery Admin Workspace data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_dawScheduleDetailsOverview.md)**  
-The **Overview** tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
+-   **[Schedule details data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_dawScheduleDetailsOverview.md)**  
+When you select a schedule from the Schedules page in Discovery Admin Workspace, the schedule details page opens. The **Overview** tab of that page displays data visualizations showing key metrics for the schedule, such as total runs, CI counts, errors, and run duration.
 
 **Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-references.md)
 

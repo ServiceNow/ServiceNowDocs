@@ -28,9 +28,9 @@ Role required: kg\_admin
 
     If you select Enterprise Graph or Enterprise Graph \(small\), you will see an additional tag selection field to scope the available entities to specific tables.
 
-    **Note:** Tags aren't available for user created graphs.
+    Tags aren't available for custom graphs.
 
-    \[Omitted image "nlq\_query\_builder.png"\]
+    \[Omitted image "nlq\_query\_builder.png"\] Alt text:
 
 3.  Select one or more tags from the drop-down, if you want to run a query using Enterprise Graph or Enterprise Graph \(small\).
 
@@ -38,7 +38,7 @@ Role required: kg\_admin
 
     Example: `Show me all the incidents assigned to users in customer support department`.
 
-    \[Omitted image "nlq\_query\_builder\_example.png"\]
+    \[Omitted image "nlq\_query\_builder\_example.png"\] Alt text:
 
 5.  Select an LLM to use from the following options:
 

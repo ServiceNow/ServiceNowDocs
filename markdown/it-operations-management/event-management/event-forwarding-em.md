@@ -16,7 +16,7 @@ breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 
 Accelerate the event processing testing life cycle by forwarding a stream of events from your ServiceNow production environment to your non-production environment.
 
-Use event forwarding to forward events from one instance to another, for example, from a production to a non-production instance. Event forwarding enables you to test and evaluate event rules, event field mappings, alert management rules, alert correlation, and so on, without having any impact on your production environment.
+Use event forwarding to forward events from one instance to another, for example, from a production to a non-production instance. You can test and evaluate event rules, event field mappings, alert management rules, and alert correlation without impacting your production environment.
 
-Not all monitoring sources can send events to multiple target instances. In such cases, you can configure a scheduled job to periodically forward the event stream from your ServiceNow instance that is connected to the monitored source to other instances.
+Not all monitoring sources can send events to multiple target instances. In such cases, you can configure a scheduled job to periodically forward the event stream. The scheduled job forwards events from your ServiceNow instance that is connected to the monitored source to other instances.
 

@@ -1,5 +1,5 @@
 ---
-title: Cancel work order appointment in CSM Configurable Workspace
+title: Cancel work order appointment in CRM Workspace
 description: Cancel an appointment for customer from a work order. Cancelling an appointment, cancels the associated work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.html
@@ -9,10 +9,10 @@ classification: appointment-booking
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Appointment booking, Use, Field Service Management]
+breadcrumb: [Managing appointments in the CRM Workspace, Managing appointments on behalf of a customer, Appointment booking, Use, Field Service Management]
 ---
 
-# Cancel work order appointment in CSM Configurable Workspace
+# Cancel work order appointment in CRM Workspace
 
 Cancel an appointment for customer from a work order. Cancelling an appointment, cancels the associated work order.
 

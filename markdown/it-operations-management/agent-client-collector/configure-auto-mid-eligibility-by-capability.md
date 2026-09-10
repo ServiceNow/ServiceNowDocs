@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Agents with different levels of Agent Client Collector \(ACC\) capability can’t be considered for automatic MID Server selection. If you want to block a MID Server from automatic MID Server selection, you can assign the MID Server different ACC capabilities from all MID Servers, but not the primary MID Server, in your environment.
+Agents with different levels of Agent Client Collector \(ACC\) capability can’t be considered for automatic MID Server selection. To block a MID Server from automatic selection, assign it different ACC capabilities from all other MID Servers in your environment. Do not assign different capabilities from the primary MID Server.
 
 ## Procedure
 

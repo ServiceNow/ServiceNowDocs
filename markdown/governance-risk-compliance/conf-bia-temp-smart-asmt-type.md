@@ -26,6 +26,8 @@ Impact category completion configuration for Smart Assessment: To configure Impa
 
 For the initial setup checklist for Smart Assessment Engine, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md).
 
+**Note:** The BIA template references the impact assessment template by template family and not by a specific version. Therefore, future BIAs automatically use the latest published version. Verify that the Post Assessment Actions on the new version are reviewed and published before triggering new BIAs — otherwise, the RTO, RPO, MTPD, and Recovery Tier fields will not be populated. For more information, see [Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/using-smart-asmt-template.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Business Continuity** &gt; **BIA Configuration** &gt; **BIA Templates**.

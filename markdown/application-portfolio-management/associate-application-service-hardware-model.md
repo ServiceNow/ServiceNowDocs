@@ -18,7 +18,7 @@ Track your equipment assets such as computers and servers using hardware models.
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Manage the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
+Starting with the Xanadu release, the legacy Technology Lifecycle Management module is moved to the Enterprise Architecture Workspace. To learn more, see [Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md).
 
 Role required: sn\_apm.apm\_user
 
@@ -32,7 +32,7 @@ Your business applications may run on multiple application services, which in tu
 
 When you run the Fetch Product Models job, the application service is automatically associated with a hardware model. The application service and the hardware product model are mapped and a record is created in the Application Service Hardware Models \[sn\_apm\_tpm\_app\_service\_hardware\_model\] table. However, you can also manually associate an application service to all hardware models, including the hardware.
 
-After the Load TPM Risk Parameters and compute Application Service Risks scheduled job is executed, the technology risk data of the hardware model are generated and stored in Hardware Model Risks \[sn\_apm\_tpm\_hardware\_model\_risk\] table.
+After the Load TPM Risk Parameters and compute Application Service Risks scheduled job is executed, the technology risk data of the hardware model are generated. The data are stored in the Hardware Model Risks \[sn\_apm\_tpm\_hardware\_model\_risk\] table.
 
 **Note:** As an Enterprise Architecture user, your access to the hardware product model risk table is limited to read-only. However, if you are an Enterprise Architecture administrator you can create, modify, and delete the hardware model risks in the table. Access is also read-only to Hardware \[cmdb\_ci\_hardware\], Hardware Model \[cmdb\_hardware\_product\_model\], and Hardware Model Lifecycle \[cmdb\_hardware\_model\_lifecycle\] tables.
 

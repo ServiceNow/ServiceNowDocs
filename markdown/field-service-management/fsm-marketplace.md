@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Field Service Management]
+breadcrumb: [Field Service Contractor Management, Explore, Field Service Management]
 ---
 
 # Field Service Marketplace

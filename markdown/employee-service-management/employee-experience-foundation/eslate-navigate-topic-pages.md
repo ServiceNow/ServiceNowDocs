@@ -1,5 +1,5 @@
 ---
-title: Use topic pages in Employee Slate
+title: Use topic pages
 description: Use topic pages to discover content, access subtopics, and find relevant knowledge articles and catalog items through the browse experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eslate-navigate-topic-pages.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-07-01"
 reading_time_minutes: 2
 keywords: [Employee Slate, topic pages, navigation, content discovery]
-breadcrumb: [Browse and topic experience, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
-# Use topic pages in Employee Slate
+# Use topic pages
 
 Use topic pages to discover content, access subtopics, and find relevant knowledge articles and catalog items through the browse experience.
 
@@ -85,7 +85,19 @@ Topic pages provide organized access to content within specific categories. You 
     -   Select **All** to display all content types
     The default sorting is by popularity to surface the most relevant content first.
 
-5.  Select and navigate to the specific knowledge article detail page or catalog item page.
+5.  Search within the Support resource widget content.
+
+    Enter a keyword in the search field. Suggestions appear as you type.
+
+    1.  Select a suggestion, or press **Enter** to run the search with your typed term.
+
+        The widget shows the matching knowledge articles and catalog items.
+
+    2.  Filter the results by content type: select **Articles**, **Request**, or **All**.
+
+    3.  Select **Show more** to view additional results for your search term.
+
+6.  Select and navigate to the specific knowledge article detail page or catalog item page.
 
 
 ## Result

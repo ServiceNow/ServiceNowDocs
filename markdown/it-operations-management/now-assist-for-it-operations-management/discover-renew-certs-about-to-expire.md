@@ -1,6 +1,6 @@
 ---
-title: Discover and renew certificates about to expire using AI
-description: Use AI to find out which certificates expire on a certain date or within a certain date range. It produces a Unique Certificates list of these certificates and prompts you to renew them in a single click.
+title: Find and renew expiring certificates using the AI agent
+description: Describe the certificates that you want to renew, and the certificate renewal AI agent finds them and renews them after you confirm.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/now-assist-for-it-operations-management/discover-renew-certs-about-to-expire.html
 release: zurich
@@ -12,35 +12,41 @@ reading_time_minutes: 1
 breadcrumb: [Certificate renewal AI agent, Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# Discover and renew certificates about to expire using AI
+# Find and renew expiring certificates using the AI agent
 
-Use AI to find out which certificates expire on a certain date or within a certain date range. It produces a Unique Certificates list of these certificates and prompts you to renew them in a single click.
+Describe the certificates that you want to renew, and the certificate renewal AI agent finds them and renews them after you confirm.
 
 ## Before you begin
 
-Complete the following steps to configure your system for the certificate renewal AI agent:
+Configure your system for certificate renewal:
 
 1.  [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
 2.  [Add required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 
 Role required: sn\_disco\_certmgmt.pki\_admin
 
+## About this task
+
+You can describe certificates by any field on the Certificate \[cmdb\_ci\_certificate\] table using the field label as it appears in the record. For example, expiration date, assigned user, description, or thumbprint.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Unique Certificates**.
+1.  Navigate to **Workspaces** &gt; **Certificate Management**.
 
-2.  Select the ServiceNow Otto icon.
+2.  Select the ServiceNow Otto icon to open the AI panel.
 
-3.  Enter the date range for which you want the agent to fetch details.
+3.  Describe the certificates that you want to renew.
 
-    For example, `Fetch the certificates expiring between 1 May 2026 and 1 August 2026.`
+    For example,`Renew all certificates expiring in the next 5 days`, `Renew the certificates assigned to me that expire before 1 August 2026`, or `Show me certificates expiring between 1 May 2026 and 1 August 2026`.
 
-4.  Select the **Certificates** link that the AI returns.
+4.  Review the list of certificates that the agent returns.
+
+5.  Confirm the renewal.
 
 
 ## Result
 
-The AI displays a list of certificates that expire between the date range you specified \(in this example, 1 May 2026 and 1 August 2026\). It then asks if you want to renew these certificates. Renew them all at once by selecting **yes**.
+The agent creates a renewal task for each certificate and returns links to the task records. If no certificates match your description, the agent tells you that none were found.
 
 **Parent Topic:**[Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.md)
 

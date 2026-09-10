@@ -37,7 +37,7 @@ The MID Server generates metric binding events that are processed by the instanc
 1.  Identify the CI class of the CI that was bound to the metric binding event.
 2.  Locate the resource class which is mapped to that CI class \(using the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] table\).
 3.  Read the **resource\_path** attribute value in the **additional\_information** field in the metric binding event.
-4.  Check if a resource record exists in the resource class table, in which **name** is equal to **resource\_path** and **cmdb\_ci** is equal to the CI that was bound to the metric binding event.
+4.  Check if a resource record exists in the resource class table. The record must have **name** equal to **resource\_path** and **cmdb\_ci** equal to the CI that was bound to the metric binding event.
 5.  If such resource record exists, then the metric binding event is bound to that resource. Otherwise, a new resource record is created with the preceding values and the metric binding event is bound to the newly created resource.
 
 ## Configure resource binding

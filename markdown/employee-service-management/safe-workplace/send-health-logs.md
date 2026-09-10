@@ -24,7 +24,7 @@ Role required: sn\_imt\_core.api\_logging\_user
 
 1.  Send a POST request to the Table API on your instance.
 
-    For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_TableAPI.md).
+    For more information, see Table API.
 
     1.  Construct the endpoint using the Log Import \[sn\_imt\_core\_log\_import\] table.
 

@@ -1,21 +1,21 @@
 ---
 title: Configure analytics and reporting
-description: Access conversion funnel analytics to track user behavior patterns and identify optimization opportunities in Employee Slate experiences.
+description: Access conversion funnel analytics to track user behavior patterns and identify optimization opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/es-analytics-events-funnels.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [User Experience Analytics, conversion funnels, Employee Slate, analytics navigation, user behavior tracking]
-breadcrumb: [Analytics and reporting, Working with Employee Slate capabilities, Employee Slate, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Analytics and reporting, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure analytics and reporting
 
-Access conversion funnel analytics to track user behavior patterns and identify optimization opportunities in Employee Slate experiences.
+Access conversion funnel analytics to track user behavior patterns and identify optimization opportunities.
 
 ## Before you begin
 
@@ -33,10 +33,10 @@ Conversion funnels help you interpret how employees move through specific workfl
 
     The Usage Insights dashboard opens.
 
-2.  Select the appropriate Employee Slate option based on your subscription.
+2.  Select the appropriate EmployeeWorks option based on your subscription.
 
     -   For standard Employee Slate deployments, select **Employee Slate**.
-    -   For Moveworks deployments, select **Employee Slate for Moveworks**.
+    -   For Moveworks deployments, select EmployeeWorks Web App.
     The selection determines which analytics data and funnel options are available.
 
 3.  Select one of the following options to view the list of available items.
@@ -80,7 +80,7 @@ You can now access conversion funnel data to analyze user behavior patterns in E
 
 To create custom funnels for specific workflows, see the funnel configuration documentation. To analyze funnel data trends over time, use the date range filters and export options available in the interface.
 
-Employee Slate for Moveworks provides similar analytics. Navigate to **Platform Analytics** &gt; **User Experience Analytics**, and select **Employee Slate for Moveworks**. There, you can review retention, cohort analysis, navigation paths, and session details.
+EmployeeWorks Web App provides similar analytics. Navigate to **Platform Analytics** &gt; **User Experience Analytics**, and select EmployeeWorks Web App. There, you can review retention, cohort analysis, navigation paths, and session details.
 
 **Related topics**  
 

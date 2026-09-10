@@ -22,7 +22,7 @@ Plan and manage all RIDAC records on a single RIDAC page in Project Workspace. T
 
 Consider the following points before converting or associating RIDAC records in Project Workspace:
 
--   You can convert one record to another only in the RIDAC sequence. For example, you can convert a risk to an issue, decision, action, or request change but you can’t convert an issue to a risk or a decision to an issue. The following diagram illustrates the RIDAC process flow. \[Omitted image "ridac\_workflow.png"\] Alt text: RIDAC process flow
+-   You can convert one record to another only in the RIDAC sequence. For example, you can convert a risk to an issue, decision, action, or request change. However, you can’t convert an issue to a risk or a decision to an issue. The following diagram illustrates the RIDAC process flow. \[Omitted image "ridac\_workflow.png"\] Alt text: RIDAC process flow
 -   You can convert one record into multiple RIDAC records. For example, you can create multiple issue records from one risk record.
 
     For converting RIDAC records in Classic Project Workspace, see [Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/convert-ridac-for-project.md). For converting RIDAC records in Project Workspace, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/convert-ridac-project-workspace.md).

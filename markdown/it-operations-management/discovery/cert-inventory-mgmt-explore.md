@@ -1,26 +1,26 @@
 ---
 title: Exploring Certificate Inventory and Management
-description: Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the lifecycle of digital certificates within an organization.
+description: Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the life cycle of digital certificates within an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-inventory-mgmt-explore.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-08-12"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Exploring Certificate Inventory and Management
 
-Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the lifecycle of digital certificates within an organization.
+Certificate Inventory and Management serves as a centralized and automated solution for handling the complexities of certificate management. It enhances security, ensures compliance, and provides a streamlined approach to managing the life cycle of digital certificates within an organization.
 
 ## Certificate Inventory and Management overview
 
 Certificate Inventory and Management is a centralized and automated solution designed to streamline the tracking and management of digital certificates in an IT infrastructure. By automating the discovery, inventory, and monitoring processes, Certificate Inventory and Management enables organizations to maintain a comprehensive record of certificates, including essential details like expiration dates and issuers.
 
-The system facilitates real-time tracking, automates routine tasks such as renewals, and supports customization to align with specific organizational needs. With integration capabilities into existing CI-based Discovery schedules and support for IPv6, Certificate Inventory and Management offers flexibility and efficiency in managing the entire lifecycle of certificates. Role-based access control ensures secure and tailored usage, while alerts and notifications keep administrators informed about critical events, contributing to enhanced security, compliance, and operational efficiency in certificate management.
+The system facilitates real-time tracking, automates routine tasks such as renewals, and supports customization to align with specific organizational needs. With integration capabilities into existing CI-based Discovery schedules and support for IPv6, Certificate Inventory and Management offers flexibility and efficiency in managing the entire life cycle of certificates. Role-based access control ensures secure and tailored usage, while alerts and notifications keep administrators informed about critical events, contributing to enhanced security, compliance, and operational efficiency in certificate management.
 
 ## Certificate Inventory and Management workflow
 
@@ -62,7 +62,7 @@ Automated features to streamline tracking, preventing manual oversight of a larg
 
 </td><td>
 
-[Automated certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/automated-certificate-renewal.md)
+[Automated certificate management with ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/exploring-acme.md)
 
 </td><td>
 

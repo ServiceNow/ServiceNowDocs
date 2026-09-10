@@ -9,6 +9,7 @@ classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Supplier Lifecycle Operations, SLO, Source-to-Pay Workspace, KPI template, collection tasks, Performance management, Suppliers, segmentation rule]
 breadcrumb: [Configure Supplier Relationship and Performance Management, Configure, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -18,11 +19,11 @@ Add suppliers to KPI templates to generate KPI records and collection tasks auto
 
 ## Before you begin
 
-Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.Supplier Lifecycle Operations
+Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
 ## About this task
 
-aSLOSource-to-Pay WorkspaceKPI templatecollection tasksPerformance managementSupplierssegmentation rulete displays the following information:
+The **Supplier** related tab for a KPI template displays the following information:
 
 -   Automatically displays suppliers that match a segmentation rule that is linked to this KPI template.
 -   Displays suppliers that you add manually by selecting **Add**.

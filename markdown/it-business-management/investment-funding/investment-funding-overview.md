@@ -8,7 +8,7 @@ product: Investment Funding
 classification: investment-funding
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Investment funding, Investments, Funds, Top-down funding, Bottom-up funding, Funding process]
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -22,8 +22,6 @@ You can use the Investment Funding \(sn\_invst\_pln\) application to do the foll
 -   Create investments for entities.
 -   Allocate funds to an investment to meet a business requirement or strategic objective.
 -   Request funds from one or more funding sources to achieve business goals.
-
-**Note:** Starting with the Rome release, Investment Funding will be found in the ServiceNow Store. The legacy plugins \(com.snc.investment\_planning, com.snc.investment\_planning\_pmo\) will be prepared for future deprecation in September 2022. The plugins will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Investment entities and investments
 

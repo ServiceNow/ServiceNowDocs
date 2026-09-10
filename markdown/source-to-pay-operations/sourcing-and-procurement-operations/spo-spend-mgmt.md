@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-05-15"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [spend and savings management, category management, savings opportunity, category taxonomy, sn\_spend\_mgmt]
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -94,11 +94,15 @@ Within the Source-to-Pay Workspace, the Category analytics module includes the S
 
 [Performance Analytics for Sourcing and Procurement Operations]()
 
+[Progress Tracker for purchase requisitions and purchase orders]()
+
 [Sourcing and Purchasing Automation]()
 
 [Procurement Case Management]()
 
 [Source-to-Pay Workspace]()
+
+[Exploring the procurement case management implementation]()
 
 [Sourcing Pipeline Management]()
 

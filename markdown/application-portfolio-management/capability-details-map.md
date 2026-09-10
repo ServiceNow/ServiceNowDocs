@@ -53,7 +53,7 @@ Role required: sn\_apm.apm\_analyst
 
         `Score of parent capability = Score of all child capabilities / total number of child capabilities`
 
-        If the parent capability is not assessed and displays \(n/a\) instead of a score, then it means that all its child capabilities are not assessed. However, if one of the child capabilities is not assessed, then the parent capability score is calculated based on the scores of the other child capabilities that have been assessed.
+        If the parent capability is not assessed and displays \(n/a\) instead of a score, it means that all its child capabilities aren't assessed. However, if one of the child capabilities is not assessed, the parent capability score is calculated based on the scores of the other child capabilities that have been assessed.
 
     -   **Capability levels and assessment**
 
@@ -98,7 +98,7 @@ Role required: sn\_apm.apm\_analyst
 
         Both the **Business Capability** and **Technology Risk** views have the option to display direct and indirect business applications. However, the details displayed regarding the applications slightly vary.
 
-        **Business Capability** view: Displays the names of the business applications on the right pane, which are related to the selected business capability on the left pane, and the overall score of each individual application.
+        **Business Capability** view: Displays the names of the business applications on the right pane that are related to the selected business capability on the left pane. The view also displays the overall score of each individual application.
 
         Click the business application hypertext to navigate to the Business Application form and view the record details.
 
@@ -110,9 +110,9 @@ Role required: sn\_apm.apm\_analyst
 
             **Note:** The Project Investments and Projects are available only when you activate the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin.
 
-            You cannot roll up cost in the case of business applications as it is an independent entity and is not hierarchical, whereas investment rollup is possible in business capabilities.
+            You can't roll up cost in the case of business applications as it is an independent entity and is not hierarchical, whereas investment rollup is possible in business capabilities.
 
-            Project investments cannot be made for both business capability and business application within a project. Total planned cost of a project is considered either for business capabilities if you are investing in business capabilities or for business applications if you are investing in business application, and not for both.
+            Project investments can't be made for both business capability and business application within a project. The total planned cost applies to either business capabilities or business applications, not both.
 
         -   **Production Instances**: Number of application services of the production type that the business application is related to.
 

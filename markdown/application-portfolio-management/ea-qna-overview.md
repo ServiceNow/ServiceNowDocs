@@ -16,7 +16,7 @@ The Enterprise Architecture query agent answers natural language questions about
 
 \[Omitted image "ea-qna.png"\] Alt text: Enterprise Architecture Workspace home page with the ServiceNow Otto panel open, displaying a prompt to enter a natural language question about enterprise architecture.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -34,18 +34,119 @@ When a response references a specific record, such as a business application or 
 
 The Enterprise Architecture Explorer Query Agent answers questions across the following EA data domains:
 
-|Domain|Example queries|
-|------|---------------|
-|Business applications|Ownership, lifecycle phase, application category, CSAT and technical risk scores, retirement candidates|
-|Business capabilities|Hierarchy, scores, capability-to-application coverage|
-|App capability relationships|Applications supporting a capability, applications with no capability assignments|
-|Trends|Score comparisons for one or more applications|
-|TRM and technology|Software versions, lifecycle phase|
-|Information objects|Producing and consuming applications, orphaned objects|
-|Impact analysis|Capability and information object impact of decommissioning an application|
-|Technical debt|Applications flagged for technical debt|
+<table id="table_ea_qna_domains"><thead><tr><th>
 
-## Important information to derive the best results
+Domain
+
+</th><th>
+
+Topics covered
+
+</th><th>
+
+Example queries
+
+</th></tr></thead><tbody><tr><td>
+
+Business applications
+
+</td><td>
+
+Ownership, lifecycle phase, application category, CSAT and technical risk scores, retirement candidates
+
+</td><td>
+
+-   Get the owner of a business application
+-   Which applications are candidates for retirement?
+
+</td></tr><tr><td>
+
+Business capabilities
+
+</td><td>
+
+Hierarchy, scores, capability-to-application coverage
+
+</td><td>
+
+What are the top-level capabilities?
+
+</td></tr><tr><td>
+
+App capability relationships
+
+</td><td>
+
+Applications supporting a capability, applications with no capability assignments
+
+</td><td>
+
+-   List business apps supported by multiple capabilities
+-   Which business applications aren't assigned to capabilities?
+
+</td></tr><tr><td>
+
+Trends
+
+</td><td>
+
+Score comparisons for one or more applications
+
+</td><td>
+
+Compare the quarterly trends for two business applications
+
+</td></tr><tr><td>
+
+TRM and technology
+
+</td><td>
+
+Software versions, lifecycle phase
+
+</td><td>
+
+-   List all versions of a specific software
+-   What is the lifecycle phase of an application?
+
+</td></tr><tr><td>
+
+Information objects
+
+</td><td>
+
+Producing and consuming applications, orphaned objects
+
+</td><td>
+
+Which information objects have no producing or consuming applications?
+
+</td></tr><tr><td>
+
+Impact analysis
+
+</td><td>
+
+Capability and information object impact of decommissioning an application
+
+</td><td>
+
+If a business application is decommissioned, which capabilities and information objects are impacted?
+
+</td></tr><tr><td>
+
+Technical debt
+
+</td><td>
+
+Applications flagged for technical debt
+
+</td><td>
+
+Can you share a list of technical debts?
+
+</td></tr></tbody>
+</table>## Important information to derive the best results
 
 To get the most accurate responses from the agent, remember the following:
 
@@ -64,7 +165,7 @@ The Enterprise Architecture query agent is available through the ServiceNow Otto
 
 The Enterprise Architecture query agent uses the ServiceNow Knowledge Graph to answer questions about CMDB relationships and infrastructure data. An administrator must enable the required Knowledge Graph system properties before the agent can access this data.
 
-After the system properties are enabled, Knowledge Graph runs scheduled jobs to process your CMDB data. The time required for initial processing varies by the volume of data in your instance and may take several days or longer. During this period, responses that rely on CMDB relationship data may be incomplete. Results improve progressively as processing continues. If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a sub-production instance where setup has already completed. For more information, see [Initial setup for Enterprise Graph schema in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
+After the system properties are enabled, Knowledge Graph runs scheduled jobs to process your CMDB data. The time required for initial processing varies by the volume of data in your instance and may take several days or longer. During this period, responses that rely on CMDB relationship data may be incomplete. Results improve progressively as processing continues. If the Knowledge Graph data processing is in progress, the Knowledge Graph Designer displays a notification. This means that the scheduled jobs required to set up the enterprise graph are still running. The Enterprise Architecture query agent is not available until this process is complete and the notification is no longer displayed. To speed up the process, you can import enterprise graph descriptions from a sub-production instance where setup has already completed. For more information, see [Enterprise Graph schema Initial setup in production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/initial-setup-for-enterprise-graph-schema.md).
 
 \[Omitted image "ea-qna-kg-setup-banner.png"\] Alt text: Knowledge Graph Designer page showing a setup-in-progress notification banner indicating the Enterprise Graph is not yet available for queries.
 

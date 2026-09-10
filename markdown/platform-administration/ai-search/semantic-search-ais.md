@@ -32,7 +32,7 @@ As an example, suppose you index a source record including text `how to prevent 
 
 AI Search orders results from semantic vector search based on how similar they are to your search. In the example, if you had a second indexed record including text `how to prevent scams`, it would be more similar to the `avoiding scams` search and its search result would appear before the `how to prevent phishing` result.
 
-Unlike the default keyword-based search mode, semantic vector search does not rely on your synonym dictionaries to find term equivalences. AI Search identifies term similarities automatically when indexing source content and metadata for semantic vector search.
+Unlike the default keyword-based search mode, semantic vector search doesn't rely on your synonym dictionaries to find term equivalences. AI Search identifies term similarities automatically when indexing source content and metadata for semantic vector search.
 
 Semantic vector search is automatically enabled and doesn’t include any configurable settings.
 
@@ -52,7 +52,7 @@ Semantic vector search overrides the normal AI Search term matching and relevanc
 
 Semantic vector search is available in the following contexts.
 
--   ServiceNow Otto for Virtual Agent uses semantic vector search for Catalog Item retrieval and live agent topic retrieval. For more details, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+-   ServiceNow Otto for Virtual Agent uses semantic vector search for Catalog Item retrieval and live agent topic retrieval. For more details, see .
 -   Knowledge base articles Genius Results use semantic vector search along with legacy keyword search when looking for knowledge articles that match your search query. They also use semantic vector search when looking for cached answers that match your query in the second-level cache. For more details, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md) and [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 -   Actions Genius Results use semantic vector search along with legacy keyword search when looking for Catalog Items that match your search query. For more details, see [Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md).
 -   All connectors from the External Content Connectors application support semantic vector indexing when retrieving document content from external source systems. Only features which use semantic vector search with the Now LLM Service can take advantage of this support. For more information on external content connector configuration and usage, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ext-cont-connectors-landing-page.md).

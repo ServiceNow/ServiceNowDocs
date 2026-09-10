@@ -8,7 +8,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -30,6 +30,10 @@ Use Spend and Savings Management to import and manage your organization's catego
 Use Pipeline Sourcing Management to create pipeline projects that capture key financial and opportunity data while providing end-to-end visibility into all sourcing activities.
 -   **[Create a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/create-universal-request.md)**  
 Create a Universal Request \(UR\) in Employee Center when your request involves multiple departments or the right department to contact is unclear.
+-   **[Purchase requisition and purchase order progress tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/monitor-pr-po-progress.md)**  
+Procurement specialists and buyers use the Progress Tracker to monitor the approval and fulfillment lifecycle for purchase requisitions and purchase orders. View completed and pending workflow steps, access assigned work items, and review transition history.
+-   **[Configure the Progress Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/configure-progress-tracker.md)**  
+Procurement administrators can control whether the Progress Tracker displays on purchase requisition \(PR\) and purchase order \(PO\) records systemwide. You can customize which states appear in the stepper and control the order in which states are displayed.
 
 **Parent Topic:**[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
 

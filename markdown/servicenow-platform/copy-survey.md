@@ -32,15 +32,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d145416e89">
+<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d145061e89">
 
 Option
 
-</th><th align="left" id="d145416e92">
+</th><th align="left" id="d145061e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d145416e98">
+</th></tr></thead><tbody><tr><td id="d145061e98">
 
 **From Platform**
 
@@ -48,7 +48,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d145416e110">
+</td></tr><tr><td id="d145061e110">
 
 **From Platform**
 
@@ -56,7 +56,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d145416e122">
+</td></tr><tr><td id="d145061e122">
 
 **From survey designer**
 

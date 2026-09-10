@@ -66,7 +66,7 @@ You can configure a self-health monitor to track Event Management components and
 -   **[Create a self-health monitor with a custom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/custom-configure-threshold-monitoring.md)**  
 You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 -   **[View the Event Management self-health application services map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/view-self-health-manual-service.md)**  
-You can view Event Management application services maps to have a visualization of the data on configuration items \(CIs\) that comprise this service, and the relations and connections between these CIs.
+You can view Event Management application services maps to visualize configuration items \(CIs\) that comprise this service. The map shows the relations and connections between these CIs.
 
 **Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EMAlert.md)
 

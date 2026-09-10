@@ -114,7 +114,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 7.  In the ACTIONS section of the screen, use the following steps to create actions and flow logic for the incident's Prediction Results.
 
-    **Note:** Although you can use a loop to iterate through every prediction result, the scenario shown in this documentation uses a relatively small number of actions. For more advanced flow configurations, see the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md).
+    **Note:** Although you can use a loop to iterate through every prediction result, the scenario shown in this documentation uses a relatively small number of actions. For more advanced flow configurations, see the Flow Designer.
 
     1.  **For each item in** **list of items**: Drag and drop the **Prediction Results** data pill into the **Items** field.
 

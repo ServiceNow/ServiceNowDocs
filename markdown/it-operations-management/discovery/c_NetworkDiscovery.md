@@ -42,12 +42,12 @@ glide.discovery.bgp\_router\_disable
 
 </td><td>
 
-BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. Normally such exploration IS inactive because of the huge size of BGP routing tables, and because generally such routers are only operating at the edge of large networks where further network discovery would be irrelevant. This value could be set to false if your organization only uses BGP routers as edge routers between relatively small networks \(such as between buildings on a single campus\).
+BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. This exploration is inactive by default because BGP routing tables are large. These routers typically operate at the edge of large networks, where further network discovery is not relevant. Set this value to false if your organization uses BGP routers as edge routers between relatively small networks. For example, between buildings on a single campus.
 
  If you must populate the \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the bgp-enabled devices, set the **BGP router exploration disable** property to **No**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
 
  -   Type: true \| false
--   Default value true
+-   Default value: true
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ glide.discovery.debug.network\_discovery
 Network discovery debugging: Enables extensive logging of all Network Discovery activities on the instance.
 
  -   Type: true \| false
--   Default value true
+-   Default value: true
 -   Learn More: [Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
 
 </td></tr><tr><td>

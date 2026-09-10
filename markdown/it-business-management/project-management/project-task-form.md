@@ -154,7 +154,7 @@ Allow dates outside schedule
 
 </td><td>
 
-Indicates whether the project task is set to start and end on a non-schedule day \(outside regular project schedule\) such as on a weekend. An off-schedule task can start any time during the day and on any day of the week.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday instead of ending on Tuesday.
+Indicates whether the project task is set to start and end on a non-schedule day \(outside regular project schedule\) such as on a weekend. An off-schedule task can start any time during the day and on any day of the week.For example, the project schedule is Monday to Friday, 8:00 to 17:00, and a project task of duration 2 days should start on Saturday. Then, an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday instead of ending on Tuesday.
 
  The option is not enabled for a parent task. The value of this field on the parent task is derived from the child tasks.
 
@@ -228,7 +228,7 @@ Actual start date
 
 Date on which the project task started. The task is set to **Work in Progress** when the actual start date is populated.When you change the **State** or **Percent complete** of the task, the actual dates are auto-populated with the date component copied from the planned dates.
 
- When you populate the actual start and end dates, the time component in actual dates is defaulted to the date component in planned dates when the derive time component from planned dates field on Project form is set to True.
+ When you populate the actual start and end dates, the time component in actual dates is defaulted to the date component in planned dates. This occurs when the derive time component from planned dates field on Project form is set to True.
 
 </td></tr><tr><td>
 

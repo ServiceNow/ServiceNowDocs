@@ -28,15 +28,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d321363e91">
+<table id="choicetable_wwt_xxs_1hc"><thead><tr><th align="left" id="d341106e91">
 
 Navigation option
 
-</th><th align="left" id="d321363e94">
+</th><th align="left" id="d341106e94">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d321363e100">
+</th></tr></thead><tbody><tr><td id="d341106e100">
 
 **Provider inbound asset order**
 
@@ -52,7 +52,7 @@ Procedure
 5.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d321363e144">
+</td></tr><tr><td id="d341106e144">
 
 **Provider inbound asset order line**
 
@@ -66,7 +66,7 @@ Procedure
 3.  On the inbound asset order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d321363e179">
+</td></tr><tr><td id="d341106e179">
 
 **Provider asset tasks**
 

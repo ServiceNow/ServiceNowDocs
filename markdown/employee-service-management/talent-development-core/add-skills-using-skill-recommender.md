@@ -7,9 +7,9 @@ release: zurich
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add skills by using the skill recommender
@@ -36,7 +36,7 @@ By adding skills to your profile, you can track all these details in one place.
 
     Search results are sorted alphabetically, with the top results displaying first.
 
-    \[Omitted image "skills-recommender.png"\] Alt text: Skill search results
+    \[Omitted image "skills-recommender.png"\] Alt text: Search field showing "Jav" with dropdown displaying six matching skills including JavaScript, Java J2SE J2EE, and other Java-related technologies
 
     **Note:** If you don't see the skill recommendations, it indicates that the AI Search setup is broken. Clear your instance cache by entering `server_url/cache.do` in your browser. If the problem persists, then contact your system admin.
 

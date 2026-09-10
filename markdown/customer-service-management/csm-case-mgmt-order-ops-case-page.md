@@ -1,6 +1,6 @@
 ---
 title: Order case pages
-description: The Order Operations Case Management application includes record pages that display order cases and order case line items in CSM Configurable Workspace.
+description: The Order Operations Case Management application includes record pages that display order cases and order case line items in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-case-mgmt-order-ops-case-page.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Order Operations Case Management, Case management, Organize agent w
 
 # Order case pages
 
-The Order Operations Case Management application includes record pages that display order cases and order case line items in CSM Configurable Workspace.
+The Order Operations Case Management application includes record pages that display order cases and order case line items in CRM Workspace.
 
 The Order Operations Case Management application enables agents to create order cases that reference customer orders and order lines. Using order cases, agents can manage and track customer requests and the actions taken to fulfill these requests.
 

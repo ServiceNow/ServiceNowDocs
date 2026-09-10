@@ -1,18 +1,18 @@
 ---
-title: Now Assist for Manufacturing Commercial Operations
-description: Use the ServiceNow Now Assist for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+title: ServiceNow Otto for Manufacturing Commercial Operations
+description: Use the ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/now-assist-for-MCO.html
 release: zurich
 topic_type: reference
-last_updated: "2025-10-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manufacturing Commercial Operations]
 ---
 
-# Now Assist for Manufacturing Commercial Operations
+# ServiceNow Otto for Manufacturing Commercial Operations
 
-Use the ServiceNow® Now Assist for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
+Use the ServiceNow Otto for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
 
 ## Troubleshoot and get help
 
@@ -30,5 +30,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

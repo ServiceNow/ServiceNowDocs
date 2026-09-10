@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
 topic_type: task
-last_updated: "2025-12-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Manage alerts autonomously agentic workflow, Use agentic AI, ServiceNow Otto for ITOM, IT Operations Management]
 ---
@@ -22,17 +22,13 @@ For this feature, you must have ServiceNow Otto for IT Operations Management \(I
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-\[Optional\] Additional configuration is required for some skills used in the agentic workflow:
-
--   **Observability skills**: Configure the relevant observability skills to surface data from observability tools integrated with Event Management. See [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
--   **Log analytics skills**: Install and configure Health Log Analytics to enable analysis of log analytics alerts. See [Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-configuring.md).
--   **Service health skill**: Install and configure Service Observability and activate the analyze service health skill to automatically surface insights about service health in an alert. See [Install Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/install-service-observability.md) and [Activate the analyze service health skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-the-analyze-service-health-skill.md) for more information.
-
-Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
+Role required: None
 
 ## About this task
 
 The manage alerts autonomously workflow investigates alerts, summarizes alert-related reports, and stores structured insights with key findings for use in Express List. For more information about the manage alerts autonomously agentic workflow, see [Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md).
+
+Autonomous workflow is a simplified AI process elaborated in the AI Specialist. You can now activate and manage AI Specialist, controlling the groups it targets and the specific alert type it handles. Activating the AI Specialist automatically disables the Autonomous workflow.
 
 **Note:** Currently, ServiceNow Otto for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 
@@ -45,7 +41,7 @@ There are several ways to explore AI insights in Express List.
 
 These options present differently, depending on whether the workflow is configured for automatic or manual execution.
 
--   When the workflow operates automatically, alerts are addressed as they’re created and AI insight information is displayed in Express List.
+-   When the workflow operates automatically, alerts are addressed as they're created and AI insight information is displayed in Express List.
 -   When the workflow operates manually, you must manually generate AI insights. For more information, see details in the following procedure.
 
 For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.md).
@@ -54,19 +50,19 @@ For information about configuring this workflow, see [Configure the manage alert
 
 1.  Navigate to **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Express List icon \[Omitted image "express-list1.png"\].
+2.  Select the Express List icon \[Omitted image "express-list1.png"\] Alt text:.
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d127874e279">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d133341e214">
 
 Review AI insights
 
-</th><th align="left" id="d127874e282">
+</th><th align="left" id="d133341e217">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d127874e288">
+</th></tr></thead><tbody><tr><td id="d133341e223">
 
 **Check for the AI Insights badge for alert status**
 
@@ -76,7 +72,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d127874e311">
+</td></tr><tr><td id="d133341e246">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -84,7 +80,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d127874e327">
+</td></tr><tr><td id="d133341e262">
 
 **Filter using AI Insights filter attribute**
 
@@ -92,18 +88,19 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d127874e346">
+</td></tr><tr><td id="d133341e281">
 
 **Review AI insights in the preview panel**
 
 </td><td>
 
 1.  In the alerts list, select an alert by selecting the check box or the information icon \[Omitted image "info.png"\] Alt text: Information icon. next to the alert.
-2.  -   In the **Insights** tab, review **AI insights**.
--   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+2.  -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+-   In the **Insights** tab, review **AI insights**.
+-   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d127874e389">
+</td></tr><tr><td id="d133341e336">
 
 **Review AI Insights in the alert record overview**
 
@@ -113,8 +110,10 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 
 The **Overview** tab is selected by default.
 
-2.  -   If data is available, you can review the **AI insights** summary in the Summary section.
--   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+2.  -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
+-   If data is available, you can review the **AI insights** summary in the Summary section.
+-   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page.
+3.  Select the **AI activity** tab to view the detailed report of the alert along with the workflow steps.
 
 
 </td></tr></tbody>

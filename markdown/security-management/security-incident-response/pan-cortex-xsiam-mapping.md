@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-08-20"
 reading_time_minutes: 6
 breadcrumb: [Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -52,6 +52,16 @@ Use this ingestion method to import the most recent Incidents and alerts. If the
 
  The sample field values populate when the profile ingests the sample incidents. You can map these incidents to the **SIR Incident Target Fields**. The Incident fields and values appear as individual tabs.
 
+</td></tr><tr><td>
+
+Incident ID
+
+</td><td>
+
+Use this ingestion method to load the field values of a specific XSIAM case. Enter an Incident ID in the XSIAM Incident ID field to retrieve the incident data and populate the mapping section with that record's field values.
+
+ Use this option to set up mappings based on a known incident.
+
 </td></tr></tbody>
 </table>2.  To add fields to the default fields that are displayed on the security incident, do the following actions:
 
@@ -65,18 +75,22 @@ Use this ingestion method to import the most recent Incidents and alerts. If the
 
     3.  From the Incident and Alert Fields section, drag and drop your field to map it to your new field.
 
-    4.  When you select the check box that corresponds to a field, any new or updated changes made in XSIAM will automatically update the respective SIR incident data with the new incident data.
+    4.  Select the check box for a field to automatically update the respective SIR incident data with changes from XSIAM.
 
         **Note:** In the base system, the system property sn\_sec\_pan\_xsiam.incident\_updates is by default set to False to receive the XSIAM updates related to new alerts that are linked to SIR.
 
-        -   By default, the Affected Users, Configuration items, and Observables fields are checked. This means that whenever there are new observables or associated configuration items, or affected users that gets added to the incident then that information is automatically extracted and populated in the respective related lists in the Security Incident Response \(SIR\) during that polling interval.
-        -   After ingestion, Security Incident records show Unmatched CI in the Configuration Items related list and Unmatched Affected Users in a dedicated related list when matching CMDB or identity records are not found, ensuring complete visibility of affected entities throughout the incident life-cycle.
-        -   For any other fields, you must select the check box that corresponds to a field for any new or updated changes made in the XSIAM incident record within XSIAM. This will automatically replace the respective SIR incident data with the new incident data.
+        -   By default, the Affected Users, Configuration items, and Observables fields are checked. When new observables, configuration items, or affected users get added to the incident, that information is automatically extracted. The data is then populated in the respective related lists in the Security Incident Response \(SIR\) during that polling interval.
+        -   After ingestion, Security Incident records show Unmatched CI in the Configuration Items related list when matching CMDB records aren't found. Unmatched Affected Users appear in a dedicated related list when matching identity records aren't found. This ensures complete visibility of affected entities throughout the incident life-cycle.
+        -   For any other fields, select the check box that corresponds to a field. When changes are made in the XSIAM incident record, the respective SIR incident data is automatically replaced with the new incident data.
         **Important:** Due diligence is required to be done before selecting this functionality as overriding the existing data may result in unstable data for the analyst to work with and any other automation that is set even by the field values of security incident may also get affected. So, it is very important to do the due diligence before you select any override functionality.
 
 3.  To remove a field, use the \[Omitted image "sentinel-remove-button.png"\] Alt text: Remove button Remove item button next to the input expression field in the SIR Incident Target Fields section.
 
 4.  To map a field value from the Incident and Event Fields section to a field on the SIR incident Target Fields section, use one of the following actions:
+
+    This integration classifies certain observable sub-types. When you map a Cortex XSIAM field with the SIR observable field, the integration auto-classifies the observable. If you want to generically map the incoming Cortex XSIAM observable to the observable type, then drag and drop the Incident and Event field in the Observable field. However, if you are aware of the observable type for the incoming Cortex XSIAM observable, then map specifically to the Observable type field. Some examples of specific observable types include Observable\(Domain name\), Observable\(Email address\), Observable\(IP address \(V4\)\), and Observable\(Host name\).
+
+    Sometimes, incident field values in Cortex XSIAM may not translate directly to the fields on the SIR security incident. For these values, you can use a script editor to format field values on the security incident during the mapping step. Use the script editor if you want to format values that are similar, but not identical.
 
     1.  Drag the Incident field name \(for example, id\) and drop it next to a field name in the SIR incident Target Fields column.
 
@@ -88,17 +102,13 @@ Use this ingestion method to import the most recent Incidents and alerts. If the
 
     3.  You can manually enter and map a source Incidents or Events fields to a target field.
 
-        -   To manually map a source incident field use the $⁠\{field name\}$ format. For example, to map an incident field Severity, the format is`${Incidents: severity}$`.
+        -   To manually map a source incident field use the $⁠\{field name\}$ format. For example, to map an incident field Severity, the format is `${Incidents: severity}$`.
         -   To manually add Incident, Event, and Alert fields, use the `$⁠{Source: field}$` format. For example, `$⁠{Incidents: incident_name}$`.
-    This integration classifies certain observable sub-types. When you map a Cortex XSIAM field with the SIR observable field, the auto-classifies the observable. If you want to generically map the incoming Cortex XSIAM observable to the observable type in, then drag and drop the Incident and Event field in the Observable field. However, if you aware of the observable type for the incoming Cortex XSIAM observable, then map specifically to the Observable type field. Some examples of specific observable types in include Observable\(Domain name\), Observable\(Email address\), Observable\(IP address \(V4\)\), and Observable\(Host name\).
-
-    Sometimes, incident field values in Cortex XSIAM may not translate directly to the fields on the SIR security incident. For these values, you can use a script editor to format field values on the security incident during the mapping step. Use the script editor if you want to format values that are similar, but not identical.
-
-5.  To format a field translation for a new field from a Cortex XSIAM Incident to match a field value on a Security Incident, select the **Click here** link in the **SIR Incident Target Fields** header.
+5.  To format a field translation for a Cortex XSIAM Incident field, select the **Click here** link in the **SIR Incident Target Fields** header.
 
 6.  To modify the fields which support field translation, select the \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button script format field translation icon.
 
-    The fields that support field translation are **Affected user**, **Configuration Item**, and **Priority**. For example, click on \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button icon next to the Category. The Cortex XSIAM Field Translation script editor opens.
+    The fields that support field translation are **Affected user**, **Configuration Item**, and **Priority**. For example, select \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button icon next to the Category. The Cortex XSIAM Field Translation script editor opens.
 
 7.  Enter any changes to the script and select **Update** to save the changes and return to the Mapping page.
 
@@ -121,7 +131,7 @@ Use this ingestion method to import the most recent Incidents and alerts. If the
 
 ## What to do next
 
-Define and set filter conditions to specify which incidents should create security incidents. You can use the same field values \(defined in the Mapping section\) in the incident Generation Conditions builder \(in the Filtering and Aggregation section\) to define additional criteria that an incoming incident must satisfy to create a security incident.
+Define and set filter conditions to specify which incidents should create security incidents. You can use the same field values \(defined in the Mapping section\) in the incident Generation Conditions builder. Use these values to define additional criteria that an incoming incident must satisfy to create a security incident.
 
-For more information, see [Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/xsiam-filtering-and-aggregation.md)
+For more information, see [Define filter and aggregation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/xsiam-filtering-and-aggregation.md).
 

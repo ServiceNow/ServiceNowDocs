@@ -73,7 +73,7 @@ The Special Handling Notes summarization skill uses generative AI to condense le
 
 ## Result
 
-The Special Handling Notes summarization skill is activated. Agents working in the CSM Configurable Workspace can view AI-generated summaries of special handling notes on the **Case Insights** section, which supports more consistent customer interactions. Role restrictions control which users and data resources the skill can access.
+The Special Handling Notes summarization skill is activated. Agents working in the CRM Workspace can view AI-generated summaries of special handling notes on the **Case Insights** section, which supports more consistent customer interactions. Role restrictions control which users and data resources the skill can access.
 
 ## What to do next
 

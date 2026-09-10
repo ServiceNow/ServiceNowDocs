@@ -16,6 +16,8 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 
 Locate what you're looking for quickly using the global search in Workforce Optimization for ITSM.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 As an agent or a manager, easily find the information you need by searching users, groups, shifts, schedules, or tasks using the search icon \[Omitted image "search-icon.png"\] Alt text: Search icon.
 
 **Note:** To search shifts and schedules, you must [generate the text index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/index-multiple-tables.md) for the following tables before you start performing the search for shifts and schedules:

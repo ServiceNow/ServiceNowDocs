@@ -1,6 +1,6 @@
 ---
-title: Leverage Knowledge Graph prebuild integration with AI agents
-description: The prebuilt integrations of Knowledge Graph, can improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
+title: Knowledge Graph
+description: The prebuilt integrations of Knowledge Graph, improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/knowledge-graph/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.html
 release: zurich
@@ -12,13 +12,13 @@ reading_time_minutes: 2
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
-# Leverage Knowledge Graph prebuild integration with AI agents
+# Knowledge Graph
 
-The prebuilt integrations of Knowledge Graph, can improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
+The prebuilt integrations of Knowledge Graph, improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 
 In this release, the available prebuilt integrations with AI agents are:
 
-1.  Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
+1.  Integration with AI agents for User Context: Helps users with personalized responses.
 2.  Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
 
 ## Integration with AI agents for User Context
@@ -26,6 +26,10 @@ In this release, the available prebuilt integrations with AI agents are:
 For the users of Now Assist, AI agents integrates the context from the prebuilt User Profile schema to fetch relevant data and provide personalized responses.
 
 By leveraging relationships between users, teams, and content, Now Assist AI agents can fetch relevant, permission-aware user information and provide answers to reduce slot-filing requirement.
+
+ServiceNow AI agents integrates the context from the prebuilt User Profile schema to fetch relevant data and provide personalized responses.
+
+By using relationships between users, teams, and content, AI agents can fetch relevant, permission-aware user information and provide answers to reduce slot-filing requirement.
 
 Here’s an example use case of how Knowledge Graph is used within AI agents for user context.
 

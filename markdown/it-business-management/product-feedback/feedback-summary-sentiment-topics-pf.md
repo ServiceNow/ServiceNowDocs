@@ -1,6 +1,6 @@
 ---
 title: Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
-description: Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
+description: Generate a summary from the name and description of the feedback records. This lets you analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio 
 
 # Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management
 
-Generate a summary from the name and description of the feedback records so that you can analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
+Generate a summary from the name and description of the feedback records. This lets you analyze a large volume of feedback quickly without reading each feedback record manually. You can do this task by using the multi feedback summarization skill in the ServiceNow Otto for Strategic Portfolio Management application.
 
 \[Omitted video\] Description: Multi feedback summarization video.
 
@@ -35,7 +35,7 @@ Generate a summary from the name and description of the feedback records so that
     Previously configured skills that were turned on, then off, will remain inactive.
 
 
-If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
+If you have users with custom roles that need access to this skill, you must update ACLs for those roles. You must also add those custom roles to the In product role.
 
 The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
@@ -43,7 +43,7 @@ Role required: pf\_user
 
 ## About this task
 
-With the feedback or multi feedback summarization skill, you can get enough details about the feedback that you received on your product so that you can improve the product features, usability, and performance.
+With the feedback or multi feedback summarization skill, you can get enough details about the feedback that you received on your product. This allows you to improve the product features, usability, and performance.
 
 ## Procedure
 
@@ -77,15 +77,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d144849e207">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d147548e222">
 
 Option
 
-</th><th align="left" id="d144849e210">
+</th><th align="left" id="d147548e225">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d144849e216">
+</th></tr></thead><tbody><tr><td id="d147548e231">
 
 **Expand or collapse the summary**
 
@@ -93,7 +93,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse-spm.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d144849e237">
+</td></tr><tr><td id="d147548e252">
 
 **More information on summary**
 
@@ -101,7 +101,7 @@ Select the expand card icon \(\[Omitted image "icon-expand-spm.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-information-spm.png"\] Alt text: More information icon.\).
 
-</td></tr><tr><td id="d144849e252">
+</td></tr><tr><td id="d147548e267">
 
 **View more or less summary**
 
@@ -109,7 +109,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d144849e267">
+</td></tr><tr><td id="d147548e282">
 
 **Provide feedback for the summary**
 
@@ -117,7 +117,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d144849e291">
+</td></tr><tr><td id="d147548e306">
 
 **Copy the feedback summary**
 
@@ -125,7 +125,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt text: Copy to clipboard icon.\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d144849e306">
+</td></tr><tr><td id="d147548e321">
 
 **Refresh the summary**
 
@@ -133,7 +133,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy-spm.png"\] Alt te
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d144849e318">
+</td></tr><tr><td id="d147548e333">
 
 **Copy and create epic from summary**
 
@@ -148,6 +148,6 @@ Select **Copy and create epic** to create a planning or non-planning item by usi
 
 6.  Select **Copy and create epic** to copy the generated summary and create a planning item.
 
-    Save time and streamline your work flow by linking the feedback with planning items, which eliminates the need to copy summaries. You can quickly create work items in Feedback and view them in the roadmap.
+    Save time and streamline your workflow by linking the feedback with planning items, which eliminates the need to copy summaries. You can quickly create work items in Feedback and view them in the roadmap.
 
 

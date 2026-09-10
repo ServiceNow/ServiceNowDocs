@@ -28,8 +28,8 @@ Use the RIDAC Issue form to create and manage issues that affect your demand or 
 |Impact|Impact level if the issue is not resolved. The available options are **1 - High**, **2 - Medium**, **3 - Low**\). This indicates the severity of the issue on planning objectives.|
 |Due date|Target date by which the issue should be resolved.|
 |Assigned to|User or team responsible for resolving the issue.|
+|Parent|Execution item \(such as a project or demand\) that this RIDAC item was created on. This field is automatically populated with the execution item when you create the RIDAC item. The RIDAC item is then linked to the corresponding planning item, ensuring it appears in related lists at the execution level and in reports at the planning level.|
 |Planning Item|The planning item \(project or demand\) that this issue is associated with. This field is auto-populated when an issue is created from a planning item context.|
-|Parent|Parent issue, if this issue is a child of another issue. Used for issue hierarchy and rollup tracking.|
 |Work notes|Internal notes and updates about the progress of issue resolution. Used to track work history and communication.|
 
 **Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)

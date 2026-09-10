@@ -1,18 +1,18 @@
 ---
 title: Effectiveness form
-description: To be done.
+description: This form enables you to add the effectiveness information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-effectiveness-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-08"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [General form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Effectiveness form
 
-To be done.
+This form enables you to add the effectiveness information.
 
 |Field|Description|
 |-----|-----------|

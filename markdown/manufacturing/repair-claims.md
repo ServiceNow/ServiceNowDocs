@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/repair-claims.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -26,7 +26,7 @@ The repair portal facilitates the dealer to submit the repair claims to the manu
 
 The following diagram shows the entities and their relationships within the repair claims application.
 
-\[Omitted image "Data-model-repair-claim.png"\] Alt text:
+\[Omitted image "Data-model-repair-claim.png"\] Alt text: Decorative
 
 -   **[Repair claims tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/repair-claims-tables.md)**  
 This section explains the repair claim tables in Manufacturing Commercial Operations.

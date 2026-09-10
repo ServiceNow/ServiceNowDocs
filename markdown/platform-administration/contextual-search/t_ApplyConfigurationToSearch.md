@@ -8,7 +8,7 @@ product: Contextual Search
 classification: contextual-search
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Contextual search, Search administration, Configure core features, Administer]
 ---
 
@@ -42,6 +42,8 @@ The following procedure uses Incident Deflection as an example.
     |--------|-----------|
     |Condition|Conditions to specify one or more knowledge bases to search.|
     |Exclude pinned articles|Pinned article is a knowledge article. This property helps to decide whether to exclude pinned articles from knowledge base search or not.|
+
+    Example use case: To restrict knowledge search to the IT knowledge base only, set the **Condition** property value to a condition that filters by your IT knowledge base sys\_id \(for example, `kb_knowledge_base=<sys_id_of_IT_KB>`\).
 
     The **catalog** record displays the following catalog resource configuration properties:
 

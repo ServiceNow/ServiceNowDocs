@@ -232,7 +232,7 @@ Sequence
 
 Sequence number of the child entities for a model relationship. If you enter a number in the **Count** field, the **Sequence** field appears.
 
- The default value is 1. If the parent model has multiple relationships, the sequence number for the first relationship is set to 1 and the number following the highest value of the first relationship is set for the consecutive relationships. For example, let's say that your equipment has a model relationship with two slots and two ports. When the relationship is created, the sequence number of the slots and ports are set to 1 and 3.
+ The default value is 1. If the parent model has multiple relationships, the sequence number for the first relationship is set to 1. The number following the highest value of the first relationship is set for the consecutive relationships. For example, let's say that your equipment has a model relationship with two slots and two ports. When the relationship is created, the sequence number of the slots and ports are set to 1 and 3.
 
  **Note:** This attribute is only for **Rack to Slot**, **Equipment to Slot**, **Equipment to Network Interface**, **Interface card to Slot**, **Interface card to Network Interface**, **Cable to Strand**, and **Logical Connection to Channel** relationship types.
 

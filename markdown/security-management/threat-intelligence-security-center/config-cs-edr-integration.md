@@ -1,20 +1,20 @@
 ---
-title: Configure CrowdStrike EDR integration
-description: Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
+title: Configure Crowdstrike Falcon EDR integration
+description: Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/config-cs-edr-integration.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-08-16"
 reading_time_minutes: 2
-breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools Integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Configure CrowdStrike EDR integration
+# Configure Crowdstrike Falcon EDR integration
 
-Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
+Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 
 ## Before you begin
 
@@ -28,17 +28,17 @@ Role required: sn\_sec\_tisc.admin
 
 ## Procedure
 
-1.  In your instance, access **Threat Intelligence Security Center**.
+1.  Navigate to **Threat Intelligence Security Center**.
 
 2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/download-app-first-time.md).
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
-4.  Select **Configure New Security Tool** to configure CrowdStrike Falcon EDR integration.
+4.  Select **Configure new security tool integration** to configure CrowdStrike Falcon EDR integration.
 
 5.  Select **CrowdStrike Falcon EDR**.
 
-6.  On the Configure new security tool form, fill in the fields.
+6.  On the Configure new security tool form, fill in the fields as appropriate.
 
 <table id="table_iqf_n4p_tzb"><thead><tr><th>
 
@@ -78,7 +78,7 @@ Integration Type
 
 </td><td>
 
-Integration type.
+Type of integration.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Integration Category
 
 </td><td>
 
-Integration category.
+Category of integration.
 
 </td></tr><tr><td colspan="2">
 
@@ -98,7 +98,7 @@ Base URL
 
 </td><td>
 
-CrowdStrike API base URL. The default value is [https://api.crowdstrike.com](https://api.crowdstrike.com). For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis\#k9578c40](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis#k9578c40)
+The base URL is the CrowdStrike API base URL. The default value is [https://api.crowdstrike.com](https://api.crowdstrike.com). For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis\#k9578c40](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis#k9578c40)
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Client ID
 
 </td><td>
 
-Client ID from CrowdStrike. For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis).
+The client ID that you obtained from CrowdStrike. For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,17 @@ Client Secret
 
 </td><td>
 
-Client secret key from CrowdStrike. For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis).
+The client secret key that you obtained from CrowdStrike. For more information, see [https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis](https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis).
+
+</td></tr><tr><td>
+
+Use TISC Expiration \(Observable expiration when available; otherwise, configured default expiration\)
+
+</td><td>
+
+Option to send the expiration time that is set on the observable in TISC instead of the expiration period configured for the observable type. When the observable has an expiration time, that value is sent to CrowdStrike EDR. When the observable has no expiration time, the expiration period configured for the observable type applies.**Note:**
+
+This option is selected by default for configurations that you create. For configurations that existed before you upgraded, this option is cleared so that the existing expiration behavior continues to apply.
 
 </td></tr><tr><td>
 
@@ -122,7 +132,7 @@ Expiration period in days for any type of observables
 
 </td><td>
 
-Expiry period in days applied to observables sent to CrowdStrike EDR.**Note:** This option is a fall back expiration period when the expiration time is not set for any specific observable type.
+The expiry period in days that is applied for any type of observable\(s\) when they are sent to CrowdStrike EDR.**Note:** This option is a fall back expiration period when the expiration time is not set for any specific observable type.
 
 </td></tr><tr><td>
 
@@ -130,7 +140,7 @@ IP Observable Expiration Time
 
 </td><td>
 
-Expiry period in days applied to IP observables sent to CrowdStrike EDR.
+The expiry period in days that is applied for the IP type of observable when they are sent to CrowdStrike EDR.
 
 </td></tr><tr><td>
 
@@ -138,18 +148,20 @@ Domain Observable Expiration Time
 
 </td><td>
 
-Expiry period in days applied to domain observables sent to CrowdStrike EDR.
+The expiry period in days that is applied for the domain type of observable when they are sent to CrowdStrike EDR.
 
 </td></tr><tr><td>
 
-Hash Observable Expiration Time
+MD5 and SHA256 hash Observable Expiration Time
 
 </td><td>
 
-Expiry period in days applied to Hash observables sent to CrowdStrike EDR.
+The expiry period in days that is applied for the MD5 and SHA256 hash type of observable when they are sent to CrowdStrike EDR.**Note:**
+
+SHA1 hash observables aren't sent to CrowdStrike EDR.
 
 </td></tr></tbody>
-</table>7.  Select **Save**.
+</table>7.  Select **Save** to apply the changes.
 
     The integration details are validated, and by default the CrowdStrike EDR integration's status is turned off.
 

@@ -1,6 +1,6 @@
 ---
 title: Risk management for business applications - Legacy
-description: Integrate Enterprise Architecture with Governance, Risk, and Compliance \(GRC\) to simplify the work of application owners and risk managers by identifying the risks associated with business applications and adding the controls necessary to mitigate the risks.
+description: Integrate Enterprise Architecture with Governance, Risk, and Compliance \(GRC\) to identify risks associated with business applications and add controls to mitigate them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/grc-application-risk-assesment-overview.html
 release: zurich
@@ -12,11 +12,11 @@ breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Por
 
 # Risk management for business applications - Legacy
 
-Integrate Enterprise Architecture with Governance, Risk, and Compliance \(GRC\) to simplify the work of application owners and risk managers by identifying the risks associated with business applications and adding the controls necessary to mitigate the risks.
+Integrate Enterprise Architecture with Governance, Risk, and Compliance \(GRC\) to identify risks associated with business applications and add controls to mitigate them.
 
 ServiceNow® Enterprise Architecture integration with Risk Management enables you to determine the inherent and comprehensive risk on a business application and identify tasks to mitigate the risk.
 
-ServiceNow® Enterprise Architecture integration with Policy and Compliance enables you to view the controls determined on a business application, verify whether those controls are compliant, and determine the tasks required to make the business application compliant with the controls.
+ServiceNow® Enterprise Architecture integration with Policy and Compliance enables you to view the controls determined on a business application and verify whether those controls are compliant. You can determine the tasks required to make the business application compliant with the controls.
 
 The key benefits of this integration are:
 

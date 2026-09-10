@@ -16,7 +16,7 @@ The Approval assistance AI agent is an AI agent that enables you to see your lis
 
 ## Approval assistance AI agent overview
 
-Roles required: approver\_user, sn\_request\_approver\_read
+Roles required: approver\_user, sn\_request\_approver\_read, snc\_internal
 
 **Note:** Add the necessary roles to enable reading of other tables whose records go through the approval process. For example, you can add the sn\_change\_read role to read Change Request records.
 
@@ -24,7 +24,7 @@ The benefit of using the Approval assistance AI agent is that you don't need to 
 
 Ask you administrator to configure the display fields and the knowledge base \(KB\) search fields to generate a Gen AI checklist to assist the Approval assistance AI agent in making targeted decisions. The checklist uses KB articles and policies to assist the Approval assistance AI agent in decision making. The checklist fetches information from knowledge base articles about specific requester approval tickets. An approval\_admin and admin role are required to configure the Approval assistance AI agent. For more information, see [Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-approval-assistance-ai-agent.md).
 
-**Note:** Provide cross-scope privileges to the ServiceNow Otto Agents for Requester plugin for tables whose records are restricted within the scope of an application. For more information, see [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/set-RCA-level.md).
+**Note:** Provide cross-scope privileges to the ServiceNow Otto Agents for Requester plugin for tables whose records are restricted within the scope of an application. For more information, see .
 
 ## Prerequisites and setup
 
@@ -48,7 +48,7 @@ To access the AI agent:
 
 ## Sample utterances
 
-After the agent has been activated in AI Agent Studio, enter phrases such as the following or similar queries to run the AI Agent in Virtual Agent, the ServiceNow Otto panel, or Microsoft Teams.
+After the agent has been activated in AI Agent Studio, enter phrases such as the following or similar queries to run the AI Agent in Virtual Agent and the ServiceNow Otto panel.
 
 -   Can you give me a list of pending approvals?
 -   What are the pending approvals for time off requests?

@@ -120,10 +120,10 @@ Every probe in Discovery must have a corresponding sensor to process the data re
 -   **[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_Probes.md)**  
 Several discovery probes and their associated sensors are included with Discovery. You rarely need to modify probes or sensors. But you might need to set parameters to control the behavior of a particular probe or align versions of customized probes.
 -   **[Align versions of customized probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_AlignVerCustProbeSens.md)**  
-If you customized a probe or sensor and upgraded to a new version of an instance, you need to realign the versions of the customized probe and sensor to the most current version.
+If you customized a probe or sensor and upgraded to a new instance version, realign the customized probe and sensor to the most current version.
 -   **[Discovery multiprobes and multisensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md)**  
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
--   **[Example: Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
+-   **[Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
 This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
 **Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/using-discovery.md)

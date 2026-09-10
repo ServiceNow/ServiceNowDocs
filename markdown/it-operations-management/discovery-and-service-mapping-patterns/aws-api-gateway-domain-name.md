@@ -1,13 +1,13 @@
 ---
 title: Amazon API Gateway Domain Name pattern-based discovery
-description: Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-api-gateway-domain-name.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS, Discovery, ITOM, Pattern]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # Amazon API Gateway Domain Name pattern-based discovery
 
-Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 
@@ -65,14 +65,17 @@ Discovery and Service Mapping Patterns application populates data in the CMDB wh
 |Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
 |Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
 
-## CI relationships
+## CI relationships and references
 
-The Amazon AWS - API Gateway Domain Name - Extended Inventory \(LP\) pattern creates these relationships to support Amazon API Gateway Domain Name discovery.
+The Amazon AWS - API Gateway Domain Name - Extended Inventory \(LP\) pattern creates these relationships and references to support Amazon API Gateway Domain Name discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
 |Cloud Resource \[cmdb\_ci\_cmp\_resource\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-|AWS API Gateway - Domain Name \[cmdb\_aws\_api\_gateway\_domain\_name\]|References|Cloud Resource \[cmdb\_ci\_cmp\_resource\]|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|AWS API Gateway - Domain Name \[cmdb\_aws\_api\_gateway\_domain\_name\]|Configuration Item \[configuration\_item\]|Cloud Resource \[cmdb\_ci\_cmp\_resource\]|
 
 ## AWS tag discovery
 

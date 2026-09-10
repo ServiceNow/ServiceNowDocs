@@ -16,17 +16,17 @@ Create AI assets to track and manage the life cycles of your datasets.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 **Note:** Users with the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role can only create AI assets and submit them for life-cycle review. They can't start or complete any life-cycle reviews.
 
 ## About this task
 
-A Model Context Protocol \(MCP\) server is an external service or integration endpoint that AI agents connect to retrieve context, execute tools, or access data.
+A dataset is a collection of data used for training, fine-tuning, or evaluating an AI model.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Al Control Tower** &gt; **Home** &gt; **Inventory****Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Entity filters, Entity types, Explore entities, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Entity filters, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Create an entity filter

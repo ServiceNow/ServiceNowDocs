@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,28 +24,89 @@ Role required: cloud\_admin
 
 1.  In the Cloud Admin Portal, navigate to **Manage** &gt; **Config Management**.
 
-2.  Click **Workload Config Provider Types**, and then click **New**.
+2.  Select **Workload Config Provider Types**, and then select **New**.
 
 3.  Fill in the form fields \(as shown in the table\).
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Enter a name for the workload provider type.|
-    |Product Type|A cloud product type from the list.|
-    |Config CI|Select the configuration table created for the provider that displays the discovered resources from the list.|
-    |Credential Resolver|Select a credential resolver from the list.|
-    |Server Type|Select the type of server for the provider like Opensourced, Enterprise, etc.|
-    |Version|Enter the version of the provider.|
-    |Credential Type|Select the table where the credentials are stored for this provider.|
+<table id="table_pbd_2hp_l2b"><thead><tr><th>
 
-    \[Omitted image "workload-config-provider-example.png"\] Alt text: Ansible tower
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name for the workload provider type.
+
+</td></tr><tr><td>
+
+Product Type
+
+</td><td>
+
+A cloud product type from the list.
+
+</td></tr><tr><td>
+
+Config CI
+
+</td><td>
+
+Configuration table created for the provider that displays the discovered resources from the list.
+
+</td></tr><tr><td>
+
+Credential Resolver
+
+</td><td>
+
+A Credential Resolver translates a unique identifier into the actual user credentials.
+
+</td></tr><tr><td>
+
+Server Type
+
+</td><td>
+
+Ansible server type used by the provider. The available options are:
+
+-   Ansible Community
+-   Ansible Tower \(Legacy\)
+-   AWX
+-   Ansible Automation Platform
+
+
+</td></tr><tr><td>
+
+Version
+
+</td><td>
+
+Enter the version of the provider.For any new config provider type, a **Version** field needs to be added to the corresponding Name **\[config\_ci\]** table.
+
+</td></tr><tr><td>
+
+Credential Type
+
+</td><td>
+
+Types of credentials stored for this provider.
+
+</td></tr></tbody>
+</table>    \[Omitted image "workload-config-provider-example.png"\] Alt text: Ansible tower
 
 4.  Add properties for the workload type in the **Workload Provider Properties** section.
 
     In addition to the existing properties, you can add more properties. Workload provider properties are displayed in the order catalog form \(in the Cloud User Portal\) as management attributes.
 
-    For example, for an Ansible provider type, **Inventory**, and **Hostgroup** are mandatory. The values for these properties come from Resource Pools.
+    For example, for an Ansible provider type, **Inventory**, and **Hostgroup** are required. The values for these properties come from Resource Pools.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 

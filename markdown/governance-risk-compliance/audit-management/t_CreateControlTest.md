@@ -1,20 +1,20 @@
 ---
 title: Create a control test from an engagement
-description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+description: After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/t\_CreateControlTest.html
 release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage engagements, Use, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control test from an engagement
 
-After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly.
+After defining a control, audit managers create control tests that run periodically and provide documented evidence of whether the associated control is operating correctly. After creating multiple control tests on an engagement, use the Control tests grid to view, manage, and request evidence for all tests in one place.
 
 ## Before you begin
 

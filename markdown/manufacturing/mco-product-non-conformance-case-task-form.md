@@ -1,18 +1,18 @@
 ---
 title: Product non-conformance case task form
-description: Product non-conformance case task form enables you to add the case task details.
+description: The Product non-conformance case task form enables you to add the case task details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-product-non-conformance-case-task-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Product non-conformance case task form
 
-Product non-conformance case task form enables you to add the case task details.
+The Product non-conformance case task form enables you to add the case task details.
 
 <table id="table_txb_2lm_whc"><thead><tr><th>
 
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-Product non-conformance case task number is automatically generated. The number starts with PNCCT and incremented for every new report.
+Product non-conformance case task number that is automatically generated. The number starts with "PNCCT" and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Parent
 
 </td><td>
 
-Select the parent. It is used to build the hierarchical categories \(parent&gt;child\).
+Parent that is used to build the hierarchical categories.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Account
 
 </td><td>
 
-Select the account.
+Account.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Consumer
 
 </td><td>
 
-Select the consumer name.
+Consumer name.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ State
 
 </td><td>
 
-Choose the state of the non-conformance case task.-   Pending
+State of the non-conformance case task.-   Pending
 -   Open
 -   Work in progress
 -   Closed complete
@@ -73,7 +73,7 @@ Priority
 
 </td><td>
 
-Choose the severity of the non-conformance case task from the options:-   Critical
+Severity of the non-conformance case task. Options are:-   Critical
 -   Major
 -   Moderate
 -   Minor
@@ -84,7 +84,7 @@ Assignment group
 
 </td><td>
 
-Select the organizational units or teams responsible for handling specific tasks, cases, or issues
+Organizational units or teams responsible for handling specific tasks, cases, or issues
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Assigned to
 
 </td><td>
 
-Select the user to whom the non-conformance case task has been assigned.
+User to whom the non-conformance case task has been assigned.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Visible to customer
 
 </td><td>
 
-Select this option to make the information visible to the customer.
+Option to make the information visible to the customer.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Subject
 
 </td><td>
 
-Enter the primary area of focus.
+Primary area of focus.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Description
 
 </td><td>
 
-Enter a short description.
+Short description.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

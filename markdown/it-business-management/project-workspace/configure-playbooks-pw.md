@@ -31,7 +31,7 @@ To configure playbooks, perform these tasks:
 2.  Create and configure playbooks as per your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/setting-up-process-automation-designer.md).
 3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer-triggers.md).
 
-Multiple playbooks can be enabled at a time, and the trigger should be defined in such a way that each project is mapped to only one type of playbook. To activate a playbook, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/activate-process-automation-designer.md).
+Multiple playbooks can be enabled at a time. The trigger should be defined in such a way that each project is mapped to only one type of playbook. To activate a playbook, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/activate-process-automation-designer.md).
 
 **Note:**
 

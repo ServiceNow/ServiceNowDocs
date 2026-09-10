@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/recall-claims.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
@@ -26,10 +26,10 @@ A recall is a measure taken by the manufactures when they identify a safety issu
 
 A recall is initiated when a particular defect impacts a significant number of products. The following diagram shows the entities and their relationships within the recall claims application.
 
-\[Omitted image "Data-model-recall-campaign.png"\] Alt text:
+\[Omitted image "Data-model-recall-campaign.png"\] Alt text: Decorative
 
 -   **[Recall campaign tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/recall-claims-table.md)**  
-This section explains the recall campaign tables in Manufacturing Commercial Operations.
+Recall campaign tables list the tables added or modified to support recall campaign management in Manufacturing Commercial Operations.
 
 **Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/data-model.md)
 

@@ -7,14 +7,18 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
 # Leader Hub
 
 Leader Hub empowers organizational leaders to understand the strengths of their teams, identify gaps in skills, and facilitate changes that are simultaneously conducive to their workforce and the achievement of desired business outcomes.
+
+**Important:**
+
+Starting with the Brazil release, Leader Hub is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported till Canada. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Get started
 
@@ -43,7 +47,13 @@ Leader Hub empowers organizational leaders to understand the strengths of their 
  
 
 </td></tr></tbody>
-</table>## Additional resources
+</table>## Troubleshoot and get help
+
+-   [Ask questions and explore other resources for Leader Hub in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
+-   [Contact Customer Service and Support](https://support.servicenow.com/now)
+
+## Additional resources
 
 -   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/hr-service-delivery-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).

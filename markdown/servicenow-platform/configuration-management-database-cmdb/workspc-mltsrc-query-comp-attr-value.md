@@ -1,6 +1,6 @@
 ---
 title: Create a Compare Attribute Values query
-description: Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspace or in Service Graph Workspace to help you find CIs with mismatched attribute values between discovery sources.
+description: Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.html
 release: zurich
@@ -8,17 +8,15 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [CMDB 360 experience in a workspace, CMDB 360/Multisource CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a Compare Attribute Values query
 
-Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspaceor in Service Graph Workspace to help you find CIs with mismatched attribute values between discovery sources.
+Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 
 ## Before you begin
-
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
@@ -30,10 +28,8 @@ The Compare Attribute Values query compares CIs from different discovery sources
 
 ## Procedure
 
-1.  Open either workspace:
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 2.  Select **Create Query**.
 
 3.  Select **I want to compare attribute values between discovery sources or against the CMDB**.

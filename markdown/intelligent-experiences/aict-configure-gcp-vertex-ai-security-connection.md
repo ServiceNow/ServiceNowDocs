@@ -1,6 +1,6 @@
 ---
-title: Add a GCP Vertex AI connection
-description: Connect Google Cloud \(GCP\) Vertex AI to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so AI agent containment using kill switch protocol can reach and deactivate agents running on GCP Vertex AI.
+title: Add a Gemini Enterprise Agent Platform connection
+description: Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.html
 release: zurich
@@ -11,9 +11,9 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
-# Add a GCP Vertex AI connection
+# Add a Gemini Enterprise Agent Platform connection
 
-Connect Google Cloud \(GCP\) Vertex AI to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so AI agent containment using kill switch protocol can reach and deactivate agents running on GCP Vertex AI.
+Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 
 ## Before you begin
 
@@ -31,14 +31,14 @@ Confirm the following:
 -   Download a JSON key for the service account. In the Google Cloud console, go to **IAM &amp; Admin** &gt; **Service accounts**, select the service account, then select **Add key** &gt; **Create new key** and choose **JSON** as the key type. You'll need the `private_key`, `private_key_id`, `client_email`, and `token_uri` values from this file in the steps below.
 -   For each ADK-based AI agent you want containment to cover, enable Agent Identity. Create an `.agent_engine_config.json` file with `{ "identity_type": "AGENT_IDENTITY" }` and follow [Create and deploy an agent with Agent CLI and Agent Identity](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) to deploy the agent with a unique identity.
 
-    **Important:** AI agent containment is supported only for GCP agents that have a unique agent identity configured this way.
+    **Important:** AI agent containment is supported only for Gemini Enterprise Agent Platform agents that have a unique agent identity configured this way.
 
 
 Role required: creating the OAuth, JWT, and certificate records in steps 1–8 below typically requires an instance admin or integration admin role. Creating the security connector in steps 9–11 requires sn\_ai\_governance.ai\_steward.
 
 ## About this task
 
-Google Cloud \(GCP\) Vertex AI authenticates using OAuth 2.0 with a JWT Bearer grant, which requires more setup than an access-key based connection: you convert the service account key into a Java Key Store, build a chain of OAuth and JWT records from it, and then attach the resulting Connection &amp; Credential Alias to the security connector.
+Gemini Enterprise Agent Platform authenticates using OAuth 2.0 with a JWT Bearer grant, which requires more setup than an access-key based connection: you convert the service account key into a Java Key Store, build a chain of OAuth and JWT records from it, and then attach the resulting Connection &amp; Credential Alias to the security connector.
 
 ## Procedure
 
@@ -139,9 +139,9 @@ Google Cloud \(GCP\) Vertex AI authenticates using OAuth 2.0 with a JWT Bearer g
     -   **Host**: `iam.googleapis.com`.
     -   **Connection URL**: `https://iam.googleapis.com`
     -   **Active**: select this option.
-9.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Security**.
+9.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
-10. On the **Available connectors** sub-tab, select **GCP Vertex AI**.
+10. On the **Available connectors** sub-tab, select **Gemini Enterprise Agent Platform**.
 
 11. Fill in the fields and select **Submit**.
 
@@ -154,13 +154,13 @@ Google Cloud \(GCP\) Vertex AI authenticates using OAuth 2.0 with a JWT Bearer g
 
 ## Result
 
-The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to apply AI agent containment using kill switch protocol to Vertex AI agents that have a unique agent identity configured.
+The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to Gemini Enterprise Agent Platform agents that have a unique agent identity configured.
 
 To verify the setup:
 
 -   Confirm the HTTP connection appears in the **Connections** related list on the Connection &amp; Credential Alias.
 -   Confirm the OAuth 2.0 Credentials record can retrieve a token using **Get OAuth Token**.
--   Confirm the connector appears under **Established connections** on the Security tab.
+-   Confirm the connector appears under **Established connections** on the Control Enforcement Points tab.
 
 To deploy the AI agent, see [Create and deploy an agent with Agent CLI and Agent Identity](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) in Google documentation.
 

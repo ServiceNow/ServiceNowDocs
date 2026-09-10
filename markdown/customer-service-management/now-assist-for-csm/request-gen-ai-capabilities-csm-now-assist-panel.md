@@ -27,7 +27,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 
-You can use the panel in CSM Configurable Workspace to request a chat, call, or case summary, generate case resolution notes and knowledge articles, and ask questions about a case. You can also use AI agents to complete casesand use conversational subflows and actions.
+You can use the panel in CRM Workspace to request a chat, call, or case summary, generate case resolution notes and knowledge articles, and ask questions about a case. You can also use AI agents to complete casesand use conversational subflows and actions.
 
 For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -43,15 +43,15 @@ For more information about the panel, see [ServiceNow Otto panel](https://raw.gi
 
     You can ask questions about cases, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d39670e169">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d39663e169">
 
 Option
 
-</th><th align="left" id="d39670e172">
+</th><th align="left" id="d39663e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39670e178">
+</th></tr></thead><tbody><tr><td id="d39663e178">
 
 **Summarize the chat for an interaction**
 
@@ -62,7 +62,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d39670e208">
+</td></tr><tr><td id="d39663e208">
 
 **Summarize the chat for a case that is created from an interaction**
 
@@ -73,7 +73,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d39670e238">
+</td></tr><tr><td id="d39663e238">
 
 **Summarize a case**
 
@@ -84,7 +84,7 @@ Description
 3.  In the panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d39670e268">
+</td></tr><tr><td id="d39663e268">
 
 **Generate case resolution notes**
 
@@ -95,7 +95,7 @@ Description
 3.  In the panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d39670e299">
+</td></tr><tr><td id="d39663e299">
 
 **Summarize a call**
 
@@ -106,7 +106,7 @@ Description
 3.  In the panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d39670e329">
+</td></tr><tr><td id="d39663e329">
 
 **Generate a knowledge article**
 
@@ -117,7 +117,7 @@ Description
 3.  In the panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d39670e359">
+</td></tr><tr><td id="d39663e359">
 
 **Ask questions about a case**
 
@@ -128,7 +128,7 @@ Description
 3.  In the panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d39670e386">
+</td></tr><tr><td id="d39663e386">
 
 **Use AI agents to complete cases**
 

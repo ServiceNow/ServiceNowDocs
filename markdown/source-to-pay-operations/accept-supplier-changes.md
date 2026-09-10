@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/accept-supplier-changes.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Address exception, Accept supplier changes, Resolve purchase order exception, Update purchase order]
 breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -27,13 +27,11 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an open exception that you want to work on.
 
-4.  Select **Address exception**.
-
-5.  From the drop-down list, select **Update impacted order**.
+4.  From the **Address exception** list, select **Update impacted order**.
 
     \[Omitted image "pom-update-impacted-order.png"\] Alt text: Update an impacted purchase order to address the exception
 
-6.  Select **Accept supplier proposal as is**.
+5.  Select **Accept supplier proposal as is**.
 
     \[Omitted image "pom-update-order-options.png"\] Alt text: Accept supplier suggested changes to the order
 
@@ -43,4 +41,13 @@ Role required: sn\_poem\_core.operational\_buyer
 The supplier proposed changes to the quantity or delivery date, or both are updated in the purchase order. This purchase order revision can then be routed for approval.
 
 **Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/confirm-resolution.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

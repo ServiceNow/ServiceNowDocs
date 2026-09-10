@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [demand dashboard widgets, reference, Demand Management]
-breadcrumb: [Explore, Demands Dashboard, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Demands Dashboard, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Data Quality tab

@@ -22,10 +22,8 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to the Certification tasks list in either of the following ways:
+1.  Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab.:
 
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**, then select **My Work** in the CMDB Workspace menu bar. In the Certification exceptions pop-up banner, select **Click here to view**.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Exceptions tab.
 2.  Select a drop-down to expand a task to show the records and fields that failed the certification review.
 
 3.  Select the Certification Document Id of the field that you want to update.

@@ -24,7 +24,7 @@ Specify recipients for an email. If you select scheduled email, also specify the
 
 **Note:** If you select **Download** and the export takes longer than 10 seconds, you receive the export as an email attachment instead of a download. Thus the export completes asynchronously, freeing up the ServiceNow Otto panel.
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

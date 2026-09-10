@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-06-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
@@ -32,7 +32,7 @@ When a specific AI system needs attention, determine which metrics are affecting
     -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 2.  Set the date range for the data you want to review.
 
-    Select the date range picker and choose a time period. The default is **Last 30 days**.
+    Select the date range picker and choose a time period. The default is **Last 30 days**. Select **Custom range** to specify an exact start and end date, up to 18 months apart.
 
     All score cards, trends, and session data on the page update to reflect the selected range.
 
@@ -44,17 +44,27 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     For example, if the Instruction adherence score is lower than Secrets detection or Sexism detection, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the traces where Instruction adherence dipped lowest will show which specific exchanges the judge flagged and why.
 
-5.  View the full scoring formula by selecting the side panel icon on a score card.
+5.  Confirm which metrics are scoring this AI system by reviewing the **Metrics evaluated** card.
+
+    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+
+6.  View the full scoring formula by selecting the side panel icon on a score card.
 
     1.  View a stacked bar visualization of how each metric contributes to the composite score in the **How is this score calculated?** section.
 
     2.  Learn how the average score is derived and how different scoring formats affect the calculation in the **Nuances to consider** section.
 
-6.  Check the evaluation configuration by reviewing the **Asset monitoring details** card.
+7.  Assess the AI system's operational performance by reviewing its performance cards, such as latency and token usage.
 
-    The card shows the sample rate and data retention period for this AI system. If the sample rate is less than 100%, scores are based on a subset of sessions.
+    1.  Determine whether recent agent activity or another change is affecting response times by reviewing the **Avg latency per session** card.
 
-7.  Check for regressions over time by reviewing the **Monitor agent activity** trend chart.
+    2.  Estimate the cost of running this AI system by reviewing the **Avg tokens per sessions** card.
+
+    3.  Understand how much the AI system relies on external tools by reviewing the **Avg tool call per trace** card.
+
+    Each card shows its change from the prior period. For the **Avg latency per session** card, select the expand icon to open a chart of total latency by day, summed across all sessions evaluated that day.
+
+8.  Check for regressions over time by reviewing the **Monitor agent activity** trend chart.
 
     1.  Choose which metrics to display by selecting **All metric categories**, **Quality metrics**, or **Safety metrics** from the list.
 
@@ -66,7 +76,7 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
-8.  Identify sessions that need investigation by reviewing the **Recent evaluated sessions** table.
+9.  Identify sessions that need investigation by reviewing the **Recent evaluated sessions** table.
 
     1.  Sort sessions by **Quality score** or **Safety score** to surface the lowest-scoring sessions.
 

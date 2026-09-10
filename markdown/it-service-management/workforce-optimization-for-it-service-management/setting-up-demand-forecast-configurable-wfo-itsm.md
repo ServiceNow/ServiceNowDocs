@@ -16,6 +16,8 @@ breadcrumb: [Demand Forecast, Scheduling, Workforce Optimization for ITSM, IT Se
 
 Configure the data you want to collect, modify forecast parameters and calibrate manual adjustments using Demand Forecast.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 The image shows the end-to-end flow of setting up Demand Forecast.\[Omitted image "demand-forecast-flowchart.png"\] Alt text: The infographic shows the end-to-end flow of setting up Demand Forecast
 
 -   **[Configure Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.md)**  

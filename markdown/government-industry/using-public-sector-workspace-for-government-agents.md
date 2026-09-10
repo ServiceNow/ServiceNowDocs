@@ -37,11 +37,11 @@ Public Sector Digital Services provides agents across government agencies with a
 
 -   **CSM Configurable Workspace**
 
-    Your government service agents have one stop for constituent interactions, the CSM Configurable Workspace for Public Sector Digital Services.
+    Your government service agents have one stop for constituent interactions, the CRM Workspace for Public Sector Digital Services.
 
     Multiple tabs enable agents to manage several cases at once. Agents and managers have ongoing visibility into the status of issues assigned to different agents across the agency. The workspace dynamically displays related contextual information based on the current state. Agents can also set compact mode and dark mode to optimize their experience and productivity.
 
-    Public Sector Digital Services playbooks are setup on and are accessed through the CSM Configurable Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
+    Public Sector Digital Services playbooks are setup on and are accessed through the CRM Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
 
     To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/exploring-configurable-workspace.md).
 

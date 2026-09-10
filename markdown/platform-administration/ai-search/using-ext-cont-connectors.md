@@ -21,7 +21,7 @@ To access the External Content Connectors application, navigate to **All** &gt; 
 
 On the application's main page, the Connectors list shows your external content connectors with their source, status, count of documents retrieved, last content crawl start date and time, and failed crawl count.
 
-**Note:** Beginning in External Content Connectors 6.0, crawls that time out due to connectivity issues during their run are automatically resumed when connectivity resumes.
+**Note:** Starting with External Content Connectors 6.0, crawls that time out due to connectivity issues during their run are automatically resumed when connectivity resumes.
 
 -   **[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-content-crawl-external-content-connector.md)**  
 Retrieve searchable content and metadata from your source system with a content crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.

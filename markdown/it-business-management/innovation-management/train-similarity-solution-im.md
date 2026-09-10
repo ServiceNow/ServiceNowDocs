@@ -1,6 +1,6 @@
 ---
 title: Train the similarity solution for Innovation Management to find similar ideas
-description: Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
+description: Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability. Use it to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/innovation-management/train-similarity-solution-im.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, 
 
 # Train the similarity solution for Innovation Management to find similar ideas
 
-Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
+Train the Similar Ideas solution definition included within the Predictive Intelligence for Ideation capability. Use it to find related ideas when submitting an idea or viewing ideas in the Idea Portal.
 
 ## Before you begin
 
@@ -47,9 +47,9 @@ When the solution is complete, the similar ideas appear in the Related Ideas sec
 
 ## What to do next
 
--   Review similarity examples: On the Similarity Definition form, in the ML Solutions related list, when **Progress** is 100%, in the **Active** column, click the link for the solution. On the ML Solution form, click the **Similarity Examples** related link to view the Similarity Examples list.
+-   Review similarity examples: On the Similarity Definition form, in the ML Solutions related list, when **Progress** is 100%, in the **Active** column, select the link for the solution. On the ML Solution form, click the **Similarity Examples** related link to view the Similarity Examples list.
 -   Update the similarity score threshold: On the ML Solution form, on the **Solution Statistics** tab, enter the required value in the **Similarity Score Threshold** field. Right-click the ML Solution form and click **Save**.
--   Test the prediction output for the records: On the ML Solution form, on the **Test solution** tab, enter your text in the **Short description** field and the maximum number of expected results in the **Top N** field, and then click **Run test**. The results above the similarity score threshold value are displayed.
+-   Test the prediction output for the records: On the ML Solution form, on the **Test solution** tab, enter your text in the **Short description** field and the maximum number of expected results in the **Top N** field, and then click **Run test**. The results greater than the similarity score threshold value are displayed.
 
 **Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/innovation-management/using-innovation-management.md)
 

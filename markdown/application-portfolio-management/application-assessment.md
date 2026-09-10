@@ -29,7 +29,7 @@ You can create indicators and score profiles based on which you can assess your 
 -   **[Job schedule to compute application scores - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/job-run-compute-application-scores.md)**  
 After you set up assessment indicators and scoring profiles, application scores are calculated by a scheduled job. Enterprise Architecture provides a predefined scheduled job that periodically recalculates application scores based on the assigned scoring profiles. An administrator can review or adjust the schedule from the Scheduled Jobs list if needed.
 -   **[Visualization of application performance - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/visualization-application-performance.md)**  
-Visualization of the performance of applications in different dimensions on a bubble chart, in a dashboard, and in an application 360 view helps you to take decisions on the applications.
+Visualize application performance across multiple dimensions using bubble charts, dashboards, and application 360 views to make informed decisions.
 
 **Parent Topic:**[Exploring Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/explore-apm.md)
 

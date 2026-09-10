@@ -21,7 +21,7 @@ To maximize Build Agent effectiveness, use the following practices:
 
 -   Design before coding: Think through and document the requirements for your application across the data and UI layers, for example using Workflow Studio or Figma.
 -   Start with a clear plan: Collaborate with Build Agent to define scope, required tables, and metadata types.
--   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system, and ask Build Agent to use the file as context for its work.
+-   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system. You can then ask Build Agent to use the file as context for its work.
 -   Use specific terminology: Treat Build Agent as your development partner. Provide specific, clear instructions using ServiceNow platform terminology such as table names, field names, roles, and artifact types.
 -   Test early and often: Add sample records, test on the instance, and run ATF tests throughout development.
 -   Use version control: Use Git for tracking changes and maintaining a clean workspace structure.

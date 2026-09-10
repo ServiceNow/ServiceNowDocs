@@ -27,7 +27,7 @@ You can maintain only one active version of the product offering. After a produc
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Navigate to **List** &gt; **Offerings** &gt; **Product Offerings**.
 

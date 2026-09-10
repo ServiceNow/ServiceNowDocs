@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: task
 last_updated: "2025-09-04"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Activate the common control objective creation skill in Now Assist

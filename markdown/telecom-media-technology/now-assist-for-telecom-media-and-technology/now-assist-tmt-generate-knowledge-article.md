@@ -1,6 +1,6 @@
 ---
 title: Generate a knowledge article for a service problem case using ServiceNow Otto for TMT
-description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+description: Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
 release: zurich
@@ -14,13 +14,13 @@ breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, M
 
 # Generate a knowledge article for a service problem case using ServiceNow Otto for TMT
 
-Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
+Generate the knowledge articles for resolved and closed cases within the CRM Workspace and classic environment with Now Assist.
 
 ## Before you begin
 
 To generate a knowledge article for a case, the case must be in the resolved and closed state. The case must not already have a knowledge article linked to it.
 
-Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see .
+Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
 
 Make sure that your administrator enables Now Assist experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
@@ -37,7 +37,7 @@ Role required: agent
 
 ## About this task
 
-In  CSM Configurable Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
+In  CRM Workspace and classic environment, you can generate the knowledge article information for a case by selecting **Create Knowledge** on the case record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with  Now Assist and review and edit the knowledge article text.
 
 ## Procedure
 
@@ -94,5 +94,5 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 **Related topics**  
 
 
-[bundle-platcap.now-assist-knowledge-management]
+[ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

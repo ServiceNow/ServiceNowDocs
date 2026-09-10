@@ -1,6 +1,6 @@
 ---
-title: Set up the CSM Configurable Workspace for Public Sector Digital Services
-description: Modify the CSM Configurable Workspace to show the lists, modules, and form fields for Public Sector Digital Services.
+title: Set up the CRM Workspace for Public Sector Digital Services
+description: Modify the CRM Workspace to show the lists, modules, and form fields for Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/setting-up-csm-fsm.html
 release: zurich
@@ -10,18 +10,18 @@ reading_time_minutes: 1
 breadcrumb: [Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Set up the CSM Configurable Workspace for Public Sector Digital Services
+# Set up the CRM Workspace for Public Sector Digital Services
 
-Modify the CSM Configurable Workspace to show the lists, modules, and form fields for Public Sector Digital Services.
+Modify the CRM Workspace to show the lists, modules, and form fields for Public Sector Digital Services.
 
-Playbooks depend on having a workspace set up for your fulfillers \(i.e., agents and managers\) to utilize. For Public Sector Digital Services, the modification of the CSM Configurable Workspace is required to make fields, forms, etc. relevant to PSDS.
+Playbooks depend on having a workspace set up for your fulfillers \(i.e., agents and managers\) to utilize. For Public Sector Digital Services, the modification of the CRM Workspace is required to make fields, forms, etc. relevant to PSDS.
 
 Public Sector Digital Services provides the following workspaces:
 
--   CSM Configurable Workspace
+-   CRM Workspace
 -   CSM Agent Workspace
 
-These workspaces can be modified as required through the UI Builder. Certain features in the CSM Configurable Workspace require configuration for use with Public Sector Digital Services:
+These workspaces can be modified as required through the UI Builder. Certain features in the CRM Workspace require configuration for use with Public Sector Digital Services:
 
 -   List Menu
 -   Public Sector landing page
@@ -32,13 +32,13 @@ Certain features, such as auto-reflow, which restructures Configurable Workspace
 **Note:** You can use guided setup to configure these configurable workspace features. For details, see [Configure Public Sector Digital Services Core using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-psds-foundation-data.md).
 
 -   **[Configure the List Menu for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-configure-list-menu.md)**  
-Add public sector-related menu options to the List Menu in the CSM Configurable Workspace.
+Add public sector-related menu options to the List Menu in the CRM Workspace.
 -   **[Configure the Public Sector landing page with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-configure-landing-page.md)**  
-Use the UI Builder to change certain fields in the Public Sector landing page of the CSM Configurable Workspace.
+Use the UI Builder to change certain fields in the Public Sector landing page of the CRM Workspace.
 -   **[Activate Customer Central for viewing profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/public-sector-enable-customer-central.md)**  
 Install Customer Central using Customer Service Guided Setup so that agents can have a complete view of constituent, business, or agency information in Public Sector Digital Services.
--   **[Relabel CSM Configurable Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-relabel-after-upgrading.md)**  
-After you upgrade your instance for the first time, you can relabel certain items in the CSM Configurable Workspace for public sector use.
+-   **[Relabel CRM Workspace items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-relabel-after-upgrading.md)**  
+After you upgrade your instance for the first time, you can relabel certain items in the CRM Workspace for public sector use.
 -   **[Relabel Business Location Services portal \(BLSP\) items after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/blsp-relabeling-instructions.md)**  
 Using Guided Setup, you can optionally modify the "Business Location Details" page in the Business Location Services Portal to be relabeled "Agency Location Details" using Public Sector Digital Services terms during configuration.
 

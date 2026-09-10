@@ -18,6 +18,8 @@ MCP connections enable Build Agent to access external tools and resources throug
 The following MCP connections are currently supported for Build Agent:
 
 -   Atlassian Rovo
+-   AWS DevOps
+-   Box
 -   Docusign
 -   Figma
 -   Linear
@@ -44,7 +46,7 @@ Build Agent can use any MCP connection that's available in an instance's registr
 
 An example prompt: `Let's create a new project to track my baby's sleep and create issues in Linear based on inputs from the tracker`.
 
-**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE, though you must be on Zurich Patch 10 or higher to use MPC servers with Build Agent in ServiceNow Studio.
+**Note:** MCP connections are available in both ServiceNow Studio and the ServiceNow IDE.
 
 ## Approve and activate MCP servers
 

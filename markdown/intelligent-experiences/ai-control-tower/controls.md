@@ -20,5 +20,5 @@ Explore the **Controls** section on the configurations page of the AI Control To
 Expand the **Controls** section to explore the two sub sections:
 
 -   [Explore Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/explore-approvals.md)
--   [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-model-providers.md)
+-   [AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-model-providers.md)
 

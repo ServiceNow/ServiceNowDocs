@@ -1,5 +1,5 @@
 ---
-title: Test SQL API ODBC driver connection using Interactive SQL
+title: Test Live Connect ODBC driver connection using Interactive SQL
 description: Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.html
@@ -9,10 +9,10 @@ classification: web-services
 topic_type: task
 last_updated: "2026-03-07"
 reading_time_minutes: 1
-breadcrumb: [Configure, Access your ServiceNow data using SQL API, Additional integration resources, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
-# Test SQL API ODBC driver connection using Interactive SQL
+# Test Live Connect ODBC driver connection using Interactive SQL
 
 Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
 
@@ -51,5 +51,5 @@ Role required: local administrator on client machine
     \[Omitted image "SampleSQLQuery.png"\] Alt text: Sample SQL Query.
 
 
-**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
+**Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

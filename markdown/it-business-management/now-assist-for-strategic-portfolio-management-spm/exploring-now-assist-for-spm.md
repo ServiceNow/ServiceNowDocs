@@ -1,6 +1,6 @@
 ---
 title: Exploring ServiceNow Otto for Strategic Portfolio Management
-description: Use ServiceNow Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine-embedding intelligence across every stage and to provide optimize resources and smarter investments resulting in delivering continuous value.
+description: Use ServiceNow Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine that embeds intelligence across every stage. This provides optimized resources and smarter investments, delivering continuous value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.html
 release: zurich
@@ -15,11 +15,11 @@ breadcrumb: [ServiceNow Otto for Strategic Portfolio Management, Strategic Portf
 
 # Exploring ServiceNow Otto for Strategic Portfolio Management
 
-Use ServiceNow® Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine-embedding intelligence across every stage and to provide optimize resources and smarter investments resulting in delivering continuous value.
+Use ServiceNow® Now Assist skills and AI agents in multiple SPM workspaces to transform Strategic Portfolio Management \(SPM\) into a continuous value engine that embeds intelligence across every stage. This provides optimized resources and smarter investments, delivering continuous value.
 
 ## Skills
 
-The ServiceNow Otto for SPM application includes the generative AI skills and features that enable your product, project, portfolio, and demand managers to leverage Now Assist skills so that they can streamline their processes and workflows.
+The ServiceNow Otto for SPM application includes the generative AI skills and features that enable your product, project, portfolio, and demand managers to use Now Assist skills. This lets them streamline their processes and workflows.
 
 -   **[Quick story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**
 
@@ -35,7 +35,7 @@ The ServiceNow Otto for SPM application includes the generative AI skills and fe
     -   Use a fast, non-conversational option in both Agile Development 2.0 and EAP. In EAP, you also have access to the conversational Agile story generation agent for creating multiple stories for an epic.
     \[Omitted image "eap-na-quick-story-agile.png"\] Alt text: Stories related list of an epic in Agile Development 2.0, showing the Generate Story button.
 
--   **Goal insights skill**
+-   **Go al insights skill**
 
     Generate insights for goals to gain predictive, actionable visibility into goal health using the Goal insights skill. The skill analyzes the goal, its targets, subgoals, and aligned work, then delivers concise, data‑driven insights—including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations—helping goal owners and contributors proactively manage risks and improve goal outcomes. You can trigger the skill by selecting the **Goal insights** or **Show insights** on the grid view or goals' full details page respectively.
 
@@ -55,7 +55,7 @@ The ServiceNow Otto for SPM application includes the generative AI skills and fe
 
     As a product manager, generate clear, comprehensive, and testable acceptance criteria for your user stories, instead of spending hours writing and refining them manually.
 
-    You can review and refine the suggested options to ensure they meet your story requirements without slowing down planning. By helping you streamline generating acceptance criteria as a process, this skill helps save time, improve quality, and speed up delivery with cleaner backlogs and better collaboration.
+    You can review and refine the suggested options to verify that they meet your story requirements without slowing down planning. By helping you streamline generating acceptance criteria as a process, this skill helps save time, improve quality, and speed up delivery with cleaner backlogs and better collaboration.
 
     \[Omitted image "eap-na-acc-criteria.png"\] Alt text: Generate acceptance criteria for an EAP Story using Now Assist.
 
@@ -69,13 +69,13 @@ The ServiceNow Otto for SPM application includes the generative AI skills and fe
 
     Detect similar demand records using the identify similar records Now Assist skill. The skill identifies similar demand records based on contextual similarity in the name, description, and business case content, with a minimum 85% similarity threshold. It also excludes the outdated and irrelevant records. You can trigger the skill by selecting the **Identify similar demands** button on the demand record page.
 
-    The similar demand records identified by Now Assist are displayed in the Similar Demands related list as well as in a message banner at the top of the record page.
+    The similar demand records identified by Now Assist are displayed in the Similar Demands related list and in a message banner at the top of the record page.
 
     \[Omitted image "similar-demand-new-color.png"\] Alt text: List of similar records identified by Now Assist.
 
 -   **Refine records**
 
-    Improve record quality by enabling AI assistance in the rich and long fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms. You can enable text refinement with the **Elaborate** and **Shorten** options on the records to support portfolio, project, product, demand managers and agile team members in creating and editing records content more effectively.
+    Improve record quality by enabling AI assistance in the rich and long fields of records. This includes fields on Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms. You can enable text refinement with the **Elaborate** and **Shorten** options on the records. This helps portfolio, project, product, demand managers and agile team members in creating and editing records content more effectively.
 
     \[Omitted image "write-planning-items-skill-sp.png"\] Alt text: Refine text using Refine records skill.
 
@@ -89,7 +89,7 @@ The ServiceNow Otto for SPM application includes the generative AI skills and fe
 
 -   **Project doc summarization, Planning Item doc summarization, or EAP doc summarization**
 
-    Provides your product managers with a concise and informative summary of the selected or complete text by using Now Assist in Docs. Your product managers can summarize, elaborate, or shorten the selected or complete content on Docs to quickly understand the key information by using the Project doc summarization \(Project Workspace\), Planning item doc summarization \(Strategic Planning\), or EAP doc summarization \(Enterprise Agile Planning\) skill.
+    Provides your product managers with a concise and informative summary of the selected or complete text by using Now Assist in Docs. Your product managers can summarize, elaborate, or shorten the selected or complete content on Docs to quickly understand the key information. They can do so by using the Project doc summarization \(Project Workspace\), Planning item doc summarization \(Strategic Planning\), or EAP doc summarization \(Enterprise Agile Planning\) skill.
 
     \[Omitted image "genai-docs-skill-nowassist.png"\] Alt text: Now Assist generated summary of text in Docs.
 

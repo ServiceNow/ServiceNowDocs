@@ -14,13 +14,13 @@ breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture 
 
 Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 |Agentic workflow name|Description|Available AI agents|
 |---------------------|-----------|-------------------|
 |Generate enterprise architecture diagram|Generates diagrams for business applications hierarchy in Enterprise Modeling and Visualization and summarizes them.|Enterprise architecture diagrams AI agent|
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 **Important:**
 

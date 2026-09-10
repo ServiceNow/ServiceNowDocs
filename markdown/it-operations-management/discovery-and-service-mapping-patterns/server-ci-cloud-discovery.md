@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-08-27"
 reading_time_minutes: 4
 keywords: [cloud discovery, Server CI, Windows Server, Linux Server, pattern extension]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -29,6 +29,8 @@ The following patterns support Server CI population during cloud discovery:
 -   Azure VM Instance – Uniform Scale Set
 
 **Note:** Use either Server CI population during cloud discovery or IP-based discovery for the same VMs, but not both. Running both may result in conflicting attribute values.
+
+For AWS Server CI creation, see [AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md) and [AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -175,7 +177,7 @@ Create Server CIs during cloud discovery without running IP-based discovery, red
 
 **Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
+**Previous topic:**[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
 
 **Next topic:**[Configure Server CI creation during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configure-server-ci-cloud-disc.md)
 

@@ -16,6 +16,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 
 Learn how you can use channels to route work to specific groups and with skill-based routing make sure that the right work goes to the right agent. Monitor the health of your queues reviewing real-time performance and jumping in to help with escalations.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Manage queues and monitor real-time team performance from a central location using Channel Management.
 
 \[Omitted image "channels-drilldown-wfo-itsm.gif"\] Alt text: Channel Management Drill Down Metrics

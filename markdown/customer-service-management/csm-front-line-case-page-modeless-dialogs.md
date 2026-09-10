@@ -1,18 +1,18 @@
 ---
 title: Modeless dialogs
-description: Modeless dialogs are windows that overlay the main window content in CSM Configurable Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
+description: Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 14
-breadcrumb: [Front-line case page, CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Front-line case page, CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Modeless dialogs
 
-Modeless dialogs are windows that overlay the main window content in CSM Configurable Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
+Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 
 A modeless dialog is a window that appears in a workspace as an overlay on top of the main window content. This overlay enables agents to interact with the window content and the overlay content at the same time. Agents can use modeless dialogs to do the following:
 
@@ -449,7 +449,7 @@ To remove the HTML tags, enable the **glide.ui.journal.use\_html** system proper
 1.  In the navigation filter, enter **sys\_properties.list** to display a list of the properties stored in the System Properties \[sys\_properties\] table.
 2.  Search for the **glide.ui.journal.use\_html** property in the **Name** column.
 3.  Set the **Value** field to true and select **Update**.
-4.  Return to CSM Configurable Workspace and refresh the page.
+4.  Return to CRM Workspace and refresh the page.
 
 Setting this property to true enables the Rich Text Editor for the **Additional comments** and **Work notes** fields on the case record and removes the HTML tags.
 

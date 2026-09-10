@@ -15,7 +15,7 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow 
 
 Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
 
-[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the [semantic layer]() enable you to answer questions that join data across tables in a single query instead of requiring separate questions or complex queries.
+[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/now-assist-platform-analytics-glossary.md) enable you to answer questions that join data across tables in a single query instead of requiring separate questions or complex queries.
 
 ## When to use database views
 

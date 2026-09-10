@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Indicators, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -70,7 +70,7 @@ Pattern
 
 </td><td>
 
-The detection pattern for this Indicator may be expressed as a STIX Pattern.
+The detection pattern for this Indicator may be expressed as a STIX Pattern.If the pattern is a STIX pattern, observables are extracted from it automatically when the indicator source record is created.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Pattern Version
 
 </td><td>
 
-The version of the pattern language that is used for the data in the pattern property which must match the type of pattern data included in the pattern property.
+The version of the pattern language used for the data in the pattern property that must match the type of pattern data included in the pattern property.
 
 </td></tr><tr><td>
 
@@ -317,12 +317,6 @@ Represents the processing status of this indicator.
     |-----|-----------|
     |The source records details for an indicator are displayed, if any.|
 
-7.  If you want to delete any record then, select **Delete** to delete the aggregated record.
-
-    When you select this action, then it will remove all the related records, except the original source data, and trigger re aggregation.
-
-    **Note:** A confirmation message will appear to verify that you want to delete the aggregated record. If you also want to delete the source records and prevent re aggregation, select the **Delete Source Records** check box. This action will remove all the associated source records.
-
 
 ## What to do next
 
@@ -454,7 +448,7 @@ Observables
 
 </td><td>
 
-Lists the related observable records that are related to this indicator.
+Lists the related observable records that are related to this indicator.This list includes observables extracted from the pattern of the indicator. For more information, see [Observable extraction from indicator patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-extract-observables-from-indicators.md).
 
 </td></tr><tr><td>
 

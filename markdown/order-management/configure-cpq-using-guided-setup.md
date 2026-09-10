@@ -22,20 +22,33 @@ Complete the prerequisites for the ServiceNow CPQ Integration. For more informat
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** and open the ServiceNow CPQ Integration application record.
+1.  Navigate to the guided setup using either of the following ways.
 
-2.  In the **Get started** section, select **Configure** to open the guided setup.
+    -   For either a new configuration or to reconfigure navigate to **All** &gt; **CPQ Integration** &gt; **Start guided setup**.
 
-3.  Complete the **Prerequisites** module.
+        **Important:** If you have already set up the Configurator using the guided setup and want to reconfigure, access the guided setup only through the navigation **All** &gt; **CPQ Integration** &gt; **Start guided setup**.
 
-    Confirm that the required plugins are active, that the DevOps request for the ServiceNow CPQ instance is complete, and that the tenant URL is available. Submit the prerequisites confirmation questionnaire to mark the module complete.
+    -   To configure for the first time, you can alternatively navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** &gt; **CPQ Integration** &gt; **Get started** &gt; **Configure**.
+2.  Select the **Prerequisites** module and ensure the tasks are completed.
 
-4.  Complete the ServiceNow CPQ Connection Setup module.
+3.  Complete the **Certificate setup** module.
 
-    Enter the tenant URL and sector value, generate an admin API \(application programming interface\) key in the tenant, and paste the key into the guided setup. The system updates the HTTPS connection record automatically.
+4.  Complete the ServiceNow CPQ **Connection Setup** module.
 
+    1.  Enter the ServiceNow CPQ tenant URL that was shared with you when your ServiceNow CPQ instance was provisioned.
+
+    2.  Generate Admin API key in CPQ Administrator, and add the key in the guided setup; the system updates the HTTPS connection record automatically.
+
+        Consider the following points while generating the Admin API key.
+
+        -   Enter the same value for both Name and User ID fields.
+        -   Select **Admin** for the **Permissions** field.
     **Warning:** The admin API key generated in the tenant displays only once. Copy the key immediately. The key can't be retrieved later.
 
-5.  Select **Close** to exit the guided setup.
+5.  In the **Setup Confirmation** section execute the steps.
+
+6.  Select **Confirm end-to-end flow works** check-box after you have verified that the Configurator works as expected.
+
+    **Important:** If the Configurator is not working as expected during workflow verification, don't select the **Confirm end-to-end flow works** check-box. Contact your administrator for assistance.
 
 

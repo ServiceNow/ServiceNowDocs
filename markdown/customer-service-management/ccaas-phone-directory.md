@@ -19,7 +19,7 @@ Agents can use the phone directory integrated into their ServiceNow instance to 
 
 \[Omitted image "ccaas-phone-directory.png"\] Alt text: Telephone directory available in the call controls screen
 
-**Note:** The contact center admin must enable and configure the phone directory for the agents to view and use it in their global call list from their ServiceNow instance. Once the back end integration is done, the phone directory displays in CSM Configurable Workspace.
+**Note:** The contact center admin must enable and configure the phone directory for the agents to view and use it in their global call list from their ServiceNow instance. Once the back end integration is done, the phone directory displays in CRM Workspace.
 
 The following CCaaS Store Apps offer voice channel integration:
 

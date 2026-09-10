@@ -31,7 +31,7 @@ ServiceNow AI settings apply across your instance and affect all Now Assist feat
 
     1.  To stop sharing instance data with ServiceNow for AI model improvement, select **Opt out** on the **Data Sharing** card.
 
-        Data sharing is active by default. When active, ServiceNow uses anonymized instance data to improve AI model accuracy. Opting out does not affect your instance's access to AI features. For more information, see the FAQs and opt-out documentation linked on the card.
+        Data sharing is active by default. When active, ServiceNow may use instance data that has been filtered for the purpose of removing personal data to improve AI model accuracy. Opting out does not affect your instance's access to AI features. For more information, see the FAQs and opt-out documentation linked on the card.
 
     2.  To prevent Now Assist traffic from bursting to Microsoft Azure datacenters during high-traffic periods, select **Opt in** on the **Data overflow processing** card to keep all traffic within ServiceNow datacenters.
 
@@ -69,6 +69,13 @@ ServiceNow AI settings apply across your instance and affect all Now Assist feat
 
     6.  Select **Save**.
 
+
+-   **[Data controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/data-controls.md)**  
+Data controls in AI Control Tower enable you to manage how ServiceNow Otto traffic and data are handled across ServiceNow and external datacenters.
+-   **[Builder controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/builder-controls.md)**  
+Builder controls in AI Control Tower enable you to govern AI assets and workflows by requiring human approval before an asset is deployed or a playbook is triggered.
+-   **[AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-model-providers.md)**  
+AI model providers enable you to select data routing and manage third-party LLMs \(Large language models\) and SLMs \(Small language models\).
 
 **Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-configuring.md)
 

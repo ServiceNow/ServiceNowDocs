@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-managem
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 

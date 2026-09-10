@@ -1,0 +1,68 @@
+---
+title: Visa Spoke release notes
+description: The ServiceNow Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Zurich release.The ServiceNow Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Zurich release.
+locale: en-US
+release: zurich
+topic_type: topic
+last_updated: "2025-09-14"
+reading_time_minutes: 1
+---
+
+# Visa Spoke release notes
+
+The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Zurich release.
+
+## About Visa Spoke
+
+Apply Visa Resolve Online \(VROL\) release 25.2 revision changes to some Visa Spoke actions.
+
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md) for more information.
+
+## Activation and other requirements
+
+**Important:** Visa Spoke is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/financial-services-operations-rn-landing.md)
+
+## Zurich
+
+The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Zurich release.
+
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
+
+    Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
+
+    -   Submit Dispute Questionnaire
+    -   Hypersearch Request Builder
+    -   Hypersearch Response Parser
+    -   Create Dispute Pre-Arbitration Request Builder
+    -   Create Dispute Pre-Arbitration Response Parser
+    -   Look up Dispute Response Details Request Builder
+    -   Look up Dispute Response Details Response Parser
+    -   Look up Dispute Pre-Arbitration Response Details Request Builder
+    -   Look up Dispute Pre-Arbitration Response Details Response Parser
+    -   Look up Dispute Pre-Arbitration Details Request Builder
+    -   Look up Dispute Pre-Arbitration Details Response Parser
+    -   Look up Dispute Details Request Builder
+    -   Look up Dispute Details Response Parser
+

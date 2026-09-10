@@ -163,7 +163,7 @@ doc_type: toc
   - [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
-    - [service level agreement (SLA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service Level Agreement (SLA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [service level agreement (SLA) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [shared parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.

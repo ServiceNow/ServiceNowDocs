@@ -24,7 +24,7 @@ Key features of the ITOM AIOps use case include:
 -   Utilizing the Service Operations workspace for operational management.
 -   Automating remediation actions based on alerts.
 
-Application service maps are instrumental for Network Operations Center \(NOC\) operators located at central hubs as they facilitate precise prediction of root cause alerts and correlation of these alerts with discovered topology data. This correlation enables accurate prediction of service impact, allowing for effective impact analysis to determine the effect on application services, visualized within the application service map.
+Application service maps are instrumental for Network Operations Center \(NOC\) operators located at central hubs. They facilitate precise prediction of root cause alerts and correlation of these alerts with discovered topology data. This correlation enables accurate prediction of service impact and effective impact analysis on application services, visualized within the application service map.
 
 ## Products that add value to ITOM AIOps
 
@@ -36,7 +36,7 @@ In the context of ITOM AIOps, which focuses on maintaining the health and perfor
 
 -   **Service Mapping**
 
-    Service Mapping offers detailed information about application instance services within the \[cmdb\_ci\_service\_discovered\] table. This data helps establish connections between infrastructure and application configuration items \(CIs\) stored in the \[cmdb\_ci\_appl\] table, enhancing visibility into IT environments and facilitating efficient management and monitoring processes.
+    Service Mapping offers detailed information about application instance services within the \[cmdb\_ci\_service\_discovered\] table. This data helps establish connections between infrastructure and application configuration items \(CIs\) stored in the \[cmdb\_ci\_appl\] table. It enhances visibility into IT environments and facilitates efficient management and monitoring processes.
 
 -   **Service Portfolio Management**
 

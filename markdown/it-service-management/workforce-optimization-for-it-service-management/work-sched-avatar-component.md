@@ -18,6 +18,8 @@ Use the **Container** component to add an avatar and the user name of the work i
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: workspace\_admin or ui\_builder\_admin​
 
 ## Procedure
@@ -48,15 +50,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d354866e220">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d359072e236">
 
 To
 
-</th><th align="left" id="d354866e223">
+</th><th align="left" id="d359072e239">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d354866e229">
+</th></tr></thead><tbody><tr><td id="d359072e245">
 
 **Add the Avatar component**
 
@@ -69,7 +71,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d354866e292">
+</td></tr><tr><td id="d359072e308">
 
 **Add the Label Value Tabbed component**
 

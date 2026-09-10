@@ -22,7 +22,7 @@ Role required: admin
 
 Using GRC application, you can analyze the risks associated with assets such as hardware, software, and business application. You can also identify and test controls associated with those risks as well as look at the audits that were conducted on those assets. This analysis helps the application owners to understand the risk of the business application effectively.
 
-The application owner can identify significant risks and compliance issues that the business applications are exposed to, without having to engage an external auditing system and run the applications through the auditing process.
+The application owner can identify significant risks and compliance issues that the business applications are exposed to. This eliminates the need to engage an external auditing system and run the applications through the auditing process.
 
 Activate the following plugins to integrate Enterprise Architecture with GRC.
 
@@ -147,23 +147,27 @@ Role required: sn\_apm.apm\_user, sn\_apm.business\_stakeholder\_apm\_user
 
 2.  Click **GRC Risks** related item.
 
-3.  View the name of the risk statement, its description, the category of risk \(legal, financial, operational, and so on\), inherent impact that indicates the levels of risk, and inherent likelihood that indicates the likelihood of the risk occurring.
+3.  Review the risk information.
 
-    See: [Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/r_RiskRegister.md)
+    The risk statement name, description, and category \(legal, financial, operational, and so on\) are displayed. The inherent impact level and inherent likelihood of the risk occurring are also shown. See: [Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/r_RiskRegister.md)
 
 4.  Click **Engagements** related item.
 
-5.  View the name of the engagement, the user to whom it is assigned, the state in which the engagement is, planned start date on which the activity should begin, its end date, the percentage of engagement completed, and the actual cost of the engagement.
+5.  Review the engagement information.
 
-    See: [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_Engagements.md)
+    The engagement name, assigned user, state, planned start date, end date, completion percentage, and actual cost are displayed. See: [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_Engagements.md)
 
 6.  Click **Controls** related item.
 
-7.  View the name of the control, its owner, status of the control whether it is compliant or not, the classification of the control whether it is preventive, corrective, or detective, and the attestation frequency at which the scheduled job runs.
+7.  Review the control information.
+
+    The control name, owner, compliance status, classification \(preventive, corrective, or detective\), and attestation frequency are displayed.
 
     See: [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/c_GRCControls.md)
 
-8.  Click display/hide hierarchical lists arrow beside a risk record in the GRC Risks related list to view all the controls that you have associated to the risk of the business application.
+8.  Click the display/hide hierarchical lists arrow beside a risk record in the GRC Risks related list.
+
+    All controls associated to the risk of the business application are displayed.
 
     When you associate a control to a risk, the control with its associated risk is created in Risk to Control \[sn\_risk\_m2m\_risk\_control\] table.
 

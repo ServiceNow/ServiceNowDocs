@@ -8,7 +8,7 @@ product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2025-12-09"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 

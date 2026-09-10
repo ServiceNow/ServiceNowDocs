@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-corrective-actions.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective actions
@@ -22,7 +22,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
 
-2.  Select the corresponding campaign record in which you want to import the impacted asset.
+2.  Select the corresponding campaign record in which you want to create a corrective action.
 
 3.  Select **Corrective Actions**.
 
@@ -36,8 +36,8 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     **Ready to use** option is displayed.
 
-    **Note:** Atleast one "In use" corrective action is required to initiate the recall campaign to In-progress.
+    **Note:** At least one "In use" corrective action is required to initiate the recall campaign to In-progress.
 
-    Corrective action must contain atleast one action charge line to move it to In use.
+    Corrective action must contain at least one action charge line to move it to In use.
 
 

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access Event Management configuration console, Configure Event Management using ServiceNow Otto for Setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -36,6 +36,6 @@ Role required: evt\_mgmt\_admin
 
     \[Omitted image "aiops-admin-conf-itom-page.png"\] Alt text: The Configure IT Operations Management page where you can see the Discovery and the Event Management modules.
 
-    **Note:** The **Configure with Otto** UI action appears only after you install both the ServiceNow Otto for ITOM and Now Assist plugins. This action lets you set up Now Assist powered alert handling, so you get AI assistance without configuring it manually.
+    **Note:** The **Configure with Otto** UI action appears only after you install both the ServiceNow Otto for ITOM and ServiceNow Otto plugins. This action lets you set up AI-powered alert handling.
 
 

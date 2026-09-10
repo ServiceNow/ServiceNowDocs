@@ -52,7 +52,7 @@ Sourcing and Procurement Operations \(SPO\) supports the following integrations:
 
     With this application, provide a set of staging tables, transform maps, and workflows to integrate sourcing, third-party catalogs, ordering, shipments, and invoicing with Sourcing and Procurement Operations.
 
-    For more information on this, see [SpendInt APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md).
+    For more information on this, see [SpendInt APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/spendint-api.md).
 
 -   **Procurement File Transfer Framework**
 
@@ -99,8 +99,8 @@ The Procurement for Field Service Management plugin \(sn\_fsm\_psm\_mobile\) pro
 The Source-to-Pay Operations with Contract Management Pro plugin \(sn\_spend\_clm\) provides an integration between the Contract Management Pro and Sourcing and Procurement Operations applications.
 -   **[ERP source validation on Sourcing and Procurement Operations objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/erp-source-val-spo-objects.md)**  
 Sourcing and Procurement Operations supports multi-ERP integration that enables you to use different ERP systems for different regions or lines of business, as required.
--   **[SpendInt APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.md)**  
-SpendInt APIs are inbound REST APIs that enable external procurement systems to send catalog, pricing, order, shipment, and invoice data into ServiceNow Sourcing and Procurement Operations, synchronizing structured procurement data from third-party systems.
+-   **[SpendInt APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api-spo.md)**  
+SpendInt APIs allow external procurement systems to send catalog, pricing, order, shipment, and invoice data to ServiceNow, synchronizing procurement data from third-party systems.
 -   **[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)**  
 Procurement File Transfer Framework \(PFTF\) helps you transfer information between the ServiceNow database and a third-party reseller through a File Transfer Protocol \(FTP\). You can set up an FTP server for access and transfer of reseller data without any spoke development by the third-party reseller.
 

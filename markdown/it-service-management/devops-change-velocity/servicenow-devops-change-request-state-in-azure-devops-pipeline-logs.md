@@ -16,7 +16,7 @@ breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Managem
 
 View the change request state and the corresponding policy conditions in the Azure DevOps pipeline console logs whenever the state of a change request is updated.
 
-You can navigate to the console logs in your Azure DevOps pipeline to view the state of a change request when a change request is created or when the state of the change request is updated. The policy conditions associated with the change request state will also be evaluated and displayed in the logs. For example, if the DevOps Change Request Advanced Automation Policy is activated, the policy conditions will be evaluated and the corresponding decision made \(auto-approve/auto-reject/manual-approval\) will be displayed in the logs.
+You can navigate to the console logs in your Azure DevOps pipeline to view the state of a change request when it is created or when its state is updated. The policy conditions associated with the change request state will also be evaluated and displayed in the logs. For example, if the DevOps Change Request Advanced Automation Policy is activated, the policy conditions will be evaluated and the corresponding decision made \(auto-approve/auto-reject/manual-approval\) will be displayed in the logs.
 
 The following change request details are displayed:
 

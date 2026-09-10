@@ -20,7 +20,7 @@ Role required: sn\_order\_case.creator, sn\_order\_case.agent, sn\_customerservi
 
 ## Procedure
 
-1.  Open an order case record in CSM Configurable Workspace.
+1.  Open an order case record in CRM Workspace.
 
 2.  Select **New** in the Order Case Line list.
 

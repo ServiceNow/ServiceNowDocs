@@ -32,7 +32,7 @@ Role required: Agent to whom the idea is assigned or is a part of the assigned w
 
 If the idea is rejected or cannot be implemented, transfer the idea to another department as an HRC, incident, or a custom task.
 
-When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC when the idea is deemed not feasible.
+When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC. This happens when the idea is deemed not feasible.
 
 ## Procedure
 

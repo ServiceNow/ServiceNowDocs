@@ -19,7 +19,7 @@ Plan and configure your implementation for Supplier Lifecycle Operations.
 -   **[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)**  
 Install the Supplier Case Management application \(com.snc.sn\_supplier\_mgmt\) and its dependencies from ServiceNow Store to enable supplier case logging and tracking.
 -   **[Install Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.md)**  
-You can install the Supplier Collaboration Portal application \(com.snc.sn\_supplier\_sp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Supplier Collaboration Portal application from ServiceNow Store to enable supplier self-service access to related ServiceNow® Store applications and plugins.
 -   **[Install Supplier Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supplier-ops.md)**  
 You can install the Supplier Operations application \(com.snc.sn\_so\) to access advanced case management capabilities to handle key supplier lifecycle events.
 -   **[Install Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-supp-payment-opt.md)**  
@@ -31,7 +31,7 @@ Create and configure the document template that enables you to collect e-signatu
 -   **[Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/supplier-awa.md)**  
 Use the Advanced Work Assignment for Supplier Lifecycle Operations feature to automatically assign work items to agents based on availability and capacity.
 -   **[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)**  
-Many-to-many \(M2M\) mapping betweencontactser contact and. This suppliers enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
+Enable many-to-many \(M2M\) mapping between supplier contacts and suppliers. This enables one supplier contact to be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
 -   **[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)**  
 Define key performance indicators \(KPIs\) and segmentation criteria to measure supplier performance effectively.
 -   **[Install Universal Request for SLO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/supplier-lifecycle-operations/install-universal-request.md)**  

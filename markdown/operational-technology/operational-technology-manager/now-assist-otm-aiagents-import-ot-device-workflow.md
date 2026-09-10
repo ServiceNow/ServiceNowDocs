@@ -38,7 +38,7 @@ The workflow helps you complete the following process:
 
 To access the agentic workflow:
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 2.  Under the **Agentic workflows** tab, select the **Import OT device spreadsheet into OT CMDB** agentic workflow.
 
 ## AI agents used in the Import OT device spreadsheet into OT CMDB agentic workflow

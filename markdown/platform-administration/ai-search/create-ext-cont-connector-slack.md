@@ -19,7 +19,7 @@ Create an external content connector to retrieve searchable content from public 
 
 ## Before you begin
 
-A source system administrator must have already configured your Slack source system to allow access by the Slack external content connector. For details on configuring these settings in the source system, see [Configure Slack for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-settings-slack-ext-cont-connector.md).
+A source system administrator must have already configured your Slack source system to allow access by the Slack external content connector. For the required source system configuration steps, see [Configure Slack for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/cfg-src-sys-settings-slack-ext-cont-connector.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -83,7 +83,7 @@ I am aware that this connector crawls documents from public channels only and th
 
 </td><td>
 
-Option confirming your understanding that the Slack external content connector does not preserve user access permissions and only retrieves content from attachments in public channels.
+Option confirming your understanding that the Slack external content connector doesn't preserve user access permissions and only retrieves content from attachments in public channels.
 
 </td></tr></tbody>
 </table>6.  Save and validate your connection settings by selecting **Validate Connection**.

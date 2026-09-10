@@ -1,6 +1,6 @@
 ---
 title: AWS Backup Plan pattern-based discovery
-description: Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-backup-plan.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patter
 
 # AWS Backup Plan pattern-based discovery
 
-Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Pattern-based discovery and mapping requirements
 
@@ -61,7 +61,7 @@ Discovery and Service Mapping Patterns application populates data in the CMDB wh
 |Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
 |Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
 
-## CI relationships
+## CI relationships and references
 
 The Amazon AWS - Backup Backup Plan - Extended Inventory \(LP\) pattern creates the following relationships and references to support AWS Backup Plan discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

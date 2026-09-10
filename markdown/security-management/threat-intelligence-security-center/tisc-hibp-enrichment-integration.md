@@ -7,7 +7,7 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-02-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
 breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]

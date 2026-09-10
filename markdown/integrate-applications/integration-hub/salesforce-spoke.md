@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce spoke v2.5.1 is the latest version.
+Salesforce spoke v2.6.1 is the latest version.
 
 ## Supported version
 
@@ -200,7 +200,7 @@ Create Lead
 
 Creates a lead in Salesforce.
 
-</td></tr><tr><td rowspan="27">
+</td></tr><tr><td rowspan="28">
 
 Metadata Retrieval
 
@@ -419,6 +419,14 @@ Metadata - Get User Time Zones
 </td><td>
 
 Retrieves list of time zones in the Salesforce User object. The value field of the time zone from the Salesforce response body is mapped to the name field in JSON output.
+
+</td></tr><tr><td>
+
+Metadata - Get Object Schema
+
+</td><td>
+
+Retrieves the schema metadata for a specified Salesforce object, including object details and field definitions.
 
 </td></tr><tr><td>
 

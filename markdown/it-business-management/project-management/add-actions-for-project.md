@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-After analyzing the risks and issues and taking a decision on how to manage those risks and issues, add an action for resolving the risk or issue to a project.
+After analyzing the risks and issues and deciding how to manage them, add an action for resolving the risk or issue to a project.
 
 ## Procedure
 

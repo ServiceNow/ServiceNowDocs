@@ -18,7 +18,7 @@ Skill inputs and triggers for ServiceNow Otto for Operational Technology \(OT\) 
 
 ## ServiceNow Otto for OT Service Management skill input overview
 
-Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data used for a skill, such as the table and fields used to generate an incident summary. A trigger initiates an action, such as when the system generates Operational Technology \(OT\) resolution notes.
+Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data used for a skill, such as the table and fields used to generate an incident summary. A trigger initiates an action, such as when the system generates OT resolution notes.
 
 ## OT incident summarization skill
 

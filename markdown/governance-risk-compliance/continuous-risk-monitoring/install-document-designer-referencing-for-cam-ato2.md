@@ -1,27 +1,24 @@
 ---
 title: Install the ServiceNow Document Designer add-in
-description: Install ServiceNow Document Designer add-in to your Microsoft Word document. This add-in is required to create audit and CAM report templates.
+description: Install the ServiceNow Document designer add-in to your Microsoft Word document to create audit and CAM report templates and generate report content using the AI Reporting Assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/continuous-risk-monitoring/install-document-designer-referencing-for-cam-ato2.html
 release: zurich
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Configuring ATO artifacts report templates, Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Install the ServiceNow Document Designer add-in
 
-Install ServiceNow Document Designer add-in to your Microsoft Word document. This add-in is required to create audit and CAM report templates.
+Install the ServiceNow Document designer add-in to your Microsoft Word document to create audit and CAM report templates and generate report content using the AI Reporting Assistant.
 
 ## Before you begin
 
-Ensure that the following plugins are activated:
-
--   sn\_grc\_doc\_design
--   sn\_outlook\_addin
+Activate the sn\_grc\_doc\_design plugin.
 
 Role required: sys\_admin
 
@@ -29,7 +26,7 @@ Role required: sys\_admin
 
 1.  Navigate to **All** &gt; **ServiceNow Add-Ins for Office** &gt; **Office Add-In Manifests**.
 
-2.  From the Office Manifests list, select **ServiceNow Document Designer**.
+2.  Select **ServiceNow Document Designer** from the **Office Manifests** list.
 
 3.  Select **Download Manifest**.
 
@@ -42,10 +39,17 @@ For detailed instructions on how to deploy the manifest file, see the [Deploy ad
 
 To configure the HTTP response headers for add-in for Microsoft Word in the browser, see the [Response header resolution \[KB1434453\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1434453) article in the Now Support Knowledge Base.
 
+If you encounter a security constraint error during sign-in after installing the add-in, see the [Known error: Scoped UI page \(sn\_outlook\_addin\_OutlookLogin\) inaccessible without login in Australia \[KB3134148\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3134148) article in the Now Support Knowledge Base. This affects Australia Patch 3 and later, and Zurich Patch 10 and later.
+
 -   **[Reference information for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/properties-for-document-designer.md)**  
 There are several properties that get installed with the Document designer plugin. These properties help to control the various aspects of how the plugin works.
 
 **Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 
 **Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/document-designer-template.md)
+
+**Related topics**  
+
+
+[ai-reporting-assistant]
 

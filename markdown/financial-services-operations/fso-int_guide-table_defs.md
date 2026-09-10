@@ -2213,7 +2213,7 @@ Maximum length: 40
 </td></tr></tbody>
 </table>## Inbound Document \[sn\_bom\_document\_inbound\_document\]
 
-<table id="d2400e40"><thead><tr><th>
+<table id="d2399e40"><thead><tr><th>
 
 Element
 
@@ -4775,7 +4775,7 @@ Number of terms associated with the mortgage.Data type: Number \(Integer\)
 </td></tr></tbody>
 </table>## Payment Inquiry Case \[sn\_bom\_payment\_inquiry\]
 
-<table id="d2280e40"><thead><tr><th>
+<table id="d2279e40"><thead><tr><th>
 
 Element
 
@@ -6619,7 +6619,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 </td></tr></tbody>
 </table>## Personal Loan \[sn\_bom\_personal\_loan\] table
 
-<table id="d2301e40"><thead><tr><th>
+<table id="d2300e40"><thead><tr><th>
 
 Parameter
 

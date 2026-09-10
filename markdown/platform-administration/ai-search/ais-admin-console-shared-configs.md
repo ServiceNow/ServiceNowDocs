@@ -1,5 +1,5 @@
 ---
-title: AI Search Admin Console Shared Configurations page
+title: AI Search Admin console Shared Configurations page
 description: This page is where you view and manage all configurations shared by AI Search and other applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/ai-search/ais-admin-console-shared-configs.html
@@ -13,7 +13,7 @@ keywords: [AI, Search, Admin, Console, Shared, Configurations]
 breadcrumb: [AI Search Admin console reference, AI Search Admin console, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
-# AI Search Admin Console Shared Configurations page
+# AI Search Admin console Shared Configurations page
 
 This page is where you view and manage all configurations shared by AI Search and other applications.
 

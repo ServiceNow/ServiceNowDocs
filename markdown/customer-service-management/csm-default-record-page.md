@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [CSM Configurable Workspace record pages, Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM default record page
@@ -41,7 +41,7 @@ For more information about this feature, see [User presence](https://raw.githubu
 
 ## Email templates feature
 
-The CSM default record page includes the Email Templates feature. CSM Configurable Workspace pages that use the CSM default record page include the Email Templates tab in the contextual side panel.
+The CSM default record page includes the Email Templates feature. CRM Workspace pages that use the CSM default record page include the Email Templates tab in the contextual side panel.
 
 These templates contain default values for fields that agents can easily add to email messages in the Compose panel on case records. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
 

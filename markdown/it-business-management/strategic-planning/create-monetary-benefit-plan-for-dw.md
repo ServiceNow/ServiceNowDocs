@@ -32,15 +32,15 @@ Role required: it\_demand\_manager
 
 4.  Edit a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d83611e100">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d84880e100">
 
 Option
 
-</th><th align="left" id="d83611e103">
+</th><th align="left" id="d84880e103">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d83611e109">
+</th></tr></thead><tbody><tr><td id="d84880e109">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -55,7 +55,7 @@ Procedure
 4.  Edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d83611e159">
+</td></tr><tr><td id="d84880e159">
 
 **Using the __Financials__ page**
 

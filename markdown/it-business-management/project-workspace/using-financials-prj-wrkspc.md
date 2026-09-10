@@ -152,7 +152,7 @@ Create a financial to capture a snapshot of the financial changes for your proje
 
 [Compare baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) to compare the difference in costs between latest status against a baseline or between any two baselines.
 
-**Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials details in real-time and is always represented with a flag icon \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
+**Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials details in real-time and is represented with a flag icon \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
 
 Financial baselines now capture the investment currency for customers using multicurrency.
 
@@ -248,7 +248,7 @@ Choose the cost type as the attribute to allocate and approve the budget for ind
 
 Project managers can view the approved budget at the required time scale by switching to the Budget vs planned display mode. As the work progresses and the actuals are captured, you can compare the budget and actual costs using Budget vs planned display mode . You can also reforecast the planned costs where the actuals exceed the budget using the inline edit feature at the required time scale.
 
-Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can use this information to request for additional budget from the Portfolio manager.
 
 You can [migrate the budget of existing active projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/fin-migrate-budget-project-ppm.md) from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
@@ -291,7 +291,7 @@ Instead of switching between the financials record page and benefit plan tabs, y
 
 Simple financials gives you the ability to enter the preliminary high-level planned capex, opex, benefit, and so on from the Details page. This is done without capturing the cost plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
 
-\[Omitted image "fin\_simple\_financials\_pws.png"\] Alt text: Simple financials view in the Details page of Project Workspace.
+\[Omitted video\] Description: Manage simple financials
 
 Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
 

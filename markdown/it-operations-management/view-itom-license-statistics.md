@@ -16,7 +16,7 @@ View how many subscriptions for IT Operations Management applications your organ
 
 ## Before you begin
 
-Ensure that your organization has purchased ITOM subscriptions. You can't view the information in the **ITOM License** module without subscriptions.
+Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
 
 Ensure that you installed the latest available version of the ITOM/OT SU Licensing from ServiceNow Store.
 

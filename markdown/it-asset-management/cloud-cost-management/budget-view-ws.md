@@ -57,7 +57,7 @@ Forecasted spend
 
 </td><td>
 
-Forecasted spend based on the total spend on your cloud resources. Indicates if your forecasted spend is within or has exceeded the budget.
+Forecasted spend based on the total spend on your cloud resources. Indicates if your forecasted spend is within the budget or has exceeded.
 
 </td></tr><tr><td>
 
@@ -78,4 +78,12 @@ Comparison between budget and current or forecasted spend of each budget policy.
 After you create or modify a budget policy, the policies get displayed on the **All Budgets** page. Find the details of the budget such as overrun, surplus, or invalid budgets. You can view only the overrun budgets by toggling the **Show overrun budget only** toggle button. Search a budget by its name, owner, or provider.
 
 \[Omitted image "all-budgets.png"\] Alt text: All budgets page in the Budgets view of Cloud Cost Management Workspace.
+
+|Metric|Description|
+|------|-----------|
+|Total budget duration|Total duration of the budget period.|
+|Budget amount|The amount allocated for cloud spend during the budget duration.|
+|Spend to date|The actual cloud spend accumulated from the start of the budget period to the current date.|
+|Budget used|The percentage of the budget amount consumed to the current date. This metric is displayed as both a percentage value and a progress bar.|
+|Forecasted spend|Forecasted spend based on the total spend on your cloud resources.|
 

@@ -58,15 +58,15 @@ You can use the ER case summarization skill in either Core UI or Agent Workspace
 
 6.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d372647e241">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d373184e241">
 
 Option
 
-</th><th align="left" id="d372647e244">
+</th><th align="left" id="d373184e244">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d372647e250">
+</th></tr></thead><tbody><tr><td id="d373184e250">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -77,7 +77,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d372647e277">
+</td></tr><tr><td id="d373184e277">
 
 **Expand or collapse the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d372647e298">
+</td></tr><tr><td id="d373184e298">
 
 **Provide feedback for the summary**
 
@@ -93,7 +93,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d372647e321">
+</td></tr><tr><td id="d373184e321">
 
 **Copy the case summary**
 
@@ -101,7 +101,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d372647e337">
+</td></tr><tr><td id="d373184e337">
 
 **View the information about the case summary**
 
@@ -109,7 +109,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d372647e352">
+</td></tr><tr><td id="d373184e352">
 
 **Refine list**
 

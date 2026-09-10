@@ -315,7 +315,7 @@ Validate Planned start date of a project can be shifted by using the Move projec
 
 </td><td>
 
-Validate that the Planned start date of a project in Planning or Open state can be updated to a later or earlier date than the current planned start date using the Move project related link.
+Validate that the Planned start date can be updated to a later or earlier date using the Move project related link.
 
 </td><td>
 

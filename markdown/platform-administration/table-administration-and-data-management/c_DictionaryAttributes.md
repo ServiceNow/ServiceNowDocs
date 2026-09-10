@@ -421,7 +421,7 @@ any table
 
 </td><td>
 
-Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see [Tables excluded from rollback after running an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-excluded-from-rollback.md).
+Excludes this table \(and any of its descendant tables\) from being recorded for rollback. For example, use this attribute to preserve records that are created from an automated test. For tables excluded by default, see Tables excluded from rollback after running an automated test.
 
 </td></tr><tr><td>
 
@@ -2001,7 +2001,7 @@ any table
 
 </td><td>
 
-Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md).
+Indicates that changes in the table are tracked in update sets. Administrators cannot modify this attribute. To migrate data, use an Importing from another ServiceNow instance.
 
 </td></tr><tr><td>
 

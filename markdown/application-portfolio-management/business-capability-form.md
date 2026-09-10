@@ -38,7 +38,7 @@ Parent
 
 </td><td>
 
-The parent capability for the capability that you’re creating.Assigning a parent capability renders the business capability as a child capability. If no parent is assigned or if the parent is null, then the level of the capability is at 0 level or root, which means it’s a root node capability. If the parent field is made null, then a message prompts you to run a scheduled job to update the business capability levels.
+The parent capability for the capability that you’re creating.Assigning a parent capability renders the business capability as a child capability. If no parent is assigned or if the parent is null, the capability is at level 0 \(root\). This means it’s a root node capability. If the parent field is made null, then a message prompts you to run a scheduled job to update the business capability levels.
 
 </td></tr><tr><td>
 

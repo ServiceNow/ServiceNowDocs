@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-agents-pre-auth-requests.html
 release: zurich
 topic_type: concept
-last_updated: "2025-10-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Pre-authorization requests
@@ -16,6 +16,8 @@ Dealer Service advisors submit pre-authorization requests to verify warranty or 
 
 -   **[Create a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agents-create-pre-auth-request.md)**  
 Create a pre-authorization request to check if certain parts or charges are covered under warranty or service contracts.
+-   **[Review and approve a pre-authorization request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-pre-auth-review.md)**  
+Review and approve the pre-authorization request submitted by a dealer.
 
-**Parent Topic:**[Agent management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agent-management.md)
+**Parent Topic:**[Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-agent-management.md)
 

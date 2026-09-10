@@ -32,38 +32,33 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 2.  Extend the resource assignment using one of the following options.
 
-<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d290745e77">
+<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d297280e77">
 
 Option
 
-</th><th align="left" id="d290745e80">
+</th><th align="left" id="d297280e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d290745e86">
+</th></tr></thead><tbody><tr><td id="d297280e86">
 
 **From resource assignment pane**
 
 </td><td>
 
-1.  From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) of resource assignment record and then select **Extend**.
-
-\[Omitted image "extend-resource-assignment-pw.png"\] Alt text: Extend resource assignment.
-
+1.  From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) of resource assignment record and then select **Extend**.\[Omitted image "extend-resource-assignment-pw.png"\] Alt text: Extend resource assignment.
 2.  From the Extend Assignment window, modify the **New end date** and effort.
 3.  Select **Extend** to extend the resource assignment.
 
 
-</td></tr><tr><td id="d290745e130">
+</td></tr><tr><td id="d297280e127">
 
 **From resource assignment form**
 
 </td><td>
 
 1.  Navigate to **All** and enter `sn_plng_att_core_resource_assignment.LIST`.
-2.  Select the resource assignment record that you want to extend and then select **Extend**.
-
-\[Omitted image "extend-resource-assignment-form-view.png"\] Alt text: Extend resource assignment from resource assignment form.
+2.  Select the resource assignment record you want to extend and then select **Extend**. \[Omitted image "extend-resource-assignment-form-view.png"\] Alt text: Extend resource assignment from resource assignment form.
 
 **Note:** You can’t set the assignment's extended end date later than the task end date.
 
@@ -75,7 +70,7 @@ Procedure
 ## Result
 
 -   The assignment end date is updated and allocation is created based on resource's availability.
--   The extended FTE or hours or person days is divided equally for the extended resource period.
+-   The extended FTE or person days is divided equally for the extended resource period. For the **Hours** effort type, the extended effort is distributed in whole hours across the child resource assignments, and any remaining hours are distributed one hour at a time.
 
 **Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/resource-assignments-pw.md)
 

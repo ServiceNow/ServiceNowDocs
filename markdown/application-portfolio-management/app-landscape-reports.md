@@ -16,7 +16,7 @@ When you export the Application Portfolio Status data to Microsoft PowerPoint, t
 
 ## Application Portfolio by Install Type
 
-The Application Portfolio by Install Type report shows a graphical representation of the number of applications installed and the type of installation, such as Cloud, On-premises, and so on.
+The Application Portfolio by Install Type report shows the number of applications installed and their installation type, such as Cloud or On-premises.
 
 ## Application Portfolio by Platform
 

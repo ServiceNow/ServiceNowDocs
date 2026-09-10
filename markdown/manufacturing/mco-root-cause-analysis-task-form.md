@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-root-cause-analysis-task-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-01-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management form, Reference, Manufacturing Commercial Operations]
 ---
@@ -28,7 +28,7 @@ Number
 
 </td><td>
 
-Root cause analysis task number is automatically generated. The number starts with RCA and incremented for every new report.
+Root cause analysis task number that is automatically generated. The number starts with RCA and incremented for every new report.
 
 </td></tr><tr><td>
 
@@ -36,7 +36,7 @@ Table
 
 </td><td>
 
-Select the table name for which RCA must be performed.
+Table name for which RCA must be performed.
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Target id
 
 </td><td>
 
-Select the record for which RCA must be performed.
+Record for which RCA must be performed.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Parent
 
 </td><td>
 
-Select the parent. It is used to build the hierarchical categories \(parent&gt;child\).
+Parent that is used to build the hierarchical categories.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Short description
 
 </td><td>
 
-Enter a short note.
+Short note.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Description
 
 </td><td>
 
-Enter a detailed explanation of the issue.
+Detailed explanation of the issue.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ State
 
 </td><td>
 
-Choose the state of the RCA expense line:-   New
+State of the RCA expense line:-   New
 -   On hold
 -   In progress
 -   Closed complete
@@ -89,7 +89,7 @@ Priority
 
 </td><td>
 
-Choose the severity of the RCA task from the options:-   Critical
+Severity of the RCA task. Options are:-   Critical
 -   Major
 -   Moderate
 -   Minor
@@ -100,7 +100,7 @@ Assignment group
 
 </td><td>
 
-Select the organizational units or teams responsible for handling specific tasks, cases, or issues
+Organizational units or teams responsible for handling specific tasks, cases, or issues
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Assigned to
 
 </td><td>
 
-Select the user to whom the RCA has been assigned.
+User to whom the RCA has been assigned.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/mco-qim-form.md)

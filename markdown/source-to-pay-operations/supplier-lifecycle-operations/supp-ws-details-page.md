@@ -103,6 +103,7 @@ Displays links that enable you to view additional information pertaining to supp
 -   Email domains
 -   Contracts
 -   Supplier products
+-   Tax information \(from September 2026 release onwards\)
 
 </td></tr><tr><td>
 

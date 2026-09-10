@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/config-access-observation.html
 release: zurich
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Access observer]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Access observer]
 Create an access observation record to review access to a data column during a specified time window.
 
 ## Before you begin
+
+Download and install ServiceNow Otto for Vault from the [ServiceNow Store](https://store.servicenow.com/store/app/6632fc1fc333e6545ce25ddf050131df).
 
 Role required: security\_admin
 

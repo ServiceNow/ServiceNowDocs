@@ -114,7 +114,7 @@ HR criteria
 
 Select the audience criteria for this document. For example, you can create a letter intended for only Canadian employees. The HR criteria narrows the number of users for the template.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 

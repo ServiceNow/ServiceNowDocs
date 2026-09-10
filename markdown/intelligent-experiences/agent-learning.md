@@ -17,7 +17,7 @@ Enhance AI agent learning through episodic memory, enabling agents to improve by
 
 ## Episodic memory overview
 
-The [episodic memory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-glossary.md) represents historical experiences and their associated learnings in the form of feedback. It's the ability to reflect on and learn from them by applying memory of similar episodes to new experiences. This capability enables agents to extract meaningful patterns and insights from experiences and use them effectively in the future.
+The  represents historical experiences and their associated learnings in the form of feedback. It's the ability to reflect on and learn from them by applying memory of similar episodes to new experiences. This capability enables agents to extract meaningful patterns and insights from experiences and use them effectively in the future.
 
 ## Understanding episodic memory in AI agents
 

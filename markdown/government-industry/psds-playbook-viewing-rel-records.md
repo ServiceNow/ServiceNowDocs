@@ -1,6 +1,6 @@
 ---
 title: Viewing the dynamic related records in Service Request Playbook
-description: You can view the dynamic related records in the playbook contextual side panel in CSM Configurable Workspace. These records dynamically change based on the current record or playbook activity.
+description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-playbook-viewing-rel-records.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Using the contextual side panel, Service Request Playbook, Playbook
 
 # Viewing the dynamic related records in Service Request Playbook
 
-You can view the dynamic related records in the playbook contextual side panel in CSM Configurable Workspace. These records dynamically change based on the current record or playbook activity.
+You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 
 ## Using related records in Service Request Playbook
 

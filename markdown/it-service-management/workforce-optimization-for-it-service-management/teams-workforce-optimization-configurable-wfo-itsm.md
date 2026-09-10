@@ -16,6 +16,8 @@ breadcrumb: [Teams, Workforce Optimization for ITSM, IT Service Management]
 
 Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another. With Teams, you can identify skill gaps so that you can recommend which skills are needed to coach your agents.
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Organize your teams into assignment groups. You can add a set of key performance indicators \(KPIs\) to help you measure team performance consistently across the groups.
 
 For example, let's say that you manage the IT Service Desk unit. The unit contains multiple teams, such as Hardware and Network Support. You can create a KPI group for the IT Service Desk unit and then add Hardware and Network Support as assignment groups to this KPI group. Next, you add a set of KPIs to the KPI group. With this data, you can measure the performance trends across the Hardware and Network Support teams.

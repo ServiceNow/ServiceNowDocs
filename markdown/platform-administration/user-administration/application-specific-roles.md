@@ -8,7 +8,7 @@ product: User Administration
 classification: user-administration
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Base system roles, Managing roles, User admin, Configure core features, Administer]
 ---
 
@@ -38,7 +38,7 @@ Customer Access Management
 
 </td><td>
 
-[Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Customer Service Management
 
 </td><td>
 
-[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
+
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Major Issue Management
 
 </td><td>
 
-[Components installed with Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/installed-with-major-issue-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ OpenFrame
 
 </td><td>
 
-[Components installed with OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithOpenFrame.md)
+
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Special Handling Notes
 
 </td><td>
 
-[Components installed with Special Handling Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithSpecHandNotes.md)
+
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Targeted Communications
 
 </td><td>
 
-[Components installed with Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_TargetCommInstalledComponents.md)
+
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Case and Knowledge Management
 
 </td><td>
 
-[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-case-and-knowledge-management.md)
+
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ HR Service Delivery
 
 </td><td>
 
-[Setting up your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/asc-configure.md)
+
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ HR Service Delivery
 
 </td><td>
 
-[Reference for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/reference-doc-templates.md)
+
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Journey Designer
 
 </td><td>
 
-[Components installed with Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-journey-accelerator.md)
+
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Manager Hub
 
 </td><td>
 
-[Components installed with Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/installed-with-managerhub.md)
+
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Workplace Case Management
 
 </td><td>
 
-[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -218,7 +218,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-calendar-syncn.md)
+
 
 </td></tr><tr><td>
 
@@ -230,7 +230,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -242,7 +242,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-safety-mgmt-hr.md)
+
 
 </td></tr><tr><td>
 
@@ -254,7 +254,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-move-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -266,7 +266,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-wsd-reservations-outlookaddin.md)
+
 
 </td></tr><tr><td>
 
@@ -278,7 +278,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-wsd-reservation-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -290,7 +290,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-wsd-space-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -302,7 +302,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/wsm-mappedin-components.md)
+
 
 </td></tr><tr><td>
 
@@ -314,7 +314,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/components-installed-with-workplace-visitor-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -350,7 +350,7 @@ Audit Management
 
 </td><td>
 
-[Components installed with Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/r_InstallWAudit.md)
+
 
 </td></tr><tr><td>
 
@@ -386,7 +386,7 @@ Privacy Management
 
 </td><td>
 
-[Roles installed with Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/roles-installed-prm.md)
+
 
 </td></tr><tr><td>
 
@@ -398,7 +398,7 @@ Risk Management
 
 </td><td>
 
-[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/r_InstallWRisk.md)
+
 
 </td></tr><tr><td>
 
@@ -410,7 +410,7 @@ Healthcare and Life Sciences Service Management Core
 
 </td><td>
 
-[Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/hcls-components-installed-serv-mgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -422,7 +422,7 @@ Patient Support Services
 
 </td><td>
 
-[Components installed with Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/pss-components-installed.md)
+
 
 </td></tr><tr><td>
 
@@ -434,7 +434,7 @@ Pre-Visit Management
 
 </td><td>
 
-[Components installed with Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/healthcare-life-sciences/pre-visit-components-installed.md)
+
 
 </td></tr><tr><td>
 
@@ -446,7 +446,7 @@ Model Management
 
 </td><td>
 
-[Installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/installed-with-model-management.md)
+
 
 </td></tr><tr><td>
 
@@ -482,7 +482,7 @@ Event Management
 
 </td><td>
 
-[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_InstalledWithEventManagement.md)
+
 
 </td></tr><tr><td>
 
@@ -494,7 +494,7 @@ Advanced Work Assignment
 
 </td><td>
 
-[Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/installed-with-awa.md)
+
 
 </td></tr><tr><td>
 
@@ -518,7 +518,7 @@ Application Portfolio Management
 
 </td><td>
 
-[Installed with Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/installed-with-application-portfolio-mangemt.md)
+
 
 </td></tr><tr><td>
 
@@ -530,7 +530,7 @@ Automation Center
 
 </td><td>
 
-[Components installed with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/components-installed-with-automation-center.md)
+
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ Client Software Distribution 2.0
 
 </td><td>
 
-[Components installed with](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/csd2-installed.md)
+
 
 </td></tr><tr><td>
 
@@ -650,7 +650,7 @@ Build Workflows
 
 </td><td>
 
-[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/user-access-flow-designer.md)
+
 
 </td></tr><tr><td>
 
@@ -830,7 +830,7 @@ Employee Center
 
 </td><td>
 
-[Employee Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-center-personas.md)
+
 
 </td></tr><tr><td>
 
@@ -1154,7 +1154,7 @@ Data Separation
 
 </td><td>
 
-[Components installed with Data Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/installed-with-data-separation.md)
+
 
 </td></tr><tr><td>
 
@@ -1178,7 +1178,7 @@ Field Service Management
 
 </td><td>
 
-[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/r_InstalledWithFSM.md)
+
 
 </td></tr><tr><td>
 
@@ -1190,7 +1190,7 @@ Field Service Management
 
 </td><td>
 
-[Field Service with Service Locations Support components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/service-locations-components.md)
+
 
 </td></tr><tr><td>
 
@@ -1214,7 +1214,7 @@ Investment Funding
 
 </td><td>
 
-[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/installed-with-investment-funding.md)
+
 
 </td></tr><tr><td>
 
@@ -1226,7 +1226,7 @@ Project Portfolio Management
 
 </td><td>
 
-[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+
 
 </td></tr><tr><td>
 
@@ -1238,7 +1238,7 @@ Scrum Programs
 
 </td><td>
 
-[Components installed with Scrum Programs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/installed-with-scrum-programs.md)
+
 
 </td></tr><tr><td>
 
@@ -1250,7 +1250,7 @@ Teamspaces
 
 </td><td>
 
-[Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/r_InstalledWithTeamspaces.md)
+
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/user-administration/r_BaseSystemRoles.md)

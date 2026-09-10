@@ -1,6 +1,6 @@
 ---
 title: Patterns and horizontal discovery
-description: A pattern is a series of operations that tell Discovery which CIs to find on your network, what credentials to use, and what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, you must add the Horizontal Pattern probe to the classifiers for the CIs are you trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
+description: A pattern is a series of operations that tell Discovery which CIs to find on your network, what credentials to use, and what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.html
 release: zurich
@@ -152,7 +152,7 @@ Pagination is controlled from the Custom Operations table \[sa\_custom\_operatio
 
 ## Add the Horizontal Pattern probe to a classifier
 
-To use a pattern for the identification and exploration phases of horizontal discovery, you must add the Horizontal Pattern probe to the classifiers for the CIs are you trying to discover.
+To use a pattern for the identification and exploration phases of horizontal discovery, add the Horizontal Pattern probe to the relevant classifiers. The classifiers must match the CI types you are trying to discover.
 
 ### Before you begin
 

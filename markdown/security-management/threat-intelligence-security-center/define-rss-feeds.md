@@ -1,51 +1,51 @@
 ---
 title: View RSS Feeds
-description: A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provide an easy way to stay up to date with your favorite websites, such as blogs or latest cyber security news.
+description: A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/threat-intelligence-security-center/define-rss-feeds.html
 release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-04"
+last_updated: "2026-03-26"
 reading_time_minutes: 7
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View RSS Feeds
 
-A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provide an easy way to stay up to date with your favorite websites, such as blogs or latest cyber security news.
+A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.analyst
 
+**Note:** Using this section, you can browse through ingested feeds. However, creating new records isn't supported.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Threat Intel Library** icon on the workspace.
+2.  Select the **Threat Intel Library** icon on the workspace.
 
 3.  Go to **RSS Feeds** &gt; **All RSS Feeds** object.
 
-    **Note:** The ingested feeds can be browsed using this section but you cannot create new records.
-
-4.  On the form, following fields are auto-populated.
+4.  On the form, the following fields are automatically populated.
 
     |Field|Description|
     |-----|-----------|
     |Title|Title of the RSS Feed.|
-    |Description|Description that provides more details and context about the RSS feeds, including its purpose and key characteristics.|
-    |Link|Indicates the link added to the RSS feeds.|
+    |Description|Description that provides more details and context about the RSS feeds, potentially including its purpose and key characteristics.|
+    |Link|Web link added to the RSS feeds.|
     |Source|RSS feed source from which this object record is created.|
     |Published Date|Date when the RSS feed is published.|
     |Author|Author for the RSS feed.|
 
-5.  Click **Save**.
+5.  Select **Save** to apply the changes.
 
     |Field|Description|
     |-----|-----------|
-    |Notes|Add any additional notes for this feed.|
+    |Notes|Additional notes for this feed.|
 
 <table id="table_ytw_tcd_nyb"><thead><tr><th>
 
@@ -69,7 +69,7 @@ Feedback Comments URL
 
 </td><td>
 
-Link to the feedback comments.
+Indicates the link to the feedback comments.
 
 </td></tr><tr><td>
 
@@ -77,11 +77,11 @@ Status
 
 </td><td>
 
-State of an RSS feed record in relation to its configured expiration period. This field supports tracking of ingested records.-   When a record is created through RSS feed ingestion, the application assigns an initial status based on its validity period.
--   The status changes automatically as the record approaches or reaches its expiration time.
-**Note:** This field identifies whether records are still valid for analysis or have aged out based on data retention settings.
+Indicates the state of an RSS feed record in relation to its configured expiration period. This field is introduced to support tracking of ingested records.-   When a record is created through RSS feed ingestion, the application assigns an initial status based on its active validity period.
+-   The status changes automatically as the record approaches or reaches its configured expiration time.
+**Note:** This field identifies whether records are still valid for analysis or have aged out based on the data retention settings.
 
-The **Status** field works with the **Expiration time** field and reflects the retention behavior defined by the feed's **Expiry days** configuration.
+The **Status** field works in conjunction with the **Expiration time** field and reflects the retention behavior defined by the feed's **Expiry days** configuration.
 
 </td></tr><tr><td>
 
@@ -89,11 +89,11 @@ Expiration time
 
 </td><td>
 
-The **Expiration time** value is automatically calculated based on the configured **Expiry days** period for the feed. When records are ingested, the application sets the expiration time by adding the configured number of days to the record creation date.If the expiry period is not specified for an integration, the **Expiry period** field remains empty for the RSS feed record. As a result, the RSS feed record continues to remain active and does not expire.
+The **Expiration time** value is automatically calculated based on the configured **Expiry days** period for the feed. When records are ingested, the application sets the expiration time by adding the configured number of days to the record creation date.If the expiry period isn't specified for an integration, the **Expiry period** field remains empty for the RSS feed record. As a result, the RSS feed record continues to remain active and doesn't expire.
 
 **Note:**
 
-For all feed integrations, the field configuration includes an Expiry days setting that defines the retention period for ingested data. Previously, records created through RSS feeds did not include expiration tracking.
+For all feed integrations, the field configuration includes an Expiry days setting that defines the retention period for ingested data. Previously, records created through RSS feeds didn't include expiration tracking.
 
 For example, if the expiry period is set to 30 days, each ingested record receives an expiration time equal to the ingestion date plus 30 days.
 
@@ -101,11 +101,11 @@ For example, if the expiry period is set to 30 days, each ingested record receiv
 </table>    |Field|Description|
     |-----|-----------|
     |**TISC Tags**|
-    |Select Tags|Select the tags that are associated with the vulnerability.|
+    |Select Tags|Tags that are associated with the vulnerability.|
     |Add Tags|Add new tags.|
     |**Taxonomies**|
-    |Select Taxonomy|Select a Taxonomy that is associated with this vulnerability.|
-    |Add Taxonomy Values|Add Taxonomy values that are associated with this vulnerability.|
+    |Select Taxonomy|Taxonomy that is associated with this vulnerability.|
+    |Add Taxonomy Values|Taxonomy values that are associated with this vulnerability.|
 
     **RSS Feed Actions from the list view: Add TISC Tags**
 
@@ -120,7 +120,6 @@ For example, if the expiry period is set to 30 days, each ingested record receiv
 
     -   Select any RSS feed from the list view.
     -   Select **Add Taxonomy** to associate taxonomies with the RSS feed record.
-    -   Search and select the desired TISC taxonomy value.
     -   Select **Submit** to add the taxonomies.
 
         A confirmation displays indicating that the tags &amp; taxonomy values are applied successfully.
@@ -142,7 +141,7 @@ For example, if the expiry period is set to 30 days, each ingested record receiv
 
     2.  In the **Taxonomy** related list, **Select Taxonomy** to add taxonomies directly from the RSS feed form view.
 
-8.  Select **Save** to apply the changes.
+8.  Select **Save**.
 
 9.  Select **Add to Case** to associate the RSS feed record to a case directly from the form view.
 
@@ -151,7 +150,7 @@ For example, if the expiry period is set to 30 days, each ingested record receiv
 
 ## What to do next
 
-Use the **Related Records** section to view the detailed information about objects associated with the RSS feeds. Click any of related list to explore the linked records.
+Use the **Related Records** section to view the detailed information about objects associated with the RSS feeds. Select any of related list to explore the associated records.
 
 |Related Record|Description|
 |--------------|-----------|
@@ -184,7 +183,7 @@ Use the **Related Records** section to view the detailed information about objec
 
 **Related Records Actions:**
 
-Use **Link** and **Unlink** to associate or remove associations between existing records without creating new records. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
+Use **Link** and **Unlink** to associate or remove associations between existing records without creating records. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
 **Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
@@ -203,11 +202,19 @@ Use **Link** and **Unlink** to associate or remove associations between existing
 
 [Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository]()
+[MITRE-ATT&amp;CK repository]()
 
 [Relationships Objects]()
 
 [Potential Relationships]()
 
 [Vulnerability relationship mapping]()
+
+[Define Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/define-vulnerability.md)
+
+[Create a CWE record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-cwe-record.md)
+
+[Create a Product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-product.md)
+
+[Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)
 

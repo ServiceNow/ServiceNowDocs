@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-30"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using AI Agent Advisor in AI Admin Center, Use, AI Admin Center, Enable AI experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Implement an automation opportunity from AI Admin Center
@@ -35,11 +35,11 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
     The page displays summary information for the opportunity, a **Resolution steps**tab with editable implementation steps, and an **Example records**tab with example records from the data source.It also displays an **AI Agents** tab showing the agents created from the automation opportunity.
 
-    \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-3.png"\] Alt text: Resolution Steps tab showing the opportunity details.
+    \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-4.png"\] Alt text: Resolution Steps tab showing the opportunity details.
 
     For an opportunity that has a matching prebuilt AI agent, the page displays the agent name and description.
 
-    \[Omitted image "ai-agent-advisor-matching-prebuilt-agent.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
+    \[Omitted image "ai-agent-advisor-matching-prebuilt-agent-2.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
 
     For more information on finding an automation opportunity, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
@@ -49,11 +49,15 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
 4.  Select the **AI Agents** tab to view AI agents created from the automation opportunity.
 
-5.  In the **Resolution Steps** tab, review the steps for accuracy and completeness in planning your AI agent.
+5.  Select the **Matched opportunities** tab for a prebuilt AI agent to view the automation opportunities that the AI agent can support.
+
+    Select an opportunity to open it in a separate workspace tab.
+
+6.  In the **Resolution Steps** tab, review the steps for accuracy and completeness in planning your AI agent.
 
     The **Resolution Steps** tab shows the implementation steps and the matched AI agents for each step.
 
-6.  Adjust the steps as needed.
+7.  Adjust the steps as needed.
 
 <table id="table_aj1_mrr_v3c"><thead><tr><th>
 
@@ -122,35 +126,30 @@ Select **Expand all** to see the available assets for each step.
  Select **Collapse all** to hide the details.
 
 </td></tr></tbody>
-</table>7.  When the steps are ready to implementfor a custom AI agent, select **Continue in AI Agent Studio**.
+</table>8.  When the steps are ready to implementfor a custom AI agent, select **Continue in AI Agent Studio**.
 
-    For an opportunity that has a matching prebuilt AI agent, select **Review and activate in AI Agent Studio**. Select **Review and activate in AI Agent Studio** again to confirm, then skip ahead to step 10.
+    For an opportunity that has a matching prebuilt AI agent,select **Manage in AI Agent Studio**.Skip ahead to step 11.
 
     The Continue building AI agent box opens.
 
     \[Omitted image "now-assist-center-agent-advisor-build-agent-2.png"\] Alt text: Continue building AI agent box showing steps for building an agent.
 
-8.  Choose whether the AI agent will communicate as a **Chat Agent** or **Voice Agent**.
+9.  Choose whether the AI agent will communicate as a **Chat Agent** or **Voice Agent**.
 
-9.  Select **Continue in AI Agent Studio**.
+10. Select **Continue in AI Agent Studio**.
 
     The Agent guided setup tab opens.
 
     \[Omitted image "now-assist-center-agent-advisor-opportunity-agent-setup-define.png"\] Alt text: Guided setup of the AI agent.
 
-10. Complete the development of the AI agentin the Agent guided setup tab using AI Agent Studio capabilities.
+11. Complete the development of the AI agentin the Agent guided setup tab using AI Agent Studio capabilities.
 
     The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
 
     For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-next-best-action-agent.md).
 
 
-**Parent Topic:**[Using AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 
-**Related topics**  
-
-
-[View your automation opportunities]()
-
-[Edit an AI agent from an automation opportunity]()
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

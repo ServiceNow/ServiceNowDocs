@@ -22,9 +22,9 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 As a user with the admin role, you can create a playbook by using Playbooks, a ServiceNow AI Platform® feature. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md).
 
-The playbooks in the Patient Support Services application use the CSM Configurable Workspace playbook experience. By default, the Patient Support Services application includes a playbook for assisting care coordinators to resolve enrollment cases.
+The playbooks in the Patient Support Services application use the CRM Workspace playbook experience. By default, the Patient Support Services application includes a playbook for assisting care coordinators to resolve enrollment cases.
 
 Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with enrollment cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-definitions.md).
 
-**Note:** When configuring a process definition for the playbook associated with enrollment cases, ensure that the application scope is set to Patient Support Services or Healthcare and Life Sciences Service Management Core using the application picker. For more information, see Application picker.
+**Note:** When configuring a process definition for the playbook associated with enrollment cases, ensure that the application scope is set to Patient Support Services or Healthcare and Life Sciences Service Management Core using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/c_ApplicationPicker.md).
 

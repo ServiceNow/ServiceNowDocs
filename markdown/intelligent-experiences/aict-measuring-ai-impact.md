@@ -1,43 +1,73 @@
 ---
-title: Measuring AI impact
-description: Track the business value, productivity gains, and user adoption of AI assets across your organization to quantify return on investment and identify opportunities for improvement.
+title: Measuring AI systems
+description: Measure quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-measuring-ai-impact.html
 release: zurich
 topic_type: concept
 last_updated: "2026-04-17"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
 
-# Measuring AI impact
+# Measuring AI systems
 
-Track the business value, productivity gains, and user adoption of AI assets across your organization to quantify return on investment and identify opportunities for improvement.
+Measure quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
 
-## Why measuring impact matters
+## Measure overview
 
-Deploying AI is an investment, and stakeholders need to understand whether that investment is paying off. Without measurement, AI initiatives operate on faith and leadership can't distinguish between AI systems that are transforming workflows and AI systems that are barely used. Measurement also reveals optimization opportunities, including which AI systems could be expanded to more users, which are underperforming, and where adoption barriers must be addressed.
+Measure is one of the AI Control Tower \(AICT\) pillars \(Discover, Observe, Govern, Secure, Measure\). While the other pillars focus on finding, monitoring, governing, and protecting your AI systems, Measure is responsible for reporting the results produced by those systems. It answers three questions:
 
-AI Control Tower provides value and adoption analytics that connect AI system usage to measurable business outcomes — productivity hours saved, cost reductions, and user engagement metrics. These analytics span both ServiceNow AI and external AI assets, providing a unified view of impact across your entire AI portfolio.
+-   What is AI actually delivering?
+-   What is it costing you?
+-   What's the net return?
 
-## Tracking AI value and productivity
+## Components
 
-Value insights in AI Control Tower help product owners and AI stewards quantify the business impact of AI in concrete terms. Productivity gains are measured in hours saved, with breakdowns by AI system, time period, and asset type. Creator skills metrics are aggregated across non-production and production instances to capture the full scope of AI-assisted development work.
+Measure has three components:
 
-Value calculations are driven by value templates — configurable formulas that define how impact is measured for each AI system type. Default templates are provided, but organizations can create custom templates that reflect their own definitions of value. Templates can be mapped to specific asset types and assigned as defaults, ensuring consistent measurement across the portfolio.
+-   **Value**
 
-## Analyzing AI adoption and engagement
+    Value converts AI usage into a productivity figure.
 
-Value metrics tell you what AI is delivering; engagement metrics tell you whether people are actually using it. Engagement metrics provide complementary visibility into user adoption patterns, helping you understand not just aggregate numbers but which departments, workflows, and AI system types are driving the most engagement.
+-   **Cost**
 
-Usage is tracked through daily AI actions, daily unique users, AI system group distribution \(interactive trend charts with group-by filtering\), and usage comparison by workflow. Adoption is tracked through department-level usage rankings, AI action comparison by department, and user feedback details — including positive feedback percentages against total AI actions.
+    Cost records the actual expenses of your AI, enabling AI Control Tower to compare this against productivity gains and calculate the net AI return. You set it up by inputting your organization's average hourly rate and specifying prices for both integrated and non-integrated vendors.
 
-Together, these metrics reveal the shape of adoption across your organization. High total actions but low unique users may indicate power-user dependency. High usage in some departments but low usage in others may indicate training or awareness gaps. Declining positive feedback may signal quality issues that need investigation through the monitoring capabilities.
+-   **Dashboard**
 
-## ServiceNow AI metrics
+    Dashboards are where value and cost converge. The dashboard presents productivity gains, AI costs, and net AI return together. It breaks usage and costs down by user and department. It shows adoption patterns and flags AI systems that record no usage.
 
-For ServiceNow AI assets specifically, AI Control Tower provides dedicated views for value, engagement, creator skills, and evaluation metrics.
 
-These views consolidate ServiceNow specific data that may be distributed across multiple areas of the workspace. Product owners get a focused view of how ServiceNow AI is performing within their scope.
+## How Measure helps
+
+As organizations scale AI across teams and providers, it becomes harder to understand whether AI investments are delivering measurable business value. Costs can accumulate across multiple model providers, while productivity gains often remain anecdotal or inconsistent across teams.
+
+As AI adoption grows, Measure helps organizations:
+
+-   **Prove business value**
+
+    Calculate productivity value and net AI return for specific AI systems, instead of relying on estimates or anecdotal feedback.
+
+-   **Control AI spend**
+
+    Monitor AI system costs, including token-level costs across model providers, so spend is visible and predictable.
+
+-   **Make informed investment decisions**
+
+    Identify where AI is creating value, where spend is increasing, and which AI systems to scale, optimize, fund, or retire.
+
+-   **Standardize value measurement**
+
+    Use templates so teams can calculate value consistently, and results can be compared or rolled up across the organization.
+
+-   **Reduce manual reporting**
+
+    Run scheduled value jobs so dashboards stay up to date without teams assembling spreadsheet-based reports.
+
+-   **Attribute accountability**
+
+    Assign value and cost to the departments and users that generate them.
+
 

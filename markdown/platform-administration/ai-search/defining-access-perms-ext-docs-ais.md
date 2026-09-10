@@ -16,7 +16,7 @@ breadcrumb: [External content security, Indexing and searching external content,
 
 You can specify access permissions for externally defined users and groups when ingesting external documents. AI Search preserves these permissions during indexing so that user content security filters can operate on them at search time.
 
-For details on including access permissions for externally defined users and groups in ingested external documents, see the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+For details on including access permissions for externally defined users and groups in ingested external documents, see the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
 **Parent Topic:**[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/external-content-security-ais.md)
 
@@ -42,7 +42,7 @@ everyone
 
 </td><td>
 
-Boolean option that indicates whether access to the external document is allowed for all users. AI Search applies this global access permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.everyone request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+Boolean option that indicates whether access to the external document is allowed for all users. AI Search applies this global access permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.everyone request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
@@ -54,7 +54,7 @@ groups.deny
 
 </td><td>
 
-List of externally defined groups that are denied access to the external document. ServiceNow AI Platform® users mapped to any of these external groups can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+List of externally defined groups that are denied access to the external document. ServiceNow AI Platform® users mapped to any of these external groups can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  This permission takes precedence over **groups.read**. If the same group has both read and deny access permissions for a document, AI Search denies members of the group access to the indexed record.
 
@@ -66,7 +66,7 @@ groups.read
 
 </td><td>
 
-List of externally defined groups that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external groups can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+List of externally defined groups that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external groups can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.groups.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  **groups.deny** permission takes precedence over this permission. If the same group has both read and deny access permissions for a document, AI Search denies members of the group access to the indexed record.
 
@@ -76,7 +76,7 @@ none
 
 </td><td>
 
-Boolean option indicating whether access to the external document is denied for all users. AI Search applies this global denial permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.none request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+Boolean option indicating whether access to the external document is denied for all users. AI Search applies this global denial permission to the indexed record created from the document. Set this permission for an ingested document via the \[array\].principals.none request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
@@ -88,7 +88,7 @@ users.deny
 
 </td><td>
 
-List of externally defined users that are denied access to the external document. ServiceNow AI Platform users mapped to any of these external users can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+List of externally defined users that are denied access to the external document. ServiceNow AI Platform users mapped to any of these external users can't view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.deny request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  This permission takes precedence over **users.read**. If the same user has both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 
@@ -98,7 +98,7 @@ users.read
 
 </td><td>
 
-List of externally defined users that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external users can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-content-ingestion-api.md).
+List of externally defined users that are allowed access to the external document. ServiceNow AI Platform users mapped to any of these external users can view the indexed search result record created from the document. Set this permission for an ingested document via the \[array\].principals.users.read request body parameter in a request to the POST /ais/external\_content/ingestDocument/\{schema\_table\_name\} endpoint of the External Content Ingestion API.
 
  **users.deny** takes precedence over this permission. If the same user has both read and deny access permissions for a document, AI Search denies that user access to the indexed record.
 

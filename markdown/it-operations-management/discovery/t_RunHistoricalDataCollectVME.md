@@ -1,6 +1,6 @@
 ---
 title: Run historical data collection for Virtual Machine Explorer
-description: After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
+description: After installing Discovery Admin Workspace, run historical data collection jobs to populate Virtual Machine Explorer dashboard reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/t\_RunHistoricalDataCollectVME.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Virtual Machine Explorer dashboard, Discovery Admin Workspace Insig
 
 # Run historical data collection for Virtual Machine Explorer
 
-After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
+After installing Discovery Admin Workspace, run historical data collection jobs to populate Virtual Machine Explorer dashboard reports.
 
 ## Before you begin
 
@@ -50,5 +50,5 @@ Role required: pa\_data\_collector or admin
 
 ## What to do next
 
-Manually refresh the indicators on the Virtual Machine Explorer dashboard to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports, enabling you to view relevant data and trends. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/vm-explorer.md).
+Manually refresh the indicators on the Virtual Machine Explorer dashboard. This populates the Virtual machines with server CI and Virtual machines with no deep dive discovery reports. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/vm-explorer.md).
 

@@ -106,7 +106,7 @@ Option to consider values from the **Target maximum** and **Target minimum** fie
 
  When the check box is selected, absolute target maximum and target minimum values are applied only when the indicator frequency matches the fiscal period being scored. When the frequencies do not match, the system derives the target minimum and maximum values from the application weights of all indicators in the current scoring run.
 
- When the check box is cleared, the system uses [intelligent logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-score-profile.md) to calculate target maximum and target minimum values based on the actual application weights, regardless of whether the indicator frequency matches the fiscal period being scored.
+ When the check box is cleared, the system uses [intelligent logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/application-score-profile.md) to calculate target maximum and target minimum values based on the actual application weights. This applies regardless of whether the indicator frequency matches the fiscal period being scored.
 
  **Example: Monthly cost indicator scored quarterly**
 

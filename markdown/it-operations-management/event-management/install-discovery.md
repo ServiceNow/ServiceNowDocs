@@ -39,7 +39,7 @@ Discovery is the source of truth for IT operations, automatically identifying, m
 
 4.  Select **Configure Discovery**.
 
-    If the Discovery plugin is installed, the system takes you to the Assign Discovery Admins page where you can assign users to the discovery admin role \(discovery\_admin\). If the Discovery plugin is not installed, you're directed to the IT Operations Management page where you need to install the ITOM Visibility plugin, which also installs the Discovery plugin automatically.
+    If the Discovery plugin is installed, the system takes you to the Assign Discovery Admins page where you can assign users to the discovery admin role \(discovery\_admin\). If the Discovery plugin is not installed, you're directed to the IT Operations Management page. Install the ITOM Visibility plugin, which also installs the Discovery plugin automatically.
 
 5.  To complete the setup, select **Mark as configured**.
 

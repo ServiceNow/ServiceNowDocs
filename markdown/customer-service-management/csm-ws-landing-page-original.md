@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3
-breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Landing Page
@@ -20,9 +20,9 @@ The CSM Landing Page includes components that display case information, plus vis
 
 **Note:** To ensure the High priority cases component filters correctly, install the Customer Service Case Action Status \(com.snc.csm\_action\_status\) plugin. This plugin adds the missing **action\_status** field, which isn't included with the CSM plugin by default. Also, ensure your instance is on Xanadu Patch 7 or later.
 
-The CSM Landing Page is available with the CSM Configurable Workspace \(sn\_csm\_wrkspc\) plugin. This landing page is the default landing page for CSM Configurable Workspace.
+The CSM Landing Page is available with the CRM Workspace \(sn\_csm\_wrkspc\) plugin. This landing page is the default landing page for CRM Workspace.
 
-**Note:** Upgrade customers who haven’t customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Zurich release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page must manually accept the Zurich landing page.
+**Note:** Upgrade customers who haven’t customized the existing CRM Workspace landing page are automatically upgraded to the landing page available with the Zurich release. Upgrade customers who have customized the existing CRM Workspace landing page must manually accept the Zurich landing page.
 
 \[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 

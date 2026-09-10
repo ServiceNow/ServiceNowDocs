@@ -44,7 +44,7 @@ Quota types include:
 
 -   **[Create a cloud quota definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-cloud-quota.md)**  
 A cloud quota definition specifies the limitations on a resource block. You can use templates or manually create different types of configurations for each quota definition.
--   **[Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)**  
+-   **[Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)**  
 Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval subflow, or both.
 
 **Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)

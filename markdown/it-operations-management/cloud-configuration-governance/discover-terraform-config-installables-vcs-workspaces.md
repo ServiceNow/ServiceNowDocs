@@ -18,7 +18,7 @@ Run the Infrastructure as Code \(IaC\) discovery to identify the resources of th
 
 ## Before you begin
 
--   Ensure that you have the appropriate API credentials for the Version Control System \(VCS\) accounts provisioned in the Terraform Enterprise or Terraform Cloud organizations. For more information, see [Create API key credentials for the Terraform account and the supported VCS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
+-   Ensure that you have the appropriate API credentials for the Version Control System \(VCS\) accounts provisioned in the Terraform Enterprise or Terraform Cloud organizations. For more information, see [Create API key credentials for Terraform and VCS accounts account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
 -   Ensure that Terraform Open Source folders which contain the Terraform templates have unique names. If several Terraform template folders have the same name, multiple change tasks are created even though all the templates mayn't contain variable changes.
 
 Role required: sn.cmp.cloud\_service\_designer

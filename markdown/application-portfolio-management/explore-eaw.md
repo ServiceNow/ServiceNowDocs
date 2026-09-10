@@ -52,7 +52,7 @@ As an Enterprise Architect, use the Portfolio list view in the Enterprise Archit
 -   **[Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-application-tco.md)**  
 The Application Total Cost of Ownership \(TCO\) plugin helps Enterprise Architects evaluate the cost of business applications. Use application costs to prioritize the application portfolio and align with the organization's business strategy.
 -   **[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-technology-portfolio-view.md)**  
-Use the Technology Portfolio list view in the Enterprise Architecture Workspace to manage TLM lifecycles and risk, and your TRM catalog.
+Use the Technology Portfolio in the Enterprise Architecture Workspace for Technology Lifecycle Management \(TLM\) and to manage your Technology Reference Model \(TRM\) catalog.
 -   **[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-modeling.md)**  
 Enterprise Modeling and Visualization in EA Workspace helps you with diagramming and modeling capabilities and enable you to model the future state of your IT and its relationship to the business landscape.
 -   **[Exploring digital integration management in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-explore-digital-integ-management.md)**  

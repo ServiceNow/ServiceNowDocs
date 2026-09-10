@@ -28,15 +28,15 @@ Role required: sn\_slm.contact
 
 2.  In the portal header, select the **Documents** tab.
 
-3.  You can upload, download, maintain versions, and manage permissions for documents as follows.
+3.  Upload, download, maintain versions, and manage permissions for documents as follows.
 
 <table id="table_yj5_y35_l3c"><thead><tr><th>
 
-To do
+Action
 
 </th><th>
 
-Do this
+Description
 
 </th></tr></thead><tbody><tr><td>
 

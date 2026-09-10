@@ -20,6 +20,7 @@ Allocate, manage, and approve budget for your projects. Lean budgeting allocates
 
 -   Admins should enable the property to work on budgeting. For more information, see [Enable financial budget allocation for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md).
 -   Admins can configure the attribute to allocate and approve budget by cost type or expense type. For more information, see [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md).
+-   Negative budgeting is supported for planning items. To enable negative budget values, configure the sn\_invst\_pln.allow\_negative\_budget system property. For more information, see [Enable negative budgets for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/fin-negative-budget-prop-spw.md).
 -   Role required: it\_portfolio\_manager
 
 ## About this task
@@ -44,6 +45,8 @@ Allocate, manage, and approve budget for your projects. Lean budgeting allocates
 
     -   You can edit the budget values using the in-grid editing feature after copying Forecast to budget.
     -   Unapproved budget values are indicated with \[Omitted image "fin-copy-budget-icon.png"\] Alt text: Tick mark in a circle representing the unapproved budget icon.
+    **Note:** Negative budget amounts are supported. If you enter a negative **Capex Budget** or **Opex Budget** amount, or the associated cost plan has a negative total planned cost, the demand budget is still distributed across the cost plan breakdowns and rolled up to the demand financials.
+
 6.  Select **Approve budget** \(\[Omitted image "fin-approve-budget-icon.png"\] Alt text: Approve budget button.\).
 
     Approve budget confirmation window is displayed. The **Create a financial baseline for this budget approval** option is enabled by default which captures the latest budget and financial estimates.

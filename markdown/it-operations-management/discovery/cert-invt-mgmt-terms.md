@@ -1,20 +1,20 @@
 ---
 title: Certificate Inventory and Management terms
-description: The Certificate Inventory Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
+description: The Certificate Inventory and Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-invt-mgmt-terms.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Certificate Inventory and Management terms
 
-The Certificate Inventory Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
+The Certificate Inventory and Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
 
 -   **Certificate Authority \(CA\)**
 
@@ -46,7 +46,7 @@ The Certificate Inventory Management glossary comprises a set of concise definit
 
 -   **Internal certificate or self-signed**
 
-    Indicates that the digital certificate is signed by the same entity whose identity it certifies for example, internal or self-signed certificates are not signed by root or intermediate CAs.
+    Indicates that the digital certificate is signed by the same entity whose identity it certifies. For example, internal or self-signed certificates aren't signed by root or intermediate CAs.
 
 -   **Transport Layer Security \(TLS\)**
 

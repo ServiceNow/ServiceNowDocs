@@ -30,7 +30,7 @@ Role required: Task Mining Agent Install
 
     2.  Select an existing key or create one.
 
-        \[Omitted image "image.tm-agent-3"\] Alt text: Screenshot of registration key selection.
+        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
 
     3.  Select the Portable Windows agent tab.
 
@@ -38,7 +38,7 @@ Role required: Task Mining Agent Install
 
     5.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    \[Omitted image "image.tm-agent-5"\] Alt text: Screenshot of portable windows agent download screen.
+    \[Omitted image "tm-agent-5.png"\] Alt text: Screenshot of portable windows agent download screen.
 
 2.  Run `PortableLauncher.exe` from the extracted folder.
 

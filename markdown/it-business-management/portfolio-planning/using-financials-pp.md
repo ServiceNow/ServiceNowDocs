@@ -197,7 +197,7 @@ The widgets and the header rows are color-coded to help you identify the selecte
 
 **Tip:** Switch between different baselines from the comparison view by selecting the name of a baseline from one of the widgets.
 
-When you compare baselines, you get the list of cost plans with their associated costs types, EAC at full scope, and a breakdown view of actual expenses and planned costs.
+When you compare baselines, you get the list of cost plans with their associated costs types and a breakdown view of actual expenses and planned costs.
 
 By default, the time scale of the breakdown view is set to Month.
 
@@ -247,7 +247,7 @@ Choose the cost type as the attribute to allocate and approve the budget for ind
 
 Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode and reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
 
-Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, and for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, and time scale. You can view comparisons at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can use this information to request for additional budget from the Portfolio manager.
 
 You can migrate the budget of existing active projects and demands items from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
@@ -258,7 +258,7 @@ You can migrate the budget of existing active projects and demands items from th
 
 Budget distribution logic
 
-The budget allocation approach introduces data‑aware budget distribution, prioritizing actuals for completed periods and planned costs for future periods. The system uses different distribution strategies depending on whether actuals or Estimate at Completion \(EAC\) values are available, and whether the fiscal period falls in the past, present, or future.
+The budget allocation approach introduces data‑aware budget distribution, prioritizing actuals for completed periods and planned costs for future periods. Distribution strategies vary based on whether actuals or Estimate at Completion \(EAC\) values are available. The fiscal period timing \(past, present, or future\) also determines the approach.
 
 Budget allocation logic is divided into three focus areas: past fiscal periods, current fiscal periods, and future fiscal periods.
 
@@ -287,13 +287,13 @@ Budget allocation logic is divided into three focus areas: past fiscal periods, 
 
 Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md) and [non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.md) to capture the potential benefits of your planning items.
 
-Instead of switching to and fro from the financials record page to benefit plan tabs, you now have a seamless experience to manage all the cost plans and benefit plans from the Cost and benefits view and can leverage the new financials experience with the side panel and grids for quick forecasting and tracking of monetary benefit plans.
+You can manage all cost plans and benefit plans from the Cost and benefits view. The side panel and grids provide quick forecasting and tracking of monetary benefit plans.
 
 ## Simple financials
 
-Simple financials gives you the ability to enter the preliminary high-level planned capex, opex, benefit, and so on from the Details page without capturing the costs plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
+Simple financials gives you the ability to enter preliminary high-level planned capex, opex, and benefit from the Details page. You can do this without capturing the cost plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
 
-\[Omitted image "fin\_simple\_financials\_spw-ppw.png"\] Alt text: Simple financials view in the Details page of Strategic Planning workspace.
+This video is recorded in Project Workspace. Navigation might differ for Portfolio Planning but functionality remains the same.\[Omitted video\] Description: Manage simple financials
 
 Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
 

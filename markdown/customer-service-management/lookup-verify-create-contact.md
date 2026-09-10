@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Create a contact or consumer using Lookup and verify
@@ -26,7 +26,7 @@ If an agent can't find a contact or consumer, they can create a record for that 
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  From a saved interaction record, select one of the following icons in the Contextual side panel to access the Lookup and verify feature.
 

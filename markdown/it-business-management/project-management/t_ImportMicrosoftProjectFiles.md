@@ -72,7 +72,7 @@ Before importing a Microsoft Project file into the ServiceNow instance, consider
 
 ## Result
 
--   A project task that was imported in ServiceNow instance earlier and has associated time cards, resource plans, cost plan, benefit plan, or expense lines is retained on reimport even if it is deleted from Microsoft Project.
+-   A project task that was imported in ServiceNow instance earlier and has associated time cards, resource plans, cost plan, benefit plan, or expense lines . This is retained on reimport even if it is deleted from Microsoft Project.
 -   Dates in the ServiceNow project remain same as the dates in the Microsoft Project file.
 -   In a ServiceNow project with subprojects, the following details change:
     -   The WBS order of imported tasks is regenerated after import.
