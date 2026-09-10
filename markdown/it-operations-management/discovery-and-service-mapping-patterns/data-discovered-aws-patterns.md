@@ -1,6 +1,6 @@
 ---
 title: Amazon AWS Cloud components discovery using patterns
-description: Discovery and Service Mapping Patterns uses patterns to discover components of the Amazon AWS Cloud deployment during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping Patterns uses patterns to discover components of the Amazon AWS Cloud deployment during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Amazon AWS Cloud components discovery using patterns
 
-Discovery and Service Mapping Patterns uses patterns to discover components of the Amazon AWS Cloud deployment during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns uses patterns to discover components of the Amazon AWS Cloud deployment during horizontal discovery. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -57,42 +57,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     To use the IAM user policy instead of credentials during discovery, configure the MID Server for AWS IAM roles. For more information, see [configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/config-mid-iam-roles.md).
 
-    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md). Ensure that the IAM user policy covers the following AWS resources:
-
-    ```
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Action": [
-            "elasticloadbalancing:DescribeLoadBalancerPolicyTypes",
-            "elasticloadbalancing:DescribeLoadBalancers",
-            "elasticloadbalancing:DescribeLoadBalancerPolicies",
-            "elasticloadbalancing:DescribeInstanceHealth",
-            "elasticloadbalancing:DescribeTags",
-            "elasticloadbalancing:DescribeLoadBalancerAttributes",
-            "account:ListRegions",
-            "elasticloadbalancing:Describe*",
-            "ec2:Describe*",
-            "ec2:DescribeNetworkInterfaceAttribute",
-            "ec2:DescribeInstanceStatus",
-            "ec2:DescribeCustomerGateways",
-            "ec2:DescribeSecurityGroups",
-            "ec2:DescribeHosts",
-            "ec2:DescribeImages",
-            "ec2:DescribeVpcs",
-            "ec2:DescribeAccountAttributes",
-            "ec2:DescribeInstanceAttribute",
-            "ec2:DescribeInstanceCreditSpecifications",
-           
-                ],
-                "Effect": "Allow",
-                "Resource": "*"
-            }
-        ]
-    }
-    
-    ```
+    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 -   **Configure access to the AWS resources**
 

@@ -21,7 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
-
+- __10 September 2026__:
+  * September docs refresh
 - __09 July 2026__:
   * July docs refresh
 - __24 June 2026__:

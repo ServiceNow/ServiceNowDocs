@@ -24,7 +24,7 @@ The export lead feature in Lead Management exports a list of all leads. Use the 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All**.
 

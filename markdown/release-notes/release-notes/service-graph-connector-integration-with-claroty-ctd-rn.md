@@ -1,9 +1,9 @@
 ---
 title: Service Graph Connector Integration for Claroty CTD release notes
-description: The ServiceNow Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.
+description: The ServiceNow Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.The ServiceNow Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.The ServiceNow Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-04-23"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.
 
-## Service Graph Connector Integration for Claroty CTD highlights for the Yokohama release
+## About Service Graph Connector Integration for Claroty CTD
 
 -   View the class mappings available for the Service Graph Connector using the new Class Mappings menu
 -   Filter out empty rack slots to help avoid importing blank rack slots into the ServiceNow. Configuration Management Database \(CMDB\).
@@ -22,9 +22,24 @@ The ServiceNow® Service Graph Connector Integration for Claroty CTD application
 
 See [Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/sgc-cmdb-integration-claroty-ctd.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Service Graph Connector Integration for Claroty CTD is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    **Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[View the class mappings available for the Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/sgc-claroty-ctd-classes.md)**
 
@@ -42,27 +57,15 @@ See [Service Graph Connector Integration for Claroty CTD](https://raw.githubuser
 
     The ire\_criterion\_attribute acts as a criterion attribute for an OT entity-related entry and helps avoid entity update issues.
 
+
+## Yokohama
+
+The ServiceNow® Service Graph Connector Integration for Claroty CTD application automates the import of detected devices and Claroty CTD sites. Service Graph Connector Integration for Claroty CTD was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **[Clean up serial number data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/sgc-claroty-ctd-classes.md)**
 
     Clean up the serial number \[cmdb\_serial\_number\] records imported into the Source \[sys\_object\_source\] table from the Service Graph Connector Integration for Claroty CTD with a fixed script. This script establishes that a null pointer exception doesn't occur when the serial number and MAC address are the same. The script runs automatically when the plugin is upgraded.
 
-
-## Activation information
-
-Install Service Graph Connector Integration for Claroty CTD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-**Note:** Claroty CTD v5.1 is also supported for the Service Graph Connector Integration for Claroty CTD application.
-
-## Related ServiceNow applications and features
-
--   **CMDB CI Class Models store app**
-
-    Operational Technology classes are imported with the Configuration Management Database \(CMDB\) configuration item \(CI\) classes.
-
--   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-manager.md)**
-
-    Integrate Claroty CTD with the ServiceNow® Operational Technology Manager application to import detected devices and Claroty CTD sites, including sensors and NIDS appliances.
-
-
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
 

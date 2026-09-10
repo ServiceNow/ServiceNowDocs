@@ -29,6 +29,8 @@ Enable action designers to send outbound SOAP web service requests to external s
 
 ## Fields
 
+**Note:** If you select Define Connection Inline and leave the Connection Timeout field empty, the system uses a default timeout of 60 seconds. To see or adjust this default, go to **Setup** &gt; **System Properties** &gt; **All** and search for **glide.soap.request\_processing\_timeout**. For integrations that work as expected every time, set an explicit timeout value instead of relying on the system default.
+
 <table id="table_ndq_3kp_2fb"><thead><tr><th>
 
 Field

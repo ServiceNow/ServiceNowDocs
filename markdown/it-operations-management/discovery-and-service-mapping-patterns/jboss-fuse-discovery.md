@@ -1,6 +1,6 @@
 ---
 title: Red Hat JBoss Fuse discovery
-description: The ServiceNow Discovery and Service Mapping applications can find and map the Fuse application server using the JBoss Fuse pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications can find and map the Fuse application server using the JBoss Fuse pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/jboss-fuse-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Red Hat JBoss Fuse discovery
 
-The ServiceNow Discovery and Service Mapping applications can find and map the Fuse application server using the JBoss Fuse pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications can find and map the Fuse application server using the JBoss Fuse pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

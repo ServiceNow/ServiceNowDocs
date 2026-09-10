@@ -1,6 +1,6 @@
 ---
 title: Add source types manually
-description: Create a source type manually before you configure a data input if you want to stream log data to a specific source type rather than to the source type automatically extracted by Health Log Analytics during the mapping process.
+description: Create a source type manually to stream log data to a specific source type rather than to the source type automatically extracted during mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-source-types-manual.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics 
 
 # Add source types manually
 
-Create a source type manually before you configure a data input if you want to stream log data to a specific source type rather than to the source type automatically extracted by Health Log Analytics during the mapping process.
+Create a source type manually to stream log data to a specific source type rather than to the source type automatically extracted during mapping.
 
 ## Before you begin
 

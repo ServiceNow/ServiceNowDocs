@@ -73,7 +73,7 @@ Role required: admin
     -   **In-product**: When selected, the Now Assist skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
     -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md). For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
-        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CSM Configurable Workspace. For Government case summarization, select **In-product**.
+        **Note:** Selecting **In-product** will allow the case summarization card to show on the process based experience playbook page in the CRM Workspace. For Government case summarization, select **In-product**.
 
 10. After you configure the display for the selected skill, select **Save and continue** to go to the next step.
 

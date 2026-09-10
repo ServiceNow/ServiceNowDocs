@@ -24,7 +24,7 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the List view.
+1.  In the CRM Workspace, select the List view.
 
 2.  Navigate to **Opportunity** &gt; **All** and select the opportunity that you want to work on.
 

@@ -68,13 +68,13 @@ Configure the playbook by navigating to **All** &gt; **Process Automation** &gt;
 
 </td></tr><tr><td>
 
-Configure CSM Configurable Workspace.
+Configure CRM Workspace.
 
 </td><td>
 
-Configure CSM Configurable Workspace to enable agents to interact with customers and to create and work on cases.
+Configure CRM Workspace to enable agents to interact with customers and to create and work on cases.
 
- For detailed instructions on how to configure CSM Configurable Workspace, see[Configure CSM Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md)
+ For detailed instructions on how to configure CRM Workspace, see[Configure CRM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md)
 
 </td></tr><tr><td>
 

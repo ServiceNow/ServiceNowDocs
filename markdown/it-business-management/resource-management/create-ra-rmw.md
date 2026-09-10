@@ -28,15 +28,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d202340e89">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d202372e89">
 
 Option
 
-</th><th align="left" id="d202340e92">
+</th><th align="left" id="d202372e92">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202340e98">
+</th></tr></thead><tbody><tr><td id="d202372e98">
 
 **Create a resource assignment**
 
@@ -47,7 +47,7 @@ Procedure
 
 For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d202340e134">
+</td></tr><tr><td id="d202372e134">
 
 **Create operational resource assignment**
 

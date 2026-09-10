@@ -70,42 +70,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
     To use the IAM user policy instead of credentials during discovery, configure the MID Server for AWS IAM roles. For more information, see [configure the MID Server for AWS IAM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/config-mid-iam-roles.md).
 
-    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md). Ensure that the IAM user policy covers the following AWS resources:
-
-    ```
-    {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Action": [
-            "elasticloadbalancing:DescribeLoadBalancerPolicyTypes",
-            "elasticloadbalancing:DescribeLoadBalancers",
-            "elasticloadbalancing:DescribeLoadBalancerPolicies",
-            "elasticloadbalancing:DescribeInstanceHealth",
-            "elasticloadbalancing:DescribeTags",
-            "elasticloadbalancing:DescribeLoadBalancerAttributes",
-            "account:ListRegions",
-            "elasticloadbalancing:Describe*",
-            "ec2:Describe*",
-            "ec2:DescribeNetworkInterfaceAttribute",
-            "ec2:DescribeInstanceStatus",
-            "ec2:DescribeCustomerGateways",
-            "ec2:DescribeSecurityGroups",
-            "ec2:DescribeHosts",
-            "ec2:DescribeImages",
-            "ec2:DescribeVpcs",
-            "ec2:DescribeAccountAttributes",
-            "ec2:DescribeInstanceAttribute",
-            "ec2:DescribeInstanceCreditSpecifications",
-           
-                ],
-                "Effect": "Allow",
-                "Resource": "*"
-            }
-        ]
-    }
-    
-    ```
+    To create the IAM user policy for provisioning AWS resources, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 -   **Configure access to the AWS resources**
 

@@ -1,9 +1,9 @@
 ---
 title: Flows, subflows, and actions in Workflow Studio release notes
-description: The ServiceNow Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
+description: The ServiceNow Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.The ServiceNow Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.The ServiceNow Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.The ServiceNow Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-04-21"
 reading_time_minutes: 5
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
 
-## Workflow Studio highlights for the Yokohama release
+## About Flows, subflows, and actions in Workflow Studio
 
 -   Create a flow or a subflow from an image by using Now Assist.
 -   Debug flows and subflows from a dedicated debugging tab.
@@ -22,9 +22,42 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+    Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+    -   **ARIA label improvements**
+
+        Added and updated ARIA labels to support screen readers.
+
+    -   **Keyboard navigation improvements**
+
+        Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
+
+    -   **Reflow improvements of canvas headers and footers**
+
+        Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
+
+        This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
+
+
+**Parent Topic:**[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-studio-rn.md)
+
+## May 2025
+
+The ServiceNow® Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **Add and edit flows in Now Assist for app generation**
 
@@ -83,6 +116,29 @@ See  for more information.
     Answer a few questions about your automation and Workflow Studio displays recommendations on whether you should create a playbook, flow, subflow, action, or a data stream.
 
 
+### What's changed
+
+-   **Display text descriptions of data changes**
+
+    See a natural language description of the data each component of a flow uses. Understand what data flow triggers, actions, and flow logic blocks use without having to open their configuration details.
+
+
+## Yokohama General Availability
+
+The ServiceNow® Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
+
+### What's new
+
+
+### What's changed
+
+
+## Yokohama Early Availability
+
+The ServiceNow® Workflow Studio application enables process analysts to automate work without having to code and to build multi-step flows from reusable components. Workflow Studio was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **Configure conversational settings**
 
     View the subflows and actions that are conversational compatible. Configure conversational settings to make a subflow or action available to conversational interfaces.
@@ -104,55 +160,4 @@ See  for more information.
 
     Pause a flow until it receives a specific message from the flow API. Specify the string message that resumes running the flow, and optionally provide a time out value to resume the flow if no message is received after a specific amount of time.
 
-
-## UI changes
-
--   **Display text descriptions of data changes**
-
-    See a natural language description of the data each component of a flow uses. Understand what data flow triggers, actions, and flow logic blocks use without having to open their configuration details.
-
-
-## Activation information
-
-Workflow Studio is a ServiceNow AI Platform feature that is active by default.
-
-Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Accessibility information
-
--   **ARIA label improvements**
-
-    Added and updated ARIA labels to support screen readers.
-
--   **Keyboard navigation improvements**
-
-    Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
-
--   **Reflow improvements of canvas headers and footers**
-
-    Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
-
-    This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
-
-
-## Related ServiceNow applications and features
-
--   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)**
-
-    Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
-
--   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md)**
-
-    Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
-
--   **MID Server**
-
-    The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
-
--   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)**
-
-    Use the ServiceNow® Robotic Process Automation Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
-
-
-**Parent Topic:**[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-studio-rn.md)
 

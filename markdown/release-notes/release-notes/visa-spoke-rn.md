@@ -1,9 +1,9 @@
 ---
 title: Visa Spoke release notes
-description: The ServiceNow Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.
+description: The ServiceNow Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.The ServiceNow Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.The ServiceNow Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 3
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 
 The ServiceNow® Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.
 
-## Visa Spoke highlights for the Yokohama release
+## About Visa Spoke
 
 -   Manage card disputes with Visa Resolve Online \(VROL\) and card-on-file payments with the Visa Stop Payment Service \(VSPS\) API suite using Visa Spoke.
 -   Accept and close dispute items in a queue with Visa Spoke actions.
@@ -21,7 +21,46 @@ The ServiceNow® Visa Spoke enables the ServiceNow AI Platform to connect with t
 
 See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md) for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
+
+**Important:** Visa Spoke is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
+
+## October 2025
+
+The ServiceNow® Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
+
+    Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
+
+    -   Submit Dispute Questionnaire
+    -   Hypersearch Request Builder
+    -   Hypersearch Response Parser
+    -   Create Dispute Pre-Arbitration Request Builder
+    -   Create Dispute Pre-Arbitration Response Parser
+    -   Look up Dispute Response Details Request Builder
+    -   Look up Dispute Response Details Response Parser
+    -   Look up Dispute Pre-Arbitration Response Details Request Builder
+    -   Look up Dispute Pre-Arbitration Response Details Response Parser
+    -   Look up Dispute Pre-Arbitration Details Request Builder
+    -   Look up Dispute Pre-Arbitration Details Response Parser
+    -   Look up Dispute Details Request Builder
+    -   Look up Dispute Details Response Parser
+
+## Yokohama
+
+The ServiceNow® Visa Spoke enables the ServiceNow AI Platform to connect with the Visa Resolve Online \(VROL\) API suite and Visa Stop Payment Service \(VSPS\) APIs, providing seamless access to Visa's card, payment, and dispute resolution services. Visa Spoke was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Visa Stop Payment Service \(VSPS\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md)**
 
@@ -56,9 +95,7 @@ See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yok
     -   Cancel Multiple Stop Instructions Request Builder​
     -   Cancel Multiple Stop Instructions Response Parser​
 
-**Important:** Visa Spoke is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
-## Changed in this release
+### What's changed
 
 -   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
 
@@ -69,42 +106,4 @@ See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yok
     -   Look up Dispute Response Details Response Parser
     -   Look up Dispute Details Response Parser
     -   Submit Dispute Questionnaire
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
-
-    Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
-
-    -   Submit Dispute Questionnaire
-    -   Hypersearch Request Builder
-    -   Hypersearch Response Parser
-    -   Create Dispute Pre-Arbitration Request Builder
-    -   Create Dispute Pre-Arbitration Response Parser
-    -   Look up Dispute Response Details Request Builder
-    -   Look up Dispute Response Details Response Parser
-    -   Look up Dispute Pre-Arbitration Response Details Request Builder
-    -   Look up Dispute Pre-Arbitration Response Details Response Parser
-    -   Look up Dispute Pre-Arbitration Details Request Builder
-    -   Look up Dispute Pre-Arbitration Details Response Parser
-    -   Look up Dispute Details Request Builder
-    -   Look up Dispute Details Response Parser
-
-## Activation information
-
-Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)**
-
-    Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
-
--   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md)**
-
-    Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
-
--   **[Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/spokes.md)**
-
-    Integrate spokes with ServiceNow® Financial Services Operations \(FSO\) applications to enable flow designers to provide specific actions within Workflow Studio for those applications.
-
-
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
 

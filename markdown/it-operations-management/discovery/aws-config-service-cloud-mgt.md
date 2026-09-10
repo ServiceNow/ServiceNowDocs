@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-09"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 6
 breadcrumb: [AWS events-driven discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -21,6 +21,7 @@ Configure the Amazon Web Services \(AWS\) Config service to send event notificat
 -   Ensure that the Discovery \(com.snc.discovery\) plugin is installed and activated in the instance.
 -   Ensure that you have valid AWS subscriptions \(service accounts\) and its associated logical datacenters are discovered.
 -   Ensure that the user account password used to subscribe the instance to the Simple Notification Service \(SNS\) does not contain the @ or \# characters.
+-   Ensure that the AWS Config recorder is properly configured with continuous recording enabled to prevent events from being nested with a "detail" JSON node.
 
 Roles required:
 
@@ -45,7 +46,7 @@ Many of the steps in the topic are performed in the AWS portal. For more informa
 
 If you're using domain separation for Cloud Discovery, the events are also domain-separated. Therefore, you can view the details of a processed event only if it belongs to your domain. If an event isn’t associated with any service account, then it’s associated with the global domain.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent the failed events visibility to all domains, you can set the **sn\_cmp.error\_events.default\_domain** property to sys\_id of the service-provider domain so that the failed events appears only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent this, you can set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. This ensures that failed events appear only to the service-provider domain administrator.
 
 ## Procedure
 
@@ -77,6 +78,8 @@ Type
 
 Notification topic type.Select the **Standard** topic type.
 
+**Important:** Do not select FIFO. FIFO topics only support the SQS subscription protocol. Standard is required because the ServiceNow subscription uses HTTPS.
+
 </td></tr><tr><td>
 
 Name
@@ -95,6 +98,8 @@ Display name of the SNS topic.
 
 </td></tr></tbody>
 </table>    3.  Select **Create topic**.
+
+        For more information, see [Creating an Amazon SNS topic](https://docs.aws.amazon.com/sns/latest/dg/sns-create-topic.html).
 
 4.  Subscribe the instance to the SNS topic.
 
@@ -145,22 +150,145 @@ https://<username>:<user_password>@<instance_URL>/api/now/cloud_event?sysparm_re
 </td></tr></tbody>
 </table>    3.  Select **Create subscription**.
 
-5.  Enable **AWS** event recording.
+        For more information, see [Subscribing to an Amazon SNS topic](https://docs.aws.amazon.com/sns/latest/dg/sns-create-subscribe-endpoint-to-topic.html).
 
-    1.  Navigate to **Config** &gt; **Settings**.
+5.  Configure AWS Config data and delivery channel settings.
 
-    2.  On the Settings page, select **Edit**.
+    1.  Navigate to **AWS Config** &gt; **Settings**.
 
-    3.  Select the **Turn on** check box.
+    2.  In the Data and delivery section, select **Edit**.
 
-    4.  On the Start recording dialog box, select **Confirm**.
+    3.  On the Edit data and delivery channel settings form, fill in the fields.
 
-    5.  Fill the values on the Edit settings form.
+<table id="table_data_delivery"><thead><tr><th>
 
-        For a description of the form fields, see [Edit settings form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/edit-aws-event-recording-settings-form-reference.md).
+Field
 
-    6.  Select **Save**.
+</th><th>
 
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Data retention period
+
+</td><td>
+
+Length of time to retain AWS Config data.Select **Retain AWS Config data for 7 years** or set a custom retention period.
+
+</td></tr><tr><td>
+
+Amazon S3 bucket
+
+</td><td>
+
+S3 bucket for storing configuration history and snapshots.Select one of the following options:
+
+-   **Create a bucket**
+-   **Choose a bucket from your account**
+-   **Choose a bucket from another account**
+
+
+</td></tr><tr><td>
+
+Amazon SNS topic
+
+</td><td>
+
+SNS topic for streaming configuration changes and notifications.Select the **Stream configuration changes and notifications to an Amazon SNS topic** check box.
+
+Select **Choose a topic from your account** and select the SNS topic created in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-config-service-cloud-mgt.md).
+
+</td></tr></tbody>
+</table>    4.  Select **Save**.
+
+        For more information, see [Updating the delivery channel](https://docs.aws.amazon.com/config/latest/developerguide/update-dc-console.html).
+
+6.  Configure AWS Config recorder settings.
+
+    1.  On the Settings page, in the Recorder section, select **Edit**.
+
+    2.  On the Edit customer managed recorder settings form, fill in the fields.
+
+<table id="table_recorder"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Enable recording
+
+</td><td>
+
+Turns the recorder on or off.Select the **Enable recording** check box.
+
+</td></tr><tr><td>
+
+Recording strategy
+
+</td><td>
+
+Determines which resource types to record.Select one of the following options:
+
+-   **All resource types with customizable overrides**: Records all current and future supported resource types in the Region. You can override the recording frequency for specific resource types or exclude specific resource types entirely.
+-   **Specific resource types**: Records only the resource types you specify.
+
+
+</td></tr><tr><td>
+
+Recording frequency
+
+</td><td>
+
+How often to record configuration changes.Select one of the following options:
+
+-   **Continuous recording**: Records configuration changes whenever a change occurs. **This option is required for proper event processing in ServiceNow.**
+-   **Daily recording**: Records configuration data once per day if a change occurred.
+
+
+</td></tr><tr><td>
+
+Override settings
+
+</td><td>
+
+Optional overrides for specific resource types.You can override the recording frequency for specific resource types or exclude specific resource types from recording. You can add up to 100 frequency overrides and 596 exclusions.
+
+</td></tr><tr><td>
+
+IAM role for AWS Config
+
+</td><td>
+
+IAM role that AWS Config uses to access other AWS services.Select one of the following options:
+
+-   **Use an existing AWS Config service-linked role**: Uses a predefined role that includes the permissions AWS Config requires.
+-   **Choose a role from your account**: Uses a pre-existing IAM role from your account.
+
+
+</td></tr></tbody>
+</table>    3.  Select **Save**.
+
+        For more information, see [Managing the configuration recorder](https://docs.aws.amazon.com/config/latest/developerguide/stop-start-recorder.html).
+
+    **Warning:**
+
+    Ensure that the recorder settings are configured correctly with continuous recording enabled. If the AWS Config recorder is not properly configured, AWS Config events may be nested with a "detail" JSON node, which prevents ServiceNow from processing the events.
+
+
+**Symptom:** Events from AWS Config are not being inserted into the ServiceNow instance.
+
+**Cause:** The AWS Config recorder is not properly configured. Without correct recorder settings, event information from AWS is nested with a "detail" JSON node, and the ServiceNow event processing logic cannot detect the events.
+
+**Resolution:** Verify the recorder settings on the AWS Config Settings page. Ensure that:
+
+-   The **Enable recording** check box is selected.
+-   The recording frequency is set to **Continuous recording**.
+-   The SNS topic is correctly configured in the data and delivery channel settings.
 
 ## What to do next
 

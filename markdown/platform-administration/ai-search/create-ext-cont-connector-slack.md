@@ -83,7 +83,7 @@ I am aware that this connector crawls documents from public channels only and th
 
 </td><td>
 
-Option confirming your understanding that the Slack external content connector does not preserve user access permissions and only retrieves content from attachments in public channels.
+Option confirming your understanding that the Slack external content connector doesn't preserve user access permissions and only retrieves content from attachments in public channels.
 
 </td></tr></tbody>
 </table>6.  Save and validate your connection settings by selecting **Validate Connection**.

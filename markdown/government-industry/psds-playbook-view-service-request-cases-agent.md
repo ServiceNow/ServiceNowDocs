@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the Service Request Playbook by navigating to Lists in the CSM Configurable Workspace.
+1.  Open the Service Request Playbook by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **Service Requests** list and click **All**.
 

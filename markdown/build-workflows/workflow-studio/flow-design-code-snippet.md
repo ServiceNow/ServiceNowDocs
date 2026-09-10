@@ -19,6 +19,7 @@ Generate a code snippet to call a specific flow, subflow or action.
 ## Before you begin
 
 -   Activate the flow or subflow you want to call.
+-   Publish the flow or subflow you want to call. The Create code snippet option is only available for published flow and subflow.
 -   Publish the action you want to call.
 
 Role required: flow\_designer or admin

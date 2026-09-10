@@ -1,9 +1,9 @@
 ---
 title: Healthcare Operations Core release notes
-description: The ServiceNow Healthcare Operations Core application provides the foundation to enable hospitals to streamline and automate their operations. Healthcare Operations Core is a new application in the Yokohama release.
+description: The ServiceNow Healthcare Operations Core application provides the foundation to enable hospitals to streamline and automate their operations. Healthcare Operations Core is a new application in the Yokohama release.The ServiceNow Healthcare Operations Core application provides the foundation to enable hospitals to streamline and automate their operations. Healthcare Operations Core is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The ServiceNow® Healthcare Operations Core application provides the foundation to enable hospitals to streamline and automate their operations. Healthcare Operations Core is a new application in the Yokohama release.
 
-## Healthcare Operations Core highlights for the Yokohama release
+## About Healthcare Operations Core
 
 -   Gain visibility into operational cases that are related to your care team and create support requests using the Care Team Portal.
 -   Expand operational cases to supporting services departments by leveraging the Healthcare Operations case type.
@@ -20,9 +20,22 @@ The ServiceNow® Healthcare Operations Core application provides the foundation 
 
 See [Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-cto-app.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Healthcare Operations Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Healthcare Operations Core features
+-   **Activation information**
+
+    Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-life-sciences-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Healthcare Operations Core application provides the foundation to enable hospitals to streamline and automate their operations. Healthcare Operations Core is a new application in the Yokohama release.
+
+### What's new
 
 -   **[Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)**
 
@@ -37,25 +50,4 @@ See [Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/Se
 
     Create healthcare organizations and hierarchies, add or edit members, and automatically create associated Service Model Foundation records \(internal business locations\).
 
-
-## Activation information
-
-Install Healthcare Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-core-app.md)**
-
-    ServiceNow® Healthcare and Life Sciences Service Management Core is a scoped application that provides the Healthcare and Life Sciences data model for Healthcare and Life Sciences industry products, a workspace for viewing patient information and healthcare-related cases, and document templates for managing healthcare-related documents.
-
--   **[Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-cto-it-app.md)**
-
-    ServiceNow® Care Team Operations for Healthcare IT contains the case types to report and fulfill healthcare IT issues and utilizes the Healthcare Operations Core from the Healthcare Operations Core application.
-
--   **[Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/care-team-operations-for-biomed.md)**
-
-    ServiceNow® Care Team Operations for Biomed contains the case types to report and fulfill healthcare biomed issues and utilizes the Healthcare Operations Core from the Healthcare Operations Core application.
-
-
-**Parent Topic:**[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-life-sciences-rn-landing.md)
 

@@ -1,9 +1,9 @@
 ---
 title: Security Incident Response release notes
-description: The ServiceNow Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.
+description: The ServiceNow Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.The ServiceNow Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.The ServiceNow Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.
 
-## Security Incident Response highlights for the Yokohama release
+## About Security Incident Response
 
 -   Identify inefficiencies and optimize the resolution process of security incidents for faster closure by using Process MIning.
 -   Implemented CrowdStrike Next-Gen SIEM integration enabling real-time ingestion of correlated detections, and enrichment data.
@@ -23,13 +23,63 @@ The ServiceNow® Security Incident Response \(SIR\) application helps your organ
 
 See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Security Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    -   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
+
+        The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Process Mining for security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-process-mining.md)**
 
     Identify factors contributing to delays in processing Security Incident Response \(SIR\) incidents that take a long time to close or resolve by scanning historical SIR records through Process Mining. Time-consuming factors can include multiple reassignments, prolonged hold times, and periods of inactivity.
+
+-   **[Add indirectly linked VITs to CVEs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/configure-mitre-att-ck-properties.md)**
+
+    Identify all the Third-Party Entities \(TPEs\) associated with a Common Vulnerabilities and Exposures \(CVE\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the sn\_ti.include\_cve\_vit\_indirect\_relation property.
+
+-   **[Configure on-call schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/on-call-schedule-sir.md)**
+
+    As an admin:
+
+    -   Create a shift and assign or remove members to/from the shift.
+    -   Create/edit on-call schedules for groups.
+    -   View any group’s on-call schedule, including those to which they belong.
+    As an analyst:
+
+    -   Specify your availability and preferred contact methods.
+    -   View your on-call schedule and see other members of your shift.
+-   **[Enhancements to relationship graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-relationship-graph.md)**
+
+    As an admin:
+
+    -   Define default child nodes to populate in the relationship graph.
+    -   Configure relationship labels.
+    As an analyst:
+
+    -   Add or remove child nodes at the parent node level.
+    -   Save the state of the relationship graph.
+    -   Retrieve updated data.
+
+## Yokohama Early Availability
+
+The ServiceNow® Security Incident Response \(SIR\) application helps your organization connect security and IT teams, respond faster and efficiently to threats, and view your organization's security posture. Security Incident Response was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[CrowdStrike Next-Gen SIEM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/crowdstrike-next-gen-integration-secops.md)**
 
@@ -51,21 +101,6 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
 
     A new Profile Admin role \(sn\_si.ingestion\_profile\_admin\) provides access to configure plugins, and create, edit, delete, and manage profiles for the Splunk, Splunk ES, and Azure Sentinel Integration for Security Operations application.
 
--   **[Add indirectly linked VITs to CVEs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/configure-mitre-att-ck-properties.md)**
-
-    Identify all the Third-Party Entities \(TPEs\) associated with a Common Vulnerabilities and Exposures \(CVE\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the sn\_ti.include\_cve\_vit\_indirect\_relation property.
-
--   **[Configure on-call schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/on-call-schedule-sir.md)**
-
-    As an admin:
-
-    -   Create a shift and assign or remove members to/from the shift.
-    -   Create/edit on-call schedules for groups.
-    -   View any group’s on-call schedule, including those to which they belong.
-    As an analyst:
-
-    -   Specify your availability and preferred contact methods.
-    -   View your on-call schedule and see other members of your shift.
 -   **[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/daily-status-sir.md)**
 
     As an admin, create report templates that can be used to generate an incident summary or an executive summary for analysis and sharing.
@@ -76,17 +111,6 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
 
     Initiate conference calls using communication channels such as Microsoft Teams, Cisco Webex, or Zoom with customers and peer agents to resolve security incidents over a call by using the SIR conference call feature.
 
--   **[Enhancements to relationship graphs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-relationship-graph.md)**
-
-    As an admin:
-
-    -   Define default child nodes to populate in the relationship graph.
-    -   Configure relationship labels.
-    As an analyst:
-
-    -   Add or remove child nodes at the parent node level.
-    -   Save the state of the relationship graph.
-    -   Retrieve updated data.
 -   **[Proofpoint integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/proofpoint-integration-secops-landing.md)**
 
     Proofpoint integration for Security Operations supports integration between SOAR \(Security Orchestration, Automation, and Response\) and Proofpoint Targeted Attack Protection \(TAP\) software. This integration provides the following benefits:
@@ -98,14 +122,12 @@ See [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/Se
     Preview the evidence file of the incident from either the Data Loss Prevention analyst workspace or the DLP end user workspace.
 
 
-## UI changes
+### What's changed
 
 -   **[Start a Sidebar chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/initiate-chat-sidebar-sir.md)**
 
     The **Discuss** option has been renamed **Start Chat** and moved under the **Collaborate** option.
 
-
-## Changed in this release
 
 -   **[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-operations-landing-page.md)**
 
@@ -179,26 +201,4 @@ Workflow was migrated to Workflow Studio. For more information, see the followin
 
     View security incidents with read access and update security incidents with write access without any defined security role.
 
-
-## Activation information
-
-Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sec-ops-common-functionality.md)**
-
-    The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
-
-
-## Related ServiceNow applications and features
-
--   **[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/vuln-landing-page.md)**
-
-    Vulnerability Response is part of the Security Operations application suite. Together, these applications connect security to your IT department, increase the speed and efficiency of your response, and give you a definitive view of your security posture.
-
--   **[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/threat-intel-landing-page.md)**
-
-    The ServiceNow® Threat Intelligence application enables you to find indicators of compromise \(IoC\) and enrich security incidents with threat intelligence data.
-
-
-**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)
 

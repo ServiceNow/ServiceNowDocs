@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-localization.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -26,11 +26,11 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Search
+AI Skill Kit
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see .
+Now Assist supports Dynamic Translation for Yokohama.
 
 </td></tr><tr><td>
 
@@ -90,19 +90,11 @@ Now Assist AI agents is built on the GPT-4o-based framework and supports localiz
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
-
-</td><td>
-
-Now Assist supports Dynamic Translation for Yokohama.
-
-</td></tr><tr><td>
-
 Now Assist in AI Search
 
 </td><td>
 
-Now Assist in AI Search supports  in Now Assist Genius Results. For details, see  and .
+Now Assist in AI Search supports [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) in Now Assist Genius Results. For details, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-na-gr.md) and [Dynamic Translation for Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-na-actions-gr.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +102,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- is supported for non-streaming Now Assist Virtual Agent conversations. For details, see  and .
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md) and .
 
 </td></tr><tr><td>
 

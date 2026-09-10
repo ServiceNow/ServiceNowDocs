@@ -1,18 +1,18 @@
 ---
 title: Accounts Payable Operations release notes
-description: The ServiceNow Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
+description: The ServiceNow Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.The ServiceNow Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.The ServiceNow Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.The ServiceNow Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Accounts Payable Operations release notes
 
 The ServiceNow® Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
 
-## Accounts Payable Operations highlights for the Yokohama release
+## About Accounts Payable Operations
 
 -   Leverage Accounts payable document classification skill to classify email attachments into invoice, credit memo, or supporting documents based on the AI recommended confidence score resulting in error free invoice data extraction.
 -   Validate supplier provided tax against a system-calculated tax by integrating an enterprise-grade tax engine resulting in straight-through processing of invoice while improving accuracy, compliance, and operational efficiency
@@ -23,59 +23,51 @@ The ServiceNow® Accounts Payable Operations application enables Accounts Payabl
 -   Get instant, real-time assistance from generative AI to summarize invoice case details through the Now Assist panel.
 -   Use the Accounts Payable Operations properties page to control the configuration of APO properties.
 
+## Activation and other requirements
+
 **Important:** Accounts Payable Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Accounts Payable Operations to Yokohama
+-   **Activation information**
 
-If you’re upgrading from a previous release, you must configure the reference field in the Tax Code \[sn\_fin\_tax\_code\] table. The exception engine validates the invoice using the tax code and raises exceptions if necessary.
+    Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Yokohama release
+-   **Upgrade information**
+
+    If you’re upgrading from a previous release, you must configure the reference field in the Tax Code \[sn\_fin\_tax\_code\] table. The exception engine validates the invoice using the tax code and raises exceptions if necessary.
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
+
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/source-to-pay-operations-rn-landing.md)
+
+## March 2026
+
+The ServiceNow® Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Tax Engine Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/tax-engine-integration.md)**
 
     The tax engine integration framework validates supplier-provided tax against system tax at invoice line level, maintains compliance with regional and global tax regulations. This integration triggers automatic tax validation, handles exceptions for tax variance and missing data, enables manual revalidation and rolling up of system tax.
 
 
--   **[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/using-supplier-collaboration-portal.md)**
+## May 2025
 
-    In the supplier collaboration portal home page, the supplier contact can choose to view invoice and inquiry cases associated with their account.
+The ServiceNow® Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
 
-    Supplier contacts can be assigned with multiple suppliers.
-
-
--   **[Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/set-apo-properties.md)**
-
-    The one-stop property page provides great flexibility and ease of configuration to users with admin roles. AP admin and integrator use the APO properties page to set the parameters that control the invoice line mapping, invoice ingestion API, and exception management. Depending on the invoice line-mapping properties set, AP admin and integrator can choose to review and confirm the invoice line mapping results generated by rule-based engine and Now Assist.
-
-
--   **[Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/how-to-use-playbook.md)**
-
-    Playbook activity card displays updated invoice statuses. AP specialist reviews and acts on the mapping recommendations by Now Assist.
-
+### What's new
 
 -   **[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-apo.md)**
 
-    Activate the purchase order line-mapping skill in the AI Admin Hub console to enable automatic mapping of invoice lines with purchase order lines using Now Assist.
-
-    Activate the invoice data extraction skill in the AI Admin Hub console to leverage GPT-4o capabilities in extracting invoice information using Document Intelligence and reducing the manual effort.
-
-    Generate invoice case summarization in multiple languages with the multi-language support in the Now Assist console.
-
-    With the Now Assist panel, you can get assistance from generative AI to solve invoice case-related issues faster.
-
-    As a fulfiller, you can learn about the details of a purchase order and its associated cases from record summarization generated by Now Assist.
-
-    Take advantage of the translation capabilities available in the Now Assist for user-generated content.
-
-    A new requester role is added to access Now Assist Accounts Payable Operations features powered by generative AI. Customers need to explicitly grant these roles to users for access to GenAI features and capabilities.
+    Activate the purchase order line-mapping skill in the AI Admin Hub console to enable automatic mapping of invoice lines with purchase order lines using Now Assist.Activate the invoice data extraction skill in the AI Admin Hub console to leverage GPT-4o capabilities in extracting invoice information using Document Intelligence and reducing the manual effort.Generate invoice case summarization in multiple languages with the multi-language support in the Now Assist console.With the Now Assist panel, you can get assistance from generative AI to solve invoice case-related issues faster.As a fulfiller, you can learn about the details of a purchase order and its associated cases from record summarization generated by Now Assist.Take advantage of the translation capabilities available in the Now Assist for user-generated content.A new requester role is added to access Now Assist Accounts Payable Operations features powered by generative AI. Customers need to explicitly grant these roles to users for access to GenAI features and capabilities.
 
 
--   ****
-
-    Use agentic workflows in Accounts Payable Operations to resolve invoice inquiry cases raised by employees and suppliers. These workflows also help track associated invoice records efficiently. With an agentic workflow, you can process a high volume of invoice inquiries that come through email attachments to significantly reduce the workload of human agents.
-
-
-## Changed in this release
+### What's changed
 
 -   **[Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/work-with-invoices.md)**
     -   Invoice line statuses are updated as:
@@ -89,13 +81,29 @@ If you’re upgrading from a previous release, you must configure the reference 
     Accounts Payable Operations integration with Document Intelligence enables AP admin to create invoice manually when DocIntel is down. The capture invoice details activity card displays the **Create invoice** option.
 
 
-## Activation information
+## Yokohama
 
-Install Accounts Payable Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Accounts Payable Operations application enables Accounts Payable specialists to analyze and process invoice and invoice cases. The generative AI capabilities are leveraged in invoice line mapping with purchase order line mapping. The Accounts Payable Operations was enhanced and updated in the Yokohama release.
 
-## Localization information
+### What's new
 
-Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+-   **[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/using-supplier-collaboration-portal.md)**
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/source-to-pay-operations-rn-landing.md)
+    In the supplier collaboration portal home page, the supplier contact can choose to view invoice and inquiry cases associated with their account.Supplier contacts can be assigned with multiple suppliers.
+
+
+-   **[Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/set-apo-properties.md)**
+
+    The one-stop property page provides great flexibility and ease of configuration to users with admin roles. AP admin and integrator use the APO properties page to set the parameters that control the invoice line mapping, invoice ingestion API, and exception management. Depending on the invoice line-mapping properties set, AP admin and integrator can choose to review and confirm the invoice line mapping results generated by rule-based engine and Now Assist.
+
+
+-   **[Using Playbook in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/how-to-use-playbook.md)**
+
+    Playbook activity card displays updated invoice statuses. AP specialist reviews and acts on the mapping recommendations by Now Assist.
+
+
+-   ****
+
+    Use agentic workflows in Accounts Payable Operations to resolve invoice inquiry cases raised by employees and suppliers. These workflows also help track associated invoice records efficiently. With an agentic workflow, you can process a high volume of invoice inquiries that come through email attachments to significantly reduce the workload of human agents.
+
 

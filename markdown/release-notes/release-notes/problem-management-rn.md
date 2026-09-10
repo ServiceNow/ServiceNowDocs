@@ -1,9 +1,9 @@
 ---
 title: Problem Management release notes
-description: The ServiceNow Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.The ServiceNow Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,16 +12,29 @@ reading_time_minutes: 1
 
 The ServiceNow® Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.
 
-## Problem Management highlights for the Yokohama release
+## About Problem Management
 
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Simplify the management of problems and problem tasks using Problem Management models.
 
-See  for more information.
+See [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ProblemManagement.md) for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
 
--   **User role for service desk agents**
+-   **Activation information**
+
+    Problem Management is a ServiceNow AI Platform feature that is active by default.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/prob-roles-instld-itsm-roles.md)**
 
     With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -36,16 +49,10 @@ See  for more information.
 
     The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **Problem Models for Streamlined Problem Management**
+-   **[Problem Models for Streamlined Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/problem-mgmt-models.md)**
 
     Problem Management models are used to simplify management of problems and problem tasks. These models provide an efficient way to configure state transitions and define conditions to move from one state to another.
 
     This functionality is enabled out of the base system for new or zBoot customers.
 
-
-## Activation information
-
-Problem Management is a ServiceNow AI Platform feature that is active by default.
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
 

@@ -1,6 +1,6 @@
 ---
 title: ColdFusion discovery
-description: The ServiceNow Discovery application finds Adobe ColdFusion servers and the instances of ColdFusion applications running on them. Only the 2016 version of ColdFusion is supported. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application finds Adobe ColdFusion servers and the instances of ColdFusion applications running on them. Only the 2016 version of ColdFusion is supported. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cold-fusion-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # ColdFusion discovery
 
-The ServiceNow Discovery application finds Adobe ColdFusion servers and the instances of ColdFusion applications running on them. Only the 2016 version of ColdFusion is supported. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application finds Adobe ColdFusion servers and the instances of ColdFusion applications running on them. Only the 2016 version of ColdFusion is supported. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Components
 

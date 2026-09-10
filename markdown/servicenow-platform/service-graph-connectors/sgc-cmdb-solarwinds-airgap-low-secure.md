@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Download the `SgSolarWindsLowSecureSetup.ps1` PowerShell script from the link provided in the Add Another Connection section.
 
-3.  Log on to your low-secure server.
+3.  Log in to your low-secure server.
 
 4.  Create a SolarWinds directory.
 

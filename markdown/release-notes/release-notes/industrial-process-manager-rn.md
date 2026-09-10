@@ -1,9 +1,9 @@
 ---
 title: Industrial Process Manager release notes
-description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Yokohama release.
+description: The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Yokohama release.The ServiceNow Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-07-22"
 reading_time_minutes: 5
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Yokohama release.
 
-## Industrial Process Manager highlights for the Yokohama release
+## About Industrial Process Manager
 
 -   Identify sites on your equipment model entity that aren't in use with a new **Operational Status** field value in the Industrial Workspace.
 -   Filter out **Not in use** or **Retired** equipment model entities in the Industrial Workspace using the **Operational Status** field value.
@@ -23,9 +23,22 @@ The ServiceNow® Industrial Process Manager application enables your teams to ma
 
 See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/industrial-process-manager-overview.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Industrial Process Manager is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Industrial Process Manager application enables your teams to map and visualize the industrial equipment models and associated production processes at individual facilities. Industrial Process Manager was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Set the operational status for equipment model entity sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/equipment-model-workspace.md)**
 
@@ -60,7 +73,7 @@ See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/Se
     Map Discovery detected devices that have an IP address on their Network Adapter record using the AMAZING feature.
 
 
-## UI changes
+### What's changed
 
 -   **[Not in use value for the Operational Status field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/equipment-model-workspace.md)**
 
@@ -107,23 +120,8 @@ See [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/Se
     The Industrial Process Health icon \(\[Omitted image "industrial-process-health-icon.png"\] Alt text: Industrial Process Health icon\) was added to OT incident records, OT change request records, and remediation task records to access the Unified Map in the record side panel.
 
 
-## Changed in this release
-
 -   **[Viewing multiple records at once in the Equipment Model Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/managing-equipment-models-after-data-import.md)**
 
     In the Equipment Model Manager of the Industrial Workspace, view multiple records and keep the record context available instead of only viewing one record at a time. When creating or opening multiple records, the records open in single row of tabs at the same level so you can navigate back to other opened records.
 
-
-## Activation information
-
-Install Industrial Process Manager by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-manager.md)**
-
-    The ServiceNow Operational Technology Manager enables you to aggregate OT device data from multiple sources so that you can build the foundational data relationships used in the Industrial solution.
-
-
-**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)
 

@@ -34,7 +34,7 @@ Update Semantic Cache
 </td><td>
 
 -   Populate the second-level Now Assist Q&amp;A Genius Results cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/search-signal-tables.md).
--   Purge all unpinned entries in the Now Assist Q&amp;A Genius Results second-level cache that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
+-   Purge all unpinned entries in the Now Assist Q&amp;A Genius Results second-level cache that haven't been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 </td></tr></tbody>
 </table>## Entity View Action Mapper \(EVAM\) configurations installed with Now Assist in AI Search

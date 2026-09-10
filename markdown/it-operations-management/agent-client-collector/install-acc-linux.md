@@ -39,7 +39,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-During Linux installation \(and upgrade\), the agent executable file is enabled with Linux capabilities \(CAP\_SETFCAP, CAP\_SETPCAP\) by default. Store apps such as Agent Client Collector Log Analytics \(ACC-L\) can use this to grant capabilities to read the entire file system \(CAP\_DAC\_READ\_SEARCH\). The system undergoes various security measures, such as double verification of the content origination, leveraging the plugin verification process and more, to ensure that granting capabilities does not pose a security risk. This procedure assumes that you are familiar with commands for Linux capabilities.
+During Linux installation \(and upgrade\), the agent executable file is enabled with Linux capabilities \(CAP\_SETFCAP, CAP\_SETPCAP\) by default. Store apps such as Agent Client Collector Log Analytics \(ACC-L\) can use this to grant capabilities to read the entire file system \(CAP\_DAC\_READ\_SEARCH\). The system undergoes various security measures to verify that granting capabilities does not pose a security risk. These measures include double verification of content origination and the plugin verification process. This procedure assumes that you are familiar with commands for Linux capabilities.
 
 To opt out of these enhanced capabilities, run the following commands, based on your Linux OS/packaging system:
 

@@ -27,15 +27,15 @@ Role required: none
 
 3.  Configure your preferences for system notifications outside of the platform.
 
-<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d114397e97">
+<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d114399e97">
 
 Option
 
-</th><th align="left" id="d114397e100">
+</th><th align="left" id="d114399e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114397e106">
+</th></tr></thead><tbody><tr><td id="d114399e106">
 
 **Allow Notifications**
 
@@ -43,7 +43,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d114397e115">
+</td></tr><tr><td id="d114399e115">
 
 **Advanced Preferences**
 
@@ -51,7 +51,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d114397e124">
+</td></tr><tr><td id="d114399e124">
 
 **System notifications**
 
@@ -59,7 +59,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d114397e136">
+</td></tr><tr><td id="d114399e136">
 
 **Custom notifications**
 
@@ -67,7 +67,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d114397e146">
+</td></tr><tr><td id="d114399e146">
 
 **Delivery Channels**
 

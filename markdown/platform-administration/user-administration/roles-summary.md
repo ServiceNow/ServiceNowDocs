@@ -310,7 +310,7 @@ Search application administrator \[search\_application\_admin\]
 
 Chat analytics administrator \[chat\_analytics\_admin\]
 
-Now Assist for Creator \[now.assist.creator\]
+ServiceNow Otto for Creator \[now.assist.creator\]
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/ua-creating-roles.md)

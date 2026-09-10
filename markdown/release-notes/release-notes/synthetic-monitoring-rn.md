@@ -1,9 +1,9 @@
 ---
 title: Synthetic monitoring release notes
-description: The ServiceNow synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring is a new application in the Yokohama release.
+description: The ServiceNow synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring is a new application in the Yokohama release.The ServiceNow synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,19 +12,40 @@ reading_time_minutes: 2
 
 The ServiceNow® synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring is a new application in the Yokohama release.
 
-## Synthetic monitoring highlights for the Yokohama release
+## About Synthetic monitoring
 
 -   View real-world performance data from your services without needing actual users, catching issues before they're released to production.
 -   Get real-time notifications for performance degradations or outages before they impact users.
 -   Visualize synthetic test results and share insights with stakeholders.
 
-See  for more information.
+See [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/synthetic-monitoring-landing-page.md) for more information.
+
+## Activation and other requirements
 
 **Important:** Synthetic monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Synthetic monitoring features
+-   **Activation information**
 
--   ****
+    Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Additional requirements**
+
+    You must do the following before you can use synthetic monitoring:
+
+    -   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/proxy-agent.md).
+
+        Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
+
+    -   Add CIs in the CMDB for the endpoints that you want to monitor.
+    -   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
+
+## Yokohama
+
+The ServiceNow® synthetic monitoring application in the Service Operations Workspace \(SOW\) empowers organizations to proactively manage and enhance the performance and availability of critical service endpoints. By simulating user transactions on HTTP endpoints, this solution identifies performance bottlenecks, helps ensure up-time, and optimizes user experiences. Synthetic monitoring is a new application in the Yokohama release.
+
+### What's new
+
+-   **[Create and edit a synthetic monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/create-synthetic-monitor.md)**
 
     Create and manage synthetic tests to replicate end-user transactions for critical service endpoints. Configure an alert to activate when a test fails, enabling you to address issues before they impact users.
 
@@ -35,7 +56,7 @@ See  for more information.
     -   Test for response text: Validate whether specific content exists in the response body, enabling accurate end-to-end checks.
     -   Run tests from your local Glide instance: Enable closer integration with your instance and reduce the need for external test runners.
     -   Run tests from multiple locations.
--   ****
+-   **[Identifying system issues with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/identifying-system-issues.md)**
 
     View the Overview page for a monitor where you can:
 
@@ -45,7 +66,7 @@ See  for more information.
     -   View a historical log of synthetic test runs, including details and the response body text.
     -   Share results by exporting a list of tests for a monitor.
 
-## UI changes
+### What's changed
 
 -   **Overview and detail pages in SOW.**
 
@@ -56,30 +77,4 @@ See  for more information.
     -   Improved filtering for finding your endpoints.
     -   Bulk editing of monitors.
     -   Charts on the Overview page now display failures instead of successes.
-
-## Activation information
-
-Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Additional requirements
-
-You must do the following before you can use synthetic monitoring:
-
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see .
-
-    Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
-
--   Add CIs in the CMDB for the endpoints that you want to monitor.
--   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
-
-## Related ServiceNow applications and features
-
--   **Agent Client Collector**
-
-    Synthetic monitoring can use a proxy agent on the Agent Client Collector to monitor the health of service endpoints.
-
--   **Service Operations Workspace**
-
-    Access and use synthetic monitoring in Service Operations Workspace, a configurable workspace that provides a unified experience for multiple IT Operations Management workflows.
-
 

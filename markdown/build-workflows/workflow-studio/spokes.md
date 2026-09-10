@@ -52,7 +52,7 @@ With Robotic Process Automation, your flow designers can use actions to assign a
 -   **[Security Operations spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/secops-spoke.md)**  
 Provides Security Operations actions for flow designers to manage Security Incident Response flow templates.
 -   **[Visual Task Board \(VTB\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/vtb-actions.md)**  
-Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.
+Use VTB actions to build and manage visual task boards directly in your flows. Create boards and lanes, add cards, manage board members, and assign work within Workflow Studio. If you have the flow\_designer or admin role, you can add these actions to any flow.
 
 **Parent Topic:**[Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-integrations.md)
 

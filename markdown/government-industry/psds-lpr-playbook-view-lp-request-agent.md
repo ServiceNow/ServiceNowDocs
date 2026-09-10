@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CSM Configurable Workspace.
+1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 

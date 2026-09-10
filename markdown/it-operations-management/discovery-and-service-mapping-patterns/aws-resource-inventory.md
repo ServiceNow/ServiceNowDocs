@@ -1,6 +1,6 @@
 ---
 title: Amazon Web Services \(AWS\) Resource Inventory
-description: The ServiceNow Discovery and Service Mapping applications can find and map the AWS resources available by AWS Config Service. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery and Service Mapping applications can find and map the AWS resources available by AWS Config Service. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-resource-inventory.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Amazon Web Services \(AWS\) Resource Inventory
 
-The ServiceNow Discovery and Service Mapping applications can find and map the AWS resources available by AWS Config Service. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications can find and map the AWS resources available by AWS Config Service. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Discovery uses the AWS Resource Inventory pattern to discover the resources available through AWS. Use this pattern for AWS resources which do not have a dedicated pattern, such as AWS Lambda or EC2. This pattern is limited to resources that are available from AWS Config Service, as described in the [AWS Config Developer Guide](https://docs.aws.amazon.com/config/latest/developerguide/resource-config-reference.html).
 

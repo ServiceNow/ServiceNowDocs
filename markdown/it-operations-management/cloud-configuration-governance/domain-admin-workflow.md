@@ -50,7 +50,7 @@ Strong universal process standards, data-driven process design, strict governanc
 
     Service Providers \(SPs\) use domain separation to segregate data for each customer. Users in a given domain have visibility only to the data in their own domains or in child domains. SPs typically control the top-level domain, which gives them visibility to data associated with all domains. Though domain separation support for Discovery is considered Level 2, there is no delegated administration to the child domains in Cloud Provisioning and Governance. The SPs must retain administrative control. As a SP, always run discovery from a leaf domain by logging in as or impersonating a domain administrator to discover your cloud resources.
 
-    Cloud Discovery provides a wizard that allows you to create and run cloud schedules in a single interface. When you create a schedule with the Discovery Manager, you select the accounts to discover, the credentials for accessing these accounts, and the MID Servers to scan the resources. You can then view the results in the Discovery Home page and track any errors that might have occurred.
+    Cloud Discovery provides a wizard that allows you to create and run cloud schedules in a single interface. When you create a schedule with the Discovery Manager, you select the accounts to discover and the credentials for accessing these accounts. You also select the MID Servers to scan the resources. You can then view the results in the Discovery Home page and track any errors that might have occurred.
 
     For more information see,
 

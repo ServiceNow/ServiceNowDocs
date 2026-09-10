@@ -45,15 +45,15 @@ When you add a technical service to SRM, you also add its Technical Service Offe
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d112619e148">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d112838e148">
 
 Option
 
-</th><th align="left" id="d112619e151">
+</th><th align="left" id="d112838e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112619e157">
+</th></tr></thead><tbody><tr><td id="d112838e157">
 
 **Create a new service**
 
@@ -64,7 +64,7 @@ Steps
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d112619e195">
+</td></tr><tr><td id="d112838e195">
 
 **Select existing services**
 

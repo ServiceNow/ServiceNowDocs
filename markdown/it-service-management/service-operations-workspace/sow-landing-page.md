@@ -1,6 +1,6 @@
 ---
 title: Service Operations Workspace for ITSM
-description: ServiceNow Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
+description: ServiceNow Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/sow-landing-page.html
 release: yokohama
@@ -14,15 +14,13 @@ breadcrumb: [IT Service Management]
 
 # Service Operations Workspace for ITSM
 
-ServiceNow® Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
+ServiceNow® Service Operations Workspace is a configurable workspace included in ITSM Professional and Enterprise subscriptions that provides a unified experience for multiple IT Service Management and IT Operations Management workflows. Configure your agent experience using the easy-to-navigate interface of Service Operations Workspace for ITSM.
 
 ## Service Operations Workspace overview
 
-Service Operations Workspace provides a unified interface for IT service agents to manage incidents, changes, requests and approvals. It supports configurable dashboards, list views, and record pages for ITSM and ITOM workflows
+Service Operations Workspace provides a unified interface for IT service agents to manage incidents, changes, requests and approvals. It supports configurable dashboards, list views, and record pages for ITSM and ITOM workflows.
 
 \[Omitted image "sow-overview-landing-new-bg.svg"\] Alt text: Service Operations Workspace
-
-.
 
 For information about how you can automate and optimize your services and operations using Service Operations Workspace, see [Automating and optimizing your services and operations using Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/better-together/service-operations.md).
 
@@ -68,4 +66,8 @@ For information about Service Operations Workspace for ITOM, see [Service Operat
 ## Helpful resources
 
 [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+## Licensing
+
+Service Operations Workspace for ITSM is included in the ITSM Professional and Enterprise license bundles. To verify your entitlement or activate the plugin, see the **** Service Operations Workspace listing on the ServiceNow store.
 

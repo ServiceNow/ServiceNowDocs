@@ -1,18 +1,18 @@
 ---
-title: CSM Configurable Workspace form features
-description: CSM Configurable Workspace form features include account hierarchy, special handling notes, and agent actions.
+title: CRM Workspace form features
+description: CRM Workspace form features include account hierarchy, special handling notes, and agent actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-agent-workspace-agent-actions.html
 release: yokohama
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# CSM Configurable Workspace form features
+# CRM Workspace form features
 
-CSM Configurable Workspace form features include account hierarchy, special handling notes, and agent actions.
+CRM Workspace form features include account hierarchy, special handling notes, and agent actions.
 
 ## Account hierarchy
 
@@ -60,7 +60,7 @@ For more information about configuring the special handling notes feature, see [
 Actions available to customer service agents appear in the form header as buttons or menu items.
 
 -   For CSM Agent Workspace, actions must be enabled for each form by the workspace administrator. For more information, see Set up custom UI actions in legacy workspace.
--   For CSM Configurable Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-action.md).
+-   For CRM Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-action.md).
 
 The **Create Knowledge** action requires the following setup:
 
@@ -70,7 +70,7 @@ The **Create Knowledge** action requires the following setup:
 
 ## Agent assist
 
-Agent assist is available on the Interaction form in CSM Configurable Workspace. Users with the customer service agent role \(sn\_customerservice\_agent\) can use Agent assist to search for information from an interaction. By default, the available search sources include Knowledge articles, Service Catalog, and ServiceNow Community blogs and posts. For more information, see Set up Agent assist.
+Agent assist is available on the Interaction form in CRM Workspace. Users with the customer service agent role \(sn\_customerservice\_agent\) can use Agent assist to search for information from an interaction. By default, the available search sources include Knowledge articles, Service Catalog, and ServiceNow Community blogs and posts. For more information, see Set up Agent assist.
 
 For more information on how to enable Recommended Actions - AI search and disable Agent Assist, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migrate-ra-agent-assist.md).
 

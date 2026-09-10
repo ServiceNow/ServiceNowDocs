@@ -23,7 +23,7 @@ The Yokohama release includes new products.
     -   [ServiceNow Add-in for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sn-addin-for-ms365-rn.md)
 -   **Enterprise Architecture**
 
-    [ServiceNow Otto for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-ea-rn.md)
+    [ServiceNow Otto for Enterprise Architecture \(EA\) release notes]()
 
 -   **Healthcare and Life Sciences**
     -   [Care Team Operations for Biomed release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cto-biomed-rn.md)
@@ -35,13 +35,13 @@ The Yokohama release includes new products.
 
 -   **Intelligent Experiences**
 
-    [Knowledge Graph release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/knowledge-graph-rn.md)
+    [Knowledge Graph release notes]()
 
 -   **IT Operations Management**
     -   [Service Observability release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-observability-rn.md)
     -   [Synthetic monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/synthetic-monitoring-rn.md)
 -   **Now Assist**
-    -   [AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-governance-rn.md)
+    -   [AI Control Tower release notes]()
     -   [Now Assist AI agents release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-ai-agents-rn.md)
 -   **ServiceNow AI Platform capabilities**
 

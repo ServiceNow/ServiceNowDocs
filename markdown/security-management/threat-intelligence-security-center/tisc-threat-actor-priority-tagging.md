@@ -8,9 +8,9 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-06-02"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [automatic tagging, threat actor priority tagging]
-breadcrumb: [Working with automated flows, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Automatic Threat Actor priority tagging
@@ -53,6 +53,10 @@ When a relationship between a Threat Actor and a Location object is created or u
 
 
 [Automated IOC Enrichment]()
+
+[Automated sharing of high-risk IOC's with trusted partners]()
+
+[Automatically add threat intelligence to a TAXII collection]()
 
 [Create vulnerability assessment for zero day]()
 

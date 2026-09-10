@@ -1,9 +1,9 @@
 ---
 title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
-description: The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 7
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 
 The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
 
-## ServiceNow Otto for TMT highlights for the Yokohama release
+## About ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -49,9 +49,43 @@ Yokohama Early Availability
 
 See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
 
+## Activation and other requirements
+
 **Important:** ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
+
+## January 2026
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+
+    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+## December 2025
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Address voice quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-customer-voice.md)**
 
@@ -61,6 +95,12 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
 
     Generate summary details including the record and associated risk solutions and risk occurrences for risk signal and issues records.
 
+
+## September 2025
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/billissue-remediation-usecase.md)**
 
@@ -102,10 +142,16 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
 
     Initiate the consumer registration process using agentic AI to receive step-by-step guidance, including error checks during registration and support for resolving those errors.
 
--   **Configure ACLs for AI agents and agentic workflows**
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
+
+## May 2025
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Monitor engagement health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-resolve-risk.md)**
 
@@ -116,6 +162,12 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
     Retrieve unaddressed risk signals and identify appropriate success plays based on a back-end decision table.
 
 
+## Yokohama General Availability
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's new
+
 -   **[Using Telecommunications, Media, and Technology AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/using-aiagents-usecases.md)**
 
     Use ServiceNow Otto for TMT AI agents to troubleshoot and autonomously resolve customer issues.
@@ -124,6 +176,12 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
     |-------------------------|-----------|
     |Test and repair telecom service issues|Use AI agents to handle task requests that require troubleshooting, diagnosis, and resolution of a case task.|
 
+
+## Yokohama Early Availability
+
+The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Dynamic prompt configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-tmt-customize.md)**
 
@@ -157,48 +215,4 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
 
     While using the Service Exchange for a provider's application, use the Transform Mapping Assist feature to generate transform mappings between provider and consumer tables automatically. This skill enables you to streamline the transformation mapping process by reducing errors and improving overall efficiency.
 
-
-## Changed in this release
-
--   **Changes to Now Assist usage measurement**
-
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
--   **Some Now Assist skills are turned on by default**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
-
-    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
-
-## Activation information
-
-Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see .
-
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
-
--   ****
-
-    Use the AI Admin Hub console to provide you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   ****
-
-    Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
-
--   ****
-
-    Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 

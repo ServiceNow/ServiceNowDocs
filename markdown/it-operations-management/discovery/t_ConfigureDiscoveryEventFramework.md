@@ -20,16 +20,16 @@ Configure Discovery to process jobs using the Event Framework method, which enab
 
 Confirm the following:
 
--   Discovery Admin Workspace is using version 1.9.0 or later.
--   ServiceNow AI Platform is using version XP9, YP4, or later than YP4.
+-   You're using Discovery Admin Workspace v1.9.0 or later.
+-   You're using the Xanadu Patch 9, Yokohama Patch 4, or later version of the ServiceNow AI Platform®.
 
 Role required: discovery\_admin
 
 ## About this task
 
-When not using the Event Framework method, Discovery creates a one-time Schedule Item \[sys\_trigger\] record for each External Communication Channel \(ECC\) queue sensor or pattern input record. After the task is processed, the system scheduler deletes the sys\_trigger record. This approach introduces additional overhead and can lead to significant database churn, while offering limited control over how sensors are processed.
+When not using the Event Framework method, Discovery creates a one-time Schedule Item \[sys\_trigger\] record for each External Communication Channel \(ECC\) queue sensor or pattern input record. After the task is processed, the system scheduler deletes the sys\_trigger. This approach introduces additional overhead and can lead to significant database churn, while offering limited control over how sensors are processed.
 
-The Event Framework method reduces database churn by cycling through multiple event tables over time. Instead of deleting old records one by one, it clears out entire tables when they’re no longer needed and reuses them. This approach helps keep the system running smoothly and efficiently.
+The Event Framework reduces database churn by cycling through multiple event tables over time. Instead of deleting old records one by one, it clears out entire tables when they’re no longer needed and reuses them. This approach is much more efficient and helps keep the system running smoothly.
 
 ## Procedure
 

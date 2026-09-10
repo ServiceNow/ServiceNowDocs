@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_c
 
 1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d206534e51">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d206443e51">
 
 **__Request Something__**
 
@@ -30,7 +30,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_c
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d206534e64">
+</td></tr><tr><td id="d206443e64">
 
 **__Requests__**
 
@@ -57,7 +57,7 @@ The system processes the request, creates the request and any other related reco
 
 [Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

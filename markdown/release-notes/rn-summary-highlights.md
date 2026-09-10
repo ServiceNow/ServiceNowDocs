@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-highlights.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-13"
-reading_time_minutes: 121
+last_updated: "2026-09-10"
+reading_time_minutes: 122
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -26,6 +26,19 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Analytics
+
+</td><td>
+
+-   Track the usage and adoption of your Now Assist implementation.
+-   Monitor the performance of guardrails enabled through AI Guardian.
+-   Gain insights into the search performance in Now Assist self-service experiences.
+-   Track the estimated efficiency and productivity gains enabled through Now Assist.
+
+See [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-analytics.md) for more information.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -36,12 +49,12 @@ AI Control Tower
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 -   AI connections are introduced in AI Control Tower using Service Graph Connectors. AI connections are combination of hyperscalars, AI apps, and agentic AI frameworks. The AI Service Graph Connectors available from March 2026:
-    -   AWS
-    -   Microsoft- Azure Foundry and Copilot
-    -   n8n
-    -   GCP Vertex AI
-    -   LangGraph
-    -   Salesforce
+    -   [AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aws_0.md)
+    -   [Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/microsoft.md)- Azure Foundry and Copilot
+    -   [n8n](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/n8n.md)
+    -   [GCP Vertex AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/gcp-vertex-ai.md)
+    -   [LangGraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/langgraph.md)
+    -   [Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/salesforce.md)
 
 [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
 
@@ -77,24 +90,39 @@ AI Search
 
 </td><td>
 
+-   Index and search text and attachments from ServiceNow AI Platform tables and external document repositories.
+-   Machine learning relevancy intelligently tunes search result relevancy scores based on previous search users' selections.
+-   Semantic vector search and hybrid search modes find results that match the intent and context of your search.
+-   Genius Results highlight the best answers for a search query and provide immediate access to relevant actions.
+-   Content security preserves user access permissions for your searchable content.
+
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/overview-ais.md) for more information.
+
+</td></tr><tr><td>
+
+AI Skill Kit
+
+</td><td>
+
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
--   Improve search precision and contextual relevance with hybrid search, available for customers with Now Assist in AI Search installed.
--   Gain insights into search behavior with a refreshed and updated Search Preview UI.
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+Yokohama Patch 6
 
--   Search more intuitively with an updated, consumer-grade user experience in search portals, global search, and workspace search.
+-   Use UI Builder to deploy custom skills.
+-   Import data into AI Skill Kit with a CSV file.
+-   Use AI to create ground truth for your data.
+-   Use a custom data generator to create synthetic datasets.
 
-[Yokohama Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+-   Users can create synthetic data in AI Data Kit.
+-   Generated synthetic data can be saved as a dataset.
+-   Add and manage tools of a custom skill, visually in the new Tools editor, including conditional execution of tools.
+-   Customize ServiceNow skills with new prompts or providers in Now Assist Skill Kit to suit your specific business needs.
 
--   Restrict index size and increase search performance with guardrails that limit the number of Task and Alert table records indexed for search
--   Customize the semantic vector search experience by configuring semantic indexing settings for your indexed sources
--   Improve the focus of search results by excluding search sources in a search profile from being used to generate search results or Genius Result answers
--   Expand search recall by indexing content from knowledge blocks
--   Highlight important search results by boosting relevancy for results that match synonyms in a synonym dictionary
-
-See  for more information.
+See [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -109,7 +137,7 @@ AIOps LEAP
 -   Use published LEAP in SOW to resolve a new incident quickly.
 -   Use a value dashboard for performance analysis and enhancement.
 
-See  for more information.
+See [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap.md) for more information.
 
 </td></tr><tr><td>
 
@@ -132,7 +160,7 @@ Access Management
 -   Security Data Filters are a powerful new feature designed to restrict access to sensitive records based on roles or security attributes. This ensures only authorized users can view data, regardless of how the data is accessed.
 -   Related Record Access allows enforcement of consistent access rules across related tables, ensuring that users only see records associated with the data they are authorized to access.
 
-See  for more information.
+See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control-rules.md) for more information.
 
 </td></tr><tr><td>
 
@@ -162,7 +190,7 @@ Adoption Services
 -   Use the new Help Center UI features that provide a more enhanced experience.
 -   Explore the enhanced Guided Setup that support running it multiple times.
 
-See  for more information.
+See [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/adoption-services.md) for more information.
 
 </td></tr><tr><td>
 
@@ -170,17 +198,11 @@ Advanced AI Search Management Tools
 
 </td><td>
 
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+-   Analyze search trends from the preceding six months using the AI Search Analytics dashboard
+-   Review key performance metrics and reports for your AI Search usage.
+-   Apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
--   Review performance metrics and trends more easily with an updated and refreshed dashboard UI.
--   Analyze performance metrics and trends for search applications used in Recommended Actions.
-
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
--   Analyze search trends from the preceding six months using the AI Search Analytics dashboard's **Date range** interactive filter.
--   Understand your mobile search traffic with support for the Mobile Platform search application in the AI Search Analytics dashboard's **Search application** interactive filter.
-
-See  for more information.
+See [Platform Analytics Solution for Advanced AI Search Management Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/adv-ais-mgmt-tools-content-pack.md) for more information.
 
 </td></tr><tr><td>
 
@@ -188,7 +210,7 @@ Advanced Risk
 
 </td><td>
 
--   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
 The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
@@ -213,7 +235,7 @@ Advanced Work Assignment
 -   Run assignments on different nodes or cadences for different service channels to improve the AWA application's performance and resilience.
 -   Provide wrap-up codes or notes for interactions or segments that the agent is involved in at the end of a call.
 
-See  for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -226,7 +248,7 @@ Agent Client Collector
 -   Use a custom CA to enable Kubernetes Visibility Agent Informer to communicate with the instance when using a custom root Certificate Authority \(CA\).
 -   Configure Agent Client Collector without a MID Server by ßusing MID-less configuration.
 
-See  for more information.
+See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -248,7 +270,7 @@ Agent experience for CSM
 -   Alert agents about the status of current chats by using color-coded session tabs to indicate service level agreement \(SLA\) threshold timers, chat duration, and unread message counts.
 -   Create form templates or modify existing templates with enhancements to the form template feature.
 -   Integrate enhanced knowledge guidance on the Front-line case page and enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
--   Display native voice configurations in CSM Configurable Workspace with the Voice interaction record page that agents can use to handle phone calls.
+-   Display native voice configurations in CRM Workspace with the Voice interaction record page that agents can use to handle phone calls.
 -   Dedicate time after each call or chat for agents to finalize interaction details.
 
 See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspaces-configure.md) for more information.
@@ -275,7 +297,7 @@ Yokohama patch 11
 -   View all ServiceNow Store applications that are licensed or available for procurement from the **Available for you** tab.
 -   Gain insights about application installation requirements and blockers with application state indicators.
 
-See  for more information.
+See [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) for more information.
 
 </td></tr><tr><td>
 
@@ -315,20 +337,20 @@ Authentication
 
 [Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)
 
--   **Knowledge-based factor enhancement for AI voice service**
+-   **[Knowledge-based factor enhancement for AI voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/knowledge-based-authentication.md)**
 
 Following are the knowledge-based authentication \(KBA\) enhancements:
 
-    -   Voice input support for KBA questions: Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
-    -   Script-based validation for external systems: Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
+    -   [Voice input support for KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-knowledge-based-questions.md): Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
+    -   [Script-based validation for external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-knowledge-based-answers.md): Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
--   **Authentication factors for AI voice service**
+-   **[Authentication factors for AI voice service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/authentication-factors.md)**
 
 Enable caller access to AI voice agents by configuring the required identification and authentication factors.
 
--   **OAuth enhancements**
+-   **[OAuth enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/api-inbound-and-outbound.md)**
 
 Following are the OAuth enhancements:
 
@@ -339,7 +361,7 @@ Following are the OAuth enhancements:
 
 Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
-    -   For OAuth integrations, update the provider name using the Provider name field. To know more, see .
+    -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/oauth-inbound.md).
     -   For Basic authentication integrations, update the Provider name in the integration registration form.
 
 [Yokohama Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-7.md)
@@ -355,7 +377,7 @@ Yokohama
 -   Multi-factor Authentication \(MFA\) is enforced by default for all non-SSO login to ServiceNow®.
 -   Use the Authorization code, resource owner password credential, SAML bearer, and JWT bearer OAuth grant types of OAuth for outbound integration requests through the MID Server.
 
-See Authentication for more information.
+See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_Authentication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -464,7 +486,7 @@ Cloud Account Management
 -   Scan accounts for configuration violations and take appropriate actions for weak passwords, pending certifications, undefined account ownership, discovery schedules, and so on.
 -   Provision both Terraform Cloud/Terraform Enterprise and cloud native interface accounts.
 
-See  for more information.
+See [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cam-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -474,7 +496,7 @@ Code Signing
 
 Use Code Signing Guardrails to improve checks during the signing process to create more secure workflows.
 
-See  for more information.
+See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/code-signing-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -552,7 +574,7 @@ Configuration Management Database \(CMDB\)
 -   Apply filters that were previously available only to the coverage charts in the CMDB 360 dashboard in CMDB Workspace to all charts in the Discovery sources tile.
 -   Use a condition builder or a custom script to restrict the list of de-duplication tasks that are assigned to a de-duplication template when de-duplicating CIs.
 
-See  for more information.
+See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/manage-cmdb.md) for more information.
 
 </td></tr><tr><td>
 
@@ -615,7 +637,7 @@ Conversation Insights
 -   Use underlying factors like Resolution, Confusion, Effort, Empathy, Next Steps, Frustration, Transfers, and Escalations to provide explainability to the Inferred CSAT scores.
 -   Leverage the Inferred CSAT framework and Conversation Insights \[sn\_aci\_insights\] table linked to the Conversation \[sys\_cs\_conversation\] table to create adhoc dashboards and workflows for conversational analytics applications.
 
-See Conversation Insights for more information.
+See [Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/conversation-insights.md) for more information.
 
 </td></tr><tr><td>
 
@@ -682,7 +704,7 @@ Data Management
 -   View insights into storage consumption on your instance and implement data management policies directly from the Data Management Console.
 -   Automatically delete older or unwanted records with improved table cleaner scalability.
 
-See  for more information.
+See [Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -694,7 +716,7 @@ Data Privacy
 -   Sanitize sensitive data from Now Assist prompts without impacting response.
 -   Discover sensitive data from attachments using enhanced Data Discovery jobs.
 
-See  for more information.
+See [Platform Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/privacy-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -703,7 +725,7 @@ Data management for CSM
 </td><td>
 
 -   Track the status and other information that is related to the Customer Life Cycle workflows by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
--   Track pricing and subscription information for products and services on the CSM Configurable Workspace by using the revenue metrics on the sold product form.
+-   Track pricing and subscription information for products and services on the CRM Workspace by using the revenue metrics on the sold product form.
 -   Integrate Strategic Portfolio Management \(SPM\) project management with business locations to create and manage projects across your organization.
 
 See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-data-management.md) for more information.
@@ -730,7 +752,7 @@ DevOps Change Velocity
 -   Integrate with the Harness orchestration tool to discover Harness pipelines and enable change automation.
 -   Detect anomalies and issues in your DevOps Change Velocity instance using health scans.
 
-See  for more information.
+See [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-landing-page-new.md) for more information.
 
 </td></tr><tr><td>
 
@@ -751,7 +773,7 @@ Digital End-User Experience
 -   Track the digital experience scores of the applications and devices that your employees use with the Digital Experience Score​ dashboard.
 -   The Proactive Engagement application is integrated as part of the DEX suite of applications and is installed along with DEX.
 
-See  for more information.
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dex-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -765,7 +787,7 @@ Digital Portfolio Management
 -   Updated the key performance indicator \(KPI\) behavior so that you can drill down on time series KPI information and use an Active flag to hide KPIs in a KPI group.
 -   Updated the DPM data model to improve visibility and reporting when an incident, problem, or change is in the application service's Impacted services or Affected CIs related list. The updated model rolls up the incidents, problems, and changes so that you can see the impacts in related business applications \(in the KPIs and Needs attention panels\).
 
-See  for more information.
+See [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpm-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -797,7 +819,7 @@ Document Intelligence
 -   Speed up your document processing workflows and quickly extract the text and tables from your documents by using Now Assist.
 -   Save time looking for the information that you need in a document and quickly find the answers to predefined questions by using Now Assist.
 
-See  for more information.
+See [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -808,7 +830,7 @@ Document Services
 -   Improved PDF generation that includes accessibility support.
 -   Accelerate documents insights with instant summaries for highlights and quick insights, interactive Q&amp;A, and FAQs.
 
-See  for more information.
+See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/document-services-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -818,7 +840,7 @@ Domain Separation
 
 Enable domain separation in live environments by using the Post-Production Domain Separation Activation Utility.
 
-See  for more information.
+See [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -830,7 +852,7 @@ Dynamic Translation
 -   The APIs used by default translator configurations are upgraded to v4. If you want to use v4 APIs with customized translator configurations, you must migrate them manually.
 -   The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is removed.
 
-See  for more information.
+See [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-translation-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -871,7 +893,7 @@ Encryption Key Management
 -   Use Access Observer to help plan for and troubleshoot Field Encryption implementations.
 -   Edge Encryption administrators can use the new process to migrate from Edge Encryption to Field Encryption.
 
-See  for more information.
+See [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption.md) for more information.
 
 </td></tr><tr><td>
 
@@ -910,7 +932,7 @@ Enterprise Asset Management
 -   Get support for hardware models and OT hardware assets in the OT Asset Management workspace.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/enterprise-asset-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -929,7 +951,7 @@ Event Management
     -   Seamlessly integrate monitoring data from multiple sources into Metric Intelligence.
     -   Improve anomaly detection and alerting with real-time metric ingestion.
 
-See  for more information.
+See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_EM.md) for more information.
 
 </td></tr><tr><td>
 
@@ -937,30 +959,11 @@ External Content Connectors
 
 </td><td>
 
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+-   Make content and metadata from your external document repositories searchable in AI Search applications.
+-   Map your source system users to their ServiceNow AI Platform user accounts to preserve their access permissions for crawled content.
+-   Schedule content and user permission crawls or run them manually as needed.
 
--   Expand your search experience with external content connectors for Adobe Experience Manager as a Cloud Service, Asana, Docusign, Dropbox, GitHub Enterprise Cloud, HubSpot, Lucidchart, Miro, monday.com, Notion, SAP DMS, Smartsheet, Trello, WordPress, Workday, and Zoom source systems.
--   Customize user permission settings, choosing the fields you want to compare when mapping source system users to ServiceNow AI Platform® users.
--   Make external content connector crawl results searchable by linking connector search sources to search profiles from the connector editor.
--   Monitor connector behavior on individual crawl runs and over time with improved crawl statistics and analytics.
-
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
--   Expand your search experience by indexing searchable content from your Amazon S3, Box, GitLab, Microsoft OneDrive, Microsoft Viva Engage, and Zendesk Guide source systems.
--   Search KB articles from your ServiceNow instance.
--   Make web content locally searchable by indexing pages from predefined or custom public web sites with the Webcrawler external content connector.
--   Configure connector settings and schedule crawls as part of connector creation using the revamped UI.
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   Expand your search by indexing searchable content from your Atlassian Jira Cloud, Google Drive, Microsoft Teams, and Slack source systems.
--   Make web content locally searchable by indexing pages from predefined public web sites.
--   Find answers about your ServiceNow deployment by indexing searchable content from the ServiceNow product documentation.
--   Know when your external content connectors are approaching their crawl limits with new warning messages.
--   Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
--   Improve recall for external content searches with support for semantic vector indexing of crawled content.
-
-See  for more information.
+See [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ext-cont-connectors-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1039,7 +1042,7 @@ Previous Patch releases
 
 -   Protect your users by configuring settings for anonymization of personally identifiable information \(PII\) with the Data Privacy application.
 
-See Generative AI Controller for more information.
+See [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/generative-ai-controller.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1051,7 +1054,7 @@ Hardware Asset Management
 -   Streamline Hardware Asset Management \(HAM\) licensing for only non-OT hardware assets to access Hardware Asset Management features and workflows.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ham-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1065,7 +1068,7 @@ Health Log Analytics
 -   Configure log data integrations for Splunk TCP/UDP, Splunk Poller, MID Server, Apache Kafka, Microsoft Azure Log Analytics, REST API, and Amazon Data Firehose conveniently from the Integrations Launchpad.
 -   Generate a description of Health Log Analytics alerts using Now Assist.
 
-See Health Log Analytics for more information.
+See [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/hla-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1089,7 +1092,7 @@ Hermes Messaging Service
 -   Scan and inspect topic messages using keywords or regular expressions.
 -   Monitor the health of Hermes components over time.
 
-See  for more information.
+See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/hermes-messaging-service.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1107,7 +1110,7 @@ Health Log Analytics highlights:
 
 Event Management highlights:
 
-
+[Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sow-landing-page-itom.md)
 
 -   Starting with version 26.3.1, benefit from the new alert grouping based on network traffic correlation:
     -   Use Express List® to investigate network traffic-based alert groups
@@ -1120,7 +1123,7 @@ Event Management highlights:
 
 Agent Client Collector highlights:
 
-See  for more information.
+See [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-health-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1135,7 +1138,7 @@ Cloud Workspace highlights:
 
 Performance enhancements for the predefined catalog items in CSC Content Pack.
 
-See  for more information.
+See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cloud-governance.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1145,7 +1148,7 @@ ITOM Optimization
 
 Legacy workflows have been upgraded and seamlessly migrated to the advanced Workflow Studio to align with the latest standards and ensure modern compliance. Additionally, all default \(Out of Box\) workflows have been redesigned to provide enhanced performance, improved usability, and a more streamlined experience.
 
-See  for more information.
+See [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-optimization-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1158,7 +1161,7 @@ ITOM Visibility
 -   Starting with Service Graph Connector for GCP store release 1.8, Service Graph Connector for AWS store release 2.9, and Service Graph Connector for Microsoft Azure store release 1.11, you can use Service Graph Connectors to ingest data into the Configuration Management Database \(CMDB\) from third-party sources.
 -   Starting with store version 1.8.0, Discovery admins gain improved visibility into discovery issues and can address root causes using anomaly detection in the Discovery Admin Workspace.
 
-See  for more information.
+See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-visibility-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1173,7 +1176,7 @@ Starting in the 9.1 release, you can do the following:
 -   Set the incident impact and urgency levels to set the incident priority level automatically.
 -   Redirect from the mobile web browser to the ITSM Mobile Agent app seamlessly when opening and viewing different task records.
 
-See  for more information.
+See [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1183,7 +1186,7 @@ ITSM Success Dashboard
 
 Experience the all new KPIs introduced for the Now Assist under Productivity moments per user in ITSM Success Dashboard to understand the benefits of using Now Assist features like Change Summarization, Change Risk Explanation, and Knowledge Article generation.
 
-See  for more information.
+See [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/success-dashboard-indicator-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1191,7 +1194,22 @@ Identity
 
 </td><td>
 
- 
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Configure AI Agents or AI users by selecting the `AI` option from the **Identity** drop-down menu.
+-   Use the `ai_user_admin` role for creating, editing, and role management of AI users. Using the role you can view, create, edit, assign roles to, and delete users with the identity type as `AI`.
+-   Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions. To learn more, see [Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md).
+
+[Yokohama Patch 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-10.md)
+
+-   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/federated-id.md).
+
+Yokohama
+
+-   Use the Access Insights module in the ServiceNow® Access Analyzer V4 tool to get access insights of your users, while comparing the user access.
+-   Assign the `access_analyzer_admin` role to the users to access and administer the Access Analyzer.
+
+See [Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/identity-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1218,7 +1236,7 @@ Incident Management
 -   Restrict unauthorized access to incident-related tables using deny ACLs.
 -   Search for a configuration item \(CI\) in a list alphabetized by the CI name with an improved search performance.
 
-See  for more information.
+See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_IncidentManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1245,7 +1263,7 @@ Instance Data Replication
 -   Queue multiple seeding requests from your producer instance.
 -   Reseed missing or mismatched records automatically when creating a data comparison request.
 
-See  for more information.
+See [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1310,6 +1328,19 @@ See  for more information.
 
 </td></tr><tr><td>
 
+Knowledge Center
+
+</td><td>
+
+-   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
+-   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
+-   Format your content within a knowledge article using editing tools in the article editor.
+-   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.
+
+See [Knowledge Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-center.md) for more information.
+
+</td></tr><tr><td>
+
 Knowledge Graph
 
 </td><td>
@@ -1346,7 +1377,7 @@ Yokohama Patch 6
 -   Knowledge Graph creates a complex data model called Knowledge Graph schema with numerous entities and their relation within a few steps.
 -   Knowledge Graph admins can use Knowledge Graph to create and manage the Knowledge Graph schemas. These Knowledge Graph schemas are the customized Knowledge Graph that consist of nodes, node properties, and edges.
 
-See  for more information.
+See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/knowledge-graph-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1362,7 +1393,7 @@ Yokohama Patch 6
 -   Identify and resolve accessibility-related issues during Knowledge article generation through a new accessibility checker button in the TinyMCE toolbar.
 -   Enhance the creation and management of knowledge base through features in the Knowledge Management advanced plugin such as article versioning, article subscriptions, article templates, and an article quality index.
 
-See  for more information.
+See [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1396,7 +1427,7 @@ MID Server
 -   MID Server supports and requires a minimum JRE version 17. The MID Server is bundled with version 17.0.12 and the minimum JRE version supported is 17.0.10.
 -   The MID Server can now be installed on Windows hosts directly as a LocalSystem or non-admin user with Start and Stop permissions.
 
-See  for more information.
+See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1470,7 +1501,7 @@ Next Experience
 -   Quickly locate and adjust your user preferences by using the new streamlined search function.
 -   User preference icons now adopt your theme colors.
 
-See  for more information.
+See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1504,7 +1535,7 @@ Notifications
 -   Use the enhanced assignment group, advanced condition, and mandatory notifications for a provider framework.
 -   Use the standard forms for custom notification preferences and delivery channels.
 
-See  for more information.
+See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/notifications.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1515,7 +1546,7 @@ Notify
 -   Enhanced security for all client-callable script includes by enabling switching off the sandbox mode.
 -   Enhanced security access for Notify tables.
 
-See  for more information.
+See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1568,7 +1599,7 @@ For more Platform Now Assist feature release notes, see the following topics:
 -   [AI Search release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-search-rn.md)
 -   [Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/document-intelligence-rn.md)
 -   [AI Skill Kit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/na-skill-kit-rn.md)
--   [Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-va-rn.md)
+-   [Now Assist in Virtual Agent release notes]()
 
 </td></tr><tr><td>
 
@@ -1620,339 +1651,9 @@ Now Assist AI agents
 -   View the usage and performance of your AI agents with the AI agent analytics dashboard.
 -   Enable multiple conversations for AI agents on the Now Assist panel.
 
-See  for more information.
+See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
-For the Platform Now Assist release notes, see [Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn.md).
-
-</td></tr><tr><td>
-
-Now Assist Analytics
-
-</td><td>
-
--   Track the usage and adoption of your Now Assist implementation.
--   Monitor the performance of guardrails enabled through AI Guardian.
--   Gain insights into the search performance in Now Assist self-service experiences.
--   Track the estimated efficiency and productivity gains enabled through Now Assist.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist Skill Kit
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Use UI Builder to deploy custom skills.
--   Import data into AI Skill Kit with a CSV file.
--   Use AI to create ground truth for your data.
--   Use a custom data generator to create synthetic datasets.
-
--   Users can create synthetic data in AI Data Kit.
--   Generated synthetic data can be saved as a dataset.
--   Add and manage tools of a custom skill, visually in the new Tools editor, including conditional execution of tools.
--   Customize ServiceNow skills with new prompts or providers in Now Assist Skill Kit to suit your specific business needs.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   Create and deploy AI agents within custom applications, helping to empower creators and accelerate time-to-value.
--   Build custom AI agents and skills for the unique workflow of an application using AI Skill Kit and AI Agent Studio.
--   Leverage AI agents and skills created with ServiceNow Otto for App Engine in custom applications at runtime, helping improve efficiency.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   Help increase efficiency by automatically creating tasks from the context of your CWM Docs and adding them to the required Board.
--   Enable saving time by summarizing and paraphrasing blocks of content or a whole page in CWM Docs using generative AI capabilities.
-
-See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Previous Patch releases
-
--   Select **Summarize** on a CI form, in the workspace, or from any list to view a concise summary of key CI data directly on the form: discovery and class details, associated business services, security vulnerabilities, and related records like incidents, alerts, problems, and change requests.
--   The 'Manage duplicate CIs' skill identifies duplicate CIs, populates remediation tasks, and then assigns the tasks to the appropriate group. You follow step-by-step guidance and can preview remediation results before selecting a template. The updated CI correctness scores enable the CMDB Health Dashboard to display accurate information.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
--   Generate catalog items conversationally and preview them during the creation process with Now Assist in Catalog Builder.
--   Choose an AI model provider for all ServiceNow Otto for Code skills in the script editor.
-
-[Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)
-
--   Removed the now.assist.creator role as a requirement for test generation.
-
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-
-**Note:** Additional AI model providers are supported for the following ServiceNow Otto for Creator skills:
-
-    -   App generation
-    -   App summarization
-    -   Catalog item generation
-    -   Code generation
-    -   Flow generation
-    -   Flow summarization
-    -   Playbook generation
-    -   Process Mining
-    -   RPA bot generation
-    -   Spoke generation
-    -   Test generation
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   Summarize what a flow or subflow does by using generative AI.
--   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
--   Create automation and UI components in Now Assist for app generation.
--   Use the code explain and summarize feature of ServiceNow Otto for Code to explain and summarize the code. This feature is supported by both Now LLM Service and the Azure OpenAI model providers.
--   Use the Client Script Summarization skill to generate a high-level summary and a detailed explanation of a client script.
-
-[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
-
--   Enable your users to create applications by using the Now Assist for app generation skill even if they don't have the admin role.
--   Use the improved application preview before generating an application by using the Now Assist for app generation skill.
--   Enable your RPA Desktop Design Studio users to create and edit automations and activities, and extend automation logic flow with ServiceNow Otto for RPA Hub.
--   Enable your ServiceNow Studio users to generate a summary of an app.
--   Use the **Quick Actions** button in the ServiceNow Otto for Code enabled script editor to edit code and add comments.
--   Use the prompt modal in inline or floating mode with ServiceNow Otto for Code.
--   ServiceNow Otto for Code now supports both Now LLM Service and Azure OpenAI model providers. When you select the Azure OpenAI model provider, all requests for the ServiceNow Otto for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you get access to the Code Explain and Code Summarize features.
--   Use the auto-complete feature of ServiceNow Otto for Code to get contextually relevant code suggestions while typing.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Customer Service Management \(CSM\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Enabled is\_template for all Now Assist skills and added support to clone and customize any base system GenAI skill in the Now Assist Skill Kit.
--   Defined the navigation path for Sentiment Analysis dashboard in Core UI to make accessing sentiment analysis data easier.
--   Track trending case topics with insights, visualizations, and customizable filters for deeper analysis with the Trending topics dashboard.
--   Monitor customer sentiment across cases with LLM-powered insights and track the sentiment trends in the dashboard.
--   Enable agents to access customer, case, and product details instantly through natural language queries with the Provide customer 360 insight agentic workflow.
--   Auto-generate work notes and comment recommendations to help improve agent efficiency with the activity response generation skill.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
--   Enable security in ServiceNow Otto for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
-
-[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
-
--   Analyze your customers' sentiment and sentiment trends in your cases and the reasoning behind it.
--   Use case resolution steps to generate recommended actions based on the data clusters from previously closed cases.
--   Integrate the support for public web content in search queries for both standard and conversational search.
--   Use enhanced AI agents and new standalone AI agents for more specific tasks. For example, the Duplicate identifier AI agent identifies the duplicate interactions and cases from the customers and then consolidates the information.
-
-[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
-
--   Improve agent productivity by managing long-running cases with the Triage cases AI agent.
-
-Yokohama Early Availability
-
--   Use the Now LLM Service scheduling assistance when booking an appointment through Virtual Agent. You can use this scheduling assistance to schedule, reschedule, or cancel an appointment.
--   Help requesters find solutions by using Genius Results to reduce the number of cases created and decrease the effort needed by agents to close them.
--   Use the Now Assist panel global skill search to ask questions and fetch answers from knowledge articles.
-
-See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Enterprise Architecture \(EA\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 1: Generate and summarize Enterprise Modeling and Visualization diagrams for business applications hierarchy, using the Enterprise architecture diagrams AI agent.
-
-Yokohama Early Availability
-
--   Generate a summary of Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace.
--   Request a business application or a digital integration using Now Assist in ServiceNow® Virtual Agent.
-
-See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Field Service Management \(FSM\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
--   Clone and customize skills.
--   Edit prompts using the Now Assist skill kit.
-
-Yokohama Patch 3
-
--   Enable Field Service technicians to access a virtual assistant from the mobile application with Now Assist in Virtual Agent.
-
--   Use Now Assist in Virtual Agent for mobile to summarize work order tasks.
--   Explore conversational search in the Now Assist panel with results from Knowledge Base articles.
-
-See ServiceNow Otto for Field Service Management \(FSM\) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Financial Services Operations \(FSO\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   ServiceNow Otto for FSO skills and AI agents support model updates in Now LLM Service.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Review changes to Now Assist usage measurement.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
--   Implement security in Now Assist AI agents and Now Assist for FSO skills with Access Control Lists \(ACLs\).
-
-Yokohama Patch 3
-
--   Streamline the friendly fraud dispute resolution process for human agents and make informed decisions by using the Now Assist friendly fraud AI agent.
--   Maintain positive customer relationships by using the AI agent to craft responses with the right tone and language.
--   Enable agents to evaluate and review the amount being disputed, the customer relationship, and the outcome of the detection logic.
-
-Yokohama Patch 1
-
--   Streamline the card dispute submission process for cardholders with a dispute intake workflow by using Now Assist in Virtual Agent.
--   Use a conversational, natural language interface that makes data collection more engaging and less tedious compared to a traditional form.
--   Increase efficiency by inferring information from the customer’s responses in the conversation.
-
-See [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for HR Service Delivery \(HRSD\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
--   Create a copy of the KB generation skill to create custom templates.
--   View the list of sources that are used to generate an email reply recommendation.
--   Select citations to view the source articles and industry research from Galileo AI Assistant for HR.
--   Leverage an AI agent to generate a step-wise fulfillment plan for an HR case from both Core UI and Agent Workspace for HR Case Management.
--   Make career conversations easy to create and track using the growth conversations agentic workflow.
-
-Yokohama Patch 3
-
--   Automate the resolution of routine employee inquiries by using the Resolve noncritical HR cases agentic workflow.
--   Receive research-backed responses to HR management queries that are sourced from both internal knowledge bases and The Josh Bersin content library.
--   Use the new Growth &amp; Performance AI agents to streamline your employee growth discussions in Career Conversations.
-
-Yokohama Patch 1: Improve agent productivity by managing long-running cases with the Triage cases AI agent.
-
-Yokohama Early Availability
-
--   Use the new Virtual Agent topics to place employee requests in the Human Capital Management \(HCM\) system.
--   Use Knowledge Graph to create personalized knowledge models in the form of Knowledge Graph schemas.
--   Create Journey Accelerator plans by using ServiceNow Otto for HRSD in Journey designer.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-[Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)- Gain real-time visibility into critical asset data through generative AI-driven asset analysis summaries.
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6 - Automate the hardware asset repair process by using an agentic workflow and configure Access Control Lists \(ACLs\) for both AI agents and agentic workflows.
-
-Yokohama Patch 4 - Automate and streamline your hardware asset request process by using an agentic workflow.
-
-See  for more information.
+For the Platform Now Assist release notes, see [Now Assist release notes]().
 
 </td></tr><tr><td>
 
@@ -1981,168 +1682,7 @@ Yokohama Patch 3
 -   Automatically perform initial alert triage and analysis tasks such as assigning alerts, analyzing alert history, and summarizing past incidents, with the Triage and analyze alert agentic workflow.
 
 
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Some Now Assist skills are now turned on by default.
--   Add self-service and deflection to your phone channel with Voice AI agents.
--   Edit the incident summarization skill prompts and inputs within the Now Assist Skill Kit.
--   Use the Now Assist context menu \(NACM\) to create AI-powered generative text.
--   Use agentic workflows in Change Management to quickly link configuration items \(CIs\) to a change request, intuitively create change requests, and easily associate outages with a change request.
--   Empower service desk agents to diagnose and resolve incidents on DEX monitored devices quickly and efficiently by using the  DEX issue diagnosis and resolution agentic workflow.
-
-Yokohama Patch 3
-
--   Identify the category, subcategory, and configuration item for a given incident automatically using a team of AI agents in the Triage and categorize ITSM incidents agentic workflow.
--   Get recommendations to resolve incidents by using a team of AI agents for catalog, knowledge, and past incidents in the Investigate and resolve ITSM incidents agentic workflow.
--   Manage Microsoft 365 group members using AI agents in the Manage Microsoft 365 group members agentic workflow.
--   Generate the **Risk and impact analysis** and the **Justification** fields using the AI agents in the Generate change request plans agentic workflow.
-
-Yokohama Patch 1: Scale your workflows, enhance productivity, and complete work autonomously using the IT Service Management AI agent collection.
-
-Yokohama Early Availability
-
--   Manage change risk explanations effectively by copying an existing change risk explanation skill and configuring it for your business needs.
--   Deflect IT issues in the ServiceNow portal with AI-powered solutions.
--   Automatically generate an email as a recommendation to help agents save time and learn efficient ways to respond to requesters.
--   View a summary of incidents and change requests in an intuitive summarization interface.
--   Track the status of common IT-related tasks by using the Now Assist application.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-Yokohama Patch 11
-
--   Some Now Assist skills are now turned on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-
-See  for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Order Management
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
-
--   Enable business-to-business \(B2B\) customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
--   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity.
-
-See [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Sales Force Automation \(SFA\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Previous Patch releases
-
--   ServiceNow Otto for Sales Automation application packages ServiceNow® platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
-
-See [ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-for-sales-and-order-management-som.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Use generative AI to create a quality assessment report of a security incident.
-
--   Yokohama Patch 6
-
-Help analysts to add security incidents details to the Shift Handover report by chatting with AI agents in the Now Assist panel.
-
-    -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
--   Yokohama Patch 3
-
-Help your analysts to gain insight into security incident record metrics with an agentic workflow. Chat with AI agents in natural language from the Now Assist panel.
-
-Help your analysts to resolve security incidents by chatting with AI agents in the Now Assist panel where the AI agent provides a resolution plan.
-
--   Yokohama Patch 1
-
-Help your analysts to close security incidents more efficiently by chatting with AI agents in natural language from the Now Assist panel.
-
--   Yokohama early availability
-
-    -   Triage security incidents with long activity streams by reviewing work notes and contextual information quickly in a concise, easy-to-read format.
-    -   Automatically generate resolution notes for security incidents by using generative AI.
-    -   Generate recommended actions to resolve security incidents.
-    -   Generate a post-incident analysis.
-    -   Generate correlation insights to help you connect current incidents to past events. By identifying the affected users, configuration items \(CIs\), or observables \(IP addresses and file hashes\) from existing incidents, you can help to triage new security incidents.
-For more information, see [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md).
-
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-Yokohama Patch 13
-
--   Enhance your SaaS integration troubleshooting experience with user-friendly error explanations and resolution guidance for runtime job failures.
--   Streamline your Software Asset Management application implementation by automating entitlement extraction from contracts using AI, ensuring faster deployment.
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Automate user resolution with AI for SaaS license management to support efficiency and accuracy in subscription management.
-
-Yokohama Patch 6
-
--   Automate and streamline the software asset request process by using an agentic workflow.
--   Automate the process of creating reclamation rules by identifying software products suitable for reclamation using an agentic workflow.
--   Automate evaluation of unused and underutilized software installations for potential reclamation by using an agentic workflow.
-
-Yokohama Patch 3
-
--   Obtain crucial information on products to mitigate license compliance risks through product summaries on software deployment, license compliance, configuration health, and optimization.
--   Manage product license compliance via recommendations that guide you to take steps to ensure the necessary compliance requirements.
-
-Yokohama Patch 3
-
--   Obtain crucial information on products to mitigate license compliance risks through product summaries on software deployment, license compliance, configuration health, and optimization.
--   Manage product license compliance via recommendations that guide you to take steps to ensure the necessary compliance requirements.
-
-See  for more information.
+See [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2161,117 +1701,6 @@ Previous Patch releases
 -   ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) supports enhanced AI search and the Retrieval-augmented generation \(RAG\) framework to recommend suppliers and products through semantic search and contextual filters, enhancing recommendations with criteria like preferred suppliers and previous purchases.
 -   ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) supports a conversational intake that helps suppliers to view and update supply information through a conversational flow.
 -   ServiceNow Otto for Accounts Payable Operations \(APO\) supports a conversational intake to complete self-service tasks, such as submit a request or track a request status.
-
-</td></tr><tr><td>
-
-Now Assist for Strategic Portfolio Management \(SPM\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Generate measurable targets from goals information and optional context with the target generation skill.
--   Use the identify similar records skill to find similar demands based on contextual similarity.
--   Enable the project task monitor AI agent to autonomously monitor project tasks on the critical path of a project.
--   Use the **Send preview** button to share a project insights email instantly.
-
-[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
--   Use a decorative loader to elevate visual interest during content loading in Strategic Planning.
--   Refine the planning item text descriptions by enabling AI assistance.
--   Use ServiceNow Otto for SPM AI agents to help optimize workflows, improve productivity, and automate your tasks.
-
-See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Telecommunications, Media and Technology \(TMT\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Address voice quality issues and validate tickets with RADCOM.
--   Summarize the risk signal and issues records along with respective risk solution and occurrence records.
-
-Yokohama Patch 6
-
--   Manage and resolve billing inquiry case requests using a team of AI agents.
--   Analyze network incidents, correlate associated cases, and provide resolutions.
--   Summarize Knowledge Graph service details, success initiatives, internal plays, customer plays, and Zoom meeting details.
--   Analyze account health, trigger renewal flows, schedule, and manage touchpoint meetings.
--   Use agentic AI to quickly create consumer registrations.
-
-Yokohama Patch 3
-
--   Monitor engagement health score and provide a trend analysis.
--   Monitor risks on a predefined schedule and provide common resolutions.
-
-Yokohama Patch 1
-
--   Proactively identify service problems, diagnose, test, and resolve customer issues autonomously using the ServiceNow Otto for TMT AI agent collection.
-
-Yokohama Early Availability
-
--   Summarize onboarding cases, engagements, and touchpoints by using agentic AI.
--   Enhance test summarization with metric descriptions and contextual notes.
--   Consolidate the information from multiple similar cases into a Knowledge article.
--   Dynamically configure prompts for case summarization.
--   Automate transformation mapping between provider and consumer instances in Service Exchange.
-
-See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
-
-</td></tr><tr><td>
-
-Now Assist for Vulnerability Response
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement. See the "Changed in this release" section below.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
--   Use ServiceNow Otto for Unified Security Exposure Management with Security Posture Control to help you with [Creating an API connector in the Security Posture Control workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/using-now-assist-api-connector.md).
-
--   [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
-
-Help your analysts identify duplicate host vulnerable items and analyze available remediation options with generative AI skills with ServiceNow Otto for Unified Security Exposure Management.
-
-    -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
-See [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-landing.md) for more information.
-
-
-</td></tr><tr><td>
-
-Now Assist for Workplace Service Delivery \(WSD\)
-
-</td><td>
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Review changes to Now Assist usage measurement.
--   Some Now Assist skills, agents, and agentic workflows are on by default.
--   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
-
-Yokohama Patch 6
-
--   Help map admins configure the map during bulk updates to Indoor Mapping using the Automate map updates AI agentic workflow.
--   Optimize a maintenance case based on the space utilization rate of the location where a maintenance case is created using the Optimize cleaning activities AI agentic workflow.
-
-Yokohama Patch 3
-
--   Manage temporary space closures AI agentic workflow for emergency meeting room maintenance. This team of AI agents block a space for maintenance and move any existing reservations from the blocked room to a new location.
--   Help manage workplace reservations for updating existing event planning reservations. This team of AI agents retrieve the reservation from workplace case details, analyze the reservation, and update the workplace case notes.
-
-See  for more information.
 
 </td></tr><tr><td>
 
@@ -2302,7 +1731,7 @@ Yokohama Early Availability
 
 -   Improve incident deflection for portal users by configuring record producers to display actionable and relevant Genius Results suggestions during submission of cases, incidents, problems, and similar tasks.
 
-See  for more information.
+See [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2366,7 +1795,7 @@ Now Assist in Document Intelligence
 -   Speed up your document processing workflows and quickly extract the text and tables from your documents.
 -   Save time looking for the information that you need in a document, and quickly find the answers to predefined questions.
 
-See  for more information.
+See [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/docintel-nowassist-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2386,7 +1815,7 @@ Previous Patch releases
 -   Generate and export Platform Analytics artifacts from conversational interactions in the Now Assist panel.
 -   Benefit from a single, smooth experience in asking questions across all Now Assist for Platform Analytics skills, as well as other applications that incorporate Platform Analytics and AI, through a shared backend.
 
-See  for more information.
+See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/now-assist-in-platform-analytics.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2448,7 +1877,7 @@ On-Call Scheduling
 
 Control whether an on-call schedule or shift record link in all major on-call email notifications redirects you to Service Operations Workspace \(SOW\) or to the classic UI16 interface in On-Call Scheduling.
 
-See  for more information.
+See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_OnCallScheduling.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2589,6 +2018,17 @@ See [Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 </td></tr><tr><td>
 
+Partner Relationship Management
+
+</td><td>
+
+-   Enable enterprises to gain real-time visibility into partner's performance and engage with the channel partner ecosystem.
+-   Enable channel partners to use the self-service Partner portal to register members, raise inquiries, and foster communication between the enterprise and partners.
+
+See  for more information.
+
+</td></tr><tr><td>
+
 Password Reset
 
 </td><td>
@@ -2596,7 +2036,7 @@ Password Reset
 -   Enhanced security for all client-callable script includes by switching off the sandbox mode.
 -   Enhanced security access for Password Reset tables.
 
-See  for more information.
+See [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/password-reset-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2609,7 +2049,7 @@ Performance Analytics
 -   Identify process patterns and potential bottlenecks before they occur.
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
-See  for more information.
+See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2621,7 +2061,7 @@ Platform Analytics experience
 -   Speed up the process of turning insights into actions with dynamic new features like suggested performance targets and more powerful data filtering.
 -   Share data insights more broadly with enhanced Microsoft PowerPoint support.
 
-See  for more information.
+See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/par-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2676,7 +2116,7 @@ Predictive Intelligence
 -   ITSM Predictive Intelligence Workbench is deprecated in the Yokohama release.
 -   New advanced options for classification solutions are available from Yokohama Patch 4.
 
-See  for more information.
+See [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2700,7 +2140,7 @@ Problem Management
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Simplify the management of problems and problem tasks using Problem Management models.
 
-See  for more information.
+See [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ProblemManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2714,7 +2154,7 @@ Process Mining
 -   Process Mining evaluation project available for HR and CSM
 -   Access control \(ACL\) rules updated
 
-See  for more information.
+See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2766,7 +2206,7 @@ Public Sector Digital Services
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 See [Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/bun-public-sector-landing-page.md) for more information.
 
@@ -2838,7 +2278,7 @@ Request Management
 -   Restrict unauthorized access to the Request Management tables using deny ACLs.
 -   Quickly determine whether a configuration item \(CI\) is available to be added to the **Configuration item** field in the Requested item form by searching the an alphabetized list of available CIs rather than having to first find the CI class list.
 
-See  for more information.
+See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_RequestManagement.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2921,7 +2361,7 @@ Security Posture Control
 
 </td><td>
 
--   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [ServiceNow Otto for Security Incident Response \(SIR\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/secops-now-assist-security-operations-rn.md) for more information about the Now Assist skill.
+-   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [ServiceNow Otto for Security Incident Response \(SIR\) release notes]() for more information about the Now Assist skill.
 -   Get insights into your overall security posture and configuration gaps in your security tools using new policies and asset proﬁles that are included with the Security Posture Control application.
 -   Use the policies included with the application or custom policies that you create to monitor your assets for overall security tool coverage, compliance with internal configuration standards, critical combinations of security gaps and vulnerabilities, and possible internet exposure.
 
@@ -2950,7 +2390,7 @@ Service Catalog
 -   Enable your users to experience the flexibility of using supported languages when creating or editing catalog items in Catalog Builder.
 -   Identify and resolve accessibility-related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
 
-See  for more information.
+See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3001,7 +2441,7 @@ Service Level Management
 
 Use Workflow Studio to build and automate the workflows for Service Level Management.
 
-See  for more information.
+See [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-mgmt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3013,7 +2453,7 @@ Service Observability
 -   Centralize critical signals and bridge workflows to help increase agility and reliability.
 -   Calculate the blast radius and help reduce mean time to resolution \(MTTR\) by viewing changes to your application and the underlying infrastructure.
 
-See  for more information.
+See [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/service-observability.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3037,7 +2477,7 @@ Service Operations Workspace for ITSM
     -   Agents can see a transcript of voice calls while interacting with customers in Service Operations Workspace.
     -   Create Change Advisory Board \(CAB\) meetings and run them through CAB Workbench in Service Operations Workspace.
 
-See Service Operations Workspace for ITSM for more information.
+See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sow-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3051,7 +2491,7 @@ Service Portal
 -   Enable early single sign-on \(SSO\) redirection.
 -   Specify the user roles that apply to a page route map.
 
-See  for more information.
+See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3065,7 +2505,7 @@ Service Portfolio Management
     -   Reparent taxonomy nodes when you move them to a new location in a portfolio. You can also add a new taxonomy node in the middle of an existing portfolio, either between two nodes or between a node and a service.
 -   Recognize the updated label for technical services.
 
-See  for more information.
+See [Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/SPM2-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3079,7 +2519,7 @@ Service Reliability Management
 -   Starting in version 6.4, track, manage, and visualize service performance with the Service reliability dashboard.
 -   Starting in version 6.4, get timely error budget updates that reflect the impact of ongoing, open alerts.
 
-See  for more information.
+See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3106,7 +2546,7 @@ ServiceNow AI Lens
 -   Provide specific instructions to ServiceNow AI Lens on what to do with the data that it captures.
 -   Get insights from multiple images so that you know what actions to do next.
 
-See  for more information.
+See [ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/servicenow-lens-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3117,7 +2557,7 @@ ServiceNow AI Platform core feature
 -   Streamline how you access help content on the system events and job scheduling dashboard by accessing the appropriate help content in each tab.
 -   Insert, update, and delete data in an external data source from a remote table.
 
-See  for more information.
+See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/intro-now-platform-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3141,6 +2581,569 @@ ServiceNow IDE
 -   Convert existing scoped applications to support development in source code.
 -   Use TypeScript in JavaScript modules.
 -   Install and use npm packages from private registries.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for App Engine
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+
+-   Create and deploy AI agents within custom applications, helping to empower creators and accelerate time-to-value.
+-   Build custom AI agents and skills for the unique workflow of an application using AI Skill Kit and AI Agent Studio.
+-   Leverage AI agents and skills created with ServiceNow Otto for App Engine in custom applications at runtime, helping improve efficiency.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+
+-   Help increase efficiency by automatically creating tasks from the context of your CWM Docs and adding them to the required Board.
+-   Enable saving time by summarizing and paraphrasing blocks of content or a whole page in CWM Docs using generative AI capabilities.
+
+See [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Previous Patch releases
+
+-   Select **Summarize** on a CI form, in the workspace, or from any list to view a concise summary of key CI data directly on the form: discovery and class details, associated business services, security vulnerabilities, and related records like incidents, alerts, problems, and change requests.
+-   The 'Manage duplicate CIs' skill identifies duplicate CIs, populates remediation tasks, and then assigns the tasks to the appropriate group. You follow step-by-step guidance and can preview remediation results before selecting a template. The updated CI correctness scores enable the CMDB Health Dashboard to display accurate information.
+
+See [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-landing-cmdb.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
+-   Generate catalog items conversationally and preview them during the creation process with Now Assist in Catalog Builder.
+-   Choose an AI model provider for all ServiceNow Otto for Code skills in the script editor.
+
+[Yokohama Patch 8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-8.md)
+
+-   Removed the now.assist.creator role as a requirement for test generation.
+
+[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+**Note:** Additional AI model providers are supported for the following ServiceNow Otto for Creator skills:
+
+    -   App generation
+    -   App summarization
+    -   Catalog item generation
+    -   Code generation
+    -   Flow generation
+    -   Flow summarization
+    -   Playbook generation
+    -   Process Mining
+    -   RPA bot generation
+    -   Spoke generation
+    -   Test generation
+
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+
+-   Summarize what a flow or subflow does by using generative AI.
+-   Generate playbooks from inputs that refer to active actions, flows, subflows, content from installed spokes, or activity definitions.
+-   Create automation and UI components in Now Assist for app generation.
+-   Use the code explain and summarize feature of ServiceNow Otto for Code to explain and summarize the code. This feature is supported by both Now LLM Service and the Azure OpenAI model providers.
+-   Use the Client Script Summarization skill to generate a high-level summary and a detailed explanation of a client script.
+
+[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+
+-   Enable your users to create applications by using the Now Assist for app generation skill even if they don't have the admin role.
+-   Use the improved application preview before generating an application by using the Now Assist for app generation skill.
+-   Enable your RPA Desktop Design Studio users to create and edit automations and activities, and extend automation logic flow with ServiceNow Otto for RPA Hub.
+-   Enable your ServiceNow Studio users to generate a summary of an app.
+-   Use the **Quick Actions** button in the ServiceNow Otto for Code enabled script editor to edit code and add comments.
+-   Use the prompt modal in inline or floating mode with ServiceNow Otto for Code.
+-   ServiceNow Otto for Code now supports both Now LLM Service and Azure OpenAI model providers. When you select the Azure OpenAI model provider, all requests for the ServiceNow Otto for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you get access to the Code Explain and Code Summarize features.
+-   Use the auto-complete feature of ServiceNow Otto for Code to get contextually relevant code suggestions while typing.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Enabled is\_template for all Now Assist skills and added support to clone and customize any base system GenAI skill in the Now Assist Skill Kit.
+-   Defined the navigation path for Sentiment Analysis dashboard in Core UI to make accessing sentiment analysis data easier.
+-   Track trending case topics with insights, visualizations, and customizable filters for deeper analysis with the Trending topics dashboard.
+-   Monitor customer sentiment across cases with LLM-powered insights and track the sentiment trends in the dashboard.
+-   Enable agents to access customer, case, and product details instantly through natural language queries with the Provide customer 360 insight agentic workflow.
+-   Auto-generate work notes and comment recommendations to help improve agent efficiency with the activity response generation skill.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+
+-   Enable security in ServiceNow Otto for CSM and AI agents and agentic workflows by enforcing access control lists \(ACLs\) and user identity-based permissions.
+
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+
+-   Analyze your customers' sentiment and sentiment trends in your cases and the reasoning behind it.
+-   Use case resolution steps to generate recommended actions based on the data clusters from previously closed cases.
+-   Integrate the support for public web content in search queries for both standard and conversational search.
+-   Use enhanced AI agents and new standalone AI agents for more specific tasks. For example, the Duplicate identifier AI agent identifies the duplicate interactions and cases from the customers and then consolidates the information.
+
+[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+
+-   Improve agent productivity by managing long-running cases with the Triage cases AI agent.
+
+Yokohama Early Availability
+
+-   Use the Now LLM Service scheduling assistance when booking an appointment through Virtual Agent. You can use this scheduling assistance to schedule, reschedule, or cancel an appointment.
+-   Help requesters find solutions by using Genius Results to reduce the number of cases created and decrease the effort needed by agents to close them.
+-   Use the Now Assist panel global skill search to ask questions and fetch answers from knowledge articles.
+
+See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 1: Generate and summarize Enterprise Modeling and Visualization diagrams for business applications hierarchy, using the Enterprise architecture diagrams AI agent.
+
+Yokohama Early Availability
+
+-   Generate a summary of Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace.
+-   Request a business application or a digital integration using Now Assist in ServiceNow® Virtual Agent.
+
+See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Clone and customize skills.
+-   Edit prompts using the Now Assist skill kit.
+
+Yokohama Patch 3
+
+-   Enable Field Service technicians to access a virtual assistant from the mobile application with Now Assist in Virtual Agent.
+
+-   Use Now Assist in Virtual Agent for mobile to summarize work order tasks.
+-   Explore conversational search in the Now Assist panel with results from Knowledge Base articles.
+
+See ServiceNow Otto for Field Service Management \(FSM\) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   ServiceNow Otto for FSO skills and AI agents support model updates in Now LLM Service.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Review changes to Now Assist usage measurement.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Implement security in Now Assist AI agents and Now Assist for FSO skills with Access Control Lists \(ACLs\).
+
+Yokohama Patch 3
+
+-   Streamline the friendly fraud dispute resolution process for human agents and make informed decisions by using the Now Assist friendly fraud AI agent.
+-   Maintain positive customer relationships by using the AI agent to craft responses with the right tone and language.
+-   Enable agents to evaluate and review the amount being disputed, the customer relationship, and the outcome of the detection logic.
+
+Yokohama Patch 1
+
+-   Streamline the card dispute submission process for cardholders with a dispute intake workflow by using Now Assist in Virtual Agent.
+-   Use a conversational, natural language interface that makes data collection more engaging and less tedious compared to a traditional form.
+-   Increase efficiency by inferring information from the customer’s responses in the conversation.
+
+See [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for HR Service Delivery \(HRSD\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Create a copy of the KB generation skill to create custom templates.
+-   View the list of sources that are used to generate an email reply recommendation.
+-   Select citations to view the source articles and industry research from Galileo AI Assistant for HR.
+-   Leverage an AI agent to generate a step-wise fulfillment plan for an HR case from both Core UI and Agent Workspace for HR Case Management.
+-   Make career conversations easy to create and track using the growth conversations agentic workflow.
+
+Yokohama Patch 3
+
+-   Automate the resolution of routine employee inquiries by using the Resolve noncritical HR cases agentic workflow.
+-   Receive research-backed responses to HR management queries that are sourced from both internal knowledge bases and The Josh Bersin content library.
+-   Use the new Growth &amp; Performance AI agents to streamline your employee growth discussions in Career Conversations.
+
+Yokohama Patch 1: Improve agent productivity by managing long-running cases with the Triage cases AI agent.
+
+Yokohama Early Availability
+
+-   Use the new Virtual Agent topics to place employee requests in the Human Capital Management \(HCM\) system.
+-   Use Knowledge Graph to create personalized knowledge models in the form of Knowledge Graph schemas.
+-   Create Journey Accelerator plans by using ServiceNow Otto for HRSD in Journey designer.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+[Yokohama Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-13.md)- Gain real-time visibility into critical asset data through generative AI-driven asset analysis summaries.
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6 - Automate the hardware asset repair process by using an agentic workflow and configure Access Control Lists \(ACLs\) for both AI agents and agentic workflows.
+
+Yokohama Patch 4 - Automate and streamline your hardware asset request process by using an agentic workflow.
+
+See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Some Now Assist skills are now turned on by default.
+-   Add self-service and deflection to your phone channel with Voice AI agents.
+-   Edit the incident summarization skill prompts and inputs within the Now Assist Skill Kit.
+-   Use the Now Assist context menu \(NACM\) to create AI-powered generative text.
+-   Use agentic workflows in Change Management to quickly link configuration items \(CIs\) to a change request, intuitively create change requests, and easily associate outages with a change request.
+-   Empower service desk agents to diagnose and resolve incidents on DEX monitored devices quickly and efficiently by using the  DEX issue diagnosis and resolution agentic workflow.
+
+Yokohama Patch 3
+
+-   Identify the category, subcategory, and configuration item for a given incident automatically using a team of AI agents in the Triage and categorize ITSM incidents agentic workflow.
+-   Get recommendations to resolve incidents by using a team of AI agents for catalog, knowledge, and past incidents in the Investigate and resolve ITSM incidents agentic workflow.
+-   Manage Microsoft 365 group members using AI agents in the Manage Microsoft 365 group members agentic workflow.
+-   Generate the **Risk and impact analysis** and the **Justification** fields using the AI agents in the Generate change request plans agentic workflow.
+
+Yokohama Patch 1: Scale your workflows, enhance productivity, and complete work autonomously using the IT Service Management AI agent collection.
+
+Yokohama Early Availability
+
+-   Manage change risk explanations effectively by copying an existing change risk explanation skill and configuring it for your business needs.
+-   Deflect IT issues in the ServiceNow portal with AI-powered solutions.
+-   Automatically generate an email as a recommendation to help agents save time and learn efficient ways to respond to requesters.
+-   View a summary of incidents and change requests in an intuitive summarization interface.
+-   Track the status of common IT-related tasks by using the Now Assist application.
+
+See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+Yokohama Patch 11
+
+-   Some Now Assist skills are now turned on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Order Management
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+
+-   Enable business-to-business \(B2B\) customers to submit order cases autonomously from the Business Portal by simply describing their needs in natural language using the manage order operations agent.
+-   Summarize complex orders across products, services, and fulfillment tasks, enabling agents to quickly understand status, take the right actions, and avoid navigating fragmented views to make next steps easier and improving productivity.
+
+See [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Previous Patch releases
+
+-   ServiceNow Otto for Sales Automation application packages ServiceNow® platform AI capabilities to deliver AI-powered insights and automation to drive faster, smarter sales and order processes.
+
+See [ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-for-sales-and-order-management-som.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Use generative AI to create a quality assessment report of a security incident.
+
+-   Yokohama Patch 6
+
+Help analysts to add security incidents details to the Shift Handover report by chatting with AI agents in the Now Assist panel.
+
+    -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Yokohama Patch 3
+
+Help your analysts to gain insight into security incident record metrics with an agentic workflow. Chat with AI agents in natural language from the Now Assist panel.
+
+Help your analysts to resolve security incidents by chatting with AI agents in the Now Assist panel where the AI agent provides a resolution plan.
+
+-   Yokohama Patch 1
+
+Help your analysts to close security incidents more efficiently by chatting with AI agents in natural language from the Now Assist panel.
+
+-   Yokohama early availability
+
+    -   Triage security incidents with long activity streams by reviewing work notes and contextual information quickly in a concise, easy-to-read format.
+    -   Automatically generate resolution notes for security incidents by using generative AI.
+    -   Generate recommended actions to resolve security incidents.
+    -   Generate a post-incident analysis.
+    -   Generate correlation insights to help you connect current incidents to past events. By identifying the affected users, configuration items \(CIs\), or observables \(IP addresses and file hashes\) from existing incidents, you can help to triage new security incidents.
+For more information, see [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md).
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+Yokohama Patch 13
+
+-   Enhance your SaaS integration troubleshooting experience with user-friendly error explanations and resolution guidance for runtime job failures.
+-   Streamline your Software Asset Management application implementation by automating entitlement extraction from contracts using AI, ensuring faster deployment.
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Automate user resolution with AI for SaaS license management to support efficiency and accuracy in subscription management.
+
+Yokohama Patch 6
+
+-   Automate and streamline the software asset request process by using an agentic workflow.
+-   Automate the process of creating reclamation rules by identifying software products suitable for reclamation using an agentic workflow.
+-   Automate evaluation of unused and underutilized software installations for potential reclamation by using an agentic workflow.
+
+Yokohama Patch 3
+
+-   Obtain crucial information on products to mitigate license compliance risks through product summaries on software deployment, license compliance, configuration health, and optimization.
+-   Manage product license compliance via recommendations that guide you to take steps to ensure the necessary compliance requirements.
+
+Yokohama Patch 3
+
+-   Obtain crucial information on products to mitigate license compliance risks through product summaries on software deployment, license compliance, configuration health, and optimization.
+-   Manage product license compliance via recommendations that guide you to take steps to ensure the necessary compliance requirements.
+
+See [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-sam.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Strategic Portfolio Management
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Generate measurable targets from goals information and optional context with the target generation skill.
+-   Use the identify similar records skill to find similar demands based on contextual similarity.
+-   Enable the project task monitor AI agent to autonomously monitor project tasks on the critical path of a project.
+-   Use the **Send preview** button to share a project insights email instantly.
+
+[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+
+-   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use a decorative loader to elevate visual interest during content loading in Strategic Planning.
+-   Refine the planning item text descriptions by enabling AI assistance.
+-   Use ServiceNow Otto for SPM AI agents to help optimize workflows, improve productivity, and automate your tasks.
+
+See [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Address voice quality issues and validate tickets with RADCOM.
+-   Summarize the risk signal and issues records along with respective risk solution and occurrence records.
+
+Yokohama Patch 6
+
+-   Manage and resolve billing inquiry case requests using a team of AI agents.
+-   Analyze network incidents, correlate associated cases, and provide resolutions.
+-   Summarize Knowledge Graph service details, success initiatives, internal plays, customer plays, and Zoom meeting details.
+-   Analyze account health, trigger renewal flows, schedule, and manage touchpoint meetings.
+-   Use agentic AI to quickly create consumer registrations.
+
+Yokohama Patch 3
+
+-   Monitor engagement health score and provide a trend analysis.
+-   Monitor risks on a predefined schedule and provide common resolutions.
+
+Yokohama Patch 1
+
+-   Proactively identify service problems, diagnose, test, and resolve customer issues autonomously using the ServiceNow Otto for TMT AI agent collection.
+
+Yokohama Early Availability
+
+-   Summarize onboarding cases, engagements, and touchpoints by using agentic AI.
+-   Enhance test summarization with metric descriptions and contextual notes.
+-   Consolidate the information from multiple similar cases into a Knowledge article.
+-   Dynamically configure prompts for case summarization.
+-   Automate transformation mapping between provider and consumer instances in Service Exchange.
+
+See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement. See the "Changed in this release" section below.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+-   Use ServiceNow Otto for Unified Security Exposure Management with Security Posture Control to help you with [Creating an API connector in the Security Posture Control workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/using-now-assist-api-connector.md).
+
+-   [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+
+Help your analysts identify duplicate host vulnerable items and analyze available remediation options with generative AI skills with ServiceNow Otto for Unified Security Exposure Management.
+
+    -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+See [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-landing.md) for more information.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Workplace Service Delivery \(WSD\)
+
+</td><td>
+
+[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
+
+-   Review changes to Now Assist usage measurement.
+-   Some Now Assist skills, agents, and agentic workflows are on by default.
+-   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
+
+Yokohama Patch 6
+
+-   Help map admins configure the map during bulk updates to Indoor Mapping using the Automate map updates AI agentic workflow.
+-   Optimize a maintenance case based on the space utilization rate of the location where a maintenance case is created using the Optimize cleaning activities AI agentic workflow.
+
+Yokohama Patch 3
+
+-   Manage temporary space closures AI agentic workflow for emergency meeting room maintenance. This team of AI agents block a space for maintenance and move any existing reservations from the blocked room to a new location.
+-   Help manage workplace reservations for updating existing event planning reservations. This team of AI agents retrieve the reservation from workplace case details, analyze the reservation, and update the workplace case notes.
 
 See  for more information.
 
@@ -3189,7 +3192,7 @@ Site Reliability Operations
 
 Site Reliability Operations and Site Reliability Metrics \(extends SRO\) store applications are replaced with Service Reliability Management application.
 
-See  for more information.
+See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3234,7 +3237,7 @@ Software Asset Management
 -   Track and optimize your IBM Cloud Pak licenses by using the Software Asset Management application.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See  for more information.
+See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3289,7 +3292,7 @@ Subscription Management
 -   Manage custom application and table mapping through the platform, and learn why specific subscriptions are recommended when mapping custom tables and applications.
 -   View subscribers by domain for user-based subscriptions.
 
-See  for more information.
+See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3323,7 +3326,7 @@ Synthetic monitoring
 -   Get real-time notifications for performance degradations or outages before they impact users.
 -   Visualize synthetic test results and share insights with stakeholders.
 
-See  for more information.
+See [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/synthetic-monitoring-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3410,7 +3413,7 @@ Theme Builder
 -   As of Theme Builder version 5.1, customize the colors of empty state illustrations from within Theme Builder.
 -   As of Theme Builder version 5.1, use your own custom images by overriding the default empty state illustrations.
 
-See  for more information.
+See [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3451,7 +3454,7 @@ Upgrade Center
 -   View all your past upgrades in the Upgrade History module.
 -   Accelerate your upgrades using the Upgrade Plan feature.
 
-See  for more information.
+See [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3463,7 +3466,7 @@ Usage Insights
 -   Add and use new custom user properties more easily in the application. This requires older custom properties to be reconfigured under the new setup.
 -   Advanced querying capabilities including user segmentation across all usage data and filtering of events by event property.
 
-See  for more information.
+See [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3564,7 +3567,7 @@ Workforce Optimization for ITSM
 
 When you upgrade to the Yokohama release, get the enhanced security features by installing the new plugin.
 
-See  for more information.
+See [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/workforce-optimization-itsm-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3578,7 +3581,7 @@ Workspace
 -   Use lists that have additional condition builder fields, infinite scroll, live updates, and saved temporary lists.
 -   Provide role-based access control for viewing and editing tables in the Activity stream.
 
-See Workspace UI for more information.
+See [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) for more information.
 
 </td></tr><tr><td>
 

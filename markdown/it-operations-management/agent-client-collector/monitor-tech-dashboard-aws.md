@@ -1,6 +1,6 @@
 ---
 title: Monitoring Technology Dashboard for AWS
-description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Understanding the Monitoring Technology Dashboard, Agent Client Col
 
 # Monitoring Technology Dashboard for AWS
 
-With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 
 ## Overview of the dashboard
 

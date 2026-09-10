@@ -1,20 +1,20 @@
 ---
-title: Create an investigation canvas
-description: Create a new canvas to add observables from threat intelligence library.
+title: Creating an investigation canvas
+description: Create canvas to add observables from threat intelligence library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-create-canvas.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Create an investigation canvas
+# Creating an investigation canvas
 
-Create a new canvas to add observables from threat intelligence library.
+Create canvas to add observables from threat intelligence library.
 
 ## Before you begin
 
@@ -32,15 +32,56 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Fill in the fields as appropriate.
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Enter the name of canvas.|
-    |Description|Add the description of the canvas.|
-    |Linked Case|Option that displays the list of cases that do not have any canvases associated. This field value is populated based on the case that is linked to the corresponding canvas.|
-    |Priority|Select the priority of the canvas.|
-    |State|Select the state of the canvas.|
+<table id="table_pjz_vqd_fdc"><thead><tr><th>
 
-6.  Click **Save**
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Enter the name of canvas.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Add the description of the canvas.
+
+</td></tr><tr><td>
+
+Linked Case
+
+</td><td>
+
+This option displays a list of cases that do not have any canvases associated with them.The field is dynamically populated based on the absence of a linked canvas for each case, allowing users to easily identify cases that may need investigation contexts created or linked.
+
+</td></tr><tr><td>
+
+Priority
+
+</td><td>
+
+Select the priority of the canvas.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+Select the state of the canvas.
+
+</td></tr></tbody>
+</table>6.  Click **Save**
 
     The two new sections are displayed **Artifacts** and **Investigation Canvas**. When you create a new canvas, the canvas does not include any nodes. You must add nodes from Threat Intelligence library or artifacts through the option of add from library.
 
@@ -86,4 +127,13 @@ Role required: sn\_sec\_tisc.analyst
 
 
 **Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
+
+**Related topics**  
+
+
+[Working with Actions on the Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-canvas-actions.md)
+
+[Linking Canvas from a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.md)
+
+[Creating a Case and Linking from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-link-case.md)
 

@@ -23,7 +23,7 @@ If the Performance Analytics data collector exceeds its row limit during data pr
 
 ## Access the dashboard
 
-To open the dashboard, select **View insights** for SAM on the CMDB success advisor landing page. See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md).
+To open the dashboard, select **View insights** for SAM on the CMDB success advisor landing page. See [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md).
 
 **Note:** The CMDB success advisor for SAM dashboard is available only after the setup process is complete. For more information, see [CMDB success advisor for SAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/cmdb-sa-sam-config-settings.md).
 
@@ -35,6 +35,7 @@ To open the dashboard, select **View insights** for SAM on the CMDB success advi
 |sam\_admin|Required to select or edit the software products included in the SAM advisor scope.|
 |sn\_cmdb\_admin|Provides administrative access to view and edit the scope for any CMDB success advisor product, including SAM.|
 |sn\_cmdb\_user|Provides read-only access to CMDB success advisor pages and data.|
+|sn\_cmdb\_editor|Provides the same dashboard access as sn\_cmdb\_user, with write access on CMDB records outside the application.|
 
 ## Use cases
 

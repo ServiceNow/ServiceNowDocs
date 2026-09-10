@@ -14,7 +14,7 @@ breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Custom
 
 As a product catalog admin or manager, you can create product offering recommendations that agents can use to upsell or cross-sell additional products in quotes.
 
-Product offering recommendations provide your sales agents with relevant products to supplement or complement existing items in quotes. The recommendations are displayed as cards in the contextual side panel of the CSM Configurable Workspace when your agents update a draft quote. Product offering recommendations enable your agents to find and add relevant items quickly to their quotes.
+Product offering recommendations provide your sales agents with relevant products to supplement or complement existing items in quotes. The recommendations are displayed as cards in the contextual side panel of the CRM Workspace when your agents update a draft quote. Product offering recommendations enable your agents to find and add relevant items quickly to their quotes.
 
 \[Omitted image "prod-recommendations-panel.png"\] Alt text: Recommended product cards for products that agents can cross-sell to customers in the contextual side panel of the CSM Workspace.
 

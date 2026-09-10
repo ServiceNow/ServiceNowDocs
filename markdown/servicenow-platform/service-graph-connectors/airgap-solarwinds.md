@@ -8,7 +8,7 @@ product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
 last_updated: "2025-02-24"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [SolarWinds, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,7 +18,13 @@ Air gap connections for the Service Graph Connector for SolarWinds enable safe a
 
 An air gap is a security measure that involves isolating a computer or network and preventing it from establishing an external connection. Air-gapped networks keep critical systems secure by isolating them from external connections to protect the systems from cyber threats. Air gap connections for the Service Graph Connector for SolarWinds facilitate controlled data exchange between the air-gapped networks and external systems while maintaining the integrity of the air-gapped environment.
 
+An air gap is a security measure that involves isolating a computer or network and preventing it from establishing an external connection. Air-gapped networks keep critical systems secure by isolating them from external connections to protect the systems from cyber threats. Air gap connections for the Service Graph Connector for SolarWinds enable controlled data transfer for SolarWinds instances that are deployed to a subnet that neither has internet access nor is reachable by a MID Server agent.
+
 Air gap connections are available from version 2.5.0 of the Service Graph Connector for SolarWinds. You can add either regular data sources or air gap data sources during the guided setup. To access the guided setup, see [Configure Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/configure-solarwinds-integration.md).
+
+The air gap solution for the Service Graph Connector for SolarWinds is presented in the architecture diagram.
+
+\[Omitted image "image.sgc-solarwinds-airgap-arch"\]
 
 Perform the following sequence of tasks to configure the air gap solution before you add air gap data sources during the guided setup:
 

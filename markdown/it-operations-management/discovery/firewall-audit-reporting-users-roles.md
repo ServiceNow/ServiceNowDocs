@@ -9,7 +9,7 @@ classification: discovery
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Firewall Audits and Reporting, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Explore, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Audits and Reporting roles and responsibilities

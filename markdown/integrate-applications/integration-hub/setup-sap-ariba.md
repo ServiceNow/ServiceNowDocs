@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-11-03"
+last_updated: "2026-08-07"
 reading_time_minutes: 16
 breadcrumb: [SAP Ariba Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -47,7 +47,7 @@ For information about the connection and credential alias record that must be co
         |Shared secret|Integration password provided for shared secret-based authentication. For more information, see [Shared secret-based authentication](https://help.sap.com/viewer/d066a90ef618101499ccd55dc3c29025/2003/en-US/d06bd10ff61810148780901700cabde1.html) in [SAP Help Portal](https://help.sap.com/viewer/index).|
         |Please Enter the Credential Information|
         |Credential Name|Name to identify the credential record. For example, `SAP Ariba Import Credential`.|
-        |API Key|Integration password provided for shared secret-based authentication. For more information, see [Shared secret-based authentication](https://help.sap.com/viewer/d066a90ef618101499ccd55dc3c29025/2003/en-US/d06bd10ff61810148780901700cabde1.html) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |API Key|Integration password provided for shared secret-based authentication. For more information, see [Shared secret-based authentication](https://help.sap.com/docs/SAP_INTEGRATED_BUSINESS_PLANNING/a353708c1fee43c295af477387541118/c8046b5e04e142109ab809308f8c13fe.html?locale=en-US) in [SAP Help Portal](https://help.sap.com/viewer/index).|
 
     5.  Click **Create**.
 
@@ -87,8 +87,8 @@ For information about the connection and credential alias record that must be co
         |-----|-----------|
         |Please Enter the Connection Information|
         |Connection Name|Name to identify the connection record. For example, `SAP Ariba Sourcing Connection`.|
-        |Connection URL|Integration Task **URL** created when you enabled SOAP service of the Import Sourcing Project task for the inbound endpoint in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/viewer/f4204795aea64e909c53dc85a8030fdc/Cloud/en-US/2bd48cfaee3f4967b4d3fa3c87cf942b.html#loioeeaae4b5d8d84e5ba45bddfb8d8ccace) in [SAP Help Portal](https://help.sap.com/viewer/index).|
-        |Target Namespace|Value of the **targetNamespace** parameter in WSDL file created in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/viewer/f4204795aea64e909c53dc85a8030fdc/Cloud/en-US/2bd48cfaee3f4967b4d3fa3c87cf942b.html#loioeeaae4b5d8d84e5ba45bddfb8d8ccace) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |Connection URL|Integration Task **URL** created when you enabled SOAP service of the Import Sourcing Project task for the inbound endpoint in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/docs/strategic-sourcing/soap-web-service-api-integration/how-to-enable-soap-integration-task) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |Target Namespace|Value of the **targetNamespace** parameter in WSDL file created in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/docs/strategic-sourcing/soap-web-service-api-integration/how-to-enable-soap-integration-task) in [SAP Help Portal](https://help.sap.com/viewer/index).|
         |Please Enter the Credential Information|
         |Credential Name|Name to identify the credential record. For example, `SAP Ariba Sourcing Credential`.|
         |User Name|User name to log in to your SAP Ariba instance.|
@@ -110,8 +110,8 @@ For information about the connection and credential alias record that must be co
         |-----|-----------|
         |Please Enter the Connection Information|
         |Connection Name|Name to identify the connection record. For example, `SAP Ariba Suppliers Connection`.|
-        |Connection URL|Integration Task **URL** created when you enabled SOAP service of the Import Sourcing Project task for the inbound endpoint in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/viewer/f4204795aea64e909c53dc85a8030fdc/Cloud/en-US/2bd48cfaee3f4967b4d3fa3c87cf942b.html#loioeeaae4b5d8d84e5ba45bddfb8d8ccace) in [SAP Help Portal](https://help.sap.com/viewer/index).|
-        |Target Namespace|Value of the **targetNamespace** parameter in WSDL file created in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/viewer/f4204795aea64e909c53dc85a8030fdc/Cloud/en-US/2bd48cfaee3f4967b4d3fa3c87cf942b.html#loioeeaae4b5d8d84e5ba45bddfb8d8ccace) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |Connection URL|Integration Task **URL** created when you enabled SOAP service of the Import Sourcing Project task for the inbound endpoint in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/docs/strategic-sourcing/soap-web-service-api-integration/how-to-enable-soap-integration-task) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |Target Namespace|Value of the **targetNamespace** parameter in WSDL file created in **Administration**. For information about Integration Task **URL** and **targetNamespace**, see [Enable an Integration Task](https://help.sap.com/docs/strategic-sourcing/soap-web-service-api-integration/how-to-enable-soap-integration-task) in [SAP Help Portal](https://help.sap.com/viewer/index).|
         |Please Enter the Credential Information|
         |Credential Name|Name to identify the credential record. For example, `SAP Ariba Sourcing Credential`.|
         |User Name|User name to log in to your SAP Ariba instance.|
@@ -175,7 +175,7 @@ For information about the connection and credential alias record that must be co
 
 7.  Configure the **SAP Ariba Rest Buyer** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -206,7 +206,7 @@ For information about the connection and credential alias record that must be co
 
 8.  Configure the **SAP Ariba Rest Sourcing** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -236,7 +236,7 @@ For information about the connection and credential alias record that must be co
 
 9.  Configure the **SAP Ariba Procurement Export** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -256,13 +256,13 @@ For information about the connection and credential alias record that must be co
         |Connection Name|Name to identify the connection record.|
         |Connection URL|Base URL to connect to SAP Ariba instance. For example, `https://s1.ariba.com`.|
         |Realm Value|Realm of your SAP Ariba instance.|
-        |Shared Secret|Integration password provided for shared secret-based authentication. For more information, see [Shared secret-based authentication](https://help.sap.com/viewer/d066a90ef618101499ccd55dc3c29025/2003/en-US/d06bd10ff61810148780901700cabde1.html) in [SAP Help Portal](https://help.sap.com/viewer/index).|
+        |Shared Secret|Integration password provided for shared secret-based authentication. For more information, see [Shared secret-based authentication](https://help.sap.com/docs/SAP_INTEGRATED_BUSINESS_PLANNING/a353708c1fee43c295af477387541118/c8046b5e04e142109ab809308f8c13fe.html) in [SAP Help Portal](https://help.sap.com/viewer/index).|
 
     8.  Click **Create Connection**.
 
 10. Configure the **SAP Ariba SOAP Receipts** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -289,7 +289,7 @@ For information about the connection and credential alias record that must be co
 
 11. Configure the **SAP Ariba Procurement Import** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -318,7 +318,7 @@ For information about the connection and credential alias record that must be co
 
 12. Configure the **SAP Ariba Rest Suppliers** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -348,7 +348,7 @@ For information about the connection and credential alias record that must be co
 
 13. Configure the **SAP Ariba Approvals Procurement** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -378,7 +378,7 @@ For information about the connection and credential alias record that must be co
 
 14. Configure the **SAP Ariba Approvals Sourcing** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -408,7 +408,7 @@ For information about the connection and credential alias record that must be co
 
 15. Configure the **SAP Ariba Rest Event** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -438,7 +438,7 @@ For information about the connection and credential alias record that must be co
 
 16. Configure the **SAP Ariba Soap Requisition** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 
@@ -466,7 +466,7 @@ For information about the connection and credential alias record that must be co
 
 17. Configure the **SAP Ariba Rest Invoices** connection.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
     2.  Click the **Connections** tab.
 

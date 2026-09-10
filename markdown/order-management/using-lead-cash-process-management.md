@@ -16,7 +16,7 @@ Sales process managers can use Lead-to-Cash Process Management to create sales p
 
 ## Overview of creating and monitoring sales processes
 
-Access the Lead-to-Cash Process Management application from the CSM Configurable Workspace to create sales process records and monitor the sales process using the sales process dashboard.
+Access the Lead-to-Cash Process Management application from the CRM Workspace to create sales process records and monitor the sales process using the sales process dashboard.
 
 -   [Create a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-sales-process-record.md)
 

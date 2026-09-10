@@ -20,7 +20,7 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 ## About this task
 
-You select fallout records to review in CSM Configurable Workspace. You can also review and track all fallout records for a specific order by using the **Fallouts \(n\)** icon where n is the number of fallouts. This icon appears when you view the related fallout record.
+You select fallout records to review in CRM Workspace. You can also review and track all fallout records for a specific order by using the **Fallouts \(n\)** icon where n is the number of fallouts. This icon appears when you view the related fallout record.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ You select fallout records to review in CSM Configurable Workspace. You can also
 
     **Workspace Experience** &gt; **Workspaces** &gt; **Agent Workspace Home**.
 
-    To learn more about migrating to configurable workspaces, see Migrate to Configurable Workspace
+    To learn more about migrating to configurable workspaces, see [Migrate to Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/migrate-to-configurable-workspace.md)
 
     If you have an assigned Fallout Manager or Fallout Agent role, the Fallout Management workspace appears. If the Fallout Management workspace does not appear, do the following actions:
 

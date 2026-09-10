@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Microsoft Azure Automation spoke v2.0.0 is the latest version.
+The Microsoft Azure Automation spoke v2.0.2 is the latest version.
 
 ## Supported versions
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [configure, tisc add-on, splunk]
-breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure TISC add-on in Splunk
@@ -244,11 +244,6 @@ Sample JSON filter:
 
     These fields along with any others defined by your criteria will be available in Splunk and can be viewed, searched, and analyzed through the search tab.
 
-
--   **[Data storage in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-storage-splunk.md)**  
-Configure and retrieve Key-Value store lookups used by TISC during its integration with Splunk.
--   **[Troubleshoot the TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-splunk-troubleshooting.md)**  
-Enable debug logging on the add-on, view the resulting log entries in Splunk, and check input execution status from the Input Metadata Lookup KV store.
 
 **Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

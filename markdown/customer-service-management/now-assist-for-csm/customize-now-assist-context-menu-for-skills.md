@@ -1,6 +1,6 @@
 ---
 title: Customize Now Assist context menu for skills
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\),
 
 # Customize Now Assist context menu for skills
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 ## Before you begin
 

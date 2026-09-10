@@ -27,7 +27,7 @@ The ServiceNow Discovery application finds Microsoft Hyper-V hypervisors in your
 -   **[Red Hat JBoss server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_DataCollDiscoJBossServers.md)**  
 Discovery can detect JBoss application servers running on Linux and Windows systems.
 -   **[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)**  
-Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Netware discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoNetware.md)**  
 Discovery identifies and classifies information about Netware.
 -   **[Mac \(OS/X\) discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoMacOSXComputers.md)**  
@@ -41,7 +41,7 @@ A Discovery schedule for VMware virtualization can discover vCenter and ESX host
 -   **[Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md)**  
 Discovery identifies and classifies information about Windows computers that use IPv4 addresses, IPv6 addresses, or both.
 -   **[z/OS discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/zOS-discovery.md)**  
-Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md)**  
 Control which IP version Discovery populates on a Network Adapter CI during Linux, Windows, and Solaris discovery.
 

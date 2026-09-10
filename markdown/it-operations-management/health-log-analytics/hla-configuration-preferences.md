@@ -57,7 +57,7 @@ The preferred MID Server settings for Health Log Analytics are:
     |Disk-based Queue|1.1 KB|5,000|
     |Disk-based Queue|2 KB|3,000|
 
-    Starting from the August 2024 release, you can enhance MID Server communication with the ServiceNow instance by using the Lightning gRPC client, which can increase log streaming speeds to Health Log Analytics by up to six times. The Lightning gRPC client requires manual configuration to activate. For more information, see the [Lightning gRPC client - Enabling the new MID gRPC streaming architecture \[KB1648419\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1648419) article in the Now Support Knowledge Base.
+    Starting from the August 2024 release, you can enhance MID Server communication with the ServiceNow instance by using the Lightning gRPC client. This can increase log streaming speeds to Health Log Analytics by up to six times. The Lightning gRPC client requires manual configuration to activate. For more information, see the [Lightning gRPC client - Enabling the new MID gRPC streaming architecture \[KB1648419\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1648419) article in the Now Support Knowledge Base.
 
 -   By default, the number of data inputs per MID Server is limited to 10. You can configure this limitation for an individual MID Server or for all MID Servers.
 -   Both in FIPS and non-FIPS mode, MID Servers with Health Log Analytics capability must run on the Java Runtime Environment \(JRE\) 11 or above.

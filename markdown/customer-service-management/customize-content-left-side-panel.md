@@ -38,7 +38,7 @@ Any changes made to the configuration will affect other record pages and page va
 **Related topics**  
 
 
-[Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md)
+[Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md)
 
 [bundle-platux.configure-service-workspace-ribbons]
 

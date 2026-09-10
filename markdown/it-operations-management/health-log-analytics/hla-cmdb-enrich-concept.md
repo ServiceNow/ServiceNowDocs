@@ -1,6 +1,6 @@
 ---
 title: Enhancing the CMDB with host data found in logs
-description: When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate based on the data it found in the logs for you to review.
+description: When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate. You can review the candidate based on the data found in the logs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Administering Health Log Analytics, Configuring Health Log Analytic
 
 # Enhancing the CMDB with host data found in logs
 
-When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate based on the data it found in the logs for you to review.
+When Health Log Analytics streams logs, it extracts host data from the log events. If host data is discovered that doesn't match the information in the Configuration Management Database \(CMDB\), the system creates a configuration item \(CI\) candidate. You can review the candidate based on the data found in the logs.
 
 After reviewing a CI candidate, you can choose to either add it to the CMDB or dismiss it as irrelevant. The **Log-Based CI Candidates** table lists all CI candidates that Health Log Analytics has created, sorted by system update time. The **Operation** column shows the suggested action to take on each CI candidate. You are automatically notified when there are new CI candidates for your consideration. For more information, see [Add log-based CIs to the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich.md).
 

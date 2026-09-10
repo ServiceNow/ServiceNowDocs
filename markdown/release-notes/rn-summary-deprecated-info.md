@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-deprecated-info.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-13"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -26,11 +26,30 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Control Tower
+
+</td><td>
+
+AI Gateway application is deprecated from the Yokohama release and are no longer supported.
+
+</td></tr><tr><td>
+
 AI Search
 
 </td><td>
 
 Starting with the Now Assist in AI Search 8.0 release, the External Content Q&amp;A Genius Results feature is being prepared for future deprecation. It will continue to be supported until it is deprecated. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Advanced AI Search Management Tools
+
+</td><td>
+
+-   **AI Search Profile dashboard**
+
+The **Searchable Documents** and **Documents by Search Source** visualizations have been removed. These visualizations depended on scheduled jobs and legacy dashboard tables which are no longer available.
+
 
 </td></tr><tr><td>
 
@@ -58,6 +77,14 @@ Starting with the Yokohama release, Customer Service CTI Demo Data is being prep
 
 </td></tr><tr><td>
 
+Change Management
+
+</td><td>
+
+Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
+
+</td></tr><tr><td>
+
 Common Core
 
 </td><td>
@@ -70,7 +97,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-CMDB Data manager on Core UI is now deprecated and no longer supported or available for new activation. CMDB Workspace provides the latest experience for this functionality. For more information, see .
+CMDB Data manager on Core UI is now deprecated and no longer supported or available for new activation. CMDB Workspace provides the latest experience for this functionality. For more information, see [CMDB Data Manager experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-mgr-exp-cmdb-workspace.md).
 
 </td></tr><tr><td>
 
@@ -82,12 +109,11 @@ Starting with the Yokohama release, Data Separation is being prepared for future
 
 </td></tr><tr><td>
 
-Field Service Management
+Dynamic Translation
 
 </td><td>
 
--   Starting with the Yokohama release, Approval Workflow for FSM is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
--   Starting with the Zurich release, the **Enable capacity** constraint for Schedule Optimization is being prepared for future deprecation. It will be no longer be applied for Schedule Optimization. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ibm-translation-spoke.md).
 
 </td></tr><tr><td>
 
@@ -104,31 +130,6 @@ Hardware Asset Management
 </td><td>
 
 The MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table is deprecated. The data in this field is available in the new MAC address \(mac\_addr\) field in the Asset \[alm\_asset\] table.
-
-</td></tr><tr><td>
-
-ITOM Cloud Accelerate
-
-</td><td>
-
--   Support for Cloud Provisioning and Governance: Google Cloud Connector has been removed. If you are on a legacy release, you cannot continue to use the Google Cloud Connector but you can use the Cloud Services Catalog Terraform Connector.
--   Support for Cloud Migration Assessment has been removed.
-
-</td></tr><tr><td>
-
-ITOM Optimization
-
-</td><td>
-
-These workflows have been deprecated:
-
--   Retrieve cloud billing data
--   Retrieve cloud billing month
--   Cloud operation step workflow launcher
-
-**Note:** See  to learn more about the workflow migration.
-
-For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -151,11 +152,19 @@ Starting with the Yokohama release, ITSM Predictive Intelligence Workbench is de
 
 </td></tr><tr><td>
 
+Impact
+
+</td><td>
+
+The Expert Connect Accelerator is no longer supported as of Yokohama.
+
+</td></tr><tr><td>
+
 Instance Data Replication
 
 </td><td>
 
-Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see .
+Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/upgrading-legacy-replication-sets-v2.md).
 
 </td></tr><tr><td>
 
@@ -167,25 +176,6 @@ Starting with Yokohama patch 11, Legacy Application Manager is being prepared fo
 
 </td></tr><tr><td>
 
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
-
-</td></tr><tr><td>
-
-Now Assist in Virtual Agent
-
-</td><td>
-
--   In Patch 11, **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
--   In Patch 11, Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
--   In Patch 6, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in Now Assist Skill Kit.
--   In Patch 4, support for Now Assist in Conversational IVR was removed.
-
-</td></tr><tr><td>
-
 Operational Sustainability Management
 
 </td><td>
@@ -194,40 +184,11 @@ Business rules were deactivated and moved to common script include methods as pa
 
 </td></tr><tr><td>
 
-Operational Technology Manager
+Password Reset
 
 </td><td>
 
--   For the Service Graph Connector for Microsoft Excel, the following items were deprecated on the ServiceNow AI Platform:
-    -   The SG OT Excel Staging Task table
-    -   The Staging task reference on the SG OT Excel Staging table
--   The OT Manager dashboard is no longer available in the Industrial Workspace.
--   Starting with the Yokohama release, Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
-
-</td></tr><tr><td>
-
-Operational Technology Vulnerability Response
-
-</td><td>
-
--   The **OT Vulnerabilities** tab is no longer available on the OT Manager dashboard in the Industrial Workspace.
--   Starting with the Yokohama release, **Vulnerability Response Integration with Microsoft Defender for IoT \(On-premises Management Console\)** integration is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
--   The Subscription start and end dates have been deprecated starting with the Q2 2025 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
--   The fields listed for the following tables are no longer supported.
-
-    |Table name|Fields|
-    |----------|------|
-    |Order \(sn\_ind\_tmt\_orm\_order\)|Total monthly recurring price, Total annual recurring price|
-    |Order line item \(sn\_ind\_tmt\_orm\_order\_line\_item\)|Cumulative monthly recurring price, Cumulative annual recurring price, Subscription start date, Subscription end date|
-    |Order line item \(sn\_csm\_om\_order\_line\_item\)|Total recurring price|
-
+Password Reset workflows are deprecated and have been replaced by flows in the base system for most users. zBoot users must still use the Password Reset flows.
 
 </td></tr><tr><td>
 
@@ -236,15 +197,6 @@ Patient Support Services
 </td><td>
 
 Starting with the Yokohama release, Patient Support Services is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-</td></tr><tr><td>
-
-Playbooks in Workflow Studio
-
-</td><td>
-
--   If you have the old Create Task activity in your existing playbooks, it will continue to function. You just can't add the extra fields that are available only in the new Create Task activity.
--   If you have the old Checklist activity in your existing playbooks, it will continue to function. You just won't be able to update the checklist directly in Workflow Studio the way that you can with the new Checklist activity.
 
 </td></tr><tr><td>
 
@@ -288,11 +240,51 @@ Starting with the Yokohama release, Redox Inbound Integration is being prepared 
 
 </td></tr><tr><td>
 
+Service Level Management
+
+</td><td>
+
+Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
+
+</td></tr><tr><td>
+
+Service Reliability Management
+
+</td><td>
+
+The **Alerts** tab has been removed from the Reliability tasks page.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
+
+</td></tr><tr><td>
+
 Site Reliability Operations
 
 </td><td>
 
 Starting with the Yokohama release, Release Management v2 is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Digital Product Release provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Sourcing and Procurement Operations
+
+</td><td>
+
+The **All categories** option has been removed from the **Categories** tab in Shopping Hub due to low usage and its impact on system performance.
+
+</td></tr><tr><td>
+
+Subscription Management
+
+</td><td>
+
+The Custom tables chart has been removed from the subscription details page.
 
 </td></tr><tr><td>
 
@@ -307,17 +299,14 @@ Supplier Manager Workspace is being prepared for future deprecation. It’s hidd
 
 </td></tr><tr><td>
 
-Vendor Management Workspace
+Usage Insights
 
 </td><td>
 
-Starting with Yokohama release, the following applications within Vendor Management Workspace are being prepared for future deprecation. They will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **[User Experience Analytics in Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md)**
 
--   Performance Analytics Content Pack - Vendor Management Workspace
--   Vendor Management Workspace UI Components
--   Vendor Manager Workspace Demo Data
--   Service Credits
--   Vendor Management Mobile
+User Experience Analytics is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using User Experience Analytics.
+
 
 </td></tr><tr><td>
 
@@ -326,6 +315,14 @@ Virtual Agent
 </td><td>
 
 Support for Now Assist in Conversational IVR was removed.
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+The sn\_erp\_integration.enableJobModification property has been removed and is no longer required in order to schedule an extraction.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)

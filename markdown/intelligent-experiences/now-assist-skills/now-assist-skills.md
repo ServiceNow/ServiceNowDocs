@@ -8,7 +8,7 @@ product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
 last_updated: "2026-06-09"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Now Assist, Now Assist skills, Generative AI, Gen AI, Security operations, IT operations, ITSM, IT Service management, Customer service management, CSM, Strategic portfolio management, SPM, Field service management, FSM, Financial services operations, FSO, HR Service Delivery, HRSD, Sourcing and procurement operations, SPO]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
 ---
@@ -43,13 +43,13 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)
+
 
 </td><td>
 
--   [Docs summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-doc-now-assist-cwm.md)
--   [Doc generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)
--   [Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)
+-   Docs summarization
+-   Doc generation
+-   Task generation
 
 </td></tr><tr><td>
 
@@ -71,14 +71,14 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md)
+
 
 </td><td>
 
--   [ADR DOC summarization and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)
--   [Business application insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/generate-insights-into-ba.md)
--   [Register a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/register-business-application-using-conversational-experience.md)
--   [Register a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/register-digital-integration-using-conv-exp.md)
+-   ADR DOC summarization and actions
+-   Business application insights
+-   Register a business application
+-   Register a digital integration
 
 </td></tr><tr><td>
 
@@ -98,26 +98,26 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)
+
 
 </td><td>
 
--   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)
--   [Control objective rationalization and deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ai-generated-recommendations-for-similar-control-objective.md)
--   [Use Recommendation of similar control objectives skill to generate suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-recommendation-for-a-new-control-objective.md)
--   [Issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/summarize-an-issue.md)
--   [Recommendations for regulatory alert impacted areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-recommendation-for-a-new-control-objective.md)
--   [Regulatory alert summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Regulatory alert impacted policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-recommendation-reg-alert.md)
--   [Risk assessment summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-risk-assessment-summary-genai.md)
--   [Risk event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-risk-event-summary-in-the-risk-workspace.md)
--   [Risk event summarization in the classic UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-a-risk-event-summary.md)
+-   Common control objective creation
+-   Control objective rationalization and deduplication
+-   
+-   Issue summarization
+-   Recommendations for regulatory alert impacted areas
+-   Recommendation of similar control objectives
+-   Regulatory alert summarization
+-   Regulatory alert impacted citations
+-   Regulatory alert impacted control objectives
+-   Regulatory alert impacted controls
+-   Regulatory alert impacted policies
+-   Risk assessment summarization
+-   Risk event summarization
+-   Risk event summarization in the classic UI
 
--   [Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)
+-   Control objective impact analyzer
 
 </td></tr><tr><td>
 
@@ -125,13 +125,13 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)
+
 
 </td><td>
 
--   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/alert-summarization-now-assist.md)
--   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/nai-analyze-past-incidents.md)
--   [LEAP installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap.md)
+-   Alert analysis
+-   Alert investigation
+-   LEAP installer
 -   Service Mapping Candidate
 -   Service mapping candidates Impact
 
@@ -141,25 +141,25 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md)
+
 
 </td><td>
 
--   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-risk-exp-now-assist.md)
--   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/summarize-change-now-assist.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-email-recommendation.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-incident-assist.md)
--   [Incident sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/sentiment-analysis-now-assist-itsm.md)
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/summarize-incident-now-assist.md)
+-   Change request risk explanation
+-   Change request summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Email recommendation
+-   Incident assist
+-   Incident sentiment analysis
+-   Incident summarization
 -   Investigate boot time issues
 -   Investigate Zoom call quality issues
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
--   [Release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-dpr-generate-release-notes.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/resolve-incident-now-assist.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
--   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)
+-   KB generation
+-   Release notes generation
+-   Resolution notes generation
+-   Sidebar discussion summarization
+-   Suggested steps generation
 
 </td></tr><tr><td>
 
@@ -179,13 +179,13 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-privacy-management.md)
+
 
 </td><td>
 
--   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md)
--   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/privacy-generate-recommendation-for-a-new-control-objective.md)
--   [Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/privacy-generate-risk-assessment-summary.md)
+-   Common control objective creation
+-   Recommendation of similar control objectives
+-   Risk assessment summary
 
 </td></tr><tr><td>
 
@@ -212,17 +212,17 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-sam.md)
+
 
 </td><td>
 
--   [Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/summarize-publisher-compliance-now-assist-sam.md)
--   [Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md)
--   [Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/recommended-actions-now-assist-sam.md)
--   [SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/automate-userresolution-saas-now-assist-sam.md)
--   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
+-   Error log summarization
+-   Error resolution recommendation
+-   Publisher compliance summarization
+-   Product compliance summarization
+-   Recommended actions
+-   SaaS user resolution
+-   Contract entitlement data extraction
 
 </td></tr><tr><td>
 
@@ -230,21 +230,21 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
+
 
 </td><td>
 
--   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/demand-creation-using-now-assist.md)
--   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)
--   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/identify-similar-demand-records.md)
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/feedback-summary-sentiment-topics.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-documents-genai-skill-spw.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-doc-content-genai-skill-pw.md)
--   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/email-project-summary-skill-pw.md)
--   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
--   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-targets-for-goal.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+-   Create a demand
+-   EAP doc summarization
+-   Identify similar records
+-   Multi feedback summarization
+-   Planning item doc summarization
+-   Project doc summarization
+-   Project insights generation
+-   Refine records
+-   Story generation
+-   Target generation
+-   Write planning item
 
 </td></tr><tr><td>
 
@@ -252,11 +252,11 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-tprm.md)
+
 
 </td><td>
 
-[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-a-summary-of-issue.md)
+TPRM issue summarization
 
 </td></tr><tr><td>
 
@@ -281,22 +281,22 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
+
 
 </td><td>
 
--   [Activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-a-recommendation-to-respond-to-an-activity.md)
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-case.md)
--   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-chat-reply-recommendations.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/generate-email-reply-recommendations.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-generate-resolution.md)
--   [Sentiment analysis case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/analyze-sentiments-in-now-assist-for-csm.md)
--   [Sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/use-sentiment-analysis-dashboard.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/summarize-sidebar-conversations.md)
--   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.md)
--   [Trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/view-trending-topics-dashboard.md)
+-   Activity response generation
+-   Case summarization
+-   Chat recommendation
+-   Chat summarization
+-   Email recommendation
+-   KB generation
+-   Resolution notes generation
+-   Sentiment analysis case
+-   Sentiment analysis dashboard
+-   Sidebar summarization
+-   Suggested steps generation
+-   Trending topics dashboard
 
 </td></tr><tr><td>
 
@@ -304,13 +304,13 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
+
 
 </td><td>
 
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-generate-kb-article.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/generate-wot-summ-fsm.md)
+-   KB generation
+-   Sidebar summarization
+-   Work order task summarization
 
 </td></tr><tr><td>
 
@@ -318,12 +318,12 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/summarize-case-using-now-assist-fso.md)
--   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+-   Case summarization
+-   Disputes intake via Virtual Agent
 
 </td></tr><tr><td>
 
@@ -380,11 +380,11 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
+
 
 </td><td>
 
-[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)
+Incident summarization
 
 </td></tr><tr><td>
 
@@ -392,22 +392,22 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-summarize-case.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/chat-recommendations-nahr.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-chat.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/email-recommendation-nahr.md)
+-   Case summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Email recommendation
 -   ER case summarization
 -   ER interview summarization
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
--   [Employee information summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-summary-lh.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-res-note.md)
--   [Sentiment analysis for HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/analyze-sentiments-now-assist.md)
--   [Sentiment analysis for HR task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/tcase-now-assist-hr.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sidebar-discussion-nahr.md)
+-   KB generation
+-   Employee information summarization
+-   Resolution notes generation
+-   Sentiment analysis for HR case
+-   Sentiment analysis for HR task
+-   Sidebar discussion summarization
 
 </td></tr><tr><td>
 
@@ -415,15 +415,15 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
+
 
 </td><td>
 
--   [Get category of the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/trans-legal-request-agent.md)
--   [Legal matter summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
--   [Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
--   [Triage legal request AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/trans-legal-request-agent.md)
--   [Triage legal request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/trans-legal-request-agent.md)
+-   Get category of the legal request
+-   Legal matter summarization
+-   Legal request summarization
+-   Triage legal request AI Search
+-   Triage legal request capability
 
 </td></tr><tr><td>
 
@@ -431,13 +431,13 @@ Employee
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-now-assit-landing.md)
+
 
 </td><td>
 
--   [Contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-NA-review-land.md)
--   [Contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-metadata-extract-land.md)
--   [Contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
+-   Contract analysis
+-   Contract metadata extraction
+-   Contract obligation extraction
 
 </td></tr><tr><td>
 
@@ -445,11 +445,11 @@ Employee
 
 </td><td>
 
-[Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-wsd-landing.md)
+
 
 </td><td>
 
-[Reserve Space Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/wsd-reserve-a-space-now-assist-va.md)
+Reserve Space Virtual Agent topic
 
 </td></tr><tr><td>
 
@@ -457,31 +457,31 @@ Creator
 
 </td><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)
+
 
 </td><td>
 
--   [App generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)
+-   App generation
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)
--   [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/summarize-an-app-in-servicenow-studio.md)
--   [Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/client-script-summarization-generation.md)
--   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
+-   App summary generation
+-   
+-   Code Assist autocomplete
 -   Code Assist edit
--   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
--   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code.md)
--   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/configure-an-event-handler-with-now-assist.md)
--   [Experience generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/generate-ui.md)
--   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-generation-landing.md)
--   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-generation-with-images-landing.md)
--   [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-recommendations-landing.md)
--   [Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-summarization-landing.md)
+-   Code assist summarization
+-   Code Assist generation
+-   Event handler generation
+-   
+-   
+-   
+-   
+-   
 -   Mobile card generation
--   [Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/generate-a-playbook-outline.md)
--   [Playbook generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/generate-a-playbook-outline.md)
--   [Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-recommendations.md)
--   [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-bot-generation.md)
--   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-spk-now-spk-gen.md)
--   [Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tg-implement.md)
+-   Playbook generation
+-   Playbook generation with images
+-   Playbook recommendations
+-   
+-   Spoke generation
+-   Test generation
 -   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/run-worknotes-analysis.md)
 
 </td></tr><tr><td>

@@ -1,6 +1,6 @@
 ---
 title: Linux discovery
-description: Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/r\_DataCollDiscoLinuxComputers.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITO
 
 # Linux discovery
 
-Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery and Service Mapping applications use probes and patterns to discover and map information about Linux computers and servers. The information is populated in the CMDB. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Supportability details
 
@@ -119,6 +119,10 @@ Before running a discovery, you must verify that all the required configurations
     -   [View Patterns commands through the Discovery Patterns module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/view-command-pattern-discovery.md)
     -   [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/validate-discovery-commands.md)
     SSH private key credentials are preferable over SSH password credentials for security reasons.
+
+-   **Configure PermitTTY for SSH sessions**
+
+    Set `PermitTTY yes` in `/etc/ssh/sshd_config` on the target Linux server. This setting is required for privileged commands such as `dmidecode` to run successfully.
 
 -   **Verify the MID Server configuration**
 

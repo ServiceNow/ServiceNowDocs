@@ -1,20 +1,20 @@
 ---
-title: View Premium Threat Feed for CrowdStrike
-description: The CrowdStrike feed enables users to ingest indicators, actors, reports, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
+title: Configure Premium Threat Feed for CrowdStrike
+description: The CrowdStrike feed enables users to ingest indicators, actors, reports, malware, vulnerabilities, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/premium-threat-feed-for-crowdstrike.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-05-18"
-reading_time_minutes: 5
-breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+last_updated: "2026-08-17"
+reading_time_minutes: 7
+breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
-# View Premium Threat Feed for CrowdStrike
+# Configure Premium Threat Feed for CrowdStrike
 
-The CrowdStrike feed enables users to ingest indicators, actors, reports, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
+The CrowdStrike feed enables users to ingest indicators, actors, reports, malware, vulnerabilities, and their associated context from the CrowdStrike Falcon Intelligence feed into TISC.
 
 ## Before you begin
 
@@ -32,29 +32,26 @@ Role required: sn\_sec\_tisc.admin
 
     \[Omitted image "tisc-crowdstrike-premium-feed.png"\] Alt text: CrowdStrike-Premium feed
 
-4.  Navigate to the **Configuration Details** section.
+4.  Select **Details**.
 
 5.  Enter the **Client ID**, and **Client Secret**.
 
     **Note:**
 
-    1.  You must generate your Client ID and Client Secret if you don't have them. For more information on the Client ID and Client Secret, see [Defining your first API Client](https://www.crowdstrike.com/blog/tech-center/get-access-falcon-apis/) section.
+    1.  Generate your Client ID and Client Secret if you don't have them. For more information on the Client ID and Client Secret, see [Defining your first API Client](https://www.crowdstrike.com/blog/tech-center/get-access-falcon-apis/) section.
     2.  Get Client ID and Client Secret from CrowdStrike for required scopes. The following scopes are required for the Client ID and Client Secret from CrowdStrike:
         -   Indicators \(Falcon intelligence\)
         -   Actors \(Falcon Intelligence\)
         -   Reports \(Falcon Intelligence\)
         -   Malware Families \(Falcon Intelligence\)
-6.  Navigate to **Additional Settings** to configure the filters that will be applied while ingesting indicators from CrowdStrike.
+        -   Vulnerabilities \(Falcon Intelligence\)
+6.  Select **Additional Settings** to configure the filters to apply while ingesting indicators from CrowdStrike.
 
     \[Omitted image "tisc-crowdstrike-additional-settings.png"\] Alt text: CrowdStrike additional settings tab
-
-    The **Additional Settings** tab is primarily used to configure the filters that control how data is ingested into the application.
 
     These filters allow you to customize the data integration process to meet your specific requirements, ensuring that only the most relevant information is included.
 
 7.  Select **Edit Settings**.
-
-    \[Omitted image "tisc-crowdstrike-additional-settings-edit.png"\] Alt text: CrowdStrike additional settings tab - Edit
 
 8.  Select the required filters.
 
@@ -86,6 +83,7 @@ Select the record types that you want to ingest. The available record types are:
 -   Reports
 -   Actors
 -   Malware
+-   Vulnerabilities
 **Note:**
 
 If you don't select a record type, all the record types are ingested.
@@ -188,7 +186,7 @@ Enter comma-separated malware family names associated with the indicators for in
 
 </td></tr><tr><td colspan="2">
 
-**Mapping of Indicator Malicious confidence to TISC confidence****Note:** The High, Medium, and Low values are the source value or malicious confidence received from CrowdStrike.
+**Mapping of Indicator Malicious confidence to TISC confidence****Note:** The High, Medium, Low, and Unverified values are the source value for malicious confidence received from CrowdStrike.
 
 </td></tr><tr><td>
 
@@ -223,14 +221,170 @@ Unverified
 Enter a confidence value \(0–100\) for indicators with unverified malicious confidence.
 
 </td></tr></tbody>
+</table><table id="table_vul_filters"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td colspan="2">
+
+**Filters on vulnerability attributes**
+
+</td></tr><tr><td>
+
+Severity of vulnerabilities to ingest
+
+</td><td>
+
+Select the severities of CrowdStrike vulnerabilities to ingest. If left empty, all vulnerabilities are fetched regardless of severity.
+
+</td></tr><tr><td>
+
+Exploit status of vulnerabilities to ingest
+
+</td><td>
+
+Select the exploit statuses of CrowdStrike vulnerabilities to ingest. If left empty, all vulnerabilities are fetched regardless of exploit status.
+
+</td></tr><tr><td>
+
+CVSS v3 severity of vulnerabilities to ingest
+
+</td><td>
+
+Select the Common Vulnerability Scoring System \(CVSS\) v3 severities of CrowdStrike vulnerabilities to ingest. If left empty, all vulnerabilities are fetched regardless of CVSS v3 severity.
+
+</td></tr><tr><td>
+
+Minimum CVSS v3 base score
+
+</td><td>
+
+Enter the minimum CVSS v3 base score for ingestion, such as 9.5. Only vulnerabilities with a score above this value are ingested.
+
+</td></tr><tr><td>
+
+CVE IDs of vulnerabilities to ingest
+
+</td><td>
+
+Enter comma-separated CVE IDs to ingest. If left empty, all vulnerabilities are considered for ingestion.
+
+</td></tr><tr><td colspan="2">
+
+**Filters on published date**
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities published on or after
+
+</td><td>
+
+Select the date on or after which CVEs were published. Populate both date fields to ingest CVEs published within a date range.
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities published on or before
+
+</td><td>
+
+Select the date on or before which CVEs were published. Populate both date fields to ingest CVEs published within a date range.
+
+</td></tr><tr><td colspan="2">
+
+**Filters on associated actors**
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities only if actors associated to it
+
+</td><td>
+
+Select this check box to ingest only the vulnerabilities that have associated actors.
+
+</td></tr><tr><td>
+
+Ingest vulnerabilities only associated to these actors
+
+</td><td>
+
+Enter comma-separated actor names. If left empty, all actors are considered for vulnerability ingestion.
+
+</td></tr><tr><td colspan="2">
+
+**Filters on associated threats**
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities only if threats associated to it
+
+</td><td>
+
+Select this check box to ingest only the vulnerabilities that have associated threats.
+
+</td></tr><tr><td>
+
+Ingest vulnerabilities only associated to these threats
+
+</td><td>
+
+Enter comma-separated threat names. If left empty, all threats are considered for vulnerability ingestion.Threats in CrowdStrike correspond to malware in TISC.
+
+</td></tr><tr><td colspan="2">
+
+**Filters on associated products**
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities only if products associated to it
+
+</td><td>
+
+Select this check box to ingest only the vulnerabilities that have associated products.
+
+</td></tr><tr><td>
+
+Ingest vulnerabilities only associated to these products
+
+</td><td>
+
+Enter comma-separated product names. If left empty, all products are considered for vulnerability ingestion.
+
+</td></tr><tr><td colspan="2">
+
+**Filters on associated vendors**
+
+</td></tr><tr><td>
+
+Fetch vulnerabilities only if vendors associated to it
+
+</td><td>
+
+Select this check box to ingest only the vulnerabilities that have associated vendors.
+
+</td></tr><tr><td>
+
+Ingest vulnerabilities only associated to these vendors
+
+</td><td>
+
+Enter comma-separated vendor names. If left empty, all vendors are considered for vulnerability ingestion.
+
+</td></tr></tbody>
 </table>    **Note:** With the same additional settings you have defined, you can duplicate the feed when creating a new one.
 
 10. Select **Update** on the **Additional Settings** dialog box to save the modified additional settings.
 
 11. Select **Enable** to enable CrowdStrike Feed for ingestion.
 
-    **Note:** The premium feed is the same as other feeds except the response that is parsed during configuration. A specific response is parsed to CrowdStrike by adding the Client ID and Client Secret.
+    **Note:**
 
+    -   When you enable the feed, its configuration fields are set to read-only and the **Save** button is hidden. To change the configuration, disable the feed first.
+
+    -   The premium feed is the same as other feeds except the response that is parsed during configuration. A specific response is parsed to CrowdStrike by adding the Client ID and Client Secret.
     **What type of data is fetched from CrowdStrike:**
 
     1.  Indicators from CrowdStrike that are updated after the configured ingestion time and match the filters configured in additional settings. These indicators from CrowdStrike are then mapped to observables in TISC. The following indicator types are ingested in TISC:
@@ -248,10 +402,12 @@ Enter a confidence value \(0–100\) for indicators with unverified malicious co
     2.  Threat Actors from CrowdStrike that are updated after the configured ingestion time are mapped to Threat Actors in TISC.
     3.  Reports from CrowdStrike that are updated after the configured ingestion time are mapped to threat reports in TISC based on matching attributes.
     4.  Malwares from CrowdStrike that are updated after the configured ingestion time are mapped to malwares in TISC based on matching attributes.
-    5.  Additionally, the following related data is also fetched:
+    5.  Vulnerabilities from CrowdStrike that are updated after the configured ingestion time, are mapped to Vulnerabilities in TISC based on matching attributes.
+    6.  Data is related based on the source CrowdStrike feed and ingestion. Relationships can be established when entities originate from:
 
-        1.  Threat actors, reports, and indicators related to the previously ingested indicators.
-        2.  Threat actors and indicators associated with all reports ingested during the current ingestion process.
+        1.  The same CrowdStrike feed and the same ingestions.
+        2.  The same CrowdStrike feed and different ingestions.
+        3.  Different CrowdStrike feeds.
         **Note:** Filters configured in **Additional Settings** are also applied when ingesting indicators associated with previously ingested indicators, reports, or actors.
 
 12. Select **Duplicate** to duplicate the feed.

@@ -32,7 +32,7 @@ Order a Cloud SQL database solution that integrates with Google Cloud services.
 
 </td><td>
 
-This is a fully functional sample catalog item that can be used to order a Cloud SQL database solution that integrates with Google Cloud services to create and connect to your first scalable database in minutes.
+This is a fully functional sample catalog item that can be used to order a Cloud SQL database solution that integrates with Google Cloud services. You can create and connect to your first scalable database in minutes.
 
  Upon completion, comprehensive details of the Cloud SQL configuration will be provided in the stack details. It automates essential functions such as backups, replication, patching, encryption, and storage capacity adjustments, ensuring that applications benefit from enhanced reliability, scalability, and security measures.
 

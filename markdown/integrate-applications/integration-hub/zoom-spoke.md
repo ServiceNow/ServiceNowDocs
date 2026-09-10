@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-10-27"
+last_updated: "2026-08-31"
 reading_time_minutes: 8
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -113,7 +113,7 @@ The Zoom spoke adds the Zoom application to your instance and includes the modul
 
 The Zoom spoke provides you with actions so that you can automate Zoom tasks when events occur in the ServiceNow AI Platform. Th available actions are described in the following table.
 
-<table id="table_ftn_f4z_yjc"><thead><tr><th>
+<table id="table_u1p_kh2_hfb"><thead><tr><th>
 
 Category
 
@@ -525,7 +525,7 @@ Lists information on participants from a past meeting.
 
 meeting:read:list\_past\_participants:admin
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="8">
 
 User Management
 
@@ -588,6 +588,30 @@ Retrieves all the users that are associated to your account.
 </td><td>
 
 user:read:list\_users:admin
+
+</td></tr><tr><td>
+
+Look up User Settings
+
+</td><td>
+
+Retrieves the settings details for a users profile.
+
+</td><td>
+
+user:read:settings:admin
+
+</td></tr><tr><td>
+
+Update User
+
+</td><td>
+
+Updates the Zoom profile information of the required user.
+
+</td><td>
+
+user:update:user:admin
 
 </td></tr><tr><td>
 
@@ -728,6 +752,22 @@ Copies the attachment that contains the chat message to the incident record.
 </td><td>
 
 team\_chat:read:user\_message:admin
+
+</td></tr><tr><td>
+
+Webinar Management
+
+</td><td>
+
+Look up Webinars Stream
+
+</td><td>
+
+Retrieves a list of upcoming or scheduled webinars for the required user.
+
+</td><td>
+
+webinar:read:list\_webinars:admin
 
 </td></tr></tbody>
 </table>## Available AI agents

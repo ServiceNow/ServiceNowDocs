@@ -1,9 +1,9 @@
 ---
 title: Creator Studio release notes
-description: The ServiceNow Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
+description: The ServiceNow Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.The ServiceNow Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.The ServiceNow Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
 
-## Creator Studio highlights for the Yokohama release
+## About Creator Studio
 
 -   Create forms quickly by using Now Assist.
 -   As of Creator Studio version 27.2.2, revamped navigation means you can more easily see what's in your app.
@@ -22,29 +22,27 @@ The ServiceNow® Creator Studio product is a guided application development expe
 
 See  for more information.
 
+## Activation and other requirements
+
 **Important:** Creator Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
 
--   **Generate a form from text prompts using the Build with Now Assist tab**
+    Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    Enable users to generate forms automatically from text prompts by using the Build with Now Assist dialog box.
+-   **Additional requirements**
 
--   **Auto-populate question values on a form**
+    You must have the App Engine Enterprise license to use Creator Studio.
 
-    Help users complete forms faster with the new **Add auto-fill** option, which automatically populates answers based on answers to questions that are record choices.
 
--   **Use catalog variables in playbook activities and decisions**
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
 
-    Playbook activities and decision branches can now be triggered by answers to one or more questions on a form when you configure the conditions.
+## May 2025
 
--   **Select your development experience**
+The ServiceNow® Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
 
-    Seamlessly change between development environments using the new experience switcher. Depending on the products and versions that are installed and the role you have, you can switch between the following environments:
+### What's new
 
-    -   Creator Studio to get a no-code experience
-    -   ServiceNow Studio to get a platform coding experience
-    -   ServiceNow IDE to get a pro-code ServiceNow experience
 -   **Test forms with the new Try it button**
 
     As of Creator Studio version 27.2.2,you can test using published forms through a **Try it** button. After you submit the form, any associated playbooks run and their results appear in the generated record that opens in a new tab within Creator Studio.
@@ -58,7 +56,7 @@ See  for more information.
     As of Creator Studio version 27.2.2, you can open an app in ServiceNow Studio to make additional, more complicated edits by selecting an **Open with ServiceNow Studio** link from the app's tile on the Creator Studio home page.
 
 
-## UI changes
+### What's changed
 
 -   **Navigation moved from header to sidebar**
 
@@ -90,16 +88,6 @@ See  for more information.
     -   The **Home** view has been removed, so the **Lists** view now appears by default.
     -   The **Analytics** view has been renamed **Dashboard overview**, and the analytics **Home**, **Data Visualizations**, and **KPIs** tabs have been removed.
     -   A link to the **Request App Workspace** now appears in **All** &gt; **App Engine** &gt; **Workspaces**.
--   **Search for apps on the home page**
-
-    Quickly find the app that you're looking for using the new search bar on the Creator Studio home page.
-
--   **Save and quickly find apps with bookmarks**
-
-    Bookmark apps to find them faster using the new **Bookmarks** pill on the home page.
-
-
-## Changed in this release
 
 -   **Playbooks use only published forms**
 
@@ -114,44 +102,40 @@ See  for more information.
     Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
 
 
-## Activation information
+## Yokohama
 
-Install Creator Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
 
-## Additional requirements
+### What's new
 
-You must have the App Engine Enterprise license to use Creator Studio.
+-   **Generate a form from text prompts using the Build with Now Assist tab**
 
-## Related ServiceNow applications and features
+    Enable users to generate forms automatically from text prompts by using the Build with Now Assist dialog box.
 
--   **App Engine Management Center**
+-   **Auto-populate question values on a form**
 
-    Track and manage your Creator Studio requests, deployments, applications, and collaborative developers using App Engine Management Center.
+    Help users complete forms faster with the new **Add auto-fill** option, which automatically populates answers based on answers to questions that are record choices.
 
--   **App Engine Studio**
+-   **Use catalog variables in playbook activities and decisions**
 
-    Open Creator Studio apps in AES to add more complexity to the app, such as email notifications and additional security.
+    Playbook activities and decision branches can now be triggered by answers to one or more questions on a form when you configure the conditions.
 
--   ****
+-   **Select your development experience**
 
-    Create or edit a catalog item using a visual and guided experience.
+    Seamlessly change between development environments using the new experience switcher. Depending on the products and versions that are installed and the role you have, you can switch between the following environments:
 
--   **Form Builder**
+    -   Creator Studio to get a no-code experience
+    -   ServiceNow Studio to get a platform coding experience
+    -   ServiceNow IDE to get a pro-code ServiceNow experience
 
-    Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
+### What's changed
 
--   **ServiceNow Studio**
+-   **Search for apps on the home page**
 
-    ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps with ease.
+    Quickly find the app that you're looking for using the new search bar on the Creator Studio home page.
 
--   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md)**
+-   **Save and quickly find apps with bookmarks**
 
-    Integrate workflow authoring, configuring, and monitoring into a single-page experience.
+    Bookmark apps to find them faster using the new **Bookmarks** pill on the home page.
 
--   **Workspace**
-
-    Address customer requests and issues in a workspace, which provides a suite of tools where agents, case managers, help desk professionals, and managers work with tools to resolve customer needs.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
 

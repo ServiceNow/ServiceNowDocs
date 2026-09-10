@@ -36,7 +36,7 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d706434e110">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d708414e110">
 
 **Option**
 
@@ -44,7 +44,7 @@ Role required: Responder, Manager, or Administrator
 
 Description
 
-</td></tr><tr><td id="d706434e119">
+</td></tr><tr><td id="d708414e119">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d706434e131">
+</td></tr><tr><td id="d708414e131">
 
 **In the __Details__ tab of incident form**
 

@@ -27,21 +27,21 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List view icon. view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List view icon. view.
 
 2.  Navigate to **Quotes** &gt; **All** and select **New**.
 
 3.  In the Create new quote window, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d56911e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d56940e105">
 
 To
 
-</th><th align="left" id="d56911e108">
+</th><th align="left" id="d56940e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56911e114">
+</th></tr></thead><tbody><tr><td id="d56940e114">
 
 **Create quote for an account**
 
@@ -52,7 +52,7 @@ Select the **Account** and enter the following:-   Contact: Name of the primary 
 -   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d56911e137">
+</td></tr><tr><td id="d56940e137">
 
 **Create quote for a consumer**
 

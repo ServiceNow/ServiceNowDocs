@@ -1,6 +1,6 @@
 ---
 title: Resume a service contract line
-description: Create an order to resume a service contract line and its child service contract lines on the CSM Configurable Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
+description: Create an order to resume a service contract line and its child service contract lines on the CRM Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-resume-service-contract-line.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contract
 
 # Resume a service contract line
 
-Create an order to resume a service contract line and its child service contract lines on the CSM Configurable Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
+Create an order to resume a service contract line and its child service contract lines on the CRM Workspace. By resuming a service contract line, you are restarting the services specified in that service contract line.
 
 ## Before you begin
 

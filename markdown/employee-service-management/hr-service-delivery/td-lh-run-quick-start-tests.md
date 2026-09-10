@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2024-10-29"
 reading_time_minutes: 1
-breadcrumb: [Quick start tests for Leader Hub, Installing and configuring Leader Hub, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Quick start tests for Leader Hub, Install and configure, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Run quick start tests for Leader Hub

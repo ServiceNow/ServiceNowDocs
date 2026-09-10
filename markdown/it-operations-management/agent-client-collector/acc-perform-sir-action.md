@@ -104,5 +104,5 @@ Transpose the data. When selected,the information is displayed with vertical col
 **Related topics**  
 
 
-[Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md)
+[Generate an Agent Client Collector allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md)
 

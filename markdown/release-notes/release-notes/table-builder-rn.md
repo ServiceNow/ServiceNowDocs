@@ -1,9 +1,9 @@
 ---
 title: Table Builder release notes
-description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.
+description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.
 
-## Table Builder highlights for the Yokohama release
+## About Table Builder
 
 -   Transition to NOW Design Systems \(NDS\) icons from the previous custom table builder icons.
 -   Launch the Table Builder App from the App Navigator.
@@ -20,7 +20,24 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 
 See  for more information.
 
-## UI changes
+## Activation and other requirements
+
+-   **Activation information**
+
+    Table Builder is available without App Engine Studio.
+
+-   **Browser requirements**
+
+    Internet Explorer isn’t supported.
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.
+
+### What's changed
 
 -   **Transition to NOW Design Systems \(NDS\)**
 
@@ -36,26 +53,4 @@ See  for more information.
 
     At least one role with Read permissions should be assigned to each table during creation to ensure proper Access Control List \(ACL\) setup and help prevent access issues for developers.
 
-
-## Activation information
-
-Table Builder is available without App Engine Studio.
-
-## Browser requirements
-
-Internet Explorer isn’t supported.
-
-## Related ServiceNow applications and features
-
--   **App Engine Studio**
-
-    App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
-
-**Related topics**  
-
-
-[Launching from the App Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

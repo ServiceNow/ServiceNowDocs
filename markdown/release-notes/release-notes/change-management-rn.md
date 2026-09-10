@@ -1,9 +1,9 @@
 ---
 title: Change Management release notes
-description: The ServiceNow Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.The ServiceNow Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
 
-## Change Management highlights for the Yokohama release
+## About Change Management
 
 -   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
 -   Require specified field details to be updated before transitioning the state of a change request by converting existing optional fields to mandatory fields.
@@ -20,9 +20,22 @@ The ServiceNow® Change Management application provides a tool for managing the 
 
 See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ITILChangeManagement.md) for more information.
 
-## New in the Yokohama release
+## Activation and other requirements
 
--   **User role for service desk agents**
+-   **Activation information**
+
+    Change Management is a ServiceNow AI Platform feature that is active by default.
+
+
+**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/installed-with-cm-itsm-roles.md)**
 
     With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
 
@@ -37,11 +50,11 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
 
--   **Change model Type field**
+-   **[Change model Type field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
 
     A new **Model** option has been added to the change model Type field to help users identify a change that is controlled by a change model. **Model** is the default if a Type has not been set for the change request of a certain change model.
 
--   **No default Risk value for change requests**
+-   **[No default Risk value for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
 
     There is no longer a default value for the Risk field on the Change Request table. The Risk value is set to **-- None --** until the risk is evaluated for the change request. This change ensures that no risk value is pre-assigned, allowing for a more accurate assessment before advancing the change
 
@@ -49,20 +62,14 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Ensure mandatory fields are completed before advancing through states for a change request, as defined by the Change Model. This feature enables change managers to mandate the completion of required fields before states can progress according to the Change Model.
 
--   **Deny-unless ACLs on core tables**
+-   **[Deny-unless ACLs on core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/features-itsm-enhanced-security-change.md)**
 
     Prevent unauthorized access to change\_request and change\_task tables using deny-unless ACLs. The deny-unless ACLs restrict access on these tables for a non-authenticated user to perform actions such as read, write, delete, or create.
 
     This feature is available for new or zBoot customers with the installation of the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin. Existing or upgrade customers must test and evaluate in their sub production instance before installing the plugin and implementing the security change in their production instance.
 
 
-## Removed in this release
+### What's deprecated or removed
 
 Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
-
-## Activation information
-
-Change Management is a ServiceNow AI Platform feature that is active by default.
-
-**Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
 

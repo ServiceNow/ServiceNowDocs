@@ -1,5 +1,5 @@
 ---
-title: Request new certificate using automated certificate management
+title: Request certificate using automated certificate management
 description: Request a new certificate and automatically retrieve the certificates for an application using automated certificate management. Certificate Inventory and Management Version 2.1.0 supports requesting certificates from DigiCert and Entrust CA Gateway. Version 2.3.2 also supports Microsoft CA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/request-new-cert-automated-flow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Request new certificate using automated certificate management
+# Request certificate using automated certificate management
 
 Request a new certificate and automatically retrieve the certificates for an application using automated certificate management. Certificate Inventory and Management Version 2.1.0 supports requesting certificates from DigiCert and Entrust CA Gateway. Version 2.3.2 also supports Microsoft CA.
 
@@ -20,7 +20,7 @@ Request a new certificate and automatically retrieve the certificates for an app
 
 Ensure the Certificate Management catalog is enabled and that a Routing Policy is created.
 
-For DigiCert only: You need to get the API key from DigiCert with the domain already validated by DigiCert. If you submit a certificate request with a new domain that is not validated by DigiCert, the request will show as Pending, the automated flow will not be able to fetch the certificate information, and the request will be marked as Failed.
+For DigiCert only: You need to get the API key from DigiCert with the domain already validated by DigiCert. If you submit a certificate request with a new domain that is not validated by DigiCert, the request will show as Pending. The automated flow will not be able to fetch the certificate information, and the request will be marked as Failed.
 
 Role required: Certificate requester, PKI Admin, PKI User, or Admin
 

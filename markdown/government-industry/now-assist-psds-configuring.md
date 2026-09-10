@@ -1,6 +1,6 @@
 ---
 title: Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-description: If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-configuring.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 
 # Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 ## Before you begin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-licensing-bundle-individual-subscription.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ The diagram illustrates how the licensing module calculates subscriptions throug
 
 In this scenario, the Subscriptions window indicates the a la carte subscriptions for this application as overdrawn. If your organization exceeds the total subscriptions for an application covered solely by the bundle, the Subscriptions window displays the bundle as overdrawn.
 
-In the provided figure, ITOM Health consumed 810 subscriptions, surpassing the subscriptions provided by the bundle \(500\) and a la carte \(250\). Consequently, the Subscriptions window indicates the ITOM Health a la carte subscription as overdrawn.
+In the provided figure, ITOM Health consumed 860 subscriptions, surpassing the subscriptions provided by the bundle \(500\) and a la carte \(250\). Consequently, the Subscriptions window indicates the ITOM Health a la carte subscription as overdrawn.
 
 For ITOM Visibility, which consumed 550 subscriptions, and with no a la carte subscriptions purchased, the ITOM Pro bundle covering ITOM Visibility appears as overdrawn.
 

@@ -64,7 +64,7 @@ Role required: agent\_client\_collector\_admin
 
     **Note:** This action compromises your system's security and is recommended only as a temporary measure until you finish updating the allow list. After completing the update, uncomment the allow list parameter in the configuration file to re-activate the allow list.
 
-    For details on adding custom checks to an allow list, see [Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md).
+    For details on adding custom checks to an allow list, see [Generate an Agent Client Collector allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-generate-allow-list.md).
 
 6.  Save the configuration file.
 

@@ -152,18 +152,6 @@ com.snc.use\_external\_credentials
 Allows the use of external storage of credentials.-   Type: true \| false
 -   Default value: true
 
-</td></tr><tr><td id="increase-scale-factor-max">
-
-com.glide.processing.framework.max\_thread\_utilization\_percentage
-
-</td><td>
-
-Enables you to modify the scale factor for the **discovery.sensor** and **discovery.cloud.sensor** queues. Increasing the value allows you to increases the scale factor, which subsequently increases the number of worker threads per app node.-   Type: integer
--   Default value: 30
--   Max value: 75
-
-**Note:** This behavior only applies when **discovery.use.event.processing** is set to **true**.
-
 </td></tr><tr><td>
 
 com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority
@@ -743,6 +731,15 @@ If set to **true**, Discovery populates these tables for software discovery: `cm
 
 </td></tr><tr><td>
 
+glide.discovery.retire\_stale\_accounts
+
+</td><td>
+
+When set to **true**, Discovery automatically removes stale service account references from the Discovery Config - Logical Datacenters \[cmp\_discovery\_ldc\_config\] table when previously discovered cloud service accounts have been retired or deleted. This prevents Discovery from attempting to use invalid service accounts and helps avoid canceled Discovery runs caused by missing service account references. This property applies to Cloud Discovery schedules that use master/member account relationships.-   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
 glide.discovery.roundingInterval.cpu
 
 </td><td>
@@ -758,14 +755,6 @@ glide.discovery.roundingInterval.ram
 
 Memory rounding: Enter the number to round the computer RAM to. The units are in MB.-   Type: integer
 -   Default value: 1
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -880,7 +869,9 @@ glide.discovery.sensors.save\_attachments
 
 </td><td>
 
-Save ECC queue attachments: The normal behavior for discovery sensors is to delete attachments to ECC queue entries upon successful sensor processing. Setting this property to true overrides this behavior, and forces attachments to be preserved. This would normally only be useful for debugging purposes.-   Type: true \| false
+Determines whether discovery sensors save ECC queue attachments after successful sensor processing. When this property is **true**, sensors preserve the attachments. When it’s **false**, sensors delete the attachments after they finish processing. Preserving attachments lets you inspect the data that sensors return.
+
+ -   Type: true \| false
 -   Default value: true
 
 </td></tr><tr><td>

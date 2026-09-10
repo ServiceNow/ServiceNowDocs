@@ -20,7 +20,7 @@ When a new metric arrives from an Agent Client Collector, a new record is create
 
 To trigger execution of a metric configuration rule, navigate to the Metric Configuration Rules table \(**Event Management** &gt; **Anomaly Detection** &gt; **Metric Config Rules**\) and select the **Sync to MID** button at the top of the page. This also synchronizes all MID Servers connected to the instance.
 
-When executing the rule, the anomaly detection action level defined in the rule \(set by the **anomaly\_detection\_action\_level** parameter\) retroactively overrides the anomaly detection action level configured for the metric in the Metric to CI Mappings table.
+When executing the rule, the anomaly detection action level is set by the **anomaly\_detection\_action\_level** parameter. This retroactively overrides the anomaly detection action level configured for the metric in the Metric to CI Mappings table.
 
 If you do not trigger the rule execution, retroactive overriding of the **Anomaly detection action level** parameter is performed during execution of the hourly scheduled **Metric Intelligence - Metric configuration** job.
 

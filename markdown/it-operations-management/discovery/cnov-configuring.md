@@ -23,8 +23,8 @@ For information about advanced configuration options, see the [Administrating an
 Prepare your ServiceNow instance and the Kubernetes cluster for Kubernetes Visibility Agent deployment.
 -   **[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-deploy-install.md)**  
 You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
--   **[Pulling additional resources from Kubernetes clusters into the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-pulling-extra-resources.md)**  
-You can configure the Kubernetes Visibility Agent Informer to pull extra resources from Kubernetes clusters into the Configuration Management Database \(CMDB\), in addition to the resources it sends to the database by default. By pulling in additional resources beyond the default set, you can enhance visibility into your Kubernetes clusters.
+-   **[Enabling container image scanning with Syft scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enabling-software-decomposition-tool.md)**  
+Container image scanning with Syft scanner provides visibility into software packages within container images, helping you identify installed software for compliance, licensing, and security purposes without requiring a MID Server.
 -   **[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enabling-application-service-maps.md)**  
 Application service maps give you visibility into how workloads communicate in a Kubernetes cluster, helping you detect dependencies and monitor traffic flows in real time.
 

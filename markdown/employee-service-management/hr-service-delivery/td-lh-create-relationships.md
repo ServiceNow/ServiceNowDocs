@@ -9,7 +9,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Leader Hub, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Install and configure, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Create support relationships

@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **lnteractions** &gt; **All**.
+1.  Navigate to the CRM Workspace and select **lnteractions** &gt; **All**.
 
 2.  Select the interaction number to open an existing interaction record, or select the new icon \[Omitted image "new-icon.png"\] Alt text: New icon. to create an interaction.
 

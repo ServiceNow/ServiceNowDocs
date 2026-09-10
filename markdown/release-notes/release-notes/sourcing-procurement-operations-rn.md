@@ -1,9 +1,9 @@
 ---
 title: Sourcing and Procurement Operations release notes
-description: The ServiceNow Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
+description: The ServiceNow Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.The ServiceNow Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.The ServiceNow Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.The ServiceNow Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 6
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 
 The ServiceNow® Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
 
-## Sourcing and Procurement Operations highlights for the Yokohama release
+## About Sourcing and Procurement Operations
 
 -   Enable shoppers to view and select their local currency throughout the Shopping Hub experience, including supplier cards, product detail pages, cart, checkout, my purchases, and request tracker.
 -   Enable procurement admins to configure and render unique question types for quick and full checkout experiences for each product or service line.
@@ -22,9 +22,22 @@ The ServiceNow® Sourcing and Procurement Operations application enables you to 
 
 See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/psm-overview.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/source-to-pay-operations-rn-landing.md)
+
+## December 2025
+
+The ServiceNow® Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Multi-currency support in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sh-multicurrency-overview.md)**
 
@@ -54,29 +67,12 @@ See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/Serv
 
     Create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 
--   **[Search for punchout products in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/ec-search-punchout-products.md)**
 
-    In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
+## May 2025
 
--   **[Unified request tracking in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sh-unified-request-tracking.md)**
+The ServiceNow® Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
 
-    From My Purchases in Shopping Hub, you can search purchased products or services using the original or associated procurement record IDs, tracking details from order to fulfillment. Additionally, you can use keywords or the first three letters of a procurement record type to search for and view your purchases.
-
--   **[Browse punchout and native catalog items from the Categories and Suppliers lists in Shopping Hub \(SH\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sh-browse-products.md)**
-
-    In Shopping Hub, you can view both the punchout products and the natively available products from the Categories or the Suppliers list on the Shopping Hub home page.
-
--   **[Mapping Product Categories and Units of Measure for seamless checkout in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/product-category-mapping-shoppinghub.md)**
-
-    You can map the product categories and units of measure for third-party products to the corresponding model categories. This capability helps to ensure that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.
-
--   **[Submit an edit receipt request from Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/submit-edit-receipt-request.md)**
-
-    Shoppers can submit edit receipt requests from Shopping Hub to correct discrepancies in accepted receipts, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
-
--   **[Process an edit receipt request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/playbook-process-edit-receipt.md)**
-
-    Fulfillers can review the edit receipt requests and either confirm or reject them. If the request is valid, they can process the request using the Edit a Receipt playbook in the Source-to-Pay Workspace.
+### What's new
 
 -   **[Editing purchase requisitions and orders with cost allocation adjustments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/edit-purchase-cost-allocation.md)**
 
@@ -133,24 +129,38 @@ See [Sourcing and Procurement Operations](https://raw.githubusercontent.com/Serv
     Use agentic workflows for Sourcing and Procurement Operations to fulfill your procurement needs through intelligent product recommendations, guided checkout and off-catalog purchasing processes, and detailed product information. These workflows also help answer procurement-related questions and efficiently track associated records.
 
 
-## Removed in this release
+### What's deprecated or removed
 
 The **All categories** option has been removed from the **Categories** tab in Shopping Hub due to low usage and its impact on system performance.
 
-## Activation information
+## Yokohama
 
-Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® Sourcing and Procurement Operations application enables you to search punchout products, track procurement requests, browse punchout and native catalog items, and complete checkout with accurate product category and unit mappings. Sourcing and Procurement Operations was enhanced and updated in the Yokohama release.
 
-## Related ServiceNow applications and features
+### What's new
 
--   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-spo.md)**
+-   **[Search for punchout products in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/ec-search-punchout-products.md)**
 
-    Use the ServiceNow® ServiceNow Otto for SPO application to simplify request creation with conversational intake and summarize records to help fulfillers act promptly.
+    In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
 
--   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/source-to-pay-ws-overview.md)**
+-   **[Unified request tracking in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sh-unified-request-tracking.md)**
 
-    Provide experiences and tools to support key activities, such as procuring goods and services, onboarding high-performing suppliers, and processing invoices.
+    From My Purchases in Shopping Hub, you can search purchased products or services using the original or associated procurement record IDs, tracking details from order to fulfillment. Additionally, you can use keywords or the first three letters of a procurement record type to search for and view your purchases.
 
+-   **[Browse punchout and native catalog items from the Categories and Suppliers lists in Shopping Hub \(SH\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/sh-browse-products.md)**
 
-**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/source-to-pay-operations-rn-landing.md)
+    In Shopping Hub, you can view both the punchout products and the natively available products from the Categories or the Suppliers list on the Shopping Hub home page.
+
+-   **[Mapping Product Categories and Units of Measure for seamless checkout in Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/product-category-mapping-shoppinghub.md)**
+
+    You can map the product categories and units of measure for third-party products to the corresponding model categories. This capability helps to ensure that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.
+
+-   **[Submit an edit receipt request from Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/submit-edit-receipt-request.md)**
+
+    Shoppers can submit edit receipt requests from Shopping Hub to correct discrepancies in accepted receipts, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
+
+-   **[Process an edit receipt request in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/playbook-process-edit-receipt.md)**
+
+    Fulfillers can review the edit receipt requests and either confirm or reject them. If the request is valid, they can process the request using the Edit a Receipt playbook in the Source-to-Pay Workspace.
+
 

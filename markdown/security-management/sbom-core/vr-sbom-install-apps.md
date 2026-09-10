@@ -8,7 +8,7 @@ product: SBOM Core
 classification: sbom-core
 topic_type: task
 last_updated: "2025-02-04"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configuring Software Bill of Materials, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -61,7 +61,7 @@ Roles required: admin for download, installation, and activation of all applicat
     For more information about these integrations and the capabilities they provide, see [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sbom-core/vr-sbom-exploring.md).
 
     -   Vulnerability Response Integration with Veracode. See [Install the ServiceNow Vulnerability Response Integration with Veracode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/application-vulnerability-response/install-veracode.md) for more information.
-    -   Vulnerability Response Integration with NVD, which is required if you want to view the enhanced data for vulnerabilities associated with uploaded components. See [Understanding the NVD integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/nvd-vuln-integration.md) for more information.
+    -   Vulnerability Response Integration with NVD, which is required if you want to view the enhanced data for vulnerabilities associated with uploaded components. See [National Vulnerability Database \(NVD\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/nvd-vuln-integration.md) for more information.
     -   CWE Comprehensive 2000 Integration. See [Configure and run the scheduled job for updating CWE records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/t_ConfigureScheduledJobsCWE.md) for more information about activating this scheduled job.
     A message is displayed after an application is successfully activated.
 

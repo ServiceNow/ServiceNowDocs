@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-acls-for-admin-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---

@@ -20,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_manager and sn\_sales\_common.sales\_
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select the quote to enable a new sales agreement.
 

@@ -24,7 +24,7 @@ Customer Central provides customer service agents with all the information about
 
 Customer Central consists of two views, Customer Information and Customer Activity.
 
-**Note:** If you are using CSM Agent Workspace, Customer Central is displayed on the Interaction record. If you are using CSM Configurable Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records. Both views are highly configurable and can be adapted to suit the needs of your business.
+**Note:** If you are using CSM Agent Workspace, Customer Central is displayed on the Interaction record. If you are using CRM Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records. Both views are highly configurable and can be adapted to suit the needs of your business.
 
 For more details, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
 
@@ -50,7 +50,7 @@ Activate Customer Central
 
 </td><td>
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CSM Configurable Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ The Customer Central application \(com.sn\_csm\_customer\_central\) is activated
 
 </td><td>
 
-Configure the display of the Customer Information view using CSM Configurable Workspace.
+Configure the display of the Customer Information view using CRM Workspace.
 
 </td></tr><tr><td>
 

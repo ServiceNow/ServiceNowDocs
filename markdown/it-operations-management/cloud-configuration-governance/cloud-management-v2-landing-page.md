@@ -7,14 +7,16 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [ITOM Optimization, IT Operations Management]
 ---
 
 # Cloud Provisioning and Governance
 
 The ServiceNow® Cloud Provisioning and Governance \(CPG\) application serves as a unified interface for accessing cloud resources, delivering cloud offerings to a catalog, and overseeing resource usage. This application is transformed as Cloud Services Catalog application, offering refined and streamlined management of usage and life cycle of cloud resources.
+
+**Important:** Starting with the Brazil release, Cloud Provisioning and Governance is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Cloud Provisioning and Governance is integrated with both private and public cloud providers, such as Amazon Web Services, Microsoft Azure, Google Cloud Platform and VMware.
 
@@ -26,6 +28,33 @@ Migration from workflow to subflows:
 -   If the default workflows are customized, the flows continue to use the existing workflow.
 
 The Cloud Provisioning and Governance application is incompatible and cannot be used simultaneously with the legacy v1 Cloud Management application. The Cloud Provisioning and Governance \(previously Cloud Management\) application is compatible starting with the Jakarta release.
+
+## Workflow migration
+
+As the automation experience evolves, legacy workflows are no longer supported starting with the Zurich release. You can continue using existing custom workflows and deprecated base system workflows only if already in place, but use the new base system flows for all future needs. For more information, see the following articles in the Now Support Knowledge Base:
+
+-   [How to update Cloud Provision Service Request PAD or Cloud Resource Operation Request PAD \[KB2265927\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2265927)
+-   [How to migrate Cloud Service Catalog to use flow in case any of the Out of Box Workflows has been modified \[KB2262737\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2262737)
+
+All default predefined workflows have been redesigned using Workflow Studio.
+
+Policy Rule Actions can now use Workflow Studio subflows instead of legacy workflows. If you have not customized the default workflows, the legacy workflows are migrated to subflows automatically. If you have customized the default workflows, they aren’t migrated, and their use cases continue to work with the existing workflows.
+
+The following workflows have been migrated to Workflow Studio flows or subflow:
+
+-   Cloud operation change request
+-   Cloud task processing
+-   Cloud approval workflow
+-   Post-process workflow
+-   Pre-process workflow
+-   Cloud resource operation request
+-   Blueprint request
+
+The following workflows have been deprecated:
+
+-   Retrieve cloud billing data
+-   Retrieve cloud billing month
+-   Cloud operation step workflow launcher
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 

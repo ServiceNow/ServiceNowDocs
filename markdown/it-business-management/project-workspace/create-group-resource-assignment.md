@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -53,7 +53,11 @@ Create group and assign roles to them. Users assigned to the group inherit the r
 
 A resource assignment record for the group is created and auto-saved.
 
-**Note:** When you select a group in the **Resource** field, the assignment is created in the Pending state. When an assignment type is set to group, an assignment is created for all the members of the group, and the allocation hours are split evenly for all the members of that group.
+**Note:** When you select a group in the **Resource** field, the assignment is created in the Pending state. When an assignment type is set to group, an assignment is created for all the members of the group and the requested effort is distributed among them.
+
+For the **Hours** effort type, effort is distributed in whole hours. Each member receives the same base number of hours, and any remaining hours are distributed one hour at a time until all hours are assigned. As a result, some members can receive one hour more than others. A member can receive zero hours when the total effort is less than the number of members. For example, if you request 2 hours for a group of three members, two members are each assigned 1 hour and the third member is assigned 0 hours. The total effort on the group assignment remains 2 hours.
+
+For the **FTE** and **Person days** effort types, the effort is divided equally among the members, including fractional values.
 
 **Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
 

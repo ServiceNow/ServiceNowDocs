@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cl
 # Install Cloud Services Catalog
 
 You can install the Cloud Services Catalog application purchased from the ServiceNow® Store, to make it available on your instance.The application also includes demo data and installs related to ServiceNow applications and plugins, if you don’t have them installed already.
+
+**Important:** Starting with the Brazil release, Cloud Services Catalog Content Pack is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Before you begin
 
@@ -38,7 +40,7 @@ If you’re an existing user of Cloud Services Catalog or CSC Innovation Labs:
 -   An upgrade from the previous version isn’t currently supported. To upgrade an existing instance with Cloud Services Catalog or CSC apps, do the following actions:
 -   -   Uninstall the previously installed CSC apps with table clean-ups \(CSC content pack and CSC in order\).
 -   Install new CSC apps \(CSC and CSC content pack in the same order\).
--   As you can run Guided Setup only once in an instance, manually place new Terraform templates in the Terraform box and update the Out Of Box Terraform config provider accordingly and run [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md).
+-   You can run Guided Setup only once in an instance. Manually place new Terraform templates in the Terraform box, update the Out Of Box Terraform config provider accordingly, and run [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md).
 
 For more information, see the components links.
 

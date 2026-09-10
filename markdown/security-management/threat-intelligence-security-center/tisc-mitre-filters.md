@@ -1,20 +1,20 @@
 ---
 title: Investigation Canvas MITRE Filters
-description: MITRE filters enable you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
+description: MITRE filters enables you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-mitre-filters.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-07-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Investigation canvas and MITRE ATT&amp;CK, Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Investigation Canvas MITRE Filters
 
-MITRE filters enable you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
+MITRE filters enables you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Analysts can use the filters available on the MITRE card to filter specific acto
 
 7.  Fill in the necessary values in the filter panel to apply your desired filters.
 
-    The MITRE filter panel enables you to filter and visualize MITRE ATT&amp;CK techniques based on selected criteria such as Groups, Malware, Tools, Tags, and Priority.
+    The MITRE filter panel allows you to filter and visualize MITRE ATT&amp;CK techniques based on selected criteria such as Groups, Malware, Tools, Tags, and Priority.
 
 <table id="table_bld_4lg_bgc"><thead><tr><th>
 
@@ -166,9 +166,9 @@ To remove an individual field value within the filter panel, click the **Delete 
 
 ## Filtering by MITRE Group
 
-Select a MITRE group as APT32 \(G1001, see the following screen shot\). When you apply this filter, the MITRE matrix updates to display only those techniques that are directly linked to the selected group.
+Select a MITRE group as APT32 \(G1001, see the following screenshot\). When you apply this filter, the MITRE matrix updates to display only those techniques that are directly linked to the selected group.
 
-\[Omitted image "tisc-investigation-mitre-filter-example.png"\] Alt text: Investigation Canvas - MITRE filters example
+\[Omitted image "tisc-investigation-mitre-filter-example.png"\] Alt text: MITRE Filter example.
 
 This focused view helps analysts to concentrate specifically on the Tactics, Techniques, and Procedures \(TTPs\) associated with the selected threat group.
 

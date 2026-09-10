@@ -1,18 +1,18 @@
 ---
-title: Set up a ribbon configuration in CSM Configurable Workspace
-description: Create a ribbon setting and add that setting to a ribbon configuration for CSM Configurable Workspace.
+title: Set up a ribbon configuration in CRM Workspace
+description: Create a ribbon setting and add that setting to a ribbon configuration for CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-ribbon.html
 release: yokohama
 topic_type: task
 last_updated: "2025-08-14"
 reading_time_minutes: 4
-breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Set up a ribbon configuration in CSM Configurable Workspace
+# Set up a ribbon configuration in CRM Workspace
 
-Create a ribbon setting and add that setting to a ribbon configuration for CSM Configurable Workspace.
+Create a ribbon setting and add that setting to a ribbon configuration for CRM Workspace.
 
 ## Before you begin
 
@@ -20,15 +20,15 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-Use the steps in this task to set up a ribbon configuration for CSM Configurable Workspace.
+Use the steps in this task to set up a ribbon configuration for CRM Workspace.
 
 -   Create a ribbon setting, such as creating another version of the Customer 360 ribbon component.
 -   Add the ribbon setting to a ribbon configuration.
 -   Set the width and the order of the ribbon setting within the ribbon configuration.
 
-**Note:** You can also use ribbon settings from CSM Agent Workspace in CSM Configurable Workspace if you add the setting to the ribbon configuration.
+**Note:** You can also use ribbon settings from CSM Agent Workspace in CRM Workspace if you add the setting to the ribbon configuration.
 
-One ribbon configuration **CSM/FSM Configurable Workspace Ribbon Config**, is included with CSM Configurable Workspace. This configuration includes the Customer 360, Timeline, and Active SLA ribbon components. You can use this configuration in the base system without completing any additional configuration steps.
+One ribbon configuration **CSM/FSM Configurable Workspace Ribbon Config**, is included with CRM Workspace. This configuration includes the Customer 360, Timeline, and Active SLA ribbon components. You can use this configuration in the base system without completing any additional configuration steps.
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Width
 
 </td><td>
 
-The number of columns that the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** For CSM Configurable Workspace, set the width of the ribbon component on the Ribbon Configuration Setting form \(see step 3\).
+The number of columns that the component occupies in the ribbon. The width of the page is 12 columns. When using multiple components, the total combined width of all the components must equal 12 or less.**Note:** For CRM Workspace, set the width of the ribbon component on the Ribbon Configuration Setting form \(see step 3\).
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Order
 
 </td><td>
 
-The location of this component in the ribbon. Ordering the components goes from left to right. For example, if you associate three components with a table, the component with the lowest order appears on the left and the component with the highest order appears on the right.**Note:** For CSM Configurable Workspace, set the order of the ribbon component on the Ribbon Configuration Setting form \(see step 3\).
+The location of this component in the ribbon. Ordering the components goes from left to right. For example, if you associate three components with a table, the component with the lowest order appears on the left and the component with the highest order appears on the right.**Note:** For CRM Workspace, set the order of the ribbon component on the Ribbon Configuration Setting form \(see step 3\).
 
 </td></tr><tr><td>
 

@@ -316,7 +316,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, this returns the software product, publisher, and version in the payload. The data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
 
 7.  Configure **Advanced UNIX** settings.
 

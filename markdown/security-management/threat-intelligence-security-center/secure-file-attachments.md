@@ -66,11 +66,11 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Create case task using Threat Analyst Workbench]()
+[Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

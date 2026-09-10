@@ -1,5 +1,5 @@
 ---
-title: Resource order controls for template-based cloud catalog items
+title: Resource order controls for template-based catalog items
 description: Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval workflow, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.html
@@ -12,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Resource order controls for template-based cloud catalog items
+# Resource order controls for template-based catalog items
 
 Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval workflow, or both.
 

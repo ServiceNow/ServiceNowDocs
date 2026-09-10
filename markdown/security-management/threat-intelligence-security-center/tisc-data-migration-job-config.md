@@ -7,8 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Data migration in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -25,6 +25,14 @@ Role required: sn\_sec\_tisc.admin
 -   **Selective Record Migration**: Only records from the selected table that meet specified conditions are migrated.
 -   **Include Relationships**: Related records are migrated only if the **Include Relationships** check box is selected.
 -   **Entity Migration Status**: Once an entity \(observable or object\) is migrated, it won't be included in further migrations unless it is being migrated as a related record.
+
+    **Note:** **Records exclusion criteria for migration utility**
+
+    The migration utility excludes certain records based on the following criteria:
+
+    -   **Observables**: Observables of type **file** that contain secure file attachments will not be migrated.
+    -   **Indicators**: Indicators with blank values in either the pattern or pattern type fields will not be migrated.
+    -   **Objects**: Objects ingested from the MITRE TAXII profile within threat intelligence data will not be migrated to the Threat Intelligence Security Center.
 -   **Case Records**: Only active records are migrated by default, unless the **Include Closed Cases** check box is selected.
 
 ## Procedure

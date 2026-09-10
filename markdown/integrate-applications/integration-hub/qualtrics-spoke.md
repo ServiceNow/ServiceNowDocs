@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Qualtrics spoke v1.4.0 is the latest version.
+Qualtrics spoke v1.4.2 is the latest version.
 
 ## Supported versions
 

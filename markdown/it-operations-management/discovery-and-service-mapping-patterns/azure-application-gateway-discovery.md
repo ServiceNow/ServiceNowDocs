@@ -1,6 +1,6 @@
 ---
 title: Microsoft Azure Application Gateway discovery with Patterns
-description: The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-application-gateway-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Microsoft Azure Application Gateway discovery with Patterns
 
-The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Azure Application Gateway \(LP\) pattern for discovering this product, while the Service Mapping application discovers Application Gateway using the Azure Application Gateway TD \(LBS\) pattern. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

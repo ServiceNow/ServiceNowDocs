@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Otto for Configuration Management Database \(CMDB\) release notes
-description: The ServiceNow ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-02-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 ---
 
 # ServiceNow Otto for Configuration Management Database \(CMDB\) release notes
 
 The ServiceNow® ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
 
-## ServiceNow Otto for CMDB highlights for the Yokohama release
+## About ServiceNow Otto for Configuration Management Database \(CMDB\)
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -25,68 +25,54 @@ Previous Patch releases
 -   Select **Summarize** on a CI form, in the workspace, or from any list to view a concise summary of key CI data directly on the form: discovery and class details, associated business services, security vulnerabilities, and related records like incidents, alerts, problems, and change requests.
 -   The 'Manage duplicate CIs' skill identifies duplicate CIs, populates remediation tasks, and then assigns the tasks to the appropriate group. You follow step-by-step guidance and can preview remediation results before selecting a template. The updated CI correctness scores enable the CMDB Health Dashboard to display accurate information.
 
-See  for more information.
+See [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-landing-cmdb.md) for more information.
+
+## Activation and other requirements
 
 **Important:** ServiceNow Otto for CMDB is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the ServiceNow Otto for CMDB release
+-   **Activation information**
 
--   **Some Now Assist skills, agents, and agentic workflows are turned on by default**
-
-    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
--   **Preview deduplication template results**
-
-    While you're working in the manage duplicate CIs skill, select **Review existing templates** to help you to decide which deduplication template to apply. Now Assist generates a summary of the results of applying a template without actually running the remediation process. You can preview the results for any existing template. When you see the desired result in a preview, you can specify that template and proceed with the deduplication process.
+    Install ServiceNow Otto for CMDB by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-## Changed in this release
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
 
--   **Changes to Now Assist usage measurement**
+## January 2026
+
+The ServiceNow® ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
+
+### What's changed
+
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **Some Now Assist skills are turned on by default**
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
-## Activation information
+## Yokohama
 
-Install ServiceNow Otto for CMDB by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+The ServiceNow® ServiceNow Otto for CMDB application displays comprehensive summaries for configuration items \(CIs\) and accelerates the process of remediating duplicate CIs. ServiceNow Otto for CMDB was enhanced and updated in the Yokohama release.
 
-## Related ServiceNow applications and features
+### What's new
 
--   ****
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
-    Use a Service Graph Connector to import and integrate third-party data into CMDB and non-CMDB tables.
+    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
 
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
+    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
+-   **[Preview deduplication template results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-cmdb-mng-dupe-cis-skill.md#li-preview-template-results)**
 
-    Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
+    While you're working in the manage duplicate CIs skill, select **Review existing templates** to help you to decide which deduplication template to apply. Now Assist generates a summary of the results of applying a template without actually running the remediation process. You can preview the results for any existing template. When you see the desired result in a preview, you can specify that template and proceed with the deduplication process.
 
--   **AI Admin Hub console**
-
-    Use the AI Admin Hub console to provide you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
-
--   **Now Assist panel**
-
-    Use this conversational interface in Service Operations Workspace to summarize a chat, an incident, or resolution notes so that you can get the context of this information more quickly.
-
--   **Now Assist skills**
-
-    Use the Now Assist products to provide generative AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
-
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
-
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-capabilities-rn-landing.md)
 

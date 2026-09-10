@@ -1,6 +1,6 @@
 ---
 title: Monitoring Technology Dashboard for GCP
-description: With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+description: With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. You can identify the configuration items \(CIs\) and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-gcp.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Understanding the Monitoring Technology Dashboard, Agent Client Col
 
 # Monitoring Technology Dashboard for GCP
 
-With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs and servers.
+With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. You can identify the configuration items \(CIs\) and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
 
 ## Overview of the dashboard
 

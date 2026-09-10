@@ -53,7 +53,7 @@ You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clu
                     **Note:** If the Informer is not installed in OpenShift, there is no need to set this parameter.
 
             2.  In the command, configure additional settings as needed:
-                -   [Informer Pod memory limit and memory request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)
+                -   [Configure informer pod memory limit and memory request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-informer-memory.md)
                 -   [Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
                 -   [Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
                 -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.

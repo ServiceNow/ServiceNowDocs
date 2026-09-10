@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
+1.  In the CRM Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
 
 2.  Select **New** to create a case.
 

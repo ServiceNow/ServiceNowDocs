@@ -54,15 +54,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d34098e300">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d34100e301">
 
 Skill
 
-</th><th align="left" id="d34098e303">
+</th><th align="left" id="d34100e304">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d34098e309">
+</th></tr></thead><tbody><tr><td id="d34100e310">
 
 **ADR Doc Summarization and Actions**
 
@@ -73,7 +73,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d34098e340">
+</td></tr><tr><td id="d34100e341">
 
 **Business Application Insights**
 

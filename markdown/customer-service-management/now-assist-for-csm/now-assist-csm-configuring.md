@@ -1,6 +1,6 @@
 ---
 title: Configuring ServiceNow Otto for Customer Service Management \(CSM\)
-description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [ServiceNow Otto for Customer Service Management \(CSM\), Customer S
 
 # Configuring ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 Use the AI Admin Hub console to configure ServiceNow Otto for CSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 

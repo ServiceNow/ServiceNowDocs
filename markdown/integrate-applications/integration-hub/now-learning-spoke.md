@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
@@ -23,6 +23,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## ServiceNow University spoke subscription
 
 The ServiceNow University spoke is available with the ITSM Enterprise license. You can integrate Coaching with Learning with ServiceNow University. For more information, see [External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md).
+
+## Spoke version
+
+ServiceNow University Spoke v1.1.1 is the latest version.
 
 ## Spoke actions
 

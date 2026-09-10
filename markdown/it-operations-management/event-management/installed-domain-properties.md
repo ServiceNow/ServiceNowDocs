@@ -1,20 +1,20 @@
 ---
 title: Domain properties installed with Event Management
-description: Use the domain properties installed with Event Management to provide the metadata that points to the appropriate table to identify the domain so that you know which domain to create the event in.
+description: Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain for event creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/installed-domain-properties.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Domain properties installed with Event Management
 
-Use the domain properties installed with Event Management to provide the metadata that points to the appropriate table to identify the domain so that you know which domain to create the event in.
+Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain for event creation.
 
 <table id="table_e5g_lsy_nxb"><thead><tr><th align="left">
 

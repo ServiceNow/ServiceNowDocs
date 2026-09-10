@@ -1,6 +1,6 @@
 ---
 title: Configure the Customer Information view using the CSM Configurable Workspace
-description: Configure the display of the Customer Information view using the CSM Configurable Workspace.
+description: Configure the display of the Customer Information view using the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cust-central-configure-info-tab.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces,
 
 # Configure the Customer Information view using the CSM Configurable Workspace
 
-Configure the display of the Customer Information view using the CSM Configurable Workspace.
+Configure the display of the Customer Information view using the CRM Workspace.
 
 ## Before you begin
 

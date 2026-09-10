@@ -24,7 +24,7 @@ Agents can change the location of products at the order line level by using the 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  From the **Customer Orders** &gt; **All**, select the order you want to work with and select the **Line Items** tab.
 
@@ -36,15 +36,15 @@ Agents can change the location of products at the order line level by using the 
 
 5.  In the **Copy line items** window, choose any one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d50495e119">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d50521e119">
 
  
 
-</th><th align="left" id="d50495e121">
+</th><th align="left" id="d50521e121">
 
  
 
-</th></tr></thead><tbody><tr><td id="d50495e126">
+</th></tr></thead><tbody><tr><td id="d50521e126">
 
 **Keep original location**
 
@@ -52,7 +52,7 @@ Agents can change the location of products at the order line level by using the 
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d50495e135">
+</td></tr><tr><td id="d50521e135">
 
 **Choose new location**
 

@@ -1,6 +1,6 @@
 ---
 title: Rollup MITRE-ATT&amp;CK information from child security incidents
-description: If you have not enabled automatic rollup of MITRE-ATT&amp;CK information, you can do this manually.
+description: If you have not enabled automatic rollup of MITRE-ATT&amp;CK information or MITRE ATLAS information, you can do this manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/rollup-mitre-att-ck-information-from-child-security-incidents.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp
 
 # Rollup MITRE-ATT&amp;CK information from child security incidents
 
-If you have not enabled automatic rollup of MITRE-ATT&amp;CK information, you can do this manually.
+If you have not enabled automatic rollup of MITRE-ATT&amp;CK information or MITRE ATLAS information, you can do this manually.
 
 ## Before you begin
 
@@ -20,7 +20,9 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configure-mitre-att-ck-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
+If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configure-mitre-att-ck-properties.md) or [automatic roll up of MITRE ATLAS information from child security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configure-mitre-atlas-properties.md), then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
+
+**Note:** Selecting **Roll up MITRE ATT&amp;CK Information to SI** rolls up both MITRE-ATT&amp;CK and MITRE ATLAS technique information from the selected child security incidents to the parent security incident. There is no separate action for MITRE ATLAS information.
 
 ## Procedure
 
@@ -32,7 +34,7 @@ If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from chil
 
 4.  Select the child security incident and then from the Actions menu, click **Roll up MITRE ATT&amp;CK Information to SI**.
 
-    You can click **Show MITRE ATT&amp;CK information** to view the child security incident's MITRE information before you roll up the MITRE ATT&amp;CK information.
+    You can click **Show MITRE ATT&amp;CK information** to view the child security incident's MITRE information before you roll up the MITRE ATT&amp;CK information and MITRE ATLAS information.
 
 5.  Click **Reload** to confirm the changes.
 

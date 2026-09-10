@@ -1,24 +1,18 @@
 ---
 title: AI Control Tower release notes
-description: The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.
+description: The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.The ServiceNowAI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform along with associated governance business processes are available in this workspace.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # AI Control Tower release notes
 
 The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
 
-## Plugin information
-
-The AI Control Tower application is available as a Store app. For plugin details, see the Activation information section.
-
-**Important:** AI Control Tower is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
-## AI Control Tower highlights for the Yokohama release
+## About AI Control Tower
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -26,12 +20,12 @@ The AI Control Tower application is available as a Store app. For plugin details
 -   Some Now Assist skills, agents, and agentic workflows are on by default.
 -   Additional role configuration is required for agentic workflows and AI agents included with Now Assist applications.
 -   AI connections are introduced in AI Control Tower using Service Graph Connectors. AI connections are combination of hyperscalars, AI apps, and agentic AI frameworks. The AI Service Graph Connectors available from March 2026:
-    -   AWS
-    -   Microsoft- Azure Foundry and Copilot
-    -   n8n
-    -   GCP Vertex AI
-    -   LangGraph
-    -   Salesforce
+    -   [AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aws_0.md)
+    -   [Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/microsoft.md)- Azure Foundry and Copilot
+    -   [n8n](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/n8n.md)
+    -   [GCP Vertex AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/gcp-vertex-ai.md)
+    -   [LangGraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/langgraph.md)
+    -   [Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/salesforce.md)
 
 [Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
 
@@ -47,31 +41,99 @@ The AI Control Tower application is available as a Store app. For plugin details
 -   Use the AI skills Approvals to review and approval flows.
 -   Create a AI Control Tower Workspace.
 
-## Deprecation
+## Activation and other requirements
+
+**Important:** AI Control Tower is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    The AI Control Tower application is installed as part of the generative AI Controller.
+
+-   **Upgrade information**
+
+    General availability release, no upgrade.
+
+-   **Browser requirements**
+
+    The AI Control Tower application supports all the browsers.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    The AI Control Tower application supports all the platform accessibility features.
+
+-   **Localization information**
+    -   **[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)**
+
+        The AI Control Tower application isn’t localized
+
+
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
+
+## July 2026
+
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
+
+### What's deprecated or removed
 
 AI Gateway application is deprecated from the Yokohama release and are no longer supported.
 
-## Important information for Upgrading AI Control Tower to Yokohama
+## January 2026
 
-General availability release, no upgrade.
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
 
-## AI Control Tower Features
+### What's changed
 
--   **Health tab in AI Control Tower**
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
+
+    The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
+
+    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+## September 2025
+
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
+
+### What's new
+
+-   **[Health tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aict-health-tab.md)**
 
     Monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your AI assets.
 
--   ****
+-   **[Evaluation tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-evaluation.md)**
 
     Measure and improve the quality of interactions with virtual agents using the Evaluation tab.
 
 
--   ****
+## August 2025
+
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
+
+### What's new
+
+-   **[Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md)**
 
     Enable choice for third party model providers powering ServiceNow® skills and agents.
 
 
--   ****
+## May 2025
+
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
+
+### What's new
+
+-   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower-landing.md)**
     -   A single pane view of the AI inventory, its state, and its risk and compliance posture.
     -   Lifecycle to manage AI asset onboarding and deployment.
     -   Helps user oversee and manage AI Asset inventory's risk profile with regard to enterprise policies and global regulations, as defined by the user, with a focus on privacy, data governance, and ethical AI.
@@ -79,63 +141,22 @@ General availability release, no upgrade.
     -   Multi-instance management to synchronize AI asset inventory from sub-prod to prod instances to initiate governance early in the build process.
     -   Control settings to block only ''other'' skills in Now Assist AI deployment pending approvals.
 
--   ****
-    -   AI Steward role- Facilitate and coordinate governance activities between innovation, legal, security, risk and compliance teams.
-    -   AI Asset inventory- Unified data model on the ServiceNow AI Platform to catalog AI Model, datasets, prompts, and other related artifacts including Now Assist and AI leveraging Generative AI Controller.
-    -   AI skills Approvals- Review and approval flows for Now Assist skills and other related assets like AI Models and AI datasets deployed through Now Assist or generative AI Controller.
-    -   AI Control Tower Workspace- Intuitive workspace to surface governance tasks, reports, inventory, and insights.
-
-## UI changes
+### What's changed
 
 -   **[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)**
 
     Enhancements to landing page dashboards for AI steward.
 
 
-## Changed in this release
+## Yokohama
 
--   **Changes to Now Assist usage measurement**
+The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
 
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+### What's new
 
--   **Some Now Assist skills are turned on by default**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
-
-    Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
-
-
-## Activation information
-
-The AI Control Tower application is installed as part of the generative AI Controller.
-
-## Browser requirements
-
-The AI Control Tower application supports all the browsers.
-
-## Accessibility information
-
-The AI Control Tower application supports all the platform accessibility features.
-
-## Localization information
-
--   **[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)**
-
-    The AI Control Tower application isn’t localized
-
-
-## Related ServiceNow applications and features
-
--   **[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)**
-
-
-
-
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
-
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
+-   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-control-tower-landing.md)**
+    -   AI Steward role- Facilitate and coordinate governance activities between innovation, legal, security, risk and compliance teams.
+    -   AI Asset inventory- Unified data model on the ServiceNow AI Platform to catalog AI Model, datasets, prompts, and other related artifacts including Now Assist and AI leveraging Generative AI Controller.
+    -   AI skills Approvals- Review and approval flows for Now Assist skills and other related assets like AI Models and AI datasets deployed through Now Assist or generative AI Controller.
+    -   AI Control Tower Workspace- Intuitive workspace to surface governance tasks, reports, inventory, and insights.
 

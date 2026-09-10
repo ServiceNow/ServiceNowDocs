@@ -1,6 +1,6 @@
 ---
 title: Create a request on behalf of a customer or consumer
-description: Customer service agents can create requests on behalf of customers from CSM Configurable Workspace or from the platform interface.
+description: Customer service agents can create requests on behalf of customers from CRM Workspace or from the platform interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/agent-create-request-for-customer.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Manage cases, Using Customer Service Management, Customer Service M
 
 # Create a request on behalf of a customer or consumer
 
-Customer service agents can create requests on behalf of customers from CSM Configurable Workspace or from the platform interface.
+Customer service agents can create requests on behalf of customers from CRM Workspace or from the platform interface.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 Customer service agents can browse the catalog and make a selection to create a request on behalf of a customer.
 
--   From CSM Configurable Workspace, agents can create requests from case and interaction records.
+-   From CRM Workspace, agents can create requests from case and interaction records.
 -   From the platform interface, agents can create requests from case records.
 
 ## Procedure
@@ -31,7 +31,7 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 2.  To create a request, do one of the following.
 
-    -   CSM Configurable Workspace: Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Request**.
+    -   CRM Workspace: Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Request**.
     -   Platform interface: Click the form context menu icon and select **Create Request**.
 3.  Select an item or a service from the catalog to display the item page.
 
@@ -39,17 +39,17 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d105710e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d105619e118">
 
 Interface
 
-</th><th align="left" id="d105710e121">
+</th><th align="left" id="d105619e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d105710e127">
+</th></tr></thead><tbody><tr><td id="d105619e127">
 
-**CSM Configurable Workspace**
+**CRM Workspace**
 
 </td><td>
 
@@ -60,7 +60,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d105710e172">
+</td></tr><tr><td id="d105619e172">
 
 **Platform interface**
 

@@ -56,15 +56,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d199700e237">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d200366e237">
 
 Review AI insights
 
-</th><th align="left" id="d199700e240">
+</th><th align="left" id="d200366e240">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d199700e246">
+</th></tr></thead><tbody><tr><td id="d200366e246">
 
 **Check for the AI Insights badge for alert status**
 
@@ -74,7 +74,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d199700e269">
+</td></tr><tr><td id="d200366e269">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -82,7 +82,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.md).
 
-</td></tr><tr><td id="d199700e285">
+</td></tr><tr><td id="d200366e285">
 
 **Filter using AI Insights filter attribute**
 
@@ -90,7 +90,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list.md).
 
-</td></tr><tr><td id="d199700e304">
+</td></tr><tr><td id="d200366e304">
 
 **Review AI insights in the preview panel**
 
@@ -101,7 +101,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d199700e347">
+</td></tr><tr><td id="d200366e347">
 
 **Review AI Insights in the alert record overview**
 

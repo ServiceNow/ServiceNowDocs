@@ -103,15 +103,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d87480e608">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d87502e608">
 
 Interface
 
-</th><th align="left" id="d87480e611">
+</th><th align="left" id="d87502e611">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d87480e617">
+</th></tr></thead><tbody><tr><td id="d87502e617">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d87480e659">
+</td></tr><tr><td id="d87502e659">
 
 **Software Asset Workspace**
 

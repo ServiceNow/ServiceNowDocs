@@ -26,7 +26,7 @@ See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceN
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select **All** &gt; **Portals**.
+1.  In the CRM Workspace, select **All** &gt; **Portals**.
 
 2.  Select **Business Portals**.
 

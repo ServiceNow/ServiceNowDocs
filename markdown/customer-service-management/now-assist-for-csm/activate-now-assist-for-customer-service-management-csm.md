@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
@@ -26,7 +26,7 @@ To get started with Now Assist, you must install at least one Now Assist applica
 
 For information about the plugin dependencies and plugin activation order, see [Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
 
-For information about CSM Configurable Workspace, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+For information about CRM Workspace, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-set-up.md). For information about Now Assist AI agents, see [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
 
 To access AI agents in the Now Assist panel, you need to [turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md) and ensure that the case summarization is active on the instance.
 

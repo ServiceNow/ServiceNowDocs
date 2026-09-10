@@ -24,15 +24,15 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 1.  Do one of the following.
 
-<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d82546e50">
+<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d82548e50">
 
 To
 
-</th><th align="left" id="d82546e53">
+</th><th align="left" id="d82548e53">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d82546e59">
+</th></tr></thead><tbody><tr><td id="d82548e59">
 
 **Create a document configuration from the Platform UI**
 
@@ -40,7 +40,7 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d82546e83">
+</td></tr><tr><td id="d82548e83">
 
 **Create a document configuration from the Source-to-Pay Workspace**
 

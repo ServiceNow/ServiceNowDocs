@@ -36,7 +36,7 @@ Cloud Configuration Governance provides several objects and variables that you c
 Cloud Configuration Governance \(CCG\) uses Integration Hub subflows to interact with the cloud and update the configuration data in the Configuration Management Database \(CMDB\).
 -   **[Cloud Action Library actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/ccg-cal-actions.md)**  
 Cloud Action Library \(CAL\) offers various actions that you can use to build the Integration Hub subflows for Cloud Configuration Governance.
--   **[Cloud permissions required to collect the base system Cloud Configuration Governance configuration keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-permissions-for-collecting-config-keys.md)**  
+-   **[Cloud permissions for collecting Cloud Configuration Governance keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-permissions-for-collecting-config-keys.md)**  
 The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
 
 **Parent Topic:**[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-configuration-governance.md)

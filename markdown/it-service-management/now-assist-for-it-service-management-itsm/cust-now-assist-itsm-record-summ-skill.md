@@ -167,15 +167,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d442495e557">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d442811e557">
 
 To
 
-</th><th align="left" id="d442495e560">
+</th><th align="left" id="d442811e560">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d442495e566">
+</th></tr></thead><tbody><tr><td id="d442811e566">
 
 **Evaluate a prompt for each input template**
 
@@ -189,7 +189,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d442495e605">
+</td></tr><tr><td id="d442811e605">
 
 **Edit the prompt in the Now Assist Skill Kit and test the prompt**
 

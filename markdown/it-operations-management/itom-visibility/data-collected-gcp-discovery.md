@@ -1,6 +1,6 @@
 ---
 title: Data collected for GCP Cloud Discovery
-description: Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/data-collected-gcp-discovery.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Cloud resource discovery, Data collected by ITOM Visibility, ITOM V
 
 # Data collected for GCP Cloud Discovery
 
-Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 

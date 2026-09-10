@@ -26,7 +26,7 @@ The quote must be in an Active state and the quote state must be set to Complete
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** view \[Omitted image "Lists.png"\].
+1.  In the CRM Workspace, select the **List** view \[Omitted image "Lists.png"\].
 
 2.  Navigate to **Quotes** &gt; **All**.
 

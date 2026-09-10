@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ The Discovery Status Details page offers a summary of a discovery initiated from
 
 To access Discovery status details in Discovery Admin Workspace, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules** &gt; **Discovery status**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.8.0 or later. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.8.0. Specific version requirements are noted for individual features where applicable.
 
 After selecting a discovery status from the table, the schedule header displays key information such as Discovery details, MID Server details, and anomaly severity.
 
@@ -41,7 +41,7 @@ If the status is Active or Starting, selecting the **Refresh** icon \(\[Omitted 
 
     Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
-    |Report title|Discovery Type|Description|
+    |Report title|Discovery type|Description|
     |------------|--------------|-----------|
     |Errors|Both IP and cloud-based|Displays the number of errors that were detected during the run.|
     |Total Devices|IP-based|Displays the number of devices that were discovered during the run.|

@@ -206,7 +206,7 @@ GRC: Common Workspace Elements \(sn\_grc\_workspace\)
 
 </td><td>
 
-Enables the use of the Advanced Risk feature in the CSM Configurable Workspace.
+Enables the use of the Advanced Risk feature in the CRM Workspace.
 
 </td></tr><tr><td>
 

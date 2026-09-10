@@ -36,7 +36,7 @@ The chat summarization skill enables you to do the following actions:
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  In CSM Configurable Workspace, open a chat from your inbox.
+2.  In CRM Workspace, open a chat from your inbox.
 
     The chat summarization skill creates an inline summary in the Active Chat window. This summary includes the customer’s issue and the actions that the customer has taken before the customer engaged with a live agent. The summary appears in the Active Chat window and is identified by the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
 

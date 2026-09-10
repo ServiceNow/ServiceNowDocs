@@ -1,6 +1,6 @@
 ---
 title: View RSS Feeds
-description: View the RSS feeds configured in the base system.
+description: Access and review RSS feed configurations to monitor external content sources or troubleshoot feed connectivity issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-rss-feeds.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1
-breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View RSS Feeds
 
-View the RSS feeds configured in the base system.
+Access and review RSS feed configurations to monitor external content sources or troubleshoot feed connectivity issues.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select the **Integrations** icon.
 
 3.  Select **RSS** option.
 
-    The following lists the configured RSS feeds within the base system.
+    This table shows the configured RSS feeds within the base system.
 
     |Threat Feed|Description|URL|
     |-----------|-----------|---|
@@ -42,10 +42,12 @@ Role required: sn\_sec\_tisc.admin
     |HelpNet Security|Information security news with a focus on enterprise security.|[https://www.helpnetsecurity.com/feed/](https://www.helpnetsecurity.com/feed/)|
     |Security Affairs|Information on the digital forensics from top-tier media.|[https://securityaffairs.com/feed](https://securityaffairs.com/feed)|
     |Volexity RSS Feed|RSS Feed data of information security blogs from Volexity.|[https://www.volexity.com/blog/feed/](https://www.volexity.com/blog/feed/)|
-    |Hackers News RSS Feed|RSS Feed data from "The Hacker News|[https://feeds.feedburner.com/TheHackersNews?format=xml](https://feeds.feedburner.com/TheHackersNews?format=xml)|
+    |Hackers News RSS Feed|RSS Feed data from The Hacker News|[https://feeds.feedburner.com/TheHackersNews?format=xml](https://feeds.feedburner.com/TheHackersNews?format=xml)|
     |Graham Cluley RSS Feed|RSS feed data from Graham Cluley|[https://grahamcluley.com/feed/](https://grahamcluley.com/feed/)|
 
-4.  Click **Edit** to edit the feed.
+4.  Select **Edit** to edit the feed to make the necessary updates.
+
+5.  Select **Save** to apply the changes.
 
 
 **Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)

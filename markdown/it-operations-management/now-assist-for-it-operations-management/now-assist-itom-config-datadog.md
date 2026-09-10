@@ -36,15 +36,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d340417e142">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d341468e142">
 
 Field
 
-</th><th align="left" id="d340417e145">
+</th><th align="left" id="d341468e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d340417e151">
+</th></tr></thead><tbody><tr><td id="d341468e151">
 
 **Connection Name**
 
@@ -52,7 +52,7 @@ Description
 
 Name of your Datadog connection. This name helps you identify it later. For example, `Datadog analysis AI agent connection`.
 
-</td></tr><tr><td id="d340417e168">
+</td></tr><tr><td id="d341468e168">
 
 **Connection URL**
 
@@ -60,7 +60,7 @@ Name of your Datadog connection. This name helps you identify it later. For exam
 
 URL of your Datadog instance. Datadog URLs follow this format: `https://api.datadoghq.com`.
 
-</td></tr><tr><td id="d340417e186">
+</td></tr><tr><td id="d341468e186">
 
 **Datadog API key**
 
@@ -68,7 +68,7 @@ URL of your Datadog instance. Datadog URLs follow this format: `https://api.data
 
 Your Datadog API key.
 
-</td></tr><tr><td id="d340417e200">
+</td></tr><tr><td id="d341468e200">
 
 **Datadog Application key**
 

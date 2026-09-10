@@ -40,7 +40,7 @@ You can use this skill in portal search and in global/workspace search in place 
     Users can ask follow-up questions directly from Now Assist Multi-Content Response Genius Result answers.
 
 
-**Note:** Recommended Actions do not support Now Assist Multi‑Content Genius Results.
+**Note:** Recommended Actions don't support Now Assist Multi‑Content Genius Results.
 
 ## Content types included in synthesized responses
 
@@ -126,7 +126,7 @@ In global and workspace search, when a Virtual Agent topic is cited as a source 
 -   The Now Assist panel must be activated.
 -   A search source derived from the Skill \(topics\) indexed source must be linked to the search profile used for global search or the workspace search.
 
-If these requirements are not met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
+If these requirements aren't met, topic citations from global or workspace search display a link to the source content, just as occurs for other citations.
 
 ## Asking follow-up questions
 

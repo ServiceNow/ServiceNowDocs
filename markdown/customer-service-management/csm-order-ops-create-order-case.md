@@ -20,7 +20,7 @@ Role required: sn\_order\_case.creator, sn\_order\_case.agent, sn\_customerservi
 
 ## Procedure
 
-1.  In CSM Configurable Workspace, create an order case in one of the following ways.
+1.  In CRM Workspace, create an order case in one of the following ways.
 
     -   Select **Create case** from a customer order.
     -   Select **Create case** from the Order Line Items list on a customer order. \(This UI action is enabled if one or more order lines are selected.\)

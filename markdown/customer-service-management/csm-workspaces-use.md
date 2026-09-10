@@ -1,6 +1,6 @@
 ---
-title: Using CSM Configurable Workspace in Customer Service Management
-description: Use CSM Configurable Workspace to interact with customers, create and work on cases, and resolve questions and issues.
+title: Using CRM Workspace in Customer Service Management
+description: Use CRM Workspace to interact with customers, create and work on cases, and resolve questions and issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspaces-use.html
 release: yokohama
@@ -10,13 +10,13 @@ reading_time_minutes: 5
 breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
-# Using CSM Configurable Workspace in Customer Service Management
+# Using CRM Workspace in Customer Service Management
 
-Use CSM Configurable Workspace to interact with customers, create and work on cases, and resolve questions and issues.
+Use CRM Workspace to interact with customers, create and work on cases, and resolve questions and issues.
 
-Customer service agents can complete most tasks in CSM Configurable Workspace, while other tasks only apply to the platform interface. This information is noted at the top of each task.
+Customer service agents can complete most tasks in CRM Workspace, while other tasks only apply to the platform interface. This information is noted at the top of each task.
 
-The tables below describe some of the basic tasks that agents can perform in CSM Configurable Workspace as well as additional features that are available for use.
+The tables below describe some of the basic tasks that agents can perform in CRM Workspace as well as additional features that are available for use.
 
 For additional task information, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-cases.md).
 

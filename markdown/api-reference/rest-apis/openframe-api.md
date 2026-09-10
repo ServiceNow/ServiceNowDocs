@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The openframe API provides endpoints that provide Contact Center as a Service \(CCaaS\) the ability to create and update interaction records without using the Operation Handler.
 
-Use this API to create interaction records to track agent phone calls. Once an interaction record is created, the interaction can automatically display in the CSM Configurable Workspace when an agent receives a phone call.
+Use this API to create interaction records to track agent phone calls. Once an interaction record is created, the interaction can automatically display in the CRM Workspace when an agent receives a phone call.
 
 To access this API, the com.sn\_openframe\_store plugin must be installed on the instance and the calling user must have either the sn\_openframe\_api\_user or sn\_openframe\_user role. The openframe API runs in the `sn_openframe` namespace.
 

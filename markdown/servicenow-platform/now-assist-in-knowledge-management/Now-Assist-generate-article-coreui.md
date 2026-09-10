@@ -58,7 +58,7 @@ Role required: author or agent
 
 [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
 
-[Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
+[Generate a knowledge article from the CRM Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
 
 [Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
 

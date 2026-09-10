@@ -26,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**.
 
-2.  If the screen says you do not have AI search on the instance, select **Request AI Search**.
+2.  If the screen says you don't have AI Search on the instance, select **Request AI Search**.
 
 3.  Wait until AI Search is displayed as activated and ready for use.
 

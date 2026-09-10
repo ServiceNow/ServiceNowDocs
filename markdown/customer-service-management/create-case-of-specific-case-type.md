@@ -26,7 +26,7 @@ The types of cases that agents can create depend on the configuration of the [cu
 -   [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-csm-case-types.md)
 -   [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-service-definitions-configure.md)
 
-In CSM Configurable Workspace, agents use the [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
+In CRM Workspace, agents use the [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
 
 **Note:** In the Core UI, use the Case interceptor to make selections and create a case.
 

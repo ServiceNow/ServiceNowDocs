@@ -30,7 +30,7 @@ You create the variable name and define the variable type, so that the variable 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Context Rule Management** &gt; **Context Variables**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Using ServiceNow Otto for Strategic Portfolio Management, ServiceNow Otto for Strategic Portfolio Management, Strategic Portfolio Management]

@@ -16,12 +16,12 @@ Sales representatives view and work on sequence tasks assigned to them using the
 
 ## Overview of using Customer Engagement Sequences
 
-Access the Customer Engagement Sequences app from the CSM Configurable Workspace to view your sequence tasks and complete predefined activities listed within it.
+Access the Customer Engagement Sequences app from the CRM Workspace to view your sequence tasks and complete predefined activities listed within it.
 
 -   **[View sequence tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-sequence-tasks.md)**  
-View sequence tasks assigned to you from the CSM Configurable Workspace.
+View sequence tasks assigned to you from the CRM Workspace.
 -   **[Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/execute-sequence-steps.md)**  
-Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
+Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
 
 **Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-using.md)
 

@@ -26,7 +26,7 @@ Determine the impact that your action changes have on published and draft flows.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  Select **Actions**.
 

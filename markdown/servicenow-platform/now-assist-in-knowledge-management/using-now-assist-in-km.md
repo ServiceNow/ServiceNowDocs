@@ -20,7 +20,7 @@ Now Assist in Knowledge Management enhances the agent experience by using artifi
 
 You can generate knowledge articles in ServiceNow Otto for Customer Service Management \(CSM\), ServiceNow Otto for IT Service Management \(ITSM\), ServiceNow Otto for HR Service Delivery \(HRSD\), and ServiceNow Otto for Field Service Management \(FSM\). For more information, review the following.
 
--   [Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md).
+-   [Generate a knowledge article from the CRM Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md).
 -   [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md).
 -   [Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md).
 -   [Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-generate-kb-article.md)
@@ -38,7 +38,7 @@ Elaborate or shorten content within a Knowledge article using the Now Assist con
 -   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/kc-article-editor.md)**  
 This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 -   **[Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.md)**  
-Review duplicate Knowledge articles using the Now Assist Identify and review duplicate articles feature.
+Review duplicate Knowledge articles using the identify and review duplicate articles feature in ServiceNow Otto.
 
 **Parent Topic:**[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
 

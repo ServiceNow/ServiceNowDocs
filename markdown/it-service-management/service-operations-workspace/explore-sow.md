@@ -1,20 +1,20 @@
 ---
 title: Exploring Service Operations Workspace for ITSM
-description: You can have a unified and seamless experience when managing the life cycle of task records such as incidents, requests, and walk-ups in IT Service Management workflows using Service Operations Workspace \(SOW\) for ITSM.
+description: Service Operations Workspace provides agents with a unified view of incidents, alerts, and tasks so they can investigate and resolve service issues from a single interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/explore-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Exploring Service Operations Workspace for ITSM
 
-You can have a unified and seamless experience when managing the life cycle of task records such as incidents, requests, and walk-ups in IT Service Management workflows using Service Operations Workspace \(SOW\) for ITSM.
+Service Operations Workspace provides agents with a unified view of incidents, alerts, and tasks so they can investigate and resolve service issues from a single interface.
 
 ## Service Operations Workspace for ITSM overview
 

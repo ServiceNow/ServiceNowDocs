@@ -19,7 +19,7 @@ Create a reusable action to send SQL commands to a relational database.
 **Note:**
 
 -   This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). After the required plugin is activated, the step is visible under Integrations.
--   The JDBC step runs only on a ServiceNow® MID Server with JDBC step capabilities. Activate the plugin, Integration Hub Standard Pack Installer \(com.glide.hub.integrations.standard\) or later to use the JDBC capability for the MID Server.
+-   The JDBC step runs only on a ServiceNow® MID Server with JDBC step capabilities.
 
 ## Roles and availability
 

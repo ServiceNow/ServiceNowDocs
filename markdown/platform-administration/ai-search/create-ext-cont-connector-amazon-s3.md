@@ -75,7 +75,7 @@ I agree to the following legal disclaimer
 
 </td><td>
 
-Option acknowledging that the Amazon S3 external content connector makes all crawled content accessible by all search users. Amazon S3 content access permissions do not rely on users' email addresses, as retrieved in user permission crawls. As a result, user permission crawls are not supported for the Amazon S3 external content connector.
+Option acknowledging that the Amazon S3 external content connector makes all crawled content accessible by all search users. Amazon S3 content access permissions don't rely on users' email addresses, as retrieved in user permission crawls. As a result, user permission crawls aren't supported for the Amazon S3 external content connector.
 
 </td></tr></tbody>
 </table>6.  Save and validate your connection settings by selecting **Validate Connection**.

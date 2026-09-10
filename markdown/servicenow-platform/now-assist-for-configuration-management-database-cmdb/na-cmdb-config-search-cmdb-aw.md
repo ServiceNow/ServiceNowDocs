@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-10-15"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,18 +18,28 @@ Review and configure the settings of the Search CMDB agentic workflow.
 
 ## Before you begin
 
-Role required: admin
+The **Index All Tables** and **Index Selected Table/s** actions require the ais\_admin role, which the sn\_query\_gen.admin role includes.
+
+Role required: sn\_query\_gen.admin
 
 ## Procedure
 
 1.  Activate the Query Generation skills as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/enable-query-generation.md).
 
-2.  Index the CI data.
+2.  Navigate to **Query Generation** &gt; **Indexed Sources**.
 
-    1.  Navigate to **Query Generation** &gt; **Indexed Sources**.
+3.  Open the **Query Generation Entity Source** record.
 
-    2.  Open the two records and select **Index all tables** or **Index table**.
+4.  Select **Index All Tables** or **Index Selected Table/s**.
 
+    The Indexed Source History page appears with a message that the indexed source is queued for indexing.
+
+5.  Repeat step 4 for the **Query Generation Dimension Source** record.
+
+
+## What to do next
+
+To monitor the progress of an indexing task, refresh the Indexed Source History page. When the **Ingestion State** field shows **indexed**, indexing is complete. If the field shows **cancelled** or **error**, indexing didn't complete successfully.
 
 **Parent Topic:**[Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 

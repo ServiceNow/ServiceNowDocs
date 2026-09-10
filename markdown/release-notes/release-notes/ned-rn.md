@@ -1,9 +1,9 @@
 ---
 title: Next Experience Developer \(NED\) Tools release notes
-description: The ServiceNow Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.
+description: The ServiceNow Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.The ServiceNow Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 1
 ---
@@ -12,20 +12,35 @@ reading_time_minutes: 1
 
 The ServiceNow® Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.
 
-## Next Experience Developer \(NED\) Tools highlights for the Yokohama release
+## About Next Experience Developer \(NED\) Tools
 
 Reduce troubleshooting time with enhanced component visualization, filters for traces, and new event filters.
 
 See [Next Experience Developer Tools](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/developer-tools/using-next-experience-developer-tools) for more information.
 
-## UI changes
+## Activation and other requirements
+
+-   **Activation information**
+
+    Download Next Experience Developer Tools from the Google Chrome Web Store.
+
+-   **Browser requirements**
+
+    Next Experience Developer Tools requires Google Chrome.
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.
+
+### What's changed
 
 -   **Component visualization**
 
     Highlighted components feature a tooltip that displays the element tag name and element ID.
 
-
-## Changed in this release
 
 -   **Time filters for events**
 
@@ -40,14 +55,4 @@ See [Next Experience Developer Tools](https://developer.servicenow.com/dev.do#!/
 
     Filter traces with front-end filters to streamline span visualizations, specialty filters to view targeted waterfall analysis without losing overall context, and level filters to adjust the detail display in span visualizations.
 
-
-## Activation information
-
-Download Next Experience Developer Tools from the Google Chrome Web Store.
-
-## Browser requirements
-
-Next Experience Developer Tools requires Google Chrome.
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
 

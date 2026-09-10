@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 Platform Analytics has new and updated features in the Yokohama release.
 
--   **[Now Assist in Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-platform-analytics-rn.md)**  
+-   **[Now Assist in Platform Analytics release notes]()**  
 Now Assist for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 -   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/performance-analytics-rn.md)**  
 The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Yokohama release.

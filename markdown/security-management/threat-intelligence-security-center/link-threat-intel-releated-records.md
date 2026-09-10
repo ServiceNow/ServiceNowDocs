@@ -1,20 +1,20 @@
 ---
 title: Link Threat Intel Related Records
-description: Link the related records that are related to the corresponding threat intel objects.
+description: Link the records that are related to the corresponding threat intelligence objects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-08-15"
 reading_time_minutes: 1
 breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Link Threat Intel Related Records
 
-Link the related records that are related to the corresponding threat intel objects.
+Link the records that are related to the corresponding threat intelligence objects.
 
 ## Before you begin
 
@@ -26,21 +26,21 @@ Role required: sn\_sec\_tisc.analyst
 
 2.  Select any observable\(s\) record as an example.
 
-3.  Go to **Related Records** section.
+3.  Go to the **Related Records** section.
 
 4.  Select any related record.
 
-5.  Click **Link**.
+5.  Select **Link**.
 
     The Link Objects dialogue box is displayed.
 
-6.  Select the objects from the list and click **Link** button.
+6.  Select the objects from the list and select **Link** button.
 
     The objects associated for an observable record will be linked and displayed in the Related Records list view.
 
-7.  Click **Save**.
+7.  Select **Save**.
 
-    Click **Unlink** button to unlink the objects
+    Select **Unlink** button to unlink the objects
 
 
 **Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/observables.md)

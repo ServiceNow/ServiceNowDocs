@@ -26,7 +26,7 @@ When you create a customer facing service specification for a service request an
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Specifications** &gt; **Service specifications** and select **New**.
 

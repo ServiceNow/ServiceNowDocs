@@ -1,64 +1,97 @@
 ---
 title: Configure and enable Whois integration
-description: Before you use the Whois integration, you must download it from the ServiceNow Store, and must have a valid account from Whois.
+description: Set up WHOIS integration with TISC to perform domain and URL lookups for threat intelligence enrichment. This integration provides context on observables to help determine potential threats.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-whoisxml-api-integration.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Whois integration, Configure Observable Enrichment, TISC Enrichment integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Whois integration, Configure Observable Enrichment, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure and enable Whois integration
 
-Before you use the Whois integration, you must download it from the ServiceNow Store, and must have a valid account from Whois.
+Set up WHOIS integration with TISC to perform domain and URL lookups for threat intelligence enrichment. This integration provides context on observables to help determine potential threats.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.admin
 
-The Threat Intelligence Security Center and Whois observable integration plugins are required.
+**Important:** The Threat Intelligence Security Center and Whois Observable Enrichment plugins must be installed and active.
+
+Download the Whois integration from the ServiceNow Store and confirm you have a valid Whois account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/download-app-first-time.md).
 
 ## Procedure
 
-1.  Using your instance, access **Threat Intelligence Security Center**.
+1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations** &gt; **Observable Enrichment**.
 
-2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/download-app-first-time.md).
+2.  In the **WHOIS** card, select **Configure New Enrichment** to configure **WHOIS** integration.
 
-3.  When the installation is complete, navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
+3.  Fill in the fields on the Configure New Enrichment form.
 
-4.  Select **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations**.
+<table id="table_iqf_n4p_tzb"><thead><tr><th>
 
-5.  Alternatively, you can navigate to **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations** &gt; **Observable Enrichment**.
+Field
 
-6.  In the **WHOIS** card, click **Configure New Enrichment** to configure **WHOIS** integration.
+</th><th>
 
-7.  Fill in the fields on the Configure New Enrichment form.
+Description
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Enter a name for the new enrichment integration. For example, WHOIS.|
-    |Vendor Name|Name of the vendor. The details of the selected vendor is populated by default. For example, WHOIS.|
-    |Integration Type|Type of integration that you selected. For example, Threat Lookup.|
-    |Description|Enter the description for the new enrichment integration. For example, the description for WHOIS integration is, The WHOIS Integration for Threat Intelligence Security Center enables users to submit Whois lookups on domain names and URLs to obtain context on URL observables, and to make better determination on threats.|
+</th></tr></thead><tbody><tr><td>
 
-8.  Drill down to **Integration Configuration** section.
+Name
 
-9.  Enter \(or paste\) the **API Key** you acquired from the WHOIS site.
+</td><td>
 
-10. Click **Save**.
+Enter a name for the new enrichment integration. For example, Whois.
 
-    The integration details are validated, and by default the WHOIS integration's status is disabled.
+</td></tr><tr><td>
 
-11. Click **Enable** to enable the WHOIS integration.
+Vendor Name
+
+</td><td>
+
+Name of the vendor. The details of the selected vendor populate by default. For example, Whois.
+
+</td></tr><tr><td>
+
+Integration Type
+
+</td><td>
+
+Type of integration that you selected. For example, Threat Lookup.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Enter the description for the new enrichment integration.For example, the description for Whois integration is, The Whois Integration for Threat Intelligence Security Center enables users to submit Whois lookups on domain names and URLs to obtain context on URL observables, and to make better determination on threats.
+
+</td></tr></tbody>
+</table>4.  Drill down to **Integration Configuration** section.
+
+5.  Enter \(or paste\) the **API Key** you acquired from the Whois site.
+
+6.  Select **Save** to apply the changes.
+
+    The integration details are validated, and by default the Whois integration's status is inactive.
+
+7.  Select **Enable** to enable the Whois integration.
 
 
 ## Result
 
-After it is configured, WHOIS can be selected for performing enrichments on observables in Threat Intelligence Security Center.
+After it is configured, Whois can be selected for performing enrichment on observables in Threat Intelligence Security Center.
 
 **Parent Topic:**[Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-whoisxml-integration.md)
+
+**Related topics**  
+
+
+[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 

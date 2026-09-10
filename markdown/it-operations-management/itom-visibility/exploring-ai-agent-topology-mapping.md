@@ -79,8 +79,6 @@ The pde\_viewer role can view the following tables only:
 -   Pattern Shared Library Mapping \[pd\_pattern\_to\_shared\_library\_mapping\]
 -   Temporary Variable Mappings \[pd\_temp\_variable\_value\_mapping\]
 
-For more information, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-command-probe-pattern.md).
-
 </td></tr><tr><td>
 
 PD MID

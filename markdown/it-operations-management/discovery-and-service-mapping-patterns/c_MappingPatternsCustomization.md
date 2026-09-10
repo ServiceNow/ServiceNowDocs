@@ -105,14 +105,6 @@ Can view, create, edit, and publish patterns. The role enables users to run disc
 
 </td></tr><tr><td>
 
-PD user
-
-</td><td>
-
-Has read-only access to **Discovery Pattern Log**.
-
-</td></tr><tr><td>
-
 PD admin
 
 </td><td>
@@ -134,8 +126,6 @@ The pde\_viewer role can view the following tables only:
 -   Command Validation Task Results \[pd\_command\_validation\_results\]
 -   Pattern Shared Library Mapping \[pd\_pattern\_to\_shared\_library\_mapping\]
 -   Temporary Variable Mappings \[pd\_temp\_variable\_value\_mapping\]
-
-For more information, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-command-probe-pattern.md).
 
 </td></tr><tr><td>
 

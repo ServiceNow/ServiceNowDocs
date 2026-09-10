@@ -14,7 +14,7 @@ breadcrumb: [Using License and Permit Playbook, Using Playbooks, Using Public Se
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the CSM Configurable Workspace gives you access to information that can help you resolve license and permit request cases.
+The contextual side panel in the CRM Workspace gives you access to information that can help you resolve license and permit request cases.
 
 It includes a column of icons that you can select to access different types of information.
 

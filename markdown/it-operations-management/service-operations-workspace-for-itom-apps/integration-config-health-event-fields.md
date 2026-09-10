@@ -1,6 +1,6 @@
 ---
 title: Integration and configuration health event fields
-description: Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message, enabling precise tracking, effective incident management, and improved error analysis.
+description: Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message. This enables precise tracking, effective incident management, and improved error analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/integration-config-health-event-fields.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace for ITOM reference, Service Operations
 
 # Integration and configuration health event fields
 
-Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message, enabling precise tracking, effective incident management, and improved error analysis.
+Populate the event fields to capture details such as the event time, description, alert number, state, severity, metric name, node, message key, and error message. This enables precise tracking, effective incident management, and improved error analysis.
 
 |Field|Description|
 |-----|-----------|

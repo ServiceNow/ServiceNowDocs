@@ -1,6 +1,6 @@
 ---
 title: Customize a skill in ServiceNow Otto for TMT
-description: If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Configure, ServiceNow Otto for Telecommunications, Media, and Techn
 
 # Customize a skill in ServiceNow Otto for TMT
 
-If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize a ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 ## Before you begin
 

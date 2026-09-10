@@ -1,6 +1,6 @@
 ---
 title: SAP products discovery
-description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map an service instance containing an SAP applications and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
+description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map an service instance containing an SAP applications and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/sap-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # SAP products discovery
 
-ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

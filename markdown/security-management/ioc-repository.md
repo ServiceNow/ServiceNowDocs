@@ -80,6 +80,8 @@ The STIX Visualizer visually represents the structure of the STIX object and its
 
 [MITRE D3FEND framework]()
 
+[MITRE ATLAS framework]()
+
 [Threat Intelligence administration]()
 
 [Threat Intelligence integrations]()

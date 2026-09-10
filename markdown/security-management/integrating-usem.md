@@ -1219,7 +1219,7 @@ Vulnerability Response - Intelligence
 
 </td><td>
 
-Enrich host findings with normalized fix information from Armis™ Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
+Enrich host findings with normalized fix information from Armis Centrix™ for ViPR, and remediate by fix instead of one finding at a time.
 
 </td><td>
 

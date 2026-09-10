@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
@@ -136,7 +136,7 @@ GCP Credential Alias
 
 </td><td>
 
-The credential alias to be used. Specify one GCP credential alias by selecting the magnifying glass icon and then either selecting an existing credential alias from the **Connection &amp; Credential Aliases** list, or selecting **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
+The credential alias to be used. Specify one GCP credential alias by selecting the magnifying glass icon. Select an existing credential alias from the **Connection &amp; Credential Aliases** list, or select **New** to create a new record. The default is sn\_occ.HLA\_Credential\_Alias.
 
  For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/discovery-credential-alias.md).
 

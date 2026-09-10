@@ -51,12 +51,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-now-assist-for-order-management.md)**  
 With the ServiceNow Otto for Order Management application, you can use generative AI to summarize complex orders involving multiple products, services, and fulfilment tasks for faster, more accurate decision-making and improved customer responsiveness.
 -   **[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)**  
-If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Platform.
+If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your agents can use the generative AI skills in CRM Workspace and in Platform.
 -   **[Using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-order-management-using.md)**  
 Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 

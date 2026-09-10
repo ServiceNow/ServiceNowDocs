@@ -57,15 +57,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d129684e227">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d129716e227">
 
 Option
 
-</th><th align="left" id="d129684e230">
+</th><th align="left" id="d129716e230">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d129684e236">
+</th></tr></thead><tbody><tr><td id="d129716e236">
 
 **Provide feedback for the generated text**
 
@@ -73,7 +73,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(\[Omitted image "icon-helpful-feedback.png"\] Alt text: Helpful icon.\). If you think that the generated text wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-nt-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d129684e259">
+</td></tr><tr><td id="d129716e259">
 
 **Copy the text**
 

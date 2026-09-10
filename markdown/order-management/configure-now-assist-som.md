@@ -1,6 +1,6 @@
 ---
 title: Configure ServiceNow Otto for Sales Automation
-description: If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CSM Configurable Workspace.
+description: If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-now-assist-som.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Now Assist for SOM]
 
 # Configure ServiceNow Otto for Sales Automation
 
-If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CSM Configurable Workspace.
+If you have the admin role, you can configure the ServiceNow Otto for Sales Automation application so that agents can use the generative AI capabilities in the CRM Workspace.
 
 ## Before you begin
 

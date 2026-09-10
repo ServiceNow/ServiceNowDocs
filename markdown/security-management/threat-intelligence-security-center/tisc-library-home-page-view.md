@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -197,7 +197,7 @@ Use this search function to search for the source records across multiple source
 **Related topics**  
 
 
-[Understanding the Data Model]()
+[TISC Data Model]()
 
 [TISC Library Repository]()
 
@@ -209,5 +209,5 @@ Use this search function to search for the source records across multiple source
 
 [Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation]()
+[Automated correlation]()
 

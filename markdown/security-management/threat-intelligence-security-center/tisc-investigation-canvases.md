@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
@@ -39,12 +39,14 @@ Use this section to link an existing case from the investigation canvas.
 Use this section to create and link a case\(s\) from an investigation canvas.
 -   **[Linking Canvas from a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.md)**  
 Use this section to link a canvas from a case.
--   **[Create an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-canvas.md)**  
-Create a new canvas to add observables from threat intelligence library.
+-   **[Creating an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-canvas.md)**  
+Create canvas to add observables from threat intelligence library.
 -   **[Adding a new node to the canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-add-node-canvas.md)**  
 Use this section to create and add new entities, including observables or objects, directly from the investigation canvas.
+-   **[Using Timeline in Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-timeline-events.md)**  
+The Timeline feature of the Investigation Canvas within the Threat Intelligence Security Center \(TISC\) empowers analysts to visualize, create, and edit timeline events associated to entities during investigations. This capability significantly enhances the effectiveness of temporal analysis.
 -   **[Investigation canvas and MITRE ATT&amp;CK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/investigation-and-mitre.md)**  
-In the investigation canvas, view the MITRE ATT&amp;CK techniques and sub-techniques which are associated to all the nodes in the canvas.
+In the Investigation Canvas, you can view the MITRE ATT&amp;CK techniques and sub-techniques associated with all nodes currently present on the canvas.
 
 **Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
@@ -55,9 +57,9 @@ In the investigation canvas, view the MITRE ATT&amp;CK techniques and sub-techni
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Create case task using Threat Analyst Workbench]()
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)]()
+[Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
 

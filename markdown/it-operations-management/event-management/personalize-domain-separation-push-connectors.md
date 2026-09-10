@@ -1,6 +1,6 @@
 ---
 title: Personalize domains for push connector events to use in event creation
-description: Configure push connectors to personalize domain separation of events so you can use them to create events in different domains other than the user's currently logged-in or MID Server domain.
+description: Configure push connectors to personalize domain separation of events. You can create events in domains other than the user's logged-in or MID Server domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Event Management Connectors domain personalization, Event Managemen
 
 # Personalize domains for push connector events to use in event creation
 
-Configure push connectors to personalize domain separation of events so you can use them to create events in different domains other than the user's currently logged-in or MID Server domain.
+Configure push connectors to personalize domain separation of events. You can create events in domains other than the user's logged-in or MID Server domain.
 
 ## Before you begin
 
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d439770e243">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d441050e243">
 
 Domain creation location
 
-</th><th align="left" id="d439770e246">
+</th><th align="left" id="d441050e246">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d439770e252">
+</th></tr></thead><tbody><tr><td id="d441050e252">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d439770e278">
+</td></tr><tr><td id="d441050e278">
 
 **The domain provided in the payload of each event**
 

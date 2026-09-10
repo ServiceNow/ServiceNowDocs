@@ -1,18 +1,18 @@
 ---
-title: Create a business record in CSM Configurable Workspace
-description: If you're a government service agent, create a business record in CSM Configurable Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
+title: Create a business record in CRM Workspace
+description: If you're a government service agent, create a business record in CRM Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-create-new-business-rec-ws.html
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using CRM Workspace, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a business record in CSM Configurable Workspace
+# Create a business record in CRM Workspace
 
-If you're a government service agent, create a business record in CSM Configurable Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
+If you're a government service agent, create a business record in CRM Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select **lnteractions** &gt; **All**.
+1.  Navigate to the CRM Workspace and select **lnteractions** &gt; **All**.
 
 2.  Select the interaction number to open an existing interaction record, or select the new icon \[Omitted image "new-icon.png"\] Alt text: New icon. to create an interaction.
 

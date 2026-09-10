@@ -37,7 +37,7 @@ By embedding workflow automation into customer success management, Account Lifec
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/account-lifecycle-rn.md).
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/account-lifecycle-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/account-lifecycle-rn.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Account Lifecycle Events features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=57c9e41087152e9024e0bb39dabb35cc&s=1&ssa=3).
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/impact.html).

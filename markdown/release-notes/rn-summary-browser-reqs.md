@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-browser-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -26,6 +26,14 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Analytics
+
+</td><td>
+
+AI Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -34,11 +42,11 @@ The AI Control Tower application supports all the browsers.
 
 </td></tr><tr><td>
 
-AI Search
+AI Skill Kit
 
 </td><td>
 
-AI Search doesn’t support Internet Explorer.
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
 
 </td></tr><tr><td>
 
@@ -54,7 +62,7 @@ Agent experience for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +93,7 @@ Case management for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +101,7 @@ Data management for CSM
 
 </td><td>
 
-Starting with the Yokohama release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see .
+Starting with the Yokohama release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +109,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see Enable DEX browser extension for monitoring web/SaaS applications.
+Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +117,7 @@ Intelligence for CSM
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -150,30 +158,6 @@ Now Assist AI agents
 </td><td>
 
 Now Assist AI agents supports various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents isn’t supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-Now Assist Analytics
-
-</td><td>
-
-AI Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
-
-</td></tr><tr><td>
-
-Now Assist Skill Kit
-
-</td><td>
-
-Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
-
-</td></tr><tr><td>
-
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-The ServiceNow Otto for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -244,6 +228,14 @@ The Yokohama release doesn't support Internet Explorer 11.
 The iOS version of Firefox doesn’t support Service Portal pages.
 
 For more information about Service Portal browser support, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+The ServiceNow Otto for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 

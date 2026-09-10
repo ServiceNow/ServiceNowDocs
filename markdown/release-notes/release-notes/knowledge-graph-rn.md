@@ -1,9 +1,9 @@
 ---
 title: Knowledge Graph release notes
-description: The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
+description: The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.The ServiceNow Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-02-27"
 reading_time_minutes: 5
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
 
-## Knowledge Graph highlights for the Yokohama release
+## About Knowledge Graph
 
 [Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
@@ -46,91 +46,103 @@ Yokohama Patch 6
 -   Knowledge Graph creates a complex data model called Knowledge Graph schema with numerous entities and their relation within a few steps.
 -   Knowledge Graph admins can use Knowledge Graph to create and manage the Knowledge Graph schemas. These Knowledge Graph schemas are the customized Knowledge Graph that consist of nodes, node properties, and edges.
 
-See  for more information.
+See [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/knowledge-graph-landing.md) for more information.
+
+## Activation and other requirements
 
 **Important:** Knowledge Graph is enabled automatically in your BU Generative AI Application. For details, see the "Activation information" section of these release notes.
 
-## Knowledge Graph features
+-   **Activation information**
 
--   ****
+    Knowledge Graph is a ServiceNow AI Platform feature that is active by default if you have downloaded the Generative AI for BU.
 
-    Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
+-   **Additional requirements**
 
-
--   ****
-
-    Knowledge Graph now has a new NLQ graph schema available prebuilt along with user profile schema. See [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778) for schema attributes.
+    Ensure that your instance is upgraded to XP7.
 
 
--   ****
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
 
-    Knowledge Graph provides the following new prebuilt integrations:
+## January 2026
 
-    -   Integration with Now Assist Virtual Agent: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card.
+The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
 
--   ****
+### What's changed
 
-    Knowledge Graph provides the following prebuilt integrations:
-
-    -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
-    -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
-
--   ****
-
-    Knowledge Graph helps requesters with personalized responses using its Integration with Now Assist Virtual Agent for User Context.
-
-    Use Knowledge Graph integration with Now Assist Virtual Agent for Slot filling to helps pre-fill the slots for Virtual Agent topics using Natural Language Querying feature of Knowledge Graph.
-
--   ****
-
-    Use the Knowledge Graph integrations with Now Assist Virtual Agent to utilize Knowledge Graph APIs built with LLM models, for personalized responses and slot-filling fields to execute LLM topics and skills in Virtual Agent.
-
--   ****
-
-    Use Knowledge Graph designer to manage Knowledge Graph schemas, their nodes, node properties and edges. You can also use the interface to create, edit, duplicate, or delete a Knowledge Graph schema.
-
-
-## Changed in this release
-
--   **Changes to Now Assist usage measurement**
+-   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
     Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **Some Now Assist skills are turned on by default**
+-   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
 
     The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **Configure ACLs for AI agents and agentic workflows**
+-   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
 
-## Activation information
+## August 2025
 
-Knowledge Graph is a ServiceNow AI Platform feature that is active by default if you have downloaded the Generative AI for BU.
+The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
 
-## Additional requirements
+### What's new
 
-Ensure that your instance is upgraded to XP7.
+-   **[Test a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-a-knowledge-graph-schema.md)**
 
-## Related ServiceNow applications and features
-
--   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)**
-
-    ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
-
--   ****
-
-    The Now Assist in AI Search ServiceNow® Store application combines the power of search with the Now LLM Service generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant Knowledge articles.
-
--   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md)**
-
-    Unlock your enterprise productivity with ServiceNow® Virtual Agent. Increase deflections by empowering your employees and customers to serve themselves using a friendly messaging interface, featuring prebuilt conversations powered by artificial intelligence.
+    Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
 
 
-**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)
+## May 2025
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)
+The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
+
+### What's new
+
+-   **[Access Knowledge Graph Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/access-knowledge-graph-designer.md)**
+
+    Knowledge Graph now has a new NLQ graph schema available prebuilt along with user profile schema. See [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778) for schema attributes.
+
+
+-   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md)**
+
+    Knowledge Graph provides the following new prebuilt integrations:
+
+    -   Integration with Now Assist Virtual Agent: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card.
+
+## Yokohama General Availability
+
+The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
+
+### What's new
+
+-   **[Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-knowledge-graph.md)**
+
+    Knowledge Graph helps requesters with personalized responses using its Integration with Now Assist Virtual Agent for User Context.
+
+    Use Knowledge Graph integration with Now Assist Virtual Agent for Slot filling to helps pre-fill the slots for Virtual Agent topics using Natural Language Querying feature of Knowledge Graph.
+
+-   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/example-use-case-for-knowledge-graph.md)**
+
+    Use the Knowledge Graph integrations with Now Assist Virtual Agent to utilize Knowledge Graph APIs built with LLM models, for personalized responses and slot-filling fields to execute LLM topics and skills in Virtual Agent.
+
+-   **[Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/using-knowledge-graph-designer.md)**
+
+    Use Knowledge Graph designer to manage Knowledge Graph schemas, their nodes, node properties and edges. You can also use the interface to create, edit, duplicate, or delete a Knowledge Graph schema.
+
+
+## Yokohama
+
+The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
+
+### What's new
+
+-   **[Leverage Knowledge Graph prebuild integration with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.md)**
+
+    Knowledge Graph provides the following prebuilt integrations:
+
+    -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
+    -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
 

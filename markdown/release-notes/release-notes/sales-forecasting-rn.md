@@ -1,9 +1,9 @@
 ---
 title: Sales Forecasting release notes
-description: The ServiceNow Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting is a new application in the Yokohama release.
+description: The ServiceNow Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting is a new application in the Yokohama release.The ServiceNow Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting is a new application in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-03-23"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting is a new application in the Yokohama release.
 
-## Sales Forecasting highlights for the Yokohama release
+## About Sales Forecasting
 
 -   Project future sales and revenue with intuitive forecasting by sales representatives.
 -   Access the Sales Forecast dashboard at all levels of the sales hierarchy.
@@ -21,9 +21,22 @@ The ServiceNow® Sales Forecasting application enables you to project your futur
 
 See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-forecasting.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Sales Forecasting is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Sales Forecasting features
+-   **Activation information**
+
+    Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Sales Forecasting application enables you to project your future sales and revenue based on data from an opportunity pipeline. Sales Forecasting is a new application in the Yokohama release.
+
+### What's new
 
 -   **[View the Sales Forecasting dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/using-sales-forecasting.md)**
 
@@ -45,21 +58,4 @@ See [Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Create a forecast scheduled job to update or create the forecast data at a specific time or on a recurring schedule. The forecast scheduled job automatically fetches all the opportunities in the system and generates forecast data.
 
-
-## Activation information
-
-Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)**
-
-    Customer Service Management \(CSM\) application can help your organization resolve customer issues and requests for your customers. By adopting a proactive customer service approach, you can help increase your customer satisfaction and retention.
-
--   **[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/opportunity-management.md)**
-
-    The Opportunity Management application provides your sales agents and account executives with product recommendations for customers based on a needs analysis. You can seamlessly convert sales opportunities to quotes when the customer is ready.
-
-
-**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
 

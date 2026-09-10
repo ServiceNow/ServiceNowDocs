@@ -17,7 +17,7 @@ breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Buildin
 
 The Workspace API defines configurable workspace experiences for organizing and sharing data visually.
 
-**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
+**Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
 The Workspace API creates application metadata in the following tables depending on the workspace definition: UX Application \[sys\_ux\_page\_registry\], UX App Configuration \[sys\_ux\_app\_config\], UX Application Category M2M \[sys\_ux\_registry\_m2m\_category\], UX Page Property \[sys\_ux\_page\_property\], UX Screen Collection \[sys\_ux\_screen\_type\], UX App Route \[sys\_ux\_app\_route\], UX Screen \[sys\_ux\_screen\], and UX Macroponent Definition \[sys\_ux\_macroponent\].
 

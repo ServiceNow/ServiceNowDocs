@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
 ---
 
@@ -229,7 +229,7 @@ SAM - Software Entitlement Creation Using Custom PPN
 
 </td><td>
 
-Creates a custom software product, a custom DMAP for the custom product, a custom Part Number for the custom DMAP, a software entitlement using the custom Part Number, and verifies that a software model is automatically created.
+Creates a custom software product, custom DMAP, custom Part Number, and software entitlement using the custom Part Number. Verifies that a software model is automatically created.
 
 </td><td>
 

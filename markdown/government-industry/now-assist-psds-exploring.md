@@ -46,9 +46,9 @@ The ServiceNow Otto for PSDS application includes the generative AI skills that 
     **Note:** The resolution notes generation skill requires a minimum of 200 words in the case record to generate the resolution notes. If the resolution notes can't be generated, the system displays a message below the **Resolution notes** field.
 
 
-## Now Assist panel in CSM Configurable Workspace
+## Now Assist panel in CRM Workspace
 
-An agent can use the Now Assist panel in CSM Configurable Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the Now Assist panel in CRM Workspace. This conversational interface enables an agent to request a case summary and generate the case resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Now Assist in AI Search
 

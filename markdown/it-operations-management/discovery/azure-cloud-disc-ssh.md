@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2025-12-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -26,42 +26,66 @@ Role required: admin
 
 ## Procedure
 
-1.  On the instance, navigate to **Discovery** &gt; **Credentials** and select **New**.
+1.  Navigate to **Discovery** &gt; **Credentials**.
 
-2.  For the type of credential, select **Azure Service Principal**.
+2.  Select **New**.
 
-3.  Fill in the form with the required info and submit.
+3.  For the type of credential, select **Azure Service Principal**.
 
-    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: The Azure Service Principle record.
+4.  Fill in the form with the required information.
 
-4.  Navigate to **Discovery** &gt; **Credentials** and select **New**.
+    \[Omitted image "azure-cloud-disc-ssh-new-record.png"\] Alt text: Azure Service Principle record
 
-5.  For this type of credential, select **Azure SSH Certificate Credential**.
+5.  Select **Submit**.
 
-6.  Fill in the form with the necessary information, including linking the Service Principle credential you created.
+6.  Navigate to **Discovery** &gt; **Credentials**.
+
+7.  Select **New**.
+
+8.  For this type of credential, select **Azure SSH Certificate Credential**.
+
+9.  Fill in the form with the necessary information, including linking the Service Principle credential you created.
 
     The Azure Service Provider and SSH Certificate credentials have been created and linked. Continue the procedure to create the Cloud Discovery schedule.
 
-7.  Navigate to the Cloud Discovery Workspace home page and select **Cloud discovery**.
+10. Navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-    \[Omitted image "azure-cloud-disc-ssh-workspace.png"\] Alt text: The Cloud discovery workspace home page.
+11. Select **New Discovery** from the header of any tab on the Schedules page.
 
-8.  Select **New discovery schedule**.
+12. Select **Cloud-based discovery** and select **Continue**.
 
-9.  Provide a name for the schedule and select **Azure** as the cloud provider.
+13. Provide a name for the schedule and select **Azure** as the cloud provider.
 
-10. Create a new cloud account using your Azure Service Principal credential.
+14. Choose a MID Server.
+
+15. Select **next**.
+
+16. Create a cloud account using your Azure Service Principal credential.
 
     For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-azure-service-accounts.md).
 
-11. Select data centers.
+17. Select **next**.
 
-12. Enable the option to discover virtual machines.
+18. Select cloud regions for the Discovery schedule.
 
-13. Complete the schedule creation by selecting **Finish and run**.
+    You can choose to include all regions linked to the cloud account or select specific regions. There’s no restriction on the number of cloud regions that you can add.
+
+    1.  To discover specific cloud regions, select the check box for the cloud region you want to scan from the **Available cloud regions** list.
+
+    2.  If the cloud regions don't appear, select **Refresh cloud regions**.
+
+19. Select **next**.
+
+20. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle.
+
+    1.  Select a MID Server or cluster that can discover the Virtual Machines \(VM\) and their attributes.
+
+21. Select **next**.
+
+22. Complete the schedule creation by selecting **Finish and run**.
 
 
 ## Result
 
-The discovery schedule should start, and the Cloud Operations homepage should show the running status for the newly created schedule. After some time, the scheduled discovery should be completed and a new schedule for the VM discovery is then created and run. The new VM discovery schedule utilizes the SP we created for the generation of SSH certs to authenticate with the VMs. You can observe this in the Discovery IP Affinity section for the credential.
+The Discovery schedule should start, and the Discovery Admin Workspace should show the running status for the newly created schedule. After some time, the scheduled discovery should be completed and a new schedule for the VM discovery is then created and run. The new VM discovery schedule utilizes the SP we created for the generation of SSH certs to authenticate with the VMs. You can observe this in the Discovery IP Affinity section for the credential.
 

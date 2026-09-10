@@ -189,7 +189,7 @@ Integrate Microsoft Azure with Event Management by adding the Azure Monitor as a
 -   **[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-collection-MicrosoftAzure.md)**  
 The MID WebServer Event Collector enables you to collect JSON formatted event messages sent from the Microsoft Azure portal.
 -   **[Event collection from BMC TrueSight and BMC TrueSight\_v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-collection-BMCTrueSight.md)**  
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\), utilizing event stream notification capabilities.
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\).
 -   **[Integrate New Relic platform events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/new-relic-events-integration.md)**  
 Integrate New Relic with Event Management by adding a standard webhook in the New Relic old and new consoles.
 -   **[Integrate Catchpoint events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/catchpoint-event-collection.md)**  

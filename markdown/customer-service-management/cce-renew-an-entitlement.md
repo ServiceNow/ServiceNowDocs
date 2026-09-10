@@ -1,6 +1,6 @@
 ---
 title: Renew an entitlement
-description: Renew an entitlement on the CSM Configurable Workspace.
+description: Renew an entitlement on the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-renew-an-entitlement.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contract
 
 # Renew an entitlement
 
-Renew an entitlement on the CSM Configurable Workspace.
+Renew an entitlement on the CRM Workspace.
 
 ## Before you begin
 

@@ -22,7 +22,7 @@ Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product\_catalo
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 

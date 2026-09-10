@@ -28,7 +28,7 @@ Each data pill consists of a label and a data type description. For example, the
 
 ## Data variables available for flows and subflows
 
-The Workflow Studio UI displays the flow trigger as a data pill in the data pane, and displays subflow inputs as data pills in the Subflow Inputs section of the Data pane. Subflow outputs are listed as data pills in the Subflow Outputs section of the Data pane.
+The Workflow Studio UI displays the flow trigger as a data pill in the data pane. Subflow inputs appear as data pills in the Subflow Inputs section of the Data pane. Subflow outputs appear as data pills in the Subflow Outputs section of the Data pane.
 
 Workflow Studio does not display action input variables in the data pane. The output variables produced by each action are available in the data pane as part of the action that created them. For more information on using input and output variables to create a flow, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flows.md).
 
@@ -37,6 +37,10 @@ Workflow Studio does not display action input variables in the data pane. The ou
 Workflow Studio supports variable data types to store ServiceNow AI Platform record data and complex data. Variables that store record data must have a data type matching the ServiceNow AI Platform [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md) of the source data. Variables for [complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/complex-data.md) must match the type of complex data stored, either an array or an object.
 
 **Note:** This reference documentation doesn't list all possible ServiceNow AI Platform data types available to actions and flows. Instead, the reference information focuses on the data types used by ServiceNow provided actions and flows. For a list and descriptions of available ServiceNow AI Platform data types, see [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+
+## Set action variable limits
+
+Each action in Workflow Studio lets you define 20 input variables and 20 output variables. If your workflow needs more, adjust the system property **sn\_flow\_designer.max\_action\_vars** to increase the limit. See [Flow Designer system properties](https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-system-properties.html) to learn how.
 
 -   **[Approval rules data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/approval-rules-data.md)**  
 Store the conditions for approving or rejecting an approval requests.

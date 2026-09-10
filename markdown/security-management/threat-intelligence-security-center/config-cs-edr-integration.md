@@ -1,24 +1,26 @@
 ---
 title: Configure Crowdstrike Falcon EDR integration
-description: Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
+description: Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/config-cs-edr-integration.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-08-16"
 reading_time_minutes: 2
-breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure Crowdstrike Falcon EDR integration
 
-Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
+Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.admin
+
+**Important:**
 
 -   Threat Intelligence Security Center application must be installed and activated.
 -   Obtain the API Client ID and API Client Secret from CrowdStrike Falcon console.
@@ -26,17 +28,17 @@ Role required: sn\_sec\_tisc.admin
 
 ## Procedure
 
-1.  Using your instance, access **Threat Intelligence Security Center**.
+1.  Navigate to **Threat Intelligence Security Center**.
 
 2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/download-app-first-time.md).
 
 3.  Select **Integrations** &gt; **Security Tools** &gt; **EDR**.
 
-4.  Click **Configure New Security Tool** to configure CrowdStrike Falcon EDR integration.
+4.  Select **Configure new security tool integration** to configure CrowdStrike Falcon EDR integration.
 
-5.  Select **CrowdStrike Falcon EDR** option.
+5.  Select **CrowdStrike Falcon EDR**.
 
-6.  Fill in the fields on the Configure new security tool form.
+6.  On the Configure new security tool form, fill in the fields as appropriate.
 
 <table id="table_iqf_n4p_tzb"><thead><tr><th>
 
@@ -52,7 +54,7 @@ Name
 
 </td><td>
 
-Enter a name for the new security tool integration. For example, CrowdStrike Falcon EDR.
+Name for the new security tool integration. For example, CrowdStrike Falcon EDR.
 
 </td></tr><tr><td>
 
@@ -60,7 +62,7 @@ Vendor Name
 
 </td><td>
 
-Name of the vendor. The details of the selected vendor is populated by default. For example, CrowdStrike Falcon EDR.
+Name of the vendor. The details of the selected vendor are populated by default. For example, CrowdStrike Falcon EDR.
 
 </td></tr><tr><td>
 
@@ -68,7 +70,7 @@ Description
 
 </td><td>
 
-Enter the description for the new security tool integration.
+Description for the new security tool integration.
 
 </td></tr><tr><td>
 
@@ -76,7 +78,7 @@ Integration Type
 
 </td><td>
 
-Option that displays the integration type.
+Type of integration.
 
 </td></tr><tr><td>
 
@@ -84,7 +86,7 @@ Integration Category
 
 </td><td>
 
-Option that displays the integration category.
+Category of integration.
 
 </td></tr><tr><td colspan="2">
 
@@ -116,11 +118,21 @@ The client secret key that you obtained from CrowdStrike. For more information, 
 
 </td></tr><tr><td>
 
+Use TISC Expiration \(Observable expiration when available; otherwise, configured default expiration\)
+
+</td><td>
+
+Option to send the expiration time that is set on the observable in TISC instead of the expiration period configured for the observable type. When the observable has an expiration time, that value is sent to CrowdStrike EDR. When the observable has no expiration time, the expiration period configured for the observable type applies.**Note:**
+
+This option is selected by default for configurations that you create. For configurations that existed before you upgraded, this option is cleared so that the existing expiration behavior continues to apply.
+
+</td></tr><tr><td>
+
 Expiration period in days for any type of observables
 
 </td><td>
 
-The expiry period in days that are applied for any type of observable\(s\) when they are sent to CrowdStrike EDR.**Note:** This option is a fall back expiration period when the expiration time is not set for any specific observable type.
+The expiry period in days that is applied for any type of observable\(s\) when they are sent to CrowdStrike EDR.**Note:** This option is a fall back expiration period when the expiration time is not set for any specific observable type.
 
 </td></tr><tr><td>
 
@@ -128,7 +140,7 @@ IP Observable Expiration Time
 
 </td><td>
 
-The expiry period in days that are applied for the IP type of observable when they are sent to CrowdStrike EDR.
+The expiry period in days that is applied for the IP type of observable when they are sent to CrowdStrike EDR.
 
 </td></tr><tr><td>
 
@@ -136,25 +148,32 @@ Domain Observable Expiration Time
 
 </td><td>
 
-The expiry period in days that are applied for the domain type of observable when they are sent to CrowdStrike EDR.
+The expiry period in days that is applied for the domain type of observable when they are sent to CrowdStrike EDR.
 
 </td></tr><tr><td>
 
-Hash Observable Expiration Time
+MD5 and SHA256 hash Observable Expiration Time
 
 </td><td>
 
-The expiry period in days that are applied for the Hash type of observable when they are sent to CrowdStrike EDR.
+The expiry period in days that is applied for the MD5 and SHA256 hash type of observable when they are sent to CrowdStrike EDR.**Note:**
+
+SHA1 hash observables aren't sent to CrowdStrike EDR.
 
 </td></tr></tbody>
-</table>7.  Click **Save**.
+</table>7.  Select **Save** to apply the changes.
 
-    The integration details are validated, and by default the CrowdStrike EDR integration's status is disabled.
+    The integration details are validated, and by default the CrowdStrike EDR integration's status is turned off.
 
-8.  Click **Enable** to enable the CrowdStrike EDR integration.
+8.  Select **Enable** to enable the CrowdStrike EDR integration.
 
     **Note:** Multiple configurations are allowed for CrowdStrike Falcon EDR integration.
 
 
 **Parent Topic:**[CrowdStrike Falcon EDR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/crowdstrike-edr-integration.md)
+
+**Related topics**  
+
+
+[Send observables to EDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/send-to-edr.md)
 

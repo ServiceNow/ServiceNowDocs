@@ -58,11 +58,15 @@ You can change any base-system policy by modifying settings or making the policy
 
 7.  In the Policy Rule Actions related list, click the \(empty\) **Name** of the action.
 
-8.  On the Update Action pop-up window, enter an **Action Name** \(the value is required\), notice the value of the **Notification** \(you will use it in the next step\), and then close the pop-up window.
+8.  On the Update Action pop-up window, enter an **Action Name**.
+
+    Note the value of the **Notification** field for use in the next step.
+
+9.  Close the pop-up window.
 
     \[Omitted image "policy-lease-end-action.png"\] Alt text: Sending a notification
 
-9.  Review the notification message other settings:
+10. Review the notification message other settings:
 
     1.  On the instance \(not the Cloud Admin Portal\), navigate to **System Notification** &gt; **Email** &gt; **Notifications**.
 
@@ -94,17 +98,17 @@ You can change any base-system policy by modifying settings or making the policy
 
         Notice that the **Users/Groups in fields** value is set to `Target.Assigned to`, `Target.Owned by`. You should use these settings to send the notification to the owner of the virtual resource.
 
-10. In the Cloud Admin Portal, open the Lease End ServiceNow policy again, and then open the **Stop on lease end** rule.
+11. In the Cloud Admin Portal, open the Lease End ServiceNow policy again, and then open the **Stop on lease end** rule.
 
     \[Omitted image "policy-lease-end-stop-rule.png"\] Alt text: Stop on lease end rule
 
     The rule has two actions — one action to send a notification and the other action to run the Stop operation on the virtual resource.
 
-11. Click the \(empty\) **Action Name** of the action for the Stop operation.
+12. Click the \(empty\) **Action Name** of the action for the Stop operation.
 
     \[Omitted image "policy-lease-end-action-stop.png"\] Alt text: Open the Stop operation action
 
-12. On the Update Action pop-up window, notice the settings:
+13. On the Update Action pop-up window, notice the settings:
 
     \[Omitted image "policy-lease-end-action-operation.png"\] Alt text: Stop operation
 

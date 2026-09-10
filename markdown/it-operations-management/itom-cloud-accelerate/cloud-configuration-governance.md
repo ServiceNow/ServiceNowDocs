@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
 # Cloud Configuration Governance
 
 Use the ServiceNow® Cloud Configuration Governance application to check the configuration settings of cloud resources in your organization against a set of policies to identify violations. After identifying the violation, use remediation workflows to mitigate them.
+
+**Important:** Starting with the Brazil release, Cloud Configuration Governance is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 

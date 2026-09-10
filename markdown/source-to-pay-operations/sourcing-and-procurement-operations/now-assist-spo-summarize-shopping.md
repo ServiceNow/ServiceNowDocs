@@ -84,15 +84,15 @@ Select a purchase order record to view it.
     -   Your next steps: Lists the actions that the shoppers need to take next.
 6.  When you finish summarizing a record, you can add it to the activity, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d147228e235">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d147230e235">
 
 Option
 
-</th><th align="left" id="d147228e238">
+</th><th align="left" id="d147230e238">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d147228e244">
+</th></tr></thead><tbody><tr><td id="d147230e244">
 
 **Expand or collapse the summary**
 
@@ -100,7 +100,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d147228e265">
+</td></tr><tr><td id="d147230e265">
 
 **Provide feedback for the summary**
 
@@ -108,7 +108,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d147228e288">
+</td></tr><tr><td id="d147230e288">
 
 **Copy the record summary**
 
@@ -116,7 +116,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d147228e303">
+</td></tr><tr><td id="d147230e303">
 
 **View the information about the record summary**
 

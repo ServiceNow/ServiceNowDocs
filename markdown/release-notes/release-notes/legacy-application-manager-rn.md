@@ -1,9 +1,9 @@
 ---
 title: Legacy Application Manager release notes
-description: The ServiceNow Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.
+description: The ServiceNow Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.The ServiceNow Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-11-18"
 reading_time_minutes: 1
 ---
@@ -12,9 +12,17 @@ reading_time_minutes: 1
 
 The ServiceNow® Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.
 
-## Deprecated features
+## About Legacy Application Manager
 
-Starting with Yokohama patch 11, Legacy Application Manager is being prepared for future deprecation. It will be hidden but will continue to be supported. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+## Activation and other requirements
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Legacy Application Manager application enables administrators to install and manage applications. This application is currently supported for the Yokohama release, but it will be deprecated in a future release.
+
+### What's deprecated or removed
+
+Starting with Yokohama patch 11, Legacy Application Manager is being prepared for future deprecation. It will be hidden but will continue to be supported. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 

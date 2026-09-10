@@ -35,8 +35,8 @@ When you submit a request through the Virtual Assistant, the AI agent performs t
 -   Validates the intent of the request. For example, if you enter “expedite” in the Virtual Assistant, the AI agent confirms that you’re requesting expedited order delivery for your open orders.
 -   Confirms the order number and your change request.
 -   Calls external ATP API to validate inventory availability and feasibility of the request. For example, the AI agent makes an ATP API call to an external ERP system to check if the ordered item is in stock for early delivery.
--   Creates an order case in the ServiceNow system with requested details. If ATP call fails and the customer request is not feasible to fulfill, the AI agent still creates an order case so that the order case agent can review the request in the CSM Configurable Workspace and provide resolution.
--   Posts the summary of the conversation as a work note in the order case which can only be viewed by the agents from the CSM Configurable Workspace.
+-   Creates an order case in the ServiceNow system with requested details. If ATP call fails and the customer request is not feasible to fulfill, the AI agent still creates an order case so that the order case agent can review the request in the CRM Workspace and provide resolution.
+-   Posts the summary of the conversation as a work note in the order case which can only be viewed by the agents from the CRM Workspace.
 
 ## Procedure
 

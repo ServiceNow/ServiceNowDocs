@@ -9,7 +9,7 @@ classification: cloud-configuration-governance
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Resource order controls for template-based cloud catalog items, Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource order controls for template-based catalog items, Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
 # Set up resource order controls
@@ -106,5 +106,5 @@ Based on the Policy Rule action you configured for the Resource order control po
 
 If you have configured an approval policy, the requester receives a notification stating that the approval request has been sent to a designated approver on exceeding the specified quota. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
 
-**Parent Topic:**[Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
+**Parent Topic:**[Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 

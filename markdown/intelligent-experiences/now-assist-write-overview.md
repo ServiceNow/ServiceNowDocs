@@ -55,7 +55,7 @@ You can configure the Advanced filter to hide or show the Now Assist Context Men
 
     **Note:** The risk explanation that is presented in the dialog box is assessed and calculated on the change request form.
 
-    For more information about risk assessment and calculation, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_RskAsmtCalc.md).
+    For more information about risk assessment and calculation, see .
 
 -   **Content editing using Now Assist content menu**
 

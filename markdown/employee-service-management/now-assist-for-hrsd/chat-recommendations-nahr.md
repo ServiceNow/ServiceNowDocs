@@ -47,15 +47,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d380629e160">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d380700e160">
 
 Chat message window
 
-</th><th align="left" id="d380629e163">
+</th><th align="left" id="d380700e163">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d380629e171">
+</th></tr></thead><tbody><tr><td id="d380700e171">
 
 **Typed response**
 
@@ -67,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d380629e191">
+</td></tr><tr><td id="d380700e191">
 
 **Left blank**
 

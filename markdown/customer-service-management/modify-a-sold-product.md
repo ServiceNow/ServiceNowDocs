@@ -1,6 +1,6 @@
 ---
 title: Modify a sold product and hierarchy
-description: Modify a sold product and its complete hierarchy on the CSM Configurable Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+description: Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/modify-a-sold-product.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your
 
 # Modify a sold product and hierarchy
 
-Modify a sold product and its complete hierarchy on the CSM Configurable Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 
 ## About this task
 

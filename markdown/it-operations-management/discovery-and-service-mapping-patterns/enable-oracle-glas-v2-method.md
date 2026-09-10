@@ -29,9 +29,9 @@ Role required: glas\_admin or admin
 
 1.  In the navigation filter, enter `sys_properties.list`.
 
-2.  In the **Name** column, search for `sn_itom_pattern.enable_large_env_glas_data_collection`.
+2.  In the **Name** column, search for `sn_itom_oracleglas.enable_large_env_glas_data_collection`.
 
-3.  Select the **sn\_itom\_pattern.enable\_large\_env\_glas\_data\_collection** system property.
+3.  Select the **sn\_itom\_oracleglas.enable\_large\_env\_glas\_data\_collection** system property.
 
 4.  In the **Value** field, enter `true`.
 

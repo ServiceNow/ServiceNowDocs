@@ -86,13 +86,14 @@ Select either **Legacy** or **REST v2.1**.**Note:** Ensure that this selection m
     -   Recipient Delivered
     -   Recipient Signed/Completed
     -   Recipient Declined
+    -   Recipient Delegate
     \[Omitted image "ds-trigger-events.png"\] Alt text: Select the required envelope events.
 
-3.  Under **Include Data**, select the **Recipients** option.
+3.  Under **Include Data**, select the **Delegates** and **Recipients** options.
 
     Select other options as per your requirement.
 
-    \[Omitted image "include-data.png"\] Alt text: Select the Recipients option.
+    \[Omitted image "include-data.png"\] Alt text: Select the Recipients and Delegates options.
 
 4.  Select the **Include basic authorization** option in the header and provide your ServiceNow instance credentials.
 

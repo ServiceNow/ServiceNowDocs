@@ -30,7 +30,7 @@ This example uses a script include. If you want to create similar script include
 
 ## About this task
 
-The goal of this example is to take the ID of the catalog requester and populate it in the Stack Name field. The field remains editable. Follow an example like this one when you want to loosely enforce a naming or labeling convention on certain values, but still allow the user to enter the text that they want.
+The goal of this example is to take the ID of the catalog requester and populate it in the Stack Name field. The field remains editable. Use this approach when you want to loosely enforce a naming or labeling convention on certain values while still allowing users to enter their preferred text.
 
 ## Procedure
 

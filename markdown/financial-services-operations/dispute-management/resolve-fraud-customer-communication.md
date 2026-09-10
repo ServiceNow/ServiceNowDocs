@@ -28,7 +28,7 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
@@ -50,15 +50,15 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
     -   When the customer decision is accepted, provide **Customer feedback** and select **Mark complete**. The dispute is marked as **Closed Complete**.
     -   When the customer decision is denied, provide the **Customer feedback**. In the **Action** section, select one of the following.
-<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d54319e204">
+<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d54329e210">
 
 Final action
 
-</th><th align="left" id="d54319e207">
+</th><th align="left" id="d54329e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d54319e213">
+</th></tr></thead><tbody><tr><td id="d54329e219">
 
 **Decline dispute transaction**
 
@@ -69,7 +69,7 @@ Steps
 
 The transaction is marked as**Closed Rejected**.
 
-</td></tr><tr><td id="d54319e242">
+</td></tr><tr><td id="d54329e248">
 
 **Issue credit and write-off**
 
@@ -83,7 +83,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 
 
-</td></tr><tr><td id="d54319e279">
+</td></tr><tr><td id="d54329e285">
 
 **Proceed with dispute**
 

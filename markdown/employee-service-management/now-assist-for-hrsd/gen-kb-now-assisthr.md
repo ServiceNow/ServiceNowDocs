@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d365834e240">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d365905e240">
 
 Option
 
-</th><th align="left" id="d365834e243">
+</th><th align="left" id="d365905e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d365834e249">
+</th></tr></thead><tbody><tr><td id="d365905e249">
 
 **Yes, draft with Now Assist**
 
@@ -76,7 +76,7 @@ Description
 
 Use Now Assist to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d365834e260">
+</td></tr><tr><td id="d365905e260">
 
 **No, write it myself**
 

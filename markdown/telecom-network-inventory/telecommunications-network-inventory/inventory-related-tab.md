@@ -258,7 +258,7 @@ CMDB 360 Data
 
 </td><td>
 
-List of all discovery sources at the CI attribute level. To learn more, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multisource-cmdb.md).
+List of all discovery sources at the CI attribute level. To learn more, see .
 
 </td></tr><tr><td>
 
@@ -290,7 +290,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
+List of all vendor catalogs of this inventory. To learn more, see Vendor Catalog Items.
 
 </td></tr><tr><td>
 

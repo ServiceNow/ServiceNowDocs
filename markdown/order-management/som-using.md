@@ -1,6 +1,6 @@
 ---
 title: Using Sales Customer Relationship Management applications
-description: As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
+description: As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-using.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Sales Customer Relationship Management]
 
 # Using Sales Customer Relationship Management applications
 
-As agents and managers, you use the CSM Configurable Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
+As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
 
 ## Using product catalogs
 

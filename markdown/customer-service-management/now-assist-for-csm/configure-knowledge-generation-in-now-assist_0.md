@@ -21,17 +21,17 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 Ensure that the following is set up before you activate the skill:
 
 1.  Install the Required Plugin- Now Assist for CSM plugin.
-2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CSM Configurable Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
+2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
 
     -   In Core UI, the action is implemented as a UI Action.
-    -   In CSM Configurable Workspace, it is implemented as a Declarative Action.
-    The visibility and behavior of the **Create Knowledge** button in the CSM Configurable Workspace depends on two system properties:
+    -   In CRM Workspace, it is implemented as a Declarative Action.
+    The visibility and behavior of the **Create Knowledge** button in the CRM Workspace depends on two system properties:
 
-    -   sn\_customerservice.enable\_knowledge\_kcs: If this property is true, the button appears in the CSM Configurable Workspace.
+    -   sn\_customerservice.enable\_knowledge\_kcs: If this property is true, the button appears in the CRM Workspace.
     -   sn\_customerservice.kcs.enable\_template\_on\_case\_workspace
         -   If this property is false, the button is a UI Action and clicking it does not open a template selector.
         -   If this property is true, the button is a Declarative Action and clicking it opens a template selector modal.
-    If either property is disabled, the action will not appear in CSM Configurable Workspace—even if it is visible in Core UI.
+    If either property is disabled, the action will not appear in CRM Workspace—even if it is visible in Core UI.
 
 3.  Activate the KCS template.
     1.  Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Article Template**.

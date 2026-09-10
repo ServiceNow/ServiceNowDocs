@@ -52,7 +52,7 @@ Subflow that returns the credentials alias for the mentioned credential.
 Subflow that returns a suitable MID Server based on the specified MID Server selection criteria.
 -   **[CAL - AWS S3 Get ACL subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cal-aws-s3-get-acl.md)**  
 Subflow that retrieves the Access Control List \(ACL\) details for the specified Amazon Web Services \(AWS\) S3 bucket.
--   **[Cloud profiles with minimal permissions for Cloud Action Library actions and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-profiles-with-minimal-permissions-for-cal.md)**  
+-   **[Minimal cloud permission profiles for Cloud Action Library actions and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-profiles-with-minimal-permissions-for-cal.md)**  
 You need appropriate cloud permissions to execute the Cloud Action Library actions and subflows. Edit the cloud permissions profile JSON to suit the needs of your organization.
 
 **Parent Topic:**[Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-actions-library-landing-page.md)

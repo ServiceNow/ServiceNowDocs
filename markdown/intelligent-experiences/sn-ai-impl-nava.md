@@ -50,7 +50,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up Now Assist in Virtual Agent, you configure an assistant.
 
-    See: [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)
+    See: 
 
 -   **2. Review your Virtual Agent topic inventory**
 
@@ -76,7 +76,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? Leverage existing Virtual Agent topics with minimal effort.
 
-    See: [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/llm-topic-migration.md)
+    See: 
 
 -   **5. Review Service Catalog items**
 
@@ -92,7 +92,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? New LLM versions of older NLU Virtual Agent topics reduce rework.
 
-    See: [ITSM Virtual Agent pre-built LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-va-prebuilt-topics.md)
+    See: 
 
 
 ## Tips
@@ -100,14 +100,14 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 -   When migrating legacy NLU topics, ensure that you optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 -   You can customize the look of your assistant and the chat experience during guided setup.
 
-    For details, see [Brand an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/brand-assistant.md).
+    For details, see .
 
 -   You can choose the chat experience you want for each assistant:
-    -   [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-standard-chat.md)
-    -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-enhanced-chat.md)
+    -   
+    -   
 -   You can integrate Now Assist in Virtual Agent with Microsoft Teams.
 
-    For details, see [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/integrating-now-assist-va-msteams.md).
+    For details, see .
 
 
 For more information about conversational catalogs in AI, see the following information from ServiceNow Community and YouTube:

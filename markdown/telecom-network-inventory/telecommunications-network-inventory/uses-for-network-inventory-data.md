@@ -209,5 +209,5 @@ Represent power, HVAC, network, and their connectivity in a data center.To learn
 **Related topics**  
 
 
-[Network Inventory \(NI\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-network-inventory.md)
+[bundle-platcap.cmdb-ci-class-models-network-inventory]
 

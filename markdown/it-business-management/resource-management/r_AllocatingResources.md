@@ -8,7 +8,7 @@ product: Resource Management
 classification: resource-management
 topic_type: reference
 last_updated: "2025-01-30"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ Based on calendar and schedule information, resource managers view resource avai
 
 ## Soft and hard allocations
 
-When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and do not create any calendar events.
+When a resource plan moves to the Confirmed state, resource allocations corresponding to [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/request-allocation.md) are created automatically. The **Booking type** for these allocations is **Soft**. Soft allocations are like temporary allocations for the requested users and don't create any calendar events.
 
 When the plan is moved to the Allocated state, the **Booking type** changes from **Soft** to **Hard**. For a hard booking, the resource is assigned to the plan and is not available for other plans during the allocated times. The booked time also appears on the user calendar. If the requested resource cannot be allocated for the entire allocation duration, the allocation record booking type remains as soft.
 
@@ -99,7 +99,7 @@ Any errors or warnings during allocations are logged in the Resource Plan Logs r
 
 You can control the minimum unit for an event by modifying the Calendar Event Duration \(minutes\) \(**com.snc.resource\_management.allocation\_interval\_minutes property**\). The default is 60 minutes.
 
-Resource allocations use this property to create allocations with a decimal value.  Use the following table to ensure you set the property value correctly.
+Resource allocations use this property to create allocations with a decimal value.  Use the following table to verify you set the property value correctly.
 
 |Scheduled hours of the user|Calendar Event Duration value|
 |---------------------------|-----------------------------|
@@ -125,24 +125,33 @@ Resource allocations use this property to create allocations with a decimal valu
     |30 mins+30 mins|30 mins+30 mins|30 mins+30 mins|30 mins|30 mins|
 
 
-**Note:** If the scheduled  hours are not divisible by  the Calendar Event Duration property, then there will be  a  loss  of few hours for each day.  For example, the per day scheduled  hours  per day are  8.5  and the property value is set to 60. Then, the  maximum  allocated  hours  for  each  day  will  be  8, resulting  in  a  loss  of  0.5  hours  per  day.
+**Note:** If the scheduled  hours aren't divisible by  the Calendar Event Duration property, then there will be  a  loss  of few hours for each day.  For example, the per day scheduled  hours  per day are  8.5  and the property value is set to 60. Then, the  maximum  allocated  hours  for  each  day  will  be  8,  resulting  in  a  loss  of  0.5  hours  per  day.
+
+This property also determines the total effort used for a group resource assignment that uses the **Hours** effort type. The requested effort is rounded down to the nearest multiple of the property value, and the result is then distributed among the members of the group.
+
+Effort is distributed in whole hours. Each member receives the same base number of hours. Any remaining hours are distributed one hour at a time until all hours are assigned. As a result, some members can receive one hour more than others. A member can receive zero hours when the total effort is less than the number of members.
+
+-   **Example: 2 hours requested for a group of three members**
+
+    Two members are each assigned 1 hour and the third member is assigned 0 hours. The total effort on the group resource assignment remains 2 hours.
+
+    Before this distribution method was introduced, each member was assigned 0.66 hours. Because 0.66 hours is less than the default Calendar Event Duration value of 60 minutes, no daily allocation records were created. No hours were rolled up to the allocation or the assignment.
+
+
+Effort for the **FTE** and **Person days** effort types is divided equally among the members, including fractional values.
 
 ## Time-off handling
 
-Resource events from a resource plan are not created for the days where the resource has marked time-off or engaged in other events \(such as training and meetings\). An administrator can manage the resource capacity and allocation with the property, **com.snc.resource\_management.exclude\_events\_from\_schedule**, to specify:
+Resource events from a resource plan aren't created for the days where the resource has marked time-off or engaged in other events \(such as training and meetings\). An administrator can manage the resource capacity and allocation with the property, **com.snc.resource\_management.exclude\_events\_from\_schedule**, to specify:
 
 -   Which events must be excluded for capacity calculations. For example, if a resource has time-off between Monday and Wednesday, the weekly capacity for the resource is calculated as 16 hours \(as opposed to 40 hours\).
 -   When the system must not create allocations. For example, if a resource is in training on Friday, the resource is not allocated for a task on Friday.
 
 ## Over-allocation
 
-Over-allocated resources are allowed. Over-allocating resources creates overlapping events in the user calendar within the user's scheduled hours. However, a maximum of 24 total hours can be allocated in any given day. Overlapping events appear overlapped in the calendar in the weekly view. In the monthly view, overlapping events appear above or below another event.
+Over-allocated resources are allowed. Over-allocating resources creates overlapping events in the user calendar within the user's scheduled hours. However, a maximum of 24 total hours can be allocated in any given day. Overlapping events appear overlapped in the calendar in the weekly view. In the monthly view, overlapping events appear before or following another event.
 
 For example, a user has a schedule that specifies the daily work day from 08:00 to 17:00. Event 1 is in the user's calendar from 08:00 to 14:00. If an additional five hours are added for the same day for Event 2, an event is created for the three hours of free time \(14:00 to 17:00\). An overlapping event is also created for the remaining two hours, starting at the beginning of the day \(08:00 to 10:00\).
-
-\[Omitted image "overlapping\_event\_monthly.png"\] Alt text: The overlapping event from the monthly view
-
-\[Omitted image "overlapping\_event\_weekly.png"\] Alt text: The overlapping event from the weekly view
 
 -   **[Create a resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-resource-role.md)**  
 Define project-specific roles for team members based on their skills and competencies.

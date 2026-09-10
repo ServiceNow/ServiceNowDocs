@@ -1,20 +1,20 @@
 ---
 title: View STIX HTTPs Feeds
-description: View the configured STIX HTTPs feeds in the base system.
+description: View and manage STIX threat intelligence feeds that provide security data to your ServiceNow instance. Use this to monitor feed status and troubleshoot connection issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/view-oob-stix-https-feeds.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View STIX HTTPs Feeds
 
-View the configured STIX HTTPs feeds in the base system.
+View and manage STIX threat intelligence feeds that provide security data to your ServiceNow instance. Use this to monitor feed status and troubleshoot connection issues.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select **Integrations** icon.
 
 3.  Select **STIX HTTPs**.
 
@@ -36,7 +36,9 @@ Role required: sn\_sec\_tisc.admin
     |MITRE - ICS ATT&amp;CK|This data collection holds STIX objects from ICS ATT&amp;CK.|[https://raw.githubusercontent.com/mitre/cti/master/ics-attack/ics-attack.json](https://raw.githubusercontent.com/mitre/cti/master/ics-attack/ics-attack.json)|
     |MITRE - Enterprise ATT&amp;CK|This data collection holds STIX objects from Enterprise ATT&amp;CK.|[https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json](https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json)|
 
-4.  Click **Edit** to edit the feed and make necessary updates.
+4.  Select **Edit** to edit the feed and make necessary updates.
+
+5.  Select **Save** to apply the changes.
 
 
 **Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)

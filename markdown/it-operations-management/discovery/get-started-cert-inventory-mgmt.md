@@ -24,7 +24,7 @@ Role required: admin
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-**Note:** The ServiceNow Store regularly releases new applications and updates to applications that are created by ServiceNow. If you already have the application, you can download the latest version to enhance your existing experience with our products. Since different features are available or enhanced each time an application is released in the Store, the content and features available in a particular release are indicated by version number in this document.
+**Note:** The ServiceNow Store regularly releases new applications and updates to applications that are created by ServiceNow. If you already have the application, you can download the latest version to enhance your existing experience with our products. Different features are available or enhanced each time an application is released in the Store. Version numbers in this document indicate the content and features available in a particular release.
 
 ## Procedure
 

@@ -43,9 +43,9 @@ In this release, Fix Intelligence for SEM identifies fixes for host vulnerabilit
 
     A rollup calculator scores each fix from the active findings that share it, and maintains a findings count and a distinct-assets count so you can size the impact of applying the fix.
 
--   **Automated exchange with Armis™ Centrix™ for ViPR**
+-   **Automated exchange with Armis Centrix™ for ViPR**
 
-    USEM exports detection data to Armis™ Centrix™ for ViPR and retrieves the identified fixes on a schedule, keeping the catalog current without manual imports.
+    USEM exports detection data to Armis Centrix™ for ViPR and retrieves the identified fixes on a schedule, keeping the catalog current without manual imports.
 
 -   **Workspace and dashboard visibility**
 
@@ -64,7 +64,7 @@ In this release, Fix Intelligence for SEM identifies fixes for host vulnerabilit
 
 -   **Remediate by fix, not by finding**: One fix can clear many findings across many assets, reducing repetitive work.
 -   **Prioritize by risk removed**: The per-fix risk rollup surfaces the fixes that reduce the most exposure.
--   **Stay current automatically**: Scheduled exchanges keep the fix catalog aligned with Armis™ Centrix™ for ViPR.
+-   **Stay current automatically**: Scheduled exchanges keep the fix catalog aligned with Armis Centrix™ for ViPR.
 
 ## What next
 

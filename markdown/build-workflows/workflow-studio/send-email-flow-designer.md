@@ -20,6 +20,10 @@ Send an email to specified users or groups as an action in a flow.
 
 Available as a Workflow Studio ServiceNow core action. Users with the flow\_designer or admin role can add an action to a flow and define configuration details.
 
+**Note:**
+
+Send Email requires the flow to run as a user with an active email address. System User doesn't have email configured by default, so your flow will fail if you use that account. Switch to a user with valid email and your flow is ready to send emails.
+
 ## Inputs
 
 Provide a value for each input that your flow needs. To add dynamic values, you can also drag and drop pills from the Data panel or select them from the pill picker.

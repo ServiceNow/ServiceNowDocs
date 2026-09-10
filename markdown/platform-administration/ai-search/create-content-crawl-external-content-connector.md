@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-02-05"
+last_updated: "2026-08-11"
 reading_time_minutes: 5
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,13 +27,13 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 Search administrators can retrieve searchable content and metadata from an external content connector's source system by creating a content crawl for the connector. Search administrators can specify the crawl's scope: a full content crawl retrieves searchable content and metadata from all available locations \(called start points\) in your source system, while a partial content crawl only retrieves content and metadata from a single specified start point and its descendants. A content crawl may take hours or days to complete, depending on the amount of content available in your source system and the scope of the crawl.
 
-**Note:** Both full and partial content crawls honor the crawl settings defined for your external content connector, including any inclusion/exclusion content filters. Running a full content crawl does not bypass these settings.
+**Note:** Both full and partial content crawls honor the crawl settings defined for your external content connector, including any inclusion/exclusion content filters. Running a full content crawl doesn't bypass these settings.
 
 Some external content connectors include an **Update user permissions** content crawl option. When you select this option, running the crawl launches both a content crawl and a user permission crawl for your source system. For more details on user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-user-mapping-crawl-external-content-connector.md).
 
 You can run a content crawl as a one-time task or set it to recur on a scheduled basis.
 
-**Note:** Beginning with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
+**Note:** Starting with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
 
 ## Procedure
 

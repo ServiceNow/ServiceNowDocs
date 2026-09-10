@@ -32,11 +32,11 @@ Role required:
 
 2.  To activate a matrix, point to **Active**, double-click, and select **true**.
 
-3.  To view all the associated information, click a matrix.
+3.  To view all the associated information, select a matrix.
 
-4.  To view all the tactics that are associated with this collection, click the **MITRE Tactics** tab.
+4.  To view all the tactics that are associated with this collection, select the **MITRE Tactics** tab.
 
-5.  To view additional details and the techniques that are associated with a selected tactic, click a tactic.
+5.  To view additional details and the techniques that are associated with a selected tactic, select a tactic.
 
 6.  Under the **MITRE ATT&amp;CK Techniques** tab, select a technique.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-10.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 52
 breadcrumb: [Available patches and hotfixes, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -38,11 +38,11 @@ Yokohama Patch 10 includes fixes for security-related problems that affected cer
 
 ## Changes in Yokohama Patch 10
 
--   ****
+-   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sensitive-data-filters.md)**
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
--   ****
+-   **[Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/federated-id.md)**
 
     By using the `roles` of the user across the instances, the Federated ID is created and displayed in the **sys\_user\_role** table.
 
@@ -149,11 +149,11 @@ Yokohama Patch 10 includes fixes for security-related problems that affected cer
 
     Learn about the fields of the Data filter form. Use this form to define which records need certification.
 
--   ****
+-   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sensitive-data-filters.md)**
 
     The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
--   ****
+-   **[Exploring Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/federated-id.md)**
 
     \[/ul/li/p/ph/title \{"- topic/title "\}\)Federated ID for Roles\(title\]    By using the `roles` of the user across the instances, the Federated ID is created and displayed in the **sys\_user\_role** table.
     

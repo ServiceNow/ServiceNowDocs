@@ -58,6 +58,10 @@ Data Stream actions follow a set structure. Follow prompts to add and remove ste
 
 Use [error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/action-error-evaluation.md) to catch step errors and specify the error behavior of each step you add to a data stream action. You can also create your own error conditions by specifying when an action returns an error state as well as the status codes and messages they return.
 
+## Retry policies
+
+Use the **Fixed Interval** retry strategy for Data Stream actions. With a fixed interval strategy, a retry attempt is made after a specified time interval. For Data Stream actions, the maximum time interval is 30 seconds. The retry strategies **Exponential Backoff** and **Honor “Retry-After” Header** aren't supported. For details on retry policies, see [Retry policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/retry-policy.md).
+
 ## Action Preprocessing
 
 Use the Action Preprocessing category to retrieve connection and credential details or to run a preprocessing script.

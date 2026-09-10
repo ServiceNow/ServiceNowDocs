@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/install-build-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
 ---

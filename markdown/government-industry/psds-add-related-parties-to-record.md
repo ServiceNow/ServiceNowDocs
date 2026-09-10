@@ -20,7 +20,7 @@ Role required: admin, sn\_gsm.constituent, sn\_gsm.constituent\_agent, sn\_gsm.b
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
+1.  Navigate to the CRM Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
 
 2.  Navigate to **Item Received** &gt; **All**.
 

@@ -45,7 +45,7 @@ Role required: ham\_admin
 
 1.  On the CMDB success advisor landing page, select **Select model categories** within the HAM card.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md).
 
 2.  If the dialog box displays **No model categories available**, select **Opt in categories**.
 
@@ -72,7 +72,7 @@ Role required: ham\_admin
 
 1.  On the CMDB success advisor landing page, select **Edit dashboard scope** within the HAM card.
 
-    See [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md).
+    For more information about the CMDB success advisor landing page, see [Viewing the CMDB success advisor landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-landing-page.md). For information about other ways to access CMDB success advisor, see [Access CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sa-access.md).
 
 2.  In the **Available resource and model categories** column, locate the opted-out resource category and clear its check box.
 

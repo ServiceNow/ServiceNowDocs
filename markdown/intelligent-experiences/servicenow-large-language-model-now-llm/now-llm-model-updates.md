@@ -1,49 +1,29 @@
 ---
-title: Now LLM Service updates
-description: The Now LLM Service provides access to specialized large language models \(LLMs\) that are developed by ServiceNow. It also provides access to open-source LLMs that are selected, configured, or enhanced by ServiceNow, from the ServiceNow community and partners. Review these reference materials and model cards for additional information about the Now LLM Service and about the models used.
+title: Model provider updates
+description: Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.html
 release: yokohama
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-05-27"
-reading_time_minutes: 6
+last_updated: "2026-09-02"
+reading_time_minutes: 8
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
 breadcrumb: [Enable AI experiences]
 ---
 
-# Now LLM Service updates
+# Model provider updates
 
-The Now LLM Service provides access to specialized large language models \(LLMs\) that are developed by ServiceNow. It also provides access to open-source LLMs that are selected, configured, or enhanced by ServiceNow, from the ServiceNow community and partners. Review these reference materials and model cards for additional information about the Now LLM Service and about the models used.
+Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
 
 ## Model cards
 
-Large language models \(LLMs\) are complex machine-learning models that are trained on large datasets like websites and documentation to perform language-related tasks, such as text generation for case summaries and resolution notes.
+Large language models \(LLMs\) are complex machine-learning models that are trained on large datasets like websites and documentation to perform language-related tasks. Examples include text generation for case summaries and resolution notes.
 
 Model cards explain the specific model's context, intended use, training data, limitations, and other important information.
 
 These model cards are for skills that use the Now LLM Service. There are certain skills, such as Now Assist Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
-
--   **[Model card for ServiceNow text-to-text LLM](https://downloads.docs.servicenow.com/resource/enus/infocard/text-to-text-llm.pdf)**
-
-    Model used for conversational use cases like Virtual Agent topic execution and conversational catalog and agent assist use cases like alert analysis, AI search, and incident, case, and chat summarization.
-
--   **[Model card for ServiceNow text-to-code LLM](https://downloads.docs.servicenow.com/resource/enus/infocard/text-to-code-llm.pdf)**
-
-    Model used for code generation.
-
--   **[Model card for ServiceNow flow next-best-action LLM](https://downloads.docs.servicenow.com/resource/enus/infocard/flow-best-action-llm.pdf)**
-
-    Model used for flow recommendations.
-
--   **[Model card for ServiceNow text-to-flow LLM](https://downloads.docs.servicenow.com/resource/enus/infocard/text2flow-llm.pdf)**
-
-    Model used for flow generation.
-
--   **[Model card for ServiceNow text-to-text SLM](https://downloads.docs.servicenow.com/resource/enus/infocard/text-to-text-slm.pdf)**
-
-    Model used for Now Assist Guardian, text-to-cypher and other use cases that demand rapid inference and high throughput.
 
 -   **[Model card for ServiceNow large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm.pdf)**
 
@@ -51,42 +31,78 @@ These model cards are for skills that use the Now LLM Service. There are certain
 
     This model card is available in Yokohama patch 1 and later.
 
+-   **[Model card for ServiceNow large language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm-v2.pdf)**
+
+    Model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
+
+    This model is for Generative AI Controller application 11.2 or higher.
+
 -   **[Model card for ServiceNow small language model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm.pdf)**
 
     Model used for enterprise AI applications by enhancing text-based automation and content generation within ServiceNow workflows.
 
     This model card is available in Yokohama patch 1 and later.
 
+-   **[Model card for ServiceNow small language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm-v2.pdf)**
+
+    Model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including creator and fulfiller OOTB skills as well as custom skills.
+
+    This model is for Generative AI Controller application 11.2 or higher.
+
 -   **[Model card for ServiceNow third party large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/third-party-llm.pdf)**
 
     Model used for AI-driven solutions for text generation, summarization, and conversational AI.
 
-    This model card is available in Yokohama patch 1 and later.
+-   **[Model card for ServiceNow Voice AI Speech-to-Text and Text-to-Speech models](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-voice.pdf)**
+
+    Models used within ServiceNow AI Voice Agents for converting spoken user input to text and generating natural-sounding speech from AI responses.
+
+-   **[Model card for ServiceNow AI Guardian model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-na-guardian.pdf)**
+
+    This model provides content moderation and helps identify different kinds of prompt injection attacks and offensive content.
+
+-   **[Model card for ServiceNow Inferred CSAT and Factors large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/csat-llm.pdf)**
+
+    This model is designed to ingest a conversation and predict a CSAT score as well as factors that explain the predicted score.
+
+
+## September 2026
+
+The September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.
+
+This release doesn't add any general purpose models. The models that you can select in the AI Admin Hub console are unchanged.
+
+-   Claude Sonnet 5 and Claude Fable 5 support the Build Agent.
+
+-   Restricted replaces limited: The card now uses **Restricted** instead of **Limited** to identify models that you can't configure. Claude Opus 4.6 and Gemini 2.5 Flash Lite use the new term. Their supported features haven't changed.
 
 
 ## July 2026
 
-The July release introduces three new third-party model offerings and shifts the platform default away from Now LLM. Teams must update their generative AI configuration records to reflect these changes.
+The Now LLM Service model strategy has moved toward integrated model provider flexibility. Store application updates have started shipping, and the default model for base system skills and agents is changing from the Now LLM Service to an integrated third-party model provider. If you haven't changed the default model for a skill, that skill uptakes the new default.
 
--   New model offerings: The following models are introduced and supported in the July release.
+-   Integrated third-party model providers: The integrated third-party model providers are Google Gemini, AWS Claude, and Azure OpenAI.
 
-    -   Google Gemini 3.5 Flash, which replaces Gemini 2.5 Flash
-    -   OpenAI GPT 5.1
-    -   OpenAI GPT 5.4 Mini
--   Third-party provider required as default: As of the July release, Now LLM must not be the default model for skills or agents. Teams should select an optimal small third-party model as their default. The Generative AI Controller version required to route to the new July models will be announced separately.
+-   New general purpose models: You can select these models for your skills and agents in the AI Admin Hub console. Model availability varies by your instance, your configuration, and your geographic region.
 
--   Large model exception: Teams that require a large model must request an exception and demonstrate that no small model is a viable option. The exception process is expected to follow the prior process format, with an updated form and test reference materials. Final details are pending PM approval.
+    -   Azure OpenAI: GPT-5.1, GPT-5.4 Mini, and GPT-5.1 Mini
+    -   Google Gemini: Gemini 3.5 Flash
+-   The Now LLM Service is still supported: The change to the default model provider doesn't remove access to the Now LLM Service. You can still select it for your skills and agents if you require a ServiceNow hosted model.
 
--   Explicit model names required: Generic model references such as `cloud_small` and `cloud_large` are no longer supported. Teams must update prompt configuration records and generative AI config records to use explicit model names.
+-   Existing selections preserved: If you have already selected a model provider, that configuration is preserved. The update doesn't overwrite an explicit selection.
+
+-   Changing your model provider: To select a model provider other than the default, review the providers that are allowed for your instance in AI Control Tower. Navigate to **Configurations** &gt; **Controls** &gt; **AI model providers**, and then make your changes in the ServiceNow Otto Admin Center by navigating to **Settings** &gt; **Manage AI Models** &gt; **Manage Model Providers**.
+
+-   Explicit model names required: Generic model references such as `cloud_small` and `cloud_large` are no longer supported as of December 2026, when the Now LLM Service transitions to integrated third-party model providers.
 
 
 ## June 2026
 
-The June release includes updates to third-party model defaults, a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
+The June release includes updates to third-party model defaults. It also contains a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
 
 -   Third-party default model version update: Teams that did not update their third-party default model versions to the latest available versions in the May release must do so in the June release. GAIC 13.1.2 is the required version for this update.
 
--   GPT-5 Mini — `reasoning_effort` default change: The default `reasoning_effort` setting for GPT-5 Mini has changed from `none` to `minimal`. This change is included in GAIC Snapshot 14.0.0, which is compatible with Now Assist for Platform 12.0.0.
+-   GPT-5 Mini: `reasoning_effort` default change: The default `reasoning_effort` setting for GPT-5 Mini has changed from `none` to `minimal`. This change is included in GAIC Snapshot 14.0.0, which is compatible with Now Assist for Platform 12.0.0.
 
     Teams using GPT-5 Mini should run regression and functional testing to confirm that the new default works as expected. If you explicitly set `reasoning_effort` in your generative AI config additional properties, smoke test to verify there are no unexpected effects. If you have `reasoning_effort: none` set in additional properties, update the value to `minimal` and run regression and functional testing.
 
@@ -104,7 +120,7 @@ An advanced 12B general-purpose small language model \(SLM\) with a singular, hi
 Key Enhancements:
 
 -   Enhanced instruction adherence: Improved the model’s capability to accurately interpret and follow user instructions, ensuring that the model can better understand and execute complex commands. Leading to more precise and reliable outcomes than previous releases.
--   Increased context window: increased context window from 16K to 32K, enabling the model to better understand long-form inputs, maintain coherence over extended interactions, and support more complex tasks with richer contextual awareness.
+-   Increased context window: Increased context window from 16K to 32K, enabling the model to better understand long-form inputs. This increase maintains coherence over extended interactions, and supports more complex tasks with richer contextual awareness.
 -   Improved multilingual proficiency: Boosted performance across languages compared to previous releases, with notable enhancements in Japanese processing.
 -   Optimized for ServiceNow workflow related capabilities: Extended support coverage for Text-to-Flow, and improved the performance of Text-to-Code, Text-to-Cypher etc.
 -   Continuously enhanced model deployment consolidation: Integrates ServiceNow-related tasks into a single model, reducing system complexity at the same time while elevating overall performance.

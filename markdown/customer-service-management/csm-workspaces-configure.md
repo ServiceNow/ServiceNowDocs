@@ -1,6 +1,6 @@
 ---
-title: CSM Configurable Workspace
-description: CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+title: CRM Workspace
+description: CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspaces-configure.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# CSM Configurable Workspace
+# CRM Workspace
 
-CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
 The [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) is built to improve agent efficiency and facilitate resolutions. From a single view, agents can:
 
@@ -27,7 +27,7 @@ A [workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokoha
 
 A workspace also includes features that enable a user to be more efficient, including a multi-tab interface for managing multiple cases and a contextual display that provides quick orientation to the current task. For more information about the key features that make up a workspace, see [Exploring Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/learn-about-agent-workspace.md).
 
-Workspaces use pages and page variants to display table and record information. Some pages are provided with the CSM Configurable Workspace application. For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md).
+Workspaces use pages and page variants to display table and record information. Some pages are provided with the CRM Workspace application. For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md).
 
 You can also create pages, either from a template or from scratch, or you can duplicate and customize an existing page variant. You can create and customize pages and variants using [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md), a web user interface builder. For more information, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-create-page-variant.md).
 
@@ -53,11 +53,11 @@ The following tutorials describe the different parts of a workspace and give you
 
 ## Application information
 
-The CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
-Starting with the Yokohama release, CSM Configurable Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
+Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
 
-The CSM Configurable Workspace application is available from the ServiceNow Store.
+The CRM Workspace application is available from the ServiceNow Store.
 
 ## Request apps on the Store
 

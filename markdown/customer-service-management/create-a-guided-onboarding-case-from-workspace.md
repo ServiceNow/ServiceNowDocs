@@ -1,6 +1,6 @@
 ---
-title: Creating a guided onboarding case from CSM Configurable Workspace
-description: An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CSM Configurable Workspace.
+title: Creating a guided onboarding case from CRM Workspace
+description: An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.html
 release: yokohama
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Using Playbooks for Portals, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
-# Creating a guided onboarding case from CSM Configurable Workspace
+# Creating a guided onboarding case from CRM Workspace
 
-An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CSM Configurable Workspace.
+An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CRM Workspace.
 
 ## Overview
 

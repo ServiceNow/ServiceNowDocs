@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-An agent can compose messages from an interaction of type other than Message in the CSM Configurable Workspace. By default, the AgentMessagingInteractionUserDocument script include is available for retrieving user profiles associated with consumers and customer contacts in an interaction record.
+An agent can compose messages from an interaction of type other than Message in the CRM Workspace. By default, the AgentMessagingInteractionUserDocument script include is available for retrieving user profiles associated with consumers and customer contacts in an interaction record.
 
 By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md).
 

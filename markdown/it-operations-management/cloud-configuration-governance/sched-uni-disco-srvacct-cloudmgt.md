@@ -42,7 +42,9 @@ Role required: sn\_cmp.cloud\_admin
 
     **Note:** To create a service account, select **Add Account** and then fill in the form. For details, see the process of setting up a service account in the Day 1 setup guide.
 
-5.  On the Select Datacenters page, specify which of the datacenters in the service account to discover by moving the datacenters to discover into the **Selected** list or by selecting **Discover all datacenters listed below** to move all datacenters to the **Selected** list.
+5.  On the Select Datacenters page, specify which datacenters to discover.
+
+    Move datacenters into the **Selected** list, or select **Discover all datacenters listed below**.
 
 6.  Click **Next**.
 

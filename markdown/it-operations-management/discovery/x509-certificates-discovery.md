@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Certificate Inventory and Management patterns, Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Data collected by Discovery during horizontal discovery
 
-The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support the discovery of the following table and fields.
+The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following table and fields.
 
 <table id="table_w2j_l53_2nb"><thead><tr><th>
 

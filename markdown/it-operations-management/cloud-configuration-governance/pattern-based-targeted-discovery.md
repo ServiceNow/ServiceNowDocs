@@ -16,7 +16,7 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 
 Automatically discover the newly provisioned cloud resources and store their information in the ServiceNow® ServiceNow® Configuration Management Database \(CMDB\) by using pattern-based targeted discovery.
 
-After the cloud provisions the resources mentioned in the resource template, such as Azure Resource Manager \(ARM\) or CloudFormation Template \(CFT\), it sends a response to the Cloud Provisioning and Governance application. The response contains information about the provisioned resources. Cloud Provisioning and Governance uses this information to launch a discovery—called targeted discovery—to discover only the newly provisioned or modified resources and update their attributes in the appropriate CMDB CI class.
+After the cloud provisions the resources mentioned in the resource template, such as Azure Resource Manager \(ARM\) or CloudFormation Template \(CFT\), it sends a response to the Cloud Provisioning and Governance application. The response contains information about the provisioned resources. Cloud Provisioning and Governance uses this information to launch targeted discovery to discover only the newly provisioned or modified resources and update their attributes in the appropriate CMDB CI class.
 
 The pattern-based targeted discovery offers an easier alternative to the existing CAPI-based approach. Cloud Provisioning and Governance uses single-resource-discovery patterns to discover only the newly provisioned or modified resources. Contrary to the other patterns, the single-resource-discovery pattern doesn’t scan the entire cloud landscape for changes. It only discovers the newly provisioned or modified resource of a given type.
 

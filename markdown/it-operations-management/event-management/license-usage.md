@@ -1,6 +1,6 @@
 ---
 title: View Event Management license usage
-description: Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts that are not bound to CIs, the system calculates the number of nodes \(servers\) that can send events to the instance directly or through a third-party monitoring tool during the last year.
+description: Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts not bound to CIs, the system calculates the number of nodes that can send events during the last year.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/license-usage.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Ope
 
 # View Event Management license usage
 
-Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts that are not bound to CIs, the system calculates the number of nodes \(servers\) that can send events to the instance directly or through a third-party monitoring tool during the last year.
+Event Management is licensed based on the number of CIs bound to alerts during the last year. For alerts not bound to CIs, the system calculates the number of nodes that can send events during the last year.
 
 ## Before you begin
 
@@ -30,15 +30,15 @@ The **Event Management - Node Count Store** job calculates the number of unique 
 
     The table is filled automatically based on the alerts in the system. The user has no permission to edit the table. It is used to calculate the usage of the Event Management licensing.
 
-<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d584023e110">
+<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d585576e110">
 
 Column
 
-</th><th align="left" id="d584023e113">
+</th><th align="left" id="d585576e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d584023e119">
+</th></tr></thead><tbody><tr><td id="d585576e119">
 
 **CMDB CI**
 
@@ -46,7 +46,7 @@ Description
 
 The CI that is bound to the alert that is generated from the event. If there is a value for this field, the **Node** field is empty.
 
-</td></tr><tr><td id="d584023e131">
+</td></tr><tr><td id="d585576e131">
 
 **Node**
 
@@ -54,7 +54,7 @@ The CI that is bound to the alert that is generated from the event. If there is 
 
 The string value of the **Node** field of the event. If there is a value for this field, the **CMDB CI** field is empty.
 
-</td></tr><tr><td id="d584023e146">
+</td></tr><tr><td id="d585576e146">
 
 **Type**
 
@@ -65,7 +65,7 @@ One of these values:-   Unknown - A CI has not bound to the generated alert.
 -   PaaS - The source of the event was Platform as a Service.
 
 
-</td></tr><tr><td id="d584023e167">
+</td></tr><tr><td id="d585576e167">
 
 **Is licensable**
 

@@ -1,6 +1,6 @@
 ---
 title: Cohesity storage system discovery
-description: The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.html
 release: yokohama
@@ -14,7 +14,7 @@ breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visib
 
 # Cohesity storage system discovery
 
-The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The Discovery and Service Mapping Patterns application uses the Cohesity Storage System pattern to find clusters, nodes, and chassis for the Cohesity DataPlatform. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 Cohesity develops software that are used to consolidate and simplify data management, and it includes analytics capabilities. Their software also solves the problem of mass data fragmentation with data that extends across multiple systems or cloud providers.
 

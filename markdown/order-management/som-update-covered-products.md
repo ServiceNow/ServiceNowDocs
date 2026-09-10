@@ -24,7 +24,7 @@ Order agents can add covered products like entitlements or contracts to an order
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Customer orders** &gt; **All** and select the order that you’re working with.
 
@@ -40,15 +40,15 @@ Order agents can add covered products like entitlements or contracts to an order
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d58631e136">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d58660e136">
 
 Covered product type
 
-</th><th align="left" id="d58631e139">
+</th><th align="left" id="d58660e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58631e145">
+</th></tr></thead><tbody><tr><td id="d58660e145">
 
 **Covered sold product**
 
@@ -56,7 +56,7 @@ Description
 
 Add a sold product to an entitlement/contract type of order line to establish a coverage relationship between them.
 
-</td></tr><tr><td id="d58631e157">
+</td></tr><tr><td id="d58660e157">
 
 **Covered order line item**
 
@@ -64,7 +64,7 @@ Add a sold product to an entitlement/contract type of order line to establish a 
 
 Add a covered order line item to the order line.
 
-</td></tr><tr><td id="d58631e166">
+</td></tr><tr><td id="d58660e166">
 
 **Covered install base item**
 

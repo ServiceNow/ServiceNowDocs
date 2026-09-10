@@ -1,20 +1,20 @@
 ---
 title: Configure custom MISP API feed
-description: The MISP API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
+description: The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-premium-misp.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2025-09-23"
-reading_time_minutes: 2
-breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+last_updated: "2026-03-05"
+reading_time_minutes: 3
+breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure custom MISP API feed
 
-The MISP API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
+The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 
 ## Before you begin
 
@@ -26,15 +26,15 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Select **Custom**.
 
-    **Note:** By default, the MISP feed is disabled, you must edit the configurations to enable the feed.
+    **Note:** By default, the MISP feed is inactive. You must edit the configuration to enable the feed.
 
-    \[Omitted image "tisc-misp-premium-feed.png"\] Alt text: Premium feed - MISP.
+    \[Omitted image "tisc-misp-premium-feed.png"\] Alt text: Integrations page showing enabled MISP Feed and inactive CrowdStrike Feed configurations.
 
-3.  Select the **Edit** button on the **MISP Feed** page.
+3.  Select the **Edit** button on the **MISP Feed** card.
 
-4.  Drill down to the **Configuration** section.
+4.  Navigate to the **Configuration Details** section.
 
-5.  Update the **MISP server Base URL** field.
+5.  Update the **REST endpoint URL** field.
 
 6.  Add the required authentication details for the MISP server \(if any\).
 
@@ -46,13 +46,13 @@ Role required: sn\_sec\_tisc.admin
 
 8.  Select **Edit Settings**.
 
-    \[Omitted image "tisc-misp-additional-settings-edit.png"\] Alt text: MISP edit additional settings.
+    \[Omitted image "tisc-misp-additional-settings-edit.png"\] Alt text: Edit Additional Settings dialog showing filters on events configuration options.
 
 9.  Select the required filters.
 
     **Note:** All the filters configured will be applied in conjunction while ingesting the events.
 
-    The following section provides a detailed explanation of each available option. Review each option in the following table to understand how the filters can be applied to optimize which MISP events are ingested into the TISC library.
+    Review each option in the table to understand how the filters can be applied to optimize which MISP events are ingested into the TISC library.
 
 10. Select the required values from the following available filters.
 
@@ -82,7 +82,7 @@ Creator org name or ID
 
 </td><td>
 
-Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to ensure proper processing.
+Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to verify proper processing.
 
 </td></tr><tr><td>
 
@@ -109,11 +109,21 @@ Distribution level
 Select a distribution level to limit events. Leaving this field empty includes events of all distribution levels.
 
 </td></tr></tbody>
-</table>    **Note:** With the same additional settings you’ve defined above, you can duplicate the feed when creating a one.
+</table>    **Note:** After you have defined the **Additional Settings** following the instructions as explained in the previous step, you can duplicate the feed when creating another. For more information, see Step 13.
 
 11. Select **Update** on the **Additional Settings** dialog box to save the modified additional settings.
 
 12. Select **Enable** to enable the MISP feed for including the MISP events.
+
+    The TISC application uses the date configured in the **Fetch data from** field as the baseline for retrieving events and associated attributes.
+
+    The **Fetch data from** date determines which events and associated attributes are retrieved. TISC compares this date with specific timestamps based on the event status:
+
+    -   **Published events**: Compared against the **Published timestamp**.
+    -   **Unpublished events**: Compared against the **Last updated timestamp**.
+    An event is retrieved only if its relevant timestamp is later than the configured **Fetch data from** date.
+
+    The system uses the appropriate timestamp for each event status to retrieve newly published events and recently updated unpublished events.
 
 13. Select **Duplicate** to duplicate the feed.
 
@@ -121,14 +131,10 @@ Select a distribution level to limit events. Leaving this field empty includes e
 
     **Note:**
 
-    Each MISP event imported into the TISC Library, whether as a **Threat Report** or **Threat Event**, includes an associated **External Reference** record.
-
-    This record is accessible via the **Related Records** tab and provides a direct URL link to the corresponding MISP event on the MISP server. This also enables a quick access to the original event data.
-
-    For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
-
-    Entity types that aren’t included in the mapping described in the KB article aren't ingested into the TISC Library.
-
+    -   Each MISP event imported into the TISC library, whether as a **Threat Report** or **Threat Event**, includes an associated **External Reference** record.
+    -   This record is accessible via the **Related Records** tab and provides a direct URL link to the corresponding MISP event on the MISP server. This also enables quick access to the original event data.
+    -   For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
+    -   Entity types that aren't included in the mapping described in the KB article aren't ingested into the TISC Library.
 
 **Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
 

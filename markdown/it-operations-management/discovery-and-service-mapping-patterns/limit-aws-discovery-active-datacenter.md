@@ -18,7 +18,14 @@ Optimize AWS discovery by limiting it to datacenters with resources.
 
 ## Before you begin
 
-Verify that you have installed Discovery and Service Mapping Patterns, starting with version 1.29.0.
+-   Verify that you have installed Discovery and Service Mapping Patterns, starting with version 1.29.0.
+-   Verify your service account has the following role permissions to access Config API:
+    -   `config:GetDiscoveredResourceCounts`
+    -   `config:DescribeConfigurationRecorderStatus`
+-   Verify AWS Config recorder is enabled and configured to record the all resource types.
+
+    For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
+
 
 Role required: discovery\_admin
 

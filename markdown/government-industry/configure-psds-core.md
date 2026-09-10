@@ -32,7 +32,7 @@ Task
 
 Install Public Sector Digital Services Core \(sn\_gsm\) from the ServiceNow® Store. It provides these key features:-   Government Service Portal: Used by constituents and businesses to find, track, and request government services.
 -   Agency Services Portal: Used by admins and managers to manage internal and external agency locations.
--   CSM Configurable Workspace: Used by agency agents, government agents, and government service managers to interact with and assist constituents, businesses, and contributors who are authorized to represent or assist constituents and businesses. This workspace requires configuration for public sector use.
+-   CRM Workspace: Used by agency agents, government agents, and government service managers to interact with and assist constituents, businesses, and contributors who are authorized to represent or assist constituents and businesses. This workspace requires configuration for public sector use.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Assign public sector roles to users or groups that have been configured in the S
 
 </td><td>
 
-Use guided setup to customize the Government Service Portal used by constituents, businesses, and agencies; configure the CSM Configurable Workspace for agents; and set up other features for public sector use.
+Use guided setup to customize the Government Service Portal used by constituents, businesses, and agencies; configure the CRM Workspace for agents; and set up other features for public sector use.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Use guided setup to customize the Government Service Portal used by constituents
 
 </td><td>
 
-Customize the government service portal and configure the CSM Configurable Workspace for agents.
+Customize the government service portal and configure the CRM Workspace for agents.
 
 </td></tr><tr><td>
 

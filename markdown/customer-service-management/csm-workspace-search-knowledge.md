@@ -1,5 +1,5 @@
 ---
-title: Search for knowledge articles in CSM Configurable Workspace
+title: Search for knowledge articles in CRM Workspace
 description: Search for knowledge articles in Agent Assist, including similar knowledge articles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-search-knowledge.html
@@ -7,10 +7,10 @@ release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
-# Search for knowledge articles in CSM Configurable Workspace
+# Search for knowledge articles in CRM Workspace
 
 Search for knowledge articles in Agent Assist, including similar knowledge articles.
 
@@ -26,7 +26,7 @@ Agent Assist displays contextual search results based on text entered in the **S
 
 ## Procedure
 
-1.  Open CSM Configurable Workspace.
+1.  Open CRM Workspace.
 
 2.  Open a customer service case.
 

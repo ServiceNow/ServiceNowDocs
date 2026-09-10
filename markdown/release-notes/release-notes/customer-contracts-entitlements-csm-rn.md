@@ -1,18 +1,18 @@
 ---
 title: Customer Contracts and Entitlements release notes
-description: The ServiceNow Customer Contracts and Entitlements application provides the foundation for storing and managing customer service contracts and entitlements. Customer Contracts and Entitlements was enhanced and updated in the Yokohama release.
+description: The ServiceNow Customer Contracts and Entitlements application provides the foundation for storing and managing customer service contracts and entitlements. Customer Contracts and Entitlements was enhanced and updated in the Yokohama release.The ServiceNow Customer Contracts and Entitlements application provides the foundation for storing and managing customer service contracts and entitlements. Customer Contracts and Entitlements was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 2
 ---
 
 # Customer Contracts and Entitlements release notes
 
 The ServiceNow® Customer Contracts and Entitlements application provides the foundation for storing and managing customer service contracts and entitlements. Customer Contracts and Entitlements was enhanced and updated in the Yokohama release.
 
-## Customer Contracts and Entitlements highlights for the Yokohama release
+## About Customer Contracts and Entitlements
 
 -   Enable customers to create contracts from product inventory.
 -   Added a new workspace view for service contracts and entitlements in Customer Service Management workspace for efficiently managing service contracts and entitlements.
@@ -22,9 +22,26 @@ The ServiceNow® Customer Contracts and Entitlements application provides the fo
 
 See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/exploring-post-sales-support.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Customer Contracts and Entitlements by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+    Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configuring-post-sales-support.md).
+
+    **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+
+
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Customer Contracts and Entitlements application provides the foundation for storing and managing customer service contracts and entitlements. Customer Contracts and Entitlements was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Create contracts from product inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-cont-ent-workflows-csm.md)**
 
@@ -65,45 +82,4 @@ See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/Serv
 
     Enables customers to set the pricing parameters of future renewals of contracts. You can select the markup or mark down percentage of the current contract price or you can apply the market price of the contract at the time of renewal.
 
-
-## Activation information
-
-Install Customer Contracts and Entitlements by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Customer Contracts and Entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configuring-post-sales-support.md).
-
-**Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
-
-## Related ServiceNow applications and features
-
--   **[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/flow-designer-components.md)**
-
-    ServiceNow® Workflow Studio components enable you to invoke flows or subflows that are designed as part of a workflow and used to find out the output or execution status of the flows or subflows.
-
--   **[Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-exploring.md)**
-
-    Order and fulfillment agents can use ServiceNow® Order Management to fulfill customer orders created from the Sales Agreement Management application.
-
--   **[Install base management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/install-base-item.md)**
-
-    ServiceNow® Install Base Management is used to capture a customer’s use or purchase of a product across any industry with the Customer Service Management application.
-
--   **Next Experience UI Builder**
-
-    ServiceNow® Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
-
--   **[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/product-catalog-managment.md)**
-
-    ServiceNow® Product Catalog Management organizes products into catalogs and categories so that agents can easily find and add products and services to a quote.
-
--   **[Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/pricing-management.md)**
-
-    ServiceNow® Pricing Management helps you set pricing for products and services that can be added to a quote. Pricing Management also enables agents to make pricing adjustments to products in the quote.
-
--   **Workspace**
-
-    ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are customer service-specific implementations that provide tools to the tier 1 agents that they must use to respond to customers and resolve cases.
-
-
-**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
 

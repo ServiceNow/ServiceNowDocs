@@ -53,5 +53,5 @@ For more information, see [Components installed with Public Sector Digital Servi
 
 ## What to do next
 
-Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CSM Configurable Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-optional-config-steps.md).
+Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-optional-config-steps.md).
 

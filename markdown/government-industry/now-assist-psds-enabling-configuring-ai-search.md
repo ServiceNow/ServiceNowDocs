@@ -14,7 +14,7 @@ breadcrumb: [Configure, ServiceNow Otto for PSDS, Public Sector Digital Services
 
 Configure and use the AI Search engine in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
-\[Omitted image "ais-psds.png"\] Alt text: Answer generated to agent query in CSM Configurable Workspace for Public Sector
+\[Omitted image "ais-psds.png"\] Alt text: Answer generated to agent query in CRM Workspace for Public Sector
 
 ServiceNow Otto for PSDS supports additional configuration for AI Search, such as search profile configuration.
 

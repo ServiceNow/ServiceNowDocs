@@ -31,7 +31,7 @@ Role required: facilities\_admin to edit, create, delete records
 
 3.  Do one of the following actions:
 
-<table id="choicetable_lmr_1x2_bv"><tbody><tr><td id="d21913e92">
+<table id="choicetable_lmr_1x2_bv"><tbody><tr><td id="d21915e92">
 
 **To show the task on the map**
 
@@ -39,7 +39,7 @@ Role required: facilities\_admin to edit, create, delete records
 
 Set **Show task** to true
 
-</td></tr><tr><td id="d21913e104">
+</td></tr><tr><td id="d21915e104">
 
 **To hide the task from the map**
 

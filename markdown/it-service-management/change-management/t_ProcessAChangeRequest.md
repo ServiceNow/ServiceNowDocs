@@ -34,7 +34,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d153513e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d153597e126">
 
 **Approve or reject a change request**
 
@@ -42,7 +42,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d153513e159">
+</td></tr><tr><td id="d153597e159">
 
 **Implement a change request**
 
@@ -54,7 +54,7 @@ When you select **Implement**, the system automatically creates two change tasks
 -   **Post-implementation testing**: Covers testing and validation after implementation.
 The system creates theses tasks when the change request enters to **Implement** state. You can modify task assignments, dates and descriptions as needed. To cancel a task, set its state to **Cancelled**.
 
-</td></tr><tr><td id="d153513e200">
+</td></tr><tr><td id="d153597e200">
 
 **Review a change request**
 
@@ -62,7 +62,7 @@ The system creates theses tasks when the change request enters to **Implement** 
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d153513e221">
+</td></tr><tr><td id="d153597e221">
 
 **Close a change request**
 
@@ -70,7 +70,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d153513e245">
+</td></tr><tr><td id="d153597e245">
 
 **Cancel a change request**
 

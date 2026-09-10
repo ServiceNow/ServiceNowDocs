@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_manag
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select **New**.
 
@@ -66,7 +66,7 @@ Offering type
 
 </td><td>
 
-Type of product offer. Select one of the following:-   Product: A product entity that an agent can add to a lead, opportunity, quote, or order from the CSM Configurable Workspace.
+Type of product offer. Select one of the following:-   Product: A product entity that an agent can add to a lead, opportunity, quote, or order from the CRM Workspace.
 -   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
 
 
@@ -132,7 +132,7 @@ Offering type
 
 </td><td>
 
-Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CSM Configurable Workspace. Customers can add products to an order from the Business Portal.
+Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CRM Workspace. Customers can add products to an order from the Business Portal.
 -   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
 
 

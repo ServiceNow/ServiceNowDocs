@@ -1,18 +1,18 @@
 ---
 title: Open CSM Configurable Workspace
-description: Open CSM Configurable Workspace so that you can work on customer service cases.
+description: Open CRM Workspace so that you can work on customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspaces-open.html
 release: yokohama
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Open CSM Configurable Workspace
 
-Open CSM Configurable Workspace so that you can work on customer service cases.
+Open CRM Workspace so that you can work on customer service cases.
 
 ## Before you begin
 

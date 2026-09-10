@@ -105,7 +105,7 @@ CSD 2.0 can revoke software requested using the CSD 2.0 catalog. CSD 2.0 can als
 </td></tr></tbody>
 </table>## Application version
 
-CSD 2.0 v1.7.3 is the latest version.
+CSD 2.0 v1.7.4 is the latest version.
 
 ## Available AI agents
 

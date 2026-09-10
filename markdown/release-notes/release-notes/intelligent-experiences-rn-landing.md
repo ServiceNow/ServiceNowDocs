@@ -26,7 +26,7 @@ The ServiceNow® Knowledge Graph enables you to create and manage knowledge grap
 The ServiceNow® Now Assist experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. Now Assist was enhanced and updated in the Yokohama release.
 -   **[AI Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-analytics-rn.md)**  
 The ServiceNow® AI Analytics application helps Now Assist admins monitor the usage and performance of generative AI features and capabilities offered under Now Assist. AI Analytics was enhanced and updated in the Yokohama release.
--   **[AI Skill Kit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/na-skill-kit-rn.md)**  
+-   **[AI Skill Kit release notes]()**  
 The ServiceNow® AI Skill Kit application enables AI developers to create custom skills and to have greater flexibility with Now Assist's generative AI capabilities. AI Skill Kit was enhanced and updated in the Yokohama release.
 -   **[Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-document-intelligence-rn.md)**  
 The ServiceNow® Now Assist in Document Intelligence application uses generative AI to extract information from documents, summarize document content, and provide answers to predefined questions. Now Assist in Document Intelligence was enhanced and updated in the Yokohama release.

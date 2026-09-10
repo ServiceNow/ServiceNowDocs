@@ -21,7 +21,7 @@ Role required: `sn_vul_fix.read`, or a Vulnerability Response role that contains
 
 Prerequisites:
 
--   ServiceNow Support has configured the Armis™ Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-fix-intel.md).
+-   ServiceNow Support has configured the Armis Centrix™ for ViPR integration, and at least one sync has completed. See [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-fix-intel.md).
 
 ## About this task
 
@@ -33,7 +33,7 @@ Fixes appear in Unified Security Exposure Management Workspace as a list and a f
 
 2.  Open the **Remediation overview** and select the **Fix Intelligence** tab.
 
-    The **Fix Intelligence** tab summarizes findings that have a fix identified, the number of unique fixes, and the top fixes to act on. To review the fixes themselves, open the Fix list from this tab or select **View All** on a widget. For how to use these widgets to prioritize, see [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/prioritize-remediation-by-fix.md).
+    The **Fix Intelligence** tab summarizes findings that have a fix identified, the number of unique fixes, and the top fixes to act on. To review the fixes themselves, open the Fix list from this tab or select **View All** on a widget.
 
 3.  Open the Fix list.
 
@@ -56,10 +56,6 @@ Fixes appear in Unified Security Exposure Management Workspace as a list and a f
 ## Result
 
 You can see the ingested fixes and the scope of each one.
-
-## What to do next
-
-Prioritize which fixes to act on first: [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/prioritize-remediation-by-fix.md).
 
 **Parent Topic:**[Using Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-fix-intel-security-exposure-management.md)
 

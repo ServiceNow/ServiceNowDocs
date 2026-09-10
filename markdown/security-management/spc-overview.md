@@ -36,7 +36,7 @@ Security Posture Control Core: v6.2, v6.1, v6.0.
 
 For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
-[Security Posture Control release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/secops-security-posture-control-rn.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/secops-security-posture-control-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/secops-security-posture-control-rn.md)
 
 </td></tr><tr><td>
 

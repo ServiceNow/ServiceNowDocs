@@ -163,7 +163,7 @@ Upload from this device
 
     5.  Select the **Create Flow** option to create a flow for this integration in Workflow Studio.
 
-        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flows.md).
+        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see .
 
     6.  Select **Save**.
 

@@ -1,9 +1,9 @@
 ---
 title: Strategic Planning release notes
-description: The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
+description: The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.The ServiceNow Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 7
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 7
 
 The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
 
-## Strategic Planning highlights for the Yokohama release
+## About Strategic Planning
 
 -   Reduce time and effort by using story recommendations from Now Assist to break down your epics and features in Enterprise Agile Planning \(EAP\).
 -   Collaborate in real time on docs with multiple editors.
@@ -24,16 +24,28 @@ The ServiceNow® Strategic Planning application helps you accomplish end-to-end 
 
 See [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/alignment-planner-workspace-landing-page.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Strategic Planning to Yokohama
+-   **Activation information**
 
-After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
+    Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-portfolio-plan-view-spw.md) and [Create a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-free-form-roadmap-view-spw.md).
--   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
+-   **Upgrade information**
 
-## New in the Yokohama release
+    After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
+
+    -   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-portfolio-plan-view-spw.md) and [Create a free-form roadmap view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-free-form-roadmap-view-spw.md).
+    -   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
+
+**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Dashboards for data analysis and decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/dashboards-in-spw.md)**
 
@@ -52,12 +64,6 @@ After upgrading to Strategic Planning v4.7.0, the following changes apply to use
 -   **[Write planning item skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)**
     -   Improve record quality and user satisfaction by enabling AI assistance in the **Description** field across all Strategic Planning Workspace forms, including product idea, demand, epic, project, capability, feature, and story.
     -   Enable text refinement with the **Elaborate** and **Shorten** options on planning items to support product managers and agile team members in creating and editing content more effectively.
--   **[Plan efficiently with additional pre-defined lenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/lens-alignment-planner-workspace.md)**
-
-    Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
-
-    The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
-
 -   **[Cycle time report for Agile teams in EAP dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/eap-agile-team-dashboard.md)**
 
     Analyze how long the stories take for your Agile team to move from an in-progress state to completion. Each bubble on the chart represents a story and the chart shows stories completed in the past 30 days. You can compare the cycle times of stories that have different story points and review the trend in the time taken by the team to complete them.
@@ -76,34 +82,15 @@ After upgrading to Strategic Planning v4.7.0, the following changes apply to use
 
     Break down epics and features into stories using the Now Assist Agile story generation skill in the EAP workspace. Using the available details such as name, description, docs content, and any existing stories, Now Assist provides story recommendations for your epic or feature. You can let Now Assist generate stories using its initial recommendations or you can choose to split or combine the story recommendations before prompting Now Assist to create the stories.
 
--   **[View financial data of your planning items at portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-spw.md)**
-    -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
-    -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
-    -   View the Forecasts, Actuals, and Variance of monetary benefits.
 -   **[Create a manage financial scenarios of planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/optimizing-scenarios-in-strategic-planning.md)**
     -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
     -   Plan and manage the budget of planning items in simulation mode for efficient financial planning and to help prevent overspending.
     -   Manage prioritization and budget allocation of the planning items to meet business priorities.
     -   Compare scenarios financially and automatically allocate the planned budget to planning items from approved scenarios.
     -   Enable the **new budget allocation** property \(**sn\_invst\_pln.enable\_budget\_allocation\_v2**\) to perform financial analysis in scenario planning and take effective decisions by data-driven insights.
--   **[Real-time collaboration for EAP Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/docs-for-eap-teams-and-planning-items.md)**
 
-    Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
+### What's changed
 
-    The real-time collaboration feature for docs is also available for planning items in the Strategic Planning Workspace. See [Docs for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/docs-for-planning-items-in-spw.md).
-
-    **Note:** To use the full functionality of Docs v6.6.0 within Strategic Planning Workspace, ensure that you upgrade Strategic Planning Workspace to v4.5.0. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
-
-
-## UI changes
-
--   **[Financials UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-spw.md)**
-    -   New **Financials** tab in the Planning page.
-    -   The name of the **ETC** field is changed to **Remaining Estimates**.
-    -   The name of the **EAC** field is changed to **Forecast**.
-    -   The name of the **Actuals to date** field is changed to **Actuals**.
-    -   New Financials view in scenario planning.
-    -   New financial widgets in the compare scenario page.
 -   **[Skill name updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/alignment-planner-workspace-landing-page.md)**
     -   Renamed the Planning item Gen AI Docs to the Planning item doc summarization skill in Strategic Planning.
     -   Renamed the EAP Teams Gen AI Docs to the EAP doc summarization skill in Enterprise Agile Planning.
@@ -113,27 +100,43 @@ After upgrading to Strategic Planning v4.7.0, the following changes apply to use
     Change in the name of the **Capacity Planning** tab to **Capacity** in the planning view.
 
 
-## Changed in this release
+## Yokohama
+
+The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Plan efficiently with additional pre-defined lenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/lens-alignment-planner-workspace.md)**
+
+    Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
+
+    The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
+
+-   **[View financial data of your planning items at portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-spw.md)**
+    -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
+    -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
+    -   View the Forecasts, Actuals, and Variance of monetary benefits.
+-   **[Real-time collaboration for EAP Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/docs-for-eap-teams-and-planning-items.md)**
+
+    Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
+
+    The real-time collaboration feature for docs is also available for planning items in the Strategic Planning Workspace. See [Docs for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/docs-for-planning-items-in-spw.md).
+
+    **Note:** To use the full functionality of Docs v6.6.0 within Strategic Planning Workspace, ensure that you upgrade Strategic Planning Workspace to v4.5.0. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
+
+
+### What's changed
+
+-   **[Financials UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-spw.md)**
+    -   New **Financials** tab in the Planning page.
+    -   The name of the **ETC** field is changed to **Remaining Estimates**.
+    -   The name of the **EAC** field is changed to **Forecast**.
+    -   The name of the **Actuals to date** field is changed to **Actuals**.
+    -   New Financials view in scenario planning.
+    -   New financial widgets in the compare scenario page.
 
 -   **[Changes in planning item forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/epic-form.md)**
 
     The dates in the **Planned start date** and **Planned end date** fields are editable for all planning item types other than Demand and Project planning item types. Also, the **State** field is editable for EAP planning items and its child items.
 
-
-## Activation information
-
-Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)**
-
-    Now Assist lets you use generative AI skills in multiple SPM apps. With Now Assist for SPM, summarize product feedback, create stories for epics, generate concise project summaries, rephrase content for docs, create demands through a conversational experience, and quickly gain insights into projects.
-
--   ****
-
-    ServiceNow Digital Product Release Workspace helps product managers track the planning items associated with the product enhancements that are defined in the Strategic Planning Workspace using the Digital Product lens.
-
-
-**Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
 

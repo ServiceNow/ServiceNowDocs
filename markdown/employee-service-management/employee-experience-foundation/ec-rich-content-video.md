@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-08-17"
 reading_time_minutes: 3
 breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -33,7 +33,7 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** Hover text or tooltips are not supported for HTML5 at this time.
+    **Note:** tooltip aren't supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
@@ -137,7 +137,7 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player controls. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
 </table>5.  Select **Save** or **Save and Finish**.

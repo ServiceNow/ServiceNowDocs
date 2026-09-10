@@ -47,17 +47,21 @@ The following procedure describes the collection of JSON formatted event message
 
 ## Procedure
 
-1.  In the Azure Monitor Portal, make sure the MID Server IP is accessible from the Azure portal and the MID rest point is accessible from Microsoft Azure or install the MID Server on a Azure VM and provide the Azure VM public address in the URL and allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
+1.  Verify that the MID Server IP is accessible from the Azure portal and the MID rest point is accessible from Microsoft Azure.
 
-2.  Create an action group with a webhook and provide the rest endpoint as `http://<MID_Web_Server_User>:<MID_Web_Server_Password>@<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidAzureMonitor`
+    Alternatively, install the MID Server on an Azure VM and provide the Azure VM public address in the URL.
+
+2.  Allow the mid\_web\_Server\_port in **Azure VM** &gt; **Networking Settings** &gt; **Inbound port rules**.
+
+3.  Create an action group with a webhook and provide the rest endpoint as `http://<MID_Web_Server_User>:<MID_Web_Server_Password>@<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidAzureMonitor`
 
     **Note:** For more information about adding a webhook to an action group, see [Create and manage action groups in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups) on the Microsoft documentation site.
 
-3.  In the Webhook section, make sure **Yes** is selected for the **Enable the common alert schema** option.
+4.  In the Webhook section, make sure **Yes** is selected for the **Enable the common alert schema** option.
 
-4.  Navigate to **Alerts** &gt; **Manage Alert Rules**.
+5.  Navigate to **Alerts** &gt; **Manage Alert Rules**.
 
-5.  Add the action group with the webhook to an alert rule.
+6.  Add the action group with the webhook to an alert rule.
 
 
 ## What to do next

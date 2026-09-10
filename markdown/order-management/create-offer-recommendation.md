@@ -22,7 +22,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -76,7 +76,7 @@ Order
 
 </td><td>
 
-Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCSM Configurable Workspace.
+Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCRM Workspace.
 
 </td></tr><tr><td>
 

@@ -18,7 +18,7 @@ Visual Task Boards provide a visual representation of the work that needs to be 
 
 ## Visual Task Boards overview
 
-Teams can easily manage their workloads by assigning and reassigning tasks, updating task status, and setting priorities. This helps to improve productivity and reduce the time it takes to complete tasks. Any user can use task boards, regardless of role, though access control rules \(ACLs\) may limit which cards each user can see.
+Teams can easily manage their workloads by assigning and reassigning tasks, updating task status, and setting priorities. This helps to improve productivity and reduce the time it takes to complete tasks. Visual task boards aren't available to external users. For other user roles, access control rules \(ACLs\) determine both board access and card visibility.
 
 The Visual Task Board interface provides a graphic-rich environment suited for managing and collaborating on records. For example, a support manager might create a board for a team to track their assigned incidents by state in real time.
 

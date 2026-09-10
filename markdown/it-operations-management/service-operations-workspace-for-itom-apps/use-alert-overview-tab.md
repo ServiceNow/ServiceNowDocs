@@ -1,6 +1,6 @@
 ---
-title: View details about the impact and cause of an alert in Express List
-description: View information about an alert on the alert's Overview tab in the Express List.
+title: View details about an alert in Express List
+description: View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/use-alert-overview-tab.html
 release: yokohama
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Express List in the Service Operations Workspace for ITOM, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
 ---
 
-# View details about the impact and cause of an alert in Express List
+# View details about an alert in Express List
 
-View information about an alert on the alert's Overview tab in the Express List.
+View information about the impact and cause of an alert on the alert's Overview tab in the Express List.
 
 ## Before you begin
 

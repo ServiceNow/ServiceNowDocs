@@ -25,7 +25,7 @@ Use Fix Intelligence for SEM to consolidate the fixes that resolve your vulnerab
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install Fix Intelligence for SEM and set up the integration with Armis™ Centrix™ for ViPR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-fix-intel.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install Fix Intelligence for SEM and set up the integration with Armis Centrix™ for ViPR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-fix-intel.md)
 
 </td></tr><tr><td>
 

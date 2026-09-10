@@ -1,9 +1,9 @@
 ---
 title: Mastercard Spoke release notes
-description: The ServiceNow Mastercard Spoke application enables the ServiceNow AI Platform to connect with the Mastercom API Suite and Mastercom Extended APIs, providing quick access to payment and dispute resolution services. Mastercard Spoke was enhanced and updated in the Yokohama release.
+description: The ServiceNow Mastercard Spoke application enables the ServiceNow AI Platform to connect with the Mastercom API Suite and Mastercom Extended APIs, providing quick access to payment and dispute resolution services. Mastercard Spoke was enhanced and updated in the Yokohama release.The ServiceNow Mastercard Spoke application enables the ServiceNow AI Platform to connect with the Mastercom API Suite and Mastercom Extended APIs, providing quick access to payment and dispute resolution services. Mastercard Spoke was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-02-24"
 reading_time_minutes: 2
 ---
@@ -12,16 +12,29 @@ reading_time_minutes: 2
 
 The ServiceNow® Mastercard Spoke application enables the ServiceNow AI Platform to connect with the Mastercom API Suite and Mastercom Extended APIs, providing quick access to payment and dispute resolution services. Mastercard Spoke was enhanced and updated in the Yokohama release.
 
-## Mastercard Spoke highlights for the Yokohama release
+## About Mastercard Spoke
 
 -   Use the Mastercard Spoke to manage card disputes using the Mastercom API Suite and Mastercom Extended APIs.
 -   Leverage Mastercard Spoke actions to manage disputes for cleared Single Message System original transactions with Mastercom Extended.
 
 See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/mastercard-spoke.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Mastercard Spoke is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## New in the Yokohama release
+-   **Activation information**
+
+    Install Mastercard Spoke by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Mastercard Spoke application enables the ServiceNow AI Platform to connect with the Mastercom API Suite and Mastercom Extended APIs, providing quick access to payment and dispute resolution services. Mastercard Spoke was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   **[Mastercard Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/mastercard-spoke.md)**
 
@@ -60,25 +73,4 @@ See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     -   Update Pre-Compliance/Compliance Case - Extended
     -   Update Representment by Claim ID and Event ID - Extended
     -   Upload Documents - Extended
-
-## Activation information
-
-Install Mastercard Spoke by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)**
-
-    Automate integration tasks by using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
-
--   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md)**
-
-    Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
-
--   **[Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/spokes.md)**
-
-    Integrate spokes with ServiceNow® Financial Services Operations \(FSO\) applications to enable flow designers to provide specific actions within Workflow Studio for those applications.
-
-
-**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
 

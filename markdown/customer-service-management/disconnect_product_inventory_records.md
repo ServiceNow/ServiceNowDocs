@@ -1,18 +1,18 @@
 ---
 title: Disconnect product inventory records
-description: Perform the Disconnect operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace so that you can permanently disconnect a product and its services.
+description: Perform the Disconnect operation on single or multiple product inventory records that result in the creation of orders or quotes on the CRM Workspace so that you can permanently disconnect a product and its services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/disconnect\_product\_inventory\_records.html
 release: yokohama
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Disconnect product inventory records
 
-Perform the **Disconnect** operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace so that you can permanently disconnect a product and its services.
+Perform the **Disconnect** operation on single or multiple product inventory records that result in the creation of orders or quotes on the CRM Workspace so that you can permanently disconnect a product and its services.
 
 ## Before you begin
 

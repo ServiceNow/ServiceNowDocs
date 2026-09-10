@@ -1,35 +1,52 @@
 ---
-title: MITRE-ATT&amp;CK Repository
-description: The MITRE-ATT&amp;CK repository is available under the Intelligence Library where the data from the MITRE sources are ingested.
+title: MITRE-ATT&amp;CK repository
+description: The MITRE-ATT&amp;CK repository stores MITRE data separately from Threat Intel Library data in the Intelligence Library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+keywords: [MITRE ATT&amp;CK, threat intelligence, repository]
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
-# MITRE-ATT&amp;CK Repository
+# MITRE-ATT&amp;CK repository
 
-The MITRE-ATT&amp;CK repository is available under the Intelligence Library where the data from the MITRE sources are ingested.
+The MITRE-ATT&amp;CK repository stores MITRE data separately from **Threat Intel Library** data in the **Intelligence Library**.
 
-The MITRE data that is coming to the repository is stored in a separate MITRE repository from Threat Intel Library data, where MITRE data isn’t rolled up for aggregation or de-duplication flow and is independent.
+MITRE data is stored in a separate repository from **Threat Intel Library** data. MITRE data is not aggregated or deduplicated and remains independent.
 
-The available data sources within the application are:
+The available data sources are:
 
-1.  MITRE - Enterprise ATT&amp;CK
-2.  MITRE - Mobile ATT&amp;CK
-3.  MITRE - ICS ATT&amp;CK
+-   **MITRE - Enterprise ATT&amp;CK**
+-   **MITRE - Mobile ATT&amp;CK**
+-   **MITRE - ICS ATT&amp;CK**
 
-The data for these sources are stored in a separate MITRE repository under TI library in the base system. In case, if you want to create a new MITRE source then configure a custom source. For more information, see [View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md) and in the form view click **Advanced** check box and select the **Report Processor** as: **MITRECollectionDataProcessor**.
+To create a MITRE source, configure a custom source. For more information, see [View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md). In the form view, select the **Advanced** check box and set **Report Processor** to **MITRECollectionDataProcessor**.
+
+## Revoked tactic and technique associations
+
+A MITRE ATT&amp;CK release may revoke a technique or remove a technique-to-tactic mapping. When this occurs, the next MITRE ingestion retires the tactic and technique link, along with all entity and case associations built from it. Retirement is a soft delete. If MITRE restores a pair in a later release, the pair is reinstated automatically.
+
+Retired associations are excluded from the MITRE ATT&amp;CK canvas, the technique cards, and the MITRE reports. The tactic and technique counts reflect only the mappings that MITRE currently publishes. The associations remain on the entity and case records until you delete or remap them. For more information on acting on a revoked pair, see [Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md).
+
+The following lists are available under MITRE ATT&amp;CK in the Threat Intel Library:
+
+-   **Tactics** — tactics that MITRE currently publishes
+-   **Tactic-Techniques** — tactic and technique pairs that MITRE currently maps
+-   **Revoked Tactic-Techniques** — the pairs that MITRE no longer maps and that still have entity or case associations for you to act on.
+
+A MITRE ATT&amp;CK Associations section lists the entity and case associations that were derived from MITRE data, in the Entity Associations and Case Associations lists. Both lists exclude retired associations.
 
 -   **[Manage Matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-manage-matrices.md)**  
 Manage the matrices that are imported from the MITRE TAXII collections. Matrices are a collection of tactics and techniques. You can view the matrices to review if your collections are available in the MITRE-ATT&amp;CK repository.
 -   **[Manage Techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-manage-techniques.md)**  
 Manage the techniques that are imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that are not relevant to your organization. In STIX, techniques are known as attack patterns.
+-   **[Review revoked MITRE tactic and technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-review-revoked-mitre-associations.md)**  
+Review the tactic and technique pairs that MITRE no longer maps, then delete or remap the entity and case associations that were created from them.
 -   **[Manage Mitigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-manage-mitigations.md)**  
 Manage the mitigations that are imported from the MITRE TAXII collections. Mitigations enable you to prevent an adversary from successfully executing techniques or sub-techniques against your organization. In STIX, mitigations are known as course of actions.
 -   **[Manage Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-manage-groups.md)**  
@@ -54,9 +71,9 @@ Manage the MITRE relationships information that you imported from the MITRE TAXI
 
 [Other Objects]()
 
-[Vulnerability]()
+[Vulnerability Artifacts]()
 
-[Define RSS Feeds]()
+[View RSS Feeds]()
 
 [Working with Reports in TISC]()
 

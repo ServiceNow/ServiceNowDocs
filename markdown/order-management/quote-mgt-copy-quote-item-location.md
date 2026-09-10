@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 
@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 6.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d33396e132">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d33416e132">
 
 Option
 
-</th><th align="left" id="d33396e137">
+</th><th align="left" id="d33416e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33396e145">
+</th></tr></thead><tbody><tr><td id="d33416e145">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Description
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d33396e154">
+</td></tr><tr><td id="d33416e154">
 
 **Choose new location**
 

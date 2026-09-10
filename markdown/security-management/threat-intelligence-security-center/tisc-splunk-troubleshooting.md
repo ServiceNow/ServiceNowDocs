@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-26"
 reading_time_minutes: 2
 keywords: [tisc, splunk, troubleshoot, debug, logging, input metadata lookup]
-breadcrumb: [Configure TISC add-on in Splunk, TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Troubleshoot the TISC add-on in Splunk
@@ -71,7 +71,7 @@ Use this procedure when an input is not pulling observables from TISC as expecte
 
 You have collected the diagnostic information needed to identify why an input failed or returned unexpected results. Provide the relevant log entries and the input's metadata record when raising a support case or working with the add-on team.
 
-**Parent Topic:**[Configure TISC add-on in Splunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-configure-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 
 **Related topics**  
 

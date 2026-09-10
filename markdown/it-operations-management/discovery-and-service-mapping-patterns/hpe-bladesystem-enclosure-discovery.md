@@ -1,20 +1,20 @@
 ---
 title: HPE BladeSystem Enclosure Discovery
-description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # HPE BladeSystem Enclosure Discovery
 
-ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -36,7 +36,7 @@ The pattern has been tested against:
 -   HPE BladeSystem blades: HPE ProLiant BL460c
     -   Generations 8, 9 and 10
     -   ROM Versions: I31, I36, I41 \(2014-2021\)
-    -   Blades being managed by a Virtual Connect Manager/Virtual Connect Enterprise Manager \(VCM/VCEM\) have a logical serial number. In this case, the serial number, which is exposed by WMI, for example, is the logical one, rather than the physical one, as is usually the case. When creating the relation between the blade and the OS server, based on the serial number, the system attempts to match both the physical and logical serial numbers with the ones owned by the OS Server.
+    -   Blades being managed by a Virtual Connect Manager/Virtual Connect Enterprise Manager \(VCM/VCEM\) have a logical serial number. In this case, the serial number, which is exposed by WMI, for example, is the logical one, rather than the physical one, as is usually the case. To relate the blade to the OS server, the system matches the serial number against OS Server records. Both physical and logical serial numbers are checked.
     -   When discovering blade servers with the logical serial numbers, their logical serial numbers are inserted to **cmdb\_serial\_number** with the **logical** type. This is a new serial number type that was created to support these new serial numbers introduced by HP.
 
         **Note:** The WMI provides the logical serial number as the bios serial number. ESXi servers are discovered by probes. The ESXiserver CI gets the logical serial number as **chassis**.

@@ -1,5 +1,5 @@
 ---
-title: Cloud profiles with minimal permissions for Cloud Action Library actions and subflows
+title: Minimal cloud permission profiles for Cloud Action Library actions and subflows
 description: You need appropriate cloud permissions to execute the Cloud Action Library actions and subflows. Edit the cloud permissions profile JSON to suit the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-cloud-accelerate/cloud-profiles-with-minimal-permissions-for-cal.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Cloud Action Library reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Cloud profiles with minimal permissions for Cloud Action Library actions and subflows
+# Minimal cloud permission profiles for Cloud Action Library actions and subflows
 
 You need appropriate cloud permissions to execute the Cloud Action Library actions and subflows. Edit the cloud permissions profile JSON to suit the needs of your organization.
 

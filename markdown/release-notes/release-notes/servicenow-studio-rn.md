@@ -1,18 +1,18 @@
 ---
 title: ServiceNow Studio release notes
-description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 4
+reading_time_minutes: 3
 ---
 
 # ServiceNow Studio release notes
 
 The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
 
-## ServiceNow Studio highlights for the Yokohama release
+## About ServiceNow Studio
 
 -   Work in the best development environment for your task by using the experience switcher to switch between developing in Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 -   As of version 27.2.4, the ServiceNow Studio File Navigator performance has been improved for large applications.
@@ -22,11 +22,57 @@ The ServiceNow® ServiceNow Studio application provides a unified experience for
 
 See  for more information.
 
-## Important information for upgrading ServiceNow Studio to Yokohama
+## Activation and other requirements
 
-ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+-   **Activation information**
 
-## New in the Yokohama release
+    ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
+-   **Upgrade information**
+
+    ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
+
+## Accessibility and localization
+
+-   **Localization information**
+
+    As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
+
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
+
+## May 2025
+
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **File Navigator performance has been improved for large applications**
+
+    As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
+
+-   ****
+
+    As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
+
+-   ****
+
+    As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
+
+
+### What's changed
+
+-   ****
+
+    As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
+
+
+## Yokohama
+
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+
+### What's new
 
 -   ****
 
@@ -44,88 +90,11 @@ ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It�
 
     In the November 2024 release, only admins could create apps in ServiceNow Studio. Now, users with Guided Application Creator \(GAC\) roles can also create applications.
 
--   **File Navigator performance has been improved for large applications**
 
-    As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
-
--   ****
-
-    As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
-
--   ****
-
-    As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
-
-
-## Changed in this release
+### What's changed
 
 -   ****
 
     The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
--   ****
-
-    As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
-
-
-## Activation information
-
-ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
-
-## Localization information
-
-As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
-
-## Related ServiceNow applications and features
-
--   **Access Control**
-
-    Work with access controls and roles for apps and files in ServiceNow Studio.
-
--   **Catalog Builder**
-
-    Create and edit catalog items directly in ServiceNow Studio.
-
--   **[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)**
-
-    Add decision rules and use decision tables to decouple decision logic from code.
-
--   **Email notifications**
-
-    Create and edit email notifications that are automatically sent when a record is created or updated. Email notifications are also used as a reference in flows or can be triggered by an event.
-
--   **Flows in Workflow Studio**
-
-    Create and edit flows, subflows, and actions directly in a Workflow Studio tab within ServiceNow Studio.
-
--   **[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub-imports.md)**
-
-    Import data into existing tables in ServiceNow Studio.
-
--   **[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md)**
-
-    Add mobile experiences in a Mobile App Builder within ServiceNow Studio.
-
--   ****
-
-    Create applications through a conversation with generative AI.
-
--   **Playbooks in Workflow Studio**
-
-    Edit cross-functional processes and consolidate them into automated task-oriented views.
-
--   **Table Builder**
-
-    Work with data models in a tabular format in a tab within ServiceNow Studio.
-
--   **UI Builder**
-
-    Create and edit experiences in a tab within ServiceNow Studio.
-
--   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md)**
-
-    Integrate workflow authoring, configuring, and monitoring into a single-page experience within ServiceNow Studio.
-
-
-**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
 

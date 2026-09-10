@@ -33,7 +33,7 @@ If your product catalog admin has enabled multiple configurations for child offe
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to the opportunity, quote, or order that you want to work with.
 

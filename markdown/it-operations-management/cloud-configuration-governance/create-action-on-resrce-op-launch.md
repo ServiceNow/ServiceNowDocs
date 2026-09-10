@@ -1,5 +1,5 @@
 ---
-title: Create an action for an 'on Resource operation launch' policy
+title: Create action for 'on Resource operation launch' policy
 description: The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-launch.html
@@ -12,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
 ---
 
-# Create an action for an 'on Resource operation launch' policy
+# Create action for 'on Resource operation launch' policy
 
 The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\).
 

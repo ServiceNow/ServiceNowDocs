@@ -1,6 +1,6 @@
 ---
 title: SQL Server Analysis Services \(SSAS\) discovery
-description: The Discovery and Service Mapping application uses the SSAS pattern to find SQL Server Analysis Services \(SSAS\) on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store..
+description: The Discovery and Service Mapping application uses the SSAS pattern to find SQL Server Analysis Services \(SSAS\) on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store..
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/r-SSAS-MSSQL.html
 release: yokohama
@@ -15,7 +15,7 @@ breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibil
 
 # SQL Server Analysis Services \(SSAS\) discovery
 
-The Discovery and Service Mapping application uses the SSAS pattern to find SQL Server Analysis Services \(SSAS\) on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store..
+The Discovery and Service Mapping application uses the SSAS pattern to find SQL Server Analysis Services \(SSAS\) on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store..
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 

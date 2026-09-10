@@ -19,8 +19,8 @@ Control hybrid search settings in AI Search applications to optimize search perf
 
 ## Before you begin
 
--   Beginning with Now Assist in AI Search 15.0.
--   Beginning with Yokohama patch 11 \(YP11\).
+-   Starting with Now Assist in AI Search 15.0.
+-   Starting with Yokohama patch 11 \(YP11\).
 -   At least one indexed source with semantic fields and semantic indexing configured.
 
 Role required: admin

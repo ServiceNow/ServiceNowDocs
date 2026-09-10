@@ -1,18 +1,18 @@
 ---
 title: Viewing the dynamic related records in License and Permit Playbook
-description: You can view the dynamic related records in the playbook contextual side panel in CSM Configurable Workspace. These records dynamically change based on the current record or playbook activity.
+description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lpr-playbook-viewing-rel-records.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Using the contextual side panel in Public Sector Digital Services License and Permit Playbook, Using License and Permit Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Viewing the dynamic related records in License and Permit Playbook
 
-You can view the dynamic related records in the playbook contextual side panel in CSM Configurable Workspace. These records dynamically change based on the current record or playbook activity.
+You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 
 ## Using related records in License and Permit Playbook
 

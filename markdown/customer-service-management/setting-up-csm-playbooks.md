@@ -1,6 +1,6 @@
 ---
 title: Playbooks in Customer Service Management
-description: Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CSM Configurable Workspace and complete guided activities to resolve customer issues.
+description: Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CRM Workspace and complete guided activities to resolve customer issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/setting-up-csm-playbooks.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Agent tools, Organize agent workspaces, Configuring Customer Servic
 
 # Playbooks in Customer Service Management
 
-Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CSM Configurable Workspace and complete guided activities to resolve customer issues.
+Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CRM Workspace and complete guided activities to resolve customer issues.
 
 \[Omitted image "case-playbook-template-horizontal-stages.png"\] Alt text: Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.
 
@@ -76,7 +76,7 @@ Customer service agent\[sn\_customerservice\_agent\]
 
 </td><td>
 
-Uses playbooks in CSM Configurable Workspace to complete activities and resolve cases.The playbook runtime experience is where end users, such as agents, follow the playbook to complete a business process.
+Uses playbooks in CRM Workspace to complete activities and resolve cases.The playbook runtime experience is where end users, such as agents, follow the playbook to complete a business process.
 
 </td></tr><tr><td>
 

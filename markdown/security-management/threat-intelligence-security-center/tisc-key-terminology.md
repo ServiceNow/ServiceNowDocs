@@ -1,20 +1,20 @@
 ---
 title: TISC Key terminology
-description: The terms defined below are used throughout the Threat Intelligence Security Center \(TISC\).
+description: Key terms and definitions used in TISC to help you understand threat intelligence concepts and navigate the interface effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/threat-intelligence-security-center/tisc-key-terminology.html
 release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
-topic_type: concept
-last_updated: "2025-01-30"
+topic_type: reference
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Key terminology
 
-The terms defined below are used throughout the Threat Intelligence Security Center \(TISC\).
+Key terms and definitions used in TISC to help you understand threat intelligence concepts and navigate the interface effectively.
 
 <table id="table_rvc_3t1_pzb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Data Processing
 
 </td><td>
 
-A Threat Intelligence Platform \(TIP\) is a technology solution that collects, aggregates, and organizes threat intelligence data from various sources and patterns. Threat intelligence is the data that is collected, processed, and analyzed to understand a threat actors targets and attack behaviors.
+A Threat Intelligence Platform \(TIP\) collects, aggregates, and organizes threat intelligence data from various sources and patterns. Threat intelligence is data that is collected, processed, and analyzed to understand threat actor targets and attack behaviors.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Observables
 
 </td><td>
 
-Observables represent stateful properties \(such as the MD5 hash of a file or the value of a registry key\) or measurable events \(such as the creation of a registry key or the deletion of a file\) that are pertinent to the operation of computers and networks. For more information, see [Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/observables.md).
+Observables represent stateful properties or measurable events pertinent to computer and network operations. Examples include MD5 file hashes, registry key values, registry key creation, or file deletion. For more information, see [Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/observables.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Indicators
 
 </td><td>
 
-Indicators contain a pattern that can be used to detect suspicious or malicious cyber activity. For example, an Indicator may be used to represent a set of malicious domains and use the STIX Patterning Language to specify these domains.The Indicator SDO contains a simple textual description, the Kill Chain Phases that it detects behavior in, a time window for when the Indicator is valid or useful, and a required **pattern** property to capture a structured detection pattern. For more information, see [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/indicator.md).
+Indicators contain patterns used to detect suspicious or malicious cyber activity. For example, an Indicator can represent malicious domains using the STIX Patterning Language.The Indicator SDO contains a textual description, Kill Chain Phases for detected behavior, a validity time window, and a required **pattern** property for structured detection patterns. For more information, see [Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/indicator.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Objects
 
 </td><td>
 
-Defines the set of STIX Domain Objects \(SDOs\), each of which corresponds to a unique concept commonly represented in Cyber Threat Intelligence \(CTI\).Using SDOs and STIX Relationship Objects \(SROs\) as building blocks, individuals can create and share broad and comprehensive cyber threat intelligence. For more information, see [TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ioc.md).
+Defines STIX Domain Objects \(SDOs\), each corresponding to a unique concept in cyberthreat Intelligence \(CTI\).Using SDOs and STIX Relationship Objects \(SROs\), you can create and share comprehensive cyberthreat intelligence. For more information, see [TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-ioc.md).
 
 </td></tr><tr><td>
 
@@ -62,13 +62,15 @@ Relationships
 
 </td><td>
 
-A relationship is a link between two observables or two SDOs or Observable and SDO that describes the way in which the objects are related.Relationships can be represented using an external STIX Relationship Object \(SRO\) or, in some cases, through certain properties which store an identifier reference that comprises an embedded relationship. For more information, see [Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/relationship-objects.md).
+A relationship links two observables, two SDOs, or an Observable and SDO, describing how the objects relate.Relationships can be represented using an external STIX Relationship Object \(SRO\) or through properties that store identifier references for embedded relationships. For more information, see [Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/relationship-objects.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
+</table>**Parent Topic:**[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/threat-intelligence-security-center-overview.md)
 
 **Related topics**  
 
 
-[Home page in TISC Workspace]()
+[TISC Workspace]()
+
+[TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md)
 

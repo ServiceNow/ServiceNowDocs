@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_admin
 ## What to do next
 
 -   Ensure a corresponding event rule exists: Verify that there is an event rule set up to assign or populate the newly defined pattern identifier attributes to the incoming alerts. Event rules define how attributes are assigned to alerts based on certain conditions.
--   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job is used to retroactively populate the pattern identifier attributes for existing alerts that were created before the new attributes were defined. It ensures that even past alerts \(historical alerts\) have the necessary attributes filled in for grouping them properly.
+-   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts. These alerts were created before the new attributes were defined. This ensures that past alerts have the necessary attributes for proper grouping.
 

@@ -1,9 +1,9 @@
 ---
 title: Telecommunications Service Operations Management \(TSOM\) release notes
-description: The ServiceNow Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+description: The ServiceNow Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.The ServiceNow Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
 locale: en-US
 release: yokohama
-topic_type: reference
+topic_type: topic
 last_updated: "2025-01-30"
 reading_time_minutes: 2
 ---
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 
 The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
 
-## Telecommunications Service Operations Management \(TSOM\) highlights for the Yokohama release
+## About Telecommunications Service Operations Management \(TSOM\)
 
 -   Perform deep network discovery of your networks via the Simple Network Management Protocol \(SNMP\) and command-line interface \(CLI\) by using Pattern-based Discovery.
 -   Integrate with the Nokia Altiplano Service Graph Connector to discover the access network.
@@ -20,13 +20,26 @@ The ServiceNow® Telecommunications Service Operations Management \(TSOM\) appli
 
 See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-service-operations-mgt-overview.md) for more information.
 
+## Activation and other requirements
+
 **Important:** Telecommunications Service Operations Management \(TSOM\) is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading Telecommunications Service Operations Management \(TSOM\) to Yokohama
+-   **Activation information**
 
-After installing Telecommunications Service Operations Management TSOM, any customized IRE identification rules applied to interface cards, slots, sub-slots and network interfaces may be affected. You must review and validate the rules to ensure proper functionality.
+    Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## New in the Yokohama release
+-   **Upgrade information**
+
+    After installing Telecommunications Service Operations Management TSOM, any customized IRE identification rules applied to interface cards, slots, sub-slots and network interfaces may be affected. You must review and validate the rules to ensure proper functionality.
+
+
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
+
+## Yokohama
+
+The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+
+### What's new
 
 -   **[Pattern-based direct discovery using CLI and SNMP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-discovery-tsom-visibility.md)**
 
@@ -63,17 +76,4 @@ After installing Telecommunications Service Operations Management TSOM, any cust
 -   Most recent discovery not updated.
 -   Incorrect number of relationships.
     -   Support a framework to automatically create tasks for reconciling discrepancies.
-
-## Activation information
-
-Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Related ServiceNow applications and features
-
--   ****
-
-    The Event Management application helps you to identify health issues across the datacenter on a single management console. It provides alert aggregation and root cause analysis \(RCA\) for discovered services, application services, and automated alert groups. Event Management is available as a separate subscription from the rest of the ServiceNow AI Platform®.
-
-
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 

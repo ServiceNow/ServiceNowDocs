@@ -1,22 +1,24 @@
 ---
 title: Manage reservation waitlist records
-description: Workplace Reservation event planners can view and update the weight of a queued record and cancel waitlist records. You can also manually assign a space to employees.
+description: Only Workplace Reservation event planners are allowed to update the weight of a queued waitlist record. They can also manually assign a space to employees and cancel a waitlist record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-central/rsv-planner-subscribe-waitlist.html
 release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-06-09"
+last_updated: "2026-09-03"
 reading_time_minutes: 4
 breadcrumb: [Manage Workplace Central, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage reservation waitlist records
 
-Workplace Reservation event planners can view and update the weight of a queued record and cancel waitlist records. You can also manually assign a space to employees.
+Only Workplace Reservation event planners are allowed to update the weight of a queued waitlist record. They can also manually assign a space to employees and cancel a waitlist record.
 
 ## Before you begin
+
+\[Omitted video\] Description: Update the weight of a waitlist record and assign a space.
 
 Role required: sn\_wsd\_rsv.reservation\_planner
 

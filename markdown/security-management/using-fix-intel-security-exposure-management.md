@@ -27,10 +27,6 @@ After Fix Intelligence for SEM is installed and configured, use the following ca
 
     View the fixes Fix Intelligence for SEM has ingested, along with the findings and assets each one resolves, in Unified Security Exposure Management Workspace.
 
--   [Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/prioritize-remediation-by-fix.md)
-
-    Prioritize remediation by focusing on the fixes that resolve the most findings and remove the most risk.
-
 -   [Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/group-findings-by-fix.md)
 
     Group the findings that share a fix into a single remediation task.
@@ -44,8 +40,6 @@ After Fix Intelligence for SEM is installed and configured, use the following ca
 A Fix record represents a single remediation action that resolves one or more findings. Understanding its key fields helps you interpret what a fix does and how much risk it removes.
 -   **[View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-fixes-in-workspace.md)**  
 Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
--   **[Prioritize remediation by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/prioritize-remediation-by-fix.md)**  
-Use the Fix data and Security Exposure Management dashboards to focus first on the fixes that resolve the most findings and remove the most risk.
 -   **[Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/group-findings-by-fix.md)**  
 Use a remediation task rule to group the findings that share a fix, so your team can remediate them together as a single unit of work.
 -   **[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/fix-links-on-findings.md)**  

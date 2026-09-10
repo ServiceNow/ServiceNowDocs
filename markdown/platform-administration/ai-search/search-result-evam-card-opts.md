@@ -151,7 +151,7 @@ Defines whether you want to show or hide the icon on the Search Result card. -  
 -   Default value: false
 -   Supported values:
     -   **false**: Show the configured icon on the Search Result card.
-    -   **true**: Do not show an icon on the Search Result card.
+    -   **true**: Don't show an icon on the Search Result card.
 
 </td></tr><tr><td>
 

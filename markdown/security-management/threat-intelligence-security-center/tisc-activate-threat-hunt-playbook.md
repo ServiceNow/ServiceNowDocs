@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-20"
 reading_time_minutes: 1
 keywords: [tisc, threat hunting, playbook, activate, workflow studio]
-breadcrumb: [Playbooks, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Playbooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Activate the Threat Hunting Playbook
