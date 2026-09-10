@@ -1,18 +1,18 @@
 ---
-title: Now Assist for Security Incident Response release notes
-description: Version history for the Now Assist for Security Incident Response application on the ServiceNow Store.
+title: ServiceNow Otto for Security Incident Response \(SIR\) release notes
+description: Version history for the ServiceNow Otto for Security Incident Response \(SIR\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-now-assist.html
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Security Incident Response release notes
+# ServiceNow Otto for Security Incident Response \(SIR\) release notes
 
-Version history for the Now Assist for Security Incident Response application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Security Incident Response \(SIR\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 

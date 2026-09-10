@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-integration-with-cornerstone-ondemand.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HR Service Delivery Integration with Cornerstone OnDemand release notes
@@ -17,6 +17,14 @@ Version history for the HR Service Delivery Integration with Cornerstone OnDeman
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.2 - September 2026**
+
+    Fixed Minor Issues
+
+-   **Version 1.4.1 - August 2026**
+
+    Fixed: Localized training title information was not being retrieved during the Cornerstone OnDemand "Training Local" data pull. The integration's OData query has been updated to include the culture identifier field, ensuring localized learning object titles are returned correctly.
 
 -   **Version 1.4.0 - July 2026**
     -   Changed:

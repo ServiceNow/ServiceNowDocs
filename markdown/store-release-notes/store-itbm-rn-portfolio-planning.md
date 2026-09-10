@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-portfolio-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 15
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 17
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Portfolio Planning release notes
@@ -18,6 +18,35 @@ Version history for the Portfolio Planning on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 8.18.0 - September 2026**
+    -   New:
+        -   Added ACLs to support extended security for Enterprise-Wide Deployment partitions.
+        -   Access portfolio risks, issues, decisions, actions, and changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page.
+        -   Access program planning views from the new Programs menu. Select any program to open its dedicated plan with Prioritization, Roadmap, Kanban, and Financials views.
+        -   Added automated email notifications for scenario approval.
+        -   The My Demands widget is added to the Employee Slate canvas. Requesters can add the My Demands widget to their Employee Slate canvas to track the state of their demands.
+        -   Requesters can view and track their demands directly from the My Demands widget. The widget lists all demands created by the requester, with filters by state and links to the standard demand tracking experience.
+        -   When a demand is converted to an execution artifact, such as a project, epic, or story, requesters can view high-level status, planned and actual end dates, and the last update from the Execution Tracking widget.
+        -   The demand details page includes the lifecycle tracker, activity, attachments, and edit tabs. Requesters can view the demand lifecycle, activity history, attachments, and edit key fields from the standard ticket page.
+        -   Demands submitted by requesters appear in the My Requests list, alongside other requests, with consistent state and status display.
+        -   Financial widgets have info icons explaining the values and how the calculation is done.
+-   **Version 8.17.0 - August 2026**
+    -   New:
+        -   View the demand summary card on the AI Overview tab of the demand record page when the demand summarization skill is active and accessible.
+        -   View and filter demand data using the Overview, Financials, and Data Quality tabs in Demands Dashboard.
+        -   View and manage cost plans, benefit plans, and baselines from the Financials grid in Demands.
+        -   Switch between the Dashboard and List views in Demands using the breadcrumb navigation.
+        -   View a related list of similar demands on the demand record page for quick access to system-identified matches.
+        -   Explore detailed data directly from the Demands Dashboard widgets using the widget drill-down capability.
+        -   Track Risks, Issues, Decisions, Actions, and Changes \(RIDAC\) for planning items directly within the workspace using related lists and configurable views on record pages, with role-based access for viewing and editing.
+        -   Use the L2 RIDAC menu to view all RIDAC items, project-specific RIDAC, portfolio risks, and program risks. Note that certain fields are read-only during and after creation.
+    -   Changed: The portfolio financials page now displays a budget value of 0 for planning items without an approved budget, ensuring accurate variance calculations and eliminating blank values.
+    -   Fixed:
+        -   Resolved an accessibility issue where the screen reader announced the value of the Rows Per Page dropdown more than once in Portfolio Planning.
+        -   Resolved an accessibility issue where roadmap keyboard shortcuts appeared as a one-time popup when tabbing through the interface. Shortcuts are now persistently accessible from the side panel.
+    -   Removed:
+        -   Removed the % Complete label from demand bars in the Roadmap tab, demand cards in the Kanban tab, and the % Complete column for demand rows in grid and list views, as demands do not support percent complete calculations.
+        -   Removed the standalone demand summarization component from the demand record page in Next Experience for Demand Management. The summary now appears only within the AI Overview tab.
 -   **Version 8.15.3 - July 2026**
     -   Fixed:
         -   Resolved an issue where the Create Demand modal in Portfolio Planning did not work.

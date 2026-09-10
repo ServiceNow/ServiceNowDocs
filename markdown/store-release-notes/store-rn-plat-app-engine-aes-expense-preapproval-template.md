@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-aes-expense-preapproval-template.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Expense Pre-Approval Template release notes
@@ -17,6 +17,10 @@ Version history for the Expense Pre-Approval Template on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.2.6 - August 2026**
+
+    App is a dependency of App Engine Studio.  Please see App Engine Studio for release notes.
 
 -   **Version 29.2.1 - June 2026**
 
@@ -114,5 +118,5 @@ Version history for the Expense Pre-Approval Template on the ServiceNow Store.
     Take charge of your organizational expenses with the Expense pre-approval app. This app helps managers and departments track expense requests, enforce an approval process, and analyze expenditure history.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

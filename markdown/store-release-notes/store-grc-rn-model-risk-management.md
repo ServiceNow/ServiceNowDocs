@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-model-risk-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Model Risk Management release notes
@@ -16,6 +16,23 @@ Version history for the ServiceNow® GRC: Model Risk Management application on t
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   The issue preventing Model Risk Coordinators from editing stakeholders has been resolved. The Edit button is now enabled for Risk Coordinators, allowing them to update stakeholder information as required.
+        -   Fixed styling issues on Model risk record and home page.
+        -   Resolved an infinite loading issue on editing the schedule.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
+-   **Version 22.0.6 - August 2026 \(Zurich\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   Standardized Query Range ACLs: All tables now include standardized query range ACLs, ensuring authenticated users with read permissions can reliably query records. New ACL rules install automatically during upgrade. Automated scripts handle detection and processing of any previously customized ACLs. Review customized query range ACLs after upgrade to confirm alignment with your access policy.
@@ -37,5 +54,5 @@ Version history for the ServiceNow® GRC: Model Risk Management application on t
     Model Risk Management \(MRM\) application focuses on identifying, assessing, and mitigating the risks associated with using quantitative models in decision-making processes. These models, commonly used in financial services for tasks such as pricing, value-at-risk calculations, and cashflow projections, can carry significant risk if they produce flawed or misleading results.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

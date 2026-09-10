@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-manufacturing-quality-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manufacturing Quality Management release notes
@@ -15,6 +15,26 @@ breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow
 Version history for the ServiceNow® Manufacturing Quality Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 5.5.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 5.4.2 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 5.2.2 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 4.1.4 - August 2026**
+
+    No release notes.
+
+-   **Version 4.0.3 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 3.3.0 - June 2026**
 
@@ -53,5 +73,5 @@ Version history for the ServiceNow® Manufacturing Quality Management applicatio
         -   Manufacturing Quality Management
             -   The Manufacturing Quality Management plugin provides the foundation for managing Non-Conformances \(NCs\) and Quality Issues \(QIs\) across products, assets, and manufacturing operations. It enables teams to consistently capture quality problems, coordinate investigation activities, and collaborate with the right stakeholders throughout the resolution process.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

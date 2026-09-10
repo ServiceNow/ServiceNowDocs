@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-erp-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Finance - ERP Integration Framework release notes
@@ -18,6 +18,29 @@ Version history for the Finance Operations Management Finance - ERP Integration 
 
 ## Version history
 
+-   **Version 21.0.1 - September 2026 \(Australia and Brazil\)**
+    -   New:
+        -   Added support for receiving purchase order confirmations from SupplyOn suppliers, including validation of the confirmation data received.
+        -   Added service start and end dates to purchase order line data for service-based purchase orders.
+        -   Strengthened access controls on ERP integration data tables to prevent unauthorized bulk data queries by adding query\_range ACLs.
+    -   Changed:
+        -   Improved supplier matching accuracy on purchase orders by prioritizing the supplier's ERP company code.
+        -   Updated the GL account field label for consistency.
+    -   Fixed:
+        -   An automatically-created parent product category could be assigned the wrong product type.
+        -   The source choice list appeared empty on the ERP Source Configuration page.
+        -   Improved the reliability of ERP source configuration lookups.
+-   **Version 20.0.0 - September 2026**
+    -   New:
+        -   Added support for receiving purchase order confirmations from SupplyOn suppliers, including validation of the confirmation data received.
+        -   Added service start and end dates to purchase order line data for service-based purchase orders.
+    -   Changed:
+        -   Improved supplier matching accuracy on purchase orders by prioritizing the supplier's ERP company code.
+        -   Updated the GL account field label for consistency.
+    -   Fixed:
+        -   An automatically-created parent product category could be assigned the wrong product type.
+        -   The source choice list appeared empty on the ERP Source Configuration page.
+        -   Improved the reliability of ERP source configuration lookups.
 -   **Version 19.0.3 - June 2026 \(Australia\)**
 
     New: Added Access Control Lists \(ACLs\) to support the Non‑Glide Cobalt Raven Brazil directive.

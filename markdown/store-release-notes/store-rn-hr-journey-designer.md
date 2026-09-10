@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-journey-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Journey designer release notes
@@ -18,6 +18,14 @@ Version history for the Journey designer application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.6.9 - September 2026**
+
+    Fixed: Fixed security defects as part of Project Shield.
+
+-   **Version 7.6.5 - August 2026**
+    -   Changed: Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows
+        -   Updated agentic workflows in Journey Designer to align with the Otto rebranding initiative.
+        -   Replaced legacy product terminology, labels, visual references and user-facing text with Otto branding.
 -   **Version 7.5.0 - July 2026**
 
     Switched default model from nowLLM to optimal small 3P model for HRSD skills.
@@ -178,5 +186,5 @@ Version history for the Journey designer application on the ServiceNow Store.
     Journey designer brings together the power of Lifecycle Events and the flexibility of Journey Accelerator, so that employees and managers have one unified experience for both curating and navigating a journey. Admins build journey configurations for employee transitions such as onboarding, offboarding, leaves of absence, career growth, and more. Managers create and modify their own journeys for team members. They can also add recommended learning \(powered by machine learning\) and send personalized emails to their employees from the journey. Customers using Lifecycle Events and/or Journey Accelerator can utilize their existing configurations to create journeys. New customers will need Lifecycle Events for Enterprise and Journey Accelerator \(will be automatically installed with Journey designer\) before building journey configurations.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

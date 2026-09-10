@@ -1,23 +1,30 @@
 ---
-title: Now Assist for Threat Intelligence Security Center release notes
-description: Version history for the ServiceNow Now Assist for Threat Intelligence Security Center application on the ServiceNow Store.
+title: Otto for Threat Intelligence Security Center release notes
+description: Version history for the ServiceNow Otto for Threat Intelligence Security Center application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-now-assist-tisc.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Threat Intelligence Security Center release notes
+# Otto for Threat Intelligence Security Center release notes
 
-Version history for the ServiceNow® Now Assist for Threat Intelligence Security Center application on the ServiceNow Store.
+Version history for the ServiceNow® Otto for Threat Intelligence Security Center application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 2.6.1 - September 2026**
+
+    New: AI-Powered Intelligence Processing imports threat advisories from PDF and image files and extracts structured indicators of compromise \(IOCs\), threat actors, malware, and campaigns. A review pane displays confidence scores and extraction reasoning, and an audit record is generated for every import.
+
+-   **Version 2.4.0 - August 2026**
+    -   New: Added support for Google Gemini 3.5 Flash and OpenAI GPT 5.4 mini models for Case summarization.
+    -   Changed: Now Assist has been renamed to ServiceNow Otto, ServiceNow's AI experience brand.
 -   **Version 2.2.0 - July 2026**
     -   New: Introduced Report Authoring capability with customizable styling options. Analysts can now generate AI-powered threat intelligence reports directly from threat case data with simple instructions to guide content, focus, and formatting.
     -   Fixed: Enhanced case summarization with improved performance and faster response times while maintaining summary quality.
@@ -26,5 +33,5 @@ Version history for the ServiceNow® Now Assist for Threat Intelligence Security
     Now Assist for Threat Intelligence Security Center brings generative AI directly into the analyst workflow. Get AI-generated case summaries for instant situational awareness, natural language querying across threat intelligence data, and contextual recommendations — enabling analysts to investigate faster, hand off seamlessly, and focus on high-priority threats instead of manual triage.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

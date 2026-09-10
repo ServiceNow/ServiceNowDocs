@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-cc-containers.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 16
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response and Configuration Compliance for Containers release notes
@@ -18,6 +18,42 @@ Version history for the Vulnerability Response and Configuration Compliance for 
 
 ## Version history
 
+-   **Version 30.8.5 - September 2026 \(USEM\)**
+    -   New:
+        -   Comprehensive Wiz integration support that includes ingestion of Wiz Running Container Vulnerability findings into the Container Vulnerability Response framework.
+        -   Heartbeat monitoring for the container vulnerability response integration framework, providing improved visibility into integration health status.
+        -   A Source Severity column to the vulnerability finding form.
+        -   Discovered item source data now includes resource-delete information, improving traceability when a resource is removed.
+        -   A configurable buffer-time parameter for the Wiz integration.
+    -   Changed: Enhancements to configuration item lookup and validation logic for the Wiz integration.
+    -   Fixed:
+        -   An issue where vulnerabilities might be missing from container vulnerable items due to a broken reference.
+        -   An issue where a container vulnerable item's deployment status might flip incorrectly when all deployments for a repository are removed while the related finding remained open.
+        -   An issue where the post-integration job might fail for a third Wiz integration when image mapping data was not yet available.
+        -   An issue where container vulnerable items retained outdated cluster information after images were removed from deployment, instead of reflecting only current deployments.
+        -   Excessive memory consumption and slow performance in the scheduled job that aggregates configuration item manifest data for asset processing.
+        -   Inconsistent translations of chart titles and filter labels on the Container Vulnerability Management Overview dashboard for non-English languages.
+    -   Removed: Removed discovery as a data source for determining finding granularity for new customers.
+-   **Version 2.20.3 - September 2026**
+    -   New:
+        -   Comprehensive Wiz integration support that includes ingestion of Wiz Running Container Vulnerability findings into the Container Vulnerability Response framework.
+        -   Heartbeat monitoring for the container vulnerability response integration framework, providing improved visibility into integration health status.
+        -   A Source Severity column to the vulnerability finding form.
+        -   Discovered item source data now includes resource-delete information, improving traceability when a resource is removed.
+        -   A configurable buffer-time parameter for the Wiz integration.
+    -   Changed: Enhancements to configuration item lookup and validation logic for the Wiz integration.
+    -   Fixed:
+        -   An issue where vulnerabilities might be missing from container vulnerable items due to a broken reference.
+        -   An issue where a container vulnerable item's deployment status might flip incorrectly when all deployments for a repository are removed while the related finding remained open.
+        -   An issue where the post-integration job might fail for a third Wiz integration when image mapping data was not yet available.
+        -   An issue where container vulnerable items retained outdated cluster information after images were removed from deployment, instead of reflecting only current deployments.
+        -   Excessive memory consumption and slow performance in the scheduled job that aggregates configuration item manifest data for asset processing.
+        -   Inconsistent translations of chart titles and filter labels on the Container Vulnerability Management Overview dashboard for non-English languages.
+    -   Removed: Removed discovery as a data source for determining finding granularity for new customers.
+-   **Version 30.7.0 - August 2026**
+    -   Fixed:
+        -   Improved reliability of vulnerability rollup counts on container images. You might see improvements in performance.
+        -   Rollup counts and metrics for container image vulnerabilities \(total vulnerabilities, active count, percent remediated, EPSS and ransomware/CISA-KEV indicators\) are now calculated using dedicated configuration entries for the Container Image and Container Vulnerability tables, rather than a single shared configuration record. This change improves the accuracy and long-term maintainability of vulnerability rollup data on container images, without any changes in existing workflows or dashboards.
 -   **Version 30.4.4 - July 2026 \(USEM\)**
     -   Fixed:
         -   An issue where state changes on a remediation task were not propagated to its associated vulnerable items \(VITs, AVITs, and CVITs\) if the item count exceeded the max\_inline\_limit property.
@@ -205,5 +241,5 @@ Version history for the Vulnerability Response and Configuration Compliance for 
     Vulnerability Response and Configuration Compliance for Containers helps organizations respond to container vulnerabilities quickly and efficiently by connecting security and application teams, and providing real-time visibility into your security posture. Container Vulnerability Response connects the workflow and automation capabilities of the ServiceNow AI Platform® with vulnerability scan data from leading container security vendors to give your teams a single platform for a response that can be shared between security and application teams.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

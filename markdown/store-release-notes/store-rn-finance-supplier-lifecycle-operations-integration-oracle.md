@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-supplier-lifecycle-operations-integration-oracle.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Lifecycle Operations Integration with Oracle release notes
@@ -18,6 +18,10 @@ Version history for the Supplier Lifecycle Operations Integration with Oracle ap
 
 ## Version history
 
+-   **Version 1.3.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Oracle EBS data integration and synchronization.
 -   **Version 1.2.1 - December 2025**
     -   Changed: Added granular roles to system properties in accordance with the new directives.
     -   Fixed:
@@ -36,5 +40,5 @@ Version history for the Supplier Lifecycle Operations Integration with Oracle ap
     This application enables bi-directional integration between Supplier Lifecycle Operations to Oracle EBS and Oracle Fusion which allows you to create, update supplier data.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

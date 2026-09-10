@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Hiring tab release notes
@@ -38,5 +38,5 @@ Version history for the Hiring tab on the ServiceNow Store.
     The hiring tab enables Hiring Managers to perform and track all their hiring-related activities.It enables hiring managers to open their job requisitions and collaborate with recruiters to get them finalized. As applications stream in, hiring tab provides a one-stop destination to view, track &amp; provide decisions on applications. The hiring tab provides features for hiring managers to easily collaborate with Recruiters in the context of job requisitions &amp; applications and allow easy and fast decision-making.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

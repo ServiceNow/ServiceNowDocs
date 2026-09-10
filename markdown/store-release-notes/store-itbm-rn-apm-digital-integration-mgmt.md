@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-apm-digital-integration-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Application Portfolio Management Digital Integration Management release notes
@@ -17,6 +17,10 @@ Version history for the Application Portfolio Management Digital Integration Man
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.6.4 - August 2026 \(Australia\)**
+
+    Changed: Removed a hardcoded platform\_host system ID from the EA credential-field UI policy condition. Credential fields on sn\_apm\_di\_credential now enforce read-only consistently across all customer instances, regardless of platform host.
 
 -   **Version 1.6.0 - June 2026**
     -   New: Added support for query\_range access control lists \(ACLs\).

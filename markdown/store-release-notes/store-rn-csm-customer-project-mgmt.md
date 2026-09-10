@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-project-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Project Management release notes
@@ -16,6 +16,13 @@ Version history for the ServiceNow® Customer Project Management application on 
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.3.0 - September 2026**
+    -   Changed:
+        -   Field-Level Access for Store Users
+            -   Store stakeholders and managers can now view and edit Assigned To, Assignment Group, and Priority fields on customer-visible project tasks
+    -   Fixed:
+        -   Security Fix
+            -   Fixed unauthorized access vulnerability in Customer Project utilities by enforcing execute ACLs on GlideAjax calls
 -   **Version 2.2.0 - July 2026**
 
     Changed: Added sn\_csm\_ppm.project\_task\_writer​ role that gives read/write access to customer project tasks.
@@ -29,5 +36,5 @@ Version history for the ServiceNow® Customer Project Management application on 
     -   Customer Service Management provides an integration with the ServiceNow PPM Standard application, earlier known as Project Portfolio Suite with Financials.
     -   Customers can use this integration to create projects and project tasks for their customer accounts. Customers can also provide end users with visibility into their projects and tasks from the Customer Service Portal and enable them to request additional actions.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

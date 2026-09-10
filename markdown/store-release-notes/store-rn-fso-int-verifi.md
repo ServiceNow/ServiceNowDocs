@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-verifi.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations Integration with Verifi release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Sto
 Version history for the ServiceNow® Financial Services Operations Integration with Verifi application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.1.0 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.0.1 - May 2026**
 
@@ -25,5 +29,5 @@ Version history for the ServiceNow® Financial Services Operations Integration w
     This application enables integrating Financial Services Operations with Verifi's Cardholder Dispute Resolution Network \(CDRN\) to support launching pre-dispute cases within the issuer dispute workflow. It assists in deflecting chargebacks with predefined subflows for eligibility checks, case creation, and periodic polling, and enables resolution within Verifi's standard 72-hour window.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

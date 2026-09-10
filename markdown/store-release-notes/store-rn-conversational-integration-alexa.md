@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Integration with Alexa release notes
@@ -48,5 +48,5 @@ Version history for the Conversational Integration with Alexa integration on the
     ServiceNow® Conversational Integration with Alexa enables ServiceNow Virtual Agent to interact with requesters through Alexa voice interface using the Virtual Agent topics.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HR Service Delivery NLU Model for Virtual Agent Conversations release notes
@@ -49,5 +49,5 @@ Version history for the HR Service Delivery NLU Model for Virtual Agent Conversa
     New: NLU models are trained to understand different statements that a user might make during a conversation and relate these statements to a task that the user might want to perform. The NLU models for HR provide NLU support to the HR Virtual Agent conversation topics.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

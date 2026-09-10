@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-compliance-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Compliance Case Management release notes
@@ -18,6 +18,12 @@ Version history for the GRC Compliance Case Management application on the Servic
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Improved protection against unauthorised query-based data discovery.
+        -   ACL behaviour across new installs, upgrades, and true-up releases.
+        -   Reduced operational dependency on manual remediation activities.
+        -   Zurich and Australia compatibility maintained for supported store applications.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New: Manage Smart Assessment templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.
     -   Changed: Standardized query range security ACLs are now applied across all tables, ensuring consistent query access for authenticated users with appropriate read permissions throughout the platform. These ACL rules are installed automatically during upgrade with no administrator action required — automated upgrade scripts handle the full transition, including detection and processing of previously customized ACLs to ensure existing configurations continue to function without interruption. If your instance includes administrator-modified query range ACLs, a post-upgrade review is recommended to confirm alignment with your intended access policies.

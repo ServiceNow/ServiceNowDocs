@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-successfactors-learning-spoke.html
 release: store
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SuccessFactors Learning Spoke release notes
@@ -18,9 +18,13 @@ Version history for the SuccessFactors Learning Spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.1.1 - September 2026**
+
+    Fixed Minor Issues
+
 -   **Version 1.0.0 - February 2025**
     -   ATTENTION: Use of this product requires a license for either IntegrationHub Enterprise, HR Service Delivery Enterprise, or Talent Development.
     -   Provides actions to integrate SuccessFactors Learning courses and user activity with ServiceNow.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

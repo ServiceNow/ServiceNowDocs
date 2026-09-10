@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Event Management Connectors release notes
@@ -18,6 +18,20 @@ Version history for the IT Operations Management Event Management Connectors on 
 
 ## Version history
 
+-   **Version 2.21.4 - September 2026**
+    -   Changed: Add support for JSON api in vRealize connector
+    -   Fixed:
+        -   PRB2033283 - OBM Pull Connector watermark logic can deterministically miss events when multiple OBM events share the same timestamp.
+        -   PRB2070096 - EM Connector GrafanaPushConnectorScript resets the Severity value for "resolved" state events from Grafana when payload contains labels.severity value
+        -   PRB2050695 - \[EM-Push Connector\] Custom push connector: timeformat5 generates undefined variable "alertTime" for EPOCH time format → ReferenceError, HTTP 500, events dropped
+        -   PRB2062261 - Exclude metric registration events \(classification=2\) from event forwarding
+        -   PRB2019164 - Datadog Metrics Connector Definition is not pulling all the metrics from Datadog into ServiceNow. E.g. Metrics for containers are not coming in.
+        -   PRB2074845 - Push Connector script misinterprets dot-containing JSON keys causing HTTP 400/500 errors
+        -   PRB2063014 - Description Population for Azure Issue Incident
+-   **Version 2.20.2 - August 2026**
+    -   Changed:
+        -   Enhanced Dynatrace Event Connector to support Dynatrace Grail 3rd Gen APIs
+        -   Enhanced Azure Event connector to support Azure issues from Azure monitor.
 -   **Version 2.19.4 - June 2026**
     -   Changed:
         -   Enhanced OTel metric connector to support Kubernetes metrics out of the box.
@@ -247,5 +261,5 @@ Version history for the IT Operations Management Event Management Connectors on 
         -   BMC TrueSight connector
         -   Amazon CloudWatch connector
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-url-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITOM URL Discovery release notes
@@ -15,6 +15,13 @@ breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceN
 Version history for the ServiceNow® ITOM URL Discovery application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.5.5 - September 2026**
+    -   New: New system property \[sn\_acc\_vis\_content.full\_url\_discovery\_daily\_max\_rows\] introduced to limit the number of URL discovered through Broad URL Monitoring.
+    -   Fixed: Navigation issues with bulk upload of the URLs.
+-   **Version 1.4.3 - August 2026**
+
+    Fixed: You can now add one or more URLs to targeted discovery from the Other URLs tab and the domain details page in the ITOM URL Discovery for SAM dashboard without receiving an error.
 
 -   **Version 1.2.1 - July 2026**
     -   New: Application Service and SAM Product are now optional when monitoring URLs, so you can track URLs and domains that aren't tied to a specific service or product.
@@ -37,5 +44,5 @@ Version history for the ServiceNow® ITOM URL Discovery application on the Servi
         -   Targeted URL Discovery — tracks curated URLs with deep metrics including total usage time, last accessed timestamps, and per-device access details.
         -   Broad URL Discovery — passively captures all user-visited URLs and page hit counts across the organization.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

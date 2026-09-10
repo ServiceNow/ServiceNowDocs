@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-po-bigfix.html
 release: store
 topic_type: reference
-last_updated: "2025-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Patch Orchestration with HCL Bigfix release notes
@@ -17,6 +17,10 @@ Version history for the Vulnerability Response Patch Orchestration with HCL Bigf
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.0.6 - September 2026**
+
+    New: Deploy more than one patch to more than one computer group in a single deployment, instead of one patch to one computer group at a time.
 
 -   **Version 1.3.0 - May 2025**
 
@@ -43,5 +47,5 @@ Version history for the Vulnerability Response Patch Orchestration with HCL Bigf
     This patch orchestration integration with the Vulnerability Response application uses scheduled patch imports \(Fixlets\) from the HCL BigFix product to help your security and IT teams identify your critical vulnerabilities and then apply the updates that can fix them.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

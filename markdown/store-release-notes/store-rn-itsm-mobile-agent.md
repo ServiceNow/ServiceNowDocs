@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM Mobile Agent release notes
@@ -99,5 +99,5 @@ Version history for the ITSM Mobile Agent on the ServiceNow Store.
     The new ITSM Mobile Agent app delivers out of the box mobile-first experiences designed for agents to triage, act on, and resolve incidents on the go. ITSM Mobile Agent improves productivity with an intuitive interface to manage all the work, view schedules, check who is on-call, respond to major incidents, and more.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

@@ -1,23 +1,29 @@
 ---
-title: Now Assist for Enterprise Architecture \(EA\) release notes
-description: Version history for the Now Assist for Enterprise Architecture \(EA\) application on the ServiceNow Store.
+title: ServiceNow Otto for Enterprise Architecture \(EA\) release notes
+description: Version history for the ServiceNow Otto for Enterprise Architecture \(EA\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-ea.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Enterprise Architecture \(EA\) release notes
+# ServiceNow Otto for Enterprise Architecture \(EA\) release notes
 
-Version history for the Now Assist for Enterprise Architecture \(EA\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Enterprise Architecture \(EA\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 7.5.2 - August 2026**
+    -   New: Added support for linked text in Enterprise Architecture query agent responses. Selecting a linked record opens that record directly in Enterprise Architecture Workspace.
+    -   Changed: Rebranded Now Assist to ServiceNow Otto. The product name Now Assist for Enterprise Architecture is updated to ServiceNow Otto for Enterprise Architecture as part of the rebranding initiative.
+-   **Version 7.5.1 - August 2026 \(Zurich\)**
+    -   New: Added support for linked text in Enterprise Architecture query agent responses. Selecting a linked record opens that record directly in Enterprise Architecture Workspace.
+    -   Changed: Rebranded Now Assist to ServiceNow Otto. The product name Now Assist for Enterprise Architecture is updated to ServiceNow Otto for Enterprise Architecture as part of the rebranding initiative.
 -   **Version 7.4.1 - July 2026 \(Australia\)**
     -   New:
         -   Default AI model provider for the Now Assist for Enterprise Architecture skills changed from Now LLM to Azure Open AI

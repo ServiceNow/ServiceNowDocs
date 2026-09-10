@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-conversational-appt-booking.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Appointment Booking release notes
@@ -18,6 +18,12 @@ Version history for the Conversational Appointment Booking application on the Se
 
 ## Version history
 
+-   **Version 1.6.0 - August 2026**
+    -   Changed:
+        -   Updated Appointment Booking control with improved performance and reliability.
+        -   Conversational Appointment Booking now supports Now Assist Virtual Agent, enabling customers to schedule, reschedule, or cancel Walk-up appointments through native chat or Engagement Messenger.
+        -   Agents can delegate appointment management to the Now Assist Virtual Agent mid-conversation using Conversation Autopilot.
+        -   Admins can configure appointment booking flows using the Appointment Booking Rich Control in Now Assist  Virtual Agent.
 -   **Version 1.5.2 - June 2026**
     -   Changed:
         -   Conversational Appointment Booking now supports Now Assist Virtual Agent, enabling customers to schedule, reschedule, or cancel Walk-up appointments using native chat or Engagement Messenger.
@@ -52,5 +58,5 @@ Version history for the Conversational Appointment Booking application on the Se
     Conversational Appointment Booking enables customers to manage appointments using the ServiceNow Virtual Agent via native chat capabilities. Virtual Agent topics are provided to support Customer Service Management Walk-up appointments.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

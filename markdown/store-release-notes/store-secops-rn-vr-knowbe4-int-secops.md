@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-12-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # KnowBe4 Integration for SecOps release notes
@@ -35,5 +35,5 @@ Version history for the KnowBe4 Integration for SecOps application on the Servic
     The KnowBe4 Integration for SecOps application integrates KnowBe4 with the Cybersecurity Executive Dashboard, providing detailed insights into your organization's phishing preparedness. This allows Cybersecurity executives to see how the organization is performing in phishing simulations and identify areas where additional trainings may be needed.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Tanium release notes
@@ -74,5 +74,5 @@ Version history for the Service Graph Connector for Tanium integration on the Se
     This integration imports data from Tanium Asset into ServiceNow Service Graph. Use the integration to sync your Tanium Asset data to the ServiceNow Configuration Management Database \(CMDB\). This integration uses Tanium Asset views and allows for periodic data synchronization from Tanium. This is the recommended method to bring data from Tanium Asset to CMDB with support for bringing software usage data as well.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

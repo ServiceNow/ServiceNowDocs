@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-digital-resilience-third-party-info-register.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Digital Resilience Third-party Information Register release notes
@@ -18,6 +18,21 @@ Version history for the Digital Resilience Third-party Information Register appl
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   New:
+        -   Added data quality warnings for missing, mismatched, and duplicate contract information.
+        -   Added criticality warnings for B.02.02 and B.07.01 reports.
+    -   Changed:
+        -   Added data quality warnings report to consolidated report downloads.
+        -   Updated CSV downloads to honor active list filters.
+        -   Updated legal-person validation to create a warning for non-LEI/EUID identifiers.
+    -   Fixed:
+        -   Corrected contract filtering in CSV exports \(PRB2004738\).
+        -   Resolved cascading supplier updates across Rank 1 supply chains \(PRB2026180\).
+        -   Corrected contract referential integrity warnings \(PRB2026184\).
+        -   Resolved orphaned overarching contract warnings \(PRB2026189\).
+        -   Corrected supply criticality validation warnings \(PRB2026170\).
+        -   Added data quality warnings for ROI report issues \(PRB2067305\).
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
         -   Added LEI code validation against GLEIF API for legal entities, branches, and third-party providers.
@@ -55,5 +70,5 @@ Version history for the Digital Resilience Third-party Information Register appl
     Application provides default template aligned with DORA \(Digital Operation Resilience Act\) regulatory requirements for contractual arrangements for the services provided by third parties.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

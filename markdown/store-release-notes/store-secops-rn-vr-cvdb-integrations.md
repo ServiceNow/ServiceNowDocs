@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CVDB Integrations release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® CVDB Integrations application on the Servic
     -   Each integration parses the source-specific advisory format and maps fields to the CVDB schema — including CVE IDs, affected softwares, severity scores, references, and timestamps. Advisories that carry a CVE identifier are linked to the corresponding canonical CVDB record; advisories without a CVE are persisted as non-CVE records with a unique canonical identifier \(e.g., JVN-YYYY-XXXXX, EUVD-YYYY-XXXXX\). A deduplication and canonicalization layer ensures that the same vulnerability reported by multiple sources is grouped rather than duplicated.
     -   Source attribution and field-level provenance are preserved for every ingested record. Customers can filter vulnerabilities by source in the VR UI, and the API exposes source metadata to support downstream automation. Monitoring and alerting support is included to surface ingestion failures and track daily advisory counts.
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

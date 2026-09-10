@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # FSO - Advanced release notes
@@ -15,6 +15,12 @@ breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Sto
 Version history for the ServiceNow® FSO - Advanced application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+## Version history
+
+-   **Version 2.1.0 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.0.0 - April 2026**
     -   FSO - Advanced applies generative and agentic AI to complex financial services cases, including credit card disputes, insurance claims, and customer inquiries.Key capabilities include:
@@ -25,5 +31,5 @@ Version history for the ServiceNow® FSO - Advanced application on the ServiceNo
     -   Use these capabilities to quickly and accurately intake case data, summarize key case details, streamline workflows, provide AI assistance, and significantly reduce processing times and mistakes.
     -   These capabilities help financial institutions reduce manual effort, enhance customer satisfaction, and drive growth.
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

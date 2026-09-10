@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-posture-control-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Posture Control core release notes
@@ -17,6 +17,14 @@ Version history for the Vulnerability Response Security Posture Control applicat
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.2.3 - September 2026**
+
+    Changed: Internal packaging optimization to improve application upgrade performance. You might see improved performance during upgrade, but there are no functional or behavioral changes or requirements for end users.
+
+-   **Version 7.2.1 - August 2026**
+
+    Fixed: An accessibility UI issue on the Asset Search page so that Information buttons have sufficient padding, and they no longer appear cramped against their surrounding elements.
 
 -   **Version 7.1.0 - June 2026**
     -   New:
@@ -112,5 +120,5 @@ Version history for the Vulnerability Response Security Posture Control applicat
     Initial release: The core framework for Security Posture Control provides foundational features such as the policy builder and the workspace to view and manage findings.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

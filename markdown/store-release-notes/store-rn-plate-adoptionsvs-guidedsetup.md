@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-11-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Adoption Services Guided Setup release notes
@@ -23,5 +23,5 @@ Version history for the Adoption Services guided setup on the ServiceNow Store.
     New: Added Rich text support for category and task descriptions in Guided Setup.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
 

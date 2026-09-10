@@ -1,23 +1,26 @@
 ---
-title: Now Assist for Health and Safety release notes
-description: Version history for the Now Assist for Health and Safety application on the ServiceNow Store.
+title: ServiceNow Otto for Health and Safety release notes
+description: Version history for the ServiceNow Otto for Health and Safety application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-health-safety.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Health and Safety release notes
+# ServiceNow Otto for Health and Safety release notes
 
-Version history for the Now Assist for Health and Safety application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Health and Safety application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 1.5.1 - August 2026**
+    -   New: Unified AI branding across Health and Safety interfaces. All customer-facing references to "Now Assist," "Moveworks," and "AI Experience" have been replaced with "ServiceNow Otto" in Health and Safety. Design review has confirmed consistency across UI elements, tooltips, images, and documentation.
+    -   Changed: GenAI capabilities now default to third-party model providers. Four Health and Safety GenAI features have updated their default model provider from Now LLM to the best-performing third-party provider \(Azure OpenAI, Google Gemini, or AWS Claude\) per capability. No Now LLM defaults remain in GenAI workflows.
 -   **Version 1.4.1 - June 2026**
 
     New: Contextual Action Planner sidebar in the Health and Safety Workspace: Create actions manually or from AI suggestions, and review them in context across incidents, observations, investigations, cases, audits, work permits, risk assessments, meetings, etc.

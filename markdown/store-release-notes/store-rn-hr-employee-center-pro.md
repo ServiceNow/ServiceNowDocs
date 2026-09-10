@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-employee-center-pro.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Center Pro release notes
@@ -17,6 +17,22 @@ Version history for the Employee Center Pro application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 42.1.6 - September 2026 \(Australia\)**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 38.3.5 - September 2026 \(Zurich\)**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 42.1.1 - August 2026 \(Australia\)**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 38.3.1 - August 2026 \(Zurich\)**
+
+    Updated to support the latest version of the dependent apps.
 
 -   **Version 42.0.4 - July 2026 \(Australia\)**
 
@@ -172,5 +188,5 @@ Version history for the Employee Center Pro application on the ServiceNow Store.
 -   **Version 22.0.7 - September 2021**
     -   Employee Center Pro provides a single unified portal for multi-department service delivery, enabling organizations to easily scale their service solutions across IT, HR, Workplace, Legal, and Procurement so employees can easily find information, get help, and request the services they need. Employee Center Pro expands the portal experience beyond service delivery with employee communication and engagement tools including content publishing and campaigns, content experiences, and employee communities.
 
-**Parent Topic:**[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
+**Parent Topic:**[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
 

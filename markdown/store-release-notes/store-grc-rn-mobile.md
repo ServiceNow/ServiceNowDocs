@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-02-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC Mobile application release notes
@@ -44,5 +44,5 @@ Version history for the GRC Mobile application on the ServiceNow Store.
         -   View your team's overdue and unassigned work, such as issues, remediation tasks, assessments, and indicator tasks.
         -   View items that are assigned to you, such as assessments, risks, issues, and remediation tasks.
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

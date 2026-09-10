@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Security Center integration with CrowdStrike Intelligence release notes
@@ -34,5 +34,5 @@ Version history for the Threat Intelligence Security Center integration with Cro
     The CrowdStrike Intelligence Integration for Threat Intelligence Security Center\(TISC\) serves as an observable enrichment solution. It leverages CrowdStrike Falcon Intelligence to recognize and scan for malware, enriching observables through automated threat lookups based on matching results.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

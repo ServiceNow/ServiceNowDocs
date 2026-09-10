@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sn-app-analytics-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 17
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Platform Analytics Workspace release notes
@@ -18,6 +18,100 @@ Version history for the Platform Analytics Workspace on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.0.14 - September 2026**
+    -   Changed:
+        -   The Edit button is now disabled for RenderJavascript widgets \(com.glide.ui.portal.RenderJavascript\) on migrated dashboards.
+        -   The visualization success message now refers to "AI" instead of "Now Assist".
+    -   Fixed:
+        -   Radio button sets now follow the expected keyboard navigation pattern.
+        -   Numeric signs now render in the correct position in right-to-left languages.
+        -   Column filter operators are now fully translated.
+        -   Drill down to chart now works as expected.
+        -   Dashboard layout stays consistent after discarding changes in edit mode, with no widget gaps or overlaps requiring a page refresh.
+        -   Filters with a default value are now applied when a dashboard loads for the first time.
+        -   Enabling "Apply to Hierarchy" in a filter no longer writes an oversized JSON payload to sys\_user\_preference, preventing out of memory errors on customer instances.
+        -   Out-of-the-box saved filters no longer return an error when you select Save or Delete.
+        -   Applying a saved filter on the visualization or dashboard library pages no longer returns a "Field does not exist on table" error.
+        -   Dashboard sharing search now matches on "contains" rather than "starts with", restoring the behavior from before the Australia release.
+        -   Email address text in the Share modal now meets WCAG 1.4.3 Contrast \(Minimum\) AA requirements.
+        -   The container collapse and expand icon no longer overlaps adjacent text.
+        -   Data visualization descriptions no longer display a null value when no description is set.
+        -   Geo map drilldown now returns data when cmn\_location.country is configured as a reference field.
+        -   Library summary card counts for "Not viewed in last..." cards now reconcile with the filtered list.
+        -   The right-click context menu on library pages now includes "Open in new tab".
+        -   Long tab names no longer overflow in the Export and Scheduled export modals.
+        -   Selecting a search result in Analytics Overview now opens the corresponding item.
+-   **Version 8.4.7 - September 2026**
+    -   Changed:
+        -   Dashboard and visualization panels now update language labels and configuration options when resetting the language, ensuring consistent translation across the interface.
+        -   Visualization success messages now reference "AI" instead of "Now Assist" following Otto rebranding.
+        -   Dashboards now include accessibility improvements for drag handles and the "Change dashboard" button, which now has proper dialog attributes.
+        -   Scheduled export modal message editor now supports adding images, videos, and code changes.
+        -   Bar chart drilldown migration now correctly applies groupBy stacking fields and drilldown context properties.
+        -   Widget layout changes are now persisted correctly after gridstack drag or resize actions.
+        -   Visualization alignment in dashboards has been improved for consistent display.
+        -   Dashboard selection from dropdown now takes effect immediately without requiring a page refresh.
+        -   Single score reports on the default Time sheet dashboard now allow chart interaction.
+    -   Fixed:
+    -   The "View All" option in List visualization no longer breaks, which was due to a script error in drilldowns.
+    -   The "Save" button is now disabled when opening a data visualization unless changes are made.
+    -   Properties overrides are retained in multivisualization calls when drilling down on a geomap in streaming mode.
+    -   Migrated UI Pages in compatibility mode can now be edited.
+    -   Dashboards now load correctly in the Firefox browser, resolving cross-browser issues.
+    -   All strings are now translated in library pages.
+    -   Platform Analytics dashboards no longer apply filters to drilldown visualizations when the follow filter option is disabled.
+    -   Sharing panel no longer uses hardcoded dictionary names and works correctly on non-default instances.
+    -   Charts no longer display "No content available" when exiting editing mode due to incorrect widget or visualization IDs.
+    -   Dashboards now save correctly after selection, and the save button is properly disabled after saving.
+    -   Interval field validation issues in daily scheduled exports have been resolved.
+    -   UI improvements.
+-   **Version 7.4.8 - September 2026**
+    -   Fixed:
+        -   Remove null Default values for data visualization description
+        -   Dashboard exports hang on "Export request queued", even though it is actually complete
+-   **Version 8.4.6 - August 2026**
+    -   Fixed:
+        -   View All from List visualization is broken because of "TypeError: Assignment to constant variable" in ParWidgetsDrilldowns script include
+        -   "Save" button is enabled when opening a data visualization even without making any changes to it
+        -   Properties overrides are lost in multivisualization calls when drilling down on a geomap in streaming mode
+        -   Migrated UI Page in compatibility mode cannot be edited
+        -   Unable to load dashboards on the Firefox browser \(cross browser issue\)
+        -   Some strings are not translated in library pages
+        -   In Platform Analytics dashboards, filters are applied to drilldown visualizations even though the follow filter option is disabled
+        -   Dashboard selection from dropdown not effective until page refresh
+        -   Sharing panel uses hardcoded dictionary names and breaks on non OOB instances
+        -   Chart shows "No content available" message when the user exits editing mode due to wrong widgetSysId and visualizationId
+        -   Widget layout changes not persisted correctly after gridstack drag/resize
+        -   Otto Rebranding: Update "Now Assist" to "AI" in visualization success message
+        -   Dashboards - Change dashboard button is missing aria-haspopup="dialog"
+        -   Single score reports on OOB Time sheet dashboard do not allow chart interaction
+        -   Scheduled export modal message editor missing add image, video, change code buttons
+        -   Interval Field Validation issue in daily scheduled exports
+        -   Switching language does not update the Visualization Type label
+        -   Dashboard/Visualization config panel options are not translated when resetting the language
+        -   Bar chart drilldown migration: wrong groupBy stacking field and missing drilldown context properties
+        -   Edit Dashboards: Drag handles have accessibility issues
+        -   Visualization misalignment in Dashboards
+        -   Save button remains enabled on dashboards after selection and allows saving again
+-   **Version 7.4.7 - August 2026**
+    -   Fixed:
+        -   Tabbing through the page, focus is placed on the grouping of a label and dropdown
+        -   Visualizations misalignment in Dashboards
+        -   Bar chart drilldown migration: wrong groupBy stacking field and missing drilldown context
+        -   View All from List visualization is broken because of "TypeError: Assignment to constant variable" in ParWidgetsDrilldowns script include
+        -   Dashboard selection from dropdown not effective until page refresh
+        -   Service Operations Workspace - dashboard title order should be flipped when in a right-to-left session language such as Arabic or Hebrew. Close button is not flipped currently either
+        -   Dashboard/ Visualization config panel option are not getting translated when resetting the language
+        -   Switching language does not update the Visualization Type label
+        -   "Save" button is enabled when opening a data visualization even without making any changes to it
+        -   Edit Dashboards: "Drag Handles" have accessibility issues.
+        -   In platform analytics dashboard, Filter is getting applied to drilldown visualization even though follow filter option is disabled
+        -   Migrated UI Page in compatibility mode cannot be edited
+        -   Dashboards - Change dashboard button is missing aria-haspopup="dialog"
+        -   Otto Rebranding: Update "Now Assist" to "AI" in visualization success message
+        -   Interval Field Validation Issue in Daily Scheduled Exports
+        -   Save button remains enabled and allows saving it again
+        -   Single score reports on OOB Time sheet dashboard do not allow chart interaction
 -   **Version 8.4.1 - July 2026**
     -   Fixed:
         -   Dashboards and Visualizations

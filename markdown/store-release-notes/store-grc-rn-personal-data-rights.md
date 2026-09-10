@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-personal-data-rights.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Personal Data Rights release notes
@@ -18,6 +18,25 @@ Version history for the GRC: Personal Data Rights application on the ServiceNow 
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Multi-language support is now available for external-facing forms.
+        -   Admins can now configure mandatory and optional fields in requester details.
+        -   PDR form now supports mobile screens.
+    -   Changed:
+        -   Admins can now manage translations directly.
+        -   Requester types in Data Owner Registry are now sourced from the data subject table.
+        -   Acceptance and failure messages for PDR form submissions are now configurable.
+        -   Locations, requester types, and request types are now sorted alphabetically in forms.
+        -   Form annotations have been added.• Cobalt Raven migration changes have been handled for personal data rights.
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
+-   **Version 22.0.7 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
 -   **Version 22.3.4 - June 2026 \(Australia\)**
     -   New:
         -   Configure the Personal Data Rights \(PDR\) external-facing form to map jurisdictions to data subject types and request types, and control whether an authorized agent can submit a request on behalf of a data subject.
@@ -61,5 +80,5 @@ Version history for the GRC: Personal Data Rights application on the ServiceNow 
     The Personal Data Rights application enables individuals associated with an organization in exercising their personal data rights, while assisting the privacy team in monitoring, overseeing, and promptly resolving incoming data rights requests within the SLAs specified by global privacy laws. Additionally, the privacy team has the capability to delegate tasks to different data administrators for the timely fulfillment of individual requests within the defined SLAs.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

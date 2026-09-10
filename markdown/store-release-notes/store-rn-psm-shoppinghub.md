@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-shoppinghub.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Shopping Hub release notes
@@ -18,6 +18,19 @@ Version history for the Shopping Hub application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 12.0.2 - September 2026**
+    -   New:
+        -   Shoppers can manage saved delivery addresses from a new Manage addresses option, including viewing, selecting, and removing multiple saved addresses.
+        -   When deleting saved addresses, shoppers receive confirmation details and deletion status notifications.
+        -   Shoppers can select a business owner when purchasing Level 2 PunchOut items on behalf of another user, ensuring items are added to the appropriate cart and validated against punchout access requirements.
+        -   Super shoppers can select a user to shop on behalf of directly from supported PunchOut purchasing experiences.
+    -   Changed:
+        -   Updated address deletion workflows to provide clearer guidance, including replacement default address selection and enhanced default-address visibility.
+        -   Improved address management usability by preventing removal of all saved addresses and updating address lists dynamically without requiring a page refresh.
+        -   Enhanced PunchOut purchasing workflows with an interim business-owner selection experience before redirecting users to third-party PunchOut sites.
+    -   Fixed:
+        -   Fixed an issue where address deletion failures could incorrectly remove addresses from the list or display a success message.
+        -   Fixed issues that could cause UI errors, empty states, or layout problems after removing saved addresses.
 -   **Version 9.7.1 - June 2026**
 
     Defect fixes.
@@ -135,5 +148,5 @@ Version history for the Shopping Hub application on the ServiceNow Store.
         -   Streamline the quick checkout flow using record producer.
         -   Add pages to provide new experiences.
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

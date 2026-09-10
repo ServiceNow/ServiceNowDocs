@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Admin release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Admin version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Application Insights release notes
@@ -68,5 +68,5 @@ Version history for the Application Insights application on the ServiceNow Store
     Fixed: Intermittent 500/503 errors on App Insights UI
 
 
-**Parent Topic:**[ServiceNow Store - Admin release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
+**Parent Topic:**[ServiceNow Store - Admin version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
 

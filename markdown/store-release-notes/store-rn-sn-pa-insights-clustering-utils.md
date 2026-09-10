@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Insights Clustering Utils release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Insights Clustering Utils application on th
     Clustering skills and scripts for intents and resolution steps to be used by CSAT for Intent \(Conversation Insights 2.0\), Process Mining \(Agent &amp; Activity Analysis\), and Agent Miner. It utilizes Group-Action Framework for clustering, labeling, and reducer, with mapper skills as dependency.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

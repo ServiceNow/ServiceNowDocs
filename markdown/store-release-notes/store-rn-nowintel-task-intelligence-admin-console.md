@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-task-intelligence-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Task Intelligence Admin Console release notes
@@ -18,6 +18,13 @@ Version history for the Task Intelligence Admin Console application on the Servi
 
 ## Version history
 
+-   **Version 5.5.1 - September 2026**
+    -   Fixed:
+        -   Addressed JS Sandbox security directive making scripts compliant with the new KittyScript rules
+        -   Fixed duplicate scheduled retrain jobs created on a manual retrain
+        -   Fixed duplicate scheduled jobs overwriting the production model's UI config
+        -   Fixed WCAG contrast issues in link colors and the Coral dark theme
+        -   Fixed incorrect header color and Coral brand/theme detection on standalone pages
 -   **Version 5.4.0 - July 2026**
     -   Fixed:
         -   Fixed issue in the auto retrain notification email
@@ -122,5 +129,5 @@ Version history for the Task Intelligence Admin Console application on the Servi
     The Task Intelligence Admin Console allows you to easily setup and configure ML solutions to automate task workflows. By following guided setups for specific business outcome objectives, you will quickly be able to track how ML solutions are impacting creation, deflection, triage, remediation and optimization moments to lower the mean-time to resolve \(MTTR\) of tasks.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

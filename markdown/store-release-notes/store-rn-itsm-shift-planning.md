@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-shift-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Shift Planning release notes
@@ -18,6 +18,10 @@ Version history for the Shift Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.3.0 - September 2026 \(Australia\)**
+    -   New: Added Rejected Time off requests list to Scheduling module
+    -   Changed: Improved performance of fetching batch schedules.
+    -   Fixed: Fixed minor defects.
 -   **Version 7.1.1 - July 2026**
 
     Fixed defects
@@ -125,5 +129,5 @@ Version history for the Shift Planning application on the ServiceNow Store.
     Shift planning allows managers and supervisors to configure workforce scheduling.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

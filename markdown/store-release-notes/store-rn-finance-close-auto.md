@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-06-18"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Finance Close Automation release notes

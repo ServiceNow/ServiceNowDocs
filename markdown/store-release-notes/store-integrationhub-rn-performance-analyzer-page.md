@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-performance-analyzer-page.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analyzer Page release notes
@@ -17,6 +17,10 @@ Version history for the Performance Analyzer Page application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.2.1 - August 2026**
+
+    Fixed: Home page loading has been improved to handle large numbers of records more efficiently. Users now experience progressive loading, reducing delays and improving responsiveness when accessing the home page with extensive data.
 
 -   **Version 3.1.0 - March 2026**
     -   Page Load Performance Insights:
@@ -44,5 +48,5 @@ Version history for the Performance Analyzer Page application on the ServiceNow 
     New: We're excited to introduce the Performance Analyzer, a powerful new tool that brings end-to-end visibility into how your Next Experience pages are performing.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Strategic Portfolio Management release notes
+title: ServiceNow Store - Strategic Portfolio Management version history release notes
 description: The ServiceNow Store contains Strategic Portfolio Management products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itbm-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Strategic Portfolio Management release notes
+# ServiceNow Store - Strategic Portfolio Management version history release notes
 
 The ServiceNow Store contains Strategic Portfolio Management products.
 
@@ -52,6 +52,8 @@ Version history for the Export to PowerPoint application on the ServiceNow Store
 Version history for the Export to PowerPoint for Enterprise Architecture on the ServiceNow Store.
 -   **[Export to PowerPoint for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-export-to-powerpoint-spm.md)**  
 Version history for the Export to PowerPoint application for Strategic Portfolio Management on the ServiceNow Store.
+-   **[Extended Security for Enterprise-Wide Deployment release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-spm-extended-security-enterprise-wide-deployment.md)**  
+Version history for the ServiceNow® Extended Security for Enterprise-Wide Deployment application on the ServiceNow Store.
 -   **[Gantt UI Builder Component release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-gantt-ui-builder-component.md)**  
 Version history for the on the ServiceNow Store.
 -   **[Goal Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-goal-framework.md)**  
@@ -70,18 +72,14 @@ Version history for the Investment Funding on the ServiceNow Store.
 Version history for the Security Operations Lucidchart Diagramming Spoke application on the ServiceNow Store.
 -   **[Lucidchart Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-lucidchart-integration.md)**  
 Version history for the Security Operations Lucidchart Integration application on the ServiceNow Store.
+-   **[MCP for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-spm-mcp-spm.md)**  
+Version history for the ServiceNow® MCP for Strategic Portfolio Management application on the ServiceNow Store.
 -   **[Microsoft Azure DevOps integration for Agile Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-ms-azure-devops.md)**  
 Version history for the Microsoft Azure DevOps integration for Agile Development on the ServiceNow Store.
 -   **[Microsoft Azure DevOps Integrations Common release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-ms-azure-devops-common.md)**  
 Version history for the IT Business Management Microsoft Azure DevOps Integrations Common on the ServiceNow Store.
 -   **[Mobile Time Sheets release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-mobile-time-sheets.md)**  
 Version history for the Mobile Time Sheets on the ServiceNow Store.
--   **[Now Assist for Collaborative Work Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-cwm.md)**  
-Version history for the Now Assist for Collaborative Work Management application on the ServiceNow Store.
--   **[Now Assist for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-ea.md)**  
-Version history for the Now Assist for Enterprise Architecture \(EA\) application on the ServiceNow Store.
--   **[Now Assist for Strategic Portfolio Management \(SPM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-spm.md)**  
-Version history for the Now Assist for Strategic Portfolio Management \(SPM\) application on the ServiceNow Store.
 -   **[Performance Analytics content pack for Agile 2.0 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-pa-content-agile.md)**  
 Version history for the IT Business Management Performance Analytics content pack for Agile 2.0 on the ServiceNow Store.
 -   **[Performance Analytics content pack for Essential SAFe release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-pa-content-essential-safe.md)**  
@@ -106,6 +104,12 @@ Version history for the Roadmap UI Builder Component on the ServiceNow Store.
 Version history for the IT Business Management Scenario Planning for PPM on the ServiceNow Store.
 -   **[Scrum Common release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-scrum-common.md)**  
 Version history for the IT Business Management Scrum Common on the ServiceNow Store.
+-   **[ServiceNow Otto for Collaborative Work Management \(CWM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-cwm.md)**  
+Version history for the ServiceNow Otto for Collaborative Work Management \(CWM\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Enterprise Architecture \(EA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-ea.md)**  
+Version history for the ServiceNow Otto for Enterprise Architecture \(EA\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-now-assist-spm.md)**  
+Version history for the ServiceNow Otto for Strategic Portfolio Management application on the ServiceNow Store.
 -   **[SPM Enterprise-Wide Deployment release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-spm-rn-enterprise-wide-deployment.md)**  
 Version history for the ServiceNow® SPM Enterprise-Wide Deployment application on the ServiceNow Store.
 -   **[SPM Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-spm-retail.md)**  
@@ -135,5 +139,5 @@ Version history for the IT Business Management Work Item Integrations Common on 
 -   **[Work Progress Status for SAFe release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-work-progress-status-safe.md)**  
 Version history for the Work Progress Status for SAFe on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

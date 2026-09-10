@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # EMR Provider Directory Sync release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® EMR Provider Directory Sync application on 
     -   EMR Provider Directory Sync connects to your EMR's FHIR-based provider directory and automatically imports Locations, Organizations, Practitioners, and PractitionerRoles into ServiceNow. Locations import with normalized addresses and parent/child hierarchy so facility structure matches your EMR. Organizations import with paired Business Locations to support Customer Service Management case routing. Practitioners and their roles sync into ServiceNow users and care team assignments, so practitioners are available for care team membership and case routing without manual setup.
     -   A configurable scheduled flow orchestrates the sync end-to-end, with delta sync so only changed records are processed after the initial load, and a dedicated sync log gives administrators visibility into every run for troubleshooting and audit.
 
-**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
+**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-02"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Bridge release notes

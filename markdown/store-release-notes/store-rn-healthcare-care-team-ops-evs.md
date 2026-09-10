@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Care Team Operations for EVS release notes
@@ -42,5 +42,5 @@ Version history for the Care Team Operations for EVS on the ServiceNow Store.
     The ServiceNow Care Team Operations for Environmental Services Healthcare Operations Core platform and includes case types, record producers, and workflows designed to help care teams report issues related to environmental services. For organizations usingField Service Management, the out-of-the-box workflows synchronize data between the case and the work order. This enables facilities technicians to manage and complete service requests efficiently, ensuring timely resolution of physical environment and operational infrastructure issues raised by care teams.
 
 
-**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
+**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
 

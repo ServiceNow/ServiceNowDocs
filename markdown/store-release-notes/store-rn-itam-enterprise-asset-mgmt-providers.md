@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-asset-mgmt-providers.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Asset Management for Providers release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow St
 Version history for the ServiceNow® Enterprise Asset Management for Providers application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.0.2 - September 2026**
+
+    Changed: Updated application dependency versions to align with the latest supported Enterprise Asset Management and ITAM Common for DaaS releases.
 
 -   **Version 1.0.1 - March 2026**
 
@@ -38,5 +42,5 @@ Version history for the ServiceNow® Enterprise Asset Management for Providers a
         -   Reduces manual effort and accelerates turnaround for defective asset replacement.
         -   Improves visibility and compliance across provider workflows.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

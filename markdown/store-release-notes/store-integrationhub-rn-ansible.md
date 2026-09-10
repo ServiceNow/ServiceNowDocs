@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ansible.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Ansible spoke release notes
@@ -18,6 +18,9 @@ Version history for the Integration Hub Ansible spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.4.0 - August 2026**
+    -   New: Added support for platform OAuth functionality in Ansible Spoke authentication, enabling standardized token management via ServiceNow's native OAuth framework.
+    -   Fixed: Fixed an issue where OAuth token retrieval failed with a "User is not authenticated" error in the Australia release despite a valid token being present.
 -   **Version 2.3.0 - June 2026**
 
     Fixed: Streamline ACLs.
@@ -70,5 +73,5 @@ Version history for the Integration Hub Ansible spoke on the ServiceNow Store.
     Automate job scheduling, job templates, inventory and user management in your Ansible Tower environment from the ServiceNow instance.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

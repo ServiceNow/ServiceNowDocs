@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Metric Explorer release notes
@@ -73,5 +73,5 @@ Version history for the ITOM Service Operations Workspace Metric Explorer applic
     -   The application improves the Agent Client Collector Monitoring solution, providing operators with better visualization of metrics across CIs as well as better understanding of anomalies, alerts, and relations between metrics.
     -   With Metric Explorer, you can explore metrics related to a specific alert, or choose a CI and explore its metrics. You can compare and correlate host metrics with multiple application metrics, service entry points and more.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

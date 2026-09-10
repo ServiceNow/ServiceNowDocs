@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-event-management-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Event Management Core release notes
@@ -17,6 +17,14 @@ Version history for the Event Management Core on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.18.4 - September 2026**
+
+    Changed: Minor UI changes to reduce system resources
+
+-   **Version 23.17.3 - August 2026**
+
+    Changed: All references to "Now Assist" have been updated to "ServiceNow Otto" across the em-scoped-app and em-arm modules. UI labels, flow descriptions, hint texts, and rule labels now consistently use the new product name to align with branding changes. Commit: Renaming of now assist to ServiceNow Otto - em-scoped-app; Updates according to the revised guideline.
 
 -   **Version 23.16.0 - June 2026**
 
@@ -142,5 +150,5 @@ Version history for the Event Management Core on the ServiceNow Store.
         -   The Event Management Core app enables you to track and monitor alerts in the ServiceNow Agent Workspace. It allows operators to navigate and drill down to Alerts and Alert Groups. Workspace lists are there to help the user to view the top priority alerts considering the Alert priority calculation.
         -   The Alert Overview tab summarizes the most significant information about the alert and its impact on the application services. The actions side bar enables the user to execute remediation subflows and launch related app directly from the alert form.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CISO Dashboard release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® CISO Dashboard application on the ServiceNo
     The Chief Information Security Officer Dashboard provides a unified view of organizational security, risk, and compliance by integrating data from Security Incident Response, Vulnerability Response, Security Operations, and Governance, Risk, and Compliance, including Advanced Risk Management and related analytics. It helps CISOs monitor threats, assess vulnerabilities, and manage enterprise risk from a single, connected dashboard.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

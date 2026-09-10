@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-sow-itsm-advanced-apps.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace ITSM Advanced Applications release notes
@@ -17,6 +17,18 @@ Version history for the ServiceNow® Service Operations Workspace ITSM Advanced 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.4.2 - September 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
+
+-   **Version 9.3.1 - August 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
+
+-   **Version 8.8.1 - August 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
 
 -   **Version 9.2.1 - June 2026**
     -   Changes:
@@ -35,5 +47,5 @@ Version history for the ServiceNow® Service Operations Workspace ITSM Advanced 
     Streamline IT Service Management workflows and processes for modern operations. You can effectively manage walk-up appointments, and streamline change management in Service Operations Workspace. All of these workflows leverage the power of capabilities such collaborations, AI based recommendations and on-call scheduling.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

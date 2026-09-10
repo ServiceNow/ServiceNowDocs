@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-int-blackduck.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Black Duck release notes
@@ -18,6 +18,14 @@ Version history for the Vulnerability Response Integration with Black Duck appli
 
 ## Version history
 
+-   **Version 30.5.1 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue with Black Duck vulnerability scan results import failures if the CVSS v3 impact sub-score returned by Black Duck was null or empty. By including the impact sub-score in the imported record only when Black Duck provides a valid, non-empty value, records without one now are imported as expected. This correction ensures all reported Black Duck vulnerability items import successfully.
+        -   An issue with CVE-based vulnerabilities identified by Black Duck that were being stored as Application Vulnerability Entry records instead of NVD entry records and potentially impacted severity and CVSS impact scoring. By treating records that contain a CVE prefix as NVD entry records and storing them accordingly, entries without a CVE prefix continue to be recorded as Application Vulnerability Entry records. This correction restores the proper classification so CVE metadata and impact scoring are associated with the appropriate NVD entries.
+-   **Version 1.1.5 - September 2026**
+    -   Fixed:
+        -   An issue with Black Duck vulnerability scan results import failures if the CVSS v3 impact sub-score returned by Black Duck was null or empty. By including the impact sub-score in the imported record only when Black Duck provides a valid, non-empty value, records without one now are imported as expected. This correction ensures all reported Black Duck vulnerability items import successfully.
+        -   An issue with CVE-based vulnerabilities identified by Black Duck that were being stored as Application Vulnerability Entry records instead of NVD entry records and potentially impacted severity and CVSS impact scoring. By treating records that contain a CVE prefix as NVD entry records and storing them accordingly, entries without a CVE prefix continue to be recorded as Application Vulnerability Entry records. This correction restores the proper classification so CVE metadata and impact scoring are associated with the appropriate NVD entries.
 -   **Version 30.2.1 - June 2026 \(USEM\)**
     -   The following enhancements and changes support internal security directives:
         -   Query ACLs added to Black Duck configuration and project tables: sn\_vul\_blackduck\_config and sn\_vul\_blackduck\_project, plus narrow field-specific ACLs for u\_source on the Black Duck app-import and project-import staging tables to align with ServiceNow Platform Security guidance.

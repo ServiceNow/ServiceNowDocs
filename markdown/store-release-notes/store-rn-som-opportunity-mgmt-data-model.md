@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-opportunity-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Opportunity Management Data Model release notes
@@ -18,6 +18,64 @@ Version history for the Opportunity Management Data Model application on the Ser
 
 ## Version history
 
+-   **Version 14.1.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Sales CRM Mobile experience for Opportunities :  includes opportunity list view, record view, opportunity line items, pipeline health, task management, meetings, quick access, and account record view
+        -   Opportunity summarization for the mobile experience
+    -   Changed:
+        -   Allocation number field in Manage Allocations is now read-only to avoid confusion during split creation
+        -   Primary quote field is now available as part of the core opportunity data model
+        -   Internal platform upgrades to improve performance, stability, and readiness for upcoming features
+    -   Fixed:
+        -   Resolved "One or more property values are invalid" error when loading the Manage Allocations page
+        -   Fixed allocation percentage validation incorrectly flagging totals that equal 100%
+        -   Fixed issue where Opportunity Allocations \(Revenue and Overlay\) could not be set on the opportunity
+        -   Net New ACV now syncs correctly from Quote to Opportunity
+        -   Improved Quote-to-Opportunity sync logic and performance
+        -   Resolved high response times on Economic Buyer and Champion save operations
+        -   Fixed plugin dependency errors during application installation
+-   **Version 14.0.1 - September 2026 \(Zurich\)**
+    -   New:
+        -   Sales CRM Mobile experience for Opportunities :  includes opportunity list view, record view, opportunity line items, pipeline health, task management, meetings, quick access, and account record view
+        -   Opportunity summarization for the mobile experience
+    -   Changed:
+        -   Allocation number field in Manage Allocations is now read-only to avoid confusion during split creation
+        -   Primary quote field is now available as part of the core opportunity data model
+        -   Internal platform upgrades to improve performance, stability, and readiness for upcoming features
+    -   Fixed:
+        -   Resolved "One or more property values are invalid" error when loading the Manage Allocations page
+        -   Fixed allocation percentage validation incorrectly flagging totals that equal 100%
+        -   Fixed issue where Opportunity Allocations \(Revenue and Overlay\) could not be set on the opportunity
+        -   Net New ACV now syncs correctly from Quote to Opportunity
+        -   Improved Quote-to-Opportunity sync logic and performance
+        -   Resolved high response times on Economic Buyer and Champion save operations
+        -   Fixed plugin dependency errors during application installation
+-   **Version 13.1.0 - August 2026 \(Australia\)**
+    -   New:
+        -   Added support for Opportunity records in global search
+        -   UI refinements on the Opportunity page — padding fixes and rebranding updates
+        -   Quote tasks for primary quotes now appear in the To-Do section of the Opportunity Overview page
+        -   Added configurable dependency between Won/Lost stage and Won/Lost reason fields, controlled via system properties
+    -   Fixed:
+        -   Resolved UX defects on the Opportunity Overview page and Guided Selling experience
+        -   Fixed semantic search results for Opportunity records
+        -   Corrected inconsistencies in Contract End Date and Term \(months\) calculations within Opportunity Management
+        -   Price list on Opportunity now updates correctly when currency is changed
+        -   Resolved intermittent "One or more property values are invalid" error in Manage Allocations when saving allocation splits
+        -   Addressed performance issues on the Opportunity page
+-   **Version 13.0.1 - August 2026 \(Zurich\)**
+    -   New:
+        -   Added support for Opportunity records in global search
+        -   UI refinements on the Opportunity page — padding fixes and rebranding updates
+        -   Quote tasks for primary quotes now appear in the To-Do section of the Opportunity Overview page
+        -   Added configurable dependency between Won/Lost stage and Won/Lost reason fields, controlled via system properties
+    -   Fixed:
+        -   Resolved UX defects on the Opportunity Overview page and Guided Selling experience
+        -   Fixed semantic search results for Opportunity records
+        -   Corrected inconsistencies in Contract End Date and Term \(months\) calculations within Opportunity Management
+        -   Price list on Opportunity now updates correctly when currency is changed
+        -   Resolved intermittent "One or more property values are invalid" error in Manage Allocations when saving allocation splits
+        -   Addressed performance issues on the Opportunity page
 -   **Version 12.1.0 - July 2026 \(Australia\)**
 
     New: Introduced default OOB sales types and sales cycle stage values.

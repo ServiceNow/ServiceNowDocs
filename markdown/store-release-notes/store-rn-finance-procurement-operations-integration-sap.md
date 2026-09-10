@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-procurement-operations-integration-sap.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sourcing and Procurement Operations Integration with SAP release notes
@@ -18,6 +18,14 @@ Version history for the Finance Operations Management Sourcing and Procurement O
 
 ## Version history
 
+-   **Version 3.2.0 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP ERP data integration and synchronization.
+-   **Version 2.4.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced and fixed defects in the connector framework for Source-to-Pay \(S2P\) processes to improve SAP ERP data integration and synchronization.
 -   **Version 3.0.0 - June 2026**
 
     Fixed: Implemented Directive DIRS0000421 – Non-Glide Cobalt Raven ACLs in Product Code, along with the corresponding true-up support enhancements.

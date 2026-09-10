@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-telecom-open-apis.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Telecommunication Open APIs release notes
@@ -18,6 +18,15 @@ Version history for the Telecommunication Open APIs application on the ServiceNo
 
 ## Version history
 
+-   **Version 8.0.1 - September 2026**
+    -   New: 1. Support TMF 679 Product Offering Qualification API  \(Check and Query\)
+    -   Change: 1. Support Filtering on LIST for Ordering APIs \(622,641\), Catalog API \(633,620\) and Inventory API \(637\).2. Support creation of Account, Consumer, Billing Account and Location for TMF 622 in case these are not already present in Servicenow.
+-   **Version 7.4.0 - August 2026**
+    -   Changed:
+        -   Enhance TMF 632 : Party Management API to support creation of Contact and Location with Account and Consumer
+        -   Enable Multi Language support with Product Catalog API \( TMF 620\)
+        -   Support External IDs for Ordering \( TMF 622/641\) Catalog \( TMF 620/633\), Inventory \( TMF 637\), Party \( TMF 632\)
+        -   Included version support for TMF APIs
 -   **Version 7.2.0 - July 2026**
 
     Changed: Changed the Logic in TMF 632- Party Management API to handle any values present in dictionary for the List value attributes types rather than the current approach of only support OOB values.
@@ -81,5 +90,5 @@ Version history for the Telecommunication Open APIs application on the ServiceNo
     Includes TM Forum Open API and related functionality.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

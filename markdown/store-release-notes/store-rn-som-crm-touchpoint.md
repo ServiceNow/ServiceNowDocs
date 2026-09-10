@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-crm-touchpoint.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CRM Touchpoint release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release n
 Version history for the ServiceNow® CRM Touchpoint application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.6.1 - September 2026**
+    -   Fixed:
+        -   Performance improvements.
+        -   When updating the related opportunity on a Tech Win or other sales interaction record, using the search function required users to select the opportunity twice before the change is applied \(PRB2060555\).
+-   **Version 1.5.2 - August 2026**
+
+    New: Admins can now assign granular read and write roles for CRM Touchpoints. The new roles provide fine-grained access control to CRM Touchpoint records, enabling separate assignment of read and write permissions through the Responsibility Framework. Access Control Lists \(ACLs\) have been updated to enforce these granular permissions.
 
 -   **Version 1.4.0 - July 2026**
 
@@ -38,5 +46,5 @@ Version history for the ServiceNow® CRM Touchpoint application on the ServiceNo
     CRM Touchpoints provides sales and service teams with a single, consistent system to plan, record, track, and act on customer interactions across the entire customer's association with your business. It helps you to capture activities such as discovery calls, demos, and business reviews across channels, enabling leaders to monitor engagement health and ensure teams are interacting effectively and productively.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

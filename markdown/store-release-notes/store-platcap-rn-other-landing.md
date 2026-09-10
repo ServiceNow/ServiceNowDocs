@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Other ServiceNow AI Platform Capabilities applications
+title: ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes
 description: Version history for other ServiceNow AI Platform Capabilities releases on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-other-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Other ServiceNow AI Platform Capabilities applications
+# ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes
 
 Version history for other ServiceNow AI Platform Capabilities releases on the ServiceNow Store.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-kpi-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # KPI Framework release notes
@@ -18,6 +18,14 @@ Version history for the KPI Framework application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.0.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Supplier comparison insights are now available in the contextual side panel.
+        -   Users can now compare suppliers based on industry, segment, and region, showing score, risk, spend, failing KPIs, and action plans for each supplier.
+-   **Version 6.4.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Supplier comparison insights are now available in the contextual side panel.
+        -   Users can now compare suppliers based on industry, segment, and region, showing score, risk, spend, failing KPIs, and action plans for each supplier.
 -   **Version 6.1.0 - June 2026 \(Australia\)**
     -   Fixed:
         -   Performance enhancement for supplier overall dashboard

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-shift-scheduling.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Shift Scheduling for Field Service release notes
@@ -18,6 +18,12 @@ Version history for the Shift Scheduling for Field Service application on the Se
 
 ## Version history
 
+-   **Version 8.0.11 - September 2026**
+    -   What's New:
+        -   Embedded breaks and statusing breaks
+        -   Prevents overlapping breaks and edits to breaks already in progress
+        -   Clearer break event colors on the schedule
+        -   FSM holiday schedule visibility
 -   **Version 7.1.2 - June 2026**
 
     New: Added Holiday schedules implementation for FSM
@@ -68,5 +74,5 @@ Version history for the Shift Scheduling for Field Service application on the Se
     Shift Scheduling offers an easy-to-use, streamlined Manager Workspace experience that allows managers to create/edit work shifts, schedules, and monitor schedule adherence for all their team members.
 
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

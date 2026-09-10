@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics - Content Engagement Analytics release notes
@@ -35,5 +35,5 @@ Version history for the Performance Analytics - Content Engagement Analytics app
     When a customer is using Content Publishing and Content Experiences for employee communications, they have the ability to use the Content Analytics plugin for reporting on various types of analytics. When coupled with a Performance Analytics subscription, this dashboard is provided out-of-the-box to have a rich set of analytics reporting capabilities to help customers get insights into how the Campaigns \(and the content within\) are performing.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

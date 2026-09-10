@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-aws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for AWS release notes
@@ -18,6 +18,31 @@ Version history for the Service Graph Connector for AWS application on the Servi
 
 ## Version history
 
+-   **Version 2.15.0 - September 2026**
+    -   New:
+        -   Instance Metadata Service Version 2 \(IMDS v2\) is supported for the discovery of Kubernetes resources.
+        -   The primary IP address is populated in the imported Server records.
+        -   Imported AWS compute resources include operating system domain details.
+        -   RDS allocated storage capacity information for AWS RDS database resources is populated in the cloud database table.
+        -   The lookback time window isn’t applied when processing service accounts.
+        -   Amazon FSx file system resources are discovered and imported into the CMDB.
+    -   Changed: The response status \(Status field\) of the AWS account API is now mapped to the new account state \(State field\).
+    -   Fixed:
+        -   Resolved the issue with the aws\_lookback\_time\_in\_days connection property. Imports now follow the configured lookback window. \(PRB2035571\)
+        -   The aws\_lookback\_time\_in\_days connection property is now updated only after a full scheduled data import.\(PRB2060818\)
+        -   Resolved the issue where the ListAccounts API call didn’t handle the deprecation of the Status field, which could cause account imports to fail.\(PRB2072899\)
+        -   The Is Virtual attribute is populated in the Server records created by Get Inventory imports.\(PRB2032947\)
+        -   The AWS organization is set as the parent for the Amazon Redshift cluster records that are created by the scheduled import.\(PRB2057788\)
+        -   Version data is populated for the operating system record in the Software Installation table. \(PRB2067866\)
+        -   Resolved the issue where the EKS Cluster data source returned an error when the enableDbConfigLoad property is set to true.\(PRB2057785\)
+        -   Flow execution contexts are created for Get Inventory imports.\(PRB2063614\)
+        -   The CloudFormation templates \(CFT\) used by the connector are updated to the latest versions available in SGC Central.\(PRB2071071\)
+        -   Resolved the issue where duplicate server records were created because the GetS3Object transform overwrote the Name field.\(PRB2071695\)
+        -   Resolved the issue where the isLastImport function in AwsRemovalUtil only checked whether schedule imports were queued. The final import is now detected correctly.\(PRB2060827\)
+        -   Resolved the issue where the EKS ETL transformation failed for pod payloads that contained no volume mounts. Such payloads are now transformed successfully.\(PRB2030530\)
+        -   Server records aren’t created for AWS Systems Manager \(SSM\) managed instances.\(PRB2032936\)
+        -   Resolved the issue where an EKS full schedule import didn’t import EKS data when the sn\_aws\_integ.eks\_document\_processing\_time property is set to 100.\(PRB2071475\)
+        -   The deprecated Status field is removed from the ETL mapping for the SG-AWS-Service-Account data source. \(PRB2039925\)
 -   **Version 2.14.0 - June 2026**
     -   New:
         -   Implemented new licensing model changes for Docker container.

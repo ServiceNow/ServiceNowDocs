@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-coaching-learning.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Coaching with Learning release notes
@@ -17,6 +17,10 @@ Version history for the Coaching with Learning application on the ServiceNow Sto
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.8.0 - September 2026 \(Australia\)**
+
+    Fixed: Fixed minor defects.
 
 -   **Version 5.4.2 - March 2026**
 
@@ -89,5 +93,5 @@ Version history for the Coaching with Learning application on the ServiceNow Sto
     Manage internal learning content and access external learning content, like Pluralsight and Cornerstone, from a central location.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

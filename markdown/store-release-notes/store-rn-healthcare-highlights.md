@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Healthcare and Life Sciences release notes
+title: ServiceNow Store - Healthcare and Life Sciences version history release notes
 description: The ServiceNow Store contains Healthcare and Life Sciences applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-highlights.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Healthcare and Life Sciences release notes
+# ServiceNow Store - Healthcare and Life Sciences version history release notes
 
 The ServiceNow Store contains Healthcare and Life Sciences applications.
 
@@ -50,8 +50,6 @@ Version history for the Healthcare Operations Core application on the ServiceNow
 Version history for the ServiceNow® Healthcare Operations Orchestration application on the ServiceNow Store.
 -   **[HL7 v2.x Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-hcls-hl7-v2.x-int.md)**  
 Version history for the ServiceNow® HL7 v2.x Integration application on the ServiceNow Store.
--   **[Now Assist for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-now-assist-care-team-ops.md)**  
-Version history for the ServiceNow® Now Assist for Care Team Operations application on the ServiceNow Store.
 -   **[Patient Support Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-patient-support-services.md)**  
 Version history for the Patient Support Services application on the ServiceNow Store.
 -   **[Performance Analytics Content Pack for Healthcare CDM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-pa-contentpack-healthcare-cdm.md)**  
@@ -60,8 +58,10 @@ Version history for the Performance Analytics Content Pack for Healthcare CDM ap
 Version history for the Pre-Visit Management application on the ServiceNow Store.
 -   **[Redox Inbound Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-redox-inbound-integration.md)**  
 Version history for the Redox Inbound Integration application on the ServiceNow Store.
+-   **[ServiceNow Otto for Care Team Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-now-assist-care-team-ops.md)**  
+Version history for the ServiceNow® ServiceNow Otto® for Care Team Operations application on the ServiceNow Store.
 -   **[Vaccine Administration Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-vaccine-admin-mgmt.md)**  
 Version history for the Customer Service Management Vaccine Administration Management application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

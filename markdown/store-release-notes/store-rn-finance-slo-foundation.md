@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-slo-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SLO - Foundation release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® SLO - Foundation application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.2 - September 2026**
+
+    Changed: The application captures dependencies. The plugin dependencies were updated in this release.
+
+-   **Version 1.3.3 - August 2026**
+
+    Changed: Updated name as per new plugin/apps naming guidelines
 
 -   **Version 1.2.0 - June 2026**
 
@@ -31,5 +39,5 @@ Version history for the ServiceNow® SLO - Foundation application on the Service
     The ServiceNow Supplier Lifecycle Operations Foundation application equips supplier management specialists with assistive Now Assist skills embedded directly in their supplier onboarding and case management workflows. From summarizing supplier cases to drafting communication responses, these AI-powered skills reduce manual effort and help specialists resolve supplier issues faster — while keeping humans in control at every step.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

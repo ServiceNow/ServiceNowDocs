@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-ibm-license-compliance-sam.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # IBM License Compliance for Software Asset Management release notes
@@ -17,6 +17,14 @@ Version history for the IBM License Compliance for Software Asset Management app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.0.3 - September 2026 \(Brazil\)**
+
+    You can now manage IBM software deployed on Nutanix AHV \(Acropolis Hypervisor\). This release adds support for sub-capacity eligible license metrics: Processor Value Unit \(PVU\), Virtual Processor Core \(VPC\), and Resource Value Unit \(RVU\) based on activated cores.
+
+-   **Version 7.0.0 - August 2026**
+
+    You can now manage IBM software deployed on Nutanix AHV \(Acropolis Hypervisor\). This release includes support for sub-capacity eligible license metrics: Processor Value Unit \(PVU\), Virtual Processor Core \(VPC\), and Resource Value Unit \(RVU\) based on activated cores.
 
 -   **Version 6.0.7 - March 2026 \(Australia\)**
 

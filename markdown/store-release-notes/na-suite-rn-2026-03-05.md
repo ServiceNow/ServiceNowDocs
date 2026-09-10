@@ -54,7 +54,7 @@ HR Voice AI Agents
 
 -   New
     -   Search Navigation agent \(KB-guided self-service via voice\)
-    -   Multilingual Support \(gs.getMessageLang\(\) for HR Voice agents
+    -   Multilingual Support \(gs.getMessageLang\(\)\) for HR Voice agents
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Now Assist Admin Console
 
 </td><td>
 
-As part of this release: Read only fields will be now "strict" read only in general now assist skill tables.With this change tables cannot be updated by using client scripts, browser consoles etal
+As part of this release: Read only fields will be now "strict" read only in general Now Assist skill tables.With this change tables cannot be updated by using client scripts, browser consoles etal
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Now Assist for Telecommunications, Media, and Technology \(TMT\)
 
 </td><td>
 
-Removing now assist for SOMT dependency.
+Removing Now Assist for SOMT dependency.
 
 </td></tr></tbody>
 </table>|App name|Version number|Last updated|
@@ -363,7 +363,7 @@ Now Assist Admin Console
 
 </td><td>
 
-As part of this release: Read only fields will be now "strict" read only in general now assist skill tables.With this change tables cannot be updated by using client scripts, browser consoles etal
+As part of this release: Read only fields will be now "strict" read only in general Now Assist skill tables.With this change tables cannot be updated by using client scripts, browser consoles etal
 
 </td></tr><tr><td>
 

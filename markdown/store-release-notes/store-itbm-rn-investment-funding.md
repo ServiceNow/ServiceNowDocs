@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-investment-funding.html
 release: store
 topic_type: reference
-last_updated: "2024-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Investment Funding release notes
@@ -17,6 +17,10 @@ Version history for the Investment Funding on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.3 - September 2026**
+
+    Changed: Upgraded dependencies.
 
 -   **Version 1.1.1 - May 2024**
     -   Deprecated the following:

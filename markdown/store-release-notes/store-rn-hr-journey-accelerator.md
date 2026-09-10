@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-01-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Journey Accelerator release notes
@@ -59,5 +59,5 @@ Version history for the HR Service Delivery Journey Accelerator on the ServiceNo
         -   Managers create customized plans and to-dos, assign mentors, and track progress.
         -   Mentors and employees view plans and update their progress.
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

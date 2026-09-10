@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CFO Dashboard release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® CFO Dashboard application on the ServiceNow
     The Chief Financial Officer Dashboard brings together data from Performance Analytics for PPM, Software Asset Management Professional, Sourcing and Procurement Operations, and GRC: Advanced Risk to provide a unified view of financial performance, spend optimization, and risk exposure.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Retail release notes
+title: ServiceNow Store - Retail version history release notes
 description: The ServiceNow Store contains Retail applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-retail.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Retail release notes
+# ServiceNow Store - Retail version history release notes
 
 The ServiceNow Store contains Retail applications.
 
@@ -41,5 +41,5 @@ Version history for the ServiceNow® RSM - Foundation application on the Service
 -   **[RSM - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail-rsm-prime.md)**  
 Version history for the ServiceNow® RSM - Prime application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

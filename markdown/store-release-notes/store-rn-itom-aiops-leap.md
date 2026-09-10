@@ -1,22 +1,50 @@
 ---
-title: AIOps LEAP release notes
-description: Version history for the AIOps LEAP application on the ServiceNow Store.
+title: LEAP release notes
+description: Version history for the LEAP application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-leap.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# AIOps LEAP release notes
+# LEAP release notes
 
-Version history for the AIOps LEAP application on the ServiceNow Store.
+Version history for the LEAP application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.3.1 - September 2026**
+    -   New:
+        -   Knowledge base article improvements
+            -   Admins can configure eligible knowledge bases and default KB/category for article creation. The Settings page allows selection of eligible knowledge bases, default knowledge base, and default KB category, which are automatically applied during agent-driven KB article creation.
+            -   Users can select the knowledge base and category when creating KB articles. A configurable modal prompts users to choose the target KB and category, with metadata and author fields auto-populated for improved search and traceability.
+        -   LEAP value dashboard
+            -   The LEAP value dashboard surfaces metrics for all automation outcome types. The dashboard includes new sections and cards for Ansible executions, KB articles, problem records, and outcome breakdowns, with savings attribution by outcome type and Now Assist consumption metrics.
+            -   Metrics dashboard tabs for artifacts are introduced. Users can view tabular metrics for KB articles, ServiceNow playbooks, Ansible playbooks, Problem records, and an overview of all artifacts, with project-level and system-wide calculations.
+        -   Automation projects
+            -   LEAP supports automation projects across multiple incident taxonomies. Admins can configure LEAP to ingest and cluster incidents from multiple taxonomies, producing unified insights and automation opportunities spanning all configured taxonomies.
+        -   LEAP MCP tool
+            -   LEAP MCP tool for app setup status is introduced for external AI clients to use LEAP's setup and grouping-pipeline readiness before invoking other tools.
+        -   Manage archived automation opportunities
+            -   Admins can view and manage archived automation opportunities\(AOs\). Old AOs with resolution steps are hidden by default after GAF re-runs, and successor/predecessor relationships are surfaced on the AO detail page.
+        -   AI Sparkle indicator is shown for discovered Ansible playbooks.
+            -   The LEAP homepage AO list includes an additional column to visually identify playbooks created with AI.
+    -   Changed:
+        -   LEAP value dashboard layout is updated to tabular format. Artifacts are presented in dedicated tabs with consistent layout and improved clarity.
+        -   Playbook and Ansible metrics are filtered by automation source. Aggregate metrics now distinguish between ServiceNow playbooks and Ansible playbooks for accurate reporting.
+        -   Archived flag is backfilled for legacy stranded AOs. Upgrade scripts ensure previously stranded AOs are correctly marked as archived, aligning UI visibility and actions.
+        -   Default AO list and homepage filters exclude archived AOs. The homepage and list views now show only active, non-archived AOs.
+        -   KB article creation options and modal labels are revised. The create/view KB article actions are renamed to "Draft KB article," and modal info text is clarified.
+        -   Job status and troubleshooting actions are scoped per Automation project. Job status lookups and fix-the-error navigation are filtered by the selected project.
+        -   Properties reads are project-scoped with fallback to global defaults. Changing a property on one project does not affect others.
+-   **Version 4.2.1 - August 2026**
+
+    Changed: Now Assist is renamed to 'ServiceNowOtto'.
 
 -   **Version 4.1.0 - July 2026**
     -   New:
@@ -83,5 +111,5 @@ Version history for the AIOps LEAP application on the ServiceNow Store.
         -   Use published LEAP in SOW to resolve a new incident quickly.
         -   Use value dashboard for performance analysis and improvement.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

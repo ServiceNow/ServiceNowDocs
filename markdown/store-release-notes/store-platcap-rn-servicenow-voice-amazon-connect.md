@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-amazon-connect.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Voice, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Voice version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow Voice with Amazon Connect release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow Voice with Amazon Connect application on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.6.2 - September 2026**
+
+    New: Integrate ServiceNow Voice AI with Amazon Connect to manage inbound calls and route them to live agents.
 
 -   **Version 5.4.0 - July 2026**
     -   New:

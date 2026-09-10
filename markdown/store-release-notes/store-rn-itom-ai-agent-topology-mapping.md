@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Agent Topology Mapping release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® AI Agent Topology Mapping application on th
     -   As organizations rapidly embrace AI technologies, the number of AI agents operating across diverse cloud platforms such as Amazon Bedrock, Microsoft Foundry, Google Vertex AI, and others continues to grow. This surge brings new regulatory challenges, with frameworks like the EU AI Act, Colorado AI Act, and Canada’s Artificial Intelligence and Data Act \(AIDA\) requiring greater transparency and oversight of AI agents, including clear tracking of their business ownership.
     -   Leveraging AI Agent Topology Mapping, enterprises can achieve comprehensive visibility into their deployed AI agents across hyperscaler environments. Powered by ITOM discovery technology, this solution systematically collects detailed inventories of AI agents, large language models, and essential system prompts, all of which are crucial for enabling robust AI Control Tower outcomes and meeting compliance obligations.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

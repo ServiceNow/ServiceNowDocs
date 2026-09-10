@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-sourcing-pipeline-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sourcing Pipeline Management release notes
@@ -17,6 +17,18 @@ Version history for the Sourcing Pipeline Management application on the ServiceN
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - September 2026 \(Australia\)**
+
+    New: Procurement managers and sourcing managers can submit natural-language procurement and sourcing questions in Sourcing and Procurement Operations and receive GenAI-powered answers based on data from Sourcing and Procurement Operations and other tables.
+
+-   **Version 2.5.1 - September 2026 \(Zurich\)**
+
+    Fixed: Fixed issues affecting GenAI query results for sourcing pipeline project analysis, including spend, savings, supplier exposure, project tracking, and category management insights.
+
+-   **Version 5.0.4 - August 2026 \(Australia\)**
+
+    Changed: Applied security hardening to address CVE-2025-3648.
 
 -   **Version 5.0.1 - June 2026 \(Australia\)**
 
@@ -48,5 +60,5 @@ Version history for the Sourcing Pipeline Management application on the ServiceN
     -   The plugin also resolves the challenge of untracked savings by capturing them automatically during award or allowing manual edits at closure, enabling accurate forecasting and reporting. Email alerts tied to project timelines and out-of-the-box field validations ensure timely execution and compliance. With full visibility into pipeline progress across workspace and list views, teams gain a long-term strategic view of sourcing activities - supporting better planning, prioritization and savings management.
     -   Unlike traditional tools, this solution offers flexible linking of sourcing objects, built-in automation, and a unified view - all designed to reduce operational overhead and deliver measurable impact. It's ideal for organizations seeking to scale sourcing operations, improve savings realization, and drive strategic sourcing outcomes.
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-openframe.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Openframe release notes
@@ -17,6 +17,23 @@ Version history for the CSM Openframe application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.4.8 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   Callback component in agent workspace — Callback phone numbers now display in agent workspace, allowing agents to click-to-call without creating duplicate interactions.
+        -   Click-to-call duplicate prevention — The system now reuses existing callback interactions instead of creating duplicates when agents initiate calls.
+    -   Fixed: This release includes minor defect fixes and enhancements.
+-   **Version 29.5.3 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   For Voice interactions, we have enhanced defaulting logic to update Caller Phone Number from User Phone Number.
+        -   Fixed missing Public Fulfiller entry in interactions created through voice.
+-   **Version 28.2.2 - August 2026 \(Zurich\)**
+    -   Fixed:
+        -   Voice Interactions: Fixed missing Public Fulfiller role in voice-created interactions, preventing Real-Time Transcription functionality.
+        -   Security: Fixed a security vulnerability in the Design System.
+-   **Version 27.2.5 - August 2026 \(Yokohama\)**
+
+    Fixed: The caller\_phone\_numberfield is now correctly populated on outbound calls in the OpenFrame Bundle when callbackPhoneNumberis not provided.
 
 -   **Version 28.2.1 - July 2026 \(Zurich\)**
     -   The following issues have been resolved in this release:

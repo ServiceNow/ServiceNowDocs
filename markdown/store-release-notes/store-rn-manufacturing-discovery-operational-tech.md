@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-discovery-operational-tech.html
 release: store
 topic_type: reference
-last_updated: "2025-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # IT Discovery for OT Networks release notes
@@ -17,6 +17,14 @@ Version history for the IT Discovery for OT Networks application on the ServiceN
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.4 - September 2026**
+
+    Fixed: Security fixes
+
+-   **Version 2.0.9 - September 2026 \(USEM\)**
+
+    Fixed: Security fixes
 
 -   **Version 2.0.5 - May 2025**
     -   New:
@@ -59,5 +67,5 @@ Version history for the IT Discovery for OT Networks application on the ServiceN
     Changed: Changed dependency. Discovery for OT must be installed separately after OT Manager.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

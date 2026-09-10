@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-mgmt-guided-experiences.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management Guided Experiences release notes
@@ -17,6 +17,14 @@ Version history for the Software Asset Management Guided Experiences application
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.0.5 - September 2026 \(Brazil\)**
+
+    This release includes Guided Setup defect fixes.
+
+-   **Version 8.0.1 - September 2026 \(Brazil\)**
+
+    This release includes accessibility improvements and security enhancements.
 
 -   **Version 7.0.1 - March 2026 \(Australia\)**
 
@@ -40,5 +48,5 @@ Version history for the Software Asset Management Guided Experiences application
         -   Microsoft Windows Server License Management Guided Setup provides a sequence of tasks that help you configure Microsoft Windows Server, Microsoft System Center and Microsoft Core Infrastructure Suite on Software Asset Management Pro.
         -   SAM Cluster 360 provides SAM Managers with a holistic and strategic analysis of hypervisor clusters. It offers a single pane of glass to view infrastructure, licensing, optimization &amp; health across the cluster on Software Asset Management Pro.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

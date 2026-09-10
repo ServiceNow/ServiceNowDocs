@@ -1,23 +1,42 @@
 ---
-title: Now Assist for Strategic Portfolio Management \(SPM\) release notes
-description: Version history for the Now Assist for Strategic Portfolio Management \(SPM\) application on the ServiceNow Store.
+title: ServiceNow Otto for Strategic Portfolio Management release notes
+description: Version history for the ServiceNow Otto for Strategic Portfolio Management application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Strategic Portfolio Management \(SPM\) release notes
+# ServiceNow Otto for Strategic Portfolio Management release notes
 
-Version history for the Now Assist for Strategic Portfolio Management \(SPM\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Strategic Portfolio Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 9.11.0 - September 2026**
+    -   New:
+        -   Self-guided “How it works” overview info \(i\) icon forAI-Identified Risks . This explains how AI detects, evaluates, scores, rationale, and the data considered for AI-identified risk.
+        -   RIDAC menu now expands by default in the Project Workspace for visibility into sub-menus.
+        -   Ability to clone thedemand summarization skill and change the prompt.
+    -   Changed:
+        -   Minor enhancements forAI Status Reports.
+        -   EnhancedAuto Email Insights with refinements and functional improvements.
+        -   Automatic trigger for the demand summarization skill is changed to false. The default trigger of the skill has to be set to automatic to enable auto trigger.
+-   **Version 9.8.0 - August 2026**
+    -   New:
+        -   Use the Budget Overrun insight card in Portfolio AI Insights to view real-time analysis of planning items with forecasts over budget, including impact assessment, root cause analysis, and recommended next steps to proactively manage budget overruns and allocation decisions.
+        -   Updated all customer-facing references from "Now Assist" to "ServiceNow Otto" across SPM products and UI components.
+        -   Access a dedicated AI Overview tab for demand summarization on the demand record page.
+    -   Changed:
+        -   Project Q&amp;A now supports questions about work notes and dependencies on a project.
+        -   Improved the performance of AI project status report generation to create draft reports faster.
+        -   Improved the output quality and performance of goal insights generation.
+        -   Improved AI-identified risk generation with minor functional enhancements.
 -   **Version 9.7.1 - July 2026**
     -   Fixed:
         -   AI forecasted status and AI rationale fields from goal insights are updated on the grid in realtime without grid refresh.
@@ -149,5 +168,5 @@ Version history for the Now Assist for Strategic Portfolio Management \(SPM\) ap
     Now Assist for Strategic Portfolio Management drives customer value faster by utilizing the power of Generative AI \(GenAI\) to ensure that business demands and feedback are communicated clearly, efficiently, and effectively.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

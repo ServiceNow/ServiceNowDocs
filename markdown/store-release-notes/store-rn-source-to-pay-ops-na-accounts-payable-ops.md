@@ -1,22 +1,36 @@
 ---
-title: Now Assist for Accounts Payable Operations release notes
-description: Version history for the Now Assist for Accounts Payable Operations \(APO\) application on the ServiceNow Store.
+title: ServiceNow Otto for Accounts Payable Operations \(APO\) release notes
+description: Version history for the ServiceNow Otto for Accounts Payable Operations \(APO\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-ops-na-accounts-payable-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Accounts Payable Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Accounts Payable Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Accounts Payable Operations release notes
+# ServiceNow Otto for Accounts Payable Operations \(APO\) release notes
 
-Version history for the Now Assist for Accounts Payable Operations \(APO\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Accounts Payable Operations \(APO\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.0.0 - September 2026**
+    -   1. Case-to-Knowledge Article Generation
+        -   Generate a knowledge article from a single resolved/closed case, with Otto AI drafting content for your review before publishing.
+        -   Generate a comprehensive knowledge article from multiple related closed cases to document common issues at scale.
+    -   2. AI Data Explorer – Multi-Table Support
+        -   AI Data Explorer now correlates data across APO, SPO, and SLM tables \(invoice, supplier, approval, PO, receipt\) to answer natural-language queries with a single unified result.
+    -   3. ZTSD Enhancements
+        -   Case resolutions now display the supplier invoice number instead of the internal ServiceNow-generated number.
+        -   Suppliers and employees can view and accept/reject the proposed resolution directly from the case ticketing page via the employee slate or supplier portal.
+        -   Other minor improvements
+-   **Version 8.1.0 - August 2026**
+
+    Now Assist has been renamed to ServiceNow Otto, ServiceNow's AI experience brand. As a result, references to Now Assist have been replaced with ServiceNow Otto.
 
 -   **Version 8.0.0 - June 2026**
     -   New:

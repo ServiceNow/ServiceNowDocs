@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Summarization for Quote Management release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Summarization for Quote Management applicat
     Quote summarization for Quote Management deliver instant, comprehensive insights into quote details—products, pricing, and terms—improving accuracy and speeding up generation. They keep stakeholders aligned with a clear, consistent view of quote status, reduce manual review for sales agents, and surface pricing or setup issues early. Standardized structure and language streamline reviews and help deals move faster.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

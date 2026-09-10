@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-remediation-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Remediation Core release notes
@@ -15,6 +15,26 @@ breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow
 Version history for the ServiceNow® Remediation Core application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 5.4.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 5.3.0 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 5.2.0 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 4.1.4 - August 2026**
+
+    No release notes.
+
+-   **Version 4.0.2 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 3.1.0 - June 2026**
 
@@ -43,5 +63,5 @@ Version history for the ServiceNow® Remediation Core application on the Service
         -   Manufacturing Quality Management
         -   Remediation Management: The Remediation Management plugin extends Quality Issue Management by enabling organizations to analyze root causes and execute structured remediation plans covering both operational and financial actions. It supports immediate containment and corrective actions as well as long-term corrective and preventive measures, ensuring issues are resolved effectively and sustainably.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

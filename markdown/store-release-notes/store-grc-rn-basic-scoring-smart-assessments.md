@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-basic-scoring-smart-assessments.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Basic Scoring for Smart Assessments release notes
@@ -18,6 +18,9 @@ Version history for the Basic Scoring for Smart Assessments application on the S
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   Fixed: Corrected missing and incorrect translations for UI strings across the interface.
+    -   Changed: Unsaved changes now persist across all workspace tabs \(General, Questions, Automations, Scoring\). A dirty-state icon on the workspace selector indicates pending changes, letting you navigate tabs without losing work.
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   New: Support for template versioning
     -   Changed:
@@ -45,5 +48,5 @@ Version history for the Basic Scoring for Smart Assessments application on the S
     Scoring in Smart Assessment Engine is a systematic way to evaluate responses to various questions within an assessment. By attributing scores to answers, you can translate qualitative responses into quantitative data, offering a measurable and comparable outcome for each assessment.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

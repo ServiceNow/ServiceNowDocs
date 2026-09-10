@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-dlp-incident-response-netskope.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DLP Incident Response integration with Netskope release notes
@@ -17,6 +17,10 @@ Version history for the DLP Incident Response integration with Netskope on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.2.4 - September 2026**
+
+    Fixed: Netskope DLP incident ingestion no longer stalls the profile in a Running state when the dataexport incidents API returns an empty response
 
 -   **Version 1.2.2 - June 2026**
 
@@ -72,5 +76,5 @@ Version history for the DLP Incident Response integration with Netskope on the S
         -   Support incidents created by data-at-rest scan from Netskope: both near real-time as well as on-demand scan
         -   Provides the ability to perform actions from within DLP end-user portal for end-users
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

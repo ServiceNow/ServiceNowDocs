@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-palo-alto.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute release notes
@@ -17,6 +17,14 @@ Version history for the Vulnerability Response Integration with Palo Alto Networ
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.4.1 - September 2026 \(USEM\)**
+
+    Fixed: A issue in the Palo Alto Networks Prisma Cloud Compute integration where vulnerable items and container vulnerable items might have missing vulnerability details due to duplicate identifiers shared between imported records. Vulnerability import now applies a unique prefix to avoid these potential identifier conflicts.
+
+-   **Version 3.8.1 - September 2026**
+
+    Fixed: A issue in the Palo Alto Networks Prisma Cloud Compute integration where vulnerable items and container vulnerable items might have missing vulnerability details due to duplicate identifiers shared between imported records. Vulnerability import now applies a unique prefix to avoid these potential identifier conflicts.
 
 -   **Version 30.3.1 - June 2026 \(USEM\)**
 

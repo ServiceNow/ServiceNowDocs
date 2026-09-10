@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-obligation-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Obligation Management release notes
@@ -17,6 +17,10 @@ Version history for the Obligation Management application on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.8.3 - August 2026**
+
+    Changed: ServiceNow Otto is the new AI experience brand. Now Assist in Contract Management is now ServiceNow Otto for Contract Management Pro.
 
 -   **Version 1.7.0 - June 2026**
 
@@ -48,5 +52,5 @@ Version history for the Obligation Management application on the ServiceNow Stor
     Contract Obligation Management enables effective oversight of contractual responsibilities, whether contracts are based on own paper or third-party documents. These contracts, often unstructured, define the obligations of the parties involved. This application helps identify and monitor these obligations to ensure their timely fulfillment. Failure to meet obligations on time may result in revenue loss, cost overruns, non-performance, non-compliance, reputational damage, or penalties for the contracting parties.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

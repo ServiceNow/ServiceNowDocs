@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Exception Management for Unified Security Exposure Management release notes
@@ -16,6 +16,55 @@ Version history for the ServiceNow® Exception Management for Unified Security E
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.7.5 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   Missing approver levels after migrating to Unified Security Exposure Management \(USEM\).
+        -   A security issue that might allow unauthorized access to exception settings.
+        -   Cursor jumping in the script editor within USEM Workspace.
+        -   Resolved packaging and translation issues in Exception Management for Security Exposure Management.
+        -   Issues with change approval email notifications after migrating to USEM, including duplicate subject lines, an incorrect recipient greeting, and the requester's name displaying as an internal ID.
+        -   Approvers receive email notifications if an exception request was unassigned.
+        -   Editable Change Approval fields from the list view are now read-only as intended.
+        -   After a policy exception is cancelled the source record's state is reverted.
+        -   Expiring an exception or false-positive request doesn't create a duplicate remediation task.
+        -   Fixed several hardcoded text strings in Exception Management so they can be properly translated.
+        -   A performance issue where checking approver access to exception requests loads an excessive number of records, causing slowdowns.
+        -   The Defer Until field's inconsistent behavior between the Security Exposure Management workspace and the native UI.
+        -   The GRC exception flow when a policy exception is cancelled or closed.
+        -   A security issue related to query handling in risk reduction eligibility checks.
+        -   The deferral count on vulnerable items no longer intermittently fails to update.
+        -   A security issue that might allow unauthorized access to record counts through a data broker.
+        -   A security issue with user-controlled field names in a data broker.
+        -   The Update button is no longer disabled when the requested date is within the allowed maximum duration.
+        -   A vulnerable item opens as expected if the state-change approval flow fails.
+        -   A security issue with read-only access that permitted modifications to exception change approval records.
+        -   A security issue where request approvals are processed without verifying record assignment.
+        -   Risk Reduction requests no longer get stuck in 'Draft' state when the questionnaire feature is enabled.
+        -   Required-field validation errors are now properly identified for screen readers, and the Request Exception dialog now has an accessible title.
+        -   Exception rules now correctly handle failure scenarios for new findings that don't yet have a remediation task configured.
+    -   New: Exception rule handling for new findings without remediation tasks. The system now processes new findings that lack remediation tasks when exception rules fail, ensuring accurate workflow management.
+    -   Changed:
+        -   Bulk edit requests with questionnaires now progress correctly. When questionnaires are enabled, risk reduction requests initiated via bulk edit no longer get stuck in Draft state; mandatory fields are enforced through the questionnaire.
+        -   Request exception dialog now displays a title. The request exception dialog includes a title, improving accessibility and compliance.
+        -   Error handling for blank required fields in Security Exposure Management. The system now identifies errors when required fields are left blank in Security Exposure Management, ensuring users are notified of missing information.
+    -   Fixed:
+        -   Cursor jumping in the script editor within USEM Workspace has been resolved.
+        -   Inconsistencies identified by customers after migrating to USEM have been addressed.
+        -   The source record state now reverts correctly if a policy exception is cancelled before approval. When a policy exception is cancelled before approval, the associated vulnerable item returns to its previous state.
+        -   Duplicate remediation tasks are no longer created when an exception or false positive expires.
+        -   Large result set handling for approver access checks in exception workflows has been optimized, preventing performance issues.
+        -   The "Defer until" field in Request Exception now behaves consistently across Security Exposure Management Workspace and Native UI.
+        -   Approver levels missing after USEM migration have been restored.
+        -   VIT deferral count updates reliably and no longer fails intermittently.
+        -   Vulnerability state change approval flow errors now reopen the VIT from the in\_review state as expected.
+-   **Version 30.6.6 - August 2026 \(USEM\)**
+    -   Fixed:
+        -   Expired False Positives or Exceptions reopen the original remediation task as expected instead of creating a duplicate remediation task.
+        -   Canceling a policy exception reverts the associated vulnerable item back to its original state as expected.
+        -   Fixed issues in the GRC exception flow so manually reopening a vulnerable item automatically cancels the related policy exception, and canceling an approved exception returns the item to an open state as expected.
+        -   False Positive requests are no longer automatically rejected and the Reopen action works for users configured with a non-English language.
+        -   Enhancements to the compensating controls \(Mitigating Control in Place\) workflow allows the risk rating to be increased, not just reduced.
+        -   Custom exception rule scripts configured in feature settings no longer fail due to a platform scoped-script evaluation restriction.
 -   **Version 30.6.1 - July 2026 \(USEM\)**
     -   New:
         -   Added bulk edit support for Risk modification requests, enabling users to evaluate and process multiple vulnerable items at once.
@@ -68,5 +117,5 @@ Version history for the ServiceNow® Exception Management for Unified Security E
 
     -   Exception Management enables organizations to efficiently handle and document vulnerability exceptions. It provides a controlled process for requesting, reviewing, and approving exceptions to vulnerable findings, ensuring transparency and compliance. By automating workflows and capturing exception justifications, it helps reduce operational bottlenecks while maintaining risk visibility and audit readiness.
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

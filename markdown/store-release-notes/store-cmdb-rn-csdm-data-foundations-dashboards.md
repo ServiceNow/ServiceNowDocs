@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-csdm-data-foundations-dashboards.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CMDB and CSDM Data Foundations Dashboards release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow AI Platform capabilities CMDB and CSDM Data F
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.5.0 - September 2026**
+
+    Updated: Performance enhancements to the scheduled jobs which populate the health metrics on CMDB and CSDM Data Foundations dashboards. The previous large jobs have been separated into an individual job for each metric, enhancing stability and performance.
 
 -   **Version 4.3.0 - June 2026**
 
@@ -132,5 +136,5 @@ Version history for the ServiceNow AI Platform capabilities CMDB and CSDM Data F
     The CMDB and CSDM Data Foundations Dashboards is a new store app that contains dashboards which provide insights into key indicators of your CMDB and Common Service Data Model \(CMDB\). This app provides recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

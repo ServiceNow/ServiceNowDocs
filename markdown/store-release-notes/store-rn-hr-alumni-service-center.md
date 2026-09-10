@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-alumni-service-center.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Alumni Center release notes
@@ -18,6 +18,13 @@ Version history for the HR Service Delivery Alumni Center on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 4.3.5 - September 2026**
+
+    Fixed: The alumni staging records flow, previously inactive with no option to activate, has been corrected. Customers now see configuration options to activate the flow. The flow logic has been moved to a subflow, and all subflows are set as read-only.
+
+-   **Version 4.3.1 - August 2026**
+    -   New: Unified conversational layer across ServiceNow platform. All references to Now Assist, Moveworks, and AI Experience have been renamed to ServiceNow Otto, providing a consistent conversational interface across the Alumni Center and other in-scope products.
+    -   Fixed: An issue where the out-of-box access control script could return incorrect evaluations due to a missing condition has been resolved. Access checks now evaluate as intended.
 -   **Version 4.2.1 - June 2026**
     -   Fixed:
         -   Work on implementing Non-Glide Cobalt Raven ACLs

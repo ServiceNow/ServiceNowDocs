@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-model-asset-classes.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Model and Asset Classes release notes
@@ -18,6 +18,12 @@ Version history for the ITAM Enterprise and Asset Classes application on the Ser
 
 ## Version history
 
+-   **Version 2.17.1 - September 2026**
+    -   New:
+        -   Added AI agent field hints \(labels and help text\) for ITAM and EAM tables—including enterprise content model tables, model-to-component relationships, and EAM asset import rows—to improve agent guidance.
+        -   Introduced default form and list views for Multimedia Production Equipment asset and model classes.
+    -   Changed: The Description field is now mandatory on the Enterprise Content Model Classification table.
+    -   Fixed: Applied non-Glide Cobalt true-up and ACL changes for the expanded product model and asset classes.
 -   **Version 2.16.2 - July 2026**
     -   New:
         -   Added a new Graphics Processing Unit \(GPU\) model category with the following configuration. Please note that the CI class already exists, but this is to align with the enterprise architecture standard:
@@ -71,5 +77,5 @@ Version history for the ITAM Enterprise and Asset Classes application on the Ser
     The Enterprise Model and Asset Classes app is the single source for all new, out-of-the-box, Enterprise model classes, asset classes, and model categories defined by ServiceNow. This app requires the installation of the Asset Management plugin \(com.snc.asset\_management\).
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

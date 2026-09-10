@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Workplace Service Delivery release notes
+title: ServiceNow Store - Workplace Service Delivery version history release notes
 description: The ServiceNow Store contains Workplace Service Delivery applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Workplace Service Delivery release notes
+# ServiceNow Store - Workplace Service Delivery version history release notes
 
 The ServiceNow Store contains Workplace Service Delivery applications.
 
@@ -24,8 +24,8 @@ Version history for Indoor Mapping for Assets on the ServiceNow Store.
 Version history for the Indoor Mapping Service application on the ServiceNow Store.
 -   **[Metrikus Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-metrikus-spoke.md)**  
 Version history for the Metrikus Spoke application on the ServiceNow Store.
--   **[Now Assist for Workplace Service Delivery \(WSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-now-assist.md)**  
-Version history for the Now Assist for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-now-assist.md)**  
+Version history for the ServiceNow Otto for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
 -   **[Workplace Agent for Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-workplace-agent-mobile.md)**  
 Version history for the Workplace Agent for Mobile application on the ServiceNow Store.
 -   **[Workplace Calendar Synchronization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-workplace-calendar-synchronization.md)**  
@@ -81,5 +81,5 @@ Version history for the ServiceNow® WSD - Foundation application on the Service
 -   **[WSD - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-prime.md)**  
 Version history for the ServiceNow® WSD - Prime application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
+**Parent Topic:**[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-interaction-control-component.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Interaction Control Component release notes
@@ -17,6 +17,50 @@ Version history for the Interaction Control Component application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.2.5 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   The following accessibility improvements have been made for this release:
+            -   Corrected role definitions, role associations, and semantic labels for interactive elements
+            -   Improved screen reader announcements
+            -   Fixed 'More Actions' menu to properly expose semantic structure
+            -   Enhanced specialist call handling modes
+            -   Improved close button behavior and corrected heading structure
+            -   Fixed tab focus and keyboard focus management issues
+            -   Fixed dialog-related navigation issues across interactive components
+            -   Corrected heading order and structure for improved document navigation
+            -   Fixed truncated content and page zoom accessibility issues
+            -   Added missing column headers in phone directory tables \(Queue, Agent, External tabs\)
+            -   Fixed status message update after call ends
+        -   Keypad and Phone Directory buttons now display selected state correctly
+        -   Resolved localization warning
+-   **Version 4.7.5 - September 2026 \(Australia\)**
+    -   Fixed:
+        -   The following accessibility improvements have been made for this release:
+            -   Corrected role definitions, role associations, and semantic labels for interactive elements
+            -   Improved screen reader announcements
+            -   Fixed 'More Actions' menu to properly expose semantic structure
+            -   Enhanced specialist call handling modes
+            -   Improved close button behavior and corrected heading structure
+            -   Fixed tab focus and keyboard focus management issues
+            -   Fixed dialog-related navigation issues across interactive components
+            -   Corrected heading order and structure for improved document navigation
+            -   Fixed truncated content and page zoom accessibility issues
+            -   Added missing column headers in phone directory tables \(Queue, Agent, External tabs\)
+            -   Fixed status message update after call ends
+        -   Keypad and Phone Directory buttons now display selected state correctly
+        -   Resolved localization warning
+-   **Version 4.7.3 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   The following accessibility issues have been resolved in this release:
+            -   Corrected role definitions, role associations, and semantic labels for interactive elements
+            -   Improved screen reader announcements and accessibility support across the component
+            -   Fixed 'More Actions' menu to properly expose semantic structure to assistive technologies
+            -   Enhanced accessibility support for specialist call handling modes
+            -   Improved close button behavior and corrected heading structure
+-   **Version 3.2.7 - August 2026 \(Zurich\)**
+
+    Fixed: Restored agent status payload functionality in Now Voice for Customer Service.
 
 -   **Version 4.7.0 - July 2026 \(Australia\)**
 
@@ -102,5 +146,5 @@ Version history for the Interaction Control Component application on the Service
     The Interaction Controls Component is a framework that enables a Contact Center Platform to integrate with the ServiceNow Configurable Workspace. This framework provides a set of native voice call controls.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

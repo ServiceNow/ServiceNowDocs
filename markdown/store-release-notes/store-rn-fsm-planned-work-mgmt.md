@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-planned-work-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Planned Work Management release notes
@@ -18,6 +18,10 @@ Version history for the Planned Work Management application on the ServiceNow St
 
 ## Version history
 
+-   **Version 2.12.5 - September 2026**
+    -   Fixed:
+        -   Resolved minor issues affecting Planned Work Schedule generation and Work Order creation
+        -   Improved reliability of the planning calendar
 -   **Version 2.14.0 - June 2026**
     -   New:
         -   Administrators can manage Planned Work Management access using updated, non-Glide query ACLs \(access control lists\).
@@ -156,5 +160,5 @@ Version history for the Planned Work Management application on the ServiceNow St
         -   Adjust future work orders automatically in case of exceptions, such as late completion of work and cancellation.
         -   Enable organisations to forecast planned work orders to better plan their resource coverage and required parts.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-inc-mgmt-osha-content-pack.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Incident Management OSHA Content Pack release notes
@@ -17,6 +17,14 @@ Version history for the Health and Safety Incident Management OSHA Content Pack 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.4.2 - September 2026**
+
+    Changed: Added support for Brazil and Australia, and removed support for Zurich.
+
+-   **Version 11.4.1 - August 2026**
+
+    Fixed: The OSHA 300A PDF now correctly populates the "Annual Average Employees" field in Health and Safety Incident Management. This resolves previous omissions and ensures accurate reporting.
 
 -   **Version 11.3.2 - July 2026**
 
@@ -93,5 +101,5 @@ Version history for the Health and Safety Incident Management OSHA Content Pack 
     This application enables autofill and export of OSHA 301, 300, and 300A reports with the click of a button from the ServiceNow Health and Safety application. The Health and Safety includes a dedicated role for managing these tasks, as well as an establishment list where your annual reports are saved per establishment.
 
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

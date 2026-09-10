@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-operational-tech-manager.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Technology Manager release notes
@@ -18,6 +18,14 @@ Version history for the Operational Technology Manager application on the Servic
 
 ## Version history
 
+-   **Version 4.0.1 - September 2026 \(USEM\)**
+
+    Fixed: Security fixes
+
+-   **Version 4.1.5 - September 2026**
+    -   Fixed:
+        -   Fixed influx of duplicate syslog error messages \(PRB2058749\)
+        -   Fixed the addNotNullQuery filter for cmdb\_ci\_unclassed\_hardware subclass fields \(PRB2031990\)
 -   **Version 4.0.0 - June 2026**
 
     New: Certified for Australia Patch 3
@@ -155,5 +163,5 @@ Version history for the Operational Technology Manager application on the Servic
         -   Renamed application menu from Unclassified OT to Unclassed OT
         -   Relabeled landing page “Unclassified” single score to “Unclassed”
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

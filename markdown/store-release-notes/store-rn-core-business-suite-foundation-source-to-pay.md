@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-foundation-source-to-pay.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Core Business Suite Foundation for Source to Pay release notes
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Core Business Suite Foundation for Source t
 
 ## Version history
 
+-   **Version 3.3.2 - August 2026**
+    -   Shipped out-of-the-box Procurement and Supplier knowledge bases.
+    -   Owners and managers can be defined by the admin for the knowledge base in the Core Business Suite configuration console to ensure proper governance and content tracking.
+    -   Shipped Now Assist search sources for Source to Pay for Knowledge article generation from invoice, supplier and procurement case table on the Knowledge center.
+    -   Create contextually relevant articles from case tables and drive better AI-assisted content creation by enabling Knowledge Content Recommendation skill from AI skills module.
 -   **Version 3.0.7 - July 2026**
     -   Supplier Collaboration Portal form redirection: Changed redirection after invoice case creation to request detail page instead of category page on Supplier Collaboration Portal
     -   Defect fix: Now Assist skills listing correction on product console for Human Resources Foundation to reflect only the skills included in Foundation
@@ -30,5 +35,5 @@ Version history for the ServiceNow® Core Business Suite Foundation for Source t
     The Core Business Suite Foundation for Source to Pay provides pre-configured workflows for streamlined case and knowledge management, along with foundational AI capabilities for the Source to Pay department.
 
 
-**Parent Topic:**[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
+**Parent Topic:**[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
 

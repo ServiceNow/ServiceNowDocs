@@ -1,22 +1,26 @@
 ---
-title: Now Assist for Employee Experience release notes
-description: Version history for the Now Assist for Employee Experience on the ServiceNow Store.
+title: ServiceNow Otto for Employee Experience release notes
+description: Version history for the ServiceNow Otto for Employee Experience on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-employee-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Employee Experience release notes
+# ServiceNow Otto for Employee Experience release notes
 
-Version history for the Now Assist for Employee Experience on the ServiceNow Store.
+Version history for the ServiceNow Otto for Employee Experience on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.4.3 - August 2026**
+
+    Otto rebranding: All references to AIA, Moveworks, or Now Assist are replaced with Otto throughout. You can see Otto as the assistant in all relevant interfaces and documentation.
 
 -   **Version 4.3.2 - June 2026**
 

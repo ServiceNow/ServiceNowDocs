@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-response-common.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Common release notes
@@ -18,6 +18,15 @@ Version history for the Vulnerability Response Common application on the Service
 
 ## Version history
 
+-   **Version 30.5.5 - September 2026**
+    -   Fixed:
+        -   Fixed system account restoration after impersonated execution in scheduled background jobs.
+        -   Corrected approver field resolution to use the configured approval table for each approval level.
+-   **Version 30.4.7 - August 2026 \(USEM\)**
+    -   Fixed:
+        -   The Create Remediation Task button was not visible to Remediation Owners on the Assigned to Me and Assigned to My Groups lists.
+        -   Transferring findings to a new remediation task incorrectly removed resolved findings from their original task.
+        -   On fresh installs, the Integration Type field had an incorrect default value, causing Auto-Close rules to skip some items.
 -   **Version 30.4.4 - July 2026 \(USEM\)**
     -   Fixed:
         -   Corrected the compensating controls workflow to support risk rating increases, allowing mitigated risk scores to be adjusted upward when appropriate.

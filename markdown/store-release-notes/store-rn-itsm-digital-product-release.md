@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-digital-product-release.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Digital Product Release release notes
@@ -18,6 +18,33 @@ Version history for the Digital Product Release application on the ServiceNow St
 
 ## Version history
 
+-   **Version 2.6.2 - September 2026**
+    -   New:
+        -   Configurable dashboards in DPR Workspace: Release admins can add, remove, and set default layouts for widgets on the Release Overview and Release Quality dashboards without developer intervention.
+        -   Record-level access control for releases: Product managers can enable restricted access to releases, limiting visibility to defined team members.
+        -   Release Home Page personalization: The "My Releases" chart displays only releases where the user is a release owner or part of the release team, updating dynamically for each logged-in user.
+        -   Change request page access enforcement: The view release option and release card on Change request pages are hidden from users who are not part of the release team when restricted access is enabled.
+        -   Approval definition enhancements: Approval definitions support Release task as an approval source, allowing selection of fields from the Release task table and dot-walking to release fields.
+        -   Additional products fields flexibility: Users can create releases without mandating Additional Products Fields, allowing greater flexibility in release configuration.
+        -   Planned start and end dates in phase form: Timeline-oriented releases display planned start and end dates in the release phase form as read-only fields.
+        -   Docked action buttons in modals: Action buttons at the bottom of modals are docked and always visible, improving navigation and usability.
+        -   Single-scroll experience for Add Task modal. The Add Task modal provides a smooth scrolling experience without nested scroll bars.
+        -   Link to release from release task form. Users can navigate directly from a release task form to its associated release for improved context.
+    -   Changed:
+        -   Release actions available across pages: Start Release, Re-target Release, Close Release, Complete Current Phase, and Run Policies buttons are now accessible as secondary actions on all release-related pages, including change, configuration item, release notes, timeline, tasks, policies, and scope.
+        -   Release phase optional for Change and CI association: The Release phase field is no longer mandatory when associating Changes or Configuration Items to a release. The field is pre-populated based on system properties and can be changed or left empty. All CIs and Changes for a release are shown by default, with filtering available via the list filter row.
+        -   Policy status rollup for multi-product releases: Policy status of newly added product phases in multi-product releases is rolled up to the primary release, ensuring aggregated compliance status reflects the weakest link among all products.
+        -   Assigned to field filtering for tasks and key dates: When restricted access is enabled, only users with access to the release are shown as assignable options in Add Task and Key Date modals and side panels.
+        -   Release phase list field is editable. Users can edit the Release phase list field directly.
+        -   Release template management UI update: The "Manage Release Template" button has been replaced with "Edit Release Template" and the Edit overflow menu has been removed.
+    -   Fixed:
+        -   Approval workflow flow has been corrected and is no longer in the Draft state.
+        -   The Digital Product Release Workspace refreshes correctly and displays newly added products.
+        -   Creating a change request with missing required fields no longer generates erroneous errors.
+        -   The Next button in DPR works as expected when creating a change request, allowing users to advance after selecting a template.
+        -   Release target durations are accurately reflected in the Release Calendar upon record creation.
+        -   The timeline component is reliably rendered in the UI.
+        -   Policies widget on the dashboards handles long release phase names without chart rendering issues.
 -   **Version 2.5.0 - June 2026**
     -   New: Product-level release settings: Product managers can define release behaviors per product, including release calendars, release templates, CI classes, and change models. When creating a release, only the calendar, templates, change models, and CI classes configured in the product-level settings are available, ensuring teams work within approved defaults.
     -   Changed:

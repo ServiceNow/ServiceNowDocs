@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Telecommunications Service Management release notes
+title: ServiceNow Store - Telecommunications Service Management version history release notes
 description: The ServiceNow Store contains Telecommunications Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Telecommunications Service Management release notes
+# ServiceNow Store - Telecommunications Service Management version history release notes
 
 The ServiceNow Store contains Telecommunications Service Management applications.
 
@@ -40,10 +40,8 @@ Version history for the Network Inventory Advanced application on the ServiceNow
 Version history for the Network Inventory Core application on the ServiceNow Store.
 -   **[Network Inventory Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-network-inventory-workspace.md)**  
 Version history for the Network Inventory Workspace application on the ServiceNow Store.
--   **[Now Assist for Sales Force Automation \(SFA\) for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-now-assist-som-telecom.md)**  
-Version history for the ServiceNow® Now Assist for Sales Force Automation \(SFA\) for Telecommunications application on the ServiceNow Store.
--   **[Now Assist for Telecommunications, Media and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-now-assist-telecom.md)**  
-Version history for the ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Sales Automation for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-now-assist-som-telecom.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Sales Automation for Telecommunications application on the ServiceNow Store.
 -   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-order-mgmt.md)**  
 Version history for the Order Management application on the ServiceNow Store.
 -   **[Order Management for Channel Partners release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-order-management-for-channel-partners.md)**  
@@ -74,6 +72,10 @@ Version history for the ServiceNow® Sales Customer Relationship Management for 
 Version history for the Service Exchange application on the ServiceNow Store.
 -   **[Service Exchange for Providers release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-service-bridge-providers.md)**  
 Version history for the Service Exchange for Providers application on the ServiceNow Store.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-now-assist-telecom.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
+-   **[Technology Account Management Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tmt-technology-account-management-experiences.md)**  
+Version history for the ServiceNow® Technology Account Management Experiences application on the ServiceNow Store.
 -   **[Telecom Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-core.md)**  
 Version history for the Telecommunications Service Management Telecom Core on the ServiceNow Store.
 -   **[Telecom Discovery Patterns release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-discovery-patterns.md)**  
@@ -109,5 +111,5 @@ Version history for the ServiceNow® TSOM for Telecommunications, Media and Tech
 -   **[TSOM for Telecommunications, Media and Technology - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-tsom-tmt-prime.md)**  
 Version history for the ServiceNow® TSOM for Telecommunications, Media and Technology - Prime application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

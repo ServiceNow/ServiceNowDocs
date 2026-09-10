@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Service NLU Model for Virtual Agent Conversations release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Customer Service NLU Model for Virtual Agen
     -   Built natively on ServiceNow, the NLU models integrate directly with Virtual Agent to improve intent recognition across common customer service scenarios. Teams get accurate, out-of-the-box language understanding tuned for CSM use cases, reducing the time and effort typically required to train custom NLU models from scratch.
     -   Organizations deploying Virtual Agent see faster deflection of routine inquiries, reduced live agent escalations, and improved customer satisfaction.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

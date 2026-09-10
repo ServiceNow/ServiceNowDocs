@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-service-bridge-consumers.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Exchange for Consumers release notes
@@ -18,6 +18,50 @@ Version history for the Service Exchange for Consumers application on the Servic
 
 ## Version history
 
+-   **Version 2.4.10 - September 2026**
+    -   Service Exchange for Consumers — v2.4.10
+        -   Fixed
+            -   Attachments could queue unnecessary background jobs regardless of connection state. \(PRB2070888\)
+            -   A remote task wasn't created when its trigger condition referenced a child-table-only field. \(PRB2070471\)
+    -   Service Exchange Base — v2.4.10
+        -   Fixed
+            -   Near-simultaneous updates on provider and consumer could drop one side's change. \(PRB2029744\)
+            -   output.ignore=true on a transform didn't actually exclude the field from the sync payload. \(PRB2066768\)
+            -   The Case table lacked a proper label/plural, showing an auto-generated name to some users. \(PRB1923483\)
+            -   A multi-row variable set on a record producer overwrote all rows with the last row's value. \(PRB2061638\)
+        -   Changed: Restart Connection after a clone/upgrade now also reactivates capture definitions automatically.
+        -   New: Added a scheduled sweep to reactivate capture definitions left inactive after a clone/upgrade.
+    -   Service Exchange Remote Process Sync Transport — v2.4.10
+        -   Fixed
+            -   Onboarding could time out on slow connections, leaving OAuth credentials empty. \(PRB2064896\)
+            -   OAuth credentials during onboarding were sent via URL query params instead of the request body. \(PRB2060125\)
+    -   Transporter — v2.4.10: No functional changes.
+    -   Service Exchange Health — v2.4.10
+        -   Fixed
+            -   Integration-user-naming scan check didn't validate the required prefix. \(PRB2023585\)
+            -   Some pre-onboarding scan failures didn't generate an Issue record, hiding the block reason. \(PRB2025384\)
+            -   Tightened ACLs on Health records; removed a console log exposing connection data. \(PRB2071380\)
+            -   Fixed message alignment and a duplicate message on the admin-group scan check. \(PRB2067053\)
+            -   Connection Dashboard now shows accurate inbound/outbound transport queue backlog counts.
+        -   Changed: Consolidated two magic-link scan checks into one, gated on whether magic links are enabled.
+        -   New
+            -   Added a clearer down-connection warning about data loss after 7+ days.
+            -   Added a notification to admins when the Admin group has no users.
+            -   Added warning messages for missing roles \(itil, cmdb\_read, personalize, import\_admin\).
+-   **Version 2.2.25 - August 2026 \(Australia\)**
+
+    Security enhancements applied.
+
+-   **Version 2.1.46 - August 2026 \(Zurich\)**
+
+    Security enhancements applied.
+
+-   **Version 2.3.29 - August 2026**
+    -   Fixed an issue where incident field updates made on the provider after a remote task was recreated were not synced to the consumer's parent record. \(PRB2040500\)
+    -   Fixed a security issue where certain UI actions could be triggered by users without the required access, allowing unauthorized changes. \(PRB2028501\)
+    -   Fixed a security issue where some Scripted REST APIs allowed broader access than intended due to an overly permissive default access rule. \(PRB2028515\)
+    -   Fixed a security issue where two administrative UI pages could be accessed and executed by users without the required access. \(PRB2028503\)
+    -   Improved the Restart Connection experience — a clear banner now appears on the connection form when a connection is down and repairable, with confirmation messaging on success or a clear error if you lack access.
 -   **Version 2.3.18 - June 2026**
     -   Connections tab in the Service Exchange Center: Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
     -   Improved consumer registration and onboarding: Onboard consumers faster with a guided, step-by-step registration experience. Upgraded consumers are automatically redirected to this experience to receive clearer progress indicators during onboarding, and actionable messaging for failure and delay scenarios, minimizing onboarding friction and support dependency.

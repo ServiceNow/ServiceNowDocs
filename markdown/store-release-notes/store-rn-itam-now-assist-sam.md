@@ -1,22 +1,30 @@
 ---
-title: Now Assist for Software Asset Management \(SAM\) release notes
-description: Version history for the Now Assist for Software Asset Management \(SAM\) application on the ServiceNow Store.
+title: ServiceNow Otto for Software Asset Management \(SAM\) release notes
+description: Version history for the ServiceNow Otto for Software Asset Management \(SAM\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-now-assist-sam.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Software Asset Management \(SAM\) release notes
+# ServiceNow Otto for Software Asset Management \(SAM\) release notes
 
-Version history for the Now Assist for Software Asset Management \(SAM\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Software Asset Management \(SAM\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.0.0 - September 2026**
+
+    New feature: AI-powered Software spend detection -Reduce manual effort in classifying spend transactions with AI-powered software spend detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
+
+-   **Version 10.4.0 - August 2026**
+
+    Starting with v10.4.0, Now Assist for Software Asset Management is now ServiceNow Otto for Software Asset Management.
 
 -   **Version 9.0.0 - July 2026**
 
@@ -90,5 +98,5 @@ Version history for the Now Assist for Software Asset Management \(SAM\) applica
     With the Now Assist for Software Asset Management \(SAM\) application, SAM managers can use generative AI to summarize important publisher information and gain insights on the software estate and license position, making it easier to manage compliance with publisher contracts.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-02-01"
 reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Ancillary software release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Ancillary software version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Password Reset Windows Application release notes
@@ -193,5 +193,5 @@ Version history for the Password Reset Windows Application in ancillary software
         -   Multiple tiles are appearing after installing PasswordResetWinAppInstall.
         -   Security fixes and other performance improvements.
 
-**Parent Topic:**[ServiceNow Store - Ancillary software release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)
+**Parent Topic:**[ServiceNow Store - Ancillary software version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)
 

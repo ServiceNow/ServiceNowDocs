@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # IT Service Management for Microsoft 365 release notes
@@ -59,5 +59,5 @@ Version history for the IT Service Management for Microsoft 365 application on t
     Employees get a connected and unified employee experience with direct access to Employee Center and Virtual Agent in Microsoft Teams, Outlook and Microsoft 365. Agents can better collaborate and communicate with individuals and groups on incidents and other tickets through Microsoft Teams.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

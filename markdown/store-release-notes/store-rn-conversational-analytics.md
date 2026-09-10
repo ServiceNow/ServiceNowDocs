@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-conversational-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Analytics release notes
@@ -18,6 +18,10 @@ Version history for the Conversational Analytics on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.3.1 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Active VA Users widget count mismatch with the drill-down users page.
+        -   Broken date display \(NaN:NaN\) in conversation analytics for non-default date formats.
 -   **Version 9.2.0 - June 2026 \(Australia\)**
     -   Fixed: Minor defects
     -   Removed: Appsee plugin dependency

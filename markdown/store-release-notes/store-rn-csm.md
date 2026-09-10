@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Store - Customer Service Management release notes
+title: ServiceNow Store - Customer Service Management version history release notes
 description: The ServiceNow Store contains Customer Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm.html
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store release notes]
+reading_time_minutes: 13
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Customer Service Management release notes
+# ServiceNow Store - Customer Service Management version history release notes
 
 The ServiceNow Store contains Customer Service Management applications.
 
@@ -56,6 +56,8 @@ Version history for the ServiceNow® Complaint Case AI Agents collection applica
 Version history for the Consumer Service Portal application on the ServiceNow Store.
 -   **[Contact Center Integration Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-contact-center-int-core.md)**  
 Version history for the Contact Center Integration Core application on the ServiceNow Store.
+-   **[Contracts and Entitlements Self Service release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-contracts-entitlements-self-service.md)**  
+Version history for the ServiceNow® Contracts and Entitlements Self Service application on the ServiceNow Store.
 -   **[Contracts and Entitlement Workflows release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-contracts-entitlement-workflows.md)**  
 Version history for the Contracts and Entitlement Workflows application on the ServiceNow Store.
 -   **[Conversational Appointment Booking release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-conversational-appt-booking.md)**  
@@ -88,8 +90,8 @@ Version history for the CSM Configurable Workspace application on the ServiceNow
 Version history for the ServiceNow® CSM Contributor User application on the ServiceNow Store.
 -   **[CSM Data Classification release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-data-classification.md)**  
 Version history for the CSM Data Classification application on the ServiceNow Store.
--   **[CSM Extension for Proxy Contacts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-extension-for-proxy-contacts.md)**  
-Version history for the ServiceNow® CSM Extension for Proxy Contacts application on the ServiceNow Store.
+-   **[Customer Proxy Contacts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-extension-for-proxy-contacts.md)**  
+Version history for the ServiceNow® Customer Proxy Contacts application on the ServiceNow Store.
 -   **[CSM Manager Dashboard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-manager-dashboard.md)**  
 Version history for the ServiceNow® CSM Manager Dashboard application on the ServiceNow Store.
 -   **[CSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-mcp-server.md)**  
@@ -168,16 +170,6 @@ Version history for the Interaction Control Component application on the Service
 Version history for the Customer Service Management Knowledge API on the ServiceNow Store.
 -   **[Major Issue Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-major-issue-mgmt.md)**  
 Version history for the ServiceNow® Major Issue Management application on the ServiceNow Store.
--   **[Now Assist for Advanced Work Assignment \(AWA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-awa.md)**  
-Version history for the ServiceNow® Now Assist for Advanced Work Assignment \(AWA\) application on the ServiceNow Store.
--   **[Now Assist for Complaint Case \(CSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-complaint-case.md)**  
-Version history for the ServiceNow® Now Assist for Complaint Case \(CSM\) application on the ServiceNow Store.
--   **[Now Assist for CSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist.md)**  
-Version history for the Now Assist for CSM application on the ServiceNow Store.
--   **[Now Assist for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-for-order-management.md)**  
-Version history for the ServiceNow® Now Assist for Order Management application on the ServiceNow Store.
--   **[Now Assist Readiness Evaluation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist-readiness-eval.md)**  
-Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 -   **[Now Assist Service Quality release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-rn-now-assist-service-quality.md)**  
 Version history for the ServiceNow® Now Assist Service Quality application on the ServiceNow Store.
 -   **[Omnichannel Callback for Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-omnichannel-callback.md)**  
@@ -196,6 +188,8 @@ Version history for the Order Management application on the ServiceNow Store.
 Version history for the Order Management for Business Locations application on the ServiceNow Store.
 -   **[Order Operations Case Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-order-ops-case-mgmt.md)**  
 Version history for the Order Operations Case Management application on the ServiceNow Store.
+-   **[Otto Readiness Evaluation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist-readiness-eval.md)**  
+Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 -   **[Outsourced Customer Service release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-outsourced-customer-service.md)**  
 Version history for the ServiceNow® Outsourced Customer Service application on the ServiceNow Store.
 -   **[Playbooks for Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-case-playbook-csm.md)**  
@@ -218,6 +212,8 @@ Version history for the Recommended Actions - Advanced application on the Servic
 Version history for the ServiceNow® Resolution Shaper application on the ServiceNow Store.
 -   **[RMA Case Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-rma-case-mgmt.md)**  
 Version history for the RMA Case Management application on the ServiceNow Store.
+-   **[RMA Case Self-Service release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-rma-case-self-service.md)**  
+Version history for the ServiceNow® RMA Case Self-Service application on the ServiceNow Store.
 -   **[Sales Agreement Data Model release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-sales-agreement-data-model.md)**  
 Version history for the CSM Sales Agreement Data Model application on the ServiceNow Store.
 -   **[Sales Agreement Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-sales-agreement-mgmt.md)**  
@@ -226,6 +222,14 @@ Version history for the CSM Sales Agreement Management application on the Servic
 Version history for the ServiceNow® Service Contractor Base application on the ServiceNow Store.
 -   **[Service Organization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-service-organization.md)**  
 Version history for the ServiceNow® Service Organization application on the ServiceNow Store.
+-   **[ServiceNow Otto for Advanced Work Assignment \(AWA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-awa.md)**  
+Version history for the ServiceNow® ServiceNow Otto® for Advanced Work Assignment \(AWA\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Complaint Case \(CSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-complaint-case.md)**  
+Version history for the ServiceNow® ServiceNow Otto® for Complaint Case \(CSM\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for CSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist.md)**  
+Version history for the ServiceNow Otto for CSM application on the ServiceNow Store.
+-   **[ServiceNow Otto for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-now-assist-for-order-management.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Order Management application on the ServiceNow Store.
 -   **[ServiceNow Voice for CSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-voice.md)**  
 Version history for the ServiceNow Voice for CSM application on the ServiceNow Store.
 -   **[Shift Planning for Configurable Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-shift-planning-configurable-workspace.md)**  
@@ -248,12 +252,16 @@ Version history for the ServiceNow® Voice Controls Simulator Tool application o
 Version history for the ServiceNow® Walk-Up for CSM application on the ServiceNow Store.
 -   **[Web Components for Customers release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-web-components-customers.md)**  
 Version history for the ServiceNow® Web Components for Customers application on the ServiceNow Store.
+-   **[Web Embeddables core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-web-embeddables-core.md)**  
+Version history for the ServiceNow® Web Embeddables core application on the ServiceNow Store.
+-   **[WebRTC Voice release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-webrtc-voice.md)**  
+Version history for the ServiceNow® WebRTC Voice application on the ServiceNow Store.
 -   **[Workforce Optimization Configurable Workspace UI Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-workforce-workspace-ui-components.md)**  
 Version history for the Customer Service Management Workforce Optimization Configurable Workspace UI Components on the ServiceNow Store.
--   **[Workforce Optimization for CSM Configurable Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-workforce-optimization-configurable-workspace.md)**  
-Version history for the Customer Service Management Workforce Optimization for CSM Configurable Workspace on the ServiceNow Store.
+-   **[Workforce Optimization for CRM Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-workforce-optimization-configurable-workspace.md)**  
+Version history for the Customer Service Management Workforce Optimization for CRM Workspace on the ServiceNow Store.
 -   **[Zoom extension for Omnichannel Callback release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-zoom-omnichannel-callback.md)**  
 Version history for the Zoom extension for Omnichannel Callback on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

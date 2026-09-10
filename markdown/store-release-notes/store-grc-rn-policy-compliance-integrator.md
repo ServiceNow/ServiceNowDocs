@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-policy-compliance-integrator.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Policy and Compliance integrator release notes
@@ -17,6 +17,10 @@ Version history for the GRC: Policy and Compliance integrator application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.1 - September 2026 \(Brazil\)**
+
+    Fixed: Migrated query range access controls to conditional plugin structure for app compatibility with the Zurich release.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
@@ -50,5 +54,5 @@ Version history for the GRC: Policy and Compliance integrator application on the
     GRC: integrations with third-party content provides a common framework for content providers to push their content like authority documents, citations, control objectives, and additional content types.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

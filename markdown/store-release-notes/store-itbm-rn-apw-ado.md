@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Alignment Planner Workspace integration with Azure DevOps \(ADO\) release notes
@@ -28,5 +28,5 @@ Version history for the Alignment Planner Workspace integration with Azure DevOp
     Enable bidirectional synchronization of work items between ServiceNow Alignment Planner Workspace \(APW\) and Microsoft Azure DevOps. Plan your work in APW and execute it in Azure DevOps. The bidirectional sync of records ensures that your progress is up to date on both the platforms.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-agent-client-collector-investigation.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Client Collector for Investigation release notes
@@ -18,6 +18,12 @@ Version history for the ITSM Agent Client Collector for Investigation on the Ser
 
 ## Version history
 
+-   **Version 9.4.2 - September 2026**
+    -   View the metrics relevant to the incident and CI in the context of the incident for Investigation
+    -   Get latest metrics and data on-demand from within investigation
+    -   Visibility for when metrics exceed pre-set warning and critical threshold levels
+    -   Includes support for remedial action playbooks
+    -   Link into DEX console while investigating a CI \(requires separate DEX entitlement\)
 -   **Version 9.2.0 - June 2026**
     -   Changes:
         -   Updated plugin dependencies to ensure compatibility with the ServiceNow Australia and later releases
@@ -107,5 +113,5 @@ Version history for the ITSM Agent Client Collector for Investigation on the Ser
     The Agent Client Collector for Investigation application enables you to retrieve and capture metrics data for the affected CIs. You can enrich an incident with system details and metrics from your devices and servers to streamline investigations and accelerate incident resolution.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

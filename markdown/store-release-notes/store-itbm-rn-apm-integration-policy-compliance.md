@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Application Portfolio Management integration with Policy and Compliance release notes

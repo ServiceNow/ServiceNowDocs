@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2018-10-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: SOX content pack release notes \(Jakarta\)

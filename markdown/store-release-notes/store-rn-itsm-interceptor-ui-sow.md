@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2018-01-29"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Interceptor UI for Service Operations Workspace release notes

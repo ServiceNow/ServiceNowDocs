@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Document Intelligence release notes
@@ -147,5 +147,5 @@ Version history for the Document Intelligence application on the ServiceNow Stor
     Document Intelligence is an intuitive and flexible application for dynamic businesses with highly variable document processing needs that change over time. You define what information you want to extract from your documents and then teach AI models to extract that information through our user-friendly interface. Over time, the application gets better and better, making it faster for you to extract data from your documents and eventually enabling full automation if desired.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

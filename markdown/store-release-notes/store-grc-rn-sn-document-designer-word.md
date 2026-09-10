@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-sn-document-designer-word.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow Document Designer with Word release notes
@@ -18,6 +18,13 @@ Version history for the ServiceNow Document Designer with Word application on th
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   New:
+        -   Scripted HTML column type for document designer
+            -   Authors can now create data columns that return HTML through scripts, enabling rich formatting and embedded images within repeater and table iterations. Scripted HTML columns are available in the Data Column form and render formatted content in generated documents.
+    -   Changed
+        -   Enhanced support for scripted HTML data columns
+            -   Report generation now correctly handles special characters in HTML fields, ensuring successful output and proper character escaping.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   Changed:
         -   Consolidated Document Designer plugin
@@ -53,5 +60,5 @@ Version history for the ServiceNow Document Designer with Word application on th
     The Document Designer for Microsoft Word enables you to extract metadata, including fields, related lists, reference fields, and their associated elements from ServiceNow tables. It also allows you to insert content blocks that repeat based on the number of records in a table, such as 10 blocks for 10 issues. When applied to specific records, the template generates a Word document.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

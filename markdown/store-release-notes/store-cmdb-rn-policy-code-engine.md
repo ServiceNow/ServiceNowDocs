@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-policy-code-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Policy as Code Engine release notes
@@ -18,6 +18,10 @@ Version history for the Policy as Code Engine application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 3.3.1 - September 2026**
+    -   PaCE 3.3.1 includes the following capabilities:
+        -   Security defect fixes.
+        -   Other product Defect fixes.
 -   **Version 3.3.0 - June 2026**
     -   PaCE 3.3 includes the following new capabilities:
         -   1. Security enhancement
@@ -43,5 +47,5 @@ Version history for the Policy as Code Engine application on the ServiceNow Stor
         -   Increase change velocity while including guardrails with automated workflows and in the DevOps CI/CD pipeline.
         -   Collect evidence and proof of compliance. The rich audit capabilities allow internal auditors to collect evidence for governance and risk requirements.
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-asset-sec-posture.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Asset Security Posture Management release notes
@@ -17,6 +17,10 @@ Version history for the Vulnerability Response Asset Security Posture Management
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.5.4 - September 2026**
+
+    Changed: Internal packaging optimization to improve application upgrade performance. You might see improved performance during upgrade, but there are no functional or behavioral changes or requirements for end users.
 
 -   **Version 5.5.2 - June 2026**
     -   The following enhancements and changes support internal security directives. These changes are applied automatically upon upgrade and your customizations on impacted Access Control Lists \(ACLs\) are preserved:
@@ -78,5 +82,5 @@ Version history for the Vulnerability Response Asset Security Posture Management
     Initial release: This plugin provides you with an inventory of your enterprise assets and identifies their security tool coverage gaps. Assets identified as missing endpoint protection agents, for example, are associated with vulnerability data from third-party vulnerability assessment tools to give you visibility into combinations of the high-risk security lapses on your enterprise assets.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

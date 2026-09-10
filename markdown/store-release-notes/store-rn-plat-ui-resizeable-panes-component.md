@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Resizable panes component release notes
@@ -43,5 +43,5 @@ Version history for the Resizable panes component application on the ServiceNow 
     Displays two content slots, one on the left and one on the right, that users can resize horizontally or vertically. Optionally, the component can display an action bar that enables users to set which panes display.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
 

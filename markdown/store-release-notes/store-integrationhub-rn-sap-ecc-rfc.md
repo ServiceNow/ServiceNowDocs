@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SAP ECC RFC spoke release notes
@@ -17,6 +17,10 @@ Version history for the SAP ECC RFC Spoke on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.11.0 - August 2026**
+
+    Added 1 new action: Cancel Non-PO Invoice
 
 -   **Version 2.10.0 - June 2026**
     -   Security patch for non-glide ACLs
@@ -131,5 +135,5 @@ Version history for the SAP ECC RFC Spoke on the ServiceNow Store.
     New: The SAP ECC RFC Spoke provides a list of actions that interact with SAP standard BAPIs. It provides the foundation to synchronize ServiceNow and SAP ECC, such as create PO, update PO, create a journal entry, create invoices, create goods receipts, and so on.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

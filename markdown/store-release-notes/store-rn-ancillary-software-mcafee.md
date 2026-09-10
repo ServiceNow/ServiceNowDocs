@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-05-14"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Ancillary software release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Ancillary software version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Operations Extension for McAfee ePO release notes

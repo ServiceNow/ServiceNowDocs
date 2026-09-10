@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-12-17"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Telecom Core release notes
@@ -23,5 +23,5 @@ Version history for the Telecommunications Service Management Telecom Core on th
     Changed: Moved SD-WAN CMDB CI Class Model demo data to Telecommunications Assurance Workflows application
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

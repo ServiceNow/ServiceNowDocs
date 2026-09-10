@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-va-conversations.html
 release: store
 topic_type: reference
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HR Service Delivery Virtual Agent Conversations release notes
@@ -18,6 +18,10 @@ Version history for the HR Service Delivery Virtual Agent Conversations content 
 
 ## Version history
 
+-   **Version 24.2.13 - September 2026**
+    -   Fixed:
+        -   Minor defect fixes
+        -   Fixed a major issue with VA conversations timing out when HR ESC Experience is used
 -   **Version 24.2.11 - January 2026**
     -   Fixed:
         -   Minor defect fixes
@@ -84,5 +88,5 @@ Version history for the HR Service Delivery Virtual Agent Conversations content 
     Get instant resolution to repetitive HR service tasks and requests with HR Service Delivery Virtual Agent - an automated, conversational chatbot that understands natural human language. HR Service Delivery Virtual Agent provides customers and employees with a 24/7 self-service experience. It assists Employees in finding help related to HR-related inquiries on their own, thus freeing the HR agents to work on more meaningful tasks while increasing employee satisfaction and productivity. HR Service Delivery Virtual Agent Conversations include common HR conversation workflows to help you accelerate the deployment of your HR Service Delivery Virtual Agent.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

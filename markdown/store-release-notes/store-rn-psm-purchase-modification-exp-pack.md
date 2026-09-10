@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-purchase-modification-exp-pack.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Playbooks for Sourcing and Procurement Operations release notes
@@ -18,6 +18,15 @@ Version history for the Playbooks for Sourcing and Procurement Operations applic
 
 ## Version history
 
+-   **Version 8.8.1 - September 2026**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
 -   **Version 8.5.5 - March 2026**
 
     New: Enhanced the shopping experience by enabling users to shop on behalf of others, with improved visibility and management of these purchases. Users can select shoppers without the delegate route, view business owner purchases in My Purchases, and modify purchases made on behalf of others.

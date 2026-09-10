@@ -1,23 +1,30 @@
 ---
-title: Now Assist for Sales Customer Relationship Management release notes
-description: Version history for the Now Assist for Sales Customer Relationship Management application on the ServiceNow Store.
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes
+description: Version history for the ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-now-assist-som.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Sales Customer Relationship Management release notes
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes
 
-Version history for the Now Assist for Sales Customer Relationship Management application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 1.1.7 - September 2026**
+    -   Fixed:
+        -   Version support upgraded to BP0 and AP6
+        -   Dependent app version updated to support same engines
+-   **Version 1.1.6 - August 2026**
+    -   New: Fluent-based development support has been added.
+    -   Changed: The app has been renamed from "Now Assist for Sales Force Automation \(SFA\)" to "ServiceNow Otto for Sales Automation"
 -   **Version 1.1.5 - July 2026**
 
     Changed: Some details related to the dependency for this plugin

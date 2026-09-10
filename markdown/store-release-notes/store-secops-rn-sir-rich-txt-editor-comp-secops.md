@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-rich-txt-editor-comp-secops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Rich Text Editor Component for Security Operations release notes
@@ -17,6 +17,10 @@ Version history for the Rich Text Editor Component for Security Operations appli
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.7.0 - September 2026**
+
+    Fixed: Resolved Rich Text Editor component issues identified in Workspace testing to enhance reliability.
 
 -   **Version 2.0.1 - June 2026 \(Australia\)**
 
@@ -71,5 +75,5 @@ Version history for the Rich Text Editor Component for Security Operations appli
     Rich Text Editor Component for Security Operations is a dependency-only plugin that provides the Rich Text Editor Component for Workspace.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

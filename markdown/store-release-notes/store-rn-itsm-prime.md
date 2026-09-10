@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM - Prime release notes
@@ -18,6 +18,90 @@ Version history for the ServiceNow® ITSM - Prime application on the ServiceNow 
 
 ## Version history
 
+-   **Version 2.3.3 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.2.5 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.1.4 - August 2026 \(Zurich\)**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
 -   **Version 2.2.2 - July 2026**
     -   New:
         -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
@@ -113,5 +197,5 @@ Version history for the ServiceNow® ITSM - Prime application on the ServiceNow 
     Prime is the top tier for organizations ready to put AI to work independently, enabling requesters to build the assistants they need and fulfillers to onboard AI Specialists that own entire jobs. AI completes work end-to-end — fully independent, making decisions, and operating with role-based expertise through custom AI Specialists, Agents, and Skills. On the requester side, Moveworks provides a conversational layer purpose-built for each team and use case, with the ability to build custom Specialized Assistants tailored to any domain and connect any enterprise system with custom plugins. On the fulfiller side, Now Assist onboards AI Specialists to the service desk that handle entire jobs from start to finish — deploying AI specialists trained on your L1 workflows and building custom AI Specialists, Agents, and Skills scoped to specific L1 roles. Prime is for organizations that want fulfillers focused only on the work that truly requires human judgment.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

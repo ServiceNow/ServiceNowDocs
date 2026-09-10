@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-visa.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations Integration with Visa release notes
@@ -17,6 +17,13 @@ Version history for the Financial Services Operations Integration with Visa appl
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.1 - September 2026**
+    -   New: The Visa Integration subflow has been updated to support Visa revision 26.2, including a fix to the cardholder checkout date field formatting.
+    -   Changed: Updated internal application components to support ongoing platform enhancements
+-   **Version 4.1.1 - August 2026**
+
+    Fixed: Added a manual action on the case to fetch the Visa merchant response when the automatic retrieval fails, giving agents a fallback to unblock stalled disputes.
 
 -   **Version 4.0.0 - July 2026**
 

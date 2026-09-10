@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management release notes
@@ -17,6 +17,33 @@ Version history for the ITAM Software Asset Management application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - September 2026 \(Brazil\)**
+    -   This release includes the following enhancements:
+        -   Reclamation Summary Table – Gain visibility into removal candidates grouped by justification, applies-to value, and product/software model in a single unified view—enabling granular analysis and targeted reclamation workflows.
+        -   Automated Oracle Reclamation Candidate Generation – Oracle reclamation candidates are now generated automatically and populated in the summary record, streamlining your reclamation workflow.
+-   **Version 5.0.1 - September 2026 \(Brazil\)**
+    -   New:
+        -   Automatic suite license inference: Enable automatic suite inference to calculate the optimal suite license for each software installation based on your actual footprint and entitlements. This feature reduces manual configuration required for the suite on the software model and improves compliance reporting.
+        -   Deduplication rules: Choose how closely versions must match before two installs on the same device count as duplicates, on per product level.
+        -   Deduplication transparency: Each install now shows which deduplication rule was applied and which install was kept as the active one.
+        -   Tiered and volume-based license metrics: Onboard and reconcile entitlements that are sold in tiers or in packs, such as those from IBM and VMware.
+    -   Changed:
+        -   More accurate duplicate detection: Duplicates are now detected within a single discovery source as well as across sources, and language differences no longer prevent a match. This clears up inflated install counts, such as those caused by Microsoft 365 language packs. The new behavior is applied to your existing installs after you upgrade.
+        -   Better choice of active install: When duplicates are found, the most complete and most recent record is kept as the active one. The discovery source no longer influences the choice.
+        -   More accurate suite licensing: Related products such as Core Infrastructure Server, Windows Server, and System Center are now considered together during licensing. This avoids licensing the same hardware twice and makes better use of the licenses you already own.
+        -   Less noise in product results: Suite Components that cannot be licensed on their own, such as Microsoft SQL Server Analysis Services, now roll up to their suite instead of appearing as separate product results.
+-   **Version 4.1.7 - September 2026 \(Australia\)**
+
+    This release enhances resource value capabilities and fixes critical defects affecting deduplication and installation unlicensed reasons—ensuring consistent, reliable system behavior across these areas.
+
+-   **Version 4.1.5 - August 2026 \(Australia\)**
+
+    In this version, minor defects affecting reconciliation flow performance and lifecycle report have been resolved. System behavior is now consistent and reliable in these areas.
+
+-   **Version 3.2.9 - August 2026 \(Zurich\)**
+
+    In this version, minor defects related to reconciliation flow performance and lifecycle report have been resolved. System behavior is now consistent and reliable in these areas.
 
 -   **Version 4.1.4 - July 2026 \(Australia\)**
 

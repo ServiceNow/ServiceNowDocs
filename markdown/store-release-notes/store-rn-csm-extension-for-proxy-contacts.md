@@ -1,25 +1,29 @@
 ---
-title: CSM Extension for Proxy Contacts release notes
-description: Version history for the ServiceNow CSM Extension for Proxy Contacts application on the ServiceNow Store.
+title: Customer Proxy Contacts release notes
+description: Version history for the ServiceNow Customer Proxy Contacts application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-extension-for-proxy-contacts.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# CSM Extension for Proxy Contacts release notes
+# Customer Proxy Contacts release notes
 
-Version history for the ServiceNow® CSM Extension for Proxy Contacts application on the ServiceNow Store.
+Version history for the ServiceNow® Customer Proxy Contacts application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.1.0 - August 2026**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 2.0.0 - March 2026**
 
     No new features have been delivered; migrated the application from family to store. Enables internal employees to act as proxy case contacts and create customer cases and requests on behalf of customers, while clearly tracking the internal user as the proxy contact.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

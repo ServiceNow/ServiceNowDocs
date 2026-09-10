@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contracts Core components release notes
@@ -23,5 +23,5 @@ Version history for the Contracts Core components application on the ServiceNow 
     The ServiceNow Contracts Core Components is a required application that improves the experience for viewing and editing contracts related entities in Microsoft Word Add-in for Servicenow Contracts and the fulfiller workspaces. See Contract Management Pro for complete details.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

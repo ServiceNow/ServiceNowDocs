@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-06-18"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Finance Workspace Components release notes
@@ -28,5 +28,5 @@ Version history for the Finance Operations Management Finance Workspace Componen
     The ServiceNow Finance Workspace Components application improves the workspace experience for the Finance Workspace by decoupling the components in the Finance Workspace and offers better performance and upgrade scalability.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

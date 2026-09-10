@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Now Assist for Vulnerability Response release notes
@@ -18,6 +18,11 @@ Version history for the Now Assist Vulnerability Response application on the Ser
 
 ## Version history
 
+-   **Version 5.2.3 - August 2026 \(USEM\)**
+    -   New: Enhancements to the Security Exposure 360 feature:
+        -   Clickable Links to Records: Counts and findings in the Security Exposure 360 output are now directly clickable, linking you to the underlying vulnerable item \(VITs\)/records in your ServiceNow AI Platform instance.
+        -   Suggested follow-up questions: Suggested follow-up questions are provided that help you drill down.
+    -   Changed: Enhancements to support the ServiceNow Otto brand.
 -   **Version 5.1.0 - July 2026 \(USEM\)**
     -   Changed:
         -   Updated the default LLM provider for Now Assist for Vulnerability Response skills to 3P \(Third-Party\) models where required for consistency across all supported skills.
@@ -69,5 +74,5 @@ Version history for the Now Assist Vulnerability Response application on the Ser
     Empower your vulnerability managers and analysts with AI agents in the Now Assist with Vulnerability Response application to revolutionize how they monitor and remediate your most critical vulnerabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

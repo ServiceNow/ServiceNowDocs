@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Financial Services Controls Accelerator release notes
@@ -27,5 +27,5 @@ Version history for the GRC: Financial Services Controls Accelerator application
     This accelerator offers a comprehensive set of cybersecurity and technology controls specifically designed for the financial services industry. It aligns with key regulatory frameworks and guidance from leading authorities such as the FFIEC, NYDFS, OCC, SEC, CISA, and DORA. The controls are structured to help organizations meet compliance obligations, strengthen operational resilience, and proactively manage emerging cyber threats across their digital and third-party ecosystems.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

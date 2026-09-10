@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-vendor-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Third-party Risk Management release notes
@@ -18,6 +18,31 @@ Version history for the GRC: Third-party Risk Management application on the Serv
 
 ## Version history
 
+-   **Version 23.0.7 - September 2026 \(Brazil\)**
+    -   New:
+        -   Added engagement and element risk-rating calculations.
+        -   Added element-assessment evidence rollups and deduplication.
+        -   Added internal task management and responder actions.
+        -   Added SAE questionnaire notifications and assessment improvements.
+        -   Added AIDE semantic configurations and SBOM-related enhancements.
+    -   Changed:
+        -   Expanded risk-rating calculations across vendor, engagement, and element relationships.
+        -   Added task types, internal-task access, and responder permissions.
+        -   Updated assessment reassignment and issue-generation behavior.
+        -   Improved role exclusions, ACL conditions, and secure query handling.
+    -   Fixed:
+        -   Corrected issue-generation handling for invalid or hidden SAE questions \(PRB2021879\).
+        -   Fixed vendor assessment reminder failures when due dates are missing \(PRB2029246\).
+        -   Corrected document-link navigation from internal assessments \(PRB2030116\).
+        -   Fixed risk ratings not being set after assessment submission \(PRB2034741\).
+        -   Corrected exclusion mappings for assessment responder and business-user roles \(PRB2039159\).
+        -   Fixed SBOM product-model creation after document processing \(PRB2052847\).
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+    -   Changed: Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience
+    -   Fixed: Addressed Arbitrary GlideRecord read in VendorRiskAsmtAjax security issue \[PRB1997560\]
+-   **Version 22.1.1 - August 2026 \(Zurich\)**
+    -   Changed: Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience
+    -   Fixed: Addressed Arbitrary GlideRecord read in VendorRiskAsmtAjax security issue \[PRB1997560\]
 -   **Version 22.3.3 - June 2026 \(Australia\)**
     -   New:
         -   Added Software Bill of Materials \(SBOM\) Smart Assessment template and automation rules.
@@ -251,5 +276,5 @@ Version history for the GRC: Third-party Risk Management application on the Serv
     Fixed: Support additional information on vendor portal questionnaire. Madrid instances on Patch 9 or later are able to receive this bug fix.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

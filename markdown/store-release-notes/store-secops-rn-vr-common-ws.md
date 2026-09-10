@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-common-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Common Workspace release notes
@@ -18,6 +18,28 @@ Version history for the Vulnerability Response Common Workspace application on t
 
 ## Version history
 
+-   **Version 30.8.8 - September 2026**
+    -   Changed: Enhanced Exception Management to support dynamic configuration for new finding uptake.
+    -   Fixed:
+        -   Corrected filtering and grouping behavior on theApplies to field in Container Remediation Target rules, preventing errors in USEM workflows.
+        -   Improved Approvals page list view to persist column selections after sorting or filtering operations.
+        -   Corrected a behavior where resolved findings were not skipped during remediation record transfer.
+        -   Added state filtering capability to remediation task dissociation workflows.
+        -   Restored Create Remediation Task UI Action popup modal to expected functionality.
+-   **Version 30.7.2 - August 2026**
+    -   Fixed:
+        -   Fixed an issue where bulk editing vulnerability exceptions allowed the expiration date to exceed the configured limit
+        -   Fixed success messages that were not properly translated when modifying or resetting vulnerability severity
+        -   Fixed the Findings form to display the most recent date-time fields instead of outdated date fields
+        -   Security fixes
+        -   Resolved UI issues that occurred when creating remediation tasks from the Findings or List view
+-   **Version 30.7.1 - August 2026**
+    -   Fixed:
+        -   Fixed an issue where bulk editing vulnerability exceptions allowed the expiration date to exceed the configured limit
+        -   Fixed success messages that were not properly translated when modifying or resetting vulnerability severity
+        -   Fixed the Findings form to display the most recent date-time fields instead of outdated date fields
+        -   Security fixes
+        -   Resolved UI issues that occurred when creating remediation tasks from the Findings or List view
 -   **Version 30.5.9 - July 2026 \(USEM\)**
     -   New: Users with the Approval role can now view data pills in the workspace
     -   Changed:
@@ -128,5 +150,5 @@ Version history for the Vulnerability Response Common Workspace application on t
     Vulnerability Response Common Workspace is a framework that supports and provides common resources for Vulnerability Response Workspaces.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

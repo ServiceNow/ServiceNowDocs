@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Enterprise Architecture release notes
+title: ServiceNow Store - Enterprise Architecture version history release notes
 description: The ServiceNow Store contains Enterprise Architecture applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-enterprise-architecture-highlights.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Enterprise Architecture release notes
+# ServiceNow Store - Enterprise Architecture version history release notes
 
 The ServiceNow Store contains Enterprise Architecture applications.
 
@@ -29,5 +29,5 @@ Version history for the Enterprise Modeling Common application on the ServiceNow
 -   **[Enterprise Modeling and Visualization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-enterprise-modeling-viz.md)**  
 Version history for the Enterprise Modeling and Visualization application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

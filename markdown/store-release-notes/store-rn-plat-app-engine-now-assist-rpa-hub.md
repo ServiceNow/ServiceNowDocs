@@ -1,22 +1,26 @@
 ---
-title: Now Assist for RPA Hub release notes
-description: Version history for the Now Assist for RPA Hub application on the ServiceNow Store.
+title: ServiceNow Otto for RPA Hub release notes
+description: Version history for the ServiceNow Otto for RPA Hub application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-now-assist-rpa-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for RPA Hub release notes
+# ServiceNow Otto for RPA Hub release notes
 
-Version history for the Now Assist for RPA Hub application on the ServiceNow Store.
+Version history for the ServiceNow Otto for RPA Hub application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.1 - August 2026 \(Australia\)**
+
+    Changed: Updated the AI experience branding in RPA Desktop Design Studio to align with ServiceNow Otto naming and visual guidelines.
 
 -   **Version 5.0.4 - March 2026 \(Australia\)**
 

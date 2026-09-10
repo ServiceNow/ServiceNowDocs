@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management Workspace release notes
@@ -32,5 +32,5 @@ Version history for the Software Asset Management Workspace application on the S
     Software Asset Workspace is an intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.It is a unified medium with multiple views enabling you to create entitlements, software models, run and review reconciliation results, remediate non compliance, give visibility into your software assets, and provides access to analytics via dashboards.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

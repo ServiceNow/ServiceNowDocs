@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Case Management release notes
@@ -18,6 +18,19 @@ Version history for the AI Case Management application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   Smart Assessment demo templates to support the Question Bank data model, including Question Bank entity types, question-level states, cross-Question Bank imports, and Question Bank-specific category roles.
+        -   This ensures shipped demo templates and data remain compatible with August 2026 initialization and upgrade scenarios.
+    -   Fixed: Security fixes
+-   **Version 22.5.4 - August 2026 \(Australia\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
+        -   Query Range ACL Enhancements. Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+-   **Version 22.2.1 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
+        -   Query Range ACL Enhancements. Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
 -   **Version 22.4.2 - July 2026 \(Australia\)**
 
     New: Generate responses to assessment questions based on past assessments and reference documentation on AI Case Management.

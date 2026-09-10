@@ -1,23 +1,30 @@
 ---
-title: Now Assist for Field Service Management \(FSM\) release notes
-description: Version history for the Now Assist for Field Service Management \(FSM\) application on the ServiceNow Store.
+title: ServiceNow Otto for Field Service Management \(FSM\) release notes
+description: Version history for the ServiceNow Otto for Field Service Management \(FSM\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-now-assist-fsm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Field Service Management \(FSM\) release notes
+# ServiceNow Otto for Field Service Management \(FSM\) release notes
 
-Version history for the Now Assist for Field Service Management \(FSM\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Field Service Management \(FSM\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 11.1.2 - September 2026**
+
+    Fixed Fluent conversion issues
+
+-   **Version 11.0.6 - August 2026**
+    -   New: Fluent based development support added.
+    -   Changed: ServiceNow Otto is the new Al experience brand. This change is reflected in the name of ServiceNow products, including Field Service Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   **Version 10.0.1 - June 2026**
     -   New:
         -   AI-powered mobile form auto-fill for field technicians.
@@ -73,11 +80,11 @@ Version history for the Now Assist for Field Service Management \(FSM\) applicat
 
 -   **Version 7.1.0 - September 2025**
 
-    FSM now assist 7.1.0 supports integration with various AI model providers, including Now LLM Service, Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, allowing you to choose the best fit for your skills and AI agents.
+    FSM Now Assist 7.1.0 supports integration with various AI model providers, including Now LLM Service, Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, allowing you to choose the best fit for your skills and AI agents.
 
 -   **Version 7.0.1 - August 2025**
 
-    FSM now assist 7.0.1 supports integration with various AI model providers, including Now LLM Service, Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, allowing you to choose the best fit for your skills and AI agents.
+    FSM Now Assist 7.0.1 supports integration with various AI model providers, including Now LLM Service, Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, allowing you to choose the best fit for your skills and AI agents.
 
 -   **Version 6.0.1 - June 2025**
     -   Enable Field Service technicians to access a virtual assistant from the mobile application with Now Assist Virtual Agent.
@@ -91,7 +98,7 @@ Version history for the Now Assist for Field Service Management \(FSM\) applicat
         -   Enable technicians to ask questions in natural language for quick and clear answers.
         -   Allow technician to receive accurate and reliable responses sourced exclusively from the Knowledge base.
         -   Provide technicians with context-aware follow-ups, including related parts or steps, for better support.
-    -   Now assist Context Menu \[NAcm\] for Work order tasks
+    -   Now Assist Context Menu \[NAcm\] for Work order tasks
         -   The record summarization skill is enabled with NAcm capabilities. The NAcm animated icon is located in the Work Notes and Comment fields of the record. Clicking on the NACM icon initiates a call to the large language model \(LLM\), and the response is displayed in a modal window.
         -   You can Elaborate or Shorten responses, to modify the generated response. The sparkle icon reappears when a part or the entire portion of the generated text is selected, providing a menu with options for elaborating or shortening. The selected and modified text will be replaced with the new text returned from the LLM call, while the unselected text remains unchanged. You can then paste the final generated text after applying any number of iterations of regeneration or quick actions, back into the field from which the text creation call was initiated.
 -   **Version 5.1.0 - June 2025**

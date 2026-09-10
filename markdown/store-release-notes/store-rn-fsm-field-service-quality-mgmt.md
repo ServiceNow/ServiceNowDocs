@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Quality Management release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Field Service Quality Management applicatio
     -   When a technician soft-closes a work order, a designated reviewer audits the job data and quality before approving final completion. If something's missing or doesn't meet standard, the reviewer sends it back to the technician with the specific information needed. The work order stays open until it's right.
     -   The result is cleaner records, fewer return visits, and a closed work order that actually reflects the work that was done.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

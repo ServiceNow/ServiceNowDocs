@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-network-inventory-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Network Inventory Core release notes
@@ -18,6 +18,12 @@ Version history for the Network Inventory Core application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 7.0.5 - September 2026**
+    -   Catalog/Template Manager: model relationships and templates can now be created against hardware or product models
+    -   Added "Physical Connections" and network interface related lists on Rack
+    -   Fixed a security bug allowing encoded-query injection via the Template Override endpoint
+    -   Fixed TMF "List Resources" and "GET List by type Site" API performance issues \(N+1 query, slow response\)
+    -   Fixed German localization bug where "State" translated as "Federal State"
 -   **Version 6.2.2 - July 2026**
     -   IPAM messages now show the correct localized text on first load instead of a placeholder
     -   A single large CI can now be placed in multiple locations on the map
@@ -100,5 +106,5 @@ Version history for the Network Inventory Core application on the ServiceNow Sto
         -   Support for TMF639- POST, DELETE and GET
         -   Support for Template API to create resources and relationships via Template
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

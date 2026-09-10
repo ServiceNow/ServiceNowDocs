@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-env-social-corporate-governance.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Management release notes
@@ -17,6 +17,31 @@ Version history for the Operational Sustainability Management application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.4 - September 2026 \(Brazil\)**
+    -   New:
+        -   Workspace users now receive Material Topic Approval Request notifications that direct them to the relevant record in the ESG workspace, while users without workspace access are routed to Classic view. The notification leverages the platform's Email Notification Redirection framework for accurate routing.
+        -   Workspace users now receive Disclosure Approval Request notifications that direct them to the relevant record in the ESG workspace, while users without workspace access are routed to Classic view. The notification leverages the platform's Email Notification Redirection framework for accurate routing.
+-   **Version 22.5.3 - August 2026 \(Australia\)**
+    -   New:
+        -   Product roles and functional domain separation. Product roles have been restructured with updated role inheritance and licensing exclusions, enabling clearer role management and functional domain separation in ESG.
+        -   Unified Document Designer add-in. The Office 365 reporting and Document Designer add-ins have been consolidated into a single unified Document Designer plugin with updated manifest and business domain support.
+    -   Changed:
+        -   Read access to emission calculation guidelines is now restricted to the cmdagentuser role only.
+        -   The read access of the GRC confidentiality user role on the Portfolio Management Goal Framework table has been reviewed and updated.
+        -   Business domain references for uptaking teams are now updated automatically via a new script.
+        -   Demo data has been corrected to align with updated role and domain separation changes.
+    -   Fixed:
+        -   The metric picker now loads quickly when adding Metric to Target relationships via related lists.
+        -   Metric data task values are no longer set to null when edited with multibyte characters.
+        -   Related list UX form values sourced from the main form are now retained when reloading in the ESG workspace.
+        -   The Document ID field is now read-only and is populated automatically.
+        -   Accessibility issues across the application have been resolved.
+        -   List type data visualization is now available for selection in Reporting configuration.
+        -   The record-vertical child page now correctly sets values when using the Form controller.
+-   **Version 22.0.4 - August 2026 \(Zurich\)**
+
+    Changed: MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows so access checks are consistently enforced during record association.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
@@ -92,5 +117,5 @@ Version history for the Operational Sustainability Management application on the
     ServiceNow's Operational Sustainability Management Management and Reporting application help customers manage their Operational Sustainability Management programs by providing them with a common platform to track and report goals and performance across the  Operational Sustainability Management pillars.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

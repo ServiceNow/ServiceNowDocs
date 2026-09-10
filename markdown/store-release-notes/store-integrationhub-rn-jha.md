@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jha.html
 release: store
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Jack Henry jXchange Spoke release notes
@@ -18,6 +18,9 @@ Version history for the Jack Henry jXchange Spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.0.2 - September 2026 \(Brazil\)**
+    -   Fixed: Query access controls from the May 2025 security patch \(CVE-2025-3648\) are now shipped out-of-the-box, closing a gap where those controls were not included by default.
+    -   Changed: Updated internal application components to support ongoing platform enhancements
 -   **Version 2.1.0 - August 2025**
 
     New: As part of this release, Deny ACLs have been added to existing tables to restrict unauthenticated users from performing CRUD operations.
@@ -44,5 +47,5 @@ Version history for the Jack Henry jXchange Spoke on the ServiceNow Store.
     Jack Henry Associates \(JHA\) SilverLake System provides seamless financial services to financial institutions of all sizes. The JHA spoke provides a list of actions that wraps around primary APIs provided by JHA. Although this spoke provides a few sample generic actions to look up and update records such as customer information, deposit accounts, and loan accounts, customers can expand the spoke to support almost any records available in JHA. Dynamic introspection allows customers to preview what fields are available in each record conveniently in Flow Designer.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

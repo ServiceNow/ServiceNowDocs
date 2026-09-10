@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-visitor-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Visitor Management release notes
@@ -17,6 +17,24 @@ Version history for the Workplace Service Delivery Workplace Visitor Management 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.4 - September 2026**
+    -   Fixed:
+        -   Fixed visitor email notifications to correctly update subject and location information across single and multi-space reservations.
+        -   Resolved missing visitor registration reference on visitor policy confirmation records.
+        -   Fixed localization display issue where multiple language choices appeared simultaneously in dropdown lists.
+        -   Fixed visitor policy acknowledgement failures during upgrade scenarios.
+        -   Corrected self-registration flag to properly reflect true status for kiosk-registered visitors.
+        -   Fixed visit cancellation to update the visit record status when cancelled from the Platform UI or portal.
+        -   Resolved visitor registration active status to correctly update when the associated reservation is cancelled.
+        -   Eliminated duplicate cancellation emails on upgraded instances by deactivating stale notification rules.
+        -   Improved CSV visitor import to accept records with missing email column, allowing email to be added later.
+        -   Corrected the host portal location search to query the correct workplace location field.
+        -   Restricted host field search results to human users only.
+        -   Fixed phone number anonymization to preserve country code while anonymizing subscriber numbers.
+-   **Version 2.1.1 - August 2026**
+
+    New: The introduction of new API end points to support artificial intelligence platforms
 
 -   **Version 2.0.11 - July 2026**
     -   This release introduces breaking changes. Please review the impact on your current configuration and user experience before upgrading.
@@ -244,5 +262,5 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

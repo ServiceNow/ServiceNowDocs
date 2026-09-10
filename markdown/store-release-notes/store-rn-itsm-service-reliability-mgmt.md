@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-service-reliability-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Reliability Management release notes
@@ -18,6 +18,14 @@ Version history for the ITSM Service Reliability Management application on the S
 
 ## Version history
 
+-   **Version 7.2.1 - September 2026**
+
+    Changed: Service Reliability Management now leverages ServiceNow Fluent, enabling faster development and simpler maintenance through code-based application definition.
+
+-   **Version 7.1.1 - August 2026**
+    -   Changed:
+        -   Access Control List \(ACL\) queries now enforce stricter validation to prevent unauthorized data access.
+        -   User interface accessibility has been improved to meet Web Content Accessibility Guidelines \(WCAG\) 2.2 AA standards.
 -   **Version 7.0.0 - June 2026**
     -   Fixed:
         -   Hardened Access Control List \(ACL\) query security.

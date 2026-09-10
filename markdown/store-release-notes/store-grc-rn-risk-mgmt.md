@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Risk Management release notes
@@ -18,6 +18,23 @@ Version history for the GRC: Risk Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   New: Added support for the Risk Admin role to create Smart Assessment question banks, and for the Risk Manager role to read them.
+    -   Fixed:
+        -   Fixed an issue where Business User Lite users could not access the My Attestations module in Service Portal.
+        -   Fixed translation issues on the Continuous Risk Monitoring Overview dashboard.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
+-   **Version 22.0.4 - August 2026 \(Zurich\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
 -   **Version 22.3.3 - June 2026 \(Australia\)**
     -   New:
         -   Query range ACL's

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-content-pack-cmdb.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Content Pack for CMDB release notes
@@ -18,6 +18,10 @@ Version history for the Content Pack for CMDB application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 2.1.1 - August 2026**
+    -   Fixed:
+        -   Allow specific CI Classes to be excluded from Service Graph Connector recommendations. For example cmdb\_ci\_ot to be excluded for Hardware Asset Management use cases
+        -   Updated logic to retrieve Service Graph Connector recommendations only if mappings exist to the specific CI Class, not to its base classes
 -   **Version 2.0.1 - July 2026**
 
     Fixed: Fix applied to the 'latest' field for base-system records in kb\_knowledge.
@@ -36,5 +40,5 @@ Version history for the Content Pack for CMDB application on the ServiceNow Stor
     Content Pack for CMDB includes a collection of knowledge articles that are utilized by Generative AI to provide recommendations for diagnosing issues within the Service Graph Connectors from the Now Assist panel.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

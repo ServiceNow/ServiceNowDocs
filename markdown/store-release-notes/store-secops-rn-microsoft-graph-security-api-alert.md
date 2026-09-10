@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Graph Security API Alert Ingestion integration for Security Operations release notes
@@ -84,5 +84,5 @@ Version history for the Microsoft Graph Security API Alert Ingestion integration
     -   The Microsoft Graph Security API is an intermediary service \(or broker\) that provides a single programmatic interface to connect multiple security providers \(Native to Microsoft as well as ServiceNow Partners\).
     -   The Microsoft Graph Security Alert Ingestion integration allows you to automatically fetch alerts from multiple security providers and convert them into security incidents and enable automated response actions.
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

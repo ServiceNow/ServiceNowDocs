@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # First Advantage spoke release notes
@@ -62,5 +62,5 @@ Version history for the Integration Hub First Advantage spoke on the ServiceNow 
     -   The First Advantage spoke provides a list of actions that wraps around the primary REST APIs provided by First Advantage. In addition, the spoke provides two sample flows that demonstrate how to perform one-step and two-step screening processes.
     -   Most customers use a two-step screening process where ServiceNow kicks off the screening process in First Advantage. The First Advantage sends the invitation email to the candidate. The candidates fill their information and submit it to First Advantage. At the same time, ServiceNow keeps track of the invitation link in the Task table. When there's any status update on the screening in First Advantage, real-time updates are made in ServiceNow so that the HR Ops or candidates will have a 360-view of the latest progress.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

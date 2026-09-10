@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-safety-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Core release notes
@@ -18,11 +18,26 @@ Version history for the Workplace Service Delivery Workplace Core application on
 
 ## Version history
 
+-   **Version 2.29.2 - September 2026**
+    -   New: New API to support artificial intelligence platforms
+    -   Fixed:
+        -   The arrival time when registering guests was not updated correctly as the time format preference omitted seconds.
+        -   In some cases, the redirect actions on location directory cards were not working as expected.
+        -   Earlier, signs of life were not displayed on certain maps.
+        -   Security fixes
+-   **Version 2.28.10 - August 2026**
+
+    Security fixes
+
 -   **Version 2.28.5 - July 2026**
     -   Fixed:
         -   The clear \(×\) button on the Building field is now reachable as a distinct focus stop for VoiceOver users, improving accessibility for screen reader navigation.
         -   The location directory legend now displays a color swatch next to every neighborhood, even when more than approximately 145 neighborhoods are configured.
         -   Users in the Reservation Portal can now only see neighborhoods they are assigned to in the dropdown menu.
+-   **Version 2.28.2 - June 2026**
+
+    Security fixes
+
 -   **Version 2.28.1 - June 2026**
     -   Fixed:
         -   Long space names could overlap in the user card
@@ -35,23 +50,43 @@ Version history for the Workplace Service Delivery Workplace Core application on
         -   Several usability enhancements with user assignment and space allocation controls
         -   Performance enhancements
         -   Security fixes
+-   **Version 2.27.7 - May 2026**
+
+    Security fixes
+
 -   **Version 2.27.1 - May 2026**
 
     Changed: Enhanced API end points to support artificial intelligence platforms
 
+-   **Version 2.26.11 - April 2026**
+
+    Security fixes
+
 -   **Version 2.26.3 - April 2026**
 
     Increasing version number to align with the releases.
+
+-   **Version 2.26.5 - March 2026**
+
+    Security fixes
 
 -   **Version 2.26.1 - March 2026**
     -   New: Manage neighborhoods in Workplace Central
     -   Fixed:
         -   Performance enhancements when loading the interactive floor map using 'Find the space on a floor map' in a record producer.
         -   Security fixes
+-   **Version 2.25.5 - January 2026**
+
+    Security fixes
+
 -   **Version 2.25.0 - January 2026**
     -   New:
         -   Core Business Suite for Workplace Services:
             -   As part of the admin setup, we have simplified the process for customers to create new spaces or edit existing ones using bulk upload capabilities.
+-   **Version 2.24.11 - December 2025**
+
+    Security fixes
+
 -   **Version 2.24.6 - December 2025**
     -   New: Added the ability to edit the content and style of space, user, and neighborhood detail cards on Location Directory and Kiosk.
     -   Fixed:

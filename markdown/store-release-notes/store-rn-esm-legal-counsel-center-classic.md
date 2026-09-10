@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-11-07"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Counsel Center Classic release notes
@@ -82,5 +82,5 @@ Version history for the Legal Counsel Center Classic application on the ServiceN
         -   Department and user-level metrics
         -   Intuitive search and filter capabilities enabling users to quickly find relevant content
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

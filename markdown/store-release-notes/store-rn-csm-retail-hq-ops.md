@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-hq-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retail HQ Operations release notes
@@ -17,6 +17,14 @@ Version history for the Retail HQ Operations application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.0.3 - September 2026 \(Brazil\)**
+
+    New: Java 21 compatibility
+
+-   **Version 5.5.0 - September 2026 \(Australia\)**
+
+    Removed: The existing Track Plan tab has been removed.
 
 -   **Version 5.4.0 - July 2026**
 
@@ -59,5 +67,5 @@ Version history for the Retail HQ Operations application on the ServiceNow Store
     The Retail HQ Operations application enables effective coordination between HQ teams. It facilitates the execution of assigned work and allows HQ teams to monitor progress.
 
 
-**Parent Topic:**[ServiceNow Store - Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
+**Parent Topic:**[ServiceNow Store - Retail version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
 

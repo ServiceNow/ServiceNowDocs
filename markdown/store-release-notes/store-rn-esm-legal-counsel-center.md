@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-counsel-center.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Counsel Center release notes
@@ -18,6 +18,15 @@ Version history for the Legal Counsel Center application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 2.5.1 - September 2026**
+
+    New: Legal Counsel Center now supports parallel signature, allowing multiple signatories to sign concurrently.
+
+-   **Version 2.4.0 - August 2026**
+    -   Changed: ServiceNow Otto is the new AI experience brand. Now Assist for Legal Service Delivery is ServiceNow Otto for Legal Service Delivery.
+    -   Fixed:
+        -   Cancelling an edit to a Quick Link on Legal Counsel Center Home page now correctly restores the original display name and URL instead of retaining the unsaved changes.
+        -   Security fixes.
 -   **Version 2.3.3 - July 2026**
     -   Fixed:
         -   Selecting "Assign to me" button on legal requests displays error message when a request is already assigned.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-sn-legal-contracts.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contract Management Pro for Legal Service Delivery release notes
@@ -18,6 +18,13 @@ Version history for the Contract Management Pro for Legal Service Delivery appli
 
 ## Version history
 
+-   **Version 3.9.2 - September 2026**
+
+    Fixed: UI improvements.
+
+-   **Version 3.8.3 - August 2026**
+    -   Changed: ServiceNow Otto is the new AI experience brand. Now Assist in Contract Management is now ServiceNow Otto for Contract Management Pro.
+    -   Fixed: Security fixes.
 -   **Version 3.7.2 - July 2026**
     -   New: Requestor can add signatories with different signature roles via employee center for DocuSign electronic signature.
     -   Fixed: The Non-Disclosure Agreement \(NDA\) category now have a description.

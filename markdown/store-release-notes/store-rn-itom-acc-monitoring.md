@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Client Collector Monitoring release notes
@@ -18,6 +18,10 @@ Version history for the IT Operations Management Agent Client Collector Monitori
 
 ## Version history
 
+-   **Version 3.19.5 - September 2026**
+    -   Updated translations to support new strings
+    -   Converted code base to support fluent based code
+    -   Added support for capabilities from Agent installation
 -   **Version 3.18.2 - July 2026**
     -   New: Query ACLs are now maintained directly in the product code. Customers benefit from consistent ACL management, reduced reliance on manual write audits, and improved upgrade stability. ACL changes have been tested and verified to work correctly on both zbooted and upgraded instances.
     -   Fixed:

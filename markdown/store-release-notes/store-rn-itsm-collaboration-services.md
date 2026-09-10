@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-collaboration-services.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Collaboration Services release notes
@@ -18,6 +18,10 @@ Version history for the IT Service Management Collaboration Services application
 
 ## Version history
 
+-   **Version 3.14.1 - September 2026 \(Australia+\)**
+    -   Fixed:
+        -   Starting a Microsoft Teams chat from an incident record no longer fails when the short description contains a colon \(:\) or other special characters.
+        -   The Start Teams Chat action on the contact card now creates chats consistently, regardless of whether the user's Teams OAuth token is already cached.
 -   **Version 3.14.0 - July 2026 \(Australia+\)**
     -   Fixed:
         -   The evaluation logic for Query Range ACLs has been updated.
@@ -156,5 +160,5 @@ Version history for the IT Service Management Collaboration Services application
     Initial release of Collaboration Services for Task Communications Management.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

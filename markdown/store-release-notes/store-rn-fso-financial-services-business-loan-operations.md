@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-business-loan-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Business Loan Operations release notes
@@ -17,6 +17,14 @@ Version history for the Financial Services Business Loan Operations on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
+
+-   **Version 3.8.2 - August 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 3.7.0 - April 2026**
     -   New: Added deposit service table as a source for AIS, enabling better data integration and insights.
@@ -90,5 +98,5 @@ Version history for the Financial Services Business Loan Operations on the Servi
         -   Dedicated agent workspace for loan agents
         -   Performance Analytics for insights into team's and business performance
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-operational-tech-hardware-vuln-assess.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Technology Hardware Vulnerability Assessment release notes
@@ -17,6 +17,14 @@ Version history for the Operational Technology Hardware Vulnerability Assessment
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.2.0 - September 2026 \(USEM\)**
+
+    Fixed: Security fixes
+
+-   **Version 4.1.5 - September 2026**
+
+    Fixed: Security fixes
 
 -   **Version 4.0.0 - June 2026**
 
@@ -47,5 +55,5 @@ Version history for the Operational Technology Hardware Vulnerability Assessment
     Operational Technology Hardware Vulnerability Assessment provides a thorough analysis of vulnerabilities within the hardware components of your Operational Technology \(OT\) systems, such as PLCs, DCS, SCADA systems, and other critical devices. It proactively identifies vulnerability risks. Organizations can assess these vulnerabilities and address hardware weaknesses before operational efficiency, safety, and compliance are impacted by the vulnerabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

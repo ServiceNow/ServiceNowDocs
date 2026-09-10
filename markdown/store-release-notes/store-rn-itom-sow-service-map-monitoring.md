@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-service-map-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Service Map Monitoring release notes
@@ -18,6 +18,12 @@ Version history for the Service Operations Workspace Service Map Monitoring appl
 
 ## Version history
 
+-   **Version 26.6.2 - September 2026**
+    -   Changed:
+        -   Service Map Monitoring now supports WCAG 2.2 AA accessibility standards.
+            -   All touch targets are at least 24px in size or have sufficient spacing, and buttons have discernible text for screen readers, ensuring improved accessibility for all users.
+        -   Unified map reflow is now enabled for zoom levels up to 400%.
+            -   The interface adapts at 110%, 125%, 150%, 175%, 200%, 250%, 300%, and 400% zoom, maintaining full functionality and usability at each breakpoint.
 -   **Version 26.5.0 - August 2025**
 
     Fixed: Impacted path alerts panel - Fix incorrect mapping of alerts that are part of an alert group to the parent alert's service
@@ -40,5 +46,5 @@ Version history for the Service Operations Workspace Service Map Monitoring appl
     Enable operators to visualize relationships between Configuration Items \(CIs\) and alerts with real-time updates and detailed impact paths. Enhance troubleshooting and proactive management by quickly identifying root causes and dependencies for both discovered and application services.
 
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

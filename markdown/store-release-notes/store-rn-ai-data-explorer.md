@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ai-data-explorer.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Data Explorer release notes
@@ -16,6 +16,15 @@ Version history for the ServiceNow® AI Data Explorer application on the Service
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 5.2.7 - September 2026**
+
+    Fixed: Action recommendations in AI Data Explorer no longer get incorrectly blocked when triggered.
+
+-   **Version 5.2.6 - August 2026**
+    -   Changed:
+        -   UI improvements for data source view information
+        -   Otto rebranding for AI Data Explorer experience
+        -   AI Data Explorer skills made compatible with Default activation of Out-of-box skills in Now Assist Admin Console
 -   **Version 5.1.6 - July 2026**
 
     New: Delivered support for automated indicators in AI Data Explorer. You can ask questions or add to AI Data Explorer any data visualization based on an automated indicator.
@@ -63,5 +72,5 @@ Version history for the ServiceNow® AI Data Explorer application on the Service
     AI Data Explorer is an AI-powered exploration tool that helps business users seamlessly explore data, document findings, and collaborate on insights to drive data-informed decisions more effectively.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

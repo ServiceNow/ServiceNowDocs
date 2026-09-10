@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-01-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Campaigns for Workplace from Facebook release notes
@@ -27,5 +27,5 @@ Version history for the HR Service Delivery Employee Campaigns for Workplace fro
         -   New content category and content type to support posting rich content on Facebook Workplace, which includes message, image, and URL.
         -   Content published as a Facebook Workplace post to the targeted groups. The targeted groups can be one or more groups including open and closed.
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

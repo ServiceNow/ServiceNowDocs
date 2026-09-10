@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-mobile-app-builder.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store version history release notes]
 ---
 
 # Mobile App Builder release notes
@@ -17,6 +17,10 @@ Version history for the Mobile App Builder application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 28.14.3 - August 2026**
+
+    New: Support for "ServiceNow Otto" branding.
 
 -   **Version 27.13.0 - June 2026**
 

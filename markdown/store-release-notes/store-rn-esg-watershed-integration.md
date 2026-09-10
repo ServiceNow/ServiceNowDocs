@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Watershed integration for Operational Sustainability Management release notes
@@ -35,5 +35,5 @@ Version history for the Watershed integration for Operational Sustainability Man
     The ServiceNow ESG Management Integration Tool helps customers manage their Watershed data feeds by normalizing and mass loading data using flat file.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

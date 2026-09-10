@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - IT Service Management release notes
+title: ServiceNow Store - IT Service Management version history release notes
 description: The ServiceNow Store contains IT Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - IT Service Management release notes
+# ServiceNow Store - IT Service Management version history release notes
 
 The ServiceNow Store contains IT Service Management applications.
 
@@ -72,6 +72,10 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
 Version history for the ServiceNow® ITSM - Prime application on the ServiceNow Store.
 -   **[ITSM Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-analytics.md)**  
 Version history for the ITSM Analytics on the ServiceNow Store.
+-   **[ITSM Employee Slate for Moveworks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-employee-slate-moveworks.md)**  
+Version history for the ServiceNow® ITSM Employee Slate for Moveworks application on the ServiceNow Store.
+-   **[ITSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-mcp-server.md)**  
+Version history for the ServiceNow® ITSM MCP Server application on the ServiceNow Store.
 -   **[ITSM Microsoft AD Spoke for Password Reset release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-ms-ad-password-reset.md)**  
 Version history for the ITSM Microsoft AD Spoke for Password Reset on the ServiceNow Store.
 -   **[ITSM Microsoft Entra ID Spoke for Password Reset release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-ms-azure-ad-password-reset.md)**  
@@ -108,14 +112,14 @@ Version history for the Notify Webex Connector application on the ServiceNow Sto
 Version history for the ITSM Notify Zoom Connector on the ServiceNow Store.
 -   **[Now Assist for Digital End-user Experience Self-service \(DEX\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist-dex.md)**  
 Version history for the ServiceNow® Now Assist for Digital End-user Experience Self-service \(DEX\) application on the ServiceNow Store.
--   **[Now Assist for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist.md)**  
-Version history for the Now Assist for ITSM on the ServiceNow Store.
--   **[Now Assist Readiness Evaluation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist-readiness-eval.md)**  
-Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 -   **[Observation Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itsm-observation-framework.md)**  
 Version history for the Observation Framework on the ServiceNow Store.
+-   **[On-Call Onboarding release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-on-call-onboarding.md)**  
+Version history for the ServiceNow® On-Call Onboarding application on the ServiceNow Store.
 -   **[On-Call UI Components for Configurable Workspaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-oncall-ui-components-config-ws.md)**  
 Version history for the On-Call UI Components for Configurable Workspaces application on the ServiceNow Store.
+-   **[Otto Readiness Evaluation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist-readiness-eval.md)**  
+Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 -   **[Outlook Actionable Messages release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-oam.md)**  
 Version history for the ITSM Outlook Actionable Messages app on the ServiceNow Store.
 -   **[Password Reset for Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-password-reset-va.md)**  
@@ -148,6 +152,8 @@ Version history for the ITSM Service Reliability Management application on the S
 Version history for the ITSM ServiceNow Benchmarks application on the ServiceNow Store.
 -   **[ServiceNow for Microsoft Teams release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-sn-ms-teams.md)**  
 Version history for the ServiceNow for Microsoft Teams integration on the ServiceNow Store.
+-   **[ServiceNow Otto for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-assist.md)**  
+Version history for the ServiceNow Otto for ITSM on the ServiceNow Store.
 -   **[ServiceNow University Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-learning-int.md)**  
 Version history for the ServiceNow University Integration application on the ServiceNow Store.
 -   **[ServiceNow University Spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-now-learning-spoke.md)**  
@@ -191,5 +197,5 @@ Version history for the Workforce Optimization for ITSM Admin Center application
 -   **[Workforce Optimization for ITSM Configurable Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-workforce-optimization-config-workspace.md)**  
 Version history for the Workforce Optimization for ITSM Configurable Workspace application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-SBOM-response.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SBOM Response release notes
@@ -18,6 +18,16 @@ Version history for the Vulnerability Response Data Model for SBOM application o
 
 ## Version history
 
+-   **Version 6.7.2 - September 2026\(USEM\)**
+    -   New:
+        -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.
+        -   An archival capability that automatically unlinks and deactivates components from a prior SBOM version once a newer SBOM is ingested for the same application. Archiving helps you maintain the SBOM workspace so that you can focus on current, actionable data.
+    -   Changed: SBOM ingestion performance enhancements through parallel processing of uploaded SBOM files that significantly reduces processing time for customers with high-volume SBOM ingestion of hundreds of thousands of files per week.
+-   **Version 6.5.6 - August 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue where the BOM Queue, SBOM Record pages, and BOM Document list incorrectly displayed, "No data available" for existing records due to an invalid default filter.
+        -   UI issues in the Dependency Graph and Component License Resolution pages to improve graph height utilization, correct tab text, maintain proper container padding, and display consistent icon coloring.
+        -   An issue where the SBOM document upload failed at times due to the permissions of the user who initiated it. The upload flow now runs with system-level privileges instead of the permissions of the user who initiated it.
 -   **Version 6.5.3 - June 2026 \(USEM\)**
     -   The following enhancements and changes support internal security directives:
         -   Enhancements to the SBOM Response plugin to align with ServiceNow Platform Security guidance.
@@ -115,5 +125,5 @@ Version history for the Vulnerability Response Data Model for SBOM application o
     Initial release: SBOM Response provides you with visibility into the risks with using open-source components in your organization. You can respond to identified risks with the workflow and automation capabilities of the NOW Platform.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

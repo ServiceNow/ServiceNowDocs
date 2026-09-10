@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Voice
+title: ServiceNow Voice version history release notes
 description: Version history for ServiceNow Voice releases on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-servicenow-voice-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Voice
+# ServiceNow Voice version history release notes
 
 Version history for ServiceNow® Voice releases on the ServiceNow Store.
 
@@ -27,5 +27,5 @@ Version history for the ServiceNow Voice UI components integration on the Servic
 -   **[ServiceNow Voice with Amazon Connect release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-servicenow-voice-amazon-connect.md)**  
 Version history for the ServiceNow Voice with Amazon Connect application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
 

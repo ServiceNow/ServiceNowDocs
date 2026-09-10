@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-matrix-report.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Matrix report release notes
@@ -18,6 +18,10 @@ Version history for the Matrix report application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Improved page load performance for matrix reports.
+        -   Matrix report tab now appears when creating an Entity.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   Query range ACLs include the following enhancements:

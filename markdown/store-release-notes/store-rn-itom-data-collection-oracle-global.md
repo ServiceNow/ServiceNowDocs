@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-data-collection-oracle-global.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Collection for Oracle Global Licensing and Advisory Services release notes
@@ -18,6 +18,23 @@ Version history for the Data Collection for Oracle Global Licensing and Advisory
 
 ## Version history
 
+-   **Version 1.13.0 - September 2026**
+    -   New: Discover Oracle Databases on Windows using Oracle Wallet instead of storing applicative credentials in the ServiceNow instance.
+    -   Fixed:
+        -   The Data Collection for Oracle Global Licensing and Advisory Services plugin doesn't include a plugin.properties file, which affects plugin identification and packaging. \(PRB2070400\)
+        -   When top-down Discovery runs the "Oracle DB On Unix" pattern, an extension section intended only for Horizontal Discovery also executes. This can overwrite Oracle database instance CI records, and subsequent IRE processing fails when required attributes such as SID and TCP port are missing from the payload. \(PRB2026132\)
+        -   The access control for the Oracle GLAS Linux server export processor report attachment doesn't work correctly. \(PRB2068165\)
+        -   Oracle database instances can be related to Oracle options belonging to a different instance, and options can be reported as In Use when they are not, resulting in incorrect license calculations. \(PRB1872945\)
+        -   Security fixes. \(PRB2033903, PRB2023675, PRB2023674, PRB2023673\)
+        -   Top-down discovery of an Oracle database fails when the connection originates from J2EE EAR connectivity. \(PRB2025288\)
+        -   Files uploaded for script execution don't honor the MID Server property mid.powershell.target\_base\_dir and aren't written to the configured directory. \(PRB2058696\)
+        -   Oracle GLAS data collection causes replication lag, slow Oracle Instance CI form loading, and query timeouts due to large data volumes. \(PRB1786627\)
+        -   The WebLogic discovery pattern doesn't load in Pattern Designer. \(PRB2076886\)
+        -   OpenJDK installation paths aren't classified as open source, causing Java installations using OpenJDK to be reported as licensable. \(PRB2028988\)
+        -   The OPTION\_QUERY field is stored with a null value in the Oracle GLAS Database Audit Data \[sn\_itom\_oracleglas\_glas\_data\_for\_database\] table, resulting in incomplete option usage data. \(PRB2030384\)
+        -   Oracle GLAS V1 and V2 data collection doesn't run in Windows environments. \(PRB2061491\)
+        -   Oracle GLAS data collection doesn't create the Windows hardware script output file in the directory defined by the MID Server property mid.powershell.target\_base\_dir. \(PRB2067798\)
+        -   During Oracle GLAS discovery on Windows, the connection identifier isn't set, and the GLAS output folder is assigned an incorrect temporary path, causing data collection to fail. \(PRB2054115\)
 -   **Version 1.12.0 - June 2026**
     -   New:
         -   Scale Oracle GLAS data collection in large environments with Oracle GLAS V2, which collects all database data into a single table \[sn\_itom\_oracleglas\_glas\_data\_for\_database\].
@@ -143,5 +160,5 @@ Version history for the Data Collection for Oracle Global Licensing and Advisory
         -   ServiceNow navigation menu to access GLAS data.
         -   CSV export utility.
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

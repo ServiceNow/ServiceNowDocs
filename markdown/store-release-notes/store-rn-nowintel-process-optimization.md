@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-process-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 15
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Process Mining release notes
@@ -18,6 +18,42 @@ Version history for the Process Mining application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.7.4 - September 2026 \(Brazil\)**
+    -   New:
+        -   Meter-based usage guardrails and controls introduced: Configure table-level guardrails and mandatory filters to control entitlement usage and prevent unexpected overage charges. Projects with configured guardrails are automatically validated, capped, or flagged before mining starts.
+        -   Process Mining for Playbooks enhanced to configure and analyze breakdowns based on the trigger record of a playbook, to filter playbook executions by recency to focus on current performance trends, to view execution-time histograms for each activity and phase to identify performance patterns and outliers and to compare playbook variants on overall and per-activity efficiency
+        -   Evaluation project experience improved: Explore evaluation projects directly from the Process Mining workspace landing page, with guided onboarding that highlights key areas of the interface and suggests where to start exploring. Human Resources andSecurity Operations users get personal evaluation projects scoped to their own data access.
+        -   AI-assisted process configuration: Generate process configuration field values with AI directly from the process configuration header, then review, select, and confirm the suggested fields before applying them. Map states to stakeholder responsibilities with AI in the process details step.
+        -   Launch Process Mining from any ServiceNow workspace: Create aProcess Mining project directly from a list of records from anyServiceNow workspace.
+        -   Project sharing with edit rights: Share a project with other usersas 'Can View' or 'Can Edit'. Users with edit rights can modify the project definition and perform mining, but can't share or delete the project.
+        -   Template creation and management introduced: Create multiple templates per table to support several distinct use cases instead of one generic configuration.
+        -   Quick starters for transition filters
+-   **Version 29.7.14 - September 2026 \(Australia\)**
+    -   New: Generate/Fill Process configuration with AI
+    -   Changed:
+        -   Process mining usage table preservation across clones. The usage table now persists when cloning environments.
+        -   Updated the visibility of record counts for child table/entity
+        -   Project average durations are now rounded for clearer reporting.
+    -   Fixed: Form view is now not enforced during opening the "Show logs" link.
+-   **Version 28.9.15 - September 2026 \(Zurich\)**
+    -   New: Support for AI Native License SKU
+    -   Fixed: Fix for scheduled process mining projects.
+-   **Version 29.7.11 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Highlights: An errored scheduled task leaves the component stuck at "Loading contents..." indefinitely
+        -   Highlights: Re-triggering "Generate highlights" after an error shows no loading indicator or feedback that a process is running
+        -   Intent and activity analysis button must be disabled on findings without process configuration
+        -   ServiceNow Otto renaming for process mining
+        -   Usage numbers of sub-prod due to cloned prod. &amp; changes to support ProMin for salesforce &amp; workday
+        -   User feedback thumbs up/down issue on Highlights
+        -   Summary top banner metrics hidden until the project is reopened or the page is refreshed
+-   **Version 28.9.12 - August 2026 \(Zurich\)**
+    -   Fixed:
+        -   Scheduled task stuck in queued state issue- False "access denied" error when saving table/filter changes on existing project
+        -   Process Mining usage table preservation across clones
+        -   ServiceNow Otto renaming for process mining
+        -   Summary top banner metrics hidden until the project is reopened or the page is refreshed
+        -   Record count for child tables show total records in the child table and ignores the applied filter
 -   **Version 29.7.10 - July 2026 \(Australia\)**
 
     Fixed: Preservation of Process Mining usage table across clones- Record count for child tables- Rounding of Average duration on the project- Removed the form view details from URL while accessing log table

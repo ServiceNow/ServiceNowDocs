@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-site-mapping-fsm.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Site Mapping for Field Service Management release notes
@@ -17,6 +17,10 @@ Version history for the Site Mapping for Field Service Management application on
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.2.1 - September 2026**
+
+    New: Query range acl's on site mapping tables shipped OOTB to avoid rerunning audit script which generate thoes acl's
 
 -   **Version 2.1.1 - March 2026**
 
@@ -39,5 +43,5 @@ Version history for the Site Mapping for Field Service Management application on
     ServiceNow Site Mapping for Field Service Management provides a native mobile solution for field service technicians and contractors visiting onsite locations to perform work. Easily visualize work sites, navigate using wayfinding, and locate assets with step-by-step directions.
 
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

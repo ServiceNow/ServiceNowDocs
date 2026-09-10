@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-11-07"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM Cloud Accelerate release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM Cloud Accelerate version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Migration Assessment release notes

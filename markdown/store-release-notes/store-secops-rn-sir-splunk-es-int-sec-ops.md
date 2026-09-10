@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-splunk-es-int-sec-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Splunk ES Integration for Security Operations release notes
@@ -17,6 +17,10 @@ Version history for the Splunk ES Integration for Security Operations applicatio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.5.3 - September 2026**
+
+    Fixed: SIR Mapping page loading failure when an SIR field has an empty column label, and prevented retired CIs from being attached to SIRs through SIEM ingestions.
 
 -   **Version 12.5.1 - June 2026**
     -   Fixed:
@@ -77,5 +81,5 @@ Version history for the Splunk ES Integration for Security Operations applicatio
     The Splunk ES Event Ingestion integration for Security Operations allows security operations center \(SOC\) analysts to generate ServiceNow AI Platform Security Incident Response \(SIR\) incidents automatically when certain configured Splunk ES Notable Events are triggered. Analysts can also manually forward selected events on-demand from the Splunk ES console. Analysts respond to the security incidents that are created with workflows in the ServiceNow AI Platform that automate incident response activities and remediation.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

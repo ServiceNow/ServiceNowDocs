@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Human Resources Service Delivery Integration with Workday Learning release notes
@@ -47,5 +47,5 @@ Version history for the Human Resources Service Delivery Integration with Workda
     -   These learning tasks can be accessed from anywhere, on any device. Employees can find and complete their learning courses on-time, and HR and learning teams spend less time managing compliance and updating multiple systems.
     -   Leverage Workday Learning content in learning-focused applications such as Coaching, Learning Posts within Journeys, and Employee Growth and Development.
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-usem-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # USEM - Foundation release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow® USEM - Foundation application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.2.3 - August 2026 \(USEM\)**
+
+    Changed: Enhancements to support the ServiceNow Otto brand.
 
 -   **Version 2.1.0 - July 2026 \(USEM\)**
     -   New: Added support for Azure OpenAI and Google Gemini models across all Now Assist AI features, giving you more flexibility in LLM provider selection
@@ -30,5 +34,5 @@ Version history for the ServiceNow® USEM - Foundation application on the Servic
     Base \(Foundation\) tier app for licensing Unified Security Exposure Management \(USEM\) AI capabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

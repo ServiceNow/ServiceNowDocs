@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Finance Case Management release notes
@@ -18,6 +18,9 @@ Version history for the Finance Case Management application on the ServiceNow St
 
 ## Version history
 
+-   **Version 1.6.10 - September 2026**
+    -   Changed: Updated branding for ServiceNow Otto.
+    -   Fixed: Fixed defects.
 -   **Version 1.5.1 - June 2026**
 
     Minor updates
@@ -39,5 +42,5 @@ Version history for the Finance Case Management application on the ServiceNow St
     Enables users to request services from the finance team, and allows the finance team to manage those requests.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

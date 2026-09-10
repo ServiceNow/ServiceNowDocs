@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Secureworks Ticket Ingestion Integration for Security Operations release notes
@@ -83,5 +83,5 @@ Version history for the Secureworks Ticket Ingestion Integration for Security Op
     New: The Secureworks CTP ticketing system is an application that supports the servicing needs of the Secureworks Managed Security Services \(MSS\) organizations. The Secureworks CTP ticket ingestion integration allows you to automatically fetch Secureworks CTP tickets and convert them into security incidents and enable automated response actions.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

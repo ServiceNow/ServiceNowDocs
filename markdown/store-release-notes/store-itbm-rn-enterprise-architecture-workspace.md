@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-architecture-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Architecture Workspace release notes
@@ -18,6 +18,48 @@ Version history for the Enterprise Architecture Workspace on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 10.0.3 - September 2026 \(Australia\)**
+    -   New:
+        -   Added domain separation support for AI Control Tower integration, so business application selection when associating an AI system is scoped to the global domain and the current domain. Viewing from a parent domain rolls up AI system associations from all of its child domains.
+        -   Configure the server and reason criteria used to create technical debt records from the technical debt settings page in the Setup section of Enterprise Architecture Workspace.
+    -   Changed:
+        -   View state and edition details on the technical debt list. The Technology Portfolio's technical debt list now shows each record's persisted state \(Active, Resolved, or Archived\) and, where applicable, its edition.
+        -   View which TRM product and product lifecycle govern a discovered technology's obsolescence status, connecting TRM standards directly to TLM lifecycle data.
+        -   Request or create a TRM product and add one or more lifecycle records in the same action, instead of submitting separate requests. Approving the parent request creates the TRM product and all associated lifecycle records together.\(Available starting with the Brazil release.\)
+        -   Submit a standalone TRM product lifecycle request that includes multiple lifecycle records in a single bulk request. Approving or rejecting the request applies to all included lifecycle records.\(Available starting with the Brazil release.\)
+-   **Version 10.0.2 - September 2026**
+    -   New:
+        -   Added domain separation support for AI Control Tower integration, so business application selection when associating an AI system is scoped to the global domain and the current domain. Viewing from a parent domain rolls up AI system associations from all of its child domains.
+        -   Configure the server and reason criteria used to create technical debt records from the technical debt settings page in the Setup section of Enterprise Architecture Workspace.
+    -   Changed:
+        -   View state and edition details on the technical debt list. The Technology Portfolio's technical debt list now shows each record's persisted state \(Active, Resolved, or Archived\) and, where applicable, its edition.
+        -   View which TRM product and product lifecycle govern a discovered technology's obsolescence status, connecting TRM standards directly to TLM lifecycle data.
+-   **Version 9.2.1 - August 2026 \(Australia\)**
+    -   New:
+        -   Added four new entity types — Business Actor, Business Role, Stakeholder, and Driver to the Business Architecture section of the Portfolio page.
+        -   Added business capabilities and business process as related lists on the Goals page in the Business Architecture section of the Portfolio page.
+        -   Added business capabilities and business process as related list on the Business Unit page in the Business Architecture section of the Portfolio page.
+        -   Added goals as related list on the Business Processes and Business Capabilities page in the Business Architecture section of the Portfolio page.
+        -   Added business units as related list on the Business Processes and Business Capabilities page in the Business Architecture section of the Portfolio page.
+    -   Changed: Renamed Now Assist to ServiceNow Otto. All Enterprise Architecture Workspace screens, icons, and generative AI skill names now reflect the ServiceNow Otto brand.
+    -   Fixed:
+        -   Corrected the French translation of Retire in the bubble chart labels and captions.
+        -   Out-of-the-box business application certification policies now ship inactive by default, preventing unintended task creation.
+        -   Sorting by hierarchy ID in the Business Portfolio now uses natural numeric ordering, so capabilities sequence correctly \(1.1→ 1.2→ …→ 1.9→ 1.10→ 1.11\) instead of being sorted as text.
+        -   The Save button now displays for Business Applications in CMDB Workspace, matching the classic UI.
+-   **Version 9.2.0 - August 2026**
+    -   New:
+        -   Added four new entity types — Business Actor, Business Role, Stakeholder, and Driver to the Business Architecture section of the Portfolio page.
+        -   Added business capabilities and business process as related lists on the Goals page in the Business Architecture section of the Portfolio page.
+        -   Added business capabilities and business process as related list on the Business Unit page in the Business Architecture section of the Portfolio page.
+        -   Added goals as related list on the Business Processes and Business Capabilities page in the Business Architecture section of the Portfolio page.
+        -   Added business units as related list on the Business Processes and Business Capabilities page in the Business Architecture section of the Portfolio page.
+    -   Changed: Renamed Now Assist to ServiceNow Otto. All Enterprise Architecture Workspace screens, icons, and generative AI skill names now reflect the ServiceNow Otto brand.
+    -   Fixed:
+        -   Corrected the French translation of Retire in the bubble chart labels and captions.
+        -   Out-of-the-box business application certification policies now ship inactive by default, preventing unintended task creation.
+        -   Sorting by hierarchy ID in the Business Portfolio now uses natural numeric ordering, so capabilities sequence correctly \(1.1→ 1.2→ …→ 1.9→ 1.10→ 1.11\) instead of being sorted as text.
+        -   The Save button now displays for Business Applications in CMDB Workspace, matching the classic UI.
 -   **Version 9.1.1 - June 2026 \(Australia\)**
     -   New: Added AI portfolio analytics widgets on EA Workspace Dashboard page and the AI Control Tower Home page. The new AI Portfolio widgets display associations between business applications and AI systems, with pie charts and legends displaying total counts. You can filter results by department, business unit, and application family.
     -   Removed: The Business applications by install type widget is removed from the EA Workspace homepage.
@@ -173,5 +215,5 @@ Version history for the Enterprise Architecture Workspace on the ServiceNow Stor
     An intuitive user experience for Enterprise Architects to manage their application portfolio and stay up-to-date with their tasks, get insights, and monitor the health of their portfolio in one interface. Manage business portfolio with updated capability hierarchy. Configure the workspace home page for insights, scorecard, and portfolio health sections. Customize portfolio entities by grouping, filtering, and sorting.
 
 
-**Parent Topic:**[ServiceNow Store - Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)
+**Parent Topic:**[ServiceNow Store - Enterprise Architecture version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)
 

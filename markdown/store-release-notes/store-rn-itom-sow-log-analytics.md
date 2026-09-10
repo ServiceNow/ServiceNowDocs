@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-03-07"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Log Analytics release notes

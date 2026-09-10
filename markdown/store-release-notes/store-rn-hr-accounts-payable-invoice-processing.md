@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-accounts-payable-invoice-processing.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Accounts Payable Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Accounts Payable Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Accounts Payable Invoice Processing release notes
@@ -18,6 +18,28 @@ Version history for the Accounts Payable Invoice Processing application on the S
 
 ## Version history
 
+-   **Version 13.2.7 - September 2026**
+
+    Fixed critical defects and addressed reported bugs to improve system stability and user experience
+
+-   **Version 11.4.8 - September 2026 \(Zurich\)**
+
+    Fixed critical defects and addressed reported bugs to improve system stability and user experience
+
+-   **Version 13.1.6 - August 2026 \(Australia\)**
+    -   A new Jurisdiction table included to capture tax jurisdiction, type, and authority information. Tax types are enhanced to capture and auto-populate tax jurisdiction details when users add tax lines to invoices.
+    -   This release includes fixes for reported defects to improve product stability.
+        -   Fixed an issue that could cause auto-reject to fail during invoice exception processing.
+        -   Fixed an issue on invoice processing case where user is unable to update when requested by is empty
+-   **Version 11.3.5 - August 2026 \(Zurich\)**
+    -   A new Jurisdiction table included to capture tax jurisdiction, type, and authority information. Tax types are enhanced to capture and auto-populate tax jurisdiction details when users add tax lines to invoices.
+    -   This release includes fixes for reported defects to improve product stability.
+        -   Fixed an issue that could cause auto-reject to fail during invoice exception processing.
+        -   Fixed an issue on invoice processing case where user is unable to update when requested by is empty
+-   **Version 9.3.7 - August 2026 \(Yokohama\)**
+    -   This release includes fixes for reported defects to improve product stability.
+        -   Fixed an issue that could cause auto-reject to fail during invoice exception processing.
+        -   Fixed an issue on invoice processing case where user is unable to update when requested by is empty
 -   **Version 13.0.1 - June 2026**
     -   Enhanced exception definitions with configurable rejection modes \(Auto/Manual\) to automatically reject or stage invoices for review, with structured audit messages and supplier notifications generated on every exception execution.
     -   New condition builder enables exceptions to be scoped to specific suppliers, legal entities, or invoice attributes — reducing false positives and improving exception precision.

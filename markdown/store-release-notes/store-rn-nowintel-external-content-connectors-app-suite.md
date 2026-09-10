@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-external-content-connectors-app-suite.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # External Content Connectors Application Suite release notes
@@ -18,6 +18,19 @@ Version history for the External Content Connectors Application Suite applicatio
 
 ## Version history
 
+-   **Version 9.0.6 - September 2026**
+    -   New:
+        -   Connector health dashboard
+        -   Index inspector
+    -   Fixed:
+        -   Back button in connector creation wizard not always working
+        -   State of the connector is only updated after page reload
+-   **Version 8.2.3 - August 2026**
+    -   New:
+        -   SAP Success Factors external content connector:
+            -   REST API support for uploading CSV files.
+            -   Multi-lingual training items are supported. Please note that the CSV file for trainings now contain an additional column Locale\_ID. New CSV file uploads for trainings need to have this column present.
+    -   Changed: Otto-related changes to the FAQs
 -   **Version 8.1.0 - July 2026**
     -   Changed:
         -   Filter by labels for Google Drive connector
@@ -124,5 +137,5 @@ Version history for the External Content Connectors Application Suite applicatio
     -   A dedicated, user-friendly UI makes it easy for administrators to manage the entire process from configuring connections and setting up crawls to monitoring performance and reviewing results. Flexible options allow you to define crawl schedules, refine content inclusion and exclusion rules, and map user permissions effortlessly, ensuring only authorized access to data.
     -   By centralizing content from multiple sources and integrating it with AI Search, External Content Connectors improves productivity, improves search accuracy, and makes it simpler for organizations to access the information they need.
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

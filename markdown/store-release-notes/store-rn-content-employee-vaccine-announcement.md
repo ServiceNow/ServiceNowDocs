@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-01-29"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Employee Vaccine Announcement release notes

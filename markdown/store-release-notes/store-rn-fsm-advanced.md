@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # FSM - Advanced release notes
@@ -18,6 +18,13 @@ Version history for the ServiceNow® FSM - Advanced application on the ServiceNo
 
 ## Version history
 
+-   **Version 2.1.2 - September 2026**
+
+    Fixed Fluent conversion issues
+
+-   **Version 2.0.9 - August 2026**
+    -   New: Fluent based development support added.
+    -   Changed: ServiceNow Otto is the new Al experience brand. This change is reflected in the name of ServiceNow products, including Field Service Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   **Version 2.0.1 - June 2026**
     -   New:
         -   AI-powered mobile form auto-fill for field technicians.
@@ -48,8 +55,8 @@ Version history for the ServiceNow® FSM - Advanced application on the ServiceNo
         -   Performance testing for Q1 deliveries.
             -   Testing conducted to ensure system stability and responsiveness.
 -   **Version 1.0.0 - April 2026**
-    -   FSM - Advanced activates enhanced AI capabilities for customers on the Advanced product tier subscription. It builds on FSM - Foundation and works alongside Now Assist for Field Service Management \(FSM\) to deliver a broader set of AI skills and agentic workflows for field service teams.
+    -   FSM - Advanced activates enhanced AI capabilities for customers on the Advanced product tier subscription. It builds on FSM - Foundation and works alongside ServiceNow Otto for Field Service Management \(FSM\) to deliver a broader set of AI skills and agentic workflows for field service teams.
     -   This tier includes Work Order Task Summarization, Knowledge Article Generation to automatically draft KB articles from completed work orders, and Sidebar Chat Summarization for contextual AI assistance during dispatcher conversations. It also includes two AI agents: the Create Work Order Agent, which handles work order creation from text and images, and the Parts Manager AI Agent, which detects part usage within work notes and updates the status of all used, removed, or unused parts automatically.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

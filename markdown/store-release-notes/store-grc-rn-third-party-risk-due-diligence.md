@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-third-party-risk-due-diligence.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Third-party Risk Due Diligence release notes
@@ -18,6 +18,33 @@ Version history for the GRC Third-party Risk Due Diligence application on the Se
 
 ## Version history
 
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   New:
+        -   Added engagement and element relationship handling for due diligence.
+        -   Added element collection task integration with the due diligence workflow.
+        -   Added dynamic attributes, classifications, and AI model configuration for elements.
+        -   Added risk-rating rollups across engagement and element relationships.
+    -   Changed:
+        -   Added internal task support and task-type metadata.
+        -   Improved third-party and engagement element access controls.
+        -   Added global AI model availability for vendor contacts.
+        -   Updated scheduled-rule date handling for local time zones.
+        -   Added assignment-group filtering and updated due diligence workflow behavior.
+    -   Fixed:
+        -   Corrected element-name uniqueness per vendor \(PRB2067427\).
+        -   Fixed validation that engagements and elements belong to the same third party \(PRB2067085\).
+        -   Corrected AI model dynamic attribute naming and classification feedback \(PRB2057733\).
+        -   Fixed third-party prepopulation when creating elements \(PRB2057048\).
+        -   Corrected scheduled event rules executing every other day \(PRB2055615\).
+        -   Fixed assignment-group filtering and related due diligence behavior \(PRB2028131\).
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed:
+        -   Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience.
+        -   Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
+-   **Version 22.1.0 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience.
+        -   Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
         -   Added SBOM questionnaire auto-assignment on engagement creation.

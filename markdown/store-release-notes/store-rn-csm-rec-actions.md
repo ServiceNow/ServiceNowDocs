@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-rec-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Recommended Actions release notes
@@ -17,6 +17,10 @@ Version history for the Recommended Actions application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 44.0.4 - September 2026**
+
+    New: Recommended actions now support new guidances, 'Attach Knowledge' and 'Relevant Case' for AI Search results that surface on CRM workspace.
 
 -   **Version 42.1.0 - July 2026**
 
@@ -131,5 +135,5 @@ Version history for the Recommended Actions application on the ServiceNow Store.
     Recommended Actions enable agents to view and select one or more contextually relevant actions based on insights generated with defined rules. For example, an agent working on a case can review and select a contextually relevant action that links the case to a related product issue. Recommended Actions provides the ability to configure recommendations based on related context, giving agents the resources and information they need to resolve cases quickly.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

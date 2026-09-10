@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-content-publishing.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Content Publishing release notes
@@ -17,6 +17,22 @@ Version history for the Content Publishing application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 37.4.3 - September 2026**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 36.7.4 - September 2026 \(Zurich\)**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 37.3.3 - August 2026 \(Australia\)**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 36.6.3 - August 2026 \(Zurich\)**
+
+    Updated to support the latest version of the dependent apps.
 
 -   **Version 37.2.0 - July 2026 \(Australia\)**
 
@@ -211,5 +227,5 @@ Version history for the Content Publishing application on the ServiceNow Store.
         -   Add a new link type of "To-do" by assigning an existing To-do to a Link Content record. Once saved, you can assign the To-do link to a Banner or Styled Content item. The Banner/Styled Content item when scheduled, will automatically kick-off the To-do to the targeted users and appear on the portal with the ability to link the employee directly to the linked To-do.
         -   Target a topic page via Content Publishing's Schedule Content module. This allows a content author to create Banners, Styled Content announcements or Videos for publishing to a taxonomy-driven "Topic Page". Occurs when selecting the topic page or widget instance within Schedule Content \(will require the taxonomy and the topic\(s\) for targeting to the appropriate page\(s\)\).
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

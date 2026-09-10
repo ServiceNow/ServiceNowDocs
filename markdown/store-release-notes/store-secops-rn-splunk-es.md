@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-04-04"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Splunk Enterprise Security integration release notes

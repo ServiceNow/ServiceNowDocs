@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ICW - Foundation release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® ICW - Foundation application on the Service
     ICW – Foundation is the core tier of the ServiceNow Industrial Connected Workforce platform, providing key concepts like organization structure, equipment layout, work schedules, standardized guided tasks, and common workflows. These elements form a framework for efficient, accountable, and contextually valid task definition and execution in pursuit of operational excellence.As the base tier of the Industrial Connected Workforce AI-Native SKU, Foundation can be extended with Advanced and Prime tiers to unlock further AI-native capabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

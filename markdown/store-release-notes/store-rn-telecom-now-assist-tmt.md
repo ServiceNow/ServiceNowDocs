@@ -1,22 +1,31 @@
 ---
-title: Now Assist for Telecommunications, Media, and Technology \(TMT\) release notes
-description: Version history for the Now Assist for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
+description: Version history for the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-now-assist-tmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Telecommunications, Media, and Technology \(TMT\) release notes
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
 
-Version history for the Now Assist for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.0.15 - September 2026**
+    -   Fluent conversion of APP
+    -   Success Play RecommendationSkill
+    -   Executive Briefing on Executive portfolio dashboard
+    -   Engagement Insights nad breifing Skill
+-   **Version 6.0.13 - August 2026**
+
+    Meeting V2 Agent is getting shipped
 
 -   **Version 6.0.7 - June 2026**
 
@@ -33,11 +42,11 @@ Version history for the Now Assist for Telecommunications, Media, and Technology
         -   Lookup similar engagements skill:- This feature looks up similar engagements to a starting engagement. It does so by first filtering records in the engagement table \(sn\_acct\_lc\_engagement\) using predefined, scripted conditions, then retrieving context details for the top 20 candidates, and finally asking the LLM to analyze and compare them and return the top 3 most similar engagements.
 -   **Version 5.1.9 - February 2026**
 
-    Removing now assist for SOMT dependency.
+    Removing Now Assist for SOMT dependency.
 
 -   **Version 5.1.8 - January 2026**
 
-    Changed: Dependency versions for now assist for TMTsn\_tmt\_agentic ai 4.0.5sn\_genai\_platform 10.0.3sn\_somt\_gen\_ai 1.0.2sn\_sb\_gen\_ai 1.0.2.
+    Changed: Dependency versions for Now Assist for TMTsn\_tmt\_agentic ai 4.0.5sn\_genai\_platform 10.0.3sn\_somt\_gen\_ai 1.0.2sn\_sb\_gen\_ai 1.0.2.
 
 -   **Version 5.1.7 - December 2025**
     -   The following is the list of features that we are shipping in the December Z Release:

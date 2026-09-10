@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Capacity and Reservations Management release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® Field Service Capacity and Reservations Man
     -   Organizations can reserve portions of available capacity for specific work types, such as high-priority or same-day tasks, and define capacity using multiple inputs: agent schedules, task counts, or hours. Assignment overrides allow planners to respond dynamically when operational priorities shift without dismantling the underlying structure.
     -   Organizations get visibility into how capacity is being consumed across the operation, so adjustments to coverage, contractor commitments, and service demand can be made before they become scheduling problems.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

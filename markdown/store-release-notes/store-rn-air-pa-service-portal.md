@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-02-20"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics content pack for Service Portal release notes
@@ -26,5 +26,5 @@ Version history for the Performance Analytics content pack for Service Portal on
     Administrators and service delivery executives can use the Service Portal Usage dashboard to identify how many users have visited the Service Portal, what pages on the portal are most viewed, and how these metrics compare by country.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

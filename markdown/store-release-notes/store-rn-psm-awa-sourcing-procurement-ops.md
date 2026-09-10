@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-awa-sourcing-procurement-ops.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Advanced Work Assignment for Sourcing and Procurement Operations release notes
@@ -18,6 +18,15 @@ Version history for the Advanced Work Assignment for Sourcing and Procurement Op
 
 ## Version history
 
+-   **Version 4.0.0 - September 2026**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
 -   **Version 3.1.1 - December 2025 \(Zurich\)**
 
     Changed: Users with the Admin role can now assign individual users or user groups to Purchase Order Exceptions based on conditions defined on the exception or related PO fields.
@@ -47,5 +56,5 @@ Version history for the Advanced Work Assignment for Sourcing and Procurement Op
             **Note:** Existing customers will not be impacted as this is a new functionality that they can choose to use.
 
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

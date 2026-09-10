@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Impact Health release notes

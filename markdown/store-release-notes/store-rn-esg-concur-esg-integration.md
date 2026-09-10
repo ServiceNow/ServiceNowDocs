@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-concur-esg-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Management with Concur integration release notes
@@ -18,6 +18,9 @@ Version history for Operational Sustainability Management with Concur integratio
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New: Admins can now configure granular access controls for user rolesRole-based permissions have been introduced, enabling administrators to define and manage access levels for different user groups directly within the application settings.
+    -   Changed: Access control workflows have been updated to support dynamic role assignmentThe system now allows real-time updates to user permissions, enabling faster onboarding and offboarding processes.
 -   **Version 22.3.1 - June 2026 \(Australia\)**
 
     Changed: This release includes security enhancements that strengthen access controls across the application.
@@ -47,5 +50,5 @@ Version history for Operational Sustainability Management with Concur integratio
         -   Activate the metric definitions for collecting travel details to calculate emissions
         -   Ability to stage the incoming trip detail and process the entity and metric data
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

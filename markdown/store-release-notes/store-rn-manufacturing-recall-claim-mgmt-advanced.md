@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-recall-claim-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manufacturing Recall Claim Management Advanced release notes
@@ -15,6 +15,26 @@ breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow
 Version history for the ServiceNow® Manufacturing Recall Claim Management Advanced application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 5.2.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 5.1.1 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 5.0.4 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 4.1.0 - August 2026**
+
+    No release notes.
+
+-   **Version 4.0.1 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 3.1.3 - July 2026**
 
@@ -45,5 +65,5 @@ Version history for the ServiceNow® Manufacturing Recall Claim Management Advan
     -   A recall manager can initiate a product recall campaign, add impacted assets to the campaign record and corrective actions that need to be taken when the asset is brought in to the service center for repairs.  This campaign can be rolled out in multiple phases and sub-phases.  This application includes the user interface element that lets the recall manager define multiple levels of phases and sub-phases.  The recall manager assigns the impacted assets to these phases and sub-phases and this feature allows for a phased rollout of the recall campaign.
     -   Impacted assets can be assigned to phases or moved from one phase to another.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

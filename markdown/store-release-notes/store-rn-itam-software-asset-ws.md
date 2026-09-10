@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Workspace release notes
@@ -16,6 +16,32 @@ Version history for the ServiceNow® Software Asset Workspace application on the
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 12.0.4 - September 2026 \(Brazil\)**
+    -   New:
+        -   Reclamation Summary provides a consolidated view of reclamation opportunities. Software Asset Managers can now access a consolidated Reclamation Summary list in the workspace, grouping opportunities by software and justification with a drill-down into underlying candidate records.
+        -   A new Reclamation sub-section is available under License Operations, featuring both the consolidated Reclamation Summary and individual Removal Candidates list views, accessible to all License Operations users.
+    -   Changed:
+        -   The Reclamation Candidate tab in the workspace is now labeled "Summary" and displays consolidated summary data, replacing individual candidate rows. The tab is also renamed to "Reclamation" for clarity.
+        -   The Removal Candidates list has been migrated from the Administration category to the new Reclamation section, making it visible to a broader set of users beyond just administrators.
+        -   The Reclamation Summary list now supports filtering and sorting by software model, justification, and integration profile, with improved drill-down navigation.
+    -   Fixed: The Key metrics section in the Software Asset Workspace now displays clearer naming and role definitions for numbers, improving user understanding.
+    -   Removed: The Removal Candidates list is no longer available under the Administration category; it is now accessible within the Reclamation section under License Operations.
+-   **Version 11.0.20 - September 2026 \(Australia\)**
+    -   The Resource Value Framework now includes out-of-the-box license metric content with the following enhancements:
+        -   Support for configurable metric types via two new tables \(samp\_license\_metric\_config and samp\_default\_consumption\_tier\) and a resource value reconciliation calculator
+        -   Backward-compatible dictionary updates to existing fields
+        -   Conditional UI rendering that only appears when metric types are configured
+        -   No changes to existing data or unconfigured customer environments
+-   **Version 11.0.18 - August 2026 \(Australia\)**
+    -   The Software Asset Workspace now provides accurate drill-down navigation and consistent localization across dashboards.
+        -   Drilling down from license usage into Unlicensed CAL counts now displays records accurately at the publisher and product levels.
+        -   List view titles for widget drill-downs on the Lifecycle Management Dashboard and Optimization &amp; Savings Dashboard now display in the correct locale, regardless of user language settings.
+    -   Product naming update: Starting with Software Asset Workspace v11.0.18, Now Assist has been renamed to ServiceNow Otto.
+-   **Version 10.0.19 - August 2026 \(Zurich\)**
+    -   The Software Asset Workspace now provides accurate drill-down navigation and consistent localization across dashboards.
+        -   Drilling down from license usage into Unlicensed CAL counts now displays records accurately at the publisher and product levels.
+        -   List view titles for widget drill-downs on the Lifecycle Management Dashboard and Optimization &amp; Savings Dashboard now display in the correct locale, regardless of user language settings.
+    -   Product naming update: Starting with Software Asset Workspace v10.0.19, Now Assist has been renamed to ServiceNow Otto.
 -   **Version 11.0.15 - July 2026 \(Australia\)**
     -   In this version, the Software Asset Workspace includes the following fixes:
         -   Security fix for Multi Record Associator pop-up page
@@ -69,5 +95,5 @@ Version history for the ServiceNow® Software Asset Workspace application on the
     Software Asset Workspace is an intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization. It is a unified medium with multiple views enabling you to create entitlements, software models, run and review reconciliation results, remediate non compliance, give visibility into your software assets, and provides access to analytics via dashboards.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

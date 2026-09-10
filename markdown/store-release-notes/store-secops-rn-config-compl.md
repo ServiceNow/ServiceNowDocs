@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-config-compl.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 23
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 24
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Configuration Compliance release notes
@@ -18,6 +18,23 @@ Version history for the Security Operations Configuration Compliance application
 
 ## Version history
 
+-   **Version 30.6.15 - September 2026 \(USEM\)**
+
+    Fixed: Corrected the Assigned to me view in Security Exposure Management Workspace configuration test results to display only results assigned to the individual user, not team results.
+
+-   **Version 15.9.9 - September 2026**
+
+    Fixed: Restored task history pop-up, enabling users to access task history.
+
+-   **Version 30.6.8 - August 2026 \(USEM\)**
+
+    Fixed: Strengthened security in the Data Broker component, enforcing role-based access controls across Configuration Compliance workspaces to prevent unauthorized visibility of restricted records.
+
+-   **Version 15.9.5 - August 2026**
+    -   Fixed:
+        -   Splitting a remediation task now correctly copies the short description to the newly created task.
+        -   Fixed an issue where the Reason field was left empty for test results deferred by Auto Exception Rules.
+        -   Preserved deferred status for test results during integration imports, preventing unintended reopening.
 -   **Version 30.6.5 - July 2026 \(USEM\)**
     -   Changed: Improved performance when updating test findings.
     -   Fixed:

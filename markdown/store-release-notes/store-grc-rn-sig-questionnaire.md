@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-03-23"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: SIG Questionairre release notes
@@ -50,5 +50,5 @@ Version history for the GRC: SIG Questionnaire Integration on the ServiceNow Sto
         -   SIG Full to SIG Full 2017
         -   SIG Lite to and SIG Lite 2017
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

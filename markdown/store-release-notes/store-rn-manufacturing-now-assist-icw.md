@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-now-assist-icw.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Now Assist for ICW release notes
@@ -18,6 +18,10 @@ Version history for the ServiceNow® Now Assist for ICW application on the Servi
 
 ## Version history
 
+-   **Version 1.1.0 - August 2026**
+
+    Changed in this release: ServiceNow Otto for Industrial Connected Workforce is the new name for Now Assist for ICW.
+
 -   **Version 1.0.0 - May 2026**
     -   When operators encounter a deviation on the shop floor, finding the right guidance across manuals, standard operating procedures, and safety documentation slows down resolution and increases the risk of inconsistent execution. Now Assist for ICW brings generative AI directly into the deviation workflow so operators can act on the most relevant guidance without leaving the task at hand.
     -   The Now Assist for ICW application allows industrial workers and leaders to:
@@ -25,5 +29,5 @@ Version history for the ServiceNow® Now Assist for ICW application on the Servi
         -   Read AI-generated summaries that explain why each document applies to the situation
         -   Generate a grounded, step-by-step resolution plan from the underlying documentation, with reasoning that can be reviewed against the source
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM Cloud Accelerate release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM Cloud Accelerate version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Action Library release notes
@@ -42,5 +42,5 @@ Version history for the Cloud Action Library application on the ServiceNow Store
     Cloud Action library provides ready-made Automation Engine actions and sub-flows used with store apps like the Cloud Configuration Governance \(CCG\) store app. Also, you can use the CAL actions in the in your wokflows to interact with the cloud resource. The CAL actions enable you to list the cloud resources, read resource details, turn-off the cloud VM, set encryption level, enable advanced monitoring, and more.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM Cloud Accelerate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-accelerate-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Cloud Accelerate version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-accelerate-landing.md)
 

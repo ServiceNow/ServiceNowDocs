@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Platform Analytics release notes
+title: ServiceNow Store - Platform Analytics version history release notes
 description: The ServiceNow Store contains Platform Analytics applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Platform Analytics release notes
+# ServiceNow Store - Platform Analytics version history release notes
 
 The ServiceNow Store contains Platform Analytics applications.
 
@@ -86,8 +86,10 @@ Version history for the ServiceNow® Insights Clustering Utils application on th
 Version history for the Now Intelligence KPI Composer on the ServiceNow Store.
 -   **[NLU Workbench - Advanced Features release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-platform-nlu-workbench-advanced-features.md)**  
 Version history for the NLU Workbench - Advanced Features application on the ServiceNow Store.
--   **[Now Assist Admin Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-intel-now-assist-admin-console.md)**  
-Version history for the Now Assist Admin Console application on the ServiceNow Store.
+-   **[AI Admin Hub Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-intel-now-assist-admin-console.md)**  
+Version history for the AI Admin Hub Console application on the ServiceNow Store.
+-   **[PA AI Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air-pa-ai-tools.md)**  
+Version history for the ServiceNow® PA AI Tools application on the ServiceNow Store.
 -   **[PAR CoreUI Migration Scripts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air-par-coreui-migration-scripts.md)**  
 Version history for the PAR CoreUI Migration Scripts application on the ServiceNow Store.
 -   **[Performance Analytics content pack for Service Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air-pa-service-portal.md)**  
@@ -98,6 +100,12 @@ Version history for the ServiceNow® Performance Analytics - Content Pack - Guid
 Version history for the Platform Analytics application on the ServiceNow Store.
 -   **[Platform Analytics Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sn-app-analytics-workspace.md)**  
 Version history for the Platform Analytics Workspace on the ServiceNow Store.
+-   **[Process Mining Content Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-process-mining-content-pack.md)**  
+Version history for the ServiceNow® Process Mining Content Pack application on the ServiceNow Store.
+-   **[Process Mining for Salesforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-process-mining-salesforce.md)**  
+Version history for the ServiceNow® Process Mining for Salesforce application on the ServiceNow Store.
+-   **[Process Mining for Workday release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-process-mining-workday.md)**  
+Version history for the ServiceNow® Process Mining for Workday application on the ServiceNow Store.
 -   **[Process Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-process-optimization.md)**  
 Version history for the Process Mining application on the ServiceNow Store.
 -   **[Process Mining Content Pack for SPM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-nowintel-process-mining-spm.md)**  
@@ -123,5 +131,5 @@ Version history for the Usage Insights in Data Visualizations application on the
 -   **[User Experience Analytics PAR Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-user-experience-analytics-par-integration.md)**  
 Version history for the User Experience Analytics PAR Integration application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

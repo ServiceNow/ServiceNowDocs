@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-for-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Voice, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Voice version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow Voice for CSM release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow AI Platform capabilities ServiceNow Voice for
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.12.4 - September 2026**
+
+    Changed: Updated the 'Setup PIN' catalog item for Angular portal compatibility to replace deprecated UI16 catalog experience.
+
+-   **Version 3.12.2 - August 2026**
+
+    Changed: Updated the 'Setup PIN' catalog item for Angular portal compatibility to replace deprecated UI16 catalog experience.
 
 -   **Version 3.12.0 - July 2026**
     -   New:
@@ -63,5 +71,5 @@ Version history for the ServiceNow AI Platform capabilities ServiceNow Voice for
     The ServiceNow® Cloud Call Center for CSM application provides seamless interactive voice response and calling experiences for your customers and agents by integrating a cloud contact center provider with the robust capabilities of the ServiceNow® Customer Service Management application.
 
 
-**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-servicenow-voice-landing.md)
+**Parent Topic:**[ServiceNow Voice version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-servicenow-voice-landing.md)
 

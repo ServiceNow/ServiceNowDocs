@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Reliability Management release notes
@@ -27,5 +27,5 @@ Version history for the Service Reliability Management application on the Servic
     For ServiceNow customers with teams modernizing into, or already practicing, Site Reliability Engineering \(SRE\), the Service Reliability Management \(SRM\) application provides a self-serve, guided experience for on-call teams to autonomously manage the health of their technical services using SRE principles. The experience is built using the Service Operations Workspace application and combines ITOM and ITSM capabilities into a single service operations workflow. Key capabilities include team-based access, self-serve on-call scheduling, and service-level objectives.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

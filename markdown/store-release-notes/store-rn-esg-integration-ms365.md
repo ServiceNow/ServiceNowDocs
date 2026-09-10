@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Management integration with Microsoft 365 release notes
@@ -31,5 +31,5 @@ Version history for the Operational Sustainability Management integration with M
         -   Ability to refresh inserted content in word from ServiceNow.
     -   Microsoft 365 for ServiceNow Reporting provides reporting capabilities to organisational reporting managers to seamlessly report on ServiceNow data and reports through Microsoft Word and establish an auditable link between the document and the data.
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

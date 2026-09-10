@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-virtual-conferencing-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Management Virtual Conferencing Integration release notes
@@ -17,6 +17,10 @@ Version history for the Field Service Management Virtual Conferencing Integratio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.1.14 - September 2026**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 30.0.0 - March 2026**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-in-store-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retail In-Store Operations release notes
@@ -18,6 +18,18 @@ Version history for the Retail In-Store Operations application on the ServiceNow
 
 ## Version history
 
+-   **Version 5.0.6 - September 2026 \(Brazil\)**
+
+    New: Java 21 compatibility
+
+-   **Version 4.12.0 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Changes have been made to replace usage of the “Origin” field with the new “Template item” field.
+        -   Moved the "My Work" screen segment to Retail Mobile. Original sysid retained to preserve any customer changes.
+-   **Version 4.10.1 - August 2026**
+    -   Changes:
+        -   Added support for  Ad-hoc case and task creation via RSM Mobile \(Report an Issue\)
+        -   Fulfilment via RSM Mobile and Retail Service Portal for both plan-based with embedded questionnaires \(in-store plan\) and ad-hoc cases/tasks
 -   **Version 4.9.1 - July 2026**
 
     Changed: Support for now-sdk APIs is enabled.
@@ -55,5 +67,5 @@ Version history for the Retail In-Store Operations application on the ServiceNow
     The Retail In-store Operations application allows store team members to report and track in-store operational issues, whether for routine or cyclical demands. This ensures that issues are documented and monitored for consistent execution and support.
 
 
-**Parent Topic:**[ServiceNow Store - Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
+**Parent Topic:**[ServiceNow Store - Retail version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
 

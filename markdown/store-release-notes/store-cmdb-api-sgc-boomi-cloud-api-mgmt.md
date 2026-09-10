@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # API Service Graph Connector for Boomi API Management release notes
@@ -25,5 +25,5 @@ Version history for the ServiceNow® API Service Graph Connector for Boomi API M
     Use the ServiceNow Configuration Management Database \(CMDB\) as your normalized source of truth for APIs deployed on Boomi Cloud API Management. Having your API inventory in the CMDB enables other workflows to be used in managing your API estate, including Vulnerability Response, IT Service Management, IT Operations Management, Integrated Risk, and more. The ServiceNow API Insights workspace also provides a way for teams to interact with the API data so that certain stakeholders can analyze the data without requiring direct access to Boomi API Cloud.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

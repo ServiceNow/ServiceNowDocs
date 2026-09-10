@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-ms-azure.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Microsoft Azure release notes
@@ -18,6 +18,32 @@ Version history for the Service Graph Connector for Microsoft Azure on the Servi
 
 ## Version history
 
+-   **Version 1.18.0 - September 2026**
+    -   New:
+        -   Life cycle management is supported for service accounts, IP addresses, and tags.
+        -   Updated SNK delimiter and key structure migration are used for Azure CI identification.
+        -   Operating system domain is mapped for imported Azure virtual machines.
+        -   Azure datacenter \(location\) names are aligned with the naming used by Cloud Discovery patterns.
+        -   Azure virtual desktop instances are classified correctly even when their power state is off. Powered-down VDI resources are now correctly classified and included in imports.
+        -   Managed database, multi workspace, and NIC are now related to their logical datacenter.
+        -   Azure Microsoft SQL managed instances are imported into the CMDB.
+        -   Multiple log analytics workspaces can be imported for a single hardware connection.
+    -   Changed:
+        -   The connector doesn’t depend on the deprecated WMIC utility when running commands on Windows hosts.
+        -   The field mapping for properties.privateEndpointConnections is removed from Azure Functions.
+    -   Fixed:
+        -   Resolved the issue where the connector uses a database view that breaks when sys\_object\_source is moved to a gateway database.\(PRB2057749\)
+        -   Resolved the issue where a "Found multiple dependent relation items" error occurs when resources are moved between Azure datacenters. \(PRB2031891\)
+        -   Resolved the issue where the Disk Space field isn’t populated with the correct size during hardware import because the temporary disk size \(returned in megabytes\) is written to the hardware template without being converted to gigabytes.\(PRB2020861\)
+        -   Duplicate network interface card \(NIC\) CIs are created after SNK updates.\(PRB2075962\)
+        -   The Install status and Disk Space fields are populated with RTE mappings for the Server class and the Computer class.\(PRB2029112\)
+        -   The install status is now correctly updated for scale set virtual machines.\(PRB2058752\)
+        -   Resolved the issue where the operational\_status of a virtual machine CI reverts from Retired to Deployed after the virtual machine is deleted because the ETL transform script reads only the provisioning state and doesn’t check the change type.\(PRB2026420\)
+        -   Relationships are created from Kubernetes Clusters and Azure Functions for service accounts.\(PRB2072840\)
+        -   Resolved the issue where software removal responses that were returned as "modified" created new CIs, resulting in duplicate records.\(PRB2010434\)
+        -   Resolved the issue where the hardware consolidation job and its underlying database view join filter on PoweredState = ON, which excludes powered-off virtual machines and can lead to incorrect data when the import runs outside business hours.\(PRB2027092\)
+        -   CIDR information is now correctly populated.\(PRB2066702\)
+        -   Resolved the issue where a datacenter is incorrectly marked as Passive when it contains only resource groups with no resources.\(PRB2025724\)
 -   **Version 1.17.0 - June 2026**
     -   New:
         -   Implemented the import of Microsoft/Websites.

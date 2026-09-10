@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-02-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: DevOps Accelerator release notes

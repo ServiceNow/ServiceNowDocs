@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-card-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations release notes
@@ -17,6 +17,30 @@ Version history for the Financial Services Operations Financial Services Card Op
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.2.1 - September 2026**
+    -   New:
+        -   A merchant price difference indicator field was added to consumer dispute forms, allowing agents to capture and track price discrepancies reported by merchants during the dispute process.
+        -   Filtering logic was added to identify undisputed financial transactions for a given set of transactions, enabling more accurate fraud detection in the CE3 fraud filter.
+    -   Fixed:
+        -   The Visa and Mastercard network UI policies on the authorization screen no longer interfere with each other. Previously, selecting one network would incorrectly hide fields and reset values intended for the other network; each policy now applies only to its own network.
+        -   A race condition in the Review Intake screen was eliminated. The "Continue" button previously had a 2–3 second delay before hiding the "Modify Transactions" and "Dispute Reason" buttons, leaving a window where users could modify data and cause inconsistencies. Buttons are now hidden instantly on click, and validation errors are surfaced in dismissible alerts that re-enable the buttons for correction.
+        -   The waiver/insurance status UI policy condition was corrected to use the goods\_services\_not\_provided dispute reason, ensuring the field shows and hides under the right circumstances.
+    -   Changed: Updated internal application components to support ongoing platform enhancements
+-   **Version 14.2.0 - September 2026**
+    -   New:
+        -   A merchant price difference indicator field was added to consumer dispute forms, allowing agents to capture and track price discrepancies reported by merchants during the dispute process.
+        -   Filtering logic was added to identify undisputed financial transactions for a given set of transactions, enabling more accurate fraud detection in the CE3 fraud filter.
+    -   Fixed:
+        -   The Visa and Mastercard network UI policies on the authorization screen no longer interfere with each other. Previously, selecting one network would incorrectly hide fields and reset values intended for the other network; each policy now applies only to its own network.
+        -   A race condition in the Review Intake screen was eliminated. The "Continue" button previously had a 2–3 second delay before hiding the "Modify Transactions" and "Dispute Reason" buttons, leaving a window where users could modify data and cause inconsistencies. Buttons are now hidden instantly on click, and validation errors are surfaced in dismissible alerts that re-enable the buttons for correction.
+        -   The waiver/insurance status UI policy condition was corrected to use the goods\_services\_not\_provided dispute reason, ensuring the field shows and hides under the right circumstances.
+-   **Version 14.1.2 - August 2026**
+    -   Fixed: Disputes with amounts that exactly match the transaction or receipt difference are no longer incorrectly flagged as invalid due to floating-point rounding errors in the dispute amount validation logic.
+    -   Changed: Updated the Otto Mark indicator behavior on the ACH and Friendly Fraud common component.
+-   **Version 12.0.9 - August 2026 \(Zurich\)**
+
+    Changed: Updated the Otto Mark indicator behavior on the ACH and Friendly Fraud common component.
 
 -   **Version 14.0.0 - July 2026**
     -   New: Added new questionnaire fields, with updated labels, for Mastercard disputes.

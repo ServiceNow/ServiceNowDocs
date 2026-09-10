@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-contracts-entitlements.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Contracts and Entitlements release notes
@@ -17,6 +17,14 @@ Version history for the Customer Contracts and Entitlements application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.1 - September 2026**
+
+    Fixed minor defects.
+
+-   **Version 14.3.3 - August 2026**
+
+    Fixed: Duplicate contract lines are not created after an order revision. The system now prevents duplicate contract line items when a revised order line item is approved, ensuring accurate contract records and entitlements. Null checks have been added and unit test failures have been resolved.
 
 -   **Version 14.3.0 - June 2026**
 
@@ -81,5 +89,5 @@ Version history for the Customer Contracts and Entitlements application on the S
     Customer Contracts and Entitlements application provides data model to store contracts, contract lines, and entitlements. Contracts from external systems can be imported using specifically designed APIs.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

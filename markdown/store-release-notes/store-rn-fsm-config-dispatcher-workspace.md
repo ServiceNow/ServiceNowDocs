@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-config-dispatcher-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 26
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 32
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # FSM Configurable Dispatcher Workspace release notes
@@ -18,6 +18,41 @@ Version history for the FSM Configurable Dispatcher Workspace application on the
 
 ## Version history
 
+-   **Version 31.0.6 - September 2026**
+    -   New Features and Enhancements:
+        -   Task Quick Filters with Skills — Dispatchers can now filter tasks and the calendar panel by skills, parts, SLA, and window end time, with pagination support for large task lists, giving faster access to the specific tasks that match a given filter combination.
+        -   Embedded break and lunch visibility — Scheduled breaks and flexible lunch periods now display directly within task cards, the work order task pop-up, and the work order task customer service portal, so dispatchers and agents can see break details without navigating away from the task.
+        -   Territory metrics — Dispatcher Workspace now calculates and surfaces resource metrics at the territory level, giving dispatchers better visibility into territory-wide workload and coverage.
+        -   Bundle and crew task refinements — Bundle and crew tasks no longer allow embedding where it isn't supported, and the matching-skills sort order used when assigning bundle/crew work has been corrected.
+    -   Fixes:
+        -   Calendar and scheduling — Fixed an issue where the calendar's selected date was lost when switching views; resolved duplicate and double-rendered events on the calendar, including for personal \(non-work\) events during auto-refresh; fixed an issue where resizing a task on the calendar did not correctly switch its scheduling method to manual; corrected the confirmation dialog shown after resizing a task so it reflects the right task details; fixed a tooltip that continued to show the previous task's text after a drag-and-drop action; resolved an infinite loading state that could occur when switching calendar views with certain agent filters enabled; and fixed a conflict between the calendar's auto-refresh and manual scrolling that could interrupt the view.
+        -   Tasks and work orders — Corrected the layout shown when opening a work order record from a work order task so it matches the layout used when opening the work order directly; fixed task and record links that incorrectly opened using a generic task type instead of the specific extended task type; resolved an issue where tasks failed to populate for assignment-group-based views; and fixed an issue where date accuracy and crew-field updates could conflict during certain task confirmation flows.
+        -   Territory and resource filtering — Fixed a server error that could occur when the resource filter was applied with certain display settings; corrected a hardcoded mapping dependency that could break territory-based map features on newer releases; and resolved data refresh issues affecting the territory and assignment-group views.
+        -   Localization — Corrected a display issue in a French-language translation.
+        -   Performance — Reduced excessive backend query load that occurred while loading the resource filter navigation menu, and replaced a deprecated mapping API used for route calculations with its supported replacement.
+        -   Security — Strengthened default access controls to prevent unauthorized data access through a filtering component, and fixed a stored cross-site-scripting exposure in how certain task card content was rendered.
+        -   Other fixes — Addressed persisted button state issues, corrected sort behavior when filtering by parts, resolved a delay affecting resource assignment during date navigation when no group or territory filters were selected, and fixed several smaller display and data-consistency issues across the calendar, task panel, and map views.
+-   **Version 30.1.1 - August 2026**
+    -   The selected date is now retained when switching between calendar views. Previously, navigating between day, week, and other calendar views caused the current date selection to reset, forcing dispatchers to re-navigate to their working date after every view change.
+    -   Resizing a task on the calendar now correctly updates the scheduling method to Manual. Previously, dragging the edge of a calendar task to resize it did not change the scheduling method, even though the task time had been manually adjusted.
+    -   The task assignment confirmation modal now shows the correct task details after a resize. Previously, when a dispatcher resized a task event on an agent's calendar, the confirmation modal displayed details from a previously interacted task rather than the one being resized.
+    -   Work order events no longer appear duplicated on the calendar when scrolling or loading more records. Previously, scrolling through the calendar or triggering a load-more action could cause WFO events to render multiple times in the same time slot.
+    -   Task tooltips now display the correct description after a drag-and-drop operation. Previously, the tooltip shown when hovering over a task after dragging it to a new slot continued to display the description from the previously hovered task rather than updating to the current one.
+    -   Territory and group filter buttons now correctly restore their persisted state between sessions. Previously, territory and group toggle buttons in the toolbar did not reliably restore the dispatcher's saved selections, requiring them to reapply filters on each visit.
+    -   Tasks now load correctly when filtering by assignment group. Previously, selecting an assignment group in the workspace filter caused the task list to remain empty even when tasks existed for that group.
+    -   Sort-by-parts performance has been restored for large datasets. Previously, sorting resources by parts in environments with large data volumes experienced significant slowdowns, particularly affecting high-volume deployments.
+    -   Territory maps now load correctly regardless of the Google Maps API version in use. Previously, the Google Maps API version was hardcoded to "weekly", which caused territory map features to break when newer API releases introduced incompatible behavior. The API version is now resolved dynamically.
+    -   The embedded break indicator in the calendar now renders correctly. Previously, component-level changes to the break display could cause it to appear incorrectly or not render in certain configurations.
+    -   Bundle filter queries now correctly enforce access controls. Previously, the filter query used when adding tasks to a bundle did not fully enforce access control rules, which could allow results to include records the user should not see.
+    -   Pagination labels for territory and agent group lists now display correctly in all supported languages. Previously, the translation keys used for navigation controls in territory and group lists were incorrect, causing untranslated or missing labels to appear for some locales \(including French\).
+-   **Version 28.6.0 - August 2026**
+    -   Territory mapsnow load correctly regardless of the Google Maps API version in use. Previously, the Google Maps API version was hardcoded to "weekly", which caused territory map features to break when newer API releases introduced incompatible behavior. The API version is now resolved dynamically, ensuring consistent territory map functionality.
+    -   Resizing a task on the calendar now correctly updates the scheduling method to Manual. Previously, dragging the edge of a calendar task to resize it did not change the scheduling method, leaving it unchanged even though the task time had been manually adjusted. The scheduling method is now set to Manual as expected when a task is resized.
+    -   Pagination labels for territory and agent group lists now display correctly in all supported languages. Previously, the translation keys used for "next page" and "previous page" controls in territory and group lists were incorrect, causing untranslated or missing labels to appear for some locales \(including French\). The correct translation keys are now used.
+-   **Version 27.8.1 - August 2026**
+    -   Territory maps now load correctly regardless of the Google Maps API version in use. Previously, the Google Maps API version was hardcoded to "weekly", which caused territory map features to break when newer API releases introduced incompatible behavior. The API version is now resolved dynamically, ensuring consistent territory map functionality.
+    -   Resizing a task on the calendar now correctly updates the scheduling method to Manual. Previously, dragging the edge of a calendar task to resize it did not change the scheduling method, leaving it unchanged even though the task time had been manually adjusted. The scheduling method is now set to Manual as expected when a task is resized.
+    -   Pagination labels for territory and agent group lists now display correctly in all supported languages. Previously, the translation keys used for "next page" and "previous page" controls in territory and group lists were incorrect, causing untranslated or missing labels to appear for some locales \(including French\). The correct translation keys are now used.
 -   **Version 28.5.2 - July 2026**
     -   Fixed an issue where a newly added resource was not appearing or behaving correctly when navigating between dates in the dispatcher workspace when no territories or groups were selected.
     -   Fixed an issue where agents were not displayed in the dispatcher workspace when filtering resources by skill.
@@ -430,5 +465,5 @@ Version history for the FSM Configurable Dispatcher Workspace application on the
             -   Within dispatcher workspace calendar, support resizing of the events to increase/decrease the duration of the event.
             -   Update the layout in UIB pages to the latest layout 3.0 offered from UIB-UXF platform.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

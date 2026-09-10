@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-cloud-insights.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Cost Management release notes
@@ -18,6 +18,19 @@ Version history for the ITAM Cloud Cost Management application on the ServiceNow
 
 ## Version history
 
+-   **Version 11.0.0 - September 2026**
+    -   The version 11.0 release introduces AI-powered summarization of cloud spend reports, standardized business context for unified cost reporting with total cost of ownership \(TCO\), business insights using the Unit Economics dashboard, and a reorganized Cloud Cost Management Workspace with enhanced navigation and reusable saved views.
+    -   What's new
+        -   Make smarter cloud cost decisions with AI-powered summarization of cloud spend
+        -   Get complete cost visibility with TCO and unit economics
+        -   Manage cloud spend attribution with the tag category source selection capability
+        -   Streamline spend analysis with saved, shared, and reusable report views
+        -   Experience reorganized Cloud Cost Management Workspace with intuitive navigation and broader visibility
+    -   What's changed
+        -   The Summarize button on the Monthly spend breakdown report now generates an AI-assisted summary of your cloud spend trends, top cost drivers, and optimization recommendations across all cloud service providers.
+        -   The Business Insights view has been added to the Cloud Cost Management Workspace
+        -   Saved views on the Cloud Cost Management Workspace
+        -   Optimization view on the Cloud Cost Management Workspace
 -   **Version 10.0.2 - June 2026**
     -   Performance-related defect fixes.
     -   Stability-related defect fixes.

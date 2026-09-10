@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-11-03"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Offboarding - Manager Planning for a Departing Team Member release notes
@@ -56,5 +56,5 @@ Version history for the Employee Experience Pack: Offboarding - Manager Planning
         -   2 Stages in the Plan configuration Knowledge Transfer Farewell Activities
         -   7 to-do templates in the 2 stages
 
-**Parent Topic:**[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
+**Parent Topic:**[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
 

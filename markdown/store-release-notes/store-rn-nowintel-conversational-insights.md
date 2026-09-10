@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversation Insights release notes
@@ -23,5 +23,5 @@ Version history for the Conversation Insights application on the ServiceNow Stor
     -   Traditional surveys often reflect extreme opinions and low response rates. Post-interaction feedback delays insights resulting in lagging indicators and lastly they lack actionable insight behind CSAT scores.
     -   Inferred CSAT solves this by using AI to estimate CSAT for all conversations instantly, based on full conversation transcript. This eliminates bias and reliance on explicit survey feedback only. CSAT scores are generated immediately after the interaction enabling faster detection of issues and trends. CSAT factors like Resolution, Empathy, Effort, and so on explain user satisfaction or dissatisfaction, helping you to target improvements.
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

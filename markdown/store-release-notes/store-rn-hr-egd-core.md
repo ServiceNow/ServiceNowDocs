@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-egd-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Talent Development Core release notes
@@ -17,6 +17,14 @@ Version history for the Talent Development Core on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.7.1 - September 2026**
+
+    Minor release.
+
+-   **Version 5.6.4 - August 2026**
+
+    Minor release. Focus on Otto rename UI changes and other defects
 
 -   **Version 5.5.0 - June 2026**
 
@@ -125,5 +133,5 @@ Version history for the Talent Development Core on the ServiceNow Store.
     -   New: Initial release of Employee Growth &amp; Development functionality.
     -   Changed: A new navigation link to Your career will be added to the Mega Menu in Employee Center.
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

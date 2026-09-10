@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel-common-ui-components.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Support Common UI Components release notes
@@ -17,6 +17,10 @@ Version history for the Threat Intelligence Support Common UI Components applica
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.6 - September 2026**
+
+    Fixed:Added labels to buttons in heatmap
 
 -   **Version 1.1.5 - March 2026**
     -   Fixed:
@@ -43,5 +47,5 @@ Version history for the Threat Intelligence Support Common UI Components applica
     New: Introduced the MITRE ATT&amp;CK framework which improves the ServiceNow AI Platform SOAR capabilities that enable proactive analysis, response, and reporting on threats across the security infrastructure.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

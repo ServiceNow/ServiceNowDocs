@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-product-pricing-rules.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Product and pricing rules release notes
@@ -18,6 +18,13 @@ Version history for the Product and pricing rules application on the ServiceNow 
 
 ## Version history
 
+-   **Version 10.5.2 - September 2026**
+    -   New: Floor and ceiling pricing now available in API responses, enabling price boundary enforcement
+    -   Changed: PricingMatrixAPIImpl instantiation optimized
+    -   Fixed:
+        -   Fixed issue where Matrix rules silently fail in account scope mode
+        -   Fixed issue where cancelled lines contributed to incorrect adjustment totals
+        -   Quote-to-SA creation flow no longer failing due to currency check
 -   **Version 10.3.0 - June 2026**
     -   Fixed:
         -   Performance enhancements
@@ -76,5 +83,5 @@ Version history for the Product and pricing rules application on the ServiceNow 
     Product and pricing rules is a structured framework based on decision tables to define business rules related to pricing and product. They include rules such as price adjustments rules and product offer eligibility rules. The rules are defined based on multiple criteria or attributes. These criteria can include dimensions such as sales channel, customer types, regions, and so on. These dimensions can be defined using context variables.
 
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 

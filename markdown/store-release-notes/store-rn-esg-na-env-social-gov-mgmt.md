@@ -1,22 +1,34 @@
 ---
-title: Now Assist for Operational Sustainability Management release notes
-description: Version history for the Now Assist for Operational Sustainability Management application on the ServiceNow Store.
+title: ServiceNow Otto for Operational Sustainability Management release notes
+description: Version history for the ServiceNow Otto for Operational Sustainability Management application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-na-env-social-gov-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Operational Sustainability Management release notes
+# ServiceNow Otto for Operational Sustainability Management release notes
 
-Version history for the Now Assist for Operational Sustainability Management application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Operational Sustainability Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.1 - September 2026 \(Brazil\)**
+
+    Changed: Updated the dependency versions to take advantage of latest updates from the Operational Sustainability application. Refer to the dependency app store release notes for details.
+
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+
+    Changed: ServiceNow Otto Branding Updates Updated the application to reflect the new ServiceNow Otto branding, replacing Now Assist references and providing a more consistent AI experience across the platform.
+
+-   **Version 22.0.4 - August 2026 \(Zurich\)**
+
+    Changed: Updated the application to reflect the new ServiceNow Otto branding, replacing Now Assist references and providing a more consistent AI experience across the platform.
 
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   Changed: This release includes security enhancements that strengthen access controls across the application.
@@ -38,5 +50,5 @@ Version history for the Now Assist for Operational Sustainability Management app
     Empower your sustainability teams with Generative AI-powered capabilities in ESG Management to automate and streamline data collection, and ensure accurate, auditable reporting at enterprise scale.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

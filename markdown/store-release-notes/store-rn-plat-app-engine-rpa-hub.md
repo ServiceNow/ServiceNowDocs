@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-rpa-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 18
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # RPA Hub release notes
@@ -18,6 +18,11 @@ Version history for the RPA Hub application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 18.1.2 - August 2026**
+    -   Changed:
+        -   Improved the ability to map credential records to automation processes, enhancing configuration flexibility for RPA administrators.
+        -   Enhanced the functionality for organizing and grouping robots to improve automation distribution and workload management.
+        -   Security enhancements to strengthen authorization controls and data protection across the application.
 -   **Version 18.0.2 - June 2026**
 
     Fixed: The issue where the TOTP record could not be deleted when the assigned bot process was in maintenance mode is now fixed.
@@ -269,5 +274,5 @@ Version history for the RPA Hub application on the ServiceNow Store.
     The Robotic Process Automation \(RPA\) Hub provides the capability to integrate the ServiceNow platform with applications that do not support APIs. RPA Hub enables deployment, management and monitoring of attended and unattended automations. It allows developers to store automation packages, configure attended and unattended robots, manage queues, store application credentials, and monitor alerts. Along with Integration Hub, RPA Hub is part of Automation Engine for a complete integration and automation solution for ServiceNow.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

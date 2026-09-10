@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workforce Optimization for ITSM Admin Center release notes
@@ -32,5 +32,5 @@ Version history for the Workforce Optimization for ITSM Admin Center application
         -   Add or remove managers and members from WFO groups
         -   Add or revoke application access to WFO groups and managers
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

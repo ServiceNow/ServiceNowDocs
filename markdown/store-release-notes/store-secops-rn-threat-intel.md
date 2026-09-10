@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel.html
 release: store
 topic_type: reference
-last_updated: "2026-02-05"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence release notes
@@ -17,6 +17,14 @@ Version history for the Security Operations Threat Intelligence app on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.5.0 - September 2026**
+
+    New: Added MITRE ATLAS threat detection to identify AI- and ML-specific threats — such as prompt injection, model poisoning, data extraction, and adversarial attacks.
+
+-   **Version 13.4.6 - August 2026**
+
+    Fixed: Fixed the addressing accessibility violations issue.
 
 -   **Version 13.4.4 - February 2026**
 

@@ -1,15 +1,15 @@
 ---
-title: ServiceNow Store release notes
+title: ServiceNow Store version history release notes
 description: Each quarter, the ServiceNow Store releases new applications and updates to applications that are created by ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html
 release: store
 topic_type: reference
 last_updated: "2023-05-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
-# ServiceNow Store release notes
+# ServiceNow Store version history release notes
 
 Each quarter, the ServiceNow® Store releases new applications and updates to applications that are created by ServiceNow.
 
@@ -286,76 +286,76 @@ Boost productivity by automating workflows.
 
 Check out these top features and all the new features in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
--   **[ServiceNow Store - Admin release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)**  
+-   **[ServiceNow Store - Admin version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)**  
 The ServiceNow Store contains ServiceNow AI Platform Admin products.
--   **[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)**  
+-   **[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)**  
 Version history for Conversational Interfaces releases on the ServiceNow Store
--   **[ServiceNow Store - Ancillary software release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)**  
+-   **[ServiceNow Store - Ancillary software version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)**  
 The ServiceNow Store contains various ancillary software.
--   **[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)**  
+-   **[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)**  
 The ServiceNow Store contains various Content.
--   **[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)**  
+-   **[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)**  
 The ServiceNow Store contains various Core Business applications.
--   **[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)**  
+-   **[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)**  
 The ServiceNow Store contains Customer Service Management applications.
--   **[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)**  
+-   **[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)**  
 The ServiceNow Store contains DevOps products.
--   **[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)**  
+-   **[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)**  
 The ServiceNow Store contains Employee Service Management applications.
--   **[ServiceNow Store - Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)**  
+-   **[ServiceNow Store - Enterprise Architecture version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)**  
 The ServiceNow Store contains Enterprise Architecture applications.
--   **[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)**  
+-   **[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)**  
 The ServiceNow Store contains Field Service Management applications.
--   **[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)**  
+-   **[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)**  
 The ServiceNow Store contains Finance Close Automation applications.
--   **[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)**  
+-   **[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)**  
 The ServiceNow Store contains Financial Services applications.
--   **[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)**  
+-   **[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)**  
 The ServiceNow Store contains GRC content packs.
--   **[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)**  
+-   **[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)**  
 The ServiceNow Store contains Healthcare and Life Sciences applications.
--   **[ServiceNow Store - Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)**  
+-   **[ServiceNow Store - Impact version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)**  
 The ServiceNow Store contains Impact products.
--   **[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)**  
+-   **[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)**  
 The ServiceNow Store contains IT Asset Management products.
--   **[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)**  
+-   **[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)**  
 The ServiceNow Store contains IT Operation Management dashboards and other content.
--   **[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)**  
+-   **[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)**  
 The ServiceNow Store contains IT Service Management applications.
--   **[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)**  
+-   **[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)**  
 The ServiceNow Store contains Operational Sustainability Management applications.
--   **[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)**  
+-   **[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)**  
 The ServiceNow Store contains Operational Technology applications.
 -   **[ServiceNow Store - Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-mobile-highlight.md)**  
-The ServiceNow Store contains Mobile products.
--   **[ServiceNow Store - Setup Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)**  
-The ServiceNow Store contains Setup Hub products.
--   **[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)**  
+The ServiceNow Store contains version history Mobile products.
+-   **[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)**  
 The ServiceNow Store contains Platform Analytics applications.
--   **[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)**  
+-   **[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)**  
 The ServiceNow Store contains Public Sector Industry applications.
--   **[ServiceNow Store - Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)**  
+-   **[ServiceNow Store - Retail version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)**  
 The ServiceNow Store contains Retail applications.
--   **[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)**  
+-   **[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)**  
 The ServiceNow Store contains Sales Customer Relationship Management applications.
--   **[ServiceNow Store - Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)**  
+-   **[ServiceNow Store - Security Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)**  
 The ServiceNow Store contains Security Operations integrations.
--   **[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)**  
+-   **[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)**  
 The ServiceNow Store contains ServiceNow AI Platform UI products.
--   **[ServiceNow Store - ServiceNow AI Platform Capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)**  
+-   **[ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)**  
 The ServiceNow Store contains ServiceNow AI Platform Capabilities products.
--   **[ServiceNow Store - ServiceNow AI Platform Security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)**  
+-   **[ServiceNow Store - ServiceNow AI Platform Security version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)**  
 The ServiceNow Store contains ServiceNow AI Platform Security products.
--   **[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)**  
+-   **[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)**  
 The ServiceNow Store contains ServiceNow AI Platform UI products.
--   **[ServiceNow Store - Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops.md)**  
+-   **[ServiceNow Store - ServiceNow Otto for Setup version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)**  
+The ServiceNow Store contains ServiceNow Otto for Setup products.
+-   **[ServiceNow Store - Source-to-Pay Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops.md)**  
 The ServiceNow Store contains Source-to-Pay Operations applications.
--   **[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)**  
+-   **[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)**  
 The ServiceNow Store contains Strategic Portfolio Management products.
--   **[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)**  
+-   **[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)**  
 The ServiceNow Store contains Technology Provider Service Management applications.
--   **[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)**  
+-   **[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)**  
 The ServiceNow Store contains Telecommunications Service Management applications.
--   **[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)**  
+-   **[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)**  
 The ServiceNow Store contains Workflow Data Fabric applications.
 

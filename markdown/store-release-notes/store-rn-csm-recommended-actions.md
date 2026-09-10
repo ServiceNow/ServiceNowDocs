@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-recommended-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Recommended Actions for Customer Service release notes
@@ -17,6 +17,10 @@ Version history for the Recommended Actions for Customer Service application on 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 32.0.6 - September 2026**
+
+    New: Recommended actions now support new guidances - "Attach Knowledge" and "Relevant Case" for AI Search results that will surface on CRM workspace.
 
 -   **Version 31.0.2 - April 2026**
     -   New: Introduced relevancy score support for the Case resolution guidance.

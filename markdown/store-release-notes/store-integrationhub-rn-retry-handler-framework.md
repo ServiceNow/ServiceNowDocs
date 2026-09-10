@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-09-21"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retry Handler Framework release notes
@@ -22,5 +22,5 @@ Version history for the Retry Handler Framework application on the ServiceNow St
     -   This app can help to retry a request that has failed with a 429 response code. This framework, when used, helps to retry a request when the API rate limits are reached. The retry-after time specified by the third-party system in the response headers will be used to retry the request again after that specified retry-after time.
     -   Note: The retry handling framework is applicable only for Microsoft Exchange Online spoke v 3.0.0.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

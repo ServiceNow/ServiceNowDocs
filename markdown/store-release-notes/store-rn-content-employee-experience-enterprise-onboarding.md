@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-11-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Enterprise Onboarding release notes
@@ -25,5 +25,5 @@ Version history for the Employee Experience Pack: Enterprise Onboarding applicat
     -   The purpose of Employee Experience Packs is to help explain the power and ease of configuration of ServiceNow to support complex processes and use cases while providing a great experience. The Employee Experience Packs strive to leverage as many of the advanced features of the system, in support of the specific use case, to demonstrate capabilities new customers/users of the system may not be aware exist. The packs are not intended as direct-install processes ready to leverage in a production process flow, but simply to remove anxiety about where to start, or answer the question what can a good process look like with all the features of ServiceNow?
     -   \*\* Support is available on the ServiceNow community linked under "Supporting Links and Docs" on right side of this page.
 
-**Parent Topic:**[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
+**Parent Topic:**[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
 

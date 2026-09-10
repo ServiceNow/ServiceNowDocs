@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-move-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Move Management release notes
@@ -17,6 +17,10 @@ Version history for the Workplace Move Management application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.14.13 - September 2026**
+
+    Move cases on the schedule calendar view can now be dragged to a different date without triggering an error.
 
 -   **Version 1.14.5 - July 2026**
     -   Fixed:
@@ -114,5 +118,5 @@ Version history for the Workplace Move Management application on the ServiceNow 
     ServiceNow® Workplace Move Management enables employees to collaborate, communicate, and easily manage one-off seat changes from start to finish. Both employees or their managers can make move request through a configurable, automated process so that the workplace managers can supervise the movement of employees and their belongings with minimal to no disruption.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

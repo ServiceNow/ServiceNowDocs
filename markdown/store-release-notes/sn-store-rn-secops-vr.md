@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Vulnerability Response release notes
+title: ServiceNow Store - Vulnerability Response version history release notes
 description: The ServiceNow Store contains Vulnerability Response products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-rn-secops-vr.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Vulnerability Response release notes
+# ServiceNow Store - Vulnerability Response version history release notes
 
 The ServiceNow Store contains Vulnerability Response products.
 
@@ -46,8 +46,6 @@ Version history for the ServiceNow® CVDB Integrations application on the Servic
 Version history for the Cybersecurity Executive Dashboard application on the ServiceNow Store.
 -   **[Data Model for SBOM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-data-model-SBOM.md)**  
 Version history for the Vulnerability Response Data Model for SBOM application on the ServiceNow Store.
--   **[Early Warning for Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-early-warning-security-exposure-mgmt.md)**  
-Version history for the ServiceNow® Early Warning for Security Exposure Management application on the ServiceNow Store.
 -   **[Exception Management for Unified Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.md)**  
 Version history for the ServiceNow® Exception Management for Unified Security Exposure Management application on the ServiceNow Store.
 -   **[Fortify Application Vulnerability Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-vr-fortify.md)**  
@@ -151,5 +149,5 @@ Version history for the Vulnerability Response Patch Orchestration with Microsof
 -   **[Vulnerability Solution Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-solution-manangement.md)**  
 Version history for the Security Operations Vulnerability Solution Management on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)
+**Parent Topic:**[ServiceNow Store - Security Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-entity-based-access.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Entity Based Access release notes
@@ -17,6 +17,10 @@ Version history for the GRC: Entity Based Access application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+
+    Fixed: Updated the database view to prevent potential syntax issues with RaptorDB.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   This release adds new security restrictions, performance improvements, and localization updates to GRC Entity-Based Access.

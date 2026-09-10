@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-content-experiences.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Content Experiences release notes
@@ -17,6 +17,14 @@ Version history for the Content Experiences application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 33.1.1 - September 2026**
+
+    Updated to support the latest version of the dependent apps.
+
+-   **Version 32.4.1 - September 2026 \(Zurich\)**
+
+    Updated to support the latest version of the dependent apps.
 
 -   **Version 33.1.0 - July 2026 \(Australia\)**
 
@@ -125,5 +133,5 @@ Version history for the Content Experiences application on the ServiceNow Store.
         -   Added ability to assign Styled Content content type to the Content Experiences Widget
         -   Updated the Content Experiences Widget to display a gradient under the text rather than a blurry shadow box
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

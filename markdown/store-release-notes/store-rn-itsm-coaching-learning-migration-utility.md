@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-09-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Coaching with Learning Migration Utility release notes

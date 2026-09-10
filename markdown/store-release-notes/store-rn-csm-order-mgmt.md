@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-02-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Order Management release notes
@@ -32,5 +32,5 @@ Version history for the Order Management application on the ServiceNow Store.
     The Order Management application allows order agents to create orders on behalf of customers and track fulfillment of those orders through order tasks. Orders can also be created by bringing in order data through API from third party systems.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-app.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Quote Management Application release notes
@@ -17,6 +17,22 @@ Version history for the Quote Management Application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.3 - September 2026 \(Australia\)**
+
+    Auto-add and update quote line segments for derived-price products based on source product offering contributions across date ranges
+
+-   **Version 10.7.3 - September 2026 \(Zurich\)**
+
+    Auto-add and update quote line segments for derived-price products based on source product offering contributions across date ranges
+
+-   **Version 11.1.1 - August 2026 \(Australia\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
+
+-   **Version 10.6.2 - August 2026 \(Zurich\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
 
 -   **Version 11.0.1 - July 2026 \(Australia\)**
     -   Automatic pricing recalculation on characteristic changes

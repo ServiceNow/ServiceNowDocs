@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-patch-orchestration.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Patch Orchestration release notes
@@ -18,6 +18,15 @@ Version history for the Vulnerability Response Patch Orchestration application o
 
 ## Version history
 
+-   **Version 30.3.6 - September 2026**
+    -   New: Framework enhancements to support multiple patch to multi asset/asset group deployments.
+    -   New:
+        -   Enhanced Patch Orchestration with advanced scheduling and deployment options. Customers can now schedule and orchestrate patch deployments directly within the Patch Orchestration module, including support for deployment rings and integration of additional patch and endpoint metadata from Tanium.
+        -   Improved patch-to-vulnerability mapping and rollup logic. The system now supports enhanced matching criteria between patches and vulnerabilities, with new fields for knowledge base URLs, patch size, and confidence score, increasing mapping accuracy and visibility.
+        -   SCCM integration now supports JDBC queries. Customers can leverage JDBC-based integration for SCCM, replacing previous WMI-based methods for improved reliability and compatibility.
+    -   Changed:
+        -   Schedule Patch UI migrated to app-vul-patch-orch. The Patch Deployment section is now visible in the Change Request creation modal when both app-vul-resp and app-vul-patch-orch are installed. When only app-vul-resp is installed, the Patch Deployment section is hidden, ensuring a streamlined user experience.
+        -   Fluent Migration completed for app-vul-patch-orch. The package.json has been added and validated, aligning with Fluent Migration Milestone 1 requirements.
 -   **Version 30.2.1 - April 2026 \(USEM\)**
 
     Fixed: A security vulnerability in the Patch Orchestration scheduling component where a client-callable interface lacked proper input validation, which permitted unauthorized deletion of arbitrary records. The fix enforces strict access controls to ensure delete operations are only permitted for authorized users on permitted records.

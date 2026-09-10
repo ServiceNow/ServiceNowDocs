@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-devops.html
 release: store
 topic_type: reference
-last_updated: "2025-09-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Azure DevOps Boards spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub Microsoft Azure DevOps Boards spoke on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.3 - September 2026**
+
+    Fixed: Action: Update Work Item
 
 -   **Version 3.1.0 - September 2025**
 

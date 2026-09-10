@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Ancillary software release notes
+title: ServiceNow Store - Ancillary software version history release notes
 description: The ServiceNow Store contains various ancillary software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ancillary-software.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Ancillary software release notes
+# ServiceNow Store - Ancillary software version history release notes
 
 The ServiceNow Store contains various ancillary software.
 
@@ -33,5 +33,5 @@ Version history for the ServiceNow CLI on the ServiceNow Store.
 -   **[UXF components for Notification Flow Templates release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software-uxf-notification-flow-templates.md)**  
 Version history for the ServiceNow UXF components for Notification Flow Templates in ancillary software on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

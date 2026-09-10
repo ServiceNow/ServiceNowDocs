@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Core Business Suite Prime release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Core Business Suite Prime application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.3.2 - August 2026**
+
+    Updated to support the latest version of the dependent apps.
 
 -   **Version 3.0.7 - July 2026**
 
@@ -31,5 +35,5 @@ Version history for the ServiceNow® Core Business Suite Prime application on th
     Core Business Suite Prime includes the highest tier of AI-native capabilities across departments, including Human Resources, Legal, Workplace Service Delivery, Finance, Procurement, Health and Safety, Supplier Lifecycle Operations, and Accounts Payable Operations
 
 
-**Parent Topic:**[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
+**Parent Topic:**[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
 

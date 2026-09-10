@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-policy-compliance-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 16
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 17
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Policy and Compliance Management release notes
@@ -17,6 +17,26 @@ Version history for the GRC: Policy and Compliance Management on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Migrated query range access controls to conditional plugin structure for app compatibility with the Zurich release.
+        -   Fixed Policy Exceptions auto-closing after the Valid to date expires
+        -   Resolved 'Next run date' in IRM indicators being read-only in the Australia version
+        -   Fixed error appearing in the Extension date field when extending policy exceptions
+        -   Resolved error in policy review flow when adding blacklisted roles
+        -   Fixed incorrect role validation in Copy entity frequency UI action on Control records
+        -   Fixed Policy Exception workflow to reflect extension
+        -   Resolved Effective Date validation on control objectives incorrectly flagging the current date as past
+        -   Granted Compliance Library Reader and Compliance Reader roles access to Policy category
+        -   Added indexing to sn\_grc\_item\_generation\_action\_event\_queue queries
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+
+    Changes: Multiple record association \(MRA\) security enhancements: Authorization validation has been strengthened within MRA workflows to consistently enforce access checks during record association operations.
+
+-   **Version 22.0.5 - August 2026 \(Zurich\)**
+
+    Changes: Multiple record association \(MRA\) security enhancements: Authorization validation has been strengthened within MRA workflows to consistently enforce access checks during record association operations.
 
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
@@ -326,5 +346,5 @@ Version history for the GRC: Policy and Compliance Management on the ServiceNow 
     This application was updated in New York. See the section Supporting Links &amp; Docs for release notes and product documentation.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

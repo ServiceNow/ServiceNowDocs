@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-procurement-operations-integration-ariba.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sourcing and Procurement Operations Integration with Ariba release notes
@@ -18,6 +18,14 @@ Version history for the Sourcing and Procurement Operations Integration with Ari
 
 ## Version history
 
+-   **Version 1.1.0 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Ariba data integration and synchronization.
+-   **Version 0.6.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP Ariba data integration and synchronization.
 -   **Version 1.0.1 - June 2026 \(Australia\)**
 
     Fixed: Implemented Directive DIRS0000421 – Non-Glide Cobalt Raven ACLs in Product Code, along with the corresponding true-up support enhancements.

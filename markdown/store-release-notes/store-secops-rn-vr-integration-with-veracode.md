@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-integration-with-veracode.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Veracode release notes
@@ -17,6 +17,14 @@ Version history for the Vulnerability Response Integration with Veracode on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.3.1 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue with the Veracode application vulnerable item \(AVIT\) ingestion that generated a large volume of 'undefined' warnings in logs whenever a finding's found/last-found/last-updated date was missing from an API response. By checking for missing date values before constructing a date/time object, and defaulting to an empty value instead of passing undefined values, date fields on imported findings are populated as expected.
+        -   Large-scale, Veracode Link Projects and SBOM integrations that might generate between 5,000–10,000 Import Queue entries per run, because separate integration process, attachment, and Import Queue entries were created for every application. This process significantly slowed overall import completion for customers with large numbers of applications, because entries were processed one-at-a-time. By batching multiple application responses into a single integration process and preserving all existing downstream behaviors, the times for large Veracode imports are reduced without changing the imported data.
+-   **Version 4.7.8 - September 2026**
+
+    Fixed: Large-scale, Veracode Link Projects and SBOM integrations might generate between 5,000–10,000 Import Queue entries per run, because separate integration process, attachment, and Import Queue entries were created for every application. This process significantly slowed overall import completion for customers with large numbers of applications, because entries were processed one-at-a-time. By batching multiple application responses into a single integration process and preserving all existing downstream behaviors, the times for large Veracode imports are reduced without changing the imported data.
 
 -   **Version 30.1.3 - June 2026 \(USEM\)**
     -   The following enhancements and changes support internal security directives:Dictionary fields on sn\_vul\_app\_release and sn\_vul\_veracode\_link\_projects are now read-only. A one-time fix script applies the option to existing fields.

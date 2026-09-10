@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-sales-promo-claim-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manufacturing Sales Promotion Claim Management release notes
@@ -17,6 +17,26 @@ Version history for the Manufacturing Sales Promotion Claim Management applicati
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.2.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 6.1.2 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 6.0.3 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 5.1.0 - August 2026**
+
+    No release notes.
+
+-   **Version 5.0.0 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 4.1.2 - July 2026**
 
@@ -56,5 +76,5 @@ Version history for the Manufacturing Sales Promotion Claim Management applicati
             -   Manufacturing OEMs launch sales promotion campaigns from time to time that helps then to introduce a new product, boost sales of an existing product or clear aging inventory. They also do targeted promotions based on demographic like senior citizen and veteran discounts. Channel partners are expected to extend these promotions and discounts to end customers during the sales transaction and the OEMs reimburse the channel partner towards these costs. MCO helps OEMs engage with dealers on such promotions and claims.
             -   The sales promotion framework provided by MCO helps the OEM to publish such promotions and also aids the channel partners to raise claims against these promotions after the product sales transaction is completed.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

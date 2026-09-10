@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-social-benefits-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Social Benefits Playbook release notes
@@ -18,6 +18,12 @@ Version history for the Social Benefits Playbook application on the ServiceNow S
 
 ## Version history
 
+-   **Version 3.0.1 - September 2026**
+    -   L3 compliance support.The Social Benefits Playbook now supports Level 3 compliance, enabling agencies to meet advanced regulatory requirements.
+    -   Bug fixes.
+-   **Version 2.16.1 - August 2026**
+    -   Defects Fix: Field Level Access is blocked for the users in sn\_customerservice\_related\_party\_configuration table
+    -   New Feature: Rename "Now Assist" → "ServiceNow Otto"
 -   **Version 2.12.2 - July 2026**
     -   Fix the plugin dependency issue from the previous release and deliver a Zurich-compatible version.
     -   Fix security defects
@@ -75,5 +81,5 @@ Version history for the Social Benefits Playbook application on the ServiceNow S
     The Social Benefits Playbook provides governments with a packaged playbook built to simplify and modernize eligibility determination and the delivery of financial and social assistance enabling governments to focus on quickly providing critical assistance to constituents in need, rather than developing and maintaining expensive custom solutions.
 
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

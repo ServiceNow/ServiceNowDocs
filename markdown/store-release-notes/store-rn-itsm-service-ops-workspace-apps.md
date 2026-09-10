@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-service-ops-workspace-apps.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace ITSM Applications release notes
@@ -17,6 +17,18 @@ Version history for the Service Operations Workspace ITSM Applications on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.4.2 - September 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
+
+-   **Version 9.3.1 - August 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
+
+-   **Version 8.8.1 - August 2026**
+
+    Changed: Updated plugin dependencies to ensure compatibility with the ServiceNow latest release.
 
 -   **Version 7.1.7 - July 2026 \(Zurich\)**
 

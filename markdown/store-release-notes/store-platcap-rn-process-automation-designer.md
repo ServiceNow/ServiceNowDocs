@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-process-automation-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Process Automation Designer release notes
@@ -18,6 +18,30 @@ Version history for the Process Automation Designer application on the ServiceNo
 
 ## Version history
 
+-   **Version 30.1.7 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Defects associated with Playbook Generation and Summarization
+        -   Defects associated with Activity UI Preview, Localization, Set Playbook Outputs activity definition
+        -   Runtime defects associated with restarting 'In Progress' playbooks
+-   **Version 29.6.4 - September 2026**
+    -   Support for playbook summarization in off-glide environment
+    -   Minor defect fixes for Playbooks as MCP tool
+-   **Version 28.8.2 - September 2026 \(Zurich\)**
+    -   New:
+        -   Support for playbook summarization in off-glide environment
+        -   Minor defect fixes related to questionnaire
+-   **Version 29.5.6 - August 2026 \(Australia\)**
+    -   New:
+        -   Playbooks as MCP tools: Access and run your Playbooks directly from your favorite MCP client.
+        -   New "run as" option: The Hybrid Agentic Activity and Use an AI Agent activity now support running as the user who completed the previous activity.
+        -   Expanded autonomous mode: Hybrid Agentic Activity autonomous mode now supports custom form-based activities, with operations configurable in the activity definition.
+    -   Changed: Updated default model: Playbook generation skills now default to Azure OpenAI instead of NowLLM.
+-   **Version 28.7.8 - August 2026 \(Zurich\)**
+    -   New:
+        -   Playbooks as MCP tools: Access and run your Playbooks directly from your favorite MCP client.
+        -   New "run as" option: The Hybrid Agentic Activity and Use an AI Agent activity now support running as the user who completed the previous activity.
+        -   Expanded autonomous mode: Hybrid Agentic Activity autonomous mode now supports custom form-based activities, with operations configurable in the activity definition.
+    -   Changed: Updated default model: Playbook generation skills now default to Azure OpenAI instead of NowLLM.
 -   **Version 29.4.2 - July 2026 \(Australia\)**
     -   New:
         -   KB to Playbook Generation — Generate structured playbooks directly from existing Knowledge Base articles, turning documented processes into executable workflows.

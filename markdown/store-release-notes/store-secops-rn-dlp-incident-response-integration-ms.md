@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-dlp-incident-response-integration-ms.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DLP Incident Response integration with Microsoft release notes
@@ -17,6 +17,10 @@ Version history for the Security Operations DLP Incident Response integration wi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.5 - September 2026**
+
+    Fixed: Addressed mapping issue during incident ingestion for fields "Detection date Sent" and "File Created".
 
 -   **Version 1.5.3 - July 2026**
 
@@ -118,5 +122,5 @@ Version history for the Security Operations DLP Incident Response integration wi
     -   Provides a core framework to import Data Loss Prevention \(DLP\) incidents from multiple sources such as Microsoft purview apps \(Teams, Sharepoint, Email\), endpoint, network, email, and cloud and enables remediation workflow involving end users, managers, and DLP operations team with automated incident assignment and escalations.
     -   It allows DLP administrators to configure email templates for end-user coaching and communication and provides comprehensive reporting on incident trends.
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

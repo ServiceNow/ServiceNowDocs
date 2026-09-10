@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # WSD - Foundation release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® WSD - Foundation application on the Service
     ServiceNow Workplace Service Delivery - Foundation is the core tier of the ServiceNow Workplace Service Delivery platform, helping organizations to optimize the workspace and deliver digital experiences for employees to interact with the services offered by their workplace. Foundation gives workplace teams the tools they need to accelerate delivery or resolve workplace cases all in one place.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

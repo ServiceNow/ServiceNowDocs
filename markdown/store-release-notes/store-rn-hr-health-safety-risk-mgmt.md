@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Risk Management release notes
@@ -18,6 +18,30 @@ Version history for the Health and Safety Risk Management application on the Ser
 
 ## Version history
 
+-   **Version 9.4.1 - September 2026**
+    -   Fixed:
+        -   Resolved internationalization \(i18n\) issues.
+        -   Corrected the JSA detail screen so it shows the correct location instead of an internal system message in the Now Mobile app.
+        -   Resolved an error that prevented adding a risk assessment from the Audit &gt; Risk Assessment tab.
+        -   Corrected a date-format and locale issue in inspection and audit schedule flow.
+-   **Version 9.3.1 - August 2026**
+    -   Changed:
+        -   Date of birth and Date of hire fields now populate correctly in the exported OSHA 301 PDF forms.
+        -   Work notes on Health and Safety incidents are now restricted from being visible to end users.
+        -   Risk Management ACLs no longer override involved party access to Health and Safety incidents.
+        -   The body part picker now correctly selects the back of the hand instead of the palm when clicked.
+        -   ACL checks are now enforced on Health and Safety incident records for all applicable extension points.
+    -   Fixed:
+        -   Hardcoded strings and date and time formats in the Health and Safety Workspace now adapt to non-English locales.
+        -   "Link Documents" and "Select Documents" action labels appear translated on initial page load.
+        -   Users are prevented from creating and linking Health and Safety actions to restricted incidents without the required access permissions.
+        -   An intermittent issue that prevented incident playbook triggers from firing has been resolved.
+        -   A scrolling issue in the Injury Details section that prevented the delete option for the last added injury from being reachable has been fixed.
+        -   A cross-scope access violation in the Attach Health and Safety Case primary record to universal request business rule that prevented the Transfer and Create Associated Ticket buttons from appearing has been resolved.
+        -   The Approval Task Creator tool now reads manager details correctly when the application is installed.
+        -   The Health and Safety Ask attachment field now renders as mandatory when configured as required on a Smart Assessment template question.
+        -   A time zone issue that caused the Inspection Schedule flow to run incorrectly for daily frequency schedules has been resolved.
+        -   Scheduling an audit no longer returns a 'Component not configured' error.
 -   **Version 9.2.2 - July 2026**
     -   Fixed:
         -   Resolved an issue where the Approval Task Creator tool failed to read manager details when the application was installed.
@@ -58,6 +82,10 @@ Version history for the Health and Safety Risk Management application on the Ser
         -   Multiple issues with Audit surveys impacting functionality and user experience.
         -   Localization warnings across the Health and Safety Risk Management application.
         -   Assign To field uneditable on the Finding Details page for Safety agent and Safety manager roles.
+-   **Version 8.1.5 - January 2026**
+
+    Changed: There's a backport fix for \[Security Bug\] XSS in sn\_hs\_rm\_survey\_results
+
 -   **Version 8.1.2 - January 2026**
     -   New:
         -   Added Smart Assessments support for Health and Safety inspections:

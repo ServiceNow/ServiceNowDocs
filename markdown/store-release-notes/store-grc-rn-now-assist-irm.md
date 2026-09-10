@@ -1,22 +1,35 @@
 ---
-title: Now Assist for IRM release notes
-description: Version history for the Now Assist for IRM application on the ServiceNow Store.
+title: ServiceNow Otto for IRM release notes
+description: Version history for the ServiceNow Otto for IRM application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-now-assist-irm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for IRM release notes
+# ServiceNow Otto for IRM release notes
 
-Version history for the Now Assist for IRM application on the ServiceNow Store.
+Version history for the ServiceNow Otto for IRM application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.4 - September 2026 \(Brazil\)**
+
+    Fixed: Made logo compatible with Otto directive
+
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed: All references to "Now Assist for IRM" have been renamed to "ServiceNow Otto for Integrated Risk Management" in the Australia Patch4 and Zurich latest patch versions.
+    -   Fixed:
+        -   The display properties for ServiceNow Otto for Integrated Risk Management plug-in updated, so that System Admins can install this plug-in.
+        -   Install-as-dependency settings also have been updated to ensure correct application visibility and dependency management
+-   **Version 22.0.2 - August 2026 \(Zurich\)**
+
+    Changed: All references to "Now Assist for IRM" have been renamed to "ServiceNow Otto for Integrated Risk Management" in the app-grc-gen-ai and app-irm-gen-ai repositories. The renaming is reflected across plugin properties, application metadata, skill-family descriptions, role and licensing display values, and all locale translation files. No references to the previous name remain in these repositories for the relevant patches.
 
 -   **Version 22.4.0 - July 2026 \(Australia\)**
     -   New: Now Assist for IRM is now managed as a platform dependency. The application is delivered as an installed-as-dependency plugin, hidden from the main user interface and no longer appears as a standalone application tile in the ServiceNow App Store. AI-driven IRM functionality remains available and operates as before.
@@ -125,5 +138,5 @@ Version history for the Now Assist for IRM application on the ServiceNow Store.
     GenAI features for Integrated Risk Management \(IRM\), powered by Now Assist, improve analysts' productivity, team coordination, and overall efficiency.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

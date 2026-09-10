@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-data-model-navigator.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Model Navigator release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), Serv
 Version history for the ServiceNow® Data Model Navigator application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.1.3 - September 2026**
+
+    AI Search configurations exclude tables and field records without descriptions.
+
+-   **Version 1.1.2 - September 2026**
+
+    AI Search configurations exclude tables and field records without descriptions.
 
 -   **Version 1.0.4 - May 2026**
     -   Fixed:
@@ -29,5 +37,5 @@ Version history for the ServiceNow® Data Model Navigator application on the Ser
     This application contains the framework which is used to capture all the details about the OOB data model, starting with the CMDB data model.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

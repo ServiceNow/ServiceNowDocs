@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-ops-primary-data-int-coupa.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Primary Data Integration with Coupa release notes
@@ -18,6 +18,20 @@ Version history for the Primary Data Integration with Coupa application on the S
 
 ## Version history
 
+-   **Version 4.1.0 - September 2026 \(Australia\)**
+    -   New:
+        -   New subflow to fetch model categories from Coupa.
+        -   New subflow to fetch the product catalog from Coupa.
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Coupa integration and data synchronization.
+-   **Version 3.9.0 - September 2026**
+    -   New:
+        -   New subflow to fetch model categories from Coupa.
+        -   New subflow to fetch product catalog from Coupa.
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Coupa integration and data synchronization.
 -   **Version 4.0.0 - June 2026 \(Australia\)**
     -   New:
     -   -   Added Fetch chart of accounts subflow in Coupa.

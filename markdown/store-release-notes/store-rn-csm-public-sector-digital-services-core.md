@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-public-sector-digital-services-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Public Sector Digital Services Core release notes
@@ -17,6 +17,20 @@ Version history for the Public Sector Digital Services Core application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.6 - September 2026**
+    -   New:
+        -   Public sector terminology and constituent lookup in interaction pages. Interaction pages for email, voice, and chat now use public sector terminology, replacing commercial terms such as 'consumer' with 'constituent', 'contact' with 'business contact', and 'account' with 'business'. Lookup functionality now queries constituent records, ensuring caseworkers retrieve accurate public sector data.
+        -   L3 compliance support for app-psds-agency. The app-psds-agency now supports Level 3 compliance, enabling agencies to meet advanced regulatory requirements.
+        -   Fluent framework adoption for app-psds-agency. The app-psds-agency interface has been converted to the Fluent design system, providing a consistent and accessible user experience.
+        -   Configurable identity data model and access controls for multi-provider SSO. Agencies can now securely store verified identity attributes from external identity providers, with role-based access controls restricting visibility and updates to authorized users and trusted providers.
+    -   Changed:
+        -   Localization and translation improvements across core bundle. Client scripts and widgets now preload translation keys and resolve placeholder patterns, ensuring all UI text extracts correctly for translation and displays as intended. Literal strings are passed directly for translation, and message fields are populated for synchronous getMessage calls, addressing localization warnings flagged in release readiness reports.
+        -   Build configuration update for app-psds-agency. The now-sdk build process for app-psds-agency now passes the "--emitDictionary=false" parameter, optimizing build output and dictionary handling.
+    -   Fixed: The financial details table now correctly handles extensibility and child tables, resolving issues related to missing class name columns.
+-   **Version 14.1.3 - August 2026**
+
+    ChangedAll customer-facing "Now Assist" references have been rebranded to "ServiceNow Otto". UI text, labels, help content, and localization files now use the new branding as directed. Assertions and translations have been updated accordingly.
 
 -   **Version 14.1.0 - July 2026**
 

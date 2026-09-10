@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-sustainable-it.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sustainable IT release notes
@@ -18,6 +18,11 @@ Version history for Sustainable IT on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   ESG reader role now has access to Sustainable IT tables
+        -   Users with the ESG reader role can now view data in Sustainable IT tables, improving visibility across ESG Management and Sustainable IT.
+    -   Changed: Enhanced access controls across the application.This release includes enhancements to permission management, ensuring more robust and consistent access enforcement.
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   Changed:
         -   ESG reader access to Sustainable IT tables — The ESG reader role now has read access to Sustainable IT tables, improving cross-module data visibility.
@@ -54,5 +59,5 @@ Version history for Sustainable IT on the ServiceNow Store.
         -   Track the proper disposal of your IT hardware assets after they reach the end of their lifespan.
         -   Track PUE, CUE and WUE indicators for each data center.
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

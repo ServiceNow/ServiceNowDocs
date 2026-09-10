@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversation Improvement themes release notes
@@ -25,5 +25,5 @@ Version history for the ServiceNow® Conversation Improvement themes application
     The primary aim of this application is to transform Conversation Evaluator’s evaluations \(part of AI Control Tower\) into long-term performance insights by analyzing conversation quality data over time. The approach focuses on identifying recurring patterns linked to low \(and high\) conversation quality and categorizing user requests into actionable themes using metadata-driven classification powered by large language models \(LLMs\).
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

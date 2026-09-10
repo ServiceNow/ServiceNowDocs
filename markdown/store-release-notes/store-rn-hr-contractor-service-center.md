@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-contractor-service-center.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contractor Service Center release notes
@@ -18,6 +18,9 @@ Version history for the Contractor Service Center application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.0.14 - September 2026**
+    -   Changed: Added Brazil and AP5, removed Zurich
+    -   Fixed: Removed unnecessary index
 -   **Version 1.0.10 - June 2026**
 
     Security enhancements
@@ -35,5 +38,5 @@ Version history for the Contractor Service Center application on the ServiceNow 
     ServiceNow Contractor Service Center provides your contractors access to a self service application to perform their assigned actions, review knowledge articles, and submit requests. With the included notifications and communication with internal employees via the activity stream.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

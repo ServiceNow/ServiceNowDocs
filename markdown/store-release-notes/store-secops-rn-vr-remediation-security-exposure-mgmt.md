@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-remediation-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Remediation for Security Exposure Management release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow
 Version history for the ServiceNow® Remediation for Security Exposure Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 31.0.12 - September 2026**
+    -   Fixed:
+        -   Real instance-generated sysids are now used to prevent record conflicts.
+        -   The re-evaluate functionality ensures a task is created for each finding rather than only one.
+-   **Version 31.0.6 - August 2026**
+
+    Fixed: Security fixes
 
 -   **Version 31.0.3 - July 2026**
     -   Fixed:
@@ -59,5 +67,5 @@ Version history for the ServiceNow® Remediation for Security Exposure Managemen
     -   The Remediation for Security Exposure Management application enables security teams to efficiently group and manage exposure findings across all Unified Security Exposure Management \(USEM\) applications into remediation tasks.
     -   Tasks can be created manually or automatically usingRemediation Task Rules—all defined centrally in theAdmin Console within the Security Exposure Management \(SEM\) Workspace. This ensures consistent remediation workflows across infrastructure, application, container, and configuration compliance exposures.
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hardware-mgnt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Hardware Asset Management release notes
@@ -17,6 +17,38 @@ Version history for the Hardware Asset Management application on the ServiceNowÂ
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 16.0.1 - September 2026**
+    -   New:
+        -   Automated entitlement detection and reporting for ITAM and HAM applications: Administrators can now view and export entitlement consumption reports for out-of-the-box applications, with notifications for undisclosed usage.
+        -   AI Native HAM Prime SKU with bundled contract management and AI-driven asset operations: Licensed customers can access advanced contract lifecycle management, autonomous asset operations, and AI-powered asset replacement workflows, all gated by entitlement checks.
+        -   NextWave ServiceNow Otto panel enablement for Hardware Asset Management: Fulfillers can now access and test the ServiceNow Otto panel in HAM workflows, with operational validation and support for accessibility standards.
+        -   Visual regression testing for accessibility compliance in ITAM Asset Management Workspace: All updated components undergo systematic visual regression testing to ensure WCAG 2.2 Level AA conformance, with defect remediation prior to release.
+        -   Service Catalogue migration to Angular for hardware catalogue items: End users and Service Desk agents can access, request, and process hardware catalogue items in the Angular environment, with validated workflows and UI consistency.
+    -   Changed:
+        -   Workflow dependency removal in HAM and ITAM test projects:Â Test projects now create their own data and run independently of demo data workflows, improving test stability and execution time.
+        -   Gradle migration for select test projects: Test projects for asset repair, reclamation, lease contract expiration, and procurement have been migrated to Gradle for improved build consistency.
+        -   Java 21 compile upgrade for HAM and associated libraries: All impacted repositories and libraries now compile with Java 21, resolving method conflicts and ensuring compatibility with updated dependencies.
+        -   Accessibility improvements for Classic UI and HAM workspace: UI elements such as images, table grids, and popups have been updated to conform to 400% zoom accessibility guidelines, ensuring proper rendering and usability.
+        -   Demo data creation optimization for HAM workflows: Demo data creation processes for loaner, donation, disposal, contract renewal, and RMA orders have been streamlined, allowing efficient XML import and Flow Designer context management.
+    -   Fixed:
+        -   Issues with creating shipping carriers in the Hardware Asset Workspace have been resolved.
+        -   Advanced shipment notifications now auto-populate the order date on hardware assets during ASN import when a purchase order exists.
+        -   Asset import no longer truncates model names; the maximum length is now correctly handled during bulk asset import.
+        -   Duplicate asset creation has been resolved when the IRE property is disabled; serial number values are now set correctly.
+        -   The HAM On-prem Run Import UI action now triggers the import process when the content type is application/x-zip-compressed.
+        -   Orders are now processed correctly even if the start date passes without successful allocation.
+        -   Out-of-box scripts no longer revert the sys\_user form to previous versions.
+        -   Custom hardware models can now be created even if an inactive model with the same number exists in the Content Library.
+        -   Deactivating an Inventory tab now removes both the UI element and its backend data from the Data Broker.
+        -   Asset refresh utilities now correctly consider CSDM Lifecycle migration status when determining replacement models.
+-   **Version 12.1.5 - September 2026**
+
+    Fixed: Strengthened access control enforcement when adding planned assets to a disposal order, so users can only select asset records they have access to.
+
+-   **Version 15.2.0 - August 2026**
+
+    Fixed an issue with PLANNED\_ASSETS\_EXTENSION\_POINT API to ensure ACL rules are respected during planned asset candidate filtering on disposal orders.
 
 -   **Version 15.0.2 - June 2026**
 

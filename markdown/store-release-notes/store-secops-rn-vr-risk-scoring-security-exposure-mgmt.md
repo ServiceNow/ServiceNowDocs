@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-risk-scoring-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Risk Scoring for Security Exposure Management release notes
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Risk Scoring for Security Exposure Manageme
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.1.9 - September 2026**
+    -   Fixed:
+        -   An issue where risk score calculations could fail for findings evaluated against a basic filter condition.
+        -   An issue where classification rule, classification, and classification type were not synced correctly when new third-party vulnerability entries were created.
+        -   Reduced excessive, unnecessary log output generated during risk score calculations when weight configuration was missing for a table.
 -   **Version 30.1.5 - June 2026**
 
     Fixed: Resolved an issue where remediation tasks were not assigned the correct risk rating based on the configured weights. Risk ratings on the Vulnerability table now accurately reflect the configured weight settings.
@@ -31,5 +36,5 @@ Version history for the ServiceNow® Risk Scoring for Security Exposure Manageme
     -   Administrators can define Risk Calculators and Risk Rules in the Security Exposure Management \(SEM\) Workspace to consistently evaluate exposure findings based on configurable factors. Risk scoring can be configured across infrastructure, application, container, and configuration compliance findings to ensure consistent prioritisation.
     -   With Risk Rollup Calculators, scores can be aggregated from individual findings to higher-level entities, such as Remediation Tasks, Assets, Vulnerability Items, and Configuration Tests, providing teams with a clear view of risk at every level.
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

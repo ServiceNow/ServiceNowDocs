@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-health-content.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Impact Health Content release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® Impact Health Content application on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.0.3 - September 2026**
+    -   New: As part of the ongoing modernization of Platform Health content, 244 Scan Engine definitions have been introduced, including migrated Health Assessment content and new platform health definitions. These definitions include a combination of system property validations, statistical analysis checks, conditional rule evaluations, and custom script-based assessments, expanding coverage across platform health, governance, and configuration standards.
+        -   150 definitions are global and apply to all customer instances.
+        -   94 definitions are associated with specific ServiceNow applications or plugins and are evaluated only when the corresponding application is installed and active.
+-   **Version 5.0.2 - August 2026**
+
+    Fixed: Corrected sn\_SE10422 to prevent false-positive findings when Policy Actions share the same variable and order across different Catalog Items. The definition now validates the parent Catalog Item before generating a finding.
 
 -   **Version 4.0.3 - July 2026**
     -   Changed: sn\_SE10061 – Enhanced the Catalog UI Policy Action definition to evaluate the Value action and Field message type fields, improving validation coverage.
@@ -51,5 +59,5 @@ Version history for the ServiceNow® Impact Health Content application on the Se
     The Impact Health Content App is a ServiceNow application that provides a comprehensive library of Scan Engine \(SE\) definitions for instance health monitoring. This app extends ServiceNow's Scan Engine functionality by delivering pre-configured health check rules that help administrators identify security misconfigurations, performance issues, manageability concerns, and configuration recommended practices across their ServiceNow instances.
 
 
-**Parent Topic:**[ServiceNow Store - Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
+**Parent Topic:**[ServiceNow Store - Impact version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
 

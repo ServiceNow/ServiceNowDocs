@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-data-model-SBOM.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Model for SBOM release notes
@@ -18,6 +18,11 @@ Version history for the Vulnerability Response Data Model for SBOM application o
 
 ## Version history
 
+-   **Version 4.3.1 - September 2026**
+    -   New:
+        -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.
+        -   An archival capability that automatically unlinks and deactivates components from a prior SBOM version once a newer SBOM is ingested for the same application. Archiving helps you maintain the SBOM workspace so that you can focus on current, actionable data.
+    -   Changed: SBOM ingestion performance enhancements through parallel processing of uploaded SBOM files that significantly reduces processing time for customers with high-volume SBOM ingestion of hundreds of thousands of files per week.
 -   **Version 4.2.4 - June 2026**
     -   The following enhancements and changes support internal security directives:
         -   Updates for the SBOM Data Model tables to align with ServiceNow Platform Security guidance.
@@ -72,5 +77,5 @@ Version history for the Vulnerability Response Data Model for SBOM application o
     Initial release: This application includes the tables, ACLs, and roles that are required to upload, parse, and ingest SBOM data.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

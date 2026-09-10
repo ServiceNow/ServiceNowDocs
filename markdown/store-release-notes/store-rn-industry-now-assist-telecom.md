@@ -1,22 +1,30 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) release notes
-description: Version history for the ServiceNow Now Assist for Telecommunications, Media and Technology \(TMT\) application on the ServiceNow Store.
+title: ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
+description: Version history for the ServiceNow ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-now-assist-telecom.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) release notes
+# ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
 
-Version history for the ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\) application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.3.1 - September 2026**
+
+    Maintenance Only
+
+-   **Version 2.2.1 - August 2026**
+
+    Otto Rebranding
 
 -   **Version 2.0.1 - June 2026**
     -   New support of 3p models and security fixes
@@ -65,5 +73,5 @@ Version history for the ServiceNow® Now Assist for Telecommunications, Media an
         -   Ticket creation AI agent
             -   Creates service problem cases based on customer voice and data quality issue.
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

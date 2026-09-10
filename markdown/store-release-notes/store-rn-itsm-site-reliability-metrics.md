@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Site Reliability Metrics release notes
@@ -53,5 +53,5 @@ Version history for the Site Reliability Metrics on the ServiceNow Store.
     New: Site Reliability Metrics \(SRM\) is an application that captures application performance signals from APM tools, typically referred to as Service Level Indicators \(SLIs\). The SRM application then allows for the creation of Service Level Objectives \(SLOs\), Error Budgets \(EB\) and policy based actions.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

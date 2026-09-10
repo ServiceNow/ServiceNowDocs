@@ -1,16 +1,16 @@
 ---
-title: Now Assist Readiness Evaluation release notes
+title: Otto Readiness Evaluation release notes
 description: Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-assist-readiness-eval.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist Readiness Evaluation release notes
+# Otto Readiness Evaluation release notes
 
 Version history for the Now Assist Readiness Evaluation application on the ServiceNow Store.
 
@@ -18,6 +18,13 @@ Version history for the Now Assist Readiness Evaluation application on the Servi
 
 ## Version history
 
+-   **Version 1.5.2 - September 2026**
+
+    Fixed: PRB2075907 - AI Assessment ITSM scheduled job fails with cross‑scope script error because question script field is stored as string
+
+-   **Version 1.5.0 - August 2026**
+    -   New: This release rebrands the application from Now Assist Readiness Evaluation to AI Readiness Evaluation, and updates all in-app terminology from Now Assist to ServiceNow Otto, consistent with the ServiceNow Otto brand initiative. No functional changes are included in this release with one exception:
+    -   Fixed: Incidents without an associated Knowledge Base article were incorrectly reported to 100% readiness, which has been corrected to reflect accurate readiness percentage in this release.
 -   **Version 1.4.2 - July 2026**
 
     Fixed: Agentic AI Assessment dashboard tab correctly displays finding cards only by default \(Assessment Findings, Findings by Category, Finding Trends\), consistent with the Now Assist Assessment tab behavior. Previously, the Agentic AI Assessment tab incorrectly displayed effort-related cards when the sn\_assess.effort\_visibility system property was set to its default value of false.
@@ -85,7 +92,7 @@ Version history for the Now Assist Readiness Evaluation application on the Servi
     New: This is the initial version of the Now Assist Readiness Evaluation. The assessment is a solution designed to simplify and automate the assessment process as part of Now Assist \(ITSM, CSM, HRSD\) &amp; agentic AI \(ITSM, CSM\) capabilities and implementation.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DEX Desktop Assistant release notes
@@ -38,5 +38,5 @@ Version history for the DEX Desktop Assistant application on the ServiceNow Stor
     -   Desktop Assistant establishes a continuous communication channel for your employees, enabling them to easily access self-service options and receive timely notifications. This effectively minimizes any barriers to employee productivity.
     -   Desktop Assistant enhances self-help for employees. This seamlessly connects the employee with resources for self-service and higher levels of support. IT can use it to notify of outages or other important announcements, or the employee can do their own network tests and other diagnostics. Desktop Assistant also provides easy access to catalogs, ServiceNow Employee Center, and other useful self-help actions, such as chatting with a virtual agent.
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

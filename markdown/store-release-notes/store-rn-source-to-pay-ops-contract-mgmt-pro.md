@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-ops-contract-mgmt-pro.html
 release: store
 topic_type: reference
-last_updated: "2025-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Source-to-Pay Operations with Contract Management Pro release notes
@@ -17,6 +17,10 @@ Version history for the Source-to-Pay Operations with Contract Management Pro ap
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.4 - September 2026**
+
+    Fixed: Fixed an issue where the New This Week card displayed Access Restricted on the Source-to-Pay Workspace homepage.
 
 -   **Version 2.0.1 - May 2025**
     -   New:
@@ -31,5 +35,5 @@ Version history for the Source-to-Pay Operations with Contract Management Pro ap
     Brings together the procurement capabilities of Source-to-Pay Operations and the contracting capabilities of Contract Management Pro to create a fully embedded experience for sourcing and procurement professionals to work closer with their legal professionals.
 
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

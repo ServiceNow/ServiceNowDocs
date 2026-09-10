@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-kubernetes-visibility-agent.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Kubernetes Visibility Agent release notes
@@ -18,6 +18,9 @@ Version history for the Kubernetes Visibility Agent application on the ServiceNo
 
 ## Version history
 
+-   **Version 3.16.1 - September 2026**
+    -   New: Kubernetes Visibility Agent \(KVA\) includes an embedded Syft scanner that generates software composition reports for container images. The scanner runs in the cluster, so it requires no MID Server or additional third-party tooling.
+    -   Changed: The main Informer and the Informer DaemonSet are FIPS 140 compliant.
 -   **Version 3.15.0 - June 2026**
     -   New:
         -   Integrated Cilium with KVA to retrieve Kubernetes resource connectivity data for creating service maps

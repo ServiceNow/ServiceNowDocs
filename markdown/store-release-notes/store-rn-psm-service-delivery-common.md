@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-service-delivery-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Common Service Delivery release notes
@@ -17,6 +17,28 @@ Version history for the Common Service Delivery application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console provides a guided experience for configuring Procurement Case Management items, including completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple administrative tools and locations.
+        -   The administrative experience is now consistent across Product Hub and Configuration Console.
+-   **Version 13.0.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
+-   **Version 14.1.2 - August 2026 \(Australia\)**
+
+    New: Added indexed finance case data as a search source for Finance Knowledge article generation in Knowledge Center.
 
 -   **Version 14.0.0 - June 2026 \(Australia\)**
 

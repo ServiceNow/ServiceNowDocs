@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-ui-node-map-experience.html
 release: store
 topic_type: reference
-last_updated: "2025-12-04"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Node map Experience Component release notes
@@ -18,6 +18,10 @@ Version history for the Node map Experience Component application on the Service
 
 ## Version history
 
+-   **Version 27.3.2 - August 2026**
+    -   Fixed Node Map mutating original node data by injecting a typeproperty, causing Data Broker serialization failure.
+    -   Improved export \(PDF/PNG\) performance to prevent browser unresponsiveness on large maps.
+    -   Fixed control panel not showing when data is loaded asynchronously.
 -   **Version 27.3.0 - December 2025**
     -   Feature: Radial Layout for Node Map
     -   Description: The radial layout introduces a new way to visualize connections between nodes. It arranges nodes in a circular, ring-like pattern to highlight relationships and dependencies. Each node is positioned based on its connection to a related node, creating a clear and balanced visual representation of the network structure

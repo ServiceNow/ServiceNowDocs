@@ -1,21 +1,34 @@
 ---
-title: Now Assist for Privacy Management release notes
-description: Version history for the ServiceNow Now Assist for Privacy Management application on the ServiceNow Store.
+title: ServiceNow Otto for Privacy Management release notes
+description: Version history for the ServiceNow ServiceNow Otto for Privacy Management application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-now-assist-privacy-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Privacy Management release notes
+# ServiceNow Otto for Privacy Management release notes
 
-Version history for the ServiceNow® Now Assist for Privacy Management application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Privacy Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New: New AI based reviewer assistant to manage and recommend impacted control objectives and risk statements for privacy screening and impact assessments.
+    -   Changed:
+        -   ServiceNow OTTO Branding Updates
+            -   Updated the application to reflect ServiceNow's new OTTO branding, replacing Now Assist references for a consistent AI experience across the platform.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed:
+        -   ServiceNow OTTO Branding Updates
+            -   Updated the application to reflect ServiceNow's new OTTO branding, replacing Now Assist references for a consistent AI experience across the platform.
+-   **Version 22.2.6 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   ServiceNow OTTO Branding Updates
+            -   Updated the application to reflect ServiceNow's new OTTO branding, replacing Now Assist references for a consistent AI experience across the platform.
 -   **Version 22.4.0 - July 2026 \(Australia\)**
 
     Changed: All Now Assist skills are now integrated with the latest third-party models for Claude, Gemini, and ChatGPT. This enables better performance and broader compatibility across your AI workflows.
@@ -38,5 +51,5 @@ Version history for the ServiceNow® Now Assist for Privacy Management applicati
     Now Assist for Privacy Management consists of generative AI \(Gen AI\) and Agentic AI features that improve productivity, team coordination, and overall efficiency when using Privacy Management.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

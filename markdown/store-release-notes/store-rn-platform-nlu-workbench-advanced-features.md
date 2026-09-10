@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-platform-nlu-workbench-advanced-features.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # NLU Workbench - Advanced Features release notes
@@ -17,6 +17,14 @@ Version history for the NLU Workbench - Advanced Features application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.0.27 - September 2026**
+
+    Australia updates.
+
+-   **Version 7.0.26 - August 2026**
+
+    Australia updates.
 
 -   **Version 7.0.25 - March 2026**
 
@@ -101,5 +109,5 @@ Version history for the NLU Workbench - Advanced Features application on the Ser
     New: Delivers advanced features for NLU Model management such as NLU Intent Conflict Review, Batch Testing for NLU, and NLU Model Performance. This application is dependent on the NLU Workbench - Advanced Features plugin and NLU Workbench plugin.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

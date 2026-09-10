@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Industrial Process Health release notes
@@ -23,5 +23,5 @@ Version history for the Industrial Process Health application on the ServiceNow 
     -   Key features include event management, which aggregates data from various monitoring tools to identify and prioritize incidents, and production impact analysis using unified maps.
     -   By leveraging automation and AI-driven capabilities of OT Service Management, it streamlines incident management processes, reduces mean time to resolution \(MTTR\), and ensures that critical business processes remain operational and efficient, ultimately driving better asset performance and improved productivity.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

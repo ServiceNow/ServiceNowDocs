@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-qualtrics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Qualtrics spoke release notes
@@ -18,6 +18,10 @@ Version history for the Integration Hub Qualtrics spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.4.2 - September 2026**
+    -   Fixed:
+        -   Webhook subflow execution
+        -   Webhook ACLs
 -   **Version 1.4.0 - June 2026**
 
     Security patch for non-glide ACLs

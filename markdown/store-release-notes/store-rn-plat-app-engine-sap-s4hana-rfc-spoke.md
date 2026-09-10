@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-04-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SAP S/4HANA RFC Spoke Dependencies release notes

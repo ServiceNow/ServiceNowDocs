@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-integration-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration Framework release notes
@@ -17,6 +17,13 @@ Version history for the Vulnerability Response Integration Framework application
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.6.4 - September 2026**
+    -   Fixed: Resolved an issue where certain access control configurations in the Vulnerability Response Integration Framework referenced invalid user roles.
+    -   New: Fix information is now imported for vulnerable items from Armis. The VR Integration Framework supports importing and displaying fix details for vulnerable items \(VITs\) sourced from Armis, enabling users to view remediation options directly within the platform.
+-   **Version 1.6.2 - August 2026**
+
+    Enhancements to the VR Integration Framework to support fix information on vulnerable items \(VITs\) imported from Armis.
 
 -   **Version 1.6.0 - July 2026**
     -   New: Added \_determineStartTime\(\)toVRIntegrationFrameworkBase, giving integration implementations a standardized hook to compute the delta start time for incremental imports.

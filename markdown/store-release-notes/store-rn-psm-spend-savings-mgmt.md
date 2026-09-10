@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-spend-savings-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Spend and Savings Management release notes
@@ -17,6 +17,17 @@ Version history for the Spend and Savings Management application on the ServiceN
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - September 2026 \(Australia\)**
+    -   Fixed:
+        -   Fixed issues affecting the accuracy of GenAI-powered responses for procurement and sourcing analysis, including purchase order and requisition comparisons, supplier activity, negotiation tracking, budget analysis, ERP synchronization monitoring, contract pricing, and savings reporting.
+-   **Version 2.5.1 - September 2026 \(Zurich\)**
+
+    Fixed: Fixed issues affecting the accuracy of GenAI-powered responses for procurement and sourcing analysis, including purchase order and requisition comparisons, supplier activity, negotiation tracking, contract pricing, budget analysis, ERP synchronization monitoring, and savings reporting.
+
+-   **Version 5.0.5 - August 2026 \(Australia\)**
+
+    Changed: Applied security hardening to address CVE-2025-3648.
 
 -   **Version 5.0.2 - June 2026 \(Australia\)**
     -   New:
@@ -80,5 +91,5 @@ Version history for the Spend and Savings Management application on the ServiceN
     Spend and Savings Management enables organizations to strategically segment and manage procurement categories to optimize sourcing and ultimately drive hard dollar savings.
 
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

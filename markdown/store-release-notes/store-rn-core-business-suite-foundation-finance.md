@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-foundation-finance.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Core Business Suite Foundation for Finance release notes
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Core Business Suite Foundation for Finance 
 
 ## Version history
 
+-   **Version 3.3.2 - August 2026**
+    -   Shipped Now Assist search sources for Finance for Knowledge article generation from finance case table on Knowledge center
+    -   Create contextually relevant articles from case tables and drive better AI-assisted content creation by enabling Knowledge Content Recommendation skill from AI skills module
 -   **Version 3.0.7 - July 2026**
 
     Updated to support the latest version of the dependent apps
@@ -31,5 +34,5 @@ Version history for the ServiceNow® Core Business Suite Foundation for Finance 
     The Core Business Suite Foundation for Finance provides pre-configured workflows for streamlined case and knowledge management, along with foundational AI capabilities for the Finance department.
 
 
-**Parent Topic:**[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
+**Parent Topic:**[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-insurance-claims.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Insurance claims release notes
@@ -17,6 +17,14 @@ Version history for the FSO Insurance claims application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.2 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
+
+-   **Version 1.6.1 - August 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.4.0 - June 2026**
 
@@ -48,5 +56,5 @@ Version history for the FSO Insurance claims application on the ServiceNow Store
     The ServiceNow Insurance claims application streamlines and automates the entire claims process with a flexible framework that adapts to any claim type without needing to create new case types. It allows for easy configuration of a comprehensive end-to-end claims workflow and supports complex claims requiring multiple adjusters. Additionally, it features customizable, persona-specific workspaces for improved efficiency.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

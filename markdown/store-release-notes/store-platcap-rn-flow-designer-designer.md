@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-flow-designer-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workflow Studio - Designer release notes
@@ -17,6 +17,24 @@ Version history for the Workflow Studio - Designer application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.0.7 - September 2026**
+    -   Changed: Rebranded application to use ServiceNow Otto.
+    -   Fixed:
+        -   PRB2064057 - Copy Subflow action not working
+        -   PRB1939360 - Decision tables fail without reporting the reason for failure
+        -   PRB2035802 - Workflow execution logs cannot jump directly to specific "For Each" loop iterations
+-   **Version 29.6.4 - September 2026 \(Australia\)**
+
+    New: Introduced enhanced Flow Designer UI, which is a faster, more modern version of the Flow Designer UI.
+
+-   **Version 29.5.2 - August 2026 \(Australia\)**
+
+    Changed: Rebranded UI for ServiceNow Otto.
+
+-   **Version 28.6.4 - August 2026 \(Zurich\)**
+
+    Changed: Rebranded UI for ServiceNow Otto.
 
 -   **Version 28.5.1 - July 2026 \(Zurich\)**
 
@@ -86,5 +104,5 @@ Version history for the Workflow Studio - Designer application on the ServiceNow
     -   Flow Designer is a ServiceNow AI Platform feature that enables process owners to automate work. Build multi-step flows from reusable components without having to code.
     -   Flow Designer is the default ServiceNow AI Platform process automation builder used to create flows. Flow Designer replaces the legacy Workflow graphical editor.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

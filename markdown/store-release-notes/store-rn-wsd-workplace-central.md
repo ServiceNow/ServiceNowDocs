@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-central.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Central release notes
@@ -17,6 +17,17 @@ Version history for the WSD Workplace Central application on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.16.21 - September 2026**
+    -   Fixed:
+        -   Translation strings throughout Workplace Central now display correctly across all supported languages.
+        -   The dashboard subtitle in Workplace Central is now fully translatable and no longer hardcoded.
+        -   The Workplace Central calendar view now loads correctly without displaying a "Failed to fetch calendar details" error.
+        -   The Case Management landing page dashboard now loads with improved performance, eliminating the degradation observed in the workspace view.
+        -   Move cases on the schedule calendar view can now be dragged to a different date without triggering an error.
+-   **Version 1.16.12 - August 2026**
+
+    Changed: ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 -   **Version 1.16.5 - July 2026**
     -   Fixed:
@@ -203,5 +214,5 @@ Version history for the WSD Workplace Central application on the ServiceNow Stor
     Workplace Central provides a unified experience for workplace managers and other key personas such as space planners and maintenance managers to strategize, plan, optimize and maintain the workplaces more efficiently.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

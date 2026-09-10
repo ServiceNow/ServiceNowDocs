@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-advanced-risk.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 17
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Advanced Risk release notes
@@ -18,6 +18,27 @@ Version history for the GRC: Advanced Risk on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.6 - September 2026 \(Brazil\)**
+    -   New:
+        -   Risk assessment projects now support multiple entities. Assessors can perform assessments across several entities within the same project.
+        -   Comments can now be configured as mandatory in risk assessments. Administrators can set comments as required for individual factors, group factors, and overall assessment types.
+        -   GRC: Advanced Risk application is now available on IRM Foundation SKU.
+    -   Changed: The licensing strategy for this application has changed from an entitlement model to a plugin identifier model. To access the features you are entitled to, you must install the corresponding SKU identifier application. For example, IRM Professional customers must install theIntegrated Risk Management Professional application, and IRM Enterprise customers must install Integrated Risk Management Enterprise.
+    -   Fixed:
+        -   Fixed an issue where new Risk Event records were created with empty values after an existing Risk Event with entries was deleted.
+        -   Fixed an issue where risk assessment counts, such as pending and ongoing assessments, were updated with incorrect values when two assessments completed at the same time.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
+-   **Version 22.0.5 - August 2026 \(Zurich\)**
+    -   Fixed:
+        -   Query Range ACL Enhancements
+            -   Improved application security by adding missing query range access controls and strengthening authorization checks across supported data models. This helps ensure users can access only the data they are authorized to view.
+        -   MRA Security Enhancements
+            -   Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure access checks are consistently enforced during record association operations
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   Standardized Query Range ACLs: All tables now include standardized query range ACLs, ensuring authenticated users with read permissions can reliably query records. New ACL rules install automatically during upgrade. Automated scripts handle detection and processing of any previously customized ACLs. Review customized query range ACLs after upgrade to confirm alignment with your access policy.
@@ -295,5 +316,5 @@ Version history for the GRC: Advanced Risk on the ServiceNow Store.
     This feature is new for New York.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

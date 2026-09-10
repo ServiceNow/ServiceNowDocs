@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-docusign.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Docusign eSignature Spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub Docusign eSignature Spoke on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.5.1 - September 2026**
+
+    Changed: Actions to support sending private message to recipient: Add Recipient to Envelope, Add Recipients to Envelope, Send Adhoc Signature Request to Users - Inline
 
 -   **Version 4.4.3 - July 2026**
 
@@ -165,5 +169,5 @@ Version history for the Integration Hub Docusign eSignature Spoke on the Service
     -   Provides automation to send adhoc documents uploaded as an attachment for signature
     -   Provides the ability to populate an existing template in DocuSign.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

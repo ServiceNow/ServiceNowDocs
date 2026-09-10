@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-nokia-altiplano.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for NOKIA Altiplano release notes
@@ -17,6 +17,14 @@ Version history for the Service Graph Connector for NOKIA Altiplano application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.0 - September 2026**
+
+    Recertification for Brazil
+
+-   **Version 3.0.8 - August 2026**
+
+    The Altiplano connector has been converted to the Fluent SDK \(Now SDK\) TypeScript format using a hybrid conversion approach, preserving existing XML artifacts alongside new Fluent-authored ones.
 
 -   **Version 2.9.0 - July 2026**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-sgc-fortinet.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Fortinet release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), Serv
 Version history for the ServiceNow® Service Graph Connector for Fortinet application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.0.5 - September 2026**
+
+    This release adds extension support, letting you customize the connector's data collection behavior without modifying its core logic. Devices with a very large number of ports could previously fail to import; port data is now processed in smaller batches so large devices import successfully. Failed Fortinet API requests now also produce more actionable error messages, making issues easier to diagnose.
+
+-   **Version 3.0.7 - August 2026**
+
+    The Fortinet connector has been fully converted to the Fluent SDK \(Now SDK\) TypeScript format, with new discovery extension points and a guided setup step for system properties configuration. Several fixes improve the uninstall workflow and guided setup coverage.
 
 -   **Version 2.9.0 - July 2026**
     -   This release enhances attribute mapping extensibility, improves device data completeness, and gives administrators greater control over performance tuning.
@@ -50,5 +58,5 @@ Version history for the ServiceNow® Service Graph Connector for Fortinet applic
     Enables discovery for Fortinet devices.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

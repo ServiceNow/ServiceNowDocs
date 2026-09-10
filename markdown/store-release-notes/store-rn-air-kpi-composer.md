@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-02-03"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # KPI Composer release notes

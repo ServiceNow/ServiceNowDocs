@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-data-product.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Product release notes
@@ -18,6 +18,23 @@ Version history for the ServiceNow® Data Product application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.2.9 - September 2026**
+    -   Fixed join queries in global scope returning empty results.
+    -   Fixed issue where data interface access requests were assigned to wrong groups
+    -   Locked downstream steps until join/union selection is made for multi-source flows.
+    -   Removed invalid and inactive connections from the connection picker.
+    -   Added loading state to Review page Save button to prevent duplicate submissions.
+    -   Improved preview error messaging when refreshing on Connect &amp; Verify and Review pages.
+-   **Version 1.1.7 - August 2026**
+    -   Enhanced the Data Interface form with improved usability and stability:
+        -   Fixed generic UI issues on the Data Interface form for better user experience.
+        -   Resolved scope validation during interface editing to ensure drafts are created in the correct session context.
+        -   Improved source table catalog filtering to exclude internal tables from selection.
+        -   Enhanced the Edit Data Interface workflow for seamless updates.
+        -   Fixed rendering issues on the Define Target Table and column selection pages.
+        -   Addressed table name overflow issues that could cause display errors.
+        -   Improved dropdown population on subsequent edits to ensure selectors load correctly.
+        -   Refined the Interface Details page to accurately reflect interface metadata.
 -   **Version 1.1.3 - July 2026**
     -   Data Interface Creation &amp; Editing:
         -   Fixed an issue that prevented users from creating a Data Interface in the global scope.
@@ -76,5 +93,5 @@ Version history for the ServiceNow® Data Product application on the ServiceNow 
         -   Multi-source composition \(external + ServiceNow + derived\)
         -   Interface-driven access \(no direct table coupling\)
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

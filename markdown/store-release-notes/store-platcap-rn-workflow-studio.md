@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-workflow-studio.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workflow Studio release notes
@@ -17,6 +17,18 @@ Version history for the Workflow Studio application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.0.7 - September 2026 \(Brazil\)**
+
+    Changed: Branding changes from Now Assist to Otto, the new ServiceNow AI companion.
+
+-   **Version 29.2.2 - August 2026 \(Australia\)**
+
+    Changed: Branding changes from Now Assist to Otto, the new ServiceNow AI companion.
+
+-   **Version 28.4.4 - August 2026 \(Zurich\)**
+
+    Changed: Branding changes from Now Assist to Otto, the new ServiceNow AI companion.
 
 -   **Version 28.4.1 - May 2026 \(Zurich\)**
 
@@ -109,5 +121,5 @@ Version history for the Workflow Studio application on the ServiceNow Store.
     Workflow Studio is a single place for all things worklfow automation. Developers can create playbooks, flows, actions, spokes, and decisions using Workflow Studio.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

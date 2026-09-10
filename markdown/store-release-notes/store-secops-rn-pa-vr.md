@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-pa-vr.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics for Vulnerability Response release notes
@@ -18,6 +18,10 @@ Version history for the Security Operations Performance Analytics for Vulnerabil
 
 ## Version history
 
+-   **Version 30.3.3 - September 2026**
+    -   Fixed:
+        -   Exception Approval dashboards have been migrated to the new data schema.
+        -   Resolved packaging and translation issues in the Vulnerability Response Performance Analytics content.
 -   **Version 30.2.1 - June 2026 \(USEM\)**
     -   New: Added localization support for Performance Analytics dashboard chart titles.
     -   Changed: Improved protection and validation for read-only Performance Analytics fields to strengthen security compliance and improve maintainability.

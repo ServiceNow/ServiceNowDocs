@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-playbook-complaints.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Case Playbook for Complaints release notes
@@ -17,6 +17,10 @@ Version history for the Customer Service Management Case Playbook for Complaints
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.2.3 - September 2026**
+
+    Fixed: Security fixes.
 
 -   **Version 9.1.1 - July 2026**
     -   Changed:
@@ -124,5 +128,5 @@ Version history for the Customer Service Management Case Playbook for Complaints
     New: Use the ServiceNow® Case Playbook for Complaints to manage the process for handling customer complaints. This playbook provides an end-to-end life cycle for the tasks performed during the complaint handling process, from the time a complaint is logged to the final resolution and communication to the customer.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

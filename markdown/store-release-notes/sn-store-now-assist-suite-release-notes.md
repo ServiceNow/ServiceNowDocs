@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 ---
 
 # Now Assist Suite release notes
@@ -33,6 +33,164 @@ Suite version and compatible patch
 
 </th></tr></thead><tbody><tr><td>
 
+[September 10 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-10.md)
+
+</td><td>
+
+-   28.5.20260910 - Zurich Patch 5
+-   28.6.20260910 - Zurich Patch 6
+-   28.7.20260910 - Zurich Patch 7
+-   28.8.20260910 - Zurich Patch 8
+-   28.9.20260910 - Zurich Patch 9
+-   28.10.20260910 - Zurich Patch 10
+-   28.11.20260910 - Zurich Patch 11
+-   28.12.20260910 - Zurich Patch 12
+-   28.13.20260910 - Zurich Patch 13
+-   29.0.20260910 - Australia Early Availability \(Patch 0\)
+-   29.1.20260910 - Australia Patch 1
+-   29.2.20260910 - Australia Patch 2
+-   29.3.20260910 - Australia Patch 3
+-   29.4.20260910 - Australia Patch 4
+-   29.5.20260910 - Australia Patch 5
+-   29.6.20260910 - Australia Patch 6
+-   30.0.20260910 - Brazil Early Availability \(Patch 0\)
+
+</td></tr><tr><td>
+
+[September 04 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-04.md)
+
+</td><td>
+
+-   28.10.20260904 - Zurich Patch 10
+-   28.11.20260904 - Zurich Patch 11
+-   28.12.20260904 - Zurich Patch 12
+-   29.3.20260904 - Australia Patch 3
+-   29.4.20260904 - Australia Patch 4
+-   29.5.20260904 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[September 03 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-03.md)
+
+</td><td>
+
+-   28.9.20260903 - Zurich Patch 9
+-   29.2.20260903 - Australia Patch 2
+
+</td></tr><tr><td>
+
+[August 27 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-27.md)
+
+</td><td>
+
+-   28.11.20260827 - Zurich Patch 11
+-   28.12.20260827 - Zurich Patch 12
+-   29.4.20260827 - Australia Patch 4
+-   29.5.20260827 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[August 24 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-24.md)
+
+</td><td>
+
+-   28.10.20260824 - Zurich Patch 10
+-   28.11.20260824 - Zurich Patch 11
+-   28.12.20260824 - Zurich Patch 12
+-   29.3.20260824 - Australia Patch 3
+-   29.4.20260824 - Australia Patch 4
+-   29.5.20260824 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[August 20 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-20.md)
+
+</td><td>
+
+-   28.10.20260820 - Zurich Patch 10
+-   28.11.20260820 - Zurich Patch 11
+-   28.12.20260820 - Zurich Patch 12
+-   29.3.20260820 - Australia Patch 3
+-   29.4.20260820 - Australia Patch 4
+-   29.5.20260820 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[August 17 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-17.md)
+
+</td><td>
+
+-   28.10.20260817 - Zurich Patch 10
+-   28.11.20260817 - Zurich Patch 11
+-   28.12.20260815 - Zurich Patch 12
+-   29.3.20260817 - Australia Patch 3
+-   29.4.20260817 - Australia Patch 4
+-   29.5.20260815 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[August 13 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-13.md)
+
+</td><td>
+
+-   28.9.20260813 - Zurich Patch 9
+-   28.10.20260813 - Zurich Patch 10
+-   29.2.20260813 - Australia Patch 2
+
+</td></tr><tr><td>
+
+[August 07 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-08-07.md)
+
+</td><td>
+
+-   28.9.20260807 - Zurich Patch 9
+-   28.10.20260807 - Zurich Patch 10
+-   28.11.20260807 - Zurich Patch 11
+-   28.12.20260807 - Zurich Patch 12
+-   29.0.20260807 - Australia Early Availability \(Patch 0\)
+-   29.1.20260807 - Australia Patch 1
+-   29.2.20260807 - Australia Patch 2
+-   29.3.20260807 - Australia Patch 3
+-   29.4.20260807 - Australia Patch 4
+-   29.5.20260807 - Australia Patch 5
+
+</td></tr><tr><td>
+
+[July 30 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-30.md)
+
+</td><td>
+
+-   28.8.20260730 - Zurich Patch 8
+-   28.9.20260730 - Zurich Patch 9
+-   28.10.20260730 - Zurich Patch 10
+-   28.11.20260730 - Zurich Patch 11
+-   29.1.20260730 - Australia Patch 1
+-   29.2.20260730 - Australia Patch 2
+-   29.3.20260730 - Australia Patch 3
+-   29.4.20260730 - Australia Patch 4
+
+</td></tr><tr><td>
+
+[July 23 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-23.md)
+
+</td><td>
+
+-   28.9.20260723 - Zurich Patch 9
+-   28.10.20260723 - Zurich Patch 10
+-   28.11.20260723 - Zurich Patch 11
+
+</td></tr><tr><td>
+
+[July 16 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-16.md)
+
+</td><td>
+
+-   28.11.20260716 - Zurich Patch 11
+-   29.3.20260716 - Australia Patch 3
+-   29.4.20260716 - Australia Patch 4
+
+</td></tr><tr><td>
+
 [July 09 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-07-09.md)
 
 </td><td>
@@ -47,7 +205,7 @@ Suite version and compatible patch
 -   28.9.20260709 - Zurich Patch 9
 -   28.10.20260709 - Zurich Patch 10
 -   28.11.20260709 - Zurich Patch 11
--   29.0.20260709 - Australia Patch 0
+-   29.0.20260709 - Australia Early Availability \(Patch 0\)
 -   29.1.20260709 - Australia Patch 1
 -   29.2.20260709 - Australia Patch 2
 -   29.3.20260709 - Australia Patch 3
@@ -104,7 +262,7 @@ Suite version and compatible patch
 
 </td><td>
 
-29.0.20260611 - Australia Patch 0The following versions have been withdrawn:
+29.0.20260611 - Australia Early Availability \(Patch 0\)The following versions have been withdrawn:
 
 -   28.5.20260611 - Zurich Patch 5
 -   28.6.20260611 - Zurich Patch 6

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Task Intelligence for Customer Service release notes
@@ -71,5 +71,5 @@ Version history for the Task Intelligence for Customer Service application on th
     Task Intelligence for Customer Service offers several AI capabilities such as language detection, multi-lingual email and case categorization, case sentiment analysis and document intelligence. These capabilities automate several routine tasks across the case lifecycle while enabling agents to focus on complex case resolution.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

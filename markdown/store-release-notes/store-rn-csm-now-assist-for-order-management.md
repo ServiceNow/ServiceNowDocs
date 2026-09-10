@@ -1,20 +1,28 @@
 ---
-title: Now Assist for Order Management release notes
-description: Version history for the ServiceNow Now Assist for Order Management application on the ServiceNow Store.
+title: ServiceNow Otto for Order Management release notes
+description: Version history for the ServiceNow ServiceNow Otto for Order Management application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist-for-order-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Order Management release notes
+# ServiceNow Otto for Order Management release notes
 
-Version history for the ServiceNow® Now Assist for Order Management application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Order Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.3.3 - September 2026**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 2.3.2 - August 2026 \(Zurich\)**
+
+    Changed: ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Now Assist for Order Management. Your product entitlements remain unchanged. There is no change to functionality or existing customer configurations.
 
 -   **Version 2.2.2 - July 2026**
     -   Changed:
@@ -50,5 +58,5 @@ Version history for the ServiceNow® Now Assist for Order Management application
     -   Now Assist for Order Management leverages generative AI and ServiceNow’s intelligent workflows to streamline complex order management processes.
     -   Designed for enterprises managing high-volume orders, this solution reduces manual intervention, accelerates resolution times, and improves customer satisfaction.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

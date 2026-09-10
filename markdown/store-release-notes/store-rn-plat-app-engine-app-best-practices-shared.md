@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # App Best Practices Shared release notes
@@ -35,5 +35,5 @@ Version history for the App Best Practices Shared application on the ServiceNow 
     In App Engine Management Center, you can run the Best Practices Instance Scan Suite to create an App Readiness report on an app on a development instance. The report helps you determine whether the app follows best practices and is ready for promotion to a production instance. You can add additional best practice checks by adding a child Instance Scan Suite to the parent Best Practices Instance Scan Suite.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

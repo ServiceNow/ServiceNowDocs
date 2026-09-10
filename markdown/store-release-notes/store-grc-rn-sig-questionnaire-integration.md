@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-sig-questionnaire-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: SIG Questionnaire Integration release notes
@@ -17,6 +17,15 @@ Version history for the GRC: SIG Questionnaire Integration Integration on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   Added a Type field across SIG smart assessment engine questionnaire templates
+        -   Added reviewer query access for SIG parsing status records
+        -   Updated SIG ACL definitions using exact instance-exported configuration
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+
+    Changed: Strengthened query range access controls and authorization checks to ensure users only access authorized data.
 
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   New:

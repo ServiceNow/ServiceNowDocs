@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-hardware-asset-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Hardware Asset Management - Advanced release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® Hardware Asset Management - Advanced applic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.11 - September 2026**
+
+    This version enables Hardware Asset Management Advanced customers to install and upgrade through the Hardware Asset Management Product Hub.
+
+-   **Version 1.0.4 - August 2026**
+
+    This app extends ServiceNow Otto capabilities for Hardware Asset Management through a subscription model. This release updates app dependencies to the latest versions while maintaining compatibility with the Hardware Asset Management - Advanced app.
 
 -   **Version 1.0.2 - July 2026**
 
@@ -43,5 +51,5 @@ Version history for the ServiceNow® Hardware Asset Management - Advanced applic
     -   Features like Hardware Normalization standardize asset data using manufacturer details and populate metadata \(e.g., end-of-life dates\) via the ServiceNow Content Library. Asset Lifecycle Automation uses Flow Designer for customizable workflows, while Asset Tasks automate updates across deployments and retirements.
     -   The Hardware Asset Dashboard provides a command center for lifecycle management, normalization tracking, and compliance. Mobile Asset Inventory Audit validates physical stock against records using mobile scanning, improving accuracy through scheduled audits.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

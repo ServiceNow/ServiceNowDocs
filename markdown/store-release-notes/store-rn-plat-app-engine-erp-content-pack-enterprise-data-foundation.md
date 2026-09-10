@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ERP Content Pack for Enterprise Data Foundation release notes
@@ -23,5 +23,5 @@ Version history for the ERP Content Pack for Enterprise Data Foundation applicat
     Content Pack now includes models for reading organizational data like Sales Areas, Plants, Valuation Areas, Plant Locations, Company Codes, Languages, Payment Terms, Currencies, Controlling Areas, Countries, Purchasing Organization, Purchasing Groups, and Business Areas.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

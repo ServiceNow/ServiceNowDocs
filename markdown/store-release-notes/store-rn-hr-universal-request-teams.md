@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-12-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Universal Request integration with Microsoft Teams release notes
@@ -27,5 +27,5 @@ Version history for the Universal Request integration with Microsoft Teams on th
     The ServiceNow® Universal Request integration with Microsoft Teams application extends the Now Virtual Agent integration with Microsoft Teams to enable employees to more effectively request and receive service from within Microsoft Teams.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

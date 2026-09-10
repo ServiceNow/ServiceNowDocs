@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-process-mining-extdata.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Process Mining for external data release notes
@@ -17,6 +17,26 @@ Version history for the Process Mining for external data application on the Serv
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.4.17 - September 2026 \(Brazil\)**
+
+    Fixed: Language translation issues
+
+-   **Version 29.5.8 - September 2026 \(Australia\)**
+
+    Fixed: Minor code fixes
+
+-   **Version 28.9.17 - September 2026 \(Zurich\)**
+
+    Fixed: Fixed minor issue.
+
+-   **Version 29.5.7 - August 2026 \(Australia\)**
+
+    None
+
+-   **Version 28.9.16 - August 2026 \(Zurich\)**
+
+    None
 
 -   **Version 29.5.0 - March 2026**
     -   New: Support pagination and sorting for external data table list

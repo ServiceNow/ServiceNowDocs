@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Native Operations release notes
@@ -38,5 +38,5 @@ Version history for the ITOM Cloud Native Operations on the ServiceNow Store.
     -   The Cloud Native Operations \(CNO\) application provides users with an end-to-end ITOM offering for containerized application services running in Kubernetes or OpenShift clusters, leveraging ServiceNow ITOM existing pipelines and capabilities \(such as Discovery, Event Management, Anomaly Detection, etc\).
     -   Cloud-native apps are designed to run in the elastic and distributed nature required by modern cloud computing platforms, using repeatable automation and orchestration. The uniqueness in this kind of applications is about the nature of ephemeral objects - Pods, deployments, StatefulSets, services, and so on which makes continuous discovery, service mapping and monitoring more dynamic. Existing legacy solutions can't adequately handle cloud-native apps. In addition, we use cloud-native open source technologies \(such as Prometheus and Istio\) which are used extensively in the cloud-native domain.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

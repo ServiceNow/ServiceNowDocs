@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - DevOps release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - DevOps version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DevOps Change Health Scan Content Pack release notes
@@ -46,5 +46,5 @@ Version history for the DevOps Change Health Scan Content Pack application on th
     The DevOps Change Health Scan Content Pack app offers proactive health checks focused on DevOps Change Velocity. These checks help you identify and fix common configuration or upgrade issues quickly, preventing the need for support tickets. You can choose to run the DevOps Change Velocity Health parent scan, which will execute all the checks available in the DevOps suite of scans, or run each child suite individually which will execute the checks applicable to that child suite. Using the DevOps Change Velocity Health - Scheduled child suite, you can create a schedule to regularly trigger DevOps Health instance suite scans even when you don't have an active session. And using the DevOps Change Velocity Health - On-demand suite, you can run the available DevOps Health scan checks on a specific target to obtain focused scan results.
 
 
-**Parent Topic:**[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
+**Parent Topic:**[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
 

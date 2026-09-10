@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - DevOps release notes
+title: ServiceNow Store - DevOps version history release notes
 description: The ServiceNow Store contains DevOps products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-devops-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - DevOps release notes
+# ServiceNow Store - DevOps version history release notes
 
 The ServiceNow Store contains DevOps products.
 
@@ -45,5 +45,5 @@ Version history for the DevOps Vulnerability Integrations on the ServiceNow Stor
 -   **[DevOps Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-workspace.md)**  
 Version history for the ITSM DevOps Workspace application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-op-tech-vr.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Technology Vulnerability Response release notes
@@ -17,6 +17,14 @@ Version history for the Operational Technology Vulnerability Response applicatio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.2.6 - September 2026**
+
+    Fixed: Security fixes
+
+-   **Version 31.0.1 - September 2026 \(USEM\)**
+
+    Fixed: Security fixes
 
 -   **Version 31.0.0 - June 2026**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-releaseops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ReleaseOps release notes
@@ -18,6 +18,35 @@ Version history for the ReleaseOps application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.3.2 - August 2026**
+    -   Defect Fixes
+        -   Deployment Request Lifecycle
+            -   Fixed: Duplicate update set conflict check now works correctly when the Deployment Request has no release referenced. Previously, the "Deployment request update set already exists" validation was bypassed in this scenario. \(PRB2019706\)
+        -   Update Set Operations
+            -   Fixed: Preview update set no longer fails with a null update set ID error during deployment. \(PRB2033177\)
+        -   Assessment &amp; Testing
+            -   Fixed: ATF test status in Deployment Request work notes now displays the correct status instead of "undefined". \(PRB2041389\)- Fixed: The subflow for creating a DR task on ATF failure no longer throws an exception. \(PRB2050898\)
+        -   Pipeline Configuration
+            -   Fixed: Cross-scope Playbooks can now be used in ReleaseOps pipelines. Previously, a bug in Trigger Business Rules prevented playbooks from other scopes from being referenced. \(PRB1991175\)
+-   **Version 1.4.0 - August 2026 \(Zurich\)**
+    -   Defect Fixes
+        -   Deployment Request Lifecycle
+            -   Fixed: The deferred flag on a Deployment Request is now correctly cleared when blanking the release field — Previously, customers could get stuck with DRs they could not act on. \(PRB2016009\)
+            -   Fixed: Cancelling a Deployment Request after the release has already reached the freeze date no longer causes it to be moved to the final environment at release time \(PRB2029766\)
+            -   Fixed: Deployment Request task for preview problems now contains a link to the preview problem record \(PRB1979874\)
+        -   Update Set Operations
+            -   Fixed: Pull update set failure now shows correct information when the user lacks access to update sets
+            -   Previously, the error message was misleading and did not indicate the actual cause. \(PRB1989841\)
+        -   Setup &amp; Configuration
+            -   Fixed: ReleaseOps Guided Setup now creates the remote instance between prod and dev required for the Deployment Analyzer
+            -   Previously, this connection was missing and the Deployment Analyzer could not function. \(PRB2007225\)
+        -   Localization
+            -   Fixed: Missing translations in Release Notes UI for Hebrew and French languages \(PRB2014282\)
+        -   Work Notes &amp; Messaging
+            -   Enhanced: Deployment Request and Release work notes now capture additional detail for improved audit trail \(PRB2010783\)
+        -   Performances
+            -   Enhanced: MIF Sync messaging support added to ReleaseOps deployment operations
+            -   Reduces multi-instance communication latency during deployments. \(PRB2030222\)
 -   **Version 2.2.1 - July 2026**
     -   New Features &amp; Enhancements
         -   Faster Multi-Instance Communication
@@ -67,7 +96,7 @@ Version history for the ReleaseOps application on the ServiceNow Store.
     -   New:
         -   Leverage Automated Test Framework \(ATF\) code coverage and code difference to view what percentage of code is covered by ATF test suites and what code is new in deployment requests.
         -   Add manual, flexible activities to your ReleaseOps deployments using runbook tasks, which pause playbook progression until all associated tasks are completed.
-        -   With Now Assist for Creator, you can generate update set descriptions and release notes for ReleaseOps releases.
+        -   With ServiceNow Otto for Creator, you can generate update set descriptions and release notes for ReleaseOps releases.
     -   Changed: Cancel deployment requests stuck in the "Assessing" state with the "Cancel" button. You can also move deployment requests in the "Cancelled" or "Failed" state back to the "Draft" state with the "Move back to draft" option.
     -   Fixed: Improvements to ReleaseOps guided setup.
 -   **Version 1.2.3 - February 2026 \(Zurich\)**
@@ -89,5 +118,5 @@ Version history for the ReleaseOps application on the ServiceNow Store.
     -   To ensure visibility and deployment success, ReleaseOps generates Deployment Tasks when issues are detected, assigning them to the right developers or stakeholders for resolution before the deployment proceeds.Teams benefit from the flexibility to follow a controlled release cadence while retaining the agility to fast-track hotfixes or urgent security patches on demand.
     -   Throughout the process, ReleaseOps delivers full transparency with real-time status updates, progress tracking, and detailed notes, keeping developers, release managers, and stakeholders aligned.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

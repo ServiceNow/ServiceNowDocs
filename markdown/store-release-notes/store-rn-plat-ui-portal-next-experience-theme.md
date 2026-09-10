@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-ui-portal-next-experience-theme.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Portal Next Experience Theme release notes
@@ -18,6 +18,9 @@ Version history for the Portal Next Experience Theme application on the ServiceN
 
 ## Version history
 
+-   **Version 24.4.0 - August 2026**
+    -   Changed: Enabled Fluent support for the Portal Next Experience Theme application
+    -   Fixed: Defect fixes
 -   **Version 24.3.2 - June 2026**
 
     Product Enhancement and defect fixes.

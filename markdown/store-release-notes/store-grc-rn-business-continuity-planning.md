@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-business-continuity-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Business Continuity Planning release notes
@@ -17,6 +17,24 @@ Version history for the GRC: Business Continuity Planning on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.7 - September 2026 \(Brazil\)**
+    -   New:
+        -   Assign group ownership to business impact analysis, plan, and event records
+        -   Enable group ownership for plan records along with individual ownership.
+        -   Use the My group's pending tasks and My group's items tabs, added to the My Tasks page, to view group-owned records.
+        -   Import and export recovery tasks from Microsoft Excel
+            -   Upload recovery tasks in bulk using Microsoft Excel files, with row-level validation and error handling. Microsoft Excel columns are mapped to recovery task fields, to validate data integrity, support updates to existing tasks, and insert new tasks in the same import.
+            -   Use the Export to Excel action to download current recovery tasks as a Microsoft Excel workbook for offline editing or sharing. Transform history and Import log related lists provide traceability of the most recent import run, including row-level errors and skipped records.
+        -   Reorder recovery tasks using Gantt timeline and dependency links- Users can reorder tasks in Gantt view by linking dependencies, with drag-and-drop actions and error handling messages. Planners can update task order for their plans, and program managers for all plans.
+    -   Changed: Recovery teams can be created at global level and utilized in the plan.
+-   **Version 11.0.4 - August 2026 \(Australia\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
+
+-   **Version 10.0.4 - August 2026 \(Zurich\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
 
 -   **Version 11.0.2 - June 2026 \(Australia\)**
     -   New:
@@ -189,5 +207,5 @@ Version history for the GRC: Business Continuity Planning on the ServiceNow Stor
         -   Streamlined integration with ServiceNow CMDB for business processes and asset inventories
         -   Role-based workspace with customizable reports and dashboards
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

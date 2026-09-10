@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cloud-services-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITOM Cloud Services Core release notes
@@ -18,6 +18,14 @@ Version history for the ITOM Cloud Services Core application on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.2.0 - August 2026**
+    -   New:
+        -   Detect and automatically remediate common ICS configuration issues directly from the Diagnostics page.
+        -   Added ADCv2 and mTLS prerequisite checks to the System Property card, flagged in red when either is missing.
+    -   Fixed:
+        -   Improved alerting reliability for CnC keepalive REST request error monitoring.
+        -   Corrected ICS integration user setup so service accounts are provisioned with the right access by default.
+        -   Updated underlying platform components for improved stability and forward compatibility.
 -   **Version 4.1.16 - July 2026**
     -   New:
         -   ACC agents now work on non-persistent VDI desktops.

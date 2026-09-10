@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Agent Advisor release notes
@@ -24,5 +24,5 @@ Version history for the ServiceNow® AI Agent Advisor application on the Service
     -   After installation, AI Agent Advisor automatically kicks off AI analysis, with no configuration required. Choose to analyze incidents, cases, or both; customize how often analysis runs; apply filters; and trigger on-demand analysis at any time. For every opportunity, AI Agent Advisor automatically generates an evaluation dataset so you can validate agent performance from day one.
     -   AI Agent Advisor does not consume assists; however, a Now Assist license is required for installation. Custom agent creation is available on the Prime SKU or current Now Assist packages. Foundation and Advanced tiers do not support custom agent creation. Customers evaluating Now Assist who do not yet have a license can contact their ServiceNow sales representative to request access. Note: AI Agent Advisor was previously named Agent Miner; the underlying application is still listed as Agent Miner in the store.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-som-telecom-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sales Customer Relationship Management for Telecommunications - Advanced release notes
@@ -18,6 +18,14 @@ Version history for the ServiceNow® Sales Customer Relationship Management for 
 
 ## Version history
 
+-   **Version 2.3.2 - September 2026**
+
+    Changed: Maintenance release — dependency updates only; no new customer-facing functionality in this version
+
+-   **Version 2.2.2 - August 2026**
+
+    Changed: Maintenance release — dependency updates only; no new customer-facing functionality in this version
+
 -   **Version 2.1.2 - July 2026**
 
     Fixed: App Dependency was added for smooth installation.
@@ -27,5 +35,5 @@ Version history for the ServiceNow® Sales Customer Relationship Management for 
     Initial release.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

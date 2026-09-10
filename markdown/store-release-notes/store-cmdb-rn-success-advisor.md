@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-success-advisor.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CMDB success advisor release notes
@@ -15,6 +15,34 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), Serv
 Version history for the ServiceNow® CMDB success advisor application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 3.1.1 - September 2026**
+    -   New:
+        -   Added a data quality summary, ranked by number of affected CIs \(data integrity issues first, then missing attributes, then governance gaps\), to the SAM advisor dashboard for CMDB success advisor for SAM.
+        -   Added scope selection logic to CMDB success advisor for SAM.
+        -   Added a CI class categories filter to the advisor dashboard for CMDB success advisor for Data Foundations.
+        -   Added a Reset filters option to each product's advisor dashboard \(HAM, SAM, and Data Foundations\). Filter selections persist for the session until reset.
+    -   Changed:
+        -   Removed the "CIs missing owner" Performance Analytics \(PA\) indicator from the HAM advisor dashboard.
+        -   Narrowed the KPI list on the Duplicate CIs KPI page when it exceeds a performance threshold, improving load time, for Data Foundations and HAM.
+        -   Improved performance of SAM scheduled data-collection jobs.
+-   **Version 3.0.1 - August 2026**
+    -   New:
+        -   Dedicated Software Asset Management \(SAM\) advisor dashboard with tree-based navigation and editable software product scope.
+        -   Dashboard KPIs capture data issues across three layers: Installs \(breakdowns by CI install status, cloud license type, missing CPU, core, or thread count, missing environment or assigned-to, Duplicate CIs, and Stale CIs, plus install trends and breakdowns by publisher, product, integration source, and class\), Installed On \(CI-to-host install status mismatches\), and Infrastructure Relationships \(infrastructure relationship errors between virtual server CIs and their host servers\).
+        -   Filter the SAM advisor dashboard by publisher, product, Data Model Navigator categories, and classes.
+        -   Role-based access to SAM advisor for users with the SAM user role.
+        -   HAM advisor entry point added to the Config Console for Hardware Asset Management \(HAM\).
+        -   Summarization and remediation actions are now available on the Data Foundations advisor dashboard.
+        -   HAM advisor dashboard metrics now include CI breakdown by HAM normalization status.
+    -   Removed: CIs missing owner metric removed from HAM advisor dashboard.
+-   **Version 2.1.3 - August 2026**
+
+    Changed: Auto-setup is disabled for Data Foundations and Hardware Asset Management \(HAM\) in the CMDB success advisor.    Note: Auto-setup will be re-enabled in a later release with performance optimization.
+
+-   **Version 2.1.2 - August 2026**
+
+    Changed: Auto-setup is disabled for Data Foundations and Hardware Asset Management \(HAM\) in the CMDB success advisor.    Note: Auto-setup will be re-enabled in a later release with performance optimization.
 
 -   **Version 2.1.0 - July 2026**
     -   New:
@@ -50,5 +78,5 @@ Version history for the ServiceNow® CMDB success advisor application on the Ser
     Unlock the full potential of your Configuration Management Database \(CMDB\) to achieve technical excellence, starting with value-maximizing Hardware Asset Management \(HAM\) outcomes. The CMDB success advisor empowers administrators with intuitive, step-by-step guidance to enhance CMDB health and data quality, without requiring deep technical expertise. By resolving issues faster and enabling continuous improvement, the tool helps align your CMDB with business goals, reduce operational risk, and maximize asset visibility and control.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

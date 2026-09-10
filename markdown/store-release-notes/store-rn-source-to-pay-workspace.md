@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Source-to-Pay Workspace release notes
@@ -18,6 +18,30 @@ Version history for the Source-to-Pay Workspace application on the ServiceNow St
 
 ## Version history
 
+-   **Version 21.0.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
+-   **Version 18.0.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
+-   **Version 17.0.4 - September 2026 \(Zurich\)**
+    -   Changed: Updated the in-app assistant branding and messaging from Now Assist to Otto.
+    -   Fixed: Implemented general platform security improvements.
+-   **Version 20.0.4 - August 2026 \(Australia\)**
+    -   Changed: Updated the in-app assistant branding and messaging from Now Assist to Otto.
+    -   Fixed: Implemented general platform security improvements.
 -   **Version 20.0.1 - June 2026 \(Australia\)**
     -   New:
         -   AI‑powered Savings Opportunity Discovery in Source‑to‑Pay Workspace: Savings opportunities are now surfaced in two locations within the Source‑to‑Pay Workspace:

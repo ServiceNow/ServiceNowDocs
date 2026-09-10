@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-ops-supplier-relationship-perf-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Relationship and Performance Management release notes
@@ -17,6 +17,14 @@ Version history for the Supplier Relationship and Performance Management applica
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.0.0 - September 2026 \(Australia\)**
+
+    Changed: Migration of code to Fluent
+
+-   **Version 8.0.0 - September 2026 \(Zurich\)**
+
+    Changed: Migration of code to Fluent
 
 -   **Version 10.0.0 - June 2026 \(Australia\)**
     -   New:
@@ -110,5 +118,5 @@ Version history for the Supplier Relationship and Performance Management applica
     Supplier performance framework to create and manage KPIs for suppliers.
 
 
-**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
+**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
 

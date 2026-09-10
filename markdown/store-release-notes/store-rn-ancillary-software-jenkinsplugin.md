@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-05-09"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Ancillary software release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Ancillary software version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Jenkins plugin for ServiceNow DevOps release notes

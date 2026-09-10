@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-manager-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Manager Mobile release notes
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Field Service Manager Mobile application on
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.0.9 - September 2026**
+    -   What's New:
+        -   Tasks embedded with breaks represented on mobile calendar
+        -   Added an embedded shift/break summary to the calendar card
+        -   Proxy Actions Support
 -   **Version 1.1.0 - April 2026**
 
     Fixed: Personal event creation when WFO is enabled.
@@ -25,5 +30,5 @@ Version history for the ServiceNow® Field Service Manager Mobile application on
     -   This app gives managers full operational control from their mobile device. Reassign technicians, reprioritize work orders, monitor SLA breach risk in real time, and view team schedules — shift data, WFO schedules, and personal events in a single view — alongside live technician and task locations. Offline capabilities mean the app works in remote or low-connectivity environments without losing functionality.
     -   Unlike technician tools repurposed for managers, or workarounds built from disconnected dashboards and third-party apps, this is a purpose-built management experience that runs on the ServiceNow platform your FSM data already lives on. Customers have measured field presence increasing from 5–10% to 40–80%, with direct improvements in technician productivity, SLA compliance, and operational response.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # FSM - Foundation release notes
@@ -18,6 +18,13 @@ Version history for the ServiceNow® FSM - Foundation application on the Service
 
 ## Version history
 
+-   **Version 2.1.2 - September 2026**
+
+    Fixed Fluent conversion issues
+
+-   **Version 2.0.9 - August 2026**
+    -   New: Fluent based development support added.
+    -   Changed: ServiceNow Otto is the new Al experience brand. This change is reflected in the name of ServiceNow products, including Field Service Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   **Version 2.0.1 - June 2026**
     -   New:
         -   AI-powered mobile form auto-fill for field technicians.
@@ -48,8 +55,8 @@ Version history for the ServiceNow® FSM - Foundation application on the Service
         -   Performance testing for Q1 deliveries.
             -   Testing conducted to ensure system stability and responsiveness.
 -   **Version 1.0.0 - April 2026**
-    -   FSM - Foundation activates the AI features included with every FSM product tier subscription. It works alongside Now Assist for Field Service Management \(FSM\) to enable and govern foundational AI capabilities across your field service operations.
+    -   FSM - Foundation activates the AI features included with every FSM product tier subscription. It works alongside ServiceNow Otto for Field Service Management \(FSM\) to enable and govern foundational AI capabilities across your field service operations.
     -   Technicians and dispatchers get Work Order Task Summarization out of the box — an AI capability that pulls together task details, work notes, activity streams, and contextual data into concise summaries. Less time digging through records, more time focused on the actual work.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

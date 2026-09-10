@@ -1,23 +1,48 @@
 ---
-title: Now Assist for Collaborative Work Management release notes
-description: Version history for the Now Assist for Collaborative Work Management application on the ServiceNow Store.
+title: ServiceNow Otto for Collaborative Work Management \(CWM\) release notes
+description: Version history for the ServiceNow Otto for Collaborative Work Management \(CWM\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-cwm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Collaborative Work Management release notes
+# ServiceNow Otto for Collaborative Work Management \(CWM\) release notes
 
-Version history for the Now Assist for Collaborative Work Management application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Collaborative Work Management \(CWM\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 7.0.2 - September 2026**
+    -   New:
+        -   ServiceNow Otto for CWM can read external documents, meeting notes, PDFs, or open prompts to automatically generate structured CWM tasks with the appropriate fields populated.
+        -   ServiceNow Otto for CWM an split any CWM task into smaller, assignable child tasks with a single click.
+        -   ServiceNow Otto for CWM brings AI-assisted filter generation to lists in CWM, helping teams customize and refine their work views using natural language.
+-   **Version 6.2.3 - August 2026**
+    -   New:
+        -   SPM's Project Workspace now has an integration with Collaborative Work Management
+            1.  Team Members can create new CWM tasks/stories under an assigned project task
+            2.  Users can move or break a CWM task's connection to a different project task
+            3.  Project Managers will see CWM tasks/stories connected to their project tasks directly inline in the Planning page of the Project in Project Workspace.
+            4.  Team Members in CWM see their connected project and project tasks as columns in CWM list view, and in "My Work"
+    -   Changed:
+        -   Relationships for any task types can added now using Task number/id instead of just Task description.
+        -   Now Assist is now rebranded as ServiceNow Otto
+-   **Version 6.2.2 - August 2026**
+    -   New
+        -   SPM's Project Workspace now has an integration with Collaborative Work Management
+            1.  Team Members can create new CWM tasks/stories under an assigned project task
+            2.  Users can move or break a CWM task's connection to a different project task
+            3.  Project Managers will see CWM tasks/stories connected to their project tasks directly inline in the Planning page of the Project in Project Workspace.
+            4.  Team Members in CWM see their connected project and project tasks as columns in CWM list view, and in "My Work"
+    -   Changed
+        -   Relationships for any task types can added now using Task number/id instead of just Task description.
+        -   Now Assist is now rebranded as ServiceNow Otto
 -   **Version 6.1.2 - July 2026**
 
     Removed: Now LLM is no longer set as the default provider for AI skills in CWM.
@@ -66,5 +91,5 @@ Version history for the Now Assist for Collaborative Work Management application
     Enhance your productivity with the latest AI-powered capabilities in Collaborative Work Management \(CWM\) using Now Assist for Collaborative Work Management \(CWM\). Our new updates bring the ability to summarize, elaborate, and shorten your content within Docs, while also automatically generating clear, actionable tasks for your Boards helping teams save time, reduce manual effort, and drive better outcomes.Whether you're reviewing documents or preparing project plans, these intelligent skills help you stay informed, aligned, and efficient.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

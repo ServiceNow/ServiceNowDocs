@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-palo-alto.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Palo Alto Networks NGFW for Security Operations release notes
@@ -18,6 +18,10 @@ Version history for the Palo Alto Networks NGFW for Security Operations on the S
 
 ## Version history
 
+-   **Version 10.5.5 - September 2026**
+    -   Fixed:
+        -   The Block Request Approval flow for Palo Alto has been corrected to execute asynchronously, ensuring requests are processed reliably.
+        -   UI messaging has been updated to reflect the approval status.
 -   **Version 10.5.3 - June 2026**
 
     Fixed: IPv6 CIDR conflict detection.
@@ -52,5 +56,5 @@ Version history for the Palo Alto Networks NGFW for Security Operations on the S
     -   Searching for and removing EDL entries, or migrating EDL entries between EDL lists.
     -   Linking EDL entries to observable records and SIR incidents that include threat intelligence results to determine why an IP, URL, or domain is being blocked.
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

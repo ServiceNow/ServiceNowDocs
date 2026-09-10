@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-upgrade-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Upgrade Management release notes
@@ -17,6 +17,10 @@ Version history for the Upgrade Management application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.6 - September 2026 \(Brazil\)**
+
+    The issue with hardcoded strings in XML files has been resolved. All user-facing text now supports internationalization and localization.
 
 -   **Version 2.1.19 - May 2026 \(Zurich\)**
 
@@ -28,7 +32,7 @@ Version history for the Upgrade Management application on the ServiceNow Store.
 
 -   **Version 3.1.1 - March 2026**
     -   Integrated ATF troubleshooting agent in post conduct testing step to troubleshoot failed tests using ATF troubleshooting agent
-    -   Integrated golden config to select and update now assist suites during pre and post upgrade steps
+    -   Integrated golden config to select and update Now Assist suites during pre and post upgrade steps
 -   **Version 2.1.1 - December 2025 \(Zurich\)**
 
     Defect where CI/CD deployments failed with a 401 error

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-agile-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Agile Management release notes
@@ -17,6 +17,10 @@ Version history for the Vulnerability Response Integration with Agile Management
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.3.1 - September 2026**
+
+    Fixed: An integration failure due to the choice/select-type Jira field. Choice-type custom field mappings are correctly formatted for choice-type values as Jira expects, and Jira issues are created successfully.
 
 -   **Version 1.2.3 - June 2026**
     -   The following enhancements and changes support internal security directives:

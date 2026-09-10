@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-repair-claim-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manufacturing Repair Claim Management release notes
@@ -17,6 +17,26 @@ Version history for the Manufacturing Repair Claim Management application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.2.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 5.1.1 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 5.0.4 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 4.1.0 - August 2026**
+
+    No release notes.
+
+-   **Version 4.0.0 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 3.1.2 - July 2026**
 
@@ -59,5 +79,5 @@ Version history for the Manufacturing Repair Claim Management application on the
         -   Manage recall campaigns efficiently by streamlining collaboration with dealers to resolve claims. Dealers are supported in submitting repair claims for work performed as part of recall campaigns. OEM assessors benefit from a playbook-guided experience that helps them review and resolve claims effectively.
         -   Oversee warranty repair claims through seamless collaboration with dealers. Dealers can submit, edit, and track claims related to warranty repairs, while OEM assessors follow a guided playbook process to evaluate and resolve claims consistently.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

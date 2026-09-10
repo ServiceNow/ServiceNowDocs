@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Goal Framework for SPM release notes
@@ -18,6 +18,10 @@ Version history for the Goal Framework for SPM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.10.0 - September 2026**
+    -   New:
+        -   New targets default to quarterly check-in frequency, accelerating target creation with a standard quarterly breakdown.
+        -   Status is now auto-populated when actual values are entered for a target or target breakdown during check-in actuals, streamlining data entry and improving consistency. Configure the status threshold in system properties to define how status values are derived based on actual versus planned target achievement.
 -   **Version 2.9.0 - July 2026**
     -   New:
         -   Added status rollup from target breakdowns to targets for targets with cumulative target distribution.

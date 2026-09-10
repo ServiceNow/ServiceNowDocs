@@ -1,23 +1,39 @@
 ---
-title: Now Assist for Creator release notes
-description: Version history for the Now Assist for Creator application on the ServiceNow Store.
+title: ServiceNow Otto for Creator release notes
+description: Version history for the ServiceNow Otto for Creator application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-na-creator.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 23
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 24
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Creator release notes
+# ServiceNow Otto for Creator release notes
 
-Version history for the Now Assist for Creator application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Creator application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 30.0.1 - September 2026 \(Brazil\)**
+
+    Please click on the individual dependent apps included with this package for detailed release note information.
+
+-   **Version 29.6.2 - September 2026 \(Australia\)**
+    -   Changed:
+        -   ServiceNow Otto branding
+        -   Please click on the individual dependent apps included with this package for detailed release note information.
+-   **Version 29.5.6 - August 2026 \(Australia\)**
+    -   Changed:
+        -   ServiceNow Otto branding
+        -   Please click on the individual dependent apps included with this package for detailed release note information.
+-   **Version 28.9.11 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   ServiceNow Otto branding
+        -   Please click on the individual dependent apps included with this package for detailed release note information.
 -   **Version 29.4.1 - July 2026 \(Australia\)**
 
     Please click on the individual dependent apps included with this package for detailed release note information.
@@ -270,7 +286,7 @@ Version history for the Now Assist for Creator application on the ServiceNow Sto
         -   Catalog item generation:
             -   Added support for Catalog generation skill on Gemini and Anthropic models.
             -   Added Support for Catalog refine skill on Azure, Gemini, and Anthropic models.
-            -   Added support for Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now assist
+            -   Added support for Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now Assist
             -   Improved the UX of AI elements in Catalog builder
         -   Flow generation:
             -   Support generation using 3rd party models from Anthropic Claude, and Google Gemini.
@@ -313,9 +329,9 @@ Version history for the Now Assist for Creator application on the ServiceNow Sto
 -   **Version 27.3.0 - August 2025 \(Yokohama\)**
     -   New
         -   Catalog item generation
-            -   Support creation of Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now assist: Users can generate variable types like Numeric Scale, Masked, URL, and Lookup Multiple Choice using natural language with Now Assist.
-            -   Support creation of simple reference qualifiers with Now assist: Users can create simple reference qualifiers by describing filter conditions in natural language with Now Assist.
-            -   Configure availability section, additional question details, choice config using Now assist.
+            -   Support creation of Numeric scale, Masked, URL, and Lookup multiple choice variable types with Now Assist: Users can generate variable types like Numeric Scale, Masked, URL, and Lookup Multiple Choice using natural language with Now Assist.
+            -   Support creation of simple reference qualifiers with Now Assist: Users can create simple reference qualifiers by describing filter conditions in natural language with Now Assist.
+            -   Configure availability section, additional question details, choice config using Now Assist.
             -   Support Catalog generation skill on Google Gemini and Anthropic Claude.
             -   Support Catalog refine skill on OpenAI, Google Gemini and Anthropic Claude.
         -   Code generation
@@ -478,7 +494,7 @@ Version history for the Now Assist for Creator application on the ServiceNow Sto
     -   Addresses numerous issues
 -   **Version 2.0.0 - September 2023**
 
-    Now Assist for Creator includes the Now Assist for Code and Now Assist Recommendations for Flow Designer applications. Now Assist for Code is a platform change that allows developers to write scripts quickly with AI-generated code suggestions based on developer prompts. Now Assist Recommendations improves the flow authoring experience with AI-generated content by providing flow authors with a list of recommendations for the next step of their flow.
+    ServiceNow Otto for Creator includes the ServiceNow Otto for Code and Now Assist Recommendations for Flow Designer applications. ServiceNow Otto for Code is a platform change that allows developers to write scripts quickly with AI-generated code suggestions based on developer prompts. Now Assist Recommendations improves the flow authoring experience with AI-generated content by providing flow authors with a list of recommendations for the next step of their flow.
 
     -   New
         -   Assign the now.assist.creator role to use generative AI skills for creators.

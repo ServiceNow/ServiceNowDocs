@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice.html
 release: store
 topic_type: reference
-last_updated: "2026-02-05"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Voice, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Voice version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow Voice Core release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow Voice Core integration on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.0.4 - August 2026**
+
+    Changed: Updated security directives.
 
 -   **Version 5.0.1 - February 2026**
     -   New in this Release:
@@ -96,5 +100,5 @@ Version history for the ServiceNow Voice Core integration on the ServiceNow Stor
     Cloud Call Center Core is the central framework that works in concert with the Amazon Connect Integration for Cloud Call Center and Cloud Call Center for ITSM applications to create voice-enabled employee experiences, unlock productivity for agents, and provide management with reporting insights and coaching opportunities.
 
 
-**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-servicenow-voice-landing.md)
+**Parent Topic:**[ServiceNow Voice version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-servicenow-voice-landing.md)
 

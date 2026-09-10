@@ -1,18 +1,18 @@
 ---
-title: Now Assist Skill Kit release notes
-description: Version history for the Now Assist Skill Kit application on the ServiceNow Store.
+title: AI Skill Kit release notes
+description: Version history for the AI Skill Kit application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-now-assist-skill-kit.html
 release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist Skill Kit release notes
+# AI Skill Kit release notes
 
-Version history for the Now Assist Skill Kit application on the ServiceNow Store.
+Version history for the AI Skill Kit application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
@@ -47,5 +47,5 @@ Version history for the Now Assist Skill Kit application on the ServiceNow Store
     Now Assist Skill Kit is a skill authoring tool designed for GenAI app developers. Now Assist Skill Kit empowers users to create custom skills that are not available in the standard out-of-the-box catalog or by configuring them. It provides a streamlined interface to a subset of advanced AI tools, enabling users to build sophisticated skills effortlessly.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

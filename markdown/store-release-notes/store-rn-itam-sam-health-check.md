@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-health-check.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITAM Health Check release notes
@@ -17,6 +17,10 @@ Version history for the ITAM Health Check application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.0.8 - September 2026 \(Brazil\)**
+
+    In this release, minor defects have been resolved to enhance stability.
 
 -   **Version 3.0.5 - March 2026**
 
@@ -65,5 +69,5 @@ Version history for the ITAM Health Check application on the ServiceNow Store.
     Perform Software Asset Management configuration scans to determine issues with configuration or discovery, that could impact software License compliance results. Additionally, get recommendations to fix the issues and thereafter create tasks for successful resolution.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

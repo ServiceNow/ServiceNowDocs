@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel-sec-center-secops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Security Center for Security Operations release notes
@@ -18,6 +18,33 @@ Version history for the Threat Intelligence Security Center for Security Operati
 
 ## Version history
 
+-   **Version 4.8.1 - September 2026**
+    -   New:
+        -   AI-Powered Intelligence Processing imports threat advisories from PDF and image files and extracts structured indicators of compromise \(IOCs\), threat actors, malware, and campaigns. A review pane displays confidence scores and extraction reasoning, and an audit record is generated for every import.
+        -   CrowdStrike Next-Gen SIEM Integration enables analysts to search Falcon Next-Gen SIEM for observable sightings from the Threat Intelligence Library, case artifacts, or automated workflows. Matching results are saved as sighting records on the observable.
+        -   CrowdStrike Vulnerability Intelligence Feed Integration ingests vulnerability intelligence data from CrowdStrike and correlates it with threat intelligence to provide enriched security context.
+        -   SIR-TISC Integration lets analysts link entities to security incidents directly from the Security Incident Response workspace or an entity record, without first creating a Threat Intelligence Security Center case.
+        -   Support for indicator and object creation during investigations enables analysts to create and link new indicators and intelligence objects directly within the investigation workflow.
+        -   Observable extraction from STIX indicators automatically extracts observables from STIX indicator pattern values during ingestion, adds them to the Threat Intelligence Library, and relates them to the parent indicator.
+    -   Changed:
+        -   Auto-correlation enhancements improve relationship accuracy by applying reputation-based correlation and direction-agnostic deduplication. Potential correlation rules are now more selective, requiring a reputation match and multiple shared observables.
+        -   SIR-TISC Integration now supports bidirectional linking and unlinking of Threat Intelligence Security Center entities from the TISC Context tab in the Security Incident Response workspace.
+        -   CrowdStrike Falcon EDR Integration now sends indicators with TISC Intelligence as the source, supports configurable indicator expiration, and adds the Prevent action in addition to Detect.
+        -   Intelligence processing performance improvements accelerate the processing of imported intelligence records from the Threat Intelligence Library and cases.
+        -   Relationship validation prevents the creation of self-relationships across all creation methods, including event ingestion.
+        -   CrowdStrike Vulnerability Intelligence Feed configurations become read-only after activation to prevent changes that could interrupt ongoing ingestion.
+        -   MITRE ATT&amp;CK ingestion now provides a review queue for revoked technique-to-tactic associations that are no longer defined in newer ATT&amp;CK versions.
+    -   Fixed:
+        -   Resolved an issue that could cause autocorrelation processing to run indefinitely during CrowdStrike ingestion when record mismatches occurred.
+        -   Updated the WHOIS Integration to support recent API changes.
+        -   Fixed an issue where custom headers in Outbound Intelligence Profiles could be overwritten by default Accept and Content-Type headers.
+        -   Fixed an issue where RSS tags did not consistently sync to entity tags. Entity-to-tag records older than 30 days are now cleaned up automatically.
+        -   Improved webhook event processing and intelligence object processing performance.
+        -   Fixed an issue where deleted indicators from the CrowdStrike feed were not imported correctly.
+        -   Resolved a STIX payload processing issue caused by null values in optional fields.
+        -   Fixed an issue that could cause Threat Intelligence Security Center cases to be created without a Case ID during bulk or concurrent record insertion.
+        -   Fixed an issue that prevented analysts from adding observables to a security incident from a Threat Intelligence Security Center case.
+        -   Fixed an issue where filtered CrowdStrike ingestion results did not match the records displayed in the CrowdStrike console.
 -   **Version 4.7.0 - July 2026**
     -   Fixed:
         -   Resolved modal loading issues when fetching related records in Investigation Canvas.

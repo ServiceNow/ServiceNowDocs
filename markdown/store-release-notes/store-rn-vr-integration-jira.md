@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-vr-integration-jira.html
 release: store
 topic_type: reference
-last_updated: "2024-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Atlassian Jira release notes
@@ -18,6 +18,14 @@ Version history for the Vulnerability Response Integration with Atlassian Jira a
 
 ## Version history
 
+-   **Version 1.1.6 - September 2026**
+
+    Fixed: An integration failure due to the choice/select-type Jira field. Choice-type custom field mappings are correctly formatted for choice-type values as Jira expects, and Jira issues are created successfully.
+
+-   **Version 1.1.4 - August 2026**
+    -   Changed:
+        -   Enhancements to the integration so that the current Get Issue Types \(v3\) and Get Creatable Fields \(v2\) APIs are supported, replacing the deprecated endpoints ahead of their anticipated retirement.
+        -   Issue type references now use Jira's numeric ID instead of a name, and a one-time background job re-syncs existing Agile Tool Rule Config records to the new format upon upgrade.
 -   **Version 1.0.4 - May 2024**
     -   Fixed:
         -   Vulnerability admin, Vulnerability Analyst from VR can create JIRA tickets

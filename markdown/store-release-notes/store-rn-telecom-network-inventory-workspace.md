@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-03-22"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Network Inventory Workspace release notes
@@ -34,5 +34,5 @@ Version history for the Network Inventory Workspace application on the ServiceNo
         -   Usage details \( available slots, interfaces\) on the Equipment.
         -   Equipment Model Images and Equipment relations on the Equipment details page.
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-azure-ad-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Entra ID Spoke release notes
@@ -18,6 +18,10 @@ Version history for the Integration Hub Microsoft Entra ID Spoke on the ServiceN
 
 ## Version history
 
+-   **Version 4.8.2 - September 2026**
+    -   Changed:
+        -   Actions: Look up Users Stream and Look up Incremental Changes for Users Stream by Directory: Added Action Enabled output field
+        -   Updated the integration to sync the accountEnabled status from Microsoft Entra ID to the status field in directory\_user records
 -   **Version 4.7.5 - June 2026**
 
     Fixed: Scripting defect

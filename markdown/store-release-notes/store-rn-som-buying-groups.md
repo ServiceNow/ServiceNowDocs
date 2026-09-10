@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-buying-groups.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Buying Groups release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Buying Groups application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.2.0 - September 2026**
+
+    Changed : Platform and infrastructure improvements for enhanced performance and stability. Internal framework upgrades to improve application reliability and future extensibility
 
 -   **Version 1.0.9 - June 2026 \(Zurich\)**
 
@@ -35,5 +39,5 @@ Version history for the ServiceNow® Buying Groups application on the ServiceNow
     Buying group introduces a new CRM construct that allows sellers to explicitly model all stakeholders involved in a purchase decision for their company — their roles, engagement, and linkage to opportunities.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

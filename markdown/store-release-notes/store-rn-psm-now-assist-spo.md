@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-now-assist-spo.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Now Assist for Sourcing and Procurement Operations \(SPO\) release notes
@@ -17,6 +17,26 @@ Version history for the Now Assist for Sourcing and Procurement Operations \(SPO
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.0.0 - September 2026**
+    -   New:
+        -   Case-to-Knowledge Article Generation:
+            -   Generate a knowledge article from a single resolved or closed case, with Otto AI drafting content for review before publishing.
+            -   Generate a comprehensive knowledge article from multiple related closed cases to document common issues at scale.
+        -   AI Data Explorer – Multi-Table Support:
+            -   AI Data Explorer can now correlate data across APO, SPO, and SLM tables \(including invoices, suppliers, approvals, purchase orders, and receipts\) to answer natural-language queries with a unified result.
+        -   Introducing Action Fabric for Sourcing and Procurement Operations - requester-specific tools delivered via the SPO MCP Server and Tools
+            -   Conversational Intake: Requesters can ask how-to and knowledge article questions and get routed to a pre-filled purchase requisition or sourcing request form based on their need.
+            -   Status Visibility: Requesters can search for and view the status of any sourcing request, purchase requisition, purchase order, or procurement case they've submitted, including getting details about related tasks.
+            -   Task Completion: Requesters can complete approval, sourcing, and receipt/acknowledgement tasks directly in conversation, including adding comments and stakeholders to watchlists, without navigating away. Some tasks \(e.g., signing a document or watching a video\) still require completion outside the conversation — customers can configure which task types route to this off-ramp experience.
+    -   Changed:
+        -   ZTSD Enhancements:
+            -   Case resolutions now display the supplier invoice number instead of the internal ServiceNow-generated invoice number.
+            -   Suppliers and employees can now view and accept or reject proposed resolutions directly from the case ticketing page through the employee slate or supplier portal.
+            -   Other minor usability and experience improvements.
+-   **Version 10.1.0 - August 2026**
+
+    Changed: Now Assist has been renamed to ServiceNow Otto, ServiceNow's AI experience brand. As a result, Now Assist for Sourcing and Procurement Operations is now ServiceNow Otto for Sourcing and Procurement Operations.
 
 -   **Version 10.0.0 - June 2026**
     -   New:

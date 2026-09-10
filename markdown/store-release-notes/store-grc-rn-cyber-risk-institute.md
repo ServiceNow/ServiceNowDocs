@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-cyber-risk-institute.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Cyber Risk Institute release notes
@@ -17,6 +17,10 @@ Version history for the GRC: Cyber Risk Institute application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+
+    New: Added type as a template option in CRI tiering template and CRI profile tier assessments.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
@@ -49,5 +53,5 @@ Version history for the GRC: Cyber Risk Institute application on the ServiceNow 
         -   Streamline the risk management process with automated tiering and selection of CRI assessments, conducted using the smart assessment engine.
     -   Automatically create controls based on tier and generate a compliance score from the CRI assessment responses, which roll up to the entity level.
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

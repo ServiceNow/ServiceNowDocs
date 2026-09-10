@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-03-27"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Alert Assist release notes

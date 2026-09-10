@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-dex-app-device-health.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 19
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DEX Application and Device Health release notes
@@ -20,6 +20,27 @@ Version history for the DEX Application and Device Health application on the Ser
 
 See the [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-service-management/store-rn-itsm-now-assist.html) release notes for information on agentic AI in DEX.
 
+-   **Version 5.2.3 - September 2026**
+    -   Fixed:
+        -   Reliable loading of the File Management tab in the Windows Device Overview.
+        -   Correct units for the endpoint boot time display.
+        -   Faster loading of the Active Devices view on the Application tab for both installed and web applications.
+        -   No interference between the macOS Zscaler check and Zscaler Client Connector \(ZCC\) upgrades.
+        -   Support for monitoring 90 or more applications at scale in the Installed Application historical check.
+        -   Correct display of menu items in the Insights navigation menu, without truncation.
+        -   Location updates for devices with static location settings when the cmn\_location record is updated, applied when a qualifying event occurs after the 7-day expiry.
+        -   Validation that prevents the reuse of the same executable in multiple application configurations.
+        -   Correct URL for Microsoft Outlook in the out-of-the-box application configuration.
+        -   Removal of the duplicate executable from the out-of-the-box application configuration for Tanium.
+        -   Correct regular expression evaluation for the Operating System Event rule.
+-   **Version 5.1.3 - August 2026**
+    -   Fixed:
+        -   **Offline Monitoring**: Continue collecting endpoint telemetry during network outages and automatically sync queued metrics when connectivity is restored.
+        -   **Incident Work Notes Integration**: Automatically add DEX work note to incident with deep links to DEX device health, DEX application health, when any of the following fields are updated \(Configuration Item, Service, Service Offering\).
+        -   **CMDB population with enhanced discovery**: Running processes are now reconciled directly into the `cmdb_running_process` table without creating unnecessary Application CIs. Running process data no longer creates Application Shell CIs in `cmdb_ci_appl`, and the system uses targeted reconciliation instead of the full ADM pipeline to keep your application inventory focused on actual software installations. This results in a cleaner CMDB with less clutter, better performance for instances with high process activity, and clearer separation between process telemetry and installed software inventory.
+        -   **Updated remedial action**: Perform disk clean up remedial action has been renamed to Disk cleanup for low disk space on device health page.
+        -   **DEX policies for Windows and mac OS**: These DEX policies are now split into multiple policies to optimise the performance of the device or the application that is monitored.
+        -   **GeoIP location**: The geoIP locations are now stored in the dex\_location table. We are no longer using cmn\_location to store geoIP locations. The required data is migrated from cmn\_location to dex\_location during application installation.
 -   **Version 5.0.1 - July 2026**
     -   Changed: The Windows system-metrics check used by the DEX Windows Device Metrics and Windows Non-Persistent VDI Device Metrics policies has been split into separate check instances so the processing load is distributed more evenly. Previously the combined check could exceed its time-out, which stopped the flow of device-metrics data on affected devices; splitting it keeps device-metrics collection running.
     -   Fixed: Fixed an issue where Windows registry monitoring failed to collect data for keys under the HKEY\_CURRENT\_USER hive. Monitoring now works correctly across both HKEY\_LOCAL\_MACHINE and HKEY\_CURRENT\_USER registry paths.

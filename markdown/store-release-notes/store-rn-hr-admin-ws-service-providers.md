@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Admin Workspace for Service Providers \(SPs\) release notes
@@ -35,5 +35,5 @@ Version history for the Admin Workspace for Service Providers \(SPs\) applicatio
     The Admin Workspace designed for Service Providers \(SPs\) offers a unified perspective on service utilization and seamless access to configuration options. This enables service provider admins to swiftly identify and address potential service requirements and gaps by utilizing comprehensive trended metrics. Additionally, service provider admins can compare the individual needs of customers with those of peers and the entire collection within the instance.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

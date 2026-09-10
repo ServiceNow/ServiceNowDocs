@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store version history release notes]
 ---
 
 # Mobile Card Builder release notes

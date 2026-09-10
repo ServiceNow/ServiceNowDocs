@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Live CI View release notes
@@ -27,5 +27,5 @@ Version history for the Live CI View application on the ServiceNow Store.
     Agent Client Collector for Incident Live CI view helps agents reduce the MTTR of an incident by providing live asset details at their fingertips for investigation of root cause and better decision making. The feature uses agent OSQs and Checks technology to explore the data.
 
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

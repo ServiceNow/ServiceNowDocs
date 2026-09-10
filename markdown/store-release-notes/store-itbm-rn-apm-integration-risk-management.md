@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Application Portfolio Management integration with Risk Management release notes
@@ -27,5 +27,5 @@ Version history for the IT Business Management Application Portfolio Management 
     Integrates APM with the GRC: Advanced Risk app for business application risk assessment
 
 
-**Parent Topic:**[ServiceNow Store - Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)
+**Parent Topic:**[ServiceNow Store - Enterprise Architecture version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-enterprise-architecture-highlights.md)
 

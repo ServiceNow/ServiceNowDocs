@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-ms-defender-incident-ingestion-int-sec-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Defender Incident ingestion integration for Security Operations release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Security Incident Response release notes, Servic
 Version history for the ServiceNow® Microsoft Defender Incident ingestion integration for Security Operations application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.1.1 - September 2026**
+
+    Fixed: Close Code Mapping issues have been fixed.
 
 -   **Version 4.0.1 - May 2026**
     -   Fixed:
@@ -26,5 +30,5 @@ Version history for the ServiceNow® Microsoft Defender Incident ingestion integ
     The Microsoft Defender integration for ServiceNow Security Operations ingests alerts and incidents into the ServiceNow Security Incident Response \(SIR\) platform for centralized case management. Bi-directional synchronization keeps status and work notes aligned across both platforms, ensuring teams working in either system maintain consistent information without discrepancies.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

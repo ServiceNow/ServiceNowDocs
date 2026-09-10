@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-procurement-common-architecture.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 15
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Source-to-Pay Common Architecture release notes
@@ -18,6 +18,44 @@ Version history for the Source-to-Pay Common Architecture application on the Ser
 
 ## Version history
 
+-   **Version 25.0.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, Admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+    -   -   SPO configuration is now structured within Otto for Setup framework, replacing fragmented navigation across multiple admin tools and locations.
+-   Admin experience is consistent across Product Hub and Configuration Console.
+-   **Version 23.0.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Shopping Hub can remember the previously selected Buy on Behalf of user and automatically pre-select that individual for subsequent purchases during the same session.
+        -   Shopping Hub administrators can create Buy on Behalf of associations based on existing user attributes, including cost center, legal entity, and country.
+    -   Changed:
+        -   Address management now uses a soft-delete model, allowing removed addresses to be excluded from saved address lists while retaining the underlying delivery location records.
+        -   Record producers and Shopping Hub checkout now consistently exclude removed addresses from address selection lists.
+        -   Enhanced address management performance, security, and governance for saved delivery addresses.
+        -   The organization location directory remains available when adding new work addresses, even after a saved address is removed.
+    -   Fixed:
+        -   Fixed an issue where valid saved addresses could be incorrectly excluded from record producers.
+        -   Fixed an issue where existing saved addresses could be unavailable during checkout.
+        -   Fixed an issue that prevented previously removed work addresses from being re-added to the saved address list.
+-   **Version 24.1.2 - August 2026 \(Australia\)**
+    -   New:
+        -   Added the Jurisdiction field to Invoice Tax Line to capture the jurisdiction associated with a tax line.
+        -   Added Jurisdiction Type and Tax Authority fields to Invoice Tax Line. These fields populate automatically based on the selected jurisdiction or tax type.
+    -   Changed:
+        -   Enhanced the Invoice Tax Line form and list view to display jurisdiction, jurisdiction type, and tax authority.
+        -   Updated duplicate tax line detection to use the combination of tax type, jurisdiction, and jurisdiction type instead of tax type alone.
+        -   When adding or editing a tax line, jurisdiction type and tax authority now populate automatically based on the selected jurisdiction or tax type.
+-   **Version 21.3.1 - August 2026 \(Zurich\)**
+    -   New:
+        -   Added the Jurisdiction field to Invoice Tax Line to capture the jurisdiction associated with a tax line.
+        -   Added Jurisdiction Type and Tax Authority fields to Invoice Tax Line. These fields populate automatically based on the selected jurisdiction or tax type.
+    -   Changed:
+        -   Enhanced the Invoice Tax Line form and list view to display jurisdiction, jurisdiction type, and tax authority.
+        -   Updated duplicate tax line detection to use the combination of tax type, jurisdiction, and jurisdiction type instead of tax type alone.
+        -   When adding or editing a tax line, jurisdiction type and tax authority now populate automatically based on the selected jurisdiction or tax type.
 -   **Version 24.0.0 - June 2026 \(Australia\)**
 
     Changed: Remediated non-Glide Cobalt Raven ACLs in product code \(DIRS0000421\) by validating platform-added ACL pull requests, confirming correct flow integration, and verifying that functional expectations are met.

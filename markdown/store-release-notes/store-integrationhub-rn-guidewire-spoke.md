@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-guidewire-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Guidewire Spoke release notes
@@ -17,6 +17,10 @@ Version history for the Guidewire Spoke on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.3.0 - March 2026**
 
@@ -56,5 +60,5 @@ Version history for the Guidewire Spoke on the ServiceNow Store.
     Guidewire Software, Inc. \(GWRE\) is the global market leader for core technology in property and casualty \(P&amp;C\) insurance. Guidewire's ClaimCenter, PolicyCenter, and BillingCenter make up the Guidewire InsuranceSuite.The Guidewire Spoke is integrated with the cloud version of Guidewire InsuranceSuite. The spoke application encapsulates granular actions which can serve as the building blocks for insurance cases requiring integration with Guidewire. Although this spoke addresses certain primary APIs, customers can expand the spoke to support any Cloud APIs available in Guidewire.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

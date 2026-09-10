@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-client-software-distribution.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Client Software Distribution 2.0 release notes
@@ -17,6 +17,10 @@ Version history for the Client Software Distribution 2.0 on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.7.4 - August 2026**
+
+    Fixed: Bug related to extend\_software\_lease
 
 -   **Version 1.7.3 - June 2026**
 
@@ -70,5 +74,5 @@ Version history for the Client Software Distribution 2.0 on the ServiceNow Store
     Requests for desktop and mobile software applications are one of the most common IT tickets, burdening IT support with manual, repetitive work. Client Software Distribution 2.0 \(CSD 2.0\) enables administrators to stop the productivity drain by automating these requests from the service catalog using third-party management systems to unlock IT support productivity and deliver fast, 24x7 self-service resolution. Client Software Distribution 2.0 \(CSD 2.0\) is a major new release that modernizes and expands support to automate software requests on a broader range of Microsoft endpoints and now, Apple devices with out-of-the-box support for: Microsoft Endpoint Configuration Manager for Windows 10/11, Windows 365, and Azure Cloud VMs Jamf for MacOS and iOS CSD is better together with Software Asset Management \(SAM\) Pro – automate software installation and removal with CSD; manage risk and compliance and control costs with SAM!
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

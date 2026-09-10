@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-service-exchange-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Exchange - Prime release notes
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Service Exchange - Prime application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.7 - August 2026**
+
+    Enhancements- Renamed customer-facing "Now Assist" references to "ServiceNow Otto" throughout the app.
 
 -   **Version 1.1.4 - July 2026**
     -   Connections tab in the Service Exchange Center: Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
@@ -47,5 +51,5 @@ Version history for the ServiceNow® Service Exchange - Prime application on the
     Service Exchange Onboarding introduces AI Agents that streamline the initiation of the registration process by automating the creation of Consumer Registration tasks, monitoring for issues, and guiding administrators through remediation if any are found. This reduces manual effort, improves accuracy, and enhances the onboarding experience.
 
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

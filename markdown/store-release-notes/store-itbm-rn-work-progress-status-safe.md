@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Work Progress Status for SAFe release notes
@@ -31,5 +31,5 @@ Version history for the Work Progress Status for SAFe on the ServiceNow Store.
     This is the initial release of Work Progress Status for SAFe. Work Progress Status for SAFe provides a GYR \(green, yellow, red\) progress status on SAFe Features and Epics to indicate whether the work is likely to be completed by the item's planned end date. It also provides an estimated completion date based on the rates at which the scope of work is changing and the work is being completed.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

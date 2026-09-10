@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-09-21"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Getting Married release notes
@@ -44,5 +44,5 @@ Version history for the Employee Experience Pack: Getting Married on the Service
                 -   1 Take Survey task
                 -   2 Knowledge Articles
 
-**Parent Topic:**[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
+**Parent Topic:**[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
 

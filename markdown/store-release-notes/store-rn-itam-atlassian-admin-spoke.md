@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Atlassian Administration Spoke release notes
@@ -23,5 +23,5 @@ Version history for the Atlassian Administration Spoke application on the Servic
     The Atlassian spoke provides actions to view and analyze meaningful usage data for Atlassian subscriptions. The spoke downloads subscription information as well as usage. This information will be available to SAM Admins to monitor product usage. Additionally, SAM Admins can use this information to track stale users whose access can be revoked.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

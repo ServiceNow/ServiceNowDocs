@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - ITOM Visibility release notes
+title: ServiceNow Store - ITOM Visibility version history release notes
 description: The ServiceNow Store contains ITOM Visibility applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - ITOM Visibility release notes
+# ServiceNow Store - ITOM Visibility version history release notes
 
 The ServiceNow Store contains ITOM Visibility applications.
 
@@ -45,5 +45,5 @@ Version history for the Tag Governance application on the ServiceNow Store.
 -   **[Visibility Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-content.md)**  
 Version history for the ITOM Visibility Content application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

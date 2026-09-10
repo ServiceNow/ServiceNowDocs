@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-smartsheet.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Smartsheet spoke release notes
@@ -18,6 +18,10 @@ Version history for the Smartsheet spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.8.1 - September 2026**
+    -   Added New Action
+        -   Look up User Subscription Stream \(DataStream action\): New action to retrieve the seatType, planId and some more details for a user.
+        -   Downgrade User \(action\): New action to downgrade the user license from Paid to Free.
 -   **Version 2.7.0 - June 2026**
     -   Fixes:
         -   Security fix on non-glide ACLs

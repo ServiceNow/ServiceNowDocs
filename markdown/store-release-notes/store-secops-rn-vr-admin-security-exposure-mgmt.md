@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-admin-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Administration for Security Exposure Management release notes
@@ -15,6 +15,16 @@ breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow
 Version history for the ServiceNow® Administration for Security Exposure Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 30.6.6 - September 2026**
+    -   Fixed:
+        -   Filtering on the re-apply column in CI look-up rules returns the expected results.
+        -   Users on the Yokohama release are able to create or update assignment rules.
+        -   Migrating from non-USEM to USEM does not cause errors when rolling down solutions to vulnerable items.
+        -   Remediation target date is calculated as expected when a vulnerable item's risk rating is escalated from "None" with no previous remediation target date.
+-   **Version 30.5.7 - August 2026**
+
+    Fixed: Fixed an issue where Remediation Roll-up Calculators with custom script logic would fail when executed across multiple application scopes. Roll-up calculations now execute correctly regardless of scope.
 
 -   **Version 30.5.3 - July 2026**
 
@@ -39,5 +49,5 @@ Version history for the ServiceNow® Administration for Security Exposure Manage
     -   The Administration for Security Exposure Management application provides a unified administrative experience across all Unified Security Exposure Management \(USEM\) applications.
     -   It introduces the Admin Console within the Security Exposure Management \(SEM\) Workspace, enabling administrators to configure all SEM apps and monitor integrations from a single location.
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

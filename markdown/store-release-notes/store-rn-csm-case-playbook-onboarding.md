@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-playbook-onboarding.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Case Playbook for Onboarding release notes
@@ -18,6 +18,15 @@ Version history for the Customer Service Management Case Playbook for Onboarding
 
 ## Version history
 
+-   **Version 8.4.0 - September 2026**
+    -   CSM &amp; Onboarding Improvements
+    -   Overview: Defect fixes around performance enhancements, permission fixes, and internationalization updates across Onboarding Case Management.
+        -   Fixed role inheritance: csm\_admin now properly includes sn\_onboarding.admin permissions
+        -   Improved query performance in Complaint Handling utilities with result set limits on existence checks
+        -   Optimized Auto Create Checklist Items business rule to reduce latency during Onboarding Request creation
+        -   Fixed redundant StateFlow computation in case completion validation
+        -   Resolved duplicate code in PAD version detection utilities
+        -   Fixed hardcoded UI strings in CSM Configurable Workspace to support internationalization
 -   **Version 8.3.0 - June 2026**
 
     Fixed: Security enhancements to query access controls for Onboarding Case
@@ -108,5 +117,5 @@ Version history for the Customer Service Management Case Playbook for Onboarding
     New: Use the Case Playbook for Onboarding to manage the process for taking on new customers or enrolling customers for new products. This playbook provides an end-to-end life cycle for the tasks performed during the onboarding process from initiation to completion.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

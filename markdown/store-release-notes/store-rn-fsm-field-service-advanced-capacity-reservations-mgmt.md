@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Advanced Capacity and Reservations Management release notes
@@ -25,5 +25,5 @@ Version history for the ServiceNow® Field Service Advanced Capacity and Reserva
     -   It provides access to Capacity Console, a dedicated workspace view that gives planners real-time visibility into allocated, used, and unused capacity alongside reservations, assigned tasks, and booked work. Planners can monitor consumption, identify gaps, and adjust before demand outpaces availability.
     -   Integrated with Dynamic Scheduling, it automates work assignment based on configured capacity rules and real-time availability so the schedule reflects actual capacity.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

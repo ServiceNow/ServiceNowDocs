@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Integration with Socialsuite release notes
@@ -30,5 +30,5 @@ Version history for the ServiceNow® Operational Sustainability Integration with
     -   What it solves: Most organizations manage DMA results in disconnected tools — spreadsheets, standalone platforms, or siloed reports. This creates data inconsistency, lack of traceability, and reporting delays. This integration creates a single source of truth by connecting your assessment workflow directly to ServiceNow Operational Sustainability Management.
     -   Why ServiceNow: Unlike point solutions, ServiceNow Operational Sustainability Management provides enterprise-grade governance, audit trails, and cross-functional workflows — so your materiality results don't just get recorded, they drive action across your organization.
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

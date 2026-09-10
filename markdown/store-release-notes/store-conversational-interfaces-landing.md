@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Conversational Interfaces
+title: ServiceNow Store - Conversational Interfaces version history release notes
 description: Version history for Conversational Interfaces releases on the ServiceNow Store
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-conversational-interfaces-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Conversational Interfaces
+# ServiceNow Store - Conversational Interfaces version history release notes
 
 Version history for Conversational Interfaces releases on the ServiceNow Store
 
@@ -69,5 +69,5 @@ Version history for the Virtual Agent API on the ServiceNow Store.
 -   **[Virtual Agent Topic Recommendations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-virtual-agent-topic-recommendations.md)**  
 Version history for the Virtual Agent Topic Recommendations on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

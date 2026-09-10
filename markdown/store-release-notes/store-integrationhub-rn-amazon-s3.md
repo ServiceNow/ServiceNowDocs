@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-s3.html
 release: store
 topic_type: reference
-last_updated: "2024-09-10"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Amazon S3 spoke release notes
@@ -18,6 +18,22 @@ Version history for the Integration Hub Amazon S3 spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.3.2 - September 2026**
+
+    Fixed: Actions: Create Bucket, Create ACL: XML Escaping.
+
+-   **Version 1.3.0 - August 2026**
+    -   New:
+        -   Added connection and credential alias support with configuration template for flexible multi-environment authentication setup.
+        -   Introduced MID Server support, enabling the Amazon S3 Spoke to operate in environments without direct outbound internet access.
+        -   Added alias override capability, allowing users to dynamically switch connection credentials at the action level.
+        -   Introduced certificate-based authentication support for enhanced security, addressing enterprise customer requirements \(e.g., JPMC\).
+        -   Added a custom retry policy for S3 actions to improve resilience against transient API failures.
+        -   Added new S3 actions with error evaluation and complex output handling for richer response processing.
+        -   Added new S3 actions with automation test coverage for improved reliability and regression safety.
+    -   Changed:
+        -   Refreshed existing S3 actions to align with the new connection and credential alias framework.
+        -   Updated spoke authentication to support the new alias-based configuration template, replacing the legacy direct credential approach.
 -   **Version 1.2.1 - September 2024**
 
     Fix: For Upload ServiceNow Attachment To S3 action fails to upload file when more than two "\(\)" are included in the file name.

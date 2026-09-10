@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-supplier-lifecycle-operations-integration-sap.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Lifecycle Operations Integration with SAP release notes
@@ -18,6 +18,10 @@ Version history for the Finance Operations Management Supplier Lifecycle Operati
 
 ## Version history
 
+-   **Version 3.2.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP ERP data integration and synchronization.
 -   **Version 3.0.10 - December 2025**
 
     Fixed: Added sn\_so \(Supplier Operations\) as a hard dependency for Supplier Lifecycle Operations Integration with SAP. This plugin now contains the Supplier Outbound table needed for SAP supplier job triggers, previously located in sn\_slm.

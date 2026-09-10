@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-hrsd-process-mining-content-pack.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HR Service Delivery for Process Mining Content Pack release notes
@@ -17,6 +17,10 @@ Version history for the HR Service Delivery for Process Mining Content Pack appl
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.0.5 - August 2026**
+
+    Fixed: Defect - Not able to enable touchpoints for HR Lifecycle Events Case project
 
 -   **Version 6.0.3 - March 2026**
     -   Fixed:

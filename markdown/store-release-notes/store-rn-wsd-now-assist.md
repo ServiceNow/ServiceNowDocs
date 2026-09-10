@@ -1,22 +1,26 @@
 ---
-title: Now Assist for Workplace Service Delivery \(WSD\) release notes
-description: Version history for the Now Assist for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
+title: ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes
+description: Version history for the ServiceNow Otto for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Workplace Service Delivery \(WSD\) release notes
+# ServiceNow Otto for Workplace Service Delivery \(WSD\) release notes
 
-Version history for the Now Assist for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Workplace Service Delivery \(WSD\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.20 - August 2026**
+
+    Changed: ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 -   **Version 1.1.13 - June 2026**
 
@@ -58,5 +62,5 @@ Version history for the Now Assist for Workplace Service Delivery \(WSD\) applic
     Now Assist for Workplace Service Delivery elevates your ServiceNow Workplace Services experience with generative AI capabilities. Transform the employee experience by enabling seamless interaction with physical workspaces through generative AI technology.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

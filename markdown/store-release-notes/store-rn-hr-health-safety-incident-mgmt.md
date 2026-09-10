@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Core release notes
@@ -17,6 +17,15 @@ Version history for the Health and Safety Core on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.4.1 - September 2026**
+    -   Changed: Reports generated from field mapping templates now exclude empty related list reports when no related list mappings are configured. When attaching reports to records, empty related list reports are not generated or downloaded. This applies to both default and custom report generation actions.
+    -   Fixed:
+        -   The injury picker correctly hydrates choice display values for the injury list, preventing crashes when selecting body parts and ensuring modal functionality is stable.
+        -   Health and Safety Core installation conflicts
+-   **Version 13.3.1 - August 2026**
+
+    Fixed: The Assets involved list on the Incident Overview tab now displays correctly when the system property for invalid queries is set to return no rows. The previous hardcoded filter requiring an "active" field has been corrected to support tables without an "active" field.
 
 -   **Version 13.2.2 - July 2026**
     -   Fixed:
@@ -222,5 +231,5 @@ Version history for the Health and Safety Core on the ServiceNow Store.
     -   ServiceNow Health and Safety Incident Management includes Employee Center and Now Mobile based incident and observation submission tools. Employees can easily submit incident and observation reports to safety teams.
     -   Featuring a Health and Safety Workspace, safety teams can conduct investigations into safety incidents using tools like the investigation workbench, injury and illness logs, root cause analysis, and corrective and preventative actions.
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

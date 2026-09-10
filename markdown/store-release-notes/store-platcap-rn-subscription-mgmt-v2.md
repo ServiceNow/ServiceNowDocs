@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-subscription-mgmt-v2.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Subscription Management v2 release notes
@@ -18,6 +18,18 @@ Version history for the Subscription Management v2 application on the ServiceNow
 
 ## Version history
 
+-   **Version 6.5.0 - September 2026**
+    -   New: The Cloud Capacity Dashboard now accurately reflects storage pooling across instances for shared environments. Instead of showing capacity at the individual instance level, the dashboard displays a unified pool view with "Total Purchased Pool Capacity" summing across all subscriptions \(instance-level and account-level\), a new "Hosting" indicator per instance, and "Used Pool Capacity" replacing the old per-instance usage columns.
+    -   Fixed:
+        -   Support for entitlement checks for all paid apps
+        -   Central Instance Performance Improvements.
+        -   High-priority performance fixes
+-   **Version 6.4.5 - August 2026**
+    -   New: Annual Now Assist Usage reset: Now Assist usage resets on the customer's contract anniversary date, providing a fresh allocation of the full entitlement each year. Enhanced tracking capabilities allow customers to monitor consumption throughout the contract term, with underlying calculation improvements included in this release
+    -   Fixed:
+        -   Support for entitlement checks for all paid apps, including plugins, ServiceNow Store apps, and partner apps.
+        -   Central Instance Performance Improvements.
+        -   High-priority performance fixes
 -   **Version 6.4.3 - June 2026**
 
     Version update for backend only, with no customer-facing changes.
@@ -136,5 +148,5 @@ Version history for the Subscription Management v2 application on the ServiceNow
     Subscription Management gives you visibility and control of your subscriptions in an enhanced user interface that prioritizes actionable data and provides an easy way to allocate subscriptions using recommended groups. Use Subscription Management to get a real‑time view of allocation and entitlement usage with reports showing your usage over time. Monitor your subscriptions to stay within compliance and make informed decisions about your subscription usage and purchases.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow IDE Instance Scan extension release notes
@@ -24,5 +24,5 @@ Version history for the ServiceNow® ServiceNow IDE Instance Scan extension appl
     -   The Instance Scan extension brings powerful scanning capabilities into your development workflow, enabling you to detect configuration, security, and scripting issues before deployment. No more context switching or post-deployment surprises. Get real-time feedback on code quality as you build.
     -   Run targeted scans using customizable Suite IDs, view findings with precise source locations, and jump directly to problematic code with one click. Transform Instance Scan from a post-deployment health check into an essential part of your build process.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

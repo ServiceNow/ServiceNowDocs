@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-ms-endpoint-config-mgr-invest.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Endpoint Configuration Manager for Investigation release notes
@@ -18,6 +18,11 @@ Version history for the Microsoft Endpoint Configuration Manager for Investigati
 
 ## Version history
 
+-   **Version 9.4.2 - September 2026**
+    -   View metrics relevant to the incident and CI in the context of the incident for investigation
+    -   Get latest metrics and data on-demand from within investigation
+    -   Visibility for when metrics exceed pre-set warning and critical threshold levels
+    -   Support for remedial actions
 -   **Version 9.2.0 - June 2026**
     -   Changes:
         -   Updated plugin dependencies to ensure compatibility with the ServiceNow Australia and later releases.

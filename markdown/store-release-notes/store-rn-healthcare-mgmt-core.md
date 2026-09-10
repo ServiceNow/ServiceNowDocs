@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-mgmt-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Healthcare and Life Sciences Service Management Core release notes
@@ -17,6 +17,10 @@ Version history for the Healthcare and Life Sciences Service Management Core app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.8.0 - September 2026**
+
+    Changed: Healthcare and Life Sciences Service Management Core has been converted to Fluent, ServiceNow's modern application development framework.
 
 -   **Version 11.6.2 - July 2026**
 

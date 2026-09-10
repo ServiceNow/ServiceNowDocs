@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-case-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Case Management release notes
@@ -18,6 +18,15 @@ Version history for the Workplace Service Delivery Workplace Case Management on 
 
 ## Version history
 
+-   **Version 1.28.16 - September 2026**
+    -   Fixed:
+        -   The Workplace Central calendar view now loads correctly without displaying a "Failed to fetch calendar details" error.
+        -   Preparation Blocker reservations created via Record Producer now use the reservation's actual start time instead of the form submission time.
+        -   Yes/No variable values now display correctly on Workplace Cases — an out-of-box regression causing incorrect values to appear has been resolved.
+        -   The Case Management landing page dashboard now loads with improved performance, eliminating the degradation observed in the workspace view.
+        -   The "Legend" label and "Show Case Details" text in Workplace Case Management are now fully translatable and no longer hardcoded or partially concatenated.
+        -   Date-type variables in the Record Producer portal now register the selected value correctly on first interaction.
+        -   Translation strings in Workplace Case Management now load correctly on first render — the client-side message lookup no longer depends on all message keys being pre-populated.
 -   **Version 1.28.8 - July 2026**
     -   Fixed:
         -   JSON payloads sent through case utilities are now correctly formatted, preventing processing errors in downstream integrations.
@@ -249,5 +258,5 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

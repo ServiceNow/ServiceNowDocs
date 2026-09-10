@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-slm-supplier-payment-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Payment Optimization release notes
@@ -17,6 +17,14 @@ Version history for the Supplier Payment Optimization application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.0.0 - September 2026 \(Australia\)**
+
+    Changed: Migration of code to Fluent
+
+-   **Version 4.0.0 - September 2026 \(Zurich\)**
+
+    Changed: Migration of code to Fluent
 
 -   **Version 6.0.0 - June 2026 \(Australia\)**
     -   Fixed:
@@ -52,5 +60,5 @@ Version history for the Supplier Payment Optimization application on the Service
     Provide insights on the potential savings and rebates that can be achieved by paying suppliers using a credit card.
 
 
-**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
+**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
 

@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Store - Configuration Management Database \(CMDB\)
+title: ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes
 description: Version history for Configuration Management Database \(CMDB\) releases on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-landing.html
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Configuration Management Database \(CMDB\)
+# ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes
 
 Version history for Configuration Management Database \(CMDB\) releases on the ServiceNow Store.
 
@@ -24,6 +24,8 @@ Version history for the ServiceNow® AI Service Graph Connector for LangGraph ap
 Version history for the ServiceNow® AI Service Graph Connector for n8n application on the ServiceNow Store.
 -   **[API Service Graph Connector for Apigee X release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-api-sgc-agipgee-x.md)**  
 Version history for the API Service Graph Connector for Apigee X application on the ServiceNow Store.
+-   **[API Service Graph Connector for Apigee Edge release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-api-sgc-apigee-edge.md)**  
+Version history for the ServiceNow® API Service Graph Connector for Apigee Edge application on the ServiceNow Store.
 -   **[API Service Graph Connector for Boomi API Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-api-sgc-boomi-cloud-api-mgmt.md)**  
 Version history for the ServiceNow® API Service Graph Connector for Boomi API Management application on the ServiceNow Store.
 -   **[API Service Graph Connector for Azure API Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-api-sgc-azure-api-mgmt.md)**  
@@ -66,8 +68,6 @@ Version history for the ServiceNow AI Platform capabilities IntegrationHub ETL a
 Version history for the Log Export Service on the ServiceNow Store.
 -   **[Mitigation Controls Monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-migration-controls-monitoring.md)**  
 Version history for the Mitigation Controls Monitoring application on the ServiceNow Store.
--   **[Now Assist for CMDB release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-now-assist-cmdb.md)**  
-Version history for the Now Assist for CMDB application on the ServiceNow Store.
 -   **[Now Assist for Service Graph Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-now-assist-sgc.md)**  
 Version history for the Now Assist for Service Graph Connectors application on the ServiceNow Store.
 -   **[Policy as Code Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-policy-code-engine.md)**  
@@ -134,6 +134,8 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
 Version history for the ServiceNow® Service Graph Connector for Splunk application on the ServiceNow Store.
 -   **[Service Graph Connector for Tanium release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-tanium.md)**  
 Version history for the Service Graph Connector for Tanium integration on the ServiceNow Store.
+-   **[Service Graph Connector for Tanium Atlas release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-cmdb-sgc-tanium-atlas.md)**  
+Version history for the ServiceNow® Service Graph Connector for Tanium Atlas application on the ServiceNow Store.
 -   **[Service Graph Connector for Tanium Endpoints release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-sgc-tanium-endpoints.md)**  
 Version history for the ServiceNow® Service Graph Connector for Tanium Endpoints application on the ServiceNow Store.
 -   **[Service Graph Connector for Trellix release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-trellix.md)**  
@@ -146,6 +148,8 @@ Version history for the Service Graph Connector for Wiz on the ServiceNow Store.
 Version history for the Service Graph Connector Support Tools application on the ServiceNow Store.
 -   **[Service Graph Workspace - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-service-graph-ws-content.md)**  
 Version history for the ServiceNow® Service Graph Workspace - Content application on the ServiceNow Store.
+-   **[ServiceNow Otto for CMDB release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-now-assist-cmdb.md)**  
+Version history for the ServiceNow Otto for CMDB application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
 

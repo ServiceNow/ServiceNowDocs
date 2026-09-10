@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Incident Management release notes
@@ -18,6 +18,13 @@ Version history for the Health and Safety Incident Management application on the
 
 ## Version history
 
+-   **Version 13.3.2 - September 2026**
+
+    Changed: Added support for Brazil and Australia, and removed support for Zurich.
+
+-   **Version 13.3.1 - August 2026**
+    -   New: Role-based access to Safety Knowledge Base articles. Health and Safety managers and agents can now contribute to knowledge articles in the Safety Knowledge Base, while case requestors have read-only access.
+    -   Fixed: The active status of Health and Safety incident records now updates correctly when the state changes from Closed to Work in Progress.
 -   **Version 13.2.2 - July 2026**
     -   Fixed:
         -   Resolved a scrolling issue in the Injury Details section that prevented the delete option for the last added injury from being reachable.
@@ -104,5 +111,5 @@ Version history for the Health and Safety Incident Management application on the
     ServiceNow Health and Safety Incident Management includes Employee Center and Now Mobile based incident and observation submission tools. Employees can easily submit incident and observation reports to safety teams.Featuring a Health and Safety Workspace, safety teams can conduct investigations into safety incidents using tools like the incident playbook, injury and illness logs, root cause analysis, and corrective and preventive actions. If Critical Event Management is also installed, safety incidents can be linked to any of the emergencies that your company is managing.
 
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

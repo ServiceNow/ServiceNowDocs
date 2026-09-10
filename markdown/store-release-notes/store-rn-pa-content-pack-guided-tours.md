@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-pa-content-pack-guided-tours.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics - Content Pack - Guided Tours release notes
@@ -16,10 +16,14 @@ Version history for the ServiceNow® Performance Analytics - Content Pack - Guid
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.4.2 - September 2026**
+
+    Fixed: In this release we addressed defects.
+
 -   **Version 1.4.0 - March 2026**
 
     ServiceNow Performance Analytics Content Pack for Guided Tours allows guided tour administrators and managers to monitor the user engagement with each tour, track the success of user onboarding/training activities, and closely follow how teams progress through tours.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

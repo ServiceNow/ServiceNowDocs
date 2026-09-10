@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Quote Management Data Model release notes
@@ -17,6 +17,20 @@ Version history for the Quote Management Data Model on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.1.3 - September 2026 \(Australia\)**
+    -   New: Auto-add and update quote line segments for derived-price products based on source product offering contributions across date ranges
+    -   Changed: Additional mappings for the Opportunity to Advanced Quoting Entity Model
+-   **Version 11.6.2 - September 2026 \(Zurich\)**
+    -   New: Auto-add and update quote line segments for derived-price products based on source product offering contributions across date ranges
+    -   Changed: Additional mappings for the Opportunity to Advanced Quoting Entity Model
+-   **Version 12.2.1 - August 2026 \(Australia\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
+
+-   **Version 11.3.1 - August 2026 \(Zurich\)**
+
+    Platform Stability &amp; Performance – Addressed reported defects and implemented performance improvements to enhance system reliability and responsiveness.
 
 -   **Version 12.1.0 - July 2026 \(Australia\)**
     -   New:

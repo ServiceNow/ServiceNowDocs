@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-observability.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Observability release notes
@@ -18,6 +18,13 @@ Version history for the Service Observability application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 1.16.11 - September 2026**
+
+    Fixed: Small cosmetic updates to the "Recommended" tab of the data mapping experience.
+
+-   **Version 1.15.4 - August 2026**
+    -   Improved: When selecting services for data mapping, the dialog now presents the top 30 recommended services.These are services that would most benefit from using Service Observability based on business criticality and frequency of alerts, incidents, and SLOs over the past 90 days. You can still manually choose services as before.
+    -   Changed: You can now adjust the number of related CIs that are returned as related entities returned in a query. By default, for performance reasons, the number is capped at 100. Note that increasing this number will affect performance. Speak to your Customer Success representative for more information.
 -   **Version 1.14.4 - July 2026**
     -   New: Service Observability now supports using MetricBase running on ACC as a data source for data mappings.
     -   Note that the resulting dashboards contain only CMDB-based data. To view metrics from MetricBase in charts, you need to customize the default dashboards to add that data.
@@ -77,5 +84,5 @@ Version history for the Service Observability application on the ServiceNow Stor
         -   Maximize your existing technology investments. Consolidate data from multiple toolsets into one platform for faster root cause analysis.
     -   ServiceNow's approach to AIOps provides robust integration points with monitoring tools and hybrid/multi-cloud environments to prevent the impact of issues and automate resolution.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

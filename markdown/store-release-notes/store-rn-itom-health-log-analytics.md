@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-health-log-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health Log Analytics release notes
@@ -18,6 +18,14 @@ Version history for the Health Log Analytics application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 40.5.0 - September 2026**
+    -   New:
+        -   Host Label correlation now supports tiered lookup across multiple CMDB CI classes. Host Labels assigned to Kubernetes services and other modern infrastructure types are now correlated to their respective CMDB CIs using an ordered search across hardware, Virtual Machines, Kubernetes, and API-based fallbacks. This enables alert enrichment and topology context for a broader range of infrastructure.
+        -   Admins can now configure and manage OpenTelemetry ingest sources via ServiceNow-native APIs. The new API endpoints allow registration, listing, status checking, updating, and removal of OTel data sources. MCP tool definitions are provided for agent-driven and Otto workflows, enabling programmatic onboarding and management without manual UI steps.
+        -   Expiring token email notifications are now available for MID-less data integrations. Users receive email alerts when integration tokens are nearing expiration, prompting timely refresh actions.
+        -   Admins can now add a certificate policy check option for Splunk Poll data inputs. The newusemidcertificatepolicycheck setting enables admins to control MID certificate policy enforcement for Splunk Poll integrations, with UI placement and compatibility logic for Brazil and later releases.
+    -   Changed: Raw manual test samples are now transient in Source Type Structure. Test samples entered in the manual sample field are no longer permanently saved; they are cleared on refresh, preventing contamination of subsequent flows.
+    -   Fixed: Admins can now suppress redundant keyword detections and prioritize message detections in HLA anomaly alerts. When multiple keyword detections occur for the same component at the same time, only the first detection is surfaced as an alert; subsequent detections are suppressed. If a message detection exists for the same component and pattern, keyword detections are suppressed in favor of message detection. Suppression is silent and applied in real time.
 -   **Version 40.0.13 - June 2026**
     -   Stream log data with Agent Client Collector Log AnalyticsUse the new ACC-L integration in Integration Launchpad to stream log messages to your ServiceNow instance. This integration is designed for environments where agentless log collection is impractical due to security requirements or host accessibility constraints.
     -   Support Linux capabilities with updated ACC-L folder structureACC-L agents now includemanifest.cfg andmanifest.sig files to support Linux capabilities and improved log shipper error output. These changes reduce support issues and speed up troubleshooting.
@@ -234,5 +242,5 @@ Version history for the Health Log Analytics application on the ServiceNow Store
         -   Cut the Mean Time to Repair \(MTTR\) by learning the true root cause of an issue in real-time
         -   Receive instant data-driven advice on how to fix an issue
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

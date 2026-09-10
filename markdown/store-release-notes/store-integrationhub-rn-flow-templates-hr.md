@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-04-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Flow Templates for HR Management release notes
@@ -43,5 +43,5 @@ Version history for the Flow Templates for HR Management integration on the Serv
     Easily automate employee requests in your custom applications with the Flow Templates for HR Management application. Rather than creating a new flow from scratch, users can choose the relevant template in App Engine Studio and follow the guided screens to create a new flow. These templates leverage the IntegrationHub SAP SuccessFactors spoke to allow employees to update personal information and view and request time off from the Service Catalog.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

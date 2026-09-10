@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-omniexperience-standard-feature-set.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Omni-Experience Standard Feature Set release notes
@@ -17,6 +17,16 @@ Version history for the Omni-Experience Standard Feature Set application on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.1.3 - September 2026 \(Brazil\)**
+    -   Fixed: Security patches for Sidebar
+    -   Changed: Update settings page to reflect Otto rebranding
+-   **Version 8.3.1 - September 2026 \(Australia\)**
+    -   Fixed: Security patches for Sidebar
+    -   Changed: Update settings page to reflect Otto rebranding
+-   **Version 8.2.4 - August 2026 \(Australia\)**
+
+    Changed: Rebranding from Now Assist in Virtual Agent to ServiceNow Otto for Virtual Agent in Conversational Integrations settings
 
 -   **Version 8.2.1 - June 2026 \(Australia\)**
     -   Fixed:
@@ -156,5 +166,5 @@ Version history for the Omni-Experience Standard Feature Set application on the 
     The Conversational Interfaces Omni-Experience Standard Feature Set is a release bundle that includes Sidebar and the Admin Console for Conversational Experiences.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

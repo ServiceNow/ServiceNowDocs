@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-parallel-review-feedback.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Parallel Review and Feedback release notes
@@ -17,6 +17,10 @@ Version history for the GRC Parallel Review and Feedback application on the Serv
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.6 - September 2026 \(Brazil\)**
+
+    Fixed: Accessibility issues have been resolved across the feedback review sidebar and home pages.
 
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Risk Management release notes
@@ -43,5 +43,5 @@ Version history for the Operational Sustainability Risk Management application o
     -   ESGM now includes risk assessment, adapted from the robust capabilities in our industry-leading Integrated Risk Management solution, so you can model climate, social, privacy, and other ESG risks. ​The ability to understand and communicate ESG risks is key to effective ESG programs. ESG risks are now part of many compliance disclosure requirements, but the people who understand the risk considerations are distributed around the organization. ESG/sustainability teams are not risk experts either. These people need a simple way to ask for and record risk information, both quantitative numbers like losses, and qualitative insights that may be written up manually. Auditors will need to see the backups to the risk calculations the teams assert in their disclosures, so the information must be archived reliably and with data integrity.
     -   The ESG risk management application provides both types of risk assessments and is employed for assessing both entities and material topics. Object-based assessments focus on material topics, while risk-based assessments are applied to entities providing straightforward quantitative and qualitative risk assessment embedded in first-line user workflows to help them easily contribute to accurate risk assessment and make risk-informed decisions as they perform their usual work.
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

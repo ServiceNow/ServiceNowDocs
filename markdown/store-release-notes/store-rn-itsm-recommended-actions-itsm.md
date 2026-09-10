@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-recommended-actions-itsm.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Recommended Actions for ITSM release notes
@@ -17,6 +17,10 @@ Version history for the Recommended Actions for ITSM application on the ServiceN
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.4.1 - August 2026**
+
+    Changed: Now Assist Multi-Content Response Genius Results support
 
 -   **Version 3.3.0 - March 2026**
     -   New: AI Gradient changes for Recommended Actions cards
@@ -54,5 +58,5 @@ Version history for the Recommended Actions for ITSM application on the ServiceN
     Recommended Actions for ITSM provides contextual &amp; actionable real-time recommendations and a AI based search panel for Service Operations Workspace along with workspace configurations that show recommendations in the contextual side panel and form fields.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

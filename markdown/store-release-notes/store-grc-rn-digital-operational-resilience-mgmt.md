@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-digital-operational-resilience-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Digital Operational Resilience Management release notes
@@ -17,6 +17,27 @@ Version history for the Digital Operational Resilience Management application on
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New: Added scheduled quarterly ROI CSV reporting.
+    -   Changed:
+        -   Updated ROI exports to honor list filters and contract filtering.
+        -   Changed legal-person identifier validation to warn for non-LEI/EUID codes.
+        -   Improved CSV export handling for monetary decimal values.
+        -   Improved security and input handling for contract-related queries.
+    -   Fixed:
+        -   Restored Third Party, Third-party Engagement, and AST Contract reference fields \(PRB2019447\).
+        -   Fixed filtered ROI downloads for all-record exports \(PRB2004738\).
+        -   Fixed cascading supplier updates when contract providers change \(PRB2026180\).
+        -   Fixed XSS vulnerabilities in DORA client scripts and UI pages \(PRB2026815\).
+        -   Fixed oversized JSON payload handling for dropdown values \(PRB2039004\).
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+
+    Changed: Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
+
+-   **Version 22.0.2 - August 2026 \(Zurich\)**
+
+    Changed: Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
 
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   New: Added LEI validation against GLEIF API for legal entities, branches, and third-party providers- Introduced duplicate DORA contract detection during manual entry and upload- Added system properties for GLEIF API configuration \(timeout, batch size, validation behavior\)

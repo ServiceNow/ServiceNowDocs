@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # FSC Common - Foundation release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® FSC Common - Foundation application on the 
     The ServiceNow FSC Common Foundation application provides the shared AI-powered platform components that underpin Accounts Payable Operations, Sourcing and Procurement Operations, and Supplier Lifecycle Operations. From common case management frameworks to assistive Now Assist skills like case summarization and response drafting, FSC Common Foundation delivers the foundational building blocks that enable consistent, AI-assisted experiences across all source-to-pay workflows — while keeping humans in control at every step.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-build-agent-trial.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Build Agent Trial release notes
@@ -18,6 +18,58 @@ Version history for the Build Agent Trial on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.6.3 - September 2026**
+    -   New:
+        -   New model support
+        -   Build Agent now supports the following models:
+            -   Azure OpenAI GPT 5.6 Sol
+            -   Anthropic Claude on AWS Opus 5
+        -   Testing
+            -   Create and run ATF test suites from Build Agent. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
+            -   Test Agent can now generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list. List step support extends test coverage beyond form-based interactions to include the full list view experience on the ServiceNow AI Platform.
+        -   Integrations &amp; metadata
+            -   Build Agent now supports integrations with the Box MCP server.
+            -   ServiceNow Fluent, which Build Agent uses to create apps, now supports domain separation on records and APIs. You can set the sys\_domainfield and use sys\_overridefields when working with records in domain-separated environments, so ServiceNow Fluent operates correctly across domains in your instance.
+            -   The following metadata are now supported in Build Agent:
+                -   Service Catalog dependent question support
+                -   Transition condition
+                -   UI style
+        -   Platform &amp; availability
+            -   When you right-click a record or artifact and select Configure, the metadata editor now opens in ServiceNow Studio.
+            -   Build Agent \(Trial\) is available by default on all instances, without requiring installation.
+            -   Build Agent now supports automatic upgrades through the ServiceNow Store. Instances running Australia Patch 5+ or Zurich Patch 12+ that have Build Agent installed receive automatic upgrades when a new version is published.
+        -   Playbook support
+            -   Build Agent includes the following updates to Playbook support:
+            -   Consolidates all records related to a playbook into a single XML update set file.
+            -   Can now generate runtime permissions at the playbook level and at the stage level.
+            -   Can now generate and configure the Set Playbook Outputs activity for nested playbooks.
+            -   Can now configure agentic fields on form-based and record-based activities when the AI Agent plugin is active.
+            -   Can now generate on-demand playbook launcher configurations.
+            -   Can now define optional activities in a playbook.
+    -   Changed:
+        -   New agentic-first development experience
+        -   ServiceNow Studio and IDE were redesigned for an agentic-first development experience with Build Agent:
+            -   The central chat area on the ServiceNow Studio home page is the starting point for new Build Agent conversations.
+            -   To open an existing conversation, select the Conversations icon in the Navigator panel.
+            -   The Build Agent panel now opens on the Navigator panel of ServiceNow Studio.
+-   **Version 2.5.6 - August 2026**
+    -   New:
+        -   New Build Agent model integrations, including GPT-5.5, Gemini 3.5 Flash, and Opus 4.8
+        -   Ability to select model versions directly from the Build Agent chat panel within ServiceNow Studio
+        -   Ability to create new custom skills and rules at instance-wide, application, and user levels to tailor Build Agent's behavior
+        -   Run background scripts securely within app-build flows, with rollback, scope-restriction, and dry-run containment paths
+        -   Ability to handoffServiceNow Otto conversations to Build Agent in ServiceNow Studio
+        -   Ability to run Build Agent in Developer Sandboxes, allowing for better collaboration and isolation
+        -   Automatically keep all the ATF tests in sync as your Build Agent written code evolves over time, toggled on via the 'Sync ATF tests with app' setting for Build Agent
+        -   Automatically keep all the UI tests in sync as your Build Agent written code evolves over time, toggled via the 'Run UI ATF Tests' setting for Build Agent
+        -   Get prompted to generate ATF tests anytime you invoke Build Agent, enabled via Build Agent settings
+        -   Execute and troubleshoot ATF tests directly from the ServiceNow SDK
+        -   Support for new knowledge base access metadata type
+        -   More granular overview of tools per connected MCP server in Build Agent settings
+        -   Expanded MCP Server support, including AWS DevOps, Box, Postman, and Sentry
+    -   Fixed:
+        -   Context compaction enhancements
+        -   Sub Agent memory improvements
 -   **Version 2.4.5 - July 2026 \(Australia\)**
     -   New:
         -   A new web search tool capability enabled Build Agent to find answers from the public internet when its internal knowledge sources don't have them. This tool needs to be toggled on from the settings screen of the Build Agent chat panel.
@@ -72,5 +124,5 @@ Version history for the Build Agent Trial on the ServiceNow Store.
         -   3. Faster time-to-market for new business applications.
         -   4. A potential reduction in overall development costs.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 
