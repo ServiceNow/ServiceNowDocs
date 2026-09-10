@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Business Continuity Management User - Lite release notes
@@ -39,5 +39,5 @@ Version history for the GRC Business Continuity Management User - Lite applicati
     The BCM Lite user application enables users to respond to the BIA questionnaires, participate in exercises by working and reporting back status on the tasks, also participate in the review and approval of the BIAs, BCPs, Exercises
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

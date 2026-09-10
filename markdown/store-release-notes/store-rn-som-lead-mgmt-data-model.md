@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-lead-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Lead Management Data Model release notes
@@ -18,6 +18,25 @@ Version history for the Lead Management Data Model application on the ServiceNow
 
 ## Version history
 
+-   **Version 6.5.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Lead management is now available in the Sales CRM Mobile app, with dedicated list and record views for leads, lead lines, lead tasks, and lead meetings, plus quick access to lead tasks from the home page.
+        -   Product offering lookups in lead lines and catalog now support an extended product lifecycle, surfacing offerings in In Test and Staged status additionally.
+    -   Changed: Leads created from an Account are now automatically pre-filled with additional Account details, including Industry, when that information isn't supplied at creation.
+    -   Fixed: Fixed minor issues in 'Convert Lead to Consumer' workflow.
+-   **Version 6.4.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Lead management is now available in the Sales CRM Mobile app, with dedicated list and record views for leads, lead lines, lead tasks, and lead meetings, plus quick access to lead tasks from the home page.
+        -   Product offering lookups in lead lines and catalog now support an extended product lifecycle, surfacing offerings in In Test and Staged status additionally.
+    -   Changed: Leads created from an Account are now automatically pre-filled with additional Account details, including Industry, when that information isn't supplied at creation.
+    -   Fixed: Fixed minor issues in 'Convert Lead to Consumer' workflow.
+-   **Version 6.3.0 - August 2026 \(Australia\)**
+
+    New: Lead apps now support Fluent compatibility. Lead applications have been converted to use Fluent, enabling seamless integration and improved interoperability with August environments.
+
+-   **Version 6.2.0 - August 2026 \(Zurich\)**
+    -   New: Lead management applications now support the Fluent framework. The lead management bundle has been converted to use the ServiceNow SDK \(Fluent\), enabling a modernized development experience and improved extensibility for lead-related applications.
+    -   Changed: Minor UX enhancement: the Lead workspace page now renders with a consistent UI, free of grey padding.
 -   **Version 6.1.0 - July 2026**
     -   New: Introduced AI Search Indexed Sources for Lead table.
     -   Fixed: Minor defect fixes.
@@ -58,5 +77,5 @@ Version history for the Lead Management Data Model application on the ServiceNow
     -   Lead Management is a net new application being released as part of the Sales and Order Management suite. It allows customers to store, manage, and track prospective customer information. Sales agents can record all interactions with customers during the lead nurturing phase. When significant interest is detected, the application enables sales agents to convert leads into customer records and opportunities.
     -   The Lead Management data model plugin includes all the tables required for storing and organizing the information related to leads or prospective customers.
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

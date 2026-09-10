@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Usage Insight Data Export release notes
@@ -34,5 +34,5 @@ Version history for the ServiceNow® Usage Insight Data Export application on th
     Usage Insight Data Export lets you programmatically export your User Experience Analytics \(UXA\) usage data from ServiceNow so you can analyze it alongside data from your other systems. Submit an export request through a simple REST API, and your data is processed asynchronously and delivered in batches to a dedicated, account-isolated messaging topic that you consume with a standard Kafka client. Select exactly the event fields you need, filter by event name, channel, application, and date range, and move usage data at scale on a recurring schedule. With hashed user identifiers, instance-scoped security, and high-availability delivery, Data Export brings ServiceNow usage insights into your analytics tools for deeper analysis and getting broader insights by joining your datasets.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

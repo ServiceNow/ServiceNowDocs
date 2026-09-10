@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-conflict-interest.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Conflict of Interest release notes
@@ -17,6 +17,10 @@ Version history for the Legal Conflict of Interest application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.11.3 - September 2026**
+
+    Fixed: Fields are now populated when a new COI request is submitted from an existing Conflict of interest record.
 
 -   **Version 4.11.0 - June 2026**
 

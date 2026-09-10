@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-conversational-integration-slack.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Integration with Slack release notes
@@ -18,9 +18,19 @@ Version history for the Conversational Integration with Slack integration on the
 
 ## Version history
 
+-   **Version 6.1.0 - September 2026 \(Brazil\)**
+    -   New: Multi-select support
+    -   Changed: Synthesis response rendering
+    -   Fixed:
+        -   Loading indicator issues
+        -   Granular feedback thumbs down issue
+-   **Version 6.0.8 - August 2026 \(Australia\)**
+
+    Feedback support for Slack responses.
+
 -   **Version 6.0.7 - June 2026 \(Australia\)**
 
-    Defect fixes:  PRB2013415, PRB2014752, PRB2011095d
+    Defect fixes:  PRB2013415, PRB2014752, PRB2011095
 
 -   **Version 6.0.6 - March 2026 \(Australia\)**
     -   Implement Feedback api for Slack
@@ -151,5 +161,5 @@ Version history for the Conversational Integration with Slack integration on the
             -   Catalog cards
             -   Q&amp;A cards
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

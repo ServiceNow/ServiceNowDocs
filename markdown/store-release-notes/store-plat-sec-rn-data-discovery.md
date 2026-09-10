@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-data-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Discovery release notes
@@ -17,6 +17,29 @@ Version history for the Data Discovery on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.0.2 - September 2026**
+    -   New:
+        -   Admins can now configure real-time sensitive data discovery from image attachments using OCR. Image files \(.jpeg, .png\) uploaded to the platform are scanned for sensitive data using optical character recognition, enabling alerting, blocking, or reporting based on admin-defined policies.
+        -   Granular findings are now tracked and accessible for Data Discovery jobs. Customers can review the exact records flagged for sensitive data, filter and search findings in the UI, and export results for offline review.
+        -   Default Data Discovery jobs are now automatically created and run for Vault trial and licensed customers. The system scans recent records across key business tables for sensitive data and sends a summary email to admins, requiring no manual configuration.
+        -   Automated email notifications are sent to Data Discovery admins upon job completion. The notification includes a link to the job summary and details of findings, with default subscription and opt-out options.
+        -   A default Data Discovery policy is now available and assigned to all relevant patterns and tables. The policy is read-only, visible only to admins and designated roles, and supports trial period tracking.
+        -   UI enhancements allow users to view granular findings and attachment findings in Scheduled Discovery. Related lists and tabs present findings filtered by workflow and grouped for easier review.
+        -   Admins can now manage sensitive data discovery roles for Otto-branded features. A new role is available parallel to the previous Now Assist role for Data Privacy administration.
+        -   Licensing alerts are shown in the UI for sensitive data discovery from images. Users are redirected to install required components to enable OCR scanning.
+    -   Changed:
+        -   The 'Generate Regex' and 'Regenerate Regex' UI buttons have been updated to reflect Otto branding. Button labels now communicate AI-assisted configuration actions, aligned with new naming guidelines.
+        -   Default Data Discovery job scheduling has been revised to run during Saturday night off-peak hours. The job respects instance time zones and avoids overlapping with existing jobs, retrying weekly if needed.
+        -   Default scan types for Data Discovery jobs now limit scans to 1,000 records or 30 days, whichever comes first. This scan type is not selectable in the UI and is used only for automated default jobs.
+        -   Backward compatibility is supported for Data Discovery 9.0 changes with Australia. The system ensures consistent behavior across regions.
+        -   Scheduled Discovery and Sources tabs now support optional URL parameters for subsection navigation. Deep-linking and bookmarking are improved, with graceful fallback for invalid parameters.
+        -   All OOTB regex-based data patterns are applied to default jobs, excluding NER-based patterns. The default job is editable and becomes inactive after the trial period, with clear messaging.
+        -   Email notifications for default Data Discovery jobs now include sensitive data visibility reports. The summary details record counts and types of sensitive data detected.
+        -   Vault license checks are added as a condition for running default discovery jobs. Only licensed instances trigger automated scans.
+-   **Version 8.1.3 - August 2026**
+
+    Service now Otto Directive Changes.
 
 -   **Version 7.1.4 - April 2026**
     -   No New functionality
@@ -67,5 +90,5 @@ Version history for the Data Discovery on the ServiceNow Store.
     Data Discovery gives you the ability to discover sensitive data using out-of-the-box data patterns or by creating custom regex patterns to act on: For example, to classify, report, or view. It provides sensitive data with visibility and cataloging which is an essential first step towards preventing data loss or exposure. This enables organizations to implement appropriate security measures and increase their security posture.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Security version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)
 

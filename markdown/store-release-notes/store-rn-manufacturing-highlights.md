@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Operational Technology release notes
+title: ServiceNow Store - Operational Technology version history release notes
 description: The ServiceNow Store contains Operational Technology applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-highlights.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Operational Technology release notes
+# ServiceNow Store - Operational Technology version history release notes
 
 The ServiceNow Store contains Operational Technology applications.
 
@@ -118,10 +118,12 @@ Version history for the Service Graph Connector for Microsoft Defender for IoT \
 Version history for the Service Graph Connector for Microsoft Defender for IoT \(Azure\) \(On-premises Management Console\) application on the ServiceNow Store.
 -   **[Service Graph Connector for ServiceNow OT Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-sgc-servicenow-ot-discovery.md)**  
 Version history for the ServiceNow® Service Graph Connector for ServiceNow® OT Discovery application on the ServiceNow Store.
+-   **[ServiceNow Otto for OT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-otto-otsm.md)**  
+Version history for the ServiceNow® ServiceNow Otto® for OT Service Management application on the ServiceNow Store.
 -   **[Vulnerability Response Integration with Claroty CTD release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-vr-claroty-ctd.md)**  
 Version history for Vulnerability Response Integration with Claroty CTD on the ServiceNow Store.
 -   **[Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-vr-ms-azure-defender-iot.md)**  
 Version history for the Vulnerability Response Integration with Microsoft Azure Defender for IoT application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

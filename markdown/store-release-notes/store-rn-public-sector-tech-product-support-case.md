@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-tech-product-support-case.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Technology Product Support Case release notes
@@ -17,6 +17,26 @@ Version history for the Technology Product Support Case application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.4.5 - September 2026 \(Australia\)**
+
+    No new features in this release.
+
+-   **Version 4.2.20 - September 2026 \(Zurich\)**
+
+    No new features in this release.
+
+-   **Version 4.3.12 - August 2026 \(Australia\)**
+
+    Done OTTO Rebranding work on existing code.
+
+-   **Version 4.2.13 - August 2026 \(Zurich\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
+
+-   **Version 4.1.11 - August 2026 \(Yokohama\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
 
 -   **Version 4.3.6 - July 2026 \(Australia\)**
     -   This release contains one targeted fix to ensure correct upgrade behaviour on existing instances.
@@ -58,13 +78,13 @@ Version history for the Technology Product Support Case application on the Servi
     -   The Technology Product Support Case application enables technology companies to provide support for digital products and services.
     -   The Technology Product Support Case application includes the following features:
         -   A case type dedicated to technology product support case needs.
-        -   A record page and a playbook experience for CSM Configurable Workspace that agents can use to research and resolve customer issues.
+        -   A record page and a playbook experience for CRM Workspace that agents can use to research and resolve customer issues.
         -   A portal experience that agents and customers can use to report issues and communicate with each other.
 -   **Version 4.1.0 - April 2026 \(Yokohama\)**
     -   The Technology Product Support Case application enables technology companies to provide support for digital products and services.
     -   The Technology Product Support Case application includes the following features:
         -   A case type dedicated to technology product support case needs.
-        -   A record page and a playbook experience for CSM Configurable Workspace that agents can use to research and resolve customer issues.
+        -   A record page and a playbook experience for CRM Workspace that agents can use to research and resolve customer issues.
         -   A portal experience that agents and customers can use to report issues and communicate with each other.
 -   **Version 3.10.8 - March 2026 \(Australia\)**
 
@@ -136,5 +156,5 @@ Version history for the Technology Product Support Case application on the Servi
     The Technology Product Support Case application is included in the Technology Provider Service Management and Telecommunications Service Management products. The ServiceNow &amp; Technology Product Support Case application enables Telecommunications, Media, and Technology companies to support digital products and services. Features for this application include Case Type, Record Page, Playbook, and Record Producer.
 
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

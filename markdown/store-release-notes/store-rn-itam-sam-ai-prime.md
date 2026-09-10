@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-ai-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management AI Prime release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® Software Asset Management AI Prime applicat
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.0 - September 2026**
+
+    New feature: AI-powered Software spend detection -Reduce manual effort in classifying spend transactions with AI-powered software spend detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
+
+-   **Version 2.4.2 - August 2026**
+
+    Starting with v2.4.2, Now Assist for Software Asset Management is now ServiceNow Otto for Software Asset Management.
 
 -   **Version 2.1.1 - July 2026**
 
@@ -31,5 +39,5 @@ Version history for the ServiceNow® Software Asset Management AI Prime applicat
     -   SAM Prime is ServiceNow's software asset management product for organizations that want AI built into their day-to-day SAM operations. It includes everything in SAM Enterprise — plus AI capabilities.
     -   This plugin has been introduced as part of the adoption of product tiers across ServiceNow product lines. This establishes a consistent approach to how AI capabilities are packaged, entitled, and delivered on the Now Platform.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

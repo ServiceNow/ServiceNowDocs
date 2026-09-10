@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-export-to-powerpoint.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Export to PowerPoint release notes
@@ -17,6 +17,10 @@ Version history for the Export to PowerPoint application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.2 - September 2026**
+
+    Fixed: Exporting the SPW Roadmap to PowerPoint now preserves "Color by Status" formatting. Roadmap items with no status are handled correctly, preventing export crashes and ensuring all items display appropriate colors.
 
 -   **Version 2.4.0 - June 2026**
 
@@ -43,5 +47,5 @@ Version history for the Export to PowerPoint application on the ServiceNow Store
     Export to PowerPoint is the base application to export data from ServiceNow.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

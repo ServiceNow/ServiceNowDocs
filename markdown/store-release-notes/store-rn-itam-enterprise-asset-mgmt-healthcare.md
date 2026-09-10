@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-asset-mgmt-healthcare.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Asset Management for Healthcare release notes
@@ -17,6 +17,10 @@ Version history for the Enterprise Asset Management for Healthcare application o
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.0 - September 2026**
+
+    Changed: Updated application dependency versions to align with the latest supported version of Enterprise Asset Management.
 
 -   **Version 1.1.2 - March 2026**
 
@@ -34,5 +38,5 @@ Version history for the Enterprise Asset Management for Healthcare application o
     Enterprise Asset Management for Healthcare is an application that provides medical asset managers and medical asset technicians with access to Enterprise Asset Management workflows and features to manage the full lifecycle of medical models and assets.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

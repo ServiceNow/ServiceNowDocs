@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Impact Value Management - HAM release notes
@@ -30,5 +30,5 @@ Version history for the Impact Value Management - HAM application on the Service
     -   The Impact Value Management Data Collection Dashboard for Hardware Asset Management \(HAM\) gives Impact customers an automated solution for gathering standard ServiceNow value metrics, enhancing their value journey.
     -   Sharing Metrics with ServiceNow ServiceNow's integration gathers value metrics from customer instances on a monthly basis. Please note that integration with ServiceNow's centralized Impact instance is not available for Regulated customers \(Standalone and SSP\) and may necessitate granting user access for instances using the ServiceNow SNC security plugin. The Data Collection Apps will remain functional even if the integration with ServiceNow is unavailable; however, Metrics Data will need to be transferred manually in such cases.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

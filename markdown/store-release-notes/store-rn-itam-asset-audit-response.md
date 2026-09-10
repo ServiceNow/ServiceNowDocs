@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-asset-audit-response.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Asset Audit Response release notes
@@ -17,6 +17,10 @@ Version history for the Asset Audit Response application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.6 - September 2026**
+
+    New: View the complete detailed reports associated with evidence records that have an Evidence type of Data Visualization or Report. Use each report to gain comprehensive insight into the supporting information or data that you want to collect and submit for an evidence request.
 
 -   **Version 2.0.3 - July 2026 \(Australia\)**
     -   Track and manage impacted records that are associated with your remediation tasks.
@@ -37,5 +41,5 @@ Version history for the Asset Audit Response application on the ServiceNow Store
     Financial customers face regulatory audits, which require asset data or process evidence from various asset teams. This effort can be very time consuming, involve various team members, and require back and forth communication. Missing evidence or failure to comply within the given time frame can lead to heavy fines and additional oversight. Asset Audit Response, as part of IT Asset Management for Financial Services, is a feature that will help asset managers respond to, track, and manage audit evidence requests to drive compliance, gain visibility into regulatory requirements, and reduce risk impact.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Bot Interconnect release notes
@@ -53,5 +53,5 @@ Version history for the Bot Interconnect application on the ServiceNow Store.
         -   Intent discovery in Bot Interconnect across all skills that are supported by the primary and secondary bots.
         -   Bot Interconnect provides a common conversation model and data storage, which unifies reporting and analytics.
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

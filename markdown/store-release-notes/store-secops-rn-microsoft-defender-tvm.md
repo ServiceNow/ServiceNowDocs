@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-microsoft-defender-tvm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Microsoft Threat and Vulnerability Management release notes
@@ -18,6 +18,16 @@ Version history for the Security Operations Vulnerability Response Integration w
 
 ## Version history
 
+-   **Version 31.4.6 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   The Microsoft Threat and Vulnerability Management integration filtering for onboarded machines as expected instead of using a blank default machine filter.
+        -   Certain cloud assets imported from Microsoft Threat and Vulnerability Management are now correctly counted for licensing purposes.
+    -   New: File-based export integration for Microsoft TVM. Admins can now configure a new integration that uses a file-based export API for ingesting large volumes of vulnerability data. The integration supports splitting files into smaller chunks via a Mid server connection, improving performance for high-volume imports.
+    -   Fixed: The default machine filter for the Microsoft TVM integration now imports only devices with onboarding status set to 'Onboarded', ensuring expected behavior during data ingestion.
+-   **Version 31.4.2 - August 2026 \(USEM\)**
+    -   Fixed:
+        -   Authentication failure for the Microsoft TVM integration if the authentication URL is not provided in the Setup Assistant. If not provided, the authentication uses the URL that is saved in the integration configuration by default.
+        -   The default Machine Filter value for the Microsoft TVM Machines integration so it imports only onboarded devices \(onboardingStatus in Onboarded\) as expected.
 -   **Version 31.3.0 - June 2026 \(USEM\)**
     -   Changed:
         -   Migrated query access control list \(ACL\) definitions to the standard product codebase in Vulnerability Intelligence, improving long-term maintainability and ensuring consistent access control enforcement.

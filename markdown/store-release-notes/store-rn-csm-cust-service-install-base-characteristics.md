@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-cust-service-install-base-characteristics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Service Install Base Characteristics release notes
@@ -17,6 +17,10 @@ Version history for the Customer Service Install Base Characteristics applicatio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.4 - September 2026**
+
+    Changed: Changed the App name to Customer Install Base Characteristics
 
 -   **Version 2.4.0 - June 2026**
 
@@ -43,5 +47,5 @@ Version history for the Customer Service Install Base Characteristics applicatio
     Install base characteristics enables customers to capture characteristics for their install bases.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

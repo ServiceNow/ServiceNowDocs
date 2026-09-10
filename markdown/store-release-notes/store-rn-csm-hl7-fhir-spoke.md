@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HL7 FHIR Spoke release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® HL7 FHIR Spoke application on the ServiceNo
     -   From there, Flow Designer actions can look up a single Organization, Location, Practitioner, or PractitionerRole by ID, or search and stream every matching record using standard FHIR filters, including an incremental "last updated since" option for keeping ServiceNow data current without full re-syncs. The result is accurate, up-to-date organization, facility, and care-team data available directly inside ServiceNow workflows.
     -   Because it is built on the FHIR R4 standard, HL7 FHIR Spoke works with any compliant EMR or health information system rather than locking customers into a single vendor integration, reducing the time and cost of standing up new healthcare data integrations.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

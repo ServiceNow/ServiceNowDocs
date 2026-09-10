@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-order-case-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Order Case Playbook release notes
@@ -17,6 +17,18 @@ Version history for the Order Case Playbook application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.1 - September 2026 \(Australia\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 2.0.0 - August 2026 \(Australia\)**
+
+    Changed: Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 1.5.8 - August 2026 \(Zurich\)**
+
+    Changed: Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 1.5.3 - June 2026 \(Australia\)**
 
@@ -47,5 +59,5 @@ Version history for the Order Case Playbook application on the ServiceNow Store.
     Create and edit an order case using the self-service portal.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Store - Sales Customer Relationship Management release notes
+title: ServiceNow Store - Sales Customer Relationship Management version history release notes
 description: The ServiceNow Store contains Sales Customer Relationship Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sales-order-management-highlights.html
 release: store
 topic_type: reference
 last_updated: "2025-06-05"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Sales Customer Relationship Management release notes
+# ServiceNow Store - Sales Customer Relationship Management version history release notes
 
 The ServiceNow Store contains Sales Customer Relationship Management applications.
 
@@ -68,10 +68,6 @@ Version history for the Lead Management Application on the ServiceNow Store.
 Version history for the Lead Management Data Model application on the ServiceNow Store.
 -   **[Manage Order Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-manage-order-operations.md)**  
 Version history for the ServiceNow® Manage Order Operations application on the ServiceNow Store.
--   **[Now Assist for CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-cpq.md)**  
-Version history for the ServiceNow® Now Assist for CPQ application on the ServiceNow Store.
--   **[Now Assist for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-som.md)**  
-Version history for the Now Assist for Sales Customer Relationship Management application on the ServiceNow Store.
 -   **[Opportunity Management AI Features release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-opportunity-mgmt-ai-features.md)**  
 Version history for the ServiceNow® Opportunity Management AI Features application on the ServiceNow Store.
 -   **[Opportunity Management Application release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-opportunity-mgmt-app.md)**  
@@ -96,6 +92,8 @@ Version history for the Product Catalog Management Portal application on the Ser
 Version history for the product configurator application on the ServiceNow Store.
 -   **[Product Offering Recommendations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-product-offering-recommendations.md)**  
 Version history for the Product Offering Recommendations application on the ServiceNow Store.
+-   **[Quote Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-quote-experience.md)**  
+Version history for the ServiceNow® Quote Experience application on the ServiceNow Store.
 -   **[Quote Management Application release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-quote-mgmt-app.md)**  
 Version history for the Quote Management Application on the ServiceNow Store.
 -   **[Quote Management Data Model release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-quote-mgmt-data-model.md)**  
@@ -106,6 +104,12 @@ Version history for the ServiceNow® Quote Management for Channel Partners appli
 Version history for the Sales Cart application on the ServiceNow Store.
 -   **[Sales Common release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-sales-common.md)**  
 Version history for the ServiceNow® Sales Common application on the ServiceNow Store.
+-   **[Sales CRM Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-sales-crm-mobile.md)**  
+Version history for the ServiceNow® Sales CRM Mobile application on the ServiceNow Store.
+-   **[Sales Customer Relationship Management for Telecommunications, Media and Technology - Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-tmt-advanced.md)**  
+Version history for the ServiceNow® Sales Customer Relationship Management for Telecommunications, Media and Technology - Advanced application on the ServiceNow Store.
+-   **[Sales Customer Relationship Management for Telecommunications, Media and Technology - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-tmt-prime.md)**  
+Version history for the ServiceNow® Sales Customer Relationship Management for Telecommunications, Media and Technology - Prime application on the ServiceNow Store.
 -   **[Sales Forecasting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-sales-forecasting.md)**  
 Version history for the Sales Forecasting application on the ServiceNow Store.
 -   **[Sales Territory Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-sales-territory-management.md)**  
@@ -118,10 +122,14 @@ Version history for the Sales Quota Data Model application on the ServiceNow Sto
 Version history for the ServiceNow® Sales CRM - Advanced application on the ServiceNow Store.
 -   **[Sales CRM - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-prime.md)**  
 Version history for the ServiceNow® Sales CRM - Prime application on the ServiceNow Store.
+-   **[ServiceNow Otto for CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-cpq.md)**  
+Version history for the ServiceNow Otto for CPQ application on the ServiceNow Store.
+-   **[ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-som.md)**  
+Version history for the ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application on the ServiceNow Store.
 -   **[Summarization for Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-summarization-order-mgmt.md)**  
 Version history for the ServiceNow® Summarization for Order Management application on the ServiceNow Store.
 -   **[Summarization for Quote Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-summarization-for-quote-management.md)**  
 Version history for the ServiceNow® Summarization for Quote Management application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

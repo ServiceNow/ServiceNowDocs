@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-conversational-apple-biz.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Integration with Apple Messages for Business release notes
@@ -17,6 +17,18 @@ Version history for the Conversational Integration with Apple Messages for Busin
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.4.2 - September 2026**
+    -   Enable users to engage in conversations with virtual and live agents by messaging with Apple Messages for Business.
+    -   Conversations can be seamlessly transferred to a live agent while preserving context and history.
+    -   Agents can initiate conversations or respond to ongoing conversations using the ServiceNow Agent Workspace and ServiceNow CSM Configurable Workspace applications.
+    -   Brands can configure system-initiated messages or notifications that can be sent out to users on Apple Messages for Business. Note: Users must explicitly opt-in to receive notifications.
+    -   The following user input controls are supported: Text, Static Choice, Grouped Choice, Dynamic Choice, Boolean, Date Time, File Picker, and Carousel.
+    -   The following bot responses are supported: Text, Image Output, Link, Table, and Card.
+    -   Live agents use the Text, Card, and Image Output response controls to reply to users.
+-   **Version 1.3.2 - August 2026**
+
+    Changed: Updated security directives.
 
 -   **Version 1.3.0 - March 2026**
 
@@ -51,5 +63,5 @@ Version history for the Conversational Integration with Apple Messages for Busin
     ServiceNow Conversational Integration with Apple Messages for Business enables brands to engage with their customers using Apple Messages for Business.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

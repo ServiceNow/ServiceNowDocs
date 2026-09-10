@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Analytics Library Recommendations release notes
@@ -20,5 +20,5 @@ Version history for the ServiceNow® Analytics Library Recommendations applicati
     -   Analytics Library recommendations helps Analytics Managers maintain healthy analytics ecosystems by providing tools to monitor, optimize, and manage analytics libraries effectively. This solution ensures that libraries remain up-to-date, efficient, and aligned with organizational goals, reducing technical debt and improving overall performance.
     -   The solution surfaces cleanup recommendations through an in-product panel, enabling action on unused artifacts, duplicates, and orphaned content.
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

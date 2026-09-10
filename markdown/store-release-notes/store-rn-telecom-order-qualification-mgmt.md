@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-qualification-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Order Qualification Management release notes
@@ -17,6 +17,22 @@ Version history for the Order Qualification Management on the Order Qualificatio
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.2.1 - September 2026 \(Australia\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 4.8.0 - September 2026 \(Zurich\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 5.0.1 - August 2026 \(Australia\)**
+
+    Minor performance improvements and defect fixes
+
+-   **Version 4.7.1 - August 2026 \(Zurich\)**
+
+    Minor performance improvements and defect fixes
 
 -   **Version 4.5.6 - June 2026 \(Australia\)**
 
@@ -46,5 +62,5 @@ Version history for the Order Qualification Management on the Order Qualificatio
         -   Features to manage service qualification requests
         -   Support for triggering outbound service qualification requests to external systems
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

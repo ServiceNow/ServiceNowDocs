@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Document Intelligence Admin release notes
@@ -68,5 +68,5 @@ Version history for the Document Intelligence Admin application on the ServiceNo
     Document Intelligence Admin provides a new administration experience for Document Intelligence. Built on the Next experience, it provides a better user experience for process owners to set up, configure, and monitor their document processing solutions​.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Document Template integration with Digital Signatures using Smart Cards release notes
@@ -35,5 +35,5 @@ Version history for the Document Template integration with Digital Signatures us
     With this ServiceNow application, you can create PDF document templates to generate standard letters or documents and enable the digital signature capability of Smart Cards with Document Template.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

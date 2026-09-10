@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # WSD - Advanced release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® WSD - Advanced application on the ServiceNo
     Workplace Service Delivery - Advanced extends the ServiceNow Workplace Service Delivery Foundation tier with Workplace Experience capabilities. Supporting employees, guests, and workplace teams with conversational experiences or agentic workflows, working side-by-side with them.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

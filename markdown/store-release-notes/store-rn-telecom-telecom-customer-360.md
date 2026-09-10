@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-telecom-customer-360.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Telecommunications Customer 360 release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Telecommunications Service Management release no
 Version history for the ServiceNow® Telecommunications Customer 360 application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 3.1.0 - September 2026**
+
+    Changed: Include Party relationship Center for C360
+
+-   **Version 3.0.4 - August 2026**
+
+    Creation of C360 as a component
 
 -   **Version 2.0.1 - June 2026**
 
@@ -29,5 +37,5 @@ Version history for the ServiceNow® Telecommunications Customer 360 application
     Telecommunications Customer 360 provides our service desk agents\(L1,L2, L3\) a single pane of glass across interaction, cases and complaints for quick resolution by getting complete customer context along with some insights and action for quick resolution. It will support the pre built workflows for billing, case and complaint journeys along with AI insights on customer sentiment, NPS, Churn. Telecommunications Customer 360 provides Order management and MACD flows.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

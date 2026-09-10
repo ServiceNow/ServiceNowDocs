@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-proactive-customer-service-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Proactive Customer Service Operations release notes
@@ -17,6 +17,13 @@ Version history for the Proactive Customer Service Operations application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 25.2.2 - September 2026**
+    -   New: Added support for proactive major case creation, child case routing, and recipient list management for Business Organizations, extending the existing account-based proactive customer service capabilities to the Business Organization persona.
+    -   Changed: The internal implementation has been updated. There is no functional or behavioral impact, and no customer action is needed.
+-   **Version 25.1.1 - August 2026**
+
+    Fixed: Fixed csm\_evt\_mgmt\_stakeholder role to support both new and existing install base customers.
 
 -   **Version 25.1.0 - July 2026**
     -   Changed:

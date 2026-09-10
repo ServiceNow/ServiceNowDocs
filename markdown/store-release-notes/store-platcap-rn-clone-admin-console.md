@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-clone-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-08-06"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Clone Admin Console release notes
@@ -18,6 +18,11 @@ Version history for the Clone Admin Console application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.3.0 - August 2026**
+    -   New:
+        -   Enhanced authentication:Clone Admin Console now uses OAuth-based authentication. When you place your next clone, a guided experience automatically prompts you to set up the new mechanism between your instances.
+        -   Cleanup Script status: You can now view the status of your cleanup scripts. With Multi-Instance View enabled, the status appears on the clone status page of the source instance.
+    -   Changed: Clone Request page: The page now warns you if a clone profile overrides the target instance selection.
 -   **Version 2.2.0 - May 2026**
     -   New:
         -   Instance Overview Page: The Instance Overview page now displays last-cloned timestamps for each instance, enabling you to quickly identify stale environments and prioritize update activities.

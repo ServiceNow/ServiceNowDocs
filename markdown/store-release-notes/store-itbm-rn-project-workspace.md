@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-project-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 16
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Project Workspace release notes
@@ -18,6 +18,40 @@ Version history for the Project Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.6.2 - September 2026**
+    -   New:
+        -   Doc templates now support dynamic content, similar to status reports, with two default templates that use dynamic fields: Project Charter and Project Closeout.
+        -   Lists are now available in the L1 menu of Project Workspace.
+        -   The My Demands widget is added to the Employee Slate canvas. Requesters can add the My Demands widget to their Employee Slate canvas to track the state of their demands.
+        -   Requesters can view and track all demands they created from the My Demands widget, filter them by state, and open them in the standard demand tracking experience.
+        -   When a demand is converted to an execution artifact such as a project, epic, or story, requesters can view its high-level status, planned and actual end dates, and last update in the Execution Tracking widget.
+        -   The demand details page now includes the Lifecycle tracker, Activity, Attachments, and Edit tabs, so requesters can review the demand lifecycle and activity history, open attachments, and edit key fields from the standard ticket page.
+        -   Demands submitted by requesters appear in the My Requests list alongside their other requests, with a consistent state and status display.
+        -   You can now edit project details in the list view of the home page.
+        -   The Financials tab in Project Workspace now saves your timescope selection and restores it when you return to the project, retaining it for your 50 most recently accessed projects by default and up to 200 when configured by an administrator.
+        -   Administrators can now configure Strategic Portfolio Management financials through the Implementation Accelerator guided setup, which covers labor cost plans, labor cost types, budget allocation, financial baselines, currency settings, investment object linkage, cost plan breakdown rollups, and fiscal calendar issues.
+        -   Info icons on the Financials page explain key fields and calculations, including planned cost, budget, EAC, return, ROI, and NPV, directly within each widget.
+        -   SPM configuration setup now includes an updated Financials guided setup wizard to help administrators configure all required financials settings efficiently.
+    -   Changed:
+        -   Projects with more than 2,000 tasks now load through concurrent batch calls, which reduces load times and improves responsiveness.
+        -   The task planner now supports planned effort rollup with consistent rollup logic, Actual Effort fields are always read-only, and maximum units are supported based on your configuration.
+        -   Project managers can now edit parent task constraint dates from the task planner, and child task start dates honor both the parent and child constraints.
+        -   Errors in the resource assignment auto-sync flow are now logged with stack traces for easier troubleshooting.
+        -   Project Diagnostics and Save as New Template are now available on the Planning page in Project Workspace, along with modal validation and navigation improvements.
+        -   When you edit and save a single row in the financials cost and benefit grid, only that row refreshes instead of the entire grid, and the row is locked until the save completes on the server, on both the month and year timescales.
+        -   Project managers and planning item owners can now recalculate planned cost and benefit values against updated budget reference rates across all relevant breakdowns, with confirmation dialogs and a loading overlay to show progress, and the previous Recalculate resource cost action is hidden to avoid duplication.
+-   **Version 7.5.0 - August 2026**
+    -   New:
+        -   Users can now customize L2 menu items in Project Workspace. Users are able to personalize the L2 menu without system issues, and their customization settings persist across sessions. When enabled by an administrator, the legacy RIDAC page is hidden to streamline navigation. Customization applies consistently for all users with appropriate permissions.
+        -   Project managers can view connected tasks and stories inline in the Planner tab. Connected CWM tasks and stories now display as child rows under each project task in the Planner, with standard columns shown and collapsible rows. Inline editing is disabled for these child tasks; edits can be made in the form view as permitted.
+        -   A toggle button is now available in Project Workspace settings to show or hide connected tasks. By default, the toggle is turned on, displaying all CWM and Project Workspace tasks. Turning it off hides connected tasks from view.
+    -   Changed:
+        -   Performance improvements have been made to AI-generated status reports. Status report generation now runs asynchronously, resulting in faster performance for the health widget and executive summary widget in In-App insights.
+        -   All customer-facing SPM product documentation now uses the "ServiceNow Otto" name. References to "Now Assist," "Moveworks," and "AI Experience" have been updated to "ServiceNow Otto" in documentation, following the Otto Naming Guidelines.
+    -   Fixed:
+        -   Changes made in the Project Workspace Planning tab are now retained after refreshing the page. Previously, updates could be lost due to errors in handling planning attributes; this has been resolved.
+        -   The Status Report UI Action now opens the correct page without errors. The routing logic has been updated to ensure the status report page loads as expected.
+        -   Export logs from the Project Workspace now correctly indicate whether the export was performed from the Planning or Financials page, improving traceability.
 -   **Version 7.4.1 - July 2026**
 
     Changed: New RIDAC List view: Experience a more streamlined RIDAC with three dedicated views:AI-Identified Risks \(Project Risk Detection\),RIDAC by Type with separate tabs for each RIDAC type, and the completeAll RIDAC overview. The new presentation list layout replaces the flat grid, making records easier to browse, organize, and manage.
@@ -293,5 +327,5 @@ Version history for the Project Workspace application on the ServiceNow Store.
             -   Display and compare up to two baselines at same time
             -   Attach files and chat with stakeholders within planning console
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-data-privacy.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Privacy release notes
@@ -17,6 +17,14 @@ Version history for the Data Privacy application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.0.2 - September 2026**
+
+    New: Admins can now select child tables from different scopes when configuring policies. This enables more flexible policy management across parent and inherited child tables, allowing separate handling of inherited child table fields.
+
+-   **Version 8.1.4 - August 2026**
+
+    \*RTA not supporting selection of child tables from different scopes other than the scope of the policy\*All columns selected from parent automatically apply to children \(Need to add support for handling inherited child table field separately\)
 
 -   **Version 8.1.1 - March 2026**
     -   Real-time alerting and blocking of sensitive data: Analyze user input in real time at the field level to identify sensitive data and alert users about potential sensitive data entry. You can also choose to block users from saving this information.

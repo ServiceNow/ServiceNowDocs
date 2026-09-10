@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-sales-agreement-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sales Agreement Data Model release notes
@@ -17,6 +17,14 @@ Version history for the CSM Sales Agreement Data Model application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.3.1 - September 2026**
+
+    Fixed minor defects.
+
+-   **Version 8.3.0 - August 2026**
+
+    New: Sales Agreement Core now supports Fluent TypeScript. The sales agreement data model app has been converted to Fluent TypeScript, enabling improved maintainability and future extensibility. All legacy XML records have been replaced with Fluent files, and the app is fully compatible with the latest build and test infrastructure.
 
 -   **Version 8.1.0 - June 2026**
 

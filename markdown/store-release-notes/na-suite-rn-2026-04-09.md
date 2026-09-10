@@ -927,7 +927,7 @@ Dynamic Guidance
 
 </td></tr><tr><td>
 
-External content connectors - Now assist agent
+External content connectors - Now Assist agent
 
 </td><td>
 
@@ -3489,7 +3489,7 @@ This app does not have built-in features. For key features, please see Enterpris
 
 </td></tr><tr><td>
 
-External content connectors - Now assist agent
+External content connectors - Now Assist agent
 
 </td><td>
 

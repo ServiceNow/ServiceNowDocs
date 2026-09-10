@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Oracle Peoplesoft Financial spoke release notes
@@ -42,5 +42,5 @@ Version history for the Oracle Peoplesoft Financial spoke on the ServiceNow Stor
     -   The Oracle Peoplesoft Financial spoke provides a list of actions that interact with PeopleSoft SOAP APIs. It provides the foundation to synchronize ServiceNow and PeopleSoft, such as create PO, update PO, create a journal entry, create invoices, create goods receipts, and so on.
     -   Given that PeopleSoft is a highly customizable system, Oracle Peoplesoft Financial spoke also showcases the design pattern that can support more PeopleSoft APIs beyond what are out of the box.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

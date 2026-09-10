@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-asset-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 24
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Asset Management release notes
@@ -18,6 +18,20 @@ Version history for the ITAM Enterprise Asset Management application on the Serv
 
 ## Version history
 
+-   **Version 11.0.0 - September 2026**
+    -   New:
+        -   Added AI-assisted asset and model import capabilities for enterprise models and assets.
+        -   Added AI-powered column mapping and value mapping to simplify onboarding asset and model data from external sources.
+        -   Added validation and review capabilities prior to import to help reduce data quality issues.
+        -   Added seeded asset and model import templates with guided instructions, reference data, and validation guidance.
+    -   Changed:
+        -   Replaced generated enterprise model and asset import templates with improved seeded import templates.
+        -   Simplified the bulk import experience with enhanced guidance and import preparation resources.
+    -   Removed: Removed reliance on generated enterprise model and asset import templates in favor of seeded templates.
+-   **Version 10.0.3 - September 2026**
+    -   New:
+        -   CS table \(sn\_eam\_cd\_lifecycle\_definition\) uses 'cd\_model\_number' while GOLD \(eamc\_cd\_lifecycle\_definition\) uses 'cd\_product\_model', so the field isn't populated when pushed from CS to GOLD.
+        -   Converted GlideRecord to GlideRecordSecure for all impacted flows using the getFilterQuery extension: AssetsAffectedFilterUtil, EAMDisposableAssetFilterUtil, EAMMoveAssetFilterUtil, EAMModelSubstituteFilterUtil, EAMResaleAssetFilterUtil, EAMAssetCoveredForInsuranceContract, EAMAssetsCoveredFilterUtil.
 -   **Version 10.0.2 - July 2026**
 
     New: Added new resource categories in EAM to support licensing requirements.

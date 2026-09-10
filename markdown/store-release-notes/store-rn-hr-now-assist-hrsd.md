@@ -1,23 +1,32 @@
 ---
-title: Now Assist for HRSD release notes
-description: Version history for the Now Assist for HRSD on the ServiceNow Store.
+title: ServiceNow Otto for HRSD release notes
+description: Version history for the ServiceNow Otto for HRSD on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-hrsd.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for HRSD release notes
+# ServiceNow Otto for HRSD release notes
 
-Version history for the Now Assist for HRSD on the ServiceNow Store.
+Version history for the ServiceNow Otto for HRSD on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 13.5.2 - September 2026**
+
+    AICT positive feedback reporting for Now Assist Skills
+
+-   **Version 13.4.1 - August 2026**
+    -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNowworkflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    -   New Skills released:Activity Response Generation skill:
+        -   Actions surface in case record: Suggest response, Post response, Refine
+        -   "Suggest a response" generates a relevant, non-empty AI response for an HR case with sufficient activity context
 -   **Version 13.3.2 - July 2026**
 
     Changed: Skills have been migrated to use 3P models by default.

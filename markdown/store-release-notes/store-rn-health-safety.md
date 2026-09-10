@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Health and Safety release notes
+title: ServiceNow Store - Health and Safety version history release notes
 description: The ServiceNow Store contains Health and Safety applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-health-safety.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Health and Safety release notes
+# ServiceNow Store - Health and Safety version history release notes
 
 The ServiceNow Store contains Health and Safety applications.
 
@@ -41,5 +41,5 @@ Version history for the Health and Safety Incident Management PA Content Pack on
 -   **[Health and Safety Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-health-safety-risk-mgmt.md)**  
 Version history for the Health and Safety Risk Management application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
+**Parent Topic:**[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
 

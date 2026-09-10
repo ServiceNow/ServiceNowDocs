@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-github-app-vuln-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Github Application Vulnerability Integration release notes
@@ -17,6 +17,22 @@ Version history for the Github Application Vulnerability Integration application
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.2.8 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue with the GitHub Dependabot integration that created two separate, independently-tracked application vulnerable items \(AVITs\) for the same underlying security advisory. One was based on the GitHub Advisories \(GHSA\) identifier, the other on the CVE identifier in cases when GitHub later attached a CVE to an advisory originally reported with a GHSA ID. The GHSA and CVE entries are now linked, and the duplicate GHSA-identified item is automatically closed if a corresponding CVE-identified item exists for the same application.
+        -   An issue with the GitHub Organizations Integration that failed for every customer configuration using OAuth authentication. A non-actionable error was displayed, “SyntaxError: Unexpected token: u”. An existing configured organization is now returned directly for Organisation-type configurations. Customers using OAuth-based GitHub integrations can now run this scheduled job successfully as expected.
+-   **Version 2.4.8 - September 2026**
+    -   Fixed:
+        -   An issue with the GitHub Dependabot integration that created two separate, independently-tracked application vulnerable items \(AVITs\) for the same underlying security advisory. One was based on the GitHub Advisories \(GHSA\) identifier, the other on the CVE identifier in cases when GitHub later attached a CVE to an advisory originally reported with a GHSA ID. The GHSA and CVE entries are now linked, and the duplicate GHSA-identified item is automatically closed if a corresponding CVE-identified item exists for the same application.
+        -   An issue with the GitHub Organizations Integration that failed for every customer configuration using OAuth authentication. A non-actionable error was displayed, “SyntaxError: Unexpected token: u”. An existing configured organization is now returned directly for Organisation-type configurations. Customers using OAuth-based GitHub integrations can now run this scheduled job successfully as expected.
+-   **Version 30.2.4 - August 2026 \(USEM\)**
+
+    Fixed: An issue where the GitHub Dependabot and Secret Scanning integrations incorrectly swapped the First Found and Last Found dates for vulnerabilities. These dates now correctly reflect when a vulnerability was first discovered and most recently detected.
+
+-   **Version 2.4.4 - August 2026**
+
+    Fixed: An issue where the GitHub Dependabot and Secret Scanning integrations incorrectly swapped the First Found and Last Found dates for vulnerabilities. These dates now correctly reflect when a vulnerability was first discovered and most recently detected.
 
 -   **Version 30.2.1 - June 2026\(USEM\)**
     -   The following enhancements and changes support internal security directives:
@@ -88,5 +104,5 @@ Version history for the Github Application Vulnerability Integration application
     Integrate your Veracode deployment with ServiceNow Vulnerability Response to prioritize and remediate application vulnerabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jenkins-v2-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Jenkins v2 spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub Jenkins v2 spoke on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.4.1 - August 2026**
+
+    Fixed: multiple security vulnerabilities in the Jenkins V2 webhook endpoint including a timing oracle on jenkinsKey, an AND→OR validation logic bug enabling bypass attacks, and missing field length validation
 
 -   **Version 1.4.0 - June 2026**
 
@@ -55,5 +59,5 @@ Version history for the Integration Hub Jenkins v2 spoke on the ServiceNow Store
     -   The Integration Hub Jenkins v2 spoke helps to get the necessary build information from the continuous integration pipeline which can be stored in ServiceNow to understand build statistics over time. The data retrieved from Jenkins can then be curated, and additional workflows can be kicked off based on the policies defined.
     -   The Jenkins spoke can also be used for job and build management. For example, you can create a Jenkins job and initiate a build from your ServiceNow instance.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

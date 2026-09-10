@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Incident Response release notes
@@ -18,6 +18,16 @@ Version history for the Security Operations Security Incident Response on the Se
 
 ## Version history
 
+-   **Version 14.4.0 - September 2026**
+    -   Fixed:
+        -   Restricted 'Create Security Incident' UI action visibility for ITIL users without access.
+        -   Fixed Restricted Caller Access warning on SecurityIncidentUtils execution.
+-   **Version 14.1.5 - August 2026**
+    -   Fixed:
+        -   Fixed an issue where analysts could not interact with Overview tab widgets or closure modal links in the Security Incident Response Workspace.
+        -   Fixed an issue where the Configure button on the Post Incident Review Assessments Setup page did not respond due to a client-script error.
+        -   Improved accessibility by ensuring screen reader users are notified when a quick link is added on the Security Incident Response Workspace home page \(WCAG 3.2.2 compliance\).
+        -   Fixed an issue in the Security Operations Integration - Publish to Watchlist V1 integration flow where a single Capability Implementation input incorrectly triggered execution of all active implementations.
 -   **Version 14.1.2 - July 2026**
 
     Fixed: External users couldn't open a security incident from a response task due to a GlideRecordSecure access-control restriction.

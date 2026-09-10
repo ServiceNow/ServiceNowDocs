@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Mobile Time Sheets release notes
@@ -53,5 +53,5 @@ Version history for the Mobile Time Sheets on the ServiceNow Store.
     The Mobile Time Sheet app enables time sheet users and managers to access their time sheets from a mobile device. Time sheet users can use the app to create, view, edit, enter notes, and submit their time cards from their mobile device. Time sheet project or user managers can view, approve, reject or recall a time sheet or time card from their mobile device.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

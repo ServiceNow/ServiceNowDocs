@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-service-case-types.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Service Case Types release notes
@@ -18,6 +18,10 @@ Version history for the Customer Service Case Types application on the ServiceNo
 
 ## Version history
 
+-   **Version 4.5.3 - September 2026**
+    -   Changed:
+        -   1. Enhancements to service definition handling and access control to improve form customization and maintain security across dependent plugins.
+        -   2. Added support for configuring form views per service to optimize case intake experiences.
 -   **Version 4.4.1 - July 2026**
 
     Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
@@ -50,5 +54,5 @@ Version history for the Customer Service Case Types application on the ServiceNo
     The Customer Service Case Types application enables customers to manage complex case processes by defining new case types. A case type represents an individual business process and is a collection of diverse inputs and tasks that an agent performs to resolve customer requests.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

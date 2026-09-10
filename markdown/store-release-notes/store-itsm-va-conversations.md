@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itsm-va-conversations.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM Virtual Agent Conversations release notes
@@ -18,6 +18,12 @@ Version history for the ServiceNow® ITSM Virtual Agent Conversations on the Ser
 
 ## Version history
 
+-   **Version 9.3.5 - September 2026**
+    -   Fixed:
+        -   Broken actionable notification content for Knowledge Base approval.
+        -   HTML sanitization in the Check IT Ticket Status topic template.
+        -   Fixed the error message issue in the Collaboration Applications Virtual Agent topic when raising a ticket with a description.
+        -   Contextual Search behavior when search queries return fewer than three results.
 -   **Version 9.3.2 - March 2026**
 
     Fixed: GlideDateTime objects display inconsistent date formats when queried across different records in the same table.
@@ -264,5 +270,5 @@ Version history for the ServiceNow® ITSM Virtual Agent Conversations on the Ser
         -   Pre-built Predictive Intelligence clustering solution definitions to help identify ITSM Virtual Agent conversations that can best support your business.
         -   ITSM Virtual Agent notifications to automatically notify users on the status of incidents and requests. Full release notes can be found below. https://docs.servicenow.com/bundle/paris-release-notes/page/release-notes/it-service-management/itsm-virtual-agent-rn.html
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

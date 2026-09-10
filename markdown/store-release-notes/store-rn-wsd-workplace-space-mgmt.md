@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-space-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Space Management release notes
@@ -17,6 +17,14 @@ Version history for the Workplace Space Management application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.20.21 - September 2026**
+
+    Fixed: Translation strings throughout the Space Management application now display correctly across all supported languages.
+
+-   **Version 1.20.13 - August 2026**
+
+    Security fixes
 
 -   **Version 1.20.5 - July 2026**
     -   Fixed:

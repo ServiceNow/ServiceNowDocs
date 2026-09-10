@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Workspace release notes
@@ -42,5 +42,5 @@ Version history for the ServiceNow® Cloud Workspace application on the ServiceN
     -   In addition to automation, CAM brings business context to cloud operations by linking cloud accounts to application services and business applications. This improves transparency and helps stakeholders understand how cloud usage supports broader business goals.
     -   Overall, Cloud Workspace with Cloud Account Management empowers IT teams to manage cloud accounts at scale, improve compliance, and deliver cloud services more efficiently using automation and dashboards designed for both cloud managers and account owners.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

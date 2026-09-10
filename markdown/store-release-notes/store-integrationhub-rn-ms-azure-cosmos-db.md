@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-11-07"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Azure Cosmos DB Spoke release notes
@@ -52,5 +52,5 @@ Version history for the Microsoft Azure Cosmos DB Spoke on the ServiceNow Store.
     New: Provides actions to automate the management of database accounts and Core SQL, Cassandra, and MongoDB in Azure.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

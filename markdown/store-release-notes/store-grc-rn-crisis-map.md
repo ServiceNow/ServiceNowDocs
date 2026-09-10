@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-crisis-map.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Crisis map release notes
@@ -17,6 +17,10 @@ Version history for the GRC: Crisis map application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.5 - September 2026 \(Brazil\)**
+
+    Fixed: Crisis Map Performance Optimization - Dismissed alerts now load efficiently using a 30-day default window. Administrators can extend the time range as needed to optimize Crisis Map loading performance.
 
 -   **Version 11.0.1 - June 2026 \(Australia\)**
     -   Fixed:
@@ -76,5 +80,5 @@ Version history for the GRC: Crisis map application on the ServiceNow Store.
         -   Notify the stakeholders responsible for the impacted assets
         -   Declare Crisis Events to be tracked in BCM to monitor the recovery progress
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

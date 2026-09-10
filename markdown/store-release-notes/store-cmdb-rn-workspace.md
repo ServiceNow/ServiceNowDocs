@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 14
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CMDB Workspace release notes
@@ -18,6 +18,26 @@ Version history for the CMDB Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.6.0 - September 2026**
+    -   New:
+        -   Welcome to ServiceNow Otto, the new name for Now Assist!
+        -   Support for 400% zoom in web browsers.
+    -   Changed: Show dependency maps in Unified Map for specific Service Instance CI classes, instead of using service maps.
+    -   Fixed:
+        -   Various CMDB Data Manager performance and quality issues.
+        -   Various Data Certification quality issues.
+        -   CMDB Workspace and CI Form quality issues.
+        -   Various internationalization issues.
+-   **Version 9.3.0 - August 2026**
+    -   New:
+        -   Welcome to ServiceNow Otto, the new name for Now Assist!
+        -   Support for 400% zoom in web browsers.
+    -   Changed: Show dependency maps in Unified Map for specific Service Instance CI classes, instead of using service maps.
+    -   Fixed:
+        -   Various CMDB Data Manager performance and quality issues.
+        -   Various Data Certification quality issues.
+        -   CMDB Workspace and CI Form quality issues.
+        -   Various internationalization issues.
 -   **Version 9.2.2 - July 2026**
     -   Fixed:
         -   The 'Edit' button is now enabled when a CMDB Data Manager task contains only one CI to review, allowing users to make necessary edits without restriction.

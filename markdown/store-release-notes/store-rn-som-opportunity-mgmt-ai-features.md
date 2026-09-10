@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Opportunity Management AI Features release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® Opportunity Management AI Features applicat
     Opportunity Management AI Features embeds intelligence directly into the sales workflow — helping reps spend less time on manual CRM work and more time closing deals. This app serves as the home for AI-powered capabilities across the opportunity lifecycle, from natural language record management to summaries and beyond.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

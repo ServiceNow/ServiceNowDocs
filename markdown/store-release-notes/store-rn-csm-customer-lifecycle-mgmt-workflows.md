@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-lifecycle-mgmt-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Life Cycle Management Workflows release notes
@@ -18,6 +18,22 @@ Version history for the Customer Life Cycle Management Workflows application on 
 
 ## Version history
 
+-   **Version 5.5.5 - September 2026**
+    -   New: Related parties from an Order \(Bill-To, Ship-To, Sold-To, Entitled-To, Partner, End Customer, Installed At\) are now automatically copied to the Sold Product created from it.
+    -   Fixed:
+        -   Impact lines are now correctly updated during change order to sold product flows.
+        -   Contract PI DSR orders now correctly carry currency instead of being created undefined.
+        -   The original line item now correctly populates on quote line items in Sold Product to Quote workflows.
+        -   Renewal quotes now correctly support creating RAMP lines.
+        -   Reconfiguring a cancelled or disconnected renewal line back to a nonzero quantity now shows the correct price.
+        -   Pricing adjustments on sold products are now correctly updated during quote change flows instead of creating duplicates.
+        -   Quote Line actions now resolve correctly when a derived-price product and its contributing product share the same wrapper.
+        -   Ramp target lines in the Amend flow are no longer incorrectly flagged as Amend-Add when no source line changes were made.
+-   **Version 5.4.92 - August 2026**
+    -   Fixed:
+        -   Improved reliability of reconfiguring renewed lines that include ramps.
+        -   Pricing adjustments on sold products are now correctly updated during quote change flows instead of creating duplicates.
+        -   Cancelled lines are no longer incorrectly included as negative pricing adjustments.
 -   **Version 5.4.65 - July 2026**
     -   Following defects are fixed:
         -   Ramp schedules were lost when upsell quotes were edited or created.
@@ -98,5 +114,5 @@ Version history for the Customer Life Cycle Management Workflows application on 
     Provides workflows to manage the life cycle of sold products by updating their configurations and to suspend, resume, and disconnect the sold product to meet customer's business needs.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

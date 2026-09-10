@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Integration with Workday release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® Operational Sustainability Integration with
     Bristlecone Inc. built the Operational Sustainability Integration with Workday application. This integration enables you to automatically import HR data from Workday into Operational Sustainability Management, eliminating the need for manual data collection.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

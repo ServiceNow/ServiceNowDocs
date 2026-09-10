@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational Integration with Facebook Messenger release notes
@@ -59,5 +59,5 @@ Version history for the Conversational Integration with Facebook Messenger on th
         -   Rich text and emojis can be used in the Virtual Agent setup to update conversations in the Facebook Messenger app.
         -   Live agents can use the Text, Card, and Image Output response controls to reply to users.
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

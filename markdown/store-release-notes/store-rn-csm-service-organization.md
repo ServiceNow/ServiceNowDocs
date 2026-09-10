@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-service-organization.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Organization release notes
@@ -16,6 +16,16 @@ Version history for the ServiceNow® Service Organization application on the Ser
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.10.1 - September 2026**
+
+    New: Changes to support the customer data access based on the criteria configured.
+
+-   **Version 2.9.0 - August 2026**
+    -   New:
+        -   An external staff can now view profile details of another external staff at their business location.
+        -   A Service Organization can now be associated  with a Department.
+        -   An External Location Consumer Agent can now resolve cases on behalf of the external organization \(formerly external business location\).
+    -   Fixed: Made Minor fixes in this release.
 -   **Version 2.7.0 - June 2026**
     -   New:
         -   Changes to support Business Org Self Contributor persona
@@ -30,5 +40,5 @@ Version history for the ServiceNow® Service Organization application on the Ser
     -   It integrates with the Customer Service Management data model to represent business units, service centers, and outsourced partners as service organizations or locations.
     -   With this capability, enterprises can model their service delivery footprint, link service teams to accounts and sold products, assign staff members, and provide appropriate access in CSM workflows. This foundation supports role-based access and location-aware case routing and fulfillment.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

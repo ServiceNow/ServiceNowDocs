@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fca-accounts-payable-operations-ariba.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Accounts Payable Operations integration with Ariba release notes
@@ -18,6 +18,10 @@ Version history for the Accounts Payable Operations integration with Ariba appli
 
 ## Version history
 
+-   **Version 0.3.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Ariba data integration and synchronization.
 -   **Version 0.2.0 - December 2025**
     -   Changed: Updated the source configuration to push invoices to SAP ECC.
     -   Fixed: Removed hard-coded timeout values to improve configurability and system flexibility.

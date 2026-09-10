@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-12-07"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Spend dashboard release notes
@@ -35,5 +35,5 @@ Version history for the IT Operations Management Cloud Spend dashboard on the Se
     This dashboard allows IT organizations to understand their total spend on IaaS, PaaS, and SaaS in a single location and get visibility into opportunities to reduce cost.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

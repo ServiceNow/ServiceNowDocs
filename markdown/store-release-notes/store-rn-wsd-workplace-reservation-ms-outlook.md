@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Reservations for Microsoft Outlook Add-in release notes
@@ -104,5 +104,5 @@ Version history for the Workplace Reservations for Microsoft Outlook Add-in appl
         -   You can request extra services along with your reservation based on the available extra services menu card defined by workplace teams for each space. The extra services displayed in the add-in are the same as the ones available directly in the Workplace Service Delivery Suite.
         -   You can update existing reservations, add or change services, and select a different location. You can manage spaces and use the existing reporting tools to understand the demand directly from the Workplace Reservation Management application.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

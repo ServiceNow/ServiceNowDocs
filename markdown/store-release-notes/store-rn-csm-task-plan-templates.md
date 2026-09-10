@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-task-plan-templates.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Task Plan Templates release notes
@@ -18,6 +18,15 @@ Version history for the Task Plan Templates application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 5.0.0 - September 2026**
+    -   Admins and template authors can now configure advanced conditions on template items using referenced fields from parent or target tables. The Template Item Condition table supports both simple and advanced modes, enabling conditions based on related tables and mapping fields. Dynamic field visibility and mandatory validation are enforced, with error messages shown for missing required fields.
+    -   Template authors can now define and propagate three new tracking fields for generated records. Template Item and Template Item Config forms expose item, execution, and business organization tracking fields, allowing authors to configure back-reference tracking for generated records. These fields are visible and editable in the UI, with dependent visibility and updated labels.
+    -   Multi-case task dependencies and document associations are now supported at scale. Dependency relationships and document links are created for all generated records across multiple stores, with optimized insert paths to handle large volumes efficiently. Feature hooks for dependency and document association fire exactly once per execution after all workers finish.
+    -   Clone feature now supports affected stores and dependencies. When cloning a template, all related features—including affected stores, scheduling details, and dependencies—are cloned, ensuring complete plans without manual setup. Cloned dependent tasks are maintained and visible in relevant tables.
+    -   Document references are maintained during task generation and template cloning. Generated tasks refer to documents attached to template items, and cloned templates preserve document associations.
+    -   Cascade confirmation popup added for template item configuration changes. When updating configuration fields, admins are prompted to cascade changes to existing template items, ensuring consistent tracking across linked items.
+    -   Workspace and platform UI layouts updated for advanced condition fields. New fields are added to form and list layouts, with conditional visibility and proper spacing across all views.
+    -   White papers available for multi-case changes and Task Plan Template features. Comprehensive documentation covers design, functionality, and usage for stakeholders.
 -   **Version 4.0.0 - June 2026**
     -   Task Dependencies
         -   TheTemplate Dependencies tab on a task plan template record displays a node-map of dependencies between template items. SelectNew Dependency to create a dependency, and select an edge to edit or delete it. Each edge is labelled with one of the following dependency types:
@@ -52,5 +61,5 @@ Version history for the Task Plan Templates application on the ServiceNow Store.
     A task plan template allows the business user to define repeatable tasks and other items needed to complete a business process. The task plan template consists of template items which include the task definitions along which any child tasks or other related items that need to be created when the task plan template is applied.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

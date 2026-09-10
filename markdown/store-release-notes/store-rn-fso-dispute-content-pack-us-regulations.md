@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-content-pack-us-regulations.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Dispute Content Pack for US Regulations release notes
@@ -17,6 +17,10 @@ Version history for the Dispute Content Pack for US Regulations application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.0 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.3.0 - July 2026**
 

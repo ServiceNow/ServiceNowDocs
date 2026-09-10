@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Order Management release notes
@@ -17,6 +17,22 @@ Version history for the Order Management application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 18.3.3 - September 2026 \(Australia\)**
+
+    Order Management now introduces a configurable Order Milestones framework, giving customers a standardized way to track key checkpoints across the order lifecycle — from initiation through fulfillment to closure.
+
+-   **Version 17.5.6 - September 2026 \(Zurich\)**
+
+    Order Management now introduces a configurable Order Milestones framework, giving customers a standardized way to track key checkpoints across the order lifecycle — from initiation through fulfillment to closure.
+
+-   **Version 18.2.2 - August 2026 \(Australia\)**
+
+    Minor performance improvements and defect fixes
+
+-   **Version 17.3.3 - August 2026 \(Zurich\)**
+
+    Minor performance improvements and defect fixes
 
 -   **Version 18.1.0 - July 2026 \(Australia\)**
 
@@ -96,5 +112,5 @@ Version history for the Order Management application on the ServiceNow Store.
     Order Management is a dynamic catalog-based system that captures, improves, and oversees the complete lifecycle of product and service orders. It efficiently handles order orchestration, data enrichment, and decomposition to ensure accurate and timely fulfillment.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

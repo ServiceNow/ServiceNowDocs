@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-virtual-agent-topic-recommendations.html
 release: store
 topic_type: reference
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Virtual Agent Topic Recommendations release notes
@@ -18,6 +18,10 @@ Version history for the Virtual Agent Topic Recommendations on the ServiceNow St
 
 ## Version history
 
+-   **Version 4.5.9 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   NLU deprecation banner now displays on the Topic Recommendations configuration page.
+        -   Navigation: Conversational Interfaces &gt; Settings &gt; Virtual Agent &gt; Topic Recommendations section &gt; Topic Recommendation Configuration &gt; View All
 -   **Version 4.5.5 - August 2024 \(Xanadu\)**
 
     Dependency update for security.
@@ -70,5 +74,5 @@ Version history for the Virtual Agent Topic Recommendations on the ServiceNow St
     Fixed: Minor fixes.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

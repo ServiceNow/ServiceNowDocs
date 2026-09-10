@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-sourcing-purchasing-automation.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sourcing and Purchasing Automation release notes
@@ -18,6 +18,29 @@ Version history for the Sourcing and Purchasing Automation application on the Se
 
 ## Version history
 
+-   **Version 11.7.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console provides a guided experience for configuring Procurement Case Management items, including completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple administrative tools and locations.
+        -   The administrative experience is now consistent across Product Hub and Configuration Console.
+        -   Semantic configurations are now aligned with the applications that own the associated data tables.
+-   **Version 11.3.1 - September 2026 \(Zurich\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console provides a guided experience for configuring Procurement Case Management items, including completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple administrative tools and locations.
+        -   The administrative experience is now consistent across Product Hub and Configuration Console.
+-   **Version 11.4.5 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Resolved a scoping issue that could allow cross-record access under specific configurations.
+        -   Applied security hardening to address CVE-2025-3648.
 -   **Version 11.4.1 - June 2026 \(Australia\)**
 
     Changed: Remediated non‑Glide Cobalt Raven ACLs in product code \(DIRS0000421\).
@@ -143,5 +166,5 @@ Version history for the Sourcing and Purchasing Automation application on the Se
         -   Updated the auditability for purchase approvals to show self-approved purchases, where the shopper or employee has the authorized purchasing power to self-approve their own purchases. This is a change to the approval plans to show self-approved purchases.
         -   Minor fixes to improve the ability to award single-supplier negotiations.
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

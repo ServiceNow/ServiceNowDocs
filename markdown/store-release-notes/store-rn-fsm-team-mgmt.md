@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-team-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Team Management for Field Service release notes
@@ -17,6 +17,10 @@ Version history for the Team Management for Field Service on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.0.8 - September 2026**
+
+    Performance and reliability improvements
 
 -   **Version 7.1.0 - June 2026**
 
@@ -51,5 +55,5 @@ Version history for the Team Management for Field Service on the ServiceNow Stor
     Team Management enables Managers to monitor and measure the performance goals, schedules, tasks and other activities for the groups they manage. Field Service managers can drive engagement and efficiency, ensuring their respective groups are operating at peak performance and delivering positive customer outcomes.
 
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

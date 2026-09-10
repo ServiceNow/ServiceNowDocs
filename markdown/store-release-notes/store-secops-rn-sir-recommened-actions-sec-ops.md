@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Recommended Actions for Security Operations release notes
@@ -58,5 +58,5 @@ Version history for the Recommended Actions for Security Operations application 
     This application leverages GenAI capabilities to generate recommended actions for resolving incidents efficiently, eliminating the need to consult multiple closed incidents or KB articles.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

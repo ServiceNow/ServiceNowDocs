@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-etl.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # IntegrationHub ETL release notes
@@ -18,6 +18,10 @@ Version history for the ServiceNow AI Platform capabilities IntegrationHub ETL a
 
 ## Version history
 
+-   **Version 3.6.0 - September 2026**
+    -   New:
+        -   Integration Hub ETL now supports reflow and accessibility at 400% zoom.
+        -   Dynamic IRE Adoption banner messages
 -   **Version 3.4.0 - June 2026**
 
     New: Integration Hub ETL is now WCAG2.2 and WCAG2.2AA compliant. Improvements include removal of extra spaces between menu items, addition of required children to ARIA roles, fixes for accessibility warnings, and removal of unnecessary scroll bars. Integration Hub ETL now supports reflow, allowing content to be zoomed up to 400% in a browser without loss of content or functionality. Page layouts automatically transform into a vertical, stacked view at 400% zoom. This update benefits users with low vision and those working across varied devices and environments.
@@ -105,5 +109,5 @@ Version history for the ServiceNow AI Platform capabilities IntegrationHub ETL a
         -   Ability to create a new transform for an attribute from a higher level menu dropdown, to improve user experience.
     -   Fixed: A number of usability related issues were addressed.
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

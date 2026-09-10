@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Table Builder for App Engine release notes

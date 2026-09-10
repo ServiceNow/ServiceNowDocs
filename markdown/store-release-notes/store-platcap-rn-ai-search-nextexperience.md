@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-search-nextexperience.html
 release: store
 topic_type: reference
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Search for Next Experience release notes
@@ -17,6 +17,10 @@ Version history for the AI Search for Next Experience on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - September 2026**
+
+    Fixed: Improper logging during Zing to AIS migration has been resolved. When a search source with an invalid condition fails to migrate, the system now logs the error accurately.
 
 -   **Version 5.0.2 - February 2026**
     -   Fixed:
@@ -85,5 +89,5 @@ Version history for the AI Search for Next Experience on the ServiceNow Store.
             -   Allow one click to turn on AI Search for Next Experience for global search and configurable workspaces.
         -   Added Direct to List View to pass search query from search to the List View when viewing search results for one tabletest.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Team Performance release notes
@@ -83,5 +83,5 @@ Version history for the ITSM Team Performance application on the ServiceNow Stor
     Get insights into your teams' performance and analyze anomalies or bottlenecks within the process when you drill down into KPIs.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

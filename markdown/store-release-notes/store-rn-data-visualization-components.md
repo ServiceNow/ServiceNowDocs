@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Visualization components release notes

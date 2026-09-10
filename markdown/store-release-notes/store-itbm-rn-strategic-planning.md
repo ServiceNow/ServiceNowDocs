@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-strategic-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 25
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 28
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Strategic Planning release notes
@@ -18,6 +18,42 @@ Version history for the Strategic Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.18.0 - September 2026**
+    -   New:
+        -   Status is automatically calculated for targets based on a configurable threshold system property, and rolls up from targets to goals.
+        -   Access portfolio risks, issues, decisions, actions, and changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page.
+        -   Access program planning views from the new Programs menu. Select any program to open its dedicated plan with Prioritization, Roadmap, Kanban, and Financials views.
+        -   Added automated email notifications for scenario approval.
+        -   The My Demands widget is added to the Employee Slate canvas. Requesters can add the My Demands widget to their Employee Slate canvas to track the state of their demands.
+        -   Requesters can view and track their demands directly from the My Demands widget. The widget lists all demands created by the requester, with filters by state and links to the standard demand tracking experience.
+        -   When a demand is converted to an execution artifact, such as a project, epic, or story, requesters can view high-level status, planned and actual end dates, and the last update from the Execution Tracking widget.
+        -   The demand details page includes the lifecycle tracker, activity, attachments, and edit tabs. Requesters can view the demand lifecycle, activity history, attachments, and edit key fields from the standard ticket page.
+        -   Demands submitted by requesters appear in the My Requests list, alongside other requests, with consistent state and status display.
+        -   Financial widgets have info icons explaining the values and how the calculation is done.
+-   **Version 4.17.0 - August 2026**
+    -   New:
+        -   Track Risks, Issues, Decisions, Actions, and Changes \(RIDAC\) for planning items, EAP iterations, and goals directly within Strategic Planning Workspace using related lists and configurable views on record pages, with role-based access for viewing and editing.
+        -   Use the L2 RIDAC menu to view all RIDAC items, project-specific RIDAC, portfolio risks, and program risks. Note that certain fields are read-only during and after creation.
+        -   Updated all references from "Now Assist" to "ServiceNow Otto" across strategic planning modules.
+        -   Role containment is now managed through dedicated configuration files instead of event scripting, simplifying role management.
+        -   The system now tracks how many times users access strategy or goals boards, including actions from the home page and direct board links.
+        -   Added a new EAP role that grants exclusive access to create, edit, or delete planning calendars and spans, and controls access to PI and Sprint actions.
+        -   View the demand summary card on the AI Overview tab of the demand record page when the demand summarization skill is active and accessible.
+        -   View and filter demand data using the Overview, Financials, and Data Quality tabs in Demands Dashboard.
+        -   View and manage cost plans, benefit plans, and baselines from the Financials grid in Demands.
+        -   Switch between the Dashboard and List views in Demands using the breadcrumb navigation.
+        -   View a related list of similar demands on the demand record page for quick access to system-identified matches.
+        -   Explore detailed data directly from the Demands Dashboard widgets using the widget drill-down capability.
+    -   Changed: Updated all references to "Now Assist" in goal generation and EAP story dictionary records to align with the ServiceNow Otto directive.
+    -   Fixed:
+        -   Resolved an issue where the state field in EAP-type demands did not remain in the Completed state after creating an EAP item.
+        -   Resolved alignment issues with non-planning items in Strategic Portfolio Management.
+        -   Resolved an issue where the Hierarchy tab in Enterprise Agile Planning did not display data correctly.
+        -   Resolved an accessibility issue where roadmap keyboard shortcuts appeared as a one-time popup when tabbing through the interface. Shortcuts are now persistently accessible from the side panel.
+        -   Resolved an accessibility issue where the screen reader announced the value of the Rows Per Page dropdown more than once in Portfolio Planning.
+    -   Removed:
+        -   Removed the % Complete label from demand bars in the Roadmap tab, demand cards in the Kanban tab, and the % Complete column for demand rows in grid and list views, as demands do not support percent complete calculations.
+        -   Removed the standalone demand summarization component from the demand record page in Next Experience for Demand Management. The summary now appears only within the AI Overview tab.
 -   **Version 4.16.0 - July 2026**
     -   New:
         -   Enterprise Agile Planning now shows the Backlog and Hierarchy pages when a team is connected to CWM.
@@ -419,5 +455,5 @@ Version history for the Strategic Planning application on the ServiceNow Store.
     Strategic Planning \( formerly known as Alignment Planner Workspace\) provides an end-to-end integrated planning experience that aligns strategy to execution by enabling business leaders to define and track goals across the organization; gather, review, and prioritize work that aligns with the strategy and commit to them once they are on the roadmap all in a single platform. Strategic Plannings flexible design supports Agile, hybrid, and waterfall planning methodologies and allows planners to visualize, manage, and share their portfolio plans.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

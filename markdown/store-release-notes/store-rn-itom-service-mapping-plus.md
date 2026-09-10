@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-mapping-plus.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Mapping Plus release notes
@@ -17,6 +17,14 @@ Version history for the Service Mapping Plus application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.24.5 - September 2026**
+
+    New: Lightweight Service Model: Improve service mapping performance by converting your Dynamic and Tag-Based services to Lightweight.
+
+-   **Version 1.23.2 - August 2026**
+
+    New: ServiceNow Otto replaces Now Assist as the new brand name for the conversational AI experience. The user interface and product documentation reflect the new brand name in several places.
 
 -   **Version 1.22.0 - July 2026**
 

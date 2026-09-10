@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-slm-supplier-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Case Management release notes
@@ -17,6 +17,10 @@ Version history for the Supplier Case Management application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.0 - September 2026 \(Australia\)**
+
+    Changed: Migration of code to Fluent
 
 -   **Version 8.0.4 - July 2026 \(Zurich\)**
     -   Fixed:
@@ -59,5 +63,5 @@ Version history for the Supplier Case Management application on the ServiceNow S
     Collaborate with suppliers through a centralized platform for managing and responding to supplier inquiries, enhancing communication efficiency and transparency throughout the supplier lifecycle.
 
 
-**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
+**Parent Topic:**[ServiceNow Store - Supplier Lifecycle Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-slm-highlights.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-07-27"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow IT Fundamentals Dashboard release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® IT Operations Management - IT Fundamentals 
     -   Health report of Incidents which includes critical/high incident count, incident types, average MTTR for P1/P2, and total incidents with and without CIs.
     -   Health report of Change Requests which includes emergency change rate, incidents created from change request and total change requests with and without CIs.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

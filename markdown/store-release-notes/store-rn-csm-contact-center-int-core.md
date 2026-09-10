@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-contact-center-int-core.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contact Center Integration Core release notes
@@ -18,6 +18,14 @@ Version history for the Contact Center Integration Core application on the Servi
 
 ## Version history
 
+-   **Version 1.6.0 - September 2026**
+    -   Fixed:
+        -   Security fixes for this release:
+            -   sn\_ct\_ctr\_it\_core.admin role now requires dependent apps \(Skill Admin, AWA\) to be installed before role access is granted
+            -   Added ACL enforcement for External ID Mapping and Agent Mapping APIs \(sn\_ct\_ctr\_it\_core.admin role required\)
+-   **Version 1.5.3 - August 2026**
+    -   Changed: Updated security directives.
+    -   Fixed: Selected queues are now correctly shown on the Assign service channels page.
 -   **Version 1.5.2 - March 2026**
 
     Same functionality as V1.5.1: Certified for Australia family release.
@@ -51,5 +59,5 @@ Version history for the Contact Center Integration Core application on the Servi
     This plugin provides different features that can be integrated with Contact Center as a Service \(CCaaS\).
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

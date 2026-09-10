@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # External Content Connectors GitLab release notes
@@ -28,5 +28,5 @@ Version history for the External Content Connectors GitLab application on the Se
     -   By centralizing content from multiple sources and integrating it with AI Search, External Content Connectors improves productivity, improves search accuracy, and makes it simpler for organizations to access the information they need.
     -   Important: This app listing is a component as part of the External Content Connectors Application suite and can not be installed individually.
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

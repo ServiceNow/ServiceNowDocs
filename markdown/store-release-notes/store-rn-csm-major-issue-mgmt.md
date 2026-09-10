@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-major-issue-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Major Issue Management release notes
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Major Issue Management application on the S
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 4.2.1 - September 2026**
+    -   Changed:
+        -   Major case managers can now create child cases for affected business locations.
+        -   Child cases are automatically attached to the major case, with recipient lists for business locations created and linked when a proactive case is accepted.
+        -   Recipient lists are deleted when the major case is closed. The workflow now supports business organizations alongside accounts and consumers.
 -   **Version 4.1.0 - July 2026**
     -   Changed: Internal code updates with no impact to existing functionality or user-facing behavior.
     -   Fixed: Defect fix - When a Major Case is accepted via the "Approve Major Case Candidate" UI action, the suggested child cases \(SMCs — cases whose suggested\_major\_case points at the candidate\) were not being promoted \(linked as children\) to the major case.
@@ -31,5 +36,5 @@ Version history for the ServiceNow® Major Issue Management application on the S
     A set of capabilities used to manage customer-facing communications and resolution processes for common issues.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

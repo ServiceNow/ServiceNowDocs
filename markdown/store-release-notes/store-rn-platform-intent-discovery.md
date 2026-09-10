@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Admin release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Admin version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Intent Discovery release notes

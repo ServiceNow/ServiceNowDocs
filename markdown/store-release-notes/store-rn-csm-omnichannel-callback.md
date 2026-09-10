@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-omnichannel-callback.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Omnichannel Callback for Customer Service Management release notes
@@ -17,6 +17,10 @@ Version history for the Omnichannel Callback for Customer Service Management app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.8.3 - September 2026**
+
+    New: Admins can now migrate the omnichannel callback plugin from legacy XML to Fluent SDK TypeScript format. The migration replaces legacy XML records with equivalent Fluent files, enabling streamlined development and deployment. All specified record types, including Script Includes, Business Rules, Client Scripts, Scheduled Script Execution, ACLs with role bindings, and UX Form Actions, are now available in the new format.
 
 -   **Version 1.7.0 - July 2026**
 
@@ -81,5 +85,5 @@ Version history for the Omnichannel Callback for Customer Service Management app
     Omnichannel Callback for Customer Service Management extends Omnichannel Callback capabilities to support CSM specific use cases. This includes customer experience, agent experience and CSM data model support.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

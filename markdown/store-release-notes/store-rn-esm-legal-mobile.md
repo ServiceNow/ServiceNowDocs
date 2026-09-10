@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Mobile release notes
@@ -65,5 +65,5 @@ Version history for the Legal Mobile on the ServiceNow Store.
         -   Both applications are native to the iOS and Android operating system
     -   Now Mobile and ServiceNow Agent apps can be downloaded on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

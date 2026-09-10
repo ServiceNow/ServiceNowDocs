@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-automation-center.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Automation Center release notes
@@ -18,6 +18,10 @@ Version history for the App Engine Automation Center application on the ServiceN
 
 ## Version history
 
+-   **Version 15.1.0 - August 2026**
+    -   New: sn\_ac.auto\_onboarding\_catalog\_items — Use this system property to control how catalog items are onboarded as automations. Users with the sn\_ac.automation\_admin role can edit the system property.
+        -   True \(default\): New catalog items are onboarded automatically and appear on the automation dashboard immediately, without time and cost savings for each catalog item.
+        -   False: New catalog items are onboarded manually. Generating this data takes longer, but the dashboard shows an expanded summary with time and cost savings for each catalog item.
 -   **Version 15.0.1 - July 2026**
     -   Automate Task Mining tasks in Automation Center
         -   Automation Center transforms task recordings from Task Mining, decomposes them into discrete automations, and generates an AI agent in AI Agent Studio that executes those automations using AI Desktop Actions.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-workflow-data-fabric-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workflow Data Fabric Hub release notes
@@ -17,6 +17,16 @@ Version history for the Workflow Data Fabric Hub application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.3 - September 2026 \(Australia, Brazil\)**
+    -   Add support for Rest based Connector Zero copy connectors \[Family release changes available in AP6, Brazil\]
+    -   Add support for personal auth for Zero copy connectors \[Family release changes available in AP6, Brazil\]
+-   **Version 3.3.2 - September 2026 \(Australia\)**
+    -   A new Preview status label on connectors that indicates these connectors are approved but not yet fully compliant, enabling phased launches and future-proof connector management.
+    -   The Zero Copy Connectors application introduces an AI-Native SKU and splits into Foundation and Advanced tiers for clearer, modular packaging.
+-   **Version 3.2.2 - August 2026**
+
+    Removed Now Assist dependency so the ZCC Hub UI App doesn't need a license.
 
 -   **Version 3.2.0 - July 2026**
 
@@ -56,5 +66,5 @@ Version history for the Workflow Data Fabric Hub application on the ServiceNow S
 
     -   Fixed an issue where references for code data-end=""216"" data-start=""211""&gt;INT and data-end=""229"" data-start=""221""&gt;BIGINT column types were lost when editing a data fabric table.
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

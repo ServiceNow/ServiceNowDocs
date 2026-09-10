@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-rules-content-pack-visa.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Dispute Rules Content Pack for Visa release notes
@@ -17,6 +17,10 @@ Version history for the Dispute Rules Content Pack for Visa application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 6.0.0 - May 2026**
     -   New:
@@ -90,5 +94,5 @@ Version history for the Dispute Rules Content Pack for Visa application on the S
     The application provides questionnaire for intake of dispute related information under various dispute categories as per Visa guidelines. Evaluate dispute condition rules based on the Visa core rules and visa product and services rules.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

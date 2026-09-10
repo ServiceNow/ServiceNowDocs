@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-regulatory-change-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Regulatory Change Management release notes
@@ -17,6 +17,27 @@ Version history for the GRC: Regulatory Change Management on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   New:
+        -   The regulatory alert summarization skill uses additional input data when generating a summary. The summary output includes new sections such as alert overview, scope, actions and outcomes, and velocity analysis.
+        -   AI Data Explorer integration is supported to enable regulatory change managers and users to analyze regulatory data using natural language queries.
+        -   Question bank is supported in Smart Assessment templates.
+        -   The Regulatory assessments tab in GRC Tasks displays regulatory alert for an assessment in the Record column.
+        -   Compliance library records, including citations, control objectives, controls, and policies, include a Regulatory action tasks tab that links the action tasks linked to these records for improved traceability.
+        -   Impacted entities can be filtered by AI recommendations and impacted areas when initiating a risk assessment.
+        -   Regulatory alert number is displayed on the Details tab of an alert.
+    -   Changed: Functional domain field updated in regulatory body management. The functional domain field is now a list instead of a reference field, with active reference qualification applied in regulatory agency and regulatory feed tables.
+    -   Fixed:
+        -   Component not configured pop-up has been resolved on the regulatory alert form.
+        -   Smart Assessment due date behavior in Regulatory Change Management has been corrected.
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+
+    Changed: As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+
+-   **Version 22.0.5 - August 2026 \(Zurich\)**
+
+    Changed: As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
 
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
@@ -138,5 +159,5 @@ Version history for the GRC: Regulatory Change Management on the ServiceNow Stor
     The ServiceNow Regulatory Change Management application provides a streamlined end-to-end process for managing regulatory changes. You can integrate content from various regulatory intelligence providers and constantly keep an eye on your regulatory horizon. Use robust workflows to assess the applicability and impact of regulatory events, map them with internal GRC objects, and execute the regulatory changes. Configurable reports and dashboards, with notifications and alerts increase the transparency of regulatory compliance across the organization.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

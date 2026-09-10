@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-visibility-content.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Client Collector for Visibility Content release notes
@@ -18,6 +18,16 @@ Version history for the Agent Client Collector for Visibility Content on the Ser
 
 ## Version history
 
+-   **Version 2.0.4 - September 2026**
+    -   New:
+        -   1. License Key Discovery : File Based Discovery Approach
+            -   FBD License files scan approach aims to enhance the capability by enabling automated discovery and scanning of FBD license files. This will help users identify and manage license keys efficiently, reducing manual effort and minimizing compliance risks.
+        -   2. The agent now detects software from running processes across Windows, Mac, and Linux, surfacing applications that installation-based scans don't catch.
+    -   Changed: 1. Improved Software Last Used Tracking accuracy for Windows applications \[Auto-start applications and File-association-launched applications\]
+-   **Version 1.11.0 - August 2026**
+    -   New:
+        -   ACC is now certified on below list of Operating Systems - Red Hat Enterprise Linux \(RHEL\) 10 — x86\_64Rocky Linux 10 — x86\_64Oracle Linux 10 — x86\_64Ubuntu Linux — ARM64 \(aarch64\)
+        -   Improved Oracle Java Discovery using process based detection - complementing the FBD solution for a more accurate solution.
 -   **Version 1.10.0 - July 2026**
     -   Fixed:
         -   Installed software check definition successfully running on Linux machines.
@@ -89,5 +99,5 @@ Version history for the Agent Client Collector for Visibility Content on the Ser
     Core store application to support Discovery and Digital Experience Management customers.
 
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

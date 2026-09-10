@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-08-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - DevOps release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - DevOps version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DevOps Pipeline release notes
@@ -24,5 +24,5 @@ Version history for the ITSM DevOps Pipeline application on the ServiceNow Store
     -   ServiceNow DevOps is built on a powerful data model that connects your DevOps toolchain to the work and data already in the platform. One of several valuable outcomes is the ability to accelerate changes while ensuring effective and transparent risk management. This can make change management transparent to developers, improving their experience and helping to make them more productive by allowing them to stay in their preferred tools.
     -   This connected value stream supports the software factory in other ways like collecting, creating, and sharing insights through tailored dashboards. You have a complete chain from what is happening in production to the initial ideation or issue that caused a developer to start work. Code delivery becomes more reliable even with rapid iterations and, if incidents do arise, they can be resolved more quickly.
 
-**Parent Topic:**[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
+**Parent Topic:**[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
 

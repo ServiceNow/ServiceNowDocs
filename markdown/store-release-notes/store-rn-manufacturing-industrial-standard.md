@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Industrial Standard release notes
@@ -33,5 +33,5 @@ Version history for the ServiceNow® Industrial Standard application on the Serv
         -   Definitions of regular work, including the conditions under which the work is initiated, the prerequisite conditions that must be satisfied before the work can commence, the sequence of activities required to execute the work, and the prescribed processes to follow when anomalies occur during execution.
         -   Specification of guidance for completing regular work at different levels of detail, including media such as images or videos, descriptive text, and more extensive procedural or instructional information like one-point lessons or reference documents.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workforce Optimization for ITSM Configurable Workspace release notes

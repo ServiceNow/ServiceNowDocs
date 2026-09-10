@@ -1,18 +1,18 @@
 ---
-title: Setup Hub release notes
-description: Version history for the ServiceNow Setup Hub application on the ServiceNow Store.
+title: ServiceNow Otto for Setup release notes
+description: Version history for the ServiceNow ServiceNow Otto for Setup application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-implementation-agent-now-assist-setup.html
 release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Setup Hub release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow Otto for Setup version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Setup Hub release notes
+# ServiceNow Otto for Setup release notes
 
-Version history for the ServiceNow® Setup Hub application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Setup application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
@@ -42,8 +42,8 @@ Version history for the ServiceNow® Setup Hub application on the ServiceNow Sto
     April GA priority defect fixes
 
 -   **Version 2.0.7 - April 2026**
-    -   Setup Hub provides a single, guided experience for installing, configuring, and deploying supported ServiceNow products. It replaces fragmented setup workflows with a structured flow that automates installation, applies best‑practice defaults, tracks progress, and packages changes for production deployment.
+    -   ServiceNow Otto for Setup provides a single, guided experience for installing, configuring, and deploying supported ServiceNow products. It replaces fragmented setup workflows with a structured flow that automates installation, applies best‑practice defaults, tracks progress, and packages changes for production deployment.
     -   The experience spans Admin Home, Product Hubs, and Configuration Console powered by Now Assist, reducing setup time and operational risk while improving consistency and auditability.
 
-**Parent Topic:**[ServiceNow Store - Setup Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow Otto for Setup version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-implementation-agent.md)
 

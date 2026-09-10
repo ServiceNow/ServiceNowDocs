@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-indoor-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Indoor Mapping release notes
@@ -18,6 +18,13 @@ Version history for the Indoor Mapping application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.17.3 - September 2026**
+    -   Fixed:
+        -   Improved map navigation in the Make a Reservation page that incorrectly redirected to adjacent buildings when zooming.
+        -   Enhanced room name and number visibility in Outlook Add-in Map View.
+        -   Improved Location Directory to prevent intermittent snapping from neighborhood floor to building default floor.
+        -   Eliminated stale translated space titles that persisted after CAD import on non-English instances.
+        -   Updated space title translation handling during sync and enhanced sync processes.
 -   **Version 1.16.8 - June 2026**
     -   Fixed:
         -   Fixed an issue affecting map rendering in iOS.

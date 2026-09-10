@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-sbom-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SBOM Core Response release notes
@@ -18,6 +18,21 @@ Version history for the Vulnerability Response SBOM Core application on the Serv
 
 ## Version history
 
+-   **Version 6.5.1 - September 2026**
+    -   New:
+        -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.
+        -   An archival capability that automatically unlinks and deactivates components from a prior SBOM version once a newer SBOM is ingested for the same application. Archiving helps you maintain the SBOM workspace so that you can focus on current, actionable data.
+    -   Changed: SBOM ingestion performance enhancements through parallel processing of uploaded SBOM files that significantly reduces processing time for customers with high-volume SBOM ingestion of hundreds of thousands of files per week.
+    -   Fixed:
+        -   An issue where CycloneDX SBOM ingestion failed when a file's vulnerability rating data was split across multiple partial rating objects instead of one complete object. Fixed by adding null-safe checks so ingestion now processes the available rating data instead of failing the whole file.
+        -   In some cases, SBOM ingestion could generate large numbers of blank, empty component records if a component relationship pointed at a missing or deleted reference. Each blank record then triggered another recount, compounding the problem. Fixed by validating references before use and preventing empty relationships from being created in the first place.
+        -   An issue where SBOM uploads could get stuck indefinitely in a "Processing" state due to a coding error in the routine that reconciles external references and hashes during ingestion. Fixed by correcting the reference so ingestion completes and queued uploads process normally.
+        -   An access-related security issue in an internal SBOM Workspace data component. Fixed by enforcing proper access checks throughout. No customer action is required.
+        -   An issue where SBOM Workspace UI action buttons did not appear for platform languages other than English. Fixed by correcting the identifier format so action buttons render correctly regardless of language setting.
+-   **Version 6.3.8 - August 2026**
+    -   Fixed:
+        -   An UI issue on the SBOM Queue page where content cards had inconsistent padding and overly heavy shadows. Cards now render with improved spacing and a more consistent visual appearance.
+        -   An issue where the BOM Queue, SBOM Record pages, and BOM Document list incorrectly displayed, "No data available" for existing records due to an invalid default filter.
 -   **Version 6.3.2 - June 2026**
     -   Fixed:
         -   SPDX entity-to-component relationships restored — An issue where the SPDX parser previously created relationships only from the explicit relationships block, so SPDX BOMs that rely on the package list to imply dependencies showed almost no "Depends on" data on the BOM entity record, for example, ~171 dependencies instead of the expected ~2500. The parser now performs an additional pass that creates an entity-to-component relationship for every non-root package, matching the existing CycloneDX behavior.
@@ -90,5 +105,5 @@ Version history for the Vulnerability Response SBOM Core application on the Serv
     Initial release: SBOM Core helps organizations maintain the searchable inventory of all the open-source components used in their environment.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

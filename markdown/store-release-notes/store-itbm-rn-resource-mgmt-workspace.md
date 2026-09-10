@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-resource-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Resource Management Workspace release notes
@@ -18,6 +18,30 @@ Version history for the Resource Management Workspace application on the Service
 
 ## Version history
 
+-   **Version 5.10.1 - September 2026**
+    -   Fixed:
+        -   You can now edit planned effort for periods without actuals, even when the editing property is disabled. Heatmap cells follow the same behavior and remain editable unless actuals exist for the period.
+        -   Resource allocation values in Resource Management Workspace are now consistent across all filters. Previously, discrepancies could occur when a user had multiple plans on the same project.
+        -   Starting capacity values now round correctly when a work schedule uses decimal hours, ensuring accurate display and calculations.
+        -   The allocation modal in Resource Management Workspace now excludes pending and unapproved resource assignments from allocation calculations when the relevant property is enabled, so the summary message matches the actual assignment status.
+        -   You can now extend a resource assignment's end date to a date before the task end date without triggering a validation error.
+        -   Operational plan hours now update correctly when changed from Resource Management Workspace, so edits to resource assignments are reflected as expected.
+        -   Creating a filter on a new resource card now returns results as expected. Previously, results for referenced tables could remain stuck onSearching....
+        -   Parent resource status now accurately reflects a mix of approved and unapproved assignments, instead of incorrectly showingPending.
+        -   Copying a resource assignment now correctly carries over the original Resource status and Ready for review values. Previously, these fields defaulted unless they were added as grid view columns.
+        -   Move operations now work correctly for resource assignments that have only a planning item associated with them. Previously, these operations failed because planning item dates weren't handled the same way as project and demand task dates.
+        -   Group by parent and owner now displays accurate user- and group-level rollups, including for zero-allocation, task-based assignments. This also resolves rollup accuracy issues that could occur in non-English locales.
+-   **Version 5.9.3 - August 2026**
+    -   Fixed:
+        -   Filtering for unassigned tasks in Resource Management Workspace no longer creates blank resource cards; the filter now shows only relevant cards.
+        -   The Resource Management Workspace tooltip now correctly shows "Pending" status instead of a null value after updates.
+        -   Resource Management Workspace no longer generates additional assignments with zero person days; assignments are created only when resources are available and effort is sufficient.
+        -   The Unassigned Assignment Requests dashboard in Resource Management Workspace now filters correctly by unassigned task start date.
+        -   The new resource assignment modal in Resource Management Workspace now loads correctly when domain determination is enabled.
+        -   Notes no longer duplicate when you assign an unassigned assignment from Resource Management Workspace.
+        -   Expand All now calculates correctly when grouping by primary resource group.
+        -   Resource realign calls and realign buttons now disable correctly when the auto-realign property is configured.
+        -   Color coding now displays correctly when grouping by owner using resource manager impersonation.
 -   **Version 5.9.1 - July 2026**
     -   New: Using common schedule for group resource assignments
     -   Fixed:

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Financial Services release notes
+title: ServiceNow Store - Financial Services version history release notes
 description: The ServiceNow Store contains Financial Services applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Financial Services release notes
+# ServiceNow Store - Financial Services version history release notes
 
 The ServiceNow Store contains Financial Services applications.
 
@@ -100,14 +100,14 @@ Version history for the Insurance Policy Operations on the ServiceNow Store.
 Version history for the Insurance Underwriting Operations on the ServiceNow Store.
 -   **[KPI Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-kpi-framework.md)**  
 Version history for the KPI Framework application on the ServiceNow Store.
--   **[Now Assist for Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-now-assist-fso.md)**  
-Version history for the Now Assist for Financial Services Operations application on the ServiceNow Store.
 -   **[Performance Analytics Content Pack for FSO release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-pa-content.md)**  
 Version history for the Performance Analytics Content Pack for FSO application on the ServiceNow Store.
 -   **[Personal Lines Claims release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-personal-lines-claims.md)**  
 Version history for the Personal Lines Claims application on the ServiceNow Store.
 -   **[Personal Lines Servicing release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-personal-lines-servicing.md)**  
 Version history for the Personal Lines Servicing application on the ServiceNow Store.
+-   **[ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-now-assist-fso.md)**  
+Version history for the ServiceNow Otto for Financial Services Operations \(FSO\) application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

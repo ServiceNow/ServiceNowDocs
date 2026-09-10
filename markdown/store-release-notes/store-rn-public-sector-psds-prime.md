@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # PSDS - Prime release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® PSDS - Prime application on the ServiceNow 
     -   This application supports entitlement‑based access to AI features provided by PSDS and the ServiceNow platform where applicable. Availability of specific AI capabilities depends on the customer’s licensed tier and applicable entitlements.
     -   For information about licensing tiers and availability, refer to the PSDS Australia Release Notes.
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-integration-with-cisa.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with CISA release notes
@@ -17,6 +17,10 @@ Version history for the Security Operations Vulnerability Response Integration w
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.2.5 - September 2026 \(USEM\)**
+
+    Fixed: Resolved an issue where EPSS score rollup might fail for third-party vulnerability entries without a defined value.
 
 -   **Version 30.2.2 - July 2026**
 

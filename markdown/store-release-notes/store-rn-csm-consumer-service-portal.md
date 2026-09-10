@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Consumer Service Portal release notes
@@ -77,5 +77,5 @@ Version history for the Consumer Service Portal application on the ServiceNow St
         -   Customers can search knowledge articles, engage with community, create and manage cases, view products, initiate a chat with a chatbot or customer service agent and view publications
         -   Customers can also manage their user profile, view products and update their notification preferences
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

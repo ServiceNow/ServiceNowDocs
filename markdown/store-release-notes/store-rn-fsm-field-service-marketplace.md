@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-marketplace.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Marketplace release notes
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Field Service Marketplace application on th
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.1.4 - September 2026**
+    -   New: Field Service Contractor Marketplace now supports query range ACLs for enhanced access control and security.
+    -   Changed: Access control for the Contractor Marketplace has been updated to improve consistency and reliability across Platform upgrades.
 -   **Version 30.0.3 - April 2026**
     -   Fixed:
         -   System properties shipped with the FSM Marketplace app have been updated to require the marketplace\_admin role for read and write access. With this change, only users with the marketplace\_adminrole can read and modify these system property values, while system admin and maintenance users retain access as per standard platform behavior.
@@ -25,5 +28,5 @@ Version history for the ServiceNow® Field Service Marketplace application on th
     -   Internal teams post work opportunities with defined criteria, contractors receive instant notifications and submit bids directly in the platform, and managers can compare responses and assign work in a single workflow. Bid visibility is controlled, timelines are tracked, and every step from task posting to award is documented.
     -   The result: faster contractor sourcing, fewer coordination gaps, and a clear audit trail so external work gets done with the same discipline as work handled internally.
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

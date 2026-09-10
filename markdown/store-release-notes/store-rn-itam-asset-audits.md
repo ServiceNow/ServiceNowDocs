@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Asset Audits release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Asset Audits application on the ServiceNow 
     This application delivers enhanced auditing capabilities to ensure accurate and reliable inventory management. It validates consumable quantities to reduce shrinkage and maintain high data quality. The mobile experience enables effortless review of scanned assets with rich, interactive drill‑down details, while supporting real‑time capture and creation of newly identified assets directly in the field. Asset locations are automatically updated to precise scan points, and model‑based filtering helps users quickly focus on relevant items, streamlining the entire auditing process.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

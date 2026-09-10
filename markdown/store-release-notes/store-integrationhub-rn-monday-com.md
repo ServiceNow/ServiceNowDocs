@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-monday-com.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # monday.com Spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub monday.com Spoke on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.2.1 - August 2026**
+
+    Enhanced security for OOTB sample webhook
 
 -   **Version 1.2.0 - June 2026**
 

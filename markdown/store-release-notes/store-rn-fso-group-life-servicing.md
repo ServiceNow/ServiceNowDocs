@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-group-life-servicing.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Group Life Servicing release notes
@@ -17,6 +17,14 @@ Version history for the Group Life Servicing on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
+
+-   **Version 2.8.1 - August 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 2.7.0 - June 2026**
 
@@ -86,5 +94,5 @@ Version history for the Group Life Servicing on the ServiceNow Store.
     Group Life Servicing empowers carriers to change the dynamics of group life and disability insurance policy servicing. Carriers can be agile and responsive to customers across the servicing journey with a unified workflow and frictionless exchange of data between carriers, benefits administrators, and employers. Eliminate tedious manual processes and reduce costly back-and-forth emails and phone calls with end-to-end digitization. Boost customer satisfaction, and decrease turnaround time by automating and optimizing the seamless transfer of work across internal and external stakeholders.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

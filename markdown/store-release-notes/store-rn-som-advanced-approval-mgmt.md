@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-advanced-approval-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Advanced Approval Management release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release n
 Version history for the ServiceNow® Advanced Approval Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.6.0 - September 2026**
+
+    Defect fixes
+
+-   **Version 2.4.0 - August 2026**
+
+    New: Show amount of time that has passed since an approval action was taken by approval users/groups in the approval card.
 
 -   **Version 2.3.0 - July 2026**
     1.  Enable requesters and approvers to add ad-hoc approvers to specific positions within an approval chain.
@@ -41,5 +49,5 @@ Version history for the ServiceNow® Advanced Approval Management application on
     This application delivers a comprehensive Quote Approval framework to mitigate financial, legal, and compliance risks before quotes reach customers. It enables Sales Reps to identify when and why quotes need approval and ensure the quotes provided to customer adhere to all company's policies and guidelines.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

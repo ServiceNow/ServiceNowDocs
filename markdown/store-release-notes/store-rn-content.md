@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Content release notes
+title: ServiceNow Store - Content version history release notes
 description: The ServiceNow Store contains various Content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-content.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2022-11-03"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Content release notes
+# ServiceNow Store - Content version history release notes
 
 The ServiceNow Store contains various Content.
 
@@ -75,5 +75,5 @@ Version history for the Employee Experience Pack: Tax Time Campaign on the Servi
 -   **[Employee Experience Pack: Virtual Agent Work-from-Home Starter Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content-employee-experience-va-wfh.md)**  
 Version history for the Employee Experience Pack: Virtual Agent Work-from-Home Starter Pack on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-12-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Requirement Intake Diagram release notes
@@ -27,5 +27,5 @@ Version history for the Requirement Intake Diagram application on the ServiceNow
     The Requirement Intake Diagram provides a visual tool for business users to represent their processes clearly. By mapping out the process flow, dependencies, and key steps, this diagram helps bridge the gap between process owners and automation developers. It enhances collaboration by providing a shared understanding of the process requirements, which is crucial for designing effective automation solutions. This visual approach facilitates better decision-making and helps identify potential areas for improvement or optimization, leading to more efficient and effective automated processes. Process owners can request automations for their processes through the Service Catalog, where these requests are recorded as automation requests. Requirement Intake Diagram streamlines the submission process, ensuring that all requests are captured accurately and can be tracked efficiently.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

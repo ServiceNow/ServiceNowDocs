@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-02-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ThreatCrowd integration release notes
@@ -53,5 +53,5 @@ Beginning in May 2023, the ThreatCrowd integration has been deprecated and is no
         -   File hashes
         -   Antivirus detections
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

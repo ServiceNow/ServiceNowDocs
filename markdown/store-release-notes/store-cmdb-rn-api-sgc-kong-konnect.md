@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-02-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # API Service Graph Connector for Kong Konnect release notes

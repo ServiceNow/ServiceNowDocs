@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-slm-supplier-collaboration-portal.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Collaboration Portal release notes
@@ -18,6 +18,14 @@ Version history for the Supplier Collaboration Portal application on the Service
 
 ## Version history
 
+-   **Version 12.0.0 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Migration of code to Fluent
+        -   Provide ability to view status of supplier onboarding requests
+-   **Version 9.0.1 - September 2026 \(Zurich\)**
+    -   Changed:
+        -   Migration of code to Fluent
+        -   Provide ability to view status of supplier onboarding requests
 -   **Version 11.0.0 - June 2026 \(Australia\)**
     -   Fixed:
         -   Improved access controls for better security.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-ui-calendar-component.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Calendar component release notes
@@ -18,6 +18,13 @@ Version history for the Calendar component application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 27.0.3 - September 2026**
+    -   Fixed:
+        -   Event times showing "Invalid Date" in Month ViewDragging and dropping events in the Month view caused all event time labels to incorrectly display "Invalid Date." This has been resolved — event times now display correctly after drag-and-drop operations without requiring a page reload.
+        -   Agent Schedules Not Visible in CSM/FSM Configurable WorkspaceAfter a production upgrade, the Workforce Calendar in CSM/FSM Configurable Workspace stopped showing agent schedules. This has been fixed and agent schedules now display correctly.
+        -   Dispatcher Workspace Freezing When Switching Browser TabsThe Dispatcher Workspace page would stop rendering when users switched to another browser tab and returned. This has been resolved — the workspace now loads and renders reliably regardless of tab switching.
+        -   Memory Leak Causing Performance DegradationA memory leak caused by background observers not being properly cleaned up was leading to performance issues over time. This has been fixed, improving overall stability and memory usage during extended sessions.
+        -   Incorrect Travel Time Display for Multi-Day EventsTravel time blocks for multi-day events in the Dispatcher Workspace timeline view were rendering at an inflated size, causing visual layout issues. This has been corrected — travel times now display accurately for multi-day events.
 -   **Version 27.0.1 - June 2026**
     -   New:
         -   Admins can now customize the calendar event bar display and add event icons: Admins can configure which event details \(such as time, description, or label order\) appear in the event bar across all calendar views, and can display icons to convey event type, priority, or status.
@@ -105,5 +112,5 @@ Version history for the Calendar component application on the ServiceNow Store.
     Fixed: Fixed the localization issue.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
 

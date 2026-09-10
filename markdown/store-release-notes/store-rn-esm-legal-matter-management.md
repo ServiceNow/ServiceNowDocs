@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-matter-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Matter Management release notes
@@ -17,6 +17,14 @@ Version history for the Legal Matter Management on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 10.2.6 - September 2026**
+
+    Fixed: Fixed the issue where you could not create new artifacts for a matter in platform view \(UI16 experience\).
+
+-   **Version 10.2.0 - August 2026**
+
+    Changed: ServiceNow Otto is the new AI experience brand. Now Assist for Legal Service Delivery is ServiceNow Otto for Legal Service Delivery
 
 -   **Version 10.1.7 - July 2026**
 
@@ -184,5 +192,5 @@ Version history for the Legal Matter Management on the ServiceNow Store.
         -   Matter task management– Manage legal matter tasks, even those which the non-legal staff would work on.
         -   Milestones– Track important legal dates.
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

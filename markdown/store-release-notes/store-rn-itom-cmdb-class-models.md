@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cmdb-class-models.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 50
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 52
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CMDB CI Class Models release notes
@@ -17,6 +17,26 @@ Version history for the IT Operations Management CMDB CI Class Models on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.94.3 - September 2026**
+    -   New:
+        -   FortiManager Discovery: Added the CI class model foundation for FortiManager/Fortinet discovery.
+        -   New/updated classes: cmdb\_ci\_firewall\_device\_fortinet, cmdb\_ci\_firewall\_device\_group\_fortinet, cmdb\_ci\_fortimanager\_network\_manager, cmdb\_ci\_fortinet\_firewall\_policy, and cmdb\_ci\_fortinet\_firewall\_policy\_pkg, layered onto the base firewall/policy-group classes \(cmdb\_ci\_firewall\_device, cmdb\_ci\_firewall\_device\_group, cmdb\_ci\_firewall\_policy\_group, cmdb\_ci\_firewall\_sec\_policy, cmdb\_ci\_policy\_group, cmdb\_ci\_networking\_policy\_group, cmdb\_ci\_multiservice\_network\_manager\). Includes class descriptions, identifiers/identifier entries, and containment/hosting relationship metadata.
+        -   Nexus VRF Discovery: Added a new cmdb\_ci\_virtual\_routing\_forwarding class to support discovery of non-default VRFs and VRF-to-IP relations on Nexus devices, with identifier, identifier entry, and hosting-relationship metadata.
+        -   MPN 5G CMDB Classes: Added new CMDB CI Class Model support for Mobile Private Network \(MPN\) 5G RAN/Core objects:
+            -   New class Mobile Network Slice \(cmdb\_ci\_mobile\_network\_slice\) with slice service type/differentiator attributes and an identification rule.
+            -   New class Unified Data Repository Function \(UDR\) \(cmdb\_ci\_5g\_unified\_data\_repository\_function\), rounding out the 5G core network function set alongside UDM/NRF.
+            -   Extended cmdb\_ci\_sim\_card with new SIM Type/Form Factor choices.
+            -   Registered the new classes in the class-model manifest and added relationship-suggestion and UI list/section records.
+    -   Modified:
+        -   DNS Data Model: Reworked the DNS class hierarchy. Updated dictionaries for cmdb\_ci\_dns\_zone, cmdb\_ci\_dns\_resource\_record, cmdb\_ci\_provider\_dns\_zone, and the A/AAAA/CNAME/MX/NS/PTR/SRV/TXT/HTTPS DNS record classes, with refreshed class info, identifiers, identifier entries, and relationship-suggestion records. Shipped a glidefix \(fix\_update\_dns\_class\_labels\_and\_descriptions\) to correct class labels/descriptions and plural names on existing instances, plus new list/form views.
+        -   os\_install field for SAMS: cmdb\_ci\_hardware now conditionally gets the os\_install field only when the SAMS plugin \(com.snc.sams\) is installed, delivered via a plugin-scoped dictionary override \(if/com.snc.sams/dictionary/cmdb\_ci\_hardware.xml\).
+        -   MSSQL AG replica cleanup: Added a Table Cleaner \(sys\_auto\_flush\) rule for cmdb\_ci\_mssql\_ag\_replica \(age = 3600s, install\_status = 7\) that retires stale old-format replica CIs once the pattern's prepost script marks them retired — preventing duplicate replica records \(and the resulting "multiple primary replicas" symptom\) from accumulating. sys\_dm\_policy was deliberately not shipped, since it's platform-auto-generated.
+        -   Data Model Navigator description fixes: Corrected the DMN field descriptions for cmdb\_ci.last\_discovered and cmdb\_ci.discovery\_source to accurately reflect IRE-driven update behavior.
+        -   HPE Enclosure/Blade serial numbers: Added a new script include and an on-demand scheduled job \("Clear HPE Blade Serial Numbers"\) to clean up serial number values that Discovery had incorrectly concatenated with UUID for HPE Enclosures and Blades, which had been blocking customers from opening HPE support tickets.
+-   **Version 1.88.0 - August 2026**
+
+    New: Added the Business Gateway \(cmdb\_ci\_business\_gateway\) class - An edge device for business customers. It serves as the demarcation and service delivery point between the service provider network and the customer’s LAN. It typically supports routing, VPN services, firewall, and other security functions.
 
 -   **Version 1.87.0 - July 2026**
     -   New: Discovered Subnet \(cmdb\_ci\_discovered\_subnet\) — Collected by discovery tools. Stores discovered subnet information, including network partition identifier, netmask, and CIDR.
@@ -936,5 +956,5 @@ Version history for the IT Operations Management CMDB CI Class Models on the Ser
     -   Nutanix Host
     -   Nutanix Virtual Machine
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

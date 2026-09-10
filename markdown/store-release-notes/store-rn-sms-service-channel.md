@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Conversational SMS Service Channel release notes
@@ -75,5 +75,5 @@ Version history for the Conversational SMS Service Channel on the ServiceNow Sto
     New: Added in Paris to support SMS Messaging Service Channel.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

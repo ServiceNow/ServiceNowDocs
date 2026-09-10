@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-learning-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Learning Core release notes
@@ -19,6 +19,10 @@ Version history for the Learning Core on the ServiceNow Store.
 **Note:** To automatically install all the Safe Workplace applications at once, download the ServiceNow® Safe Workplace suite application.
 
 ## Version history
+
+-   **Version 9.10.2 - August 2026**
+
+    Minor defect fixes related to query range ACLs.
 
 -   **Version 9.10.0 - June 2026**
     -   The 'Pull Courses from Cornerstone' subflow uses the deprecated 'Look up Trainings From Reporting Stream' , updated to 'Look up Trainings from Data Exporter Stream'.

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AWS Integration for Security Exposure Management release notes
@@ -27,5 +27,5 @@ Version history for the ServiceNow® AWS Integration for Security Exposure Manag
     The AWS Integration for Security Exposure Management imports vulnerability and configuration compliance data from AWS Inspector and AWS Security Hub into ServiceNow's Security Exposure Management, giving you a consolidated view of your AWS exposure posture and enabling remediation workflows directly from ServiceNow.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

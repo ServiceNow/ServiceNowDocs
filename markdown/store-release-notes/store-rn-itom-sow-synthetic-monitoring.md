@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SOW Synthetic Monitoring release notes
@@ -18,6 +18,17 @@ Version history for the SOW Synthetic Monitoring application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.9.2 - September 2026**
+    -   New: Synthetic monitoring now supports multiple Application Services per check. Admins can associate a single HTTP endpoint or API with several application services, preserving all relationships in the CMDB database. The synthetic monitor creation form offers a multi-select application service field to enable teams to model shared infrastructure and maintain accurate service ownership.
+    -   Changed: ECC Queue Auto-Purge job now reliably removes stale and orphaned synthetic monitoring records. The job deletes old completed messages, flags stuck or orphaned entries as errored, and identifies messages from disabled monitors. This prevents indefinite queue growth and confirms only active work remains.
+    -   Fixed: MID-executed synthetic checks have been corrected to display actual HTTP error responses. Checks now accurately report when an endpoint responds with an error \(such as 401\), instead of showing "No response" when a real reply is received. Event descriptions now include actual versus expected values for failed conditions, improving diagnostic clarity.
+-   **Version 1.8.0 - August 2026**
+    -   New:
+        -   Create synthetic monitors for APIs discovered using API Insights
+            -   Synthetic Monitoring now supports creating and managing monitors for discovered API components. Users can create synthetic HTTP monitors targeting API endpoints cataloged by API Insights, with automatic mapping of endpoint URL and HTTP method. Bulk creation is supported, and monitors can be created for both traditional HTTP endpoints and discovered APIs using the same interface.
+            -   Service and support group fields are auto-populated for discovered API monitors. When a discovered API has a relationship to a parent service, the service and support group fields are automatically populated and displayed as read-only on the monitor form.
+            -   Monitor records now indicate the type of endpoint being monitored. Each monitor is tagged as either a traditional HTTP endpoint or a discovered API, allowing users to filter and sort monitors by endpoint type in the list view.
+            -   Frontend dropdowns now list only valid, probe-ready discovered APIs. The Discovered API selector in the monitor creation form is populated with API components that are operational and have supported HTTP methods.
 -   **Version 1.7.1 - July 2026**
     -   New:
         -   Synthetic Monitoring now supports JWT authentication and unified secrets gateway for MID Server compliance. All monitor types execute successfully on JWT-authenticated MID Servers, with backward compatibility for Basic Auth. Credential retrieval uses unified secrets gateway, ensuring correct data mapping and exposure classification. Mixed authentication fleets are supported without regression.
@@ -105,5 +116,5 @@ Version history for the SOW Synthetic Monitoring application on the ServiceNow S
     The synthetic monitoring application empowers organizations to proactively manage and improve the performance and availability of critical services. By simulating user transactions on API endpoints, this solution identifies performance bottlenecks, ensures uptime, and optimizes user experiences.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

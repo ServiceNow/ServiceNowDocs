@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-service-applicant-program-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Applicant Program Management release notes
@@ -17,6 +17,15 @@ Version history for the Service Applicant Program Management application on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.0.2 - September 2026**
+    -   Changed:
+        -   All customer-facing "Now Assist" references have been rebranded to "ServiceNow Otto". UI text, labels, help content, and localization files now use the new branding as directed. Assertions and translations have been updated accordingly.
+        -   The plugin now supports compatibility with the Zurich release, ensuring integration and operation with Zurich environments.
+    -   Fixed: The plugin dependency issue from the previous release has been resolved. Customers can now install and use the plugin without encountering compatibility errors.
+-   **Version 1.22.5 - September 2026**
+
+    Defect fixes.
 
 -   **Version 2.1.0 - July 2026**
 

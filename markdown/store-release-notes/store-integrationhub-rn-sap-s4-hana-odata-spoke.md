@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SAP S4 HANA OData Spoke release notes
@@ -82,5 +82,5 @@ Version history for the SAP S4 HANA OData Spoke application on the ServiceNow St
     -   Given that SAP S/4 HANA is a highly customizable system, SAP S/4 HANA OData Spoke also showcases the design pattern that can support custom OData APIs and more standard OData APIs beyond what is out of the box.
     -   When both ServiceNow and SAP S/4 HANA do financial operations together, the possibilities are endless.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

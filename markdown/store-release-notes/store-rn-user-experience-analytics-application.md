@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-user-experience-analytics-application.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Usage Insights application release notes
@@ -18,6 +18,29 @@ Version history for the Usage Insights application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.3.14 - September 2026**
+
+    Fixed the chat provider filter in the Usage Insights dashboard's conversation menu to support all chat providers.
+
+-   **Version 6.4.2 - September 2026**
+    -   Page properties support to get granular insights of pages.
+    -   Answers business questions like:
+        -   How many password-reset requests were submitted by people who visited the password-reset catalog page?
+        -   How many comments were added to the knowledge article titled “Usage Insights MCP”?
+        -   Which dashboards did people visit last quarter, listed by name?
+    -   Page properties are now available across User Experience Analytics. A page property is a named, filterable attribute captured from a page's URL parameters or record metadata on every page view — so pages that previously shared a single page ID \(a dashboard, a knowledge article, a catalog item\) can now be distinguished by the resource a person actually viewed. Page properties behave like event properties wherever properties already appear.
+    -   What's new:
+        -   Filters now support pages. The filter panel previously surfaced event properties only; you can now select a page and filter by its page properties alongside events.
+        -   Page-property distribution in the Properties section. Each page property's value distribution renders as a pie chart, matching how event-property distributions are already shown.
+        -   Dedicated page properties in the Pages menu. The Pages menu now includes a dedicated page-properties view, letting you filter by an individual page property.
+        -   Page properties in Advanced filters. When you select a page in advanced filters, you can choose that page's properties from a dropdown to refine the query.
+        -   Page-property filtering in Funnels. When a funnel step is set to a page, page properties become available for that step, so you can filter the step by page property.
+-   **Version 6.3.10 - August 2026**
+    -   What's new?
+        -   Conversations — A dedicated view of chat activity from chat assistants like Now asisst virtual agent, including total chat users, live agent transfers, and the full sequence of chat events from conversation start to response. Analyze trends over time and drill into any individual conversation.
+        -   Cross-application conversion funnels — Build funnels where each step can belong to a different application, so you can follow a user journey as it spans multiple workspaces and portals.
+        -   Session-based and user-based funnels — Choose whether steps must complete within one session \(time-to-value\) or across multiple sessions over time \(overall task completion\).
+        -   Previous period comparison in conversion funnel — Compare completion rate, step conversion, and transition timing against a prior period. Each metric shows its delta, and a step comparison table breaks down engaged users, sessions, and conversion time side by side — turning a snapshot into an adoption trend.
 -   **Version 6.3.9 - July 2026**
     -   What's new?
         -   Conversations — A dedicated view of chat activity from chat assistants like Now asisst virtual agent, including total chat users, live agent transfers, and the full sequence of chat events from conversation start to response. Analyze trends over time and drill into any individual conversation.
@@ -78,5 +101,5 @@ Version history for the Usage Insights application on the ServiceNow Store.
     User Experience Analytics application provides an easy way to monitor usage analytics of your ServiceNow applications.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

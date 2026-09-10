@@ -1,22 +1,30 @@
 ---
-title: Now Assist for Hardware Asset Management release notes
-description: Version history for the Now Assist for Hardware Asset Management on the ServiceNow Store.
+title: ServiceNow Otto for Hardware Asset Management \(HAM\) release notes
+description: Version history for the ServiceNow Otto for Hardware Asset Management \(HAM\) on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-now-assist-ham.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Hardware Asset Management release notes
+# ServiceNow Otto for Hardware Asset Management \(HAM\) release notes
 
-Version history for the Now Assist for Hardware Asset Management on the ServiceNow Store.
+Version history for the ServiceNow Otto for Hardware Asset Management \(HAM\) on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.0.1 - September 2026**
+
+    This version adds support for installing and upgrading ServiceNow Otto for Hardware Asset Management through the Hardware Asset Management Product Hub feature.
+
+-   **Version 4.7.0 - August 2026**
+
+    This release rebrands Now Assist to ServiceNow Otto. Previous references to Now Assist inside Hardware Asset Workspace have been replaced with new verbiage.
 
 -   **Version 4.4.0 - July 2026**
     -   Asset Summary Text Formatting — Fixed text display issues in asset summaries on on-premises instances to ensure consistent, readable formatting across all deployment types
@@ -83,5 +91,5 @@ Version history for the Now Assist for Hardware Asset Management on the ServiceN
     With the Now Assist for Hardware Asset Management \(HAM\) application, hardware asset managers can streamline and automate the process of sourcing hardware assets by using AI agents included in the agentic workflow.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

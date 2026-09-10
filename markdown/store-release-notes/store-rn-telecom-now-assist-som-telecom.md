@@ -1,20 +1,28 @@
 ---
-title: Now Assist for Sales Force Automation \(SFA\) for Telecommunications release notes
-description: Version history for the ServiceNow Now Assist for Sales Force Automation \(SFA\) for Telecommunications application on the ServiceNow Store.
+title: ServiceNow Otto for Sales Automation for Telecommunications release notes
+description: Version history for the ServiceNow ServiceNow Otto for Sales Automation for Telecommunications application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-now-assist-som-telecom.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Sales Force Automation \(SFA\) for Telecommunications release notes
+# ServiceNow Otto for Sales Automation for Telecommunications release notes
 
-Version history for the ServiceNow® Now Assist for Sales Force Automation \(SFA\) for Telecommunications application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Sales Automation for Telecommunications application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.3.3 - September 2026**
+
+    Changed: Maintenance release — dependency updates only; no new customer-facing functionality in this version
+
+-   **Version 4.2.2 - August 2026**
+
+    Changed: Maintenance release — dependency updates only; no new customer-facing functionality in this version
 
 -   **Version 4.1.2 - July 2026**
 
@@ -41,5 +49,5 @@ Version history for the ServiceNow® Now Assist for Sales Force Automation \(SFA
     -   Order enrichment AI agent will help in creating  enrichment related order tasks directly during run time by looking into historic order tasks.
     -   Order fulfillment AI agent will help in creating order tasks for each domain order either using AI search or using GAF framework to determine order tasks.
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

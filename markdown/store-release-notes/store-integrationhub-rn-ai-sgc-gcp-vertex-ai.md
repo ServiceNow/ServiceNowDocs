@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-sgc-gcp-vertex-ai.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Service Graph Connector for GCP Vertex AI release notes
@@ -15,6 +15,20 @@ breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow A
 Version history for the ServiceNow® AI Service Graph Connector for GCP Vertex AI application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.3.3 - September 2026**
+    -   New:
+        -   Google Multi-region support with parallel data loading
+        -   Domain support on all staging tables
+    -   Changed: Plugin name: AI Service Graph Connector for Google and SourceSystem updated to Google Agent Platform
+    -   Fixed: Improved pre-validation checks for AI connection permissions and fields within playbooks in the AI Control Tower Workspace.
+-   **Version 1.2.4 - August 2026 \(Australia\)**
+
+    Changed: The Service Graph Connector for GCP Vertex AI now displays as "AI Connector for Google" to align with the AI Connector naming convention. The connector’s functionality remains unchanged.
+
+-   **Version 1.2.3 - August 2026 \(Zurich\)**
+
+    Changed: The Service Graph Connector for GCP Vertex AI now displays as "AI Connector for Google" to align with the AI Connector naming convention. The connector’s functionality remains unchanged.
 
 -   **Version 1.1.1 - July 2026**
 
@@ -40,5 +54,5 @@ Version history for the ServiceNow® AI Service Graph Connector for GCP Vertex A
     This integration connects AI Control Tower’s AI Discovery capabilities with Google Vertex AI, enabling automated discovery and governance of AI assets across the enterprise Google environment.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-employee-goals.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Goals release notes
@@ -17,6 +17,14 @@ Version history for the Employee Goals application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.1 - September 2026**
+
+    New: Admins can now configure AI-powered query generation for Employee Goals. Semantic table and column configurations have been added to support natural language queries on Employee Goals data. Access controls for AI Canvas components are now enabled within the Employee Goals scope.
+
+-   **Version 1.4.3 - August 2026**
+
+    No customer facing changes were shipped in this version.
 
 -   **Version 1.3.0 - June 2026**
 
@@ -46,5 +54,5 @@ Version history for the Employee Goals application on the ServiceNow Store.
     Employee Goals provides employees and their managers visibility into employee personal and business goals, in context of Talent Development activities.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

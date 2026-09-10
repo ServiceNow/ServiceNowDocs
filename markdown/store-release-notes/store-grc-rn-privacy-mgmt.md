@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-privacy-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Privacy Management release notes
@@ -18,6 +18,18 @@ Version history for the GRC: Privacy Management application on the ServiceNow St
 
 ## Version history
 
+-   **Version 23.0.1 - September 2026 \(Brazil\)**
+    -   New:
+    -   -   Automatic Data Transfer Mapping: Processing activities now automatically generate data transfer records from privacy assessments, capturing personal data movement between hierarchy nodes and data subjects. Privacy analysts can review, add, or remove transfers on the Data transfers tab to ensure complete data flow documentation.
+-   AI-Powered Privacy Assessment Recommendations: Privacy assessment tasks now auto-generate AI-recommended control objectives and risk statements when moved to Review state, with intelligent suggestion guides explaining the rationale. Accept or reject recommendations to streamline compliance scoping. Approved items automatically map to associated processing activities.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
+-   **Version 22.0.7 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   Configure the Personal Data Rights \(PDR\) external-facing form to map jurisdictions to data subject types and request types, and control whether an authorized agent can submit a request on behalf of a data subject.
@@ -147,5 +159,5 @@ Version history for the GRC: Privacy Management application on the ServiceNow St
     ServiceNow’s Privacy Management solution helps customers manage their enterprise-wide privacy program by staying on top of privacy risks and regulations. The solution also enables customers to unify and scale enterprise-wide data privacy governance on a single platform to embed privacy risk into the front-line to adopt the Privacy by design culture.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

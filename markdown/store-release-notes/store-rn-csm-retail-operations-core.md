@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retail Core release notes
@@ -17,6 +17,19 @@ Version history for the Retail Core on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.0.3 - September 2026 \(Brazil\)**
+
+    New: Java 21 compatibility
+
+-   **Version 7.6.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Plan progress summary dashboard with complete plan hierarchy tracking added on a single page replacing the previous drill-down-only tab experience.
+        -   A new "Schedule Occurrence" column has been added to the Retail Case table, referencing to the "Schedule Occurrence" table.
+        -   Integration with Strategic Portfolio Management \(SPM\) through which all store opening, closing, relocation and refurbishment project tasks to be performed at the store can be made visible to store employees on Retail portal.
+-   **Version 7.5.0 - August 2026**
+
+    Changed: Added a plugin-gated "In-Store Ops Tasks" tab to the RSM portal Home page and Cases &amp; Tasks page
 
 -   **Version 7.4.0 - July 2026**
     -   New: Enhanced employee experience by enabling install base menu option to view Affected devices \(install base items\) in the store.

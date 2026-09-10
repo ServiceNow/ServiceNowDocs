@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-workforce-optimization-common.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workforce Optimization Common release notes
@@ -17,6 +17,10 @@ Version history for the Workforce Optimization Common on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.11.0 - September 2026**
+
+    Minor Defect Fixes.
 
 -   **Version 1.9.2 - July 2026**
 
@@ -87,5 +91,5 @@ Version history for the Workforce Optimization Common on the ServiceNow Store.
     Provides common data model dependency for workforce optimization products
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

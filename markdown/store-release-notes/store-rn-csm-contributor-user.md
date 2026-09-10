@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-contributor-user.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CSM Contributor User release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Customer Service Management release notes, Servi
 Version history for the ServiceNow® CSM Contributor User application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.5.3 - September 2026**
+
+    New: Changes to support the customer data access based on the criteria configured.
 
 -   **Version 2.4.0 - June 2026**
     -   New:
@@ -29,5 +33,5 @@ Version history for the ServiceNow® CSM Contributor User application on the Ser
     The CSM Contributor User application enables organizations using ServiceNow Customer Service Management \(CSM\) to assign contributor roles to internal and external users, allowing them to create, view, and collaborate on cases and related case tasks. It provides a flexible access model that enables middle-office users to engage in customer support activities without requiring full agent access.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

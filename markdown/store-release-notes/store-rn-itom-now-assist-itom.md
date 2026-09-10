@@ -1,23 +1,50 @@
 ---
-title: Now Assist for ITOM release notes
-description: Version history for the Now Assist for ITOM application on the ServiceNow Store.
+title: ServiceNow Otto for ITOM release notes
+description: Version history for the ServiceNow Otto for ITOM application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-now-assist-itom.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for ITOM release notes
+# ServiceNow Otto for ITOM release notes
 
-Version history for the Now Assist for ITOM application on the ServiceNow Store.
+Version history for the ServiceNow Otto for ITOM application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 2.9.4 - September 2026**
+    -   New:
+        -   Alert Verification AI Agent automates alert closure based on related incidents and knowledge articles.
+        -   Integration Management Agent enables conversational setup and lifecycle management for top pull connectors.
+        -   Credential creation within conversational setup.
+        -   Advanced KB search and summarization for alert investigation.
+        -   Option to install integrations with Otto from integration launchpad
+        -   Auto-closure reasoning and expanded explanations are available for alerts.
+        -   Enable offglide execution for compatible alert skills.
+    -   Changed:
+        -   Alert reasoning headers updated for all closure scenarios. Autonomous Not Significant Styled Output prompt revised.
+        -   Data handling improved for insignificance reason from summarization prompts
+        -   New headers added for alert reasoning scenarios.
+-   **Version 2.9.2 - August 2026**
+    -   New:
+        -   AIOps AI Specialist:
+            -   Operator-reopened alerts get full AI investigation automatically. When a human operator reopens an alert that the AI previously closed as noise, the system bypasses noise classification for the rest of that alert's lifecycle and runs a complete investigation — ensuring human overrides are respected and learned from.
+            -   AI-handled alerts are automatically returned to the original operator. After the AIOps AI Specialist completes its analysis or remediation, the alert is reassigned back to the human who originally owned it, preserving all AI-generated context and notes.
+            -   AWS Claude is now supported as an AI agent provider, expanding the choice of underlying AI models for automated workflows.
+    -   Changed:
+        -   All Now Assist references changed to ServiceNow Otto.
+        -   AIOps AI Specialist:
+            -   AIOps AI Specialist auto-assignment no longer overrides human ownership. The AIOps AI Specialist will not automatically take over alerts already assigned to a human operator, reducing unwanted reassignments and keeping accountability clear.
+            -   When the AIOps AI Specialist is manually triggered on a human-assigned alert, the alert returns to its original owner after AI processing — with configuration options to control behavior for noisy or previously assigned alerts.
+    -   Fixed:
+        -   AIOps AI Specialist
+            -   Fixes and improvements.
 -   **Version 2.8.0 - July 2026**
     -   Changed:
         -   Azure OpenAI is now the default model provider for AI skills and agents. Now LLM is no longer the default. Customers can choose the default and choose their own third-party providers.

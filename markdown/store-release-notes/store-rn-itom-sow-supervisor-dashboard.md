@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-supervisor-dashboard.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Supervisor Dashboard release notes
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Service Operations Workspace Supervisor Das
 
 ## Version history
 
+-   **Version 1.3.7 - September 2026**
+    -   New: Direct access to AI Specialist activity and auto-resolved alerts in Express List
+    -   Removed: The AI Supervision tab is removed, and supervision work is being done in the Express List
+-   **Version 1.3.3 - August 2026**
+    -   Changed: AIOps Supervisor Homepage updated for Otto branding. All text and icon references to "Now Assist" are replaced with "Otto" for brand consistency. No functional changes are introduced.
+    -   Fixed: The AIOps Supervisor Homepage now remains responsive even with a large number of teammates.
 -   **Version 1.1.0 - July 2026**
     -   Changed:
         -   Express List accessibility improvements. The Express List is now fully accessible to users with low vision, expanding the user base and ensuring compliance with international accessibility standards and regulations.
@@ -49,5 +55,5 @@ Version history for the ServiceNow® Service Operations Workspace Supervisor Das
     -   A key metric on the page — Time Saved Using AI — gives supervisors a tangible signal of AIOps value, calculated from the volume of alerts resolved and analyzed autonomously versus what would have required manual effort.
     -   The homepage is available as part of the Service Operations Workspace and targets organizations running Event Management with Alert Automation and Autonomous Grouping enabled.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-industrial-cyber-security-suite-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Industrial Cyber Security Suite Advanced release notes
@@ -16,10 +16,16 @@ Version history for the ServiceNow® Industrial Cyber Security Suite Advanced ap
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+## Version history
+
+-   **Version 1.0.5 - September 2026**
+
+    Changed: The application title was changed from Industrial Cyber Security Suite to Cyber Physical Systems Security
+
 -   **Version 1.0.1 - April 2026**
 
     Plugin for AI skills and agents for Industrial Cyber Security Suite Advanced
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

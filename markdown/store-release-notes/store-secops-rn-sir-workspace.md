@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Incident Response Workspace release notes
@@ -18,6 +18,23 @@ Version history for the Security Incident Response Workspace on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.10.1 - September 2026**
+    -   New: Integration of  MITRE ATLAS framework into SIR.
+    -   Fixed:
+        -   Fixed Associated List dropdown not populating on related list config forms.
+        -   Fixed Label field validation not triggering on first focus.
+        -   Fixed ZTA modules displaying in workspace when plugin is not installed.
+        -   Fixed the ability to create Security Incident Categories and SubCategories.
+        -   Fixed translation strings hardcoded in UI messages, tooltips, and bulk action dialogs.
+        -   Fixed Begin/End date selection when creating Outages on incidents.
+        -   Fixed translation exposure for UI strings \("Create Incident," "Create Problem," "Create Change Request," "Details," "Activity," "Quick filters," and related text\).
+-   **Version 1.9.9 - August 2026**
+    -   New: Users can now preview attachments in a configurable upload modal before completing the upload process.
+    -   Fixed:
+        -   Translations now display correctly on Quick filters in Security Incident Workspace.
+        -   Heading levels in Security Incident Response are now sequential, improving accessibility and screen reader compatibility.
+        -   The relationship graph in Security Incident Workspace now supports localization and displays translated content.
+        -   Users can now close security incidents from the closure modal, even when the active tab is not the details tab.
 -   **Version 1.9.2 - July 2026**
 
     Fixed: Fixed an issue with "Allow access for external user" option to access assigned response tasks of a parent security incident.
@@ -206,5 +223,5 @@ Version history for the Security Incident Response Workspace on the ServiceNow S
     Security Incident Response Workspace will be used by Security Analysts and SOC Managers to solve Security Incidents and perform all SOAR related activities.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

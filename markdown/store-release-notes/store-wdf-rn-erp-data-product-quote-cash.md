@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ERP Content Packs for Quote to Cash release notes
@@ -30,5 +30,5 @@ Version history for the ERP Content Packs for Quote to Cash application on the S
     -   The Quote to Cash Data Product includes models for reading, creating, and updating sales orders in SAP. Additionally, process extensions are available to manage delivery and billing blocks within workflows, enabling greater flexibility and control in order processing.
     -   There are new models for reading Customer Credit Limits and Credit Memo Requests.
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

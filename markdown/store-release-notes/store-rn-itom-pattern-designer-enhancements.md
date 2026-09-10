@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-pattern-designer-enhancements.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Pattern Designer Enhancements release notes
@@ -18,6 +18,13 @@ Version history for the ITOM Pattern Designer Enhancements application on the Se
 
 ## Version history
 
+-   **Version 3.12.0 - September 2026**
+    -   New:
+        -   Added support for direct command execution through the Agent Tool.
+        -   Use the Command Validation Tool to identify and extract commands from MID Server script files referenced in discovery patterns, expanding command coverage within the command list table.
+    -   Fixed:
+        -   Commands in nested shared libraries aren't accessible in the Command Validation Tool. \(PRB2053597\)
+        -   The Commands List in Pattern Designer Enhancements displays hard-coded variables such as default port values. \(PRB2034098\)
 -   **Version 3.10.0 - June 2026**
 
     New: Control access through predefined query access controls for all Pattern Designer Enhancements tables.
@@ -86,5 +93,5 @@ Version history for the ITOM Pattern Designer Enhancements application on the Se
     Discovery and Service Mapping provide automated discovery of your on-premises and cloud infrastructure. Pattern frameworks from ITOM Visibility provide codeless content to discover IT landscapes. This store application helps ServiceNow ITOM product teams to release framework enhancements through store releases.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

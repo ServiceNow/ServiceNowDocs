@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-support-common.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Support Common release notes
@@ -18,6 +18,23 @@ Version history for the Security Support Common on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.6.5 - September 2026**
+    -   Fixed:
+        -   Fixed an issue where retired configuration items \(CIs\) could be incorrectly associated with Security Incidents created from SIEM data ingestion.
+        -   Fixed an issue where security capability execution flows could run all active capability implementations instead of only the ones specified.
+        -   Improved upgrade performance for the Security Support Common plugin, reducing install time during instance upgrades.
+        -   Resolved several packaging and translation issues in Security Support Common to improve localization coverage.
+        -   Fixed a role-definition packaging issue in the Security Support Common plugin.
+        -   Improved accessibility compliance across Security Support Common workspaces and forms.
+-   **Version 30.5.7 - September 2026**
+
+    Fixed: Security fix.
+
+-   **Version 30.5.5 - August 2026**
+    -   Fixed:
+        -   Security tags are now correctly applied to Security Incident Response records when hierarchical conditions are used in filter groups
+        -   URLs are now correctly recognized as observable data types
+        -   Resolved an issue where duplicate assignment records were being loaded
 -   **Version 30.5.1 - July 2026**
     -   New: Added parallel processing for Software Bill of Materials \(SBOM\) ingestion jobs, improving throughput for large-scale data processing
     -   Fixed: Resolved an issue where state changes on a remediation task were not rolled down to associated vulnerable items when the task contained more than 200 items
@@ -164,5 +181,5 @@ Version history for the Security Support Common on the ServiceNow Store.
     Refer to Vulnerability Response release notes for product changes and updates in the Madrid release.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

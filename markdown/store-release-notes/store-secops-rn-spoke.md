@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-06-05"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Operations Spoke release notes
@@ -92,5 +92,5 @@ Version history for the Security Operations Spoke on the ServiceNow Store.
     Refer to Security Incident Response release notes for product changes and updates in the Madrid release.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

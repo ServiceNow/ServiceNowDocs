@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-retail-playbook-store-plan.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retail Playbook for Store Plan release notes
@@ -17,6 +17,23 @@ Version history for the ServiceNow® Retail Playbook for Store Plan application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.3 - September 2026 \(Brazil\)**
+
+    New: Java 21 compatibility
+
+-   **Version 3.6.0 - September 2026 \(Australia\)**
+    -   New:
+        -   New cases and HQ task created from the Store Plan will populate Template Item and Template Execution columns.
+        -   Changes done for populating the schedule\_occurrence column on Cases
+    -   Changed: New cases created from the Store Plan will no longer populate the Origin field.
+-   **Version 3.5.2 - August 2026**
+
+    Fixed: Store Plan Playbook now correctly creates the Work Plan record on the PWM Activity Definition when "Save and Continue" is selected.
+
+-   **Version 3.3.1 - August 2026 \(Zurich\)**
+
+    Fixed: Store Plan Playbook now correctly creates the Work Plan record on the PWM Activity Definition when "Save and Continue" is selected.
 
 -   **Version 3.4.0 - June 2026**
     -   New:
@@ -47,5 +64,5 @@ Version history for the ServiceNow® Retail Playbook for Store Plan application 
     The retail playbook for store plan enables HQ and regional managers to easily create structured operational plans with tasks and cases, linked to store locations and schedules.
 
 
-**Parent Topic:**[ServiceNow Store - Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
+**Parent Topic:**[ServiceNow Store - Retail version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
 

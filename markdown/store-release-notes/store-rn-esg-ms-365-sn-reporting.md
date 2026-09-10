@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-ms-365-sn-reporting.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft 365 for ServiceNow Reporting release notes
@@ -17,6 +17,10 @@ Version history for the Microsoft 365 for ServiceNow Reporting application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+
+    Changed: ACLs have been restructured to enable compatibility with both Zurich and Australia platforms, allowing IRM and related apps to operate on Zurich for the September Store Release.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
@@ -60,5 +64,5 @@ Version history for the Microsoft 365 for ServiceNow Reporting application on th
     Microsoft 365 for ServiceNow Reporting provides reporting capabilities to organisational reporting managers to seamlessly report on ServiceNow data and reports through Microsoft Word and establish an auditable link between the document and the data.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

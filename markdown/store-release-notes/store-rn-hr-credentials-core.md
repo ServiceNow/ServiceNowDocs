@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Credentials Core release notes
@@ -34,5 +34,5 @@ Version history for the Credentials Core application on the ServiceNow Store.
     Credentials Core application is used to store various forms of digital credentials such as badges, awards, certifications etc.It holds the data about the user and their enrollment status in the badge provider entity along with data on the associated badges for the user. Credentials core application also helps in syncing user badge details from Credly if the spoke is installed.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

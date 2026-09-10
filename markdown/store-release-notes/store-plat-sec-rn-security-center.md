@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-security-center.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Center release notes
@@ -18,6 +18,16 @@ Version history for the Security Center on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.5.3 - September 2026**
+    -   New:
+        -   Security Center hardening baseline version 9.
+        -   Activate hardening settings based on applicable families.
+    -   Fixed: Defect fixes.
+-   **Version 3.5.2 - September 2026**
+    -   New:
+        -   Security Center hardening baseline version 9.
+        -   Activate hardening settings based on applicable families.
+    -   Fixed: Defect fixes.
 -   **Version 3.4.2 - July 2026**
     -   New: ServiceNow Announcements have been added to push urgent security notifications from ServiceNow to Security Center.
     -   Changed:
@@ -158,5 +168,5 @@ Version history for the Security Center on the ServiceNow Store.
     ServiceNow Security Center is an application that consists of a set of purpose-built tools designed to help organizations maintain the security of their ServiceNow deployments. Using Security Center, organizations can improve their security posture, strengthen their compliance levels, and do so with a seamless user experience.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Security version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-sec.md)
 

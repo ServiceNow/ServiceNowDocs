@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-ui-components-cust-portals.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # UI Components for Customer Portals release notes
@@ -17,6 +17,14 @@ Version history for the CSM UI Components for Customer Portals application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - September 2026**
+
+    Enhancements and defect fixes for the Data List widget.
+
+-   **Version 4.2.1 - August 2026**
+
+    Defect fixes
 
 -   **Version 4.1.1 - June 2026**
     -   New Feature Enhancement and some defect fixes.

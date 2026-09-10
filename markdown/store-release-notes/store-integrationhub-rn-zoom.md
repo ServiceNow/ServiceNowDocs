@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-zoom.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Zoom spoke release notes
@@ -17,6 +17,18 @@ Version history for the Integration Hub Zoom spoke on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.0.1 - September 2026**
+    -   Updated actions:
+        -   1 Look up Users Stream \(DataStream action\): Added new inputs and outputs also updated the deprecated pagination logic.
+        -   2 Look up Meetings Stream \(DataStream action\):Added new inputs and outputs.
+    -   Added New actions:
+        -   1 Look up User Settings \(action\): New action to retrieve the settings details for a user.
+        -   2 Look up Webinars Stream \(DataStream action\): New action to retrieve a list of upcoming or scheduled webinars for a user.
+        -   3 Update User \(action\): New action to update the Zoom profile information for a user.
+-   **Version 4.8.1 - August 2026**
+
+    Fixed: Authentication bypass vulnerability in the Zoom webhook endpoint by removing redundant query parameter token validation, enforcing exclusive HMAC-SHA256 header authentication.
 
 -   **Version 4.8.0 - July 2026**
     -   Changed:
@@ -134,5 +146,5 @@ Version history for the Integration Hub Zoom spoke on the ServiceNow Store.
     Provides actions to start and manage a Zoom meeting from the ServiceNow instance.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

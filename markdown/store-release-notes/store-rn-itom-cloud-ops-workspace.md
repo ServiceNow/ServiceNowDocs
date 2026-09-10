@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Cloud Discovery Workspace release notes

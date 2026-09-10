@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-03-23"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Product Catalog Management Core release notes
@@ -36,5 +36,5 @@ Version history for the Product Catalog Management Core on the ServiceNow Store.
     This application contains the base product catalog data model and functionality to define product, services, and resource specifications, and product offerings based on those specifications.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

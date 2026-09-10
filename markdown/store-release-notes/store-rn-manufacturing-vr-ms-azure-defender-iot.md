@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\) release notes
@@ -43,5 +43,5 @@ Version history for the Vulnerability Response Integration with Microsoft Azure 
     Import vulnerabilities from Microsoft Defender for IoT into the ServiceNow Operational Technology Vulnerability Response application, and take risk-based action with production process context.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

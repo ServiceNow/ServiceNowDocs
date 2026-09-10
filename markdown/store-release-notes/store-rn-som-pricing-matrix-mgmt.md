@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-pricing-matrix-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Pricing Matrix Management release notes
@@ -18,6 +18,13 @@ Version history for the Pricing Matrix Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 10.5.2 - September 2026**
+    -   New: Floor and ceiling pricing now available in API responses, enabling price boundary enforcement
+    -   Changed: PricingMatrixAPIImpl instantiation optimized
+    -   Fixed:
+        -   Fixed issue where Matrix rules silently fail in account scope mode
+        -   Fixed issue where cancelled lines contributed to incorrect adjustment totals
+        -   Quote-to-SA creation flow no longer failing due to currency check
 -   **Version 10.3.0 - June 2026**
     -   Fixed:
         -   Performance enhancements
@@ -57,5 +64,5 @@ Version history for the Pricing Matrix Management on the ServiceNow Store.
     Pricing matrix is a structured framework based on decision tables that specify how list prices are adjusted for products or services based on multiple criteria or attributes. These criteria can include factors such as quantity, customer types, regions, or any other relevant dimensions. These dimensions can be defined using context variables. Pricing matrix can be extended to other simple pricing rules.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

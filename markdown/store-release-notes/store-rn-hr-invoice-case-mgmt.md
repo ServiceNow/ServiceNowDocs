@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-invoice-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Accounts Payable Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Accounts Payable Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Invoice Case Management release notes
@@ -17,6 +17,24 @@ Version history for the Invoice Case Management application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.2.4 - September 2026**
+    -   Support email exclusion rules for case creation: Enable AP teams to define and auto-enforce email suppression rules that filter non-invoice emails \(confirmations, OOO replies, duplicates\) before case creation
+    -   Manual Case Reopening: Reopen closed case enables AP teams to manually restore closed invoice cases to WIP status while preserving all historical context and data, eliminating the need to create duplicate cases for recurring issues.
+-   **Version 11.4.5 - September 2026 \(Zurich\)**
+    -   Support email exclusion rules for case creation: Enable AP teams to define and auto-enforce email suppression rules that filter non-invoice emails \(confirmations, OOO replies, duplicates\) before case creation
+    -   Manual Case Reopening: Reopen closed case enables AP teams to manually restore closed invoice cases to WIP status while preserving all historical context and data, eliminating the need to create duplicate cases for recurring issues.
+-   **Version 13.1.4 - August 2026 \(Australia\)**
+
+    This release includes fixes for reported defects to improve product stability.
+
+-   **Version 11.3.3 - August 2026 \(Zurich\)**
+
+    This release includes fixes for reported defects to improve product stability.
+
+-   **Version 9.3.11 - August 2026 \(Yokohama\)**
+
+    This release includes fixes for reported defects to improve product stability.
 
 -   **Version 13.0.1 - June 2026**
 

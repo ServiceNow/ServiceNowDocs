@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM Process Mining Content Pack release notes
@@ -79,5 +79,5 @@ Version history for the ITSM Process Mining Content Pack on the ServiceNow Store
     New: A new capability introduced in Quebec with ITSM Enterprise SKU.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

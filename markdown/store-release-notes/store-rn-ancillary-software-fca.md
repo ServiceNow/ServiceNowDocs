@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-05-15"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Ancillary software release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Ancillary software version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SAP integration for Finance Close Automation release notes

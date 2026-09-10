@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Industrial Guided Task release notes
@@ -32,5 +32,5 @@ Version history for the ServiceNow® Industrial Guided Task application on the S
         -   Step-by-step activity flows, including steps which only activate when required
         -   Guidance at the point of use, including images, text, and Knowledge
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

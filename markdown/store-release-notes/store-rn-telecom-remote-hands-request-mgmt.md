@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-remote-hands-request-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Remote Hands Request Management release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Telecommunications Service Management release no
 Version history for the ServiceNow® Remote Hands Request Management application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 7.0.4 - September 2026**
+
+    SDK version upgrade
 
 -   **Version 6.2.0 - July 2026**
 
@@ -29,5 +33,5 @@ Version history for the ServiceNow® Remote Hands Request Management application
     This application is built to support the remote hands capability, a key feature that enables end customers to securely and efficiently raise remote hands requests. It streamlines technical support by allowing customers to request on-site, hands-on assistance for their devices or systems without managing the coordination themselves. As a result, it reduces resolution time, improves operational efficiency, and enhances the overall customer support experience.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

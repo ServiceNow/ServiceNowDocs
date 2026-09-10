@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Proactive Engagement release notes
@@ -41,5 +41,5 @@ Version history for the Proactive Engagement application on the ServiceNow Store
     Proactive Engagement enhances employee digital experience, productivity, and satisfaction by allowing them to self-solve daily digital issues seamlessly without needing the organization to share all solution sets.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

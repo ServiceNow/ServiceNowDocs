@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-spo-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SPO - Prime release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® SPO - Prime application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.0.0 - September 2026**
+
+    The application captures dependencies, updated the plugin dependencies for this release.
+
+-   **Version 1.3.3 - August 2026**
+
+    Now Assist has been renamed to ServiceNow Otto, ServiceNow's AI experience brand. As a result, Now Assist references have been replaced with ServiceNow Otto.
 
 -   **Version 1.2.0 - June 2026**
 
@@ -31,5 +39,5 @@ Version history for the ServiceNow® SPO - Prime application on the ServiceNow S
     The ServiceNow Sourcing and Procurement Operations Prime application delivers a comprehensive suite of AI-powered skills and agents that transform how procurement specialists handle requisitions, sourcing events, and inquiries. From intelligent intake and automated catalog matching to agentic workflows that resolve exceptions and route ownership — Prime accelerates end-to-end sourcing and procurement operations while keeping humans in control at every step.
 
 
-**Parent Topic:**[ServiceNow Store - Finance Close Automation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
+**Parent Topic:**[ServiceNow Store - Finance Close Automation version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fca-highlight.md)
 

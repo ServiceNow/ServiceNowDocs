@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-int-crowdstrike-next-gen-siem.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Incident Response Integration with CrowdStrike Next-Gen SIEM release notes
@@ -17,6 +17,10 @@ Version history for the Security Incident Response Integration with CrowdStrike 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.4 - September 2026**
+
+    Fixed: Addressed an issue where the mapping tab failed to load when SIR fields had an empty.
 
 -   **Version 2.4.2 - June 2026**
     -   Fixed:
@@ -48,5 +52,5 @@ Version history for the Security Incident Response Integration with CrowdStrike 
     The CrowdStrike Next-Gen SIEM Ingestion integration allows you to automatically retrieve incidents from CrowdStrike, convert them into security incidents, and enable automated response actions.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

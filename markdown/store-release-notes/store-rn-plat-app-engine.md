@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Store - ServiceNow AI Platform App Engine release notes
+title: ServiceNow Store - ServiceNow AI Platform App Engine version history release notes
 description: The ServiceNow Store contains ServiceNow AI Platform UI products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine.html
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store release notes]
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - ServiceNow AI Platform App Engine release notes
+# ServiceNow Store - ServiceNow AI Platform App Engine version history release notes
 
 The ServiceNow Store contains ServiceNow AI Platform UI products.
 
@@ -42,6 +42,8 @@ Version history for the ERP Content Pack for Enterprise Data Foundation applicat
 Version history for the ERP Content Pack for Quote to Cash application on the ServiceNow Store.
 -   **[release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-erp-cust-mining.md)**  
 Version history for the ERP Semantic Mining application on the ServiceNow Store.
+-   **[ERP Rapid Deployment Packs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-erp-rapid-deployment-packs.md)**  
+Version history for the ServiceNow® ERP Rapid Deployment Packs application on the ServiceNow Store.
 -   **[Event Registration App Template release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-aes-event-registration-app-template.md)**  
 Version history for the Event Registration App Template on the ServiceNow Store.
 -   **[Expense Pre-Approval Template release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-aes-expense-preapproval-template.md)**  
@@ -50,12 +52,8 @@ Version history for the Expense Pre-Approval Template on the ServiceNow Store.
 Version history for the Impact Value Management - App Engine application on the ServiceNow Store.
 -   **[Inventory Tracker App Template release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-aes-inventory-tracker-app-template.md)**  
 Version history for the Inventory Tracker App Template on the ServiceNow Store.
--   **[Now Assist for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-now-assist.md)**  
-Version history for the Now Assist for App Engine application on the ServiceNow Store.
 -   **[Now Assist for Automation Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-now-assist-automation-center.md)**  
 Version history for the ServiceNow® Now Assist for Automation Center application on the ServiceNow Store.
--   **[Now Assist for RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-now-assist-rpa-hub.md)**  
-Version history for the Now Assist for RPA Hub application on the ServiceNow Store.
 -   **[Performance Appraisal App Template release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-aes-appraisal-template.md)**  
 Version history for the Performance Appraisal App Template on the ServiceNow Store.
 -   **[Requirement Intake Diagram release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-requirement-intake-diagram.md)**  
@@ -72,6 +70,10 @@ Version history for AP ECC RFC Spoke Dependencies on the ServiceNow Store.
 Version history for SAP S/4HANA RFC Spoke Dependencies on the ServiceNow Store.
 -   **[ServiceNow Lens release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-servicenow-lens.md)**  
 Version history for the ServiceNow AI Lens application on the ServiceNow Store.
+-   **[ServiceNow Otto for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-now-assist.md)**  
+Version history for the ServiceNow Otto for App Engine application on the ServiceNow Store.
+-   **[ServiceNow Otto for RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-now-assist-rpa-hub.md)**  
+Version history for the ServiceNow Otto for RPA Hub application on the ServiceNow Store.
 -   **[ServiceNow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-sn-studio.md)**  
 Version history for the ServiceNow Studio application on the ServiceNow Store.
 -   **[ServiceNow Studio for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-servicenow-studio.md)**  
@@ -91,5 +93,5 @@ Version history for the Time Off Request App Template on the ServiceNow Store.
 -   **[Workspace Builder for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine-aes-workspace-builder.md)**  
 Version history for the AES Workspace Builder application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

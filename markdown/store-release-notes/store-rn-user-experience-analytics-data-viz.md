@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-user-experience-analytics-data-viz.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Usage Insights in Data Visualizations release notes
@@ -18,6 +18,13 @@ Version history for the Usage Insights in Data Visualizations application on the
 
 ## Version history
 
+-   **Version 6.3.14 - September 2026**
+
+    Fixed the chat provider filter in the Usage Insights dashboard's conversation menu to support all chat providers.
+
+-   **Version 6.3.10 - August 2026**
+    -   Support for AI Native Experience channel
+    -   Support for conversation analytics
 -   **Version 6.3.9 - July 2026**
 
     Graphically represent funnels as part of data visualizations

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-metrics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Metrics release notes
@@ -17,6 +17,35 @@ Version history for the GRC: Metrics application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   New:
+        -   Admins can now configure notification redirection for metric data tasks and composite definitions. Email notifications for metric data tasks and metric hierarchies now use the platform’s notification redirection framework, ensuring recipients land on the correct workspace or Classic view based on access.
+        -   Campaign workflows now support handling unpublished states and entity/metric removal. Campaigns update data owner and first run date only after publishing, display clear messages when metrics or entities are removed, and prevent deletion of campaign cycles once published.
+    -   Changed: Filter count on MDT page now includes campaign filters. The filter button on the MDT page accurately reflects the total number of applied filters, including those from campaigns.
+    -   Fixed:
+        -   Error messages caused by metric definition ACLs on the control form have been resolved.
+        -   Metric data list configuration now displays distinct labels for fields from different metric definition references, eliminating ambiguity.
+-   **Version 22.5.2 - August 2026 \(Australia\)**
+    -   New:
+        -   Campaigns now support metric bundling and unified workflow managementUsers can group related metrics into campaigns, so all metrics within a campaign move through data collection, review, and approval as a single unit. Shared properties such as start date, due date, entities, attachments, and project-level comments are managed at the campaign level.
+        -   Streamlined campaign UI and bulk actionsThe campaign workspace provides a scalable interface for managing up to 30 metrics across 17 entities, with dropdown filters and minimized scrolling. Users can bulk submit and approve metric data tasks, and tick marks indicate completion status for campaign setup steps.
+        -   Automated campaign cycle and task managementCampaign cycles are created and managed based on campaign state and schedule. Campaign and cycle states update automatically as underlying tasks progress, and due date changes at the campaign or cycle level propagate to all related tasks.
+        -   Configurable data owner and approval workflowsAdmins can assign data owners and configure single-level or multi-level approval workflows for campaigns, with validation to prevent conflicts between data owners and approvers.
+        -   Enhanced metric data task \(MDT\) lifecycle and UIMetric data tasks now support campaign-driven scheduling, custom due dates, and read-only data fields for calculated metrics. The MDT UI includes new filters for project and task, project details on the ribbon, and approval page updates for bulk actions.
+        -   Threshold variance calculation and configurationMetric definitions now support configurable variance base values and improved variance calculation logic, including handling of missing or overridden data and immediate client-side updates.
+        -   Support for calculated metric definition \(CMD\) task creation and approvalTasks are now generated for calculated metrics, enabling review and approval before data is used in disclosures or reporting. CMD recalculation occurs in real time when source data changes, and approval flows are fully supported.
+        -   Naming conventions for campaign cyclesCampaign cycles are named according to frequency \(daily, weekly, monthly, quarterly, semi-annually, annually\) for clarity and consistency.
+    -   Changed:
+        -   Campaign and metric data task logic updated for campaign-driven schedulingWhen a metric is part of an active, published campaign, its data collection schedule, due date, and lifecycle are governed by the campaign rather than the individual metric definition. Updates to campaign cycles or due dates are reflected across all associated tasks.
+        -   Bulk state updates for campaign cyclesCampaign cycles automatically transition to "Approval" or "Closed" states based on the status of underlying tasks, eliminating manual intervention.
+        -   Validation and filtering improvements for campaign setupEntity selection now prevents duplicates, and the system shows an error message when a user attempts to add an entity already present in another campaign with matching group, frequency, and calendar. Bulk submission is disabled by default for new campaigns.
+        -   Metric data logic refined for task state and value propagationMetric data values populate immediately when child tasks complete, but the state remains "in-progress" if tasks are enabled. CMD recalculation and approval flows are updated so task states and value propagation stay correct.
+        -   Approval configuration UI updatedThe data owner and approval configuration page now supports adding multiple approval levels, error handling for empty or conflicting values, and automatic clearing of multi-level settings when switching to single-level approval.
+        -   Field-level access controls and UI policies updatedData owner and approver fields are now managed at the campaign level, with updated ACLs and UI policies to enforce correct permissions and field behaviors.
+-   **Version 22.0.4 - August 2026 \(Zurich\)**
+
+    Changed: MRA security enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows so access checks are consistently enforced during record association.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:

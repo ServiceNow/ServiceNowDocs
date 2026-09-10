@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Security Center integration with Palo Alto Networks NGFW release notes
@@ -26,5 +26,5 @@ Version history for the Threat Intelligence Security Center integration with Pal
     Palo Alto Networks NGFW Integration for Threat Intelligence Security Center \(TISC\) enables Cyber Threat Intelligence \(CTI\) analysts to manage External Dynamic Lists \(EDLs\) directly from TISC. Analysts can create or remove EDL entries, which the Palo Alto Networks NGFW can then consume to drive security actions.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

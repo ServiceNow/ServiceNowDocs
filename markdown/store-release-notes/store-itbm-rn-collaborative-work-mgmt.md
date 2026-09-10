@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-collaborative-work-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Collaborative Work Management release notes
@@ -18,6 +18,19 @@ Version history for the Collaborative Work Management application on the Service
 
 ## Version history
 
+-   **Version 11.0.1 - September 2026**
+    -   New:
+        -   Build multiple customizable dashboards per Board with real-time charts, scores, and widgets to track delivery health at a glance.
+        -   View and connect epics, defects, sprints, and other work artifacts natively within Boards, with flexible filtering, sorting, and grouping.
+        -   Keep Project Workspace and CWM tasks synchronized in both directions, with statuses, dates, and comments updating in real time across platforms.
+-   **Version 10.2.3 - August 2026**
+    -   New:
+        -   SPM's Project Workspace now has an integration with Collaborative Work Management
+            1.  Team Members can create new CWM tasks/stories under an assigned project task
+            2.  Users can move or break a CWM task's connection to a different project task
+            3.  Project Managers will see CWM tasks/stories connected to their project tasks directly inline in the Planning page of the Project in Project Workspace.
+            4.  Team Members in CWM see their connected project and project tasks as columns in CWM list view, and in "My Work"
+    -   Changed: Relationships for any task types can added now using Task number/id instead of just Task description.
 -   **Version 10.0.2 - June 2026**
     -   New:
         -   Team Member Role for SPM Project Workspace - Enables team members with a cwm license to access and modify project workspace actions. Users can perform CRUD operations on project tasks, demand, and idea tables, and have calendar access. Role assignments and permissions are managed to enhance collaboration within the workspace.
@@ -166,5 +179,5 @@ Version history for the Collaborative Work Management application on the Service
     -   Create docs to manage documentation or content for your work. See who is online and collaborate in real time to create docs.
     -   Connect boards to Strategic Planning Workspace for prioritization, roadmap, and goals.
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

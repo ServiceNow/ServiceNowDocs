@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-customer-engagement-sequences.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Engagement Sequences release notes
@@ -18,6 +18,9 @@ Version history for the Customer Engagement Sequences application on the Service
 
 ## Version history
 
+-   **Version 2.3.1 - September 2026**
+    -   New: Demo data for email-based sequences, giving teams a ready-made path to test and demo email engagement without building one from scratch.
+    -   Fixed: Minor defects.
 -   **Version 2.2.0 - June 2026**
 
     Fixed: Enhanced security by introducing non-glide Query Range ACLs.
@@ -38,5 +41,5 @@ Version history for the Customer Engagement Sequences application on the Service
     Customer Engagement Sequences application automates personalized outreach and follow-up activities to engage customers throughout their entire lifecycle.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

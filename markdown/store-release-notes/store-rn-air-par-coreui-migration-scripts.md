@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-par-coreui-migration-scripts.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # PAR CoreUI Migration Scripts release notes
@@ -18,6 +18,31 @@ Version history for the PAR CoreUI Migration Scripts application on the ServiceN
 
 ## Version history
 
+-   **Version 5.0.8 - September 2026**
+
+    Fixed: Saved visualization does not have chart\_title of repor- A report with both a drilldown and a data set produces a broken drilldown \(child shows "not configured"/or report changes colour\)- Support opening records in Workspace- Header color not retained for List type reports when widget is migrated to Platform Analytics- Report with multiple datasets in stacked bars migrate as unstacked. When stacked on the visualization, all are part of a single stack rather than separate for each dataset- Issue with the visualizations after the migration when in CoreUI the report has the same value for group by/stack by- Dashboard migration logs "time range selector not supported" for time-series widgets where it actually is supported
+
+-   **Version 4.0.8 - September 2026**
+    -   Fixed:
+        -   Saved data visualization does not have chart\_title of report
+        -   ReferenceError on Legacy widget component bootstrap: "updateState is not defined"
+        -   Dashboard migration logs "time range selector not supported" for time-series widgets, where it actually is supported
+        -   After migration, the chart variation of reports having multiple datasets is converted to stacked instead of side by side \(grouped\)
+        -   A report with both a drilldown and a data set produces a broken drilldown \(child shows "not configured"/or the report changes color\)
+        -   Migration Center summary count does not match the list count for fully migrated dashboards.
+        -   Header color not retained for "LIST" type reports when the widget is migrated to Platform Analytics
+        -   Added support for migration of calendar event color configuration
+-   **Version 3.0.17 - September 2026**
+    -   Fixed:
+        -   Saved data visualization does not have chart\_title of report
+        -   ReferenceError on Legacy widget component bootstrap: "updateState is not defined"
+        -   Summary request in Migration Center returns HTTP 500
+        -   After migration, the chart variation of reports having multiple datasets is converted to stacked instead of side by side \(grouped\)
+        -   A report with both a drilldown and a data set produces a broken drilldown \(child shows "not configured"/or the report changes color\)
+        -   Migration Center summary count does not match the list count for fully migrated dashboards.
+        -   Header color not retained for "LIST" type reports when the widget is migrated to Platform Analytics
+        -   Added support for migration of calendar event color configuration
+        -   Workbench pa\_widget displays duplicate indicators upon initial load
 -   **Version 4.0.6 - July 2026**
     -   Fixed in this version:
         -   Calendar report event display fields migrate correctly across all tables during HighCharts migration
@@ -171,5 +196,5 @@ Version history for the PAR CoreUI Migration Scripts application on the ServiceN
     Migration script to migrate Core UI responsive dashboards, reports, PA widgets, and interactive filters to the Platform Analytics experience and see the results. System Administrator will be able to start the move to Platform Analytics and collaborate with Analytics admins on reviewing the migration results.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

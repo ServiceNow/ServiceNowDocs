@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: SOX content pack release notes
@@ -60,5 +60,5 @@ Version history for the GRC Sarbanes-Oxley \(SOX\) content pack on the ServiceNo
         -   Audit User \(sn\_audit\_user\) can read **SOX Compliance Dashboard**, **SOX Risk Dashboard**, and **SOX Processes**
         -   Audit Admin \(sn\_audit\_admin\) can read **SOX Compliance Dashboard**, **SOX Risk Dashboard**, and edit **SOX Audit Dashboard** and **SOX Processes**
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

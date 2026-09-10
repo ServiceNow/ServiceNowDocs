@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # TSOM Event Management Connectors release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Telecommunications Service Management release no
 Version history for the ServiceNow® TSOM Event Management Connectors application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.0.8 - September 2026**
+
+    This release adds a StackInfra pull connector, along with new launchpad tiles for the Equinix, OpsInsight, StackInfra, and DigitalRealty integrations to make them easier to find and set up. Fortinet devices can now push metrics directly to TSOM instead of only being polled, and Nokia MPN security logs now generate anomaly alerts automatically. Fixes include corrected metric alignment so Equinix data maps to the right CMDB records, resolved issues with Nokia MPN alarms not closing properly and short-lived alarms being missed, corrected incorrect and negative Nokia MPN latency values with improved device inclusion for end-to-end latency calculations, corrected health-status \(red/amber/green\) calculation for radio and core-server devices with fixed event severity labeling, and a fix for a timing issue that could cause incorrect data-recovery windows after a Fortinet/Meraki outage. Nokia MPN device and version resolution and performance-metric collection have also been made more reliable, with health-status logic moved into the connector itself for more consistent results across environments.
+
+-   **Version 3.0.6 - August 2026**
+
+    The Event Management Core app has been fully converted to the Fluent SDK \(Now SDK\) TypeScript format, completing the modernization effort alongside the connector and core apps.
 
 -   **Version 2.9.1 - July 2026**
     -   This release makes EM Connectors enterprise-ready at scale with more reliable data collection, direct operator control, and configuration-time failure detection.
@@ -56,5 +64,5 @@ Version history for the ServiceNow® TSOM Event Management Connectors applicatio
     -   Fortinet events and metrics
     -   All connector features released this version, including TMF recovery
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

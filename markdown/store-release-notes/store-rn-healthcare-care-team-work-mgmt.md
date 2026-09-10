@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-care-team-work-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Care Team Work Management release notes
@@ -18,6 +18,11 @@ Version history for the Care Team Work Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.10.0 - September 2026**
+    -   New
+        -   Dedicated work configuration for care team tasks
+        -   Conditional smart assessments on task plan templates
+        -   Dedicated orchestration responsibilities — so care team work is assigned, governed, and executed on its own terms.
 -   **Version 1.7.1 - July 2026**
 
     This release includes internal platform improvements and maintenance updates. No new customer-facing features in this version.
@@ -46,5 +51,5 @@ Version history for the Care Team Work Management on the ServiceNow Store.
     The ServiceNow Care Team Work Management application is built on the Healthcare Operations Core platform and enables hospital care teams such as nurses, unit coordinators, and department leads to create, assign, and track structured work plans that support operational workflows across care teams. Care teams can monitor the progress of work plan requests and tasks through the CSM/FSM Configurable Workspace or the Care Team Portal, ensuring visibility and accountability from initiation to completion.
 
 
-**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
+**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
 

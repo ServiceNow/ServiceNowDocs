@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Analytics Pack for Contract Management Pro release notes

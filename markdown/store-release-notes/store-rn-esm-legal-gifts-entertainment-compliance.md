@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Gifts and Entertainment Compliance release notes
@@ -51,5 +51,5 @@ Version history for the Gifts and Entertainment Compliance application on the Se
     ServiceNow Gifts and Entertainment Compliance is a Legal Practice App integrated with Legal Service Delivery that enables legal teams to streamline and manage the disclosure and approval process for business gifts and entertainment across the organization. The app enables employees to report giving and receiving gifts, promoting high standards of ethical business conduct and compliance and ensuring adherence to company policies.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

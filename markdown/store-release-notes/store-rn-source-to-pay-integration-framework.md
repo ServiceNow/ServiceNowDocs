@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-integration-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Source-to-Pay Integration Framework release notes
@@ -18,6 +18,23 @@ Version history for the Source-to-Pay Integration Framework application on the S
 
 ## Version history
 
+-   **Version 18.0.3 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   Edit and Cancel options for purchase orders are now disabled for SAP Ariba and Coupa integrations in Shopping Hub and Employee Center. Users cannot edit or cancel purchase orders at the header or line level when associated with SAP Ariba or Coupa integrations.
+        -   Enhanced the integration framework to support additional integration scenarios.
+    -   Fixed: Resolved minor Integration framework defects.
+-   **Version 17.0.2 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Edit and Cancel options for purchase orders are now disabled for SAP Ariba and Coupa integrations in Shopping Hub and Employee Center. Users cannot edit or cancel purchase orders at the header or line level when associated with SAP Ariba or Coupa integrations.
+        -   Enhanced the integration framework to support additional integration scenarios.
+    -   Fixed: Resolved minor Integration framework defects.
+-   **Version 16.0.1 - September 2026**
+    -   Changed:
+        -   Edit and cancel options for purchase orders are now disabled for SAP Ariba and Coupa integrations in Shopping Hub and Employee Center. Users cannot edit or cancel purchase orders at the header or line level when associated with SAP Ariba or Coupa integrations.
+        -   Enhanced the integration framework to support additional integration scenarios:
+            -   Added Incoterms, Incoterms description, and Total Line amount fields to Purchase Order outbound staging tables.
+            -   Updated transform maps \(PR/PO\) for more robust transformation.
+    -   Fixed: Resolved minor Integration framework defects.
 -   **Version 14.0.2 - June 2026 \(Australia\)**
     -   New:
         -   Added Remit-to party column to the outbound invoice staging table
@@ -207,5 +224,5 @@ Version history for the Source-to-Pay Integration Framework application on the S
     Provides a set of staging tables, transform maps, and workflows to integrate sourcing, third-party catalogs, ordering, shipments, and invoicing with Source-to-Pay Operations.
 
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

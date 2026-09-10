@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-personal-lines-servicing.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Personal Lines Servicing release notes
@@ -17,6 +17,14 @@ Version history for the Personal Lines Servicing application on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.0 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
+
+-   **Version 2.8.1 - August 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 2.7.0 - June 2026**
 

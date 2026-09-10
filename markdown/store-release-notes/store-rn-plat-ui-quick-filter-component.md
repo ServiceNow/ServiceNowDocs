@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Quick filter component release notes release notes
@@ -55,5 +55,5 @@ Version history for the Quick filter component on the ServiceNow Store.
     Light condition builder that enables you to create multiple filters quickly from a data source in your page and select the best subset of those filters for your users.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
 

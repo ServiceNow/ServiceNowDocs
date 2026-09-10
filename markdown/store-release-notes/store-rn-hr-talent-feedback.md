@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-talent-feedback.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Talent Feedback release notes
@@ -18,6 +18,9 @@ Version history for the Talent Feedback application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.4.1 - August 2026**
+    -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    -   As part of this version, the Now Assist Icon in the 'Request feedback' button on the employee feedback page in Manager Hub was updated.
 -   **Version 1.3.0 - June 2026**
 
     Reviewed cross-scope access checks for the getRefRecord\(\) API..

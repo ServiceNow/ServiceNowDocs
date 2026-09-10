@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-assist-dex.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Now Assist for Digital End-user Experience Self-service \(DEX\) release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow 
 Version history for the ServiceNow® Now Assist for Digital End-user Experience Self-service \(DEX\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 5.1.2 - August 2026**
+
+    A new AI agent can diagnose and resolve slow computer issues reported through an incident or self-service, checking live device health across disk, CPU, memory, and network, and automatically applying the right fix — from killing resource-heavy processes to freeing up disk space.This change integrates with ZTS so will not be published until ZTS is GA.
 
 -   **Version 4.3.0 - June 2026**
 
@@ -38,5 +42,5 @@ Version history for the ServiceNow® Now Assist for Digital End-user Experience 
     -   Digital End-User Experience \(DEX\) supports Zoom skill, which analyzes Zoom call quality metrics to diagnose the root cause of Zoom call-related issues and suggest a resolution plan. The Zoom skill is automatically invoked from the DEX issue diagnosis and resolution workflow when issues related to Zoom call quality are reported from the incident flow.
     -   A boot-time skill that analyzes Windows device boot time metrics to identify the root cause of the boot time delays or lags, and is integrated with the device boot time UI for root cause analysis and recommendations.
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

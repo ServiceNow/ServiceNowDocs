@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-10-15"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Business Continuity Management - Components release notes
@@ -28,5 +28,5 @@ Version history for the GRC: Business Continuity Management - Components on the 
     The Business Continuity Management - Components plugin provides the Seismic UX components required to deliver the business continuity workspace experience.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

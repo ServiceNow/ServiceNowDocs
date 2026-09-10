@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-integration-with-tenable.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Tenable release notes
@@ -18,6 +18,20 @@ Version history for the Security Operations Vulnerability Response Integration w
 
 ## Version history
 
+-   **Version 30.5.3 - September 2026 \(USEM\)**
+    -   New: Enhancements to reduce memory usage during Tenable ingestion by shrinking JSON payload sizes that might improve reliability for large scans.
+    -   Fixed:
+        -   Document download links on the integration's store listing initiate file downloads and no longer redirect to a blank page.
+        -   The Tenable.was integration populates the source risk score \(VOR score\) on vulnerability and application vulnerable item records as expected.
+        -   A literal "NULL" value received from Tenable is properly handled and does not incorrectly persist in Configuration Compliance records.
+        -   Resolved packaging and translation issues in the Tenable integration.
+-   **Version 6.2.3 - September 2026**
+
+    Fixed: The patch publication date from Tenable.io that was not being recorded on the workaround-published field for affected vulnerabilities.
+
+-   **Version 30.4.4 - August 2026 \(USEM\)**
+    -   New: REST API endpoints are now available for managing system attachments, enabling integrations to securely access and manipulate attachment data across supported integrations. The API captures request and query parameters for each operation and supports synchronization controls for Microsoft TVM, Qualys, Rapid7, Wiz, and Tenable integrations. Administrators can enable or disable synchronization per integration.
+    -   Changed: Synchronization enablement flags for supported integrations have been standardized to a vendor-neutral name, improving clarity and consistency across Microsoft TVM, Qualys, Rapid7, Wiz, and Tenable integrations. Backfill scripts have been updated to use a unified approach and naming convention, and only relevant records are now targeted for updates.
 -   **Version 30.4.1 - June 2026 \(USEM\)**
     -   Fixed:
         -   Resolved an issue where Tenable vulnerability imports failed when the import\_size value exceeded the maximum integer limit, resulting in overflow errors for large payloads. The field is now stored as a decimal value, allowing imports of any size to complete successfully.

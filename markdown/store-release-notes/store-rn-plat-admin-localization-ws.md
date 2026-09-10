@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-admin-localization-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Admin release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Admin version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Localization Workspace release notes
@@ -17,6 +17,10 @@ Version history for the Localization Workspace application on the ServiceNow Sto
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.4 - September 2026**
+
+    New: Terminology managers can create glossary using AI with a new AI skill named Generate Glossary.
 
 -   **Version 3.1.2 - June 2026**
     -   New in this version:
@@ -48,5 +52,5 @@ Version history for the Localization Workspace application on the ServiceNow Sto
     ServiceNow Localization Workspace is a targeted translation management experience for content owners and translation fulfillers. With Localization Workspace you can manage and deliver multilingual content at scale. Localization Workspace is a new application in the Yokohama release.
 
 
-**Parent Topic:**[ServiceNow Store - Admin release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
+**Parent Topic:**[ServiceNow Store - Admin version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
 

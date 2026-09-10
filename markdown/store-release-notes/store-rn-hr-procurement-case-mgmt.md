@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-procurement-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Procurement Case Management release notes
@@ -18,6 +18,28 @@ Version history for the Procurement Case Management application on the ServiceNo
 
 ## Version history
 
+-   **Version 20.0.0 - September 2026 \(Australia\)**
+    -   New
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console provides a guided experience for configuring Procurement Case Management items, including completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple administrative tools and locations.
+        -   The administrative experience is now consistent across Product Hub and Configuration Console.
+-   **Version 17.0.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console provides a guided experience for configuring Procurement Case Management items, including completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple administrative tools and locations.
+        -   The administrative experience is now consistent across Product Hub and Configuration Console.
+-   **Version 19.0.7 - August 2026**
+    -   Fixed:
+        -   Restricted purchase modification request access to a user's own records.
+        -   Applied security hardening to address CVE-2025-3648.
 -   **Version 19.0.3 - June 2026 \(Australia\)**
     -   New:
         -   Universal Request submission from Employee Center: Employees can submit procurement-related needs through Employee Center using Universal Request. This provides a consistent, cross-departmental request experience without requiring employees to navigate separate procurement portals.
@@ -137,5 +159,5 @@ Version history for the Procurement Case Management application on the ServiceNo
     -   New: Fulfillers can now cancel procurement case lines. Procurement case and case line short descriptions have been updated. Procurement cases now have a modification type and can be completed without playbook.
     -   Changed: Purchasing fields have been added and form views have been updated.
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

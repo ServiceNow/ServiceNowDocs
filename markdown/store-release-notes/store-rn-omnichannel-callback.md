@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-omnichannel-callback.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Omnichannel Callback release notes
@@ -18,6 +18,11 @@ Version history for the Omnichannel Callback application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 2.1.0 - September 2026 \(Brazil\)**
+    -   New: Add support for iOS and Android Channels for callback
+    -   Changed:
+        -   Re-attempt and Retry callback functionality improvements
+        -   Performance improvements
 -   **Version 2.0.8 - June 2026 \(Australia\)**
 
     Code refactoring changes and defect fixes. There are no major changes in functionality.
@@ -79,5 +84,5 @@ Version history for the Omnichannel Callback application on the ServiceNow Store
     Omnichannel Callback adds new set of platform capabilities that enable other ServiceNow applications to display or announce callback options to the users.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

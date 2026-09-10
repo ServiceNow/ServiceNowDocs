@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-smart-assessment-migration-tools.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Smart Assessment Migration tools release notes
@@ -17,6 +17,10 @@ Version history for the Smart Assessment Migration tools application on the Serv
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+
+    New: Smart Assessment admins can now migrate Metric Categories and Metrics from the classic Question Bank into the Smart Assessment Engine Question Bank.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   Changed:
@@ -54,5 +58,5 @@ Version history for the Smart Assessment Migration tools application on the Serv
     The ServiceNow Smart Assessment Migration Tools application enables you to migrate existing assessment designs from the ServiceNow Assessments and Surveys application. Your templates are automatically transferred as drafts with just one click. After you migrate the designs, you must review and publish these drafts, and confirm the results. The sets of questions in the Assessments and Surveys application are saved as metric types. When migrated, these metric types are saved as question types. Custom, Duration, Image scale, Percentage, Rankings, and Ratings question types aren't supported for migration.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

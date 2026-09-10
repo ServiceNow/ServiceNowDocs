@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics Content Pack - Guided Tours release notes
@@ -38,5 +38,5 @@ Version history for the Performance Analytics Content Pack - Guided Tours on the
     -   View Performance Analytics reports and dashboards for Guided Tours
     -   Define key metrics, breakdowns, and visualizations to present the exact data you want for any Tour
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform UI version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-ui.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data Separation release notes
@@ -28,5 +28,5 @@ Version history for the Data Separation on the ServiceNow Store.
     -   Map user groups to various levels of the lens hierarchy to provide access in a hierarchical manner.
     -   Enable data separation for select entities that are supported out of the box.
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

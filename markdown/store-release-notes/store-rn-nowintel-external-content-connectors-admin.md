@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # External Content Connectors Admin release notes
@@ -23,5 +23,5 @@ Version history for the External Content Connectors Admin application on the Ser
     -   A dedicated, user-friendly UI makes it easy for administrators to manage the entire process - from configuring connections and setting up crawls to monitoring performance and reviewing results. Flexible options allow you to define crawl schedules, refine content inclusion and exclusion rules, and map user permissions effortlessly, ensuring only authorized access to data.
     -   By centralizing content from multiple sources and integrating it with AI Search, External Content Connectors improve productivity, improve search accuracy, and simplify how organization can access the information they need.
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

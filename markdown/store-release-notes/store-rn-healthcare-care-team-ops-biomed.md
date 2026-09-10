@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-care-team-ops-biomed.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Care Team Operations for Biomed release notes
@@ -17,6 +17,10 @@ Version history for the Care Team Operations for Biomed application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.8.0 - September 2026**
+
+    Changed: Care Team Operations for Biomed has been converted to Fluent, ServiceNow's modern application development framework.
 
 -   **Version 2.6.0 - June 2026**
     -   This release delivers platform-wide accessibility \(WCAG 2.2 AA\) and security-directive access-control hardening for Care Team Operations for Biomed.
@@ -48,5 +52,5 @@ Version history for the Care Team Operations for Biomed application on the Servi
     The ServiceNow Care Team Operations for Biomed application is built on the Healthcare Operations Core application and contains case types, record producers, and flows designed to enable care teams to report medical device and other biomed related issues. For organizations that own Clinical Device Management or Field Service Management, the out of the box flows synchronizes data between the case and work order, allowing biomed technicians to work with work orders to fulfill their care teams corrective maintenance requests.
 
 
-**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
+**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
 

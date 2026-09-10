@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-amazon-sns.html
 release: store
 topic_type: reference
-last_updated: "2023-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Amazon SNS spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub Amazon SNS spoke on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.4 - September 2026**
+
+    Fixed: Webhook endpoint
 
 -   **Version 1.1.0 - September 2023**
     -   New: 2 actions - Publish Message to Topic, Publish Batch Messages to Topic.
@@ -30,5 +34,5 @@ Version history for the Integration Hub Amazon SNS spoke on the ServiceNow Store
     Provides actions to automate management of Topics and Subscriptions in Amazon SNS.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

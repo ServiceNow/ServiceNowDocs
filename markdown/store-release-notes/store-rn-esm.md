@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Employee Service Management release notes
+title: ServiceNow Store - Employee Service Management version history release notes
 description: The ServiceNow Store contains Employee Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Employee Service Management release notes
+# ServiceNow Store - Employee Service Management version history release notes
 
 The ServiceNow Store contains Employee Service Management applications.
 
@@ -30,22 +30,22 @@ Version history for the Employee Center Pro Kiosk application on the ServiceNow 
 Version history for the ServiceNow® Employee Slate Advanced application on the ServiceNow Store.
 -   **[Employee Slate for Moveworks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-employee-slate-for-moveworks.md)**  
 Version history for the ServiceNow® Employee Slate for Moveworks application on the ServiceNow Store.
--   **[Employee Slate for Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-employee-slate-for-now-assist.md)**  
-Version history for the ServiceNow® Employee Slate for Now Assist application on the ServiceNow Store.
+-   **[Employee Slate for Otto release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-employee-slate-for-now-assist.md)**  
+Version history for the ServiceNow® Employee Slate for Otto application on the ServiceNow Store.
 -   **[Moveworks for Employee Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-moveworks-employee-center.md)**  
 Version history for the ServiceNow® Moveworks for Employee Center application on the ServiceNow Store.
 -   **[Notifications for Employee Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-notifications-employee-center.md)**  
 Version history for the Notifications for Employee Center application on the ServiceNow Store.
 -   **[ServiceNow Add-in for Microsoft 365 Office release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-sn-addins-ms-office.md)**  
 Version history for the ServiceNow Add-in for Microsoft 365 Office application on the ServiceNow Store.
--   **[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)**  
+-   **[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)**  
 The ServiceNow Store contains Health and Safety applications.
--   **[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)**  
+-   **[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)**  
 The ServiceNow Store contains HR Service Delivery applications.
--   **[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)**  
+-   **[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)**  
 Version history for the Store Legal Service Delivery on the ServiceNow Store.
--   **[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)**  
+-   **[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)**  
 The ServiceNow Store contains Workplace Service Delivery applications.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

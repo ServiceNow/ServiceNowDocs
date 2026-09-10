@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - IT Operations Management release notes
+title: ServiceNow Store - IT Operations Management version history release notes
 description: The ServiceNow Store contains IT Operation Management dashboards and other content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom.html
@@ -7,21 +7,23 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - IT Operations Management release notes
+# ServiceNow Store - IT Operations Management version history release notes
 
 The ServiceNow Store contains IT Operation Management dashboards and other content.
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
--   **[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)**  
+-   **[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)**  
 The ServiceNow Store contains ITOM AIOps applications.
--   **[ServiceNow Store - ITOM Cloud Accelerate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-accelerate-landing.md)**  
+-   **[ServiceNow Store - ITOM Cloud Accelerate version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-accelerate-landing.md)**  
 The ServiceNow Store contains ITOM Cloud Accelerate applications.
--   **[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)**  
+-   **[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)**  
 The ServiceNow Store contains ITOM Visibility applications.
+-   **[Agent Client Collector for AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-acc-ai-control-tower.md)**  
+Version history for the ServiceNow® Agent Client Collector for AI Control Tower application on the ServiceNow Store.
 -   **[Agent Client Collector for Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-acc-sir.md)**  
 Version history for the Agent Client Collector for Security Incident Response application on the ServiceNow Store.
 -   **[Agent Client Collector for Visibility Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-acc-visibility-content.md)**  
@@ -78,6 +80,8 @@ Version history for the ITOM Guided Setup - New application on the ServiceNow St
 Version history for the ServiceNow® ITOM Infra Services Workspace application on the ServiceNow Store.
 -   **[ITOM Line chart release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-line-chart.md)**  
 Version history for the ITOM Line chart on the ServiceNow Store.
+-   **[ITOM MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-mcp-server.md)**  
+Version history for the ServiceNow® ITOM MCP Server Console Server application on the ServiceNow Store.
 -   **[ITOM Mobile Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-mobile-agent.md)**  
 Version history for the ITOM Mobile Agent® application on the ServiceNow Store.
 -   **[ITOM URL Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-url-discovery.md)**  
@@ -86,10 +90,10 @@ Version history for the ServiceNow® ITOM URL Discovery application on the Servi
 Version history for the Live CI View application on the ServiceNow Store.
 -   **[Metric Explorer for Operator Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-metric-explorer-operator-workspace.md)**  
 Version history for the Metric Explorer for Operator Workspace application on the ServiceNow Store.
+-   **[MID Admin Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-mid-admin-ws.md)**  
+Version history for the ServiceNow® MID Admin Workspace application on the ServiceNow Store.
 -   **[MID Guardian release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-mid-guardian.md)**  
 Version history for the ServiceNow® MID Guardian application on the ServiceNow Store.
--   **[Now Assist for ITOM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-now-assist-itom.md)**  
-Version history for the Now Assist for ITOM application on the ServiceNow Store.
 -   **[Operator Workspace Action release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-operator-workspace-action.md)**  
 Version history for the Operator Workspace Action on the ServiceNow Store.
 -   **[Operator Workspace Metric Configuration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-operator-workspace-metric.md)**  
@@ -112,6 +116,8 @@ Version history for the ServiceNow® Service Operations Workspace Supervisor Das
 Version history for the ServiceNow® IT Operations Management - IT Fundamentals Dashboard on the ServiceNow Store.
 -   **[ServiceNow ITOM/OT SU Licensing release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-su-licensing.md)**  
 Version history for the ServiceNow ITOM SU Licensing content on the ServiceNow Store.
+-   **[ServiceNow Otto for ITOM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-now-assist-itom.md)**  
+Version history for the ServiceNow Otto for ITOM application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

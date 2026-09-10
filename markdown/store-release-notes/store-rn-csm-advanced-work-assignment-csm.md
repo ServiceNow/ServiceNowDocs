@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Advanced Work Assignment for CSM release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Advanced Work Assignment for CSM applicatio
     -   Built natively on the ServiceNow platform, AWA for CSM gives CSM administrators full control over routing logic through a centralized Admin Console. Teams can define skill-based conditions, set capacity thresholds per channel, and manage agent availability, all within the tools they already use.
     -   Unlike point solutions that bolt routing onto existing systems, AWA for CSM is deeply integrated with ServiceNow CSM data — cases, interactions, agent profiles, and SLAs — giving operations leaders a single place to configure, monitor, and optimize how work flows to their teams.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

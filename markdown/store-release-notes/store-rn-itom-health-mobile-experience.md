@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-02-18"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health Mobile Experience release notes
@@ -37,5 +37,5 @@ Version history for the Health Mobile Experience on the ServiceNow Store.
         -   Use the mobile app to view a service's alerts
         -   Choose to receive an update when a service's status changes to Urgent or High
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

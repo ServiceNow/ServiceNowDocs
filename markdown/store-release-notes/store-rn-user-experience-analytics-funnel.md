@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-user-experience-analytics-funnel.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Usage Insights Funnel release notes
@@ -18,6 +18,21 @@ Version history for the Usage Insights Funnel on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 6.4.2 - September 2026**
+    -   Page properties support to get granular insights of pages.
+    -   Answers business questions like:
+        -   How many password-reset requests were submitted by people who visited the password-reset catalog page?
+        -   How many comments were added to the knowledge article titled “Usage Insights MCP”?
+        -   Which dashboards did people visit last quarter, listed by name?
+    -   Page properties are now available across User Experience Analytics. A page property is a named, filterable attribute captured from a page's URL parameters or record metadata on every page view — so pages that previously shared a single page ID \(a dashboard, a knowledge article, a catalog item\) can now be distinguished by the resource a person actually viewed. Page properties behave like event properties wherever properties already appear.
+    -   What's new: Page-property filtering in Funnels. When a funnel step is set to a page, page properties become available for that step, so you can filter the step by page property.
+-   **Version 6.3.14 - September 2026**
+
+    Fixed the chat provider filter in the Usage Insights dashboard's conversation menu to support all chat providers.
+
+-   **Version 6.3.10 - August 2026**
+    -   Added session-based funnel analysis to the Usage Insights Conversion Funnel.
+    -   Users can toggle Session-based vs. user-based mode via the Funnel type filter.
 -   **Version 6.3.9 - July 2026**
     -   Whats new?
         -   Cross-application conversion funnels — Build funnels where each step can belong to a different application, so you can follow a user journey as it spans multiple workspaces and portals.

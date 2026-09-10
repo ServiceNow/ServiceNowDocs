@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-04-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Flow Templates for Access Management release notes
@@ -31,5 +31,5 @@ Version history for the Flow Templates for Access Management application on the 
     Easily automate access management requests in your custom applications with the Flow Templates for Access Management application. Rather than creating a new flow from scratch, users can choose the relevant template in App Engine Studio and follow the guided screens to create a new flow. These templates leverage IntegrationHub spokes to manage user and group management requests in AD, Azure AD, Amazon Web Services IAM, Google Directory, Okta, and Oracle IAM.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

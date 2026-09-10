@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations release notes
@@ -17,6 +17,15 @@ Version history for the Financial Services Operations Financial Services Operati
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.1.3 - September 2026**
+    -   New:
+        -   34 generic transaction data fields added to the BOM transaction record, including issuer BIN country code, 3DS purchase order number, merchant order ID, device fingerprint, customer account login IDs, shipping address fields \(from 3DS, merchant, and agentic sources\), settlement and authorization amounts in USD, initiating party indicator, merchant-initiated transaction class, local cashback amount, and PAN reference ID.
+        -   Two new Visa-specific fields added to the Visa CP dictionary: cryptogram type received and authentication solution indicator.
+    -   Changed: Updated internal application components to support ongoing platform enhancements
+-   **Version 12.4.2 - August 2026**
+
+    Changed: Centralized currency rounding precision logic into a shared utility, ensuring consistent handling of the platform's currency fraction digits setting across all consumers.
 
 -   **Version 12.3.0 - July 2026**
     -   New: A new field has been added to the Financial transaction table to capture additional transaction details.

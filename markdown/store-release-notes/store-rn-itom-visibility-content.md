@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-visibility-content.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 37
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 42
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Visibility Content release notes
@@ -18,6 +18,49 @@ Version history for the ITOM Visibility Content application on the ServiceNow St
 
 ## Version history
 
+-   **Version 6.35.0 - September 2026**
+    -   New: Discover Oracle Databases on Windows using Oracle Wallet instead of storing applicative credentials in the ServiceNow instance.
+    -   Changed: F5 BIG-IP GTM discovery now supports pool and pool member discovery.
+    -   Fixed:
+        -   Cloud Discovery spends a disproportionate share of its runtime on a single inefficient database query, slowing discovery jobs. \(PRB2003240\)
+        -   The "Netscaler Load Balancer NS.CONF" and "Netscaler Load Balancer SSH" patterns always set the load balancer operational status to Operational, regardless of the actual device state. \(PRB2078124\)
+        -   The MSSQL pre/post script doesn't update the operational status correctly for Microsoft SQL Server instance CIs. \(PRB1661639\)
+        -   A unique index on the sa\_pattern\_connection table causes errors for records extending sys\_metadata. \(PRB2070660\)
+        -   The "Linux Server" pattern fails when the Oracle Clusterware extension can't populate the UNIX Cluster Node \[cmdb\_ci\_unix\_cluster\_node\] CI. \(PRB2018191\)
+        -   The "Linux Server" pattern reads the SUSE Linux version from the wrong field during discovery. \(PRB2001532\)
+        -   The "Linux Server" pattern doesn't populate disk and storage device information for Debian 12 servers because the legacy SCSI path used by the pattern no longer exists on that distribution. \(PRB1996743\)
+        -   OpenSUSE servers are incorrectly identified as enterprise SUSE Linux in the "Linux Server" pattern, affecting downstream software normalisation and reconciliation. \(PRB2028571\)
+        -   The "Linux Server" pattern always sets the CI serial number to the first serial number inserted into the serial number table, with no property to control the selection as is available for Windows discovery. \(PRB1500195\)
+        -   The "Linux Server" pattern doesn't populate the Manufacturer and Model fields on RHEL 9 and 10 servers running on IBM mainframe \(s390x\) hardware. \(PRB2056663\)
+        -   The Vendor field on Storage Device CIs appears empty in form and list views even though the value is stored on the record. \(PRB1768238\)
+        -   The "SSAS" pattern doesn't capture the process and port correctly. \(PRB2007090\)
+        -   The "Network Switch" pattern fails to collect IP addresses on Cisco Nexus devices. \(PRB1386212\)
+        -   The "Network Switch" pattern fails on switches with multiple VLAN interfaces on the same subnet. \(PRB2025235\)
+        -   During stack switch discovery, the "Network Switch" pattern updates install status on the main switch but not on the child switches. \(PRB2011450\)
+        -   The "Windows - Storage" pattern doesn't pick up all file systems. \(PRB2009642\)
+        -   Serial values such as "unknown" can be written to cmdb\_serial\_number, causing the Identification and Reconciliation Engine to match different devices to the same CI record and overwrite CI data. \(PRB2050326\)
+        -   Oracle database endpoints and connection strings are handled incorrectly for Oracle RAC configurations during J2EE EAR discovery on Linux. \(PRB2030841\)
+        -   Post-sensor updates against terminated VM instances trigger the Reconcile VMs business rule and its retirement cascade, causing database CPU spikes. \(PRB2062506\)
+        -   The "Windows OS - Servers" pattern doesn't recognize DDR5 memory modules on Windows servers. \(PRB2057935\)
+        -   The "Windows OS - Servers" pattern fails when parsing a software installation date returned in an unsupported time zone offset format. \(PRB2057331\)
+        -   The "IIS" pattern fails when the web content share is hosted on an ISILON server, due to Windows authentication and file permission errors on Web.config. \(PRB1937737\)
+        -   Site hostnames are mapped incorrectly in the "IIS" pattern when one hostname is a substring of another. \(PRB2054036\)
+        -   The "SharePoint Service" top-down pattern fails at the "get admin page" step for build versions above 15, affecting SharePoint 2016, 2019, and Subscription Edition. \(PRB2025563\)
+        -   The Horizontal Discovery sensor generates and retains large payload objects longer than necessary, causing high memory consumption when discovering large devices. \(PRB1982733\)
+        -   The "Oracle DB On Unix" pattern returns only the Enterprise edition for Oracle databases hosted on OCI or Exadata — "Enterprise High Performance" and "Enterprise Extreme Performance" editions aren't recognized. On Exadata hosts running multiple Oracle instances, TNS\_ADMIN isn't correctly exported. \(PRB2062287\)
+        -   A registry-read guard is missing in some identification sections of the "MSSql DB On Windows" pattern, allowing an unguarded sqlservr.exe -v command to run on hosts with multiple named SQL Server instances. \(PRB2061372\)
+        -   The "Delivery Controller" pattern doesn't filter Citrix applications by icon path, causing too many Citrix applications to be discovered. \(PRB2022401\)
+        -   Files used in "Put file" operations don't honor the MID Server property mid.powershell.target\_base\_dir and use hardcoded temporary paths instead. \(PRB2058876\)
+        -   The "WMQ On Unix" pattern's change\_user step either times out waiting for an interactive password prompt or reports success without switching users, causing subsequent MQ commands to fail with authorization errors. \(PRB2041387\)
+        -   The "Jboss" pattern fails silently on JBoss EAP 7+ installations due to hardcoded legacy paths and config mode that don't apply to EAP 7+ layouts. \(PRB1998321\)
+        -   The "Sybase" pattern picks up the wrong configuration file when Sybase runs on Windows. \(PRB2044412\)
+        -   The "Solaris - Network" pattern fails with an undefined variable error \(interfaces\_v4\_size\) at the step that checks whether both IPv4 and IPv6 are configured. \(PRB2036740\)
+        -   The MID Server fails to parse the CI Types payload during pattern synchronization when a CMDB table contains a column named "label", causing an attribute type conflict in the generated payload. \(PRB2025460\)
+        -   A duplicate "Check Identification Engine Payload Structure" message appears in the pattern logs. \(PRB2033273\)
+        -   The "F5 Load Balancer SSH" pattern fails with DUPLICATE\_PAYLOAD\_RECORDS on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. \(PRB2072795\)
+        -   The "F5 Load Balancer" pattern discovers virtual services from cluster members but fails to write them to the Load Balancer Service \[cmdb\_ci\_lb\_service\] table due to duplicate records in the IRE payload. \(PRB2058099\)
+        -   Solaris, HP-UX, and AIX discovery patterns don't mark old patch versions as absent and keep adding patch records on every run, making the current patch level difficult to identify. \(PRB1933009\)
+        -   The "Oracle DB On Unix" pattern doesn't create the Oracle database CI correctly during Service Mapping discovery. \(PRB2035697\)
 -   **Version 6.32.2 - July 2026**
 
     Changed: AWS is updating its account information structure. AWS discovery patterns have been updated accordingly. Upgrade to this release to maintain AWS discovery. For more information, see https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB3120531.

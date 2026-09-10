@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Governance, Risk, and Compliance release notes
+title: ServiceNow Store - Governance, Risk, and Compliance version history release notes
 description: The ServiceNow Store contains GRC content packs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-grc.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-06-05"
 reading_time_minutes: 13
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Governance, Risk, and Compliance release notes
+# ServiceNow Store - Governance, Risk, and Compliance version history release notes
 
 The ServiceNow Store contains GRC content packs.
 
@@ -34,6 +34,8 @@ Version history for the AI Control Tower Core application on the ServiceNow Stor
 Version history for the ServiceNow® AI Control Tower for Enterprise AI Foundation application on the ServiceNow Store.
 -   **[AI for Document designer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-ai-document-designer.md)**  
 Version history for the ServiceNow® AI for Document designer application on the ServiceNow Store.
+-   **[AI Policy Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc-ai-policy-framework.md)**  
+Version history for the ServiceNow® AI Policy Framework application on the ServiceNow Store.
 -   **[AI Risk and Asset Management for ServiceNow AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-ai-risk-asset-mgmt-sn-ai.md)**  
 Version history for the ServiceNow® AI Risk and Asset Management for ServiceNow® AI application on the ServiceNow Store.
 -   **[AI Risk and Compliance Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-ai-risk-compliance-content.md)**  
@@ -132,6 +134,8 @@ Version history for the GRC: Financial Services Controls Accelerator application
 Version history for the GRC: GDPR DPIA Use Case Accelerator on the ServiceNow Store.
 -   **[GRC integration with Thomson Reuters Regulatory Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-thomson-reuters-regulatory-intel.md)**  
 Version history for the GRC integration with Thomson Reuters Regulatory Intelligence on the ServiceNow Store.
+-   **[GRC: Issue Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc-issue-mgmt.md)**  
+Version history for the ServiceNow® GRC: Issue Management application on the ServiceNow Store.
 -   **[GRC: Management Reporting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-mgmt-reporting.md)**  
 Version history for the GRC: Management Reporting application on the ServiceNow Store.
 -   **[GRC: Metrics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-metrics.md)**  
@@ -210,20 +214,14 @@ Version history for the ServiceNow® Integrated Risk Management Professional app
 Version history for the ServiceNow® Integrated Risk Management Standard application on the ServiceNow Store.
 -   **[Matrix report release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-matrix-report.md)**  
 Version history for the Matrix report application on the ServiceNow Store.
--   **[Now Assist for release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-airc.md)**  
-Version history for the ServiceNow® Now Assist for AIRC application on the ServiceNow Store.
--   **[Now Assist for IRM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-irm.md)**  
-Version history for the Now Assist for IRM application on the ServiceNow Store.
--   **[Now Assist for Privacy Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-privacy-management.md)**  
-Version history for the ServiceNow® Now Assist for Privacy Management application on the ServiceNow Store.
--   **[Now Assist for Smart Assessment Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-smart-assessment-engine.md)**  
-Version history for the ServiceNow® Now Assist for Smart Assessment Engine application on the ServiceNow Store.
--   **[Now Assist for Third-party Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-tprm.md)**  
-Version history for the ServiceNow® Now Assist for Third-party Risk Management application on the ServiceNow Store.
+-   **[ServiceNow Otto for Third-party Risk Management \(TPRM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-tprm.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Third-party Risk Management \(TPRM\) application on the ServiceNow Store.
 -   **[Operational Sustainability Integration with Socialsuite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-operational-sustainability-int-socialsuite.md)**  
 Version history for the ServiceNow® Operational Sustainability Integration with Socialsuite application on the ServiceNow Store.
 -   **[Operational Sustainability Integration with Workday release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-operational-sustainability-int-workday.md)**  
 Version history for the ServiceNow® Operational Sustainability Integration with Workday application on the ServiceNow Store.
+-   **[Operational Sustainability Management Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc-osm-prime.md)**  
+Version history for the ServiceNow® Operational Sustainability Management Prime application on the ServiceNow Store.
 -   **[Parallel Review and Feedback release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-parallel-review-feedback.md)**  
 Version history for the GRC Parallel Review and Feedback application on the ServiceNow Store.
 -   **[Performance Analytics - GRC: Audit Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-pa-audit-mgmt.md)**  
@@ -242,10 +240,20 @@ Version history for the Privacy Employee User application on the ServiceNow Stor
 Version history for the ServiceNow® Privacy Management Advanced application on the ServiceNow Store.
 -   **[Privacy Management Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-privacy-mgmt-content.md)**  
 Version history for the ServiceNow® Privacy Management Content application on the ServiceNow Store.
+-   **[Privacy Management Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc-privacy-mgmt-prime.md)**  
+Version history for the ServiceNow® Privacy Management Prime application on the ServiceNow Store.
 -   **[Regulatory Agency Library release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-regulatory-agency-library.md)**  
 Version history for the Regulatory Agency Library application on the ServiceNow Store.
 -   **[ServiceNow Document Designer with Word release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-sn-document-designer-word.md)**  
 Version history for the ServiceNow Document Designer with Word application on the ServiceNow Store.
+-   **[ServiceNow Otto for AIRC release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-airc.md)**  
+Version history for the ServiceNow® ServiceNow Otto® for AIRC application on the ServiceNow Store.
+-   **[ServiceNow Otto for IRM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-irm.md)**  
+Version history for the ServiceNow Otto for IRM application on the ServiceNow Store.
+-   **[ServiceNow Otto for Privacy Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-privacy-management.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Privacy Management application on the ServiceNow Store.
+-   **[ServiceNow Otto for Smart Assessment Engine \(SAE\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-now-assist-smart-assessment-engine.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Smart Assessment Engine \(SAE\) application on the ServiceNow Store.
 -   **[Smart Assessment Collaboration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-smart-assessment-collaboration.md)**  
 Version history for the Smart Assessment Collaboration application on the ServiceNow Store.
 -   **[Smart Assessment Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-smart-assessment-core.md)**  
@@ -261,5 +269,5 @@ Version history for the ServiceNow® Unified Content Management application on t
 -   **[Vendor Risk Management integration with EcoVadis release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-vendor-risk-mgmt-ecovadis.md)**  
 Version history for the Vendor Risk Management integration with EcoVadis application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

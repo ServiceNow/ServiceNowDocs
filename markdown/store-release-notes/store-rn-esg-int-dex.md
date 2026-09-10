@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Management integration with DEX release notes
@@ -36,5 +36,5 @@ Version history for the Operational Sustainability Management integration with D
     The ESG Integration with DEX enables real-time energy consumption tracking and CO₂e emissions from employee laptops and desktops. By ingesting telemetry data from ServiceNow's Digital End User Experience\(DEX\) or third-party tools, this capability delivers accurate, device-level sustainability insights directly within the ESG Workspace. Organizations can monitor trends, assess asset coverage, and support compliance with ESG reporting standards using live operational data from end-user devices.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

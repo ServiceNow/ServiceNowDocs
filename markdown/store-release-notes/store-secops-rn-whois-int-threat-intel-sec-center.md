@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-whois-int-threat-intel-sec-center.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Security Center integration with Whois release notes
@@ -17,6 +17,10 @@ Version history for the Threat Intelligence Security Center integration with Who
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.2 - September 2026**
+
+    Fixed: Updated the WHOIS integration to support recent API changes.
 
 -   **Version 5.1.0 - June 2026**
 
@@ -38,5 +42,5 @@ Version history for the Threat Intelligence Security Center integration with Who
     The Threat Intelligence Security Center's WHOIS Integration empowers users to perform Whois lookups on domain names and URLs. This capability provides valuable context for observables, aiding users in making informed decisions regarding potential threats.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

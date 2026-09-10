@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-pa-content-pack.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics for Sourcing and Procurement Operations release notes
@@ -17,6 +17,10 @@ Version history for the Performance Analytics on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.1 - August 2026 \(Australia\)**
+
+    Changed: Remediated non-Glide Cobalt Raven ACLs in product code \(DIRS0000421\).
 
 -   **Version 3.0.16 - June 2026**
 
@@ -56,5 +60,5 @@ Version history for the Performance Analytics on the ServiceNow Store.
             -   SLA breach times versus allotted times
             -   Overall SLA performance of the procurement team
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

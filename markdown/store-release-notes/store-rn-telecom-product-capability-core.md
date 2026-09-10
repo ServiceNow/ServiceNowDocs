@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-product-capability-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Product Capability Core release notes
@@ -17,6 +17,26 @@ Version history for the Product Capability Core application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.3.3 - September 2026 \(Australia\)**
+
+    No new features in this release.
+
+-   **Version 2.1.14 - September 2026 \(Zurich\)**
+
+    No new features in this release.
+
+-   **Version 2.2.7 - August 2026 \(Australia\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
+
+-   **Version 2.1.7 - August 2026 \(Zurich\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
+
+-   **Version 2.0.8 - August 2026 \(Yokohama\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
 
 -   **Version 2.1.2 - July 2026 \(Zurich\)**
     -   Product Use Case — Two new tables ship in this release: Base Use Case \(the extensible foundation, with complexity, owner, process flow, and a Draft → Published → Retired lifecycle\) and Supported Use Case \(extends Base with industry and audience type\). Use Cases can be mapped to capabilities and product models via a Use Case Map, with the capability picker automatically filtered to only show capabilities active for the selected product model. State transitions — Publish, Return to Draft, Retire, Cancel — are available as UI actions in both the classic form and the workspace. Write and delete access is locked to Draft state, preventing mutations on published or retired records.Use Case Solution Map — The Use Case Solution Map relationship is surfaced as a related list on the Supported Use Case form, with a dedicated Delete action for removing individual map entries. A Business Rule guards the map to block inserts, updates, and deletes whenever the parent Use Case is not in Draft.
@@ -79,5 +99,5 @@ Version history for the Product Capability Core application on the ServiceNow St
     -   Use Case 2: Capabilities Spanning Multiple
         -   Products​ Description: Supports capabilities that are shared across multiple products, along with secondary​ capabilities that can belong to various primary capabilities, demonstrating the m:n relationship.​
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 

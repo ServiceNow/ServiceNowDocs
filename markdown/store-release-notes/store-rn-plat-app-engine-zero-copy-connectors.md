@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-zero-copy-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Zero Copy Connectors release notes
@@ -17,6 +17,10 @@ Version history for the Zero Copy Connectors application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.2.3 - September 2026**
+
+    Migrated community connectors MySQL and PostgreSQL to Primary
 
 -   **Version 2.2.0 - May 2026**
 
@@ -48,5 +52,5 @@ Version history for the Zero Copy Connectors application on the ServiceNow Store
     Zero Copy Connectors are part of the Workflow Data Fabric. They let the ServiceNow AI Platform access data from external sources directly, without copying any data to the instance. Zero copy connections provide a significant advantage to organizations working with large datasets by ensuring real-time, consistent data access, reducing latency, and improving overall system performance.
 
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

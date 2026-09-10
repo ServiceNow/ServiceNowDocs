@@ -1,22 +1,30 @@
 ---
-title: Now Assist for Manufacturing Commercial Operations \(MCO\) release notes
-description: Version history for the ServiceNow Now Assist for Manufacturing Commercial Operations \(MCO\) application on the ServiceNow Store.
+title: ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes
+description: Version history for the ServiceNow ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-now-assist-mco.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Manufacturing Commercial Operations \(MCO\) release notes
+# ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes
 
-Version history for the ServiceNow® Now Assist for Manufacturing Commercial Operations \(MCO\) application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.0 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 3.0.1 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 2.3.0 - July 2026**
 
@@ -38,5 +46,5 @@ Version history for the ServiceNow® Now Assist for Manufacturing Commercial Ope
     -   Now Assist for Manufacturing Commercial Operations \(MCO\) uses ServiceNow's agentic and generative AI capabilities to enrich purpose-built manufacturing workflows
     -   For Recall campaigns: TheCreate recall corrective actions AI agent enables manufacturers to create corrective actions and a list of parts and labor needed for each corrective action,  by analyzing documents such as repair instructions and bulletins. It automates a key step of an creating a recall campaign and reduces manual errors.
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

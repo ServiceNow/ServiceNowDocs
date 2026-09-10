@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-int-wiz.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with Wiz release notes
@@ -18,6 +18,50 @@ Version history for the Vulnerability Response Integration with Wiz application 
 
 ## Version history
 
+-   **Version 32.8.4 - September 2026 \(USEM\)**
+    -   New:
+        -   Two new chained integrations to the Wiz container vulnerability pipeline:
+            -   The Wiz Container Grouped Vulnerability Integration that retrieves vulnerability findings from Wiz that are grouped by image.
+            -   The Wiz Container Deployment Context Integration that retrieves the complete deployment/execution context that includes clusters, namespaces, services for each image.
+            -   Both integrations appear in the customer's Vulnerability Integrations list alongside the existing Wiz Container Vulnerability Integration.
+            -   The integrations are installed automatically and are activated by default. To disable this integration chain, set thesn\_vul\_wiz.deployment\_context\_gate\_writes system property to 'Wiz Container Grouped Vulnerability andWiz Container Deployment Context integrations so that container vulnerable item creation remains based on your existing settings with theWiz Container Vulnerability Integration integration.false'. This setting deactivates the
+        -   These integrations are available to all customers who are entitled toContainer Vulnerability Response.
+            -   They remove a previous 16-controller-per-image cap that might leave large deployments with incomplete cluster/namespace visibility and unreliable auto-closing of vulnerable items when a deployment is removed.
+            -   They provide a more accurate runtime exposure visibility at scale.
+        -   A Wiz integration for AI Security findings for AI Security Exposure Management. Retrieves AI security scan findings, security-graph–based AI inventory lookup for hosts, and expanded support for additional AI asset types in cloud configuration findings. Note: The AI Security Exposure Management application and its dependencies are required for this integration.
+    -   Changed:
+        -   Enhancements to improve handling of Wiz API error codes that include clearer notifications directing users to contact the Wiz support team when a vendor-side error occurs.
+        -   Enhancements to improve the reliability of the data migration for Wiz Container Vulnerability Response.
+    -   Fixed:
+        -   An issue with duplicate container repository entries in Wiz container vulnerability data that might cause import errors.
+        -   An error in the Wiz Host Test Results integration when processing configuration items with a null subscription state.
+        -   An issue where the Vulnerability Summary displayed asset-specific details \(such as file paths\) instead of the standard CVE description.
+        -   An issue where the "Send AI security findings to AI security exposure management" checkbox did not reflect its saved state when returning to the Wiz configuration page.
+        -   An issue where the Wiz Container Vulnerability integration did not create label relationships on container image configuration items.
+-   **Version 4.2.4 - September 2026**
+    -   New:
+        -   Two new chained integrations to the Wiz container vulnerability pipeline:
+            -   The Wiz Container Grouped Vulnerability Integration that retrieves vulnerability findings from Wiz that are grouped by image.
+            -   The Wiz Container Deployment Context Integration that retrieves the complete deployment/execution context that includes clusters, namespaces, services for each image.
+            -   Both integrations appear in the customer's Vulnerability Integrations list alongside the existing Wiz Container Vulnerability Integration.
+            -   The integrations are installed automatically and are activated by default. To disable this integration chain, set thesn\_vul\_wiz.deployment\_context\_gate\_writes system property to 'Wiz Container Grouped Vulnerability andWiz Container Deployment Context integrations so that container vulnerable item creation remains based on your existing settings with theWiz Container Vulnerability Integration integration.false'. This setting deactivates the
+        -   These integrations are available to all customers who are entitled toContainer Vulnerability Response.
+            -   They remove a previous 16-controller-per-image cap that might leave large deployments with incomplete cluster/namespace visibility and unreliable auto-closing of vulnerable items when a deployment is removed.
+            -   They provide a more accurate runtime exposure visibility at scale.
+        -   A Wiz integration for AI Security findings for AI Security Exposure Management. Retrieves AI security scan findings, security-graph–based AI inventory lookup for hosts, and expanded support for additional AI asset types in cloud configuration findings. Note: The AI Security Exposure Management application and its dependencies are required for this integration.
+    -   Changed:
+        -   Enhancements to improve handling of Wiz API error codes that include clearer notifications directing users to contact the Wiz support team when a vendor-side error occurs.
+        -   Enhancements to improve the reliability of the data migration for Wiz Container Vulnerability Response.
+    -   Fixed:
+        -   An issue with duplicate container repository entries in Wiz container vulnerability data that might cause import errors.
+        -   An error in the Wiz Host Test Results integration when processing configuration items with a null subscription state.
+        -   An issue where the Vulnerability Summary displayed asset-specific details \(such as file paths\) instead of the standard CVE description.
+        -   An issue where the "Send AI security findings to AI security exposure management" checkbox did not reflect its saved state when returning to the Wiz configuration page.
+        -   An issue where the Wiz Container Vulnerability integration did not create label relationships on container image configuration items.
+-   **Version 32.7.0 - August 2026 \(USEM\)**
+    -   Changed:
+        -   Enhancements to the Wiz integration that fetches cloud configuration findings as 'Test Results' in Configuration Compliance routes configuration issues related to AI assets, such as AI models, agents, etc., into AI security exposure management tables \(AI posture findings\). This enhancement helps with better visibility within AI Control Tower and for any AI-specific remediation workflows to be added in the future.
+        -   The 'Send AI security findings to AI security exposure management' configuration setting has been added to the Test Results integration for Wiz to route AI security findings to AI security exposure management.
 -   **Version 32.1.3 - June 2026 \(USEM\)**
     -   Changed:
         -   Resource Type is no longer a mandatory field for configuring the Vulnerability Response Integration with Wiz. You can now save Wiz configurations for the integrations without specifying a Resource Type, simplifying setup for use cases where specifying a Resource Type wasn't appropriate.

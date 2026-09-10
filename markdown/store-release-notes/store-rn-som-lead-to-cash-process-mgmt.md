@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-lead-to-cash-process-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Lead-to-Cash Process Management release notes
@@ -17,6 +17,10 @@ Version history for the Lead-to-Cash Process Management application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.0 - September 2026**
+
+    Changed : Platform and infrastructure improvements for enhanced performance and stability and Internal framework upgrades to improve application reliability and future extensibility
 
 -   **Version 2.3.0 - June 2026**
 
@@ -35,5 +39,5 @@ Version history for the Lead-to-Cash Process Management application on the Servi
     View the associated relationships between different sales entities tied to the sales process record using a hierarchical node map view.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

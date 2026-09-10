@@ -1,20 +1,32 @@
 ---
-title: Now Assist for Care Team Operations release notes
-description: Version history for the ServiceNow Now Assist for Care Team Operations application on the ServiceNow Store.
+title: ServiceNow Otto for Care Team Operations release notes
+description: Version history for the ServiceNow ServiceNow Otto for Care Team Operations application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-now-assist-care-team-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Care Team Operations release notes
+# ServiceNow Otto for Care Team Operations release notes
 
-Version history for the ServiceNow® Now Assist for Care Team Operations application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto® for Care Team Operations application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.1.1 - September 2026**
+
+    New: Enhancements to provide better support for agentic engineering.
+
+-   **Version 2.0.6 - August 2026**
+
+    Now Assist for Care Team Operations has been renamed to ServiceNow Otto for Care Team Operations.
+
+-   **Version 2.0.5 - August 2026**
+
+    Now Assist for Care Team Operations has been renamed to ServiceNow Otto for Care Team Operations.
 
 -   **Version 2.0.1 - May 2026**
 
@@ -33,5 +45,5 @@ Version history for the ServiceNow® Now Assist for Care Team Operations applica
     -   This application deploys a Case Intake AI Agent that converses with the clinician, classifies requests by case type, detects duplicates, and creates cases through a guided conversational workflow. AI-powered search unifies access to KB articles, catalogs, and case records directly from the Care Team Portal with intelligent recommendations.
     -   What sets this apart is multi-channel AI coverage: chat-based agents through Virtual Agent, voice-based case intake through CCaaS telephony integration, and conversational AI search — all purpose-built for healthcare operations workflows and case types.
 
-**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
+**Parent Topic:**[ServiceNow Store - Healthcare and Life Sciences version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-healthcare-highlights.md)
 

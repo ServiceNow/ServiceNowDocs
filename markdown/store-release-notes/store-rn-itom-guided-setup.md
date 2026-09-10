@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-guided-setup.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITOM Guided Setup - New release notes
@@ -18,6 +18,10 @@ Version history for the ITOM Guided Setup - New application on the ServiceNow St
 
 ## Version history
 
+-   **Version 27.5.1 - August 2026**
+    -   Changed:
+        -   Now Assist &gt;ServiceNow Otto announcement
+        -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 -   **Version 27.3.1 - June 2026**
 
     New: The Learn phase of the Discovery Guided Setup now includes a task, Set up ITOM faster with the new Configuration Console, that introduces the ITOM Configuration Console. The Configuration Console offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation using Now Assist.
@@ -35,5 +39,5 @@ Version history for the ITOM Guided Setup - New application on the ServiceNow St
         -   Walk: See the tools in action and make them your own including creating discovery schedules, triaging alerts using Express List and more.
         -   Run: Optimize the applications for your business by improving key performance indicators and enabling advanced use cases, then deploy to production.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

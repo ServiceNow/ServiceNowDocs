@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety - Foundation release notes
@@ -28,5 +28,5 @@ Version history for the ServiceNow® Health and Safety - Foundation application 
     -   Health and Safety - Foundation is the core tier of the ServiceNow Health and Safety platform, providing essential incident management and reporting capabilities natively on ServiceNow. Foundation gives EHS teams the tools they need to report, investigate, and resolve health and safety incidents, manage root cause analyses, and track corrective and preventive actions all in one place.
     -   As the base tier of the Health and Safety AI-Native SKU, Foundation can be extended with Advanced and Prime tiers to unlock further AI-native capabilities.
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

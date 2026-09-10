@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-impact-value-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Impact Value Management - ITOM release notes
@@ -17,6 +17,10 @@ Version history for the Impact Value Management - ITOM application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.0 - September 2026**
+
+    Compatible: Zurich, Australia, Brazil
 
 -   **Version 3.0.1 - December 2025**
     -   The ITOM Data Definition "Impact VM - ITOM - \# of Unplanned Outages This Month" in ITOM Performance Analytics Data Collection Apps was using an incorrect filter, which led to non-outage events \(such as service degradations\) being included in the calculation. The definition has now been updated to apply the correct outage criteria, ensuring that only valid outage events are counted. This fix improves the accuracy and reliability of the reported performance metrics.

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Now Assist for Automation Center release notes
@@ -25,5 +25,5 @@ Version history for the ServiceNow® Now Assist for Automation Center applicatio
     This is the Gen AI capability for Automation Center, which enables Centers of Excellence \(CoEs\), developers, and business stakeholders to efficiently navigate the governance of automations within ServiceNow, including Flows, Subflows, Actions, Catalog Items, Playbooks, RPA, and many more, as well as automations outside of ServiceNow. By providing a unified interface, it serves as a single pane of glass to monitor and manage the entire automation landscape, leveraging the efficiency of Generative AI to streamline processes and enhance decision-making across diverse automation tools and platforms such as robotic process automation \(RPA\) systems, low-code development environments, and third-party integration platforms.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

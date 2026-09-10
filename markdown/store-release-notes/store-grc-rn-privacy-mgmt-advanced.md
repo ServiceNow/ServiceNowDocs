@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-privacy-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Privacy Management Advanced release notes
@@ -16,6 +16,13 @@ Version history for the ServiceNow® Privacy Management Advanced application on 
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New: New AI based reviewer assistant to recommend impacted control objectives and risk statements for Privacy Screening and Impact assessment.
+    -   Changed: Zurich Patch 12 and Australia Patch 5 and Brazil compatibility maintained for supported store applications
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed:
+        -   ServiceNow OTTO Branding Updates
+            -   Updated the application to reflect ServiceNow's new OTTO branding, replacing Now Assist references for a consistent AI experience across the platform.
 -   **Version 22.4.0 - July 2026 \(Australia\)**
 
     Changed: All Now Assist skills are now integrated with the latest third-party models for Claude, Gemini, and ChatGPT. This enables better performance and broader compatibility across your AI workflows.
@@ -34,5 +41,5 @@ Version history for the ServiceNow® Privacy Management Advanced application on 
     Privacy Management Advanced activates the AI features in Privacy Management. From case and issue summarization to risk assessment and control optimization, privacy and compliance teams can understand risks and impact more quickly, resolve privacy cases faster, and spend less time on manual work.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

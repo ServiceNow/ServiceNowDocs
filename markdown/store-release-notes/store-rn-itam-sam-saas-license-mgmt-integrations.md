@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-saas-license-mgmt-integrations.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 15
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management - SaaS License Management release notes
@@ -18,6 +18,51 @@ Version history for the IT Asset Management Software Asset Management - SaaS Lic
 
 ## Version history
 
+-   **Version 18.0.4 - September 2026 \(Brazil\)**
+    -   This release includes:
+        -   Smartsheet SaaS integration now supports Smartsheet's User Subscription model, showing license distribution across Members, Provisional Members, and Contributors/Viewers
+        -   Microsoft Entra ID SSO integration
+            -   Distinguishes between enabled and disabled user accounts for accurate license tracking
+            -   Generates reclamation candidates for subscriptions assigned through groups, even when no activity is recorded
+        -   Reclamation Summary in the License Operations dashboard. Scheduled jobs that generate reclamation candidates — for Microsoft 365, Adobe Cloud, and any other direct or SSO integration — now publish a summary of those candidates to the Reclamation tab as Reclamation Summary.
+        -   Individual overlapping reclamation candidates for Microsoft 365. Overlapping subscriptions now generate a separate reclamation candidate for each one, so SAM users can act on them individually. Previously, a single overlapping candidate was created per user subscription.
+        -   Okta SSO Integration profiles now allow you to enable or disable the Reclaim subscription option independently when Create Okta subscriptions is enabled
+        -   Removed duplicate job failure alert banners on SSO Integration Profiles during validation failures.
+        -   Adobe Cloud user subscription imports now prevent concurrent job runs, ensuring accurate syncing when the Import Adobe User Subscriptions job is triggered
+-   **Version 17.6.0 - September 2026 \(Australia\)**
+    -   Smartsheet SaaS integration now supports Smartsheet's User Subscription model, showing license distribution across Members, Provisional Members, and Contributors/Viewers
+    -   Microsoft Entra ID SSO integration
+        -   Distinguishes between enabled and disabled user accounts for accurate license tracking
+        -   Generates reclamation candidates for subscriptions assigned through groups, even when no activity is recorded
+    -   Okta SSO Integration profiles now allow you to enable or disable the Reclaim subscription option independently when Create Okta subscriptions is enabled
+    -   Removed duplicate job failure alert banners on SSO Integration Profiles during validation failures
+    -   Adobe Cloud user subscription imports now prevent concurrent job runs, ensuring accurate syncing when the Import Adobe User Subscriptions job is triggered
+-   **Version 16.9.0 - September 2026 \(Zurich\)**
+    -   Smartsheet SaaS integration now supports Smartsheet's User Subscription model, showing license distribution across Members, Provisional Members, and Contributors/Viewers
+    -   Microsoft Entra ID SSO integration
+        -   Distinguishes between enabled and disabled user accounts for accurate license tracking
+        -   Generates reclamation candidates for subscriptions assigned through groups, even when no activity is recorded
+    -   Okta SSO Integration profiles now allow you to enable or disable the Reclaim subscription option independently when Create Okta subscriptions is enabled
+    -   Removed duplicate job failure alert banners on SSO Integration Profiles during validation failures
+-   **Version 17.5.0 - August 2026 \(Australia\)**
+    -   New:
+        -   CrowdStrike integration workflow reliability improvements. The software model creation workflow has been enhanced to prevent failures that could occur when configuring a CrowdStrike Direct Integration Profile and associated product-workload mappings.
+        -   Improved SaaS job-failure troubleshooting with AI assistance. Enhanced error log summarization capabilities are now available to help administrators more quickly identify and troubleshoot SaaS job failures.
+    -   Fixed:
+        -   CrowdStrike daily usage synchronization. Fixed an issue where the daily usage sync could create duplicate Client Access License \(CAL\) records instead of updating existing records when a dictionary display field was misconfigured. The synchronization process now correctly updates daily records and removes orphaned duplicate entries, preventing inflated license consumption counts.
+        -   Workday OAuth 2.0 connection validation. Fixed an intermittent issue where validating a Workday integration profile could fail with "Socket Closed" or "Transaction Cancelled" errors due to timeout constraints during metadata retrieval. Connection validation now uses a more reliable validation path.
+        -   Microsoft 365 scheduled job overlap prevention. Fixed an issue where theSAM - Import M365 User Subscriptions andCollect Microsoft 365 Usage scheduled jobs could start new executions while a previous run was still in progress. Additional safeguards now prevent overlapping job runs.
+-   **Version 16.8.0 - August 2026 \(Zurich\)**
+    -   New: Enhanced SaaS job-failure troubleshooting. Improved AI-assisted error log summarization capabilities help administrators more quickly diagnose and resolve SaaS integration job failures.
+    -   Fixed:
+        -   CrowdStrike integration profile configuration. Fixed an issue where a CrowdStrike-related business rule could interrupt the software model creation workflow when configuring a CrowdStrike Direct Integration Profile and associated product-workload mappings.
+        -   CrowdStrike daily usage synchronization. Fixed an issue where duplicate Client Access License \(CAL\) records could be created during daily usage synchronization, resulting in inflated license consumption values. The synchronization process now correctly updates existing records and removes orphaned duplicate entries.
+        -   Adobe subscription optimization. Fixed an issue that could cause theSAM - Optimize Adobe Subscriptions scheduled job to fail when Single App product definitions were configured without active subscriptions.
+        -   Workday OAuth 2.0 connection validation. Fixed an intermittent issue where validating a Workday integration profile could fail due to timeout-related errors. Connection validation now uses a more reliable validation path.
+-   **Version 15.4.3 - August 2026 \(Yokohama\)**
+    -   Fixed:
+        -   CrowdStrike daily usage synchronization. Fixed an issue where duplicate Client Access License \(CAL\) records could be created during daily usage synchronization, resulting in inflated license consumption values. The synchronization process now correctly updates existing records and removes orphaned duplicate entries.
+        -   Workday OAuth 2.0 connection validation. Fixed an intermittent issue where validating a Workday integration profile could fail due to timeout-related errors. Connection validation now uses a more reliable validation path.
 -   **Version 17.4.1 - July 2026 \(Australia\)**
     -   Added support for required OAuth scopes per flow in the Jira and Confluence Cloud integrations to accommodate the new Atlassian marketplace app.
     -   Fixed for SAM - Optimize Adobe Subscriptions scheduled job failure in the Adobe integration.

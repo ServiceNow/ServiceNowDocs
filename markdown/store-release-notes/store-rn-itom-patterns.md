@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-patterns.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 91
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 103
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Discovery and Service Mapping Patterns release notes
@@ -22,22 +22,162 @@ The ServiceNow Store documentation for IT Operations Management patterns is now 
 
 ## Version history
 
+-   **Version 1.35.0 - September 2026**
+    -   New:
+        -   Discover the following resources:
+            -   IBM FlashSystem storage servers, pools, volumes, network adapters, Fibre Channel ports, and controllers
+            -   AWS Marketplace products \(product type: AMI and SaaS\)
+            -   AWS Linux Server CIs \(cloud discovery\)
+            -   AWS Windows Server CIs \(cloud discovery\)
+            -   Oracle OCI hardware types
+            -   Oracle Access Manager
+            -   Oracle Coherence
+            -   Oracle Enterprise Manager Management Server
+            -   Oracle Forms
+            -   Oracle HTTP Server
+            -   Oracle Internet Directory Server
+            -   Oracle Node Manager
+            -   Oracle Reports
+            -   Oracle Siebel CRM Server
+            -   Oracle Siebel Gateway Name Server
+            -   Oracle TNS Listener
+            -   Oracle Unified Directory
+            -   Red Hat 389 Directory Server
+            -   Red Hat JBoss Enterprise Application Platform Host Controller
+            -   Red Hat JBoss Enterprise Application Platform Server on UNIX
+            -   Red Hat JBoss Enterprise Application Platform Server on Windows
+            -   Red Hat Podman
+            -   Red Hat Single Sign-On Server
+            -   Red Hat WildFly
+    -   Discover resources in Oracle OCI UK Sovereign Cloud accounts by configuring a UK Sovereign Cloud datacenter URL when creating an OCI service account.
+    -   Discover Virtual Routing and Forwarding \(VRF\) instances on Cisco Nexus switches using the "Network Switch" and "Network Router" patterns.
+    -   Discover Kubernetes clusters using a MID Server cluster instead of a single MID Server for high availability and load balancing. Set up using a MID Server cluster by configuring the sn\_itom\_pattern.k8s\_midserverproperty to a MID Server cluster name.
+    -   Discover Oracle Databases on Windows using Oracle Wallet instead of storing applicative credentials on the ServiceNow AI Platform. Enable Oracle Wallet authentication by setting the glide.discovery.oracle\_wallet\_authentication property to true.
+    -   Discover Kubernetes clusters using the "Kubernetes Cluster - Per-Namespace LP" pattern to handle large cluster payloads.
+    -   Changed:
+        -   AWS discovery now uses the Resource Explorer API instead of the Config API to determine whether a datacenter region is active or passive. Use the mid.cloud.discovery.sonar.exclude\_resource\_types property to exclude specific resource types when evaluating a region's status.
+        -   The "Oracle OCI - Virtual Machine \(LP\)" pattern now discovers the Windows license type for OCI virtual machines \(VMs\), including Bring Your Own License \(BYOL\) and License Included.
+        -   The Populate SA and LDC IN CMDB job supports a full resync to reprocess all configuration item \(CI\) records. Configure the sn\_itom\_pattern.populate\_saldc\_full\_resync system property when service accounts or logical datacenters have incorrect or corrupted values for a CI.
+    -   Fixed:
+        -   Cloud Discovery — Some cloud resource types are missing from the cloud resource type table, so some cloud resources aren't classified during discovery. \(PRB1899462\)
+        -   Clustered Fortinet firewalls return incorrect individual IP addresses during discovery. \(PRB1967887\)
+        -   The "VMware NSX-T Load Balancer" pattern misses load balancer services when the environment exceeds the API limit of 1,000 items. \(PRB2003075\)
+        -   Azure active-region discovery used a paginated ARM resources API that caused slow discovery performance for subscriptions with large resource counts. It now uses Azure Resource Graph instead. \(PRB2033582\)
+        -   The "mongos server" pattern matches unrelated MongoDB processes \(mongosqld, mongosh\) because its identification condition matches any command line containing "mongos". \(PRB2067091\)
+        -   The "mongos server" pattern doesn't set the version on the Mongos application CI. \(PRB2022072\)
+        -   IIS 6 discovery isn't compatible with Windows Server 2025. \(PRB2023187\)
+        -   Azure change processing can miss changes at the edges of the queried time window because of propagation latency between ARM and Azure Resource Graph. \(PRB1904029\)
+        -   The Kubernetes multipage sensor pattern launcher consumes excessive memory \(around 1.1 GB\) on large result sets because of its snapshot-based deletion strategy. \(PRB1956848\)
+        -   OpenJDK product identification doesn't apply to Oracle and Sun Microsystems distributions. \(PRB2063770\)
+        -   The DBA Health Report extension section has no failover step and fails when applicative credentials are unavailable. \(PRB1807865\)
+        -   The app-itom-patterns plugin is missing its plugin.properties file. \(PRB2070403\)
+        -   In AWS cloud discovery, the service account object ID isn't passed to the "Amazon AWS Datacenter discovery" pattern for sub-accounts running under a management account schedule. \(PRB2062959\)
+        -   Several post-processing scripts using split payloads throw null property reference errors during discovery because payload records aren't checked for null. \(PRB2037681\)
+        -   The "UNIX Cluster - Linux Pacemaker Cluster" pattern doesn't return the cluster virtual IP when it's stored in cib.xml. \(PRB1805062\)
+        -   The "Google Cloud Platform \(GCP\) Resource Inventory" pattern's snapshot-based deletion strategy risks out-of-memory failures on large inventories. \(PRB2029029\)
+        -   The post-sensor script that populates IP address and FQDN for Azure VMs fails with a type error when a VM has no virtual NIC relationship, stopping all remaining VMs in the payload from being updated. \(PRB2012768\)
+        -   GCP discovery doesn't create a direct relationship between a VM instance and its image, unlike AWS and Azure. \(PRB2009832\)
+        -   The "oVirt Virtual Machines" pattern fails to discover virtual machines when the API call includes the nics.reporteddevices attribute. \(PRB2050138\)
+        -   Some cloud patterns don't populate Install Status and Operational status on discovered CIs. \(PRB2016498\)
+        -   Azure discovery writes an incorrect State value on web server CIs when the underlying resource is stopped. \(PRB1727749\)
+        -   No relationship is created between Kubernetes worker node Linux Server CIs and the corresponding VM instance CIs, causing duplicate compute representation and inflated subscription unit consumption. \(PRB2009283\)
+        -   PostgreSQL discovery names every instance postgres@&lt;host&gt; instead of using the cluster name. \(PRB2049987\)
+        -   The "NetApp SolidFire Storage System" pattern creates duplicate Storage Server records because the serial number attribute isn't marked valid. \(PRB2066123\)
+        -   The "NetApp SolidFire Storage System" pattern fails with an identification error stating that the storage server CI type can't be created because no attributes are defined. \(PRB2022085\)
+        -   The "NetApp Storage Cluster-Mode - HTTP" pattern doesn't work correctly for storage virtual machines that have only a Fibre Channel LIF. \(PRB1708591\)
+        -   When VM servers are migrated from vCenter discovery to Nutanix AHV discovery, the relationship to the previous hypervisor isn't updated automatically. \(PRB1948752\)
+        -   During a vendor-side cloud outage, discovery patterns don't display a clear message to inform customers about the outage. \(PRB1761252\)
+        -   The MSSQL Health Report extension always uses SQL authentication credentials on the sqlcmd command line, even when the target environment uses Windows authentication, requiring customers to manually remove the credentials. \(PRB1636691\)
+        -   The shared firewall attributes library overwrites a valid SNMP hostname with an empty reverse DNS result, causing Palo Alto firewall CI creation to fail. \(PRB2033646\)
+        -   The "Discover Google Organization" pattern also returns App Script \(sys-\) projects, inflating the project count and preventing discovery schedule dropdowns from loading. \(PRB2021312\)
+        -   Windows servers discovered through oVirt or Red Hat Virtualization aren't flagged as virtual, have no Runs on / Hosted on relationship to the RHV virtual machine, and are missing virtualization metadata. \(PRB1998928\)
+        -   GCP targeted HTTP load balancer discovery doesn't return the load balancer pool, pool members, or target HTTP proxy. \(PRB1741342\)
+        -   Creating reports on Kubernetes component tables requires the Pattern Designer user role because of the report view ACL. \(PRB2005881\)
+        -   A store update for Discovery and Service Mapping Patterns places some records in the wrong application scope. \(PRB1926343\)
+        -   The "Amazon AWS S3" pattern creates duplicate replication relationships in the identification payload, causing multi-match errors and discovery failures. \(PRB2021536\)
+        -   The Update device location business rule runs for every record added or updated in the device history table, although it applies to only two storage CI types. \(PRB1577051\)
+        -   The "XtremIO Host" pattern sets the life cycle stage status field with values that aren't defined in the lifecycle control table, causing discovery errors. \(PRB1752679\)
+        -   The IP address of a neighbor node discovered through LLDP isn't set. \(PRB1859047\)
+        -   Files used in Put file operations during pattern execution don't honor the mid.powershell.target\_base\_dirMID Server property and use hardcoded temporary paths. \(PRB1986196\)
+        -   When no version information is found, the "Tomcat" pattern sets the Version field to "embed" instead of leaving it empty. \(PRB2029308\)
+        -   The "Amazon AWS - Organizational Units \(LP\)" pattern fails when the root organizational unit is in a different hierarchy from the management account, leaving the identifying attribute empty and causing identification errors. \(PRB1849605\)
+        -   The Install Status of cloud network interface CIs discovered by the "Azure - NIC \(LP\)" pattern is always set to 1. \(PRB2014720\)
+        -   The "Amazon AWS DynamoDB" pattern doesn't capture DynamoDB global tables. \(PRB1713677\)
+        -   The "Next Generation Fortinet Network Firewall - REST" pattern retrieves the IP address 0.0.0.0 and ignores other details such as MAC address, creating duplicate records. \(PRB2008457\)
+        -   The availability group reference isn't created on MSSQL availability group listener CIs. \(PRB2018845\)
+        -   The "ColdFusion Application Server" pattern doesn't create inclusion entry points when the first application in the list has no name, causing all named ColdFusion applications on the host to be skipped. \(PRB2027537\)
+        -   The "Microsoft CA - Certificate Management" pattern doesn't populate all documented attributes, leaving issuer, issuer common name, subject country, subject organization, and subject organizational unit empty. \(PRB2026443\)
+        -   OCI virtual machine discovery doesn't collect CPU count and core count. \(PRB2028778\)
+        -   Valkey resources aren't discovered by the "Amazon AWS ElastiCache" pattern and aren't reported with the correct Type value. \(PRB2022833\)
+        -   A scope mismatch between the cloud resource table and its default list view prevents the list from displaying correctly. \(PRB2033316\)
+        -   The deletion strategy for GCP classic certificates linked to the Google datacenter deletes relationships instead of keeping them. \(PRB2033912\)
+        -   Cloud resource CIs remain non-operational after a successful discovery because the "Amazon AWS Resource Inventory" pattern doesn't reset Install Status and Operational Status. \(PRB2005316\)
+        -   The Google Virtual Machine to OS Server Relations pre-sensor script adds server CIs to the payload for retired or powered-off VM instances, incorrectly updating their last discovered date. \(PRB1668145\)
+        -   A load balancer discovered through its secondary is incorrectly set to non-operational. \(PRB1560971\)
+        -   Relationship records for newly introduced patterns use incorrect, inconsistent, or malformed names. \(PRB2033443\)
+        -   The Populate Service Account and LDC IN CMDB job stamps the wrong logical datacentre on VM object CIs when a VM instance has multiple Hosted on relationships, causing record not found errors. \(PRB2037989\)
+        -   Software Identification \(SWID\) tag collection doesn't work on IBM and other UNIX hosts. \(PRB2021559\)
+        -   Discovery doesn't record the region or datacentre for every AWS account when no resources are present. \(PRB1996769\)
+        -   Java GUI processes \(javaw\) aren't discovered, resulting in an incomplete Java installation inventory. \(PRB2037940\)
+        -   Linux discovery doesn't distinguish Red Hat Enterprise Linux \(RHEL\) for SAP Solutions from standard RHEL Server, creating both variants with the same generic operating system name. \(PRB2055036\)
+        -   The Owned By Configuration Item reference on each discovered IP address isn't populated with the main CI. \(PRB2066791\)
+        -   The out-of-the-box table flush rule for MSSQL components information has no age value, so stale records aren't removed from the CMDB. \(PRB2051930\)
+        -   The serial number of a network switch is empty when the physical containment value is 1. \(PRB1543533\)
+        -   When glide.discovery.bgp\_router\_disableis set to false, Discovery against BGP-enabled routers with large route tables always collects next-hop routing data, causing MID Server performance degradation and out-of-memory failures. The new glide.discovery.disable\_next\_hop\_dataproperty enables you to skip next-hop collection while still discovering interfaces and neighbors. \(PRB2062336\)
+        -   The Get Catalogs info command doesn't work when using Oracle Wallet credentials on Windows. \(PRB2067764\)
+        -   The AWS load balancer delete strategy doesn't remove stale tag entries, so duplicate key-value pairs accumulate in the Tags field on successive discovery runs. \(PRB2036420\)
+        -   The AWS default delete strategy doesn't retire stale route table and cloud object storage CIs, causing CMDB drift after the underlying AWS resources are removed. \(PRB2055749\)
+        -   When a NetScaler load balancer service forwards traffic to multiple pools, only one pool is related to the service. \(PRB1694131\)
+        -   The SAP Business Objects CMS Server on Windows pattern doesn't extract registry contents. \(PRB2024090\)
+        -   Discovery produces no GPU records for affected hosts. \(PRB2072749\)
+        -   MSSQL on Windows discovery can populate the TCP port with the localhost-only DAC port \(1434\) instead of the actual SQL Server listener port. \(PRB2054560\)
+        -   Azure Marketplace resources are classified only on the presence of plan metadata, preventing classification when other attributes are available. \(PRB2011641\)
+        -   Azure cloud discovery creates duplicate tag key-value records instead of updating the existing tag when a subscription tag value changes. \(PRB2055849\)
+        -   Several Oracle Linux Virtualization Manager \(OLVM\) tables don't populate all documented fields, including storage volume size, and the URL and description on cluster, server, and logical datacenter CIs. \(PRB2025095\)
+        -   SNMP OID classification incorrectly classifies Fortinet firewalls as routers. \(PRB2025249\)
+        -   The "Jboss Fuse" pattern's process check matches any Apache Karaf process during top-down discovery, creating false JBoss Fuse CIs for non-Fuse Karaf applications. \(PRB2015912\)
+        -   The "Nginx" pattern can't parse configuration files that use a UNIX socket path instead of an IP and port, creating pool member records with no IP address and duplicating them on every scan. \(PRB1659957\)
+        -   NGINX discovery fails to collect the version on OpenResty-bundled deployments, leaving the version unknown or storing the raw OpenResty version string. \(PRB2035064\)
+        -   After Azure cloud discovery, the relationship between load balancer services and load balancer pools is missing or incorrect. \(PRB1907384\)
+        -   The "Connect Direct" pattern is launched against Windows devices instead of only UNIX devices. \(PRB2019157\)
+        -   The "Azure DataBase \(LP\)" pattern fails with a lifecycle validation error and missing matching attributes for the compute template table. \(PRB1685353\)
+        -   The Get Catalogs info extension of the "Oracle DB On Unix" pattern returns no schemas on Oracle container databases because its query isn't CDB-aware. \(PRB2052855\)
+        -   Multiple primary replicas are reported within a single replica group, where only one primary is expected. \(PRB2035942\)
+        -   Security fixes. \(PRB1655337\)
+        -   Linux discovery fails to populate serial number, manufacturer, and model on IBM Power \(ppc64le\) systems because the shared hardware information library uses commands that are deprecated on POWER9 and POWER10. \(PRB2021331\)
+        -   The VRF shared library has no precondition, so it runs when it shouldn't. \(PRB2073610\)
+        -   Discovery doesn't handle the AWS Organizations API change that replaces the deprecated Status field with the State field. \(PRB2036582\)
+        -   Oracle middleware data isn't collected on Windows servers for Oracle GLAS reporting. \(PRB1892384\)
+        -   On-premises IP-based discovery doesn't collect the Windows Update Build Revision \(UBR\), which is needed for accurate patch level and vulnerability assessment. \(PRB2054665\)
+        -   Discovery populates the serial number field of HPE enclosures and blades with the serial number concatenated with the UUID. \(PRB2053667\)
+        -   The "Oracle DB Instance" CI is created with an unexpected TCP port value instead of the configured one. \(PRB2028266\)
+        -   The "Oracle DB On Unix" pattern uses an incorrect TCP port because SID-based connection information in tnsnames.ora isn't collected. \(PRB1998282\)
+        -   Azure VM statuses flip between retired and installed because a case-sensitive check on the resource ID fails to exclude scale-set-managed VMs from the retire sweep. \(PRB2068534\)
+        -   When certificate discovery is limited to specific templates, the "Microsoft CA - Certificate Management" pattern creates certificates without a fingerprint and exits as if no certificates exist, because of an incorrect variable name. \(PRB2005716\)
+        -   Duplicate container CIs are created when a container restarts. \(PRB1939196\)
+        -   Two relationship steps in the "NSX Cluster" pattern overwrite the cluster reference field, producing inconsistent and incorrect cluster references on NSX resource CIs. \(PRB2019308\)
+        -   The external system metadata table is incorrectly tagged with system metadata for NSX-T segments and gateways. \(PRB2026250\)
+-   **Version 1.32.0 - August 2026**
+
+    New: Control access through predefined query access controls for the Cloud Organizations \[cmdb\_ci\_cloud\_org\] and Cloud Account Group \[cmdb\_ci\_cloud\_account\_group\] tables. Access is restricted to the discovery\_admin and sn\_cmdb\_user roles.
+
 -   **Version 1.31.2 - July 2026**
 
     Changed: AWS is updating its account information structure. AWS discovery patterns have been updated accordingly. Upgrade to this release to maintain AWS discovery. For more information, see https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB3120531.
 
 -   **Version 1.31.0 - June 2026**
     -   New:
-        -   Discover the following resources:
+        -   Discover the following resources:
             -   NSX-T Cluster
             -   Azure Key Vault Key
             -   Nutanix Host and Nutanix VM events for v4
         -   Discover Oracle Databases on UNIX using Oracle Wallet instead of storing applicative credentials in the ServiceNow instance.
-        -   Control the port range that Nmap scans during credential-less discovery using the mid.discovery.credentialless.alt\_port\_options system property.
+        -   The ServiceNow instance. Control the port range that Nmap scans during credential-less discovery using the mid.discovery.credentialless.alt\_port\_options system property.
     -   Changed:
-        -   Configure whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover Docker container CIs. Check your entitlements to determine whether you have access to 2026 Container Packaging.
+        -   Configure whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover Docker container CIs. Check your entitlements to determine whether you have access to 2026 Packaging SKU.
         -   Discover additional attributes for AWS KMS Keys, including key algorithm, key usage, origin, and multi-region configuration.
         -   Discover additional attributes for AWS Secrets Manager Secrets, including rotation configuration details and key lifecycle dates.
+        -   Starting from Brazil, Azure change processing populates the new ACP Resource Type \[sn\_itom\_pattern\_acp\_resource\_types\] table instead of the previous sn\_itom\_pattern\_acp\_supported\_resource\_types table. The label remains the same.
     -   Fixed:
         -   The "Network Switch" pattern's "WAPs – Pre" pre-sensor script no longer fails with a TypeError when converting a null object. \(PRB2006345\)
         -   The "Google Cloud Platform \(GCP\) - Virtual Server" pattern no longer updates server CIs for powered-off or retired VM instances. \(PRB1668145\)
@@ -81,7 +221,7 @@ The ServiceNow Store documentation for IT Operations Management patterns is now 
         -   The "Google Cloud Platform \(GCP\) - Cloud SQL DB" pattern now correctly removes relationships between Cloud DataBase \[cmdb\_ci\_cloud\_database\] and Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] records when they are no longer valid. \(PRB1998351\)
         -   PowerMax discovery no longer scans remote arrays during local discovery runs. \(PRB1971078\)
         -   The "Java Installation" pattern now correctly updates the software install version when the installation path remains the same. \(PRB1996051\)
-        -   The "Azure Resource Inventory \(LP\)" pattern now correctly retrieves Azure Cognitive Services resources when a valid entry exists in the Cloud Inventory Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table. \(PRB2000900\)
+        -   The "Azure Resource Inventory \(LP\)" pattern now correctly retrieves Azure Cognitive Services resources when a valid entry exists in the Cloud Inventory Resource Inclusion List table. \(PRB2000900\)
         -   The "Amazon AWS - Network \(LP\)" and "Amazon AWS - Storage \(LP\)" patterns now correctly update the Operational status and Install Status fields on Cloud Network \[cmdb\_ci\_network\] and Storage Volume \[cmdb\_ci\_storage\_volume\] records after a successful discovery run. \(PRB2007665\)
         -   The process classification triggering condition for the "Jboss Fuse" pattern has been refined to prevent the pattern from matching hosts that do not have a JBoss Fuse deployment. \(PRB1950400\)
 -   **Version 1.30.2 - April 2026**
@@ -1560,5 +1700,5 @@ The ServiceNow Store documentation for IT Operations Management patterns is now 
         -   AWS Dynamo DB
     -   Apigee
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-su-licensing.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow ITOM/OT SU Licensing release notes
@@ -17,6 +17,17 @@ Version history for the ServiceNow ITOM SU Licensing content on the ServiceNow S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.16.0 - September 2026**
+    -   New:
+        -   Updated to count, for ITOM Visibility, servers managed by Certificate Management and the new Cryptographic Asset Compliance feature to provide accurate resource counts to support licensing management.
+    -   Fixed:
+        -   Correction so that EUDs are only counted for Health, HLA, Observability, and Cloud Accelerate value streams when ACC is deployed.
+        -   The ITOM Visibility Licensing Usage Count Store job has been improved to handle large data volumes better and to reduce long runtimes. This helps the licensing usage counting process run more efficiently on instances with large CI data sets.
+        -   The Non-Human Identity category is removed from Licensing.
+-   **Version 3.14.0 - August 2026**
+
+    Fixed: Refined the access control list \(ACL\) role permissions required to access ITOM Licensing records.Fixed: ITOM Visibility CI listing "Cancel Job" action actually stops execution and "Additional Filters for CIs" are correctly applied when populating licensable CIs.
 
 -   **Version 3.13.1 - July 2026**
 
@@ -157,5 +168,5 @@ Version history for the ServiceNow ITOM SU Licensing content on the ServiceNow S
         -   All existing licensing tables will stay in family release and are not moved to store app, so there are no data migration issues.
         -   Once the app is installed, all the old licensing scheduled jobs will be disabled via fix script and the new ones from the store app will be activated.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

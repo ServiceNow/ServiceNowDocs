@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-dv-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
-breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Data visualization core release notes
@@ -18,6 +18,75 @@ Version history for the Data visualization core application on the ServiceNow St
 
 ## Version history
 
+-   **Version 30.1.1 - September 2026**
+    -   New:
+        -   Period over Period charts now support multiple series visualization. Charts render distinct lines for each series with unique colors, display a legend with human-readable labels, and show relative period labels on the X-axis.
+        -   Automated accessibility validation for data visualizations. Automation covers scenarios where visualizations lack context for numbers, cards display values without context, and gauge buttons lack descriptive access.
+    -   Changed: Business unit impact assessment for chart switching. After switching charts, regression testing identifies failures and required updates for business units, ensuring clear communication of changes and any necessary actions.
+    -   Fixed:
+        -   Data labels no longer overlap in Pie, Donut, and Semi Donut charts after dashboard migration to Platform Analytics.
+        -   Form navigation arrows now display correctly when records are opened with Mouse Middle Click from the Platform Analytics Visualization list view.
+        -   Arrows in the form view now function properly when records are opened from the list visualization.
+-   **Version 29.1.6 - September 2026**
+    -   Changed:
+        -   Heatmap visualizations now open directly to the data table, streamlining access to underlying data.
+        -   Time series data visualizations now use the Highchart library, improving chart rendering and interactivity.
+        -   List visualizations now support highlight value configurations, enabling clearer identification of key data points
+        -   Bar visualizations now display legend numbers only on hover, reducing visual clutter.
+        -   Data visualization formats response time in seconds instead of milliseconds for improved readability.
+        -   Bubble chart bubbles in Platform Analytics Workspace now render across both X and Y axes, providing more accurate spatial distribution.
+        -   Geomap UI Builder component now allows viewing of regions with decimal values, eliminating forced rounding to 0.0.
+        -   Change Request dashboard now passes the "By Month SUM+" aggregate to the URL when clicking cells, ensuring correct counts.
+        -   Breakdown list in Dashboard Config Panel now filters by indicator after control panel reload, maintaining relevant context.
+    -   Fixed:
+        -   Large DataBroker JSON compilation via Rhino Parser has been resolved, preventing memory contention and node restarts.
+        -   Data source now loads correctly for new list visualizations.
+        -   Multipivot visualizations now display data when the API returns valid results.
+        -   Multiple data broker calls for list visualizations no longer cause filter failures or performance issues.
+        -   "Data Sources" component no longer loads twice in the config panel, and the data source selection modal does not reopen unexpectedly.
+        -   Pivot Table data visualizations can now be exported after the Australia upgrade.
+        -   Geomap functionalities now operate without errors in visualization maps.
+        -   Geomap sets maxNumberOfGroups to "ALL" instead of 10, ensuring complete data fetch on dashboards.
+        -   Dashboard export to PDF now includes pivot table visualizations.
+-   **Version 28.5.6 - September 2026**
+    -   Fixed tooltip showing percentage values for deselected groups, and inconsistent tooltip behavior across different hover dates
+    -   Fixed y-axis range not applying when set to a non-zero starting value on Platform Analytics vertical bar charts
+    -   Added support for column filtering on restricted columns
+    -   Fixed empty selection label in list reports with group-by on variable fields after migration
+    -   Fixed widget header not staying fixed and horizontal scrollbar not persistently visible during scroll
+-   **Version 29.1.3 - August 2026**
+    -   Fixed:
+        -   TransformExecutionNode.toRhino\(\) compiles Large DataBroker JSON via Rhino Parser leading to memory contention and node restarts
+        -   Data visualization - Heatmap: when opening a heatmap, immediately jumping to the data table
+        -   Data visualization formats response time in milliseconds instead of seconds
+        -   Data source not loading for new list visualization
+        -   Multipivot does not display the data even if the API returns proper data
+        -   Multiple data broker calls for list visualization resulting in filters not working and performance hit
+        -   Bubble chart bubbles render horizontally in Platform Analytics Workspace instead of distributed across both X and Y axes
+        -   "Data Sources" component loads twice in config panel; data source selection modal reopens due to second render
+        -   Time series data visualizations moved to use Highchart library
+        -   Unable to export Pivot Table data visualizations after Australia upgrade
+        -   Enable highlight value configurations for list visualizations
+        -   Bar visualization only populates legend numbers on hover
+        -   Geomap UI Builder component forces rounding decimals and will not allow viewing of any region that is rounded to 0.0
+        -   Change Request dashboard is showing incorrect number because the "By Month SUM+" aggregate is not getting passed to the URL when clicking on any cell
+        -   Errors in visualization map - Geomap functionalities
+        -   Geomap sets maxNumberOfGroups to 10 instead of ALL, causing incomplete data fetch on dashboards
+        -   Dashboard export to PDF does not export pivot table
+        -   Breakdown list in Dashboard Config Panel not filtered by indicator after control panel reload
+-   **Version 28.5.4 - August 2026**
+    -   Fixed:
+        -   TransformExecutionNode.toRhino\(\) compiles Large DataBroker JSON via Rhino Parser leading to memory contention and node restarts
+        -   Time series data visualizations using Highchart library \(feature flag\)
+        -   Chart labels overlapping on PAR dashboards
+        -   Multipivot does not display the data even if the API returns proper data
+        -   Multiple data broker calls for list visualization resulting in filters not working and performance hit
+        -   Geomap UI Builder component forces rounding decimals and will not allow viewing of regions that are rounded to 0.0
+        -   Geomap sets maxNumberOfGroups to 10 instead of ALL, causing incomplete data fetch on dashboards
+        -   Breakdown list in Dashboard Config Panel not filtered by indicator after control panel reload
+        -   Enabling highlight value configurations for list visualizations
+        -   Change Request dashboard showing incorrect values as the "By Month SUM+" aggregate is not getting passed to the URL when clicking on any cell
+        -   Errors in visualization map - Geomap functionalities
 -   **Version 29.1.1 - July 2026**
     -   Fixed: Export button not hidden based on export properties in client-side export for data visualizations.
     -   Fixed: Pivot Table displayed flat instead of in the correct hierarchical format.
@@ -159,7 +228,7 @@ Version history for the Data visualization core application on the ServiceNow St
         -   Legend and tooltip labels are having \(undefined\) values in case of duplicate labels
 -   **Version 28.0.23 - November 2025**
     -   Fixed:
-        -   Removal of extra button called "Enter Modal" for now assist explorer
+        -   Removal of extra button called "Enter Modal" for Now Assist explorer
         -   Resolved an issue where refreshing an empty Explorer tab after creating an Explorer from a data visualization in another tab resulted in a duplicate Explorer being created
 -   **Version 28.2.1 - October 2025**
 

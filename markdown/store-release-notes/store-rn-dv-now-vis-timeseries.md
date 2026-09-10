@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-03-02"
 reading_time_minutes: 1
-breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # @servicenow/now-vis-timeseries release notes

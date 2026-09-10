@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-service-request-mgmt-template.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Request Management App Template release notes
@@ -17,6 +17,10 @@ Version history for the Service Request Management App Template application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.2.6 - August 2026**
+
+    App is a dependency of App Engine Studio.  Please see App Engine Studio for release notes.
 
 -   **Version 29.2.1 - June 2026**
 
@@ -91,5 +95,5 @@ Version history for the Service Request Management App Template application on t
     See the App Engine Studio release notes.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

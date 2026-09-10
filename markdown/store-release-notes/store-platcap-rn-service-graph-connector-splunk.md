@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Splunk release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® Service Graph Connector for Splunk applicat
     This integration is one of the ServiceNow-developed Service Graph Connectors. The Service Graph Connector for Splunk imports assets from the Splunk product into your ServiceNow Configuration Management Database \(CMDB\) quickly, seamlessly, and securely. You can use the Guided Setup to help you configure your integration.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

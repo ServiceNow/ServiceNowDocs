@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-supplier-lifecycle-operations-integration-coupa.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Lifecycle Operations Integration with Coupa release notes
@@ -18,6 +18,10 @@ Version history for the Supplier Lifecycle Operations Integration with Coupa app
 
 ## Version history
 
+-   **Version 2.3.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve Coupa data integration and synchronization.
 -   **Version 2.2.0 - June 2026**
     -   New:
         -   Added Create Supplier Payment Information subflow in Coupa.

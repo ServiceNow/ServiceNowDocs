@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GovNotify spoke release notes
@@ -55,5 +55,5 @@ Version history for the GovNotify spoke integration on the ServiceNow Store.
     GovNotify is the UK government service that sends notifications to the users by emails, text messages, or physical letters. The notifications can be triggered from the central government, local authority, and NHS. ServiceNow, as the System of Engagement, can manage the service requests for the government forms and services. When the users have completed the forms and services, GovNotify Spoke can initiate GovNotify and send notifications to the end user's on the latest status update in real time.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

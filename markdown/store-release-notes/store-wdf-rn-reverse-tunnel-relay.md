@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-reverse-tunnel-relay.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Reverse Tunnel Relay release notes
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Reverse Tunnel Relay application on the Ser
 
 ## Version history
 
+-   **Version 1.5.0 - August 2026**
+    -   New:
+        -   Initial release of Relay raw logs feature
+        -   Relay components can now send raw logs directly to the instance for easier troubleshooting and diagnostics
+        -   Enables faster identification and resolution of connectivity or tunnel issues
 -   **Version - July 2026**
     -   Relay enables private, outbound-only connectivity between the customer's VPC and the ServiceNow platform, requiring no inbound firewall changes or exposed ports.
         -   A lightweight relay agent deployed within the customer's VPC initiates all outbound connectivity &amp;mdash; no inbound firewall rule changes needed.
@@ -28,5 +33,5 @@ Version history for the ServiceNow® Reverse Tunnel Relay application on the Ser
     Relay is a lightweight agent deployed within the customer's VPC that initiates an outbound connection to ServiceNow Gateway, establishing a secure private connectivity tunnel to the ServiceNow platform.
 
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

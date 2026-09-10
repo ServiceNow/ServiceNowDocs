@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-notify-connector-ms-teams.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Notify Connector for Microsoft Teams release notes
@@ -18,6 +18,13 @@ Version history for the IT Service Management Notify Connector for Microsoft Tea
 
 ## Version history
 
+-   **Version 2.12.0 - September 2026**
+    -   New:
+        -   Co-organizer support for the Events API — Assign co-organizers when creating events \(Self-Configured Setup only\).
+        -   Actions to automate conference creation — New actions let you create conferences with predefined configurations.
+            -   Sample flows demonstrate how to build automations using these actions.
+            -   Auto-archive conferences after a period of inactivity.
+        -   Auto-record configuration — Configure calls to record automatically.
 -   **Version 2.11.0 - July 2026**
 
     Fixed: The evaluation logic for Query Range ACLs has been updated.
@@ -145,5 +152,5 @@ Version history for the IT Service Management Notify Connector for Microsoft Tea
     Notify connector for Microsoft Teams provides support for conference calls on the ServiceNow AI Platform for rapid communication with internal team members, customers, and contractors.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

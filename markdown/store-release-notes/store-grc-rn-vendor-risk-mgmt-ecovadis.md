@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-vendor-risk-mgmt-ecovadis.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vendor Risk Management integration with EcoVadis release notes
@@ -18,6 +18,14 @@ Version history for the Vendor Risk Management integration with EcoVadis applica
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Added element assessment support in the Vendor Portal.
+        -   Migrated the SAE questionnaire widget to embeddable components.
+    -   Fixed:
+        -   Corrected questionnaire state transitions after return \(PRB2034307\).
+        -   Restored smart assessment questions for vendor issues \(PRB2060073\).
+        -   Corrected follow-up filter behavior \(PRB2069551\).
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   Changed:
         -   Added strict read-only enforcement to EcoVadis data fields to prevent unauthorized modifications.
@@ -47,5 +55,5 @@ Version history for the Vendor Risk Management integration with EcoVadis applica
     The ServiceNow Vendor Risk Management application helps customers manage their third party risk management \(TPRM\) programs across a broad number of risk domains. Environmental, Social, and Goverance \(ESG\) is one of those risk domains that may necessitate the need to import information from content providers such as EcoVadis.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-service-bridge-health.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Bridge Health release notes
@@ -17,6 +17,45 @@ Version history for the Service Bridge Health on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.10 - September 2026**
+    -   Service Exchange Health — v2.4.10
+        -   Fixed
+            -   Integration-user-naming scan check didn't validate the required prefix. \(PRB2023585\)
+            -   Some pre-onboarding scan failures didn't generate an Issue record, hiding the block reason. \(PRB2025384\)
+            -   Tightened ACLs on Health records; removed a console log exposing connection data. \(PRB2071380\)
+            -   Fixed message alignment and a duplicate message on the admin-group scan check. \(PRB2067053\)
+            -   Connection Dashboard now shows accurate inbound/outbound transport queue backlog counts.
+        -   Changed: Consolidated two magic-link scan checks into one, gated on whether magic links are enabled.
+        -   New
+            -   Added a clearer down-connection warning about data loss after 7+ days.
+            -   Added a notification to admins when the Admin group has no users.
+            -   Added warning messages for missing roles \(itil, cmdb\_read, personalize, import\_admin\).
+    -   Service Exchange for Consumers — v2.4.10
+        -   Fixed
+            -   Attachments could queue unnecessary background jobs regardless of connection state. \(PRB2070888\)
+            -   A remote task wasn't created when its trigger condition referenced a child-table-only field. \(PRB2070471\)
+    -   Service Exchange for Providers — v2.4.10
+        -   Fixed
+            -   Remote Choice Definitions with Account Secure could fail lookups for external integration users. \(PRB2054434\)
+            -   An emoji in the off-boarding message blocked translation when switching languages. \(PRB2032117\)
+        -   Changed: Provider Task activity stream now defaults to Additional Comments instead of Work Notes.
+    -   Service Exchange Base — v2.4.10
+        -   Fixed
+            -   Near-simultaneous updates on provider and consumer could drop one side's change. \(PRB2029744\)
+            -   output.ignore=true on a transform didn't actually exclude the field from the sync payload. \(PRB2066768\)
+            -   The Case table lacked a proper label/plural, showing an auto-generated name to some users. \(PRB1923483\)
+            -   A multi-row variable set on a record producer overwrote all rows with the last row's value. \(PRB2061638\)
+        -   Changed: Restart Connection after a clone/upgrade now also reactivates capture definitions automatically.
+        -   New: Added a scheduled sweep to reactivate capture definitions left inactive after a clone/upgrade.
+    -   Service Exchange Remote Process Sync Transport — v2.4.10
+        -   Fixed
+            -   Onboarding could time out on slow connections, leaving OAuth credentials empty. \(PRB2064896\)
+            -   OAuth credentials during onboarding were sent via URL query params instead of the request body. \(PRB2060125\)
+    -   Transporter — v2.4.10: No functional changes.
+-   **Version 1.0.17 - August 2026 \(Australia\)**
+
+    Security enhancements applied.
 
 -   **Version 2.3.18 - June 2026**
     -   Connections tab in the Service Exchange Center: Create, view, request, and offboard provider and consumer connections from a single location in the Service Exchange Center. Search and filter connections without navigating across multiple screens.
@@ -61,5 +100,5 @@ Version history for the Service Bridge Health on the ServiceNow Store.
     This application contains the Instance scan audit checks for Service Bridge.
 
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 

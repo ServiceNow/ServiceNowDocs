@@ -1,23 +1,35 @@
 ---
-title: Now Assist for Security Operations \(SecOps\) release notes
-description: Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
+title: ServiceNow Otto for Security Operations \(SecOps\) release notes
+description: Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-now-assist-secops.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Security Operations \(SecOps\) release notes
+# ServiceNow Otto for Security Operations \(SecOps\) release notes
 
-Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 6.5.2 - September 2026**
+    -   New:
+        -   Security Incident AI ROI Summary Dashboard.
+        -   Enhancements to Quality assessment.
+        -   Added version tracking for report history.
+        -   Duplicate reports as editable drafts.
+        -   Refresh selected report sections independently by prompting in Natural language.
+        -   Configurability to add additional context, KB articles for generating consistent assessments.
+    -   Fixed: PRB2059317: NACM Actions not available for post incident analysis flow in UI 16.
+-   **Version 6.4.5 - August 2026**
+    -   Changed: Now Assist has been renamed to ServiceNow Otto, ServiceNow's AI experience brand.
+    -   Fixed: Correlation Insight skill now supports optional security incident ID for MCP.
 -   **Version 6.3.4 - July 2026**
 
     Changed: Default models for all skills updated from Now LLM to 3P model.

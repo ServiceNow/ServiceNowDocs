@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-crisis-management.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Crisis Management release notes
@@ -17,6 +17,21 @@ Version history for the GRC: Crisis Management application on the ServiceNow Sto
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.5 - September 2026 \(Brazil\)**
+    -   New:
+        -   Enhanced Collaboration between recovery teams  during crisis : BCM users can  create and manage recovery teams with users, groups, and hierarchies for coordinated crisis response. Tag events by escalation level \(Site, Regional, Corporate, Global\) and link recovery teams to track who's involved at each level.
+        -   Create collaboration threads within events to assign action items, track impacted assets, and communicate directly with team members. Auto-populate email recipients from recovery team membership for frictionless notifications. Propagate all team actions to the event activity stream for a complete visibility into the response timeline.
+    -   Fixed:
+        -   Assessment instances are cancelled when Action items are deleted.
+        -   Hardened security by updating glide record secure for MRA modal api calls.
+-   **Version 11.0.4 - August 2026 \(Australia\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
+
+-   **Version 9.1.8 - August 2026 \(Zurich\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
 
 -   **Version 11.0.2 - June 2026 \(Australia\)**
     -   New:

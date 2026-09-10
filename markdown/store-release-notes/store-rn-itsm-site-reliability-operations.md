@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-01-04"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Site Reliability Operations release notes
@@ -87,5 +87,5 @@ Version history for the Site Reliability Operations on the ServiceNow Store.
         -   EM Connectors: Issue when customers run on-premises using Oracle DB. Customers running on-prem with Oracle DB should not use this version of SR Ops.Workaround: None \(as of now\).
         -   Azure Push Connector: The Configuration item\(CI\) on the alert is not getting populated. Workaround: Use the set service action to set the CI field on the alert.
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

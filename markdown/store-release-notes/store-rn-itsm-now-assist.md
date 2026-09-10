@@ -1,82 +1,148 @@
 ---
-title: Now Assist for ITSM release notes
-description: Version history for the Now Assist for ITSM on the ServiceNow Store.
+title: ServiceNow Otto for ITSM release notes
+description: Version history for the ServiceNow Otto for ITSM on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 19
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 25
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for ITSM release notes
+# ServiceNow Otto for ITSM release notes
 
-Version history for the Now Assist for ITSM on the ServiceNow Store.
+Version history for the ServiceNow Otto for ITSM on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 17.0.5 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed a security issue that allowed any authenticated user, regardless of role, to invoke ITSM AI agents and skills that should have been role-restricted.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 16.0.6 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 15.1.4 - August 2026 \(Zurich\)**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new AI agent can diagnose and resolve common Okta account lockouts and MFA failures reported through an incident or self-service, checking live account status and submitting the correct unlock or reset request automatically.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   A new dashboard section shows how closely AI-proposed solutions in Copilot \(supervised\) mode matched what human agents ultimately implemented.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Fixed an issue where several AI agents \(including Zscaler, Installed Apps, and Modern Change agents\) had read-only configuration, preventing customers from disabling them.
+        -   Fixed an issue where the Zscaler and Installed Apps agents' action engagement tools showed an empty timeout field.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Reordered the metrics on the Copilot Performance dashboard so the "80% or higher similarity" metric appears first.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
 -   **Version 16.0.3 - July 2026**
     -   New:
-        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
         -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
         -   In-form ticket deflection in Service Portal — An AI pipeline embedded in the ticket-creation form classifies intent, enriches context, retrieves knowledge, and suggests a resolution before a ticket is submitted.
         -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
         -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
-        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
     -   Changed:
-        -   Conversational Analytics dashboard \(Phase 2\) — Adds a topic detail page, Now Assist Data Explorer integration, standardized visualizations, and improved topics tables.
+        -   Conversational Analytics dashboard — Adds a topic detail page, Now Assist Data Explorer integration, standardized visualizations, and improved topics tables.
         -   Default model change — Now LLM is no longer the default model for ITSM skills and agents; each now defaults to an optimal small third-party model \(large third-party models require approval\).
-        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
-        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
         -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
         -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
-        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
         -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
 -   **Version 15.1.2 - July 2026 \(Zurich\)**
     -   New:
-        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
         -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
         -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
         -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
-        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
     -   Changed:
-        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
-        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
         -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
         -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
-        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
         -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
 -   **Version 14.3.1 - July 2026 \(Zurich\)**
     -   New:
-        -   AI Quality Assessment for the L1 AI Specialist — Automatically scores the AI Specialist's incident resolutions inside the Coaching application, so teams can measure resolution quality at enterprise volume and catch regressions instead of manually sampling.
         -   Routing mode selector for Reassign tasks — A new out-of-the-box selector lets AI Admins choose Router \(recommended\) or Script for the AI Specialist without editing worker-template configuration.
         -   Device remediation from ITSM workflows \(Intune &amp; Jamf\) — Agents can trigger endpoint remediation directly from Incident, Task, and Change without switching to external MDM consoles.
         -   Toggle to enable/disable KFT creation — A new on/off control on the AI Specialist worker template governs whether a Knowledge Fulfillment Task is created when a resolution cites no knowledge article \(enabled by default\).
-        -   Specialized Resolutions onboarding in L1 Specialist Configuration — A new section where admins can discover every available SME AI Agent, view prerequisites and setup readiness, and enable or disable each one for the ZTS L1 Specialist flow.
     -   Changed:
-        -   Slow Computer SME AI Agents honor L1 Specialist Configuration — Agents now check enable, consent, and approval settings and read action details from the Remedial Action Framework before acting.
-        -   Zscaler &amp; SharePoint SME AI Agents honor L1 Specialist Configuration — The same configuration-aware behavior extended to these agents.
         -   Routing-criteria analytics on the AIS Performance Dashboard — A new reassignment reason and per-criteria counts show when the AI Specialist reassigned an incident due to a routing-criteria match.
         -   Remedial Action Framework extended to non-device actions — RAF now registers non-device actions \(e.g., SharePoint access, fulfillment flows, catalog items\) alongside device actions as the single action registry.
-        -   DEX performance tab extended to all ZTS AI Agent actions — Now reports both device and non-device action performance, with drill-down.
         -   Richer AI Specialist work notes — Investigation and resolution work notes get consolidated formatting and clickable links to cited KB articles, similar incidents, and related records.
 -   **Version 15.0.1 - June 2026**
     -   New:
-        -   The L1 Service Desk AI Specialist now detects knowledge gaps and automatically creates a Knowledge Feedback Task when KB search returns no results above the configured relevance threshold, enabling managers to create missing articles.
         -   Knowledge feedback tasks are now deduplicated — the system checks for existing open tasks with matching category and subcategory within a lookback window before creating a new one, preventing task noise for gaps like password resets.
         -   The Change Quality Agent now persists quality scores per change record — including timestamps and contributing factors — available for dashboards, audits, and risk-detection workflows.
         -   A new KB article usage section on the AI Agent Studio Performance dashboard shows which articles the AI Specialist used during autonomous resolution.
         -   The AI Specialist now persists the Skill applied per incident evaluation onto the record. A new Skill filter on the AIS Performance Dashboard lets managers segment performance by capability area.
         -   A new manager dashboard aggregates incidents into issue-based clusters with health metrics and drill-down views, giving incident managers a consolidated view of emerging problem areas.
         -   IT administrators can now configure Change Management through an AI-native conversational agent in the Product Console, guided through approvals, risk scoring, and workflows via natural language.
-        -   The ZTS AI L1 Service Desk Specialist now supports real-time conversational engagement via Microsoft Teams or Slack, replacing the asynchronous activity stream with a consent-driven experience.
-        -   A new agentic solution for SharePoint access issues autonomously handles L1 scenarios including access requests, file failures, and permission mismatches, reducing resolution time from hours to minutes.
     -   Changed:
         -   The AI Specialist Performance Dashboard now includes revised productivity metrics measuring incidents attempted against total count for a more accurate resolution baseline.
-        -   Targeted enhancements to the L1 Service Desk AI Specialist improve reliability and consistency based on quality feedback from recent releases.
         -   The Create Incident AI Agent has been migrated to a Hierarchical Agent model, resolving hallucination and rendering issues on NextWave and removing the VA dependency.
         -   The Create Incident AI Agent has been updated for full NextWave off-glide orchestrator compatibility, resolving functional deviation issues from GA readiness testing.
     -   Fixed:
@@ -308,8 +374,8 @@ Version history for the Now Assist for ITSM on the ServiceNow Store.
         -   Incident summarization
         -   Resolution notes generation for an incident
         -   Now Assist panel for incident and interaction
-    Note: To use Now assist for ITSM capabilities on Service Operations Workspace, upgrade to or download the Service Operations Workspace 3.1.0 version.
+    Note: To use Now Assist for ITSM capabilities on Service Operations Workspace, upgrade to or download the Service Operations Workspace 3.1.0 version.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

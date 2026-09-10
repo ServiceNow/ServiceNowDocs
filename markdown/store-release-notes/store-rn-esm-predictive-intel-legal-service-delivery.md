@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Predictive Intelligence for Legal Service Delivery release notes
@@ -35,5 +35,5 @@ Version history for the Predictive Intelligence for Legal Service Delivery appli
     -   Machine learning models trained on your organization's historical legal requests and matters are used to predict new submissions and updates to existing ones. Legal fulfillers are presented with the results and a confidence score to enable quicker decision-making there by reducing the triage burden.
     -   Additionally, you can also use Advanced Work Assignment for Legal Service Delivery for automatic assignment.
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

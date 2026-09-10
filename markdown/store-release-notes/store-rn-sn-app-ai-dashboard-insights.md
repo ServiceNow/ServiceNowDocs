@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Dashboard Insights release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® AI Dashboard Insights application on the Se
     AI-Powered Dashboard Summary – summarizes dashboard data to surface what’s happening, including key highlights and notable changes.​
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

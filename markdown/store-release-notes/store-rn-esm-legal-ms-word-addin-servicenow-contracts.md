@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Word Add-in for ServiceNow Contracts release notes
@@ -23,5 +23,5 @@ Version history for the Microsoft Word Add-in for ServiceNow Contracts applicati
     Microsoft Word Add-in for ServiceNow Contract Manage pro streamlines the contract authoring and template creation process with real-tinme content controls directly from the Microsoft Word interface. Placeholders can be easily inserted for contract metadata and signatory along with configurable clauses to help auto-genrate the contract. The add-in supports the Windows and Mac operating systems in addition to the Word desktop and web versions.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

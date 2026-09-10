@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Universal Request AI agent collection release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® Universal Request AI agent collection appli
     The Universal Request AI Agent Collection is a set of Autonomous AI Agent that analyses the Universal Request details and creates a departmental ticket \(i.e. HR Case or Incident\).
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

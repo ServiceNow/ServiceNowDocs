@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-pa-content-psds.html
 release: store
 topic_type: reference
-last_updated: "2024-09-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics Content Pack for Public Sector Digital Services release notes
@@ -17,6 +17,10 @@ Version history for the Performance Analytics Content Pack for Public Sector Dig
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.6.1 - September 2026**
+
+    The Constituent Service Dashboard has been migrated to Next Experience Platform Analytics​​. Next Experience is a Now Platform feature that is active by default when the user loads or upgrades to the Xanadu release. The dashboard migration to Next Experience enables continuous visualization of historical and real-time process statistics in role-based dashboards, enabling individual stakeholders to make informed decisions.
 
 -   **Version 2.0.3 - September 2024**
 

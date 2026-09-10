@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workday HR spoke release notes
@@ -17,6 +17,10 @@ Version history for the Integration Hub Workday HR Spoke on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.0.2 - August 2026**
+
+    Enhanced security for OOTB sample webhook
 
 -   **Version 3.0.1 - July 2026**
     -   Added new SOAP actions that can support both personal authentication and service account authentication by using OAuth
@@ -144,5 +148,5 @@ Version history for the Integration Hub Workday HR Spoke on the ServiceNow Store
         -   Bi-directional sync employee lifecycle between ServiceNow and Workday.
         -   View Workday's employee info, time-off request, time-off balance, etc. on demand in ServiceNow without storing any data in ServiceNow.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

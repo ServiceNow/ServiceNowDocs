@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-indoor-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Indoor Mapping release notes
@@ -18,6 +18,14 @@ Version history for the Workplace Indoor Mapping application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.18.9 - September 2026**
+    -   Fixed:
+        -   Fixed accessibility toggle overlap with legend button in Outlook Add-in Map View.
+        -   Fixed occupancy status checkbox visibility in Location Directory when occupancy connector is configured.
+        -   Fixed multiple kiosk mapping issues including map rotation during wayfinding, default map value display configuration, space clickability.
+        -   Fixed floor selector not populating in Map Print page when building parameter is provided.
+        -   Fixed direction unit toggle \(feet/meters\) in Location Directory.
+        -   Fixed neighborhood search jumping to wrong floor due to inactive space references in Location Directory.
 -   **Version 1.18.6 - July 2026**
     -   Fixed:
         -   Added the favorite icon to Location Directory space cards in card view.
@@ -151,5 +159,5 @@ Version history for the Workplace Indoor Mapping application on the ServiceNow S
     -   ServiceNow Workplace Indoor Mapping provides indoor navigation for workplace teams as part of ServiceNow Workplace Service Delivery. Employees and end users can visualize in real-time workplace interiors, room reservation states, along with other indoor and outdoor details for a selected campus, building, and floor.
     -   Workplace administrators can design, edit, and manage inbuilt indoor maps for interactive locations and wayfinding. Install all the Workplace Service Delivery applications at once by downloading the ServiceNow Workplace Service Delivery Suite.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

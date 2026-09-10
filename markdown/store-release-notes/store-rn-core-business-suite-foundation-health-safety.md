@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-foundation-health-safety.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Core Business Suite Foundation for Health and Safety release notes
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Core Business Suite Foundation for Health a
 
 ## Version history
 
+-   **Version 3.3.2 - August 2026**
+    -   Shipped out-of-the-box Safety knowledge base.
+    -   Owners and managers can be defined by the admin for the knowledge base in the Core Business Suite configuration console to ensure proper governance and content tracking.
+    -   Shipped user criteria for Health &amp; Safety knowlegde base.
+    -   Shipped Now Assist search sources for Health &amp; Safety for Knowledge article generation from health and safety case table on the Knowledge center.
+    -   Create contextually relevant articles from case tables and drive better AI-assisted content creation by enabling Knowledge Content Recommendation skill from AI skills module.
 -   **Version 3.0.7 - July 2026**
 
     Removed the 'Assigned to Health &amp; Safety team' message that appeared even without any assignment after a Health and Safety request is created on the Employee Center portal.
@@ -31,5 +37,5 @@ Version history for the ServiceNow® Core Business Suite Foundation for Health a
     The Core Business Suite Foundation for Health and Safety provides pre-configured workflows for streamlined case and knowledge management, along with foundational AI capabilities for the Health and Safety department.
 
 
-**Parent Topic:**[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
+**Parent Topic:**[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
 

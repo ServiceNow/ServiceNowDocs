@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-search-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Search Admin Console release notes
@@ -18,6 +18,11 @@ Version history for the AI Search Admin Console application on the ServiceNow St
 
 ## Version history
 
+-   **Version 9.2.1 - August 2026**
+    -   New: Applied ServiceNow Otto branding guidelines across product updates.
+    -   Fixed:
+        -   Resolved issue on Homepage where right side container was missing.
+        -   Added a tooltip to items in Search Source list when "Include in AI responses" toggle is disabled.
 -   **Version 9.1.1 - July 2026**
     -   New:
         -   Updated navigation behavior for Search Application Configuration and Search Profile to dynamically adjust based on sharing settings when Now Assist is enabled for an application.
@@ -134,5 +139,5 @@ Version history for the AI Search Admin Console application on the ServiceNow St
         -   Configure result card interface from AI Search admin console: new UX to create and manage EVAM configurations
         -   Update Default Columns in Search Source: Allow excluding search sources from standard search or Genius Results
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -1,16 +1,16 @@
 ---
-title: ServiceNow Store - Finance Close Automation release notes
+title: ServiceNow Store - Finance Close Automation version history release notes
 description: The ServiceNow Store contains Finance Close Automation applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fca-highlight.html
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store release notes]
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Finance Close Automation release notes
+# ServiceNow Store - Finance Close Automation version history release notes
 
 The ServiceNow Store contains Finance Close Automation applications.
 
@@ -58,6 +58,8 @@ Version history for the ServiceNow® Primary Data Integration with Oracle Financ
 Version history for the Finance Operations Management Primary Data Integration with SAP application on the ServiceNow Store.
 -   **[Primary Data Integration with SAP Ariba release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-primary-data-integration-sap-ariba.md)**  
 Version history for the Primary Data Integration with SAP Ariba application on the ServiceNow Store.
+-   **[S2P Integration FedEx Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-s2p-int-fedex-connector.md)**  
+Version history for the ServiceNow® S2P Integration FedEx Connector application on the ServiceNow Store.
 -   **[Sourcing and Procurement Operations Integration with Ariba release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-procurement-operations-integration-ariba.md)**  
 Version history for the Sourcing and Procurement Operations Integration with Ariba application on the ServiceNow Store.
 -   **[Sourcing and Procurement Operations Integration with Oracle release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-procurement-operations-integration-oracle.md)**  
@@ -82,6 +84,8 @@ Version history for the Supplier Lifecycle Operations Integration with Oracle ap
 Version history for the Finance Operations Management Supplier Lifecycle Operations Integration with SAP application on the ServiceNow Store.
 -   **[Supplier Lifecycle Operations Integration with SAP Ariba release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-supplier-lifecycle-operations-integration-sap-ariba.md)**  
 Version history for the Supplier Lifecycle Operations Integration with SAP Ariba application on the ServiceNow Store.
+-   **[Tax Engine Integration with Vertex release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-finance-tax-engine-int-vertex.md)**  
+Version history for the ServiceNow® Tax Engine Integration with Vertex application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

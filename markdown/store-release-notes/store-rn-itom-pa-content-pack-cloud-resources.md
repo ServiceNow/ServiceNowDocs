@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-pa-content-pack-cloud-resources.html
 release: store
 topic_type: reference
-last_updated: "2026-01-20"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics Content Pack for Cloud Resources release notes
@@ -17,6 +17,10 @@ Version history for the IT Operations Management Performance Analytics Content P
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.6.0 - August 2026**
+
+    Fixed: Refined the access control list \(ACL\) role permissions required to access Performance Analytics Content Pack for Cloud Resources records.
 
 -   **Version 1.5.1 - January 2026**
     -   Optimized performance and timeout issues in scheduled population jobs by optimizing queries and correcting provider logic.

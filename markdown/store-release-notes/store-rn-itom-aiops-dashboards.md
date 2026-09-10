@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-dashboards.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AIOps Dashboards release notes
@@ -18,6 +18,10 @@ Version history for the ITOM AIOps Dashboards on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 26.5.2 - August 2026**
+    -   New:
+        -   AIOps 360 view dashboard now quantifies AI-driven operational value. The dashboard introduces a widget that displays the time saved by AI, counting the alerts AI closed as insignificant or analyzed and provided insights or next-step recommendations, contributing to time savings \(Note that Admins can adjust the time-saving definitions for this calculation\).
+        -   Adding a new resolution type for alerts closed as insignificant, "Closed by AI". This info is added to the AIops 360 view dashboard heatmap chart for improved visibility of AI-driven outcomes.
 -   **Version 26.3.1 - June 2026**
 
     Fixed: Extending accessibility for visual components in 360 Overview Dashboard

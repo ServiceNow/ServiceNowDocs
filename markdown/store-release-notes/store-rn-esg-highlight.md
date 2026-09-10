@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Operational Sustainability Management release notes
+title: ServiceNow Store - Operational Sustainability Management version history release notes
 description: The ServiceNow Store contains Operational Sustainability Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-highlight.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Operational Sustainability Management release notes
+# ServiceNow Store - Operational Sustainability Management version history release notes
 
 The ServiceNow Store contains Operational Sustainability Management applications.
 
@@ -18,8 +18,6 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **[Microsoft 365 for ServiceNow Reporting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-ms-365-sn-reporting.md)**  
 Version history for the Microsoft 365 for ServiceNow Reporting application on the ServiceNow Store.
--   **[Now Assist for Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-na-env-social-gov-mgmt.md)**  
-Version history for the Now Assist for Operational Sustainability Management application on the ServiceNow Store.
 -   **[Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-env-social-gov-mgmt.md)**  
 Version history for the Operational Sustainability Management Management application on the ServiceNow Store.
 -   **[Operational Sustainability Management Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-operational-sustainability-mgmt-advanced.md)**  
@@ -36,6 +34,8 @@ Version history for the Operational Sustainability Risk Management application o
 Version history for Operational Sustainability Management with Concur integration application on the ServiceNow Store.
 -   **[Scope 3 emissions management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-scope-3-emissions-mgmt.md)**  
 Version history for the Scope 3 emissions management application on the ServiceNow Store.
+-   **[ServiceNow Otto for Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-na-env-social-gov-mgmt.md)**  
+Version history for the ServiceNow Otto for Operational Sustainability Management application on the ServiceNow Store.
 -   **[Sustainable IT release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-sustainable-it.md)**  
 Version history for Sustainable IT on the ServiceNow Store.
 -   **[Urjanet Operational Sustainability Management integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-urjanet-esg-integration.md)**  
@@ -45,5 +45,5 @@ Version history for the Watershed integration for Operational Sustainability Man
 -   **[Workday integration for Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-workday-integration.md)**  
 Version history for the Workday integration for Operational Sustainability Management on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

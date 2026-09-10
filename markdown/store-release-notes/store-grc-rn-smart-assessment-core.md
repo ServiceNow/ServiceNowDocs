@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-smart-assessment-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Smart Assessment Core release notes
@@ -18,6 +18,10 @@ Version history for the Smart Assessment Core application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Name another user to act on your assessments on your behalf for a set period, using the standard platform delegate feature. A delegate of the primary responder can respond to and submit the assessment; a delegate of the requestor can cancel, reassign, and edit the due date. Delegation is off by default and is enabled from template category.
+        -   The assessment template category form includes two new fields: QB category roles, which controls access to the question banks associated with the category, and Allow user delegation, which lets users delegate their assessments in the category.
 -   **Version 22.4.0 - July 2026**
 
     Fixed: A minor defect regarding the Activity formatter.

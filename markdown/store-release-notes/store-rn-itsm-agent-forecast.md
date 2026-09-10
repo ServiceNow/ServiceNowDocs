@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-agent-forecast.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Forecast release notes
@@ -18,6 +18,9 @@ Version history for the Agent Forecast application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 5.10.0 - September 2026 \(Australia\)**
+    -   New: Dedicated Forecasting page in Manager Workspace
+    -   Fixed: Fixed minor defects.
 -   **Version 5.7.2 - June 2026**
 
     Fixed minor defects as part of this release
@@ -69,5 +72,5 @@ Version history for the Agent Forecast application on the ServiceNow Store.
     Demand forecasting for workforce optimization
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

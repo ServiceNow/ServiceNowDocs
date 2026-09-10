@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-security-case-mgmt-common-ws-components.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Case Management common workspace components release notes
@@ -17,6 +17,10 @@ Version history for the Security Operations Security Case Management common work
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.3 - September 2026**
+
+    Fixed: Fixed the translation issues for Security Incident Response Workspace pages and components.
 
 -   **Version 2.1.0 - June 2026**
 
@@ -81,5 +85,5 @@ Version history for the Security Operations Security Case Management common work
     This application will serve as a base application holding common artifacts that will be used by all Security Case Management Workspaces.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

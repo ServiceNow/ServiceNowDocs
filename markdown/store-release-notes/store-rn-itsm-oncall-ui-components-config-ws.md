@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-06-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # On-Call UI Components for Configurable Workspaces release notes
@@ -27,5 +27,5 @@ Version history for the On-Call UI Components for Configurable Workspaces applic
     "On-call UI components for configurable workspace" contains on-call capabilities in the form of components which are compatible with ServiceNow's Configurable workspaces. These components can be configured &amp; used in any configurable workspace such as service Operations Workspace.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

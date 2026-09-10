@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sharepoint.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft SharePoint Online spoke release notes
@@ -17,6 +17,14 @@ Version history for the Integration Hub Microsoft SharePoint Online Spoke on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.11.5 - September 2026**
+
+    Fixed: Action: Remove Role From Site - Defined Role - Choice field
+
+-   **Version 2.11.3 - August 2026**
+
+    Fixed: Query parameter token visibility and timing oracle
 
 -   **Version 2.11.2 - July 2026**
 
@@ -139,5 +147,5 @@ Version history for the Integration Hub Microsoft SharePoint Online Spoke on the
     Provides flows and actions to automate collaboration, document management, and user access rights in Microsoft SharePoint.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

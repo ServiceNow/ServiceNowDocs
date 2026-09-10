@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-02-18"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Roadmap UI Builder Component release notes
@@ -23,5 +23,5 @@ Version history for the Roadmap UI Builder Component on the ServiceNow Store.
     New: A full featured roadmap component with month, quarter, year timeline views. Purely presentational, this component requires the consumer to fetch its own data and bind it to the roadmap.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

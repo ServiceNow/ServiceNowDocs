@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-11-07"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Microsoft Defender for IoT \(Azure\) \(On-premises Management Console\) release notes

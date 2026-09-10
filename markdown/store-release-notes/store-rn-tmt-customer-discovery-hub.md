@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-tmt-customer-discovery-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Discovery Hub release notes
@@ -17,6 +17,26 @@ Version history for the ServiceNow® Customer Discovery Hub application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.3.3 - September 2026 \(Australia\)**
+
+    No new features in this release.
+
+-   **Version 1.1.15 - September 2026 \(Zurich\)**
+
+    No new features in this release.
+
+-   **Version 1.2.11 - August 2026 \(Australia\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
+
+-   **Version 1.1.8 - August 2026 \(Zurich\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
+
+-   **Version 1.0.8 - August 2026 \(Yokohama\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
 
 -   **Version 1.2.2 - July 2026 \(Australia\)**
     -   This is the initial release of the Customer Discovery Hub app.
@@ -29,5 +49,5 @@ Version history for the ServiceNow® Customer Discovery Hub application on the S
     Customer Discovery Hub centralizes the business intelligence gathered during customer discovery —Business Challenges, Business Needs, Business Expectations, and Customer Use Cases — in a structured, lifecycle-managed repository on the ServiceNow platform. It bridges the gap between pre-sales discovery and post-sales Customer Success by making customer intent data available across teams without manual handoff. Each record type follows a governed state machine anchored to a Lead, Opportunity, or Engagement, ensuring full traceability to the customer relationship. Customer Use Cases can be mapped directly to product capabilities from the Product Capability Core app, enabling teams to track which customer use cases are addressed by which products and capabilities.
 
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 

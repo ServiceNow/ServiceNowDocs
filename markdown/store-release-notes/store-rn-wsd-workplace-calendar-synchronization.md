@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-calendar-synchronization.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 18
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Calendar Synchronization release notes
@@ -17,6 +17,15 @@ Version history for the Workplace Service Delivery Workplace Calendar Synchroniz
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.4.22 - September 2026**
+    -   Fixed:
+        -   An all-day Outlook meeting spanning multiple days created a reservation for the first day only for each occurrence, leaving the room shown as free on subsequent days.
+        -   In some cases, a reservation identifier changed in Microsoft Exchange, preventing the corresponding reservations from being updated. The existing reservation continued to reference the original identifier instead of the new one.
+        -   Improved reliability of the inbound calendar-sync job that creates and updates reservations from calendar events, so events are processed more consistently.
+-   **Version 3.4.16 - August 2026**
+
+    Fixed: Recurring reservation times now correctly reflect the local timezone for non-UTC locations. Previously, occurrences could shift by one day due to UTC calendar date handling.
 
 -   **Version 3.4.11 - July 2026**
     -   Fixed:
@@ -272,5 +281,5 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

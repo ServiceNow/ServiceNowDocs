@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-approver-configurator.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Approver Configurator release notes
@@ -17,6 +17,14 @@ Version history for the GRC: Approver Configurator application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+
+    Changed: Added a new public API method, evaluateApproversByConfig\(tableName, recordSysId, configSysId\), to the ApproverEvaluation script include. This method evaluates and returns the approver levels for a given record based on a specified approval configuration.
+
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+
+    New: Admins can now configure multi-level approval workflows for project bundles. The Approver page supports adding up to 10 approval levels, saving approvers with their levels and rules, and loading and syncing existing configurations with the latest Approver Configurator settings automatically. Confirming approvers updates the configuration. Changes to published records apply starting with the next cycle.
 
 -   **Version 22.3.0 - June 2026 \(Australia\)**
 

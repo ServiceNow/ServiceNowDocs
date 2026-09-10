@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-06-05"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Security Center integration with Microsoft Defender for Endpoint release notes

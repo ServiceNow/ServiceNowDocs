@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-06-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Compliance Case Management Full Access release notes
@@ -27,5 +27,5 @@ Version history for the GRC Compliance Case Management Full Access application o
     ServiceNow's Compliance case management solution helps customers manage their compliance cases, such as policy and regulatory violations, complaints, and more. Collaborate with key stakeholders to perform assessments, investigation tasks, and other actions to effectively manage compliance cases. Additionally, analyze the causes and consequences as part of the post-case review process.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

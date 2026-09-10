@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ai-search-management.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Admin release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Admin version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Advanced AI Search Management Tools release notes
@@ -18,6 +18,22 @@ Version history for the Advanced AI Search Management Tools on the ServiceNow St
 
 ## Version history
 
+-   **Version 9.0.2 - September 2026**
+    -   New: Dashboard users and administrators can now filter the "Documents by Search Profile" visualization to query one profile at a time using a drop-down selector. This enables more targeted analytics and reduces reliance on broad queries.
+    -   Fixed: The issue causing a large number of messages with invalid tokens in WhereClause during the Australia upgrade has been resolved. System behavior is now consistent and error-free for affected upgrade scenarios.
+    -   Removed: Scheduled jobs and legacy dashboard tables used to load AI Search Dashboard data are no longer available. The "Searchable Documents" and "Documents by Search Source" visualizations have been removed from the AI Search Search Profile dashboard.
+-   **Version 8.0.5 - August 2026**
+    -   Changed: Changed the Load AI Search Dashboard Documents By Month job to run hourly
+    -   Fixed:
+        -   Resolved an issue that caused the Load AI Search Dashboard Documents by Search Source analytics job to fail when search sources were inactive
+        -   Resolved an issue that caused AI Search Profile analytics jobs to fail when search profiles were linked through M2M records to inactive or missing indexed sources
+        -   Prevented duplicate rows from appearing in the sn\_ais\_admin\_tools\_ai\_search\_dashboard\_documents\_by\_search\_profile table when the first search profile returned no facet buckets
+        -   Restored access to the list of recent search queries in Search Analytics for users without the ais\_admin role
+        -   Reduced memory usage and execution time for the Update Search Analytics Data job
+        -   Corrected intermittent warnings \(com.glide.script.RhinoEcmaError: missing ; before statement\) from SearchAnalyticsPrecalculatedData.populateData processing
+        -   Added a mechanism to remove outdated records from the Analytics Dashboard precalculated data table
+        -   Added a missing out-of-box index on table td31bc178x for MySQL DBI environments
+        -   Corrected an issue in the AI Search Analytics dashboard that caused the Applications selection to revert to the default value on Japanese-language instances
 -   **Version 8.0.2 - March 2026**
     -   Fixed:
         -   Resolved issue where users with the roles of analytics\_viewer, now\_experience\_analytics\_viewer, report\_analytics\_viewer were unable to see visualizations
@@ -121,5 +137,5 @@ Version history for the Advanced AI Search Management Tools on the ServiceNow St
                 -   The AI Search preview UI helps search admins review search queries' processing information, including performance data and feedback.
                 -   Search admins can also debug queries, impersonate search users, and override default query settings for testing purposes in the AI Search preview UI.
 
-**Parent Topic:**[ServiceNow Store - Admin release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
+**Parent Topic:**[ServiceNow Store - Admin version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin.md)
 

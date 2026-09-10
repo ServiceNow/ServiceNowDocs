@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Agent for Mobile release notes
@@ -55,5 +55,5 @@ Version history for the Workplace Agent for Mobile application on the ServiceNow
     -   The app boosts technician productivity with an intuitive interface to easily access assigned work, visbiilty to critical and breached cases, way find to the employee location, etc.
     -   To automatically install all the Workplace Service Delivery applications at once, download the ServiceNow Workplace Service Delivery Professional.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

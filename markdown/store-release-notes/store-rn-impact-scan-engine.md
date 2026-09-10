@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-scan-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Scan Engine release notes
@@ -18,6 +18,30 @@ Version history for the ServiceNow® Scan Engine application on the ServiceNow S
 
 ## Version history
 
+-   **Version 6.0.3 - September 2026**
+    -   New:
+        -   Headless Scan Engine APIs for CI/CD and ReleaseOps: Scan Engine can now be triggered, monitored, and queried outside the ServiceNow UI using REST APIs. Customers can start scans, check status, retrieve results, cancel scans, and access findings programmatically. This enables integration with CI/CD pipelines such as Jenkins and GitHub Actions to implement automated quality gates.
+        -   Introduced By Tracking for Findings: Added a new "Introduced By" field to findings. When a full or delta scan detects a violation, Scan Engine records the update set that introduced the issue, making it easier to trace findings back to the originating change.
+    -   Changed:
+        -   Smoother Exception Handling and Governance: Exception handling is now more predictable and auditable. Update sets with out-of-scope findings can be resolved appropriately, approval workflows better support enterprise governance models, and reporting relationships between findings and exceptions have been improved.
+        -   Dedicated Exception Approver Role \(scan\_engine\_exception\_approver\): Exception approval responsibilities are now separated from dashboard access, allowing designated non-administrators to approve exceptions without requiring broader system permissions.
+    -   Fixed:
+        -   Finding and Exception Reporting Improvements: Resolved issues affecting the reliability of relationships between findings and their associated exceptions for reporting and auditing scenarios.
+        -   General Defect Fixes and Stability Improvements: This release includes multiple defect corrections and platform stability enhancements.
+-   **Version 5.0.2 - August 2026**
+    -   New:
+        -   Scan-time completion warnings — Added warnings during scan execution when the selected Suite Scan may not meet the requirements needed to complete an Update Set or application workflow.
+        -   New statistical rule detection type — Added support for a new statistic detection type for Scan Engine statistical rules, including schema validation and compile/decompile support.
+    -   Changed: Clearer Suite Scan messaging — Improved labels, descriptions, and enforcement messaging for Update Set and Application Suite Scan settings. Users now receive clearer guidance when Suite Scan is unavailable, including restricted actions and recommended next steps.
+    -   Fixed:
+        -   Full-table custom definition scanning restored — Restored support for custom Scan Engine definitions that scan entire tables. Additional warning guidance is now provided when targeting the System Properties table.
+        -   Improved Platform Health Analytics dashboard performance to reduce load times.
+        -   Corrected findings count inconsistencies in Platform Owner dashboard views.
+        -   Fixed Update Set enforcement issues when complex AND/OR conditions are configured.
+        -   Resolved exception-handling issues affecting findings during rescans.
+        -   Corrected clone behaviour for resolved finding history records.
+        -   Fixed localisation issues in My Resolved Findings.
+        -   Resolved UI branding and consistency issues across Health Findings, and AI Code Review pages.
 -   **Version 4.0.3 - July 2026**
     -   New: Statistical Definitions framework introduced
     -   Fixed:
@@ -68,5 +92,5 @@ Version history for the ServiceNow® Scan Engine application on the ServiceNow S
     The Scan Engine is a ServiceNow application designed to automate recommended practice enforcement, manage technical debt, and optimize workflows across ServiceNow environments. It enables administrators and developers to proactively identify, remediate, and track issues through real‑time, on‑demand, and scheduled scans, ensuring continuous improvement in platform health and compliance. Integrated directly into the development lifecycle, it provides real‑time checks within App Engine Studio and script editors to prevent non‑compliant changes before they reach production, while offering intelligent fix suggestions to accelerate resolution.
 
 
-**Parent Topic:**[ServiceNow Store - Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
+**Parent Topic:**[ServiceNow Store - Impact version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-manager-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manager Hub release notes
@@ -18,6 +18,13 @@ Version history for the Manager Hub application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.10.5 - September 2026**
+    -   Fixed:
+        -   The employee details modal did not open correctly for indirect managers in the Your Team tab of the ESC portal, preventing access to employee information.
+        -   Tabs were not enabled for the Manager Hub on Now Mobile due to the absence of the hamburger menu icon, preventing mobile users from navigating correctly.
+-   **Version 4.10.1 - August 2026**
+    -   Changed: Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    -   Fixed: Interface elements on the Manager Hub overview page were displaying incorrect localized text due to translation issues.
 -   **Version 4.9.1 - June 2026**
     -   Changed:
         -   Non-Glide Cobalt Raven ACLs have been reviewed

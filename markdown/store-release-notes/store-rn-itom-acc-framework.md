@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 18
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Client Collector Framework release notes
@@ -18,6 +18,51 @@ Version history for the IT Operations Management Agent Client Collector Framewor
 
 ## Version history
 
+-   **Version 7.0.4 - September 2026**
+    -   New:
+        -   Maintenance Token Protection for Windows Uninstalls
+            -   Implement a maintenance token system that protects ACC \(Agent Client Collector\) agents from unauthorized or accidental uninstallation on Windows.
+            -   Administrators must now generate and provide a unique, agent-specific token before allowing agent uninstallation, adding a critical security layer to large-scale deployments while maintaining offline functionality and audit trails.
+        -   ACC-F now provides official support for non-persistent Virtual Desktop Infrastructure \(VDI\) environments.
+            -   Customers deploying agents to VDI gold images can now achieve full operational capability inunder 2 minutes instead of 15–20 minutes with traditional instance push workflows.
+            -   Prevented duplicate agent registrations on gold-image VM re-creation.
+            -   Eliminated per-desktop TLS certificate generation for VDIs.
+            -   Enabled immediate check execution upon instance connection
+    -   Changes:
+        -   Randomized temporary directory creation during agent upgrade to prevent symlink attacks
+        -   Restricted command allow-list defaults to prevent privilege escalation
+        -   Optimized policy refresh to prevent memory exhaustion by processing agents in batches \(2× max\_agents\_per\_mid, 20,000 default\) with automatic rotation
+        -   Added post-upgrade sync hook to re-publish asset metadata to all active MIDs after ACC-F plugin upgrades
+        -   Reordered Windows host IP selection to prioritize default-gateway interface query over generic routing
+        -   Added explicit "check skipped" log entries to distinguish disabled checks from normal execution
+        -   Extended policy publishing logic to support custom CI table inheritance \(u\_cmdb\_ci\_\*\)
+        -   Implemented scheduled cleanup job for stale checks to auto-resolve associated error records
+        -   Modified policy publish logic to update-in-place instead of delete/recreate
+        -   Added detection and fix for corrupted agent\_now\_id files on ICS agent startup
+        -   Added JSON5 support for allowlist parsing on ACC
+        -   Updated WMI Permissions test to work on Windows 11 where wmic.exe was removed
+    -   Fixed:
+        -   Fixed config file sync for checks with no assets by resolving "no agent record on context" error
+        -   Fixed re-registration save file format for ICS agents
+        -   Out-of-memory crashes on policy push when 80K+ agents accumulated on single MID.
+        -   installed\_software module hang on RHEL 10 when RPM output exceeds 64KB pipe buffer limit
+        -   Asset metadata not re-synced after ACC-F plugin upgrade, breaking asset collection on MIDs
+        -   Successful agent upgrade showing misleading "failed to fully fetch log" error message
+        -   Windows multi-homed hosts registering with incorrect IP due to wrong interface selection
+        -   ARM64 Linux CPU discovery failure when osquery CPU data unavailable
+        -   Disabled checks logged as "running successfully," masking data collection outages with false health indicators
+        -   Test Check UI crash/hang when agent table exceeds 28,000 records
+        -   Agent crash on YAML parsing failures during initialization
+        -   Policy deactivation success notification wiped by page auto-refresh
+        -   Policy republish losing change history by deleting/recreating records instead of updating
+        -   All agents for a particular ICS instance moving to "Unknown" state unable to transition to "down"
+        -   "Clean up duplicate agent ID errors" job running indefinitely on large error volumes, consuming database resources
+-   **Version 6.6.3 - August 2026**
+    -   Fixes:
+        -   1. Clean up of .pem and .bin files in the upgrade directory during upgrades of the ACC RPM agent on Linux hosts.
+        -   2. Upgraded OpenSSL version to 3.4.6and net-imap to 0.5.15 that will resolve the security vulnerabilities.
+        -   3. Fixed Agent Host Data Collection fails due to Asset Cleanup Error on Windows Server 2012 R2.
+        -   4. Fixed Windows instllation for acc version greater than 6.5.1 due to servicenow user creation error.
 -   **Version 6.6.1 - July 2026**
     -   New:
         -   1. ACC-F support for 64-bit Linux Ubuntu with an ARM processor.

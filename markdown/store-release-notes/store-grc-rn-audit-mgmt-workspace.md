@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-audit-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Audit Management Workspace release notes
@@ -18,6 +18,14 @@ Version history for the GRC: Audit Management Workspace application on the Servi
 
 ## Version history
 
+-   **Version 23.0.1 - September 2026 \(Brazil\)**
+    -   New:
+        -   Evidences can be created from Audit in 2 steps now.
+        -   Grid view for Control tests is now available for audit engagements.
+        -   DMS integration is performed in Audit.
+    -   Fixed:
+        -   Fixed the data validation logic in engagement updation.
+        -   Accessibility issues for Audit.
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New: Third-line users can now create audit entries in the audit universe for independent testing across the following objects:
         -   Risk statements
@@ -107,5 +115,5 @@ Version history for the GRC: Audit Management Workspace application on the Servi
     Audit Workspace is a single-pane view for an audit supervisor and auditor to view the overall audit timeline and status, track budget and resources for engagements, track high priority observations and issues, and monitor ongoing control testing and audit task progress. The workspace allows the audit supervisors to define audit plans and engagements, assign budget and resource to engagements, and track the progress of engagements. Auditors are able to test effectiveness of controls, request evidence, create observations and complete other audit activities. Using the central issue management capability they can also define the remediation plan of action and follow up on issues to ensure the gaps are fixed at the earliest.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

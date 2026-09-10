@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-nowintel-task-mining-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Task Mining Core release notes
@@ -17,6 +17,15 @@ Version history for the Task Mining Core application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.2.23 - September 2026**
+    -   Changed: The activity categorization experience is redesigned to make it faster and more intuitive to review event data and build categorization rules.
+        -   Search, sort, and filter user activity data directly in MAX view.
+        -   Build rules with a guided condition builder instead of writing rule logic.
+        -   See how your events are distributed across the rules you defined at a glance.
+-   **Version 4.1.8 - August 2026**
+
+    Included the fixes for Otto re-branding, as well as Report View ACL-related fixes. No features included.
 
 -   **Version 4.1.7 - July 2026**
 
@@ -54,5 +63,5 @@ Version history for the Task Mining Core application on the ServiceNow Store.
     Task Mining helps analysts and process owners understand everyday processes that drive business outcomes, identify inefficiencies in external activities and internal tasks, and make data-driven decisions to improve productivity. Gain insights into the effectiveness and specifics of how time is spent by workstation users with an analysis of how workstation users engage with processes. Continuous process optimization should be accessible to every organization, empowering them to operate smarter, faster, and with more transparency. Task Mining achieves this through its market-leading capability to gather structured data.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

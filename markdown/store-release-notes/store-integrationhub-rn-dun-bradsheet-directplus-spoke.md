@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Dun and Bradstreet DirectPlus Spoke release notes
@@ -27,5 +27,5 @@ Version history for the Dun and Bradstreet DirectPlus Spoke application on the S
     Dun and Bradstreet Spoke provides a list of actions that interact with D&amp;B's DirectPlus APIs. It provides the foundation to synchronize ServiceNow and D&amp;B system, such as looking up data blocks, companies, and identity resolutions. With the integration of ServiceNow and D&amp;B, the possibilities for performing advanced and comprehensive risk management are truly limitless.
 
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

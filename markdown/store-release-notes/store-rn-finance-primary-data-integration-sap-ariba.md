@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-primary-data-integration-sap-ariba.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Primary Data Integration with SAP Ariba release notes
@@ -18,6 +18,10 @@ Version history for the Primary Data Integration with SAP Ariba application on t
 
 ## Version history
 
+-   **Version 1.6.0 - September 2026**
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP Ariba data integration and synchronization.
 -   **Version 1.5.1 - June 2026**
 
     Fixed: Resolved an issue where the ERP source field was missing on the ERP Source Configuration record after app installation.

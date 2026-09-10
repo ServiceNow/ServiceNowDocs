@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Technology \(OT\) Manager Foundation release notes
@@ -29,5 +29,5 @@ Version history for the ServiceNow® Operational Technology \(OT\) Manager Found
     Now Assist for Operational Technology Manager \(OTM\) uses generative AI to help streamline processes in the Industrial Workspace related to your Operational Technology \(OT\) device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

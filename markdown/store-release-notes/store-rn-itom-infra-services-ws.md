@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITOM Infra Services Workspace release notes
@@ -36,5 +36,5 @@ Version history for the ServiceNow® ITOM Infra Services Workspace application o
     The ServiceNow ITOM infrastructure Services Workspace provides platform owners and IT Operations teams with a single, unified interface to manage and monitor MID Servers, Agent Client Collectors, and related components. It streamlines troubleshooting, assists with configuration, and grants visibility into these deployments. This workspace helps admins reduce downtime and lower operational overhead, so that critical services like Discovery, Integration Hub, Service Mapping, and Orchestration stay up and running. Enhanced with Now Assist for ITOM \(MID Guardian skill\) to provide advanced AI-driven troubleshooting and remediation.
 
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

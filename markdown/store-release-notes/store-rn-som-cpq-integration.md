@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-cpq-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CPQ Integration release notes
@@ -18,6 +18,25 @@ Version history for the ServiceNow® CPQ Integration application on the ServiceN
 
 ## Version history
 
+-   **Version 4.0.3 - September 2026**
+    -   New: You can configure and manage ramped pricing that accommodates early contract termination, enabling more flexible quoting and contract management.
+    -   Changed:
+        -   Field mappings and their sources synchronize during blueprint sync, with more accurate quantity handling for picker-based products and improved identification of characteristics.
+        -   Product synchronization tracks job status more accurately and reports status efficiently, ensuring sync processes complete successfully.
+        -   Improved role assignment during initial configuration to ensure greater accuracy and consistency.
+        -   Enhanced blueprint variable name generation removes special characters, preventing sync errors.
+        -   Tenant URL entries are validated and sanitized during configuration, to ensure smoother and more secure setup experience.
+        -   Implemented internal cleanup and expanded automated testing to improve reliability and reduce future regressions.
+-   **Version 3.4.2 - August 2026**
+    -   New: Support for early-termination ramp scenarios in quotes and contracts. Users can now configure and manage ramped pricing that accounts for early termination, enabling more flexible contract structures.
+    -   Changed:
+        -   Field mapping and characteristic sync improvements. Field mappings and their sources now sync during blueprint synchronization, with more accurate quantity handling for picker-based products and improved characteristic identification.
+        -   Product sync reliability enhancements. Product synchronization jobs now provide improved status tracking, ensuring sync processes complete and report status dependably.
+        -   Role assignment logic improvements during setup. The logic for assigning roles during initial setup has been refined to ensure more accurate and consistent role configuration.
+    -   Fixed:
+        -   Special characters are now stripped from generated blueprint variable names, preventing synchronization errors during blueprint generation.
+        -   Tenant URL entries are now validated and sanitized during configuration, resulting in a smoother and more secure setup experience.
+        -   Internal cleanup and expanded automated testing have improved overall performance and stability, reducing the likelihood of future regressions.
 -   **Version 3.3.0 - July 2026**
     -   What's New
         -   Early termination ramps: Support early-termination ramp scenarios in your quotes and contracts
@@ -41,5 +60,5 @@ Version history for the ServiceNow® CPQ Integration application on the ServiceN
     The CPQ Integration application enables product catalog data synchronization between Sales and Order Management and the CPQ Configurator. The application provides a unified product catalog admin experience for defining the catalogs and serves as a gateway to launch the CPQ Configurator for the buy-time experience.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

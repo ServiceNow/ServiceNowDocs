@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-partner-relationship-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Partner Relationship Management release notes
@@ -18,6 +18,23 @@ Version history for the Partner Relationship Management application on the Servi
 
 ## Version history
 
+-   **Version 11.0.2 - September 2026**
+    -   New Features: Added Partner Criteria Related List on Channel Partner Form  for case and workspace views
+    -   Fixes: Partner Manager / Relationship Manager unable to register members of child channel partners
+    -   New Features: Added the Partner Criteria related list to the Channel Partner form for case and workspace views.
+    -   Fixes: Fixed an issue where Partner Managers and Relationship Managers were unable to register members of child channel partners.
+-   **Version 10.0.4 - September 2026 \(Zurich\)**
+    -   New Features: Added Partner Criteria Related List on Channel Partner Form  for case and workspace views
+    -   Fixes: Partner Manager / Relationship Manager unable to register members of child channel partners
+    -   PC Suggestions:
+        -   New Features: Added the Partner Criteria related list to the Channel Partner form for case and workspace views.
+        -   Fixes: Fixed an issue where partner managers and relationship managers were unable to register members of child channel partners.
+-   **Version 9.0.1 - August 2026**
+    -   Defects: Security fixes
+    -   Updates: Performance optimisations: Made details tab as landing page
+-   **Version 8.0.0 - August 2026 \(Zurich\)**
+    -   Defects: Security fixes
+    -   Updates: Performance optimisations: Made details tab as landing page
 -   **Version 6.0.1 - July 2026 \(Zurich\)**
 
     Translations are added
@@ -77,5 +94,5 @@ Version history for the Partner Relationship Management application on the Servi
     -   With PRM, organizations gain real-time visibility into partner performance, can personalize engagement based on partner programs and segment, and foster stronger, more strategic relationships.
     -   Partners will benefit from a simplified portal experience that brings together enablement, insights, and transaction workflows, allowing them to focus on growth and value creation for themselves and the enterprise.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

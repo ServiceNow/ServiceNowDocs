@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Express List release notes
@@ -73,5 +73,5 @@ Version history for the ITOM Service Operations Workspace Express List applicati
     -   The inclusion of a preview pane in the Express List is another valuable feature. With this functionality, users can quickly access additional context and essential details about each alert without having to open a separate page. The preview pane provides a snapshot of the alert, enabling users to grasp the nature of the issue at a glance and make more informed decisions on how to proceed.
     -   In summary, the Express List in the AIOps product of ServiceNow is a game-changer for alert management. Its consolidated approach, real-time updates, dynamic filtering, integrated remediation actions, and preview pane provide users with a comprehensive and intuitive toolset to effectively tackle the complexities of IT operations. By simplifying and optimizing the alert management process, the Express List significantly improves productivity and empowers users to deliver swift and efficient resolutions, ultimately enhancing the overall performance of the organization.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

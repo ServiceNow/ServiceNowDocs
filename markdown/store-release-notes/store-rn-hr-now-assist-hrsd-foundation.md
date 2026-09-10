@@ -1,20 +1,28 @@
 ---
-title: Now Assist for HRSD- Foundation release notes
-description: Version history for the ServiceNow Now Assist for HRSD - Foundation application on the ServiceNow Store.
+title: ServiceNow Otto for HRSD- Foundation release notes
+description: Version history for the ServiceNow ServiceNow Otto for HRSD - Foundation application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-hrsd-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for HRSD- Foundation release notes
+# ServiceNow Otto for HRSD- Foundation release notes
 
-Version history for the ServiceNow® Now Assist for HRSD - Foundation application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto for HRSD - Foundation application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.2.5 - September 2026**
+
+    Licensing app for foundation SKU
+
+-   **Version 2.2.1 - August 2026**
+
+    New: Otto skills and a refreshed user interface for Otto.
 
 -   **Version 2.1.0 - July 2026**
 
@@ -29,5 +37,5 @@ Version history for the ServiceNow® Now Assist for HRSD - Foundation applicatio
     The HRSD Foundation plug-in acts as a digital identifier, specifically designed to represent and validate the customer's licensing tier.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

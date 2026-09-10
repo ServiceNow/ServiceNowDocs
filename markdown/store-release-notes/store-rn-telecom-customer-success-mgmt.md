@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-customer-success-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Success Management release notes
@@ -18,6 +18,34 @@ Version history for the Customer Success Management application on the ServiceNo
 
 ## Version history
 
+-   **Version 6.7.5 - September 2026 \(Australia\)**
+    -   Touchpoint Conversation Builder
+    -   AI-assisted preparation and post-meeting actioning layered on top of the Touchpoint record.
+        -   Pre-meeting brief — Generates a structured prep document from account context \(health, financials, open work, recent activities\), accessible from the touchpoint record.
+        -   Post-meeting recap — AI-generated recap and follow-up success task created from meeting notes.
+-   **Version 6.5.19 - September 2026 \(Zurich\)**
+    -   Touchpoint Conversation Builder
+    -   AI-assisted preparation and post-meeting actioning are layered on top of the Touchpoint record.
+        -   Pre-meeting brief — Generates a structured prep document from account context \(health, financials, open work, recent activities\), accessible from the touchpoint record.
+        -   Post-meeting recap — AI-generated recap and follow-up success task created from meeting notes.
+-   **Version 6.6.11 - August 2026 \(Australia\)**
+    -   This release includes two features: PAR Versioning and Use Case Access Control.
+        -   PAR Versioning — Data Model Foundation
+            -   Product Achievement Records can now track which published version is currently active. This release introduces the foundational versioning layer — each record can reference its current version, and immutable snapshots are stored with metadata, lineage, and notes, protected by role-appropriate access controls. All future PAR Versioning capabilities build on this foundation.
+        -   Use Case Access Control — Granular Role Family
+            -   Use Case access is now managed through a dedicated role family, independent of broader capability roles. Previously, capability access automatically carried over to Use Case tables, creating unintended over-privilege. Administrators can now grant or revoke access to Base Use Case, Supported Use Case, and Use Case Solution Map independently — without affecting any other capability permissions.
+-   **Version 6.5.12 - August 2026 \(Zurich\)**
+    -   This release includes two features: PAR Versioning and Use Case Access Control.
+        -   PAR Versioning — Data Model Foundation
+            -   Product Achievement Records can now track which published version is currently active. This release introduces the foundational versioning layer — each record can reference its current version, and immutable snapshots are stored with metadata, lineage, and notes, protected by role-appropriate access controls. All future PAR Versioning capabilities build on this foundation.
+        -   Use Case Access Control — Granular Role Family
+            -   Use Case access is now managed through a dedicated role family, independent of broader capability roles. Previously, capability access automatically carried over to Use Case tables, creating unintended over-privilege. Administrators can now grant or revoke access to Base Use Case, Supported Use Case, and Use Case Solution Map independently — without affecting any other capability permissions.
+-   **Version 6.4.12 - August 2026 \(Yokohama\)**
+    -   This release includes two features: PAR Versioning and Use Case Access Control.
+        -   PAR Versioning — Data Model Foundation
+            -   Product Achievement Records can now track which published version is currently active. This release introduces the foundational versioning layer — each record can reference its current version, and immutable snapshots are stored with metadata, lineage, and notes, protected by role-appropriate access controls. All future PAR Versioning capabilities build on this foundation.
+        -   Use Case Access Control — Granular Role Family
+            -   Use Case access is now managed through a dedicated role family, independent of broader capability roles. Previously, capability access automatically carried over to Use Case tables, creating unintended over-privilege. Administrators can now grant or revoke access to Base Use Case, Supported Use Case, and Use Case Solution Map independently — without affecting any other capability permissions.
 -   **Version 6.5.3 - July 2026 \(Zurich\)**
     -   This release brings Customer Discovery Healthboard data directly into Engagements, lays the data foundation for the Engagement AI Agent, and tightens security and access control across the app.
         -   Customer Discovery integration — Business Challenges, Business Needs, Business Expectations, and Customer Use Cases from Customer Discovery Healthboard are now visible within Engagements via a new Customer Use Cases related list, with owner, complexity, and product capability context surfaced alongside each engagement. Existing CSM roles automatically inherit the corresponding Discovery Viewer and Writer permissions — no manual role reassignment required.

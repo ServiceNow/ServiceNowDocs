@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Strategic Spend Tracking for PPM release notes
@@ -46,5 +46,5 @@ Version history for the IT Business Management Strategic Spend Tracking for PPM 
     -   Enables you to align your projects and demands with organizational strategies and goals. You can allocate a percentage of the demand or project’s total cost and benefits towards achievement of one or multiple strategies and goals.
     -   This information gets shown through a dashboard enabling you to visualize your projects, which are aligned to organizational strategies and goals, your planned and actual spend and also potential benefits you will realize through these projects. Additionally, you can also drill into a specific strategy or goal and visualize planned and actual spend along with the potential benefit.
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

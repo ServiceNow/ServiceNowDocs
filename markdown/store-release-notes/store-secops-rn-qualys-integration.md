@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-qualys-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Qualys Integration for Security Operations release notes
@@ -18,6 +18,32 @@ Version history for the Qualys Integration for Security Operations on the Servic
 
 ## Version history
 
+-   **Version 30.8.1 - September 2026 \(USEM\)**
+    -   New: Added 16 pre-seeded Qualys Vulnerability Import data sources to support automatic scaling of the integration across larger environments.
+    -   Changed:
+        -   Improved the Qualys Knowledge Base import to prevent out-of-memory failures on very large vulnerability knowledge base responses.
+        -   Improved Qualys integration run tracking by recording request parameters, including the deltasince value, on each run.
+        -   Enabled ARMIS-related processing for the comprehensive host detection, host list, and Knowledge Base backfill integrations.
+    -   Fixed:
+        -   Fixed an issue where pagination limits were not applied correctly during large Qualys host detection imports.
+        -   Fixed inefficient processing during Qualys host detection imports when hosts lacked matched configuration items.
+        -   Fixed missing default reapply settings on seeded Qualys CI Lookup Rules to ensure consistent behavior across instances.
+        -   Fixed an issue where Qualys Configuration Compliance policy test records were missing Description, Remediation, and Technology data.
+        -   Fixed an issue where importing large Qualys host detection reports could fail due to memory exhaustion.
+        -   Fixed inefficient query performance and excess resource usage when removing stale CVE records.
+        -   Fixed an issue where CVSS vector strings from Qualys Knowledge Base imports were not captured, leaving vulnerability records incomplete.
+        -   Fixed handling of malformed Qualys API responses to prevent validation failures.
+-   **Version 12.24.0 - September 2026**
+    -   Changed: Improved the Qualys Knowledge Base import to stream large XML payloads, preventing out-of-memory failures on large vulnerability knowledge base responses.
+    -   Fixed:
+        -   Fixed an issue where Qualys host detection imports did not properly apply pagination limits on subsequent pages, affecting large data pulls.
+        -   Fixed an issue where Qualys Configuration Compliance policy test records were missing Description, Remediation, and Technology data.
+        -   Fixed an issue where importing large Qualys host detection reports could fail due to memory exhaustion.
+        -   Fixed inefficient query performance and excess resource usage when removing stale CVE records from Qualys imports.
+-   **Version 30.6.3 - August 2026 \(USEM\)**
+    -   Fixed:
+        -   Fixed the detection key synchronization to prevent mixed open and closed detections when Vulnerability Response \(VR\) detection keys change on configuration items.
+        -   Optimized the Qualys Vulnerability Import process to prevent out-of-memory errors on instances with large reference tables.
 -   **Version 30.6.0 - June 2026 \(USEM\)**
     -   Changed: Optimized the default Qualys Cloud Platform integration settings by reducing the host truncation limit from 500 to 300 for greater stability, and increasing the KnowledgeBase backfill limit from 100 to 300 for faster processing.
     -   Fixed:

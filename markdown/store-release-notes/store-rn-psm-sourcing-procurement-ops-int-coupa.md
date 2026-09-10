@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-sourcing-procurement-ops-int-coupa.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sourcing and Procurement Operations Integration with Coupa release notes
@@ -17,6 +17,10 @@ Version history for the Sourcing and Procurement Operations Integration with Cou
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.2.0 - September 2026**
+
+    Changed: Migrated the app to the Fluent app framework.
 
 -   **Version 1.1.0 - June 2026**
 
@@ -31,5 +35,5 @@ Version history for the Sourcing and Procurement Operations Integration with Cou
         -   Look up Shipment details after an updated date
         -   Look up the Receipt details
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

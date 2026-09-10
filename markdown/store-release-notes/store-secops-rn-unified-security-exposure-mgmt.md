@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-unified-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Operations Shared apps for release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Operations Shared apps version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Unified Security Exposure Management release notes
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Unified Security Exposure Management applic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 31.3.1 - September 2026**
+    -   New:
+        -   Improved the quality and clarity of exception guidance text, with validated example scripts across workflow actions.
+        -   Enhanced exception management to support more generalized, flexible workflows.
+    -   Fixed: An excessive volume of warning messages during test results ingestion.
 -   **Version 31.2.0 - June 2026**
     -   New:
         -   Added a warning in the upgrade tool alerting administrators that upgrade duration may be significantly longer when Configuration Compliance test results exceed 30 million records.
@@ -29,5 +34,5 @@ Version history for the ServiceNow® Unified Security Exposure Management applic
     -   Unified Security Exposure Management \(USEM\) is ServiceNow’s next-generation platform that unifies vulnerabilities, misconfigurations and other exposures across infrastructure, applications, containers, and cloud resources into a single, consistent architecture. USEM delivers a modernized Security Exposure Management Workspace, standardized data models, modularized remediation workflows, and a richer, role-based user experience for analysts, remediation owners, admins, and service owners.
     -   With USEM, organizations gain consolidated visibility, improved prioritization, and faster remediation through unified persona views, enhanced analytics, and streamlined configuration capabilities. USEM brings stronger alignment across all exposure types for consistent orchestration and remediation.
 
-**Parent Topic:**[ServiceNow Store - Security Operations Shared apps for release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-shared.md)
+**Parent Topic:**[ServiceNow Store - Security Operations Shared apps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-shared.md)
 

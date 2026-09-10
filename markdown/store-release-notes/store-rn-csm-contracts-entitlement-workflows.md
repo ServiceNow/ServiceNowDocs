@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-contracts-entitlement-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contracts and Entitlement Workflows release notes
@@ -17,6 +17,15 @@ Version history for the Contracts and Entitlement Workflows application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.1 - September 2026**
+    -   New:
+        -   Subscription management enhancement: Renewal and amendment quotes exclude subscription lines with an early termination or down-sell action.
+        -   Changes to contract lifecycle workflows for integrating with the ServiceNow Quote Experience
+    -   Fixed: Minor defects
+-   **Version 14.5.1 - August 2026**
+
+    Defect Fixes: Subscription renewals consolidate all VLP line items into a single renewal line. When renewing a subscription with multiple VLP products, the system merges all VLP lines into one renewal line with quantity 1, inheriting the term from the original VLP and referencing the most recent VLP line on the contract to maintain historical continuity. This simplifies the renewal process and makes it easier to manage.
 
 -   **Version 14.4.2 - June 2026**
 
@@ -91,5 +100,5 @@ Version history for the Contracts and Entitlement Workflows application on the S
     This application extends the catalog management and order management capabilities to support customer service teams in managing service contracts and entitlements.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

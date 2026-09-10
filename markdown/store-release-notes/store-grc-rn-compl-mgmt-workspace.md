@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-compl-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Compliance Management Workspace release notes
@@ -18,6 +18,20 @@ Version history for the GRC: Compliance Management Workspace application on the 
 
 ## Version history
 
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   New: Added type as an option in the Control attestation template. The type field has been added to the question bank in Smart Assessment
+    -   Changed: Updated the description for Unified Content Management in the Compliance Management Workspace
+    -   Fixed:
+        -   Resolved accessibility issues in the Compliance Management Workspace.
+        -   Fixed status field errors in policy records when reconnecting documents
+        -   Policy Redlining SharePoint integration with policy records is failing intermittently
+        -   Resolved version parity issues between GRC documents and KB articles
+        -   Fixed approver selection in Risk Assessment dialogs to display users with the ARA approver role
+        -   Resolved padding and spacing issues on the Policy and Control Overview pages
+        -   Fixed security issues in related lists
+        -   Fixed security issue in compliance records access
+        -   Resolved the group assessments declarative action disappearing in the Compliance Workspace
+        -   Resolved inconsistencies in terminology and font weights on the home page
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
         -   Policy authoring now supports a hybrid authentication approach for Google Drive and Sharepoint, using both personal and service accounts:

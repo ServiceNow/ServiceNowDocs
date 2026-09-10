@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-mgmt-invoice-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Case Management for Invoice Operations release notes
@@ -17,6 +17,22 @@ Version history for the Case Management for Invoice Operations application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.0 - September 2026 \(Australia\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 1.10.1 - September 2026 \(Zurich\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 2.0.1 - August 2026 \(Australia\)**
+
+    Minor performance improvements and defect fixes
+
+-   **Version 1.9.0 - August 2026 \(Zurich\)**
+
+    Minor performance improvements and defect fixes
 
 -   **Version 2.0.0 - June 2026 \(Australia\)**
 
@@ -65,5 +81,5 @@ Version history for the Case Management for Invoice Operations application on th
     The Case Management for invoice Operations application enables B2B customers to operationalize invoice-related services such as invoice disputes and collections. This application includes a dedicated invoice case type along with invoice case lines. This application also includes the common services that customers can request on an invoice, workflow, and agent experiences.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

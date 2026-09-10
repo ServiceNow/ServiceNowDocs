@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Case Management release notes
@@ -17,6 +17,14 @@ Version history for the Health and Safety Case Management application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.4.1 - September 2026**
+
+    Fixed: Resolved an access issue affecting Root Cause Analysis.
+
+-   **Version 6.3.1 - August 2026**
+
+    New: Safety Knowledge Base access controls for managers and requestors. Health &amp; Safety managers and agents can now contribute to Safety Knowledge Base articles, while case requestors have read-only access to articles within the Knowledge Base.
 
 -   **Version 6.2.2 - July 2026**
 
@@ -72,5 +80,5 @@ Version history for the Health and Safety Case Management application on the Ser
     ServiceNow Health and Safety Case Management provides your employees with an easy way to submit health and safety questions to your safety teams. This makes it easy for safety teams to track any questions and requests separately from incidents and observations. Employees can submit their questions through the Quick Links in the Employee Center. With the Return to Work case type, RTW coordinators can manage Return-to-work cases to organize employees' return to the workplace after an injury or illness.
 
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

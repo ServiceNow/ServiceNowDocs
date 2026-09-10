@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations Integration with Mastercard release notes
@@ -17,6 +17,10 @@ Version history for the Financial Services Operations Integration with Mastercar
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 2.3.0 - July 2026**
     -   Changed: Updated the Mastercard \(Mastercom\) clearing transaction lookup to include the program registration ID.
@@ -51,5 +55,5 @@ Version history for the Financial Services Operations Integration with Mastercar
     The ServiceNow Financial Services Operations Integration with Mastercard offers a streamlined and efficient solution for financial institutions to manage Mastercard disputes. By integrating with Mastercard's spoke actions, the application facilitates key dispute lifecycle events, including transaction search, chargeback creation, pre-arbitration, arbitration, and fraud reporting. This framework supports various dispute resolution use cases within ServiceNow, with out-of-the-box sub-flows for core integrations and the flexibility to extend the integration layer for custom business needs. The application's adapter layer simplifies the connection to dispute workflows, enabling effective and efficient dispute resolution.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

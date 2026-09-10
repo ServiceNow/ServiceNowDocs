@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-regulatory-agency-library.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Regulatory Agency Library release notes
@@ -17,6 +17,20 @@ Version history for the Regulatory Agency Library application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Improved protection against unauthorised query-based data discovery.
+        -   ACL behaviour across new installs, upgrades, and true-up releases.
+        -   Reduced operational dependency on manual remediation activities.
+        -   Zurich and Australia compatibility maintained for supported store applications.
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+
+    Changed: As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+
+-   **Version 21.1.6 - August 2026 \(Zurich\)**
+
+    Changed: As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
 
 -   **Version 22.3.0 - June 2026 \(Australia\)**
     -   Changed:
@@ -49,5 +63,5 @@ Version history for the Regulatory Agency Library application on the ServiceNow 
     Establish and maintain a centralized library of regulatory agencies and key contacts. Consolidate and organize regulatory communications via email for future reference as part of the agency records.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

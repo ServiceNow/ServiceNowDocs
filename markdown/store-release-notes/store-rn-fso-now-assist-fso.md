@@ -1,22 +1,34 @@
 ---
-title: Now Assist for Financial Services Operations release notes
-description: Version history for the Now Assist for Financial Services Operations application on the ServiceNow Store.
+title: ServiceNow Otto for Financial Services Operations \(FSO\) release notes
+description: Version history for the ServiceNow Otto for Financial Services Operations \(FSO\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-now-assist-fso.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Financial Services Operations release notes
+# ServiceNow Otto for Financial Services Operations \(FSO\) release notes
 
-Version history for the Now Assist for Financial Services Operations application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Financial Services Operations \(FSO\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
+
+-   **Version 3.4.2 - August 2026**
+    -   Changed
+        -   Updated internal application components to support ongoing platform enhancements.
+        -   Updated "ServiceNow Otto" branding for ServiceNow Otto for Financial Services Operations \(FSO\).
+-   **Version 2.1.4 - August 2026 \(Zurich\)**
+
+    Changed: Updated "ServiceNow Otto" branding for ServiceNow Otto for Financial Services Operations \(FSO\).
 
 -   **Version 3.3.1 - July 2026**
     -   New: Added AI model options across Now Assist for FSO summarization skills, including Claude 4.5 Sonnet, Claude Haiku 4.5, Gemini 3.5 Flash, and GPT-5.4 mini — giving more provider and model choices.
@@ -113,5 +125,5 @@ Version history for the Now Assist for Financial Services Operations application
     Now Assist for Financial Services Operations \(FSO\) leverages generative AI capabilities to address complex cases in the financial services industry like credit card disputes and insurance claims. Features like dispute case summarization and claim summarization use generative AI to quickly and accurately summarize key case details, streamline workflows, and significantly reduce processing times and mistakes. By quickly extracting the most important information employees need to action their work, financial institutions can reduce manual effort, improve customer satisfaction, and drive growth.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fca-accounts-payable-operations-sap.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Accounts Payable Operations Integration with SAP release notes
@@ -18,6 +18,32 @@ Version history for the Finance Operations Management Accounts Payable Operation
 
 ## Version history
 
+-   **Version 3.2.0 - September 2026 \(Australia\)**
+    -   New:
+    -   -   New flows for the Cancel Non-PO Invoice in SAP ECC RFC.
+-   New flow for Authorize Payment in SAP ECC RFC - SAP APO
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP ERP data integration and synchronization.
+    -   Fixed:
+        -   Unable to create an invoice for a released PO associated with a blanket purchase order.
+        -   Failed to update the invoice table using the core action "Update Record" for ECC IDoc, S/4HANA RFC and IDoc.
+        -   Update the Cancel Invoice in SAP ECC and Cancel Invoice in SAP HANA OData integration to map the request value to the Reversal Code field instead of the Reversal Reason field.
+        -   Corrected input field mapping for the Authorize Payment S/4HANA OData subflow.
+        -   Error message not displaying in the Processing message column in the Outbound Invoices table and in the flow execution link for the Cancel PO Invoice error scenario.
+-   **Version 2.5.0 - September 2026**
+    -   New:
+        -   New flows for the Cancel Non-PO Invoice in SAP ECC RFC.
+        -   New flow for Authorize Payment in SAP ECC RFC - SAP APO
+    -   Changed:
+        -   Migrated the app to the Fluent app framework.
+        -   Enhanced the connector framework for Source-to-Pay \(S2P\) processes to improve SAP ERP data integration and synchronization.
+    -   Fixed:
+        -   Unable to create an invoice for a released PO associated with a blanket purchase order.
+        -   Failed to update the invoice table using the core action "Update Record" for ECC IDoc, S/4HANA RFC and IDoc.
+        -   Update the Cancel Invoice in SAP ECC and Cancel Invoice in SAP HANA OData integration to map the request value to the Reversal Code field instead of the Reversal Reason field.
+        -   Corrected input field mapping for the Authorize Payment S/4HANA OData subflow.
+        -   Error message not displaying in the Processing message column in the Outbound Invoices table and in the flow execution link for the Cancel PO Invoice error scenario.
 -   **Version 3.0.0 - June 2026 \(Australia\)**
 
     Fixed: Implemented Directive DIRS0000421 – Non-Glide Cobalt Raven ACLs in Product Code, along with the corresponding true-up support enhancements.

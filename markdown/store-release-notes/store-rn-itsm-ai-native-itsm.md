@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-ai-native-itsm.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Simplified IT Service Management release notes
@@ -16,6 +16,14 @@ Version history for the ServiceNow® Simplified IT Service Management applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.3.1 - September 2026**
+    -   New:
+        -   AppSee telemetry integration
+            -   Track real-time usage patterns and user interactions across the ITSM Fulfiller Experience UI pages to optimize experience and identify adoption gaps.
+-   **Version 3.2.3 - August 2026**
+    -   New:
+        -   Simplified request experience for order guides on Employee Center: For requests submitted through order guides, employees see the parent Request \(REQ\) as the primary entity in the order confirmation page, My Requests list, and activity filtering. Approval workflows for these order guide requests and email notifications operate at the REQ level, providing a unified view of multi-item requests.
+        -   Simplified Request on Employee Slate: Initial support for the simplified request experience on Employee Slate, enabling request simplification for both new and upgrade customer paths.
 -   **Version 3.1.1 - July 2026**
     -   New:
         -   Admin experience for Gmail inbound email configuration. The Product Configuration Console supports inbound email setup for Google alongside the ServiceNow account option.
@@ -54,5 +62,5 @@ Version history for the ServiceNow® Simplified IT Service Management applicatio
     -   Employee: An AI-first comprehensive employee experience focused on a simplified Core IT portal with an AI chat first approach to find answers, order items, check status, and create incidents.
     -   Fulfiller: An AI-first efficient IT support experience to support multi-channel IT support with a focus on simplified incident and request management.
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

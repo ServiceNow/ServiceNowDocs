@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # WDF Data Catalog Billing release notes
@@ -21,5 +21,5 @@ Version history for the ServiceNow® WDF Data Catalog Billing application on the
     -   This connection is required for collecting telemetry data and generating billing reports. If a connection is not established, your data.world private instance is turned off.
     -   Your dedicated data.world Support representative guides you through the setup process.
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

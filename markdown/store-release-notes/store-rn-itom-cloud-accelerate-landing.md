@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - ITOM Cloud Accelerate release notes
+title: ServiceNow Store - ITOM Cloud Accelerate version history release notes
 description: The ServiceNow Store contains ITOM Cloud Accelerate applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cloud-accelerate-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - ITOM Cloud Accelerate release notes
+# ServiceNow Store - ITOM Cloud Accelerate version history release notes
 
 The ServiceNow Store contains ITOM Cloud Accelerate applications.
 
@@ -39,5 +39,5 @@ Version history for the Cloud Services Catalog application on the ServiceNow Sto
 -   **[Cloud Services Catalog Terraform Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cloud-services-catalog-terraform-connector.md)**  
 Version history for the Cloud Services Catalog Terraform Connector application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

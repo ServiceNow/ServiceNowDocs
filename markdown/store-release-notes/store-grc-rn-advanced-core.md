@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-advanced-core.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Advanced Core release notes
@@ -18,6 +18,11 @@ Version history for the GRC: Advanced Core application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   New: Evidence creation process in 2 steps is supported. Evidence task can be created in 2 steps by bypassing collection details.
+    -   Fixed:
+        -   Source field is not populated in the native UI
+        -   Security bypass in Request revision, Request and Send information flows
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   New:
         -   Query range ACL's
@@ -104,5 +109,5 @@ Version history for the GRC: Advanced Core application on the ServiceNow Store.
         -   On Evident tasks, attachments are not displayed for members of assignment group
         -   Security issues
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

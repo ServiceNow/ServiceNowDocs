@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Service Delivery for Mobile release notes
@@ -18,6 +18,11 @@ Version history for the Workplace Service Delivery for Mobile application on the
 
 ## Version history
 
+-   **Version 1.17.9 - September 2026**
+    -   Fixed:
+        -   Reserving a space by scanning a QR code with Now Assist in Now Mobile returned a "space has been allocated to a different team" error.
+        -   Browsing for spaces \(Browse All, Browse by Neighborhood, and Browse by Area\) did not return any spaces when the Standard Services or Reservable Purposes inputs were inactive.
+        -   In some cases, no map was available, or no available spaces were displayed when an employee did not change a building while browsing for all spaces.
 -   **Version 1.17.5 - June 2026**
 
     Fixed: Checking the all-day toggle did not always show results
@@ -147,5 +152,5 @@ Version history for the Workplace Service Delivery for Mobile application on the
     ServiceNow® Workplace Service Delivery for Mobile brings the capabilities of Workplace Reservation Management within the ServiceNow AI Platform natively to mobile. An employee can search, reserve, modify, and check-in a reservation directly using their mobile device and sync it back to Workplace Service Delivery.
 
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

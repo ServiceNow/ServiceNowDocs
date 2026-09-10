@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt-for-telecom.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Order Management for Telecom, Media &amp; Tech release notes
@@ -17,6 +17,13 @@ Version history for the Telecommunications Service Management Order Management f
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.1 - September 2026**
+    -   New: 1. Support Product Offering Qualification API \( Check and Query\)
+    -   Change: 1. Support Filtering on LIST for Ordering APIs\( 622,641\), Catalog API\( 633,620\) and Inventory API \( 637\)2. Support creation of Account, Consumer, Billing Account and Location for 622 in case these are not already present in Servicenow
+-   **Version 14.5.0 - August 2026**
+
+    Changed: Maintenance release — dependency updates only; no new customer-facing functionality in this version
 
 -   **Version 14.2.1 - July 2026**
     -   Changed: Changed the Logic in TMF 632- Party Management API to handle any values present in dictionary for the List value attributes types rather than the current approach of only support OOB values.
@@ -192,7 +199,7 @@ Version history for the Telecommunications Service Management Order Management f
     The ServiceNow® Order Management for Telecommunications application enables telecom service providers to capture, manage, and fulfill orders from enterprise customers.
 
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

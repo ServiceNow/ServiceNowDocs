@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Chat Recommendation release notes
@@ -24,5 +24,5 @@ Version history for the Chat Recommendation application on the ServiceNow Store.
         -   Help me write whenever the agent needs help composing a message. ​
         -   Editing capabilities \(elaborate/shorten\) for messages created by the agent or composed by the AI.
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -1,22 +1,29 @@
 ---
-title: Workforce Optimization for CSM Configurable Workspace release notes
-description: Version history for the Customer Service Management Workforce Optimization for CSM Configurable Workspace on the ServiceNow Store.
+title: Workforce Optimization for CRM Workspace release notes
+description: Version history for the Customer Service Management Workforce Optimization for CRM Workspace on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-workforce-optimization-configurable-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Workforce Optimization for CSM Configurable Workspace release notes
+# Workforce Optimization for CRM Workspace release notes
 
-Version history for the Customer Service Management Workforce Optimization for CSM Configurable Workspace on the ServiceNow Store.
+Version history for the Customer Service Management Workforce Optimization for CRM Workspace on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.6.0 - September 2026 \(Brazil\)**
+    -   New: Dedicated Forecasting page in Manager Workspace
+    -   Fixed: Fixed minor defects.
+-   **Version 5.5.0 - September 2026 \(Australia\)**
+
+    Fixed: Fixed minor defects.
 
 -   **Version 5.0.2 - July 2026**
 
@@ -126,5 +133,5 @@ Version history for the Customer Service Management Workforce Optimization for C
         -   Streamline the submission of leave and shift swap requests by team members
         -   Trigger standard or conditional approval logic configured in Flow Designer after team members submit requests
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-tpm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Technology Portfolio Management release notes
@@ -18,6 +18,17 @@ Version history for the Technology Portfolio Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.12.1 - September 2026**
+    -   New:
+        -   Technical debt records persist across job runs. Records move between Active, Resolved, and Archived states instead of being deleted and recreated, giving you a stable history to track and burn down technical debt over time.
+        -   Enable or disable individual conditions, such as software not defined in the TRM or a version not approved for production, so technical debt reflects your organization's governance maturity.
+        -   Choose whether to create one technical debt record per server or a single consolidated record per software product across all servers it runs on.
+        -   View which TRM product and product lifecycle govern a discovered technology's obsolescence status, connecting TRM standards directly to TLM lifecycle data.
+        -   Trace a technical debt record back to the discovered technologies that caused it, using the discovered technology related tab on a technical debt details page.
+    -   Fixed: Technology lifecycle dates use the correct source ranking. When multiple sources provide lifecycle phase dates for the same product, the source with the highest configured rank takes precedence, regardless of the sequence value shown in the source list.
+-   **Version 1.11.0 - August 2026**
+    -   Changed: Renamed Technology Portfolio Management \(TPM\) to Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace. Some scheduled jobs and table names continue to use the TPM name.
+    -   Fixed: Improved the accuracy and reliability of technology lifecycle date population in Technology Lifecycle Management \(previously Technology Portfolio Management\), resolving several edge cases that could cause missing or incomplete lifecycle information.
 -   **Version 1.10.0 - June 2026**
     -   New: Added support for query\_range access control lists \(ACLs\).
     -   Fixed: TPM Discovered Technologies with empty discovery model are automatically cleaned up.
@@ -83,5 +94,5 @@ Version history for the Technology Portfolio Management on the ServiceNow Store.
     Manage technology lifecycle risks and technology lifecycle exceptions. Evaluate all your business applications and application services by accessing the discovered technologies and audit information.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

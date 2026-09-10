@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-audit-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Audit Management release notes
@@ -17,6 +17,20 @@ Version history for the GRC: Audit Management on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Fixed engagement save failure by correcting server-side date parsing for non-US date formats.
+        -   Cobalt/Pegasus MSI security fixes.
+        -   Fixed Planned End Date format issue on duration update.
+        -   Fixed PDF report generation for non-admin users.
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+
+    Fixed: Implemented security fixes.
+
+-   **Version 22.0.3 - August 2026 \(Zurich\)**
+
+    Fixed: Implemented security fixes.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
     -   Changed: Notifications in the Audit application now redirects users to the workspace experience.

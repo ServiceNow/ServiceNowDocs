@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-01-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Chat Zoom Connector release notes
@@ -26,5 +26,5 @@ Version history for the Customer Service Management Chat Zoom Connector on the S
     -   Any experience that enables resolving customer issues faster is of utmost importance in customer service. The ServiceNow® Chat Zoom Connector application enables agents to engage better with customers by initiating Zoom meetings from chats. Agents can conveniently use video and screen sharing options in Zoom and optionally record the meeting using the Chat Zoom Connector application.
     -   Resolving issues over Zoom as a visual engagement channel can result in smarter and better customer experiences.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

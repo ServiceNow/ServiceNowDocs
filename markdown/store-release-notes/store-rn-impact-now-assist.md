@@ -1,23 +1,32 @@
 ---
-title: Now Assist for Impact release notes
-description: Version history for the ServiceNow Now Assist for Impact application on the ServiceNow Store.
+title: ServiceNow Otto for Impact release notes
+description: Version history for the ServiceNow ServiceNow Otto for Impact application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Impact release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Impact release notes
+# ServiceNow Otto for Impact release notes
 
-Version history for the ServiceNow® Now Assist for Impact application on the ServiceNow Store.
+Version history for the ServiceNow® ServiceNow Otto® for Impact application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 6.0.6 - September 2026**
+
+    Fixed Issues: Otto rebrand not reflected in Now Assist Admin plugin UI. Plugin names and icons in Now Assist Admin's Settings &gt; Plugins tabs \(Available for you / Installed\) and on the Admin overview page now correctly display ServiceNow Otto branding instead of the legacy Now Assist name and logo.
+
+-   **Version 5.0.2 - August 2026**
+    -   What's changing: As part of ServiceNow's broader move to unify its AI capabilities under one brand, ServiceNow Otto, several Now Assist–powered skills within Impact have been renamed. This is a branding update only — the underlying functionality, workflows, and outputs you rely on today are unchanged.
+    -   What this means for you:
+        -   Any menu labels, skill names, or references to "Now Assist" for these two capabilities will now show as "Otto" across the Impact UI.
+        -   How you invoke these skills, the outputs they generate, or your entitlements/licensing remains the same.
 -   **Version 4.0.5 - June 2026**
     -   Code Fix Agent: Enhanced Error Logging
     -   When the Code Fix Agent runs into a problem, you will now see a plain-language explanation of what went wrong and what to do next — right on the remediation record. Select the links navigate directly to the relevant error record, so there's no need to hunt through system logs.
@@ -36,5 +45,5 @@ Version history for the ServiceNow® Now Assist for Impact application on the Se
         -   Consumption Report summary
         -   Code Fix AI Agent
 
-**Parent Topic:**[ServiceNow Store - Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
+**Parent Topic:**[ServiceNow Store - Impact version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-impact-highlight.md)
 

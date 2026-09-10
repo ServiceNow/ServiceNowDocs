@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Service Virtual Agent Conversations release notes
@@ -25,5 +25,5 @@ Version history for the ServiceNow® Customer Service Virtual Agent Conversation
     -   Built natively on ServiceNow, these Virtual Agent topic flows integrate directly with CSM data — cases, orders, account information — so customers get accurate, personalized responses in real time. Teams can deploy ready-made conversations for high-volume scenarios like case status checks, order updates, and account inquiries, reducing time-to-value compared to building flows from scratch.
     -   The result is higher deflection of routine requests, reduced queue pressure on live agents, and faster resolution for customers — all managed within the ServiceNow platform organizations already use.
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

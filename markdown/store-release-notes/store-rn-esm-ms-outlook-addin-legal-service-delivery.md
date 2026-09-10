@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Outlook Add-In for Legal Service Delivery release notes
@@ -48,5 +48,5 @@ Version history for the Microsoft Outlook Add-In for Legal Service Delivery appl
     The Microsoft Outlook Add-in for Legal Service Delivery brings capabilities such as of adding attachments to existing legal requests and create requests within the Microsoft Outlook application. This feature allows your legal fulfillers to quickly add attachments or employee requests received over emails.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

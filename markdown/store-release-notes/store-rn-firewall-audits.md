@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-firewall-audits.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Firewall Audits and Reporting release notes
@@ -17,6 +17,20 @@ Version history for the IT Operations Management Firewall Audits and Reporting o
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.0.0 - September 2026**
+    -   New:
+        -   View and manage firewall assets and policies for both Palo Alto Networks Panorama and Fortinet FortiManager from the Firewall Audits and Reporting workspace. Select a vendor in catalog forms and in workspace navigation.
+        -   Catalog form requests are routed to Panorama or FortiManager based on the vendor that you select.
+        -   The workspace lists Palo Alto Networks and Fortinet records, devices, device groups, managers, and security policies in separate categories.
+        -   Discover Fortinet FortiManager infrastructure by using an ITOM discovery pattern that populates the CMDB with Fortinet-specific CI classes and related CI types.
+    -   Changed:
+        -   Firewall rule request forms include four fields specific to FortiManager. Values are validated against the FortiManager APIs.
+        -   Resubmit a firewall rule task that requires updates or corrections. Vendor and compliance information from the original submission is preserved.
+        -   Create and manage change requests for FortiManager in Firewall Audits and Reporting. Each change request includes an implementation plan specific to FortiManager.
+-   **Version 1.13.0 - August 2026**
+
+    New: Implemented Non-Glide Cobalt Raven ACLs to strengthen access control and align with security directives
 
 -   **Version 1.12.0 - July 2026**
 
@@ -75,5 +89,5 @@ Version history for the IT Operations Management Firewall Audits and Reporting o
     -   Firewall audit framework for discovered firewall policies.
     -   PA dashboards for a single pane of glass views.s
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

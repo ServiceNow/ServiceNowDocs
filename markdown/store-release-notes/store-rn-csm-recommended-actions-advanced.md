@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-recommended-actions-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Recommended Actions - Advanced release notes
@@ -17,6 +17,10 @@ Version history for the Recommended Actions - Advanced application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.4 - September 2026**
+
+    New: Recommended actions now support new guidances, 'Attach Knowledge' and 'Relevant Case' for AI Search results that surface on the CRM workspace.
 
 -   **Version 14.0.0 - June 2026**
     -   New:
@@ -78,5 +82,5 @@ Version history for the Recommended Actions - Advanced application on the Servic
     Recommended Actions - Advanced enables users to create recommendations based on Artificial Intelligence/Machine Learning models that were created using ServiceNow Predictive Intelligence.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

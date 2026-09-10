@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Mobile release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® Field Service Mobile application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 31.0.4 - September 2026**
+    -   Agents will be notified whenever they are assigned a shift, including when a shift is removed or amended
+    -   Agents will be able to tap the "take break" action on Break events and move a break from "planned break" status to "Break taken"
+    -   Agents will be able to reschedule their breaks to a time they want
+-   **Version 29.2.3 - August 2026**
+
+    Security patch
 
 -   **Version 29.2.1 - June 2026**
 
@@ -31,5 +39,5 @@ Version history for the ServiceNow® Field Service Mobile application on the Ser
     Manages the Field Service mobile components on an iOS or an Android mobile device. Field service agents can execute work order tasks, manage assets, and close work order tasks on their mobile device in online or offline mode.
 
 
-**Parent Topic:**[ServiceNow Store - Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Field Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fsm-highlight.md)
 

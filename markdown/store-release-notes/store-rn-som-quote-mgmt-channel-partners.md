@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-channel-partners.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Quote Management for Channel Partners release notes
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release n
 Version history for the ServiceNow® Quote Management for Channel Partners application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 7.0.3 - September 2026**
+
+    No net-new features were released.
+
+-   **Version 5.0.2 - August 2026**
+
+    Updated the version to 5.0.2. New: No net new features
 
 -   **Version 2.1.1 - July 2026 \(Zurich\)**
 
@@ -45,5 +53,5 @@ Version history for the ServiceNow® Quote Management for Channel Partners appli
     Empower your channel partners with seamless quote management capabilities. This app enables resellers and distributors to efficiently track and manage quotes through a partner portal, while enterprises maintain full visibility and control over the partner sales process.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

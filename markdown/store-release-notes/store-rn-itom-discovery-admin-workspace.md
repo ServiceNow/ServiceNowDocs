@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-discovery-admin-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Discovery Admin Workspace release notes
@@ -18,6 +18,35 @@ Version history for the Discovery Admin Workspace application on the ServiceNow 
 
 ## Version history
 
+-   **Version 1.20.0 - September 2026**
+    -   New: This release expands Discovery Admin Workspace with certificate discovery management, Kubernetes resource exploration, and integrated Shazzam insights in IP Inventory.
+        -   Certificate discovery
+            -   Discovery Admin Workspace now supports certificate discovery configuration and management. Configure certificate discovery from a single location instead of switching between workspace and classic interfaces. The newCertificate Discovery tab on the Schedules page centralizes schedule management and access to discovered certificates. Certificate discovery can also use URL Monitoring data to automate discovery targets and reduce manual configuration. Existing certificate discovery configurations remain supported, and certificate discovery continues to respect role-based permissions.
+        -   Shazzam Insights in IP inventory
+            -   The IP Inventory page now includes aShazzam tab that displays Shazzam Summary and Shazzam Status data alongside your other IP data. Previously, you had to leave the IP Inventory page and open the Shazzam Insights dashboard separately to review probe results. Now you can check which IPs are alive, active, or unreachable while working with your IP addresses, ranges, and networks in the same view
+        -   Kubernetes resources
+            -   Get a consolidated view of the Kubernetes resources discovered in your environment without leaving theDiscovery Admin Workspace. The new Kubernetes explorer dashboard organizes discovered clusters, nodes, namespaces, services, workloads, pods, and Docker images across dedicated tabs. Each tab includes a resource table and visualizations such as data counts, bar charts, and donut charts. Interact with a visualization to filter the table on the same tab. You can also select a resource to open its details page. The details page shows the resource properties and a Dependency View of related configuration items.
+    -   Changed
+        -   IP Inventory multi-schedule link
+        -   IP ranges and IP network discovery ranges that belong to a discovery range set used across multiple schedules now display a linked value in the Discovery Schedule column. Select theMultiple link to open the associated records in theDiscovery Schedule Range \[discovery\_schedule\_range\] table, filtered by the relevant discovery range.
+-   **Version 1.19.0 - August 2026**
+    -   New:
+        -   This release centralizes IP-based network management in Discovery Admin Workspace, introducing a new IP inventory page and streamlined navigation to it from Schedules and Settings
+        -   IP inventory page
+            -   The new IP inventory page brings IP-based network management directly into Discovery Admin Workspace. From one place, you can view and manage the IP addresses, ranges, and range sets that Discovery relies on. This unified view gives administrators a single, modern workspace for the network data behind IP-based Discovery.
+            -   Discovery Admin Workspace now includes an IP inventory page for IP-based network management. Access and manage the IP addresses, ranges, and range sets used by Discovery through a unified, modern experience.
+    -   Changed:
+        -   Now Assist &gt; ServiceNow Otto announcement
+            -   Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows
+        -   Schedules - IP-based discovery tab
+            -   The Additional information section is now the IP inventory section. The Total IP address and All IP range sets links are replaced by a single View inventory link that opens the new IP inventory page.
+                -   Before: The Additional information section provided a Total IP address link and an All IP range sets link.
+                -   After: The section is renamed IP inventory and provides a single View inventory link that opens the IP inventory page.
+        -   Settings - IP Schedule mapping link
+            -   The IP data from IPAM connections section now points to the IP inventory page for managing IP data.
+                -   Before: The IP schedule mapping link opened the IPAM Data page.
+                -   After: The IP schedule mapping link opens the IP inventory page, where you can manage the IP ranges, networks, and IPAM data that Discovery relies on.
+    -   Fixed: Selecting a location on the Schedules by location map in the IP-based discovery tab now correctly filters the schedule list to that location.
 -   **Version 1.17.0 - June 2026**
     -   New:
         -   This release delivers a major leap forward in Discovery error intelligence, guided onboarding, and a cleaner, more focused diagnostics experience.
@@ -193,5 +222,5 @@ Version history for the Discovery Admin Workspace application on the ServiceNow 
     This dedicated Workspace for discovery admins allows them a focused overview of Discovery administration tasks, helps them to track and address the status of Application suggestions, and allows them to participate in a Content Service that crowd sources suggestions for application fingerprinting and OIDs.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

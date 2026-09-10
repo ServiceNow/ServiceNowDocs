@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Participant Suggestions release notes

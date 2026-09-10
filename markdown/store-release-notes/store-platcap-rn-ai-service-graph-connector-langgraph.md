@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-service-graph-connector-langgraph.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Service Graph Connector for LangGraph release notes
@@ -18,10 +18,13 @@ Version history for the ServiceNow® AI Service Graph Connector for LangGraph ap
 
 ## Version history
 
+-   **Version 1.1.7 - September 2026**
+    -   Integration with LangGraph which would allow discovery and inventory of AI Agents,related models, prompts, and toolinformation.
+    -   The AI Control Tower \(AICT\) imports the discovered artifacts into its AI inventory, where the AI steward and Product Owner can access and review them.
 -   **Version 1.1.1 - June 2026**
 
     This integration connects AI Control Tower’s AI Discovery capabilities with LangGraph, enabling automated discovery and governance of AI assets across enterprise environments
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

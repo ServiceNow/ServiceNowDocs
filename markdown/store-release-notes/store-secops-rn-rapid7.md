@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-rapid7.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Rapid7 Integration for Security Operations release notes
@@ -17,6 +17,14 @@ Version history for the Rapid7 Integration for Security Operations on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.4.2 - September 2026 \(USEM\)**
+
+    Fixed: Corrected CVE source field population during Rapid7 vulnerability integration, ensuring consistent source attribution across applicable records.
+
+-   **Version 30.3.6 - August 2026 \(USEM\)**
+
+    Fixed: Resolved timeout errors during Rapid7 Data Warehouse imports.
 
 -   **Version 30.3.2 - June 2026 \(USEM\)**
 
@@ -174,5 +182,5 @@ Version history for the Rapid7 Integration for Security Operations on the Servic
     -   Upgrade Note: Prior to upgrade to 10.0.1, ensure each of the CI Lookup Rules is Order values is unique. If there are CI Lookup Rules with the same Order value, they may not upgrade correctly. After upgrade, Rapid7 InsightVM lookup rules are assigned new Order values. Rapid7 Data Warehouse Order values remain the same. See KB0786526 for more information.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # HRSD integration with SuccessFactors release notes
@@ -53,5 +53,5 @@ Version history for the HRSD integration with SuccessFactors application on the 
     -   The HR Service Delivery Integration with SAP SuccessFactors was built by BristleCone Inc.
     -   This integration synchronize employee profiles and employee to-dos between HR Service Delivery and SAP SuccessFactors.
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

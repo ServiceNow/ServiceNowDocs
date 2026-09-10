@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-security-posture-control-api-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Posture Control API Connectors release notes
 
 Version history for the ServiceNow® Security Posture Control API Connectors application on the ServiceNow Store.
+
+-   **Version 2.2.1 - August 2026**
+
+    Changed: Updated labels from "Now Assist" to "AI" across the connector setup flow as per the Otto rebranding requirements.
 
 -   **Version 2.1.1 - June 2026**
     -   New:
@@ -27,5 +31,5 @@ Version history for the ServiceNow® Security Posture Control API Connectors app
     Provides the framework for the API Connector builder in the Security Posture Control \(SPC\) workspace.
 
 
-**Parent Topic:**[ServiceNow Store - Vulnerability Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
+**Parent Topic:**[ServiceNow Store - Vulnerability Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-vr.md)
 

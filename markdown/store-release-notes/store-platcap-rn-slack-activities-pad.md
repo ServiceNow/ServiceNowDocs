@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-01-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Slack Activities for PAD release notes
@@ -31,5 +31,5 @@ Version history for the Slack Activities for PAD application on the ServiceNow S
     Send messages via Slack with this out-of-the-box Process Automation Designer \(PAD\) content that leverages the Slack spoke.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-voice-controls-simulator-tool.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Voice Controls Simulator Tool release notes
@@ -15,6 +15,35 @@ breadcrumb: [ServiceNow Store - Customer Service Management release notes, Servi
 Version history for the ServiceNow® Voice Controls Simulator Tool application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.2.5 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   The following accessibility issues have been resolved in this release:
+            -   Arrow navigation and keyboard
+            -   Tab and keyboard
+            -   Dialog-related navigation across interactive components
+            -   Focus management issues after participant save, edit, or delete actions
+            -   Page zoom accessibility issues and two-dimensional navigation requirements at high zoom levels
+            -   Status message update after call ends
+-   **Version 1.6.5 - September 2026 \(Australia\)**
+    -   Fixed:
+        -   The following accessibility issues have been resolved in this release:
+            -   Arrow navigation and keyboard
+            -   Tab and keyboard
+            -   Dialog-related navigation across interactive components
+            -   Focus management issues after participant save, edit, or delete actions
+            -   Page zoom accessibility issues and two-dimensional navigation requirements at high zoom levels
+            -   Status message update after call ends
+-   **Version 1.6.3 - August 2026 \(Australia\)**
+    -   Fixed:
+        -   Fixed tab focus, keyboard focus management, and dialog-related navigation issues
+        -   Fixed accessibility issues across interactive components
+        -   Corrected heading order and structure for improved document navigation
+        -   Fixed truncated content and page zoom accessibility issues
+        -   Added missing column headers in phone directory tables \(Queue, Agent, External tabs\)
+-   **Version 1.1.2 - August 2026 \(Zurich\)**
+
+    Fixed: Restored agent status payload functionality in Now Voice for Customer Service.
 
 -   **Version 1.6.0 - July 2026 \(Australia\)**
     -   The following issues have been resolved in this release:
@@ -46,5 +75,5 @@ Version history for the ServiceNow® Voice Controls Simulator Tool application o
     TheVoice Controls Simulator tool enables CCaaS partners and customers to simulate and test voice control UI flows within theCSM Configurable Workspace, providing a comprehensive environment for validating call-related interactions.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

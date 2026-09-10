@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-field-service-contractor-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Field Service Contractor for mobile release notes
@@ -18,6 +18,9 @@ Version history for the CSM Field Service Contractor for mobile application on t
 
 ## Version history
 
+-   **Version 4.9.3 - September 2026**
+    -   New: Enhanced secure, controlled access for contractor users on mobile
+    -   Removed: Redundant access controls for Field Service Contractor for mobile to ensure streamlined performance
 -   **Version 4.8.5 - March 2026**
     -   Fixed:
         -   Corrected task assignment notifications to ensure external agents receive a single notification.

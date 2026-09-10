@@ -1,23 +1,33 @@
 ---
-title: Now Assist Admin Console release notes
-description: Version history for the Now Assist Admin Console application on the ServiceNow Store.
+title: AI Admin Hub Console release notes
+description: Version history for the AI Admin Hub Console application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-intel-now-assist-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 18
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist Admin Console release notes
+# AI Admin Hub Console release notes
 
-Version history for the Now Assist Admin Console application on the ServiceNow Store.
+Version history for the AI Admin Hub Console application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 10.3.4 - September 2026**
+    -   New: Admins can now integrate new domain separation APIs for Data Overflow processing, enabling improved data management across domains.
+    -   Changed:
+        -   Edited NASK skills where model providers are not switched are now displayed in the "non impacted skills" section, and admins can switch model providers directly from NASK.
+        -   The Prompt Injection and Offensiveness Protection pages have been optimized to load in under 4 seconds, improving user experience.
+        -   Skill List performance has been improved by removing the Skills Need Attention modal and optimizing the skill pruning process for regulated instances.
+-   **Version 10.2.3 - August 2026**
+    -   ServiceNow Otto Renaming: Now Assist Admin Console has been renamed to AI Admin Hub, reflecting the broader ServiceNow Otto brand transition — all references to "Now Assist" in the console UI, navigation, and skill surfaces have been updated accordingly.
+    -   Usage Alerts &amp; Rule Engine: Administrators can now configure threshold-based alert rules on assist consumption and execution count in AI Admin Hub, receiving proactive in-console and email notifications before assist pool exhaustion or runaway skill invocations impact platform performance.We can acccess usage alerts from settings section in Ai admin hub\(formerly Now Assist Admin Console\)
+    -   Model Preview Program: Eligible US commercial Prime customers can now opt in to the Model Preview Program from AICT\(AI Control Tower\) to access new frontier AI models from Day 0 of availability for custom skills.
 -   **Version 10.1.5 - July 2026**
     -   1.The Now LLM LTS \(Long-Term Stable\) model provider has been decommissioned and is no longer available in Now Assist Admin. This change affects the model provider selection surface, skill compliance messaging, and the model provider settings page.
         -   What has changed:
@@ -44,17 +54,17 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
     -   Skill Archival: Instance and system administrators can now archive custom skills directly from the Now Assist Skills page. Archiving is not supported for ServiceNow out-of-box \(OOB\) skills. Archived skills can be restored at any time.
     -   Skill Details Page: View Detail button is now available alongside the Activate button for OOB skills on the Now Assist Skills page. The Skill detail view provides administrators and users with key information about a skill including its benefits, prerequisites, recommended model provider, and related skills — enabling informed activation decisions.
     -   Prompt Injection Enhancements: Prompt injection protection can now be configured at both the instance level and the product level \(CSM, ITSM, and others\), giving administrators more granular control over enforcement across workflows.
-    -   Model Version Management — Guided Tour: Administrators can now launch a guided tour walkthrough directly from the " Manage Model Versions"  section within Settings section in now assist admin. The guided tour provides a step-by-step introduction to the model version management workflow, helping admins understand version lifecycle, deprecation alerts, and available actions.
+    -   Model Version Management — Guided Tour: Administrators can now launch a guided tour walkthrough directly from the " Manage Model Versions"  section within Settings section in Now Assist admin. The guided tour provides a step-by-step introduction to the model version management workflow, helping admins understand version lifecycle, deprecation alerts, and available actions.
 -   **Version 9.1.8 - May 2026 \(Zurich, Australia\)**
     -   As part of this release following features are released:
-        -   1.Skill details view: User will now be able to view details about a particular skill in now assist admin console, now assist skills page.By clicking on "view details" for a particular skill now assist admin users can view relavant information about a skill like description, key benefits, prerequisite skills.
-        -   2.Archiving skills: User can now remove skills from now assist skills page and push those in archival section in now assist admin console.Archival section can be accessed by clicking on now assist skills, archived skills section.
+        -   1.Skill details view: User will now be able to view details about a particular skill in Now Assist admin console, Now Assist skills page.By clicking on "view details" for a particular skill Now Assist admin users can view relavant information about a skill like description, key benefits, prerequisite skills.
+        -   2.Archiving skills: User can now remove skills from Now Assist skills page and push those in archival section in Now Assist admin console.Archival section can be accessed by clicking on Now Assist skills, archived skills section.
         -   3.Model version fallback and non availability: In model version section users will be informed with alerts about model version when a particular model version is unavailable in a specific region and when a particular model version fallbacks to a different model version.
 -   **Version 9.0.5 - April 2026**
     -   In this release:
-        -   ServiceNow is introducing three AI-native subscription tiers — Foundation, Advanced, and Prime — designed to align Now Assist capabilities with your organization's AI adoption journey.Now assist admin console now surfaces skills relevant to your active subscription tier, giving administrators a focused view of the skills available as per there subscription type.
+        -   ServiceNow is introducing three AI-native subscription tiers — Foundation, Advanced, and Prime — designed to align Now Assist capabilities with your organization's AI adoption journey.Now Assist admin console now surfaces skills relevant to your active subscription tier, giving administrators a focused view of the skills available as per there subscription type.
         -   Manage model versions section now surfaces timely alerts when a model version is approaching deprecation or has been retired, giving administrators a clear, consolidated view of model version health across their Now assist skills.
-        -   Filters section under Now assist admin console settings now includes support for Customer Service Management \(CSM\), expanding the scope of sensitive data configuration beyond HR service delivery.
+        -   Filters section under Now Assist admin console settings now includes support for Customer Service Management \(CSM\), expanding the scope of sensitive data configuration beyond HR service delivery.
 -   **Version 8.0.7 - March 2026**
     -   Horizontal Design System Updates The Now Assist Admin Console has been updated to deliver an AI-native experience through the horizontal design system, including a redesigned Generate button in the filters section for improved usability and visual consistency.
     -   Manage Model Versions The Manage Model Versions section now features an intuitive overview panel displaying all model versions categorized as active or deprecated. Model version management is also tightly integrated with AI Control Tower via an approval mandate — when enabled, stewards can approve or reject model versions, and only approved versions are eligible for selection in the Target Model Version configuration.
@@ -66,11 +76,11 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
 -   **Version 7.0.12 - December 2025**
     -   As part of this release following features are released in Now Assist Admin:
         -   1.Model Versioning
-            -   Customers can visit Ai model provider section to access version management in now assist admin. Version management allows you to update a model version\(of model providers\) at instance and skill level
-        -   2. Added new workflow - Data and Analytics - in Now Assist Admin &amp; update “analytics” tab in now assist admin top navigation to “performance”
+            -   Customers can visit Ai model provider section to access version management in Now Assist admin. Version management allows you to update a model version\(of model providers\) at instance and skill level
+        -   2. Added new workflow - Data and Analytics - in Now Assist Admin &amp; update “analytics” tab in Now Assist admin top navigation to “performance”
         -   3. Now LLM LTS Model Availability
             -   Customer with Finserv SKU who want a consistent underlying model for now llm as a model provider will have a model provider now llm lts
-        -   4. Enhancements in Now assist admin
+        -   4. Enhancements in Now Assist admin
             -   A.BYOK\(Bring your own key\) model providers can now be used to activate a skill
             -   A1.As an admin, user would be able to activate a skill which is using a BYOK model provider.
             -   A2.For regulated markets &amp; commercial markets, all models configured with BYOK provider are visible
@@ -79,11 +89,11 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
             -   B.Activation of custom skills with allowed model provider selected in AI control tower
             -   B1.Only allowed model provider custom skills should be visible in NAA for activation
             -   B2. \(For program\) impose the right behaviour by ensuring that custom skill are not created by internal servicenow team on unallowed providers
-        -   5. Feedback in now assist admin
-            -   Users will now be able to provide feedback for now assist admin at “overview” page and after they deactivate a skill in now assist skills page.
-        -   6. Skill listing enhancements on “now assist skills” page
+        -   5. Feedback in Now Assist admin
+            -   Users will now be able to provide feedback for Now Assist admin at “overview” page and after they deactivate a skill in Now Assist skills page.
+        -   6. Skill listing enhancements on “Now Assist skills” page
             -   Add filters upfront on skill listing page at the top for Features and Status.
-        -   7. Role masking in now assist admin
+        -   7. Role masking in Now Assist admin
             -   Role masking is a enhanced security control where only restricted roles will have access to tools, databases and APIs in run time.Role masking as a feature is part of enhanced security and will be visible for skills in "Define Access" step. Role restricted can be configured for edited in NASK skills, custom skills, make a copy skills while it is view only for OOB skills.
 -   **Version 6.3.8 - October 2025**
 
@@ -93,25 +103,25 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
     -   Employee Center Pro Plus customers will be able to view account section inside Now Assist Admin Console
     -   Employee Center Pro Plus customers will now have Now Assist panel by default disabled for users.
     -   For regulated markets customers topic based skills \(using a topic for execution\) like GAF ITSM grouping, GAF HR grouping, navigation, document summarization under platform workflow will be now visible for users for usage.
-    -   Managed integrations feature under settings section of now assist admin will be now visible for commercial customers. As part of managed integrations user can switch from OEM version to BYOK \(bring your own key\).
+    -   Managed integrations feature under settings section of Now Assist admin will be now visible for commercial customers. As part of managed integrations user can switch from OEM version to BYOK \(bring your own key\).
     -   For regulated markets customers users can now view and activate for catalog item generator \(a skill under Creator Workflow\) when the model provider is switched to Now LLM, in Now Assist Admin Console.
 -   **Version 6.3.7 - October 2025**
     -   Employee Center Pro Plus customers will be able to view and activate Now Assist Guardian.
     -   Employee Center Pro Plus customers will be able to view account section inside Now Assist Admin Console.
     -   Employee Center Pro Plus customers will now have Now Assist panel by default disabled for users.
     -   For regulated markets customers topic based skills \(using a topic for execution\) like GAF ITSM grouping, GAF HR grouping, navigation, document summarization under platform workflow will be now visible for users for usage.
-    -   Managed integrations feature under settings section of now assist admin will be now visible for commercial customers. As part of managed integrations user can switch from OEM version to BYOK \(bring your own key\).
+    -   Managed integrations feature under settings section of Now Assist admin will be now visible for commercial customers. As part of managed integrations user can switch from OEM version to BYOK \(bring your own key\).
     -   For regulated markets customers users can now view and activate for catalog item generator \(a skill under Creator Workflow\) when the model provider is switched to Now LLM, in Now Assist Admin Console.
 -   **Version 6.0.20 - October 2025**
 
     As part of this release, the following features are released for customers:
 
     -   Dynamic translation is now available for all regulated market customers.
-        -   Users can now turn on dynamic translation from the 'Settings' tab in now assist admin console.
+        -   Users can now turn on dynamic translation from the 'Settings' tab in Now Assist admin console.
     -   Manage model provider section is now available for all regulated market customers.
-        -   Users can now change model providers from the 'Manage LLMs' section inside 'Settings' tab in now assist admin console.
+        -   Users can now change model providers from the 'Manage LLMs' section inside 'Settings' tab in Now Assist admin console.
             -   Users can choose the provider as 'Now LLM' and select 'Save' to ensure that a particular features and its corresponding skills run on 'Now LLM'.
-    -   Define access step is now added as part of skill guided setup in now assist admin console for regulated market customers. This step ensures that only necessary roles have access to a skill when it is executed.
+    -   Define access step is now added as part of skill guided setup in Now Assist admin console for regulated market customers. This step ensures that only necessary roles have access to a skill when it is executed.
         -   Users can now view and edit a ACL \(access control log\) for a skill as shown below in 'Define access' step
         -   Users can now add a ACL \(access control log\) for a skill.
         -   When a user has completed configuring roles in 'Define access' step and has come to 'Select display' step, certain roles are not added in the ACL which are part of modalities in 'Select display' step. In this scenario, the system will ask the user to sync roles \(this means that the roles mentioned will be automatically added to ACL\).
@@ -125,23 +135,23 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
     -   Multilingual Service in Now Assist Admin Console: Native translation can now be configured as per the model policy update in AI control tower. Users can now switch seamlessly between native and dynamic translation while selecting supported languages.
 -   **Version 6.0.11 - June 2025**
     -   As part of this release following features have been released:
-        -   Skill listing changes inside now assist admin console: Users would now be able to seamlessly view skills with options for switching to list view, use filter and view skills with detailed focus on now assist skills.
-        -   Data privacy integration with now assist admin: Privacy policies with respect to now assist can now be accessed through now assist admin console. Users would now be able to explore, view and navigate to data privacy related policies with now assist admin.
+        -   Skill listing changes inside Now Assist admin console: Users would now be able to seamlessly view skills with options for switching to list view, use filter and view skills with detailed focus on Now Assist skills.
+        -   Data privacy integration with Now Assist admin: Privacy policies with respect to Now Assist can now be accessed through Now Assist admin console. Users would now be able to explore, view and navigate to data privacy related policies with Now Assist admin.
 -   **Version 6.0.5 - May 2025**
     -   As part of this release following features have been released:
-        -   1. Skill listing changes inside now assist admin console: Users would now be able to seamlessly view skills with options for switching to list view, use filter and view skills with detailed focus on now assist skills.
-        -   2. Data privacy integration with now assist admin: Privacy policies with respect to now assist can now be accessed through now assist admin console. Users would now be able to explore, view and navigate to data privacy related policies with now assist admin.
+        -   1. Skill listing changes inside Now Assist admin console: Users would now be able to seamlessly view skills with options for switching to list view, use filter and view skills with detailed focus on Now Assist skills.
+        -   2. Data privacy integration with Now Assist admin: Privacy policies with respect to Now Assist can now be accessed through Now Assist admin console. Users would now be able to explore, view and navigate to data privacy related policies with Now Assist admin.
 -   **Version 5.0.7 - March 2025**
     -   New:
         -   Model selection capability for conversational skills: As part of this capability, a admin will be able to select Microsoft azure in addition to now llm for conversational skills
         -   Streaming enabling inside Now Assist Admin Console: This feature is available when dynamic translation is turned off. Streaming is enabled only when dynamic translation is off.
-        -   VA\(Virtual Agent\) as a modality addition in custom skills: As part of this capability a user can choose VA as a modality once a skill is published from Now assist skill kit\(custom skills only\). Once a user publishes a custom skill, a user should be able to select assistants for particular custom skill from now assist admin console
+        -   VA\(Virtual Agent\) as a modality addition in custom skills: As part of this capability a user can choose VA as a modality once a skill is published from Now Assist skill kit\(custom skills only\). Once a user publishes a custom skill, a user should be able to select assistants for particular custom skill from Now Assist admin console
         -   Multiple skill being active for selection of tables In summarization skills: As part of this capability a user can select multiple table\(s\) selection in 'choose input' step\(either a extended table or table being extended\) inside skill guided setup. A user should be able to create multiple skills with each unique table selections.
 -   **Version 4.4.0 - March 2025**
     -   Changed: The below features are now XP7 compatible
         -   Model selection capability for conversational skills: As part of this capability, a admin will be able to select Microsoft azure as model in addition to now llm for conversational skills
         -   Streaming enabling inside Now Assist Admin Console: This feature is available when dynamic translation is turned off. Streaming is enabled only when dynamic translation is off.
-        -   VA\(Virtual Agent\) as a modality addition in custom skills: As part of this capability a user can choose VA as a modality once a skill is published from Now assist skill kit\(custom skills only\). Once a user publishes a custom skill, a user should be able to select assistant\(s\) for particular custom skill from now assist admin console
+        -   VA\(Virtual Agent\) as a modality addition in custom skills: As part of this capability a user can choose VA as a modality once a skill is published from Now Assist skill kit\(custom skills only\). Once a user publishes a custom skill, a user should be able to select assistant\(s\) for particular custom skill from Now Assist admin console
         -   Multiple Skill Being Active For Selection Of Tables In Summarization Skills: As part of this capability a user can select multiple table\(s\) selection in 'choose input' step\(either a extended table or table being extended\).A user should be able to create multiple skills with each unique table selections.
         -   Data overflow processing integration in Now Assist Admin Console: As part of this capability, the data steward can opt out of Azure bursting. If data privacy steward doesn't want data to be processed outside ServiceNow data centers, they can opt out from the Now Assist Admin Console.
         -   Activating OOB skill edited inside Now Assist Skill Kit: As part of this capability a user can open and edit a OOB skill inside Now Assist Skill Kit and then activate that skill from Now Assist Admin Console
@@ -163,7 +173,7 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
         -   SPP Enhancement across NAA
         -   US Commercial Data center details to be added in the Region tab
         -   Backporting changes for Now Assist troubleshooting integration to NAA for Washington
-        -   Integration of monitor config logs in now assist admin for now assist skill kit
+        -   Integration of monitor config logs in Now Assist admin for Now Assist skill kit
 -   **Version 4.1.9 - November 2024**
     -   New:
         -   Now Assist Guardian \[Offensiveness, Prompt Injection, Filters\]: Allows customers to monitor and control guardrails via Now Assist Admin. Outputs are blocked if offensive content or prompt injection attempts are detected and blocking is enabled.
@@ -172,7 +182,7 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
         -   Introduced a new table, Now Assist Skill Config Status. Previously, fields such as 'active,' 'in\_product\_active,' and 'in\_product\_roles' were updated when customers set up skills via guided setup, marking skill configuration records as customer-updated. Consequently, any updates in subsequent releases weren't reflected in customer instances. To address this, fields have been moved to the newly introduced table, reducing the need for BU or skill owners to write fix scripts to update records with the latest changes.
     -   Changed: Renamed 'Write with Now Assist' to 'Now Assist Context Menu.'
 -   **Version 4.0.9 - September 2024**
-    -   New: As part of September release, we are releasing now assist admin troubleshooting feature where we will provide:
+    -   New: As part of September release, we are releasing Now Assist admin troubleshooting feature where we will provide:
     -   Provide a summary report of the diagnosis with the following:
         -   Issue Proposal is to define the right categories of issues
         -   Recommended actions
@@ -196,7 +206,7 @@ Version history for the Now Assist Admin Console application on the ServiceNow S
     -   Fixed: Guided setup config issues, UI issues, etc.
 -   **Version 1.0.20 - September 2023**
 
-    The Now Assist Admin Console provides a way to activate, manage, and monitor the Now Assist applications.
+    The AI Admin Hub Console provides a way to activate, manage, and monitor the Now Assist applications.
 
     It has overview, features, and platform settings sections to separate the tasks you can perform. It includes helpful resources like links to more in-depth information and FAQs.
 

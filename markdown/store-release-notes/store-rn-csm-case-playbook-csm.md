@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-playbook-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Playbooks for Customer Service Management release notes
@@ -18,6 +18,16 @@ Version history for the Playbooks for Customer Service Management on the Service
 
 ## Version history
 
+-   **Version 6.7.1 - September 2026**
+    -   Added support for migrating Guided Decision Trees \(GDT\) to Guided Decision Playbooks.
+    -   Restored the Activity Stream tab on Playbook record pages, which was missing from the contextual sidebar.
+    -   Fixed the reference field info/preview icon so it now works correctly in the CSM/FSM Workspace.
+    -   Strengthened access controls on data brokers, and query handling in playbook utilities and scripts to address encoded-query issues
+-   **Version 6.6.2 - August 2026**
+    -   New: Search is now available for both dynamic and static Recommended Actions across Playbook UI pages and stage templates, letting users filter by keyword.
+    -   Fixed:
+        -   Improved security when retrieving data through REST, ensuring requests are validated against approved tables.
+        -   Corrected date formatting in the Social Benefits Playbook to properly support localization across regions.
 -   **Version 6.5.1 - June 2026**
     -   New: OOTB Create Related Parties automation activity for persisting related party records to the database
     -   Changed: Guest sandbox disabled for some zBoot customers

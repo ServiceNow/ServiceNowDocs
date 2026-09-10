@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-content-review.html
 release: store
 topic_type: reference
-last_updated: "2025-12-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Content Review release notes
@@ -17,6 +17,10 @@ Version history for the Legal Content Review application on the ServiceNow Store
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.3.4 - September 2026**
+
+    Fixed: UI enhancements
 
 -   **Version 1.3.0 - December 2025**
 
@@ -35,5 +39,5 @@ Version history for the Legal Content Review application on the ServiceNow Store
     ServiceNow Legal Content Review is a legal practice app included with Legal Service Delivery that provides an automated workflow for employees to raise content review requests to legal teams to ensure proper company compliance has been met. Content reviews can include any document type, such as marketing presentations, briefs, and press releases, among many others. Documents can be stored in popular cloud document repositories, including OneDrive, Box, and Google Drive.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

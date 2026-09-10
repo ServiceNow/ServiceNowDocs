@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Playbooks for Field Service Management release notes

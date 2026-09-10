@@ -1,22 +1,37 @@
 ---
-title: Now Assist for Supplier Lifecycle Operations \(SLO\) release notes
-description: Version history for the Now Assist for Supplier Lifecycle Operations \(SLO\) application on the ServiceNow Store.
+title: ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) release notes
+description: Version history for the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-ops-na-slo.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Supplier Lifecycle Operations \(SLO\) release notes
+# ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) release notes
 
-Version history for the Now Assist for Supplier Lifecycle Operations \(SLO\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.0.1 - September 2026**
+    -   New:
+        -   1. Case-to-Knowledge article generation
+            -   Generate a knowledge article from a single resolved/closed case, with Otto AI drafting content for your review before publishing.
+            -   Generate a comprehensive knowledge article from multiple related closed cases to document common issues at scale.
+        -   2. AI Data Explorer – multi-table support
+            -   AI Data Explorer now correlates data across APO, SPO, and SLO tables \(invoice, supplier, approval, PO, receipt\) to answer natural-language queries with a single unified result.
+        -   3. ZTSD enhancements
+            -   Case resolutions now display the supplier invoice number instead of the internal ServiceNow-generated number.
+            -   Suppliers and employees can view and accept/reject the proposed resolution directly from the case ticketing page via the employee slate or supplier portal.
+            -   Other minor improvements.
+-   **Version 8.1.0 - August 2026**
+
+    Changed: Replaced Now Assist with ServiceNow Otto as per the naming guidelines.
 
 -   **Version 8.0.0 - June 2026**
     -   New:

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-spm-retail.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SPM Retail release notes
@@ -18,6 +18,10 @@ Version history for the ServiceNow® SPM Retail application on the ServiceNow St
 
 ## Version history
 
+-   **Version 2.0.4 - September 2026**
+
+    Changed: Upgraded dependencies.
+
 -   **Version 2.0.1 - July 2026**
 
     FIXED: Added project task data to demo data of SPM-Retail.
@@ -27,5 +31,5 @@ Version history for the ServiceNow® SPM Retail application on the ServiceNow St
     SPM Retail V1 introduces a purpose-built project management application tailored for the retail industry. Retail organizations managing store operations often lack domain-specific tooling that understands their workflows, terminology, and project types — leading to inefficiencies and reliance on generic project management tools. This application addresses that gap by delivering retail-specific content, fields, templates, and playbooks natively within ServiceNow SPM, enabling retail teams to plan and execute store projects with greater speed and consistency.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

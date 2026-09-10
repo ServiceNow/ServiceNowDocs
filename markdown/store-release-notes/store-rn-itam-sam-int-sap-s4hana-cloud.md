@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management integration with SAP S/4HANA Cloud release notes
@@ -27,5 +27,5 @@ Version history for the Software Asset Management integration with SAP S/4HANA C
     New plugin to integrate with S/4Hana Cloud Public Edition with Software Asset Management.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

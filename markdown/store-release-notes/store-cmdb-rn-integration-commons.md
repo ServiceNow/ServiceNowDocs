@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-integration-commons.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Integration Commons for CMDB release notes
@@ -18,6 +18,20 @@ Version history for the ServiceNow AI Platform capabilities Integration Commons 
 
 ## Version history
 
+-   **Version 2.26.0 - September 2026**
+    -   New:
+        -   Added default Data Manager template for retire and delete functions.
+        -   Added Data source level error in SGC Central Error tab.
+        -   Added a function to return Mac Address for SG-GCP deep discovery.
+    -   Fixed:
+        -   Disabled edit option for fields in the sn\_cmdb\_int\_util\_cmdb\_integration\_execution\_error and sn\_cmdb\_int\_util\_service\_graph\_connections\_state tables.
+        -   Fixed import error details that didn't appear in SGC Central for parallel loading.
+        -   Fixed the error message for test connection failure scenario.
+        -   Improved performance for software record removal for SG-Tanium.
+        -   Migrated to an alternative mechanism instead of relying on sys\_flow\_context business rule.
+        -   Fixed the Cleanse IP Version RTE Operation when invoked with a dash-separated IP address parameter.
+        -   Fixed the scenario where non-concurrent import sets created duplicate CMDB Integration Execution \(CEX\) records.
+        -   Fixed incorrect version extraction in CmdbIntegrationSoftwareModelUtil when the software name ends with a number.
 -   **Version 2.25.8 - July 2026**
 
     Fixed: Fixed issues in Automated Test Framework \(ATF\) tests. No functional changes.
@@ -175,5 +189,5 @@ Version history for the ServiceNow AI Platform capabilities Integration Commons 
         -   Reduce variation across different integrations.
     -   Integration Commons also includes the CMDB Integrations Dashboard, which shows rolled up errors and progress details.
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

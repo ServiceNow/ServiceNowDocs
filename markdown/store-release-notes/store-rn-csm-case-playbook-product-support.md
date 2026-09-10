@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Case Playbook for Product Support release notes
@@ -67,5 +67,5 @@ Version history for the Customer Service Management Case Playbook for Product Su
     New: Use the ServiceNow® Case Playbook for Product Support to guide customer service agents through the steps that are required to resolve product issues.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

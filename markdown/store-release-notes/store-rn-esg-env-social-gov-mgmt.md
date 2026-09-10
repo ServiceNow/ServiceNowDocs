@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Operational Sustainability Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Operational Sustainability Management release notes
@@ -88,5 +88,5 @@ Version history for the Operational Sustainability Management Management applica
     The ServiceNow ESG Management and Reporting application helps customers manage their ESG programs by providing them with a common platform to track and report goals and performance across the Environmental, Social, and Governance \(ESG\) pillars.
 
 
-**Parent Topic:**[ServiceNow Store - Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
+**Parent Topic:**[ServiceNow Store - Operational Sustainability Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esg-highlight.md)
 

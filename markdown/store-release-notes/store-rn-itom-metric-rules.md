@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-06-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Metric Rules release notes
@@ -30,5 +30,5 @@ Version history for the ITOM Metric Rules application on the ServiceNow Store.
     -   Metric Rules provides a modern experience for setting and managing alert manual thresholds for any metric. The Metric Rules app is included in Metric Intelligence and doesn't require additional installation.
     -   A metric rule allows selection of any metric related to a CI class \(with a condition, to address specific groups or individual CIs\) and configuration of multiple threshold levels.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

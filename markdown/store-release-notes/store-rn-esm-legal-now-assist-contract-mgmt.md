@@ -1,22 +1,31 @@
 ---
-title: Now Assist in Contract Management release notes
-description: Version history for the Now Assist in Contract Management application on the ServiceNow Store.
+title: ServiceNow Otto for Contract Management Pro release notes
+description: Version history for the ServiceNow Otto for Contract Management Pro application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-now-assist-contract-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist in Contract Management release notes
+# ServiceNow Otto for Contract Management Pro release notes
 
-Version history for the Now Assist in Contract Management application on the ServiceNow Store.
+Version history for the ServiceNow® Otto for Contract Management Pro application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.2 - September 2026**
+    -   Changed:
+        -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use show more option to load the remaining results.
+        -   In conversational search, introduced an option to preform in-document search after the contract metadata search results are available.
+    -   Fixed: Fixed plugin names and icons for ServiceNow Otto for Contract Management Pro in AI Admin Hub.
+-   **Version 2.4.6 - August 2026**
+
+    Changed: ServiceNow Otto is the new AI experience brand. Now Assist in Contract Management is now ServiceNow Otto for Contract Management Pro.
 
 -   **Version 2.3.2 - July 2026**
 
@@ -102,5 +111,5 @@ Version history for the Now Assist in Contract Management application on the Ser
     ServiceNow Now Assist in Contract Management provides assisted contract reviews to contract attorneys and metadata extraction on signed contracts. The app enables contract attorneys to efficiently review contracts with missing or non-standard clauses during the contract review and negotiation stage as per the company's standard playbook.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

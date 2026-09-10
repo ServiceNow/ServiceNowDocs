@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-patch-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2025-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Patch Management Data Model release notes
@@ -17,6 +17,10 @@ Version history for the Patch Management Data Model application on the ServiceNo
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.0.4 - September 2026**
+
+    New: Data model enhancements to support multiple patch to multi asset/asset group deployments.
 
 -   **Version 1.0.2 - May 2025**
 

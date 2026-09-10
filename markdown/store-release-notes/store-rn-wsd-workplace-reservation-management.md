@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-reservation-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 59
-breadcrumb: [ServiceNow Store - Workplace Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 60
+breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workplace Reservation Management release notes
@@ -18,6 +18,21 @@ Version history for the Workplace Service Delivery Workplace Reservation Managem
 
 ## Version history
 
+-   **Version 3.6.6 - September 2026**
+    -   Changed:
+        -   The building tree picker on the reservation pages \(Make a Reservation and Quick Reserve\) now sorts Region, Site, Campus, and Building by their Title-value when no order is applied, or the same order is applied.
+        -   The My Reservation page will reflect better upcoming and past reservations. Upcoming reservations and reservations that end before the current time will be visible under “Upcoming,” while reservations that ended in the past will be indicated as such. Past reservations that need to be checked out will be visible when selecting the Past or All views.
+    -   Fixed:
+        -   The available-spaces API now accepts ISO-format start and end times.
+        -   Handle localization feedback
+-   **Version 3.6.1 - August 2026**
+    -   Changed: Only building or system time zones will be used when synchronizing reservations with external systems. The UTC time zone is used when no timezone can be determined.
+    -   Fixed:
+        -   Unable to update the visitor parking option while editing an existing reservation.
+        -   Unable to edit the recurring pattern after initially setting it to custom when there was no "Max days in future" limit configured.
+        -   Reservation creation could fail when using abbreviated time zone formats.
+        -   As an admin, clicking "View all" in the reservation email preview did not correctly display the reservation details page with all recurring reservation occurrences.
+        -   Fixes to support translations
 -   **Version 3.5.0 - July 2026**
     -   Changed: Improve performance of reservation search page
     -   Fixed:
@@ -810,5 +825,5 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
-**Parent Topic:**[ServiceNow Store - Workplace Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
+**Parent Topic:**[ServiceNow Store - Workplace Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wsd-highlight.md)
 

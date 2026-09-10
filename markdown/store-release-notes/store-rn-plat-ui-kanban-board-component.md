@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-02-05"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform UI version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Kanban board component release notes

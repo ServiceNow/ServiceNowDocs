@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-mobile-publishing.html
 release: store
 topic_type: reference
-last_updated: "2025-12-04"
+last_updated: "2026-08-06"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Mobile release notes, ServiceNow Store version history release notes]
 ---
 
 # Mobile Publishing release notes
@@ -18,6 +18,18 @@ Version history for the Mobile Publishing on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 24.1.0 - August 2026**
+    -   New:
+        -   Android Developer Verification snippet field added to the build request form for Android apps
+        -   Voice Agents opt-in toggle added to a new "Features requiring justification" section
+        -   BlackBerry MAM removed as a supported vendor option
+    -   Fixed:
+        -   Bundle ID/Package Name fields allowed spaces and special characters when duplicating a build request
+        -   Documentation links in the Mobile Publishing Guide
+        -   Multiple build form issues for multi-native-client instances
+        -   Uploading app icons triggered a browser Basic Auth popup
+        -   Request history displayed incorrect package name for apps with a custom bundle ID
+        -   App icon content type changed on upload, causing broken image display
 -   **Version 24.0.0 - December 2025**
     -   New:
         -   Publishing Guide with contextual, OS-specific setup steps for deep links, push notifications, app store listings, MAM, and more.

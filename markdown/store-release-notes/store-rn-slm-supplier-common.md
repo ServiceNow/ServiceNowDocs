@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-slm-supplier-common.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Supplier Lifecycle Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Supplier Common Architecture release notes
@@ -18,6 +18,14 @@ Version history for the Supplier Common Architecture on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 12.0.0 - September 2026 \(Australia\)**
+    -   Changed:
+        -   Migration of code to Fluent
+        -   Enhance supplier data model to capture supplier category and sub-category
+-   **Version 9.0.0 - September 2026 \(Zurich\)**
+    -   Changed:
+        -   Migration of code to Fluent
+        -   Enhance supplier data model to capture supplier category and sub-category
 -   **Version 11.0.6 - July 2026 \(Australia\)**
     -   Fixed:
         -   Requests raised by a supplier contact from the Supplier Collaboration Portal now correctly transition to the "New" state.

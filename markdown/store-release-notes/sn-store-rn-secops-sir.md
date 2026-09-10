@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Security Incident Response release notes
+title: ServiceNow Store - Security Incident Response version history release notes
 description: The ServiceNow Store contains Security Incident Response products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-rn-secops-sir.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 14
-breadcrumb: [ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Security Incident Response release notes
+# ServiceNow Store - Security Incident Response version history release notes
 
 The ServiceNow Store contains Security Incident Response products.
 
@@ -82,7 +82,7 @@ Version history for the Microsoft Azure Sentinel - Incident Ingestion Integratio
 Version history for the ServiceNow® Microsoft Defender Incident ingestion integration for Security Operations application on the ServiceNow Store.
 -   **[Microsoft Exchange Online for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-ms-online.md)**  
 Version history for the Microsoft Exchange Online for Security Operations application on the ServiceNow Store.
--   **[Microsoft Exchange Server for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-ms-server.md)**  
+-   **[Microsoft Exchange for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-ms-server.md)**  
 Version history for the Security Operations Microsoft Exchange Server integration on the ServiceNow Store.
 -   **[Microsoft Graph Security API Alert Ingestion integration for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-microsoft-graph-security-api-alert.md)**  
 Version history for the Microsoft Graph Security API Alert Ingestion integration for Security Operations on the ServiceNow Store.
@@ -94,18 +94,12 @@ Version history for the Microsoft Teams Chat Connector for Security Incident Man
 Version history for the MISP integration for Security Operations on the ServiceNow Store.
 -   **[MSIM VTB Task Card release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-msim-vtb-task-card.md)**  
 Version history for the MSIM VTB Task Card application on the ServiceNow Store.
--   **[Now Assist for Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist.md)**  
-Version history for the Now Assist for Security Incident Response application on the ServiceNow Store.
--   **[Now Assist for Security Incident Response integrations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-sir-int.md)**  
-Version history for the ServiceNow® Now Assist for Security Incident Response integrations application on the ServiceNow Store.
--   **[Now Assist for Security Operations \(SecOps\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-secops.md)**  
-Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
--   **[Now Assist for Threat Intelligence Security Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-now-assist-tisc.md)**  
-Version history for the ServiceNow® Now Assist for Threat Intelligence Security Center application on the ServiceNow Store.
 -   **[OPSWAT Metadefender integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-opswat-metadef.md)**  
 Version history for the Security Operations OPSWAT Metadefender integration on the ServiceNow Store.
 -   **[Operational Technology Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-op-tech-sir.md)**  
 Version history for the ServiceNow® Operational Technology Security Incident Response application on the ServiceNow Store.
+-   **[Otto for Threat Intelligence Security Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-now-assist-tisc.md)**  
+Version history for the ServiceNow® Otto for Threat Intelligence Security Center application on the ServiceNow Store.
 -   **[Palo Alto Networks - AutoFocus integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-palo-autofocus.md)**  
 Version history for the Security Operations Palo Alto Networks - AutoFocus integration on the ServiceNow Store.
 -   **[Palo Alto Networks - Firewall integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-palo-firewall.md)**  
@@ -198,6 +192,12 @@ Version history for the Security Operations Spoke on the ServiceNow Store.
 Version history for the Security Support Common on the ServiceNow Store.
 -   **[Security Support Common Orchestration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-support-orchestration.md)**  
 Version history for the Security Operations Orchestration on the ServiceNow Store.
+-   **[ServiceNow Otto for Security Operations \(SecOps\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-secops.md)**  
+Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Security Incident Response \(SIR\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist.md)**  
+Version history for the ServiceNow Otto for Security Incident Response \(SIR\) application on the ServiceNow Store.
+-   **[ServiceNow Otto for Security Incident Response \(SIR\) integrations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-sir-int.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Security Incident Response \(SIR\) integrations application on the ServiceNow Store.
 -   **[Shift Handover Application release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-shift-handover-app.md)**  
 Version history for the Shift Handover Application application on the ServiceNow Store.
 -   **[Shodan integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-shodan.md)**  
@@ -230,6 +230,8 @@ Version history for the ServiceNow® Threat Intelligence Security Center - Advan
 Version history for the Threat Intelligence Security Center for Security Operations on the ServiceNow Store.
 -   **[Threat Intelligence Security Center integration with CrowdStrike Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-crowdstrike-intel-int-threat-intel-sec-center.md)**  
 Version history for the Threat Intelligence Security Center integration with CrowdStrike Intelligence application on the ServiceNow Store.
+-   **[Threat Intelligence Security Center integration with CrowdStrike Next-Gen SIEM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-secops-threat-intelligence-sec-center-int-crowdstrike-next-gen-siem.md)**  
+Version history for the ServiceNow® Threat Intelligence Security Center integration with CrowdStrike Next-Gen SIEM application on the ServiceNow Store.
 -   **[Threat Intelligence Security Center integration with Elasticsearch integration for release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-elasticsearch-int-threat-intel-sec-center.md)**  
 Version history for the Threat Intelligence Security Center integration with Elasticsearch integration application on the ServiceNow Store.
 -   **[Threat Intelligence Security Center integration with Have I been pwned? release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-threat-intelligence-security-center-int-have-i-been-pwned.md)**  
@@ -259,5 +261,5 @@ Version history for the Security Operations VirusTotal integration on the Servic
 -   **[Whois integration for Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-whois.md)**  
 Version history for the Security Operations Whois integration on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)
+**Parent Topic:**[ServiceNow Store - Security Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops.md)
 

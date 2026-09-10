@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-12-17"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Credit Operations release notes
@@ -31,5 +31,5 @@ Version history for the Financial Services Operations Financial Services Credit 
     Provides capabilities to manage middle and back office tasks that are assigned to the Credit Risk Assessment team across any Financial Services workflow.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

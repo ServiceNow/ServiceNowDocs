@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-tmt-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # TSOM for Telecommunications, Media and Technology - Prime release notes
@@ -18,6 +18,14 @@ Version history for the ServiceNow® TSOM for Telecommunications, Media and Tech
 
 ## Version history
 
+-   **Version 2.3.0 - September 2026**
+
+    Recertification for Brazil
+
+-   **Version 2.2.1 - August 2026**
+
+    Maintenance release — dependency updates only; no new customer-facing functionality in this version.
+
 -   **Version 2.0.1 - July 2026**
 
     Maintenance release — dependency updates only; no new customer-facing functionality in this version.
@@ -27,5 +35,5 @@ Version history for the ServiceNow® TSOM for Telecommunications, Media and Tech
     Prime product tier. Analyze network incidents.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

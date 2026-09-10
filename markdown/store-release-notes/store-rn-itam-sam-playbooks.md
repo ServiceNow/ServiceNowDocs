@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-playbooks.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management Playbooks and Guided Setups release notes
@@ -17,6 +17,14 @@ Version history for the IT Asset Management Software Asset Management Playbooks 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.0.5 - September 2026 \(Brazil\)**
+
+    This release includes Guided Setup defect fixes.
+
+-   **Version 8.0.1 - September 2026 \(Brazil\)**
+
+    This release includes accessibility improvements and security enhancements.
 
 -   **Version 7.0.1 - March 2026 \(Australia\)**
 
@@ -64,5 +72,5 @@ Version history for the IT Asset Management Software Asset Management Playbooks 
     New: New Guided walk-through for creation of an entitlement. Guided walk-through in new workspace view. All on-premise as well as SaaS product type included. For each field details playbook card user interface Aggregate details of all steps in last.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

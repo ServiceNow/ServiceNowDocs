@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Threat Intelligence Support Common release notes
@@ -18,6 +18,15 @@ Version history for the Security Operations Threat Intelligence Support Common a
 
 ## Version history
 
+-   **Version 13.8.0 - September 2026**
+    -   New: Integrated Mitre Atlas
+    -   Fixed:
+        -   The observable identification logic has been corrected when adding an observable. Observables are now accurately recognized and processed during creation.
+        -   UI message translations have been updated to resolve previous inconsistencies. User-facing messages now display correctly in supported languages.
+-   **Version 13.6.8 - August 2026**
+    -   Fixed:
+        -   Fixed the observable identification logic while adding an observable.
+        -   Fixed the translation issues for UI messages.
 -   **Version 13.6.4 - June 2026**
     -   New: Introduced a precedence mode in observable finding mode to control finding upgrades and downgrades.
     -   Fixed: Performance issues caused by inefficient query patterns during MITRE ATT&amp;CK operations have been resolved.

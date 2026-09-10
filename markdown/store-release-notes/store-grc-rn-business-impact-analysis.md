@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-business-impact-analysis.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Business Impact Analysis release notes
@@ -17,6 +17,18 @@ Version history for the GRC: Business Impact Analysis on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.0.5 - September 2026 \(Brazil\)**
+    -   New: Group ownership for BCM records is now supported - Customers can assign a group of users as owners for Business Impact Analyses \(BIAs\), Plans, and Event records in the BCM application.Collaborator synchronization for BIAs using Smart Assessment templates. When a BIA is created from a Smart Assessment template, the group owners and contributor list are automatically sync to Smart Assessment \(SAE\) instance. The Owner group manager will map to the SAE assessment owner\(BIA owner will sync as assessment owner if exist\), and other group members , contributors added to SAE collaborators.
+    -   Changed: Contributor synchronization from BIAs to Smart Assessment instances has been enhanced.\*\* When the BIA contributor list changes, the SAE collaborator list is updated to match, excluding the owner.
+    -   Fixed: SAE customer-reported issues have been resolved. Synchronization from BIA owner and contributors to SAE collaborators now works as expected, including proper handling of contributor overlap and group changes.
+-   **Version 11.0.4 - August 2026 \(Australia\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
+
+-   **Version 10.0.2 - August 2026 \(Zurich\)**
+
+    MRA Security Enhancements: Strengthened authorization validation within Multiple Record Association \(MRA\) workflows to improve security and ensure that access checks are consistently enforced during record association operations
 
 -   **Version 11.0.2 - June 2026 \(Australia\)**
     -   New:
@@ -153,5 +165,5 @@ Version history for the GRC: Business Impact Analysis on the ServiceNow Store.
         -   Streamlined integration with ServiceNow CMDB for business processes and asset inventories
         -   Role-based workspace with customizable reports and dashboards
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

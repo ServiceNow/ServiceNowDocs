@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-proactive-service-exp-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - Technology Provider Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Proactive Service Experience Workflows release notes
@@ -17,6 +17,35 @@ Version history for the Proactive Service Experience Workflows application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.7.5 - September 2026 \(Australia\)**
+
+    No new features in this release.
+
+-   **Version 8.5.18 - September 2026 \(Zurich\)**
+
+    No new features in this release.
+
+-   **Version 8.4.15 - September 2026 \(Yokohama\)**
+
+    Removed app-tech-product-support dependency from Product Service Experience Workflows
+
+-   **Version 8.6.8 - August 2026 \(Australia\)**
+    -   Changed: The SDWAN application files have been migrated to Telecom Core. All decision tree test files and related data have been moved, and SDWAN flow tests now run within the core app. The plugin name has been updated, and build errors have been resolved. The Fluent SDK framework is now used for the migrated files, with Jest and Mocha test runners integrated for both legacy and new code paths.
+    -   Removed: SDWAN-specific files, including decision multi result and decision question files, have been removed from Telecom Core. Test files that are no longer relevant after the migration have also been deleted.
+-   **Version 8.5.11 - August 2026 \(Zurich\)**
+    -   New:
+        -   Customer Discovery Healthboard data is now integrated directly into Engagements. Business Challenges, Needs, Expectations, and Customer Use Cases are visible within Engagements, with context for owner, complexity, and product capability. Existing CSM roles automatically inherit Discovery Viewer and Writer permissions.
+        -   The data foundation for the Engagement AI Agent is now established. Sold products, contract links, and segment configuration are exposed as context inputs to the agent runtime, gated by plugin activation.
+    -   Changed:
+        -   Access control has been tightened across the app. The Leadership Adoption data broker now restricts visualization data to CSM roles, and field-level query range for the Customer Success Viewer role excludes internal-only fields on Touchpoint, Success Initiative, and Success Case.
+        -   Related list candidate filtering now uses secure queries, and performance has improved for Touchpoint, Success Case, Risk Signal, Success Task, and Contract list pages under high data volumes.
+    -   Fixed:
+        -   An ACL bypass in the Leadership Adoption data broker has been resolved. Adoption tab visualization data is now correctly restricted to CSM roles.
+        -   A query-layer regression affecting list page performance for Touchpoint, Success Case, Risk Signal, Success Task, and Contract has been resolved.
+-   **Version 8.4.10 - August 2026 \(Yokohama\)**
+
+    This application is included in the August 2026 A bundle as part of the coordinated TMT Service Management Bundle release. All existing functionality remains fully operational and consistent with the prior release.
 
 -   **Version 8.5.3 - July 2026 \(Zurich\)**
     -   This release extends the Customer Impact notification workflow to Problem records, upgrades the notification composer to a rich text editor, and hardens the security of the customer notification flow.
@@ -218,7 +247,7 @@ Version history for the Proactive Service Experience Workflows application on th
     The Telecommunications Assurance Workflows application includes five workflows that improve the Incident Management application in the Telecommunications Service Management product for incidents which originate from alarms from network management systems.
 
 
-**Parent Topic:**[ServiceNow Store - Technology Provider Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
+**Parent Topic:**[ServiceNow Store - Technology Provider Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tech-highlights.md)
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

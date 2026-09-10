@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ancillary-software-sapsam.html
 release: store
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Ancillary software release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Ancillary software version history release notes, ServiceNow Store version history release notes]
 ---
 
 # SAP ABAP for Software Asset Management release notes
@@ -17,6 +17,10 @@ Version history for the SAP ABAP for Software Asset Management in ancillary soft
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.0.0 - September 2026**
+
+    Starting this version, gather usage data from SAP S/4HANA Private Cloud systems to calculate Full Usage Equivalent \(FUE\), digital access, and engine licensing.
 
 -   **Version 6.1.0 - August 2025**
     -   Support to optimize roles based on USMM optimizations
@@ -102,5 +106,5 @@ Version history for the SAP ABAP for Software Asset Management in ancillary soft
         Note: Indicating Central SAP will connect to other RFC clients once you choose from /NOW/SAMP\_RFC transaction code.
 
 
-**Parent Topic:**[ServiceNow Store - Ancillary software release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)
+**Parent Topic:**[ServiceNow Store - Ancillary software version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ancillary-software.md)
 

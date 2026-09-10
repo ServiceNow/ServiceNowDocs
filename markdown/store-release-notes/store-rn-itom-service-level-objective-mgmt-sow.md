@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-level-objective-mgmt-sow.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Level Objective Management for Service Operations Workspace release notes
@@ -17,6 +17,14 @@ Version history for the Service Level Objective Management for Service Operation
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.2.3 - September 2026**
+
+    Changed: Service Level Objective Management now leverages ServiceNow Fluent, enabling faster development and simpler maintenance through code-based application definition.
+
+-   **Version 2.1.0 - August 2026**
+
+    Changed: All customer-facing references to "Now Assist" have been updated to "ServiceNow Otto" throughout the interface, documentation, and support materials. The product functionality remains the same, but you will see the ServiceNow Otto name and branding everywhere you interact with your AI agent.
 
 -   **Version 2.0.0 - June 2026**
     -   New:
@@ -71,5 +79,5 @@ Version history for the Service Level Objective Management for Service Operation
     Service Level Objective \(SLO\) management is a crucial aspect of Site Reliability Engineering \(SRE\) that focuses on defining, monitoring, and maintaining the reliability and performance standards for services. Effective SLO management involves several key components, including Service Level Indicators \(SLIs\) and error budgets.
 
 
-**Parent Topic:**[ServiceNow Store - IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
+**Parent Topic:**[ServiceNow Store - IT Operations Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom.md)
 

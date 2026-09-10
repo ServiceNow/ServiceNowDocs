@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # External Legal Service Center release notes
@@ -35,5 +35,5 @@ Version history for the External Legal Service Center application on the Service
     ServiceNow External Legal Service Center enables external users to submit legal queries to your organization. External users, including customers, partners, and the public, can contact your organization directly to submit concerns, get clarification, and to access legal information. This builds trust and shows organization's commitment to accountability and legal compliance.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

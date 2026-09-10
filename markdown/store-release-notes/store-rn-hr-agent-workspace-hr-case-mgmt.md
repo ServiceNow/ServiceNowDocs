@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-agent-workspace-hr-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Agent Workspace for HR Case Management release notes
@@ -18,6 +18,35 @@ Version history for the Agent Workspace for HR Case Management application on th
 
 ## Version history
 
+-   **Version 4.6.4 - September 2026**
+    -   Fixed:
+        -   Multiple uploads on sn\_hr\_ef\_employee\_document are disabled via property, preventing multiple attachments on a single EDM record.Only a single attachment can now be uploaded to an employee document record, so duplicate documents no longer accumulate on the same record.
+        -   Agents can send an email to an employee's manager from At a Glance on a case without needing additional HR profile permissions
+        -   When creating a child case, the HR Service list reliably shows the valid services even when the parent case's Opened For and Subject Person are different people
+        -   Dependent choice fields refresh correctly each time the HR Service is changed, and are briefly held while the new options load so a quick selection is never lost
+        -   Capability-based HR Services, such as Exam and Performance, appear whether the agent selects the COE or the Subject Person first
+        -   The Start Work action on playbook cards is now available only to agents with permission to update the record, for both HR cases and HR tasks
+        -   Case creation no longer errors when the COE is selected before the Subject Person, or when a previously selected field is cleared
+        -   The AI agent worker configuration now displays on the HR Agent Workspace home page
+-   **Version 4.6.2 - August 2026**
+    1.  Critical Functionality Fixes: Resolved critical issues preventing core case management workflows from functioning properly.
+        1.  Fixed the "Create HR Case" action bar button that was bypassing mandatory field validation on Interaction records, allowing incomplete cases to be created.
+        2.  Restored the functionality of the Close Complete button that had been unresponsive, preventing agents from transitioning cases to the "Awaiting Acceptance" or "Closed Complete" states.
+        3.  Re-enabled Approve and Reject buttons on approval sub-record forms that were missing in Agent Workspace.
+        4.  Fixed drag-and-drop Transfer Case functionality in the Triaging Dashboard that was not responding to user actions
+    2.  Form &amp; Field Handling: Improved form rendering and field behaviour to provide a smoother user experience.
+        1.  Resolved intermittent read-only field issues on Move Attachments where the Topic Details and Document Type fields were locked despite selection, blocking attachment workflows.
+        2.  Eliminated misleading validation error messages on the Transfer Case modal COE field that appeared even when the field was correctly auto-populated.
+        3.  Corrected information message alignment in the Preview Document modal during document template generation.
+        4.  Enhanced the case creation form to clarify why the Next button is disabled when the search field is empty and how Skip Verification relates to the primary form flow
+    3.  Data Filtering &amp; Logic: Fixed how data is filtered and displayed across HR Agent Workspace lists.
+        1.  Corrected HR Service filtering on the Case Creation page to consistently use the Subject Person field instead of following whichever field \(Subject Person or Opened for\) was changed last, ensuring eligible services always appear.
+        2.  Resolved the Delegated HR Cases and Delegated HR Tasks lists that showed no records.
+    4.  Performance &amp; UI Optimization: Enhanced performance and resolved display issues to ensure smooth operation at scale.
+        1.  Optimized attachment loading to eliminate page hangs and unresponsiveness when the system contains a large number of attachments in the Move Attachments feature.
+        2.  Removed console errors that were being flooded when loading the Move Attachments page in UI Builder, improving debuggability and development experience.
+        3.  Fixed file access permission handling for users with limited roles who received "File Does Not Exist" errors when accessing Summary Report attachments, even though attachments were properly created.
+    5.  Localization &amp; Internationalization: Enhanced support for international users by fixing date format hardcoding in HR Agent Workspace. Date formats now properly respect locale settings and language plugins, ensuring correct date display for users with non-English language settings \(e.g., Japanese date formats for Japanese language plugin users\) and supporting localized deployments globally.
 -   **Version 4.6.0 - June 2026**
     -   Fixed:
         1.  Security &amp; data protection: Closed an ACL bypass vulnerability in the email utility script include and ensured the At a Glance view honors ACLs, so protected HR data is no longer exposed.
@@ -237,5 +266,5 @@ Version history for the Agent Workspace for HR Case Management application on th
     The Agent Workspace for HR Case Management app is a new re-factored workspace for HR agents. The new UI Builder-based workspace is more configurable. Admins can use the HR Configurable Workspace Guided Setup to configure the workspace for their agents needs.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

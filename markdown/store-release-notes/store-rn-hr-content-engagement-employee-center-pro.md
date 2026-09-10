@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-content-engagement-employee-center-pro.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Content engagement for Employee Center Pro release notes
@@ -17,6 +17,10 @@ Version history for the Content engagement for Employee Center Pro application o
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.3 - September 2026**
+
+    Updated to support the latest version of the dependent apps.
 
 -   **Version 1.5.1 - July 2026**
 
@@ -55,5 +59,5 @@ Version history for the Content engagement for Employee Center Pro application o
     Content Engagement enables Employee Center Pro customers to deliver social features for employees who read important company news and consume various types of content. It provides an experience that delivers the ability for employees to engage with that content and each other in familiar social interactions such as reactions \(like, love, etc.\), comments and replies, flag issues and more. Fully configurable to deliver a unique customer experience backed by a suite of reports for measuring engagement with any content delivered with the social features provided.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

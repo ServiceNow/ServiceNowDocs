@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-rules-content-pack-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Dispute Rules Content Pack for Mastercard release notes
@@ -17,6 +17,10 @@ Version history for the Dispute Rules Content Pack for Mastercard application on
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 4.2.0 - July 2026 \(Zurich\)**
     -   New:
@@ -88,5 +92,5 @@ Version history for the Dispute Rules Content Pack for Mastercard application on
     The application provides questionnaire for intake of dispute related information under various dispute categories as per Mastercard guidelines.. Embed auto-updated rules in yourdisputes process​
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

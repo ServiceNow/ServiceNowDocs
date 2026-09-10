@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-anomaly-detection-rule.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Anomaly Detection Rule release notes
@@ -17,6 +17,26 @@ Version history for the ServiceNow® Anomaly Detection Rule application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.2.1 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 4.1.0 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 4.0.0 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 3.1.0 - August 2026**
+
+    No release notes.
+
+-   **Version 3.0.0 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 2.1.0 - July 2026**
 
@@ -38,5 +58,5 @@ Version history for the ServiceNow® Anomaly Detection Rule application on the S
     -   Anomaly Detection in Warranty Claims is a component of the "Resolve warranty claims faster" agentic AI workflow in Manufacturing Commercial Operations \(MCO\). It automatically flags suspicious warranty claims before they are approved and reimbursed by identifying duplicate submissions, mismatched parts, reused images, and unusual claim patterns. This helps OEMs and their dealer networks reduce warranty leakage and lower overall warranty costs — without requiring manual review of every incoming claim.
     -   This component works natively on the ServiceNow platform and integrates seamlessly with existing MCO warranty claims processing workflows.
 
-**Parent Topic:**[ServiceNow Store - Public Sector Industry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
+**Parent Topic:**[ServiceNow Store - Public Sector Industry version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-highlight.md)
 

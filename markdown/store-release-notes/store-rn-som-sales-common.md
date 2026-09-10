@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-sales-common.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Sales Common release notes
@@ -17,6 +17,22 @@ Version history for the ServiceNow® Sales Common application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.1.2 - September 2026 \(Australia+\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 7.2.5 - September 2026 \(Zurich\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 8.0.2 - August 2026 \(Australia\)**
+
+    Minor performance improvements and defect fixes
+
+-   **Version 7.1.0 - August 2026**
+
+    Minor performance improvements and defect fixes
 
 -   **Version 7.0.1 - July 2026**
 
@@ -48,5 +64,5 @@ Version history for the ServiceNow® Sales Common application on the ServiceNow 
         -   Sales Manager
         -   Sales Ops Specialist
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

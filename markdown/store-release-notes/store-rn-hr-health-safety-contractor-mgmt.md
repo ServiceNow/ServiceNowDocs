@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-contractor-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety Contractor Management release notes
@@ -17,6 +17,14 @@ Version history for the Health and Safety Contractor Management application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.3.2 - September 2026**
+
+    Changed: Added support for Brazil and Australia, and removed support for Zurich.
+
+-   **Version 5.3.1 - August 2026**
+
+    Version bump only, because the hs-core version was updated. No new features delivered. Fixed one defect related to adding a worker in Brazil.
 
 -   **Version 5.2.2 - July 2026**
 
@@ -54,5 +62,5 @@ Version history for the Health and Safety Contractor Management application on t
     ServiceNow Health and Safety Contractor Management provides your teams with contractor onboarding capabilities enabling contractor coordinators to onboard contractor companies and their workers and keep track of them in the Health and Safety application. With the included email notifications, each contractor can be assigned prerequisite tasks and documents before they are allowed on site.
 
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

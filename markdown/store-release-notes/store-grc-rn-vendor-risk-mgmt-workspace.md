@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-vendor-risk-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Vendor Risk Management Workspace release notes
@@ -18,6 +18,32 @@ Version history for the Vendor Risk Management Workspace application on the Serv
 
 ## Version history
 
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   New:
+        -   Added elements grid and element management.
+        -   Added element risk ratings and improved related-list behavior.
+        -   Added accessibility improvements across workspace pages.
+    -   Changed:
+        -   Added persona-based access to elements grids.
+        -   Updated task navigation and renamed Tasks to External Tasks.
+        -   Improved third-party and engagement element workflows.
+        -   Updated vendor, AI model, and workspace metadata behavior.
+        -   Added risk-admin access controls and secure query handling.
+    -   Fixed:
+        -   Fixed dynamic column labels and element-grid feedback \(PRB2057733\).
+        -   Corrected third-party prepopulation when creating elements \(PRB2057048\).
+        -   Fixed missing element actions and routes \(PRB2036126, PRB2024156, PRB2030772\).
+        -   Corrected assessment attachments and questionnaire filtering \(PRB2026795, PRB2028131\).
+        -   Fixed approval actions and workspace access controls \(PRB2012105, PRB2017761\).
+        -   Corrected missing tooltips and UI rendering issues \(PRB2023846\).
+-   **Version 22.5.0 - August 2026 \(Australia\)**
+    -   Changed:
+        -   Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience.
+        -   Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
+-   **Version 22.1.1 - August 2026 \(Zurich\)**
+    -   Updated:
+        -   Rebranded to ServiceNow Otto, replacing Now Assist references for a consistent AI experience.
+        -   Enhanced MRA authorization validation to ensure access checks are consistently enforced during record association.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   Added SBOM \(Software Bill of Materials\) related lists to company and engagement records.

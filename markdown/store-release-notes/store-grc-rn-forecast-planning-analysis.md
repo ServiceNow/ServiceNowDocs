@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Forecast planning analysis release notes
@@ -35,5 +35,5 @@ Version history for the Forecast planning analysis application on the ServiceNow
     Forecast planning and analysis helps companies navigate the constantly evolving ESG and sustainability landscape by considering different future possibilities, rather than relying on traditional planning, which often focuses on a single, best-case scenario. It tackles the challenges of complex and interconnected ESG issues and provides a structured way to model scenarios, empowering organizations to visualize outcomes, compare alternatives, and act decisively with confidence. It's a strategic enabler that drives data-backed decision-making and reduces risk.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Sourcing and Procurement Operations release notes
+title: ServiceNow Store - Sourcing and Procurement Operations version history release notes
 description: The ServiceNow Store contains Sourcing and Procurement applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Sourcing and Procurement Operations release notes
+# ServiceNow Store - Sourcing and Procurement Operations version history release notes
 
 The ServiceNow Store contains Sourcing and Procurement applications.
 
@@ -75,5 +75,5 @@ Version history for the Virtual Agent for Source-to-Pay Operations application o
 -   **[Virtual Agent for Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-va-experience-pack.md)**  
 Version history for the Virtual Agent for Sourcing and Procurement Operations on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops.md)
+**Parent Topic:**[ServiceNow Store - Source-to-Pay Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops.md)
 

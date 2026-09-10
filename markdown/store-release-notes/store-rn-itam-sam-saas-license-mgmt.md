@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-07-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Software Asset Management - SaaS License Management Foundation release notes
@@ -77,5 +77,5 @@ Version history for the IT Asset Management Software Asset Management - SaaS Lic
     It requires a Software Asset Management Professional plugin and provides core capabilities to manage licenses for SaaS products. Get visibility to your subscription spend and optimize it. This will be activated with Software Asset Management - SaaS License Management Integrations plugin.
 
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

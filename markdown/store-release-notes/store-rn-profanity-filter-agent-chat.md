@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-profanity-filter-agent-chat.html
 release: store
 topic_type: reference
-last_updated: "2024-11-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Profanity filter for agent chat release notes
@@ -17,6 +17,10 @@ Version history for the Profanity filter for agent chat on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.0.17 - September 2026 \(Brazil\)**
+
+    Fixed: customer bugs
 
 -   **Version 3.0.12 - November 2024 \(Xanadu\)**
 

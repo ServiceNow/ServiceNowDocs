@@ -1,22 +1,33 @@
 ---
-title: Now Assist for CSM release notes
-description: Version history for the Now Assist for CSM application on the ServiceNow Store.
+title: ServiceNow Otto for CSM release notes
+description: Version history for the ServiceNow Otto for CSM application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for CSM release notes
+# ServiceNow Otto for CSM release notes
 
-Version history for the Now Assist for CSM application on the ServiceNow Store.
+Version history for the ServiceNow Otto for CSM application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 15.0.1 - September 2026**
+    -   New: All CSM Gen AI application repositories now meet Level 3 Agent Readiness. Autonomous AI agents can contribute code across these repos, with branch protection, CI validation, and agent documentation enabling independent operation.
+    -   Changed: Fluent Support is enabled for ServiceNow Otto for CSM. The application is converted to Fluent, improving integration and support.
+-   **Version 14.2.0 - August 2026 \(Australia\)**
+
+    Changed: ServiceNow Otto is the new Al experience brand. This change is reflected in the name of ServiceNow products, including Customer Service Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+-   **Version 13.3.2 - August 2026**
+
+    Changed: ServiceNow Otto is the new Al experience brand. This change is reflected in the name of ServiceNow products, including Customer Service Management. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 -   **Version 14.1.1 - July 2026**
     -   Changed:
@@ -34,7 +45,7 @@ Version history for the Now Assist for CSM application on the ServiceNow Store.
     -   Changed: Email Reply Recommendation supports case extensions
 -   **Version 12.1.0 - April 2026**
     -   New:
-        1.  Availability of 3 new Now Assist Guardian filters -
+        1.  Availability of 3 new AI Guardian filters -
             -   Active Data Loss or security breach
             -   Threatening legal action
             -   Reputational incident/issue

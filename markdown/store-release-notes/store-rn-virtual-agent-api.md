@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-virtual-agent-api.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Virtual Agent API release notes
@@ -17,6 +17,14 @@ Version history for the Virtual Agent API on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.4.3 - September 2026 \(Brazil\)**
+
+    Changed: Backend changes to support monthly releases.
+
+-   **Version 4.4.1 - August 2026 \(Australia\)**
+
+    Nextwave glide parity
 
 -   **Version 4.4.0 - June 2026 \(Australia\)**
 
@@ -167,5 +175,5 @@ Version history for the Virtual Agent API on the ServiceNow Store.
         -   Integrate a primary bot from your bot ecosystem with Virtual Agent and/or Live Agent as a specialized service delivery bot.
         -   Integrate Virtual Agent and/or Live Agent with any channel that supports a conversational interface.
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

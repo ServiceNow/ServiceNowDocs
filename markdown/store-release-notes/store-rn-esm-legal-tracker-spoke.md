@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Tracker Spoke release notes
@@ -27,5 +27,5 @@ Version history for the Legal Tracker Spoke application on the ServiceNow Store.
     The Integration Hub Legal Tracker spoke provides native integration to Legal Tracker to easily create matters for Outside Counsel Engagements from ServiceNow, track spends, and updates on the matters from Legal Tracker in ServiceNow's Legal Matter. This integration with Legal Tracker pulls and synchronizes foundational data such as practice groups, and organizational units from Legal Tracker intoServiceNow Legal Matter on a scheduled basis.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

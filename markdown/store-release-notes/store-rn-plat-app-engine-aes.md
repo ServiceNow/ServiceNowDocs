@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-aes.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 12
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # App Engine Studio release notes
@@ -17,6 +17,10 @@ Version history for the App Engine Studio on the ServiceNow Store .
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 29.2.6 - August 2026**
+
+    Fixed: The 'Get Groups from Permission Type' action in App Intake no longer throws exceptions. The issue causing errors when retrieving groups based on permission type has been resolved.
 
 -   **Version 29.2.1 - June 2026**
 

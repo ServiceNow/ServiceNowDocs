@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-contract-mgmt-pro-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contract Management Pro - Prime release notes
@@ -18,6 +18,16 @@ Version history for the ServiceNow® Contract Management Pro - Prime application
 
 ## Version history
 
+-   **Version 1.0.21 - September 2026**
+    -   Changed:
+        -   In conversational search, introduced an option to preform in-document search after the contract metadata search results are available.
+        -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use show more option to load the remaining results.
+        -   Contract Management Pro - Prime now uses the latest versions of its dependent platform applications for the September 2026 release.
+    -   Fixed: Fixed plugin names and icons for ServiceNow Otto for Contract Management Pro in AI Admin Hub.
+-   **Version 1.0.16 - August 2026**
+    -   New: Conversational search results can be exported in multiple file formats.
+    -   Changed: ServiceNow Otto is the new AI experience brand. Now Assist in Contract Management is now ServiceNow Otto for Contract Management Pro.
+    -   Fixed: Contract fulfillers can trigger AI review for contracts stored in external storage.
 -   **Version 1.0.11 - July 2026**
     -   New:
         -   Signature workflows on the Docusign envelope now support adding signatories with different roles.
@@ -43,5 +53,5 @@ Version history for the ServiceNow® Contract Management Pro - Prime application
     Contract Management Pro - Prime provides contract lifecycle management functionality powered by generative AI and agentic AI to streamline your contract operations. Review contracts for missing or non‑standard clauses, automatically extract metadata and obligations from signed contracts, and search your contract repository using natural language, reducing manual effort and accelerating contract operations. You can configure contract document templates, clauses library, and initiate contract requests.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

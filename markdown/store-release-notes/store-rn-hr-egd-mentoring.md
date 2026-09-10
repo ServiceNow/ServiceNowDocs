@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-egd-mentoring.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Mentoring release notes
@@ -17,6 +17,14 @@ Version history for the Mentoring application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.6 - September 2026**
+
+    Defect Fixes for Mentoring.
+
+-   **Version 2.4.3 - August 2026**
+
+    Addressed UI Defects \(Hide the Now Assist FAB when Mentoring modals/flyouts open to prevent it from overlapping the UI\).
 
 -   **Version 2.3.0 - June 2026**
 

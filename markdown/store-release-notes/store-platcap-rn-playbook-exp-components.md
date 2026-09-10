@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-playbook-exp-components.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 16
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Playbook Experience Components release notes
@@ -17,6 +17,26 @@ Version history for the Playbook Experience Components application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.1.3 - September 2026 \(Brazil\)**
+    -   Fixed:
+        -   Key accessibility fixes associated with reflow to 200% zoom, keyboard navigation/focus, and screen reader functions
+        -   UI fixes to Playbook Experience, including Wizard layout in UI Builder and runtime component behavior
+-   **Version 29.6.2 - September 2026 \(Australia\)**
+    -   New:
+        -   Playbook authors can preview activity UIs with live sample data in the Playbook builder. Authors can now visualize each interactive activity instance using a live preview panel in the UI Layout tab, modify experience property values, and see real-time updates. Sample data can be provided for unresolved fields, and authors can toggle between sample-driven and data-driven previews.
+        -   Live UI Preview updates for Activity Actions. When authors modify activity actions such as buttons—adding, deleting, changing labels, or repositioning—the UI Preview updates immediately to reflect these changes. Actions in the Playbook Experience Picker also update in the Playbook Card.
+        -   Support for fetching individual actions by action ID in Playbook Experience. The Playbook Experience component now enables targeted data retrieval for activity UI previews, allowing users to preview specific actions based on their action IDs.
+-   **Version 28.8.2 - September 2026 \(Zurich\)**
+    -   New: Hybrid agentic activity now supports ServiceNow Otto agents. Users can now select and utilize ServiceNow Otto as an AI agent within hybrid agentic workflows, expanding available automation options.
+    -   Changed: Branding updated from NowAssist to ServiceNow Otto. All references, UI elements, and documentation previously mentioning NowAssist now display ServiceNow Otto branding throughout hybrid agentic activities and agent selection interfaces.
+-   **Version 29.5.2 - August 2026 \(Australia\)**
+
+    Changed: Rebranding: Updated branding in Hybrid agentic activity and Use an AI agent from NowAssist to ServiceNow Otto.
+
+-   **Version 28.7.3 - August 2026 \(Zurich\)**
+
+    Changed: Rebranding: Updated branding in Hybrid agentic activity and Use an AI agent from NowAssist to ServiceNow Otto.
 
 -   **Version 29.4.0 - July 2026 \(Australia\)**
 
@@ -367,5 +387,5 @@ Version history for the Playbook Experience Components application on the Servic
     Changed: Submit forms before executing declarative actions \(excluding server scripts\) when the "Requires Form Fields" checkbox is selected.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

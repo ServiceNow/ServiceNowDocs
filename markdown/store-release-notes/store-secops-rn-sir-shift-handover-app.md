@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-shift-handover-app.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Shift Handover Application release notes
@@ -18,6 +18,10 @@ Version history for the Shift Handover Application application on the ServiceNow
 
 ## Version history
 
+-   **Version 2.1.0 - September 2026**
+    -   Fixed:
+        -   The improper handling of Daylight Saving Time \(DST\) in shift handover log creation has been resolved. Shift logs now correctly account for DST transitions.
+        -   The 'Change to "In Progress" State' button has been fixed and now functions as expected.
 -   **Version 1.8.0 - June 2026**
     -   Fixed:
         -   Fixed the improper handling of DST in Shift handover log creation.
@@ -50,5 +54,5 @@ Version history for the Shift Handover Application application on the ServiceNow
     The Shift Handover application will help analysts working in shifts hand over important work items to the next shift.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

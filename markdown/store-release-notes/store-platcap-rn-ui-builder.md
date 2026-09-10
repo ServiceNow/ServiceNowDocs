@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ui-builder.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # UI Builder release notes
@@ -18,6 +18,18 @@ Version history for the UI Builder application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.0.37 - September 2026 \(Brazil\)**
+
+    This patch release contains fixes for the issues listed below: Selecting Create &gt; UI Interaction from the UI Builder Homepage did not work
+
+-   **Version 29.6.11 - September 2026 \(Australia\)**
+    -   Selecting Apply on List items for Drop down the JSON is changed
+    -   UIB caching query too broad, causing loading issues
+    -   Security attribute leaks answer into shared scope, breaking UX screen conditions for non-admin users
+-   **Version 28.2.90 - September 2026 \(Zurich\)**
+    -   This patch release contains fixes for the issues listed below
+        -   Selecting Apply on List items for Drop down the JSON is changed
+        -   Security and access control updates
 -   **Version 29.5.11 - July 2026**
     -   This release is focused on prioritizing platform health and making small but impactful improvement
         -   Key issues fixed in this release:
@@ -294,5 +306,5 @@ Version history for the UI Builder application on the ServiceNow Store.
     UI Builder is a web user interface builder that is part of the Next Experience UI Framework. UI Builder can be used to build pages for configurable workspaces, App Engine Studio generated workspaces and portals, and custom web experiences using Next Experience Components and custom web components.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

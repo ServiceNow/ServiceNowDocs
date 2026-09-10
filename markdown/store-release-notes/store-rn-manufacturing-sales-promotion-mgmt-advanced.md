@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-sales-promotion-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Operational Technology release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Manufacturing Sales Promotion Management Advanced release notes
@@ -17,6 +17,26 @@ Version history for the Manufacturing Sales Promotion Management Advanced applic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.2 - September 2026 \(Australia\)**
+
+    No release notes.
+
+-   **Version 5.2.0 - September 2026 \(Brazil\)**
+
+    No release notes.
+
+-   **Version 5.0.2 - September 2026 \(Zurich\)**
+
+    No release notes.
+
+-   **Version 4.1.0 - August 2026**
+
+    No release notes.
+
+-   **Version 4.0.0 - August 2026 \(Zurich\)**
+
+    No release notes.
 
 -   **Version 3.1.2 - July 2026**
 
@@ -64,5 +84,5 @@ Version history for the Manufacturing Sales Promotion Management Advanced applic
         -   The MCO application facilitates seamless collaboration between OEMs and their dealers by streamlining the management of sales promotions and claims. The sales promotion framework within MCO allows OEMs to publish and manage promotional campaigns efficiently. At the same time, it enables channel partners to submit claims for reimbursement after completing product sales transactions under the terms of these promotions.
         -   By leveraging this framework, manufacturers can ensure better transparency, faster processing of promotional claims, and stronger alignment between OEMs and their sales channels.
 
-**Parent Topic:**[ServiceNow Store - Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
+**Parent Topic:**[ServiceNow Store - Operational Technology version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-manufacturing-highlights.md)
 

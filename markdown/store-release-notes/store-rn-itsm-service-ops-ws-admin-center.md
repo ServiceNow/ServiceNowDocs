@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-02-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Admin Center release notes
@@ -39,5 +39,5 @@ Version history for the ITSM Service Operations Workspace Admin Center applicati
     Service Operations Workspace Admin Center is part of the Service Operations Workspace Core bundle. This application contains the Admin Console which surfaces the related landing page configurations for Service Operations Workspace.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

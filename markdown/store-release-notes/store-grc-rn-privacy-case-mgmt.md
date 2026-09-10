@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-privacy-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Privacy Case Management release notes
@@ -18,6 +18,20 @@ Version history for the GRC: Privacy Case Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.0.2 - September 2026 \(Brazil\)**
+    -   New:
+        -   Improved protection against unauthorised query-based data discovery.
+        -   ACL behaviour across new installs, upgrades, and true-up releases.
+        -   Reduced operational dependency on manual remediation activities.
+        -   Zurich and Australia compatibility maintained for supported store applications.
+-   **Version 22.5.1 - August 2026 \(Australia\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
+-   **Version 22.0.6 - August 2026 \(Zurich\)**
+    -   Changed:
+        -   As part of MRA Security Enhancements, strengthened authorization validation in Multiple Record Association \(MRA\) workflows to ensure consistent access checks during record association operations.
+        -   As part of Query Range ACL Enhancements, added missing query range access controls and strengthened authorization checks across supported data models to ensure users can access only the data they are authorized to view.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New: Manage Smart Assessment  templates with versioning support. Create, publish, and delete template versions to support consistent assessment governance.
     -   Changed:
@@ -74,5 +88,5 @@ Version history for the GRC: Privacy Case Management on the ServiceNow Store.
     ServiceNow Privacy Case Management helps customers manage their privacy breaches. Collaborate with key stakeholders by performing privacy breach assessments, investigation tasks, and manage and report breach notifications as per regulatory obligations. It also helps to analyze the causes and consequences as part of the post case review process.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

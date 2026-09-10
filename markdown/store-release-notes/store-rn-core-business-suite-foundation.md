@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business-suite-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Core Business release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Store - Core Business version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Core Business Suite Foundation release notes
@@ -18,6 +18,15 @@ Version history for the ServiceNow® Core Business Suite Foundation application 
 
 ## Version history
 
+-   **Version 3.3.2 - August 2026**
+    -   Knowledge management
+        -   Shipped out-of-the-box knowledge bases defined at two levels: individual business unit knowledge bases \(Human Resources, Legal, Source to Pay, Workplace Services, and Health &amp; Safety\) and a CBS aggregate knowledge base.
+        -   Owners and managers can be defined by the admin in the Knowledge module for each knowledge base to ensure proper governance and content tracking.
+        -   Added new AI skills module under the Platform module on Configuration console enables admins to activate knowledge-specific skills from simplified setup.
+        -   Improve article optimization in terms of content quality, identification, and merging of duplicate articles to eliminate redundant content.
+        -   Shipped Now Assist search sources for all the business unit for Knowledge article generation from case tables on Knowledge center.
+        -   Create contextually relevant articles from case tables and drive better AI-assisted content creation by enabling Knowledge Content Recommendation skill from AI skills module.
+    -   Goups for Core Business Suite: Admins can now manage access to the Core Business Suite analytics dashboard through the new Groups module under Core Business Suite module. Define which users have view and edit access by adding them to groups, providing fine-grained control over who can access reporting and metrics across your Core Business Suite implementation.
 -   **Version 3.0.7 - July 2026**
     -   Defect fixes:
         -   Admin set-up​
@@ -37,5 +46,5 @@ Version history for the ServiceNow® Core Business Suite Foundation application 
     The Core Business Suite Foundation provides pre-configured workflows for streamlined case and knowledge management, along with foundational AI capabilities across departments such as Human Resources, Legal, Workplace Service Delivery, Finance, Procurement, Health and Safety, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
 
-**Parent Topic:**[ServiceNow Store - Core Business release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
+**Parent Topic:**[ServiceNow Store - Core Business version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-business-deposit-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Business Deposit Operations release notes
@@ -17,6 +17,10 @@ Version history for the Financial Services Business Deposit Operations applicati
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.1 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 3.7.0 - April 2026**
     -   New: Added deposit service table as a source for AIS, enabling better data integration and insights.

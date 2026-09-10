@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-01-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft 365 spoke release notes
@@ -47,5 +47,5 @@ Version history for the Microsoft 365 spoke on the ServiceNow Store.
         -   This integration spoke gives you the ability to manage subscriptions for Sales and Customer Service products that are available in Dynamics Customer Engagement Application. This includes plans such as Dynamics 365 Sales Enterprise/Professional and Dynamics 365 Customer Service Enterprise/Professional.
         -   In the later releases, we plan to update this functionality to include Dynamics 365 ERP Products as well as the entire breadth of products under Microsoft 365.
 
-**Parent Topic:**[ServiceNow Store - Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
+**Parent Topic:**[ServiceNow Store - Integration Hub version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-landing.md)
 

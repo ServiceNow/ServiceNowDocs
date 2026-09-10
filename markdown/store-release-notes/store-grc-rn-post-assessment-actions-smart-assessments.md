@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-post-assessment-actions-smart-assessments.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Post Assessment Actions for Smart Assessments release notes
@@ -18,6 +18,9 @@ Version history for the Post Assessment Actions for Smart Assessments applicatio
 
 ## Version history
 
+-   **Version 23.0.3 - September 2026 \(Brazil\)**
+    -   Changed: Tab switches preserve unsaved changes across General, Questions, Automations, and Scoring tabs. A dirty-state icon on the workspace selector indicates pending changes.
+    -   Fixed: Template copy failures no longer leave orphaned Automation rules behind. Failed copies now remove their associated Automation rules.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New: Support for template versioning in post-assessment actions. Existing automations or assessments won't be impacted
     -   Changed:
@@ -41,5 +44,5 @@ Version history for the Post Assessment Actions for Smart Assessments applicatio
     Post-assessment actions inSmart Assessment Engine are designed to streamline and automate tasks based on the responses or outcomes of an assessment. The purpose of post-assessment actions is to automate tasks like updating a record based on a response provided in the assessment, creating a new assessment after an assessment is submitted, eliminating the need for manual intervention.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

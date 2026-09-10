@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-risk-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Risk Management Workspace release notes
@@ -18,6 +18,26 @@ Version history for the Risk Management Workspace application on the ServiceNow 
 
 ## Version history
 
+-   **Version 23.0.5 - September 2026 \(Brazil\)**
+    -   New:
+        -   Risk assessment projects now support multiple entities. Assessors can perform assessments across several entities within the same project.
+        -   Added an ability to redefine context after Risk assessment project is created.
+        -   Comments can now be configured as mandatory in risk assessments. Administrators can set comments as required for individual factors, group factors, and overall assessment types.
+        -   Added module for "In progress" risk assessments.
+        -   Users with the sn\_risk\_advanced.ara\_planner role can now reassign any risk assessment.
+        -   Users with the sn\_risk\_advanced.risk\_asmt\_project\_manager role can now reassign risk assessment projects from the record view.
+        -   Added a confirmation modal when retiring a Risk Identification record to prevent records from being retired by mistake.
+        -   Added filtering, sorting, and ability to configure custom columns to GRID mode risk assessments.
+    -   Changed:
+        -   Improved the load time of assessments in the Risk assessment project grid view. The default page size has changed from 8 to 20.
+        -   Improved the load time of Heatmap workbench.
+        -   Updated Risk Identification configuration to use smart assessment by default.
+        -   Renamed existing Risk Register module to Monitor.
+    -   Fixed:
+        -   Fixed an issue where the Approve and Reject buttons were not visible on the Risk Workspace approval record.
+        -   Fixed styling issues on the IT Risk Manager home page.
+        -   Fixed an issue where the Risk Statements list header showed only the Risk Statement label. The header now includes the rating label used to filter the list.
+        -   Fixed an issue where Smart Assessment creation failed in the Risk Identification workflow when the template contained a large number of questions. Assessment creation is now asynchronous and completes before the workflow proceeds.
 -   **Version 22.3.2 - June 2026 \(Australia\)**
     -   New:
         -   The 'Not Applicable' flag in the Risk Assessment section for control effectiveness and residual assessments can now be hidden by configuring the Risk Assessment Methodology.

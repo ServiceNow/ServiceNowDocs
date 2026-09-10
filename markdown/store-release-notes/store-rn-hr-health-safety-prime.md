@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Health and Safety release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Health and Safety - Prime release notes
@@ -29,5 +29,5 @@ Version history for the ServiceNow® Health and Safety - Prime application on th
     Health and Safety - Prime is the AI-native tier of the ServiceNow Health and Safety platform, designed for organizations that require the full breadth of EHS capabilities. Building on the Foundation and Advanced tiers, Prime enables EHS professionals to leverage AI agents to accelerate incident investigation and corrective action creation all within the ServiceNow platform.
 
 
-**Parent Topic:**[ServiceNow Store - Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
+**Parent Topic:**[ServiceNow Store - Health and Safety version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-health-safety.md)
 

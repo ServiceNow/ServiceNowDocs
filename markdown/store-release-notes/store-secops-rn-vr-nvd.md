@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-nvd.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Vulnerability Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Vulnerability Response Integration with NVD release notes
@@ -17,6 +17,13 @@ Version history for the Vulnerability Response Integration with NVD on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.7.0 - September 2026**
+    -   New: SSVC decision attributes are now rolled up to corresponding TPEs. The system now aggregates Exploitation, Automatable, and Technical Impact values from CVE records to TPEs, and triggers automatic risk score recalculation when these attributes change.
+    -   Fixed: The NVD integration processor now sends periodic heartbeats to import queue entries, preventing timeouts during processing of large NVD data windows. Queue entries are no longer force-terminated while active processing is underway.
+-   **Version 30.4.2 - August 2026**
+
+    New: NVD integration now ingests and displays SSVC assessment data for CVEs.      The system now parses and stores Exploitation, Automatable, and Technical Impact attributes from the NVD CVE feed and API, making these SSVC decision points available on CVE records for analysis and reporting.
 
 -   **Version 30.3.1 - June 2026**
     -   Changed:

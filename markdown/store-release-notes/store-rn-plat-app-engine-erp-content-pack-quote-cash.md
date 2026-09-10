@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-05-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ERP Content Pack for Quote to Cash release notes
@@ -23,5 +23,5 @@ Version history for the ERP Content Pack for Quote to Cash application on the Se
     The Quote to Cash Content Pack now includes Models for reading, creating, and updating Sales Orders in SAP. Additionally, new Process Extensions have been introduced to manage delivery and billing blocks within workflows, enabling greater flexibility and control in order processing.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

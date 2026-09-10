@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Integration Hub
+title: ServiceNow Store - Integration Hub version history release notes
 description: Version history for Integration Hub releases on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-landing.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 22
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Integration Hub
+# ServiceNow Store - Integration Hub version history release notes
 
 Version history for Integration Hub releases on the ServiceNow Store.
 
@@ -26,6 +26,8 @@ Version history for the Integration Hub Adobe Acrobat Sign spoke on the ServiceN
 Version history for the Agent Client Collector Spoke on the ServiceNow Store.
 -   **[Aha! spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-aha.md)**  
 Version history for the Integration Hub Aha! spoke on the ServiceNow Store.
+-   **[AI Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-ai-analytics.md)**  
+Version history for the ServiceNow® AI Analytics application on the ServiceNow Store.
 -   **[AI Service Graph Connector for GCP Vertex AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-ai-sgc-gcp-vertex-ai.md)**  
 Version history for the ServiceNow® AI Service Graph Connector for GCP Vertex AI application on the ServiceNow Store.
 -   **[AI Service Graph Connector for Microsoft release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-ai-sgc-ms.md)**  
@@ -487,5 +489,5 @@ Version history for the Zendesk Spoke on the ServiceNow Store.
 -   **[Zoom spoke release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-zoom.md)**  
 Version history for the Integration Hub Zoom spoke on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-cap.md)
 

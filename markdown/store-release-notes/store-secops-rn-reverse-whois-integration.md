@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Operations Reverse WHOIS Integration release notes
@@ -23,5 +23,5 @@ Version history for the ServiceNow® Security Operations Reverse WHOIS Integrati
     Reverse Whois is a service that performs searches on domain names registered by individuals or organizations. Domain registration information includes the list of all registered domains, active and historical domains, based on a search term consisting of an organization name, registrant email, or registrant phone number. When integrated with ServiceNow Security Operations, this registered domain information provides additional enrichment data and insight for security incidents or investigations.
 
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

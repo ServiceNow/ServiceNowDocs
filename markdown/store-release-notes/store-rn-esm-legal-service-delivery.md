@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Legal Service Delivery release notes
+title: ServiceNow Store - Legal Service Delivery version history release notes
 description: Version history for the Store Legal Service Delivery on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-service-delivery.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Legal Service Delivery release notes
+# ServiceNow Store - Legal Service Delivery version history release notes
 
 Version history for the Store Legal Service Delivery on the ServiceNow Store.
 
@@ -32,6 +32,8 @@ Version history for the Legal Contract Management Pro application on the Service
 Version history for the ServiceNow® Contract Management Pro - Prime application on the ServiceNow Store.
 -   **[Contract Management Pro for Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-contract-mgmt-pro-legal-service-delivery.md)**  
 Version history for the Contract Management Pro for Legal Service Delivery application on the ServiceNow Store.
+-   **[Contract Management Pro MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-contract-mgmt-pro-mcp-server.md)**  
+Version history for the ServiceNow® Contract Management Pro MCP Server application on the ServiceNow Store.
 -   **[External Legal Service Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-external-legal-service-center.md)**  
 Version history for the External Legal Service Center application on the ServiceNow Store.
 -   **[Gifts and Entertainment Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-gifts-entertainment-compliance.md)**  
@@ -82,10 +84,6 @@ Version history for the Legal Virtual Agent Conversations on the ServiceNow Stor
 Version history for the Microsoft Outlook Add-In for Legal Service Delivery application on the ServiceNow Store.
 -   **[Microsoft Word Add-in for ServiceNow Contracts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-ms-word-addin-servicenow-contracts.md)**  
 Version history for the Microsoft Word Add-in for ServiceNow Contracts application on the ServiceNow Store.
--   **[Now Assist for Legal Service Delivery \(LSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-na-legal-service-delivery.md)**  
-Version history for the Now Assist for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
--   **[Now Assist in Contract Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-now-assist-contract-mgmt.md)**  
-Version history for the Now Assist in Contract Management application on the ServiceNow Store.
 -   **[Obligation Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-obligation-mgmt.md)**  
 Version history for the Obligation Management application on the ServiceNow Store.
 -   **[Performance Analytics Content Pack for Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-pa-content-pack-lsd.md)**  
@@ -94,8 +92,12 @@ Version history for the Performance Analytics Content Pack for Legal Service Del
 Version history for the Predictive Intelligence for Legal Service Delivery application on the ServiceNow Store.
 -   **[Contract Management Pro for Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-sn-legal-contracts.md)**  
 Version history for the Contract Management Pro for Legal Service Delivery application on the ServiceNow Store.
+-   **[ServiceNow Otto for Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-now-assist-contract-mgmt.md)**  
+Version history for the ServiceNow® Otto for Contract Management Pro application on the ServiceNow Store.
+-   **[ServiceNow Otto for Legal Service Delivery \(LSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-na-legal-service-delivery.md)**  
+Version history for the ServiceNow Otto for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
 -   **[Word Document Templates release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-word-doc-templates.md)**  
 Version history for the Word Document Templates application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
+**Parent Topic:**[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-dynatrace.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Observability - Dynatrace release notes
@@ -18,6 +18,14 @@ Version history for the Service Graph Connector for Observability - Dynatrace ap
 
 ## Version history
 
+-   **Version 1.16.0 - September 2026**
+    -   Changed:
+        -   Process CI reconciliation against Discovery is improved across DB2, MSSQL, Apache, NGINX, IIS, and PostgreSQL, reducing duplicate process CIs.
+        -   Windows application paths are normalized. Formatting differences don't create duplicate Application CIs now.
+        -   Batch data processing is enabled for all data sources.
+    -   Fixed:
+        -   The connector now links existing VM CIs to their Server CI using object ID matching, instead of creating a duplicate VM CI.
+        -   Process groups are now created even when a group has only one process.
 -   **Version 1.15.0 - June 2026**
     -   Changed:
         -   Enhanced CMDB data quality with richer host attributes, such as MAC address, serial number, manufacturer, model, CPU, OS version, and virtualization flag, improving reconciliation and reducing duplicates.

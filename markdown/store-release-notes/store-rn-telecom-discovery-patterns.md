@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-discovery-patterns.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Telecom Discovery Patterns release notes
@@ -17,6 +17,14 @@ Version history for the Telecom Discovery Patterns application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.0 - September 2026**
+
+    Recertification for Brazil
+
+-   **Version 3.0.9 - August 2026**
+
+    The Discovery Patterns app, along with the connector and core apps, has been fully converted to the Fluent SDK \(Now SDK\) TypeScript format, completing the modernization effort.
 
 -   **Version 2.9.0 - July 2026**
 
@@ -39,5 +47,5 @@ Version history for the Telecom Discovery Patterns application on the ServiceNow
     Telecom Discovery Patterns supports scheduled and On-Demand deep discovery of the Physical Network via SNMP and CLI. It supports direct discovery of Physical Equipment \(Routers, Switches\) and their underlying hierarchy \(Cards, Slots, Sub-Slots, Physical Ports\) using standard SNMP and CLI. It also supports a low code framework to allow custom MIB-based discovery and updating the discovered information into CMDB.
 
 
-**Parent Topic:**[ServiceNow Store - Telecommunications Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
+**Parent Topic:**[ServiceNow Store - Telecommunications Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-highlight.md)
 

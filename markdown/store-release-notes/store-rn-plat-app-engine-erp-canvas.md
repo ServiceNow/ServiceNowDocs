@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-erp-canvas.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ERP Canvas release notes
@@ -17,6 +17,19 @@ Version history for the ERP Canvas on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 10.6.0 - September 2026**
+    -   Support for Oracle E-Business Suite
+    -   Select Oracle E-Business Suite 12.2 or later as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
+    -   Onboard Oracle EBS ISG services
+    -   Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
+    -   AI search for WADL service endpoints
+    -   Search for endpoints of discovered WADL services from the interface using AI Search.
+    -   Row count for the scriptable API
+    -   Call the getRowCount\(\) method on the API class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for execute\(\).
+-   **Version 10.2.0 - August 2026**
+
+    Defect fixes.
 
 -   **Version 10.1.0 - June 2026**
 

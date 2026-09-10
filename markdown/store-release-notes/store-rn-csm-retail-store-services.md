@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-store-services.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Retail release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Retail Store Services release notes
@@ -17,6 +17,17 @@ Version history for the Retail Store Services application on the ServiceNow Stor
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.0.4 - September 2026 \(Brazil\)**
+
+    New: Java 21 compatibility
+
+-   **Version 4.2.0 - September 2026 \(Australia\)**
+    -   New: Moveworks Webhooks: Added MoveworksWebhookHelper, MoveworksAuthStrategy, an async Business Rule, and a Connection &amp; Credential Alias to dispatch lifecycle events to Moveworks.
+    -   Changed: Moveworks Auth: Consolidated MoveworksAuthStrategy to API Key only, removing previously non-functional OAuth CC, JWT-OAuth, and HMAC branches.
+-   **Version 4.1.2 - August 2026**
+
+    Changed: Enabled access for store associates to write install\_base on retail break-fix case
 
 -   **Version 4.0.1 - July 2026**
     -   New:
@@ -44,5 +55,5 @@ Version history for the Retail Store Services application on the ServiceNow Stor
     The Retail Store Services application facilitates streamlined communication between store teams and headquarters \(HQ\) regarding operational questions or issues. Store team members can request help directly from HQ to ensure smooth regular operations.
 
 
-**Parent Topic:**[ServiceNow Store - Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
+**Parent Topic:**[ServiceNow Store - Retail version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail.md)
 

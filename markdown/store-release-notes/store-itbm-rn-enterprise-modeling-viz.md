@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-modeling-viz.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-08-06"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow Store - Enterprise Architecture release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Enterprise Modeling and Visualization release notes
@@ -17,6 +17,14 @@ Version history for the Enterprise Modeling and Visualization application on the
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.2.8 - August 2026 \(Australia\)**
+
+    Changed: Renamed Now Assist to ServiceNow Otto. All Enterprise Modeling and Visualization screens, icons, and generative AI skill names now reflect the ServiceNow Otto brand.
+
+-   **Version 6.2.7 - August 2026 \(Zurich\)**
+
+    Changed: Renamed Now Assist to ServiceNow Otto. All Enterprise Modeling and Visualization screens, icons, and generative AI skill names now reflect the ServiceNow Otto brand.
 
 -   **Version 6.2.4 - July 2026**
     -   Changes: Default AI model provider for the Now Assist skills associated with Enterprise Modeling and Visualization changed from Now LLM to Azure Open AI

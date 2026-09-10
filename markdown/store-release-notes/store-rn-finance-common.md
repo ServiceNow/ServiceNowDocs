@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Finance Close Automation release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Finance Common Architecture release notes
@@ -18,6 +18,33 @@ Version history for the Finance Operations Management Finance Common Architectur
 
 ## Version history
 
+-   **Version 15.0.0 - September 2026 \(Australia\)**
+    -   New:
+        -   Admins can access SPO Product Admin Home as a single entry point.
+        -   Product Hub provides guided installation of SPO applications and plugins.
+        -   Configuration Console offers a guided experience for configuring Procurement Case Management items with completion tracking.
+        -   From Configuration Console, admins can download update sets and upload batch update sets to higher environments.
+    -   Changed:
+        -   SPO configuration is now organized within the Otto for Setup framework, replacing navigation across multiple admin tools and locations.
+        -   The admin experience is now consistent across Product Hub and Configuration Console.
+-   **Version 13.0.0 - September 2026 \(Zurich\)**
+    -   New:
+        -   Procurement administrators can use a system property to show or hide the Purchase Requisition and Purchase Order progress trackers.
+        -   Procurement administrators can configure Purchase Requisition and Purchase Order progress tracker states, including adding custom states.
+        -   Added an informational card to the progress tracker that displays next steps, SLA indicators, related cases, tasks, and owners for a purchase order.
+        -   AI Data Explorer now supports insights across multiple tables.
+-   **Version 14.0.2 - August 2026 \(Australia\)**
+    -   New: Introduced the Jurisdiction table to store jurisdiction names, codes, types, and associated tax authority.
+    -   Changed:
+        -   Enhanced the Tax Type table to associate tax types with jurisdictions.
+        -   Updated the Tax Type list view to display jurisdiction type and tax authority.
+        -   When adding a tax line, jurisdiction type and tax authority now populate automatically based on the selected tax type. These fields are hidden by default and can be enabled as needed.
+-   **Version 12.1.1 - August 2026 \(Zurich\)**
+    -   New: Introduced the Jurisdiction table to store jurisdiction names, codes, types, and associated tax authority.
+    -   Changed:
+        -   Enhanced the Tax Type table to associate tax types with jurisdictions.
+        -   Updated the Tax Type list view to display jurisdiction type and tax authority.
+        -   When adding a tax line, jurisdiction type and tax authority now populate automatically based on the selected tax type. These fields are hidden by default and can be enabled as needed.
 -   **Version 12.0.1 - June 2026**
     -   New:
         -   When creating Purchase Requisitions with Ariba as the target ERP, users can select only Cost Center as the cost allocation type. Other allocation types are not supported.

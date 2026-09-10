@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-contract-mgmt-pro.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Contract Management Pro release notes
@@ -18,6 +18,13 @@ Version history for the Legal Contract Management Pro application on the Service
 
 ## Version history
 
+-   **Version 1.7.13 - September 2026**
+    -   New: Parallel signature is now supported, allowing multiple signatories to sign a contract concurrently with Adobe Sign or DocuSign.
+    -   Fixed: Fixed an issue where spaces between words were deleted while submitting change request for own paper workflow.
+-   **Version 1.7.11 - August 2026**
+    -   Fixed:
+        -   Security fixes.
+        -   The Contract Type picker in the Create Revision Modal now displays a search option.
 -   **Version 1.7.6 - June 2026**
     -   New:
         -   Contract requests now support offline signatures, enabling users to manage contracts signed outside the system.
@@ -163,5 +170,5 @@ Version history for the Legal Contract Management Pro application on the Service
     -   Contract Management Pro provides updated capabilities including a centralized and modern interface for easy cross-collaboration. All contract revisions can be viewed and made from one consolidated workspace, and additional parties can be added for review and approval. Higher stakeholder satisfaction is ensured as the system streamlines processes across the contract lifecycle to ensure prompt contract delivery.
     -   Utilize the power of Microsoft Word to efficiently generate new contracts and relevant legal documents. Conveniently store and author reusable contracts templates using Word to deliver prompt services. Ensure contract consistency and compliance by using pre-approved clauses from a library. Lastly, automated email reminders keep the business well-informed and ensures that no contract expiration goes unnoticed.
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

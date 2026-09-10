@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-02-18"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Roadmap Planning release notes

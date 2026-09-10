@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM - Advanced release notes
@@ -16,6 +16,79 @@ Version history for the ServiceNow® ITSM - Advanced application on the ServiceN
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.3.1 - September 2026**
+
+    Changed: No code updates were made in this release. The release number has been updated to maintain consistency with changes in related IT Service Management applications.
+
+-   **Version 2.3.3 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.2.5 - August 2026**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.1.4 - August 2026 \(Zurich\)**
+    -   New:
+        -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.
+        -   A new Teams-native AI agent lets shift agents manage on-call coverage directly in chat — requesting coverage or leave, and asking questions like "who is on call" or "when is my next shift."
+        -   Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+        -   The DEX Diagnosis AI agent now factors in event monitoring logs and statistical anomaly signals alongside existing telemetry for more accurate root-cause diagnoses, and now surfaces the specific evidence behind each conclusion.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed a date-formatting issue in the Change Outage Assistant AI agent.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Reduced processing time for the Generate Change Request Plans AI flow, which had been taking an unusually long time to complete
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
 -   **Version 2.1.2 - July 2026 \(Zurich\)**
 
     No release notes.
@@ -73,5 +146,5 @@ Version history for the ServiceNow® ITSM - Advanced application on the ServiceN
     Advanced moves beyond assistance into automation, designed to deflect complex requests upfront and automate what reaches the desk. AI doesn't just help — it does some of the work by understanding context, applying domain knowledge, and automating entire processes end-to-end through out-of-the-box agentic workflows. On the requester side, Moveworks handles domain-specific IT and HR requests at the point of conversation before they become tickets, deflecting nuanced requests using OOTB Specialized Assistants and guiding employees through policy-aware responses. On the fulfiller side, Now Assist starts resolving cases the moment they land so fulfillers spend less time on setup and more time closing — executing multi-step workflows autonomously using OOTB agentic workflows for IT and HR. Specialized Assistants for IT and HR are coming in H2 2026.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

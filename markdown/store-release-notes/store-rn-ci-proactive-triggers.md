@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Proactive Triggers release notes
@@ -59,5 +59,5 @@ Version history for the Proactive Triggers application on the ServiceNow Store.
     -   Proactive admins use Proactive rules to define when, where, and how to engage with customers. These rules have related actions.
     -   The Proactive action defines what is executed to the client side when the rule runs. The Trigger type defines the context in which the rule runs \(for example, URL, catalog item, or knowledge article\). The frequency defines when the rule runs and to whom the rule applies. Admins define this criteria based on when customers are most likely need help, such as when ordering equipment, opening an incident/case, or viewing information in a Knowledge Base article. Proactive rules can be applied to any defined URL, including service portal, catalog item, or external site.
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-log-export-service.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Log Export Service release notes
@@ -18,11 +18,26 @@ Version history for the Log Export Service on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.6.0 - September 2026**
+    -   New:
+        -   Historical log backfill: You can now replay historical log data to your Kafka destination, in addition to live logs. A new setup screen lets you select the log table, date range, target topic, batch size, and throttling. Backfill settings are locked once a run begins to prevent accidental changes mid-run, and a live run status is displayed while the backfill is in progress.
+        -   LES now supports the following additional log source tables:
+        -   -   sys\_flow\_log: Captures execution details and status of flow engine processes, for both live and historical export
+-   sys\_user\_login\_history: Captures user login attempts and authentication events
+-   sys\_audit\_delete and sys\_audit\_relation: Delete and relationship audit records — so your compliance trail now includes record deletions and reference-field changes, not just regular field changes.
+        -   Auditor role: A new sn\_logstoanalytics.auditor role lets auditors view Log Export Service activity without broader administrator access.
+    -   Changed: Guided setup now includes a Test MID Connection step, so you can verify connectivity to the Kafka cluster before exporting logs catching configuration problems earlier.
+    -   Fixed:
+        -   Log sources created with a scope filter exported logs using the default Syslog configuration instead of the specified configuration.
+        -   The Topic field did not appear when creating a Syslog or sys\_audit log source until the record was saved and reopened.
+        -   Broken links in the Kafka and MID Server consumer guided setup screens.
+        -   A broken link on the Hermes Messaging Service setup step, which also displayed an inaccurate status.
+        -   The backfill run table earlier displayed an inaccurate report visibility issue for some users due to a missing ACL.
 -   **Version 3.5.0 - June 2026**
     -   What's New:
         -   Auto-Configuration of Default Log Sources on Plugin Activation Log Export Service now automatically configures syslog and sys\_audit as default log sources when the LES plugin is activated. Previously, administrators had to manually configure these sources after activation. This reduces post-install setup time and ensures a consistent baseline configuration out of the box.
         -   LES Metrics Visibility in Vault Console New APIs expose LES operational metrics directly within the Vault Console. Security administrators can now view export health, throughput, and connectivity status alongside other platform security posture data without context-switching to a separate LES admin view. This closes a key dependency \(DEP0046129\) required for the Vault Console integration.
-        -   Extended Audit Log Source Support: sys\_audit\_delete and sys\_audit\_relation LES now supports two additional audit log source types: sys\_audit\_delete \(records of deleted records\) and sys\_audit\_relation \(relationship-level audit changes\). This expands audit coverage for customers with compliance requirements around deletion and relational data changes, and addresses a request from SAP customers.
+        -   Extended Audit Log Source Support: LES now supports two additional audit log source types: sys\_audit\_delete, which captures records of deleted items, and sys\_audit\_relation, which captures relationship-level audit changes. This enhancement expands audit coverage for organizations with compliance requirements related to record deletions and relational data changes.
         -   Updated Guided Setup for MID Server Connectivity \(Hermes\) The LES guided setup flow has been refreshed to include an updated connectivity check for Hermes-based MID server configurations, improving clarity and reducing friction during initial setup and re-configuration.
 -   **Version 3.4.0 - March 2026**
     -   New:
@@ -92,5 +107,5 @@ Version history for the Log Export Service on the ServiceNow Store.
     -   Supports filters to reduce log source export size.
     -   Provides report and analytics for log sources data size.
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

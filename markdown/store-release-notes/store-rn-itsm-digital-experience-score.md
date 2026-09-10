@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Digital Experience Score​ release notes
@@ -32,5 +32,5 @@ Version history for the Digital Experience Score​ application on the ServiceNo
         -   Service desk experience 
     -   With the ability to drill down into application or device operating system performance and leveraging data collected at various intervals, organizations can identify and address areas for improvement, ultimately enhancing the overall digital experience for their employees. 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

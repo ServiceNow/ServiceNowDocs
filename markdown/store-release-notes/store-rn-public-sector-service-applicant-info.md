@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-service-applicant-info.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Applicant Information release notes
@@ -18,6 +18,19 @@ Version history for the Service Applicant Information application on the Service
 
 ## Version history
 
+-   **Version 5.0.2 - September 2026**
+
+    New: Agent readiness controls are now fully implemented for Service Applicant Information repositories. Agent-specific documentation is available, development commands are documented, technical documentation covers major application components, pre-commit validation hooks are enforced, automated CI validation runs on pull requests, governance controls are active, automated tests cover critical functionality, and repository readiness assessment confirms L3 compliance.
+
+-   **Version 3.2.5 - September 2026**
+
+    Defect fixes
+
+-   **Version 4.1.1 - August 2026**
+    -   Changed:
+        -   The plugin now supports compatibility with the Zurich release, ensuring seamless integration and operation with Zurich environments.
+        -   All customer-facing "Now Assist" references have been rebranded to "ServiceNow Otto". UI text, labels, help content, and localization files now use the new branding as directed. Assertions and translations have been updated accordingly.
+    -   Fixed: The plugin dependency issue from the previous release has been resolved. Customers can now install and use the plugin without encountering compatibility errors.
 -   **Version 4.1.0 - July 2026**
 
     Minor fixes and enhancements

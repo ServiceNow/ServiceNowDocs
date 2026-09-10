@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AI Risk and Compliance Content release notes
@@ -38,5 +38,5 @@ Version history for the AI Risk and Compliance Content application on the Servic
     Keep pace with AI Regulations: Prepare for new and emerging regulations and standards such as the European Union AI Act and the National Institute of Standards and Technology \(NIST\) AI Risk Management Framework \(AI RMF\) by linking AI use cases to related assessments, risks, controls, and policies. This application serves as a centralized repository for frameworks, citations, control objectives, risk statements, and assessment templates. Using this application provides customers with an operational advantage when adopting various regulations and frameworks.
 
 
-**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
+**Parent Topic:**[ServiceNow Store - Governance, Risk, and Compliance version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc.md)
 

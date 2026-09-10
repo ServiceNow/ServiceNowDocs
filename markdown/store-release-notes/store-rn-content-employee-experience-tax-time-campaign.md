@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2022-11-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Tax Time Campaign release notes
@@ -51,5 +51,5 @@ Version history for the Employee Experience Pack: Tax Time Campaign on the Servi
             -   1 Knowledge Article:
                 -   How to Update Your Tax Withholdings
 
-**Parent Topic:**[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
+**Parent Topic:**[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
 

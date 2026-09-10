@@ -1,23 +1,30 @@
 ---
-title: Now Assist for Legal Service Delivery \(LSD\) release notes
-description: Version history for the Now Assist for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
+title: ServiceNow Otto for Legal Service Delivery \(LSD\) release notes
+description: Version history for the ServiceNow Otto for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-na-legal-service-delivery.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for Legal Service Delivery \(LSD\) release notes
+# ServiceNow Otto for Legal Service Delivery \(LSD\) release notes
 
-Version history for the Now Assist for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
+Version history for the ServiceNow Otto for Legal Service Delivery \(LSD\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 1.9.7 - September 2026**
+    -   Fixed:
+        -   Fixed plugin names and icons for ServiceNow Otto for Legal Service Delivery in AI Admin Hub.
+        -   Fixed the assist count consumption issue for the Legal risk evaluator skill.
+-   **Version 1.9.4 - August 2026**
+    -   Changed: ServiceNow Otto is the new AI experience brand. Now Assist for Legal Service Delivery is ServiceNow Otto for Legal Service Delivery.
+    -   Fixed: The ServiceNow Otto panel now starts a single chat session for a legal request record instead of opening multiple concurrent sessions.
 -   **Version 1.8.1 - June 2026**
     -   Changed: Support for upgraded versions of third party LLMs has been provided.
     -   Fixed: Legal request and matter summarization now delivers improved accuracy across all supported models
@@ -84,5 +91,5 @@ Version history for the Now Assist for Legal Service Delivery \(LSD\) applicatio
     ServiceNow Now Assist for Legal Service Delivery \(LSD\) enables generative AI capabilities to streamline legal work by summarising legal requests and matters to boost legal team's productivity and deliver faster resolution for employees.
 
 
-**Parent Topic:**[ServiceNow Store - Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
+**Parent Topic:**[ServiceNow Store - Legal Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-legal-service-delivery.md)
 

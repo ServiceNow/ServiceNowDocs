@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - Core Business release notes
+title: ServiceNow Store - Core Business version history release notes
 description: The ServiceNow Store contains various Core Business applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-core-business.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2026-04-09"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - Core Business release notes
+# ServiceNow Store - Core Business version history release notes
 
 The ServiceNow Store contains various Core Business applications.
 
@@ -62,8 +62,8 @@ Version history for the ServiceNow® Core Business Suite Prime for Legal applica
 Version history for the ServiceNow® Core Business Suite Prime for Source to Pay application on the ServiceNow Store.
 -   **[Core Business Suite Prime for Workplace Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-business-suite-prime-workplace-services.md)**  
 Version history for the ServiceNow® Core Business Suite Prime for Workplace Services application on the ServiceNow Store.
--   **[Now Assist for Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-businessnow-assist-core-business-suite.md)**  
-Version history for the ServiceNow® Now Assist for Core Business Suite application on the ServiceNow Store.
+-   **[ServiceNow Otto for Core Business Suite \(CBS\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-core-businessnow-assist-core-business-suite.md)**  
+Version history for the ServiceNow® ServiceNow Otto for Core Business Suite \(CBS\) application on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
+**Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

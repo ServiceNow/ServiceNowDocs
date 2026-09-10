@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-financial-services-integration-FRISS.html
 release: store
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Operations integration with FRISS release notes
@@ -17,6 +17,10 @@ Version history for the Financial Services Operations integration with FRISS app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.0 - September 2026**
+
+    Changed: Updated internal application components to support ongoing platform enhancements
 
 -   **Version 1.3.0 - March 2026**
 
@@ -38,5 +42,5 @@ Version history for the Financial Services Operations integration with FRISS app
     -   The FRISS Trust Automation Platform provides real-time, data-driven scores and insights that give understanding of the inherent risks of all customers and interactions.
     -   The ServiceNow Financial Services Operations Integration with FRISS enables Property &amp; Casualty insurers to integrate with FRISS to build trust automation within their solutions. This app provides an easy-to-use plug and play solution which can be integrated to any of the insurance flows developed with Financial Services Operations.
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

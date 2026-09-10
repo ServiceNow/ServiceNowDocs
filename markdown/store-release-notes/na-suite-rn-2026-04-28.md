@@ -114,7 +114,7 @@ Fixed: Improved reliability of opening Build Agent from developer portal links t
 |DocIntel Vision AI Agent|1.0.2|2026-04-09|
 |Document Intelligence for Contract Management Content Pack|1.4.1|2026-03-12|
 |Dynamic Guidance|28.2.15|2026-04-09|
-|External content connectors - Now assist agent|1.0.4|2026-04-09|
+|External content connectors - Now Assist agent|1.0.4|2026-04-09|
 |Field Service Management AI agent collection|2.1.0|2026-04-09|
 |Financial Services Operations AI agent collection|3.0.3|2025-12-11|
 |Flow Designer GenAI|29.1.3|2026-03-12|

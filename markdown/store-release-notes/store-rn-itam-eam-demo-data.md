@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-eam-demo-data.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # EAM Demo Data release notes
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Asset Management release notes, ServiceNow St
 Version history for the ServiceNow® EAM Demo Data application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.3.0 - September 2026**
+
+    Changed: Updated demo data for new features.
 
 -   **Version 1.2.1 - May 2026**
     -   Fixed: Demo data for EAM calibration attributes has been migrated from the deprecated sn\_asset\_cmn\_service\_attribute table to the correct sn\_eam\_calibration\_attr table.
@@ -35,5 +39,5 @@ Version history for the ServiceNow® EAM Demo Data application on the ServiceNow
     -   This app is intended for partners, Solution Consultants \(SCs\), and customers to install directly from the ServiceNow Store for internal demos, enablement, and evaluation purposes.
     -   The EAM Demo Data app installs on an existing EAM instance and may modify current configurations. Therefore, it should only be used for demo purposes by internal stakeholders and is not recommended for installation in production or sub-production environments. We do not take responsibility for data loss or overwriting existing data if installed without proper consideration.
 
-**Parent Topic:**[ServiceNow Store - IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
+**Parent Topic:**[ServiceNow Store - IT Asset Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itam-highlight.md)
 

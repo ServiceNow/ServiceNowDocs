@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-visa-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Visa Spoke release notes
@@ -18,6 +18,11 @@ Version history for the Visa Spoke application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.1.0 - September 2026 \(Brazil\)**
+    -   Changed:
+        -   Updated spoke actions to align with the latest Visa API revision 26.2.
+        -   Updated internal application components to support ongoing platform enhancements.
+    -   Fixed: Fixed a casing mismatch in the "Create Dispute Pre-Arbitration" action where Probability\_of\_Successwas not being correctly mapped, causing the dispute\_intelligence.probability\_of\_successfield to always be empty in downstream flows.
 -   **Version 2.5.2 - May 2026**
 
     Fixed: Fixed dispute questionnaire spoke regression issue

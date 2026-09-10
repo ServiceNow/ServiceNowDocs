@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-devops.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 41
-breadcrumb: [ServiceNow Store - DevOps release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 42
+breadcrumb: [ServiceNow Store - DevOps version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DevOps Data Model release notes
@@ -17,6 +17,18 @@ Version history for the DevOps Data Model application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.1.1 - September 2026**
+    -   Changed:
+        -   Rally Authentication with OAuth 2.0
+            -   Authenticate a Rally tool connection using OAuth 2.0 credentials to strengthen your tool security.
+        -   GitHub Data Residency support
+            -   Connect to GitHub Enterprise Server with data residency controls to ensure your organization's code and data remain in your preferred geographic location.
+        -   GitLab Rerun support
+            -   GitLab pipeline reruns are now captured in full detail, maintaining complete upstream linkage between pipeline runs and their retry history.
+-   **Version 6.2.1 - August 2026**
+
+    Changed: No code updates were made in this release. The release number has been updated to maintain consistency with changes in related DevOps applications.
 
 -   **Version 7.0.0 - June 2026**
     -   Changed:
@@ -530,5 +542,5 @@ Version history for the DevOps Data Model application on the ServiceNow Store.
     -   Store test results from Jenkins including JUnit and Selenium tests.
     -   Jenkins plugin provided to enable Change Acceleration.
 
-**Parent Topic:**[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
+**Parent Topic:**[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
 

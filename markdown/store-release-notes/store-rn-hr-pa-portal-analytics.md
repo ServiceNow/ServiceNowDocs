@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics - Portal Analytics release notes
@@ -47,5 +47,5 @@ Version history for the Performance Analytics - Portal Analytics application on 
     When a customer is using Employee Center Pro, Employee Service Center, or even a standard Service Portal, they have the ability to use the Content Analytics plugin for reporting on various types of portal-based web traffic analytics. When coupled with a Performance Analytics subscription, this dashboard is provided out-of-the-box to have a rich set of analytics reporting capabilities to help customers get insights on how their portal content is performing.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

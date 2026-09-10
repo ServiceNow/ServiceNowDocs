@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-05-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Healthcare and Life Sciences release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Performance Analytics Content Pack for Healthcare CDM release notes

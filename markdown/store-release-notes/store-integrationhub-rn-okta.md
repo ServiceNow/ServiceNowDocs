@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-okta.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Okta Spoke release notes
@@ -18,6 +18,10 @@ Version history for the Integration Hub Okta Spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.8.3 - September 2026**
+    -   Fixed:
+        -   Enhanced sample webhook security
+        -   Look up Group Members Stream fails with "Cannot convert null to an object" when Okta returns null names
 -   **Version 4.8.0 - June 2026**
     -   Security fix on non-glide ACLs
     -   Fixed: API responses pagination for OOB Flow action "Is User in Group"

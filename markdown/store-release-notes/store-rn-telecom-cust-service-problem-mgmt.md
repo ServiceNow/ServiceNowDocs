@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-cust-service-problem-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Telecommunications Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Service Problem Management release notes
@@ -17,6 +17,14 @@ Version history for the Customer Service Problem Management application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.1.0 - September 2026**
+
+    Maintenance only
+
+-   **Version 8.0.2 - August 2026**
+
+    1 Support of CSPM  as a record view.
 
 -   **Version 7.0.1 - June 2026**
     -   Fixes related to Accessibility

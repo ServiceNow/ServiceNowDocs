@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2021-04-15"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Financial Services release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Financial Services Document Management release notes
@@ -41,5 +41,5 @@ Version history for the Financial Services Operations Financial Services Documen
     Provides capabilities to manage middle and back office tasks that are assigned to the Document Services team across any Financial Services workflow.
 
 
-**Parent Topic:**[ServiceNow Store - Financial Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
+**Parent Topic:**[ServiceNow Store - Financial Services version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-fso-highlight.md)
 

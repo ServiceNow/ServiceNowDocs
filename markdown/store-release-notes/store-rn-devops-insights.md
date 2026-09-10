@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-devops-insights.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - DevOps release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - DevOps version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DevOps Insights release notes
@@ -17,6 +17,16 @@ Version history for the DevOps Insights application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.1.1 - September 2026**
+    -   Changed:
+        -   Rally Authentication with OAuth 2.0
+            -   Authenticate a Rally tool connection using OAuth 2.0 credentials to strengthen your tool security.
+        -   GitHub Data Residency support
+            -   Connect to GitHub Enterprise Server with data residency controls to ensure your organization's code and data remain in your preferred geographic location.
+-   **Version 6.2.1 - August 2026**
+
+    Fixed: Security bug
 
 -   **Version 7.0.0 - June 2026**
     -   Changed:
@@ -121,5 +131,5 @@ Version history for the DevOps Insights application on the ServiceNow Store.
     -   System Health insights
     -   Development insights
 
-**Parent Topic:**[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
+**Parent Topic:**[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
 

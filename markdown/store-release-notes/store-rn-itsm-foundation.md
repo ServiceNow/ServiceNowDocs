@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+last_updated: "2026-08-06"
+reading_time_minutes: 7
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ITSM - Foundation release notes
@@ -16,6 +16,57 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.3.3 - August 2026**
+    -   New: Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.2.6 - August 2026**
+    -   New: Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
+-   **Version 2.1.4 - August 2026 \(Zurich\)**
+    -   New: Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
+    -   Changed:
+        -   Now Assist, Moveworks, and "AI Experience" branding has been renamed to ServiceNow Otto across in-product labels, icons, tooltips, and documentation.
+        -   Incident Managers can now drill from any indicator on the Insights and Opportunities dashboard directly into the underlying incident records without losing their place on the dashboard.
+        -   The employee consent experience for remedial actions is more consistent and accurate: duplicate requests are no longer triggered for already-approved or declined actions, and messaging now notes when a device needs to stay online.
+    -   Fixed:
+        -   Fixed an issue where the summarize capability could produce an irrelevant summary on requested items with many related records.
+        -   Corrected a remaining reference to the previous Now Assist branding that had been missed during the ServiceNow Otto rename.
+        -   Fixed an issue on the Insights and Opportunities dashboard where assigning an incident to a cluster could fail and prevent clustering from completing.
+        -   Fixed an issue where the incident investigation and resolution workflow could fail with an "incident search/read service unavailable" error.
+        -   Fixed an issue where the knowledge-article search filters used by the Create Incident AI agent were not being applied correctly.
+        -   Improved the error message shown for the Resolution Notes generation skill when the "display in product desktop" setting is turned off
+        -   Fixed an issue where built-in ITSM AI agents were unintentionally discoverable and visible within the Now Assist Platform
+        -   Fixed an issue where a required role was missing from the Link Major Incident agent's flow, which could prevent the agent from working as expected for some users
+        -   Fixed an issue where the Triage and Categorize AI agent could assign an irrelevant, caller-owned device as the configuration item when the matched service offering had no related configuration items of its own
+    -   Removed: No items removed in this release
 -   **Version 2.1.2 - July 2026 \(Zurich\)**
 
     No release notes.
@@ -56,5 +107,5 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
     Foundation is the entry point into ServiceNow's AI-native ITSM experience, designed to give requesters faster answers and fulfillers a head start on every case. It delivers out-of-the-box GenAI skills and AI Agents that help your team work smarter — not replace them. On the requester side, Moveworks deflects requests at the point of ask before anything reaches the service desk, surfacing answers from 25K+ indexed knowledge articles and resolving requests through natural language across Slack, Teams, and web. On the fulfiller side, Now Assist speeds up resolution from the moment a case is created — summarizing incidents so agents start with full context, and cutting triage time with AI that suggests next steps and routes work automatically. Core capabilities include summarization, pattern recognition, categorization, and task-based assistance.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

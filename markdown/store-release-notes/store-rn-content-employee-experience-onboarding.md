@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2020-11-19"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Content release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Content version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Employee Experience Pack: Enterprise Onboarding release notes
@@ -54,5 +54,5 @@ Version history for the Employee Experience Pack: Enterprise Onboarding in Conte
     -   Fixed:
         -   Miscellaneous packaging fixes
 
-**Parent Topic:**[ServiceNow Store - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
+**Parent Topic:**[ServiceNow Store - Content version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-content.md)
 

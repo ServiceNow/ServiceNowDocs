@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-smart-assessment-fs-questionnaire.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Field Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Smart Assessment for Field Service Questionnaire release notes
@@ -17,6 +17,10 @@ Version history for the Smart Assessment for Field Service Questionnaire applica
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.3.5 - September 2026**
+
+    Enhanced security
 
 -   **Version 3.2.0 - June 2026**
     -   New:

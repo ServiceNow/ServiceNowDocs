@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-security-exposure-mgmt-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Store - Security Operations Shared apps for release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Operations Shared apps version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Exposure Management Workspace release notes
@@ -16,6 +16,13 @@ Version history for the ServiceNow® Security Exposure Management Workspace appl
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.7.6 - September 2026 \(USEM\)**
+    -   Fixed:
+        -   Users can now edit all active findings directly from the dashboard in the Security Exposure Management Workspace.
+        -   The table context property in the SEM/VR Workspace persists after browser refresh.
+-   **Version 30.6.1 - August 2026**
+    -   New: Added an Armis integration findings view in Security Exposure Management \(SEM\) Workspace to provide visibility into fix findings.
+    -   Changed: Updated SEM Insights skill branding to reflect the new "Otto" AI product naming \(formerly "Now Assist"\).
 -   **Version 30.5.1 - June 2026**
     -   New:
         -   Added an Overview tab for Solutions, Configuration Items, and Remediation Effort records in the Security Exposure Management \(SEM\) Workspace.
@@ -48,5 +55,5 @@ Version history for the ServiceNow® Security Exposure Management Workspace appl
     -   Vulnerability Analysts benefit from the Findings View, which provides comprehensive visibility across all exposure types, along with powerful dashboard creation and configuration capabilities. Remediation Owners can work flexibly byRemediation Tasks, Findings, or Assets, with prioritisation tools to focus on the most critical issues.
     -   The Admin Console centralises configuration and administration for all USEM applications, eliminating the need to navigate multiple modules and ensuring consistent settings across the environment.
 
-**Parent Topic:**[ServiceNow Store - Security Operations Shared apps for release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-shared.md)
+**Parent Topic:**[ServiceNow Store - Security Operations Shared apps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-shared.md)
 

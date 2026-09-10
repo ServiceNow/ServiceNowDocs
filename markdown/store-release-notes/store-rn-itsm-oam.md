@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Outlook Actionable Messages release notes
@@ -75,5 +75,5 @@ Version history for the ITSM Outlook Actionable Messages app on the ServiceNow S
     -   Outlook Actionable Messages enables rich interactive emails for approvals and surveys in Microsoft Outlook. With Actionable Messages, it’s easier and faster to approve or complete a survey when you can take action right from the email message.
     -   New: Support for Signed Cards, Support for Outlook Mobile
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

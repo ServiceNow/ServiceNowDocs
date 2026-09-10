@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Store - HR Service Delivery release notes
+title: ServiceNow Store - HR Service Delivery version history release notes
 description: The ServiceNow Store contains HR Service Delivery applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr.html
@@ -7,10 +7,10 @@ release: store
 topic_type: reference
 last_updated: "2025-10-16"
 reading_time_minutes: 11
-breadcrumb: [ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Store - HR Service Delivery release notes
+# ServiceNow Store - HR Service Delivery version history release notes
 
 The ServiceNow Store contains HR Service Delivery applications.
 
@@ -116,6 +116,8 @@ Version history for the HR Service Delivery for Microsoft 365 application on the
 Version history for the HR Service Delivery for mobile on the ServiceNow Store.
 -   **[HR Service Delivery for Process Mining Content Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-hrsd-process-mining-content-pack.md)**  
 Version history for the HR Service Delivery for Process Mining Content Pack application on the ServiceNow Store.
+-   **[HR Service Delivery Implementation Agents release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hrsd-implementation-agents.md)**  
+Version history for the ServiceNow® HR Service Delivery Implementation Agents application on the ServiceNow Store.
 -   **[HR Service Delivery Integration with Cornerstone OnDemand release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-integration-with-cornerstone-ondemand.md)**  
 Version history for the HR Service Delivery Integration with Cornerstone OnDemand on the ServiceNow Store.
 -   **[HR Service Delivery Integration with Magnit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-magnit.md)**  
@@ -142,6 +144,8 @@ Version history for the HR Success Dashboard indicators application on the Servi
 Version history for the ServiceNow® HRSD - Advanced application on the ServiceNow Store.
 -   **[HRSD - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-hrsd-prime.md)**  
 Version history for the ServiceNow® HRSD - Prime application on the ServiceNow Store.
+-   **[HRSD Employee Relations Application release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hrsd-employee-relations-app.md)**  
+Version history for the ServiceNow® HRSD Employee Relations application on the ServiceNow Store.
 -   **[HRSD integration with SuccessFactors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-hrsd-integration-successfactors.md)**  
 Version history for the HRSD integration with SuccessFactors application on the ServiceNow Store.
 -   **[HR Service Delivery Process Mining Content Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-process-op-content-pack.md)**  
@@ -164,6 +168,8 @@ Version history for the HR Service Delivery Journey Accelerator on the ServiceNo
 Version history for the Journey designer application on the ServiceNow Store.
 -   **[Guided Self-Service in Employee Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-guided-self-service-employee-center.md)**  
 Version history for the Guided Self-Service in Employee Center application on the ServiceNow Store.
+-   **[HRSD MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hrsd-mcp-server.md)**  
+Version history for the ServiceNow® HRSD MCP Server application on the ServiceNow Store.
 -   **[Leader Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-leader-hub.md)**  
 Version history for the Leader Hub application on the ServiceNow Store.
 -   **[Learning release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-learning.md)**  
@@ -178,18 +184,6 @@ Version history for the HR Service Delivery Listening Posts on the ServiceNow St
 Version history for the Manager Hub application on the ServiceNow Store.
 -   **[Mentoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-egd-mentoring.md)**  
 Version history for the Mentoring application on the ServiceNow Store.
--   **[Now Assist AI Helper - Galileo Inside release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-ai-helper-galileo-inside.md)**  
-Version history for the Now Assist AI Helper - Galileo Inside application on the ServiceNow Store.
--   **[Now Assist for Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-employee-center-pro.md)**  
-Version history for Now Assist for Employee Center Pro on the ServiceNow Store.
--   **[Now Assist for Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-employee-experience.md)**  
-Version history for the Now Assist for Employee Experience on the ServiceNow Store.
--   **[Now Assist for Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-health-safety.md)**  
-Version history for the Now Assist for Health and Safety application on the ServiceNow Store.
--   **[Now Assist for HRSD release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-hrsd.md)**  
-Version history for the Now Assist for HRSD on the ServiceNow Store.
--   **[Now Assist for HRSD- Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-hrsd-foundation.md)**  
-Version history for the ServiceNow® Now Assist for HRSD - Foundation application on the ServiceNow Store.
 -   **[Now Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-mobile.md)**  
 Version history for the Now Mobile application on the ServiceNow Store.
 -   **[Opportunity Marketplace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-opportunity-marketplace.md)**  
@@ -212,6 +206,18 @@ Version history for the Safe Workplace for mobile application on the ServiceNow 
 Version history for the Safe Workplace suite on the ServiceNow Store.
 -   **[Safe Workplace suite Professional release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-sw-suite-professional.md)**  
 Version history for the Safe Workplace suite Professional on the ServiceNow Store.
+-   **[ServiceNow Otto AI Helper - Galileo Inside release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-ai-helper-galileo-inside.md)**  
+Version history for the ServiceNow Otto® AI Helper - Galileo Inside application on the ServiceNow Store.
+-   **[ServiceNow Otto for Employee Center Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-employee-center-pro.md)**  
+Version history for ServiceNow Otto for Employee Center on the ServiceNow Store.
+-   **[ServiceNow Otto for Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-employee-experience.md)**  
+Version history for the ServiceNow Otto for Employee Experience on the ServiceNow Store.
+-   **[ServiceNow Otto for Health and Safety release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-health-safety.md)**  
+Version history for the ServiceNow Otto for Health and Safety application on the ServiceNow Store.
+-   **[ServiceNow Otto for HRSD release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-hrsd.md)**  
+Version history for the ServiceNow Otto for HRSD on the ServiceNow Store.
+-   **[ServiceNow Otto for HRSD- Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-now-assist-hrsd-foundation.md)**  
+Version history for the ServiceNow® ServiceNow Otto for HRSD - Foundation application on the ServiceNow Store.
 -   **[ServiceNow Voice for HR Service Delivery \(HRSD\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-sn-voice-hrsd.md)**  
 Version history for the ServiceNow® Voice for HR Service Delivery \(HRSD\) application on the ServiceNow Store.
 -   **[SharePoint Online Search Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-sharepoint-online-search-connector.md)**  
@@ -239,5 +245,5 @@ Version history for the Safe Workplace Workplace PPE Inventory Management applic
 -   **[Workplace Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-workplace-safety-management.md)**  
 Version history for the Workplace Core on the ServiceNow Store.
 
-**Parent Topic:**[ServiceNow Store - Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
+**Parent Topic:**[ServiceNow Store - Employee Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm.md)
 

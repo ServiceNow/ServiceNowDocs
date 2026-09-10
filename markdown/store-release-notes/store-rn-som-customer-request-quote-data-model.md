@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-customer-request-quote-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Sales Customer Relationship Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Customer Request for Quote Data Model release notes
@@ -17,6 +17,22 @@ Version history for the ServiceNow® Customer Request for Quote Data Model appli
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.9.0 - September 2026 \(Australia\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 1.8.0 - September 2026 \(Zurich\)**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 1.7.1 - August 2026 \(Australia\)**
+
+    Changed: Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
+
+-   **Version 1.5.0 - August 2026 \(Zurich\)**
+
+    Changed: Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 1.2.1 - June 2026 \(Australia\)**
 
@@ -31,5 +47,5 @@ Version history for the ServiceNow® Customer Request for Quote Data Model appli
     Customer Request for Quote Data Model application includes all the tables needed to store and organize request for quotes submitted by customers through the Business Portal.
 
 
-**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
+**Parent Topic:**[ServiceNow Store - Sales Customer Relationship Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-sales-order-management-highlights.md)
 

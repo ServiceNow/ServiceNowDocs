@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Goal Framework release notes
@@ -17,6 +17,10 @@ Version history for the ITBM Goal Framework application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.13.1 - September 2026**
+
+    Changed: Updated platform directives for scoping bypass handling and Cobalt Raven access control list \(ACL\) management.
 
 -   **Version 4.13.0 - June 2026**
 
@@ -127,5 +131,5 @@ Version history for the ITBM Goal Framework application on the ServiceNow Store.
     Goal Framework enables strategic planning and helps define and construct strategic priorities and associated goals for the organization. This application facilitates personas such as strategy officers, the SRO, ePMO, and portfolio managers to track strategy execution by associating work and planning items such as demand, project, and portfolio to the defined goals.
 
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

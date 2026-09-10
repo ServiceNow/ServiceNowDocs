@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-gantt-ui-builder-component.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [ServiceNow Store - Strategic Portfolio Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Gantt UI Builder Component release notes
@@ -18,6 +18,11 @@ Version history for the on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 26.1.4 - September 2026**
+    -   Fixed:
+        -   Resolved an issue where focus moved unexpectedly to the first table's column headers when using the resizable panes divider handle.
+        -   Resolved an issue where rollup bars did not accurately reflect the span of actual dates in multi-level hierarchies.
+        -   Resolved an issue where the timeline bar did not display the label name when the Show Label check box was selected.
 -   **Version 26.1.1 - June 2026 \(Yokohama, Zurich, Australia\)**
     -   Fixed:
         -   Resolved an issue where focus moved unexpectedly to the first table's column headers when using the resizable panes divider handle.
@@ -176,5 +181,5 @@ Version history for the on the ServiceNow Store.
         -   Positioning shadow of the right-side panel
         -   Localization support for currency
 
-**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
+**Parent Topic:**[ServiceNow Store - Strategic Portfolio Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itbm-highlight.md)
 

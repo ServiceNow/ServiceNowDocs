@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-license-permit-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # License and Permit Playbook release notes
@@ -18,6 +18,12 @@ Version history for the License and Permit Playbook application on the ServiceNo
 
 ## Version history
 
+-   **Version 4.0.1 - September 2026**
+    -   L3 compliance support.The License and Permit Playbook now supports Level 3 compliance, enabling agencies to meet advanced regulatory requirements.
+    -   Bug fixes.
+-   **Version 3.2.2 - August 2026**
+    -   Rename the L&amp;P Playbook application to "License and Permit Administration"
+    -   Fix the defect that field Level Access is blocked for the users in sn\_customerservice\_related\_party\_configuration table
 -   **Version 3.12.6 - July 2026**
 
     Security Fixes

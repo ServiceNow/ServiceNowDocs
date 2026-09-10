@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 13
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 19
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # AIOps Experience release notes
@@ -18,6 +18,56 @@ Version history for the ITOM AIOps Experience application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 27.2.24 - September 2026**
+    -   New:
+        -   Improved Push Connector credential setup. Users can select or generate Basic, API key, or OAuth credentials directly in the Push Connector setup form, and the UI now surfaces the last error message, payload, and timestamp for troubleshooting.
+        -   AIOps Home Page for managers - Managers can now filter the homepage by multiple assignment groups, including tracking for alerts assigned to specific groups or unassigned alerts.
+        -   Express List direct links from the AI Supervision tab on the AIOps Homepage. The AI supervising Alert-category metrics now navigate straight into filtered Express List views for improved supervising experience.
+        -   Group-agnostic AI Specialists. AI Specialists can now be configured to handle alerts from all groups and not only alerts assigned to a specific group/s or unassigned alerts.
+        -   Closure reasoning for AI auto-closed alerts enhanced logic and visibility. Users can view the AI reasoning and supporting evidence behind an auto-closed alert, with an option to reopen it from the Express list preview pane or the alert record.
+        -   AI Processing Experience for agentic workflows. Operators can now monitor, supervise, and intervene in agentic workflows directly from both the Express List Alert Panel and the Alert Record, with step-level visibility and access to the underlying reasoning.
+        -   Persistent navigation to AIOps homepages. Links to the AIOps Manager and Supervisor homepages are now available from the "All" menu, regardless of homepage customization.
+        -   Pull Connector setup now includes a Test &amp; Save status modal \(replacing the previous loader and toast messages\) and users can activate the integration from it
+    -   Changed:
+        -   AIOps Manager Homepage charts now aggregate alert and incident data across all selected assignment groups rather than one view for all groups; the AI Supervision tab no longer lists alerts by AI status — its metrics now link out to Express List instead.
+        -   Accessibility improvements \(WCAG 2.2 AA compliance, 400% zoom/reflow support\) were made to the Service Dashboard and Log Analytics views.
+    -   Fixed:
+        -   Security fixes.
+        -   Corrected redirection behavior on the Alert overview page.
+        -   Push data input setup now shows field-level validation errors for Advanced Settings.
+        -   Corrected right-to-left mirroring issues on the Integration Launchpad page.
+        -   SOW lists - Fixed dot-walked fields added via "Edit list columns" showing "undefined" instead of the field's full name.
+        -   Fixed multiple Express List issues: live-list updates that had stopped working or triggered outside Express List, the Pause/Play control breaking live-list functionality, column name wrapping and width, always-on conditional highlighting, color/tooltip display for highlighted values, view selection on shared views with one saved filter, the selection counter not resetting between views, last-column truncation in empty states, Task column navigation opening invalid URLs, RTL column resizing hiding filters, and crashes when opening the preview panel for new alerts or removing all secondary group members.
+        -   AIOps AI Specialist fixes: Admins are now warned when the user assigned as an AI Specialist is inactive, AI Specialist avatar update fix, Alert MTTR calculation fix.
+        -   Fixed an incorrect "No MID Server is available" warning shown for MID-less data inputs such as AWS Firehose, Azure Event Hub, and Cribl.
+        -   Corrected spacing on the Integration Launchpad page.
+        -   Fixed hidden elements in the Integration Launchpad side menu that remained focusable, improving accessibility.
+        -   Added an accessible name to the copy button on MID-less integration setup pages.
+        -   Fixed an issue when saving an event rules  with an identical name as another an existing rule
+        -   Improved the consistency of automation-option suggestions from Now Assist for Alert Automation grouping.
+    -   Removed: The separate "Your Work" / "AI Supervision" tab selector has been removed from the AIOps Supervisor Homepage. The homepage now consolidates into a single main panel, with AI Supervision metrics linking out to Express List instead.
+-   **Version 27.2.17 - August 2026**
+    -   New:
+        -   AI value is now visible on the AIOps 360 dashboard. A new widget shows estimated time saved based on how many alerts were resolved and analyzed by AI, giving operations teams a real-time view of AI's impact on their workload.
+        -   Express lists now support color-coded visual cues to highlight values \(based on existing definitions in sys\_highlighted\_value\).Admins can configure conditional formatting rules on alert columns \(e.g., severity, priority\) so that critical items are immediately visible through colored indicators and icons — no more scanning through uniform rows.
+        -   Azure Monitor Issues now surface related alerts in context. A new "Related Records" tab appears directly in the alert view for Azure Monitor Issues, letting operators drill into associated alerts without leaving their current workflow.
+            -   Azure Monitor Issues are now bi-directionally synchronized with ServiceNow. The integration supports real-time ingestion of Azure Monitor Issues via webhook and polling, with two-way synchronization of status, severity, title, description, and AI-generated insights. OAuth 2.0 and multi-tenant Azure environments are supported.
+        -   Incident fields in response automations now support free text and static values. When creating incidents through automated alert responses, teams can now enter static text or map custom values to incident fields — restoring flexibility that was previously limited.
+        -   Integration setup instructions are now inline and on-page. Connector setup pages now include a collapsible instructions section covering source system configuration and credentials, eliminating the need to navigate away for documentation.
+        -   Dynatrace Grail problem events are now fully supported. The new connector ingests Dynatrace Grail problem events and automatically binds alerts to the correct configuration item using root cause entity or CMDB tags. Davis AI context, severity mapping, and full event lifecycle \(updates, reopens, merges\) are supported — including predictive, RUM, synthetic, vulnerability, and business process anomaly events.
+            -   Dynatrace Gen3 event payloads are now supported in the event push connector, alongside legacy formats — no migration required.
+        -   Admins can now limit the volume of related alerts retrieved per connector, giving control over data load in high-volume environments.
+        -   Alert Automation – Multiline text support in compose actions - On the Enrich page's compose action, the text field now supports multiple lines — the box resizes and preserves line breaks and spacing instead of collapsing everything into a single line. This fixes formatted alert descriptions rendering incorrectly downstream.
+        -   Alert Automation – Static values for incident fields in response automations - In the "Create Incident Advanced" response automation action, users can now enter static text values for fields like urgency and priority \(in addition to alert-field references\) .
+    -   Changed:
+        -   Express List now fully supports right-to-left languages, including Arabic and Hebrew, with correct mirroring of layout, icons, and spacing.
+        -   All "Now Assist" references across Service Operations Workspace, Express List, Integration Launchpad, and the AIOps AI Specialist onboarding have been rebranded to ServiceNow Otto.
+        -   The Probable Cause tab in the Alerts Preview panel is now called "Related Records" and includes Azure Monitor Issues.
+        -   The Dynatrace Gen3 payload processor now handles both workflow-wrapped and raw Davis Gen3 payloads consistently, with improved severity mapping and entity tag preservation.
+    -   Fixed:
+        -   Alert automation no longer hangs when the interface language is set to Portuguese.
+        -   The AIOps Supervisor Homepage remains responsive when managing a large number of teammates.
+        -   Express List no longer fails to load when a system property record has a missing type value.
 -   **Version 27.2.7 - July 2026**
     -   Changed:
         -   Express List accessibility improvements. The Express List is now fully accessible to users with low vision, expanding the user base and ensuring compliance with international accessibility standards and regulations.
@@ -245,5 +295,5 @@ Version history for the ITOM AIOps Experience application on the ServiceNow Stor
         -   AIOps Dashboards: The AIOps Dashboards offer comprehensive visualizations of critical operational data and insights. Users can monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment. These customizable dashboards empower users with actionable insights, facilitating data-driven decision-making and ensuring proactive responses to potential issues.
     -   When used in tandem, the Express List, Integration Launchpad, and AIOps Dashboards create a unified, seamless, and efficient user experience. The revamped ITOM Health interface empowers IT teams to swiftly identify and resolve alerts, optimize performance, and improve overall operational efficiency. By providing a consolidated platform for alert management, simplifying integrations, and offering data-rich dashboards, the AIOps Experience app truly takes ServiceNow's AIOps product to a new level, helping organizations achieve greater operational excellence and deliver exceptional IT services.
 
-**Parent Topic:**[ServiceNow Store - ITOM AIOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM AIOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ai-ops-landing.md)
 

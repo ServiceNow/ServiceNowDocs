@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Workforce Optimization Configurable Workspace UI Components release notes
@@ -31,5 +31,5 @@ Version history for the Customer Service Management Workforce Optimization Confi
     New: UI components used by configurable workspace pages in Workforce Optimization modules
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

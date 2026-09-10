@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-continuous-authorization-monitor-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
 # GRC: Continuous Authorization and Monitoring Workspace release notes
@@ -18,6 +18,15 @@ Version history for the GRC: Continuous Authorization and Monitoring Workspace a
 
 ## Version history
 
+-   **Version 23.0.1 - September 2026 \(Brazil\)**
+    -   New:
+        -   Document versioning and approvals now available across authorization packages as shared resources.
+        -   POAM user role created to support effective Plan of Action and Milestones \(POA&amp;M\) management.
+        -   AI-powered package summarization capability now available for CAM.
+    -   Fixed:
+        -   Improved accessibility compliance across CAM interface.
+        -   Enhanced OSCAL usability: imports now sorted by newest first, removed redundant zip export option, added Policy field export/import functionality.
+        -   Resolved related-list display issues in Authorization package views.
 -   **Version 22.3.3 - June 2026 \(Australia\)**
     -   New:
         -   This release introduces the following enhancements:

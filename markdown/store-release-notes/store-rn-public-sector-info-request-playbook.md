@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-info-request-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Public Sector Industry release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Information Request Playbook release notes
@@ -18,6 +18,9 @@ Version history for the Information Request Playbook on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.14.1 - September 2026**
+    -   New: Information Request Playbook automation tests now verify that the Playbook Designer loads the PAD correctly. This ensures consistent behavior for users interacting with Information Request workflows.
+    -   Changed: The package.json for Fluent Conversion registration now specifies a valid targetVersion aligned with the active WAR version. Automatic snapshot registration and test/dependency validation are no longer blocked, and the package version is updated accordingly.
 -   **Version 2.12.1 - July 2026**
 
     Defect fixes.

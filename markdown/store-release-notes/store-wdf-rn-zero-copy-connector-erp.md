@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-zero-copy-connector-erp.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow Store - Workflow Data Fabric release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Zero Copy Connector for ERP release notes
@@ -17,6 +17,19 @@ Version history for the Zero Copy Connector for ERP application on the ServiceNo
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 10.6.0 - September 2026**
+    -   Support for Oracle E-Business Suite
+    -   Select Oracle E-Business Suite 12.2 or later as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
+    -   Onboard Oracle EBS ISG services
+    -   Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
+    -   AI search for WADL service endpoints
+    -   Search for endpoints of discovered WADL services from the interface using AI Search.
+    -   Row count for the scriptable API
+    -   Call the getRowCount\(\) method on the API class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for execute\(\).
+-   **Version 10.2.0 - August 2026**
+
+    Defect fixes.
 
 -   **Version 10.1.0 - June 2026**
 
@@ -79,5 +92,5 @@ Version history for the Zero Copy Connector for ERP application on the ServiceNo
     Zero Copy Connector for ERP \(formerly ERP Canvas/ERP Data Hub\) is the platform for ERP \(Enterprise Resource Planning\) data in ServiceNow. It provides a unified data model for ERP, enabling users to extract relevant data and store it in remote tables or extraction tables. Additionally, you can update the ERP system using a BAPI \(Business Application Programming Interface\) and OData.
 
 
-**Parent Topic:**[ServiceNow Store - Workflow Data Fabric release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
+**Parent Topic:**[ServiceNow Store - Workflow Data Fabric version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-workflow-data-fabric-highlights.md)
 

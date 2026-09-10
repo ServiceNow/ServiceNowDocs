@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-11-02"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - DevOps release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - DevOps version history release notes, ServiceNow Store version history release notes]
 ---
 
 # DevOps Config Policy Content Pack release notes
@@ -56,5 +56,5 @@ Version history for the ITSM DevOps Config Policy application on the ServiceNow 
         -   ServiceNow may choose, at any time, to add/remove policies from the default set as appropriate
     -   Note: if you install this plugin first, you will get DevOps Config and all dependencies automatically installed as well. If you choose to install the product via this route, ensure to install DevOps Config Insights immediately after so that you are not hit with an error upon entering the DevOps Config workspace.
 
-**Parent Topic:**[ServiceNow Store - DevOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
+**Parent Topic:**[ServiceNow Store - DevOps version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-devops-highlight.md)
 

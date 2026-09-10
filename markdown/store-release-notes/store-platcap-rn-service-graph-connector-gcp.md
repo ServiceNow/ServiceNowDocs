@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-gcp.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for GCP release notes
@@ -18,6 +18,16 @@ Version history for the Service Graph Connector for GCP application on the Servi
 
 ## Version history
 
+-   **Version 1.14.0 - September 2026**
+    -   New:
+        -   Patch job discovery doesn’t depend on the deprecated WMIC utility. Patch data is collected on Windows hosts where the WMIC utility is removed or deactivated.
+        -   MAC address details are populated in the imported Network Adapter records.
+        -   Operating system domain details are mapped during imports.
+        -   Assets that fail during a batch API call are excluded and retried automatically.
+        -   The lookback time window isn’t applied when processing service accounts.
+    -   Fixed:
+        -   Deep discovery jobs in the SG-GCP upgrade packages on GCP VM instances are now successful during discovery. \(PRB2057054\)
+        -   A relationship is created between cloud database and region. \(PRB2022250\)
 -   **Version 1.13.0 - June 2026**
     -   New:
         -   Implemented new licensing model changes for Docker container.

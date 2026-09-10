@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Jamf release notes
@@ -114,5 +114,5 @@ Version history for the ServiceNow AI Platform capabilities Service Graph Connec
     This is a CMDB-certified integration with Jamf. Use the integration to sync your computer inventory \(primarily MacOS hardware\) and software packages \(installed and in-use\) to the ServiceNow Configuration Management Database \(CMDB\). This integration allows for periodic data synchronization using Jamf Classic API. The data is mapped and stored in the appropriate classes in the CMDB data model so that it can be used in various Service Management and Asset Management applications.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Integration Hub, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Microsoft Exchange Online Spoke release notes
@@ -17,6 +17,18 @@ Version history for the Integration Hub Microsoft Exchange Online Spoke on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.1 - September 2026**
+    -   Added a new column "start timezone" on the exchange spoke events table, which would store binary format of the timezone for "all day" events.
+    -   Added Limit, Offset and Max Rooms input to Look up Rooms Stream action
+    -   Fixed: Reordered the last sync time updates in the Event Lifecycle Management subflow
+-   **Version 4.0.3 - August 2026**
+
+    Fixed: Security enhancements
+
+-   **Version 3.14.3 - August 2026**
+
+    Fixed: Security enhancements
 
 -   **Version 4.0.2 - July 2026**
 

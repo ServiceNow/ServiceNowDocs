@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-sgc-tanium-endpoints.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Graph Connector for Tanium Endpoints release notes
@@ -18,10 +18,14 @@ Version history for the ServiceNow® Service Graph Connector for Tanium Endpoint
 
 ## Version history
 
+-   **Version 1.1.1 - September 2026**
+
+    Fixed: Added logic to prevent the import of server records.
+
 -   **Version 1.0.0 - June 2026**
     -   This integration imports data from Tanium Asset into ServiceNow Configuration Management Database \(CMDB\) allowing you to enable Hardware and Software Asset Management use cases.
     -   The Connector is easy to configure and can be managed at scale in SGC Central.  It uses the dedicated workspace to transparently ingest, standardize, and integrate data from other Connectors.  See ServiceNow product documentation for additional details.
     -   Tanium Endpoint Service Graph Connector is designed for customers with the IT Asset Management product to ensure asset classes are built correctly and completely. If you have ITOM licensing, or ITOM and ITAM licensing, you can use the Tanium Service Graph Connector.
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

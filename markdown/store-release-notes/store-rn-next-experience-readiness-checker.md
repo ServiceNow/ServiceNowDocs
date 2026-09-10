@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-02-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Conversational Interfaces, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Next Experience Readiness Checker release notes
@@ -36,5 +36,5 @@ Version history for the Next Experience Readiness Checker application on the Ser
     The Next Experience Readiness checker tool enables admin users to examine their instance to see if agents and other users are currently using applications that are not compatible with Next Experience. Based on the usage found, the tool makes a recommendation regarding turning on Next Experience immediately or doing additional due diligence before turning it on.
 
 
-**Parent Topic:**[ServiceNow Store - Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
+**Parent Topic:**[ServiceNow Store - Conversational Interfaces version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-conversational-interfaces-landing.md)
 

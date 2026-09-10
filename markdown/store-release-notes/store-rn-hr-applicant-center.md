@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - HR Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Applicant Center release notes
@@ -38,5 +38,5 @@ Version history for the Applicant Center application on the ServiceNow Store.
     Applicant Center allows organisations to support and actively engage with their job applicants. Applicants, on this portal, can view company-related content and track their applications and related tasks. Applicant Center also provides an easy way for applicants to reach out to and interact with recruiters so they feel supported through the process. As they go through a hiring journey with the company, they can also provide their feedback on the process to empower organisations with data for improvement.
 
 
-**Parent Topic:**[ServiceNow Store - HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
+**Parent Topic:**[ServiceNow Store - HR Service Delivery version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr.md)
 

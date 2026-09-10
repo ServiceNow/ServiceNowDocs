@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-fireeye-hx.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-08-06"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Security Incident Response release notes, ServiceNow Store - Security Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Security Incident Response integration with FireEye HX release notes
@@ -17,6 +17,10 @@ Version history for the Security Incident Response integration with FireEye HX o
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.2 - August 2026**
+
+    Fixed: FireEyeHx MID scripts under iPKI/JWT auth by removing the unsupported config lookups.
 
 -   **Version 1.1.1 - June 2026**
 
@@ -70,5 +74,5 @@ Version history for the Security Incident Response integration with FireEye HX o
         -   With FireEye Endpoint Security \(HX series\), organizations can proactively inspect, analyze, and contain known and unknown threats on any endpoint.
         -   The Gold Standard Security Incident Response integration with FireEye HX, makes it easier and efficient for Security Analysts to investigate and remediate security incidents in an instant without having to navigate between tools. You can use network containment to perform remediation actions on the endpoints, implement profiles to gather specific details about the host, and perform specific queries or actions on the endpoint.
 
-**Parent Topic:**[ServiceNow Store - Security Incident Response release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
+**Parent Topic:**[ServiceNow Store - Security Incident Response version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-rn-secops-sir.md)
 

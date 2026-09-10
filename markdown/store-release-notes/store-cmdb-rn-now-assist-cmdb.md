@@ -1,23 +1,32 @@
 ---
-title: Now Assist for CMDB release notes
-description: Version history for the Now Assist for CMDB application on the ServiceNow Store.
+title: ServiceNow Otto for CMDB release notes
+description: Version history for the ServiceNow Otto for CMDB application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-now-assist-cmdb.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\), ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Now Assist for CMDB release notes
+# ServiceNow Otto for CMDB release notes
 
-Version history for the Now Assist for CMDB application on the ServiceNow Store.
+Version history for the ServiceNow Otto for CMDB application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 4.4.1 - September 2026**
+
+    New: Ask questions about CMDB tables and attributes to get a better understanding of the schema. Responses are based on predefined content in the Data Model Navigator app, which contains information about the base-system CMDB schema.
+
+-   **Version 4.2.0 - August 2026**
+    -   New:
+        -   Added summarization to the CMDB success advisor for HAM dashboard
+        -   Added summarization to the CMDB success advisor for Data Foundations dashboard
+    -   Fixed: Security fixes
 -   **Version 4.0.0 - July 2026**
     -   New:
         -   AI-powered HAM advisor dashboard summarization:Leverage the summary section in HAM advisor dashboard to get precise recommendations and insights on what actions to take to get your CMDB ready to drive HAM business outcomes.
@@ -101,5 +110,5 @@ Version history for the Now Assist for CMDB application on the ServiceNow Store.
     CMDB is ServiceNow's system of record, pivotal to driving a host of business outcomes. CMDB admins and owners ingest and manage the data within the CMDB. Now Assist for Configuration Management Database \(CMDB\) provides Generative AI powered skills that are built to help CMDB owners and admins do their work more seamlessly.
 
 
-**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
+**Parent Topic:**[ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-landing.md)
 

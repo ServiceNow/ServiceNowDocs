@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-service-reliability-mgmt-srm-common.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - ITOM AIOps release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Service Operations Workspace Service Reliability Management \(SRM\) Common release notes
@@ -17,6 +17,10 @@ Version history for the Service Operations Workspace Service Reliability Managem
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 7.1.2 - September 2026**
+
+    Changed: Service Reliability Management now leverages ServiceNow Fluent, enabling faster development and simpler maintenance through code-based application definition.
 
 -   **Version 7.0.0 - June 2026**
 

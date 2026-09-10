@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2025-03-12"
 reading_time_minutes: 14
-breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
 
 # RPA Plugin Bundle release notes
@@ -185,5 +185,5 @@ Version history for the RPA Plugin Bundle application on the ServiceNow Store.
     The Robotic Process Automation \(RPA\) Plugin Bundle is the application responsible for building automations. The RPA Plugin Bundle contains Windows library files that are consumed by RPA Desktop Design Studio, RPA Runtime, and RDA Runtime applications. These plugins extend the capability of the RPA product. For instance, RPA Chrome Plugin enables RPA application to automate tasks on the Chrome browser. Similarly, the RPA Excel plugin enables the RPA applications to interact with Excel files and many more. Along with Integration Hub, RPA Plugins Bundle is part of Automation Engine for a complete integration and automation solution for ServiceNow.
 
 
-**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
+**Parent Topic:**[ServiceNow Store - ServiceNow AI Platform App Engine version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-app-engine.md)
 

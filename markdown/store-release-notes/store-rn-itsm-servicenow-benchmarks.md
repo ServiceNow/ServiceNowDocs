@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2024-08-01"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - IT Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow Benchmarks release notes
@@ -57,5 +57,5 @@ Version history for the ITSM ServiceNow Benchmarks application on the ServiceNow
     TheServiceNow Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
 
 
-**Parent Topic:**[ServiceNow Store - IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
+**Parent Topic:**[ServiceNow Store - IT Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm.md)
 

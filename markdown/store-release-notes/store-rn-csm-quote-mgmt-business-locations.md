@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-quote-mgmt-business-locations.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Quote Management for Business Locations release notes
@@ -17,6 +17,14 @@ Version history for the Quote Management for Business Locations application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.2 - September 2026**
+
+    New: Restricted Customer Access now controls visibility:A new Restricted Customer Access field on customer criteria extends existing criteria, such as location-based criteria — to control not only workflow actions \(quote\) but also visibility of customer records. When enabled, staff can see only the customer and consumer records that meet the configured criteria, rather than all customer records in the instance. This applies to both service personas and sales personas.
+
+-   **Version 2.4.1 - August 2026**
+
+    Minor Security fixes
 
 -   **Version 1.2.1 - June 2026**
 
@@ -43,5 +51,5 @@ Version history for the Quote Management for Business Locations application on t
     Integrate  Service Model Foundation  with Quote Management for business organizations to streamline operations and optimize the end to end life cycle for quote management.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

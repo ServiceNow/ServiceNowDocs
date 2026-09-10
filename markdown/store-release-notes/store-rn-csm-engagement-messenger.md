@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-engagement-messenger.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Engagement Messenger release notes
@@ -17,6 +17,14 @@ Version history for the Customer Service Management Engagement Messenger on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.21.0 - September 2026**
+
+    Fixed: Notification popup position on the browser window.
+
+-   **Version 5.16.0 - August 2026**
+
+    Fixed translation and functional bugs
 
 -   **Version 5.13.1 - June 2026**
     -   New: Security enhancements

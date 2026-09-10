@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-procurement-project-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations release notes, ServiceNow Store - Source-to-Pay Operations release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Project Costing for Sourcing and Procurement Operations release notes
@@ -17,6 +17,18 @@ Version history for the Project Costing for Sourcing and Procurement Operations 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.5 - September 2026 \(Australia\)**
+
+    Fixed: Fixed an issue where a Project Portfolio Management \(PPM\) cost plan was not created for a purchase order line when required fiscal period information was unavailable.
+
+-   **Version 2.14.5 - September 2026 \(Zurich\)**
+
+    Fixed: Fixed an issue where a Project Portfolio Management \(PPM\) cost plan was not created for a purchase order line when required fiscal period information was unavailable.
+
+-   **Version 4.0.3 - August 2026**
+
+    Changed: Applied security hardening to address CVE-2025-3648.
 
 -   **Version 4.0.1 - June 2026 \(Australia\)**
 
@@ -83,5 +95,5 @@ Version history for the Project Costing for Sourcing and Procurement Operations 
     Minor fixes.
 
 
-**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
+**Parent Topic:**[ServiceNow Store - Sourcing and Procurement Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-psm-procurement-service-mgmt-landing.md)
 

@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2023-05-04"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Customer Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Guided Decisions release notes
@@ -33,5 +33,5 @@ Version history for the Guided Decisions applications on the ServiceNow Store.
     Guided Decisions guides agents through a set of questions to determine the action that will help them resolve an issue or complete a task in the most optimal way. It asks them questions based on previous answers and gives guidance on the next step in the resolution process. Guided Decisions reduce the cognitive burden on agents and improves their productivity. Guided Decisions can be embedded in a Playbook or served as a Recommended Action.
 
 
-**Parent Topic:**[ServiceNow Store - Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
+**Parent Topic:**[ServiceNow Store - Customer Service Management version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm.md)
 

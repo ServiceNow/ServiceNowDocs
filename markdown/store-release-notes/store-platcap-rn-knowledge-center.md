@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-knowledge-center.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Knowledge Center release notes
@@ -17,6 +17,14 @@ Version history for the ServiceNow® Knowledge Center application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 31.26.5 - September 2026 \(Brazil, Australia\)**
+
+    defect fix
+
+-   **Version 31.12.11 - August 2026 \(Zurich, Australia\)**
+
+    Auto-update, auto-merge and otto branding updates
 
 -   **Version 31.11.3 - July 2026 \(Zurich, Australia\)**
 
@@ -52,5 +60,5 @@ Version history for the ServiceNow® Knowledge Center application on the Service
     Knowledge Center, powered by Agentic AI, redefines modern Knowledge Management systems with advanced content creation tools and automated remediation. This system takes action on knowledge content creation, updates, gaps, and deduplication to enhance the overall health of the knowledge base.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 

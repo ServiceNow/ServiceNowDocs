@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cert-inv-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 7
-breadcrumb: [ServiceNow Store - ITOM Visibility release notes, ServiceNow Store - IT Operations Management release notes, ServiceNow Store release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Certificate Inventory and Management release notes
@@ -17,6 +17,21 @@ Version history for the IT Operations Management Certificate Inventory and Manag
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.5.0 - September 2026**
+    -   New:
+        -   Extended ACME capabilities: Request, renew, and revoke certificates via DigiCert, Sectigo Universal, and Sectigo Public ACME CAs. If your organization uses a different CA that is compatible with the ACME protocol, you can add it and use it to extend automated certificate management to that CA.
+        -   CyberArk PVWA private key storage: Store private keys in CyberArk PVWA for automated certificate operations, alongside HashiCorp Vault and Azure Key Vault.
+        -   Certificate format support: Receive issued certificates in DER or PKCS12 format, instead of PEM.
+    -   Fixed:
+        -   Fixed issues in the Microsoft CA certificate request flow when the root CA is the in the Trusted Root store.
+        -   DigiCert certificate order status tracking now processes issued orders correctly and displays clear error messages in logs when credential alias types are mismatched.
+        -   Duplicate POST/PUT requests to DigiCert are no longer sent on non-429 HTTP errors, preventing unintended certificate operations.
+        -   Certificate Inventory and Management discovery now correctly links server/domain certificates to the root level when only the server certificate is retrieved during port scan discovery.
+        -   Certificate Task Status Update notifications are no longer sent to large numbers of users.
+-   **Version 4.3.0 - August 2026**
+
+    Fixed: Refined the access control list \(ACL\) role permissions required to access certificate inventory and management records.
 
 -   **Version 4.2.0 - June 2026**
     -   New:
@@ -164,5 +179,5 @@ Version history for the IT Operations Management Certificate Inventory and Manag
     The TLS Certificate management store application provides a platform-based approach to the lifecycle management of TLS certificates. This solution combined with task fulfillment can provide a methodical approach to the request management and renewal management process. Automating manual tasks like requesting a new certificate and renewing expired certificates can increase the productivity of the public-key Infrastructure \(PKI\) team by ~30% and help to digitize their manual workflows.
 
 
-**Parent Topic:**[ServiceNow Store - ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
+**Parent Topic:**[ServiceNow Store - ITOM Visibility version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-visibility-landing.md)
 

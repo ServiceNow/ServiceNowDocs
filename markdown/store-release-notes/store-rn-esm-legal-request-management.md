@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-request-management.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [ServiceNow Store - Legal Service Delivery release notes, ServiceNow Store - Employee Service Management release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
 # Legal Request Management release notes
@@ -18,6 +18,13 @@ Version history for the Legal Request Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 10.3.4 - September 2026**
+
+    Fixed: In Employee Slate, the document widget on a legal request now correctly displays details of documents stored in external storage.
+
+-   **Version 10.3.0 - August 2026**
+    -   Changed: ServiceNow Otto is the new AI experience brand. Now Assist for Legal Service Delivery is ServiceNow Otto for Legal Service Delivery.
+    -   Fixed: Security fixes.
 -   **Version 10.2.0 - July 2026**
     -   New: Resolution time for legal requests is now calculated automatically based on calendar duration and terminal state.
     -   Fixed:

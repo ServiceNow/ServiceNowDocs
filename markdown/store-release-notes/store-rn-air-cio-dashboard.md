@@ -7,7 +7,7 @@ release: store
 topic_type: reference
 last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store - Platform Analytics release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
 # CIO Dashboard release notes
@@ -38,5 +38,5 @@ Version history for the CIO Dashboard application on the ServiceNow Store.
     IT must evolve from a cost center to a driver of innovation. At ServiceNow, we run IT like a business, focusing on speed, productivity, and user experience. To achieve these goals, IT leaders need full visibility to guide decisions and deliver business outcomes. The CIO Dashboard supports this evolution by providing a decision-making framework with key decisions, critical questions, and the insights needed to stay on course and scale effectively.
 
 
-**Parent Topic:**[ServiceNow Store - Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
+**Parent Topic:**[ServiceNow Store - Platform Analytics version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-air.md)
 

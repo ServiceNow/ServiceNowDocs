@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-ide.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications, ServiceNow Store - ServiceNow AI Platform Capabilities release notes, ServiceNow Store release notes]
+breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
 # ServiceNow IDE release notes
@@ -18,6 +18,15 @@ Version history for the ServiceNow® IDE application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 5.0.2 - September 2026**
+
+    New: ServiceNow IDE was redesigned for an agentic-first development experience with Build Agent.
+
+-   **Version 4.4.4 - August 2026**
+    -   New:
+        -   Use ServiceNow IDE capabilities within ServiceNow Studio to create apps in source code. Use the new Explorer tab to open Fluent files and see underlying Fluent source code.
+        -   Upgrade to the new version of source control in ServiceNow Studio to access more features, such as additional Git commands.
+    -   Changed: ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Studio. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   **Version 4.4.2 - July 2026**
 
     New: Expanded end-to-end automation coverage for ServiceNow Studio workflows.
@@ -225,5 +234,5 @@ Version history for the ServiceNow® IDE application on the ServiceNow Store.
     Create and develop scoped applications in source code in an integrated development environment \(IDE\) on the ServiceNow AI Platform to improve collaboration across development teams and accelerate application development. The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. With the ServiceNow IDE, you can get started building scoped applications quickly using familiar tools and industry-standard development practices. With ServiceNow Fluent, a domain-specific language for defining application metadata, you can manage and maintain the source code for your applications in your favorite Git-based source control provider directly from the ServiceNow IDE.
 
 
-**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
+**Parent Topic:**[ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-other-landing.md)
 
